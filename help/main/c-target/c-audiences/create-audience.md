@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences personnalisées et les enre
 title: Comment créer des audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
    Pour copier une audience existante, à partir du [!UICONTROL Audiences] , cliquez sur **[!UICONTROL Autres actions]** (icône représentant des points de suspension), puis cliquez sur **[!UICONTROL Dupliquer]**. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 1. Saisissez un nom d’audience descriptif et unique, ainsi qu’une description facultative.
+
+   Les noms d’audience ne peuvent pas commencer par les caractères suivants :
+
+   `=  +  -  !  @`
+
+   Les noms d’audience ne peuvent contenir aucune des séquences de caractères suivantes :
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Faites glisser et déposez les attributs de votre choix à partir du **[!UICONTROL Attributs]** liste située à droite du volet du créateur d’audiences.
 
    ![Glisser-déposer des attributs](assets/drag-attribute.png)
