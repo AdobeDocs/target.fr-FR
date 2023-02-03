@@ -4,7 +4,7 @@ description: Découvrez comment créer des audiences personnalisées et les enre
 title: Comment créer des audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
    Les noms d’audience ne peuvent contenir aucune des séquences de caractères suivantes :
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Faites glisser et déposez les attributs de votre choix à partir du **[!UICONTROL Attributs]** liste située à droite du volet du créateur d’audiences.
 
