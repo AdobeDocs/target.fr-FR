@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1931'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +25,15 @@ Pour plus d’informations, consultez l’[article de blog d’Adobe Experience
 
 * **Cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience**
 * **Mercredi 1 février 2023**
-* **08:00 - 09:00 (PST, GMT-8)**
-* **[Enregistrement](https://adobe.ly/3IWsAiX){target=_blank}**
+* **08 h 00 - 9 h 00 (PST, GMT-8)**
+* **[Inscription](https://adobe.ly/3IWsAiX){target=_blank}**
 
-Nous serons rejoints par Brent Kostak, responsable du marketing produit pour [!DNL Adobe Target], qui dialoguera directement avec vous dans ce fil à propos de votre [!DNL Target] questions relatives aux cas d’utilisation mobiles et authentifiés pour Experience Optimization :
+Brent Kostak, gestionnaire du marketing des produits pour [!DNL Adobe Target], nous rejoindra pour dialoguer directement avec vous dans ce fil à propos de vos questions sur [!DNL Target] relatives aux cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience :
 
 * Workflows pour la configuration des activités dans [!DNL Target]
-* Mesures de cycle de vie client pour le test et le ciblage des expériences mobiles
-* Utilisation de l’IA/ML pour la personnalisation cross-canal dans le web et l’application
-* SDK mobiles et API pour des mises en oeuvre flexibles prenant en charge les plateformes iOS et Android
+* Mesures de cycle de vie du ou de la client(e) pour le test et le ciblage des expériences mobiles
+* Utilisez l’IA/ML pour la personnalisation cross-canal sur le web et dans l’application.
+* SDK et API mobiles pour des implémentations flexibles prenant en charge les plateformes iOS et Android
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
@@ -110,7 +110,7 @@ Rejoignez l’équipe [!DNL Adobe Target] [!DNL ] et écoutez leurs suggestions 
 
 La plupart des marques actives dans le secteur des voyages, de l’hôtellerie et de la restauration sont confrontées au dilemme suivant : comment augmenter la fidélisation à une époque marquée par les problèmes de chaîne d’approvisionnement, les défaillances de service et les effectifs limités. À l’ère de l’IA, comment les marques peuvent-elles créer les meilleures expériences sans les ressources nécessaires, qui ont quitté le secteur ? Le passage au tout numérique n’a cessé de gagner des adeptes pour répondre non seulement aux attentes toujours plus nombreuses des clients, mais aussi pour transformer les équipes grâce à l’automatisation.
 
-* **[Inscrivez-vous pour afficher l’enregistrement du webinaire](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Inscrivez-vous pour consulter l’enregistrement du webinaire](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**.
 
    +++Détails
 
@@ -235,7 +235,7 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
 
 ### Personnalisation en temps réel avec [!DNL Adobe Target]
 
-* **[Inscrivez-vous pour afficher l’enregistrement du webinaire](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Inscrivez-vous pour consulter l’enregistrement du webinaire](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**.
 
    +++Détails
 
