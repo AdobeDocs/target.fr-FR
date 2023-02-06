@@ -4,9 +4,9 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
-workflow-type: ht
-source-wordcount: '1931'
+source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -20,20 +20,6 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour nos fonctionnalités de test, devançant ainsi tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## Session Pause-café Questions/réponses de la communauté [!DNL Adobe Target]
-
-* **Cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience**
-* **Mercredi 1 février 2023**
-* **08 h 00 - 9 h 00 (PST, GMT-8)**
-* **[Inscription](https://adobe.ly/3IWsAiX){target=_blank}**
-
-Brent Kostak, gestionnaire du marketing des produits pour [!DNL Adobe Target], nous rejoindra pour dialoguer directement avec vous dans ce fil à propos de vos questions sur [!DNL Target] relatives aux cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience :
-
-* Workflows pour la configuration des activités dans [!DNL Target]
-* Mesures de cycle de vie du ou de la client(e) pour le test et le ciblage des expériences mobiles
-* Utilisez l’IA/ML pour la personnalisation cross-canal sur le web et dans l’application.
-* SDK et API mobiles pour des implémentations flexibles prenant en charge les plateformes iOS et Android
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
