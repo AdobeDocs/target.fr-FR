@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation</li></ul> |
-|  | [Création d’audiences dans Target](/help/main/c-target/c-audiences/create-audience.md) | Ajout d’une liste de caractères et de séquences de caractères qui ne peuvent pas être utilisés dans les noms d’audience. |
+| 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode de navigation.</li></ul> |
+|  | [Créer des audiences dans Target](/help/main/c-target/c-audiences/create-audience.md) | Ajout d’une liste de caractères et de séquences de caractères qui ne peuvent pas être utilisés dans les noms d’audience. |
 | 31 janvier | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Ajout de la liste des caractères autorisés et non autorisés dans les noms de mbox. |
 | 25 janvier | [Créer des offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indique que la prise en charge des offres JSON dans le cadre des activités [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience d’après les formulaires est désormais disponible. |
 |  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience.</li></ul> |
