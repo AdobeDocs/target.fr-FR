@@ -1,14 +1,14 @@
 ---
-keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bogues
+keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;correctifs;correctifs;correctifs;mises à jour
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 93%
+source-wordcount: '813'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 ## at.js version 2.10.1 (2 février 2023)
 
 * Correction d’un bogue en raison duquel les activités impliquant des règles d’audience contenant des paramètres dont le nom contient des points ne renvoyaient pas l’expérience attendue pour la prise de décision sur l’appareil.
-* Correction d’un bogue dans at.js 2.6.0, en raison duquel at.js déclenchait un appel de diffusion, même lorsque `mboxDisable` a été activé.
+* Correction d’un bogue introduit dans at.js 2.6.0, en raison duquel at.js déclenchait un appel de diffusion, même lorsque `mboxDisable` a été activé.
 
 Pour plus d’informations sur toutes les versions d’at.js, voir [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
