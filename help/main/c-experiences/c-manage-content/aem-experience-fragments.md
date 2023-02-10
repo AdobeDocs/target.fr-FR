@@ -4,7 +4,7 @@ description: Découvrez comment utiliser [!DNL Adobe Experience Manager] fragmen
 title: Comment utiliser [!DNL Adobe Experience Manager] (AEM) Fragments d’expérience ?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
+source-git-commit: 6ae28ac884a6db54d8c06f44319bb2b6fc1cadf8
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 50%
@@ -111,7 +111,7 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
 >
 >Pour utiliser pleinement la variable [!DNL Target] Fonctionnalités AI et ML, vous pouvez sélectionner [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) lors de la création d’un test A/B.
 >
->Les fragments d’expérience ne sont pas pris en charge dans [!DNL Recommendations] activités. Cependant, pour utiliser des fragments d’expérience pour des recommandations, vous pouvez créer une [!UICONTROL Test A/B] (y compris [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) ou un [!UICONTROL Ciblage d’expérience] (XT) et [inclure des recommandations en tant qu’offre ;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+>Les fragments d’expérience ne sont pas pris en charge dans [!DNL Recommendations] activités. Cependant, pour utiliser des fragments d’expérience pour des recommandations, vous pouvez créer une [!UICONTROL Test A/B] (y compris [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) ou un [!UICONTROL Ciblage d’expérience] (XT) et [inclure des recommandations en tant qu’offre ;](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 **Pour utiliser des fragments d’expérience à l’aide du VEC :**
 
