@@ -5,10 +5,10 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Différents algorithmes de recommandations se prêtent au placement sur différe
 
 ## Basé sur le panier {#cart-based}
 
-Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre mbox . `cartIds` dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par l’intermédiaire de la fonction [paramètre mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui ont acheté ceux-ci ont acheté ceux-là]&quot; des algorithmes reposant sur des éléments.
 
@@ -356,22 +356,22 @@ Utilisez la variable [!UICONTROL Dernier article acheté] clé de recommandation
 
 Vous pouvez axer les recommandations sur la valeur d’un attribut de profil personnalisé. Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction de la séquence que le visiteur a ajoutée le plus récemment à sa file d’attente.
 
-1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Dernier affichage ajouté à la liste de surveillance »).
+1. Sélectionnez votre attribut de profil personnalisé dans la **[!UICONTROL Clé de recommandation]** Liste déroulante (par exemple, &quot;Dernier affichage ajouté à la liste de contrôle&quot;).
 1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** (par exemple « Personnes qui ont vu ceci, vu cela »).
 
    ![Boîte de dialogue Créer de nouveaux critères](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Si votre attribut de profil personnalisé ne correspond pas directement à un ID d’entité unique, il est nécessaire d’expliquer à [!DNL Recommendations] la manière dont vous souhaitez que la correspondance à une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les principaux articles de la marque préférée d’un visiteur.
+Si votre attribut de profil personnalisé ne correspond pas directement à un ID d’entité unique, il est nécessaire d’expliquer à [!DNL Recommendations] la manière dont vous souhaitez que la correspondance à une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendus de la marque préférée d’un visiteur.
 
-1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Marque préférée »).
+1. Sélectionnez votre attribut de profil personnalisé dans la **[!UICONTROL Clé de recommandation]** Liste déroulante (par exemple, &quot;Marque préférée&quot;).
 
 1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** que vous souhaitez utiliser avec cette clé (par exemple, « Meilleurs vendeurs »).
 
    L’option [!UICONTROL Groupe par valeur unique de] s’affiche.
 
-1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. Dans ce cas, « Marque préférée » correspond à `entity.brand`.
+1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. Dans ce cas, &quot;Marque préférée&quot; correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste des « Meilleurs vendeurs » pour chaque marque et montre au visiteur la liste des « Meilleurs vendeurs » en fonction de la valeur stockée dans l’attribut de profil Marque préférée du visiteur.
+   [!DNL Recommendations] génère désormais une liste &quot;Meilleurs vendeurs&quot; pour chaque marque et affiche au visiteur la liste &quot;Meilleurs vendeurs&quot; en fonction de la valeur stockée dans l’attribut de profil Marque préférée du visiteur.
 
    ![Boîte de dialogue Créer de nouveaux critères 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
