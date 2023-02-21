@@ -4,7 +4,7 @@ description: Découvrez comment utiliser le panneau Modifications dans Adobe [!D
 title: Quelles modifications puis-je apporter à ma page ?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 88%
@@ -139,17 +139,17 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 * Permutation sur DOM-ready, à l’aide de jQuery
 
-L’exemple suivant utilisant JQuery suppose que jQuery est disponible sur la page du site web du client lors de la [!DNL Target] exécute les offres.
+   L’exemple suivant utilisant JQuery suppose que jQuery est disponible sur la page du site web du client lors de la [!DNL Target] exécute les offres.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)
 
