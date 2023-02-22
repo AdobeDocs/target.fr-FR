@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
+source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
 workflow-type: tm+mt
-source-wordcount: '1999'
-ht-degree: 100%
+source-wordcount: '2053'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 21 février | [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Mise à jour de la liste des adresses IP pour la liste autorisée de toutes les régions du [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout d’un texte expliquant que l’exemple utilisant JQuery suppose que jQuery est disponible sur le site web du client lors de la [!DNL Target] exécute les offres. |
 | 10 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.14.5 de [!DNL Target Standard/Premium]. |
 | 8 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour at.js 2.10.1 |
 | 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode de navigation.</li></ul> |
