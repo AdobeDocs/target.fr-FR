@@ -1,13 +1,13 @@
 ---
 keywords: notes de mise à jour;versions;mises à jour;futures mises à jour;améliorations;nouvelles fonctionnalités;correctifs;préliminaire
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la prochaine version d’Adobe Target, notamment les SDK, les API et les bibliothèques JavaScript.
-title: Nouvelles fonctionnalités et améliorations incluses dans les [!DNL Target] Version ?
+title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 70%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 10 février 2023**
+**Dernière mise à jour : 10 février 2023**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.14.5 (13-15 février 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (du 13 au 15 février 2023)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **13 février**: Région des Amériques
-* **15 février**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **15 février**: Région Asie-Pacifique (APAC)
+* **13 février** : région des Amériques
+* **15 février** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **15 février** : région Asie-Pacifique (APAC)
 
-Cette version contient les correctifs suivants :
+Cette version comprend les correctifs suivants :
 
-* Correction d’un problème qui provoquait le message d’erreur suivant même si une propriété était spécifiée dans les activités Automated Personalization (AP) : &quot;Erreurs : Au moins une propriété doit appartenir à un espace de travail autre que celui par défaut&quot; (TGT-44607)
-* Correction d’un problème de sécurité potentiel affectant les flux Recommendations côté serveur. (TGT-43769)
+* Résolution d’un problème qui provoquait le message d’erreur suivant même si une propriété était spécifiée dans les activités Automated Personalization (AP) : « Erreurs : au moins une propriété doit appartenir à un espace de travail autre que celui par défaut » (TGT-44607)
+* Résolution d’un problème de sécurité potentiel affectant les flux Recommendations côté serveur. (TGT-43769)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
