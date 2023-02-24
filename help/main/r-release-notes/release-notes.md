@@ -1,5 +1,5 @@
 ---
-keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;correctifs;correctifs;correctifs;mises à jour
+keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bugs;mises à jour
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
 title: Que contient la version actuelle ?
@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -18,23 +18,23 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.14.5 (13-15 février 2023)
+## [!DNL Target] Standard/Premium 22.14.5 (du 13 au 15 février 2023)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **13 février**: Région des Amériques
-* **15 février**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **15 février**: Région Asie-Pacifique (APAC)
+* **13 février** : région des Amériques
+* **15 février** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **15 février** : région Asie-Pacifique (APAC)
 
-Cette version contient les correctifs suivants :
+Cette version comprend les correctifs suivants :
 
-* Correction d’un problème qui provoquait le message d’erreur suivant même si une propriété était spécifiée dans les activités Automated Personalization (AP) : &quot;Erreurs : Au moins une propriété doit appartenir à un espace de travail autre que celui par défaut&quot; (TGT-44607)
-* Correction d’un problème de sécurité potentiel affectant les flux Recommendations côté serveur. (TGT-43769)
+* Résolution d’un problème qui provoquait le message d’erreur suivant même si une propriété était spécifiée dans les activités Automated Personalization (AP) : « Erreurs : au moins une propriété doit appartenir à un espace de travail autre que celui par défaut » (TGT-44607)
+* Résolution d’un problème de sécurité potentiel affectant les flux Recommendations côté serveur. (TGT-43769)
 
 ## at.js version 2.10.1 (2 février 2023)
 
 * Correction d’un bug en raison duquel les activités impliquant des règles d’audience contenant des paramètres dont le nom contient des points ne renvoyaient pas l’expérience attendue pour la prise de décision sur appareil.
-* Correction d’un bogue introduit dans at.js 2.6.0, en raison duquel at.js déclenchait un appel de diffusion, même lorsque `mboxDisable` a été activé.
+* Correction d’un bug dans at.js 2.6.0, en raison duquel at.js déclenchait un appel de diffusion, même lorsque `mboxDisable` était activé.
 
 Pour plus d’informations sur toutes les versions d’at.js, voir [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
