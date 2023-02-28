@@ -1,7 +1,7 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;ciblage automatique;ciblage auto;autorisations;qu’est-ce qu’Adobe Target
 description: Découvrez les principes de base de l’Adobe [!DNL Target] Standard et Adobe [!DNL Target] Premium. [!DNL Target] Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
-landing-page-description: Personnalisez l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
+landing-page-description: Personnalisez l’expérience client afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 title: Qu’est-ce que Target ?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
@@ -22,7 +22,7 @@ La solution [!DNL Adobe Target] peut être sous licence [!DNL Target Standard] o
 
 [!DNL Target Standard] est le front-end d’[!DNL Adobe Target] qui vous permet de créer et de gérer visuellement des tests A/B et des activités de ciblage selon des règles. [!DNL Target Standard] prend en charge l’insertion de code personnalisé dans et hors du workflow du [!UICONTROL compositeur d’expérience visuelle] (CEV). [!DNL Target Standard] offre une stratégie d’implémentation simplifiée avec vos propriétés numériques : une seule ligne de code sur chaque page gère l’ensemble des communications requises entre votre site et [!DNL Target].
 
-Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard]. [!DNL Target Standard] est conçu à la fois pour les nouveaux utilisateurs et les utilisateurs expérimentés. Vous pouvez partager des données et des résultats et collaborer facilement avec d’autres membres de l’équipe qui utilisent [!DNL Adobe Experience Cloud].
+Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard]. [!DNL Target Standard] est conçu à la fois pour les utilisatrices et utilisateurs nouveaux et expérimentés. Vous pouvez partager des données et des résultats et collaborer facilement avec d’autres membres de l’équipe qui utilisent [!DNL Adobe Experience Cloud].
 
 ## Target Premium {#premium}
 
@@ -38,17 +38,17 @@ Target Premium inclut les fonctionnalités suivantes :
 
 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) fournit des algorithmes de machine learning élaborés visant à renforcer les expériences personnalisées et à améliorer les taux de conversion des contenus numériques.
 
-[!UICONTROL Automated Personalization] enregistre l’activité des visiteurs sur le site, générant un profil des visiteurs afin que le contenu puisse être ciblé sur des visiteurs similaires. AP suit les réactions face au contenu, à la fois pour les individus et pour la population dans son ensemble. AP utilise ensuite des méthodes de modélisation complexes pour cibler automatiquement chaque individu. AP prend en compte tout ce qui est connu sur chaque visiteur.
+[!UICONTROL Automated Personalization] enregistre l’activité des personnes sur le site, générant un profil de celles-ci afin que le contenu puisse être ciblé sur des personnes similaires. AP suit les réactions face au contenu, à la fois pour les individus et pour la population dans son ensemble. AP utilise ensuite des méthodes de modélisation complexes pour cibler automatiquement chaque individu. AP prend en compte tout ce qui est connu sur chaque visiteur.
 
 [!UICONTROL Automated Personalization] s’auto-informe et implique une analyse manuelle minimale. Totalement automatisé, AP apprend en permanence. Le système crée des modèles et identifie automatiquement les produits susceptibles d’intéresser un visiteur. Chaque fois qu’un visiteur interagit avec le site, des informations sont collectées et stockées dans son profil. De nombreux algorithmes sont disponibles afin de fournir le meilleur modèle pour votre système.
 
 ### Ciblage automatique
 
-Le [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) s’appuie sur un machine learning avancé pour identifier plusieurs expériences hautement performantes définies par des professionnels du marketing. Le [!UICONTROL ciblage automatique] offre donc à chaque visiteur l’expérience la plus adaptée. La diffusion est basée sur les profils individuels des clients et le comportement des visiteurs précédents ayant des profils similaires. Le [!UICONTROL ciblage automatique] permet de personnaliser le contenu et de générer des conversions.
+Le [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) s’appuie sur un machine learning avancé pour identifier plusieurs expériences hautement performantes définies par des spécialistes marketing. Le [!UICONTROL ciblage automatique] offre donc à chaque visiteur l’expérience la plus adaptée. La diffusion est basée sur les profils individuels des clients et le comportement des visiteurs précédents ayant des profils similaires. Le [!UICONTROL ciblage automatique] permet de personnaliser le contenu et de générer des conversions.
 
 ### Recommendations
 
-Les activités [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les [!UICONTROL recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+Les activités [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser votre clientèle selon l’activité antérieure des utilisateurs et utilisatrices. Les [!UICONTROL recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
 Une recommandation détermine comment un produit est proposé à un client, en fonction de ses activités sur le site. Par exemple :
 
@@ -77,7 +77,7 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 ### Autorisations des utilisateurs d’Enterprise
 
-La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) vous permet de créer différents projets (appelés « Profils de produits » dans [!DNL Adobe Admin Console for Enterprise]). Les [!UICONTROL autorisations des utilisateurs d’Enterprise] vous permettent d’attribuer des autorisations différentes à un utilisateur unique, ce qui détermine ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients sont donc en mesure de restreindre l’accès à leurs utilisateurs pour l’affichage, la modification, l’approbation et la publication. Vous pouvez restreindre les utilisateurs en fonction de la région, de l’environnement (développement/test/production), du canal ou d’autres critères personnalisés.
+La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) vous permet de créer différents projets (appelés « Profils de produits » dans [!DNL Adobe Admin Console for Enterprise]). Les [!UICONTROL autorisations des utilisateurs d’Enterprise] vous permettent d’attribuer des autorisations différentes à un utilisateur unique, ce qui détermine ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients sont donc en mesure de restreindre l’accès à leurs utilisateurs pour l’affichage, la modification, l’approbation et la publication. Vous pouvez restreindre les utilisateurs et les utilisatrices en fonction de la zone géographique, de l’environnement (développement/test/production), du canal ou d’autres critères personnalisés.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 

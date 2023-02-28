@@ -1,5 +1,5 @@
 ---
-user-guide-title: Guide du professionnel d’Adobe Target
+user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
@@ -11,7 +11,7 @@ ht-degree: 98%
 ---
 
 
-# Guide du professionnel d’Adobe Target {#using}
+# Guide du spécialiste d’Adobe Target {#using}
 
 + [Page d’accueil du guide du professionnel d’Adobe Target](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
@@ -234,7 +234,7 @@ ht-degree: 98%
          + [Résolution des problèmes du Compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Activation du contenu mixte dans votre navigateur](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Scénarios de modification d’une page](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extension d’assistance du Compositeur d’Expérience Visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirection vers une URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/vec-carousels.md)
