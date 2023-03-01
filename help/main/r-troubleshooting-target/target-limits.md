@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 94%
+source-wordcount: '1582'
+ht-degree: 82%
 
 ---
 
@@ -66,17 +66,33 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
    Si un client dépasse les 100 requêtes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les requêtes suivantes sont bloquées pour cette session utilisateur. Deux requêtes ou plus sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées d’une même session de manière séquentielle.
 
-* **Comportement d’erreur** :
+   * **Comportement d’erreur** :
 
-   * API de diffusion et mbox par lots v2 :
-      * Code d’erreur : HTTP 420 Too Many Requests
-      * Message d’erreur : « Trop de requêtes avec le même ID de session »
-   * API mbox héritée :
-      * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
-   * at.js:
-      * Contenu par défaut affiché
+      * API de diffusion et mbox par lots v2 :
+         * Code d’erreur : HTTP 420 Too Many Requests
+         * Message d’erreur : « Trop de requêtes avec le même ID de session »
+      * API mbox héritée :
+         * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
+      * at.js:
+         * Contenu par défaut affiché
 
 
+
+* **Limite**: 50 mbox par [!DNL Target] requête de mbox par lots de diffusion de contenu.
+
+   Dépassement de 50 mbox par [!DNL Target] la requête de mbox par lots de diffusion de contenu génère un code d’erreur de réponse. `HTTP 400` avec message d’erreur `size must be between 0 and 50`.
+
+   Les requêtes de mbox par lot sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus la requête par lot contient de mbox, plus il est possible d’attendre de latence de réponse, ce qui peut entraîner des délais d’expiration. Si le rendu de l’expérience est bloqué sur ces demandes par lots de latence élevée, la latence peut entraîner une expérience utilisateur dégradée, car les utilisateurs attendent le rendu des expériences.
+
+* **Limite**: Taille du corps du POST HTTP de 60 Mo pour [!DNL Target] demandes de diffusion de contenu.
+
+   Dépassement de 60 Mo de la taille de corps du POST HTTP d’une valeur [!DNL Target] la requête de diffusion de contenu entraîne un code d’erreur de réponse. `HTTP 413 Request Entity Too Large`.
+
+* **Limite recommandée**: 50 notifications par [!DNL Target] demande de lot de diffusion.
+
+   Dépassement de 50 notifications par [!DNL Target] la requête de lot de diffusion entraîne probablement une latence de réponse et des délais d’attente plus importants.
+
+   Les demandes de notification par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus le nombre de notifications sur la requête par lot est élevé, plus il est possible d’attendre une latence de réponse, ce qui peut entraîner des délais d’expiration. Une latence supplémentaire sur les demandes de notification par lots peut être acceptable pour certains clients, mais sachez que les dépassements de délai et les reprises ultérieures peuvent entraîner une latence encore plus importante.
 
 ## Attributs du client
 
