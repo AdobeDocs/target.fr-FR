@@ -5,10 +5,10 @@ title: Comment mettre en oeuvre [!DNL Target] sur mon site ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 21%
+source-wordcount: '166'
+ht-degree: 26%
 
 ---
 
@@ -20,10 +20,10 @@ Pour plus d’informations, voir les différentes rubriques sous [Implémentatio
 
 >[!NOTE]
 >
->Balises dans [!DNL Adobe Experience Platform] est la méthode préférée à implémenter. [!DNL Target]. Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}.
+>Balises dans [!DNL Adobe Experience Platform] est la méthode préférée à implémenter. [!DNL Target]. Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. Pour accéder au [!UICONTROL Implémentation] page, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
-1. Pour plus d’informations sur les paramètres de cette page, voir [Mise en oeuvre de Target sans gestionnaire de balises](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. Pour plus d’informations sur les paramètres de cette page, voir [Mise en oeuvre de Target sans gestionnaire de balises](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![Page de mise en oeuvre](/help/main/administrating-target/assets/implementation.png)

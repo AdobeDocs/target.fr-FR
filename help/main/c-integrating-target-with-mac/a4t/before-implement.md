@@ -4,10 +4,10 @@ description: Découvrez les exigences de mise en oeuvre d’Analytics pour [!DNL
 title: Que dois-je savoir avant d’implémenter A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 26%
+source-wordcount: '985'
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ Cette intégration A4T requiert que vous mettiez en oeuvre les versions de bibli
 
 >[!NOTE]
 >
->La liste des exigences suivantes répertorie la variable *minimum* versions d’at.js nécessaires pour mettre en oeuvre A4T. Le [!DNL Target] L’équipe gère uniquement deux versions de [!DNL at.js]: la version actuelle et la deuxième version la plus récente. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>La liste des exigences suivantes répertorie la variable *minimum* versions d’at.js nécessaires pour mettre en oeuvre A4T. Le [!DNL Target] L’équipe gère uniquement deux versions de [!DNL at.js]: la version actuelle et la deuxième version la plus récente. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Conditions requises si vous *n*’utilisez pas les offres de redirection avec A4T
 
@@ -41,7 +41,7 @@ Cette intégration requiert que vous mettiez en œuvre les versions suivantes (o
 * [!DNL Adobe Target]: at.js version 0.9.1
 * Adobe Analytics : appMeasurement.js version 1.7.0
 
-Pour plus d’informations sur l’implémentation d’A4T avec le [!DNL Platform Web SDK], voir [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Pour plus d’informations sur l’implémentation d’A4T avec le [!DNL Platform Web SDK], voir [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### Conditions requises en cas d’utilisation des offres de redirection avec A4T
 
@@ -59,7 +59,7 @@ Pour utiliser des offres de redirection avec A4T, vous devez mettre en œuvre le
 
 Les instructions de téléchargement et de déploiement sont répertoriées dans la section [Implémentation d’Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-Pour plus d’informations sur l’implémentation d’A4T avec le [!DNL Platform Web SDK], voir [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+Pour plus d’informations sur l’implémentation d’A4T avec le [!DNL Platform Web SDK], voir [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## Informations à connaître avant l’implémentation {#section_50D49CC52E11414089C89FB67F9B88F5}
 
