@@ -4,10 +4,10 @@ description: Découvrez quel Adobe de données [!DNL Target] collecte et utilise
 title: Quelles données sont collectées pour créer des algorithmes d’apprentissage automatique ?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 53%
+source-wordcount: '2026'
+ht-degree: 54%
 
 ---
 
@@ -46,9 +46,9 @@ Le tableau suivant présente les données fournies par le client et collectées 
 
 ## Blocage des fonctionnalités de [!DNL Target] algorithmes d’apprentissage automatique
 
-Les fonctionnalités peuvent être bloquées depuis [!DNL Target] algorithmes d’apprentissage automatique, qui empêchent leur utilisation dans n’importe quel [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization] modèle ou activité.
+Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization].
 
-Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans la variable *Guide du développeur d’Adobe Target*.
+Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bloquée)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.
 
 ## Données de périphérique et de mobile {#device-mobile}
 
@@ -73,7 +73,7 @@ Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bl
 
 ## Données géographiques {#geo}
 
-| Nom de l’attribut | Description de l’attribut | Exemples de valeurs | Nom du système |
+| Attribute name | Description de l’attribut | Exemples de valeurs | Nom du système |
 | --- | --- | --- | --- |
 | Geo - City | Ville à partir de laquelle le visiteur a accédé à l’activité. | San Francisco | Geo_City |
 | Geo - Country | Pays depuis lequel le visiteur a accédé à l’activité. | Allemagne | Geo_Country |
@@ -89,7 +89,7 @@ Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bl
 
 ## Données de session {#session}
 
-| Nom de l’attribut | Description de l’attribut | Exemples de valeurs | Nom du système |
+| Attribute name | Description de l’attribut | Exemples de valeurs | Nom du système |
 | --- | --- | --- | --- |
 | Visitor Profile - Activity Lifetime Order Value | Indique la somme de toutes les valeurs de commande pour toutes les visites/sessions sur une activité particulière. | Double | SES_CUMULATIVE_ORDER_VALUE |
 | Visitor Profile - Activity Lifetime Time on Site | Indique le temps total passé par le visiteur sur le site, à l’exclusion de la session en cours et est mis à jour à l’expiration de la session. | Double, millisecondes | SES_TOTAL_TIME |

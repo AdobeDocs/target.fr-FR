@@ -4,10 +4,10 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Pour plus d’informations sur [!DNL Adobe Journey Optimizer] et les décisions 
 
 Pour utiliser les décisions d’offre dans [!DNL Target], vous avez besoin des éléments suivants :
 
-* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] mis en oeuvre à l’aide de la fonction [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] mis en oeuvre à l’aide de la fonction [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    Cette fonctionnalité n’est pas disponible lors de l’implémentation. [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
@@ -72,7 +72,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de 
 
 1. Dans le **[!UICONTROL Ajout d’une décision d’offre]** , sélectionnez l’environnement de test et l’emplacement de votre choix.
 
-   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} dans la variable [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement intermédiaire. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
+   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
 
    ![Listes déroulantes Environnement de test et Emplacements de la boîte de dialogue Ajouter une décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de 
 
 Tenez compte des informations suivantes lorsque vous travaillez avec les décisions d’offre :
 
-* L’intégration offer decisioning fonctionne pour [!DNL Target] les mises en oeuvre basées sur la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Cette fonctionnalité n’est pas disponible lors de la mise en oeuvre de [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
+* L’intégration offer decisioning fonctionne pour [!DNL Target] les mises en oeuvre basées sur la variable [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Cette fonctionnalité n’est pas disponible lors de la mise en oeuvre de [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
 * L’intégration Target/Adobe Journey Optimizer prend en charge [manuel [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette fonctionnalité n’est pas disponible pour les autres types d’activité.
 

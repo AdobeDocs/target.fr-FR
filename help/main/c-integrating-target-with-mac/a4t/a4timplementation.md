@@ -4,9 +4,9 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour [!
 title: Comment mettre en oeuvre Analytics pour [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1158'
 ht-degree: 23%
 
 ---
@@ -48,7 +48,7 @@ Les sections suivantes décrivent les étapes nécessaires au déploiement de ce
 
 ### Étape 1 : Demande d’attribution de privilèges d’accès pour Analytics et Target
 
-Après l’implémentation [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Utilisez ce formulaire pour demander à être configuré.](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
+Après l’implémentation [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Étape 2 : configuration des autorisations d’utilisateur
 
@@ -116,9 +116,9 @@ Cette configuration a un effet global, ce qui signifie que chaque appel effectu�
 }
 ```
 
-La payload peut ensuite être transmise à Analytics via la fonction [API d’insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et de ciblage automatique, vous devez également transférer l’ID de session. Pour plus d’informations, voir [Rapports Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} dans la variable *SDK Adobe Target* guide.
+La payload peut ensuite être transmise à Analytics via la fonction [API d’insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et de ciblage automatique, vous devez également transférer l’ID de session. Pour plus d’informations, voir [Rapports Analytics for Target (A4T)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} dans le *SDK Adobe Target* guide.
 
-Si un paramètre global n’est pas souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js . [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} en transmettant **analyticsLogging: &quot;client_side&quot;**. La charge utile Analytics est renvoyée pour cet appel uniquement et la variable [!DNL Target] Le serveur principal ne transfère pas la charge utile vers [!DNL Analytics]. En appliquant cette approche, chaque fichier at.js [!DNL Target] La requête renvoie la charge utile par défaut, mais uniquement si elle est souhaitée et spécifiée.
+Si un paramètre global n’est pas souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js . [getOffers()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} en transmettant **analyticsLogging: &quot;client_side&quot;**. La charge utile Analytics est renvoyée pour cet appel uniquement et la variable [!DNL Target] Le serveur principal ne transfère pas la charge utile vers [!DNL Analytics]. En appliquant cette approche, chaque fichier at.js [!DNL Target] La requête renvoie la charge utile par défaut, mais uniquement si elle est souhaitée et spécifiée.
 
 Par exemple :
 

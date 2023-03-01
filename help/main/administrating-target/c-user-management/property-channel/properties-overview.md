@@ -5,9 +5,9 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1447'
 ht-degree: 67%
 
 ---
@@ -83,7 +83,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
 ### Obtention de l’identifiant de votre espace de travail {#workspace-id}
 
-Vous devrez transmettre l’identifiant de l’espace de travail pour utiliser les autorisations d’Enterprise dans [API de Target](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Vous devez transmettre l’identifiant de l’espace de travail pour exploiter les autorisations d’Enterprise dans les [API Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. Dans [Adobe Admin Console](https://adminconsole.adobe.com), cliquez sur l’onglet [!UICONTROL Produits], puis sur le produit dans le menu de gauche pour afficher la liste PLC (espace de travail).
 1. Cliquez sur le PLC de votre choix (espace de travail), puis localisez l’identifiant « profils » dans l’URL, comme illustré ci-dessous.
@@ -158,7 +158,7 @@ Pour utiliser la variable [!DNL Target] fonctionnalité d’autorisations utilis
       </script>
       ```
 
-      Pour plus d’informations sur la façon de procéder avec at.js, voir [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      Pour plus d’informations sur la façon de procéder avec at.js, voir [targetPageParamsAll](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html){target=_blank}.
 
 ## Étape 6 : Spécification des rôles et autorisations {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -187,7 +187,7 @@ Pour utiliser la variable [!DNL Target] fonctionnalité d’autorisations utilis
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
    | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
-   Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
+   Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/fr/enterprise/using/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Vidéos de formation
 
