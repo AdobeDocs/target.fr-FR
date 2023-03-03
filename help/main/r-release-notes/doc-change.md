@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 23 février | [Migration de Target depuis at.js 2.*x* vers le SDK Web Platform](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | Ajout d’un nouveau tutoriel. |
-| 21 février | [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Mise à jour de la liste des adresses IP pour la liste autorisée de toutes les régions du [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
-|  | [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout d’un texte expliquant que l’exemple utilisant JQuery suppose que jQuery est disponible sur le site web du client lors de la [!DNL Target] exécute les offres. |
+| 23 février | [Migration de Target depuis at.js 2.*x* vers le SDK web Platform](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=fr){target=_blank} | Ajout d’un nouveau tutoriel. |
+| 21 février | [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Mise à jour de la liste des adresses IP dans la liste autorisée pour toutes les régions dans le [guide de développement d’Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout d’un texte expliquant que l’exemple utilisant JQuery suppose que jQuery est disponible sur le site web de la cliente ou du client lorsque [!DNL Target] exécute les offres. |
 | 10 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.14.5 de [!DNL Target Standard/Premium]. |
 | 8 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour at.js 2.10.1 |
 | 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode de navigation.</li></ul> |
