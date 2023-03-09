@@ -4,10 +4,10 @@ description: Découvrez le fonctionnement de  [!DNL Adobe Target]  et obtenez de
 title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
 workflow-type: tm+mt
-source-wordcount: '2583'
-ht-degree: 100%
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Découvrez le fonctionnement de [!DNL Adobe Target] et obtenez des informations 
 
 [!DNL Target] s’intègre aux sites web à l’aide de [!DNL Experience Platform Web SDK] ou at.js :
 
-* **[!DNL Adobe Experience Platform Web SDK] :** le [SDK Web Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} est une nouvelle bibliothèque JavaScript côté client. Le [!DNL Experience Platform Web SDK] permet aux clients de [!DNL Adobe Experience Cloud] d’interagir avec les différents services dans le [!DNL Experience Cloud] (y compris [!DNL Target]) via le réseau Edge [!DNL Experience Platform]. [!DNL Adobe] recommande à tous les nouveaux clients [!DNL Target] d’implémenter [!DNL Experience Platform Web SDK].
+* **[!DNL Adobe Experience Platform Web SDK]:** Le [SDK Web Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} est une nouvelle bibliothèque JavaScript côté client. Le [!DNL Experience Platform Web SDK] permet aux clients de [!DNL Adobe Experience Cloud] d’interagir avec les différents services dans le [!DNL Experience Cloud] (y compris [!DNL Target]) via le réseau Edge [!DNL Experience Platform]. [!DNL Adobe] recommande à tous les nouveaux clients [!DNL Target] d’implémenter [!DNL Experience Platform Web SDK].
 * **at.js :** la bibliothèque at.js est la nouvelle bibliothèque d’implémentation de [!DNL Target]. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est fréquemment mis à jour avec de nouvelles fonctionnalités. [!DNL Adobe] recommande à tous les clients qui utilisent at.js de mettre à jour leurs implémentations vers la [dernière version d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
@@ -134,7 +134,7 @@ Le service [!DNL Target Recommendations] est hébergé dans un centre de donnée
 >
 >[!DNL Adobe Target] ne dispose actuellement pas d’un cluster Edge en Chine et les performances des visiteurs restent limitées pour les client de [!DNL Target] en Chine. En raison du pare-feu et de l’absence de clusters Edge dans le pays, les expériences des sites où [!DNL Target] a été déployé peuvent être affectées. Le rendu des expériences peut être lent et le chargement des pages peut être affecté. En outre, les spécialistes du marketing peuvent rencontrer une latence lors de l’utilisation de l’interface utilisateur de création de [!DNL Target].
 
-Si vous le souhaitez, vous pouvez ajouter des clusters Edge de [!DNL Target] sur liste autorisée. Pour plus d’informations, consultez [Ajout des nœuds Edge de Target sur la liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Si vous le souhaitez, vous pouvez ajouter des clusters Edge de [!DNL Target] sur liste autorisée. Pour plus d’informations, consultez [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -178,7 +178,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    [!DNL Adobe] continue de rechercher des solutions viables pour s’aligner complètement sur les directives des moteurs de recherche. Pour les clients qui doivent utiliser des URL distinctes à des fins de test, [!DNL Adobe] est certain que la mise en oeuvre correcte des balises canoniques réduit le risque associé à cette approche.
 
-* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : [!DNL Adobe] estime qu’« aussi longtemps que nécessaire » doit durer aussi longtemps que nécessaire pour atteindre une signification statistique. [!DNL Target] fournit les bonnes pratiques et le [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) [!DNL Adobe Target] pour déterminer quand votre test a atteint ce point. [!DNL Adobe] recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
+* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : [!DNL Adobe] estime qu’« aussi longtemps que nécessaire » doit durer aussi longtemps que nécessaire pour atteindre une signification statistique. [!DNL Target] fournit les bonnes pratiques et la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer quand votre test a atteint ce point. [!DNL Adobe] recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
 
    L’utilisation de la plateforme [!DNL Target] pour « publier » les tests gagnants n’est pas recommandée en tant que solution à long terme. Si le test gagnant est publié pour 100 % des utilisateurs 100 % du temps, alors cette approche peut être utilisée pendant que le processus de codage en dur du test gagnant se termine.
 
