@@ -4,10 +4,10 @@ description: Découvrez comment créer [!UICONTROL Affectation automatique] et [
 title: Prise en charge d’A4T [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] Activités ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ Pour démarrer :
 
 | Nom de mesure | Plus pris en charge dans : |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Taux de conversion, RPV |
-| [!UICONTROL averagetimespentonsite] | Taux de conversion, RPV |
-| [!UICONTROL bouncerate] | Taux de conversion, RPV |
-| [!UICONTROL bounces] | Taux de conversion, RPV |
-| [!UICONTROL entrées] | Taux de conversion, RPV |
-| [!UICONTROL sorties] | Taux de conversion, RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL rechargements] | RPV |
-| [!UICONTROL visiteurs] | Taux de conversion, RPV |
-| [!UICONTROL visites] | RPV |
+| [!UICONTROL averagepagedepth] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL averagetimespentonsite] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL bouncerate] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL bounces] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL entrées] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL sorties] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL pageviews] | Maximiser la valeur de mesure |
+| [!UICONTROL rechargements] | Maximiser la valeur de mesure |
+| [!UICONTROL visiteurs] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL visites] | Maximiser la valeur de mesure |
 
 ### Impact sur [!UICONTROL Ciblage automatique] activités
 
 | Nom de mesure | Plus pris en charge dans : |
 | --- | --- |
-| [!UICONTROL cartremovals] | RPV |
-| [!UICONTROL pageviews] | RPV |
-| [!UICONTROL visiteurs] | Taux de conversion, RPV |
-| [!UICONTROL visites] | RPV |
+| [!UICONTROL cartremovals] | Maximiser la valeur de mesure |
+| [!UICONTROL pageviews] | Maximiser la valeur de mesure |
+| [!UICONTROL visiteurs] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL visites] | Maximiser la valeur de mesure |
 
 ## Limites et notes
 
