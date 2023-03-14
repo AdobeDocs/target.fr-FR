@@ -5,10 +5,10 @@ landing-page-description: Personnalisez l’expérience client afin de maximiser
 title: Qu’est-ce que Target ?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard]. [!
 
 [!DNL Target Premium] est une offre [!DNL Target] avancée qui nécessite une licence pour ajouter des fonctions premium à [!DNL Target Standard].
 
-Tous [!DNL Target Premium] Les articles des guides de Target incluent le badge Premium en haut de chaque page ou en ligne près du texte concerné. Le badge Premium est cliquable et comprend un lien vers cette section.
+Tous [!DNL Target Premium] articles dans [!DNL Target] les guides incluent [!UICONTROL Premium] badge en haut de chaque page ou en ligne près du texte concerné. Le [!UICONTROL Premium] Le badge peut être cliqué et comprend un lien vers cette section.
 
-[!DNL Target Premium] comprend les fonctionnalités suivantes :
+**[!DNL Target Premium]comprend les fonctionnalités suivantes :**
 
 ### Automated Personalization
 
@@ -83,7 +83,7 @@ La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/ad
 
 [!BADGE Bêta]{type=Informative}
 
-Le [!DNL Adobe Target] L’équipe active souvent des fonctionnalités pour des clients sélectionnés à des fins de test et de commentaires avant d’activer ces fonctionnalités pour tous les clients dans les versions ultérieures.
+Le [!DNL Adobe Target] L’équipe active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités seront activées pour tous les clients à l’avenir. [!DNL Target Standard/Premium] versions et annoncées dans les notes de mise à jour.
 
 Articles dans [!DNL Target] Les guides décrivant les fonctionnalités bêta incluent le badge bêta en haut de chaque page ou en ligne près du texte affecté. Vous pouvez cliquer sur le badge bêta et inclure un lien vers cette section.
 

@@ -5,10 +5,10 @@ title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 60%
+source-wordcount: '682'
+ht-degree: 58%
 
 ---
 
@@ -67,9 +67,7 @@ Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 >
 >Vous ne pouvez pas supprimer la variable [!UICONTROL Production] , mais vous pouvez le renommer.
 
-## Recommandations : filtrer les collections et exclusions par environnement (groupe d’hôtes)
-
-![Badge Premium](/help/main/assets/premium.png)
+##  [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."}
 
 Vous pouvez prévisualiser le contenu des collections et des exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
