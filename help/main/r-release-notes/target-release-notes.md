@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 44%
+source-wordcount: '446'
+ht-degree: 52%
 
 ---
 
@@ -27,13 +27,9 @@ Cette version sera disponible selon le planning échelonné suivant :
 * **9 mars**: Région Europe, Moyen-Orient et Afrique (EMEA)
 * **9 mars**: Région Asie-Pacifique (APAC)
 
-Cette version comprend de nouvelles fonctionnalités, améliorations et de nouveaux correctifs :
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| Mesures A4T optimisées pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] | [!DNL Target] vous permet de choisir des mesures en fonction d’événements binaires ou de mesures en fonction d’événements continus lors de l’utilisation de la variable [!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités.<P>Gardez à l’esprit les changements suivants au niveau des mesures prises en charge :<ul><li>[!DNL Target] a conservé le comportement précédent des activités existantes jusqu’à (DATE À DÉTERMINER). À compter de cette date, les activités utilisant des mesures non prises en charge seront interrompues pour forcer la migration des activités existantes vers le nouveau comportement.</li></ul>Pour plus d’informations, voir [Mesures d’objectif prises en charge](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique*. |
-| [!UICONTROL Affectation automatique] using [!UICONTROL Analytics pour Target] (A4T) | Nouveau tutoriel :<ul><li>[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] activités](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Ciblage automatique] using [!UICONTROL Analytics pour Target] (A4T) | Nouveau tutoriel :<ul><li>[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Ciblage automatique] activités](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>En raison de problèmes qui ont été corrigés depuis, les mesures &quot;Optimized A4T&quot; pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]&quot;La fonctionnalité qui a été publiée les 8 et 9 mars a été temporairement supprimée. Après d’autres tests internes, la fonctionnalité sera de nouveau disponible au cours des prochaines semaines.
 
 Cette version comprend les correctifs suivants :
 
