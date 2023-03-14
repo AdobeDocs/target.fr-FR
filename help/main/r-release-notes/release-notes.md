@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 68%
+source-wordcount: '705'
+ht-degree: 55%
 
 ---
 
@@ -33,6 +33,21 @@ Cette version contient les nouvelles fonctionnalités et améliorations suivante
 | Mesures A4T optimisées pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] | [!DNL Target] vous permet de choisir des mesures en fonction d’événements binaires ou de mesures en fonction d’événements continus lors de l’utilisation de la variable [!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités.<P>Gardez à l’esprit les changements suivants liés au temps dans les mesures prises en charge :<ul><li>[!DNL Target] a conservé le comportement précédent des activités existantes jusqu’au 9 septembre 2023. À compter de cette date, les activités utilisant des mesures non prises en charge seront interrompues pour forcer la migration des activités existantes vers le nouveau comportement.</li></ul>Pour plus d’informations, voir [Mesures d’objectif prises en charge](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique*. |
 | [!UICONTROL Affectation automatique] using [!UICONTROL Analytics pour Target] (A4T) | Nouveau tutoriel :<ul><li>[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] activités](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
 | [!UICONTROL Ciblage automatique] using [!UICONTROL Analytics pour Target] (A4T) | Nouveau tutoriel :<ul><li>[Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Ciblage automatique] activités](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+Cette version comprend les correctifs suivants :
+
+* Mises à jour pour la création de composants web personnalisés avec le [!UICONTROL Compositeur d’expérience visuelle] (VEC) :
+
+   * Correction de la sélection des éléments DOM fantômes dans le VEC en améliorant le processus de création afin qu’il n’y ait aucune dépendance sur la variable [!DNL Target] type d’implémentation lors de la création de la racine fantôme. Désormais, la sélection des éléments DOM fantômes dans le VEC doit fonctionner pour n’importe quel site web.
+   * Correction d’un problème qui empêchait le chargement des éléments de HTML à l’aide de #Shadow DOM dans le VEC. (TGT-35801)
+   * Correction de problèmes du compositeur d’expérience visuelle avec SPA sites web à l’aide de ShadowDOM. (TGT-43169)
+   * Correction d’un problème lié à l’objectif d’optimisation : &quot;clic sur un élément&quot; qui n’identifiait pas correctement le sélecteur CSS dans ShadowDOM.
+
+>[!NOTE]
+>
+>Pour garantir la diffusion des modifications créées dans le compositeur d’expérience visuelle, assurez-vous que vous utilisez une [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) avec une version supérieure à 2.8.
+
+**Problème connu**: Suivi des clics sur un élément racine fantôme lors de l’utilisation de [!DNL Adobe Experience Platform Web SDK] ne fonctionne pas correctement. (TNT-47012)
 
 ## at.js version 2.10.2 (7 mars 2023)
 
