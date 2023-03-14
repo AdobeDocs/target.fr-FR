@@ -5,10 +5,10 @@ landing-page-description: Personnalisez l’expérience client afin de maximiser
 title: Qu’est-ce que Target ?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard]. [!
 
 ## Target Premium {#premium}
 
+ [!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] est une offre [!DNL Target] avancée qui nécessite une licence pour ajouter des fonctions premium à [!DNL Target Standard].
 
-Tous les articles [!DNL Target Premium] de ce guide d’aide incluent le badge Premium en haut de chaque page :
+Tous [!DNL Target Premium] Les articles des guides de Target incluent le badge Premium en haut de chaque page ou en ligne près du texte concerné. Le badge Premium est cliquable et comprend un lien vers cette section.
 
-![Badge Premium](/help/main/assets/premium.png)
-
-Target Premium inclut les fonctionnalités suivantes :
+[!DNL Target Premium] comprend les fonctionnalités suivantes :
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 ### Autorisations des utilisateurs d’Enterprise
 
 La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) vous permet de créer différents projets (appelés « Profils de produits » dans [!DNL Adobe Admin Console for Enterprise]). Les [!UICONTROL autorisations des utilisateurs d’Enterprise] vous permettent d’attribuer des autorisations différentes à un utilisateur unique, ce qui détermine ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients sont donc en mesure de restreindre l’accès à leurs utilisateurs pour l’affichage, la modification, l’approbation et la publication. Vous pouvez restreindre les utilisateurs et les utilisatrices en fonction de la zone géographique, de l’environnement (développement/test/production), du canal ou d’autres critères personnalisés.
+
+## Fonctionnalités bêta {#beta}
+
+[!BADGE Bêta]{type=Informative}
+
+Le [!DNL Adobe Target] L’équipe active souvent des fonctionnalités pour des clients sélectionnés à des fins de test et de commentaires avant d’activer ces fonctionnalités pour tous les clients dans les versions ultérieures.
+
+Articles dans [!DNL Target] Les guides décrivant les fonctionnalités bêta incluent le badge bêta en haut de chaque page ou en ligne près du texte affecté. Vous pouvez cliquer sur le badge bêta et inclure un lien vers cette section.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
