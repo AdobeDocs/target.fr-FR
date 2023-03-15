@@ -2,19 +2,20 @@
 keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
 description: Découvrez comment créer des espaces de travail distincts (profils de produit), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels.
 title: Que sont les autorisations des utilisateurs d’Enterprise et comment les utiliser ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3169'
+source-wordcount: '3168'
 ht-degree: 59%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Autorisations des utilisateurs d’entreprise
+# Autorisations des utilisateurs d’Enterprise
 
-Les autorisations d’utilisateur d’entreprise sont un moyen d’administrer formellement à l’ensemble de l’entreprise l’accès des utilisateurs à [!DNL Adobe Target]. Ajout d’utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles de [!UICONTROL Observateur], [!UICONTROL Éditeur]ou [!UICONTROL Approbateur].
+Autorisations des utilisateurs d’Enterprise sont un moyen d’administrer officiellement à l’ensemble de l’entreprise l’accès des utilisateurs à [!DNL Adobe Target]. Ajout d’utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles de [!UICONTROL Observateur], [!UICONTROL Éditeur]ou [!UICONTROL Approbateur].
 
 ## Déterminer si vous avez accès aux autorisations utilisateur de l’entreprise
 

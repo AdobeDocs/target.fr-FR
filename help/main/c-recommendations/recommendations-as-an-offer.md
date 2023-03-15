@@ -2,16 +2,17 @@
 keywords: Recommendations;offre
 description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
 title: Comment utiliser Recommendations en tant qu’offre dans d’autres types d’activités ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations en tant qu’offre
+# Recommendations comme offre
 
 Vous pouvez maintenant inclure des recommandations dans les activités de [!UICONTROL test A/B] (dont l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique]) et de [!UICONTROL ciblage d’expérience].
 

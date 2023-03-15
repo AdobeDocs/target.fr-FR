@@ -2,16 +2,17 @@
 keywords: ciblage automatique;ciblage;affectation du trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment [!UICONTROL Ciblage automatique] activité dans [!DNL Target] diffuse l’expérience la plus personnalisée à chaque visiteur selon les profils client et le comportement de visiteurs similaires.
 title: Qu’est-ce qu’une [!UICONTROL Ciblage automatique] Activité ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 50%
+source-wordcount: '1965'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Ciblage automatique] aperçu
+# [!UICONTROL Aperçu du ciblage automatique]
 
 [!UICONTROL Ciblage automatique] activités dans [!DNL Adobe Target] utilisez l’apprentissage automatique avancé pour effectuer une sélection à partir de plusieurs expériences hautement performantes définies par des responsables du marketing afin de personnaliser le contenu et de générer des conversions. [!UICONTROL Ciblage automatique] diffuse l’expérience la plus personnalisée à chaque visiteur en fonction du profil client individuel et du comportement des visiteurs précédents dotés de profils similaires.
 

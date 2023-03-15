@@ -2,16 +2,17 @@
 keywords: Créer un ciblage automatique;test A/B;activité de ciblage automatique;nouvelle activité a/b;ciblage automatique;ciblage automatique pour les expériences personnalisées;personnalisé;optimisation
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) dans Adobe [!DNL Target] pour créer votre activité de test A/B de ciblage automatique directement sur une [!DNL Target]-enabled .
 title: Comment créer une activité de ciblage automatique ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 49%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Création d’une activité de ciblage automatique
+# Création d’une activité de ciblage automatique
 
 Utilisez la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre [!UICONTROL Ciblage automatique] [!UICONTROL Test A/B] une activité directement sur une [!DNL Target]- et de modifier des parties de la page dans [!DNL Target].
 

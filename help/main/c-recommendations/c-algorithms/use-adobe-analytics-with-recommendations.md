@@ -2,16 +2,17 @@
 keywords: source de données comportementales;analytics;recommandations;critères;variables de produits
 description: Découvrez comment utiliser [!DNL Adobe Analytics] comme source de données comportementales pour utiliser les données comportementales basées sur les vues et/ou basées sur les achats de [!DNL Analytics] in [!DNL Target Recommendations].
 title: Comment utiliser [!DNL Adobe Analytics] avec [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Utilisation [!DNL Adobe Analytics] avec [!DNL Recommendations]
+# Utilisation [!DNL Adobe Analytics] avec [!DNL Recommendations]
 
 Utilisation [!DNL Adobe Analytics] car la source de données comportementales permet aux clients d’utiliser les données comportementales basées sur les vues et/ou basées sur les achats de [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] activités. Cette fonctionnalité est particulièrement utile dans les cas où la fonction [!DNL Target Recommendations] la configuration est nouvelle et [!DNL Analytics] contient de nombreuses données historiques à utiliser.
 
@@ -85,7 +86,7 @@ Il est maintenant temps de mapper ces variables sur [!DNL Target] côté pour l�
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Questions fréquentes 
+## Questions fréquentes
 
 Tenez compte des questions fréquentes suivantes lorsque vous utilisez [!DNL Analytics] avec [!DNL Target]:
 

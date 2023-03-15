@@ -2,16 +2,17 @@
 keywords: dépannage;questions fréquentes;FAQ;FAQ;personnalisation automatisée;contrôle;expérience par défaut;bonnes pratiques
 description: Consultez la liste des questions fréquentes et des réponses sur les activités Automated Personalization (AP) dans Adobe Target.
 title: Comment puis-je trouver des questions fréquentes sur les activités Automated Personalization ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2003'
 ht-degree: 77%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) FAQ sur Automated Personalization
+# FAQ sur Automated Personalization
 
 Questions fréquentes au sujet d’Automated Personalization.
 
@@ -50,7 +51,7 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
    * Aucune personnalisation n’existe entre des offres dans un groupe de génération de rapports ; les offres sont toutes traitées de manière indifférenciée par le modèle de personnalisation.
    * Ne placez jamais toutes les offres d’une activité dans un seul groupe de génération de rapports. Cette décision ferait que toutes les offres seraient proposées uniformément et aléatoirement à tous les visiteurs inclus dans l’activité.
 
-## Questions fréquentes 
+## Questions fréquentes
 
 Consultez les questions fréquentes et réponses suivantes lorsque vous utilisez [!UICONTROL Automated Personalization] activités :
 

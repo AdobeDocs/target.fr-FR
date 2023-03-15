@@ -2,16 +2,17 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance des attributs de profil
 description: Découvrez comment filtrer dynamiquement dans Adobe [!DNL Target] Recommendations en comparant les éléments (entités) à une valeur du profil de l’utilisateur.
 title: Comment Filtrer Par Correspondance D’Attributs De Profil Dans Les Activités Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 6%
+source-wordcount: '485'
+ht-degree: 7%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Correspondance des attributs de profil
+# Correspondance des attributs de profil
 
 Filtrage dynamique dans [!DNL Adobe Target] [!DNL Recommendations] en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
 
@@ -24,7 +25,7 @@ Utilisation [!UICONTROL Correspondance des attributs de profil] lorsque vous sou
 Les scénarios suivants montrent comment utiliser [!UICONTROL Correspondance des attributs de profil]:
 
 * Une société qui vend des lunettes stocke la couleur d’image préférée d’un visiteur comme &quot;noix&quot;. Pour ce visiteur spécifique, les recommandations sont configurées afin de renvoyer uniquement les images de classe qui correspondent à &quot;noix&quot; en couleur.
-* Un paramètre de profil peut être défini en fonction de la taille des vêtements (par exemple, petit, moyen ou grand) d’un visiteur lorsqu’il navigue sur le site web de votre entreprise. Une recommandation peut être configurée pour correspondre à ce paramètre de profil et renvoyer des produits spécifiques uniquement à la taille d’habillement préférée de l’utilisateur.
+* Un paramètre de profil peut être défini pour la taille de l’habillement (par exemple, petit, moyen ou grand) d’un visiteur lorsqu’il navigue sur le site web de votre entreprise. Une recommandation peut être configurée pour correspondre à ce paramètre de profil et renvoyer des produits spécifiques uniquement à la taille d’habillement préférée de l’utilisateur.
 
 ## Exemples de correspondance d’attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 

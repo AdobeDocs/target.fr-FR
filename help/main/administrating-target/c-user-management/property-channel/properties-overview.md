@@ -2,17 +2,18 @@
 keywords: ajouter un utilisateur;projet;groupe d’utilisateurs;propriétés;espace de travail;gérer la propriété;propriété;at_property;rôles;autorisations
 description: Découvrez comment ajouter des utilisateurs à Adobe Target ; créer des espaces de travail, des groupes d’utilisateurs et des propriétés ; mettre à jour votre mise en oeuvre ; et spécifier les rôles et les autorisations.
 title: Comment configurer les autorisations d’Enterprise ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 68%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Configuration des autorisations d’Entreprise
+# Configuration des autorisations d’Enterprise
 
 Informations sur les tâches requises pour ajouter des utilisateurs à vos [!DNL Target] la mise en oeuvre; créer des espaces de travail, des groupes d’utilisateurs et des propriétés ; mettre à jour votre [!DNL Target] pour inclure la variable `at_property` paramètre ; et spécifier les rôles et les autorisations.
 

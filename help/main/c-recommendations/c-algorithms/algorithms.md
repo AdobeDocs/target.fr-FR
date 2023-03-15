@@ -2,16 +2,17 @@
 keywords: recommandations;activité de recommandations;critères;algorithme;clé de recommandation;clé personnalisée;secteur industriel vertical;vente au détail;commerce électronique;génération de pistes;b2b;services financiers;média;publication
 description: Découvrez comment utiliser les critères dans Adobe [!DNL Target] [!DNL Recommendations].
 title: Comment utiliser des critères dans [!DNL Target] Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 24%
+source-wordcount: '710'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Critères
+# Critères
 
 Critères dans [!DNL Adobe Target] [!DNL Recommendations] sont des règles qui déterminent quels produits ou contenu recommander selon un ensemble prédéterminé de comportements de visiteurs. Les critères peuvent être basés sur des tendances populaires, les comportements actuel et passé d’un visiteur ou des produits et contenus similaires. Vous pouvez tester plusieurs types de recommandations les uns par rapport aux autres en ajoutant plusieurs critères.
 

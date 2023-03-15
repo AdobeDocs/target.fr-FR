@@ -2,16 +2,17 @@
 keywords: rapports;ciblage automatique;ciblage automatique;AT;rapport
 description: Découvrez comment interpréter le rapport de synthèse de ciblage automatique dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser le rapport de synthèse de ciblage automatique ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapport de synthèse de ciblage automatique
+# Rapport de synthèse de ciblage automatique
 
 Informations sur la manière d’interpréter la variable [!UICONTROL Résumé du ciblage automatique] rapports dans [!DNL Adobe Target].
 

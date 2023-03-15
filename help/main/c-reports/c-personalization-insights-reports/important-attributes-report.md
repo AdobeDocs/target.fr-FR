@@ -2,16 +2,17 @@
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;ciblage automatique;rapport de ciblage automatique;personnalisation;informations;faq;forum aux questions;attributs importants
 description: Découvrez comment utiliser le [!UICONTROL Attributs importants] rapport qui présente les principaux attributs qui ont influencé le modèle de personnalisation et leur importance relative.
 title: Qu’est-ce que le rapport Attributs importants ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 81%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapport Attributs importants
+# Rapport Attributs importants
 
 Informations sur la variable [!UICONTROL Attributs importants] , l’un des deux rapports spécialisés disponibles pour les utilisateurs de [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).
 

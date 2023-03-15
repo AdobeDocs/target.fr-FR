@@ -2,16 +2,17 @@
 keywords: adresse IP;adresses IP;liste blanche;liste autorisée;pare-feu;recommandations;flux;serveurs;adobe experience cloud;recommendations
 description: Consultez une liste d’adresses IP utilisées dans les serveurs de traitement de flux de  [!DNL Target]  Recommendations destinée à vous aider à configurer votre pare-feu afin d’autoriser les adresses IP issues des serveurs Adobe.
 title: Quelles adresses IP les serveurs de traitement de flux de Recommendations utilisent-ils ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Adresses IP utilisées par les serveurs de traitement de flux de Recommendations
+# Adresses IP utilisées par les serveurs de traitement de flux de Recommandations
 
 Liste d’adresses IP utilisées dans les serveurs de traitement de flux de [!DNL Adobe Target] [!DNL Recommendations] destinée à vous aider à configurer votre pare-feu afin d’autoriser les adresses IP issues des serveurs Adobe.
 

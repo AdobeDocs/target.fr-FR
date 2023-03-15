@@ -2,16 +2,17 @@
 keywords: personnalisation automatisée;ap;audiences;ensemble;random forest;variance résiduelle;variance d’erreur;valeur de durée de vie
 description: Découvrez comment créer une [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] en utilisant la variable [!UICONTROL Compositeur d’expérience visuelle].
 title: Comment créer une [!UICONTROL Automated Personalization] Activité ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 8a791d4266cb03fef498ac6f852d4a5755ba66a6
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1853'
 ht-degree: 62%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Création d’une activité de personnalisation automatisée
+# Créer une activité [!UICONTROL Automated Personalization]
 
 Créez un [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] en utilisant la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC).
 

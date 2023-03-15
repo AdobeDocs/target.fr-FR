@@ -2,16 +2,17 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser les collections dans Adobe [!DNL Target] Recommendations. Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 title: Comment utiliser les collections dans les activités Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 59%
+source-wordcount: '883'
+ht-degree: 60%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Collections
+# Collections
 
 Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments pour en faire partie.
 
@@ -45,7 +46,7 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
    ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Voir [Paramètres](https://developer.adobe.com/target/implement/recommendations/){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](https://developer.adobe.com/target/implement/recommendations/) pour modifier le groupe d’hôtes par défaut.{target=_blank}
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
