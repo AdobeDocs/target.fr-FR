@@ -2,15 +2,16 @@
 keywords: ciblage automatique;ciblage;affectation du trafic;questions fréquentes;faq;dépannage;dépannage;création de rapports;rapports;rapport de synthèse de ciblage automatique;rapport de synthèse;segments automatisés;attributs importants
 description: Découvrez comment interpréter [!UICONTROL Ciblage automatique] rapports d’activité dans [!DNL Target].
 title: Comment interpréter une [!UICONTROL Ciblage automatique] Rapport ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Reporting et [!UICONTROL Ciblage automatique]
+# Rapports et [!UICONTROL ciblage automatique]
 
 Informations sur la manière d’interpréter la variable [!UICONTROL Résumé du ciblage automatique] rapports dans [!DNL Adobe Target], y compris le [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] rapports.
 

@@ -2,16 +2,17 @@
 keywords: critères;algorithme;secteur industriel vertical;type de page;clé de recommandation;logique de recommandation;logique;plage de données;intervalle de recherche en amont;source de données de comportement;conception partielle;recommandations de sauvegarde;règles d’inclusion;pondération d’attribut;catégorie actuelle;attribut personnalisé;dernier article acheté;dernier article consulté;article le plus consulté;élément le plus consulté;catégorie préférée;popularité;article récemment consulté;dernier article le plus consulté;favori
 description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités Adobe Recommendations pour afficher les recommandations les plus appropriées à votre activité.
 title: Comment créer des critères dans Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Création de critères
+# Création de critères
 
 Critères dans [!UICONTROL Adobe Target] [!UICONTROL Recommendations] contrôler le contenu de votre [!UICONTROL Recommendations] activités. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité. Ces critères utilisent les actions du visiteur pour déterminer le contenu ou les produits à afficher.
 
@@ -151,7 +152,7 @@ Pour plus d’informations sur le choix d’un [!UICONTROL Clé de recommandatio
 
    ![Conception 4 x 1](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que vos critères entraînent la recommandation de deux éléments seulement. Si vous activez la variable [!UICONTROL Rendu de conception partiel] , les deux premiers emplacements sont remplis, mais les deux autres restent vides. Toutefois, si vous activez la variable [!UICONTROL Afficher Recommendations de sauvegarde] , les deux premiers emplacements sont remplis en fonction des critères que vous avez spécifiés et les deux autres sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que vos critères entraînent la recommandation de deux éléments seulement. Si vous activez la variable [!UICONTROL Rendu de conception partiel] , les deux premiers emplacements sont remplis, mais les deux autres restent vides. Toutefois, si vous activez la variable [!UICONTROL Afficher Recommendations de sauvegarde] , les deux premiers emplacements sont remplis en fonction des critères que vous avez spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous constaterez lors de l’utilisation de la variable [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] options :
 

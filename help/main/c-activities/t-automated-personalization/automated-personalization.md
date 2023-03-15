@@ -2,16 +2,17 @@
 keywords: personnalisation automatisée;ap;audiences;ensemble;random forest;bandit à plusieurs bras;échantillonnage thompson;ml;apprentissage automatique
 description: Découvrez comment utiliser les activités Automated Personalization (AP) dans Adobe [!DNL Target] qui utilisent l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
 title: Qu’est-ce qu’une activité Automated Personalization (AP) ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 89%
+source-wordcount: '1048'
+ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization (AP)
+# Automated Personalization (AP)
 
 [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] combiner des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur en fonction de son profil client spécifique afin de personnaliser le contenu et de générer des conversions.
 
@@ -31,7 +32,7 @@ Les termes suivants concernent [!UICONTROL la personnalisation automatisée :]
 |---|---|
 | Bandit à plusieurs bras | Une approche du type bandit à plusieurs bras de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage. |
 | Forêt aléatoire | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. Dans le jargon de la science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en générant un grand nombre d’arbres de décision en fonction des attributs du visiteur et de la visite. Dans Target, le concept de la forêt aléatoire est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou les recettes par visite les plus élevées) pour chaque visiteur spécifique. Pour plus d’informations sur l’application de la forêt aléatoire dans Target, voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Échantillonnage de Thompson | L’échantillonnage de Thompson a pour but de déterminer la meilleure expérience globale (non personnalisée), tout en minimisant le « coût » de son identification. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Échantillonnage de Thompson | L’objectif de l’échantillonnage de Thompson est de déterminer la meilleure expérience globale (non personnalisée), tout en minimisant le &quot;coût&quot; de la recherche de cette expérience. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 Tenez compte des aspects suivants lors de l’utilisation de la [!UICONTROL personnalisation automatisée] :
 
@@ -47,7 +48,7 @@ La forêt aléatoire est l’une des approches les plus utilisées dans le domai
 
 **Le modèle de personnalisation s’adapte aux changements de comportement du visiteur.**
 
-* Le bandit à plusieurs bras garantit que le modèle utilise toujours une petite partie du trafic pour continuer d’apprendre tout au long de la vie de l’activité et prévenir la surexploitation des tendances apprises précédemment.
+* Le bandit à plusieurs bras garantit que le modèle &quot;dépense&quot; toujours une petite partie du trafic pour continuer à apprendre tout au long de la vie de l’activité et pour empêcher la surexploitation des tendances apprises précédemment.
 * Les modèles sous-jacents sont recréés toutes les 24 heures à l’aide des dernières données de comportement des visiteurs afin de garantir que Target reste toujours en phase avec l’évolution des préférences des visiteurs.
 * Si l’algorithme ne peut pas déterminer les expériences gagnantes pour les visiteurs individuels, il affiche automatiquement l’expérience globale la plus performante tout en continuant à rechercher des gagnants personnalisés. L’expérience la plus performante est trouvée en utilisant l’[échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
@@ -61,7 +62,7 @@ La forêt aléatoire est l’une des approches les plus utilisées dans le domai
 
 **Target utilise automatiquement toutes les audiences partagées de [!DNL Adobe Experience Cloud] pour créer les modèles de personnalisation**.
 
-* Vous ne devez rien faire de particulier pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation de [!DNL Experience Cloud Audiences] avec [!DNL Target], voir [Audiences d’Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
+* Vous n’avez rien besoin de faire de particulier pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation de [!DNL Experience Cloud Audiences] avec [!DNL Target], voir [Audiences d’Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
 
 **Les marketeurs peuvent télécharger des données hors ligne, les scores de propension ou d’autres données personnalisées pour créer des modèles de personnalisation.**
 

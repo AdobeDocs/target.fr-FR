@@ -2,16 +2,17 @@
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
 description: 'Découvrez comment utiliser les rapports spécialisés pour les activités Automated Personalization (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
 title: Comment utiliser les rapports Informations sur la personnalisation ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 54%
+source-wordcount: '908'
+ht-degree: 48%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapports Informations sur la personnalisation
+# Rapports de statistiques de personnalisation
 
 Deux rapports spécialisés sont disponibles pour les utilisateurs des activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (AT) : Segments automatisés et Attributs importants.
 
@@ -47,22 +48,22 @@ Deux [!UICONTROL Informations sur la personnalisation] rapports disponibles :
 
 Il existe deux types d’attribut représentés dans les rapports [!UICONTROL Informations sur la personnalisation] et utilisés dans vos modèles AP ou de ciblage automatique :
 
-* **Attributs automatiquement collectés par  :**[!DNL Target] Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que même si ces attributs sont pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
-* **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+* **Attributs automatiquement collectés par  :**[!DNL Target] Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que bien que ces attributs soient pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
+* **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] offre plusieurs moyens de transmettre des données supplémentaires à [!DNL Target] pour enrichir le jeu de données de base utilisé pour créer ses algorithmes de personnalisation dans les activités AP et AT :
 
 | Type de données | Description | Convention de dénomination des types de données |
 |--- |--- |--- |
 | Attributs de profil, y compris scripts de profil, API de mise à jour des profils et attributs de profil internes à la page | Toutes les informations que vous avez décidé d’inclure dans le profil utilisateur de Target.<br>Ces informations peuvent provenir de scripts de profil, d’informations chargées à l’aide de l’API de mise à jour du profil, ou des paramètres de profil in-mbox préfixés par « profile ». | `Custom - Profile - [parameter name]` |
-| Paramètres de page (également nommés « paramètres mbox ») | Paires nom/valeur transmises directement via le code de page qui ne sont pas stockées dans le profil du visiteur pour une utilisation future. | `Custom - Mbox Parameter - [parameter name]` |
+| Paramètres de page (également appelés &quot;paramètres de mbox&quot;) | Paires nom/valeur transmises directement via le code de page qui ne sont pas stockées dans le profil du visiteur pour une utilisation future. | `Custom - Mbox Parameter - [parameter name]` |
 | Attributs du client | Les attributs du client permettent de télécharger les données des profils de visiteur vers Experience Cloud par FTP. Une fois le chargement effectué, vous pouvez exploiter les données dans Adobe Analytics et Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Audiences partagées (Adobe Audience Manager ou Adobe Analytics) | Audiences créées avec Adobe Audience Manager ou Adobe Analytics et partagées avec Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiences partagées (plateforme de données clients en temps réel/Adobe Experience Platform) | Audiences créées via la plateforme de données clients en temps réel de Adobe Experience Platform et partagées avec Target via les destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | Attributs partagés (plateforme de données clients en temps réel/Adobe Experience Platform) | Attributs créés via la plateforme de données clients en temps réel de Adobe Experience Platform et partagés avec Target via les destinations. Cette fonctionnalité est actuellement en version bêta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| Audiences/Segments de rapport dans les activités | Audiences définies dans votre activité AP ou de ciblage automatique pendant la configuration dans « Objectifs &amp; Mesures ». | `Custom - Reporting Segment - [segment name]` |
+| Audiences/Segments de rapport dans les activités | Audiences définies dans votre activité AP ou de ciblage automatique lors de la configuration dans &quot;Objectifs et mesures&quot;. | `Custom - Reporting Segment - [segment name]` |
 
-## Questions fréquentes 
+## Questions fréquentes
 
 Liste des questions fréquentes sur [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] [!UICONTROL Insights] rapports.
 

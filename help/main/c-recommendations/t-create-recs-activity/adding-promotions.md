@@ -2,16 +2,17 @@
 keywords: promotions;promotions front;promotions;rétropromotions;type de promotions;liste d’éléments;promouvoir par attribut;promouvoir une collection
 description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans votre Adobe [!DNL Target] Conceptions Recommendations. Vous pouvez ajouter des promotions statiques et dynamiques.
 title: Comment ajouter des promotions dans les conceptions Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 49%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Ajout de promotions
+# Ajout de promotions
 
 Ajoutez des éléments en promotion et contrôlez leur placement dans votre [!DNL Adobe Target Recommendations] conceptions. Vous pouvez ajouter des promotions statiques et dynamiques.
 

@@ -2,17 +2,18 @@
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
 description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre Adobe [!DNL Target] Catalogue Recommendations.
 title: Comment utiliser les attributs d’entité personnalisés ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Attributs d’entité personnalisés
+# Attributs d’entité personnalisés
 
 Utilisation d’attributs d’entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
 
@@ -36,7 +37,7 @@ Un attribut d’entité personnalisé avec une seule valeur est formé de la mê
 
 Un attribut d’entité personnalisé à plusieurs valeurs doit être envoyé en tant que tableau JSON valide :
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Exemples de tableaux JSON valides pris en charge par [!DNL Recommendations]:
 
@@ -126,7 +127,8 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Voir [Documentation de l’API Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} pour obtenir des informations sur l’utilisation des API Diffusion et Enregistrer les entités.
+Consultez la [documentation sur les API d’Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} pour plus d’informations sur
+l’utilisation des API Diffusion et Enregistrer les entités
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 

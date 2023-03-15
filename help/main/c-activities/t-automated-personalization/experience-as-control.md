@@ -2,17 +2,18 @@
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
 description: Découvrez comment sélectionner une expérience à utiliser comme contrôle lors de la création d’une activité Automated Personalization (AP) ou de ciblage automatique dans Adobe Target.
 title: Comment puis-je utiliser une expérience spécifique comme contrôle dans une activité AP ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 95%
+source-wordcount: '764'
+ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Sélection du contrôle de votre activité Automated Personalization ou de ciblage automatique
+# Sélection du contrôle de votre activité de Automated Personalization ou de ciblage automatique
 
 Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
@@ -22,9 +23,9 @@ Les options permettant de définir un contrôle dans les activités AP et AT son
 
 Vous disposez de deux options pour votre contrôle dans vos activités AP et AT : expériences diffusées de manière aléatoire ou expérience spécifique.
 
-* **Diffusée de manière aléatoire** : Pour un contrôle aléatoire, le pourcentage de contrôle du trafic est diffusé de manière aléatoire dans toutes les expériences de l’activité, sans tenir compte du profil du visiteur. Il est utile de considérer le contrôle comme la réponse à la question : « Si je diffuse simplement une expérience (ou offre) aux visiteurs sans tenir compte de leurs profils, quel est le taux de conversion de cette expérience (ou offre) ? » Le contrôle est semblable à un test A/B dans votre activité AI. Il peut s’avérer utile d’avoir ces informations sur le taux de conversion non personnalisé pour chaque expérience ou offre, afin de comprendre à quel moment analyser les résultats de votre activité.
+* **Diffusé de manière aléatoire**: Pour un contrôle aléatoire, le pourcentage de contrôle du trafic est diffusé de manière aléatoire à toutes les expériences de l’activité, sans tenir compte du profil de ce visiteur. Vous pouvez considérer le contrôle comme une réponse à la question &quot;Si je diffuse simplement une expérience (ou offre) aux visiteurs sans tenir compte de leurs profils, quel est le taux de conversion de cette expérience (ou offre) ?&quot; Le contrôle est semblable à un test A/B dans votre activité AI. Il peut s’avérer utile d’avoir ces informations sur le taux de conversion non personnalisé pour chaque expérience ou offre, afin de comprendre à quel moment analyser les résultats de votre activité.
 
-* **Expérience spécifique** : Un contrôle d’expérience spécifique permet de comparer le trafic diffusé par les modèles de personnalisation de Target à une expérience spécifique définie par le spécialiste du ’ (par exemple, votre page d’accueil par défaut). Avec cette option, le pourcentage de contrôle du trafic est diffusé de manière aléatoire au trafic pour cette seule expérience.
+* **Expérience spécifique**: Un contrôle d’expérience spécifique vous permet de comparer le trafic traité par les modèles de personnalisation de Target à une expérience spécifique définie par le spécialiste du marketing (par exemple, votre page d’accueil par défaut). Avec cette option, le pourcentage de contrôle du trafic est diffusé de manière aléatoire au trafic pour cette seule expérience.
 
 ## Définition d’une expérience spécifique comme contrôle
 

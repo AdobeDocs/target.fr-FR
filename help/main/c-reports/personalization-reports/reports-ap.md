@@ -2,16 +2,17 @@
 keywords: ciblage;rapports AP;rapports de personnalisation automatisée;rapport au niveau de l’activité;rapport au niveau de l’offre;rapport des détails de l’offre;faq
 description: Découvrez comment interpréter le rapport de synthèse Automated Personalization dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser les rapports de synthèse Automated Personalization ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 34%
+source-wordcount: '678'
+ht-degree: 33%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapports de synthèse de personnalisation automatisée
+# Rapports de synthèse d’Automated Personalization
 
 Des rapports de synthèse spécialisés sont disponibles pour les utilisateurs de [!UICONTROL Automated Personalization] activités dans [!DNL Adobe Target].
 
@@ -70,7 +71,7 @@ Cliquez sur le bouton [!UICONTROL Attributs importants] icône . Ce rapport mont
 
 Pour plus d’informations, voir [Rapport Attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
-## Questions fréquentes 
+## Questions fréquentes
 
 ### Pourquoi y a-t-il des différences de données entre les rapports Niveau d’activité et Niveau d’offre ?
 
