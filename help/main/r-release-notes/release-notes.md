@@ -8,8 +8,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,13 +19,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.15.1 (8 et 9 mars 2023)
+## [!DNL Target] Standard/Premium 22.15.1 (8 et 9 mars 2023)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **8 mars**: Région des Amériques
-* **9 mars**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **9 mars**: Région Asie-Pacifique (APAC)
+* **8 mars** : région Amériques
+* **9 mars** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **9 mars** : région Asie-Pacifique (APAC)
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Cette version comprend les correctifs suivants :
 
 ## at.js version 2.10.2 (7 mars 2023)
 
-* Correction d’un problème en raison duquel la variable `trackEvent` pour toujours renvoyer une erreur.
+* Correction d’un problème en raison duquel la fonction `trackEvent` renvoyait toujours une erreur.
 
 Pour plus d’informations sur toutes les versions d’at.js, voir [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
