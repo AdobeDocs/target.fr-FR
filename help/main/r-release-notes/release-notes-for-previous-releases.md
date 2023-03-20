@@ -4,10 +4,10 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
 workflow-type: tm+mt
-source-wordcount: '35729'
-ht-degree: 97%
+source-wordcount: '35989'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,39 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2023
+
+### [!DNL Target] Standard/Premium 22.15.1 (8 et 9 mars 2023)
+
+Cette version sera disponible selon le planning échelonné suivant :
+
+* **8 mars** : région Amériques
+* **9 mars** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **9 mars** : région Asie-Pacifique (APAC)
+
+>[!NOTE]
+>
+>En raison de problèmes qui ont été corrigés depuis, les mesures &quot;Optimized A4T&quot; pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]&quot;La fonctionnalité qui a été publiée les 8 et 9 mars a été temporairement supprimée. Après d’autres tests internes, la fonctionnalité sera de nouveau disponible au cours des prochaines semaines.
+
+Cette version comprend les correctifs suivants :
+
+* Mises à jour pour la création de composants web personnalisés avec le [!UICONTROL Compositeur d’expérience visuelle] (VEC) :
+
+   * Correction de la sélection des éléments DOM fantômes dans le VEC en améliorant le processus de création afin qu’il n’y ait aucune dépendance sur la variable [!DNL Target] type d’implémentation lors de la création de la racine fantôme. Désormais, la sélection des éléments DOM fantômes dans le VEC doit fonctionner pour n’importe quel site web.
+   * Correction d’un problème qui empêchait le chargement des éléments de HTML à l’aide de #Shadow DOM dans le VEC. (TGT-35801)
+   * Correction de problèmes du compositeur d’expérience visuelle avec SPA sites web à l’aide de ShadowDOM. (TGT-43169)
+   * Correction d’un problème lié à l’objectif d’optimisation : &quot;clic sur un élément&quot; qui n’identifiait pas correctement le sélecteur CSS dans ShadowDOM.
+
+>[!NOTE]
+>
+>Pour garantir la diffusion des modifications créées dans le compositeur d’expérience visuelle, assurez-vous que vous utilisez une [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) avec une version supérieure à 2.8.
+
+**Problème connu**: Suivi des clics sur un élément racine fantôme lors de l’utilisation de [!DNL Adobe Experience Platform Web SDK] ne fonctionne pas correctement. (TNT-47012)
+
+### at.js version 2.10.2 (7 mars 2023)
+
+* Correction d’un problème en raison duquel la fonction `trackEvent` renvoyait toujours une erreur.
+
+Pour plus d’informations sur toutes les versions d’at.js, voir [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (du 13 au 15 février 2023)
 
