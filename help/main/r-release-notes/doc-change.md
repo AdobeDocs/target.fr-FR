@@ -5,7 +5,7 @@ title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Tar
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2197'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 29 novembre | [Géo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Clarification du texte avec l’ajout du paragraphe suivant :<ul><li>Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.</li></ul> |
 | 28 novembre | [Présentation de l’API Modèles (liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans le *Guide du développeur d’Adobe Target*. | Nouvelle API Modèles.<br>Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version de l’API Modèles (23 novembre 2022). |
-| 23 novembre | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour du lien vers le [Formulaire de configuration des intégrations Experience Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
+| 23 novembre | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour du lien vers le [Formulaire de configuration des intégrations Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 novembre | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement pour l’événement suivant :<ul><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (29 novembre)</li></ul> |
 | 8 novembre | [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Ajout d’une note importante indiquant que pour obtenir des résultats précis, vous devez recharger la page avant de modifier les numéros de paramètre dans la variable [!DNL Adobe Target] [!UICONTROL Calculateur de taille d’échantillon]. Ajout également d’une note dans le [calculateur](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){target=_blank}. |
 |  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Mise à jour de la description du paramètre `adobe_mc_sdid` dans le tableau. |
