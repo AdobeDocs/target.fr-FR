@@ -8,8 +8,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ Cette version sera disponible selon le planning échelonné suivant :
 
 >[!NOTE]
 >
->En raison de problèmes qui ont été corrigés depuis, les mesures &quot;Optimized A4T&quot; pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]&quot;La fonctionnalité qui a été publiée les 8 et 9 mars a été temporairement supprimée. Après d’autres tests internes, la fonctionnalité sera de nouveau disponible au cours des prochaines semaines.
+>En raison de problèmes qui ont été corrigés depuis, la fonctionnalité « A4T optimisé pour l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique] » qui a été publiée les 8 et 9 mars a été temporairement supprimée. Après d’autres tests internes, la fonctionnalité sera de nouveau disponible au cours des prochaines semaines.
 
 Cette version comprend les correctifs suivants :
 
-* Mises à jour pour la création de composants web personnalisés avec le [!UICONTROL Compositeur d’expérience visuelle] (VEC) :
+* Mises à jour pour la création de composants web personnalisés avec le [!UICONTROL Compositeur d’expérience visuelle] (VEC) :
 
-   * Correction de la sélection des éléments DOM fantômes dans le VEC en améliorant le processus de création afin qu’il n’y ait aucune dépendance sur la variable [!DNL Target] type d’implémentation lors de la création de la racine fantôme. Désormais, la sélection des éléments DOM fantômes dans le VEC doit fonctionner pour n’importe quel site web.
-   * Correction d’un problème qui empêchait le chargement des éléments de HTML à l’aide de #Shadow DOM dans le VEC. (TGT-35801)
-   * Correction de problèmes du compositeur d’expérience visuelle avec SPA sites web à l’aide de ShadowDOM. (TGT-43169)
-   * Correction d’un problème lié à l’objectif d’optimisation : &quot;clic sur un élément&quot; qui n’identifiait pas correctement le sélecteur CSS dans ShadowDOM.
+   * Correction de la sélection des éléments Shadow DOM dans le VEC en améliorant le processus de création afin qu’il n’y ait aucune dépendance sur le type d’implémentation [!DNL Target] lors de la création de la racine fantôme. Désormais, la sélection des éléments Shadow DOM dans le VEC doit fonctionner pour n’importe quel site web.
+   * Correction d’un problème qui empêchait le chargement des éléments HTML à l’aide de #Shadow DOM dans le VEC. (TGT-35801)
+   * Correction des problèmes du VEC avec les sites web SPA utilisant ShadowDOM. (TGT-43169)
+   * Correction d’un problème lié à l’objectif d’optimisation : « clic sur un élément » qui n’identifiait pas correctement le sélecteur CSS dans ShadowDOM.
 
 >[!NOTE]
 >
->Pour garantir la diffusion des modifications créées dans le compositeur d’expérience visuelle, assurez-vous que vous utilisez une [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) avec une version supérieure à 2.8.
+>Pour garantir la diffusion des modifications créées dans le VEC, assurez-vous que vous utilisez un SDK [!DNL Target] ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr){target=_blank} (alloy.js)) avec une version supérieure à 2.8.
 
-**Problème connu**: Suivi des clics sur un élément racine fantôme lors de l’utilisation de [!DNL Adobe Experience Platform Web SDK] ne fonctionne pas correctement. (TNT-47012)
+**Problème connu** : le suivi des clics sur un élément racine fantôme lors de l’utilisation de [!DNL Adobe Experience Platform Web SDK] ne fonctionne pas correctement. (TNT-47012)
 
 ## at.js version 2.10.2 (7 mars 2023)
 
