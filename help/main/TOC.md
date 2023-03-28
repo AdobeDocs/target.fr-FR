@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 98%
+source-wordcount: '1239'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,12 @@ ht-degree: 98%
    + Intégration de Target à Adobe Journey Optimizer {#ajo}
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Intégration de Target à Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Intégration de Target à Adobe Experience Manager {#aem}
+      + [Intégration de Target à Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + Fragments d’expérience et fragments de contenu {#fragments}
+         + [Présentation des fragments d’expérience AEM et des fragments de contenu](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM de fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Intégration de Target à Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Intégration à Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 98%
       + [Utilisation du contenu de la bibliothèque](c-experiences/c-manage-content/assets-working.md)
       + [Recherche de contenu](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmission de données dynamiques dans les offres](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [Fragments d’expérience AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM d’expérience et de fragments de contenu](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapports {#reports}
    + [Présentation des rapports](c-reports/reports.md)
    + Paramètres des rapports {#settings}
