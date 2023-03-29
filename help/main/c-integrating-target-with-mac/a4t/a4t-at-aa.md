@@ -4,14 +4,14 @@ description: Découvrez comment créer [!UICONTROL Affectation automatique] et [
 title: Prise en charge d’A4T [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] Activités ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
+source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 2%
+source-wordcount: '1175'
+ht-degree: 5%
 
 ---
 
-# Prise en charge d’A4T pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités
+# Prise en charge d’A4T pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]
 
 Le [!DNL Adobe Target]-to-[!DNL Adobe Analytics] intégration, connue sous le nom de [Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) prend en charge [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités.
 
@@ -84,9 +84,6 @@ Certaines limites et notes s’appliquent à la fois à [!UICONTROL Affectation 
 * Lors de l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!UICONTROL Affectation automatique] ou [!UICONTROL Ciblage automatique], vous devez toujours afficher les rapports dans [!DNL Analytics].
 * La source de création de rapports ne peut pas être modifiée à partir de [!DNL Analytics] to [!DNL Target] ou vice versa une fois qu’une activité a été activée.
 * Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat prévu en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure comme &quot;remplissage de formulaire par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaire&quot; comme mesure d’objectif Principale. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
-* Lors de l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!UICONTROL Affectation automatique] ou [!UICONTROL Ciblage automatique] activités, vous devez toujours afficher les rapports dans [!DNL Analytics].
-* La source de création de rapports ne peut pas être modifiée à partir de [!DNL Analytics] to [!DNL Target] ou vice versa une fois qu’une activité a été activée.
-* Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat prévu en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure comme &quot;remplissage de formulaire par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaire&quot; comme mesure d’objectif Principale. [!DNL Target] normalise automatiquement les mesures de conversion par visiteur pour [!UICONTROL Affectation automatique] n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
 
 ### Affectation automatique {#aa}
 
@@ -109,16 +106,16 @@ Pour plus d’informations, voir [Modèles d’attribution et intervalles de rec
 
 Bien que des fonctionnalités d’analyse complètes soient disponibles dans [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], quelques modifications apportées à la valeur par défaut [!UICONTROL Analytics pour Target] doivent être correctement interprétés. [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités. Ces modifications sont requises en raison des différences entre les activités d’expérimentation (A/B manuel et [!UICONTROL Affectation automatique]) et des activités de personnalisation ([!UICONTROL Ciblage automatique]).
 
-### Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Affectation automatique] activités
+### Configuration de rapports A4T dans [!DNL Analysis Workspace] pour les activités d’[!UICONTROL affectation automatique]
 
 Ce tutoriel vous guide tout au long des modifications recommandées pour l’analyse [!UICONTROL Affectation automatique] activités dans [!DNL Analysis Workspace].
 
-Pour plus d’informations, voir [Configuration des rapports A4T dans Analysis Workspace pour les activités d’affectation automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} in *Tutorials Adobe Target*.
+Pour plus d’informations, voir [Configuration des rapports A4T dans Analysis Workspace pour les activités d’affectation automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=fr){target=_blank} in *Tutorials Adobe Target*.
 
-### Configuration de rapports A4T dans [!DNL Analysis Workspace] pour [!UICONTROL Ciblage automatique] activités
+### Configuration de rapports A4T dans [!DNL Analysis Workspace] pour les activités de [!UICONTROL ciblage automatique]
 
 Ce tutoriel vous guide tout au long des modifications recommandées pour l’analyse [!UICONTROL Ciblage automatique] activités dans [!DNL Analysis Workspace].
 
-Pour plus d’informations, voir [Configuration des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank} in *Tutorials Adobe Target*.
+Pour plus d’informations, voir [Configuration des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank} in *Tutorials Adobe Target*.
 
 
