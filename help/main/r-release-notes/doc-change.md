@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 99%
+source-wordcount: '2259'
+ht-degree: 97%
 
 ---
 
@@ -19,14 +19,15 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 30 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Mise à jour des notes de mise à jour pour la mise à jour des mesures optimisées d’A4T pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] qui vous permet de choisir des mesures en fonction d’événements binaires ou de mesures en fonction d’événements continus lors de l’utilisation de la fonction [!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités. |
+|  | [Prise en charge d’A4T pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Mise à jour de la section afin d’inclure des informations sur les mesures prises en charge (et non prises en charge) pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique] utilisant [!UICONTROL Analytics for Target] (A4T). |
+|  | [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr){target=_blank} | Mise à jour des tutoriels suivants :<ul><li>[Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités d’[!UICONTROL affectation automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=fr){target=_blank}</li><li>[Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités de [!UICONTROL ciblage automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank}</li></ul> |
 | 28 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.3.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (8 et 9 mars 2023)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 8 mars | [Prise en charge d’A4T pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Mise à jour de la section afin d’inclure des informations sur les mesures prises en charge (et non prises en charge) pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique] utilisant [!UICONTROL Analytics for Target] (A4T). |
-|  | [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr){target=_blank} | Ajout de nouveaux tutoriels :<ul><li>[Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités d’[!UICONTROL affectation automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=fr){target=_blank}</li><li>[Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités de [!UICONTROL ciblage automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank}</li></ul> |
 |  | [Modifier une activité ou l’enregistrer sous forme de version préliminaire](/help/main/c-activities/edit-activity.md) | Ajout d’une section « Bonnes pratiques ». |
 |  | [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout de la remarque suivante à la section « Résolution de problèmes liés au code personnalisé » :<ul><li>Les offres de code personnalisé dans le VEC ne sont pas rendues de nouveau lorsque `triggerView()` est appelé avec `{page: false}` comme option.</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.10.2 d’at.js. |

@@ -4,10 +4,10 @@ description: Découvrez comment créer [!UICONTROL Affectation automatique] et [
 title: Prise en charge d’A4T [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] Activités ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 5%
+source-wordcount: '1265'
+ht-degree: 7%
 
 ---
 
@@ -62,18 +62,39 @@ Pour démarrer :
 * [!DNL Adobe Analytics] des mesures de conversion
 * [!DNL Adobe Analytics] événements personnalisés
 
-[!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] nécessite que vous choisissiez une mesure basée sur un événement binaire. Un événement binaire se produit ou ne se produit pas. Les événements binaires incluent un clic, une conversion, une commande, etc. On parle aussi parfois de Bernoulli, de binaire ou d’événement discret.
+[!DNL Target] vous permet de choisir des mesures en fonction d’événements binomiaux ou d’événements continus lors de l’utilisation de [!UICONTROL A4T] pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique].
 
-[!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] ne prend pas en charge l’optimisation des mesures continues. Les mesures continues comprennent les recettes, le nombre de produits commandés, la durée de session, le nombre de pages vues dans la session, etc. Ces types de mesures non pris en charge sont également parfois appelés mesures non binaires ou non Bernoulli.
+* **Mesures basées sur des événements binaires**: Un événement binaire se produit ou ne se produit pas. Les événements binaires incluent un clic, une conversion, une commande, etc. On parle aussi parfois de Bernoulli, de binaire ou d’événement discret.
 
-Les types de mesures suivants ne sont pas pris en charge en tant que mesures d’objectif Principal :
+* **Mesures basées sur des événements continus**. Les mesures continues comprennent les recettes, le nombre de produits commandés, la durée de session, le nombre de pages vues dans la session, etc. Ces types d’événements sont également parfois appelés mesures non binaires ou non Bernoulli.
 
-* [!DNL Adobe Target] mesures d’engagement et de recettes
-* [!DNL Adobe Analytics] mesures d’engagement et de recettes
+>[!IMPORTANT]
+>
+>À partir du [!DNL Adobe Target Standard/Premium] version 22.15.1 (8 et 9 mars 2023), [!DNL Target] continue à prendre en charge les activités existantes avec les mesures qui ne sont désormais plus prises en charge (répertoriées dans les tableaux suivants). Toutefois, après le 9 septembre 2023, ces mesures ne seront plus prises en charge dans les activités existantes et toutes les activités utilisant des mesures non prises en charge seront interrompues pour forcer la migration des activités existantes vers le nouveau comportement.
 
-   Il est possible de sélectionner une [!DNL Analytics] la mesure d’engagement ou de recettes comme mesure d’objectif Principale, car [!DNL Target] ne peuvent pas identifier et exclure toutes les mesures d’engagement et de recettes de [!DNL Analytics]. Sélectionnez uniquement des mesures de conversion binaires ou des événements personnalisés dans [!DNL Analytics].
+### Impact sur [!UICONTROL Affectation automatique] activités
 
-* [!DNL Adobe Analytics] mesures calculées
+| Nom de mesure | Plus pris en charge dans : |
+| --- | --- |
+| [!UICONTROL averagepagedepth] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL averagetimespentonsite] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL bouncerate] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL bounces] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL entrées] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL sorties] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL pageviews] | Maximiser la valeur de mesure |
+| [!UICONTROL rechargements] | Maximiser la valeur de mesure |
+| [!UICONTROL visiteurs] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL visites] | Maximiser la valeur de mesure |
+
+### Impact sur [!UICONTROL Ciblage automatique] activités
+
+| Nom de mesure | Plus pris en charge dans : |
+| --- | --- |
+| [!UICONTROL cartremovals] | Maximiser la valeur de mesure |
+| [!UICONTROL pageviews] | Maximiser la valeur de mesure |
+| [!UICONTROL visiteurs] | Taux de conversion, Maximiser la valeur de mesure |
+| [!UICONTROL visites] | Maximiser la valeur de mesure |
 
 ## Limites et notes
 
