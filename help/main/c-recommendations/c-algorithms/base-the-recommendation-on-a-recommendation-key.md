@@ -5,9 +5,9 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous p
 
 ### Meilleurs vendeurs par attribut d’article
 
-(Informations à venir)
+Recommande des éléments ou des médias similaires aux éléments ou médias les plus achetés sur votre site.
+
+Cet algorithme vous permet de sélectionner l’attribut d’élément sur lequel vous souhaitez baser la recommandation, par exemple &quot;Nom&quot; ou &quot;Marque&quot;.
+
+Vous sélectionnez ensuite les attributs de profil stockés dans le profil du visiteur à faire correspondre, par exemple &quot;Marque préférée&quot;, &quot;Dernier élément ajouté au panier&quot; ou &quot;Programme le plus consulté&quot;.
 
 ### Mesure Début par Analytics
 
