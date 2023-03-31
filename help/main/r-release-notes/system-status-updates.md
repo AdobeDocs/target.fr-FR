@@ -1,13 +1,13 @@
 ---
 keywords: mise à jour système;dépannage;maintenance;état du système;état de mise à jour
-description: Consultez l’état actuel d’Adobe  [!DNL Target]  pour déterminer si les éventuels problèmes que vous rencontrez sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
-title: Où puis-je consulter le statut de  [!DNL Target]  et d’autres produits Adobe ?
+description: Afficher l’état de [!DNL Adobe Target] pour vous aider à déterminer si les problèmes que vous pouvez rencontrer sont dus à des mises à jour du système ou à une maintenance régulière.
+title: Où puis-je afficher l’état de [!DNL Target] et autres [!DNL Adobe] Produits ?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ Utilisez la page d’[!UICONTROL état du système Adobe] et les notifications p
 
 ## Mises à jour d’état du système
 
-Utilisez la page d’[!UICONTROL état du système Adobe] pour afficher l’état actuel de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la variable [!UICONTROL État du système d’Adobe] pour afficher l’état de [!DNL Target] et autres [!DNL Adobe] produits et [!DNL Adobe Experience Cloud] solutions. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
-Accédez à la page [!UICONTROL État du système] à l’adresse suivante :
+>[!NOTE]
+>
+>Une notification apparaît systématiquement dans le produit durant la mise à jour mensuelle de [!DNL Target] ; les éventuelles mises à jour mineures sont répertoriées sur cette page.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Accédez au [[!UICONTROL État du système]](https://status.adobe.com/fr){target=_blank}.
 
-Pour voir le statut des solutions [!DNL Experience Cloud], dont fait partie [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud].
+1. Pour voir le statut des solutions [!DNL Experience Cloud], dont fait partie [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud].
 
-![image system_status](assets/system_status.png)
+   ![image system_status](assets/system_status.png)
 
-Le haut de la page contient des informations sur les événements de maintenance en cours de réalisation. Elle contient également un lien pour s’abonner aux mises à jour de chaque solution.
+   Le haut de la page contient des informations sur les événements de maintenance en cours et comprend un lien pour gérer les abonnements afin de mettre à jour les solutions individuelles.
 
-Dans l’illustration ci-dessus, [!DNL Adobe Analytics], [!DNL Adobe Target] et [!DNL Adobe Campaign] étaient en train d’exécuter des mises à jour de maintenance. Tous les autres produits et solutions fonctionnaient normalement. Consultez cette page si vous rencontrez des problèmes lors de l’utilisation de [!DNL Target].
+   Dans l’illustration ci-dessus, [!DNL Adobe Advertising], [!DNL Adobe Analytics], et [!DNL Adobe Audience Manager] et d’autres solutions ont récemment terminé les mises à jour de maintenance. Tous les autres produits et solutions fonctionnaient normalement. Consultez cette page si vous rencontrez des problèmes lors de l’utilisation de [!DNL Target].
 
-Une notification apparaît systématiquement dans le produit durant la mise à jour mensuelle de [!DNL Target] ; les éventuelles mises à jour mineures sont répertoriées sur cette page.
-
-Le bas de la page contient un calendrier des sept derniers jours, avec le statut quotidien de chaque solution. Passez la souris sur un indicateur d’état pour plus d’informations :
-
-![image system_status_indicator](assets/system_status_indicator.png)
+1. (Facultatif) Filtrez la liste par produits, régions ou plages de dates. Cliquez sur le bouton [!UICONTROL Major], [!UICONTROL Mineur], [!UICONTROL Potentiel]ou [!UICONTROL Maintenance] liens pour filtrer davantage vos résultats.
 
 ## Notifications proactives
 
