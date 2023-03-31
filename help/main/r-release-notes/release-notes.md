@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '843'
+ht-degree: 63%
 
 ---
 
@@ -45,8 +45,6 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 * Correction d’un problème en raison duquel les demandes de POST créaient de nouvelles [!DNL Recommendations] échec des flux lors de l’utilisation de [!UICONTROL Classifications Analytics] avec des suites de rapports dont le nom contient des points. (TGT-44598)
 * Mise à jour des liens dans [!DNL Target] Interface utilisateur pour pointer vers la nouvelle [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Amélioration de la sécurité afin d’empêcher les tentatives SSRF (Server Side Request Forgery) dans [!DNL Recommendations] flux. (TGT-43769)
-* Correction d’un problème qui empêchait les clients d’afficher des images d’aperçu dans [!DNL Recommendations] conceptions si le nom de l’image contient [Caractères GB18030](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* Correction d’un problème en raison duquel certains [Caractères GB18030](https://en.wikipedia.org/wiki/GB_18030){target=_blank} à échapper dans la variable [!UICONTROL Modifications] panneau lors de la modification [!UICONTROL Texte/HTML] sur le [!UICONTROL Expériences] page. (TGT-44600)
 * Plusieurs correctifs de localisation ont été apportés dans l’ensemble de l’interface utilisateur de [!DNL Target].
 
 ## at.js version 2.10.2 (7 mars 2023)
