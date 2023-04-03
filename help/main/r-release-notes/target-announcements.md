@@ -4,7 +4,7 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 97%
@@ -24,7 +24,7 @@ Pour plus d’informations, consultez l’[article de blog d’Adobe Experience
 ## [!UICONTROL Session Adobe Target Community Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)]
 
 * **Mercredi 12 avril 2023**
-* **de 8 h à 9 h 00 (PDT, GMT -7)
+* **08:00 à 9:00 (PDT, GMT -7)**
 * **[Informations d’enregistrement](https://adobe.ly/42gQGfv){target=_blank}**
 
 Rejoignez Matthew Bailie et Georgia Frailey, toutes deux consultantes en solutions senior pour [!DNL Adobe Target], qui parlera directement avec vous de votre [!DNL Adobe Target] questions relatives aux [!DNL Target] Fonctionnalités d’IA, en particulier [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique].
