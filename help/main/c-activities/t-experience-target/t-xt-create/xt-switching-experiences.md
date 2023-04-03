@@ -4,24 +4,16 @@ description: Découvrez comment les visiteurs peuvent passer d’une expérience
 title: Les visiteurs peuvent-ils changer d’expérience dans une activité de ciblage d’expérience ?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
 # Changement d’expérience dans Adobe Experience Targeting
 
 Informations sur la manière dont les visiteurs peuvent passer d’une expérience à une autre, au fur et à mesure de l’évolution de leurs profils, dans une activité de ciblage d’expérience.
-
->[!NOTE]
->
->**21 septembre 2017**
->
->Avec la version du 21 septembre 2017, Target a changé la manière dont les utilisateurs sont placés dans des expériences dans les activités de ciblage d’expérience (XT) (campagnes de page d’entrée dans Target Classic). Pour toutes les activités nouvelles et existantes, les utilisateurs doivent respecter les règles de ciblage d’expérience à chaque impression pour continuer à voir le contenu de l’expérience et être décomptés dans les rapports. Auparavant, si l’utilisateur n’était plus éligible pour les expériences, il continuait à voir le contenu de la dernière expérience pour laquelle il était éligible et à être décompté dans ses rapports.
->
->Cette modification s’est implémentée automatiquement dans le cadre de cette version pour toutes les activités existantes, ainsi que pour toutes les activités créées après la publication de la version. Si vous souhaitez utiliser la méthode antérieure (avant le 21 septembre), vous pouvez créer des audiences à l’aide de scripts de profil. Ainsi, un utilisateur doit respecter une seule fois une condition pour être inclus dans ces audiences à l’avenir. Utilisez ensuite ces audiences pour chaque expérience de l’activité.
 
 Grâce au ciblage d’expérience, vous pouvez contrôler quelle expérience voient les visiteurs au fur et à mesure de l’évolution de leurs profils. La liste ci-après présente quelques scénarios dans lesquels les profils des visiteurs peuvent évoluer et pour lesquels vous pouvez présenter un autre contenu :
 
