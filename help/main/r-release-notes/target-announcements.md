@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: cead599ec57e0532cabe29295d19380eb80575f9
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,14 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour nos fonctionnalités de test, devançant ainsi tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Session Adobe Target Community Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)]
+
+* **Mercredi 12 avril 2023**
+* **de 8 h à 9 h 00 (PDT, GMT -7)
+* **[Informations d’enregistrement](https://adobe.ly/42gQGfv){target=_blank}**
+
+Rejoignez Matthew Bailie et Georgia Frailey, toutes deux consultantes en solutions senior pour [!DNL Adobe Target], qui parlera directement avec vous de votre [!DNL Adobe Target] questions relatives aux [!DNL Target] Fonctionnalités d’IA, en particulier [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique].
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
