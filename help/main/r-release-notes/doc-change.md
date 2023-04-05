@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 5 avril | [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Ajout d’un texte indiquant que [!UICONTROL Analytics comme source de création de rapports] (A4t) n’est pas pris en charge dans les activités qui utilisent les décisions d’offre. |
 | 3 avril | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos du [!UICONTROL Communauté Adobe Target] Saut de café programmé pour mercredi 12 avril 2023. |
 |  | [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Ajout d’une note pour placer sur la liste autorisée tout [!DNL Adobe Analytics] Blocs d’adresses IP. |
 | 30 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Mise à jour des notes de mise à jour pour la mise à jour des mesures optimisées d’A4T pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] qui vous permet de choisir des mesures en fonction d’événements binaires ou de mesures en fonction d’événements continus lors de l’utilisation de la fonction [!UICONTROL A4T] pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités. |

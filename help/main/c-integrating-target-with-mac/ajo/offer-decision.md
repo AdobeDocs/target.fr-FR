@@ -4,9 +4,9 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1016'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Pour plus d’informations sur [!DNL Adobe Journey Optimizer] et les décisions 
 
 * [Commencer avec Journey Orchestration](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [À propos de la gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
+* [À propos de la gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Conditions préalables
 
@@ -72,7 +72,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de 
 
 1. Dans le **[!UICONTROL Ajout d’une décision d’offre]** , sélectionnez l’environnement de test et l’emplacement de votre choix.
 
-   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
+   A [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} in the [!DNL Adobe Experience Platform] lets you partition your instance into virtual environments. For example, you might have a production environment and a staging environment. A [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} in [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
 
    ![Listes déroulantes Environnement de test et Emplacements de la boîte de dialogue Ajouter une décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -102,9 +102,11 @@ Tenez compte des informations suivantes lorsque vous travaillez avec les décisi
 
 * L’intégration offer decisioning fonctionne pour [!DNL Target] les mises en oeuvre basées sur la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Cette fonctionnalité n’est pas disponible lors de la mise en oeuvre de [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
-* L’intégration Target/Adobe Journey Optimizer prend en charge [manuel [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette fonctionnalité n’est pas disponible pour les autres types d’activité.
+* Le [!DNL Target]/[!DNL Adobe Journey Optimizer] prise en charge de l’intégration [manuel [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette fonctionnalité n’est pas disponible pour les autres types d’activité.
 
-* Les offres de type de contenu texte/html ne prennent pas en charge la diffusion de contenu deliveryURL. L’URL de diffusion est prise en charge par le compositeur d’expérience d’après les formulaires uniquement lorsque le client est chargé de récupérer et de composer explicitement le contenu.
+* Vous ne pouvez pas utiliser [[!UICONTROL Analytics comme source de création de rapports]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si vous utilisez les décisions d’offre dans une activité. Choisir [!DNL Target] comme source de création de rapports dans la variable [!UICONTROL Objectifs et paramètres] lors de la configuration de l’activité, si vous utilisez les décisions d’offre dans l’activité.
+
+* Les offres de type de contenu texte/html ne prennent pas en charge la diffusion de contenu deliveryURL. L’URL de diffusion est prise en charge par l’intermédiaire de la variable [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement lorsque le client est chargé de récupérer et de composer explicitement le contenu.
 
 * [!DNL Target] la création de rapports ne fournit pas de rapports au niveau de la décision relative aux offres.
 
