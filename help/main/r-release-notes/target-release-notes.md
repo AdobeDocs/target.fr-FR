@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a791fbe805735b278f650ff1f087b85898a66a07
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -29,7 +29,7 @@ Cette version contient les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 |--- |--- |
-| AEM [!UICONTROL Fragments de contenu] pour une personnalisation et une expérimentation sans interface | Utilisation [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Fragments de contenu] in [!DNL Target] activités. Combinez la facilité d’utilisation et la puissance de l’AEM à de puissantes capacités d’intelligence artificielle (AI) et d’apprentissage automatique (ML) dans [!DNL Target] pour faciliter la personnalisation et l&#39;expérimentation sans tête. |
+| AEM [!UICONTROL Fragments de contenu] pour une personnalisation et une expérimentation sans interface | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance de l’AEM à de puissantes capacités d’intelligence artificielle (AI) et d’apprentissage automatique (ML) dans [!DNL Target] pour faciliter la personnalisation et l&#39;expérimentation sans tête. |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
