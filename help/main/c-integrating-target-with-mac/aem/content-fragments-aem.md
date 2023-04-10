@@ -4,18 +4,16 @@ description: Découvrez comment utiliser les  [!DNL Adobe Experience Manager] [!
 title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager]  (AEM) ?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 92%
+source-wordcount: '744'
+ht-degree: 89%
 
 ---
 
 # [!UICONTROL Fragments de contenu] AEM
 
 Utilisation [!UICONTROL Fragments de contenu] (CF) créés dans [!DNL Adobe Experience Manager] (AEM) dans [!DNL Target] des activités pour faciliter la personnalisation et l’expérimentation sans interface.
-
-Fragments de contenu AEM pour une personnalisation et une expérimentation découplées
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ Fragments de contenu AEM pour une personnalisation et une expérimentation déco
 >
 >Tenez compte des points suivants lorsque vous utilisez les [!UICONTROL fragments de contenu] AEM dans [!DNL Target] :
 > 
->* Cette fonctionnalité nécessite que vous soyez client ou cliente [!DNL Adobe Experience Manager] (AEM). Pour plus d’informations, voir [Conditions préalables](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
+>* Cette fonctionnalité requiert que vous soyez un [!DNL Adobe Experience Manager as a Cloud Service] client. Pour plus d’informations, voir [Conditions préalables](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
 >
 >* Cette fonctionnalité est disponible pour les types d’activité suivants : [!UICONTROL Test A/B], [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique], [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage d’expérience] (XT). Cette fonctionnalité n’est pas disponible dans les activités de [!UICONTROL test multivarié] (MVT) et de [!UICONTROL recommandations].
 >
->* Vous pouvez utiliser les [!UICONTROL fragments de contenu] dans les activités [!DNL Target] à l’aide du [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement. Vous ne pouvez pas utiliser les [!UICONTROL fragments de contenu] à l’aide du [!UICONTROL Compositeur d’expérience visuelle] (VEC).
+>* Vous pouvez utiliser les [!UICONTROL fragments de contenu] dans les activités [!DNL Target] à l’aide du [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement.
 
 
 Pour en savoir plus sur les [!UICONTROL fragments de contenu] et les [!UICONTROL fragments d’expérience] AEM, voir la [présentation sur les [!UICONTROL fragments d’expérience] et les [!UICONTROL fragments de contenu] AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 ## Conditions {#requirements}
 
-Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de [!UICONTROL fragments d’expérience] dans [!DNL Target]. En outre, vous devez utiliser [!DNL AEM] as a Cloud Service. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de [!UICONTROL fragments d’expérience] dans [!DNL Target]. En outre, vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
