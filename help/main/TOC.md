@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1222'
 ht-degree: 96%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 96%
          + [FAQ sur les offres de redirection - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [FAQ sur l’effet élévateur et le degré de confiance - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [FAQ sur les définitions de mesures - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-         + [FAQ sur le nombre exagéré de visiteurs ou de visites - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [FAQ sur les classifications – A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target – A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
