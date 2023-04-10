@@ -4,10 +4,10 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,6 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [Résolution des problèmes d’intégration d’Analytics et de Target](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
 * Questions fréquentes sur A4T
-   * [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [FAQ sur la configuration initiale - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [FAQ sur la configuration des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -159,5 +158,5 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 * [Résolution des problèmes du Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+* [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Compositeur d’expérience visuelle (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)

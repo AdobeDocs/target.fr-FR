@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 95%
+source-wordcount: '1230'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,6 @@ ht-degree: 95%
       + [Rapports A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Résolution des problèmes d’intégration d’Analytics et de Target (A4T) {#troubleshoot-a4t}
          + [Dépannage d’A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + Questions fréquentes sur A4T {#a4t-faq}
          + [FAQ sur l&#39;approvisionnement initial - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [FAQ sur le paramétrage des activités - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
@@ -97,9 +96,9 @@ ht-degree: 95%
    + Intégration de Target à Adobe Experience Manager {#aem}
       + [Intégration de Target à Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragments d’expérience et fragments de contenu {#fragments}
-         + [Présentation des fragments d’expérience AEM et des fragments de contenu](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Présentation des fragments d’expérience et fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [AEM de fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Intégration de Target à Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Intégration à Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
