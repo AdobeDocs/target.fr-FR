@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: a50fa37c7d294773148b192a4b433746b6033916
+source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 95%
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Intégration de Target à Adobe Experience Manager (AEM) {#aem}
-      + [Présentation de l’intégration de Target à Adobe Experience Manager (AEM)](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + [Présentation de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragments d’expérience et fragments de contenu {#fragments}
          + [Présentation des fragments d’expérience et fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
