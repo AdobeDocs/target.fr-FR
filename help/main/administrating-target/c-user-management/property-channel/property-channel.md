@@ -1,27 +1,27 @@
 ---
-keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
+keywords: espaces de travail;gérer la propriété;autorisations;configuration du produit;profil de produit;rôles;projet;observateur;éditeur;approbateur;éditeur
 description: Découvrez comment créer des espaces de travail distincts (profils de produit), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels.
 title: Que sont les autorisations des utilisateurs d’Enterprise et comment les utiliser ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 58%
 
 ---
 
 # Autorisations des utilisateurs d’Enterprise
 
-Autorisations des utilisateurs d’Enterprise sont un moyen d’administrer officiellement à l’ensemble de l’entreprise l’accès des utilisateurs à [!DNL Adobe Target]. Ajout d’utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles de [!UICONTROL Observateur], [!UICONTROL Éditeur]ou [!UICONTROL Approbateur].
+Autorisations des utilisateurs d’Enterprise sont un moyen d’administrer officiellement à l’ensemble de l’entreprise l’accès des utilisateurs à [!DNL Adobe Target]. Ajout d’utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles de [!UICONTROL Observateur], [!UICONTROL Éditeur], [!UICONTROL Approbateur]ou [!UICONTROL Éditeur].
 
 ## Déterminer si vous avez accès aux autorisations utilisateur de l’entreprise
 
 >[!NOTE]
 >
->La fonctionnalité Propriétés et autorisations est disponible dans le cadre de la solution [!DNL Target] Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
+>La fonctionnalité [!UICONTROL Propriétés et autorisations] est disponible dans le cadre de la solution [!DNL Target] Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
 >
 >Votre [!DNL Target] La mise en oeuvre peut utiliser n’importe quelle version d’at.js.
 
@@ -89,10 +89,10 @@ Les rôles et autorisations déterminent les niveaux d’accès qu’ont les uti
 
 | Rôle | Description |
 |--- |--- |
-| Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-| Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
-| Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
+| [!UICONTROL Approbateur] | Peut créer, modifier et activer ou arrêter les activités. |
+| [!UICONTROL Éditeur] | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+| [!UICONTROL Observateur] | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
+| [!UICONTROL Éditeur] | Semblable au [!UICONTROL Observateur] rôle (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’[!UICONTROL éditeur] dispose de l’autorisation supplémentaire d’activer les activités. |
 
 ### Canal
 
@@ -257,6 +257,10 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 ## Questions fréquentes {#faqs}
 
 Les questions fréquentes concernant les autorisations d’entreprise sont les suivantes :
+
+### Que se passe-t-il si un utilisateur dispose de plusieurs rôles et autorisations ?
+
+Si un utilisateur dispose de plusieurs rôles et autorisations, le rôle avec les autorisations du navigateur est appliqué. Par exemple, si un utilisateur possède [!UICONTROL Observateur] et [!UICONTROL Approbateur] les rôles, [!UICONTROL Approbateur] est appliqué.
 
 ### Puis-je déplacer une activité d’un espace de travail à un autre ?
 
