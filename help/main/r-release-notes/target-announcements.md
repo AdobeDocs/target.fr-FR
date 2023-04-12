@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '1984'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,28 @@ Rejoignez Matthew Bailie et Georgia Frailey, toutes deux consultantes en solutio
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-Aucun webinaire pour le moment.
+### Diffusez des expériences client personnalisées, à chaque fois !
+
+* **jeudi 27 avril 2023**
+* **de 9 h à 10 h (BST, GMT +1), de 10 h à 23 h. (CEST, GMT +2)**
+* **[Informations d’enregistrement](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Soyez en avance sur le client avec [!DNL Adobe Target]Les puissantes fonctionnalités de test et de personnalisation de . Assurez-vous d’être partout où se trouve le client, en offrant des expériences contextuelles dynamiques sur le web, les appareils mobiles et numériques.
+
++++Détails
+
+Le webinaire abordera :
+
+* Pourquoi la personnalisation est-elle une partie essentielle de toute stratégie ?
+* Identification et utilisation de différents types d’activité
+* Points phares - Cas pratiques du secteur
+* Recommendations pour piloter la personnalisation
+* Démonstration de [!DNL Target] Interface utilisateur, mise en surbrillance
+   * Création d&#39;une audience
+   * Configuration [!UICONTROL Ciblage d’expérience] Activités (XT)
+   * Configuration [!UICONTROL Ciblage automatique] et [!UICONTROL Personnalisation automatique] activités
+
++++
 
 ## Enregistrements des anciens webinaires et sessions de création de compétences
 
