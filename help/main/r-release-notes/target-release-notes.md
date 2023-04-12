@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, les améliorations et le
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 57%
+source-wordcount: '292'
+ht-degree: 53%
 
 ---
 
@@ -27,7 +27,9 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 >[!NOTE]
 >
->Cette fonctionnalité sera disponible en version préliminaire le 12 avril 2023 et sera disponible pour la version GA (disponibilité générale) le 26 avril 2023.
+>Cette fonctionnalité est disponible en version préliminaire le 12 avril 2023. En tant que fonctionnalité de version préliminaire, vous pouvez tester des [!UICONTROL Fragments de contenu] à l’aide des environnements de développement et d’évaluation, mais pas dans les environnements de production.
+>
+>Cette fonctionnalité sera disponible pour la version GA (disponibilité générale) le 26 avril 2023.
 
 Cette version contient les nouvelles fonctionnalités suivantes :
 
