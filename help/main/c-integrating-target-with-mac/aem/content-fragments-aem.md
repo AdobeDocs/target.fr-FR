@@ -2,12 +2,13 @@
 keywords: experience;json;aem;adobe experience manager;exporter vers adobe target;fragments de contenu;fragments;CF;cf;headless;personnalisation;expérimentation
 description: Découvrez comment utiliser les  [!DNL Adobe Experience Manager] [!UICONTROL fragments de contenu] dans les activités  [!DNL Adobe Target] .
 title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager]  (AEM) ?
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePrerelease: label="Prerelease"
 feature: Integrations
-source-git-commit: 47e1c7290011c21fd0710280d35c862a81b4f558
+exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
+source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 84%
+source-wordcount: '779'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +18,7 @@ Utilisation [!UICONTROL Fragments de contenu] (CF) créés dans [!DNL Adobe Expe
 
 >[!NOTE]
 >
->Cette fonctionnalité sera publiée le 12 avril 2023.
+>Cette fonctionnalité sera disponible en version préliminaire le 12 avril 2023 et sera disponible pour la version GA (disponibilité générale) le 26 avril 2023.
 
 ## Considérations
 
