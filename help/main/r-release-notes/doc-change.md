@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 93%
+source-wordcount: '2403'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 12 avril | [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Ajout de la question fréquente suivante :<ul><li>Je vois un ou plusieurs attributs que je ne veux pas que le modèle utilise pour l’entraînement. Puis-je supprimer ces attributs du modèle d’entraînement ?</li></ul> |
 |  | [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Ajout de la question fréquente suivante :<ul><li>Que se passe-t-il si un utilisateur dispose de plusieurs rôles et autorisations ?</li></ul> |
+|  | [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) AEM | Nouvelle rubrique. Notez que cette fonctionnalité est à l’état &quot;préliminaires&quot; à des fins de test. |
 | 5 avril | [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Ajout d’un texte indiquant que [!UICONTROL Analytics comme source de création de rapports] (A4t) n’est pas pris en charge dans les activités qui utilisent les décisions d’offre. |
 | 3 avril | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos du [!UICONTROL Communauté Adobe Target] Saut de café programmé pour mercredi 12 avril 2023. |
 |  | [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | Ajout d’une note pour placer sur la liste autorisée tout [!DNL Adobe Analytics] Blocs d’adresses IP. |
