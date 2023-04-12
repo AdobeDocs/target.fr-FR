@@ -4,10 +4,10 @@ description: Découvrez comment créer des offres JSON dans Adobe [!DNL Target] 
 title: Comment créer des offres JSON ?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 24f445128aa76eb7e0af7d0f2c5de96f11b8d110
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 29%
+source-wordcount: '461'
+ht-degree: 33%
 
 ---
 
@@ -135,11 +135,7 @@ adobe.target.getOffer({
 
 Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec [!DNL Target] à utiliser dans les offres HTML et les offres JSON. (Notez que cette fonctionnalité est actuellement en version bêta.)
 
-Exemple de cas d’utilisation : En tant que marketeur en ligne, Grace souhaite que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, Grace peut afficher la valeur de l’attribut AEP dans une [!DNL Target] offre utilisant le remplacement de jeton. Par exemple, elle peut personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
-
-![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
-
-Notez que l’attribution des valeurs par défaut est facultative.
+Pour plus d’informations, voir [Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 
 ## Filtrage des offres par type d’offre JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
