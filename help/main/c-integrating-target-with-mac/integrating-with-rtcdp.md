@@ -1,13 +1,13 @@
 ---
-keywords: Real-time Customer Data Platform;rtcdp;personnalisation;audiences aep;audiences adobe experience platform
+keywords: Real-time Customer Data Platform;rtcdp;personnalisation;audiences aep;audiences adobe experience platform;attributs de profil
 description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL Real-time Customer Data Platform]  (RTCDP) pour fournir des données client plus riches et une personnalisation avec plus d’impact.
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
+source-git-commit: e9fd075db7c533c77154af7806076d8ed0198979
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 20%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
