@@ -4,16 +4,16 @@ description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL R
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
+source-git-commit: b31fc335c2066f74ec9aebe835a2c47822a49e5a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 17%
+source-wordcount: '992'
+ht-degree: 8%
 
 ---
 
 # Intégrer dans [!DNL Real-time Customer Data Platform]
 
-[!DNL Real-time Customer Data Platform] (RTCDP), qui repose sur [!DNL Adobe Experience Platform], permet aux entreprises de rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise afin de créer des profils clients qui peuvent être utilisés dans l’ordre pour offrir des expériences personnalisées aux clients sur tous les canaux et appareils en temps réel.
+Basé sur [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP) aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. La plateforme RTCDP vous permet de créer des profils client qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.
 
 Pour plus d’informations sur RTCDP, voir [Présentation de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank}.
 
@@ -21,7 +21,7 @@ Pour plus d’informations sur RTCDP, voir [Présentation de Real-time Customer 
 
 Utilisation [audiences](/help/main/c-target/c-audiences/audiences.md) créé dans [!DNL Adobe Experience Platform] fournir des données client plus riches qui mènent à une personnalisation plus impactée. Le [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), basé sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils client qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.
 
-En connectant [!DNL Target] à [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments, auparavant inaccessibles pour [!DNL Target], afin d’activer la personnalisation en temps réel, à la milliseconde, sur la première page de visite d’un client sur le web. Utilisation des audiences et des attributs de profil créés dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
+En se connectant [!DNL Target] au [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web. Cette intégration vous permet de déverrouiller de nouveaux segments qui étaient auparavant inaccessibles pour [!DNL Target] pour activer la personnalisation en temps réel en millisecondes sur la première page de la visite web d’un client. Utilisation des audiences et des attributs de profil créés dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
 
 Cette intégration permet de déverrouiller les cas d’utilisation clés avec la plateforme de données clients en temps réel :
 
@@ -46,7 +46,7 @@ Les sections suivantes indiquent le type de cas d’utilisation de la personnali
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) et [!DNL Target]</li><li>[!DNL RTCDP] (Premium ou Ultimate) et [!DNL Target]</li><li>[!DNL RTCDP] (toute SKU), [!DNL AAM], et [!DNL Target]</li></ul> | Personnalisation de la prochaine session |
 
-#### Mise en oeuvre du SDK Web Adobe Experience Platform ou de l’API côté serveur AEP
+#### Mise en oeuvre du SDK web Adobe Experience Platform ou de l’API côté serveur Experience Platform
 
 | Solutions | Cas d’utilisation activé |
 | --- | --- |
@@ -80,7 +80,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 * [Configuration des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} dans le *Présentation des destinations* guide.
 * [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} dans le *Présentation des destinations* guide
 * [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} dans le *Présentation des destinations* guide
-* [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} dans le *Présentation des destinations* guide
+* [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} dans le *Présentation des destinations* guide
 
 ## Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target] {#rtcdp-profile-attributes}
 
@@ -90,22 +90,30 @@ Les attributs de profil de la plateforme de données clients en temps réel peuv
 
 >[!NOTE]
 >
->La fonctionnalité Attributs de profil de la plateforme de données clients en temps réel est actuellement disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+>La fonction Attributs de profil de la plateforme CDP en temps réel est disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 Tenez compte des points suivants :
 
-* Les attributs d’une offre donnée doivent provenir du même environnement de test AEP. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test AEP.)
-* Les attributs d’une offre donnée peuvent provenir de différentes sources ; en d’autres termes, [!DNL Target] et le profil AEP. (En d’autres termes, vous pouvez combiner des attributs d’où ils proviennent [!DNL Target] ou à partir du profil AEP.)
+* Les attributs d’une offre donnée doivent provenir du même environnement de test Experience Platform. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test Experience Platform.)
+* Les attributs d’une offre donnée peuvent provenir de différentes sources ; en d’autres termes, [!DNL Target] et le profil Experience Platform. (En d’autres termes, vous pouvez combiner des attributs d’où ils proviennent [!DNL Target] ou à partir du profil Experience Platform.)
 * Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour les attributs de profil de la plateforme de données clients en temps réel, au cas où l’attribut n’aurait pas de valeur explicite. Par exemple, si une stratégie de consentement ou de gouvernance bloque l’attribut utilisé dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
 * Lorsqu’ils sont partagés, les attributs de profil de la plateforme de données clients en temps réel sont utilisés dans les modèles de personnalisation Intelligence artificielle/Apprentissage automatique pour [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] activités.
 
 ### Exemple de cas d’utilisation
 
-En tant que marketeur en ligne, vous souhaitez que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, vous pouvez afficher la valeur de l’attribut AEP dans un [!DNL Target] offre utilisant le remplacement de jeton. Vous pouvez, par exemple, personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
+En tant que marketeur en ligne, vous souhaitez que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] pour fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, vous pouvez afficher la valeur de l’attribut Experience Platform dans un [!DNL Target] offre utilisant le remplacement de jeton. Vous pouvez, par exemple, personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
 
-![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+Pour créer une offre JSON afin de partager des attributs de profil AEP/unifié avec [!DNL Target]:
 
-Notez que l’attribution des valeurs par défaut est facultative.
+1. while [création d’une offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), de la fonction **[!UICONTROL Sélection d’une source]** list, select **[!UICONTROL Adobe Experience Platform]**.
+1. Dans la **[!UICONTROL Sélection d’un nom d’environnement de test de profil]** sélectionnez l’environnement de test de votre choix.
+1. Dans la **[!UICONTROL Sélection d’un attribut de profil]** sélectionnez les attributs souhaités.
+1. (Facultatif) Dans le **[!UICONTROL Insérer une valeur par défaut]** sélectionnez les valeurs de votre choix.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
+
+   L’illustration suivante montre que deux attributs de profil : `loyalty.tier` et `loyalty.points` ont été ajoutés à l’offre JSON.
+
+   ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 ## Vidéos et billets de blog
 
