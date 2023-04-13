@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL R
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '895'
 ht-degree: 21%
 
 ---
@@ -94,8 +94,6 @@ Pour plus d’informations, voir [Personnalisation à l’accès suivant avec la
 ## Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target] {#rtcdp-profile-attributes}
 
 Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec [!DNL Target] à utiliser dans les offres HTML et les offres JSON. (Notez que cette fonctionnalité est actuellement en version bêta.)
-
-Pour plus d’informations, voir [Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 Exemple de cas d’utilisation : En tant que marketeur en ligne, Grace souhaite que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, Grace peut afficher la valeur de l’attribut AEP dans une [!DNL Target] offre utilisant le remplacement de jeton. Par exemple, elle peut personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
 
