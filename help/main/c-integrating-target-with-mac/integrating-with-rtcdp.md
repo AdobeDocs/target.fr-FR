@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL R
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '903'
 ht-degree: 20%
 
 ---
@@ -28,13 +28,17 @@ Cette intégration permet de déverrouiller les cas d’utilisation clés avec l
 * Personnalisation Même page / Accès suivant
 * Personnalisation des nouveaux utilisateurs / utilisateurs inconnus
 
+### Fonctionnalités clés
+
 Les principales fonctionnalités sont les suivantes :
 
 * Direct [!DNL Target] intégration à la plateforme de données clients en temps réel[!DNL Adobe Experience Platform] sur l’Edge (suppression de la dépendance sur [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target Edge Destinations Card] avec gouvernance et application des politiques
 * Segments CDP en temps réel et attributs de profil partagés
 
-Limites et considérations des fonctionnalités des attributs de profil de la plateforme CDP en temps réel :
+### Limites et considérations des fonctionnalités des attributs de profil de la plateforme CDP en temps réel
+
+Tenez compte des points suivants :
 
 * Les attributs d’une offre donnée doivent provenir du même environnement de test AEP. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test AEP.)
 * Les attributs d’une offre donnée peuvent provenir de différentes sources ; en d’autres termes, [!DNL Target] et le profil AEP. (En d’autres termes, vous pouvez combiner des attributs d’où ils proviennent [!DNL Target] ou à partir du profil AEP.)
@@ -45,6 +49,8 @@ Limites et considérations des fonctionnalités des attributs de profil de la pl
 >
 >La fonctionnalité Attributs de profil de la plateforme de données clients en temps réel est actuellement disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
+### Liens vers plus d’informations
+
 Pour plus d’informations, voir les rubriques suivantes :
 
 * [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} dans le *Notes de mise à jour de Adobe Experience Platform*
@@ -53,7 +59,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 * [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} dans le *Présentation des destinations* guide
 * [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} dans le *Présentation des destinations* guide
 
-### Informations supplémentaires
+### Détails supplémentaires
 
 Tenez compte des informations suivantes lors de l’utilisation d’audiences provenant de [!DNL Adobe Experience Platform]:
 
@@ -79,18 +85,6 @@ Le tableau suivant indique le temps d’évaluation des segments pour les évén
 | Événements de chargement par lots | Non | Non | Oui |
 | Événements des données hors ligne (flux) | Non | Oui | Oui |
 
-### Vidéo : Personnalisation des accès suivants avec la plateforme de données clients en temps réel et [!DNL Adobe Target]{#RTCDP}
-
-Découvrez comment personnaliser lors de l’accès suivant avec [!DNL Real-time Customer Data Platform] et [!DNL Adobe Target]. Le [!DNL Adobe Target] destination dans [!DNL Real-time CDP] vous permet d’utiliser des [!DNL Experience Platform] segments dans [!DNL Adobe Target] pour une même personnalisation de page et une personnalisation de page suivante avec prise en charge de la gouvernance et de la confidentialité.
-
-Pour plus d’informations, voir [Personnalisation à l’accès suivant avec la plateforme de données clients en temps réel et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} dans le *Tutorials de plateforme* guide.
-
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
-
-### Blog et vidéo Adobe Target :
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] et [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
-
 ## Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target] {#rtcdp-profile-attributes}
 
 Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec [!DNL Target] à utiliser dans les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Notez que cette fonctionnalité est actuellement en version bêta.)
@@ -100,3 +94,15 @@ Exemple de cas d’utilisation : En tant que marketeur en ligne, vous souhaitez 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 Notez que l’attribution des valeurs par défaut est facultative.
+
+## Vidéo : Personnalisation des accès suivants avec la plateforme de données clients en temps réel et [!DNL Adobe Target]{#RTCDP}
+
+Découvrez comment personnaliser lors de l’accès suivant avec [!DNL Real-time Customer Data Platform] et [!DNL Adobe Target]. Le [!DNL Adobe Target] destination dans [!DNL Real-time CDP] vous permet d’utiliser des [!DNL Experience Platform] segments dans [!DNL Adobe Target] pour une même personnalisation de page et une personnalisation de page suivante avec prise en charge de la gouvernance et de la confidentialité.
+
+Pour plus d’informations, voir [Personnalisation à l’accès suivant avec la plateforme de données clients en temps réel et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} dans le *Tutorials de plateforme* guide.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+## Blog et vidéo Adobe Target :
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] et [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
