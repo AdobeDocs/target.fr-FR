@@ -4,14 +4,14 @@ description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL R
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '904'
 ht-degree: 18%
 
 ---
 
-# Intégration à Real-time Customer Data Platform
+# Intégrer dans [!DNL Real-time Customer Data Platform]
 
 [!DNL Real-time Customer Data Platform] (RTCDP), qui repose sur [!DNL Adobe Experience Platform], permet aux entreprises de rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise afin de créer des profils clients qui peuvent être utilisés dans l’ordre pour offrir des expériences personnalisées aux clients sur tous les canaux et appareils en temps réel.
 
@@ -36,29 +36,6 @@ Les principales fonctionnalités sont les suivantes :
 * [!UICONTROL Target Edge Destinations Card] avec gouvernance et application des politiques
 * Segments CDP en temps réel et attributs de profil partagés
 
-### Limites et considérations des fonctionnalités des attributs de profil de la plateforme CDP en temps réel
-
-Tenez compte des points suivants :
-
-* Les attributs d’une offre donnée doivent provenir du même environnement de test AEP. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test AEP.)
-* Les attributs d’une offre donnée peuvent provenir de différentes sources ; en d’autres termes, [!DNL Target] et le profil AEP. (En d’autres termes, vous pouvez combiner des attributs d’où ils proviennent [!DNL Target] ou à partir du profil AEP.)
-* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour les attributs de profil de la plateforme de données clients en temps réel, au cas où l’attribut n’aurait pas de valeur explicite. Par exemple, si une stratégie de consentement ou de gouvernance bloque l’attribut utilisé dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
-* Lorsqu’ils sont partagés, les attributs de profil de la plateforme de données clients en temps réel sont utilisés dans les modèles de personnalisation Intelligence artificielle/Apprentissage automatique pour [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] activités.
-
->[!NOTE]
->
->La fonctionnalité Attributs de profil de la plateforme de données clients en temps réel est actuellement disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### Liens vers plus d’informations
-
-Pour plus d’informations, voir les rubriques suivantes :
-
-* [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} dans le *Notes de mise à jour de Adobe Experience Platform*
-* [Configuration des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} dans le *Présentation des destinations* guide.
-* [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} dans le *Présentation des destinations* guide
-* [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} dans le *Présentation des destinations* guide
-* [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} dans le *Présentation des destinations* guide
-
 ### Cas d’utilisation de la personnalisation
 
 Le tableau suivant indique quel type de cas d’utilisation de personnalisation (session suivante ou même page) est disponible lors de l’utilisation de la variable [!DNL Adobe Experience Platform Web SDK] plutôt que d’utiliser at.js :
@@ -81,11 +58,36 @@ Le tableau suivant indique le temps d’évaluation des segments pour les évén
 | Événements de chargement par lots | Non | Non | Oui |
 | Événements des données hors ligne (flux) | Non | Oui | Oui |
 
+### Liens vers plus d’informations
+
+Pour plus d’informations, voir les rubriques suivantes :
+
+* [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} dans le *Notes de mise à jour de Adobe Experience Platform*
+* [Configuration des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} dans le *Présentation des destinations* guide.
+* [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} dans le *Présentation des destinations* guide
+* [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} dans le *Présentation des destinations* guide
+* [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} dans le *Présentation des destinations* guide
+
 ## Partage des attributs de profil de la plateforme CDP en temps réel avec [!DNL Target] {#rtcdp-profile-attributes}
 
-Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec [!DNL Target] à utiliser dans les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (Notez que cette fonctionnalité est actuellement en version bêta.)
+Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec [!DNL Target] à utiliser dans les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-Exemple de cas d’utilisation : En tant que marketeur en ligne, vous souhaitez que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, vous pouvez afficher la valeur de l’attribut AEP dans un [!DNL Target] offre utilisant le remplacement de jeton. Vous pouvez, par exemple, personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
+### Limites et considérations des fonctionnalités des attributs de profil de la plateforme CDP en temps réel
+
+>[!NOTE]
+>
+>La fonctionnalité Attributs de profil de la plateforme de données clients en temps réel est actuellement disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+Tenez compte des points suivants :
+
+* Les attributs d’une offre donnée doivent provenir du même environnement de test AEP. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test AEP.)
+* Les attributs d’une offre donnée peuvent provenir de différentes sources ; en d’autres termes, [!DNL Target] et le profil AEP. (En d’autres termes, vous pouvez combiner des attributs d’où ils proviennent [!DNL Target] ou à partir du profil AEP.)
+* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour les attributs de profil de la plateforme de données clients en temps réel, au cas où l’attribut n’aurait pas de valeur explicite. Par exemple, si une stratégie de consentement ou de gouvernance bloque l’attribut utilisé dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
+* Lorsqu’ils sont partagés, les attributs de profil de la plateforme de données clients en temps réel sont utilisés dans les modèles de personnalisation Intelligence artificielle/Apprentissage automatique pour [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] activités.
+
+### Exemple de cas d’utilisation
+
+En tant que marketeur en ligne, vous souhaitez que le profil AEP/unifié partage des valeurs d’attribut avec [!DNL Target] afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme de données clients en temps réel, vous pouvez afficher la valeur de l’attribut AEP dans un [!DNL Target] offre utilisant le remplacement de jeton. Vous pouvez, par exemple, personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
