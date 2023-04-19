@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2441'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 19 avril | [Rapport Contribution des emplacements (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Mise à jour des informations dans la note. |
 | 13 avril | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target] Version Standard/Premium 23.4.1 (25-27 avril 2023). |
 | 12 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’un lien pour vous inscrire au webinaire suivant :<ul><li>Diffusez des expériences client personnalisées, à chaque fois !</li></ul> |
 |  | [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Ajout de la question fréquente suivante :<ul><li>Je vois un ou plusieurs attributs que je ne veux pas que le modèle utilise pour l’entraînement. Puis-je supprimer ces attributs du modèle d’entraînement ?</li></ul> |
