@@ -4,10 +4,10 @@ description: Découvrez comment spécifier un serveur de suivi Analytics pour le
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 23%
+source-wordcount: '685'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ Si vous utilisez une ancienne version d’at.js, vous devez indiquer une [!DNL A
 >
 >Vous n’avez pas besoin de spécifier de serveur de suivi lors de la création de l’activité si vous utilisez la version 0.9.1 d’at.js (ou ultérieure). La bibliothèque at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 >
->Le [!DNL Target] L’équipe prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des principales versions d’at.js pour vous assurer que vous utilisez une version prise en charge. Pour plus d’informations, voir [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+>Le [!DNL Target] L’équipe prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des principales versions d’at.js pour vous assurer que vous utilisez une version prise en charge. Pour plus d’informations, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 Pour garantir que les données de [!DNL Target] se rend à l’emplacement correct dans [!DNL Analytics], A4T requiert une [!DNL Analytics] serveur de suivi à envoyer dans tous les appels à Modstats depuis [!DNL Target]. Pour les implémentations utilisant plusieurs serveurs de suivi, utilisez la variable [!DNL Adobe Experience Platform Debugger] ou des outils de développement de votre navigateur pour déterminer le serveur de suivi approprié pour votre activité.
 

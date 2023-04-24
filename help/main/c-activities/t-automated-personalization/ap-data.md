@@ -5,9 +5,9 @@ title: Quelles données sont collectées pour créer des algorithmes d’apprent
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 54%
 
 ---
@@ -49,7 +49,7 @@ Le tableau suivant présente les données fournies par le client et collectées 
 
 Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization].
 
-Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans le *Guide du développeur d’Adobe Target*.
+Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bloquée)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.
 
 ## Données de périphérique et de mobile {#device-mobile}
 

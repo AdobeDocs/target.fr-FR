@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2750'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ Consultez le [forum de la communauté Target](/help/main/cmp-resources-and-conta
 
 **Quels sont les navigateurs non pris en charge par Target ?**
 
-Veuillez lire notre grille [Navigateurs pris en charge](https://developer.adobe.com/target/before-implement/supported-browsers/) pour plus d’informations. {target=_blank} Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
+Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html) pour plus d’informations. {target=_blank} Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilisez les commandes d’affectation de pourcentages disponibles [à l’étap
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -305,14 +305,8 @@ Utilisez la page [Adobe État du système](/help/main/r-release-notes/system-sta
 
 Nous sommes désolés d’apprendre que vous rencontrez des difficultés. Voir [Dépannage de Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) pour obtenir des liens vers les rubriques de résolution des incidents.
 
-## Target pour les applications mobiles {#section_07BA89F2C38747158ECD5B153274AEAF}
-
-**Nous utilisons un SKU mobile. Puis-je créer des activités mobiles ?**
-
-Pour une optimisation et une personnalisation sur mobile, vous devez utiliser des [activités d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) en parallèle du kit [SDK Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
-
 ## API de Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Où puis-je en apprendre davantage sur les API Target ?**
 
-Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 68%
+source-wordcount: '1448'
+ht-degree: 67%
 
 ---
 
@@ -84,7 +84,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
 ### Obtention de l’identifiant de votre espace de travail {#workspace-id}
 
-Vous devez transmettre l’identifiant de l’espace de travail pour exploiter les autorisations d’Enterprise dans les [API Target](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+Vous devez transmettre l’identifiant de l’espace de travail pour exploiter les autorisations d’Enterprise dans les [API Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. Dans [Adobe Admin Console](https://adminconsole.adobe.com), cliquez sur l’onglet [!UICONTROL Produits], puis sur le produit dans le menu de gauche pour afficher la liste PLC (espace de travail).
 1. Cliquez sur le PLC de votre choix (espace de travail), puis localisez l’identifiant « profils » dans l’URL, comme illustré ci-dessous.
@@ -159,7 +159,7 @@ Pour utiliser la variable [!DNL Target] fonctionnalité d’autorisations utilis
       </script>
       ```
 
-      Pour plus d’informations sur la façon de procéder avec at.js, voir [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      Pour plus d’informations sur la façon de procéder avec at.js, voir [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## Étape 6 : Spécification des rôles et autorisations {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

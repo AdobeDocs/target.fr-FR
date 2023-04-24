@@ -5,10 +5,10 @@ title: Qu’est-ce que le rapport Attributs importants ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 75%
+source-wordcount: '1855'
+ht-degree: 74%
 
 ---
 
@@ -110,7 +110,7 @@ Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans se
 
 Le [!UICONTROL API de modèles], également appelé API de Liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des attributs (également appelés fonctionnalités) utilisés dans les modèles d’apprentissage automatique pour [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT). Si vous souhaitez exclure un ou plusieurs attributs de l’utilisation par les modèles pour les activités AP ou AT, vous pouvez utiliser l’API Modèles pour ajouter ces attributs à la &quot;liste bloquée&quot;.
 
-Pour plus d’informations, voir [Présentation de l’API de modèles](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+Pour plus d’informations, voir [Présentation de l’API de modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Les informations présentes dans les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] sont-elles les même que celles contenues dans le fichier CSV téléchargé ? 
 

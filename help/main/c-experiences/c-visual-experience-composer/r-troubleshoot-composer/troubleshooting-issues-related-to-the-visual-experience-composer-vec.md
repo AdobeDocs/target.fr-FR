@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle ?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 68%
+source-wordcount: '975'
+ht-degree: 67%
 
 ---
 
@@ -123,7 +123,7 @@ Après avoir configuré une extension, ouvrez Target. Vos pages doivent à prés
 
 ## Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation. (Compositeur d’expérience visuelle uniquement)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Lorsque vous utilisez le mode Parcourir, si vous accédez à une URL qui ne comporte pas [!DNL Target] bibliothèques implémentées ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) ou contient un en-tête frame-buster, le VEC semble rompu. En raison de problèmes de sécurité du navigateur, [!DNL Target] ne peut pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du VEC ne se met pas à jour de manière cohérente lors du chargement de la page.
+Lorsque vous utilisez le mode Parcourir, si vous accédez à une URL qui ne comporte pas [!DNL Target] bibliothèques implémentées ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) ou contient un en-tête frame-buster, le VEC semble rompu. En raison de problèmes de sécurité du navigateur, [!DNL Target] ne peut pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du VEC ne se met pas à jour de manière cohérente lors du chargement de la page.
 
 Ce problème se produit car le compositeur d’expérience visuelle charge la page web dans une `<iframe>`. Les mécanismes de sécurité actuels des navigateurs empêchent le [!DNL Target] l’interface utilisateur d’ à partir de l’accès aux éléments du cadre donné en raison de la stratégie de même origine. Les navigateurs bloquent les scripts qui tentent d’accéder à un cadre d’une origine différente et qui contient des informations telles que la variable `location.href`.
 
