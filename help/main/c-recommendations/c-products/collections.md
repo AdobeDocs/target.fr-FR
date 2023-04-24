@@ -5,10 +5,10 @@ title: Comment utiliser les collections dans les activités Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 60%
+source-wordcount: '884'
+ht-degree: 59%
 
 ---
 
@@ -46,7 +46,7 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
    ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](https://developer.adobe.com/target/implement/recommendations/) pour modifier le groupe d’hôtes par défaut.{target=_blank}
+   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) pour modifier le groupe d’hôtes par défaut.{target=_blank}
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 

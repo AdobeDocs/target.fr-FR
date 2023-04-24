@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 1%
+source-wordcount: '2842'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ Le flux logique de l’implémentation réelle de l’algorithme est illustré d
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formation de modèles**:
 
@@ -89,7 +89,7 @@ Bien que les aspects de diffusion de contenu et de diffusion de contenu du modè
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Comme décrit précédemment, cet algorithme est basé uniquement sur des données de catalogue (ingérées par [!DNL Target] via un [Flux de catalogue, API des entités ou à partir des mises à jour sur la page](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+* **Données d’entrée**: Comme décrit précédemment, cet algorithme est basé uniquement sur des données de catalogue (ingérées par [!DNL Target] via un [Flux de catalogue, API des entités ou à partir des mises à jour sur la page](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Formation de modèles**:
 
@@ -127,7 +127,7 @@ La logique des étapes de formation et de notation des modèles est présentée 
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formation de modèles**:
 

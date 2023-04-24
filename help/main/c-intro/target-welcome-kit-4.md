@@ -4,7 +4,7 @@ description: Lisez les conseils de notre panel d’experts sur l’utilisation d
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ Consultez [Attributs personnalisés](https://experienceleague.adobe.com/docs/tar
 
 **Important** : [!DNL Target] étant une plateforme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des données de gestion de la relation client ou achetées de différentes manières. Cela signifie que vous pouvez choisir la méthode qui convient le mieux à votre organisation.
 
-Voir [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} pour plus d’informations.
+Consultez [Méthodes de transfert de données dans Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) pour plus d’informations.{target=_blank}
 
 ## Conseil 2 : personnalisation plus approfondie en mélangeant les audiences [!DNL Target] avec d’autres audiences Adobe Experience Cloud.
 

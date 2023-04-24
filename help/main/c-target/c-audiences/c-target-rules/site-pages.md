@@ -4,10 +4,10 @@ description: Découvrez comment cibler les visiteurs à l’aide de [!DNL Adobe 
 title: Puis-je cibler les visiteurs en fonction des pages du site ?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 27%
+source-wordcount: '891'
+ht-degree: 26%
 
 ---
 
@@ -127,7 +127,7 @@ Utilisez un :
 
    Si ce comportement ne correspond pas à vos besoins, envisagez d’effectuer l’une des actions suivantes :
 
-   * Pass [paramètres mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank} à [!DNL Target] à utiliser à des fins de ciblage.
+   * Pass [paramètres mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} to [!DNL Target] à utiliser à des fins de ciblage.
    * Utilisez une [Activité Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) plutôt qu&#39;une activité de landing page. Les activités de test A/B ne changent pas d’expériences pour un même visiteur.
    * Utilisez une [profil du visiteur](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) au lieu de .
 

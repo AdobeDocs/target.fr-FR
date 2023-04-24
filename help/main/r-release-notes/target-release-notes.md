@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b7ae9d841c4b455b59d31795ec5f6ee2ef742d21
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 69%
+source-wordcount: '336'
+ht-degree: 57%
 
 ---
 
@@ -36,9 +36,8 @@ Cette version contient des mises à jour de sécurité et les nouvelles fonction
 
 | Ressource | Détails |
 |--- |--- |
-| [Notes de mise à jour : [!UICONTROL SDK web Adobe Target Platform Experience]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr){target=_blank} | Informations détaillées sur les modifications apportées à chaque version du SDK web Platform. |
-| [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js [!DNL Adobe Target]. |
 
+|[Notes de mise à jour : SDK Web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr)|Informations détaillées sur les modifications apportées à chaque version du SDK Web Platform.| |[Informations détaillées sur les versions du fichier at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Informations détaillées sur les modifications apportées à chaque version de la variable [!DNL Adobe Target] Bibliothèque JavaScript at.js.|
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

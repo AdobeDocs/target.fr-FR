@@ -5,7 +5,7 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ Différents algorithmes de recommandations se prêtent au placement sur différe
 
 ## Basé sur le panier {#cart-based}
 
-Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par l’intermédiaire de la fonction [paramètre mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par l’intermédiaire de la fonction [paramètre mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui ont acheté ceux-ci ont acheté ceux-là]&quot; des algorithmes reposant sur des éléments.
 
