@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 95%
+source-wordcount: '2152'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,29 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour nos fonctionnalités de test, devançant ainsi tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!UICONTROL Communauté Adobe Target] Questions et réponses sur la pause café : Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés
+
+* **Mercredi 26 avril 2023**
+* **13 h (EDT, UTC-4)**
+* **[Informations d’enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+Joindre [!DNL Adobe Target] Brent Kostak, directeur du marketing, explique comment [!DNL Target] et [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) peut accroître l&#39;engagement, les recettes et la fidélité de la clientèle au sein des secteurs réglementés.
+
++++Détails
+
+Les marques doivent fournir des expériences hautement personnalisées et pertinentes en fonction des besoins et des comportements spécifiques des clients. Avec les questions sur l’avenir sans cookies des technologies marketing, les secteurs réglementés cherchent à adopter une structure d’engagement client plus robuste tout en optimisant chaque interaction client pour le contenu et l’offre appropriés.
+
+Comment les marques des secteurs des services financiers et des assurances, de la vente au détail, des voyages et de l&#39;hôtellerie et des télécommunications peuvent-elles adopter les bonnes pratiques d&#39;optimisation et de personnalisation dans les environnements authentifiés ? Comprendre l’importance que revêtent les applications mobiles pour l’engagement et la rétention des clients fidèles, comment les marques peuvent-elles permettre le libre-service numérique ou accroître l’adoption de nouvelles fonctionnalités avec des expériences personnalisées ?
+
+Au cours de cette session, découvrez comment [!DNL Target] et [!DNL Real-Time Customer Data Platform] peuvent stimuler l’engagement, les recettes et la fidélisation des clients dans les secteurs réglementés comme nous le discutons :
+
+* Comment les équipes diffusent des expériences personnalisées aux visiteurs anonymes et authentifiés
+* Présentation des autorisations des consommateurs et des normes de confidentialité avec la personnalisation
+* Contenu personnalisé et offres aux visiteurs authentifiés par le biais d’identités anonymes
+* Cas d’utilisation uniques pour les sites authentifiés et sécurisés sur le web et les appareils mobiles
+
++++
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 

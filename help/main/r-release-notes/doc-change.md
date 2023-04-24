@@ -4,16 +4,23 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 93%
+source-wordcount: '2503'
+ht-degree: 92%
 
 ---
 
 # Modifications de la documentation
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 23.4.1 (25-27 avril 2023)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 24 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos des questions et réponses sur la pause café de la communauté Adobe Target suivantes :<ul><li>Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés</li></ul> |
+| 28 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.4.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.3.1 (28 et 30 mars 2023)
 
