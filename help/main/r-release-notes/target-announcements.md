@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -48,26 +48,26 @@ Au cours de cette session, découvrez comment [!DNL Target] et [!DNL Real-Time C
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-### Diffusez des expériences client personnalisées, à chaque fois !
+### Offrez des expériences personnalisées à vos clientes et clients, à chaque fois.
 
-* **jeudi 27 avril 2023**
-* **de 9 h à 10 h (BST, GMT +1), de 10 h à 11 h 00 (CEST, GMT +2)**
+* **Jeudi 27 avril 2023**
+* **10 h à 11 h (heure de Paris)**
 * **[Informations d’enregistrement](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Soyez en avance sur le client avec [!DNL Adobe Target]Les puissantes fonctionnalités de test et de personnalisation de . Assurez-vous d’être partout où se trouve le client, en offrant des expériences contextuelles dynamiques sur le web, les appareils mobiles et numériques.
+Anticipez les besoins des clientes et clients grâce aux puissantes fonctionnalités de test et de personnalisation de [!DNL Adobe Target]. Garantissez votre présence partout où se trouve la clientèle et offrez des expériences dynamiques en fonction du contexte sur les canaux web, mobiles et les appareils numériques.
 
 +++Détails
 
-Le webinaire abordera :
+Le webinaire abordera les thématiques suivantes :
 
-* Pourquoi la personnalisation est-elle une partie essentielle de toute stratégie ?
-* Identification et utilisation de différents types d’activité
-* Points phares - Cas pratiques du secteur
-* Recommendations pour piloter la personnalisation
-* Démonstration de [!DNL Target] Interface utilisateur, mise en surbrillance
-   * Création d&#39;une audience
-   * Configuration [!UICONTROL Ciblage d’expérience] Activités (XT)
-   * Configuration [!UICONTROL Ciblage automatique] et [!UICONTROL Personnalisation automatique] activités
+* Pourquoi la personnalisation est-elle une composante essentielle de toute stratégie ?
+* Identifier et utiliser différents types d’activité
+* Coup de projecteur - Cas d’utilisation du secteur
+* Recommandations pour offrir une personnalisation plus poussée
+* Démonstration de l’interface utilisateur de [!DNL Target] et de ses points clés
+   * Création d’une audience
+   * Configurer des activités de [!UICONTROL Ciblage d’expérience] (XT)
+   * Configurer des activités de [!UICONTROL Ciblage automatique] et de [!UICONTROL Personnalisation automatique]
 
 +++
 

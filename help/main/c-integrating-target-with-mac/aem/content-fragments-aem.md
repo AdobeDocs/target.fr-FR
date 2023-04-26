@@ -1,14 +1,14 @@
 ---
 keywords: experience;json;aem;adobe experience manager;exporter vers adobe target;fragments de contenu;fragments;CF;cf;découplé;personnalisation;expérimentation
 description: Découvrez comment utiliser les  [!DNL Adobe Experience Manager] [!UICONTROL fragments de contenu] dans les activités  [!DNL Adobe Target] .
-title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager]  (AEM) ?
+title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager] (AEM) ?
 badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ Utilisez les [!UICONTROL fragments de contenu] (CF) créés dans [!DNL Adobe Exp
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible en version préliminaire le 12 avril 2023. En tant que fonctionnalité de version préliminaire, vous pouvez tester des [!UICONTROL Fragments de contenu] à l’aide des environnements de développement et d’évaluation, mais pas dans les environnements de production.
+>Cette fonctionnalité est disponible en version préliminaire depuis le 12 avril 2023. Comme il s’agit d’une fonctionnalité en version préliminaire, vous pouvez tester les [!UICONTROL fragments de contenu] dans les environnements de développement et d’évaluation, mais pas dans les environnements de production.
 >
->Cette fonctionnalité sera disponible pour la version GA (disponibilité générale) le 26 avril 2023.
+>Cette fonctionnalité sera disponible pour tous les utilisateurs et utilisatrices le 26 avril 2023.
 
 ## Considérations
 
-Tenez compte des points suivants lorsque vous utilisez les [!UICONTROL fragments de contenu] AEM dans [!DNL Target] :
+Tenez compte des points suivants lorsque vous utilisez les [!UICONTROL fragments de contenu] d’AEM dans [!DNL Target] :
 
-* Cette fonctionnalité requiert que vous soyez un [!DNL Adobe Experience Manager as a Cloud Service] client. Pour plus d’informations, voir [Conditions préalables](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
-* [!UICONTROL Fragments d’expérience] et [!UICONTROL Fragments de contenu] sont disponibles pour les types d’activité suivants :
+* Cette fonctionnalité est réservée aux clientes et clients [!DNL Adobe Experience Manager as a Cloud Service]. Pour plus d’informations, voir [Conditions préalables](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
+* Les [!UICONTROL fragments d’expérience] et les [!UICONTROL fragments de contenu] sont disponibles pour les types d’activité suivants :
 
    * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -35,7 +35,7 @@ Tenez compte des points suivants lorsque vous utilisez les [!UICONTROL fragments
    * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL Ciblage d’expérience] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL Fragments d’expérience] et [!UICONTROL Fragments de contenu] ne sont pas disponibles pour les types d’activité suivants :
+* Les [!UICONTROL fragments d’expérience] et les [!UICONTROL fragments de contenu] ne sont pas disponibles pour les types d’activité suivants :
 
    * [[!UICONTROL Test multivarié] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
@@ -46,13 +46,13 @@ Pour en savoir plus sur les [!UICONTROL fragments de contenu] et les [!UICONTROL
 
 ## Conditions {#requirements}
 
-Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de [!UICONTROL fragments d’expérience] dans [!DNL Target]. En outre, vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de [!UICONTROL fragments d’expérience] dans [!DNL Target]. En outre, vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
 ## Configurer et utiliser les [!UICONTROL fragments de contenu] dans [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Pour exporter les [!UICONTROL fragments de contenu] et les utiliser dans les activités [!DNL Target], vous devez effectuer quelques étapes préliminaires dans AEM. Pour plus d’informations, consultez [Exportation de fragments de contenu vers Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=fr){target=_blank} dans la *documentation Experience Manager as a Cloud Service*.
+Pour exporter les [!UICONTROL fragments de contenu] et les utiliser dans les activités [!DNL Target], vous devez effectuer quelques étapes préliminaires dans AEM. Pour plus d’informations, consultez [Exportation de fragments de contenu vers Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=fr){target=_blank} dans la *documentation d’Experience Manager as a Cloud Service*.
 
 Pour plus d’informations sur la conception, la création, l’organisation et la publication de [!UICONTROL fragments de contenu], voir [[!UICONTROL Fragments de contenu]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=fr){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=fr){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=fr){target=_blank}.
 
@@ -78,7 +78,7 @@ Vous pouvez utiliser les [!UICONTROL fragments de contenu] dans les activités [
 >
 >Utiliser l’intelligence artificielle, le machine learning et les recommandations avec les [!UICONTROL fragments de contenu] :
 >
->* Pour utiliser pleinement la variable [!DNL Target] Fonctionnalités AI et ML, vous pouvez sélectionner [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) lors de la création d’une [!UICONTROL Test A/B] activité.
+>* Pour tirer pleinement parti de la fonctionnalité d’IA et de ML de [!DNL Target], sélectionnez [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) lors de la création d’un [!UICONTROL test A/B].
 >
 >* Les [!UICONTROL fragments de contenu] ne sont pas pris en charge dans les activités [!DNL Recommendations]. Toutefois, pour utiliser les [!UICONTROL fragments de contenu] pour les recommandations, vous pouvez créer une activité de [!UICONTROL test A/B] (avec [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) ou une activité [!UICONTROL Ciblage d’expérience] (XT) et [inclure des recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

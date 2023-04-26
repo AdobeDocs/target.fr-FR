@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 avril 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25 - 27 avril 2023)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
@@ -27,11 +27,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 19 avril | [Rapport Contribution des emplacements (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Mise à jour des informations dans la note. |
-| 13 avril | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target] Version Standard/Premium 23.4.1 (25-27 avril 2023). |
-| 12 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’un lien pour vous inscrire au webinaire suivant :<ul><li>Diffusez des expériences client personnalisées, à chaque fois !</li></ul> |
-|  | [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Ajout de la question fréquente suivante :<ul><li>Je vois un ou plusieurs attributs que je ne veux pas que le modèle utilise pour l’entraînement. Puis-je supprimer ces attributs du modèle d’entraînement ?</li></ul> |
-|  | [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Ajout de la question fréquente suivante :<ul><li>Que se passe-t-il si un utilisateur dispose de plusieurs rôles et autorisations ?</li></ul> |
-|  | [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) AEM | Nouvelle rubrique. Notez que cette fonctionnalité est à l’état &quot;préliminaires&quot; à des fins de test. |
+| 13 avril | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout dʼinformations sur [!DNL Target] Standard/Premium version 23.4.1 (25 - 27 avril 2023). |
+| 12 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’un lien d’inscription au webinaire suivant :<ul><li>Offrez des expériences personnalisées à vos clientes et clients, à chaque fois.</li></ul> |
+|  | [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Ajout de la question fréquente suivante :<ul><li>Un ou plusieurs attributs que je ne souhaite pas que le modèle utilise pour l’entraînement sont présents. Puis-je supprimer ces attributs du modèle d’entraînement ?</li></ul> |
+|  | [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Ajout de la question fréquente suivante :<ul><li>Que se passe-t-il si un utilisateur ou une utilisatrice dispose de plusieurs rôles et autorisations ?</li></ul> |
+|  | [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Nouvelle rubrique. Notez que cette fonctionnalité est en version préliminaire à des fins de test. |
 | 5 avril | [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Ajout d’un texte indiquant qu’[!UICONTROL Analytics comme source de création de rapports] (A4t) n’est pas pris en charge dans les activités qui utilisent les décisions d’offre. |
 | 3 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la pause café de la [!UICONTROL communauté Adobe Target] prévue pour le mercredi 12 avril 2023. |
 |  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Ajout d’une note pour placer sur la liste autorisée tous les blocs d’adresses IP [!DNL Adobe Analytics]. |
