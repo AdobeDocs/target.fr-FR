@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 75%
+source-wordcount: '476'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,15 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.4.1 (25-27 avril 2023)
+## [!DNL Target] Standard/Premium 23.4.1 (25 - 27 avril 2023)
 
 Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 |--- |--- |
-| [!UICONTROL Fragments de contenu AEM] pour une personnalisation et une expérimentation découplées | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, voir [AEM [!UICONTROL Fragments de contenu]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**REMARQUE**: Cette fonctionnalité est disponible en version préliminaire depuis le 12 avril 2023. En tant que fonctionnalité de version préliminaire, vous pouvez tester des [!UICONTROL Fragments de contenu] à l’aide des environnements de développement et d’évaluation, mais sans utiliser d’environnements de production. Cette fonctionnalité sera disponible pour tous les clients le 26 avril 2023. |
-| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | [!UICONTROL Attributs de profil Real-Time CDP] peut être partagé avec [!DNL Target] à utiliser dans les offres HTML et JSON.<P>Pour plus d’informations, voir [Partage des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Cette fonctionnalité sera disponible pour tous les clients le 9 mai 2023. |
+| [!UICONTROL Fragments de contenu AEM] pour une personnalisation et une expérimentation découplées | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, consultez la section d’[AEM sur les [!UICONTROL fragments d’expérience]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**REMARQUE**: Cette fonctionnalité sera disponible pour tous les clients le 9 mai 2023. |
+| [*Guide du développeur d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Guide du développeur Adobe Target* a été déplacé vers *Adobe Experience League*. Le déplacement vers *Experience League* aide à la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* pour fournir des résultats de recherche à partir des deux guides et offrir des avantages supplémentaires.<P>Les redirections à partir de l’emplacement précédent seront implémentées dans les prochains jours. Mettez vos signets à jour. |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

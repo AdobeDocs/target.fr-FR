@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 78%
+source-wordcount: '362'
+ht-degree: 75%
 
 ---
 
@@ -29,15 +29,16 @@ Cette version contient des mises à jour de sécurité et les nouvelles fonction
 
 | Fonctionnalité | Détails |
 |--- |--- |
-| [!UICONTROL Fragments de contenu AEM] pour une personnalisation et une expérimentation découplées | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, consultez la section d’[AEM sur les [!UICONTROL fragments d’expérience]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**Remarque** : cette fonctionnalité est disponible en version préliminaire depuis le 12 avril 2023. Comme il s’agit d’une fonctionnalité en version préliminaire, vous pouvez tester les [!UICONTROL fragments de contenu] dans les environnements de développement et d’évaluation, mais pas dans les environnements de production. Cette fonctionnalité sera disponible pour tous les clients le 26 avril 2023. |
-| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>Cette fonctionnalité sera disponible pour tous les clients le 9 mai 2023. |
+| [!UICONTROL Fragments de contenu AEM] pour une personnalisation et une expérimentation découplées | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, consultez la section d’[AEM sur les [!UICONTROL fragments d’expérience]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**REMARQUE**: Cette fonctionnalité sera disponible pour tous les clients le 9 mai 2023. |
+| [*Guide du développeur d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Guide du développeur Adobe Target* a été déplacé vers *Adobe Experience League*. Le déplacement vers *Experience League* aide à la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* pour fournir des résultats de recherche à partir des deux guides et offrir des avantages supplémentaires.<P>Les redirections à partir de l’emplacement précédent seront implémentées dans les prochains jours. Mettez vos signets à jour. |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
 | Ressource | Détails |
 |--- |--- |
-
-|[Notes de mise à jour : SDK Web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr)|Informations détaillées sur les modifications apportées à chaque version du SDK Web Platform.| |[Informations détaillées sur les versions du fichier at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|Informations détaillées sur les modifications apportées à chaque version de la variable [!DNL Adobe Target] Bibliothèque JavaScript at.js.|
+| [Notes de mise à jour : SDK web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) | Informations détaillées sur les modifications apportées à chaque version du SDK web Platform. |
+| [Informations détaillées sur les versions d’at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js [!DNL Adobe Target]. |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
