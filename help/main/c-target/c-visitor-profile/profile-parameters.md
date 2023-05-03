@@ -83,7 +83,7 @@ Gardez à l’esprit les informations suivantes :
 
 ## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-Vous pouvez afficher des cartes contextuelles d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
+Vous pouvez afficher des cartes pop-up d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
 
 Par exemple, la carte d’informations de script de profil suivante est accessible en cliquant sur l’icône [!UICONTROL Infos] pour le script de profil souhaité disponible dans la liste ([!UICONTROL Audiences] > [!UICONTROL Scripts de profil]).
 
