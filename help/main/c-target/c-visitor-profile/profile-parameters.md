@@ -4,10 +4,10 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2455'
-ht-degree: 94%
+source-wordcount: '2499'
+ht-degree: 92%
 
 ---
 
@@ -249,7 +249,7 @@ Les objets et méthodes suivantes peuvent être référencés par des paramètre
 | `page.query` | Chaîne de requête de la page active. Tout ce qui suit le &quot;?&quot;. Par exemple `blue&size=small`, dans `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param('<par_name>')` | Valeur du paramètre indiqué par `<par_name>`. Si l’URL actuelle est la page de recherche Google et que vous avez saisi `page.param('hl')`, vous obtiendriez &quot;en&quot; pour l’URL. `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le même ensemble d’opérations que ci-dessus s’applique à l’URL référent et à l’URL de la page d’entrée (c.-à-d. referrer.url est l’adresse URL du référent). |
-| `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais pour la page de destination. |
+| `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais pour la page de destination.<P>Pour que l’URL de la page d’entrée fonctionne comme prévu, définissez la variable `context` > `browser` > `host`.<P>En outre, l’URL de référence ne peut pas figurer au tout premier appel de la session. Lors des appels suivants, assurez-vous que `referringURL` est réellement l’URL précédente visitée par l’utilisateur au cours de la session en cours.<!-- KB-2092 --> |
 | `mbox.name` | Nom de la mbox active. |
 | `mbox.param('<par_name>')` | Un paramètre de mbox par le nom donné dans la mbox active. |
 | `profile.get('<par_name>')` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé &quot;gender&quot;, la valeur peut être extraite à l’aide de &quot;profile.gender&quot;. Renvoie la valeur de la propriété`profile.<par_name>`&quot; défini pour le visiteur actuel ; renvoie null si aucune valeur n’a été définie. Notez que `profile.get(<par_name>)` a la qualité d’un appel de fonction. |
@@ -260,7 +260,6 @@ Les objets et méthodes suivantes peuvent être référencés par des paramètre
 | `user.browser` | Renvoie l’agent utilisateur dans l’en-tête HTTP. À titre d’exemple, vous pouvez créer une cible d’expression pour cibler les utilisateurs Safari uniquement : `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Opérateurs courants
-
 
 Tous les opérateurs JavaScript standard sont présents et utilisables. Les opérateurs JavaScript peuvent être utilisés sur des chaînes et des nombres (et sur d’autres types de données). Aperçu rapide :
 
