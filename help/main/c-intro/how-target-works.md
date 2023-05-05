@@ -5,9 +5,9 @@ title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Référencez [!DNL Experience Platform Web SDK] ou at.js sur chaque page de votr
 
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation de [!DNL Experience Platform Web SDK] ou d’at.js :
 
-* [[!DNL Adobe Experience Platform Web SDK] Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=fr){target=_blank}
 * [Implémentation de  [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour [!DNL Target], une requête est envoyée au système de ciblage. La requête permet de déterminer le contenu à proposer à ce visiteur. Ce processus se produit en temps réel. Chaque fois qu’une page est chargée, une demande de contenu est créée et traitée par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est proposé à chaque visiteur du site en fonction des éléments auxquels il est le plus susceptible de réagir, de ceux avec lesquels il est le plus susceptible d’interagir ou de ceux qu’il est le susceptible d’acheter. Le contenu personnalisé permet d’optimiser les taux de réponse, les taux d’acquisition et le chiffre d’affaires.
