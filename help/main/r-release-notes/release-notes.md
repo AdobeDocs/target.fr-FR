@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25 - 27 avril 2023)
 
-Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
+Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 |--- |--- |

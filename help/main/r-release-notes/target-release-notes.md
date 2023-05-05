@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 77%
 
 ---
 
@@ -25,7 +25,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 
 ## [!DNL Target] Standard/Premium 23.4.1 (25 - 27 avril 2023)
 
-Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
+Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 |--- |--- |
