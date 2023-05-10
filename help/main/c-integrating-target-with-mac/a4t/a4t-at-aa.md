@@ -4,7 +4,7 @@ description: Découvrez comment créer [!UICONTROL Affectation automatique] et [
 title: Prise en charge d’A4T [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] Activités ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Assurez-vous que vous avez [Mise en oeuvre d’A4T pour une utilisation avec les
 
 Pour démarrer :
 
-1. Lors de la création d’une [!UICONTROL Test A/B] , sur la **[!UICONTROL Ciblage]** , sélectionnez l’une des options suivantes comme **[!UICONTROL Méthode d’affectation du trafic]**:
+1. while [création d’un [!UICONTROL Test A/B] activité](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), sur le **[!UICONTROL Ciblage]** , sélectionnez l’une des options suivantes comme **[!UICONTROL Méthode d’affectation du trafic]**:
 
    * [!UICONTROL Affectation automatique à la meilleure expérience]
    * [!UICONTROL Ciblage automatique pour les expériences personnalisées]
