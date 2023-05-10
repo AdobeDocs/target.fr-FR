@@ -1,12 +1,12 @@
 ---
-keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
+keywords: a4t;A4T;Analytics comme source des rapports pour Target;analytics pour target
 description: Découvrez comment créer [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités dans [!DNL Target] qui utilisent [!DNL Analytics] comme source des rapports (A4T).
 title: Prise en charge d’A4T [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] Activités ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 4cc795f038e17d9ff82074fd0af8301212091e87
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1268'
 ht-degree: 7%
 
 ---
@@ -17,8 +17,8 @@ Le [!DNL Adobe Target]-to-[!DNL Adobe Analytics] intégration, connue sous le no
 
 L’intégration A4T vous permet d’effectuer les opérations suivantes :
 
-* Utilisation [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)La fonctionnalité de bandit à plusieurs bras d’ pour orienter le trafic vers des expériences gagnantes.
-* Utilisation [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)algorithme d’apprentissage automatique d’ensemble de afin de choisir la meilleure expérience pour chaque visiteur. [!UICONTROL Ciblage automatique] choisit la meilleure expérience en fonction des profils, des comportements et du contexte des utilisateurs tout en utilisant une [!DNL Adobe Analytics] mesure d’objectif et [!DNL Adobe Analytics]Riches capacités de création de rapports et d’analyse.
+* Utilisez la variable [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) bandit à plusieurs bras pour diriger le trafic vers des expériences gagnantes.
+* Utilisez la variable [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) algorithme d’apprentissage automatique d’ensemble pour choisir la meilleure expérience pour chaque visiteur. [!UICONTROL Ciblage automatique] choisit la meilleure expérience en fonction des profils, des comportements et du contexte des utilisateurs tout en utilisant une [!DNL Adobe Analytics] mesure d’objectif et [!DNL Adobe Analytics]Riches capacités de création de rapports et d’analyse.
 
 Assurez-vous que vous avez [Mise en oeuvre d’A4T pour une utilisation avec les activités de test A/B et de ciblage d’expérience](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la variable `sessionId` valeur à [!DNL Analytics]. Pour plus d’informations, voir [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} dans le *SDK Adobe Target* guide.
 
