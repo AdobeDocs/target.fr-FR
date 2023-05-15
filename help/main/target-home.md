@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->En plus de ce guide, les éléments suivants [!DNL Adobe Target] des guides sont également disponibles :
+>En plus de ce guide, les guides [!DNL Adobe Target] suivants sont également disponibles :
 >
->- [*Guide du développeur d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
+>- [*Guide de développement d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
 >
 >- [*Tutoriels Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr){target=_blank}
 >
->Pour plus d’informations sur la version, voir [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) dans ce guide.
+>Pour plus d’informations sur les versions, voir [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) dans ce guide.
 
 Les sections ci-dessous vous proposent des liens utiles dans ce guide, présentés par audience cible selon des fonctions classiques :
 
