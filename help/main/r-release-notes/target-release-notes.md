@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de  [!DNL Target]  ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 24 avril 2023**
+**Dernière mise à jour : 15 mai 2023**
 
 >[!NOTE]
 >
@@ -23,15 +23,13 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.4.1 (25 - 27 avril 2023)
+## [!DNL Target] Standard/Premium 23.5.1 (23-25 mai 2023)
 
-Cette version contient des mises à jour de sécurité et les nouvelles fonctionnalités suivantes :
+Cette version contient les nouvelles fonctionnalités, améliorations et correctifs suivants :
 
 | Fonctionnalité | Détails |
 |--- |--- |
-| [!UICONTROL Fragments de contenu AEM] pour une personnalisation et une expérimentation découplées | Utilisez les [!UICONTROL fragments de contenu] [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, consultez la section d’[AEM sur les [!UICONTROL fragments d’expérience]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).<p>**REMARQUE** : cette fonctionnalité est disponible pour l’ensemble des clients et clientes depuis le 9 mai 2023. |
-| [*Guide de développement d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Le *Guide de développement d’Adobe Target* a été déplacé vers *[!UICONTROL Adobe Experience League]*. Le déplacement vers *[!UICONTROL Experience League]* permet la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* pour étendre et offrir les résultats de recherche à partir du *[!UICONTROL Guide du spécialiste d’Adobe Target]* et du *[!UICONTROL Guide de développement d’Adobe Target]* et offre bien d’autres avantages encore.<P>La redirection depuis l’emplacement précédent vers *[!UICONTROL Experience League]* est automatique. Mettez à jour vos signets si nécessaire. |
+| Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
