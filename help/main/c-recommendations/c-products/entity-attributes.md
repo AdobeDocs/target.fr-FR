@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Comment utiliser les attributs d’entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 52%
+source-wordcount: '1081'
+ht-degree: 53%
 
 ---
 
@@ -79,7 +79,7 @@ Une seule valeur uniquement.
 
 Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [!DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
-Le `entity.id` Les valeurs doivent *not* contiennent des barres obliques, des esperluettes, des points d’interrogation, des symboles de pourcentage, des virgules ou d’autres caractères de ponctuation nécessitant un codage d’URL lors de leur transmission dans un appel API REST. Les tirets et les traits de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
+Le `entity.id` Les valeurs doivent *not* contiennent des espaces, des barres obliques, des esperluettes, des points d’interrogation, des symboles de pourcentage, des virgules ou d’autres caractères de ponctuation nécessitant un codage d’URL lors de leur transmission dans un appel API REST. Les tirets et les traits de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
 Exemple : `'entity.id=67833'`
 

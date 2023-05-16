@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '2678'
+source-wordcount: '2680'
 ht-degree: 98%
 
 ---
@@ -19,9 +19,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 mai | [Attributs d’entité](/help/main/c-recommendations/c-products/entity-attributes.md) | Indique que les &quot;espaces&quot; ne sont pas autorisés dans `entity.id` valeurs. |
 | 4 mai | [Configuration de l’authentification pour les API Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Ajout d’une note expliquant la nécessité de migrer d’informations d’identification JWT vers des informations d’identification OAuth serveur à serveur. |
 | 3 mai | [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Ajout de la question fréquente suivante :<ul><li>Comment effectuer le suivi des impressions d’activité dans [!DNL Analysis Workspace] lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) ?</li></ul> |
-|  | [Attributs de profil](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | Ajout d’informations complémentaires sur la ligne «landing.URL». |
 | 26 avril | [Présentation des [!UICONTROL fragments d’expérience] et [!UICONTROL fragments de contenu] AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La fonctionnalité [!UICONTROL Fragments de contenu AEM] est désormais disponible pour l’ensemble des [!DNL Target customers]. |
 |  | [[!UICONTROL Fragments de contenu AEM]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | La fonctionnalité [!UICONTROL Fragments de contenu AEM] est désormais disponible pour l’ensemble des [!DNL Target customers]. |
 |  | [*Guide de développement d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | Le *Guide de développement d’Adobe Target* a été déplacé vers *[!UICONTROL Adobe Experience League]*. Le déplacement vers *[!UICONTROL Experience League]* permet la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* pour étendre et offrir les résultats de recherche à partir du *[!UICONTROL Guide du spécialiste d’Adobe Target]* et du *[!UICONTROL Guide de développement d’Adobe Target]* et offre bien d’autres avantages encore.<P>La redirection depuis l’emplacement précédent vers *[!UICONTROL Experience League]* est automatique. Mettez à jour vos signets si nécessaire. |
