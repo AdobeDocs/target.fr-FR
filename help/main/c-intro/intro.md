@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;ciblage automatique;ciblage auto;autorisations;qu’est-ce qu’Adobe Target
-description: Découvrez les principes de base de l’Adobe [!DNL Target] Standard et Adobe [!DNL Target] Premium. [!DNL Target] Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
+description: Découvrez les principes de base d’Adobe  [!DNL Target]  et d’Adobe  [!DNL Target]  Premium. [!DNL Target] Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
 landing-page-description: Personnalisez l’expérience client afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 short-description: Personnalisez l’expérience client afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 title: Qu’est-ce que Target ?
