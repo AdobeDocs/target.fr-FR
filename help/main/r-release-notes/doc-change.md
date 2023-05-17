@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 96%
@@ -21,7 +21,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 16 mai | [Attributs d’entité](/help/main/c-recommendations/c-products/entity-attributes.md) | Indique que les &quot;espaces&quot; ne sont pas autorisés dans `entity.id` valeurs. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Mise à jour `viewsEnabled` description. |
-|  | [Implémentation d’une application d’une seule page](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Les mises à jour suivantes ont été apportées :<ul><li>Ajout d’une remarque après l’étape 2 sous &quot;Implémentation des vues Adobe Target&quot;.</li><li>Mise à jour de l’étape 2 &quot;Exécuter la requête Target&quot; sous Ordre des opérations pour le chargement initial de la page.&quot;</li></ul> |
+|  | [Implémentation d’une application d’une seule page](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Les mises à jour suivantes ont été apportées :<ul><li>Ajout d’une remarque après l’étape 2 sous &quot;Implémentation des vues Adobe Target&quot;.</li><li>Mise à jour de l’étape 2 &quot;Exécuter la requête Target&quot; sous &quot;Ordre des opérations pour le chargement initial de la page&quot;.</li></ul> |
 | 4 mai | [Configuration de l’authentification pour les API Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Ajout d’une note expliquant la nécessité de migrer d’informations d’identification JWT vers des informations d’identification OAuth serveur à serveur. |
 | 3 mai | [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Ajout de la question fréquente suivante :<ul><li>Comment effectuer le suivi des impressions d’activité dans [!DNL Analysis Workspace] lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) ?</li></ul> |
 | 26 avril | [Présentation des [!UICONTROL fragments d’expérience] et [!UICONTROL fragments de contenu] AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La fonctionnalité [!UICONTROL Fragments de contenu AEM] est désormais disponible pour l’ensemble des [!DNL Target customers]. |
