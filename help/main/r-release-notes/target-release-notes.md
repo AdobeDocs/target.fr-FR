@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '409'
 ht-degree: 68%
 
 ---
@@ -53,7 +53,7 @@ Les améliorations suivantes ont été apportées à cette version :
 |--- |--- |
 | [!UICONTROL Mode AQ] pour [!UICONTROL Automated Personalization] activités | [!DNL Adobe Target] [!UICONTROL Mode AQ] est désormais disponible pour [!UICONTROL Automated Personalization] activités, remplacement [!UICONTROL Aperçu des liens] .<P>Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md).. |
 
-* Amélioration des performances lors de l’utilisation de la fonction [!UICONTROL Interdire les doublons] option pendant [gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activités.
+* Améliorations des performances pour interdire les doublons (notamment la réduction du temps de chargement) pendant que [gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activités.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
