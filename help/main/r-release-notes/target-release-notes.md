@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 15 mai 2023**
+**Dernière mise à jour : 19 mai 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,35 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 mai 2023)
 
+Cette version sera disponible selon le planning échelonné suivant :
+
+23 mai : Région Europe, Moyen-Orient et Afrique (EMEA) 24 mai : Région Asie-Pacifique (APAC) 25 mai : Région des Amériques
+
 Cette version comprend de nouvelles fonctionnalités, de nouvelles améliorations et de nouveaux correctifs :
 
 | Fonctionnalité | Détails |
 |--- |--- |
 | Attributs de profil Real-Time CDP partagés avec [!DNL Target] | Les [!UICONTROL Attributs de profil Real-Time CDP] peut être transmis à [!DNL Target] afin d’être utilisés dans les offres HTML et JSON.<P>Pour plus d’informations, consultez la section [Partager des attributs de profil Real-Time CDP avec [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
+
+* Correction d’un problème qui empêchait certains clients de créer des audiences avec des profils de visiteur utilisant des opérateurs &quot;supérieur à&quot; ou &quot;inférieur à&quot;. (TGT-45271)
+
+## [!DNL Target] Standard/Premium 23.5.2 (31 mai 2023)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Correction d’un problème en raison duquel une page vierge s’affichait lors de la génération d’un jeton d’autorisation d’API Profile. (TGT-45387)
+* Correction d’un problème qui empêchait l’affichage d’une image dans la variable [!UICONTROL Créer une conception] si le nom de l’image contient 18 030 caractères GB. (TGT-44614)
+* Correction d’un problème en raison duquel les rapports pour [!UICONTROL Personnalisation automatique] activités à geler pendant l&#39;analyse. (TGT-44820)
+
+## [!DNL Target] Standard/Premium 23.5.3 (Date à déterminer)
+
+Les améliorations suivantes ont été apportées à cette version :
+
+| Fonctionnalité | Détails |
+|--- |--- |
+| [!UICONTROL Mode AQ] pour [!UICONTROL Automated Personalization] activités | [!DNL Adobe Target] [!UICONTROL Mode AQ] est désormais disponible pour [!UICONTROL Automated Personalization] activités, remplacement [!UICONTROL Aperçu des liens] .<P>Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md).. |
+
+* Amélioration des performances lors de l’utilisation de la fonction [!UICONTROL Interdire les doublons] option pendant [gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activités.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
