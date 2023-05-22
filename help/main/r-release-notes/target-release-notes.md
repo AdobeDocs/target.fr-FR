@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f326a689420e4d351aba20eec665fdd8cd721139
+source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 68%
+source-wordcount: '519'
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 19 mai 2023**
+**Dernière mise à jour : 22 mai 2023**
 
 >[!NOTE]
 >
@@ -44,6 +44,10 @@ Cette version comprend les améliorations et correctifs suivants :
 * Correction d’un problème en raison duquel une page vierge s’affichait lors de la génération d’un jeton d’autorisation d’API Profile. (TGT-45387)
 * Correction d’un problème qui empêchait l’affichage d’une image dans la variable [!UICONTROL Créer une conception] si le nom de l’image contient 18 030 caractères GB. (TGT-44614)
 * Correction d’un problème en raison duquel les rapports pour [!UICONTROL Personnalisation automatique] activités à geler pendant l&#39;analyse. (TGT-44820)
+* Correction d’un problème en raison duquel aucune activité ne s’affichait dans l’interface utilisateur de Target pour l’espace de travail par défaut pour certains clients. (TGT-45286)
+* Mise à jour du comportement de l’indicateur &quot;Ne pas autoriser les doublons&quot;. Les indicateurs d’offres répétées exclus sont mis à jour afin d’autoriser les offres répétées si elles sont l’offre de contenu par défaut (pour les API v3, v4) et d’autoriser les options en double si les options font référence à l’offre de contenu par défaut et si aucun modèle n’est défini. (TNT-46617)
+* Correction d’un problème en raison duquel un paramètre de requête était ajouté à une URL qui empêchait le chargement de la page dans le compositeur d’expérience visuelle (VEC). (TGT-44873)
+* Correction d’un problème en raison duquel certains caractères étaient incorrectement placés dans une séquence d’échappement dans le texte/HTML dans les expériences. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Date à déterminer)
 
