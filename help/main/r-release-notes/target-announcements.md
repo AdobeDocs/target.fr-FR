@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 94%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## [!UICONTROL Session Adobe Target Community Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)]
+## [!UICONTROL Adobe Target Community] Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mercredi 24 mai 2023**
-* **8:00-9:00:00 (PT, UTC-7)**
+* **Mercredi 24 mai 2023**
+* **8:00-9:00 (PT, UTC-7)**
 * **[Informations d’enregistrement](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-Nous serons rejoints par Ryan Roberts, Gentry Lin, et Ryan Pizzuto de la [!UICONTROL Adobe Target Consulting] l&#39;équipe et Mihnea Docea de la [!UICONTROL Ingénierie du support technique d’Adobe] qui sera connecté à l’équipe [Communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank} pour discuter directement avec vous sur ce fil à propos de votre [!DNL Adobe Target] questions relatives à vos questions relatives aux [!DNL Target] @ [!UICONTROL Adobe Summit] 2023.
+Se joindront à nous Ryan Roberts, Gentry Lin et Ryan Pizzuto de l’équipe [!UICONTROL Adobe Target Consulting] et Mihnea Docea de l’équipe [!UICONTROL Adobe Technical Support Engineering], qui seront connectés au site de la [communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank} pour discuter directement avec vous sur ce fil à propos de vos questions [!DNL Adobe Target] en lien avec [!DNL Target] à l’occasion de la conférence [!UICONTROL Adobe Summit] 2023.
 
-N’hésitez pas à consulter les [Enregistrements de session sommet Adobe Target à la demande](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} avant d&#39;apporter vos questions de relance à cette discussion.
+N’hésitez pas à consulter les [enregistrements de session de la conférence Adobe Target Summit (à la demande)](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} avant de poser vos questions de suivi dans cette discussion.
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
