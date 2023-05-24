@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
 source-wordcount: '2839'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 17 mai | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la pause-café questions/réponses de la [!UICONTROL communauté Adobe Target] du mercredi 24 mai 2023. |
 | 16 mai | [Attributs d’entité](/help/main/c-recommendations/c-products/entity-attributes.md) | Indique que les « espaces » ne sont pas autorisés dans les valeurs `entity.id`. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | Mise à jour de la description `viewsEnabled`. |
-|  | [Implémentation d’une application d’une seule page](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Les modifications suivantes ont été apportées :<ul><li>Ajout d’une remarque après l’étape 2 sous Implémentation des vues Adobe Target.</li><li>Mise à jour de l’étape 2, Exécuter la requête Target, sous Ordre des opérations pour le chargement initial de la page.</li></ul> |
+|  | [Implémentation d’une application monopage](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | Les modifications suivantes ont été apportées :<ul><li>Ajout d’une remarque après l’étape 2 sous Implémentation des vues Adobe Target.</li><li>Mise à jour de l’étape 2, Exécuter la requête Target, sous Ordre des opérations pour le chargement initial de la page.</li></ul> |
 | 4 mai | [Configuration de l’authentification pour les API Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | Ajout d’une note expliquant la nécessité de migrer les informations d’identification JWT vers les informations d’identification OAuth serveur à serveur. |
 | 3 mai | [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | Ajout de la question fréquente suivante :<ul><li>Comment effectuer le suivi des impressions d’activité dans [!DNL Analysis Workspace] lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) ?</li></ul> |
 | 26 avril | [Présentation des [!UICONTROL fragments d’expérience] et [!UICONTROL fragments de contenu] AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | La fonctionnalité [!UICONTROL Fragments de contenu AEM] est désormais disponible pour l’ensemble des [!DNL Target customers]. |
