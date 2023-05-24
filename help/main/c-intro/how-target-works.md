@@ -5,7 +5,7 @@ title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2565'
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Si vous le souhaitez, vous pouvez ajouter des clusters Edge de [!DNL Target] sur
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-[!DNL Adobe] garantit que la disponibilité et la performance de l’infrastructure de ciblage sont aussi fiables que possible. Cependant, une ventilation des communications entre le navigateur d’un visiteur et les serveurs [!DNL Adobe] peuvent provoquer une interruption de la diffusion de contenu.
+[!DNL Adobe] garantit que la disponibilité et la performance de l’infrastructure de ciblage sont aussi fiables que possible. Cependant, une répartition des communications entre le navigateur d’un visiteur et les serveurs [!DNL Adobe] peuvent provoquer une interruption de la diffusion de contenu.
 
 Pour éviter les interruptions de service et les problèmes de connectivité, tous les emplacements sont configurés pour inclure le contenu par défaut (défini par le client). Ce contenu par défaut s’affiche si le navigateur de l’utilisateur ne parvient pas à se connecter à [!DNL Target].
 

@@ -61,7 +61,7 @@ Un gagnant est trouvé lorsque l’intervalle de confiance de 95 % de l’expér
 
 Un nombre &quot;Degré de confiance&quot; est également reporté en regard de l’expérience gagnante ou de l’expérience gagnante actuelle. Ce chiffre est reporté uniquement jusqu’à ce que le degré de confiance de l’expérience principale atteigne au moins 60 %. Si exactement deux expériences sont présentes dans l’expérience d’affectation automatique, ce nombre représente le degré de confiance selon lequel l’expérience est plus performante que l’autre expérience. Si plus de deux expériences sont présentes dans l’expérience d’affectation automatique, ce nombre représente le degré de confiance selon lequel l’expérience est plus performante que l’expérience de &quot;contrôle&quot; définie. Si l’expérience &quot;Contrôle&quot; est gagnante, aucun chiffre &quot;Confiance&quot; n’est signalé.
 
-## Questions fréquentes  {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Questions fréquentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
 Tenez compte des réponses suivantes aux questions fréquentes :
 

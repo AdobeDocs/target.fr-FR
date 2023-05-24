@@ -1,6 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: ht
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 # Code de conduite Adobe
@@ -50,7 +52,7 @@ menaçants, injurieux ou nuisibles.
 
 Ce code de conduite s’applique à la fois aux espaces du projet et
 publics lorsqu’une personne représente le projet ou sa communauté. Parmi les 
-exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle 
+exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse e-mail officielle 
 de projet, la publication par le biais de comptes officiels dans les médias sociaux ou l’utilisation d’un représentant désigné
 à un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
 
@@ -60,13 +62,13 @@ Les cas d’abus, de harcèlement ou d’autres comportements inacceptables pour
 signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes
 les plaintes sont examinées et analysées ; elles se traduiront par une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est
 tenue de respecter la confidentialité en ce qui concerne le déclarant d’un incident. 
-Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
+Des informations supplémentaires sur les politiques d’application spécifiques peuvent être publiées séparément.
 
 Les responsables de projet qui ne respectent pas ou n’appliquent pas de bonne
 foi le Code de conduite pourront être sanctionnés de façon temporaire ou permanente, sur décision des autres
 membres de la direction du projet.
 
-## Attributions
+## Attribution
 
-Le présent Code de conduite est l’adaptation de la [Charte Code de Conduite Contributeurs](https://contributor-covenant.org), version 1.4,
-disponible à l’adresse suivante : [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Ce code de conduite est adapté à partir de la [Charte code de conduite contributeur](https://contributor-covenant.org), version 1.4,
+disponible sur [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

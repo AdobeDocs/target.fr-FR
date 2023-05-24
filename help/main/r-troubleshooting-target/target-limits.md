@@ -209,7 +209,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
    « Le nombre de mboxParameters ne peut pas dépasser 50. »
 
-   Limites définies pour les points de terminaison :
+   Limites définies pour les points d’entrée :
 
    **mbox par lot v2** :
 
@@ -222,7 +222,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
    * La valeur du paramètre de profil ne peut pas être nulle.
    * Longueur maximale de la valeur du paramètre de profil : 5000
 
-   **Point de terminaison de l’API de diffusion** :
+   **Point d’entrée de l’API de diffusion** :
 
    * Paramètres mbox : 100
    * Longueur maximale du nom du paramètre mbox : 128

@@ -7,7 +7,7 @@ exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
@@ -105,9 +105,9 @@ Keep the following points in mind as you work with imported audiences:
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
 
-## Utilisation d’audiences provenant de [!DNL Adobe Experience Platform] {#aep}
+## Utiliser des audiences d’[!DNL Adobe Experience Platform] {#aep}
 
-Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données client plus riches, qui conduisent de facto à une personnalisation ayant plus dʼimpact.
+Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée.
 
 Pour plus d’informations, voir [Utilisation d’audiences provenant de [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 

@@ -11,7 +11,7 @@ ht-degree: 37%
 
 ---
 
-# [!UICONTROL Rapport Contribution des emplacements (MVT)]
+# Rapport Contribution des emplacements  (MVT)
 
 Le [!UICONTROL Contribution des emplacements] indique les performances de chaque élément et de chaque offre.
 

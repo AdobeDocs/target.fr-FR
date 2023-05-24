@@ -7,7 +7,7 @@ exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
 source-wordcount: '2714'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
@@ -201,7 +201,7 @@ Voici quelques points à garder à l’esprit lors de l’affichage [!DNL Analyt
 
 +++
 
-## Comment effectuer le suivi des impressions d’activité dans [!DNL Analysis Workspace] lors de l’utilisation de [!UICONTROL Analytics pour Target] (A4T) ? {#activity-impressions}
+## Comment effectuer le suivi des impressions d’activité dans [!DNL Analysis Workspace] lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) ? {#activity-impressions}
 
 +++Réponse
 

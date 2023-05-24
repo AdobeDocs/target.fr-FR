@@ -429,7 +429,7 @@ Par exemple, pour résoudre le problème ci-dessus, nous pouvons spécifier l’
 
 Ainsi, chaque fois qu’un visiteur arrive sur la SPA et accède à la page d’accueil ou à la vue de page, il verra les actions appliquées.
 
-Désormais, lorsque vous ajoutez une action à une vue dans le SPA VEC, nous vous montrerons le message contextuel suivant pour vous rappeler de réfléchir aux règles de [!UICONTROL Diffusion de page].
+Désormais, lorsque vous ajoutez une action à une vue dans le SPA VEC, nous vous montrerons le message pop-up suivant pour vous rappeler de réfléchir aux règles de [!UICONTROL Diffusion de page].
 
 ![Message Paramètres de Diffusion de page](/help/main/c-experiences/assets/pop-up-message.png)
 

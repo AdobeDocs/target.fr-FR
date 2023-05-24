@@ -97,7 +97,7 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 
 | Paramètres d’URL | Objectif |
 |--- |--- |
-| `mboxDebug=1` | Débogueur<br>Si vous ajoutez ce paramètre à une URL avec des requêtes Target définies, une fenêtre contextuelle contenant des informations importantes sur le débogage s’affiche. Les informations de cookie ainsi que les valeurs PCid et ID de session sont écrites et toutes les URL sont visibles. Cliquez sur une URL de requête Target pour afficher la réponse de cette requête [!DNL Target]. Pour plus d’informations, reportez-vous au fichier [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Débogueur<br>Si vous ajoutez ce paramètre à une URL avec des requêtes Target définies, une fenêtre pop-up contenant des informations importantes sur le débogage s’affiche. Les informations de cookie ainsi que les valeurs PCid et ID de session sont écrites et toutes les URL sont visibles. Cliquez sur une URL de requête Target pour afficher la réponse de cette requête [!DNL Target]. Pour plus d’informations, reportez-vous au fichier [mbox_debug.pdf](/help/main/assets/mbox_debug.pdf). |
 | `mboxDisable=1` | Désactivation des mbox dans la page |
 | `mboxOverride.browserIp=<Insert IP address>` | Test de géociblage<br>Effectuez un test de géociblage avec ce paramètre d’URL. Saisissez une adresse IP comme valeur de cet attribut et la fonction de géociblage de Test&amp;Target évalue cette adresse IP par rapport à un géociblage ou à une segmentation défini dans une campagne. |
 

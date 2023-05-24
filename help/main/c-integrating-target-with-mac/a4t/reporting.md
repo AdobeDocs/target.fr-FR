@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 48%
 
 ---
@@ -79,7 +79,7 @@ Au cours de la création de l’activité, vous devez indiquer un objectif pour 
 
 Vous pouvez effectuer des calculs hors ligne pour les intervalles de confiance et de confiance pour A4T à l’aide de la variable [!DNL Target] [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) fichier Excel, mais nécessite une étape avec l’exportation des données dans [!DNL Analytics].
 
-Pour A4T, nous utilisons une [Le test en t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test)Calcul de {target=_blank} pour les variables continues (plutôt que les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces accès supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test en t de Welch, la &quot;somme des carrés&quot; est nécessaire pour calculer la variance, utilisée dans le dénominateur de la statistique en t. [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explique les détails des formules mathématiques utilisées. La somme des carrés peut être récupérée à partir de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
+Pour A4T, nous utilisons une [Le test en t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} Calcul des variables continues (plutôt que des mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces accès supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test en t de Welch, la &quot;somme des carrés&quot; est nécessaire pour calculer la variance, utilisée dans le dénominateur de la statistique en t. [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explique les détails des formules mathématiques utilisées. La somme des carrés peut être récupérée à partir de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
 
 Si, par exemple, vous effectuez une optimisation pour les pages vues par visiteur, vous exportez un exemple du nombre total de pages vues par visiteur pour une période spécifiée, peut-être quelques jours (quelques milliers de points de données sont tout ce dont vous avez besoin). Vous calculez ensuite chaque valeur au carré et faites la sommes des totaux (l’ordre des opérations est critique ici). Cette valeur de « somme des carrés » est ensuite utilisée dans le calculateur de confiance complet. Utilisez la section « recettes » de cette feuille de calcul pour ces valeurs.
 

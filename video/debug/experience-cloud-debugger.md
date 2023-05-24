@@ -4,7 +4,7 @@ description: Déboguer Adobe  [!DNL Target]  à l’aide du débogueur Adobe Exp
 title: Déboguer  [!DNL Target]  avec le débogueur Experience Cloud
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 

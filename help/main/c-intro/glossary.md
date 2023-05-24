@@ -58,11 +58,11 @@ L’affectation automatique identifie un gagnant parmi plusieurs expériences et
 
 **ciblage automatique**
 
-Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.
+Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des spécialistes marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.
 
 **automated personalization**
 
-Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions.
+Automated Personalization (AP) associe des offres ou des messages et utilise le machine learning avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 

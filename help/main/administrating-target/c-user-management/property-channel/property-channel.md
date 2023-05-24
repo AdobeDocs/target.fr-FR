@@ -258,7 +258,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 
 Les questions fréquentes concernant les autorisations d’entreprise sont les suivantes :
 
-### Que se passe-t-il si un utilisateur dispose de plusieurs rôles et autorisations ? [#multiple-roles]
+### Que se passe-t-il si un utilisateur ou une utilisatrice dispose de plusieurs rôles et autorisations ? [#multiple-roles]
 
 Si un utilisateur dispose de plusieurs rôles et autorisations, le rôle avec les autorisations du navigateur est appliqué. Par exemple, si un utilisateur possède [!UICONTROL Observateur] et [!UICONTROL Approbateur] les rôles, [!UICONTROL Approbateur] est appliqué.
 

@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1850'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## [!UICONTROL Adobe Target Community] Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)
+## [!UICONTROL Session Adobe Target Community Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)]
 
 * **Mercredi 24 mai 2023**
 * **8:00-9:00 (PT, UTC-7)**

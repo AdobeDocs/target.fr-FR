@@ -8,7 +8,7 @@ exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1855'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -106,7 +106,7 @@ Un attribut consiste en des informations sur un visiteur ou sa visite spécifiqu
 
 Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
-### Je vois un ou plusieurs attributs que je ne veux pas que le modèle utilise pour l’entraînement. Puis-je supprimer ces attributs du modèle d’entraînement ? {#models-api}
+### Un ou plusieurs attributs que je ne souhaite pas que le modèle utilise pour l’entraînement sont présents. Puis-je supprimer ces attributs du modèle d’entraînement ? {#models-api}
 
 Le [!UICONTROL API de modèles], également appelé API de Liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des attributs (également appelés fonctionnalités) utilisés dans les modèles d’apprentissage automatique pour [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT). Si vous souhaitez exclure un ou plusieurs attributs de l’utilisation par les modèles pour les activités AP ou AT, vous pouvez utiliser l’API Modèles pour ajouter ces attributs à la &quot;liste bloquée&quot;.
 

@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 41%
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ Les paramètres de géolocalisation vous permettent de cibler des activités et 
    * [!UICONTROL Zone desservie (DMA)]
    * [!UICONTROL Opérateur de téléphonie mobile]
 
-   Les informations géographiques d’un visiteur sont déterminées à partir de l’adresse IP d’origine d’une [!DNL Target] requête d’emplacement (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.
+   Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.
 
    Pour [!UICONTROL Opérateur de téléphonie mobile], [!DNL Target] utilise les données d’enregistrement de l’adresse IP (qui possède le bloc d’adresses IP) pour déterminer l’opérateur de téléphonie mobile approprié à l’aide de [Codes de pays mobile (MCC) et codes de réseau mobile (MNC)](https://www.mcc-mnc.com).
 

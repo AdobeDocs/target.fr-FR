@@ -1,6 +1,8 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: ht
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 93%
 
 ---
 # Contribution
@@ -25,15 +27,14 @@ de publication (le cas échéant).
 
 Toutes les contributions tierces à ce projet doivent être accompagnées d’un 
 contrat de licence de contributeur signé. Cela donne à Adobe l’autorisation de redistribuer vos contributions
-dans le cadre du projet. [Signez notre CLA](http://opensource.adobe.com/cla.html). Vous 
+dans le cadre du projet. [Signez notre contrat de licence du contributeur](http://opensource.adobe.com/cla.html). Vous 
 n’avez besoin d’envoyer un CLA Adobe qu’une seule fois. Par conséquent, si vous l’avez déjà soumis,
 vous êtes opérationnel !
 
 ## Révision du code
 
 Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées
-par les contributeurs avec accès en validation. Lisez [la documentation sur la demande d’extraction de GitHub ](https://help.github.com/articles/about-pull-requests/)
-pour plus d’informations sur l’envoi de demandes d’extraction.
+par les contributeurs avec accès en validation. Lisez la [documentation relative aux demandes d’extraction de GitHub](https://help.github.com/articles/about-pull-requests/) pour plus d’informations sur l’envoi de demandes d’extraction.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -51,4 +52,4 @@ n’hésitez pas à contacter les committers existants pour discuter de ce sujet
 
 ## Problèmes de sécurité
 
-Les problèmes de sécurité ne doivent pas être signalés dans ce suivi d’incidents. Au lieu de cela, [envoyez un problème à nos experts en sécurité](https://helpx.adobe.com/fr/security/alertus.html).
+Les problèmes de sécurité ne doivent pas être signalés dans ce suivi d’incidents. Au lieu de cela, [soumettre un problème à nos experts en sécurité ;](https://helpx.adobe.com/security/alertus.html)

@@ -74,7 +74,7 @@ Supposons, par exemple, que vous souhaitiez afficher les films recommandés en f
 
 ## Affichage des informations sur les critères {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
-Vous pouvez afficher les détails d’un critère sur une carte contextuelle en faisant glisser le pointeur de la souris sur une carte et en cliquant sur l’icône Informations sur une carte de critère sans ouvrir le critère.
+Vous pouvez afficher les détails d’un critère sur une carte pop-up en faisant glisser le pointeur de la souris sur une carte et en cliquant sur l’icône Informations sur une carte de critère sans ouvrir le critère.
 
 ![Survol de la carte Critères](/help/main/c-recommendations/c-algorithms/assets/criteria_hover.png)
 

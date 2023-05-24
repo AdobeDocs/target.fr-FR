@@ -8,7 +8,7 @@ exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '2114'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -54,7 +54,7 @@ Quels éléments permettent de créer des recommandations de grande qualité ?
 Des recommandations de grande qualité doivent être pertinentes et personnalisées. Vous avez donc besoin de trois éléments pour obtenir la pertinence et la personnalisation :
 
 * Les **contrôles marketeur** pour favoriser la pertinence des articles recommandés. En tant que marketeur, vous apportez vos connaissances précieuses en matière de contexte et vous savez quels attributs des produits ou contenus sont pertinents pour un modèle de recommandations. Si vous gérez un site de vidéos, vous savez que les utilisateurs pourraient être intéressés de voir des films du même réalisateur, mais probablement ne se soucient pas de voir des films produits par le même studio. [!DNL Target] vous propose des contrôles qui permettent d’améliorer vos algorithmes avec ces connaissances de domaine.
-* Des **modèles élaborés** pour comprendre des millions d’articles dans vos catalogues et événements d’interaction. [!DNL Target] dispose de capacités d’apprentissage machine élaborées reposant sur une dizaine d’années d’expérience. De plus, Adobe gère des milliards de recommandations par an.
+* Des **modèles élaborés** pour comprendre des millions d’articles dans vos catalogues et événements d’interaction. [!DNL Target] dispose de capacités de machine learning élaborées reposant sur une dizaine d’années d’expérience. De plus, Adobe gère des milliards de recommandations par an.
 * Un **contexte utilisateur** pour être sûr que les recommandations sont opportunes et pertinentes pour vos utilisateurs. Vous ne voulez pas recommander la vidéo que quelqu&#39;un vient de regarder ou la chemise que quelqu&#39;un vient d&#39;ajouter à son panier. Le profil utilisateur riche de Target peut être utilisé dans les recommandations pour garantir la personnalisation.
 
 ## Implémentation de [!DNL Target] Recommendations
