@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
+source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 92%
+source-wordcount: '1989'
+ht-degree: 87%
 
 ---
 
@@ -44,6 +44,14 @@ Aucun webinaire pour le moment.
 ## Enregistrements des anciens webinaires et sessions de création de compétences
 
 Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
+
+### Le Parcours de la croissance avec la personnalisation
+
+Superposez la capacité de votre entreprise à fournir une personnalisation, présentée par Ramon Cespedes, Adobe Customer Success Manager.
+
+Selon un rapport d&#39;analyste clé, les entreprises qui excellent dans la personnalisation génèrent 40 % de recettes de plus que leurs homologues. Pour répondre à la demande d’expériences nouvelles, pertinentes et hautement personnalisées à chaque clic, les marketeurs ont besoin de la structure et de la stratégie appropriées en place. Dans ce webinaire, rejoignez les experts de l’Adobe pour apprendre à utiliser un framework piloté par les données afin de créer des programmes de personnalisation pour votre organisation et de générer du succès.
+
+* [Lien d’enregistrement](https://event.on24.com/wcc/r/4217828/9C1E092251A62DF896221FB5A91437D4){target=_blank}
 
 ### Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)
 
