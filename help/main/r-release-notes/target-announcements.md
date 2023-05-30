@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 94%
+source-wordcount: '1889'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 94%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## [!UICONTROL Session Adobe Target Community Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)]
+## [!UICONTROL Communauté Adobe Target] Saut de café Q&amp;A
 
-* **Mercredi 24 mai 2023**
-* **8:00-9:00 (PT, UTC-7)**
-* **[Informations d’enregistrement](https://adobe.ly/3BgfeZZ){target=_blank}**
+Informations sur les prochaines coupures de café suivantes :
 
-Se joindront à nous Ryan Roberts, Gentry Lin et Ryan Pizzuto de l’équipe [!UICONTROL Adobe Target Consulting] et Mihnea Docea de l’équipe [!UICONTROL Adobe Technical Support Engineering], qui seront connectés au site de la [communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank} pour discuter directement avec vous sur ce fil à propos de vos questions [!DNL Adobe Target] en lien avec [!DNL Target] à l’occasion de la conférence [!UICONTROL Adobe Summit] 2023.
+### [!DNL Adobe Target Recommendations] Coffee Break
 
-N’hésitez pas à consulter les [enregistrements de session de la conférence Adobe Target Summit (à la demande)](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} avant de poser vos questions de suivi dans cette discussion.
+* **Mercredi 7 juin 2023**
+* **8:00-9:00:00 (PDT, UTC-7)**
+* **[Informations supplémentaires](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+Nous serons rejoints par [!DNL Adobe Target] experts : Bill Ozinga, John Mosbaugh, Justin Patrick, et Eric Thibeault. Lors de cet événement AMA (Ask Me Anything), les experts seront connectés et prêts à répondre à toutes vos questions relatives aux [!DNL Target Recommendations] fonction .
+
+### Suivi du webinaire sur le programme de personnalisation Readiness
+
+* **Mercredi 21 juin 2023**
+* **8:00-9:00:00 (PDT, UTC-7)**
+* **[Informations supplémentaires]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+Nous serons rejoints par des experts d&#39;Adobe Target, Ramon Cespedes et Kevin Jemison. Lors de cet événement AMA (Ask Me Anything), les experts seront connectés et prêts à répondre à toutes vos questions relatives aux sujets abordés dans le récent webinaire 5/24. [Le Parcours de la croissance avec la personnalisation](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
@@ -129,7 +139,7 @@ Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamiqu
 
 ### [!DNL Adobe] : personnalisation et précision - [!DNL Adobe Analytics] et [!DNL Target] (2 juin 2022)
 
-Découvrez comment l’intelligence artificielle continue à redéfinir les attentes des consommateurs à mesure que les modèles de machine learning automatique et les insights sur les données ouvrent de nouvelles portes aux professionnels du marketing, aux développeurs et aux propriétaires de produits afin d’impliquer les consommateurs avec des expériences personnalisées pertinentes. Profitez d’une visite détaillée des workflows [!DNL Adobe Analytics] + [!DNL Adobe Target] de personnalisation, de ciblage et de test.
+Découvrez comment l’intelligence artificielle continue à redéfinir les attentes des consommateurs à mesure que les modèles de machine learning automatique et les informations sur les données ouvrent de nouvelles portes aux professionnels du marketing, aux développeurs et aux propriétaires de produits afin d’impliquer les consommateurs avec des expériences personnalisées pertinentes. Profitez d’une visite détaillée des workflows [!DNL Adobe Analytics] + [!DNL Adobe Target] de personnalisation, de ciblage et de test.
 
 * [Lien d’enregistrement](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
