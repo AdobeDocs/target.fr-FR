@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 56%
+source-wordcount: '281'
+ht-degree: 84%
 
 ---
 
@@ -22,18 +22,6 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
-
-## [!DNL Target] Standard/Premium 23.5.2 (31 mai 2023)
-
-Cette version comprend les améliorations et correctifs suivants :
-
-* Correction d’un problème en raison duquel une page vierge s’affichait lors de la génération d’un jeton d’autorisation d’API Profile. (TGT-45387)
-* Correction d’un problème qui empêchait l’affichage d’une image dans la variable [!UICONTROL Créer une conception] si le nom de l’image contient 18 030 caractères GB. (TGT-44614)
-* Correction d’un problème en raison duquel les rapports pour [!UICONTROL Personnalisation automatique] activités à geler pendant l&#39;analyse. (TGT-44820)
-* Correction d’un problème en raison duquel aucune activité ne s’affichait dans l’interface utilisateur de Target pour l’espace de travail par défaut pour certains clients. (TGT-45286)
-* Mise à jour du comportement de l’indicateur &quot;Ne pas autoriser les doublons&quot;. Les indicateurs d’offres répétées exclus sont mis à jour afin d’autoriser les offres répétées si elles sont l’offre de contenu par défaut (pour les API v3, v4) et d’autoriser les options en double si les options font référence à l’offre de contenu par défaut et si aucun modèle n’est défini. (TNT-46617)
-* Correction d’un problème en raison duquel un paramètre de requête était ajouté à une URL qui empêchait le chargement de la page dans le compositeur d’expérience visuelle (VEC). (TGT-44873)
-* Correction d’un problème en raison duquel certains caractères étaient incorrectement placés dans une séquence d’échappement dans le texte/HTML dans les expériences. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Date à déterminer)
 
