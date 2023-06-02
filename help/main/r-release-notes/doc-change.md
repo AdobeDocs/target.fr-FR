@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '2890'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 30 mai | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.5.2 de [!DNL Target Standard/Premium]. |
 |  | [Intégrer à [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Mise à jour de l’article avec des informations sur le partage [!UICONTROL Attributs de profil Real-Time CDP] avec [!DNL Target] à utiliser dans les offres HTML et JSON. |
 |  | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos des événements Coffee Break suivants :<ul><li>[!DNL Adobe Target Recommendations] Saut de café (7 juin)</li><li>Suivi du webinaire sur le programme de personnalisation et la préparation (21 juin)</li></ul> |
-| 23 mai | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Mise à jour de la remarque importante. |
+| 23 mai | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour d’une note importante. |
 |  | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour les prochaines versions. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.5.1 de [!DNL Target Standard/Premium]. |
 
@@ -30,8 +30,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 22 mai | [Intégrer à [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Ajout des nouvelles vidéos suivantes :<ul><li>Configurez la variable [!DNL Adobe Target] destination dans [!DNL Real-Time Customer Data Platform]</li><li>Activation des segments et des attributs de profil</li><li>Utilisation [!DNL Real-Time CDP] segments dans [!DNL Target]</li><li>Utilisation [!DNL Real-Time CDP] attributs de profil dans [!DNL Adobe Target]</li></ul> |
-|  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Mise à jour de la remarque importante. |
+| 22 mai | [Intégrer à [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs) | Ajout des nouvelles vidéos suivantes :<ul><li>Configurer la destination [!DNL Adobe Target] dans [!DNL Real-Time Customer Data Platform]</li><li>Activer les segments et les attributs de profil</li><li>Utiliser les segments [!DNL Real-Time CDP] dans [!DNL Target]</li><li>Utiliser les attributs de profil [!DNL Real-Time CDP] dans [!DNL Adobe Target]</li></ul> |
+|  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour d’une note importante. |
 | 19 mai | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour les prochaines versions. |
 | 17 mai | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la pause-café questions/réponses de la [!UICONTROL communauté Adobe Target] du mercredi 24 mai 2023. |
 | 16 mai | [Attributs d’entité](/help/main/c-recommendations/c-products/entity-attributes.md) | Indique que les « espaces » ne sont pas autorisés dans les valeurs `entity.id`. |
@@ -51,7 +51,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 19 avril | Rapport Contribution des emplacements [ (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | Mise à jour des informations dans la note. |
 | 13 avril | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout dʼinformations sur [!DNL Target] Standard/Premium version 23.4.1 (25 - 27 avril 2023). |
-| 12 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’un lien d’inscription au webinaire suivant :<ul><li>Offrez des expériences personnalisées à vos clientes et clients, à chaque fois.</li></ul> |
+| 12 avril | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’un lien d’inscription au webinaire suivant :<ul><li>Offrez des expériences personnalisées à vos clientes et clients, à chaque fois</li></ul> |
 |  | [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | Ajout de la question fréquente suivante :<ul><li>Un ou plusieurs attributs que je ne souhaite pas que le modèle utilise pour l’entraînement sont présents. Puis-je supprimer ces attributs du modèle d’entraînement ?</li></ul> |
 |  | [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | Ajout de la question fréquente suivante :<ul><li>Que se passe-t-il si un utilisateur ou une utilisatrice dispose de plusieurs rôles et autorisations ?</li></ul> |
 |  | [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | Nouvelle rubrique. Notez que cette fonctionnalité est en version préliminaire à des fins de test. |
@@ -81,11 +81,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout d’un texte expliquant que l’exemple utilisant JQuery suppose que jQuery est disponible sur le site web de la cliente ou du client lorsque [!DNL Target] exécute les offres. |
 | 10 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.14.5 de [!DNL Target Standard/Premium]. |
 | 8 février | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour at.js 2.10.1 |
-| 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode de navigation.</li></ul> |
+| 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode de navigation</li></ul> |
 |  | [Créer des audiences dans Target](/help/main/c-target/c-audiences/create-audience.md) | Ajout d’une liste de caractères et de séquences de caractères qui ne peuvent pas être utilisés dans les noms d’audience. |
 | 31 janvier | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Ajout de la liste des caractères autorisés et non autorisés dans les noms de mbox. |
 | 25 janvier | [Créer des offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indique que la prise en charge des offres JSON dans le cadre des activités [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience d’après les formulaires est désormais disponible. |
-|  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience.</li></ul> |
+|  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.13.3 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
@@ -217,6 +217,6 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Création dʼaudiences](/help/main/c-target/c-audiences/audiences.md) | Ajout d’informations relatives aux audiences [!DNL Adobe Experience Platform]. |
 |  | [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md) | Ajout d’informations relatives aux audiences [!DNL Adobe Experience Platform]. |
 | 21 janvier | [Informations détaillées sur les versions d’at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ajout d’informations relatives à la version 1.8.3 d’at.js. |
-| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.x *x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ajout de la section suivante : « at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de paramètresvst.* » |
+| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.x *x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Ajout de la section suivante : « at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de paramètres.vst.* » |
 | 12 janvier | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 22.1.1 de [!DNL Target Standard/Premium]. |
 |  | [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |

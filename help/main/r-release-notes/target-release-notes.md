@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -29,9 +29,9 @@ Les améliorations suivantes ont été apportées à cette version :
 
 | Fonctionnalité | Détails |
 |--- |--- |
-| [!UICONTROL Mode AQ] pour [!UICONTROL Automated Personalization] activités | [!DNL Adobe Target] [!UICONTROL Mode AQ] est désormais disponible pour [!UICONTROL Automated Personalization] activités, remplacement [!UICONTROL Aperçu des liens] .<P>Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md).. |
+| [!UICONTROL Mode assurance qualité] pour les activités de [!UICONTROL personnalisation automatique] | Le [!UICONTROL mode assurance qualité] [!DNL Adobe Target] est désormais disponible pour les activités de [!UICONTROL personnalisation automatique], et remplace la fonctionnalité [!UICONTROL Aperçu des liens].<P>Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
-* Améliorations des performances pour interdire les doublons (notamment la réduction du temps de chargement) pendant que [gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] activités.
+* Améliorations des performances de la fonctionnalité Refuser les doublons (notamment la réduction du temps de chargement) pendant la [gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) dans les activités de [!UICONTROL personnalisation automatique].
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
