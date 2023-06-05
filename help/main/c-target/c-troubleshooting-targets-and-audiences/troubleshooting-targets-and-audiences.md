@@ -4,10 +4,10 @@ description: Afficher les questions fréquentes sur le ciblage d’expérience e
 title: Où puis-je trouver des questions et des réponses sur les cibles et les audiences ?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ Au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifi
 
 Ciblage des URL d’audience et ciblage des URL ajoutés via [!UICONTROL Règles de modèle] évaluer comme ciblage d’URL (voir Ciblage d’URL ci-dessous).
 
-### ciblage d’URL
+### ciblage d’URL {#url-targeting}
 
 Pour appliquer un ciblage d’URL lors de la création d’une audience, cliquez sur [!UICONTROL Ajouter une règle], cliquez sur [!UICONTROL Pages du site], sélectionnez une option dans la première liste déroulante ([!UICONTROL Page en cours], [!UICONTROL Page précédente]ou [!UICONTROL Page d’entrée]), sélectionnez [!UICONTROL URL] dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL souhaitée.
 
@@ -47,11 +47,10 @@ Pour appliquer un ciblage d’URL lors de la création d’une audience, cliquez
 
 Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
 
-* URL = `example.com/path1?query=something`
-* Domaine de l’URL = `example.com`
-* Path = path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* Domaine = `example.com`
+* Chemin d’accès = `path1/path2/path3`
+* Requête = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## Lors de la création de chaînes d’URL complexes, la fonction [!DNL Target] évaluer l’URL entière ?
 

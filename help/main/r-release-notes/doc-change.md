@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '2931'
+source-wordcount: '2957'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 5 juin | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Mise à jour des informations pour les événements suivants :<ul><li>Mise à jour du lien d’enregistrement pour la variable [!DNL Adobe Target Recommendations] Saut de café (mercredi 7 juin 2023)</li><li>Ajout d’informations sur le récent webinaire &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot; (Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés) et ajout d’un lien vers l’enregistrement.</li></ul> |
+|  | [Application d’une audience de rapport à une mesure de succès](/help/main/c-target/apply-reporting-audience-success-metric.md) | Mise à jour de la section &quot;Considérations&quot; et ajout de la section &quot;Exemple&quot;. |
+|  | [FAQ sur le ciblage et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Mise à jour de la section &quot;Ciblage des URL&quot;. |
 | 30 mai | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.5.2 de [!DNL Target Standard/Premium]. |
 |  | [Intégrer à [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) | Mise à jour de l’article avec des informations sur le partage [!UICONTROL Attributs de profil Real-Time CDP] avec [!DNL Target] à utiliser dans les offres HTML et JSON. |
 |  | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos des événements Coffee Break suivants :<ul><li>[!DNL Adobe Target Recommendations] Saut de café (7 juin)</li><li>Suivi du webinaire sur le programme de personnalisation et la préparation (21 juin)</li></ul> |
