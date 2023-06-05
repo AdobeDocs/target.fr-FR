@@ -4,10 +4,10 @@ description: Découvrez comment choisir une mesure de succès dans [!DNL Adobe T
 title: Puis-je appliquer une audience de rapport à une mesure de succès ?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bcbb6dec9d6add07c109b07bf125c1356ad2a8b9
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 52%
+source-wordcount: '405'
+ht-degree: 43%
 
 ---
 
@@ -21,15 +21,40 @@ Pour toutes les activités, la liste déroulante [!UICONTROL S’applique à] pe
 
 Imaginons, par exemple, que vous avez créé une activité pour tous les visiteurs qui entrent sur votre page d’accueil et qui accèdent ensuite à la page de conversion, mais que vous voulez également analyser plus en détails les visiteurs qui ont ajouté dans leur panier des produits pour un montant supérieur à 50 USD avant la conversion.
 
-Le [!UICONTROL Appliqué à] La liste déroulante propose potentiellement trois catégories : tous les visiteurs de l’activité, uniquement les visiteurs qui atteignent une certaine étape de l’activité ou uniquement les visiteurs qui atteignent la conversion. Autrement dit, vous pouvez spécifier qu’un visiteur doit avoir atteint une mbox sur la page d’entrée de l’activité, une mbox qui définit un point donné au cours de l’activité, ou encore la mbox de conversion à la fin de l’activité.
+Le [!UICONTROL Appliqué à] La liste déroulante propose potentiellement trois catégories :
 
-[Les mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, seules deux options s’affichent dans la liste déroulante : [!UICONTROL Entrée de campagne] et [!UICONTROL Conversion].
+* Tout visiteur de l’activité
+* Uniquement les visiteurs qui atteignent une certaine étape de l’activité
+* Uniquement les visiteurs qui atteignent la conversion
+
+Autrement dit, vous pouvez spécifier qu’un visiteur doit avoir atteint une mbox sur la page d’entrée de l’activité, une mbox qui définit un point donné au cours de l’activité, ou encore la mbox de conversion à la fin de l’activité.
+
+>[!NOTE]
+>
+>[Les mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, seules deux options s’affichent dans la liste déroulante : [!UICONTROL Entrée de campagne] et [!UICONTROL Conversion].
+
+
+## Considérations
 
 Prenez en compte les points suivants lorsque vous appliquez une audience de rapport à une mesure de succès :
 
-* Pour les actions antérieures à l’action avec la mesure de succès appliquée, [!DNL Target] n’applique pas une audience segmentée.
-* Pour les actions après la mesure de succès appliquée, [!DNL Target] applique une audience segmentée.
+* Seules les mesures de succès commençant par celle à laquelle l’audience est appliquée affichent les données de rapport segmentées par l’audience.
+* Les mesures de succès antérieures à celles auxquelles l’audience est appliquée ne sont pas segmentées par audience et affichent toutes les données du visiteur.
+* Les mesures sont prises en compte en fonction de leur ordre dans la définition de l’activité, avec la variable [!UICONTROL Principal objectif] être la dernière.
+
+## Afficher la segmentation dans les rapports
 
 Pour afficher la segmentation dans les rapports, sélectionnez l’audience de votre choix dans le [!UICONTROL Audience] liste déroulante dans le rapport de l’activité.
 
 ![image reporting_audience_dropdown](assets/reporting_audience_dropdown.png)
+
+## Exemple
+
+Prenons l’exemple d’une activité qui comprend les critères Mesure de succès 1, Mesure de succès 2, Mesure de succès 3 et l’objectif Principal.
+
+Supposons que vous ayez défini Audience1 sur &quot;Entrée&quot; et Audience2 sur la mesure de succès 2 de la création de rapports. Les audiences filtreront les données du rapport comme suit :
+
+|  | Visiteurs | Mesure de succès 1 | Mesure de succès 2 | Mesure de succès 3 | Principal objectif |
+| --- | --- | --- | --- | --- | --- |
+| Audience1 | Appliqué | Appliqué | Appliqué | Appliqué | Appliqué |
+| Audience2 | Non appliqué | Non appliqué | Appliqué | Appliqué | Appliqué |
