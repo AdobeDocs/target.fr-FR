@@ -4,10 +4,10 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '36580'
-ht-degree: 97%
+source-wordcount: '36579'
+ht-degree: 96%
 
 ---
 
@@ -141,7 +141,7 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 La nouvelle API Modèles d’[!DNL Adobe Target], également appelée API de liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des fonctionnalités utilisées dans les modèles de machine learning pour les activités d’[!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (AT).
 
-Pour plus d’informations, voir [Présentation de l’API de modèles](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.
+Pour plus d’informations, voir [Présentation de l’API de modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (version échelonnée : 25 - 27 octobre 2022)
 
@@ -238,12 +238,12 @@ Cette version comprend les améliorations et correctifs suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout de la prise en charge de [User Agent Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html).{target=_blank}
+* Ajout de la prise en charge de [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html).{target=_blank}
 * Correction d’un problème qui provoquait, par intermittence, des dépassements de délai lors du rendu des [!UICONTROL Décisions sur les offres] au cours d’activités de [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
 
 ### at.js version 2.9.0 (27 mai 2022)
 
-* Ajout de la prise en charge de [User Agent Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html).{target=_blank}
+* Ajout de la prise en charge de [User Agent Client Hints](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html).{target=_blank}
 * Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (sortie échelonnée ; 11-13 mai 2022)
@@ -557,7 +557,7 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
    | Offres visuelles de l’interface utilisateur de Target | 64 Ko | 1 024 Ko pour chaque expérience |
    | Par le biais de l’API | 512 Ko | 1 024 Ko |
 
-* Les rapports de [!UICONTROL statistiques de personnalisation] pour les activités de [!UICONTROL ciblage automatique] (AT) et d’[!UICONTROL Automated Personalization] (AP) sont désormais générés quotidiennement. Vous pouvez choisir un rapport qui fournit des [!UICONTROL Segments automatisés] ou des [!UICONTROL Attributs importants] pour les 15, 30 et 60 derniers jours. Les options de 45 et 90 jours ont été supprimées pour permettre aux autres paramètres de la fenêtre de recherche en amont de s’exécuter quotidiennement. (TGT-39472)
+* Les rapports [!UICONTROL Informations de personnalisation] pour les activités de [!UICONTROL ciblage automatique] (AT) et d’[!UICONTROL Automated Personalization] (AP) sont désormais générés quotidiennement. Vous pouvez choisir un rapport qui fournit des [!UICONTROL Segments automatisés] ou des [!UICONTROL Attributs importants] pour les 15, 30 et 60 derniers jours. Les options de 45 et 90 jours ont été supprimées pour permettre aux autres paramètres de la fenêtre de recherche en amont de s’exécuter quotidiennement. (TGT-39472)
 * Correction d’un problème en raison duquel la dépendance actuelle ne s’affichait pas lorsque les clients cliquaient sur [!UICONTROL Modifier la dépendance] sur la page [!UICONTROL Objectifs et paramètres] d’une activité. (TGT-39340)
 * Correction d’un problème lors de l’actualisation de la [!UICONTROL bibliothèque d’audiences] d’un espace de travail. Avant l’actualisation, les audiences de l’espace de travail actuellement sélectionné s’affichent. Après l’actualisation, l’[!UICONTROL espace de travail par défaut] et ses audiences s’affichent. L’espace de travail actuel et ses audiences restent après l’actualisation. (TGT-38871)
 * Correction d’un problème lors de la copie d’une activité [!UICONTROL Recommendations] et de la modification ultérieure de la séquence de critères de l’activité originale. La modification de la séquence de critères de l’activité originale a également été appliquée de manière incorrecte à l’activité copiée. (TGT-39155)
@@ -569,7 +569,7 @@ Cette version de maintenance comprend les améliorations, modifications et corre
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-* Ajout d’un avertissement lors de la sélection d’une mesure [!DNL Adobe Analytics] lors de l’utilisation d’[!UICONTROL Analytics comme source de création de rapports] (A4T) dans une activité de [!UICONTROL ciblage automatique]. Les modèles de [!UICONTROL ciblage automatique] sont optimisés pour fonctionner avec les mesures binaires (basées sur la conversion). La sélection d’une mesure continue, telle que le chiffre d’affaires, peut avoir des résultats inférieurs aux attentes et les rapports [!UICONTROL spécialisés de personnalisation] risquent de ne pas être précis. (TGT-38926)
+* Ajout d’un avertissement lors de la sélection d’une mesure [!DNL Adobe Analytics] lors de l’utilisation d’[!UICONTROL Analytics comme source de création de rapports] (A4T) dans une activité de [!UICONTROL ciblage automatique]. Les modèles de [!UICONTROL ciblage automatique] sont optimisés pour fonctionner avec les mesures binaires (basées sur la conversion). La sélection d’une mesure continue, telle que le chiffre d’affaires, peut avoir des résultats inférieurs aux attentes et les rapports [!UICONTROL Informations de personnalisation] risquent de ne pas être précis. (TGT-38926)
 * Ajout d’une icône d’état dans le rapport de [!UICONTROL synthèse de ciblage automatique] pour les activités de [!UICONTROL ciblage automatique] qui utilisent A4T. L’icône de vérification verte en regard du nom de chaque expérience dans le rapport indique qu’un modèle de machine learning personnalisé a été généré pour cette expérience. L’icône d’horloge indique que le trafic diffusé n’a pas été suffisant pour générer le modèle. (TGT-38925)
 * Les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] pour les activités de [!UICONTROL ciblage automatique] qui utilisent A4T et les mesures de conversion [!DNL Analytics] sont générés et ressemblent à ceux obtenus en utilisant [!DNL Target] comme source de création de rapports. (TGT-38931)
 * Ajout d’une option de filtrage d’environnement à la liste [!UICONTROL Collections] de [!UICONTROL Recommendations]. (TGT-38353)
@@ -1028,7 +1028,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
 * Nous avons amélioré le rendu des offres d’images dans le sélecteur de ressources. L’affichage et la sélection d’une image sont désormais plus rapides et plus efficaces. (TGT-32897)
 * Nous avons amélioré la gestion des redirections vers les URL lorsque vous annulez le chargement d’une page dans le compositeur d’expérience visuelle. (TGT-33815)
 * Après avoir sélectionné une collection [!UICONTROL Recommendations] dans le sélecteur de collections, vous devez maintenant cliquer sur le bouton [!UICONTROL Enregistrer]. Ce flux de travail est cohérent avec les autres flux de travail dans [!DNL Target]. (TGT-33205)
-* Correction d’un problème en raison duquel un petit ensemble de rapports sur les connaissances renvoyait 0 % des taux de conversion au lieu des taux de conversion réels. (TNT-32125)
+* Correction d’un problème en raison duquel un petit ensemble de rapports d’informations renvoyait 0 % des taux de conversion au lieu des taux de conversion réels. (TNT-32125)
 
 ### [!DNL Target] Standard/Premium 19.4.1 (15 avril 2019) {#release-19-4-1}
 
@@ -1157,7 +1157,7 @@ La mise à jour de [!DNL Target] Standard/Premium du 12 novembre comprend des a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Rapports de statistiques de personnalisation </p> <p> <p>Remarque : Disponible le 14 novembre 2018. </p> </p> </td> 
+   <td colname="col1" class="premium"> <p>Rapports des informations de personnalisation </p> <p> <p>Remarque : Disponible le 14 novembre 2018. </p> </p> </td> 
    <td colname="col2"> <p>Deux rapports spécialisés sont disponibles pour les utilisateurs des activités <span class="wintitle">Automated Personalization (AP)</span> et de <span class="wintitle">ciblage automatique (AT)</span> : </p> <p> 
      <ul id="ul_C338AC34C57C49E1A8DFA471167EC40A"> 
       <li id="li_2329BFC8CC524EBBA99C2F8EDC745B90"> <p><b><span class="wintitle">Segments automatisés</span> :</b> Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité. </p> </li> 
@@ -1224,7 +1224,7 @@ Cette version de [!DNL Target] comprend les améliorations, correctifs et modifi
    <td colname="col2"> <p>Il s’agit d’une version de maintenance qui résout le problème suivant : </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Correction d’un problème entraînant la présence d’une boucle asynchrone infinie sur les sites de certains clients. </p> </li> 
-     </ul> </p> <p> <p>Important : En outre, l’ensemble des améliorations et correctifs présents dans les versions 1.6.1 et 1.6.0 d’at.js le sont également dans la version 1.6.2. Ces deux anciennes versions ne sont désormais plus disponibles au téléchargement. Nous vous recommandons de mettre at.js à niveau vers la version 1.6.2 si vous utilisez les versions 1.6.1 ou 1.6.0. </p> </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=fr" format="html" scope="external">Informations détaillées sur les versions du fichier at.js.</a> </p> </td> 
+     </ul> </p> <p> <p>Important : En outre, l’ensemble des améliorations et correctifs présents dans les versions 1.6.1 et 1.6.0 d’at.js le sont également dans la version 1.6.2. Ces deux anciennes versions ne sont désormais plus disponibles au téléchargement. Nous vous recommandons de mettre at.js à niveau vers la version 1.6.2 si vous utilisez les versions 1.6.1 ou 1.6.0. </p> </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Informations détaillées sur les versions du fichier at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1290,7 +1290,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Rapports de statistiques de personnalisation </p> </td> 
+   <td colname="col1" class="premium"> <p>Rapports des informations de personnalisation </p> </td> 
    <td colname="col2"> <p>Consultez des rapports spécialisés relatifs à vos activités Automated Personalization (AP) et de ciblage automatique (AT) : </p> <p> 
      <ul id="ul_54652C5AE0984657BB9A0E46673CB2F1"> 
       <li id="li_0807959BA7D94114BE47A43D3454CAB4"> <p><b>Segments automatisés : </b>découvrez comment les différents segments automatisés définis par les modèles de personnalisation de Target répondent aux offres/expériences de votre activité. </p> </li> 
@@ -1945,7 +1945,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lot mobile et prérécupération </p> </td> 
-   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/prefetch-offer-content.html" format="dita" scope="local"> Prérécupération du contenu des offres </a>. </p> </td> 
+   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> Prérécupération du contenu des offres </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activités </p> </td> 
@@ -2052,7 +2052,7 @@ Pour plus d’informations, voir [Activation du contenu mixte dans votre navigat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mode AQ </p> </td> 
-   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">AQ d’activité.</a> </p> </td> 
+   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">AQ d’activité </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2393,7 +2393,7 @@ Dans cette version de [!DNL Target], plusieurs améliorations ont été apporté
 * Les performances de la page [!UICONTROL Objectifs et paramètres] ont été améliorées, notamment le temps de chargement de la page lorsque plusieurs mesures sont définies pour une activité. (TGT-21654)
 * Ajout d’une info-bulle à la page [!UICONTROL Objectifs et paramètres] de toutes les activités utilisant les rapports [!UICONTROL Analytics for Target] (A4T), informant les utilisateurs qu’aucun serveur de suivi n’est requis si at.js (version 0.9.1 ou ultérieure) est chargé pour les pages de l’activité. (TGT-22607)
 * Les noms des mesures s’affichent maintenant sur la page [!UICONTROL Objectifs et paramètres] sans qu’il soit nécessaire de développer chaque mesure. Il est ainsi plus rapide et plus efficace de modifier les mesures. (TGT-21276)
-* Vous pouvez maintenant appliquer les règles d’inclusion de [!DNL Recommendations] aux critères personnalisés (transférés au moyen d’un fichier CSV), de la même façon que pour les autres critères. (TGT-21896)
+* Vous pouvez maintenant appliquer les règles d’inclusion de [!DNL Recommendations] aux critères personnalisés (chargés au moyen d’un fichier CSV), de la même façon que pour les autres critères. (TGT-21896)
 * L’interface utilisateur et la convivialité de la page [!UICONTROL Offres] ont été améliorées, en particulier en ce qui concerne la création et la gestion des dossiers, ainsi que la création d’offres. (TGT-22509 et TGT-22187)
 * Les conditions d’utilisation du [!UICONTROL compositeur d’expérience visuelle] ont été améliorées en ce qui concerne la sélection d’éléments à masquer.
 (TGT-22224)
@@ -2425,7 +2425,7 @@ Dans cette version de [!DNL Target], plusieurs améliorations ont été apporté
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> Les noms de mbox peuvent désormais contenir des caractères spéciaux, y compris des esperluettes (&amp;). (TNT-26144) </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurations d’at.js</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>Ajout du paramètre <span class="codeph">secureOnly</span>, qui indique si <span class="codeph">at.js</span> doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. Il s’agit d’un paramètre avancé défini par défaut sur false ; il peut être remplacé au moyen de <span class="codeph">targetGlobalSettings </span>. (TNT-26183) </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>L’option <span class="wintitle">Prise en charge du navigateur hérité</span> est proposée dans les versions 0.9.3 et antérieures d’<span class="codeph">at.js</span>. Elle a été supprimée de la version 0.9.4 d’<span class="codeph">at.js</span>. </p> <p>Pour plus d’informations, voir <a href="https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Configurations d’at.js</a>. </p> </li> 
-     </ul> </p> <p>Pour en savoir plus sur les modifications apportées dans chaque version d’<span class="codeph">at.js</span>, voir <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=fr" format="html" scope="external">Informations détaillées sur les versions du fichier at.js.</a> </p> </td> 
+     </ul> </p> <p>Pour en savoir plus sur les modifications apportées dans chaque version d’<span class="codeph">at.js</span>, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external">Informations détaillées sur les versions du fichier at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,10 +4,10 @@ description: Vous avez créé votre première activité dans Adobe Target. Quell
 title: Où trouver des ressources supplémentaires pour utiliser Target plus efficacement ?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 83%
+source-wordcount: '690'
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Nous avons compilé une liste organisée d’informations précieuses afin de vo
 ## Ressources supplémentaires
 
 * **Page d’accueil Adobe Target** : la page d’accueil d’[!DNL Adobe Target]. Découvrez nos fonctionnalités et consultez nos derniers exemples de réussite ici. Consultez [Adobe Target](https://www.adobe.com/fr/marketing/target.html).
-* **Le blog** : suivez les dernières nouvelles et obtenez des conseils et des témoignages de clients sur le [blog Target](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
+* **Le blog** : suivez les dernières nouvelles et obtenez des conseils et des témoignages de clients sur le [blog Target](https://blog.adobe.com/en/topics/target).
 * **Experience League**: Découvrez les guides, les événements et la formation dont vous avez besoin pour lancer votre entreprise d’expérience, vous connecter à la communauté Target et trouver les réponses que vous recherchez. Consultez la [page d’accueil d’Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 * **Certification Adobe Target** : obtenez le statut Adobe Certified Expert avec les nouveaux examens d’Adobe Target. Planifiez un examen ou des cours de formation ici. Consultez [Formation et certification](/help/main/c-intro/training-and-certification.md).
 * **Notes de mise à jour d’Adobe Target** : informations sur les fonctionnalités, les améliorations et les correctifs de chaque version de [!DNL Target Standard] et [!DNL Target Premium]. En outre, des notes de mise à jour sur les API, les SDK et la bibliothèque JavaScript (at.js) de Target et d’autres modifications de plateforme sont également incluses, le cas échéant. Consultez [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md).

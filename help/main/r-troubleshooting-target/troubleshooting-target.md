@@ -4,7 +4,7 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 86%
@@ -37,14 +37,14 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 ### Ciblage automatique
 
 * [Résolution des problèmes de ciblage automatique et questions fréquentes](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-* [Rapports de statistiques de personnalisation](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [Rapports des informations de personnalisation](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [FAQ sur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Résolution des problèmes liés à Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
 * [Rapports de synthèse d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-* [Rapports de statistiques de personnalisation](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+* [Rapports des informations de personnalisation](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Test multivarié (MVT)
 
@@ -117,7 +117,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ### at.js
 
-* [FAQ sur at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Informations détaillées sur les versions d’at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
