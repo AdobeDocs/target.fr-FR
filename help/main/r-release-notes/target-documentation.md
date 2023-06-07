@@ -4,10 +4,10 @@ description: Accédez à la documentation d’ [!DNL Adobe Target] , notamment �
 title: Où trouver de la documentation et des ressources pour  [!DNL Adobe Target] ?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Les guides et ressources suivants sont disponibles pour [!DNL Target] :
 | [API Target Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank} | Informations sur les API [!UICONTROL Recommendations] qui vous permettent d’interagir par programmation avec les serveurs de recommandations [!DNL Target]. Ces API peuvent être intégrées à une plage de piles d’applications pour exécuter des fonctions que vous exécuteriez normalement via l’interface utilisateur de [!DNL Target]. |
 | [API de diffusion côté serveur](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} | Informations sur les ressources qui composent l’API de diffusion Adobe Target. |
 | [SDK côté serveur Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank} | Explique comment déployer [!DNL Target] côté serveur à l’aide de SDK. |
-| [SDK Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informations sur l’implémentation de [!DNL Target] sur les applications mobiles. |
+| [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html) | Informations sur l’implémentation de [!DNL Target] sur les applications mobiles. |
 
 Outre les ressources ci-dessus, consultez la [communauté Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), où vous pouvez :
 
