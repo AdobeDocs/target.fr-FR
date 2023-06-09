@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Cette version comprend les améliorations et correctifs suivants :
 
 * Correction d’un problème en raison duquel une page vierge s’affichait lors de la génération d’un jeton d’autorisation de l’API Profile. (TGT-45387 et TGT-45423)
 * Correction d’un problème qui empêchait l’affichage d’une image dans le panneau [!UICONTROL Créer une conception] si le nom de l’image contenait des caractères GB 18030. (TGT-44614)
-* Correction d’un problème en raison duquel certains caractères de symbole GB 18030 étaient incorrectement placés dans une séquence d’échappement dans le texte/HTML dans les expériences. (TGT-44600)
+* Correction d’un problème en raison duquel certains caractères GB 18030 étaient incorrectement placés dans une séquence d’échappement en texte/HTML dans les expériences. (TGT-44600)
 * Correction d’un problème qui entraînait le blocage des rapports pour les activités de [!UICONTROL personnalisation automatique] pendant l’analyse. (TGT-44820)
-* Correction d’un problème qui empêchait la recherche d’une activité sur le [!UICONTROL Activité] si le nom de l’activité contient un crochet ( [ ou ] ). (TGT-44777)
+* Correction d’un problème qui empêchait la recherche d’une activité sur la page [!UICONTROL Activité] si le nom de l’activité contenait un crochet ([ ou ]). (TGT-44777)
 * Correction d’un problème qui empêchait la synchronisation d’une activité si l’objectif de l’activité contenait des caractères spéciaux. (TGT-44982)
-* Correction d’un problème en raison duquel aucune activité ne s’affichait dans la variable [!DNL Target] Interface utilisateur de l’espace de travail par défaut pour certains clients. (TGT-45286)
+* Correction d’un problème en raison duquel aucune activité ne s’affichait dans l’interface utilisateur de [!DNL Target] pour l’espace de travail par défaut de certains clients et clientes. (TGT-45286)
 * Mise à jour du comportement de l’indicateur « Refuser les doublons ». Les indicateurs d’offres répétées exclues sont mis à jour afin d’autoriser les offres répétées si elles sont l’offre de contenu par défaut (pour les API v3, v4) et d’autoriser les options en double si les options font référence à l’offre de contenu par défaut et si aucun modèle n’est défini. (TNT-46617)
-* Correction d’un problème en raison duquel un paramètre de requête était ajouté à une URL qui empêchait le chargement de la page dans la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-44873)
+* Correction d’un problème en raison duquel un paramètre de requête était ajouté à une URL qui empêchait le chargement de la page dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). (TGT-44873)
 * Plusieurs correctifs de localisation ont été apportés dans l’ensemble de l’interface utilisateur de [!DNL Target].
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 mai 2023)
