@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 95%
+source-wordcount: '1146'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 12 juin | [Cookies Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | Mise à jour de l’article dans *Guide des composants de l’interface centrale d’Experience Cloud* explication des cookies utilisés par [!DNL Target]. |
 | 5 juin | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Mise à jour des informations pour les événements suivants :<ul><li>Mise à jour du lien d’enregistrement pour la variable [!DNL Adobe Target Recommendations] Saut de café (mercredi 7 juin 2023)</li><li>Ajout d’informations sur le récent webinaire &quot;Mobile Experience Optimization and Personalization for Authenticated Environments&quot; (Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés) et ajout d’un lien vers l’enregistrement.</li></ul> |
 |  | [Application d’une audience de rapport à une mesure de succès](/help/main/c-target/apply-reporting-audience-success-metric.md) | Mise à jour de la section &quot;Considérations&quot; et ajout de la section &quot;Exemple&quot;. |
 |  | [FAQ sur le ciblage et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | Mise à jour de la section &quot;Ciblage des URL&quot;. |
