@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Aucun webinaire pour le moment.
 
 Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
 
-### Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés (26 avril 2023)
+### Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés (26 avril 2023)
 
 Les marques doivent fournir des expériences hautement personnalisées et pertinentes en fonction des besoins et des comportements spécifiques de la clientèle. Avec les questions sur l’avenir sans cookies des technologies marketing, les secteurs réglementés cherchent à adopter un cadre d’engagement client plus robuste tout en optimisant chaque interaction client pour le contenu et l’offre appropriés.
 
@@ -46,7 +46,7 @@ Comment les marques des secteurs des services financiers et des assurances, de l
 Au cours de cette session, découvrez comment [!DNL Adobe Target] et [!DNL Real-Time CDP] peuvent accroître l’engagement, le chiffre d’affaires et la fidélisation de la clientèle dans les secteurs réglementés à travers les discussions suivantes :
 
 * Comment les équipes fournissent des expériences personnalisées aux visiteurs et visiteuses anonymes et authentifiés
-* Présentation des autorisations des consommateurs et des normes de confidentialité avec la personnalisation
+* Présentation des autorisations des clients et clientes et des normes de confidentialité avec la personnalisation
 * Offres et contenu personnalisés pour les visiteurs et visiteuses authentifiées par le biais de l’anonymisation des identités
 * Cas d’utilisation uniques pour les sites authentifiés et sécurisés sur le web et les appareils mobiles
 
