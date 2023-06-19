@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target].
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 33%
+source-wordcount: '818'
+ht-degree: 34%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée.
 
 Pour plus d’informations, voir [Utilisation d’audiences provenant de [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## Utilisation des attributs de profil de la plateforme CDP en temps réel dans les offres HTML et JSON
-
-Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec Target pour être utilisés dans les offres de HTML et les offres JSON. Pour plus d’informations, voir Intégration avec [!DNL Real-Time Customer Data Platform].
-
-Pour plus d’informations, voir [Gestion du contenu](/help/main/c-experiences/c-manage-content/manage-content.md) et [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Vidéo de formation : Utilisation des audiences ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
