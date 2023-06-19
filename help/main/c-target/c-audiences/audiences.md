@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target].
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 34%
+source-wordcount: '861'
+ht-degree: 33%
 
 ---
 
@@ -28,7 +28,7 @@ Il existe deux types d’audiences dans [!DNL Target]:
 * **Ciblage des audiences :** Utilisé pour diffuser du contenu différent à différents types de visiteurs.
 * **Audiences avec création de rapports :** Permet de déterminer comment différents types de visiteurs répondent au même contenu afin que vous puissiez analyser les résultats de vos tests.
 
-   Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. Si vous utilisez [ Adobe Analytics comme source des rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), vous devez configurer les audiences avec création de rapports dans [!DNL Analytics].
+  Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. Si vous utilisez [ Adobe Analytics comme source des rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), vous devez configurer les audiences avec création de rapports dans [!DNL Analytics].
 
 ## Utilisez la variable [!UICONTROL Audiences] list {#use-list}
 
@@ -43,13 +43,13 @@ Le [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser dans v
 * [!DNL Experience Cloud]
 * [!DNL Adobe Experience Platform]
 
-   >[!NOTE]
-   >
-   >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé tel quel ou [combiné avec les audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
-   >
-   >Les utilisateurs doivent disposer des [!UICONTROL Approbateur] ou au-dessus de l’état [!DNL Target] pour configurer [!DNL Target] [!UICONTROL Destinations] cartes dans AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
-   >
-   >Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](#aep).
+  >[!NOTE]
+  >
+  >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé tel quel ou [combiné avec les audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
+  >
+  >Les utilisateurs doivent disposer des [!UICONTROL Approbateur] ou au-dessus de l’état [!DNL Target] pour configurer [!DNL Target] [!UICONTROL Destinations] cartes dans AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+  >
+  >Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](#aep).
 
 Audiences prédéfinies, telles que &quot;[!UICONTROL Nouveaux visiteurs]&quot; et &quot;[!UICONTROL Visiteurs récurrents]&quot; ne peut pas être renommé.
 
@@ -110,6 +110,12 @@ Keep the following points in mind as you work with imported audiences:
 Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée.
 
 Pour plus d’informations, voir [Utilisation d’audiences provenant de [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
+
+## Utilisation des attributs de profil de la plateforme CDP en temps réel dans les offres HTML et JSON
+
+Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec Target pour être utilisés dans les offres de HTML et les offres JSON. Pour plus d’informations, voir Intégration avec [!DNL Real-Time Customer Data Platform].
+
+Pour plus d’informations, voir [Gestion du contenu](/help/main/c-experiences/c-manage-content/manage-content.md) et [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## Vidéo de formation : Utilisation des audiences ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
