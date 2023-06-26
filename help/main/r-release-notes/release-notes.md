@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Cette version comprend les améliorations et correctifs suivants :
 * Correction d’un problème en raison duquel un paramètre de requête était ajouté à une URL qui empêchait le chargement de la page dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). (TGT-44873)
 * Plusieurs correctifs de localisation ont été apportés dans l’ensemble de l’interface utilisateur de [!DNL Target].
 
-## Attributs de profil Real-Time CDP partagés avec [!DNL Target] [!UICONTROL Attributs de profil Real-Time CDP] (13 juin 2023)
+## Attributs de profil Real-Time CDP partagés avec les [!DNL Target] [!UICONTROL Attributs de profil Real-Time CDP] (13 juin 2023)
 
 L’amélioration suivante a été apportée à cette version :
 
