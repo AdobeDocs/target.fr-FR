@@ -4,16 +4,24 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
 # Modifications de la documentation
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
+
+## [!DNL Target] Standard/Premium 23.6.1 (27-29 juin 2023)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 27 juin | [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | L’AQ des activités est désormais disponible pour tous les types d’activités Target, y compris [!UICONTROL Automated Personalization] (AP). Suppression des informations sur les liens d’aperçu. |
+|  | Prévisualisation des URL | Comme tous les types d’activité prennent désormais en charge l’AQ d’activité, cette rubrique a été supprimée et redirigée vers [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) rubrique. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.6.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 mai 2023)
 

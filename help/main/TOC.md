@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 62d3253a1a5637dc3d1dfca16f582a3d91a2461b
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1215'
 ht-degree: 95%
 
 ---
@@ -141,7 +141,6 @@ ht-degree: 95%
       + [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Sélection du contrôle de votre activité de Automated Personalization ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md)
       + [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience](c-activities/t-automated-personalization/experience-preview.md)
       + [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Ciblage d’expérience {#experience-targeting}
       + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
@@ -266,8 +265,8 @@ ht-degree: 95%
    + Rapports de personnalisation {#personalization-reports}
       + [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Rapports de synthèse d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Rapports spécialisés de personnalisation {#insights}
-      + [Présentation des rapports spécialisés de personnalisation](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+   + Rapports des informations de personnalisation {#insights}
+      + [Présentation des rapports des informations de personnalisation](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Segments automatisés](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Attributs importants](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + Rapports de test multivarié {#multivariate-test-reports}
