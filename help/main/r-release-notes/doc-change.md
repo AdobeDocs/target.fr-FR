@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 97%
 
 ---
 
@@ -15,12 +15,13 @@ ht-degree: 96%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.6.1 (27-29 juin 2023)
+## [!DNL Target] Standard/Premium 23.6.1 (27 au 29 juin 2023)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 27 juin | [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | L’AQ des activités est désormais disponible pour tous les types d’activités Target, y compris [!UICONTROL Automated Personalization] (AP). Suppression des informations sur les liens d’aperçu. |
-|  | Prévisualisation des URL | Comme tous les types d’activité prennent désormais en charge l’AQ d’activité, cette rubrique a été supprimée et redirigée vers [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) rubrique. |
+| 10 juillet | [Considérations et limites connues](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | Ajout d’informations au *API de diffusion Target* documentation sur l’application des noms d’en-tête minuscules par HTTP/2. |
+| 27 juin | [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Le QA d’activité est désormais disponible pour tous les types d’activités Target, y compris les activités [!UICONTROL Automated Personalization] (AP). Suppression des informations sur les liens d’aperçu. |
+|  | Prévisualisation des URL | Comme tous les types d’activité prennent désormais en charge le QA d’activité, cette rubrique a été supprimée au profit de la rubrique [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.6.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (23-25 mai 2023)
