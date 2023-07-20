@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 20 juillet | [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Ajout des questions fréquentes suivantes au *Guide du développeur d’Adobe Target*: Comment puis-je autoriser ou empêcher mon site d’être incorporé en tant qu’iFrame sous des domaines étrangers ? |
 | 10 juillet | [Considérations et restrictions connues](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=fr){target=_blank} | Ajout d’informations à la documentation de l’*API Target Delivery* sur l’application des noms d’en-tête en minuscules par HTTP/2. |
 | 27 juin | [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Le QA d’activité est désormais disponible pour tous les types d’activités Target, y compris les activités [!UICONTROL Automated Personalization] (AP). Suppression des informations sur les liens d’aperçu. |
 |  | Prévisualisation des URL | Comme tous les types d’activité prennent désormais en charge le QA d’activité, cette rubrique a été supprimée au profit de la rubrique [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md). |
