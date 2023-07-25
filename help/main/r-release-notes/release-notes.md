@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 81%
+source-wordcount: '459'
+ht-degree: 73%
 
 ---
 
@@ -18,6 +18,13 @@ ht-degree: 81%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Adobe Target] Mise à niveau de l’infrastructure planifiée d’Edge {#edge}
+
+La mise à niveau de l’infrastructure Edge prévue nécessite que des adresses IP ou des domaines supplémentaires soient placés sur la liste autorisée. Examinez et placez sur la liste autorisée le NAT et les domaines IP/IP pour les déploiements Edge 41-48. Les upgrades d&#39;infrastructure commencent le 9 août 2023.
+&quot;
+
+Pour plus d’informations, voir [Liste autorisée des noeuds de périphérie de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} dans le *Guide du développeur d’Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (24-26 juillet)
 
