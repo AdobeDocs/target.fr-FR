@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 20 juillet | [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | Ajout des questions fréquentes suivantes au *Guide du développeur d’Adobe Target*: Comment puis-je autoriser ou empêcher mon site d’être incorporé en tant qu’iFrame sous des domaines étrangers ? |
+| 20 juillet | [Directives relatives aux CSP (Content Security Policy, politiques de sécurité du contenu)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=fr){target=_blank} | Ajout des questions fréquentes suivantes au *Guide du développeur d’Adobe Target* : comment puis-je autoriser ou empêcher mon site d’être incorporé en tant qu’iFrame sous des domaines étrangers ? |
 | 10 juillet | [Considérations et restrictions connues](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html?lang=fr){target=_blank} | Ajout d’informations à la documentation de l’*API Target Delivery* sur l’application des noms d’en-tête en minuscules par HTTP/2. |
 | 27 juin | [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Le QA d’activité est désormais disponible pour tous les types d’activités Target, y compris les activités [!UICONTROL Automated Personalization] (AP). Suppression des informations sur les liens d’aperçu. |
 |  | Prévisualisation des URL | Comme tous les types d’activité prennent désormais en charge le QA d’activité, cette rubrique a été supprimée au profit de la rubrique [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md). |
