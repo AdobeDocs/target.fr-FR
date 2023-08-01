@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,26 +19,26 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Adobe Target] Mise à niveau de l’infrastructure planifiée d’Edge {#edge}
+## Mise à niveau de l’infrastructure prévue pour [!DNL Adobe Target] Edge {#edge}
 
-La mise à niveau de l’infrastructure Edge prévue nécessite que des adresses IP ou des domaines supplémentaires soient placés sur la liste autorisée. Examinez et placez sur la liste autorisée le NAT et les domaines IP/IP pour les déploiements Edge 41-48. Les upgrades d&#39;infrastructure commencent le 9 août 2023.
+La mise à niveau de l’infrastructure prévue pour Edge nécessite que des adresses IP ou des domaines supplémentaires soient placés sur la liste autorisée. Examinez et placez sur la liste autorisée les domaines IP et NAT pour les déploiements Edge 41-48. Les mises à niveau des infrastructures commencent le 9 août 2023.
 &quot;
 
-Pour plus d’informations, voir [Liste autorisée des noeuds de périphérie de Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} dans le *Guide du développeur d’Adobe Target*.
+Pour plus d’informations, voir [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} dans le *Guide de développement d’Adobe Target*.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juillet)
+## [!DNL Target] Standard/Premium 23.7.1 (24 au 26 juillet)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **24 juillet**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **25 juillet**: Région Asie-Pacifique (APAC)
-* **26 juillet**: Région des Amériques
+* **24 juillet** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **25 juillet** : région Asie-Pacifique (APAC)
+* **26 juillet** : région des Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la recherche lorsque [navigation des éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments DOM fantômes. (TGT-45262)
-* Correction d’un problème qui empêchait la variable [Modifier la superposition](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
-* Correction d’un problème qui empêchait certains clients de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : &quot;L’utilisateur n’est pas autorisé à accéder au rapport.&quot; (TGT-45724 et TGT-45747)
+* Amélioration de la recherche durant la [navigation au sein d’éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments Shadow DOM. (TGT-45262)
+* Correction d’un problème qui empêchait le paramètre [Modifier le recouvrement](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
+* Correction d’un problème qui empêchait certains personnes de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : « L’utilisateur ou l’utilisatrice n’est pas autorisé(e) à accéder au rapport. » (TGT-45724 et TGT-45747)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
