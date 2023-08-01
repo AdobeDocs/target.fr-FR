@@ -5,9 +5,9 @@ title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans l
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juillet)
+## [!DNL Target] Standard/Premium 23.7.1 (24 au 26 juillet)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **24 juillet**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **25 juillet**: Région Asie-Pacifique (APAC)
-* **26 juillet**: Région des Amériques
+* **24 juillet** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **25 juillet** : région Asie-Pacifique (APAC)
+* **26 juillet** : région des Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la recherche lorsque [navigation des éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments DOM fantômes. (TGT-45262)
-* Correction d’un problème qui empêchait la variable [Modifier la superposition](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
-* Correction d’un problème qui empêchait certains clients de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : &quot;L’utilisateur n’est pas autorisé à accéder au rapport.&quot; (TGT-45724 et TGT-45747)
+* Amélioration de la recherche durant la [navigation au sein d’éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments Shadow DOM. (TGT-45262)
+* Correction d’un problème qui empêchait le paramètre [Modifier le recouvrement](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
+* Correction d’un problème qui empêchait certains personnes de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : « L’utilisateur ou l’utilisatrice n’est pas autorisé(e) à accéder au rapport. » (TGT-45724 et TGT-45747)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
