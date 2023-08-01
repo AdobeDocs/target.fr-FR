@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 98%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.7.1 (24-26 juillet 2023)
+## [!DNL Target] Standard/Premium 23.7.1 (24 au 26 juillet 2023)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 25 juillet | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md#edge) | Ajout d’informations sur la mise à niveau de l’infrastructure Edge prévue pour le 9 août 2023. |
-|  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour de la NAT et des domaines IP/des domaines pour les déploiements Edge 41-48. |
+| 25 juillet | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md#edge) | Ajout d’informations sur la mise à niveau de l’infrastructure Edge prévue pour le 9 août 2023. |
+|  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour des domaines NAT et IP pour les déploiements Edge 41-48. |
 | 24 juillet | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.7.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (27 au 29 juin 2023)
