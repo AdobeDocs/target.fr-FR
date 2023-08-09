@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,19 +25,15 @@ La mise à niveau de l’infrastructure prévue pour Edge nécessite que des adr
 
 Pour plus d’informations, voir [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} dans le *Guide de développement d’Adobe Target*.
 
-## [!DNL Target] Standard/Premium 23.7.1 (24 au 26 juillet)
-
-Cette version sera disponible selon le planning échelonné suivant :
-
-* **24 juillet** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **25 juillet** : région Asie-Pacifique (APAC)
-* **26 juillet** : région des Amériques
+## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la recherche durant la [navigation au sein d’éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments Shadow DOM. (TGT-45262)
-* Correction d’un problème qui empêchait le paramètre [Modifier le recouvrement](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
-* Correction d’un problème qui empêchait certains personnes de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : « L’utilisateur ou l’utilisatrice n’est pas autorisé(e) à accéder au rapport. » (TGT-45724 et TGT-45747)
+* Correction d’un problème qui empêchait parfois la synchronisation correcte des activités, comme indiqué dans le[!UICONTROL État]&quot; sur la colonne [!UICONTROL Activité] page de liste. (TGT-46010 et TGT-44831)
+* Correction d’un problème qui empêchait parfois le paramètre[!UICONTROL Afficher dans Analytics]&quot; à partir de l’affichage sur le [!UICONTROL Rapports] page des activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-45808)
+* Ajustement de la présentation des valeurs dans les tableaux pour qu’elles s’affichent sous forme de pourcentages plutôt que de nombres avec décimales. Par exemple, 8 % au lieu de 0,08. (TGT-45548)
+* Correction d’un problème qui empêchait les clients d’utiliser la sélection au clavier pour passer à l’élément suivant dans la variable [!UICONTROL Objectifs et paramètres] page pour [!UICONTROL Ciblage d’expérience] (XT). (TGT-44526)
+* Correction d’un problème qui entraînait une perte de focus du clavier après l’ouverture du[!UICONTROL Ajout d’audiences]&quot; lors de la création d’une activité. (TGT-44525)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

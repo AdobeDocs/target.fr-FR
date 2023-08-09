@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 24 juillet 2023**
+**Dernière mise à jour : 9 août 2023**
 
 >[!NOTE]
 >
@@ -23,19 +23,15 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.7.1 (24 au 26 juillet)
-
-Cette version sera disponible selon le planning échelonné suivant :
-
-* **24 juillet** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **25 juillet** : région Asie-Pacifique (APAC)
-* **26 juillet** : région des Amériques
+## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la recherche durant la [navigation au sein d’éléments à l’aide du chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour inclure des éléments Shadow DOM. (TGT-45262)
-* Correction d’un problème qui empêchait le paramètre [Modifier le recouvrement](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) de fonctionner correctement. (TGT-45202)
-* Correction d’un problème qui empêchait certains personnes de télécharger les rapports d’activité après avoir reçu le message d’erreur suivant : « L’utilisateur ou l’utilisatrice n’est pas autorisé(e) à accéder au rapport. » (TGT-45724 et TGT-45747)
+* Correction d’un problème qui empêchait parfois la synchronisation correcte des activités, comme indiqué dans le[!UICONTROL État]&quot; sur la colonne [!UICONTROL Activité] page de liste. (TGT-46010 et TGT-44831)
+* Correction d’un problème qui empêchait parfois le paramètre[!UICONTROL Afficher dans Analytics]&quot; à partir de l’affichage sur le [!UICONTROL Rapports] page des activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-45808)
+* Ajustement de la présentation des valeurs dans les tableaux pour qu’elles s’affichent sous forme de pourcentages plutôt que de nombres avec décimales. Par exemple, 8 % au lieu de 0,08. (TGT-45548)
+* Correction d’un problème qui empêchait les clients d’utiliser la sélection au clavier pour passer à l’élément suivant dans la variable [!UICONTROL Objectifs et paramètres] page pour [!UICONTROL Ciblage d’expérience] (XT). (TGT-44526)
+* Correction d’un problème qui entraînait une perte de focus du clavier après l’ouverture du[!UICONTROL Ajout d’audiences]&quot; lors de la création d’une activité. (TGT-44525)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
