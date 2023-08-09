@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 100%
+source-wordcount: '2133'
+ht-degree: 94%
 
 ---
 
@@ -15,23 +15,31 @@ ht-degree: 100%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## [!UICONTROL Adobe Target Community] Q&amp;A Coffee Break (Pause-café Questions/réponses de la communauté Adobe Target)
-
-Informations sur les prochaines pauses-café :
-
-### Suivi du webinaire sur l’état de la préparation du programme de personnalisation
-
-* **Mercredi 21 juin 2023**
-* **8:00-9: h (PDT, UTC -7)**
-* **[Informations supplémentaires](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-Nous serons rejoints par les experts d&#39;Adobe Target, Ramon Cespedes et Kevin Jemison. Lors de cet événement AMA (Ask Me Anything), les experts seront connectés et prêts à répondre à toutes vos questions relatives aux sujets abordés dans le récent webinaire du 24/05 sur [le parcours de la croissance avec la personnalisation](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
-
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-Aucun webinaire pour le moment.
+### Stratégie pour un impact maximal du retour sur investissement en cas de préparation à la pointe de la saison
+
+* **Jeudi 17 août 2023**
+* **8:00-9: h (PDT, UTC -7)**
+* **[Inscrivez-vous ici](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Proposer des expériences client attrayantes pour améliorer les taux de conversion. Votre entreprise est-elle prête pour la haute saison ? Rejoignez-nous et accédez à des conseils d’experts sur la manière d’optimiser les performances et le retour sur investissement cette fois-ci.
+
++++Voir les détails
+
+Rejoignez John Magnusson, Adobe Customer Success Manager et Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Rejoignez-nous pour apprendre des stratégies qui ont une incidence significative sur votre programme de préparation à la haute saison.
+
+Les sujets couverts sont les suivants :
+
+* Créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
+* Examiner l’impact de chaque canal marketing
+* Exploration approfondie du comportement des clients et des tendances d’achat
+* Identifier les mauvaises expériences client et les améliorer au moyen de tests
+* Découvrir les opportunités de conversion de site
+
++++
 
 ## Enregistrements des anciens webinaires et sessions de création de compétences
 
@@ -183,7 +191,7 @@ Découvrez les bonnes pratiques pour devenir une « banque de relations » afi
 
 ### [!DNL Adobe] : découvrir les opportunités d’optimisation à fort impact (16 juin 2022)
 
-Découvrez comment, au fur et à mesure que nous entrons dans cette nouvelle normalité plus numérique que jamais, il est essentiel que les entreprises profitent de chaque occasion pour offrir des expériences numériques exceptionnelles. « Bien » ne suffit plus. Il faut de grandes expériences pour rester compétitif.
+Découvrez comment, au fur et à mesure que nous entrons dans cette nouvelle normalité plus numérique que jamais, il est essentiel que les entreprises profitent de chaque occasion pour offrir des expériences digitales exceptionnelles. « Bien » ne suffit plus. Il faut de grandes expériences pour rester compétitif.
 
 * [Lien d’enregistrement](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
