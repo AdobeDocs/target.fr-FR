@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 9 août | [Aperçu de Target Mobile](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | Mise à jour de la rubrique avec des informations sur les versions actuelles de la [!DNL Adobe Experience Platform Mobile SDK]. |
 |  | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos du webinaire suivant programmé pour le 17 août 2023 : *Stratégie pour un impact maximal du retour sur investissement en cas de préparation à la pointe de la saison*. |
-| 7 août | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Clarification des informations sur les versions prises en charge d’at.js. |
+| 7 août | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Clarification des informations sur les versions prises en charge d’at.js. |
 | 25 juillet | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md#edge) | Ajout d’informations sur la mise à niveau de l’infrastructure Edge prévue pour le 9 août 2023. |
 |  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour des domaines NAT et IP pour les déploiements Edge 41-48. |
 | 24 juillet | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.7.1 de [!DNL Target Standard/Premium]. |
