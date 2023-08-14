@@ -4,10 +4,10 @@ description: Découvrez comment gérer les offres de code et d’image à l’ai
 title: Comment gérer les offres de code et d’image ?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -19,7 +19,7 @@ Utilisez la variable [!UICONTROL Offres] bibliothèque dans [!DNL Adobe Target] 
 
    La bibliothèque contient les offres qui ont été configurées par l’intermédiaire de [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
 
-   Le [!UICONTROL Offres] La page comporte deux onglets sur le côté droit : [!UICONTROL Offres de code] et [!UICONTROL Offres d’image] qui vous permettent d’afficher les offres par type.
+   La variable [!UICONTROL Offres] La page comporte deux onglets sur le côté droit : [!UICONTROL Offres de code] et [!UICONTROL Offres d’image] qui vous permettent d’afficher les offres par type.
 
    ![Page Offres affichant les onglets Offres (code) et Offres (images)](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
@@ -45,7 +45,7 @@ Utilisez la variable [!UICONTROL Offres] bibliothèque dans [!DNL Adobe Target] 
 
    Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [Utilisation du contenu de la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-1. (Facultatif) Effectuez d’autres tâches en survolant l’offre ou le dossier d’image de votre choix sur la page [!UICONTROL Offres d’image] puis en cliquant sur l’icône de votre choix.
+1. (Facultatif) Effectuez des tâches supplémentaires en survolant l’offre ou le dossier d’image de votre choix sur la page [!UICONTROL Offres d’image] puis en cliquant sur l’icône de votre choix.
 
    ![Options d’offres d’images](/help/main/c-experiences/c-manage-content/assets/image-offers-icons.png)
 
@@ -59,6 +59,11 @@ Utilisez la variable [!UICONTROL Offres] bibliothèque dans [!DNL Adobe Target] 
    * Copier
 
    Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [Utilisation du contenu de la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >Les offres d’images ne font pas partie de la [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modèle.
+
 
 ## Affichage des définitions d’offre {#section_6B059DD121434E6292CAB393507D010E}
 
