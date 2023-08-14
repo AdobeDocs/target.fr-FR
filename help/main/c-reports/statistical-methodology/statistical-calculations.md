@@ -4,7 +4,7 @@ description: En savoir plus sur les calculs statistiques utilisés dans le mode 
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans [!UICONTROL Test A/B] Activités ?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -19,7 +19,7 @@ Cet article documente les calculs statistiques détaillés utilisés dans les te
 >
 >Les informations de cet article remplacent le fichier PDF *Calculs Adobe Target pour les tests A/B* auparavant disponible en téléchargement sur ce site.
 
-![Le rapport Target affiche la variable [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur moyen et intervalle de confiance], et [!UICONTROL Confiance] d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![Le rapport Cible affiche la variable [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur moyen et intervalle de confiance], et [!UICONTROL Confiance] d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Performances moyennes
 
@@ -27,7 +27,7 @@ La section suivante explique les calculs utilisés dans l’illustration précé
 
 ### Campagnes sur le taux de conversion et les recettes par visiteur (RPV)
 
-L’illustration suivante présente [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion]et le nombre de [!UICONTROL Conversions] dans [!DNL Target] rapport. Par exemple, la première ligne indique que pour l’expérience A : la valeur [!UICONTROL Taux de conversion] est de 25,81 % avec une [!UICONTROL Intervalle de confiance] de ±7,7 % et 32 conversions ont été enregistrées. Étant donné que 124 visiteurs ont vu l’expérience, cela équivaut à 32/124 = 25,81 %.
+L’illustration suivante présente [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion]et le nombre de [!UICONTROL Conversions] dans [!DNL Target] rapport. Par exemple, la première ligne indique que pour l’expérience A : la variable [!UICONTROL Taux de conversion] est de 25,81 % avec une [!UICONTROL Intervalle de confiance] de ±7,7 % et 32 conversions ont été enregistrées. Étant donné que 124 visiteurs ont vu l’expérience, cela équivaut à 32/124 = 25,81 %.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -37,7 +37,7 @@ Le taux de conversion ou **mean**, *μ<sub>ν</sub>*, pour chaque expérience *�
 
 Ici,
 
-* *Y<sub>iν</sub>* est la valeur de la mesure pour chaque unité *i*, qui a été affecté à une expérience donnée *ν*.
+* *Y<sub>iν</sub>* est la valeur de la mesure pour chaque unité. *i*, affecté à une expérience donnée *ν*.
 
 * La somme sur les unités *i* dépend du choix de la méthodologie de comptage.
 
@@ -89,7 +89,7 @@ Si le taux de conversion de l’expérience de contrôle *ν<sub>0</sub>* est 0,
 
 Graphique en boîte dans la variable [!UICONTROL Effet élévateur moyen et intervalle de confiance] représente la valeur moyenne et 95 % ; [!UICONTROL Intervalle de confiance de l’effet élévateur]. Le graphique en boîte est gris lorsqu’il existe un chevauchement dans l’intervalle de confiance d’une expérience donnée qui n’est pas témoin avec l’intervalle de confiance de l’expérience de contrôle. Le diagramme en boîte est vert ou rouge lorsque la plage de l’intervalle de confiance de l’expérience donnée est supérieure ou inférieure à l’intervalle de confiance de l’expérience de contrôle.
 
-L’erreur standard de l’effet élévateur entre une expérience  *ν*, et l’expérience de contrôle  *ν<sub>0</sub>* est défini comme suit :
+Erreur standard de l’effet élévateur entre une expérience  *ν*, et l’expérience de contrôle  *ν<sub>0</sub>* est défini comme suit :
 
 <p style="text-align:center;"><img width="35%" src="img/se_lift.png" alt="mesure-moyenne"></p>
 
@@ -97,21 +97,21 @@ L’intervalle de confiance de 95 % de l’effet élévateur est alors :
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-Ce calcul utilise la méthode &quot;Delta&quot; et est décrit comme suit : [plus de détails dans ce document](/help/main/assets/confidence_interval_lift.pdf)
+Ce calcul utilise la méthode &quot;Delta&quot; et est décrit [plus de détails dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
 ## [!UICONTROL Degré de confiance]
 
-La dernière colonne indique la confiance dans un [!DNL Target] rapport. La confiance d’une expérience est une probabilité (indiquée sous la forme d’un pourcentage) d’obtenir un résultat moins extrême que celui observé, étant donné que l’hypothèse nulle est vraie. En termes de p-valeurs, le degré de confiance affiché est *1 - p-value*. Intuitivement, une confiance plus élevée signifie qu’il est moins probable que l’expérience de contrôle et l’expérience de non-contrôle aient des taux de conversion égaux.
+La dernière colonne indique la confiance dans un [!DNL Target] rapport. La confiance d’une expérience est une probabilité (indiquée sous la forme d’un pourcentage) d’obtenir un résultat aussi extrême que celui observé, étant donné que l’hypothèse nulle est vraie. En termes de p-valeurs, la confiance affichée est *1 - p-value*. Intuitivement, une confiance plus élevée signifie qu’il est moins probable que l’expérience de contrôle et l’expérience de non-contrôle aient des taux de conversion égaux.
 
 Dans [!DNL Target], un **Le test en t de Welch** est effectué entre l’expérience de test et l’expérience de contrôle afin de tester si les moyens du test et des expériences de contrôle sont identiques. Parce que nous ne savons généralement pas si les tailles d’échantillon et les variations de deux groupes sont identiques avant de réaliser l’expérience, et [!DNL Target] vous permet également d’envoyer des pourcentages de trafic inégaux à chaque expérience. nous ne supposons pas que la variance de chaque expérience est égale. Ainsi, le test en t de Welch est choisi au lieu du test en t de Student.
 
 Pour effectuer le test en t de Welch, nous commençons par calculer la statistique en t et les degrés de liberté, puis nous exécutons un test en t bidimensionnel pour générer la valeur p. Enfin, nous calculons la confiance en fonction de la valeur p.
 
-Le *t*-statistics est défini comme la différence des moyens de deux variables aléatoires indépendantes, *ν* et *ν<sub>0</sub>*, divisé par l’erreur standard de la différence :
+La variable *t*-statistics est défini comme la différence des moyens de deux variables aléatoires indépendantes, *ν* et *ν<sub>0</sub>*, divisé par l’erreur standard de la différence :
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-Où *μ<sub>v</sub>* et *μ<sub>v0</sub>* sont les moyens *ν*  et *ν<sub>0</sub>* et l’erreur standard de la différence entre *μ<sub>v</sub>* et *μ<sub>v0</sub>* sont donnés par :
+Où *μ<sub>v</sub>* et *μ<sub>v0</sub>* sont les moyens de *ν*  et *ν<sub>0</sub>* et l’erreur standard de la différence entre *μ<sub>v</sub>* et *μ<sub>v0</sub>* sont donnés par :
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
