@@ -1,13 +1,13 @@
 ---
-keywords: qa;mode qa; activité qa;url qa;url qa;url d’aperçu;url d’aperçu;url d’aperçu
+keywords: qa;mode qa;activité qa;url qa;url qa;url d’aperçu;url d’aperçu;url d’aperçu
 description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance qualité pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’assurance qualité qui restent segmentés à partir des données d’activité actives.
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 38%
+source-wordcount: '1724'
+ht-degree: 35%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activité de bout en bout simple avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
 
-[!UICONTROL AQ d’activité] permet de tester entièrement votre [!DNL Target] activités avant de les lancer en direct. Le [!UICONTROL AQ d’activité] Cette fonctionnalité comprend :
+[!UICONTROL AQ d’activité] vous permet de tester entièrement votre [!DNL Target] activités avant de les lancer en direct. La variable [!UICONTROL AQ d’activité] Cette fonctionnalité comprend les éléments suivants :
 
 * Liens à partager avec les membres de l’équipe qui ne changent jamais ou ne nécessitent aucune régénération, quelles que soient les mises à jour apportées aux expériences ou aux activités. Cette fonctionnalité vous permet de tester entièrement vos activités sur l’ensemble du parcours d’utilisateurs.
 * Des conditions d’audience facultatives afin que les responsables du marketing puissent tester les critères de ciblage ou les ignorer pour soumettre à l’assurance qualité (QA) l’aspect des expériences sans avoir à respecter les conditions d’audience.
@@ -57,7 +57,7 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 
    Vous pouvez parcourir le site pour afficher les autres pages, car la variable [!UICONTROL AQ d’activité] Le mode est collant. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou plus tard. Pour at.js 1.*x* Implémentations, cette situation n’est vraie que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
-1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur le **[!UICONTROL Rapports]** , cliquez sur la page **[!UICONTROL Paramètres]** Icône (  ![image icon_engrenage](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic du mode AQ]** de la **[!UICONTROL Environnement]** liste déroulante.
+1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur le **[!UICONTROL Rapports]** , cliquez sur **[!UICONTROL Paramètres]** icône (  ![image icon_engrenage](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic du mode AQ]** de la **[!UICONTROL Environnement]** liste déroulante.
 
 ## Considérations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
@@ -67,9 +67,11 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 * [!UICONTROL L’AQ d’activité n’affiche pas de contenu pour les activités archivées ni les activités dont le délai est écoulé. ] Si vous désactivez une activité terminée, vous devez enregistrer à nouveau l’activité pour [!UICONTROL AQ d’activité] au travail.
 * Activités importées dans [!DNL Target Standard/Premium] (de [!DNL Target Classic], par exemple) ne prennent pas en charge les URL AQ.
 * Dans [!UICONTROL Affectation automatique] et [!UICONTROL Recommendations] activités, le modèle n’est pas affecté par les visites capturées dans [!UICONTROL AQ d’activité].
-* [!UICONTROL AQ d’activité] est collant. Une fois que vous avez consulté un site web dans [!UICONTROL AQ d’activité], votre [!DNL Target] doit expirer ou vous devez [!DNL Target] de [!UICONTROL AQ d’activité] avant de pouvoir afficher votre site comme un visiteur type. Utilisez le [signet d’applet AQ de Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)[!UICONTROL  pour vous libérer de l’AQ d’activité].
+* [!UICONTROL AQ d’activité] est collant. Une fois que vous avez parcouru un site web dans [!UICONTROL AQ d’activité], votre [!DNL Target] doit expirer ou vous devez [!DNL Target] de [!UICONTROL AQ d’activité] avant de pouvoir afficher votre site comme un visiteur type.
 
-  Vous pouvez également vous libérer manuellement en chargeant une page de votre site avec le `at_preview_token`paramètre doté d’une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
+   * **Équivalent at.js 2.*x***: si votre site comporte at.js 2.*x* déployé, utilisez la méthode [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de vos capacités [!UICONTROL AQ d’activité]. Le chargement d’une page de votre site avec une valeur vide, comme décrit dans la puce suivante, effectue les opérations suivantes : *not* supprimez le cookie AQ du navigateur lorsque at.js 2.*x* est déployé.
+
+   * **at.js 1.*x***: si votre site comporte at.js 1.*x* déployé, en plus d’utiliser la variable [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), vous pouvez également vous libérer manuellement en chargeant une page de votre site avec l’événement `at_preview_token` avec une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
 
 * Si vous avez spécifié &quot;URL&quot; lors de la création de l’activité [perfectionnements dans le compositeur d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [options de remise de page dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas car [!UICONTROL AQ d’activité] ajoute les paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
 * Si vous disposez d’at.js 1.*x*, [!UICONTROL AQ d’activité] n’est pas attractif si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez. La même chose est vraie si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
@@ -92,7 +94,7 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
   | `adobe_mc_ref` |  |  | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
   | `adobe_mc_sdid` |  |  | Transmet la variable [!DNL Supplemental Data Id] (SDID) et [!DNL Experience Cloud Org Id] de la page par défaut à la nouvelle page. Transmission de ces identifiants autorisée [!UICONTROL Analytics pour Target] (A4T) pour &quot;assembler&quot; la variable [!DNL Target] sur la page par défaut avec la propriété [!DNL Analytics] sur la nouvelle page. |
 
-* Le [!UICONTROL Mode AQ de Target] L’interface utilisateur affiche uniquement la première URL d’une expérience dans une activité multi-page. L’hypothèse est que vous créez un test de parcours et que vous passez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
+* La variable [!UICONTROL Mode AQ de Target] L’interface utilisateur affiche uniquement la première URL d’une expérience dans une activité multi-page. L’hypothèse est que vous créez un test de parcours et que vous passez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
 * Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Réessayez les liens d’aperçu. Archivez les activités enregistrées qui ne sont plus utilisées activement pour empêcher ce problème de se produire.
 
 ## Compatibilité du [!UICONTROL Mode AQ] de la bibliothèque JavaScript de Target {#compatibility}
