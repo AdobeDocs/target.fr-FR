@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-### Stratégie pour un impact maximal du retour sur investissement en cas de préparation à la pointe de la saison
+### Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison
 
 * **Jeudi 17 août 2023**
 * **8:00-9: h (PDT, UTC -7)**
 * **[Inscrivez-vous ici](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-Proposer des expériences client attrayantes pour améliorer les taux de conversion. Votre entreprise est-elle prête pour la haute saison ? Rejoignez-nous et accédez à des conseils d’experts sur la manière d’optimiser les performances et le retour sur investissement cette fois-ci.
+Proposer des expériences client attrayantes pour améliorer les taux de conversion. Votre entreprise est-elle prête pour la haute saison ? Rejoignez-nous et accédez à des conseils d’experts sur la manière d’optimiser les performances et le retour sur investissement.
 
 +++Voir les détails
 
@@ -34,9 +34,9 @@ Rejoignez John Magnusson, Adobe Customer Success Manager et Katherine Klein, Dir
 Les sujets couverts sont les suivants :
 
 * Créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
-* Examiner l’impact de chaque canal marketing
-* Exploration approfondie du comportement des clients et des tendances d’achat
-* Identifier les mauvaises expériences client et les améliorer au moyen de tests
+* Analyser l’impact de chaque canal marketing
+* Explorer en détail le comportement des clients et clientes et des tendances d’achat
+* Identifier les mauvaises expériences client et les améliorer via des tests
 * Découvrir les opportunités de conversion de site
 
 +++
