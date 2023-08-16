@@ -5,9 +5,9 @@ title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans l
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
+## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Correction d’un problème qui empêchait parfois la synchronisation correcte des activités, comme indiqué dans le[!UICONTROL État]&quot; sur la colonne [!UICONTROL Activité] page de liste. (TGT-46010 et TGT-44831)
-* Correction d’un problème qui empêchait parfois le paramètre[!UICONTROL Afficher dans Analytics]&quot; à partir de l’affichage sur le [!UICONTROL Rapports] page des activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-45808)
-* Ajustement de la présentation des valeurs dans les tableaux pour qu’elles s’affichent sous forme de pourcentages plutôt que de nombres avec décimales. Par exemple, 8 % au lieu de 0,08. (TGT-45548)
-* Correction d’un problème qui empêchait les clients d’utiliser la sélection au clavier pour passer à l’élément suivant dans la variable [!UICONTROL Objectifs et paramètres] page pour [!UICONTROL Ciblage d’expérience] (XT). (TGT-44526)
-* Correction d’un problème qui entraînait une perte de focus du clavier après l’ouverture du[!UICONTROL Ajout d’audiences]&quot; lors de la création d’une activité. (TGT-44525)
+* Correction d’un problème qui empêchait parfois la bonne synchronisation des activités, comme indiqué dans la colonne « [!UICONTROL Statut] » sur la page de liste [!UICONTROL Activité]. (TGT-46010 et TGT-44831)
+* Correction d’un problème qui empêchait parfois le lien « [!UICONTROL Afficher dans Analytics] » de s’afficher sur la page [!UICONTROL Rapports] des activités qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source des rapports. (TGT-45808)
+* Ajustement de la présentation des valeurs dans les tableaux pour qu’elles s’affichent sous forme de pourcentages plutôt que de nombres avec décimales. Par exemple, 8 % au lieu de 0,08. (TGT-45548)
+* Correction d’un problème qui empêchait les clients et clientes d’utiliser le focus clavier pour passer à l’élément suivant sur la page [!UICONTROL Objectifs et paramètres] pour les activités de [!UICONTROL Ciblage d’expérience] (XT). (TGT-44526)
+* Correction d’un problème qui entraînait une perte de focus du clavier après l’ouverture de la boîte de dialogue « [!UICONTROL Ajouter des audiences] » lors de la création d’une activité. (TGT-44525)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
