@@ -4,9 +4,9 @@ description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance q
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1767'
 ht-degree: 34%
 
 ---
@@ -59,6 +59,20 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 
 1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur le **[!UICONTROL Rapports]** , cliquez sur **[!UICONTROL Paramètres]** icône (  ![image icon_engrenage](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic du mode AQ]** de la **[!UICONTROL Environnement]** liste déroulante.
 
+## Se libérer du mode AQ
+
+[!UICONTROL AQ d’activité] est collant. Une fois que vous avez parcouru un site web dans [!UICONTROL AQ d’activité], votre [!DNL Target] doit expirer ou vous devez [!DNL Target] de [!UICONTROL AQ d’activité] avant de pouvoir afficher votre site comme un visiteur type.
+
+* **Équivalent at.js 2.*x***: si votre site comporte at.js 2.*x* déployé, utilisez la méthode [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de vos capacités [!UICONTROL AQ d’activité]. Le chargement d’une page de votre site avec une valeur vide, comme décrit dans la puce suivante, effectue les opérations suivantes : *not* supprimez le cookie AQ du navigateur lorsque at.js 2.*x* est déployé.
+
+* **at.js 1.*x***: si votre site comporte at.js 1.*x* déployé, en plus d’utiliser la variable [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), vous pouvez également vous libérer manuellement en chargeant une page de votre site avec l’événement `at_preview_token` avec une valeur vide. Par exemple :
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**: si votre site comporte la variable [[!UICONTROL SDK Web Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} déployé, vous pouvez manuellement vous libérer en chargeant une page de votre site avec l’événement `at_qa_mode` avec une valeur vide. Par exemple :
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## Considérations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Parce que l’AQ d’activité est désormais disponible pour tous [!DNL Target] types d’activités, la fonction &quot;Prévisualiser les activités Automated Personalization avec les URL d’aperçu de l’expérience&quot; n’est plus nécessaire.
@@ -67,18 +81,6 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 * [!UICONTROL L’AQ d’activité n’affiche pas de contenu pour les activités archivées ni les activités dont le délai est écoulé. ] Si vous désactivez une activité terminée, vous devez enregistrer à nouveau l’activité pour [!UICONTROL AQ d’activité] au travail.
 * Activités importées dans [!DNL Target Standard/Premium] (de [!DNL Target Classic], par exemple) ne prennent pas en charge les URL AQ.
 * Dans [!UICONTROL Affectation automatique] et [!UICONTROL Recommendations] activités, le modèle n’est pas affecté par les visites capturées dans [!UICONTROL AQ d’activité].
-* [!UICONTROL AQ d’activité] est collant. Une fois que vous avez parcouru un site web dans [!UICONTROL AQ d’activité], votre [!DNL Target] doit expirer ou vous devez [!DNL Target] de [!UICONTROL AQ d’activité] avant de pouvoir afficher votre site comme un visiteur type.
-
-   * **Équivalent at.js 2.*x***: si votre site comporte at.js 2.*x* déployé, utilisez la méthode [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de vos capacités [!UICONTROL AQ d’activité]. Le chargement d’une page de votre site avec une valeur vide, comme décrit dans la puce suivante, effectue les opérations suivantes : *not* supprimez le cookie AQ du navigateur lorsque at.js 2.*x* est déployé.
-
-   * **at.js 1.*x***: si votre site comporte at.js 1.*x* déployé, en plus d’utiliser la variable [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), vous pouvez également vous libérer manuellement en chargeant une page de votre site avec l’événement `at_preview_token` avec une valeur vide. Par exemple :
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**: si votre site comporte la variable [[!UICONTROL SDK Web Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} déployé, vous pouvez manuellement vous libérer en chargeant une page de votre site avec l’événement `at_qa_mode` avec une valeur vide. Par exemple :
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * Si vous avez spécifié &quot;URL&quot; lors de la création de l’activité [perfectionnements dans le compositeur d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [options de remise de page dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas car [!UICONTROL AQ d’activité] ajoute les paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
 * Si vous disposez d’at.js 1.*x*, [!UICONTROL AQ d’activité] n’est pas attractif si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez. La même chose est vraie si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni inclus dans la même activité), les liens QA ne sont pas générés pour les quatre combinaisons (Expérience A/US Site, Expérience A/Royaume-Uni Site, Expérience B/US Site, Expérience B/Royaume-Uni Site). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne chargée de l’assurance qualité au Royaume-Uni ne peut pas consulter le site des États-Unis.
