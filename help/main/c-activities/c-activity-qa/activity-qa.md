@@ -4,7 +4,7 @@ description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance q
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4742b1fd801b8143f45f719dfef9d46344843c2a
+source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 34%
@@ -71,9 +71,13 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 
    * **Équivalent at.js 2.*x***: si votre site comporte at.js 2.*x* déployé, utilisez la méthode [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de vos capacités [!UICONTROL AQ d’activité]. Le chargement d’une page de votre site avec une valeur vide, comme décrit dans la puce suivante, effectue les opérations suivantes : *not* supprimez le cookie AQ du navigateur lorsque at.js 2.*x* est déployé.
 
-   * **at.js 1.*x***: si votre site comporte at.js 1.*x* déployé, en plus d’utiliser la variable [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), vous pouvez également vous libérer manuellement en chargeant une page de votre site avec l’événement `at_preview_token` avec une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
+   * **at.js 1.*x***: si votre site comporte at.js 1.*x* déployé, en plus d’utiliser la variable [signet d’applet AQ Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879), vous pouvez également vous libérer manuellement en chargeant une page de votre site avec l’événement `at_preview_token` avec une valeur vide. Par exemple :
 
-   * **[!DNL Adobe Experience Platform Web SDK]**: si votre site comporte la variable [[!UICONTROL SDK Web Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} déployé, vous pouvez manuellement vous libérer en chargeant une page de votre site avec l’événement `at_qa_mode` avec une valeur vide (par exemple, `https://www.mysite.com/?at_qa_mode=`).
+     `https://www.mysite.com/?at_preview_token=`
+
+   * **[!DNL Adobe Experience Platform Web SDK]**: si votre site comporte la variable [[!UICONTROL SDK Web Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} déployé, vous pouvez manuellement vous libérer en chargeant une page de votre site avec l’événement `at_qa_mode` avec une valeur vide. Par exemple :
+
+     `https://www.mysite.com/?at_qa_mode=`
 
 * Si vous avez spécifié &quot;URL&quot; lors de la création de l’activité [perfectionnements dans le compositeur d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [options de remise de page dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas car [!UICONTROL AQ d’activité] ajoute les paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
 * Si vous disposez d’at.js 1.*x*, [!UICONTROL AQ d’activité] n’est pas attractif si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez. La même chose est vraie si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
