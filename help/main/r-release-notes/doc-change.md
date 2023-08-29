@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e782fe4a26a624d3c407b991092dc0cfce18fdb7
+source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 29 août | [Mise en oeuvre de Target avec le SDK AEP Mobile dans une application native avec des vues web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nouvel article. |
+| 29 août | s[Fonctionnalités prises en charge pour la prise de décision sur appareil](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Ajout de la liste des attributs de géolocalisation pris en charge pour le ciblage lors de l’utilisation de la prise de décision sur l’appareil (ODD). |
+|  | [Présentation de la prise de décision sur l’appareil](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Ajout de la liste des attributs de géolocalisation pris en charge pour le ciblage lors de l’utilisation de la prise de décision sur l’appareil (ODD). |
+|  | [Mise en oeuvre de Target avec le SDK AEP Mobile dans une application native avec des vues web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nouvel article. |
+|  | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur la prochaine pause de café de la communauté Adobe Target (30 août 2023) : &quot;Stratégie pour un impact maximum du retour sur investissement avec préparation à la pointe de la saison&quot; - suivi du webinaire. |
 | 14 août | [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Information ajoutée éclaircissant le fait que le chargement d’une page de votre site avec une valeur vide ne supprime *pas* le cookie QA du navigateur lorsque at.js 2.*x* est déployé. |
 |  | [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Mise à jour de la définition de « Confiance ». |
 |  | [Offres](/help/main/c-experiences/c-manage-content/manage-content.md) | Note ajoutée expliquant que les offres d’image ne font pas partie du modèle [!UICONTROL Autorisations des utilisateurs d’Enterprise]. |
