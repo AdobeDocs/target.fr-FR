@@ -5,7 +5,7 @@ title: Comment configurer les rapports dans Target ?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 30%
@@ -29,11 +29,11 @@ Vous pouvez définir les paramètres suivants sur cette page :
 
 >[!NOTE]
 >
->Gardez à l’esprit que les paramètres de fuseau horaire, de devise et d’adresses IP à exclure s’appliquent aux activités qui utilisent [!DNL Target] création de rapports. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics for Target (A4T)] comme source des rapports (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>N’oubliez pas que le fuseau horaire, la devise et les adresses IP à exclure des paramètres s’appliquent aux activités qui utilisent [!DNL Target] création de rapports. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics for Target (A4T)] comme source des rapports (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Page Rapports](/help/main/administrating-target/assets/reporting.png)
 
-## Solution Reporting Cloud
+## Solution Reporting Cloud {#solution}
 
 Définissez des options qui déterminent les données utilisées pour vos résultats et rapports.
 
@@ -41,10 +41,10 @@ Sélectionnez la source de création de rapports pour vos activités. [!DNL Targ
 
 Tenez compte des informations suivantes pour le choix de votre source de création de rapports :
 
-* Si cette option est définie sur **[!DNL Target]**, vous ne pouvez pas activer une activité dont la source de création de rapports est [!DNL Analytics] Vous devez définir la source de création de rapports sur [!DNL Target] dans votre activité ou définissez la source de création de rapports sur **[!UICONTROL Sélection par activité]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
+* Si cette option est définie sur **[!DNL Target]**, vous ne pouvez pas activer une activité dont la source de création de rapports est [!DNL Analytics] Vous devez définir la source de création de rapports sur [!DNL Target] dans votre activité ou définissez la source des rapports sur **[!UICONTROL Sélection par activité]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
 * Si la source de création de rapports est définie sur **[!DNL Analytics]** ici, vous n’êtes pas autorisé à activer une activité qui utilise [!DNL Target] comme source de création de rapports (la source de création de rapports est spécifiée comme **[!UICONTROL Cible par activité])**. Vous devez définir la source de création de rapports sur [!DNL Analytics] dans votre activité ou définissez le moteur de reporting sur **[!UICONTROL Sélection par activité]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
 * Si la source de création de rapports est définie sur **[!UICONTROL Sélection par activité]** ici, vous pouvez créer, activer et désactiver les activités prises en charge par la source de création de rapports sélectionnée. Pour consulter une matrice des activités prises en charge, voir [Types d’activité pris en charge](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics comme source de création de rapports pour Adobe Target (A4t)*.
-* [!UICONTROL Automated Personalization] La création, l’activation et la désactivation d’une activité (AP) sont autorisées, quelle que soit la source de création de rapports sélectionnée. Les activités Automated Personalization ne sont pas prises en charge lorsque vous choisissez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Même si vous spécifiez [!DNL Analytics] comme source de création de rapports, [!DNL Target] est utilisé comme source de création de rapports pour les activités Automated Personalization. Pour plus d’informations, voir [Types d’activité pris en charge](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics comme source de création de rapports pour Adobe Target (A4t)*.
+* [!UICONTROL Automated Personalization] La création, l’activation et la désactivation d’une activité (AP) sont autorisées, quelle que soit la source de création de rapports sélectionnée. Les activités Automated Personalization ne sont pas prises en charge lorsque vous choisissez [Adobe Analytics comme source des rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). Même si vous spécifiez [!DNL Analytics] en tant que source de création de rapports, [!DNL Target] est utilisé comme source de création de rapports pour les activités Automated Personalization. Pour plus d’informations, voir [Types d’activité pris en charge](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics comme source de création de rapports pour Adobe Target (A4t)*.
 
 ## Fuseau horaire pour la création de rapports
 
