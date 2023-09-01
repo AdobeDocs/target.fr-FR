@@ -1,14 +1,14 @@
 ---
-keywords: environnement;dépannage;bonnes pratiques;boîte de réception;redirections;redirection;liste autorisée;liste bloquée;liste bloquée;liste autorisée
+keywords: environnement;dépannage;bonnes pratiques;boîte de réception;redirections;redirection;liste blanche;liste noire;liste bloquée;liste autorisée
 description: Découvrez comment utiliser les environnements dans Adobe [!DNL Target] pour organiser vos sites et environnements de préproduction afin de faciliter la gestion et de créer des rapports séparés.
 title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a2f237ba2c79528b4d18e4100f4481e4af11d26c
+source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 58%
+source-wordcount: '709'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 
 Un environnement, l’environnement par défaut, est prénommé [!UICONTROL Production]. Il n’est pas possible de supprimer cet environnement, même si vous le renommez. [!DNL Target] considère que c’est là que vous diffuserez les activités et tests finaux et approuvés.
 
-Lorsqu’une [!DNL Target] les nouvelles demandes sont reçues de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans [!UICONTROL Production] environnement. Le [!UICONTROL Production] Les paramètres de l’environnement ne peuvent pas être modifiés. De ce fait, les sites nouveaux ou inconnus peuvent voir uniquement le contenu principal et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
+Lorsqu’une [!DNL Target] les nouvelles demandes sont reçues de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans [!UICONTROL Production] environnement. La variable [!UICONTROL Production] Les paramètres de l’environnement ne peuvent pas être modifiés. De ce fait, les sites nouveaux ou inconnus peuvent voir uniquement le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
 Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environnements]**.
 
@@ -32,7 +32,7 @@ Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **
 1. Attribuez un nom explicite à l’environnement.
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 
-   Si vous spécifiez [!UICONTROL Activités principales et inactives], les hôtes de cet environnement affichent également les activités inactives.
+   Si vous spécifiez [!UICONTROL Activités actives et inactives], les hôtes de cet environnement affichent également les activités inactives.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -44,23 +44,25 @@ Si vous utilisez [!UICONTROL Production] comme valeur par défaut, tous les hôt
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la [!UICONTROL Environnements] Cliquez sur l’icône Etoile de la liste
+1. Dans la [!UICONTROL Environnements] , cliquez sur l’icône Etoile
 
 >[!NOTE]
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
+>
+>Si vous spécifiez une [environnement par défaut dans un flux de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, cet environnement remplace le paramètre de la section [!DNL Target Recommendations].
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Dans la [!UICONTROL Environnement] , cliquez sur **[!UICONTROL Modifier]** icône .
+1. Dans la [!UICONTROL Environnement] , cliquez sur **[!UICONTROL Modifier]** Icône
 1. Modifiez le nom de l’environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Suppression d’un environnement {#section_737F8869612047868D03FC755B1223D3}
+## Supprimer un environnement {#section_737F8869612047868D03FC755B1223D3}
 
 Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
-1. Dans la [!UICONTROL Environnement] , cliquez sur **[!UICONTROL Supprimer]** icône .
+1. Dans la [!UICONTROL Environnement] , cliquez sur **[!UICONTROL Supprimer]** Icône
 1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
 >[!NOTE]
@@ -85,7 +87,7 @@ Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe
 >[!NOTE]
 >Après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.
 
-Le [!UICONTROL Environnement] est disponible à partir des emplacements suivants dans l’interface utilisateur de Target :
+La variable [!UICONTROL Environnement] est disponible à partir des emplacements suivants dans l’interface utilisateur de Target :
 
 * Recherche catalogue ([!UICONTROL Recommandations > Recherche catalogue])
 * Boîte de dialogue Créer une collection ([!UICONTROL Recommandations > Collections > Créer nouveau])
