@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d9179911a9f6cb2eca242822669e2374aebeb970
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 94%
+source-wordcount: '1722'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 30 août | [Confidentialité](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | Ajout d’une nouvelle section : &quot;Obscurcissement d’IP au niveau du flux de données lors de l’utilisation du SDK web Adobe Experience Platform&quot; |
+|  | [FAQ sur le paramétrage des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | Correction de la période afin que les données s’affichent dans les rapports de la FAQ suivante : &quot;Je viens de créer une activité. Pourquoi est-ce que je ne vois aucune donnée entrante ?&quot; |
 | 29 août | [Fonctionnalités prises en charge pour la prise de décision sur l’appareil](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | Ajout de la liste des attributs de géolocalisation pris en charge pour le ciblage lors de l’utilisation de la prise de décision sur l’appareil (ODD) côté client. |
 |  | [Présentation de la prise de décision sur l’appareil](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | Ajout de la liste des attributs de géolocalisation pris en charge pour le ciblage lors de l’utilisation de la prise de décision sur l’appareil (ODD) côté serveur. |
 |  | [Mise en oeuvre de Target avec le SDK AEP Mobile dans une application native avec des vues web](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | Nouvel article. |
