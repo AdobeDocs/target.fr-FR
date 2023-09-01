@@ -5,9 +5,9 @@ title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ Procédez comme suit pour définir l’environnement par défaut pour la créati
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
 >
->Si vous spécifiez une [environnement par défaut dans un flux de données Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, cet environnement remplace le paramètre de la section [!DNL Target Recommendations].
+>Si vous spécifiez une [environnement par défaut dans un [!DNL Adobe Experience Platform] datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, ce paramètre remplace le paramètre de la section [!DNL Target].
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
