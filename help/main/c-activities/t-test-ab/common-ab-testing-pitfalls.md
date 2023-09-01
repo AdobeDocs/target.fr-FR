@@ -4,10 +4,10 @@ description: Découvrez comment éviter les écueils et les erreurs les plus cou
 title: Comment éviter les erreurs courantes des tests A/B ?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
 workflow-type: tm+mt
 source-wordcount: '3898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,19 +41,19 @@ Toutefois, deux situations exigent de s’intéresser de près au niveau de pert
 
 * **Segmentation post-test :** les marketeurs décortiquent souvent les résultats d’un test A/B terminé en fonction des segments de visiteurs.  Les segments courants comprennent le type de navigateur, le type d’appareil, les zones géographiques, l’heure de la journée et les nouveaux visiteurs par rapport aux visiteurs récurrents. Cette pratique, appelée segmentation post-test, permet d’obtenir d’excellentes informations sur les segments de visiteurs. Les marketeurs peuvent alors utiliser ces informations pour créer un contenu différencié mieux ciblé et plus approprié.
 
-   Si le taux de conversion ne présente aucune réelle différence, la probabilité d’un faux positif équivaut au niveau de pertinence chaque fois que vous testez un segment. Comme nous l’avons mentionné, la probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct. Avec un niveau de pertinence de 5 %, vous risquez d’obtenir un faux positif chaque fois que vous examinez 20 segments post-test, en moyenne. Le tableau ci-dessus illustre de quelle façon cette probabilité augmente.
+  Si le taux de conversion ne présente aucune réelle différence, la probabilité d’un faux positif équivaut au niveau de pertinence chaque fois que vous testez un segment. Comme nous l’avons mentionné, la probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct. Avec un niveau de pertinence de 5 %, vous risquez d’obtenir un faux positif chaque fois que vous examinez 20 segments post-test, en moyenne. Le tableau ci-dessus illustre de quelle façon cette probabilité augmente.
 
-   Comme mentionné ci-dessus, la probabilité d’obtenir au moins un faux positif augmente à chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct, ce qui augmente la probabilité d’un faux positif. Cette augmentation peut être encore plus importante si les segments sont corrélés.
+  Comme mentionné ci-dessus, la probabilité d’obtenir au moins un faux positif augmente à chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct, ce qui augmente la probabilité d’un faux positif. Cette augmentation peut être encore plus importante si les segments sont corrélés.
 
-   Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Pour éviter ce problème de multiplication des faux positifs liés à la segmentation post-test, envisagez de tester le segment post-test identifié dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
+  Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Pour éviter ce problème de multiplication des faux positifs liés à la segmentation post-test, envisagez de tester le segment post-test identifié dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
 
 * **Test de plusieurs offres :** les marketeurs comparent fréquemment plus de deux offres (ou expériences) les unes aux autres. C’est pourquoi certaines solutions de test A/B, appelées A/B/n, sont parfois utilisées, où n correspond au nombre d’offres que vous testez simultanément.
 
-   Il convient de noter que *chaque* offre testée présente un taux de faux positifs égal au niveau de pertinence, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif. 2
+  Il convient de noter que *chaque* offre testée présente un taux de faux positifs égal au niveau de pertinence, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif. 2
 
-   Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
+  Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
 
-   Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
+  Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
 
 ## Écueil 2 : déclarer les gagnants de plusieurs tests d’offre sans aucune différence statistiquement significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
@@ -81,7 +81,7 @@ Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable
 
 Afin d’éviter cela, partez du principe qu’un test bien conçu comprend généralement un degré de confiance de 95 % et une efficacité statistique de 80 %. Avec un tel test, il est probable à 95 % que vous évitiez un faux positif et à 80 % que vous évitiez un faux négatif.
 
-## Écueil 4 : utiliser des tests unilatéraux {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Piège 4 : utilisation de tests unilatéraux {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Avec les tests unilatéraux, la différence observée des taux de conversion des offres n’a pas à être très importante pour pouvoir désigner un gagnant à un certain niveau de pertinence. Cette approche peut sembler tentante, puisqu’elle permet de désigner des gagnants plus rapidement et plus souvent qu’avec des tests bilatéraux. Ces tests ne sont toutefois pas sans inconvénient.
 
@@ -127,7 +127,7 @@ Si vous modifiez manuellement la répartition de l’affectation à 100 % pour 
 Si vous souhaitez modifier des pourcentages ou affecter considérablement le flux des visiteurs dans chaque expérience, nous vous recommandons de créer une activité ou de copier l’activité, puis de modifier les pourcentages d’affectation du trafic.
 
 Si vous modifiez les pourcentages pour différentes expériences au cours de la période de test, la normalisation des données prendra quelques jours, en particulier si de nombreux acheteurs sont des visiteurs récurrents.
-Autre exemple, si votre test A/B est fondé sur une répartition 50/50 et que vous modifiez la répartition en 80/20, les résultats pourront être faussés dans les jours qui suivront le changement. Si le temps de conversion moyen est élevé, autrement dit si un visiteur met plusieurs heures, voire plusieurs jours à concrétiser son achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où la répartition était comprise entre 50 % et 80 % et où le temps moyen de conversion était de deux jours, 50 % seulement de la population s’est convertie le premier jour du test, même si aujourd’hui, 80 % de la population a participé à l’expérience. On a l’impression que le taux de conversion a chuté, mais celui-ci sera normalisé dès lors que 80 % des visiteurs auront converti à l’issue du deuxième jour.
+Autre exemple : si l’affectation du trafic de votre test A/B est fractionnée 50/50, puis que vous définissez la répartition sur 80/20, les résultats peuvent être biaisés pendant les premiers jours suivant cette modification. Si le temps de conversion moyen est élevé, autrement dit si un visiteur met plusieurs heures, voire plusieurs jours à concrétiser son achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où la répartition était comprise entre 50 % et 80 % et où le temps moyen de conversion était de deux jours, 50 % seulement de la population s’est convertie le premier jour du test, même si aujourd’hui, 80 % de la population a participé à l’expérience. On a l’impression que le taux de conversion a chuté, mais celui-ci sera normalisé dès lors que 80 % des visiteurs auront converti à l’issue du deuxième jour.
 
 ## Écueil 8 : ne pas tenir compte des effets de nouveauté {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 

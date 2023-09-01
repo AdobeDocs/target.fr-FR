@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+workflow-type: tm+mt
+source-wordcount: '2241'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,38 @@ ht-degree: 100%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
+## [!DNL Adobe Target] Saut de café de la communauté Q&amp;A (30 août 2023)
+
+* **Thème : &quot;Stratégie pour un impact maximum sur le retour sur investissement avec préparation à la pointe de la saison&quot; - suivi du webinaire**
+* **Mercredi 30 août 2023**
+* **8:00-9: h (PDT, UTC -7)**
+* **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] les experts John Magnusson et John Mosbaugh seront disponibles dans cet événement de questions-réponses pour répondre à vos questions sur les sujets couverts dans le webinaire &quot;Stratégie pour un impact maximum sur le retour sur investissement avec préparation à la pointe de la saison&quot; (17 août 2023).
+
++++Voir les détails
+
+Les sujets couverts sont les suivants :
+
+* Comment créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
+* Examiner l’impact de chaque canal marketing
+* Exploration plus approfondie du comportement des clients et des tendances d’achat
+* Identifier les mauvaises expériences client et les améliorer via des tests
+* Découverte des zones d’opportunité pour stimuler la conversion du site
+
++++
+
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-### Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison
+Aucun webinaire pour le moment.
 
-* **Jeudi 17 août 2023**
-* **8:00-9: h (PDT, UTC -7)**
-* **[Inscrivez-vous ici](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## Enregistrements des anciens webinaires et sessions de création de compétences
+
+Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
+
+### Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison
 
 Proposer des expériences client attrayantes pour améliorer les taux de conversion. Votre entreprise est-elle prête pour la haute saison ? Rejoignez-nous et accédez à des conseils d’experts sur la manière d’optimiser les performances et le retour sur investissement.
 
@@ -40,10 +63,6 @@ Les sujets couverts sont les suivants :
 * Découvrir les opportunités de conversion de site
 
 +++
-
-## Enregistrements des anciens webinaires et sessions de création de compétences
-
-Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
 
 ### Optimisation et personnalisation de l’expérience mobile pour les environnements authentifiés (26 avril 2023)
 
