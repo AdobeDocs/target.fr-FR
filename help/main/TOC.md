@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1236'
+ht-degree: 94%
 
 ---
 
@@ -89,6 +89,8 @@ ht-degree: 95%
          + [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target – A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + Intégration de Target à Adobe Customer Journey Analytics (CJA4T) {#cja4t} {#hidden}
+      + [Adobe Customer Journey Analytics comme source des rapports pour Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Intégration de Target à Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
@@ -252,7 +254,7 @@ ht-degree: 95%
       + [Utilisation du contenu de la bibliothèque](c-experiences/c-manage-content/assets-working.md)
       + [Recherche de contenu](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmission de données dynamiques dans les offres](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM d’expérience et de fragments de contenu](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM Experience et fragments de contenu](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapports {#reports}
    + [Présentation des rapports](c-reports/reports.md)
    + Paramètres des rapports {#settings}
