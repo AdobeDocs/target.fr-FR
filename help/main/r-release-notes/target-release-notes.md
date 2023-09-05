@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ Cette version comprend les améliorations et correctifs suivants :
 * Correction d’un problème en raison duquel un nom de rapport incorrect s’affichait lors du basculement entre la variable [!UICONTROL Vue Tableau] et la variable [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] rapports. (TGT-46040)
 * Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge de Lightning DOM (Web Components). (TGT-45422)
 * Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le VEC appliquait certaines modifications de manière asynchrone et l’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après un événement [!UICONTROL Insérer] action. (TGT-45983)
-* Ajout de la possibilité de spécifier un sélecteur CSS dans le VEC. (TGT-45958 et TGT-46017)
 * Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le VEC, puis du passage en mode Parcourir en raison duquel les flèches Précédent et Suivant ne fonctionnaient pas correctement. (TGT-45956)
 * Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site web d’application d’une seule page (SPA). (TGT-45417)
 

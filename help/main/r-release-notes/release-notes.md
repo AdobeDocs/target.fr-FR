@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 66%
 
 ---
 
@@ -19,21 +19,23 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Mise à niveau de l’infrastructure prévue pour [!DNL Adobe Target] Edge {#edge}
+## [!DNL Target] Standard/Premium 23.9.1 (6-11 septembre 2023)
 
-La mise à niveau de l’infrastructure prévue pour Edge nécessite que des adresses IP ou des domaines supplémentaires soient placés sur la liste autorisée. Examinez et placez sur la liste autorisée les domaines IP et NAT pour les déploiements Edge 41-48. Les mises à niveau des infrastructures commencent le 9 août 2023.
+Cette version sera disponible selon le calendrier échelonné suivant :
 
-Pour plus d’informations, voir [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} dans le *Guide de développement d’Adobe Target*.
-
-## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
+* **6 septembre** : région des Amériques
+* **7 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **11 septembre** : région Asie-Pacifique (APAC)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Correction d’un problème qui empêchait parfois la bonne synchronisation des activités, comme indiqué dans la colonne « [!UICONTROL Statut] » sur la page de liste [!UICONTROL Activité]. (TGT-46010 et TGT-44831)
-* Correction d’un problème qui empêchait parfois le lien « [!UICONTROL Afficher dans Analytics] » de s’afficher sur la page [!UICONTROL Rapports] des activités qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source des rapports. (TGT-45808)
-* Ajustement de la présentation des valeurs dans les tableaux pour qu’elles s’affichent sous forme de pourcentages plutôt que de nombres avec décimales. Par exemple, 8 % au lieu de 0,08. (TGT-45548)
-* Correction d’un problème qui empêchait les clients et clientes d’utiliser le focus clavier pour passer à l’élément suivant sur la page [!UICONTROL Objectifs et paramètres] pour les activités de [!UICONTROL Ciblage d’expérience] (XT). (TGT-44526)
-* Correction d’un problème qui entraînait une perte de focus du clavier après l’ouverture de la boîte de dialogue « [!UICONTROL Ajouter des audiences] » lors de la création d’une activité. (TGT-44525)
+* Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans la variable [!DNL Target] l’interface utilisateur et la fonction [!DNL Adobe Analytics] Interface utilisateur pour [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46112)
+* Augmentation du délai d’attente des appels du PUT à l’API de diffusion Target à 15 secondes afin d’éviter les erreurs de délai d’attente. (TGT-46091)
+* Correction d’un problème en raison duquel un nom de rapport incorrect s’affichait lors du basculement entre la variable [!UICONTROL Vue Tableau] et la variable [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] rapports. (TGT-46040)
+* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge de Lightning DOM (Web Components). (TGT-45422)
+* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le VEC appliquait certaines modifications de manière asynchrone et l’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après un événement [!UICONTROL Insérer] action. (TGT-45983)
+* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le VEC, puis du passage en mode Parcourir en raison duquel les flèches Précédent et Suivant ne fonctionnaient pas correctement. (TGT-45956)
+* Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site web d’application d’une seule page (SPA). (TGT-45417)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
