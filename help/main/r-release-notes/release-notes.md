@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ Cette version comprend les améliorations et correctifs suivants :
 
 * Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans la variable [!DNL Target] l’interface utilisateur et la fonction [!DNL Adobe Analytics] Interface utilisateur pour [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46112)
 * Augmentation du délai d’attente des appels du PUT à l’API de diffusion Target à 15 secondes afin d’éviter les erreurs de délai d’attente. (TGT-46091)
-* Correction d’un problème en raison duquel un nom de rapport incorrect s’affichait lors du basculement entre la variable [!UICONTROL Vue Tableau] et la variable [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] rapports. (TGT-46040)
-* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge de Lightning DOM (Web Components). (TGT-45422)
-* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le VEC appliquait certaines modifications de manière asynchrone et l’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après un événement [!UICONTROL Insérer] action. (TGT-45983)
-* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le VEC, puis du passage en mode Parcourir en raison duquel les flèches Précédent et Suivant ne fonctionnaient pas correctement. (TGT-45956)
 * Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site web d’application d’une seule page (SPA). (TGT-45417)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
