@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 95%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## [!DNL Adobe Target] Saut de café de la communauté Q&amp;A (30 août 2023)
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 août 2023)
 
-* **Thème : &quot;Stratégie pour un impact maximum sur le retour sur investissement avec préparation à la pointe de la saison&quot; - suivi du webinaire**
+* **Thème : suivi du webinaire « Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison »**
 * **Mercredi 30 août 2023**
 * **8:00-9: h (PDT, UTC -7)**
-* **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+* **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-personalization-program/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] les experts John Magnusson et John Mosbaugh seront disponibles dans cet événement de questions-réponses pour répondre à vos questions sur les sujets couverts dans le webinaire &quot;Stratégie pour un impact maximum sur le retour sur investissement avec préparation à la pointe de la saison&quot; (17 août 2023).
+Les experts d’[!DNL Adobe Target] John Magnusson et John Mosbaugh seront disponibles dans cet événement de questions-réponses pour répondre à vos questions sur les sujets couverts dans le webinaire « Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison ». (17 août 2023).
 
 +++Voir les détails
 
 Les sujets couverts sont les suivants :
 
-* Comment créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
-* Examiner l’impact de chaque canal marketing
-* Exploration plus approfondie du comportement des clients et des tendances d’achat
-* Identifier les mauvaises expériences client et les améliorer via des tests
-* Découverte des zones d’opportunité pour stimuler la conversion du site
+* Créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
+* Analyser l’impact de chaque canal marketing
+* Explorer en détail le comportement des clientes et clients et des tendances d’achat
+* Identifier les mauvaises expériences des clientes et clients et les améliorer via des tests
+* Découvrir les opportunités de conversion de site
 
 +++
 
