@@ -4,9 +4,9 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: ht
-source-wordcount: '2241'
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+workflow-type: tm+mt
+source-wordcount: '2128'
 ht-degree: 100%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 100%
 # Annonces et événements [!DNL Adobe Target]
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
-
-## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 août 2023)
-
-* **Thème : suivi du webinaire « Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison »**
-* **Mercredi 30 août 2023**
-* **8:00-9: h (PDT, UTC -7)**
-* **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-personalization-program/ec-p/612837#M80){target=_blank}**
-
-Les experts d’[!DNL Adobe Target] John Magnusson et John Mosbaugh seront disponibles dans cet événement de questions-réponses pour répondre à vos questions sur les sujets couverts dans le webinaire « Stratégie pour un impact maximal du retour sur investissement grâce à la préparation à la haute saison ». (17 août 2023).
-
-+++Voir les détails
-
-Les sujets couverts sont les suivants :
-
-* Créer efficacement des tableaux de bord et générer des rapports sur les mesures clés
-* Analyser l’impact de chaque canal marketing
-* Explorer en détail le comportement des clientes et clients et des tendances d’achat
-* Identifier les mauvaises expériences des clientes et clients et les améliorer via des tests
-* Découvrir les opportunités de conversion de site
-
-+++
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
