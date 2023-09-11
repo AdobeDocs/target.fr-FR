@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 83%
+source-wordcount: '483'
+ht-degree: 78%
 
 ---
 
@@ -18,6 +18,19 @@ ht-degree: 83%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 septembre 2023)
+
+Cette version sera disponible selon le calendrier échelonné suivant :
+
+* **12 septembre** : région des Amériques
+* **13 septembre** : région Asie-Pacifique (APAC)
+* **14 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Modification de la variable [!DNL Analytics] API de la nouvelle [!DNL Analytics] API version 2.0. (TGT-45345)
+* Correction des problèmes qui avaient un impact [!UICONTROL Automated Personalization] (AP) pour certains clients, y compris la synchronisation opportune de l’activité sur la variable [!DNL Target] d’arrière-plan et de fournir l’expérience attendue dans les liens d’aperçu ; (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 septembre 2023)
 
