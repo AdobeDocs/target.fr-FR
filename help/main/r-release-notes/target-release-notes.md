@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 77%
+source-wordcount: '369'
+ht-degree: 71%
 
 ---
 
@@ -15,13 +15,26 @@ ht-degree: 77%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 6 septembre 2023**
+**Dernière mise à jour : 11 septembre 2023**
 
 >[!NOTE]
 >
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.9.2 (12-14 septembre 2023)
+
+Cette version sera disponible selon le calendrier échelonné suivant :
+
+* **12 septembre** : région des Amériques
+* **13 septembre** : région Asie-Pacifique (APAC)
+* **14 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Modification de la variable [!DNL Analytics] API de la nouvelle [!DNL Analytics] API version 2.0. (TGT-45345)
+* Correction des problèmes qui avaient un impact [!UICONTROL Automated Personalization] (AP) pour certains clients, y compris la synchronisation opportune de l’activité sur la variable [!DNL Target] d’arrière-plan et de fournir l’expérience attendue dans les liens d’aperçu ; (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (6-11 septembre 2023)
 

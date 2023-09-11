@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1760'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 11 septembre | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour pour la version 23.9.2 de [!DNL Target Standard/Premium]. |
 | 6 septembre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.9.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.8.1 (9 août 2023)
