@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 571f429596d08f2ecc21006bfda57575b1da3589
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 71%
+ht-degree: 90%
 
 ---
 
@@ -23,11 +23,11 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.9.2 (12-14 septembre 2023)
+##  [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **12 septembre** : région des Amériques
+* **12 septembre** : région des Amériques
 * **13 septembre** : région Asie-Pacifique (APAC)
 * **14 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
 
@@ -36,19 +36,19 @@ Cette version comprend les améliorations et correctifs suivants :
 * Modification de la variable [!DNL Analytics] API de la nouvelle [!DNL Analytics] API version 2.0. (TGT-45345)
 * Correction des problèmes qui avaient un impact [!UICONTROL Automated Personalization] (AP) pour certains clients, y compris la synchronisation opportune de l’activité sur la variable [!DNL Target] d’arrière-plan et de fournir l’expérience attendue dans les liens d’aperçu ; (TGT-46202)
 
-## [!DNL Target] Standard/Premium 23.9.1 (6-11 septembre 2023)
+##  [!DNL Target] Standard/Premium 23.9.1 (du 6 au 11 septembre 2023)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **6 septembre** : région des Amériques
+* **6 septembre** : région des Amériques
 * **7 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
 * **11 septembre** : région Asie-Pacifique (APAC)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans la variable [!DNL Target] l’interface utilisateur et la fonction [!DNL Adobe Analytics] Interface utilisateur pour [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46112)
-* Augmentation du délai d’attente des appels du PUT à l’API de diffusion Target à 15 secondes afin d’éviter les erreurs de délai d’attente. (TGT-46091)
-* Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site web d’application d’une seule page (SPA). (TGT-45417)
+* Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans l’interface utilisateur [!DNL Target] et l’interface utilisateur [!DNL Adobe Analytics] pour des activités d&#39;[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source des rapports. (TGT-46112)
+* Augmentation du délai d’expiration des appels du PUT à l’API Target Delivery à 15 secondes afin d’éviter les erreurs de temporisation. (TGT-46091)
+* Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site Web d’application Une seule page (SPA). (TGT-45417)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
