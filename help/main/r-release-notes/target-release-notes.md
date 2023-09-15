@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '496'
+ht-degree: 77%
 
 ---
 
@@ -15,13 +15,23 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 14 septembre 2023**
+**Dernière mise à jour : 15 septembre 2023**
 
 >[!NOTE]
 >
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 23.9.3 (18 septembre 2023)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge de Lightning DOM (Web Components). (TGT-45422)
+* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le VEC appliquait certaines modifications de manière asynchrone et l’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après un événement [!UICONTROL Insérer] action. (TGT-45983)
+* Correction d’un problème avec le compositeur d’expérience visuelle. [!UICONTROL Incrustation] qui prend désormais en charge les éléments dans les DOM fantômes. (TGT-45202 et TGT-45262)
+* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le compositeur d’expérience visuelle, puis de l’accès à [!UICONTROL Parcourir] en raison de quoi les flèches Précédent et Suivant ne fonctionnaient pas correctement. (TGT-45956)
+* Correction d’un problème qui empêchait le chargement de certaines pages web dans le VEC. (TGT-45983)
 
 ##  [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
 
