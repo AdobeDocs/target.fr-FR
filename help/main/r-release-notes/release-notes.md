@@ -19,7 +19,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-##  [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
+## [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
@@ -32,7 +32,7 @@ Cette version comprend les améliorations et correctifs suivants :
 * Passage de l’API [!DNL Analytics] à la nouvelle version 2.0 de l’API [!DNL Analytics]. (TGT-45345)
 * Correction des problèmes qui avaient un impact sur les activités [!UICONTROL Automated Personalization] (AP) pour des clientes et clients, y compris la synchronisation opportune de l’activité sur le serveur principal [!DNL Target] et la fourniture de l’expérience attendue dans les liens d’aperçu. (TGT-46202)
 
-##  [!DNL Target] Standard/Premium 23.9.1 (du 6 au 11 septembre 2023)
+## [!DNL Target] Standard/Premium 23.9.1 (du 6 au 11 septembre 2023)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
