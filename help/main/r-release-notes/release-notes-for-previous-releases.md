@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 97%
 
 ---
@@ -2933,10 +2933,6 @@ La version d’Adobe Target Standard/Premium 16.5.1 (19 mai 2016) comprend les 
   <tr> 
    <td colname="col1"> Versions d’expérience </td> 
    <td colname="col2"> <p>Les versions ciblées vers différentes audiences peuvent désormais être configurées dans les expériences des activités A/B. </p> <p>Voir <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">Ciblage d’une expérience sur plusieurs audiences</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> URL de contrôle qualité/d’aperçu </td> 
-   <td colname="col2"> <p>Les URL d’aperçu ne sont pas disponibles pour le compositeur d’expérience d’après les formulaires. </p> <p>Voir <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Affichage des URL d’expérience.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Algorithmes personnalisés de Recommendations </td> 

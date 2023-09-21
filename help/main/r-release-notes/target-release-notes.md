@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+source-git-commit: 11b5915d75b72a3891572d841de0a353f68dcbf3
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 75%
+source-wordcount: '603'
+ht-degree: 72%
 
 ---
 
@@ -59,6 +59,23 @@ Cette version comprend les améliorations et correctifs suivants :
 * Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans l’interface utilisateur [!DNL Target] et l’interface utilisateur [!DNL Adobe Analytics] pour des activités d&#39;[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source des rapports. (TGT-46112)
 * Augmentation du délai d’expiration des appels du PUT à l’API Target Delivery à 15 secondes afin d’éviter les erreurs de temporisation. (TGT-46091)
 * Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site Web d’application Une seule page (SPA). (TGT-45417)
+
+## [!DNL Target] Standard/Premium 23.5.2 (Date à déterminer)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Sélection des critères d’optimisation activée pour [!DNL Adobe Analytics] mesures.
+* Activation de la synchronisation des audiences externes à l’aide de tâches sling.
+* Correction d’un problème en raison duquel les suites de rapports SC contenant un caractère de point dans le nom n’étaient pas prises en charge.
+* Activation de la fonctionnalité permettant aux clients de supprimer et de modifier des audiences intégrées.
+
+## [!DNL Target] Standard/Premium 23.5.3 (Date à déterminer)
+
+Les améliorations suivantes ont été apportées à cette version :
+
+| Fonctionnalité | Détails |
+|--- |--- |
+| [!UICONTROL Mode assurance qualité] pour les activités de [!UICONTROL personnalisation automatique] | Le [!UICONTROL mode assurance qualité] [!DNL Adobe Target] est désormais disponible pour les activités de [!UICONTROL personnalisation automatique], et remplace la fonctionnalité [!UICONTROL Aperçu des liens].<P>Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md). |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

@@ -4,10 +4,10 @@ description: L’audience détermine les visiteurs du site qui sont entrés dans
 title: Comment sélectionner une audience dans une [!DNL Target] Activité A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 91%
+source-wordcount: '431'
+ht-degree: 70%
 
 ---
 
@@ -19,29 +19,40 @@ L’audience détermine les visiteurs du site qui sont entrés dans votre [!DNL 
 >
 >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-Dans la zone [!UICONTROL Audience], cliquez sur l’icône Modifier (trois points alignés verticalement), puis sur **[!UICONTROL Remplacer l’audience]**.
+1. Dans le [!UICONTROL Audience] , cliquez sur le bouton **[!UICONTROL Modifier]** (points de suspension verticaux), puis cliquez sur **[!UICONTROL Remplacer l’audience]**.
 
-![Option de remplacement d’une audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+   ![Option de remplacement d’une audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque, [créer une audience](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Pour un test A/B sans ciblage d’audience spécifique, sélectionnez le paramètre par défaut Tous les visiteurs.
+   Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans [!DNL Target].
 
-Vous pouvez également modifier ou copier une audience en survolant l’audience souhaitée dans la boîte de dialogue [!UICONTROL Choisir le public], comme indiqué ci-dessous. La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
+1. Sélectionnez ou créez l’audience souhaitée :
 
-![Survol d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+   * Sélection d’une audience dans la bibliothèque
+   * [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
+   * [Créer une nouvelle audience](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
+   * [Créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous Paramètres personnalisés, sélectionnez la mbox, puis spécifiez les paramètres souhaités.
+   Pour un test A/B sans ciblage d’audience spécifique, choisissez la valeur par défaut, [!UICONTROL Tous les visiteurs].
 
->[!NOTE]
->
->Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste d’audiences et que les audiences ont été importées il y a plus de 10 minutes.
+   Vous pouvez également modifier ou copier une audience en survolant l’audience souhaitée dans la variable [!UICONTROL Ajouter une audience] , comme illustré ci-dessous.
 
-Cliquez sur la flèche vers le bas pour supprimer l’audience existante ou la modifier.
+   La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
 
-Vous pouvez indiquer le pourcentage des visiteurs admissibles à inclure dans l’activité. Vous pouvez par exemple décider d’inclure 50 % de tous les visiteurs.
+   ![Survol d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-![Pourcentage d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous [!UICONTROL Paramètres personnalisés], sélectionnez la mbox, puis spécifiez les paramètres souhaités.
 
-Vous pouvez également choisir de laisser Target [affecter le trafic automatiquement](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   >[!NOTE]
+   >
+   >Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste d’audiences et que les audiences ont été importées il y a plus de 10 minutes.
+
+1. (Conditionnel) Indiquez le pourcentage de visiteurs admissibles à inclure dans l’activité.
+
+   Vous pouvez par exemple décider d’inclure 50 % de tous les visiteurs.
+
+   ![Pourcentage d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+
+   Vous pouvez également choisir de laisser Target [affecter le trafic automatiquement](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vidéos de formation
 

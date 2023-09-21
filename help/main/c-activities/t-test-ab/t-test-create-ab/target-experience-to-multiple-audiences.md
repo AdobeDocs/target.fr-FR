@@ -1,21 +1,21 @@
 ---
 keywords: audiences multiples, versions d’expérience, ciblage de versions d’expérience
-description: Découvrez comment cibler des versions d’une même expérience vers différentes audiences dans Adobe [!DNL Target] Activités A/B.
+description: Découvrez comment cibler des versions d’une même expérience vers différentes audiences dans [!DNL Adobe Target] Activités A/B.
 title: Puis-je utiliser plusieurs versions d’expérience dans une activité A/B ?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 92%
+source-wordcount: '600'
+ht-degree: 56%
 
 ---
 
 # Audiences d’expériences multiples dans un test A/B
 
-Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans [!DNL Adobe Target] Activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
+Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans [!DNL Adobe Target] Activités A/B. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
 
-Les utilisateurs peuvent changer d’audience d’expérience au fur et à mesure que leur profil évolue. Ils ne sont pas cantonnés à une même expérience pendant toute la durée de vie de l’activité.
+Les visiteurs peuvent basculer entre les audiences d’expérience à mesure que leur profil change. Les visiteurs ne sont pas bloqués dans la même expérience pendant la durée de vie de l’activité.
 
 Par exemple, si votre site utilise un design cohérent pour différentes pages ou produits, et que vous souhaitez utiliser la même expérience pour des audiences multiples (comme des visiteurs utilisant des navigateurs dans des langues différentes), vous pouvez définir plusieurs versions de cette expérience. Vous pourriez présenter la même expérience aux utilisateurs de langue anglaise ou japonaise, avec la langue du texte pour seule différence. Les données sont collectées pour l’expérience, indépendamment de la langue, et le rapport relate donc les performances de l’expérience, sans prendre en compte la version.
 
@@ -25,9 +25,9 @@ En créant différentes versions d’une expérience, vous recevez des informati
 
 ## Scénario
 
-Vous testez deux expériences, une bannière géociblée et une bannière générique. La bannière doit être différente pour chaque région, mais le test général doit déterminer si le géociblage donne des résultats plus intéressants qu’un affichage du contenu générique. En configurant une expérience spécifique pour chaque position géographique, vous compareriez l’exécution des géociblages les uns par rapport aux autres plutôt que le niveau d’utilité du géociblage dans la réalisation des objectifs en comparaison avec la bannière générique.
+Vous testez deux expériences, une bannière géociblée et une bannière générique. La bannière de chaque zone géographique doit être différente, mais le test global consiste à déterminer si le géociblage est préférable à l’affichage de contenu générique. Si vous configurez une expérience distincte pour chaque emplacement, vous allez en fait mesurer les performances de chaque géo par rapport à l’autre, plutôt que de déterminer si le géociblage permet d’atteindre vos objectifs de succès en les comparant à la bannière générique.
 
-Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’expérience afin de comparer l’expérience géociblée avec une commande qui ne l’est pas.
+Dans ce cas, vous avez besoin de versions de l’expérience spécifiques à la zone géographique afin de pouvoir tester l’expérience géociblée par rapport à un contrôle non géociblé.
 
 1. [Créez une activité A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) comme vous le feriez normalement.
 
@@ -49,6 +49,6 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
 ## Bonnes pratiques
 
-* Sélectionnez des audiences mutuellement exclusives. Lorsque l’activité a été créée dans le compositeur d’expérience visuelle, si un visiteur correspond à plus d’une audience, le contenu de chacune d’entre elles est transmis, mais seul le contenu de l’audience qui se trouve en fin de liste s’affiche sur la page.
+* Choisissez des audiences mutuellement exclusives. Si l’activité a été créée dans le compositeur d’expérience visuelle, si un visiteur correspond à plusieurs audiences, le contenu de chaque audience est renvoyé, le contenu de l’audience étant répertorié pour la dernière fois s’affichant sur la page.
 * Les audiences d’entrée d’activité définies dans le diagramme sont combinées aux audiences d’expérience en utilisant la condition ET. Pour accéder à une activité, le visiteur doit répondre aux critères d’audience de l’activité et à ceux de l’une des audiences d’expérience.
-* Ajout des mêmes audiences en tant que segment pour la création de rapports. Ceci vous permet de consulter les résultats de test pour le plus haut niveau d’expérience A par rapport à B et pour le niveau le plus faible A par rapport à B pour « langue du navigateur ja_JP » uniquement. Cela fonctionne uniquement pour les rapports Target. Les rapports Analytics ne sont pas pris en charge.
+* Ajout des mêmes audiences en tant que segment pour la création de rapports. Vous pouvez ainsi consulter les résultats du test au niveau élevé de l’expérience A par rapport à B, et au niveau inférieur de l’expérience A par rapport à B pour le simple &quot;lang du navigateur ja_JP&quot;. Cela ne fonctionne que pour [!DNL Target]Rapports basés sur , pas [!DNL Analytics]Rapports basés sur .
