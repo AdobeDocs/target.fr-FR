@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,15 +19,15 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.9.3 (18 septembre 2023)
+## [!DNL Target] Standard/Premium 23.9.3 (18 septembre 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge des composants web Lightning (DOM clair). (TGT-45422)
-* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le VEC appliquait certaines modifications de manière asynchrone et l’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après un événement [!UICONTROL Insérer] action. Corrige également l’URL du VEC qui se met à jour lors du clic sur les liens d’ancrage. (TGT-45983)
-* Correction d’un problème avec le compositeur d’expérience visuelle. [!UICONTROL Incrustation] qui prend désormais en charge les éléments dans les DOM fantômes. (TGT-45202 et TGT-45262)
-* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le compositeur d’expérience visuelle, puis de l’accès à [!UICONTROL Parcourir] en raison de quoi les flèches Précédent et Suivant ne fonctionnaient pas correctement. (TGT-45956)
-* Correction d’un problème qui empêchait le chargement de certaines pages web dans le VEC. (TGT-45983)
+* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge des composants web Lightning (Light DOM). (TGT-45422)
+* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le compositeur d’expérience visuelle appliquait certaines modifications de manière asynchrone. L’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après une action [!UICONTROL Insérer]. Corrige également l’URL du compositeur d’expérience visuelle, qui se met à présent à jour lorsque l’utilisateur ou l’utilisatrice clique sur les liens. (TGT-45983)
+* Correction d’un problème avec la fonction [!UICONTROL Incrustation] du compositeur d’expérience visuelle, qui prend désormais en charge les éléments dans les Shadow DOM. (TGT-45202 et TGT-45262)
+* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le compositeur d’expérience visuelle, en raison duquel les flèches Précédent et Suivant ne fonctionnaient pas correctement en mode [!UICONTROL Parcourir]. (TGT-45956)
+* Correction d’un problème qui empêchait le chargement de certaines pages web dans le compositeur d’expérience visuelle. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
 
