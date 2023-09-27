@@ -1,21 +1,21 @@
 ---
 keywords: mvt;test multivarié;créer un test multivarié;création de test multivarié;créer un mvt;création de mvt;comment mvt;comment test multivarié
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) dans Adobe [!DNL Target] pour créer un test multivarié (MVT) directement sur une [!DNL Target]-enabled .
-title: Comment créer un test multivarié ?
+description: Découvrez comment utiliser le [!UICONTROL Compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer un [!UICONTROL Test multivarié] (MVT).
+title: Comment créer une [!UICONTROL Test multivarié]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 88%
+source-wordcount: '535'
+ht-degree: 63%
 
 ---
 
 # Création d’un test multivarié
 
-Le [!UICONTROL compositeur d’expérience visuelle] (VEC) de [!DNL Adobe Target] facilite la création d’un test directement sur une page activée pour Target, ainsi que la modification de parties de la page dans Target[!DNL Target].
+La variable [!UICONTROL Compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] facilite la création d’un [!UICONTROL Test multivarié] et de modifier des parties de la page dans [!DNL Target].
 
-Le [!DNL Target] l’éditeur pointer-cliquer permet de sélectionner n’importe quel emplacement et d’ajouter plusieurs offres.
+La variable [!DNL Target] l’éditeur pointer-cliquer permet de sélectionner n’importe quel emplacement et d’ajouter plusieurs offres.
 
 Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premier ». En d’autres termes, le test s’exécute sur une URL spécifique, avec des expériences que vous concevez pour cette page.
 
@@ -25,31 +25,21 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
    >[!NOTE]
    >
-   >Les types d’activité disponibles dépendent de votre compte Target. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple, [!UICONTROL Automated Personalization] est une fonctionnalité [Target Premium](/help/main/c-intro/intro.md#premium).
-   >
    >Pour plus d’informations sur les différents types d’activité disponibles dans [!DNL Target] et leurs différences, voir [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Reportez-vous à la section [Types d’activité Target](/help/main/c-activities/target-activities-guide.md) pour déterminer les types d’activité qui conviennent le mieux à vos besoins.
 
-1. Si nécessaire, sélectionnez **[!UICONTROL visuelle (défaut)]**.
+1. (Conditionnel) Choisissez le type de diffusion : [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email], ou [!UICONTROL Autre/API].
 
-   ![Boîte de dialogue Créer une activité de test multivarié](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. (Conditionnel) Si vous êtes un [Target Premium](/help/main/c-intro/intro.md#premium) client, [choix d’un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
-   >
-   >L’option [!UICONTROL Choisir l’espace de travail] de l’illustration précédente est une fonction [Target Premium](/help/main/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
-
-1. (Conditionnel) Si vous êtes client Target Premium, [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
-
-1. [Spécifiez l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) pour la page que vous souhaitez tester, puis cliquez sur **[!UICONTROL Suivant]**.
+1. [Définition de l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) pour la page à tester, puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
-   >Utilisez une URL complète, y compris le HTTP ou HTTPS au début.
+   >Utilisez une URL complète, y compris HTTP ou HTTPS au début.
 
    Si un message s’affiche vous demandant d’activer votre navigateur pour le contenu mixte, suivez les instructions du message. Après avoir activé votre navigateur pour le contenu mixte, recommencez à l’étape 1.
 
-   Le compositeur d’expérience visuelle s’ouvre.
+   La variable [!UICONTROL Compositeur d’expérience visuelle] s’ouvre.
 
 1. Entrez le nom de l’activité.
 
@@ -63,6 +53,21 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
    | `+` | Plus |
    | `-` | Moins |
    | `@` | Arobase |
+
+   Le nom de l’activité ne peut pas contenir l’une des séquences de caractères suivantes :
+
+   | Séquence de caractères | Description |
+   |--- |--- |
+   | ;= | Point-virgule, égal à |
+   | ;+ | Point-virgule, plus |
+   | ;- | Point-virgule, moins |
+   | ;@ | Point-virgule, signe At |
+   | ,= | Virgule, Égal à |
+   | ,+ | Virgule, Plus |
+   | ,- | Virgule, Moins |
+   | ,@ | Virgule, signe At |
+   | `[`&quot; | Crochets droits ouverts, guillemets doubles |
+   | &quot;`]` | Guillemets doubles, crochet fermant |
 
 1. [Créez les offres à chaque emplacement](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -112,9 +117,9 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** afin de créer l’activité.
 
-## Vidéo de formation : Création de tests multivariés (9:25) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : création de tests multivariés (9:25) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
+Cette vidéo explique comment planifier et créer un test multivarié à l’aide du [!DNL Target] processus assisté en trois étapes.
 
 * Définir et créer un test multivarié
 * Création d’un test multivarié

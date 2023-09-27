@@ -1,13 +1,13 @@
 ---
 keywords: Tests multivariés, URL d’activité
-description: Découvrez comment spécifier l’URL d’activité qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité de test multivarié est conçue à l’aide d’Adobe Target.
-title: Qu’est-ce que l’URL d’activité dans une activité multivariée (MVT) ?
+description: Découvrez comment spécifier l’URL d’activité qui détermine la page utilisée dans le test et qui s’ouvre lorsque la variable [!UICONTROL Test multivarié] l’activité est conçue à l’aide de [!DNL Adobe Target].
+title: Qu’est-ce que l’URL d’activité dans une [!UICONTROL Test multivarié] (MVT) Activité ?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ Les règles supplémentaires peuvent être basées sur les éléments suivants 
 * Requête
 * Paramètre
 
-Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
+Des règles supplémentaires peuvent être jointes à l’URL de l’activité avec l’opérateur ET ou OU. Toutes les règles que vous ajoutez sont évaluées les unes par rapport aux autres avec l’opérateur ET.
 
 Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.
 
 >[!NOTE]
 >
->Si vous avez saisi l’URL d’un site qui ne contient pas le code JavaScript de Target Standard, vous ne pouvez pas sélectionner d’éléments de page.
+>Si vous avez saisi l’URL d’un site qui ne contient pas le code JavaScript de [!DNL Target], vous ne pouvez pas sélectionner d’éléments de page.
 
 Par défaut, le VEC n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez activer l’option **[!UICONTROL Rendu avec JavaScript]** si vous souhaitez pouvoir modifier ces éléments à l’aide du [!UICONTROL compositeur d’expérience visuelle].
 

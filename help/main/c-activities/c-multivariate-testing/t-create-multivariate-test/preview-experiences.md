@@ -1,21 +1,21 @@
 ---
 keywords: multivarié;mvt;aperçu;expériences
-description: Découvrez comment prévisualiser chaque expérience dans une activité de test multivarié (MVT) dans Adobe [!DNL Target] à l’aide du compositeur d’expérience visuelle (VEC).
-title: Comment prévisualiser des expériences pour un test multivarié (MVT)
+description: Découvrez comment prévisualiser chaque expérience dans une [!UICONTROL Test multivarié] (MVT) dans [!DNL Adobe Target] en utilisant la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC).
+title: Comment prévisualiser des expériences pour un [!UICONTROL Test multivarié] (test multivarié) ?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 67%
+ht-degree: 38%
 
 ---
 
-# Aperçu des expériences pour un test multivarié
+# Prévisualisation d’expériences pour un [!UICONTROL Test multivarié]
 
 Parce qu’une [!UICONTROL Test multivarié] in [!DNL Adobe Target] compare plusieurs expériences sur une page ; il est utile de prévisualiser la page avec chaque expérience.
 
-1. Dans le compositeur d’expérience visuelle (VEC), cliquez sur **[!UICONTROL Aperçu]**.
+1. Dans la [!UICONTROL Compositeur d’expérience visuelle] (VEC), cliquez sur **[!UICONTROL Aperçu]**.
 
    Une liste de toutes les expériences s’affiche.
 
@@ -31,8 +31,8 @@ Parce qu’une [!UICONTROL Test multivarié] in [!DNL Adobe Target] compare plus
 
    >[!NOTE]
    >
-   >Lorsque vous créez un test multivarié, vous pouvez maintenant en exclure plus de 10 % des expériences, à condition d’utiliser alors les rapports hors ligne pour l’analyse.
+   >Lors de la création de tests multivariés, vous pouvez exclure plus de 10 % des expériences du test, à condition d’utiliser les rapports hors ligne pour l’analyse.
 
    Par défaut, toutes les expériences sont incluses dans le test multivarié. Pour inclure une expérience qui a été exclue, sélectionnez l’expérience exclue et cliquez sur **[!UICONTROL Inclure]**.
 
-Cliquez sur **[!UICONTROL Quitter le mode Aperçu]** pour revenir au compositeur d’expérience afin que vous puissiez apporter des modifications ou cliquez sur **[!UICONTROL Continuer]** pour accéder au résumé du test.
+1. Cliquez sur **[!UICONTROL Quitter le mode Aperçu]** pour revenir au [!UICONTROL Compositeur d’expérience visuelle] pour pouvoir apporter des modifications, ou cliquez sur **[!UICONTROL Continuer]** pour accéder au résumé du test.
