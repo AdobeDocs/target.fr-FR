@@ -1,17 +1,17 @@
 ---
 keywords: summary
-description: Affichez le résumé d’une activité de test multivarié (MVT) qui fournit un aperçu visuel de votre activité de test multivarié dans Adobe Target.
-title: Comment puis-je afficher le résumé d’une activité de test multivarié (MVT) ?
+description: Afficher un [!UICONTROL Test multivarié] Résumé de l’activité (MVT) qui fournit un aperçu visuel de votre activité dans [!DNL Adobe Target].
+title: Comment afficher une [!UICONTROL Test multivarié] (MVT) Résumé de l’activité ?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ba4eb936a0fcf3a8ec7ed7ca87625a9829deb901
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 62%
+source-wordcount: '116'
+ht-degree: 43%
 
 ---
 
-# Résumé du test (tests multivariés)
+# Résumé du test ([!UICONTROL Test multivarié])
 
 Le résumé du test fournit un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL Test multivarié].
 
@@ -21,12 +21,8 @@ Le résumé du test affiche :
 
 * Nom du test
 * URL
-* Public
-
-   Cliquez sur l’audience pour en sélectionner une autre dans la liste des audiences disponibles.
-* Algorithme
-
-   A l’heure actuelle, le seul algorithme disponible est Factoriel complet. Le nom de l’algorithme est fourni dans un but informatif afin que vous sachiez quel est l’algorithme utilisé.
+* Audience : cliquez sur l’audience pour sélectionner une autre audience dans la liste des audiences disponibles.
+* Algorithme : le seul algorithme disponible est [!UICONTROL Factoriel complet]. Le nom de l’algorithme est fourni dans un but informatif afin que vous sachiez quel est l’algorithme utilisé.
 * Le nombre d’expériences incluses et exclues.
 
 Cliquez sur **[!UICONTROL Continuer]** lorsque vous êtes satisfait de la configuration du test. La page Objectifs et paramètres s’ouvre.
