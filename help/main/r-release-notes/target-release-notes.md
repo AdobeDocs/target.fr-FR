@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 87%
+source-wordcount: '730'
+ht-degree: 82%
 
 ---
 
@@ -32,6 +32,10 @@ Cette version sera disponible selon le calendrier échelonné suivant :
 * **4 octobre** : région Asie-Pacifique (APAC)
 
 Cette version comprend les améliorations et correctifs suivants :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| [!UICONTROL Activités] Actualisation de l’interface utilisateur<P>[!UICONTROL Flux] Actualisation de l’interface utilisateur | Dans le cadre du [!DNL Adobe Target] Effort continu de l’équipe pour améliorer l’expérience utilisateur pour [!DNL Target] pour les utilisateurs, cette version actualise la variable [!UICONTROL Activités] et [!DNL Recommendations] [!UICONTROL Flux] dans les [!DNL Target] Interface utilisateur. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations. |
 
 * Ajout [!UICONTROL Compositeur d’expérience visuelle] Améliorations apportées aux structures dynamiques. (TGT-44064)
 * Correction d’un problème en raison duquel la date sélectionnée dans la variable `getViewInAnalyticsId` de ne pas mettre à jour correctement. Ce correctif permet de recalculer la variable [!DNL Analytics] dans les rapports lorsque les paramètres des rapports de la période et des mesures sont modifiés. (TGT-46246)
