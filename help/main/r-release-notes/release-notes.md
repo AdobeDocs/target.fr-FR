@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 75%
+source-wordcount: '804'
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Cette version comprend les améliorations et correctifs suivants :
 | Fonctionnalité | Détails |
 | --- | --- |
 | [!UICONTROL Activités] Actualisation de l’interface utilisateur<P>et<P>[!UICONTROL Flux] Actualisation de l’interface utilisateur | Dans le cadre du [!DNL Adobe Target] Effort continu de l’équipe pour améliorer l’expérience utilisateur pour [!DNL Target] pour les utilisateurs, cette version actualise la variable [!UICONTROL Activités] et [!DNL Recommendations] [!UICONTROL Flux] dans les [!DNL Target] Interface utilisateur. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations.<P>Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md) et [Flux](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] modèle de mise en oeuvre | La variable *Modèle de mise en oeuvre Recommendations à l’aide d’at.js* Ces articles vous aident à comprendre et à créer vos [!DNL Adobe Target Recommendations] implémentation lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour obtenir des informations générales sur les modèles Target, voir [Présentation des modèles d’implémentation](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.<P>Le nouveau modèle de mise en oeuvre de Recommendations se compose des articles suivants :<ul><li>[Modèle de mise en oeuvre Recommendations à l’aide de la présentation d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initialisation des SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configuration de la collecte de données](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Rendu d’expériences](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notifier [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
+| [!DNL Recommendations] modèle de mise en oeuvre | La variable *Modèle de mise en oeuvre Recommendations à l’aide d’at.js* Ces articles vous aident à comprendre et à créer vos [!DNL Adobe Target Recommendations] implémentation lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour plus d’informations, voir [Modèle de mise en oeuvre Recommendations à l’aide de la présentation d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} dans le *Guide du développeur d’Adobe Target*. |
 
 * Ajout [!UICONTROL Compositeur d’expérience visuelle] Améliorations apportées aux structures dynamiques. (TGT-44064)
 * Correction d’un problème en raison duquel la date sélectionnée dans la variable `getViewInAnalyticsId` de ne pas mettre à jour correctement. Ce correctif permet de recalculer la variable [!DNL Analytics] dans les rapports lorsque les paramètres des rapports de la période et des mesures sont modifiés. (TGT-46246)
