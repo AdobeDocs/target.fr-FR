@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 76%
+source-wordcount: '762'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 29 septembre 2023**
+**Dernière mise à jour : 2 octobre 2023**
 
 >[!NOTE]
 >
@@ -23,13 +23,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.9.4 (2-4 octobre 2023)
-
-Cette version sera disponible selon le calendrier échelonné suivant :
-
-* **2 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **3 octobre** : région des Amériques
-* **4 octobre** : région Asie-Pacifique (APAC)
+## [!DNL Target] Standard/Premium 23.9.4 (Date à déterminer)
 
 Cette version comprend les améliorations et correctifs suivants :
 
