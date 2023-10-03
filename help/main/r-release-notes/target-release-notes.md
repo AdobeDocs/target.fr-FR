@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -72,14 +72,14 @@ Cette version comprend les améliorations et correctifs suivants :
 * Augmentation du délai d’expiration des appels du PUT à l’API Target Delivery à 15 secondes afin d’éviter les erreurs de temporisation. (TGT-46091)
 * Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site Web d’application Une seule page (SPA). (TGT-45417)
 
-## [!DNL Target] Standard/Premium 23.5.2 (Date à déterminer)
+## [!DNL Target] Standard/Premium 23.5.2 (date à déterminer)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Sélection des critères d’optimisation activée pour [!DNL Adobe Analytics] mesures.
+* Sélection des critères d’optimisation activée pour les mesures [!DNL Adobe Analytics].
 * Activation de la synchronisation des audiences externes à l’aide de tâches sling.
-* Correction d’un problème en raison duquel les suites de rapports SC contenant un caractère de point dans le nom n’étaient pas prises en charge.
-* Activation de la fonctionnalité permettant aux clients de supprimer et de modifier des audiences intégrées.
+* Correction d’un problème en raison duquel les suites de rapports SC contenant un point dans le nom n’étaient pas prises en charge.
+* Activation de la fonctionnalité permettant aux clients et clientes de supprimer et de modifier des audiences intégrées.
 
 ## [!DNL Target] Standard/Premium 23.5.3 (Date à déterminer)
 
