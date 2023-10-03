@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 93%
+source-wordcount: '2016'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4 octobre | [Activités](/help/main/c-activities/activities.md) | Mise à jour du texte et des images pour refléter l’actualisation de l’interface utilisateur incluse dans la variable [!DNL Target] Version 23.9.4. |
+|  | [Flux](/help/main/c-recommendations/c-products/feeds.md) | Mise à jour du texte et des images pour refléter l’actualisation de l’interface utilisateur incluse dans la variable [!DNL Target] Version 23.9.4. |
 | 2 octobre | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.9.3 de [!DNL Target Standard/Premium]. |
 |  | [[!DNL Recommendations] modèle de mise en oeuvre](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | La nouvelle *Modèle de mise en oeuvre Recommendations à l’aide d’at.js* Ces articles vous aident à comprendre et à créer vos [!DNL Adobe Target Recommendations] implémentation lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour obtenir des informations générales sur [!DNL Target] modèles, voir [Présentation des modèles d’implémentation](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} dans le *Guide du développeur d’Adobe Target*.<P>Le nouveau modèle de mise en oeuvre de Recommendations se compose des articles suivants :<ul><li>[Modèle de mise en oeuvre Recommendations à l’aide de la présentation d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[Initialisation des SDK](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[Configuration de la collecte de données](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[Rendu d’expériences](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[Notifier [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 29 septembre | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 23.9.3 de [!DNL Target Standard/Premium] |
