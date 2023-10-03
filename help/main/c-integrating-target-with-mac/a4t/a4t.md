@@ -5,9 +5,9 @@ title: Qu’est-ce qu’ [!DNL Analytics]  for  [!DNL Target]  (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Les sections suivantes contiennent des informations sur les types d’activité 
 |--- |--- |--- |
 | [Activité A/B avec fractionnement manuel du trafic](/help/main/c-activities/t-test-ab/test-ab.md) | Oui |  |
 | [Activité A/B avec affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Oui | Consultez la page [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| [Activité A/B avec ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Oui (at.js)<P>Non (SDK Web Platform) | La prise en charge d’A4T pour les activités de ciblage automatique est actuellement prise en charge uniquement pour at.js. |
+| [Activité A/B avec ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Oui (at.js)<P>Non (SDK Web Platform) | La prise en charge d’A4T pour les activités de ciblage automatique est actuellement proposée uniquement pour at.js. |
 | [Ciblage d’expérience (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Oui |  |
 | [Test multivarié (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Oui | Requiert la mesure d’objectif basée sur mbox pour obtenir le rapport de [!UICONTROL contribution des éléments]. Le rapport [!UICONTROL contribution des éléments] ne prend actuellement pas en charge les mesures d’[!DNL Analytics]. |
 | [Activité d’Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Non |  |
