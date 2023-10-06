@@ -1,13 +1,13 @@
 ---
-keywords: jetons de réponse;jetons;modules externes;at.js;réponse;sdk web platform
+keywords: jetons de réponse;jetons;modules externes;at.js;réponse;sdk web platform;google analytics
 description: Découvrez comment utiliser les jetons de réponse dans [!DNL Adobe Target] pour obtenir des informations spécifiques à la sortie pour le débogage et l’intégration à des outils tiers.
 title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 28%
 
 ---
@@ -218,7 +218,7 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 ## Envoi de données à des Google Analytics
 
-Les sections suivantes décrivent comment envoyer [!DNL Target] aux Google Analytics. Les données envoyées par des jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
+Les sections suivantes décrivent comment envoyer [!DNL Target] données aux Google Analytics 4. Les données envoyées par des jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
 
 ### ![Badge AEP](/help/main/assets/platform.png) Envoi de données à des Google Analytics via le SDK Web Platform
 
