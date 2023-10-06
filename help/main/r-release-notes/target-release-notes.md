@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 81%
+ht-degree: 99%
 
 ---
 
@@ -35,11 +35,11 @@ Cette version comprend les améliorations et correctifs suivants :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!UICONTROL Activités] Actualisation de l’interface utilisateur<P>et<P>[!UICONTROL Flux] Actualisation de l’interface utilisateur | Dans le cadre du [!DNL Adobe Target] Effort continu de l’équipe pour améliorer l’expérience utilisateur pour [!DNL Target] pour les utilisateurs, cette version actualise la variable [!UICONTROL Activités] et [!DNL Recommendations] [!UICONTROL Flux] dans les [!DNL Target] Interface utilisateur. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations.<P>Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md) et [Flux](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] modèle de mise en oeuvre | La variable *Modèle de mise en oeuvre Recommendations à l’aide d’at.js* Ces articles vous aident à comprendre et à créer vos [!DNL Adobe Target Recommendations] implémentation lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour plus d’informations, voir [Modèle de mise en oeuvre Recommendations à l’aide de la présentation d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} dans le *Guide du développeur d’Adobe Target*. |
+| Actualisation de l’interface utilisateur [!UICONTROL Activités]<P>et<P>Actualisation de l’interface utilisateur [!UICONTROL Flux] | Sʼinscrivant dans le cadre des efforts continus réalisés par lʼéquipe [!DNL Adobe Target] pour améliorer lʼexpérience client pour les utilisateurs et utilisatrices de [!DNL Target], cette version donne un coup de jeune aux pages [!UICONTROL Activités] et [!UICONTROL Flux] [!DNL Recommendations] dans lʼinterface utillisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations.<P>Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md) et [Flux](/help/main/c-recommendations/c-products/feeds.md). |
+| Modèle d’implémentation de [!DNL Recommendations] | Les articles *Modèle d’implémentation de Recommendations à l’aide d’at.js* permettent de comprendre et de créer votre implémentation de [!DNL Adobe Target Recommendations] lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour plus d’informations, voir [Vue d’ensemble du modèle d’implémentation de Recommendations à l’aide d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=fr){target=_blank} dans le *Guide du développement d’Adobe Target*. |
 
-* Ajout [!UICONTROL Compositeur d’expérience visuelle] Améliorations apportées aux structures dynamiques. (TGT-44064)
-* Correction d’un problème en raison duquel la date sélectionnée dans la variable `getViewInAnalyticsId` de ne pas mettre à jour correctement. Ce correctif permet de recalculer la variable [!DNL Analytics] dans les rapports lorsque les paramètres des rapports de la période et des mesures sont modifiés. (TGT-46246)
+* Améliorations apportées au [!UICONTROL Compositeur d’expérience visuelle] pour les frameworks dynamiques. (TGT-44064)
+* Correction d’un problème qui empêchait la mise à jour correcte de la date sélectionnée dans la demande `getViewInAnalyticsId`. Ce correctif permet de recalculer le lien [!DNL Analytics] dans les rapports lorsque les paramètres de période et de mesure sont modifiés. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3 (18 septembre 2023)
 
