@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
+source-git-commit: 111b0fd0dee8a91aa792fe89616868e3839a0b0b
 workflow-type: tm+mt
-source-wordcount: '2049'
+source-wordcount: '2067'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 10 octobre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour la version 2.11.0 d’at.js. |
 | 6 octobre | [Jetons de réponse](/help/main/administrating-target/response-tokens.md) | Mise à jour de tous les exemples de code. |
 |  | [Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités d’[!UICONTROL affectation automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=fr){target=_blank} | Mise à jour complète du tutoriel dans *[!UICONTROL Tutorials Adobe Target]* guide. |
 | 4 octobre | [Activités](/help/main/c-activities/activities.md) | Mise à jour du texte et des images pour refléter l’actualisation de l’interface utilisateur incluse dans la variable [!DNL Target] Version 23.9.4. |
