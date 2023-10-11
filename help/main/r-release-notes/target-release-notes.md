@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.9.4 (4-6 octobre 2023)
+## [!DNL Target] Standard/Premium 23.9.4 (4-6 octobre 2023)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
 * **4 octobre** : région Asie-Pacifique (APAC)
 * **5 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **6 octobre** : région des Amériques
+* **6 octobre** : région des Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
