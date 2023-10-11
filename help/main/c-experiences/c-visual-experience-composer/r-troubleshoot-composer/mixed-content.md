@@ -1,13 +1,13 @@
 ---
 keywords: contenu mixte;sécurisé;non sécurisé;chrome;dépannage;vec;compositeur d’expérience visuelle;non sécurisé;http;https;firefox;internet explorer
-description: Découvrez comment activer le contenu mixte dans Chrome, Firefox et Edge. Vous pouvez activer le contenu mixte lorsqu’un navigateur bloque l’affichage d’une page, car le contenu sécurisé est mélangé à du contenu non sécurisé.
-title: Comment activer le contenu mixte dans mon navigateur ?
+description: Découvrez comment activer le contenu mixte dans [!DNL Chrome], [!DNL Firefox], et [!DNL Edge].
+title: Comment activer le contenu mixte dans mon navigateur
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ Le contenu mixte se produit si la demande initiale est sécurisée via HTTPS, ma
 
 Les navigateurs modernes peuvent bloquer l’affichage d’une page ou afficher des messages d’avertissement si le contenu sécurisé est mélangé à du contenu non sécurisé.
 
-Un message d’avertissement s’affiche si le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] tente d’ouvrir une page au contenu mixte. Ce message vous explique comment désactiver le blocage dans votre navigateur. La désactivation du blocage permet d’ouvrir un site HTTP ou un site comportant des appels mixtes (HTTPS et HTTP).
+Un message d’avertissement s’affiche si le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] tente d’ouvrir une page au contenu mixte. Ce message vous explique comment désactiver le blocage dans votre navigateur. La désactivation du blocage permet d&#39;ouvrir un site HTTP ou un site de contenu mixte (HTTPS et HTTP).
 
 ![Avertissement de contenu mixte](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -27,19 +27,19 @@ Les paramètres de sécurité du navigateur peuvent bloquer le chargement du con
 
 Si votre site web s’exécute sur un domaine non sécurisé (HTTP), vous devez autoriser le compositeur d’expérience visuelle à charger du contenu mixte actif.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >L’autorisation du contenu mixte affecte uniquement le compositeur d’expérience visuelle et non votre site web actif.
 
 Pour plus d’informations, consultez la page [Mixed Content (Contenu mixte)](https://developer.mozilla.org/fr/docs/Web/Security/Mixed_content) sur le site web *Mozilla Developer Network* (MDN).
 
-## Activation du contenu mixte dans Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Activation du contenu mixte dans [!DNL Google Chrome] {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Si vous visitez un site au moyen d’une connexion sécurisée, Chrome vérifie que le contenu de la page web a été transmis en toute sécurité.
+Si vous visitez un site via une connexion sécurisée, [!DNL Chrome] vérifie que le contenu de la page web a été transmis en toute sécurité.
 
-Consultez l’article [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=fr) dans l’aide Google Chrome.
+Voir &quot;[Gestion des avertissements concernant les sites non sécurisés](https://support.google.com/chrome/answer/99020?hl=fr)&quot; dans l’aide de Google Chrome.
 
-Si vous utilisez le VEC avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
+Si vous utilisez le VEC avec la dernière version de [!DNL Chrome] (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
 
 1. Cliquez sur l’icône de verrouillage (mise en garde), puis sur **[!UICONTROL Paramètres du site]**.
 
@@ -51,12 +51,12 @@ Si vous utilisez le VEC avec la dernière version de Chrome (version 79.0.3945.
 
 1. Chargez à nouveau la page du compositeur d’expérience visuelle.
 
-## Activation du contenu mixte dans Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Activation du contenu mixte dans [!DNL Mozilla Firefox] {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
+Par défaut, [!DNL Firebox] bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Vous devez modifier définitivement ce paramètre pour utiliser [!DNL Target]. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
 
 1. Dans Firefox, saisissez `about:config` dans la barre d’adresse.
-1. Acceptez le message d’avertissement affiché par Firefox.
+1. Acceptez le message d’avertissement affiché par [!DNL Firefox].
 
    ![Avertissement de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
 
@@ -70,20 +70,18 @@ Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et n
 
    ![Sécurité de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-Redémarrez votre ordinateur après avoir modifié ce paramètre.
+1. Redémarrez votre ordinateur après avoir modifié ce paramètre.
 
-## Activation du contenu mixte dans Microsoft Edge
+## Activation du contenu mixte dans [!DNL Microsoft Edge]
 
-Si vous visitez un site au moyen d’une connexion sécurisée, Edge vérifie que le contenu de la page web a été transmis en toute sécurité.
+Si vous visitez un site via une connexion sécurisée, [!DNL Edge] vérifie que le contenu de la page web a été transmis en toute sécurité.
 
-Si vous utilisez le VEC avec la dernière version d’Edge, vous devez mettre à jour les paramètres de votre site. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
+Si vous utilisez le VEC avec la dernière version de [!DNL Edge], vous devez mettre à jour les paramètres de votre site. Les visiteurs et visiteuses de votre site n’ont pas besoin d’effectuer ces étapes.
 
-1. Cliquez sur l’icône de verrouillage (mise en garde), puis sur **[!UICONTROL Autorisations du site]**.
+1. Dans [!DNL Edge], cliquez sur **[!DNL Microsoft Edge]** dans la barre de menus, **[!UICONTROL Paramètres]**, puis cliquez sur **Cookies et autorisations de site**.
 
-   ![Autorisations de site dans Microsoft Edge](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+1. Faites défiler jusqu’à **[!UICONTROL Contenu non sécurisé]**.
 
-1. Faites défiler jusqu’à **[!UICONTROL Contenu non sécurisé]**, puis utilisez la liste déroulante pour remplacer « Bloquer (par défaut) » par « Autoriser ».
-
-   ![Contenu non sécurisé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+1. Cliquez sur **[!UICONTROL Contenu non sécurisé]**, puis cliquez sur **[!UICONTROL Ajouter]** en regard de **[!UICONTROL Autoriser]**, ajoutez le site sur lequel autoriser le contenu non sécurisé, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 1. Chargez à nouveau la page du compositeur d’expérience visuelle.
