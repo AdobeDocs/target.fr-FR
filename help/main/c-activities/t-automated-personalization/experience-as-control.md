@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ Deux options sont disponibles pour votre contrôle dans votre [!UICONTROL Automa
 
 ## Définition d’une expérience spécifique comme contrôle
 
-1. Lors de la création d’une [[!UICONTROL Automated Personalization] activité](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique] activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
+1. Lorsque vous créez ou modifiez une [[!UICONTROL Automated Personalization] activité](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique] activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
 1. Sur la page [!UICONTROL Ciblage] (étape 2 du workflow assisté en trois parties), sélectionnez l’expérience souhaitée comme contrôle.
 1. Spécifiez l’affectation de trafic souhaitée pour l’expérience de contrôle et les autres expériences.
 

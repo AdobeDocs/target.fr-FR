@@ -4,10 +4,10 @@ description: Explorer une liste de questions fréquentes et de réponses sur l�
 title: Où puis-je trouver des réponses aux questions [!DNL Target] Reporting ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -17,8 +17,8 @@ Liste des questions fréquentes sur la création de rapports dans [!DNL Adobe Ta
 
 ## Comment les mesures Nouveaux visiteurs et Visiteurs récurrents sont-elles comptabilisées ? {#methodology}
 
-La première visite d’un nouveau visiteur dure tant que le visiteur est principal sur le site.
-Si l’utilisateur est inactif pendant 30 minutes ou plus, la session est réinitialisée. La réinitialisation de la session signifie que ce visiteur devient un visiteur régulier lors de la prochaine visite ou qu’il redevient principal après 30 minutes d’inactivité.
+La première visite d’un nouveau visiteur dure tant qu’il est actif sur le site.
+Si l’utilisateur est inactif pendant 30 minutes ou plus, la session est réinitialisée. La réinitialisation de la session signifie que ce visiteur devient un visiteur récurrent lors de la prochaine visite ou qu’il redevient actif après 30 minutes d’inactivité.
 Si le visiteur se déplace sur le site toutes les 29 minutes pendant une journée entière, il est compté comme un nouveau visiteur toute la journée. La session n’a jamais été réinitialisée, car le visiteur n’a jamais dépassé le seuil de 30 minutes.
 
 Les informations suivantes expliquent de manière plus détaillée comment sont comptabilisés les nouveaux visiteurs et les visiteurs récurrents. Des exemples sont également inclus pour expliquer pourquoi la somme de ces deux segments ne correspond pas toujours au nombre total de visiteurs.
@@ -44,7 +44,7 @@ La durée de vie du profil étant définie sur 14 jours, ce visiteur est inclus 
 
 ### Exemples expliquant les incohérences entre les nombres de mesures
 
-**Exemple 1**: Si ces deux segments sont appliqués à une activité, les segments Nouveaux visiteurs et Visiteurs récurrents ne totalisent pas toujours le nombre total de visiteurs.
+**Exemple 1**: si ces deux segments sont appliqués à une activité, les segments Nouveaux visiteurs et Visiteurs récurrents ne totalisent pas toujours le nombre total de visiteurs.
 
 Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci-dessus pour les nouveaux visiteurs et les visiteurs récurrents :
 
@@ -53,7 +53,7 @@ Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci
 
 Ce visiteur est comptabilisé comme un seul visiteur dans le nombre total de visiteurs de l’activité, même s’il est comptabilisé dans les segments Nouveaux visiteurs et Visiteurs récurrents .
 
-**Exemple 2**: Les écarts entre les nombres de nouveaux visiteurs et de visiteurs récurrents dépendent également de la manière dont vous configurez l’activité. [mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md).
+**Exemple 2**: les écarts entre les nombres de nouveaux visiteurs et de visiteurs récurrents dépendent également de la manière dont vous configurez le rapport [mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
 Par exemple :
 
@@ -74,9 +74,16 @@ Les chiffres de mesure, par exemple les visites, signalés par [!DNL Target] son
 
 ## Pourquoi n’existe-t-il pas de données disponibles pour le rapport de mon activité ? {#section_E4722F6445884130951DF79981C8289B}
 
-Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, assurez-vous que l’environnement correct ([groupe d’hôtes](/help/main/administrating-target/hosts.md)) est sélectionné dans les paramètres du rapport.
+Si le contenu d’une activité a été correctement diffusé aux visiteurs mais que son rapport ne contient aucune donnée, le message d’erreur suivant peut s’afficher : &quot;Aucune donnée n’est disponible pour les paramètres de rapport sélectionnés&quot;.
 
-Si un environnement de développement est sélectionné, le message suivant peut s’afficher : « Aucune donnée n’est disponible pour les paramètres des rapports sélectionnés. »
+Il existe plusieurs raisons pour lesquelles les données sont manquantes dans les rapports d’activité :
+
+* L’environnement correct n’est pas sélectionné dans les paramètres du rapport.
+* Aucun trafic n’est affecté à l’expérience de contrôle.
+
+### L’environnement correct n’est pas sélectionné dans les paramètres du rapport :
+
+Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, assurez-vous que l’environnement correct ([groupe d’hôtes](/help/main/administrating-target/hosts.md)) est sélectionné dans les paramètres du rapport.
 
 Pour modifier l’environnement pour le rapport d’une activité :
 
@@ -85,10 +92,6 @@ Pour modifier l’environnement pour le rapport d’une activité :
 
    ![Boîte de dialogue Paramètres A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >L’icône représentant un engrenage n’est pas disponible pour les rapports de [!UICONTROL personnalisation automatisée.]
-
 1. Dans la liste déroulante **[!UICONTROL Environnement]**, sélectionnez **[!UICONTROL Production]**.
 
    Les données de rapport peuvent ne pas être disponibles si vous avez sélectionné un environnement de développement.
@@ -96,6 +99,22 @@ Pour modifier l’environnement pour le rapport d’une activité :
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Pour plus d’informations sur les environnements, voir [Hôtes](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Aucun trafic n’est affecté à l’expérience de contrôle.
+
+Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, assurez-vous que le trafic est affecté à l’expérience de contrôle.
+
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **** Rapports.
+1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
+
+1. Dans la **[!UICONTROL Contrôle]** , sélectionnez une expérience qui reçoit du trafic.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+>[!NOTE]
+>
+>Pour plus d’informations sur la mise à jour d’une [!UICONTROL Automated Personalization] (AP) et remplacez l’expérience de contrôle par une expérience qui reçoit du trafic, voir [Sélection du contrôle de votre activité Automated Personalization ou de ciblage automatique](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## Pourquoi le trafic est-il inégal entre mes expériences dans mon activité A/B ou MVT ? {#uneven}
 
