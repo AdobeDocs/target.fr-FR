@@ -6,10 +6,10 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -125,5 +125,12 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics]. Une vue d
    * ID d’activité
 
    ![Options Noms et ID dans Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Pour utiliser [!DNL Target] dans la variable [!UICONTROL Expérience] , configurez les libellés contextuels suivants :
+
+   * Pour [!UICONTROL Nom de l’activité], utilisez &quot;Expérience d’expérience&quot;.
+   * [!UICONTROL Nom de l’expérience], utilisez &quot;Variante d’expérience&quot;.
+
+   ![Libellés de contexte dans le panneau Expérience](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. Terminez la configuration d’autres champs, puis cliquez sur **[!UICONTROL Enregistrer et continuer]** une fois terminé.
