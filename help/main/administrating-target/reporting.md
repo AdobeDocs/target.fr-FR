@@ -5,10 +5,10 @@ title: Comment configurer les rapports dans Target ?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 31%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez définir les paramètres suivants sur cette page :
 
 >[!NOTE]
 >
->N’oubliez pas que le fuseau horaire, la devise et les adresses IP à exclure des paramètres s’appliquent aux activités qui utilisent [!DNL Target] création de rapports. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics for Target (A4T)] comme source des rapports (/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>N’oubliez pas que le fuseau horaire, la devise et les adresses IP à exclure des paramètres s’appliquent aux activités qui utilisent [!DNL Target] création de rapports. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) comme source des rapports.
 
 ![Page Rapports](/help/main/administrating-target/assets/reporting.png)
 
