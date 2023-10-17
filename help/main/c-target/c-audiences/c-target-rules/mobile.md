@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
@@ -33,7 +33,7 @@ Pour résoudre ce problème, procédez comme suit : [!DNL Target] collecte des d
 
 >[!NOTE]
 >
->Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients qui utilisent at.js doivent [mise à niveau vers at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients qui utilisent at.js doivent [mise à niveau vers at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (ou version ultérieure).
 
 Vous pouvez choisir plusieurs propriétés d’appareil mobile. Plusieurs sélections sont unies par un opérateur OU.
 
@@ -63,7 +63,7 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 
 L’illustration suivante présente une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google et qui sont des appareils mobiles.
 
-![Ciblage de périphériques mobiles](assets/target_mobile.png)
+![Ciblage d’appareils mobiles](assets/target_mobile.png)
 
 ## Considérations
 
@@ -73,7 +73,7 @@ Tenez compte des informations suivantes lors du ciblage des périphériques mobi
 
 En raison des nouvelles modifications introduites dans iOS 12.2, création d’une audience avec des règles définies par [!UICONTROL Nom marketing du périphérique] et [!UICONTROL Modèle de périphérique] qui spécifient que les modèles iPhone sont affectés. [!DNL Target] ne peuvent plus cibler les utilisateurs pour lesquels des iPhone avec iOS 12.2 (ou version ultérieure) sont installés. Cependant, si ces utilisateurs ne disposent pas d’iOS 12.2 (ou version ultérieure), le ciblage du modèle iPhone continue de fonctionner correctement.
 
-La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4, iPhone 4, 5, iPhone 5c, iPad, iPad 2, affichage iPad/Retina, (4e génération), iPod Touch 4 et iPod Touch 5.
+La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad 2, affichage/Retina, Retina (4e génération), iPod 4 et iPod Touch 5.
 
 ### Ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure)
 
