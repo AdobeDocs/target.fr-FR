@@ -4,9 +4,9 @@ description: Explorer une liste de questions fréquentes et de réponses sur l�
 title: Où puis-je trouver des réponses aux questions [!DNL Target] Reporting ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1376'
 ht-degree: 27%
 
 ---
@@ -102,7 +102,7 @@ Pour plus d’informations sur les environnements, voir [Hôtes](/help/main/admi
 
 ### Aucun trafic n’est affecté à l’expérience de contrôle.
 
-Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, assurez-vous que le trafic est affecté à l’expérience de contrôle.
+Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, veillez à utiliser une expérience avec le trafic comme expérience de contrôle.
 
 1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **** Rapports.
 1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
