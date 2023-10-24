@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
+source-git-commit: 594999c57d10d88d48f34599e67cbf6649351aa9
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 77%
 
 ---
 
@@ -19,60 +19,15 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 23.9.4 (4-6 octobre 2023)
-
-Cette version sera disponible selon le calendrier échelonné suivant :
-
-* **4 octobre** : région Asie-Pacifique (APAC)
-* **5 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **6 octobre** : région des Amériques
+## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-| Fonctionnalité | Détails |
-| --- | --- |
-| Actualisation de l’interface utilisateur [!UICONTROL Activités]<P>et<P>Actualisation de l’interface utilisateur [!UICONTROL Flux] | Sʼinscrivant dans le cadre des efforts continus réalisés par lʼéquipe [!DNL Adobe Target] pour améliorer lʼexpérience client pour les utilisateurs et utilisatrices de [!DNL Target], cette version donne un coup de jeune aux pages [!UICONTROL Activités] et [!UICONTROL Flux] [!DNL Recommendations] dans lʼinterface utillisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations.<P>Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md) et [Flux](/help/main/c-recommendations/c-products/feeds.md). |
-| Modèle d’implémentation de [!DNL Recommendations] | Les articles *Modèle d’implémentation de Recommendations à l’aide d’at.js* permettent de comprendre et de créer votre implémentation de [!DNL Adobe Target Recommendations] lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour plus d’informations, voir [Vue d’ensemble du modèle d’implémentation de Recommendations à l’aide d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=fr){target=_blank} dans le *Guide du développement d’Adobe Target*. |
-
-* Améliorations apportées au [!UICONTROL Compositeur d’expérience visuelle] pour les frameworks dynamiques. (TGT-44064)
-* Correction d’un problème qui empêchait la mise à jour correcte de la date sélectionnée dans la demande `getViewInAnalyticsId`. Ce correctif permet de recalculer le lien [!DNL Analytics] dans les rapports lorsque les paramètres de période et de mesure sont modifiés. (TGT-46246)
-
-## [!DNL Target] Standard/Premium 23.9.3 (18 septembre 2023)
-
-Cette version comprend les améliorations et correctifs suivants :
-
-* Amélioration de la fonction [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour la prise en charge des composants web Lightning (Light DOM). (TGT-45422)
-* Correction d’un problème en raison duquel les actions du compositeur d’expérience visuelle étaient appliquées dans un ordre incorrect. Dans certains cas, le compositeur d’expérience visuelle appliquait certaines modifications de manière asynchrone. L’ajout de modifications supplémentaires à un élément provoquait des erreurs si cet élément s’affichait après une action [!UICONTROL Insérer]. Corrige également l’URL du compositeur d’expérience visuelle, qui se met à présent à jour lorsque l’utilisateur ou l’utilisatrice clique sur les liens. (TGT-45983)
-* Correction d’un problème avec la fonction [!UICONTROL Incrustation] du compositeur d’expérience visuelle, qui prend désormais en charge les éléments dans les Shadow DOM. (TGT-45202 et TGT-45262)
-* Correction d’un problème lors de l’ouverture d’une page d’application d’une seule page (SPA) dans le compositeur d’expérience visuelle, en raison duquel les flèches Précédent et Suivant ne fonctionnaient pas correctement en mode [!UICONTROL Parcourir]. (TGT-45956)
-* Correction d’un problème qui empêchait le chargement de certaines pages web dans le compositeur d’expérience visuelle. (TGT-45983)
-
-## [!DNL Target] Standard/Premium 23.9.2 (du 12 au 14 septembre 2023)
-
-Cette version sera disponible selon le calendrier échelonné suivant :
-
-* **12 septembre** : région des Amériques
-* **13 septembre** : région Asie-Pacifique (APAC)
-* **14 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
-
-Cette version comprend les améliorations et correctifs suivants :
-
-* Passage de l’API [!DNL Analytics] à la nouvelle version 2.0 de l’API [!DNL Analytics]. (TGT-45345)
-* Correction des problèmes qui avaient un impact sur les activités [!UICONTROL Automated Personalization] (AP) pour des clientes et clients, y compris la synchronisation opportune de l’activité sur le serveur principal [!DNL Target] et la fourniture de l’expérience attendue dans les liens d’aperçu. (TGT-46202)
-
-## [!DNL Target] Standard/Premium 23.9.1 (du 6 au 11 septembre 2023)
-
-Cette version sera disponible selon le calendrier échelonné suivant :
-
-* **6 septembre** : région des Amériques
-* **7 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **11 septembre** : région Asie-Pacifique (APAC)
-
-Cette version comprend les améliorations et correctifs suivants :
-
-* Correction d’un problème en raison duquel les données de rapport étaient incohérentes dans l’interface utilisateur [!DNL Target] et l’interface utilisateur [!DNL Adobe Analytics] pour des activités d&#39;[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source des rapports. (TGT-46112)
-* Augmentation du délai d’expiration des appels du PUT à l’API Target Delivery à 15 secondes afin d’éviter les erreurs de temporisation. (TGT-46091)
-* Correction d’un problème qui empêchait la mise à jour cohérente de l’URL lors de la navigation sur un site Web d’application Une seule page (SPA). (TGT-45417)
+* Amélioration de la nouvelle [!UICONTROL Activités] de sorte que l’ [!UICONTROL Compositeur d’expérience visuelle] (VEC) s’ouvre avec les paramètres par défaut pour `selectorCriteria` lors de la création d’une activité. (TGT-46586)
+* Correction d’un problème qui empêchait certains clients de modifier des éléments dans [!UICONTROL Compositeur] lors de l’utilisation du VEC. (TGT-46470)
+* Ajout de la possibilité de spécifier un sélecteur de préférences générique lors de l’utilisation d’attributs personnalisés. (TGT-46545)
+* Correction d’un problème qui empêchait parfois une [!UICONTROL Ciblage automatique] rapport qui utilise [!UICONTROL Analytics pour Target] (A4T) à partir de l’affichage dans le [!DNL Target] IU, même si le rapport s’affichait correctement dans [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de Target. (TGT-18899)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
