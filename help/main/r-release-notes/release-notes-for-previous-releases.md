@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
+source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
 workflow-type: tm+mt
-source-wordcount: '37635'
+source-wordcount: '37582'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,6 @@ Cette version comprend les améliorations et correctifs suivants :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Actualisation de l’interface utilisateur [!UICONTROL Activités]<P>et<P>Actualisation de l’interface utilisateur [!UICONTROL Flux] | Sʼinscrivant dans le cadre des efforts continus réalisés par lʼéquipe [!DNL Adobe Target] pour améliorer lʼexpérience client pour les utilisateurs et utilisatrices de [!DNL Target], cette version donne un coup de jeune aux pages [!UICONTROL Activités] et [!UICONTROL Flux] [!DNL Recommendations] dans lʼinterface utillisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations.<P>Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md) et [Flux](/help/main/c-recommendations/c-products/feeds.md). |
 | Modèle d’implémentation de [!DNL Recommendations] | Les articles *Modèle d’implémentation de Recommendations à l’aide d’at.js* permettent de comprendre et de créer votre implémentation de [!DNL Adobe Target Recommendations] lors de l’utilisation de la bibliothèque JavaScript at.js.<P>Pour plus d’informations, voir [Vue d’ensemble du modèle d’implémentation de Recommendations à l’aide d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=fr){target=_blank} dans le *Guide du développement d’Adobe Target*. |
 
 * Améliorations apportées au [!UICONTROL Compositeur d’expérience visuelle] pour les frameworks dynamiques. (TGT-44064)
