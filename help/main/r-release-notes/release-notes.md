@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 69%
+ht-degree: 88%
 
 ---
 
@@ -27,14 +27,14 @@ Dans le cadre du [!DNL Adobe Target] Effort continu de l’équipe pour amélior
 
 Pour plus d’informations, voir [Activités](/help/main/c-activities/activities.md).
 
-## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la nouvelle [!UICONTROL Activités] de sorte que l’ [!UICONTROL Compositeur d’expérience visuelle] (VEC) s’ouvre avec les paramètres par défaut pour `selectorCriteria` lors de la création d’une activité. (TGT-46586)
-* Correction d’un problème qui empêchait certains clients de modifier des éléments dans [!UICONTROL Compositeur] lors de l’utilisation du VEC. (TGT-46470)
-* Ajout de la possibilité de spécifier un sélecteur de préférences générique lors de l’utilisation d’attributs personnalisés. (TGT-46545)
-* Correction d’un problème qui empêchait parfois une [!UICONTROL Ciblage automatique] rapport qui utilise [!UICONTROL Analytics pour Target] (A4T) à partir de l’affichage dans le [!DNL Target] IU, même si le rapport s’affichait correctement dans [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* Amélioration de la nouvelle IU [!UICONTROL Activités], de sorte que le [!UICONTROL compositeur d’expérience visuelle] (VEC) s’ouvre avec les paramètres par défaut pour `selectorCriteria` lors de la création d’une activité. (TGT-46586)
+* Correction d’un problème qui empêchait certains clientes et clients de modifier des éléments en mode [!UICONTROL compositeur] lors de l’utilisation du VEC. (TGT-46470)
+* Ajout de la possibilité de spécifier un sélecteur préféré générique lors de l’utilisation d’attributs personnalisés. (TGT-46545)
+* Correction d’un problème qui empêchait parfois un rapport de [!UICONTROL ciblage automatique] utilisant [!UICONTROL Analytics for Target] (A4T) de s’afficher dans l’IU de [!DNL Target], même si le rapport s’affichait correctement dans [!DNL Adobe Analysis Workspace]. (TGT-46494)
 * Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de Target. (TGT-18899)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions

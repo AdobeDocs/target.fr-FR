@@ -15,7 +15,7 @@ ht-degree: 99%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
+## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
