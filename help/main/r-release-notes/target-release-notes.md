@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3cce7d181de4e344b1878990fd5506000d40befd
+source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '381'
 ht-degree: 54%
 
 ---
@@ -31,12 +31,11 @@ Cette version est programmée pour les jours suivants :
 * **14 novembre**: région des Amériques
 * **14 novembre**: région Europe, Moyen-Orient et Afrique (EMEA)
 
-Cette version comprend les correctifs suivants :
+Cette version comprend les améliorations et correctifs suivants :
 
 * Amélioration de la fonction [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) fonctionnalité de prise en charge [interdire les offres en double](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) pour les expériences dans [!UICONTROL Automated Personalization] activités. (TGT-46627)
 * Ajout d’une info-bulle dans le [!DNL Target] Interface utilisateur pour aider les clients à comprendre pourquoi il se peut qu’il n’y ait pas de données disponibles dans les rapports d’activité si aucun trafic n’est affecté à l’expérience de contrôle. Un lien vers plus d’informations est inclus dans l’info-bulle : [Pourquoi n’existe-t-il aucune donnée disponible pour le rapport de mon activité ?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Correction d’un problème en raison duquel les activités ne s’affichaient pas correctement sur le [!UICONTROL Activités] pour quelques clients. (TGT-46830)
-
 * Correction des problèmes suivants qui affectaient les activités utilisant [[!UICONTROL Analytics pour Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) comme source de création de rapports :
    * Correction d’un problème qui empêchait certains clients d’afficher des données de rapport. (TGT-46557)
    * Correction d’un problème en raison duquel la variable [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activité afin de ne pas fonctionner correctement. (TGT-46731)
