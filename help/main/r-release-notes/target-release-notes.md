@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
+source-git-commit: 82b75b8ef293b3243c0b2528020dced4654b2688
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 53%
+source-wordcount: '386'
+ht-degree: 56%
 
 ---
 
@@ -36,9 +36,11 @@ Cette version comprend les correctifs suivants :
 * Amélioration de la fonction [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) pour offrir aux clients la possibilité d’interdire les offres en double pour les expériences dans [!UICONTROL Automated Personalization] activités. (TGT-46627)
 * Ajout d’une info-bulle dans le [!DNL Target] Interface utilisateur pour aider les clients à comprendre pourquoi il se peut qu’il n’y ait pas de données disponibles dans les rapports d’activité si aucun trafic n’est affecté à l’expérience de contrôle. Un lien vers plus d’informations est inclus dans l’info-bulle : [Pourquoi n’existe-t-il aucune donnée disponible pour le rapport de mon activité ?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Correction d’un problème en raison duquel les activités ne s’affichaient pas correctement sur le [!UICONTROL Activités] pour quelques clients. (TGT-46830)
-* Correction d’un problème qui empêchait certains clients d’afficher des données de rapport pour les activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46557)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activités afin de ne pas fonctionner correctement pour les activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46731)
-* Correction d’un problème qui empêchait les données pour [!UICONTROL Effet élévateur] et [!UICONTROL Confiance] pour s’afficher correctement dans la variable [!DNL Target] Interface utilisateur pour les activités qui utilisent [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. (TGT-46592, TGT-46554, et TGT-46586)
+
+* Correction des problèmes suivants qui affectaient les activités utilisant [Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) comme source de création de rapports :
+   * Correction d’un problème qui empêchait certains clients d’afficher des données de rapport. (TGT-46557)
+   * Correction d’un problème en raison duquel la variable [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activité afin de ne pas fonctionner correctement. (TGT-46731)
+   * Correction d’un problème qui empêchait les données pour [!UICONTROL Effet élévateur] et [!UICONTROL Confiance] pour s’afficher correctement dans la variable [!DNL Target] Interface utilisateur. (TGT-46592, TGT-46554, et TGT-46586)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
