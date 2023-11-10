@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les dates et heures de début et de fin
 title: Puis-je cibler les visiteurs qui visitent mon site à des moments spécifiques ?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 44%
+source-wordcount: '453'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,11 @@ Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc comb
 
    >[!NOTE]
    >
-   >Le fuseau horaire des dates de début et de fin s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte et non au niveau du visiteur. Par exemple, le fuseau horaire de la Californie s’affiche comme suit : GMT -08:00.
+   >Tenez compte des points suivants :
+   >
+   >* Le fuseau horaire des dates de début et de fin s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte et non au niveau du visiteur. Par exemple, le fuseau horaire de la Californie s’affiche comme suit : GMT -08:00.
+   >
+   >* [!DNL Target] les audiences horaires ne prennent pas en compte les modifications de l’heure d’été. Vous devez mettre à jour manuellement les audiences afin de prendre en compte les modifications DST.
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Fréquence de définition]** pour définir des schémas récurrents, y compris les jours de la semaine et les heures.
 
@@ -51,7 +55,7 @@ Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc comb
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-## Vidéo de formation : Création d’audiences ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : création d’audiences ![Badge d’aperçu](/help/main/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
