@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
 source-wordcount: '2227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 10 novembre | [Référence de l’API Recommendations](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | La variable [!DNL Adobe Target] [!DNL Recommendations] L’API a été déplacée vers [!DNL Adobe Developer] site web. Si nécessaire, mettez à jour vos signets. |
-|  | [Période](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Ajout d’une remarque : [!DNL Target] les audiences horaires ne prennent pas en compte les modifications de l’heure d’été. Vous devez mettre à jour manuellement les audiences afin de prendre en compte les modifications DST. |
-| 8 novembre | Notes de mise à jour de [[!DNL Target] (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour le prochain rapport [!DNL Target Standard/Premium] Version 23.11.1. |
+| 10 novembre | [Référence de l’API Recommendations](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | L’API [!DNL Recommendations] d’[!DNL Adobe Target] a été déplacée vers le site web [!DNL Adobe Developer]. Mettez à jour vos signets si nécessaire. |
+|  | [Période](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Ajout d’une remarque selon laquelle les audiences horaires [!DNL Target] ne prennent pas en compte les modifications de l’heure d’été. Vous devez mettre à jour manuellement les audiences afin de les prendre en compte. |
+| 8 novembre | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 23.11.1 de [!DNL Target Standard/Premium] à venir |
 | 28 octobre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout d’informations relatives à la version 2.11.2 d’at.js. |
 | 25 octobre | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de l’actualisation de l’interface utilisateur de la page [!UICONTROL Activités] (25 octobre 2023) |
 | 24 octobre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.10.2 de [!DNL Target Standard/Premium]. |
@@ -37,7 +37,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 17 octobre | [FAQ sur la création de rapports](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | Mise à jour de la FAQ suivante : « Pourquoi n’existe-t-il aucune donnée disponible pour le rapport de mon activité ?  » |
-| 11 octobre | [[!DNL Adobe Analytics] comme source de création de rapports pour  [!DNL Adobe Target]  (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Mise à jour des informations sur la prise en charge d’A4T pour [!DNL Adobe Experience Platform Web SDK]. |
+| 11 octobre | [[!DNL Adobe Analytics]  comme source de création de rapports pour  [!DNL Adobe Target]  (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | Mise à jour des informations sur la prise en charge d’A4T pour [!DNL Adobe Experience Platform Web SDK]. |
 | 10 octobre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour la version 2.11.0 d’at.js. |
 | 6 octobre | [Jetons de réponse](/help/main/administrating-target/response-tokens.md) | Mise à jour de tous les exemples de code. |
 |  | [Configuration de rapports A4T dans  [!DNL Analysis Workspace]  pour les activités d’[!UICONTROL affectation automatique]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=fr){target=_blank} | Mise à jour complète du tutoriel dans le guide *[!UICONTROL Tutoriels d’Adobe Target]*. |
