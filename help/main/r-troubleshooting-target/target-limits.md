@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 82%
+source-wordcount: '1609'
+ht-degree: 80%
 
 ---
 
@@ -40,7 +40,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 50 appels par minute pour les API Admin, Reporting et de mise à jour de profil en masse. Cette limite ne s’applique pas aux API Delivery et de mise à jour de profil unique.
 
-   Si vous effectuez plus de 50 appels d’API par minute, [!DNL Target] renvoie un message d’erreur indiquant « état HTTP 503 ».
+  Si vous effectuez plus de 50 appels d’API par minute, [!DNL Target] renvoie un message d’erreur indiquant « état HTTP 503 ».
 
 ## Audiences
 
@@ -64,35 +64,35 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 100 requêtes de diffusion de contenu [!DNL Target] simultanées par session utilisateur.
 
-   Si un client dépasse les 100 requêtes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les requêtes suivantes sont bloquées pour cette session utilisateur. Deux requêtes ou plus sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées d’une même session de manière séquentielle.
+  Si un client dépasse les 100 requêtes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les requêtes suivantes sont bloquées pour cette session utilisateur. Deux requêtes ou plus sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées d’une même session de manière séquentielle.
 
    * **Comportement d’erreur** :
 
       * API de diffusion et mbox par lots v2 :
          * Code d’erreur : HTTP 420 Too Many Requests
          * Message d’erreur : « Trop de requêtes avec le même ID de session »
+
       * API mbox héritée :
          * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
+
       * at.js:
          * Contenu par défaut affiché
 
-
-
 * **Limite**: 50 mbox par [!DNL Target] requête de mbox par lots de diffusion de contenu.
 
-   Dépassement de 50 mbox par [!DNL Target] la requête de mbox par lots de diffusion de contenu génère un code d’erreur de réponse. `HTTP 400` avec message d’erreur `size must be between 0 and 50`.
+  Dépassement de 50 mbox par [!DNL Target] la requête de mbox par lots de diffusion de contenu génère un code d’erreur de réponse. `HTTP 400` avec message d’erreur `size must be between 0 and 50`.
 
-   Les requêtes de mbox par lot sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus la requête par lot contient de mbox, plus il est possible d’attendre de latence de réponse, ce qui peut entraîner des délais d’expiration. Si le rendu de l’expérience est bloqué sur ces demandes par lots de latence élevée, la latence peut entraîner une expérience utilisateur dégradée, car les utilisateurs attendent le rendu des expériences.
+  Les requêtes de mbox par lot sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus la requête par lot contient de mbox, plus il est possible d’attendre de latence de réponse, ce qui peut entraîner des délais d’expiration. Si le rendu de l’expérience est bloqué sur ces demandes par lots de latence élevée, la latence peut entraîner une expérience utilisateur dégradée, car les utilisateurs attendent le rendu des expériences.
 
-* **Limite**: Taille du corps du POST HTTP de 60 Mo pour [!DNL Target] demandes de diffusion de contenu.
+* **Limite**: taille du corps du POST HTTP de 60 Mo pour [!DNL Target] demandes de diffusion de contenu.
 
-   Dépassement de 60 Mo de la taille de corps du POST HTTP d’une valeur [!DNL Target] la requête de diffusion de contenu entraîne un code d’erreur de réponse. `HTTP 413 Request Entity Too Large`.
+  Dépassement de 60 Mo de la taille de corps du POST HTTP d’une valeur [!DNL Target] la requête de diffusion de contenu entraîne un code d’erreur de réponse. `HTTP 413 Request Entity Too Large`.
 
 * **Limite recommandée**: 50 notifications par [!DNL Target] demande de lot de diffusion.
 
-   Dépassement de 50 notifications par [!DNL Target] la requête de lot de diffusion entraîne probablement une latence de réponse et des délais d’attente plus importants.
+  Dépassement de 50 notifications par [!DNL Target] la requête par lots de diffusion entraîne probablement une latence et des délais de réponse plus importants.
 
-   Les demandes de notification par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus le nombre de notifications sur la requête par lot est élevé, plus il est possible d’attendre une latence de réponse, ce qui peut entraîner des délais d’expiration. Une latence supplémentaire sur les demandes de notification par lots peut être acceptable pour certains clients, mais sachez que les dépassements de délai et les reprises ultérieures peuvent entraîner une latence encore plus importante.
+  Les demandes de notification par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus le nombre de notifications sur la requête par lot est élevé, plus il est possible d’attendre une latence de réponse, ce qui peut entraîner des délais d’expiration. Une latence supplémentaire sur les demandes de notification par lots peut être acceptable pour certains clients, mais sachez que les dépassements de délai et les reprises ultérieures peuvent entraîner une latence encore plus importante.
 
 ## Attributs du client
 
@@ -104,10 +104,10 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 50 caractères.
 
-### Attributs du client, transfert
+### Attributs du client, chargement
 
-* **Taille maximale du fichier pour chaque transfert à l’aide de la méthode HTTP** : 100 Mo.
-* **Taille maximale du fichier pour chaque transfert à l’aide de la méthode FTP** : 4 Go.
+* **Taille maximale du fichier pour chaque chargement à l’aide de la méthode HTTP** : 100 Mo.
+* **Taille maximale du fichier pour chaque chargement à l’aide de la méthode FTP** : 4 Go.
 * **Nombre d’attributs autorisés à s’abonner** : 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
 
 ## Entités
@@ -127,25 +127,25 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
    * 15 000 caractères (une seule valeur, deux et deux langues)
    * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
 
-   La longueur maximale des attributs personnalisés d’entité à valeur unique est de 15 000 caractères (pour les langues codées UTF-8 à un et deux octets, telles que l’anglais et les autres langues en alphabet latin) ou de 10 000 caractères (pour les langues codées UTF-8 à trois octets, telles que le chinois, le japonais et le coréen).
+  La longueur maximale des attributs personnalisés d’entité à valeur unique est de 15 000 caractères (pour les langues codées UTF-8 à un et deux octets, telles que l’anglais et les autres langues en alphabet latin) ou de 10 000 caractères (pour les langues codées UTF-8 à trois octets, telles que le chinois, le japonais et le coréen).
 
-   Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
+  Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
 ### entity.id
 
 * **Limite pour les implémentations qui nécessitent la capture d’informations d’achat** : 50 caractères.
 
-   Cette limite est appliquée, car le paramètre mbox `productPurchasedId` capture le paramètre entity.ids, ce qui limite le nombre de caractères à 50.
+  Cette limite est appliquée, car le paramètre mbox `productPurchasedId` capture le paramètre entity.ids, ce qui limite le nombre de caractères à 50.
 
 * **Limite pour les implémentations qui nécessitent uniquement des algorithmes basés sur les vues** : 1 000 caractères.
 
-   Les algorithmes basés sur les vues incluent les vues/vues, les plus consultés, récemment consultés, etc.
+  Les algorithmes basés sur les vues incluent les vues/vues, les plus consultés, récemment consultés, etc.
 
 ## excludedIds {#excludedid}
 
 * **Limite** : 5 Ko pour les requêtes POST. 2 083 caractères moins la longueur de l’URL pour les requêtes GET.
 
-   Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en raison du fait que Microsoft Internet Explorer limite l’URL à 2 083 caractères, la limite réaliste est de 2 083 caractères, moins la longueur actuelle de l’URL.
+  Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en raison du fait que Microsoft Internet Explorer limite l’URL à 2 083 caractères, la limite réaliste est de 2 083 caractères, moins la longueur actuelle de l’URL.
 
 ## Expériences
 
@@ -157,7 +157,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite**: 2 000 expériences par [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivarié] (MVT) et [!UICONTROL Ciblage automatique] activité.
 
-   30 000 expériences par activité d’Automated Personalization (AP).
+  30 000 expériences par activité d’Automated Personalization (AP).
 
 ### Modifications par expérience
 
@@ -165,11 +165,11 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ## mbox
 
-### Valeur d’attribut de profil interne à mbox
+### Valeur d’attribut de profil interne à mbox {#in-mbox}
 
 * **Limite** : 256 caractères.
 
-   Les valeurs plus longues sont tronquées.
+  Les valeurs plus longues sont tronquées lors de l’utilisation d’at.js 1.*x*. Si vous envoyez plus de 256 caractères lorsque vous utilisez at.js 2.*x* ou le [!DNL Adobe Experience Platform Web SDK], vous recevez un message d’erreur (les valeurs ne sont pas automatiquement tronquées).
 
 ### Noms des profils internes à mbox
 
@@ -179,50 +179,39 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 250 caractères.
 
-   Pour l’API de diffusion (at.js 2.*x*), les intégrations de la mbox par lots V2 et du SDK Web AEP (alloy.js), les noms des mbox *can* contiennent des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
+  Pour l’API de diffusion (at.js 2.*x*), intégration de la mbox par lots V2 et du SDK Web AEP (alloy.js), noms des mbox. *can* contiennent des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
 
-   ```
-   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-   ```
+  ```
+  - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+  ```
 
-   Pour at.js 1.*x* intégrations, noms de mbox *cannot* contenir les caractères suivants :
+  Pour at.js 1.*x* intégrations, noms de mbox *cannot* contenir les caractères suivants :
 
-   ```
-   ' " %22 %27 < > %3C %3E 
-   ```
+  ```
+  ' " %22 %27 < > %3C %3E 
+  ```
 
 ### Paramètres mbox {#mbox-parameters}
 
 * **Limite** : Les limites suivantes s’appliquent aux paramètres mbox :
 
-   Pour les appels mbox standard :
+  Pour les appels mbox standard :
 
    * Paramètres mbox : 500 paramètres par mbox.
    * Paramètres de profil : 500 paramètres de profil par mbox.
    * Autres paramètres (URL, URL de référence, etc.): 50 par mbox pour chaque autre type de paramètre.
 
-   Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur web.
+  Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur web.
 
-   Si vous utilisez l’API de diffusion par lots, la limite est de 50 mbox par requête de lot.
+  Si vous utilisez l’API de diffusion par lots, la limite est de 50 mbox par requête de lot.
 
-   Si vous utilisez l’API de diffusion par lots dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
+  Si vous utilisez l’API de diffusion par lots dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
 
-   « Le nombre de mboxParameters ne peut pas dépasser 50. »
+  « Le nombre de mboxParameters ne peut pas dépasser 50. »
 
-   Limites définies pour les points d’entrée :
+  Limites définies pour les points d’entrée :
 
-   **mbox par lot v2** :
-
-   * Paramètres mbox : 100
-   * Longueur maximale du nom du paramètre mbox : 128
-   * La valeur du paramètre mbox ne peut pas être nulle.
-   * Valeur du paramètre mbox : 5 000
-   * Paramètres de profil : 50
-   * Longueur maximale du nom du paramètre de profil : 128
-   * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 5000
-
-   **Point d’entrée de l’API de diffusion** :
+  **mbox par lot v2** :
 
    * Paramètres mbox : 100
    * Longueur maximale du nom du paramètre mbox : 128
@@ -233,13 +222,22 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
    * La valeur du paramètre de profil ne peut pas être nulle.
    * Longueur maximale de la valeur du paramètre de profil : 5000
 
+  **Point d’entrée de l’API de diffusion** :
 
+   * Paramètres mbox : 100
+   * Longueur maximale du nom du paramètre mbox : 128
+   * La valeur du paramètre mbox ne peut pas être nulle.
+   * Valeur du paramètre mbox : 5 000
+   * Paramètres de profil : 50
+   * Longueur maximale du nom du paramètre de profil : 128
+   * La valeur du paramètre de profil ne peut pas être nulle.
+   * Longueur maximale de la valeur du paramètre de profil : 5000
 
 ### URL de requête mbox
 
 * **Limite** : 2 083 caractères.
 
-   Cette limite est due aux restrictions de longueur de l’URL Microsoft Internet Explorer.
+  Cette limite est due aux restrictions de longueur de l’URL Microsoft Internet Explorer.
 
 ### Paramètre mbox3rdPartyId
 
@@ -263,9 +261,9 @@ Les limites de taille suivantes s’appliquent aux offres :
 * 1 024 Ko (pour chaque expérience) pour les offres visuelles provenant de l’interface utilisateur.
 * 1 024 Ko à partir de l’API.
 
-   Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du contenu renvoyé pour la page. Le fait de limiter la taille de l’offre optimise les temps de chargement des pages. Si la limite est dépassée, le message suivant s’affiche :
+  Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du contenu renvoyé pour la page. Le fait de limiter la taille de l’offre optimise les temps de chargement des pages. Si la limite est dépassée, le message suivant s’affiche :
 
-   « Contenu pour l’expérience trop volumineux pour être diffusé. Modifiez l’expérience afin d’affecter moins de code de page. »
+  « Contenu pour l’expérience trop volumineux pour être diffusé. Modifiez l’expérience afin d’affecter moins de code de page. »
 
 ## Paramètre orderId
 
@@ -299,7 +297,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite recommandée** : 2 000 caractères.
 
-   Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop longue, elle échoue avant de parvenir à [!DNL Adobe Target].
+  Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop longue, elle échoue avant de parvenir à [!DNL Adobe Target].
 
 ## Profils de script
 
@@ -311,11 +309,11 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite** : 2 048 caractères.
 
-   Pour des raisons de performances, nous recommandons une valeur renvoyée qui ne dépasse pas 256 caractères.
+  Pour des raisons de performances, nous recommandons une valeur renvoyée qui ne dépasse pas 256 caractères.
 
-   Pour une valeur renvoyée par une chaîne, si la taille de la valeur renvoyée dépasse 2 048 caractères, le script est désactivé par le système.
+  Pour une valeur renvoyée par une chaîne, si la taille de la valeur renvoyée dépasse 2 048 caractères, le script est désactivé par le système.
 
-   Pour une valeur renvoyée par un tableau, si la taille des valeurs concaténées du tableau dépasse 2 048 caractères, le script est désactivé par le système.
+  Pour une valeur renvoyée par un tableau, si la taille des valeurs concaténées du tableau dépasse 2 048 caractères, le script est désactivé par le système.
 
 ## Mesures de succès
 
@@ -327,7 +325,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite recommandée** : 1 000 valeurs.
 
-   Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de texte de ciblage ; par exemple, le fait d’entrer 1 000 codes postaux dans une cible de code postal.
+  Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de texte de ciblage ; par exemple, le fait d’entrer 1 000 codes postaux dans une cible de code postal.
 
 ### Règles de ciblage {#targeting-rules}
 

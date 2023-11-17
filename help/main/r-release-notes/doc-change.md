@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 96%
+source-wordcount: '2356'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 17 novembre | [Premières étapes de l’administrateur](/help/main/administrating-target/start-target.md) | Ajout de la remarque importante suivante :<ul><li>Utilisateurs avec [!UICONTROL Administrateur de produit] ou [!UICONTROL Administrateur système] droits dans la variable [!DNL Adobe Admin Console] peut modifier ou modifier tous les paramètres de la fonction [!UICONTROL Administration] page de [!DNL Target], quelle que soit leur [!DNL Target] rôle. Utilisateurs sans [!UICONTROL Administrateur de produit] ou [!UICONTROL Administrateur système] droits dans la variable [!DNL Adobe Admin Console] doit avoir la variable [!DNL Target] rôle d’effectuer ces modifications.1</li></ul> |
+|  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Mise à jour de la section avec des informations sur la manière dont [!DNL Target] gère la troncation dans at.js 2.*x* et la variable [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API de diffusion](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Ajout de redirections vers la documentation actuelle de l’API de diffusion et obsolescence de la documentation héritée (`http://developers.adobetarget.com/api/delivery-api/`). Mettez à jour les signets si nécessaire. |
 | 16 novembre | [API de mise à jour des profils en masse](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Ajout de l’avertissement suivant : &quot;Les mises à jour surviennent généralement en moins d’une heure, mais peuvent prendre jusqu’à 24 heures pour être répercutées.&quot; |
 | 13 novembre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.11.1 de [!DNL Target Standard/Premium]. |
 
