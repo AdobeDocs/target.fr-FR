@@ -5,9 +5,9 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 256 caractères.
 
-  Les valeurs plus longues sont tronquées lors de l’utilisation d’at.js 1.*x*. Si vous envoyez plus de 256 caractères lorsque vous utilisez at.js 2.*x* ou le [!DNL Adobe Experience Platform Web SDK], vous recevez un message d’erreur (les valeurs ne sont pas automatiquement tronquées).
+  Les valeurs comportant plus de 256 caractères sont tronquées lors de l’utilisation d’at.js 1.*x*. Vous recevez un message d’erreur lors de l’envoi de valeurs comportant plus de 256 caractères lors de l’utilisation d’at.js 2.*x* ou le [!DNL Adobe Experience Platform Web SDK]. Les valeurs ne sont pas automatiquement tronquées.
 
 ### Noms des profils internes à mbox
 
