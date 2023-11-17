@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les  [!DNL Adobe Experience Manager] [!
 title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager] (AEM) ?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Pour en savoir plus sur les [!UICONTROL fragments de contenu] et les [!UICONTROL
 
 ## Conditions {#requirements}
 
-Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de [!UICONTROL fragments d’expérience] dans [!DNL Target]. En outre, vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
@@ -74,7 +74,6 @@ Vous pouvez utiliser les [!UICONTROL fragments de contenu] dans les activités [
 >* Pour tirer pleinement parti de la fonctionnalité d’IA et de ML de [!DNL Target], sélectionnez [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) lors de la création d’un [!UICONTROL test A/B].
 >
 >* Les [!UICONTROL fragments de contenu] ne sont pas pris en charge dans les activités [!DNL Recommendations]. Toutefois, pour utiliser les [!UICONTROL fragments de contenu] pour les recommandations, vous pouvez créer une activité de [!UICONTROL test A/B] (avec [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) ou une activité [!UICONTROL Ciblage d’expérience] (XT) et [inclure des recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
-
 
 **Pour utiliser des [!UICONTROL fragments de contenu] avec le [!UICONTROL Compositeur d’expérience d’après les formulaires] :**
 
