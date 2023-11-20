@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 80%
+source-wordcount: '1604'
+ht-degree: 81%
 
 ---
 
@@ -169,7 +169,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 256 caractères.
 
-  Les valeurs comportant plus de 256 caractères sont tronquées lors de l’utilisation d’at.js 1.*x*. Vous recevez un message d’erreur lors de l’envoi de valeurs comportant plus de 256 caractères lors de l’utilisation d’at.js 2.*x* ou le [!DNL Adobe Experience Platform Web SDK]. Les valeurs ne sont pas automatiquement tronquées.
+  Les valeurs comportant plus de 256 caractères sont tronquées lors de l’utilisation d’at.js 1.*x*. Lorsque vous utilisez at.js 2, vous recevez un message d’erreur lors de l’envoi de valeurs comportant plus de 256 caractères.*x* ou le [!DNL Adobe Experience Platform Web SDK]. Les valeurs ne sont pas automatiquement tronquées.
 
 ### Noms des profils internes à mbox
 
@@ -179,7 +179,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 250 caractères.
 
-  Pour l’API de diffusion (at.js 2.*x*), intégration de la mbox par lots V2 et du SDK Web AEP (alloy.js), noms des mbox. *can* contiennent des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
+  Pour [!DNL Delivery API] (at.js 2.*x*), mbox par lots V2 et [!DNL Adobe Experience Platform Web SDK] Intégrations (alloy.js), noms de mbox *can* contiennent des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
