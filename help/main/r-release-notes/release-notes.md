@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 ## [!DNL Target] Standard/Premium 23.11.1 (13 et 14 novembre 2023)
 
-Cette version est programmée pour les jours suivants :
+Cette version est programmée pour les jours suivants :
 
 * **13 novembre** : région Asie-Pacifique (APAC)
 * **14 novembre**: région des Amériques
@@ -29,13 +29,13 @@ Cette version est programmée pour les jours suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la fonction [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) fonctionnalité de prise en charge [interdire les offres en double](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) pour les expériences dans [!UICONTROL Automated Personalization] activités. (TGT-46627)
+* Amélioration de la fonction [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md), de sorte à prendre en charge l’[interdiction des offres dupliquées](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) pour les expériences dans les activités [!UICONTROL Automated Personalization]. (TGT-46627)
 * Ajout d’une info-bulle dans l’interface utilisateur de [!DNL Target] pour aider les clientes et clients à comprendre pourquoi il se peut qu’il n’y ait pas de données disponibles dans les rapports d’activité si aucun trafic n’est affecté à l’expérience de contrôle. Un lien vers plus d’informations est inclus dans l’info-bulle : [Pourquoi n’existe-t-il aucune donnée disponible pour le rapport de mon activité ?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
 * Correction d’un problème en raison duquel les activités ne s’affichaient pas correctement sur la page [!UICONTROL Activités] pour quelques clientes et clients. (TGT-46830)
-* Correction des problèmes suivants qui affectaient les activités utilisant [[!UICONTROL Analytics pour Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) comme source de création de rapports :
-   * Correction d’un problème qui empêchait certains clients d’afficher des données de rapport. (TGT-46557)
-   * Correction d’un problème en raison duquel la variable [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activité afin de ne pas fonctionner correctement. (TGT-46731)
-   * Correction d’un problème qui empêchait les données pour [!UICONTROL Effet élévateur] et [!UICONTROL Confiance] pour s’afficher correctement dans la variable [!DNL Target] Interface utilisateur. (TGT-46592, TGT-46554, et TGT-46586)
+* Correction des problèmes suivants qui affectaient les activités utilisant [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) comme source de création de rapports :
+   * Correction d’un problème qui empêchait certaines personnes d’afficher des données de rapport. (TGT-46557)
+   * Correction d’un problème en raison duquel le lien [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activité ne fonctionnait pas correctement. (TGT-46731)
+   * Correction d’un problème qui empêchait les données [!UICONTROL Effet élévateur] et [!UICONTROL Confiance] de s’afficher correctement dans l’interface utilisateur de [!DNL Target]. (TGT-46592, TGT-46554, et TGT-46586)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
