@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
 source-wordcount: '2373'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 21 novembre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour at.js 2.11.3 |
-| 17 novembre | [Premières étapes de l’administrateur](/help/main/administrating-target/start-target.md) | Ajout de la remarque importante suivante :<ul><li>Utilisateurs avec [!UICONTROL Administrateur de produit] ou [!UICONTROL Administrateur système] droits dans la variable [!DNL Adobe Admin Console] peut modifier ou modifier tous les paramètres de la fonction [!UICONTROL Administration] page de [!DNL Target], quelle que soit leur [!DNL Target] rôle. Utilisateurs sans [!UICONTROL Administrateur de produit] ou [!UICONTROL Administrateur système] droits dans la variable [!DNL Adobe Admin Console] doit avoir la variable [!DNL Target] rôle d’effectuer ces modifications.1</li></ul> |
-|  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Mise à jour de la section avec des informations sur la manière dont [!DNL Target] gère la troncation dans at.js 2.*x* et la variable [!DNL Adobe Experience Platform Web SDK]. |
-|  | [API de diffusion](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | Ajout de redirections vers la documentation actuelle de l’API de diffusion et obsolescence de la documentation héritée (`http://developers.adobetarget.com/api/delivery-api/`). Mettez à jour les signets si nécessaire. |
-| 16 novembre | [API de mise à jour des profils en masse](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | Ajout de l’avertissement suivant : &quot;Les mises à jour surviennent généralement en moins d’une heure, mais peuvent prendre jusqu’à 24 heures pour être répercutées.&quot; |
+| 17 novembre | [Premières étapes pour l’administrateur ou l’administratrice](/help/main/administrating-target/start-target.md) | Ajout de la remarque importante suivante :<ul><li>Les personnes avec des droits d’[!UICONTROL administration de produit] ou d’[!UICONTROL administration système] dans [!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la page [!UICONTROL Administration] de [!DNL Target], quel que soit leur rôle [!DNL Target]. Les personnes ne possédant pas les droits d’[!UICONTROL administration de produit] ou d’[!UICONTROL administration système] dans [!DNL Adobe Admin Console] doivent avoir le rôle [!DNL Target] spécifique afin d’effectuer ces modifications.1</li></ul> |
+|  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Mise à jour de la section contenant des informations sur la manière dont [!DNL Target] gère la troncation dans at.js 2.*x* et le [!DNL Adobe Experience Platform Web SDK]. |
+|  | [API de diffusion](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=fr){target=_blank} | Ajout de redirections vers la documentation actuelle de l’API de diffusion et obsolescence de la documentation héritée (`http://developers.adobetarget.com/api/delivery-api/`). Mettez vos signets à jour si nécessaire. |
+| 16 novembre | [API de mise à jour des profils en bloc](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=fr){target=_blank} | Ajout de l’avertissement suivant : « Les mises à jour surviennent généralement en moins d’une heure, mais peuvent prendre jusqu’à 24 heures pour être répercutées. » |
 | 13 novembre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.11.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (24 octobre 2023)
