@@ -5,9 +5,9 @@ title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Exper
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour en savoir plus sur les [!UICONTROL fragments de contenu] et les [!UICONTROL
 
 ## Conditions {#requirements}
 
-Vous devez utiliser [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Vous devez utiliser [[!DNL AEM]  as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
