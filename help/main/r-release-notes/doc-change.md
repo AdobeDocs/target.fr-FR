@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 100%
+source-wordcount: '2417'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 novembre | [API de mise à jour des profils en masse](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=fr){target=_blank} | Clarification des différences sur la manière dont [!DNL Target] gère les attributs du client lors de la création d’un profil pour un utilisateur ; [!DNL Target] n’a pas encore été vu lors de l’utilisation de la variable [!UICONTROL API de mise à jour des profils en masse] v2 plutôt que v1. |
 | 21 novembre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour at.js 2.11.3 |
 | 17 novembre | [Premières étapes pour l’administrateur ou l’administratrice](/help/main/administrating-target/start-target.md) | Ajout de la remarque importante suivante :<ul><li>Les personnes avec des droits d’[!UICONTROL administration de produit] ou d’[!UICONTROL administration système] dans [!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la page [!UICONTROL Administration] de [!DNL Target], quel que soit leur rôle [!DNL Target]. Les personnes ne possédant pas les droits d’[!UICONTROL administration de produit] ou d’[!UICONTROL administration système] dans [!DNL Adobe Admin Console] doivent avoir le rôle [!DNL Target] spécifique afin d’effectuer ces modifications.1</li></ul> |
 |  | [Limites](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | Mise à jour de la section contenant des informations sur la manière dont [!DNL Target] gère la troncation dans at.js 2.*x* et le [!DNL Adobe Experience Platform Web SDK]. |
