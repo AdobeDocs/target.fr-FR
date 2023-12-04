@@ -4,16 +4,35 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # Annonces et événements [!DNL Adobe Target]
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
+
+## Pause-café [!DNL Adobe Target Community]
+
+* **Apprentissage automatique et analyse et création de rapports et analyses d’IA**
+* **jeudi 6 décembre 2023**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+Joindre [!DNL Adobe Target] les experts Brent Kostak, Cristinel Anastasoaie, Drew Burns et Marisol St. John dans le cadre d&#39;un événement de type &quot;je me demande quoi que ce soit&quot; pour discuter de l&#39;apprentissage automatique, de la création de rapports et de l&#39;analyse de l&#39;IA dans [!DNL Adobe Target].
+
++++Détails Cette discussion portera sur les sujets suivants :
+
+* Êtes-vous enthousiaste à l’égard de l’intelligence artificielle et de l’apprentissage automatique et souhaitez-vous mieux comprendre le succès des rapports sur vos activités ?
+* Vous recherchez de nouvelles idées et de nouveaux cas d’utilisation où vous pouvez utiliser la personnalisation en temps réel pour le contenu, les offres et la messagerie ?
+* Vous souhaitez connaître les bonnes pratiques de création d’activités basées sur des formulaires pour les tests côté serveur ?
+* Vous souhaitez améliorer l’analyse et la mesure des activités au sein de [!UICONTROL Analytics pour Target] (A4T) la création de rapports ?
+* Vos équipes sont-elles curieuses de savoir comment développer au-delà des tests A/B avec des tests et une personnalisation sur les expériences client authentifiées et connues ?
+
++++
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 

@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 96%
+source-wordcount: '2337'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4 décembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement pour la section &quot;Machine Learning &amp; AI Reporting &amp; Analysis&quot;. [!DNL Adobe Target Community] Session de pause café : mercredi 6 décembre 2023. |
 | 1er décembre | [API de mise à jour du profil Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | Déplacement de la documentation héritée de l’API vers les articles suivants :<ul><li>[API de profil Adobe Target - Aperçu](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[API de mise à jour de profil unique Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[API de mise à jour du profil en bloc d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 29 novembre | [API de mise à jour des profils en masse](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html?lang=fr){target=_blank} | Clarification des différences sur la manière dont [!DNL Target] gère les attributs du client lors de la création d’un profil pour un utilisateur ; [!DNL Target] n’a pas encore été vu lors de l’utilisation de la variable [!UICONTROL API de mise à jour des profils en masse] v2 plutôt que v1. |
 | 21 novembre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour at.js 2.11.3 |
@@ -178,5 +179,5 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Créer des audiences dans Target](/help/main/c-target/c-audiences/create-audience.md) | Ajout d’une liste de caractères et de séquences de caractères qui ne peuvent pas être utilisés dans les noms d’audience. |
 | 31 janvier | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Ajout de la liste des caractères autorisés et non autorisés dans les noms de mbox. |
 | 25 janvier | [Créer des offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indique que la prise en charge des offres JSON dans le cadre des activités [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience d’après les formulaires est désormais disponible. |
-|  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience</li></ul> |
+|  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>[!DNL Adobe Target] Saut de café Q&amp;R de la communauté : Cas d’utilisation mobiles et authentifiés pour Experience Optimization</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.13.3 de [!DNL Target Standard/Premium]. |
