@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,21 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 
 ## Pause-café [!DNL Adobe Target Community]
 
-* **Apprentissage automatique et analyse et création de rapports et analyses d’IA**
-* **jeudi 6 décembre 2023**
-* **8:00 - 9:00 (PST -8 GMT)**
+* **Machine learning, rapports et analyses basés sur l’IA**
+* **Mercredi 6 décembre 2023**
+* **08 h 00 - 9 h 00 (PST, GMT-8)**
 * **[Inscrivez-vous ici](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
 
-Joindre [!DNL Adobe Target] les experts Brent Kostak, Cristinel Anastasoaie, Drew Burns et Marisol St. John dans le cadre d&#39;un événement de type &quot;je me demande quoi que ce soit&quot; pour discuter de l&#39;apprentissage automatique, de la création de rapports et de l&#39;analyse de l&#39;IA dans [!DNL Adobe Target].
+Rejoignez les expertes et experts [!DNL Adobe Target] Brent Kostak, Cristinel Anastasoaie, Drew Burns et Marisol St. John dans le cadre d’un échange de questions-réponses sur le machine learning, la création de rapports et de l&#39;analyse basés sur l’IA dans [!DNL Adobe Target].
 
-+++Détails Cette discussion portera sur les sujets suivants :
++++Détails
+Cet échange portera sur les sujets suivants :
 
-* Êtes-vous enthousiaste à l’égard de l’intelligence artificielle et de l’apprentissage automatique et souhaitez-vous mieux comprendre le succès des rapports sur vos activités ?
-* Vous recherchez de nouvelles idées et de nouveaux cas d’utilisation où vous pouvez utiliser la personnalisation en temps réel pour le contenu, les offres et la messagerie ?
-* Vous souhaitez connaître les bonnes pratiques de création d’activités basées sur des formulaires pour les tests côté serveur ?
-* Vous souhaitez améliorer l’analyse et la mesure des activités au sein de [!UICONTROL Analytics pour Target] (A4T) la création de rapports ?
-* Vos équipes sont-elles curieuses de savoir comment développer au-delà des tests A/B avec des tests et une personnalisation sur les expériences client authentifiées et connues ?
+* Vous manifestez un grand intérêt pour l’intelligence artificielle et le machine learning et vous souhaitez mieux comprendre les rapports sur vos activités ?
+* Vous recherchez de nouvelles idées et de nouveaux cas d’utilisation où vous pouvez personnaliser votre contenu, vos offres et vos messages ?
+* Vous souhaitez connaître les bonnes pratiques de création d’activités basées sur des formulaires pour les tests côté serveur ?
+* Vous souhaitez améliorer l’analyse et la mesure des activités au sein des rapports [!UICONTROL Analytics pour Target] (A4T) ?
+* Vos équipes sont-elles curieuses de savoir comment développer au-delà des tests A/B avec des tests et une personnalisation sur les expériences client authentifiées et connues ?
 
 +++
 
