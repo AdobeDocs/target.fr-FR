@@ -4,7 +4,7 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
 workflow-type: tm+mt
 source-wordcount: '2348'
 ht-degree: 88%
@@ -30,22 +30,22 @@ Pourquoi devriez-vous y assister ?
 +++Dates et détails
 
 * **Art du possible**
-* **Mardi 16 janvier 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 16 janvier 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-L’intelligence artificielle et l’apprentissage automatique sont au coeur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement des utilisateurs, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et de l’ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes sur le plan contextuel.
+     L’intelligence artificielle et l’apprentissage automatique sont au coeur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement des utilisateurs, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et de l’ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes sur le plan contextuel.
 
 * **Recommendations haute performance**
-* **Mardi 13 février 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 13 février 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, stimuler l’engagement et générer des recettes. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
+     Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, stimuler l’engagement et générer des recettes. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
 * **Déverrouillage de la personnalisation optimisée par l’IA**
-* **Mardi 12 mars 2024**
-* **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 12 mars 2024**
+   * **10:00 - 11:00 (PST -8 GMT)**
 
-[!DNL Adobe Target] facilite les fonctionnalités de personnalisation optimisées par l’IA à chaque étape du cycle de vie des clients pour des expériences personnalisées de 1 à 1. De l’acquisition à la rétention, découvrez comment les entreprises obtiennent des informations sur la rationalisation des processus, la réduction des efforts manuels et la diffusion d’expériences client contextuelles et attrayantes à grande échelle.
+     [!DNL Adobe Target] facilite les fonctionnalités de personnalisation optimisées par l’IA à chaque étape du cycle de vie des clients pour des expériences personnalisées de 1 à 1. De l’acquisition à la rétention, découvrez comment les entreprises obtiennent des informations sur la rationalisation des processus, la réduction des efforts manuels et la diffusion d’expériences client contextuelles et attrayantes à grande échelle.
 
 +++
 
