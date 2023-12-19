@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
-workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -15,37 +15,37 @@ ht-degree: 88%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-## Série de webinaires sur la maturité de personnalisation d’Adobe Target 2024
+## Série de webinaires Adobe Target sur la maturité de personnalisation 2024
 
-Cette série de webinaires en direct mettra en évidence la clé de voûte [!DNL Adobe Target] fonctionnalités, cas d’utilisation et conseils pour déverrouiller la personnalisation optimisée par l’IA lorsque les clients développent leur parcours d’expérimentation et de personnalisation avec [!DNL Adobe Experience Platform].
+Cette série de webinaires en direct met en évidence les fonctionnalités clés d’[!DNL Adobe Target], les cas d’utilisation et les conseils pour déverrouiller la personnalisation optimisée par l’IA lorsque les clientes et les clients développent leur parcours d’expérimentation et de personnalisation avec [!DNL Adobe Experience Platform].
 
-Pourquoi devriez-vous y assister ?
+Pourquoi devriez-vous y assister ?
 
-* **Découvrez les principaux cas d’utilisation**: transforme les visions en réalité grâce à un plan directeur pour une optimisation intelligente, développée [!DNL Adobe Target] clients au-delà de l’expérimentation basée sur des règles et des tests A/B.
-* **Optimisation des fonctionnalités uniques**: personnalisez les expériences pour réussir grâce à des recommandations hautement performantes afin d’optimiser le retour sur investissement, les recettes et la conversion.
-* **Stratégies de personnalisation avancées**: plongez profondément dans les techniques avancées d’IA/ML afin d’optimiser l’impact sur l’entreprise, de résonner avec de nouveaux segments/audiences et d’affiner les modèles de personnalisation pour les expériences optimisées.
+* **Découvrez les principaux cas d’utilisation** : transformez vos idées en réalité grâce à un plan directeur pour une optimisation intelligente, en faisant évoluer la clientèle d’[!DNL Adobe Target] au-delà de l’expérimentation basée sur des règles et des tests A/B.
+* **Optimisez des fonctionnalités uniques** : personnalisez les expériences pour réussir grâce à des recommandations hautement performantes, afin d’optimiser le retour sur investissement, les revenus et la conversion.
+* **Optez pour des stratégies de personnalisation avancées** : immergez-vous dans les techniques avancées d’IA/ML afin d’optimiser l’impact métier, de communiquer avec de nouveaux segments et audiences, ou encore d’affiner les modèles de personnalisation pour les expériences optimisées.
 
-* **[Inscrivez-vous ici](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Inscrivez-vous ici.](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 +++Dates et détails
 
 * **Art du possible**
-   * **Mardi 16 janvier 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 16 janvier 2024**
+   * **10 h 00 - 11 h 00 (PST, GMT-8)**
 
-     L’intelligence artificielle et l’apprentissage automatique sont au coeur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement des utilisateurs, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et de l’ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes sur le plan contextuel.
+     L’intelligence artificielle et le machine learning sont au cœur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement d’utilisation, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et du ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes en matière de contexte.
 
 * **Recommendations haute performance**
-   * **Mardi 13 février 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 13 février 2024**
+   * **10 h 00 - 11 h 00 (PST, GMT-8)**
 
-     Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, stimuler l’engagement et générer des recettes. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
+     Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, tout en stimulant l’engagement et en générant des revenus. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs et utilisatrices de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
 * **Déverrouillage de la personnalisation optimisée par l’IA**
-   * **Mardi 12 mars 2024**
-   * **10:00 - 11:00 (PST -8 GMT)**
+   * **Mardi 12 mars 2024**
+   * **10 h 00 - 11 h 00 (PST, GMT-8)**
 
-     [!DNL Adobe Target] facilite les fonctionnalités de personnalisation optimisées par l’IA à chaque étape du cycle de vie des clients pour des expériences personnalisées de 1 à 1. De l’acquisition à la rétention, découvrez comment les entreprises obtiennent des informations sur la rationalisation des processus, la réduction des efforts manuels et la diffusion d’expériences client contextuelles et attrayantes à grande échelle.
+     [!DNL Adobe Target] facilite les fonctionnalités de personnalisation optimisées par l’IA à chaque étape du cycle de vie des clientes et clients, pour des expériences personnalisées en face à face. De l’acquisition à la rétention, découvrez comment les entreprises obtiennent des informations sur la rationalisation des processus, la réduction des efforts manuels et la diffusion d’expériences contextuelles et attrayantes à grande échelle pour la clientèle.
 
 +++
 
