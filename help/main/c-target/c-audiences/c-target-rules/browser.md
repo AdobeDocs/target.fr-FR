@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Les navigateurs suivants peuvent être ciblés :
 * Microsoft Edge
 * Opera
 * iPad 
-* iPhone|
+* iPhone
 
 Il existe deux façons de cibler les navigateurs :
 
@@ -38,7 +38,7 @@ Il existe deux façons de cibler les navigateurs :
 
 * **Règle d’audience de navigateur personnalisée :** Une audience personnalisée vous permet de cibler plusieurs navigateurs ou de configurer des règles ou des exclusions pour des navigateurs, des versions de navigateur ou des langues de navigateur spécifiques. Cette fonctionnalité offre une flexibilité considérable lors du ciblage d’une activité basée sur les attributs du navigateur.
 
-   1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
+   1. Dans le [!DNL Target] interface, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Création d’une audience]**.
    1. Nommez l’audience et ajoutez une description facultative.
    1. Glisser-déposer **[!UICONTROL Navigateur]** dans le créateur d’audiences.
 
@@ -49,12 +49,13 @@ Il existe deux façons de cibler les navigateurs :
       * **Type :** cibler ou exclure un navigateur spécifique. Voir [Type](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
       * **Langue :** Ciblez ou excluez certains navigateurs configurés pour utiliser des langues spécifiques. Voir [Langue](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
       * **Version :** cibler ou exclure certaines versions de navigateur. Voir [Version](/help/main/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+
    1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-   1. Cliquez sur **[!UICONTROL Terminé]**.
+   1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
-   L’exemple suivant illustre une audience qui inclut les utilisateurs de Microsoft Edge sur les versions 91 ou 92 :
+  L’exemple suivant illustre une audience qui inclut les utilisateurs de Microsoft Edge sur les versions 91 ou 92 :
 
-   ![Target Edge 91 ou 92](assets/target_edge.png)
+  ![Target Edge 91 ou 92](assets/target_edge.png)
 
 ## Options de navigateur {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -117,7 +118,7 @@ Saisissez le numéro de version. Seules les versions majeures peuvent être sais
 
 De nombreuses options sont connectées avec un OU.
 
-## Vidéo de formation : Création d’audiences ![Badge de tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : création d’audiences ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
