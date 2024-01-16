@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 8 novembre 2023**
+**Dernière mise à jour : mardi 16 janvier 2023**
 
 >[!NOTE]
 >
@@ -23,23 +23,27 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.11.1 (13 et 14 novembre 2023)
+## Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)
+
+| Obsolescence | Détails |
+|--- |--- |
+| [!DNL iPad] et [!DNL iPhone] à être obsolète de la fonction [Attribut du navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilisé lors de la création d’audiences.<p>Date d’obsolescence :<P>mercredi 30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent une variable [options de navigateur ou de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) lorsqu’ils visitent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.</b><P>Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.<P>Les paramètres suivants doivent être utilisés à l’avenir :<ul><li>[!UICONTROL Mobile] > [!UICONTROL is Tablet]<P>![mobile est une tablette](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
 Cette version est programmée pour les jours suivants :
 
-* **13 novembre** : région Asie-Pacifique (APAC)
-* **14 novembre**: région des Amériques
-* **14 novembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **22 janvier** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **23 janvier** : région Asie-Pacifique (APAC)
+* **25 janvier** : région des Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Amélioration de la fonction [QA d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md), de sorte à prendre en charge l’[interdiction des offres dupliquées](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) pour les expériences dans les activités [!UICONTROL Automated Personalization]. (TGT-46627)
-* Ajout d’une info-bulle dans l’interface utilisateur de [!DNL Target] pour aider les clientes et clients à comprendre pourquoi il se peut qu’il n’y ait pas de données disponibles dans les rapports d’activité si aucun trafic n’est affecté à l’expérience de contrôle. Un lien vers plus d’informations est inclus dans l’info-bulle : [Pourquoi n’existe-t-il aucune donnée disponible pour le rapport de mon activité ?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* Correction d’un problème en raison duquel les activités ne s’affichaient pas correctement sur la page [!UICONTROL Activités] pour quelques clientes et clients. (TGT-46830)
-* Correction des problèmes suivants qui affectaient les activités utilisant [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) comme source de création de rapports :
-   * Correction d’un problème qui empêchait certaines personnes d’afficher des données de rapport. (TGT-46557)
-   * Correction d’un problème en raison duquel le lien [!UICONTROL Afficher dans Analytics] sur les pages de rapports d’activité ne fonctionnait pas correctement. (TGT-46731)
-   * Correction d’un problème qui empêchait les données [!UICONTROL Effet élévateur] et [!UICONTROL Confiance] de s’afficher correctement dans l’interface utilisateur de [!DNL Target]. (TGT-46592, TGT-46554, et TGT-46586)
+* Correction d’un problème en raison duquel les intervalles de date de création de rapports ne fonctionnaient pas correctement. (TGT-47396)
+* Correction d’un problème en raison duquel un état incorrect s’affichait sur le [!UICONTROL Toutes les activités] après que les clients ont activé ou désactivé une activité à l’aide de la variable [!UICONTROL Autres actions] Icône (TGT-47367)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Attributs importants] ne s’affichera pas pour un seul client. (TGT-47272)
+* Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
+* Mise à jour de nombreuses chaînes localisées dans le [!DNL Target] Interface utilisateur.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
