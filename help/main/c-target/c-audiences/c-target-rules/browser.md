@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ Les paramètres suivants pourront être utilisés à l’avenir :
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile est une tablette](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad]
+* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone]
+* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
