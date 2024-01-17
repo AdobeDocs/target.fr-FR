@@ -4,7 +4,7 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 51%
@@ -141,35 +141,35 @@ Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UI
 
 Les paramètres suivants pourront être utilisés à l’avenir :
 
-* Pour les correspondances de navigateur [!DNL Apple]: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
+* **Pour les correspondances de navigateur[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* Pour la tablette du navigateur : [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+* **Pour la tablette correspondant au navigateur**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
 
   ![mobile est une tablette](/help/main/r-release-notes/assets/is-tablet.png)
 
-* Pour les correspondances de navigateur avec iPad : [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!DNL true]
+* **Pour les correspondances de navigateur avec iPad**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* Pour les correspondances de navigateur avec iPhone : [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!DNL true]
+* **Pour les correspondances de navigateur avec iPhone**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, par exemple lorsque des conditions sont annulées. Voici des exemples de conditions négatives :
 
-* Pour le navigateur ne correspond pas à iPhone : [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!UICONTROL false]
+* **Pour le navigateur ne correspond pas à iPhone**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!UICONTROL false]
 
   ![Pas de téléphone mobile](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* Pour le navigateur ne correspond pas à iPad : [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!UICONTROL false].
+* **Pour le navigateur ne correspond pas à iPad**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!UICONTROL false].
 
   ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
 
 Si vous utilisez `user.browserType` dans les segments JavaScript, les modifications peuvent inclure les éléments suivants :
 
-* BrowserType est iPhone
+* **BrowserType est iPhone**:
 
   Remplacer :
 
@@ -179,7 +179,7 @@ Si vous utilisez `user.browserType` dans les segments JavaScript, les modificati
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType n’est pas iPhone
+* **BrowserType n’est pas iPhone**:
 
   Remplacer :
 
@@ -189,7 +189,7 @@ Si vous utilisez `user.browserType` dans les segments JavaScript, les modificati
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType est iPad
+* **BrowserType est iPad**:
 
   Remplacer :
 
@@ -199,7 +199,7 @@ Si vous utilisez `user.browserType` dans les segments JavaScript, les modificati
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType n’est pas iPad
+* **BrowserType n’est pas iPad**:
 
   Remplacer :
 
