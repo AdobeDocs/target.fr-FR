@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '923'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ Les navigateurs suivants peuvent être ciblés :
 * Opera
 * iPad 
 * iPhone
+
+>[!IMPORTANT]
+>
+>À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences. Pour obtenir des paramètres de contournement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](#deprecation) ci-dessous
 
 Il existe deux façons de cibler les navigateurs :
 
@@ -126,3 +130,81 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Définir des catégories d’audiences
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024) {#deprecation}
+
+[!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent un navigateur ou des options de navigateur spécifiques lorsqu’ils visitent votre page.
+
+À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.
+
+Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.
+
+Les paramètres suivants pourront être utilisés à l’avenir :
+
+* [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL is Tablet]
+
+  ![mobile est une tablette](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, par exemple lorsque des conditions sont annulées. Voici des exemples de conditions négatives :
+
+* [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!UICONTROL false]
+
+  ![Pas de téléphone mobile](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!UICONTROL false].
+
+  ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
+
+Si vous utilisez `user.browserType` dans les segments JavaScript, les modifications peuvent inclure les éléments suivants :
+
+* BrowserType est iPhone
+
+  Remplacer :
+
+  `user.browserType=="iphone"`
+
+  Avec :
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType n’est pas iPhone
+
+  Remplacer :
+
+  `user.browserType!="iphone"`
+
+  Avec :
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType est iPad
+
+  Remplacer :
+
+  `user.browserType=="ipad"`
+
+  Avec :
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType n’est pas iPad
+
+  Remplacer :
+
+  `user.browserType!="ipad"`
+
+  Avec :
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`
