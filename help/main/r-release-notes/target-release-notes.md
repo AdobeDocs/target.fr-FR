@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 51%
+source-wordcount: '346'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : jeudi 17 janvier 2024**
+**Dernière mise à jour : vendredi 18 janvier 2024**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)
-
-| Obsolescence | Détails |
-|--- |--- |
-| [!DNL iPad] et [!DNL iPhone] à être obsolète de la fonction [Attribut du navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilisé lors de la création d’audiences.<p>Date d’obsolescence :<P>mercredi 30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent une variable [options de navigateur ou de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) lorsqu’ils visitent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.</b><P>Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.<p>Pour obtenir des exemples d’autres paramètres, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
@@ -39,10 +34,11 @@ Cette version est programmée pour les jours suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
+* [!UICONTROL Analytics pour Target] (A4T) Les activités avec des mesures d’objectif de recettes n’affichaient pas &quot;Recettes&quot; comme nom de colonne et la mesure de recettes ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème cosmétique auquel on a remédié. (TGT-46995)
 * Correction d’un problème en raison duquel les intervalles de date de création de rapports ne fonctionnaient pas correctement. (TGT-47396)
 * Correction d’un problème en raison duquel un état incorrect s’affichait sur le [!UICONTROL Toutes les activités] après que les clients ont activé ou désactivé une activité à l’aide de la variable [!UICONTROL Autres actions] Icône (TGT-47367)
 * Correction d’un problème en raison duquel la variable [!UICONTROL Attributs importants] ne s’affichera pas pour un seul client. (TGT-47272)
-* Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
+* Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un seul client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
 * Mise à jour de nombreuses chaînes localisées dans le [!DNL Target] Interface utilisateur.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions

@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 51%
+source-wordcount: '675'
+ht-degree: 73%
 
 ---
 
@@ -25,10 +25,6 @@ Les navigateurs suivants peuvent être ciblés :
 * Opera
 * iPad 
 * iPhone
-
->[!IMPORTANT]
->
->À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences. Pour obtenir des paramètres de contournement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](#deprecation) ci-dessous
 
 Il existe deux façons de cibler les navigateurs :
 
@@ -130,81 +126,3 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Définir des catégories d’audiences
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
-
-## Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024) {#deprecation}
-
-[!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent un navigateur ou des options de navigateur spécifiques lorsqu’ils visitent votre page.
-
-À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.
-
-Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.
-
-Les paramètres suivants pourront être utilisés à l’avenir :
-
-* **Pour les correspondances de navigateur[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
-
-  ![Apple](/help/main/r-release-notes/assets/apple.png)
-
-* **Pour la tablette correspondant au navigateur**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
-
-  ![mobile est une tablette](/help/main/r-release-notes/assets/is-tablet.png)
-
-* **Pour les correspondances de navigateur avec iPad**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!DNL true]
-
-  ![iPad](/help/main/r-release-notes/assets/ipad.png)
-
-* **Pour les correspondances de navigateur avec iPhone**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!DNL true]
-
-  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
-
-Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, par exemple lorsque des conditions sont annulées. Voici des exemples de conditions négatives :
-
-* **Pour le navigateur ne correspond pas à iPhone**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!UICONTROL false]
-
-  ![Pas de téléphone mobile](/help/main/r-release-notes/assets/mobile-phone-false.png)
-
-* **Pour le navigateur ne correspond pas à iPad**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!UICONTROL false].
-
-  ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
-
-Si vous utilisez `user.browserType` dans les segments JavaScript, les modifications peuvent inclure les éléments suivants :
-
-* **BrowserType est iPhone**:
-
-  Remplacer :
-
-  `user.browserType=="iphone"`
-
-  Avec :
-
-  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
-
-* **BrowserType n’est pas iPhone**:
-
-  Remplacer :
-
-  `user.browserType!="iphone"`
-
-  Avec :
-
-  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
-
-* **BrowserType est iPad**:
-
-  Remplacer :
-
-  `user.browserType=="ipad"`
-
-  Avec :
-
-  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
-
-* **BrowserType n’est pas iPad**:
-
-  Remplacer :
-
-  `user.browserType!="ipad"`
-
-  Avec :
-
-  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`
