@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 62%
+ht-degree: 78%
 
 ---
 
@@ -24,22 +24,22 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 
-## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
 Cette version est programmée pour les jours suivants :
 
 * **22 janvier** : région Europe, Moyen-Orient et Afrique (EMEA)
 * **23 janvier** : région Asie-Pacifique (APAC)
-* **25 janvier** : région des Amériques
+* **25 janvier** : région des Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
 * [!UICONTROL Analytics pour Target] (A4T) Les activités avec des mesures d’objectif de recettes n’affichaient pas &quot;Recettes&quot; comme nom de colonne et la mesure de recettes ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème cosmétique auquel on a remédié. (TGT-46995)
-* Correction d’un problème en raison duquel les intervalles de date de création de rapports ne fonctionnaient pas correctement. (TGT-47396)
-* Correction d’un problème en raison duquel un état incorrect s’affichait sur le [!UICONTROL Toutes les activités] après que les clients ont activé ou désactivé une activité à l’aide de la variable [!UICONTROL Autres actions] Icône (TGT-47367)
+* Correction d’un problème en raison duquel les périodes des rapports ne fonctionnaient pas correctement. (TGT-47396)
+* Correction d’un problème qui entraîne l’affichage d’un statut incorrect sur la page [!UICONTROL Toutes les activités] après l’activation ou la désactivation d’une activité à l’aide de l’icône [!UICONTROL Plus d’actions]. (TGT-47367)
 * Correction d’un problème en raison duquel la variable [!UICONTROL Attributs importants] ne s’affichera pas pour un seul client. (TGT-47272)
 * Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un seul client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
-* Mise à jour de nombreuses chaînes localisées dans le [!DNL Target] Interface utilisateur.
+* Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de [!DNL Target].
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
