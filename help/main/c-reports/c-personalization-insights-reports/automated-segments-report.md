@@ -2,17 +2,17 @@
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
 description: Découvrez comment différents segments définis par Adobe [!DNL Target] les modèles de personnalisation répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 75%
+source-wordcount: '2166'
+ht-degree: 70%
 
 ---
 
-# [!UICONTROL Rapport Segments automatisés]
+# [!UICONTROL Segments automatisés] rapport
 
 Informations sur la variable [!UICONTROL Segments automatisés] , l’un des deux rapports spécialisés disponibles pour les utilisateurs de [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).
 
@@ -22,14 +22,13 @@ Informations sur la variable [!UICONTROL Segments automatisés] , l’un des deu
 >
 >* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
 >
->* [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
+>* [!UICONTROL Informations sur la personnalisation] Les rapports sont disponibles uniquement pour les activités AP et AT qui utilisent un objectif d’optimisation de conversion. Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
 >
->* [!UICONTROL Informations sur la personnalisation] ne sont disponibles que si la variable [!UICONTROL Principal objectif] est sélectionné dans la [!UICONTROL Mesure du rapport] liste déroulante.
+>* [!UICONTROL Informations sur la personnalisation] ne sont disponibles que si la variable [!UICONTROL Objectif Principal] est sélectionné dans la variable [!UICONTROL Mesure du rapport] liste déroulante.
 >
->* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/main/administrating-target/hosts.md).
+>* [!UICONTROL Informations sur la personnalisation] Les rapports sont pris en charge dans la variable [environnement par défaut](/help/main/administrating-target/hosts.md) uniquement.
 >
 >* [!UICONTROL Informations sur la personnalisation] les rapports sont générés uniquement pour les activités qui se trouvent dans la variable [!UICONTROL En direct] et ont été activés et reçoivent du trafic pendant au moins 15 jours.
-
 
 Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
@@ -41,7 +40,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le [Résumé d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
+   La variable [Résumé d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
    ![Rapport Informations sur la personnalisation dans Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
@@ -51,11 +50,11 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. 15 jours après l’activation de l’activité, vous pouvez cliquer sur l’icône **[!UICONTROL Segments automatisés]**.
 
-   ![Icône Segments automatisés](/help/main/c-reports/assets/icon-automated-sements.png)
+   ![icône Segments automatisés](/help/main/c-reports/assets/icon-automated-sements.png)
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement à la variable [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![Calendrier dans le rapport Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
@@ -113,7 +112,7 @@ Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Information
 
 Un attribut consiste en des informations sur un visiteur ou sa visite spécifique utilisées par les algorithmes de personnalisation pour savoir comment personnaliser le trafic. Par exemple, un attribut peut être le type de navigateur, l’emplacement, l’heure de la journée de la visite, etc.
 
-Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur le téléchargement de nouveaux attributs dans Target à utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 **Qu’est-ce qu’un segment automatisé ?**
 
@@ -123,7 +122,7 @@ Un segment automatisé est constitué de valeurs spécifiques (ou plages de vale
 
 Pour en savoir plus sur l’algorithme de personnalisation de la forêt aléatoire, qui est la base des modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-**Quel élément détermine l’ordre des segments automatisés ?**
+**Quel élément détermine l’ordre des segments automatisés ?**
 
 Un score est calculé pour chaque segment, en fonction de sa taille et de la différence de son comportement par rapport au contenu de votre activité. La combinaison de ces entrées détermine l’ordre des segments automatisés, de sorte que les segments plus grands présentant des différences plus importantes dans leur réponse face au différent contenu apparaissent plus en haut de la liste des segments.
 
@@ -149,11 +148,11 @@ Rapports Informations sur la personnalisation (les deux [!UICONTROL Segments aut
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 
-[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Vous pouvez en savoir plus sur MAGIX dans l&#39;article publié par l&#39;équipe de recherche d&#39;Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Vous pouvez en savoir plus sur MAGIX dans l&#39;article publié par l&#39;équipe de recherche d&#39;Adobe sur le [arXiv.org site web](https://arxiv.org/abs/1706.07160).
 
 **Pourquoi les données du trafic de visiteur totales dans le rapport [!UICONTROL Segments automatisés] ne correspondent-elles pas à mon rapport de synthèse/de performances AP ou AT ?**
 
-Le [!UICONTROL Informations sur la personnalisation] Les rapports incluent uniquement les visiteurs qui ont vu un élément de contenu sélectionné par les modèles de personnalisation de Target (c’est-à-dire qu’il ne considère pas le trafic de contrôle ou le trafic traité par le modèle gagnant global). Ce type de trafic est appelé trafic &quot;personnalisé&quot;. Le rapport de performances de synthèse dans AP/AT inclut le trafic de contrôle par rapport au trafic &quot;ciblé&quot;. Le trafic ciblé inclut le trafic personnalisé, ainsi que le trafic qui a été traité à l’aide du modèle gagnant global et un certain trafic traité de manière aléatoire utilisé pour continuer à apprendre.
+La variable [!UICONTROL Informations sur la personnalisation] Les rapports incluent uniquement les visiteurs qui ont vu un élément de contenu sélectionné par les modèles de personnalisation de Target (c’est-à-dire qu’il ne considère pas le trafic de contrôle ou le trafic traité par le modèle gagnant global). Ce type de trafic est appelé trafic &quot;personnalisé&quot;. Le rapport de performances de synthèse dans AP/AT inclut le trafic de contrôle par rapport au trafic &quot;ciblé&quot;. Le trafic ciblé inclut le trafic personnalisé, ainsi que le trafic qui a été traité à l’aide du modèle gagnant global et un certain trafic traité de manière aléatoire utilisé pour continuer à apprendre.
 
 **Les segments automatisés sont-ils mutuellement exclusifs ?**
 
@@ -165,7 +164,7 @@ Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniqueme
 
 **Quelles sont les différentes méthodes pour exploiter les informations du rapport Informations sur la personnalisation ?**
 
-* Découvrez les nouvelles audiences à cibler : Si un segment automatisé particulier s’avère performant, vous pouvez envisager de créer une audience afin de pouvoir le réutiliser dans d’autres rapports.
+* Découvrez de nouvelles audiences à cibler : si un segment automatisé particulier s’affiche correctement, vous pouvez envisager de créer une audience afin de pouvoir réutiliser ce segment dans d’autres rapports.
 * Testez vos hypothèses sur le type de visiteurs qui répondent à laquelle de vos expériences.
 * Générez des informations indiquant quel contenu a fonctionné pour quel type de visiteur : quelles offres ont eu un effet élévateur chez quels visiteurs.
 * Identifiez le contenu peu efficace.

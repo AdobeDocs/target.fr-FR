@@ -2,13 +2,13 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser l’Adobe [!DNL Target] Compositeur d’expérience visuelle (VEC) pour créer une activité Recommendations directement sur une [!DNL Target]-enabled .
 title: Comment créer une activité Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 76%
+source-wordcount: '1321'
+ht-degree: 61%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 76%
 
 Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
 
-1. Cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Recommandations]**.
+1. Cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Recommendations]**.
 
    ![Création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Si nécessaire, sélectionnez **[!UICONTROL visuelle (défaut)]**.
+1. Sélectionner **[!UICONTROL Visuel (par défaut)]**, si nécessaire.
 
    ![Boîte de dialogue Création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
@@ -32,7 +32,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Le [!UICONTROL [Choisir l’espace de travail]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) l’option de l’illustration précédente est une [Target Premium](/help/main/c-intro/intro.md) fonction . Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
+   >La variable [!UICONTROL [Choisir l’espace de travail]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) l’option de l’illustration précédente est une [Target Premium](/help/main/c-intro/intro.md) fonction . Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
 
 1. (Conditionnel) Si vous êtes client [Target Premium](/help/main/c-intro/intro.md#premium), choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -40,23 +40,23 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] se correspondent.
+   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] les deux correspondent.
 
    L’URL d’activité est la page sur laquelle les recommandations s’affichent.
 
    Lorsque vous cliquez sur [!UICONTROL Suivant], le compositeur d’expérience visuelle s’ouvre et affiche votre page. Vous pouvez remplacer un élément actuel par des recommandations ou insérer des recommandations.
 
-1. Cliquez sur un élément de la page, puis, si des recommandations sont disponibles là où cet élément est situé, cliquez sur **[!UICONTROL Remplacer par Recommendations]**, **[!UICONTROL Insérer Recommendations avant]** ou **[!UICONTROL Insérer Recommendations après]**.
+1. Cliquez sur un élément de la page, puis, si des recommandations sont disponibles là où cet élément est situé, cliquez sur **[!UICONTROL Remplacer par Recommendations]**, **[!UICONTROL Insérer Recommendations avant]**, ou **[!UICONTROL Insérer Recommendations après]**.
 
    Les visiteurs de votre site ne verront le contenu recommandé que s’ils remplissent les critères de la recommandation. Les visiteurs qui ne remplissent pas les critères de la recommandation voient le contenu par défaut.
 
    ![Options de recommandations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Remplacer par Recommendations]**: Le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations. Lorsque les visiteurs visitent votre site et répondent aux critères de la recommandation, ils voient les éléments recommandés dans la zone spécifiée au lieu du contenu existant.
-   * **[!UICONTROL Insérer Recommendations avant]**: L’insertion de recommandations avant l’élément sélectionné place le contenu recommandé avant cet élément. Selon la construction de la page, la recommandation s’affiche au-dessus ou à gauche de l’élément sélectionné.
-   * **[!UICONTROL Insérer Recommendations après]**: L’insertion de recommandations après l’élément sélectionné place le contenu recommandé après cet élément. Selon la construction de votre page, la recommandation s’affiche en bas à droite ou à droite de l’élément sélectionné.
+   * **[!UICONTROL Remplacer par Recommendations]**: le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations. Lorsque les visiteurs visitent votre site et répondent aux critères de la recommandation, ils voient les éléments recommandés dans la zone spécifiée au lieu du contenu existant.
+   * **[!UICONTROL Insérer Recommendations avant]**: l’insertion de recommandations avant l’élément sélectionné place le contenu recommandé avant cet élément. Selon la construction de la page, la recommandation s’affiche au-dessus ou à gauche de l’élément sélectionné.
+   * **[!UICONTROL Insérer Recommendations après]**: l’insertion de recommandations après l’élément sélectionné place le contenu recommandé après cet élément. Selon la construction de votre page, la recommandation s’affiche en bas à droite ou à droite de l’élément sélectionné.
 
-   Le **[!UICONTROL Développer la sélection]** permet de développer l’emplacement sélectionné (conteneur parent) afin de vous aider à identifier et inclure plus facilement les éléments de page souhaités.
+   La variable **[!UICONTROL Développer la sélection]** permet de développer l’emplacement sélectionné (conteneur parent) afin de vous aider à identifier et inclure plus facilement les éléments de page souhaités.
 
 1. Sélectionnez un type de page.
 
@@ -65,7 +65,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    * Page Panier
    * Page de catégorie
    * Page d’accueil
-   * Page d’entrée
+   * Page de destination
    * Page de produit
    * Page Résultats de recherche
    * Page de remerciement
@@ -79,15 +79,15 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres de recommandations (**[!UICONTROL Recommandations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** La variable [!UICONTROL Compatible] selon vos paramètres Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément entre les critères sélectionnés. Par exemple, si vous avez sélectionné deux critères et que votre activité est conçue pour afficher le contenu par défaut à 20 % des participants à l’activité, alors 40 % des participants à l’activité verront les recommandations contrôlées par chaque critère. Il n’existe pas d’option permettant de modifier les pourcentages pour chaque critère.
 
-   * Pour rechercher un critère existant (par exemple si un grand nombre de cartes de critères s’affichent), écrivez dans le champ de recherche jusqu’à ce que les critères souhaités apparaissent, puis sélectionnez le critère et cliquez sur **[!UICONTROL Terminé]**.
+   * Pour rechercher un critère existant (par exemple, si un grand nombre de cartes de critères s’affichent), saisissez dans le champ de recherche jusqu’à ce que les critères souhaités apparaissent, puis sélectionnez le critère et cliquez sur **[!UICONTROL Suivant]**.
 
-      Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
+     Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
    * Pour créer un nouveau critère, cliquez sur **[!UICONTROL Création de critères]** > **[!UICONTROL Création de critères]**, puis renseignez les informations du nouveau critère. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
    * Vous pouvez également regrouper les critères en séquences. Pour créer une nouvelle séquence de critères, cliquez sur **[!UICONTROL Création de critères]** > **[!UICONTROL Création d’une séquence de critères]**. Voir [Création d’une séquence de critères](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) pour plus d’informations.
@@ -95,7 +95,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] comprend plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Créer un modèle](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [personnaliser un modèle](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] comprend plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Création d’une conception](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [Personnalisation d’une conception](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Boîte de dialogue Sélection d’une conception](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -103,25 +103,25 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * Pour sélectionner une ou plusieurs conceptions existantes, cliquez sur les conceptions, puis sur **[!UICONTROL Suivant]**.
 
-      Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu’une seule conception.
+     Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu’une seule conception.
 
-   * Pour créer un modèle personnalisé, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez les nom et code correspondant au nouveau modèle. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez le nom et le code de la nouvelle conception. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-   Vous avez la possibilité d’ajouter des promotions à vos recommandations. Pour plus d’informations sur l’ajout de promotions avant et arrière, reportez-vous à la section [Ajout de promotions](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Vous avez la possibilité d’ajouter des promotions à vos recommandations. Pour plus d’informations sur l’ajout de promotions avant et arrière, voir [Ajout de promotions](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L’écran Compositeur d’expérience visuelle affiche la conception de recommandations sur votre page.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Aperçu]** pour voir comment l’activité apparaît aux visiteurs.
+1. (Facultatif) Cliquez sur **[!UICONTROL Aperçu]** pour voir comment l’activité apparaîtra aux visiteurs.
 
    Le mode d’[!UICONTROL aperçu permet] d’interagir avec vos recommandations, comme un visiteur le ferait.
 
    Lorsque vous avez terminé de prévisualiser vos recommandations, cliquez sur **[!UICONTROL Composer]**.
 
-1. Vérifiez votre recommandation dans le compositeur d’expérience visuelle, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Vérifiez votre recommandation dans le VEC, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Vérifiez votre activité [!DNL Recommendations] dans le diagramme de flux et apportez toute modification requise.
 
@@ -133,13 +133,13 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * Modifier l’audience qui verra les recommandations
 
-      >[!NOTE]
-      >
-      >En plus de sélectionner une audience existante, vous pouvez [créer une audience destinée à une activité seulement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) ou [combiner plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences ad hoc plutôt que d’en créer une nouvelle.
+     >[!NOTE]
+     >
+     >En plus de sélectionner une audience existante, vous pouvez [créer une audience destinée à une activité seulement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) ou [combiner plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences ad hoc plutôt que d’en créer une nouvelle.
 
-      Par défaut, tous les utilisateurs voient les recommandations. Néanmoins, vous pouvez cibler la recommandation sur une audience spécifique.
+     Par défaut, tous les utilisateurs voient les recommandations. Néanmoins, vous pouvez cibler la recommandation sur une audience spécifique.
 
-      Pour une activité [!DNL Recommendations], le groupe de contrôle voit la page sans les recommandations.
+     Pour une activité [!DNL Recommendations], le groupe de contrôle voit la page sans les recommandations.
 
    * Afficher les critères
    * Modifier la collection (en regard de l’étiquette [!UICONTROL Critères])
@@ -174,10 +174,10 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 1. (Facultatif) Ouvrez la page [!UICONTROL Rapports] pour afficher le rapport qui présente les performances de votre activité de [!DNL Recommendations].
 
-1. (Facultatif) Ouvrir l’onglet [!UICONTROL Collisions] pour afficher les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) qui peuvent se produire.
+1. (Facultatif) Ouvrez le [!UICONTROL Collisions] pour afficher n’importe quelle [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md) cela peut se produire.
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : Création d’une activité Recommendations (7:15) ![Badge de tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : Création d’une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)

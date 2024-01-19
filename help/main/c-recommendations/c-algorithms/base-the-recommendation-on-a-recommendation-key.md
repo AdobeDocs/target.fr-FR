@@ -5,10 +5,10 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3999'
-ht-degree: 37%
+source-wordcount: '4013'
+ht-degree: 34%
 
 ---
 
@@ -20,8 +20,8 @@ Chaque type d’algorithme fournit des algorithmes différents adaptés à son t
 
 | Type d’algorithme | Quand utiliser | Algorithmes disponibles |
 | --- | --- | --- |
-| [!UICONTROL Basé sur le panier] | Effectuez des recommandations en fonction du contenu du panier de l’utilisateur. | <ul><li>Les personnes qui les ont consultés ont consulté ceux-ci</li><li>Les personnes qui les ont consultés ont acheté ces</li><li>Les personnes qui ont acheté ceux-ci ont acheté ceux-là</li></ul> |
-| [!UICONTROL Basé sur la popularité] | Effectuez des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments au sein de la catégorie, de la marque, du genre, préférée ou la plus consultée d’un utilisateur, etc. | <ul><li>Les plus consultés sur le site</li><li>Les plus consultés par catégorie</li><li>Attribut d’élément le plus consulté</li><li>Meilleurs vendeurs sur le site</li><li>Meilleurs vendeurs par catégorie</li><li>Meilleurs vendeurs par attribut d’article</li><li>Mesure Début par Analytics</li></ul> |
+| [!UICONTROL Basé sur le panier] | Effectuez des recommandations en fonction du contenu du panier de l’utilisateur. | <ul><li>Les personnes qui les ont consultés ont consulté ceux-ci</li><li>Les personnes qui les ont consultés ont acheté ces</li><li>Les personnes qui les ont achetés ont acheté ces</li></ul> |
+| [!UICONTROL Basé sur la popularité] | Effectuez des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments au sein de la catégorie, de la marque, du genre, préférée ou la plus consultée d’un utilisateur, etc. | <ul><li>Les plus consultés sur l’ensemble du site</li><li>Les plus consultés par catégorie</li><li>Attribut d’élément le plus consulté</li><li>Meilleurs vendeurs sur le site</li><li>Meilleurs vendeurs par catégorie</li><li>Meilleurs vendeurs par attribut d’article</li><li>Mesure Début par Analytics</li></ul> |
 | [!UICONTROL Basé sur des éléments] | Effectuez des recommandations sur la base de la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. | <ul><li>Les personnes ayant consulté ceci ont consulté cela</li><li>Les personnes ayant consulté ceci ont acheté cela</li><li>Les personnes ayant acheté ceci ont acheté cela</li><li>Éléments avec des attributs similaires</li></ul> |
 | [!UICONTROL Basé sur les utilisateurs] | Effectuez des recommandations en fonction du comportement de l’utilisateur. | <ul><li>Éléments récemment consultés</li><li>Recommandé pour vous</li></ul> |
 | [!UICONTROL Critères personnalisés] | Faites des recommandations en fonction d’un fichier personnalisé que vous chargez. | <ul><li>Algorithme personnalisé</li></ul> |
@@ -34,21 +34,21 @@ Différents algorithmes de recommandations se prêtent au placement sur différe
 
 ## Basé sur le panier {#cart-based}
 
-Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par l’intermédiaire de la fonction [paramètre mbox `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+La variable [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par l’intermédiaire de la fonction [paramètre mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
-La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui ont acheté ceux-ci ont acheté ceux-là]&quot; des algorithmes reposant sur des éléments.
+La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui les ont achetés ont acheté ces]&quot; des algorithmes reposant sur des éléments.
 
 [!DNL Target] utilise des techniques de filtrage collaboratif pour déterminer les similitudes entre chaque élément du panier du visiteur, puis combine ces similitudes comportementales entre chaque élément pour obtenir une liste fusionnée.
 
 [!DNL Target] offre également aux marketeurs le choix d’examiner le comportement des visiteurs au cours d’une ou de plusieurs sessions :
 
-* **[!UICONTROL Session unique]**: En fonction de ce que les autres visiteurs ont fait au cours d’une seule session.
+* **[!UICONTROL Session unique]**: en fonction de ce que les autres visiteurs ont fait au cours d’une seule session.
 
-   L’examen du comportement au sein d’une seule session peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction d’une utilisation, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou bien, un visiteur achète du beurre d&#39;arachide et peut aussi avoir besoin de pain et de gelée.
+  L’examen du comportement au sein d’une seule session peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction d’une utilisation, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou bien, un visiteur achète du beurre d&#39;arachide et peut aussi avoir besoin de pain et de gelée.
 
-* **[!UICONTROL Sessions]**: En fonction de ce que les autres visiteurs ont fait au cours de plusieurs sessions.
+* **[!UICONTROL Sessions]**: en fonction de ce que les autres visiteurs ont fait au cours de plusieurs sessions.
 
-   L’examen du comportement au cours de plusieurs sessions peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au cours de la même session. Ou, un visiteur aime le jeu de société &quot;Codenames&quot; et peut également aimer le jeu de société &quot;Avalon&quot;, même si le visiteur ne peut pas jouer les deux simultanément. 
+  L’examen du comportement au cours de plusieurs sessions peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au cours de la même session. Ou, un visiteur aime le jeu de société &quot;Codenames&quot; et peut également aimer le jeu de société &quot;Avalon&quot;, même si le visiteur ne peut pas jouer les deux simultanément. 
 
 [!DNL Target] émet des recommandations pour chaque visiteur en fonction des éléments de son panier actuel, que vous examiniez le comportement du visiteur au cours d’une seule session ou entre plusieurs sessions.
 
@@ -58,7 +58,7 @@ Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur
 
 Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont consultés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont consultés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet de créer d’autres opportunités de conversion en recommandant des éléments que d’autres visiteurs qui ont également consulté un élément. Par exemple, les visiteurs qui consultent des vélos sur votre site peuvent également consulter des casques de vélo, des kits de cyclisme, des verrous, etc. Vous pouvez créer une recommandation à l’aide de cette logique, qui suggère que d’autres produits vous aident à augmenter les recettes.
 
@@ -73,7 +73,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d’autres visiteurs ont consultés sur l’article acheté. Si, par exemple, le visiteur consulte un pôle de pêche, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des boîtes de pêche, des écharpes et des leurres de pêche. Lorsque les visiteurs parcourent votre site, vous leur fournissez des recommandations d’achat supplémentaires.
 
@@ -88,7 +88,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après l’avoir acheté : le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir acheté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs passent en revue leurs achats, vous leur fournissez des recommandations supplémentaires.
 
@@ -101,11 +101,11 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 ## [!UICONTROL Basé sur la popularité]
 
-Le [!UICONTROL Basé sur la popularité] le type d’algorithme vous permet de faire des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments dans la catégorie, la marque, le genre, préférée ou la plus consultée d’un utilisateur, etc.
+La variable [!UICONTROL Basé sur la popularité] le type d’algorithme vous permet de faire des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments dans la catégorie, la marque, le genre, préférée ou la plus consultée d’un utilisateur, etc.
 
 Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur la popularité] type d’algorithme :
 
-### Les plus consultés sur le site {#most-viewed}
+### Les plus consultés sur l’ensemble du site {#most-viewed}
 
 La recommandation est déterminée par l’article qui a été consulté le plus souvent. Cela est déterminé par le critère de récence/fréquence qui fonctionne comme suit :
 
@@ -113,7 +113,7 @@ La recommandation est déterminée par l’article qui a été consulté le plus
 * 5 points pour chaque consultation consécutive
 * À la fin de la session, toutes les valeurs sont divisées par 2
 
-Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même session donne A : 10, B : 5. Lorsque la session se termine, vous avez A : 5, B : 2.5. Si vous affichez les mêmes éléments lors de la session suivante, les valeurs deviennent A : 15 B : 7.5.
+Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même session donne A : 10, B : 5. Lorsque la session se termine, vous avez A : 5, B : 2,5. Si vous affichez les mêmes éléments lors de la session suivante, les valeurs deviennent A : 15 B : 7,5.
 
 Utilisez cet algorithme sur les pages générales, telles que les pages d’accueil, les pages d’entrée et les publicités hors site.
 
@@ -176,7 +176,7 @@ Affiche le &quot;x supérieur&quot; où *x* est arbitraire ; [!DNL Analytics] me
 
 ## [!UICONTROL Basé sur des éléments]
 
-Le [!UICONTROL Basé sur des éléments] type de recommandation permet d’effectuer des recommandations en fonction de la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté.
+La variable [!UICONTROL Basé sur des éléments] type de recommandation permet d’effectuer des recommandations en fonction de la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté.
 
 Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur des éléments] type d’algorithme :
 
@@ -184,7 +184,7 @@ Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur
 
 Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont consultés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont consultés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet de créer d’autres opportunités de conversion en recommandant des éléments que d’autres visiteurs qui ont également consulté un élément. Par exemple, les visiteurs qui consultent des vélos sur votre site peuvent également consulter des casques de vélo, des kits de cyclisme, des verrous, etc. Vous pouvez créer une recommandation à l’aide de cette logique, qui suggère que d’autres produits vous aident à augmenter les recettes.
 
@@ -199,7 +199,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d’autres visiteurs ont consultés sur l’article acheté. Si, par exemple, le visiteur consulte un pôle de pêche, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des boîtes de pêche, des écharpes et des leurres de pêche. Lorsque les visiteurs parcourent votre site, vous leur fournissez des recommandations d’achat supplémentaires.
 
@@ -214,7 +214,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après l’avoir acheté : le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir acheté celui-ci ; le produit spécifié n’est pas inclus dans l’ensemble de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs passent en revue leurs achats, vous leur fournissez des recommandations supplémentaires.
 
@@ -252,16 +252,16 @@ Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur
 
 Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments consultés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
-L’algorithme Éléments récemment consultés renvoie le résultat spécifique à un [environnement](/help/main/administrating-target/hosts.md). Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, il voit les mêmes éléments récemment consultés pour les deux sites.
+L’algorithme des éléments récemment consultés renvoie le résultat spécifique à un [environnement](/help/main/administrating-target/hosts.md). Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, il voit les mêmes éléments récemment consultés pour les deux sites.
 
 >[!NOTE]
 >
 >Vous ne pouvez pas utiliser la variable [!UICONTROL Éléments récemment consultés] critères pour les recommandations de sauvegarde.
 
-Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.
+[!UICONTROL Éléments récemment consultés]/Media peut être filtré de sorte que seuls les éléments avec un attribut particulier soient affichés.
 
 * Les critères récemment consultés sont configurables au même titre que les autres critères contenus dans les recommandations.
-* Vous pouvez utiliser les [collections](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), et [inclusions](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.
+* Vous pouvez utiliser [collections](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), et [inclusions](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire) de la même manière que tout autre critère.
 
 Cas d’utilisation possibles : une entreprise multinationale avec plusieurs entreprises peut avoir un visiteur qui affiche des éléments sur plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Cela empêche les éléments récemment consultés de s’afficher sur un autre site de propriété numérique.
 
@@ -269,7 +269,7 @@ Utilisez cet algorithme sur les pages générales, telles que les pages d’accu
 
 >[!NOTE]
 >
->[!UICONTROL Éléments récemment consultés] respecte les paramètres globaux des exclusions et le paramètre de collection sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou n’est pas contenu dans la collection sélectionnée, il ne s’affiche pas. Par conséquent, lors de l’utilisation d’un [!UICONTROL Éléments récemment consultés] , le paramètre &quot;Toutes les collections&quot; doit généralement être utilisé.
+>[!UICONTROL Éléments récemment consultés] respecte les paramètres globaux des exclusions et le paramètre de collection sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou n’est pas contenu dans la collection sélectionnée, il ne s’affiche pas. Par conséquent, lorsque vous utilisez une [!UICONTROL Éléments récemment consultés] , le paramètre &quot;Toutes les collections&quot; doit généralement être utilisé.
 
 ### Recommandé pour vous {#recommended-for-you}
 
@@ -308,7 +308,7 @@ Cette fonctionnalité signifie que vous pouvez utiliser [!DNL Target] pour ajout
 Avec l’ajout de règles d’inclusion dans les critères personnalisés, les recommandations qui seraient statiques deviennent dynamiques et fondées sur les intérêts du visiteur.
 
 * Les critères personnalisés sont configurables au même titre que les autres critères contenus dans les recommandations.
-* Vous pouvez utiliser les [collections](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), et [inclusions](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.
+* Vous pouvez utiliser [collections](/help/main/c-recommendations/c-products/collections.md), [exclusions](/help/main/c-recommendations/c-products/exclusions.md), et [inclusions](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire) de la même manière que tout autre critère.
 
 Les cas d’utilisation possibles incluent :
 
@@ -361,7 +361,7 @@ Utilisez la variable [!UICONTROL Dernier article acheté] clé de recommandation
 Vous pouvez axer les recommandations sur la valeur d’un attribut de profil personnalisé. Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction de la séquence que le visiteur a ajoutée le plus récemment à sa file d’attente.
 
 1. Sélectionnez votre attribut de profil personnalisé dans la **[!UICONTROL Clé de recommandation]** Liste déroulante (par exemple, &quot;Dernier affichage ajouté à la liste de contrôle&quot;).
-1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** (par exemple « Personnes qui ont vu ceci, vu cela »).
+1. Sélectionnez ensuite votre **[!UICONTROL Logique de recommandation]** (par exemple &quot;Personnes ayant consulté ceci, ont consulté cela&quot;).
 
    ![Boîte de dialogue Créer de nouveaux critères](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
@@ -369,7 +369,7 @@ Si votre attribut de profil personnalisé ne correspond pas directement à un ID
 
 1. Sélectionnez votre attribut de profil personnalisé dans la **[!UICONTROL Clé de recommandation]** Liste déroulante (par exemple, &quot;Marque préférée&quot;).
 
-1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** que vous souhaitez utiliser avec cette clé (par exemple, « Meilleurs vendeurs »).
+1. Sélectionnez ensuite le **[!UICONTROL Logique de recommandation]** vous souhaitez utiliser avec cette clé (par exemple, &quot;Meilleurs vendeurs&quot;).
 
    L’option [!UICONTROL Groupe par valeur unique de] s’affiche.
 
@@ -446,7 +446,7 @@ Utilisez la variable [!UICONTROL Catégorie en cours] clé de recommandations su
 
 ### Affinité du site {#site-affinity}
 
-Recommande des éléments selon la certitude d’une relation entre ceux-ci. Vous pouvez configurer ce critère pour déterminer la quantité de données requises avant qu’une recommandation ne soit présentée à l’aide du curseur Règles d’inclusion. Si vous sélectionnez par exemple très forte, les produits qui ont le plus de chances d’avoir une correspondance sont recommandés.
+Recommande des éléments selon la certitude d’une relation entre ceux-ci. Vous pouvez configurer ce critère pour déterminer la quantité de données requises avant qu’une recommandation ne soit présentée à l’aide du curseur Règles d’inclusion. Par exemple, si vous sélectionnez très forte, les produits ayant la plus forte certitude de correspondance sont recommandés.
 
 Par exemple, si vous définissez une très forte affinité et si votre conception comporte cinq éléments dont trois qui correspondent à la force du seuil de connexion, les deux éléments qui ne répondent pas aux exigences de force minimales ne sont pas affichés dans vos recommandations et sont remplacés par les éléments de sauvegarde. Les éléments avec l’affinité la plus forte s’affichent en premier.
 

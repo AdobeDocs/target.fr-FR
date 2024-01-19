@@ -1,13 +1,13 @@
 ---
-keywords: dépannage de target;résolution des problèmes de target;résolution des problèmes
+keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;résoudre des problèmes
 description: 'Consultez la liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, questions fréquentes (FAQ) et autres rubriques utiles.'
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 86%
+source-wordcount: '425'
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 
 ## mbox globale
 
-* [mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hôtes/Environnements
 
@@ -108,23 +108,23 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ### Implémentation globale
 
-* [Navigateurs pris en charge](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### mbox globales
 
-* [FAQ sur la mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [FAQ sur la mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
 * [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [Informations détaillées sur les versions d’at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
 
 ## Applications mobiles
 
-* [FAQ sur Target pour les applications mobiles](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [FAQ sur Target pour les applications mobiles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Création de rapports
 
@@ -133,11 +133,11 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Optimisation pour moteurs de recherche
 
-* [Tests adaptés à l’optimisation du référencement](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Tests adaptés à l’optimisation du référencement](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sécurité
 
-* [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
+* [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html?lang=fr)
 
 ## État du système
 
@@ -157,5 +157,5 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 * [Résolution des problèmes du Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+* [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Compositeur d’expérience visuelle (VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)

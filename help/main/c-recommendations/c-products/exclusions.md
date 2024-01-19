@@ -4,10 +4,10 @@ description: Découvrez comment créer des exclusions dans Adobe [!DNL Target] R
 title: Comment utiliser les exclusions dans les activités Recommendations ?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -19,7 +19,7 @@ Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux c
 
 Voici quelques exemples d’utilisation des exclusions :
 
-* Produits abandonnés
+* Produits qui ont été arrêtés
 * Le catalogue d’automne/d’hiver est désormais le seul catalogue à être présent en ligne. Tout article du catalogue d’été n’est plus disponible à l’achat.
 * Éléments qui peuvent être inappropriés à recommander sur la plupart des pages/écrans (produits pour adultes, films NC-17, etc.)
 * Produits avec des champs de métadonnées incomplets (miniature, prix ou autres métadonnées importantes manquants)
@@ -33,19 +33,19 @@ Voici quelques exemples d’utilisation des exclusions :
 
 ## Créer une exclusion
 
-1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes. 
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
    ![image exclusions_list](assets/exclusions_list.png)
 
-   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) des Recommandations par défaut (environnement). Consultez les [Paramètres](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) pour modifier le groupe d’hôtes par défaut.{target=_blank}
+   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) des Recommandations par défaut (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 
-1. (Conditionnel) Sélectionnez un environnement dans le filtre **[!UICONTROL Environnement]** tout en créant (ou en mettant à jour) une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Choisissez un environnement dans la **[!UICONTROL Environnement]** lors de la création (ou de la mise à jour) d’une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Créer une exclusion](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Saisissez un **[!UICONTROL Nom]** d’exclusion et une description (facultatif).
+1. Type d’exclusion **[!UICONTROL Nom]** et saisissez une description facultative.
 
 1. Utilisez le créateur de règles pour créer les exclusions.
 
@@ -63,11 +63,11 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 
 >[!IMPORTANT]
 >
->Le [!UICONTROL Recherche avancée] La fonctionnalité n’est pas sensible à la casse ; cependant, les produits renvoyés au moment de la livraison sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
+>La variable [!UICONTROL Recherche avancée] Cette fonctionnalité n’est pas sensible à la casse. Toutefois, les produits renvoyés au moment de l’envoi sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
 
 ## Modification, copie ou suppression d’une exclusion
 
-Passez la souris sur l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+Passez la souris sur l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : Modifier, Copier ou Supprimer.
 
 ![Icônes de survol pour une exclusion](/help/main/c-recommendations/c-products/assets/hover-exclusions.png)
 
@@ -75,7 +75,7 @@ Vous pouvez copier une exclusion existante pour créer une exclusion en double q
 
 Gardez à l’esprit que les exclusions sont disponibles pour l’ensemble du compte. Veillez à tenir compte de ce point avant de supprimer une exclusion. Les exclusions supprimées ne peuvent pas être récupérées.
 
-## Vidéo de formation : Création de collections et d’exclusions dans Recommendations (07:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : création de collections et d’exclusions dans Recommendations (7:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 

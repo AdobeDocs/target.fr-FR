@@ -2,19 +2,19 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser les collections dans Adobe [!DNL Target] Recommendations. Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
 # Collections
 
-Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments pour en faire partie.
+Une collection est un ensemble de produits ou d’éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments pour en faire partie.
 
 Généralement, une collection est un ensemble d’éléments similaires ou associés, par exemple une collection de produits uniques. Cependant, vous pouvez regrouper n’importe quel élément dans une catégorie qui convient à votre entreprise, par exemple des produits d’une certaine plage de prix ou d’une certaine couleur ou des éléments susceptibles d’être intéressants dans une zone géographique particulière.
 
@@ -38,25 +38,25 @@ Lorsque vous créez ou modifiez une activité [!DNL Recommendations], le nom de 
 
 Créez une collection pour organiser les produits ou le contenu que vous souhaitez afficher dans vos recommandations.
 
-1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
 
    ![Liste des collections](assets/collections_list.png)
 
-   Le [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer des collections, cliquez sur le bouton [!UICONTROL Créer une collection] bouton . Vous pouvez également modifier, copier et supprimer des collections existantes en faisant glisser le curseur sur la collection souhaitée et en cliquant sur l’icône souhaitée.
+   La variable [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer des collections, cliquez sur le bouton [!UICONTROL Créer une collection] bouton . Vous pouvez également modifier, copier et supprimer des collections existantes en faisant glisser le curseur sur la collection souhaitée et en cliquant sur l’icône souhaitée.
 
    ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html) pour modifier le groupe d’hôtes par défaut.{target=_blank}
+   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
-1. (Conditionnel) Choisissez un environnement dans le **[!UICONTROL filtre Environnement]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Choisissez un environnement dans la **[!UICONTROL Environnement]** filtrer lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de cette collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Création d’une collection ](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Entrez un **[!UICONTROL Nom]** pour la collection.
+1. Saisissez un **[!UICONTROL Nom]** pour la collection.
 
-   Vous pouvez saisir une **[!UICONTROL description facultative]**.
+   Vous pouvez saisir une **[!UICONTROL description]** facultative.
 
 1. Définissez les règles utilisées pour générer la collection.
 
@@ -94,7 +94,7 @@ Gardez à l’esprit que les collections sont disponibles pour l’ensemble du c
 
 1. Cliquez sur **[!UICONTROL Activités]** et [créer un Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) activité ou modifier une activité existante.
 
-1. Une fois que vous avez sélectionné un critère et une conception, la variable [!UICONTROL Options] s’affiche lorsque vous sélectionnez la collection souhaitée.
+1. Une fois que vous avez sélectionné un critère et une conception, la variable [!UICONTROL Options] s’affiche lorsque vous sélectionnez une collection.
 
    ![Choisir l’option de collection](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
@@ -102,7 +102,7 @@ Gardez à l’esprit que les collections sont disponibles pour l’ensemble du c
 
    ![Option Changer la collection](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## Vidéo de formation : Création de collections et d’exclusions dans Recommendations (07:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : création de collections et d’exclusions dans Recommendations (7:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 

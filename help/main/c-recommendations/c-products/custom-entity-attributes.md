@@ -2,14 +2,14 @@
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
 description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre Adobe [!DNL Target] Catalogue Recommendations.
 title: Comment utiliser les attributs d’entité personnalisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 82%
 
 ---
 
@@ -63,7 +63,7 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 
 ## Implémentation d’attributs à plusieurs valeurs {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), `targetPageParams`et l’API de diffusion pour charger les produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ([]) sont traités comme ne comportant aucune valeur.
+Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), `targetPageParams`et l’API de diffusion pour charger les produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Tableaux vides ( [] ) sont traitées comme n’ayant aucune valeur.
 
 Les guillemets doubles doivent être précédés d’un caractère d’échappement. Par exemple, `"[""test"", ""value""]"` est un tableau JSON valide qui peut être utilisé dans le fichier CSV.
 
@@ -71,7 +71,7 @@ Vous pouvez inclure jusqu’à 500 valeurs dans un attribut multi-valeurs.
 
 ### Utilisation de targetPageParams
 
-L’exemple ci-après illustre comment utiliser `targetPageParams`
+L’exemple suivant illustre l’utilisation de `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -88,7 +88,7 @@ function targetPageParams() {
 }
 ```
 
-### À l’aide d’un fichier CSV
+### Utilisation de CSV
 
 Vous pouvez gérer vos fichiers CSV à l’état brut en utilisant un éditeur de texte ou vous pouvez utiliser un logiciel de feuille de calcul.
 
@@ -107,7 +107,7 @@ Lors de la conversion au format .csv, le logiciel de feuille de calcul encadre l
 
 Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l’état brut.
 
-### À l’aide d’API
+### Utilisation des API
 
 Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
 
@@ -127,8 +127,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Consultez la [documentation sur les API d’Adobe Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur
-l’utilisation des API Diffusion et Enregistrer les entités
+Voir [Documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -204,7 +203,7 @@ Exemple : `genre ends with abc`
 
 La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
 
-Après le traitement, chaque valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true.
+Après le traitement, toute valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true.
 
 Exemple : `price greater than or equal to 100`
 
@@ -215,7 +214,7 @@ Exemple : `price greater than or equal to 100`
 
 La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
 
-Après le traitement, chaque valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true.
+Après le traitement, toute valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true.
 
 Exemple : `price less than or equal to 100`
 

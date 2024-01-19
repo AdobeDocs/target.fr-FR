@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 39%
+source-wordcount: '687'
+ht-degree: 34%
 
 ---
 
@@ -33,13 +33,13 @@ Pour résoudre ce problème, procédez comme suit : [!DNL Target] collecte des d
 
 >[!NOTE]
 >
->Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients qui utilisent at.js doivent [mise à niveau vers at.js version 1.5.0](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (ou version ultérieure).
+>Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients qui utilisent at.js doivent [mise à niveau vers at.js version 1.5.0](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} (ou version ultérieure).
 
 Vous pouvez choisir plusieurs propriétés d’appareil mobile. Plusieurs sélections sont unies par un opérateur OU.
 
 Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.js ou le SDK mobile) peuvent collecter ces paramètres eux-mêmes et les transmettre en tant que paramètres mbox.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
+1. Dans le [!DNL Target] interface, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Création d’une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
 1. Glisser-déposer **[!UICONTROL Mobile]** dans le volet audience builder.
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
@@ -59,7 +59,7 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
    >Vous pouvez effectuer un ciblage selon l’opérateur de téléphonie mobile à l’aide des [paramètres de géolocalisation](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 L’illustration suivante présente une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google et qui sont des appareils mobiles.
 

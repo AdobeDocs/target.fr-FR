@@ -4,10 +4,10 @@ description: Lisez les conseils de notre panel d’experts sur l’utilisation d
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 73%
+source-wordcount: '2890'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ Basé sur notre travail avec beaucoup de [!DNL Target] utilisateurs, nous avons 
 
 Vous pouvez personnaliser des expériences avec des données [!DNL Target] prêtes à l’emploi. Cependant, vous pouvez effectuer une personnalisation de manière plus approfondie en ajoutant vos propres données au processus. Vous pouvez enrichir votre profil avec des données historiques provenant d’[!DNL Adobe Analytics] et des données en temps réel issues d’[!DNL Adobe Audience Manager]. Vous pouvez également utiliser les attributs du client, une fonctionnalité du service principal People dans [!DNL Adobe Experience Cloud], pour importer facilement des données de gestion de la relation client, des données de partenaires secondaires et des données achetées par des tiers dans [!DNL Target].
 
-Par exemple, vous pouvez associer les données d’achat de votre système de point de vente à un profil visiteur. Pour ce faire, il vous suffit de créer un fichier CSV contenant jusqu’à 200 variables hors ligne, puis de le transférer directement dans [!DNL Adobe Experience Cloud] par le biais d’un transfert de fichier, ou d’utiliser un FTP pour héberger et programmer la mise à jour régulière de votre fichier. Une fois que les attributs de votre client se trouvent dans [!DNL Adobe Experience Cloud], vous pouvez les mapper à des solutions [!DNL Experience Cloud] comme [!DNL Adobe Analytics] et [!DNL Target], où ils seront disponibles pour analyse, test et personnalisation.
+Par exemple, vous pouvez associer les données d’achat de votre système de point de vente à un profil visiteur. Pour ce faire, il vous suffit de créer un fichier CSV contenant jusqu’à 200 variables hors ligne, puis de le charger directement dans [!DNL Adobe Experience Cloud] par le biais d’un chargement de fichier, ou d’utiliser un FTP pour héberger et programmer la mise à jour régulière de votre fichier. Une fois que les attributs de votre client se trouvent dans [!DNL Adobe Experience Cloud], vous pouvez les mapper à des solutions [!DNL Experience Cloud] comme [!DNL Adobe Analytics] et [!DNL Target], où ils seront disponibles pour analyse, test et personnalisation.
 
 Consultez [Attributs personnalisés](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=fr) pour obtenir des instructions détaillées.
 
 **Important** : [!DNL Target] étant une plateforme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des données de gestion de la relation client ou achetées de différentes manières. Cela signifie que vous pouvez choisir la méthode qui convient le mieux à votre organisation.
 
-Consultez [Méthodes de transfert de données dans Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) pour plus d’informations.{target=_blank}
+Voir [Méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} pour plus d’informations.
 
 ## Conseil 2 : personnalisation plus approfondie en mélangeant les audiences [!DNL Target] avec d’autres audiences Adobe Experience Cloud.
 
@@ -37,7 +37,7 @@ Consultez [Combinaison de plusieurs audiences](/help/main/c-target/combining-mul
 
 ## Conseil 3 : exportation de données issues de [!DNL Target] pour les utiliser avec des outils tiers.
 
-Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête montre un échantillon d’une population ayant obtenu un &quot;9&quot; et qu’une autre a obtenu un &quot;4&quot;, vous pouvez utiliser vos données pour savoir qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter [!DNL Target] données de votre entrepôt de données interne. Cliquez simplement sur &quot;Administration&quot;, puis faites basculer le commutateur en regard du jeton de réponse souhaité sur la position Activé. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
+Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête montre un échantillon d’une population ayant obtenu un &quot;9&quot; et qu’une autre a obtenu un &quot;4&quot;, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour l’exportation. [!DNL Target] données de votre entrepôt de données interne. Cliquez simplement sur &quot;Administration&quot;, puis faites basculer le commutateur en regard du jeton de réponse souhaité sur la position Activé. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
 
 Consultez [Jetons de réponse](/help/main/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
 
@@ -63,7 +63,7 @@ Facilitez l’utilisation des données de votre entreprise tout en conservant le
 
 Consultez [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) pour plus d’informations.
 
-**Conseil utile**: Lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été précédemment ajouté à votre organisation, par exemple avec un employé d’agence tiers, la saisie de son adresse électronique et de son mot de passe déclenche une invitation par courrier électronique à rejoindre l’espace de travail d’une équipe.
+**Conseil utile**: lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été ajouté auparavant à votre organisation (par exemple, avec un employé d’agence tiers), la saisie de son adresse électronique et de son mot de passe déclenche une invitation par courrier électronique à rejoindre l’espace de travail d’une équipe.
 
 Vous utilisez Target Standard ? Vous pouvez toujours [attribuer trois niveaux d’accès](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) à vos utilisateurs avec des rôles en lecture seule, d’éditeur et d’approbateur.
 
@@ -73,7 +73,7 @@ Découvrez les performances d’une offre, telle que la livraison gratuite, pend
 
 Consultez [Activité multipage](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) pour obtenir des instructions détaillées.
 
-**Conseil utile**: La modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, pensez à redéfinir l’expérience.
+**Conseil utile**: la modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, pensez à redéfinir l’expérience.
 
 ## Conseil 7 : test d’une offre avec différentes audiences pour déterminer si les audiences ont des préférences différentes.
 
@@ -109,7 +109,7 @@ De nombreux professionnels du marketing lancent des programmes d’optimisation 
 * Quel est le taux de conversion de la page ?
 * Pendant combien de temps estimez-vous devoir effectuer le test avant de pouvoir le considérer comme terminé ?
 
-**Conseil utile**: Utilisez la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer la taille d’échantillon requise pour un test réussi.
+**Conseil utile**: utilisez la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer la taille d’échantillon requise pour un test réussi.
 
 ## Conseil 12 : conception de tests plus simples pour s’assurer de pouvoir les créer et les implémenter
 
@@ -123,7 +123,7 @@ Au lieu de développer un test important avec plusieurs variables et un dévelop
 
 ## Conseil 14 : optimisation de l’impact de votre test en effectuant des tests vers la fin de l’entonnoir de conversion.
 
-Les tests effectués aussi près que possible de la page sur laquelle les visiteurs cliquent sur Effectuer l’achat, Soumettre la demande ou Effectuer une conversion donnent généralement les résultats les plus probants. Les visiteurs qui atteignent la fin de l’entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à passer à l’achat. Par conséquent, tester les statistiques sur leurs préférences et leurs actions peut vous aider à apporter des changements rentables. Les pages du parcours d’achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être communiqués aux principales parties prenantes avant d’être déployés.
+Les tests effectués aussi près que possible de la page sur laquelle les visiteurs cliquent sur Effectuer l’achat, Soumettre la demande ou Effectuer une conversion donnent généralement les résultats les plus probants. Les visiteurs qui atteignent la fin de l’entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à passer à l’achat. Par conséquent, tester les informations sur leurs préférences et leurs actions peut vous aider à apporter des changements rentables. Les pages du parcours d’achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être communiqués aux principales parties prenantes avant d’être déployés.
 
 ![Illustration de l’entonnoir de conversion](/help/main/c-intro/assets/conversion-funnel.png)
 
@@ -164,7 +164,7 @@ Les utilisateurs mobiles ont un haut niveau d’intention. La majorité d’entr
 
 ## Conseil 22 : ciblage plus pertinent des audiences mobiles grâce au ciblage par tranche horaire pour les campagnes de marketing de moteur de recherche mobiles.
 
-Découvrez comment et à quel moment atteindre votre audience et comment mieux gérer vos dépenses publicitaires quotidiennes en &quot;tranches horaires&quot; vos campagnes mobiles dans différents segments tout au long de la journée.
+Découvrez comment et quand atteindre votre audience et comment mieux gérer vos dépenses publicitaires quotidiennes en &quot;tranches horaires&quot; vos campagnes mobiles dans différents segments tout au long de la journée.
 
 De nombreux professionnels du marketing commettent l’erreur de ne pas attribuer suffisamment de budget pour conquérir cette part de voix aux heures où l’utilisation de certains appareils est la plus forte, laissant ainsi s’échapper un chiffre d’affaires et des prospects importants.
 

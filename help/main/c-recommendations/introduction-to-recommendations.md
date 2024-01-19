@@ -2,13 +2,13 @@
 keywords: recommandations;intro;introduction;webinaire;démo
 description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
 title: Que sont les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2114'
-ht-degree: 91%
+source-wordcount: '2086'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Vous devez ensuite ajouter des balises ou utiliser l’implémentation de [!DNL 
 
 Vous devez veiller à ce que [!DNL Target] connaisse les articles que vos utilisateurs consultent et achètent. Si les achats ne sont pas pertinents pour votre contexte, vous pouvez effectuer le suivi d’un autre type d’événement de conversion, par exemple, le téléchargement d’un PDF, la réalisation d’une enquête, l’abonnement à une newsletter, le visionnage d’une vidéo, etc.
 
-Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Si ce n’est pas le cas, il est plus facile de configurer cette configuration à l’aide d’un gestionnaire de balises tel que des balises dans [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
+Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Si ce n’est pas le cas, il est plus facile de le configurer à l’aide d’un gestionnaire de balises tel que les balises dans [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
 
 ### Obtention de recommandations avec le contexte approprié
 

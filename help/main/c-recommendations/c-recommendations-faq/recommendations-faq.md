@@ -2,13 +2,13 @@
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
 description: Consultez une liste de questions fréquentes sur les activités Adobe  [!DNL Target]  Recommendations.
 title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ Après l’importation d’un fichier de flux ou après la réception des mises 
 
 * Si un élément qui a été exclu doit à présent être inclus, il le sera lors de la prochaine exécution de l’algorithme (12-24 heures).
 
-   Cette situation se produit, car [!DNL Target] applique des exclusions en ligne et hors ligne. Lorsqu’un élément a été récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément a été récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne ne disparaît que lors de la prochaine exécution de l’algorithme.
+  Cette situation se produit, car [!DNL Target] applique des exclusions en ligne et hors ligne. Lorsqu’un élément a été récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément a été récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne ne disparaît que lors de la prochaine exécution de l’algorithme.
 
 * Si un élément qui a été inclus précédemment doit maintenant être exclu, il l’est selon la chronologie « Attributs d’élément mis à jour… » décrite ci-dessus, en fonction de la source de flux (15 minutes via la mbox/l’API ou 12-24 heures via le flux).
 
@@ -95,7 +95,7 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] propose un paramètre [Filtrer les critères incompatibles](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] a une [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Vous pouvez réenregistrer la collection et voir si cela met à jour le nombre. En réenregistrant, la collection exécute à nouveau tous les algorithmes qui utilisent cette collection.
 * Êtes-vous dans le bon environnement ? Accédez à [!DNL /target/products.html#recsSettings] pour revérifier (comme illustré ci-dessous).
 
-   ![image product_catalog](assets/product_catalog.png)
+  ![image product_catalog](assets/product_catalog.png)
 
 * Votre index est-il à jour ? Atteindre [!DNL /target/products.html#productSearch] et vérifiez l’âge en heures de l’index (par exemple, &quot;Indexé il y a 3 heures&quot;). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
@@ -190,7 +190,7 @@ Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez 
 
 ## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target] Limitations](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le chargement du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target] Limitations](/help/main/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Puis-je exclure dynamiquement une entité ? {#exclude}
 
@@ -214,37 +214,37 @@ NO_CONTENT est renvoyé lorsque les recommandations ne sont pas disponibles pour
 
 * Les résultats ne sont pas encore prêts.
 
-   Cette situation se produit généralement lors du premier enregistrement d’une activité nouvellement créée ou après que des modifications de configuration sont apportées à la collection, aux critères ou aux promotions utilisés dans l’activité.
+  Cette situation se produit généralement lors du premier enregistrement d’une activité nouvellement créée ou après que des modifications de configuration sont apportées à la collection, aux critères ou aux promotions utilisés dans l’activité.
 
 * Les résultats sont prêts, mais pas encore mis en cache sur le serveur Edge le plus proche pour la combinaison algorithme/clé demandée.
 
-   La requête initie une opération de mise en cache. Par conséquent, ce problème devrait se résoudre après quelques rechargements de page et/ou quelques minutes.
+  La requête initie une opération de mise en cache. Par conséquent, ce problème devrait se résoudre après quelques rechargements de page et/ou quelques minutes.
 
 * Les résultats sont prêts, mais pas disponibles pour la valeur de clé fournie.
 
-   Cette situation survient généralement lors de la demande de recommandations pour un élément ajouté au catalogue après l’exécution de l’algorithme le plus récent et se résoudra après la prochaine exécution de celui-ci.
+  Cette situation survient généralement lors de la demande de recommandations pour un élément ajouté au catalogue après l’exécution de l’algorithme le plus récent et se résoudra après la prochaine exécution de celui-ci.
 
 * Le rendu partiel du modèle est désactivé et les résultats disponibles ne sont pas suffisants pour remplir le modèle.
 
-   Cette situation se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtre agressivement de nombreux éléments à partir des résultats possibles. Pour éviter tout problème, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de séquences avec un critère filtré moins agressif.
+  Cette situation se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtre agressivement de nombreux éléments à partir des résultats possibles. Pour éviter tout problème, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de séquences avec un critère filtré moins agressif.
 
-## Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ? {#persist-across-devices}
+## Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs appareils pour un seul visiteur ? {#persist-across-devices}
 
 Lorsqu’un visiteur lance une session, l’ID de session est lié à une seule machine périphérique et un cache de profil temporaire est stocké sur cette machine. Les requêtes suivantes en provenance de la même session lisent ce cache de profil, y compris les éléments récemment consultés.
 
 Lorsque la session se termine (ce qui est généralement le cas après 30 minutes d’inactivité), son état, y compris les éléments récemment consultés, est conservé dans un stockage de profil plus permanent dans le même espace géographique.
 
-Les sessions suivantes provenant de différents périphériques peuvent alors accéder à ces éléments récemment consultés, à condition que la nouvelle session soit liée au profil client via le même Marketing Cloud ID (MCID), Experience Cloud ID (ECID) ou CustomerID/mbox3rdPartyId.
+Les sessions suivantes provenant de différents appareils peuvent alors accéder à ces éléments récemment consultés, à condition que la nouvelle session soit liée au profil client via le même Marketing Cloud ID (MCID), Experience Cloud ID (ECID) ou CustomerID/mbox3rdPartyId.
 
-Si un visiteur possède deux sessions actives simultanées, les éléments récemment consultés sur un périphérique ne mettent pas à jour ceux consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager l’ID de session. Il existe une solution à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d’un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
+Si un visiteur possède deux sessions actives simultanées, les éléments récemment consultés sur un appareil ne mettent pas à jour ceux consultés sur l’autre appareil, sauf si les appareils sont obligés de partager l’ID de session. Il existe une solution à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d’un ID de session sur plusieurs appareils. Le client doit gérer lui-même ce partage d’ID.
 
-Ce comportement se produit toujours si un visiteur est actif sur un périphérique, puis devient actif sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas avant 30 minutes, et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit dans l’état permanent et traité. Comptez donc 35 minutes pour que la session expire et que le profil soit stocké lorsque vous testez ce comportement.
+Ce comportement se produit toujours si un visiteur est actif sur un appareil, puis devient actif sur l’autre appareil quelques minutes plus tard. La session du premier appareil n’expire pas avant 30 minutes, et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit dans l’état permanent et traité. Comptez donc 35 minutes pour que la session expire et que le profil soit stocké lorsque vous testez ce comportement.
 
-Si le visiteur ne possède pas deux sessions actives simultanées, les éléments récemment consultés sur un périphérique mettent à jour ceux consultés sur l’autre périphérique, pour autant que la session soit terminée. Comptez donc 35 minutes pour que la session expire lorsque vous testez ce comportement.
+Si le visiteur ne possède pas deux sessions actives simultanées, les éléments récemment consultés sur un appareil mettent à jour ceux consultés sur l’autre appareil, pour autant que la session soit terminée. Comptez donc 35 minutes pour que la session expire lorsque vous testez ce comportement.
 
 ## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
 
-[!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, consultez la section sur les activités [[!DNL Recommendations Classic] versus [!DNL Recommendations] dans [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
 

@@ -4,10 +4,10 @@ description: Explorer une liste de questions fréquentes et de réponses sur l�
 title: Où puis-je trouver des réponses aux questions [!DNL Target] Reporting ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ Certains visiteurs ont atteint la mesure de conversion, qui a été configurée 
 
 Les activités de ciblage d’expérience doivent toujours comporter une expérience de contrôle. Si vous utilisez une activité de ciblage d’expérience de la même manière qu’une activité de [!UICONTROL test A/B], ce qui est relativement courant, les données de contrôle d’expérience s’avèrent utiles. Vous pouvez ignorer les données de contrôle d’expérience si elles ne sont pas utiles dans vos rapports.
 
-## Pourquoi le nombre de visites est-il plus bas dans [!DNL Target] que dans les autres solutions [!DNL Adobe Experience Cloud] ? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## Pourquoi le nombre de visites est-il plus bas dans [!DNL Target] than in other [!DNL Adobe Experience Cloud] solutions ? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 Les chiffres de mesure, par exemple les visites, signalés par [!DNL Target] sont toujours inférieurs aux nombres signalés dans d’autres [!DNL Experience Cloud] solutions pour plusieurs raisons :
 
@@ -87,7 +87,7 @@ Si le contenu d’une activité a été correctement diffusé aux utilisateurs m
 
 Pour modifier l’environnement pour le rapport d’une activité :
 
-1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **** Rapports.
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
 
    ![Boîte de dialogue Paramètres A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -104,7 +104,7 @@ Pour plus d’informations sur les environnements, voir [Hôtes](/help/main/admi
 
 Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, veillez à utiliser une expérience avec le trafic comme expérience de contrôle.
 
-1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **** Rapports.
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
 
 1. Dans la **[!UICONTROL Contrôle]** , sélectionnez une expérience qui reçoit du trafic.
@@ -125,6 +125,6 @@ Par exemple, j’ai défini la répartition du trafic sur 50/50 ou 25/25/25/25, 
 * La bonne pratique des tests A/B et MVT consiste à maintenir les divisions de trafic. La modification de la distribution du trafic entre les expériences (du 90/10 au 50/50, par exemple) au cours d’un test peut entraîner des visiteurs inégaux entre les expériences. L’expérience de trafic plus faible risque de ne jamais &quot;rattraper&quot;.
 * Si vous suivez les bonnes pratiques ci-dessus et que la répartition du trafic ne se normalise pas au fil du temps, vérifiez les points suivants :
 
-   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.
 
    * S’agit-il d’un test de redirection ? Un minutage incorrect des balises se déclenchant sur la page peut entraîner des divisions de trafic inégales, en particulier lors de l’utilisation de [!DNL Analytics] comme source de données pour un [!DNL Target] activité. Pour plus d’informations sur la résolution des incohérences de la distribution du trafic sur une activité de redirection avec Analytics for Target (A4T), voir [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

@@ -4,10 +4,10 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2456'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Pour configurer les attributs de profil :
 
    | Type de paramètre | Description |
    |--- |--- |
-   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. Voir [Transférer les paramètres à une mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Remarque** : [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, consultez la page [Mise à jour du profil dans la documentation des API  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. Voir [Transférer les paramètres à une mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**Remarque** : [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, consultez la page [Mise à jour du profil dans la documentation des API  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Défini directement avec un extrait de code JavaScript. Ces extraits peuvent stocker les totaux en cours, tel que le total des dépenses d’un client. Ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -73,7 +73,7 @@ Gardez à l’esprit les informations suivantes :
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ce processus s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
 
-   Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que depuis le script dans lequel elles ont été définies.
+  Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que depuis le script dans lequel elles ont été définies.
 
 * Les paramètres et les valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant l’activité ou le test.
 * Pour plus d’informations sur la syntaxe JavaScript, consultez la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
@@ -101,7 +101,6 @@ Cliquez sur **[!UICONTROL Afficher tous les détails]** pour afficher les audien
 >
 > * L’activité est à l’état de version [!UICONTROL préliminaire].
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
-
 
 ## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -137,7 +136,7 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * En cas d’échec global, encadrez le script dans un try/catch.
 * Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de profil peuvent exécuter un nombre limité d’instructions.
 
-   Bonne pratique :
+  Bonne pratique :
 
    * Veillez à ce que les scripts de profil restent petits et aussi simples que possible.
    * Évitez les expressions régulières ou utilisez uniquement des expressions régulières simples. Même des expressions simples peuvent nécessiter de nombreuses instructions d’évaluation.
@@ -157,27 +156,27 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Ajouter des scripts de profil comme jetons de réponse aux scripts de profil de débogage :**
 
-   Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**, puis sur **[!UICONTROL Jetons de réponse]** et activez le script de profil à déboguer.
+  Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**, puis sur **[!UICONTROL Jetons de réponse]** et activez le script de profil à déboguer.
 
-   Chaque fois que vous chargez une page comportant [!DNL Target]pour votre site, une partie de la réponse de [!DNL Target] contient votre valeur pour le script de profil donné, comme indiqué ci-dessous :
+  Chaque fois que vous chargez une page comportant [!DNL Target]pour votre site, une partie de la réponse de [!DNL Target] contient votre valeur pour le script de profil donné, comme indiqué ci-dessous :
 
-   ![image debug_profile_script_1](assets/debug_profile_script_1.png)
+  ![image debug_profile_script_1](assets/debug_profile_script_1.png)
 
 * **Utiliser l’outil de débogage mboxTrace pour déboguer les scripts de profil.**
 
-   Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Générer un jeton d’autorisation]** dans la section [!UICONTROL Outils de débogage].
+  Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Générer un jeton d’autorisation]** dans la section [!UICONTROL Outils de débogage].
 
-   Vous ajoutez ensuite ces deux paramètres à l’URL de votre page après le « ? » : `mboxTrace=window&authorization=YOURTOKEN`.
+  Vous ajoutez ensuite ces deux paramètres à l’URL de votre page après le « ? » : `mboxTrace=window&authorization=YOURTOKEN`.
 
-   Ajouter ces paramètres fournit un peu plus d’informations que le jeton de réponse, car vous obtenez un instantané avant exécution et un instantané après exécution de votre profil. Cela affiche également tous vos profils disponibles.
+  Ajouter ces paramètres fournit un peu plus d’informations que le jeton de réponse, car vous obtenez un instantané avant exécution et un instantané après exécution de votre profil. Cela affiche également tous vos profils disponibles.
 
-   ![image debug_profile_script_2](assets/debug_profile_script_2.png)
+  ![image debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## FAQ sur le script de profil {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **Est-il possible d’utiliser des scripts de profil pour capturer les informations d’une page dans une couche de données ?**
 
-Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres   [méthodes de transfert de données dans Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
+Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent être transmises par le biais d’une requête de mbox ou d’autres [méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
 
 ## Référence JavaScript pour les paramètres de profil de script
 
