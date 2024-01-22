@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 + Introduction {#introduction}
    + [Présentation de Target](c-intro/intro.md)
    + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Target principaux concepts](c-intro/target-key-concepts.md)
+   + [Concepts clés de Target](c-intro/target-key-concepts.md)
    + [Comprendre l’interface utilisateur de Target](/help/main/c-intro/understand-the-target-ui.md)
    + Kit de bienvenue Adobe Target {#welcome}
       + [Aperçu du kit de bienvenue Target](/help/main/c-intro/target-welcome-kit.md)
@@ -93,13 +93,14 @@ ht-degree: 94%
       + [Adobe Customer Journey Analytics comme source des rapports pour Target (CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Intégration de Target à Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [Intégrer [!DNL Adobe Target Recommendations] et [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Intégration de Target à Adobe Experience Manager (AEM) {#aem}
       + [Présentation de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + Fragments d’expérience et fragments de contenu {#fragments}
-         + [Présentation des fragments d’expérience et fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [Présentation des fragments d’expérience AEM et des fragments de contenu](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-         + [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
+         + [AEM de fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Intégration de Target à Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Intégration à Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
@@ -197,7 +198,7 @@ ht-degree: 94%
          + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
          + [Système d’exploitation](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Pages du site](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target Bibliothèque](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Bibliothèque Target](c-target/c-audiences/c-target-rules/target-library.md)
          + [Période](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Sources de trafic](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Profil du visiteur](c-target/c-audiences/c-target-rules/visitor-profile.md)
@@ -238,7 +239,7 @@ ht-degree: 94%
          + [Résolution des problèmes du Compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Activation du contenu mixte dans votre navigateur](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Scénarios de modification d’une page](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extension d’assistance du Compositeur d’Expérience Visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirection vers une URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/vec-carousels.md)
