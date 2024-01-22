@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '986'
+ht-degree: 55%
 
 ---
 
@@ -25,6 +25,10 @@ Les navigateurs suivants peuvent être ciblés :
 * Opera
 * iPad 
 * iPhone
+
+>[!IMPORTANT]
+>
+>À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences. Pour obtenir des paramètres de contournement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](#deprecation) ci-dessous
 
 Il existe deux façons de cibler les navigateurs :
 
@@ -126,3 +130,90 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Définir des catégories d’audiences
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## Retrait des iPad et des iPhone de l’attribut d’audience de navigateur (30 avril 2024) {#deprecation}
+
+[!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent un navigateur ou des options de navigateur spécifiques lorsqu’ils visitent votre page.
+
+À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.
+
+Si vous avez des audiences qui ciblent les iPad ou les iPhone à l’aide de l’attribut [!UICONTROL Navigateur], vous devez modifier ces paramètres avant le 30 avril 2024 pour assurer leur bon fonctionnement.
+
+Les paramètres suivants pourront être utilisés à l’avenir :
+
+* **Pour les correspondances de navigateur[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* **Pour la tablette correspondant au navigateur**: [!UICONTROL Mobile] > [!UICONTROL is Tablet] > [!UICONTROL true]
+
+  ![mobile is tablet](/help/main/r-release-notes/assets/is-tablet.png)
+
+* **Pour les correspondances de navigateur avec iPad**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPad] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!DNL true]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* **Pour les correspondances de navigateur avec iPhone**: [!UICONTROL Mobile] > [!UICONTROL Nom marketing du périphérique] [!UICONTROL correspond à] [!DNL iPhone] avec un conteneur Et avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!DNL true]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, par exemple lorsque des conditions sont annulées. Voici des exemples de conditions négatives :
+
+* **Pour le navigateur ne correspond pas à iPhone**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Téléphone mobile] is [!UICONTROL false]
+
+  ![Pas de téléphone mobile](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* **Pour le navigateur ne correspond pas à iPad**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL ne correspond pas à] [!UICONTROL Apple] avec un conteneur Ou avec [!UICONTROL Mobile] > [!UICONTROL Tablette] is [!UICONTROL false].
+
+  ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
+
+Si vous utilisez `user.browserType` dans les segments JavaScript, les modifications doivent inclure les éléments suivants :
+
+>[!NOTE]
+>
+>Les ajouts suivants seront publiés le 24 janvier 2024. Ces ajouts permettent de modifier les éléments suivants :
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
+
+
+* **BrowserType est iPhone**:
+
+  Remplacer :
+
+  `user.browserType=="iphone"`
+
+  Avec :
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isMobilePhone`
+
+* **BrowserType n’est pas iPhone**:
+
+  Remplacer :
+
+  `user.browserType!="iphone"`
+
+  Avec :
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isMobilePhone`
+
+* **BrowserType est iPad**:
+
+  Remplacer :
+
+  `user.browserType=="ipad"`
+
+  Avec :
+
+  `profile.mobile.deviceVendor == "Apple" && profile.mobile.isTablet`
+
+* **BrowserType n’est pas iPad**:
+
+  Remplacer :
+
+  `user.browserType!="ipad"`
+
+  Avec :
+
+  `profile.mobile.deviceVendor != "Apple" || !profile.mobile.isTablet`
