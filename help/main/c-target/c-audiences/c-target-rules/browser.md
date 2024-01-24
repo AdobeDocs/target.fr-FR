@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 
 Si vous avez des audiences qui ciblent les iPad ou les iPhone à l’aide de l’attribut [!UICONTROL Navigateur], vous devez modifier ces paramètres avant le 30 avril 2024 pour assurer leur bon fonctionnement.
 
+### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur
+
 Les paramètres suivants pourront être utilisés à l’avenir :
 
 * **Pour les correspondances de navigateur[!DNL Apple]**: [!UICONTROL Mobile] > [!UICONTROL Fournisseur de périphérique] [!UICONTROL correspond à] [!DNL Apple]
@@ -167,16 +169,19 @@ Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, 
 
   ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
 
-Si vous utilisez `user.browserType` dans les segments JavaScript, les modifications doivent inclure les éléments suivants :
+### Audiences créées à l’aide de scripts de profil
+
+Si vous utilisez `user.browserType` dans les segments JavaScript, en suivant la procédure décrite à la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
 
 >[!NOTE]
 >
->Les ajouts suivants seront publiés le 24 janvier 2024. Ces ajouts permettent de modifier les éléments suivants :
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>La publication des profils suivants est prévue pour les prochains jours, à compter du 24 janvier 2024. La variable [notes de mise à jour actuelles](/help/main/r-release-notes/release-notes.md) sera mis à jour lorsque ces profils seront disponibles.
 
+Ces profils permettent d’effectuer les modifications suivantes :
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType est iPhone**:
 
