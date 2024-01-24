@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 53%
+source-wordcount: '1057'
+ht-degree: 37%
 
 ---
 
@@ -17,22 +17,22 @@ Vous pouvez cibler les visiteurs qui utilisent un navigateur spécifique ou des 
 
 Les navigateurs suivants peuvent être ciblés :
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad 
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences. Pour obtenir des paramètres de contournement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](#deprecation) ci-dessous
+>à compter du 30 avril 2024, [!DNL iPad] et [!DNL iPhone] est supprimé de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences. Pour obtenir des paramètres de contournement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](#deprecation) ci-dessous
 
 Il existe deux façons de cibler les navigateurs :
 
-* **Audience prédéfinie :** Utilisez l’audience prédéfinie si vous souhaitez cibler uniquement les visiteurs qui utilisent un navigateur spécifique pour accéder à votre site. Par exemple, si vous proposez une extension Chrome, vous ne ciblerez que les utilisateurs de Chrome.
+* **Audience prédéfinie :** Utilisez l’audience prédéfinie si vous souhaitez cibler uniquement les visiteurs qui utilisent un navigateur spécifique pour accéder à votre site. Par exemple, si vous proposez une [!DNL Chrome] extension, vous ne ciblez que [!DNL Chrome] utilisateurs.
 
    1. Lors de la configuration de votre activité, sélectionnez le navigateur dans la liste déroulante.
 
@@ -57,7 +57,7 @@ Il existe deux façons de cibler les navigateurs :
    1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
    1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
-  L’exemple suivant illustre une audience qui inclut les utilisateurs de Microsoft Edge sur les versions 91 ou 92 :
+  L’exemple suivant illustre une audience qui comprend [!DNL Microsoft Edge] utilisateurs des versions 91 ou 92 :
 
   ![Target Edge 91 ou 92](assets/target_edge.png)
 
@@ -71,8 +71,8 @@ Ciblez ou excluez un navigateur spécifique.
 
 Sélectionnez **[!UICONTROL Type]**, puis choisissez « est égal à » ou « n’est pas égal à ».
 
-* Est égal à : cible les navigateurs sélectionnés.
-* N’est pas égal à : exclut les navigateurs sélectionnés.
+* [!UICONTROL Est égal à]: ciblez les navigateurs sélectionnés.
+* [!UICONTROL N’est pas égal à]: exclut les navigateurs sélectionnés.
 
 Sélectionnez un ou plusieurs navigateurs. De nombreuses options sont connectées avec un OU.
 
@@ -86,8 +86,8 @@ L’inclusion ou l’exclusion d’une langue de navigateur peut fournir un cibl
 
 Sélectionnez **[!UICONTROL Langue]**, puis choisissez « est égal à » ou « n’est pas égal à ».
 
-* Est égal à : cible les langues de navigateur sélectionnées.
-* N’est pas égal à : exclut les langues de navigateur sélectionnées.
+* [!UICONTROL Est égal à]: cible les langues de navigateur sélectionnées.
+* [!UICONTROL N’est pas égal à]: exclut les langues de navigateur sélectionnées.
 
 Sélectionnez une ou plusieurs langues. De nombreuses options sont connectées avec un OU.
 
@@ -107,16 +107,16 @@ Les langues de navigateur suivantes peuvent être ciblées ou exclues :
 
 Ciblez ou excluez certaines versions de navigateur.
 
-Par exemple, si votre page ne s’affiche pas correctement dans Internet Explorer version 11 ou antérieure, vous pouvez créer une audience qui exclut ces versions. Dans ce cas, vous devez créer une règle où le type de navigateur est égal à Internet Explorer puis ajouter une seconde règle où la version est inférieure ou égale à 11.
+Par exemple, si votre page n’apparaît pas correctement dans [!DNL Internet Explorer] version 11 ou antérieure, vous pouvez créer une audience qui exclut ces versions. Dans ce cas, vous configurez une règle où le type de navigateur est égal à [!DNL Internet Explorer] et ajoutez une deuxième règle où la version est inférieure ou égale à 11.
 
 Sélectionnez **[!UICONTROL Version]**, puis choisissez un opérateur :
 
-* Est égal
-* N’est pas égal à
-* Est supérieur à
+* [!UICONTROL Est égal]
+* [!UICONTROL N’est pas égal à]
+* [!UICONTROL Est supérieur à]
 * Est supérieur ou égal à
-* Est inférieur à
-* Est inférieur ou égal à
+* [!UICONTROL Est inférieur à]
+* [!UICONTROL Est inférieur ou égal à]
 
 Saisissez le numéro de version. Seules les versions majeures peuvent être saisies dans le champ de texte. La version spécifiée comprend toutes les versions mineures qui lui sont associées. Par exemple, si vous spécifiez la version 10, les visiteurs de la version 10.1 sont également inclus.
 
@@ -137,7 +137,9 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 
 À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.
 
-Si vous avez des audiences qui ciblent les iPad ou les iPhone à l’aide de l’attribut [!UICONTROL Navigateur], vous devez modifier ces paramètres avant le 30 avril 2024 pour assurer leur bon fonctionnement.
+Les audiences natives, telles que &quot;Navigateur : iPad&quot; et &quot;Navigateur : iPhone&quot;, seront automatiquement déplacées vers la nouvelle définition d’audience. Tous les scripts de profil qui utilisent &quot;user.browserType&quot; seront *not* être mis à jour automatiquement : si vous ne les mettez pas à jour manuellement, la qualification des utilisateurs peut ne pas se produire comme prévu.
+
+Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.
 
 ### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur
 
@@ -171,17 +173,17 @@ Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, 
 
 ### Audiences créées à l’aide de scripts de profil
 
-Si vous utilisez `user.browserType` dans les segments JavaScript, en suivant la procédure décrite à la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
+Si vous utilisez `user.browserType` dans les audiences qui utilisent des scripts de profil, comme expliqué à la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
 
 >[!NOTE]
 >
 >La publication des profils suivants est prévue pour les prochains jours, à compter du 24 janvier 2024. La variable [notes de mise à jour actuelles](/help/main/r-release-notes/release-notes.md) sera mis à jour lorsque ces profils seront disponibles.
-
-Ces profils permettent d’effectuer les modifications suivantes :
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>Ces profils permettent d’effectuer les modifications suivantes :
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType est iPhone**:
 
