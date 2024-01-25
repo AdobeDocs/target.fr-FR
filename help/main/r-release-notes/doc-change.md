@@ -30,7 +30,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 18 janvier | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour le prochain rapport [!DNL Target Standard/Premium] Version 24.1.1. |
+| 18 janvier | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour préliminaires relatives à la version 24.1.1 de [!DNL Target Standard/Premium] à venir. |
 | 13 décembre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la Série de webinaires d’[!DNL Adobe Target] sur la maturité de personnalisation de 2024. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=fr){target=_blank} | Ajout de deux nouveaux paramètres facultatifs : <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 4 décembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement à propos de la pause café « Machine learning, rapports et analyses basés sur l’IA » [!DNL Adobe Target Community] : mercredi 6 décembre 2023. |

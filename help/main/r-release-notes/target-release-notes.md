@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : mardi 22 janvier 2024**
+**Dernière mise à jour : mardi 22 janvier 2024**
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ Cette version est programmée pour les jours suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* [!UICONTROL Analytics pour Target] (A4T) Les activités avec des mesures d’objectif de recettes n’affichaient pas &quot;Recettes&quot; comme nom de colonne et la mesure de recettes ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème cosmétique auquel on a remédié. (TGT-46995)
+* Les activités [!UICONTROL Analytics for Target] (A4T) avec des mesures d’objectif de revenus n’affichaient pas « Revenus » comme nom de colonne et la mesure des revenus ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème d’ordre cosmétique qui a été corrigé. (TGT-46995)
 * Correction d’un problème en raison duquel les périodes des rapports ne fonctionnaient pas correctement. (TGT-47396)
 * Correction d’un problème qui entraîne l’affichage d’un statut incorrect sur la page [!UICONTROL Toutes les activités] après l’activation ou la désactivation d’une activité à l’aide de l’icône [!UICONTROL Plus d’actions]. (TGT-47367)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Attributs importants] ne s’affichera pas pour un seul client. (TGT-47272)
-* Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un seul client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
+* Correction d’un problème en raison duquel le rapport [!UICONTROL Attributs importants] ne s’affichait pas pour un seul client ou une seule cliente. (TGT-47272)
+* Correction d’un problème en raison duquel le message « Payload non valide » s’affichait lorsqu’un seul client ou une seule cliente tentait d’activer l’option « Authentification obligatoire ». (TGT-47195)
 * Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de [!DNL Target].
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
