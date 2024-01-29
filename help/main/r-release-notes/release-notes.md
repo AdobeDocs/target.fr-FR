@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Retrait des iPad et des iPhone de l’attribut d’audience de navigateur (30 avril 2024)
+## Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)
 
 | Retrait | Détails |
 |--- |--- |
-| Les [!DNL iPad] et [!DNL iPhone] sont retirés de l’[attribut de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md), qui est utilisé lors de la création d’audiences.<p>Date de retrait :<P>30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la liste déroulante [!UICONTROL Navigateur] disponible lors de la création de catégories pour les audiences.</b><P>Si vous avez des audiences qui ciblent les iPad ou les iPhone à l’aide de l’attribut [!UICONTROL Navigateur], vous devez modifier ces paramètres avant le 30 avril 2024 pour assurer leur bon fonctionnement.<p>Pour obtenir des exemples d’autres paramètres, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| Les [!DNL iPad] et [!DNL iPhone] sont retirés de l’[attribut de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md), qui est utilisé lors de la création d’audiences.<p>Date de retrait :<P>30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la liste déroulante [!UICONTROL Navigateur] disponible lors de la création de catégories pour les audiences.</b><P>Si vous avez des audiences qui ciblent les iPad ou les iPhone à l’aide de l’attribut [!UICONTROL Navigateur], vous devez modifier ces paramètres avant le 30 avril 2024 pour assurer leur bon fonctionnement.<p>Pour des exemples de paramètres alternatifs, consultez [Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
@@ -35,11 +35,11 @@ Cette version est programmée pour les jours suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* [!UICONTROL Analytics pour Target] (A4T) Les activités avec des mesures d’objectif de recettes n’affichaient pas &quot;Recettes&quot; comme nom de colonne et la mesure de recettes ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème cosmétique auquel on a remédié. (TGT-46995)
+* Les activités [!UICONTROL Analytics for Target] (A4T) avec des mesures d’objectif de revenus n’affichaient pas « Revenus » comme nom de colonne et la mesure des revenus ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème d’ordre cosmétique qui a été corrigé. (TGT-46995)
 * Correction d’un problème en raison duquel les périodes des rapports ne fonctionnaient pas correctement. (TGT-47396)
 * Correction d’un problème qui entraîne l’affichage d’un statut incorrect sur la page [!UICONTROL Toutes les activités] après l’activation ou la désactivation d’une activité à l’aide de l’icône [!UICONTROL Plus d’actions]. (TGT-47367)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Attributs importants] ne s’affichera pas pour un seul client. (TGT-47272)
-* Correction d’un problème en raison duquel un message &quot;Payload non valide&quot; s’affichait lorsqu’un seul client tentait d’activer l’option &quot;Authentification requise&quot;. (TGT-47195)
+* Correction d’un problème en raison duquel le rapport [!UICONTROL Attributs importants] ne s’affichait pas pour un seul client ou une seule cliente. (TGT-47272)
+* Correction d’un problème en raison duquel le message « Payload non valide » s’affichait lorsqu’un seul client ou une seule cliente tentait d’activer l’option « Authentification obligatoire ». (TGT-47195)
 * Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de [!DNL Target].
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
