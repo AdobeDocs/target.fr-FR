@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -131,17 +131,17 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## Retrait des iPad et des iPhone de l’attribut d’audience de navigateur (30 avril 2024) {#deprecation}
+## Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024) {#deprecation}
 
 [!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les utilisateurs qui utilisent un navigateur ou des options de navigateur spécifiques lorsqu’ils visitent votre page.
 
-À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] type liste déroulante lors de la création de catégories pour les audiences.
+À compter du 30 avril 2024, iPad et iPhone seront retirés de la [!UICONTROL Navigateur] Liste déroulante de type dans la [!DNL Target] de l’interface utilisateur lors de la création de catégories pour les audiences ;
 
-Les audiences natives, telles que &quot;Navigateur : iPad&quot; et &quot;Navigateur : iPhone&quot;, seront automatiquement déplacées vers la nouvelle définition d’audience. Tous les scripts de profil qui utilisent &quot;user.browserType&quot; seront *not* être mis à jour automatiquement : si vous ne les mettez pas à jour manuellement, la qualification des utilisateurs peut ne pas se produire comme prévu.
+Audiences intégrées créées à l’aide du [!DNL Target] L’interface utilisateur, telle que &quot;Navigateur : iPad&quot; et &quot;Navigateur : iPhone&quot;, sera automatiquement déplacée vers la nouvelle définition d’audience. Cependant, à partir de maintenant, vous devrez utiliser les paramètres [décrit ci-dessous](#ui).
 
-Si des audiences ciblent des iPad ou des iPhones à l’aide de la variable [!UICONTROL Navigateur] , vous devez modifier ces paramètres avant le 30 avril 2024 pour vous assurer que ces audiences continuent à fonctionner comme prévu.
+Si vous utilisez `user.browserType` dans les scripts de profil pour vérifier s’il s’agit d’une iPhone ou d’une iPad (par exemple, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), ces scripts de profil doivent être modifiés comme suit : [instructions ci-dessous](#profile-scripts) avant le 30 avril 2024 pour s’assurer que ces audiences continuent à fonctionner comme prévu.
 
-### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur
+### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur {#ui}
 
 Les paramètres suivants pourront être utilisés à l’avenir :
 
@@ -171,7 +171,7 @@ Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, 
 
   ![Tablette non](/help/main/r-release-notes/assets/tablet-false.png)
 
-### Audiences créées à l’aide de scripts de profil
+### Audiences créées à l’aide de scripts de profil {#profile-scripts}
 
 Si vous utilisez `user.browserType` dans les audiences qui utilisent des scripts de profil, comme expliqué à la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
 
