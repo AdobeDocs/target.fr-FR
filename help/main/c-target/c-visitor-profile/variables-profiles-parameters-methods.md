@@ -4,10 +4,10 @@ description: Affichez la liste des différents profils, variables et paramètres
 title: Les profils, variables et paramètres utilisés dans [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
+source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 70%
+source-wordcount: '665'
+ht-degree: 69%
 
 ---
 
@@ -48,8 +48,8 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | profile.browserTime | L’heure du navigateur local du visiteur. Pour l’heure du système, créez un nouvel objet de date dans le script du profil. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Le périphérique du visiteur est une tablette.<P>Ce profil remplace l’héritage obsolète [Le navigateur est la catégorie d’audience iPad](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
-| profile.mobile.isMobilePhone | L’appareil du visiteur est un téléphone mobile.<P>Ce profil remplace l’héritage obsolète [Le navigateur est la catégorie d’audience iPhone](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isTablet | Le périphérique du visiteur est une tablette.<P>**REMARQUE**: ce profil remplace le navigateur hérité obsolète par la catégorie d’audience iPad. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) pour plus d’informations. |
+| profile.mobile.isMobilePhone | L’appareil du visiteur est un téléphone mobile.<P>**REMARQUE**: ce profil remplace le navigateur hérité obsolète par la catégorie d’audience iPhone. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) pour plus d’informations. |
 | parameter= | Terme générique pour les valeurs additionnelles transmises par une mbox, généralement des paires nom/valeur. Non persistantes sauf si elles y sont forcées avec `profile.parameter` ou `user.parameter`. |
 
 ## Variables d’URL {#section_8F25958273164EBAA6DC659302993FD3}
