@@ -5,9 +5,9 @@ title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Tar
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1258'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 94%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
+## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 24 janvier | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour la version 2.11.4 d’at.js. |
-|  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Annoncé que les deux nouveaux profils ne sont pas encore disponibles. Ces notes seront mises à jour lorsque ces profils seront disponibles. |
-|  | [Forum aux questions sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ajout de questions fréquentes relatives à at.js dans un environnement d’application Ionic. Cette implémentation n’est ni testée ni recommandée. |
-| 22 janvier | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations importantes sur l’obsolescence d’iPad et d’iPhone dans la [!UICONTROL Navigateur] attribut audience qui nécessite des modifications de votre part avant le 30 avril 2024. |
-|  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Ajout d’une nouvelle section : <ul><li>Retrait des iPad et des iPhone de l’attribut d’audience de navigateur (30 avril 2024)</li></ul> |
+|  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Annonce que les deux nouveaux profils ne sont pas encore disponibles. Ces notes seront mises à jour lorsque ces profils seront disponibles. |
+|  | [Questions fréquentes sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr){target=_blank} | Ajout de questions fréquentes relatives à at.js dans un environnement d’application Ionic. Cette implémentation n’est ni testée ni recommandée. |
+| 22 janvier | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations importantes sur l’obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience [!UICONTROL Navigateur] qui nécessite des modifications de votre part avant le 30 avril 2024. |
+|  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Ajout d’une nouvelle section : <ul><li>Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 24.1.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 23.11.1 (13 et 14 novembre 2023)
