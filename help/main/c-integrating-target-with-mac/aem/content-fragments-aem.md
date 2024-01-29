@@ -1,13 +1,13 @@
 ---
-keywords: expérience;json;aem;adobe experience manager;exportation vers adobe target;fragments de contenu;fragments;CF;cf;headless;personnalisation;expérience
+keywords: experience;json;aem;adobe experience manager;exporter vers adobe target;fragments de contenu;fragments;CF;cf,découplé;personnalisation;expérimentation
 description: Découvrez comment utiliser les  [!DNL Adobe Experience Manager] [!UICONTROL fragments de contenu] dans les activités  [!DNL Adobe Target] .
 title: Comment utiliser les [!UICONTROL fragments de contenu]  [!DNL Adobe Experience Manager] (AEM) ?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Pour en savoir plus sur les [!UICONTROL fragments de contenu] et les [!UICONTROL
 
 ## Conditions {#requirements}
 
-Vous devez utiliser [[!DNL AEM]  as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Vous devez utiliser [[!DNL AEM]  as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
