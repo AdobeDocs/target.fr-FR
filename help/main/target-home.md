@@ -15,13 +15,13 @@ ht-degree: 100%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de votre clientèle afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : jeudi 24 janvier 2024 ([voir les modifications](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 24 janvier 2024 ([voir les modifications](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
 >En plus de ce guide, les guides [!DNL Adobe Target] suivants sont également disponibles :
 >
->- [*Guide de développement d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
+>- [*Guide de développement d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}
 >- [*Tutoriels Adobe Target*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr){target=_blank}
 >
 >Pour plus d’informations sur les versions, voir [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) dans ce guide.
@@ -56,7 +56,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Développeurs et développeuses {#developers}
 
-- [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} : ce portail fournit des ressources et des guides pour les développeurs [!DNL Adobe Target], y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
+- [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} : ce portail fournit des ressources et des guides pour les développeurs [!DNL Adobe Target], y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
 
 ## Administrateurs et administratrices Target et Adobe Experience Cloud {#admins}
 
