@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ Audiences intégrées créées à l’aide du [!DNL Target] L’interface utilis
 
 Si vous utilisez `user.browserType` dans les scripts de profil pour vérifier s’il s’agit d’une iPhone ou d’une iPad (par exemple, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), ces scripts de profil doivent être modifiés comme suit : [instructions ci-dessous](#profile-scripts) avant le 30 avril 2024 pour s’assurer que ces audiences continuent à fonctionner comme prévu.
 
+Les audiences JavaScript utilisant des scripts de profil sont des audiences héritées qui ont été abandonnées avec le [!DNL Target Classic] Interface utilisateur. Ces audiences peuvent uniquement être modifiées via l’API. Les clients ne doivent mettre à jour ces audiences que si vous utilisez des audiences héritées dans les activités de la nouvelle [!DNL Target Standard/Premium] Interface utilisateur.
+
 ### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur {#ui}
 
 Les paramètres suivants pourront être utilisés à l’avenir :
@@ -173,11 +175,11 @@ Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, 
 
 ### Audiences créées à l’aide de scripts de profil {#profile-scripts}
 
-Si vous utilisez `user.browserType` dans les audiences qui utilisent des scripts de profil, comme expliqué à la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
+Si vous utilisez `user.browserType` dans l’héritage [!DNL Target Classic] les audiences qui utilisent des scripts de profil, comme expliqué dans la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
 
 >[!NOTE]
 >
->La publication des profils suivants est prévue pour les prochains jours, à compter du 24 janvier 2024. La variable [notes de mise à jour actuelles](/help/main/r-release-notes/release-notes.md) sera mis à jour lorsque ces profils seront disponibles.
+>La publication des profils suivants est prévue pour les prochaines semaines, à compter du 24 janvier 2024. La variable [notes de mise à jour actuelles](/help/main/r-release-notes/release-notes.md) sera mis à jour lorsque ces profils seront disponibles.
 >
 >Ces profils permettent d’effectuer les modifications suivantes :
 >
