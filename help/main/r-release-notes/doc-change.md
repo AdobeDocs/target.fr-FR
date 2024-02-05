@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
-workflow-type: ht
-source-wordcount: '1258'
-ht-degree: 100%
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
+workflow-type: tm+mt
+source-wordcount: '1328'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 5 février | [Création d’une activité utilisant Analytics en tant que source de rapports](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom d’activité pour deux activités à partir d’espaces de travail distincts lors de l’utilisation de [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. |
+|  | [Questions fréquentes sur le paramétrage des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom d’activité pour deux activités à partir d’espaces de travail distincts lors de l’utilisation de [!UICONTROL Analytics pour Target] (A4T) comme source des rapports. |
 | 24 janvier | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour la version 2.11.4 d’at.js. |
 |  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Annonce que les deux nouveaux profils ne sont pas encore disponibles. Ces notes seront mises à jour lorsque ces profils seront disponibles. |
 |  | [Questions fréquentes sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr){target=_blank} | Ajout de questions fréquentes relatives à at.js dans un environnement d’application Ionic. Cette implémentation n’est ni testée ni recommandée. |
