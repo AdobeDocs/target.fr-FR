@@ -4,10 +4,10 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 35%
+source-wordcount: '1089'
+ht-degree: 36%
 
 ---
 
@@ -141,7 +141,7 @@ Audiences intégrées créées à l’aide du [!DNL Target] L’interface utilis
 
 Si vous utilisez `user.browserType` dans les scripts de profil pour vérifier s’il s’agit d’une iPhone ou d’une iPad (par exemple, `user.browserType == 'iphone'` ou `user.browserType != 'ipad'`), ces scripts de profil doivent être modifiés comme suit : [instructions ci-dessous](#profile-scripts) avant le 30 avril 2024 pour s’assurer que ces audiences continuent à fonctionner comme prévu.
 
-Les audiences JavaScript utilisant des scripts de profil sont des audiences héritées qui ont été abandonnées avec le [!DNL Target Classic] Interface utilisateur. Ces audiences peuvent uniquement être modifiées via l’API. Les clients ne doivent mettre à jour ces audiences que si vous utilisez des audiences héritées dans les activités de la nouvelle [!DNL Target Standard/Premium] Interface utilisateur.
+Les audiences JavaScript sont des audiences héritées utilisant des expressions Target obsolètes avec le [!DNL Target Classic] Interface utilisateur. Ces audiences peuvent uniquement être modifiées via l’API. Les clients ne doivent mettre à jour ces audiences que s’ils continuent à utiliser des audiences héritées dans les activités.
 
 ### Audiences créées à l’aide de la fonction [!DNL Target] Interface utilisateur {#ui}
 
@@ -175,7 +175,7 @@ Il existe de nombreux autres paramètres possibles qui peuvent être utilisés, 
 
 ### Audiences créées à l’aide de scripts de profil {#profile-scripts}
 
-Si vous utilisez `user.browserType` dans l’héritage [!DNL Target Classic] les audiences qui utilisent des scripts de profil, comme expliqué dans la section [Glossaire des profils et variables](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md), les modifications doivent inclure les éléments suivants :
+Si vous utilisez `user.browserType` dans l’héritage [!DNL Target Classic] audiences ou dans les scripts de profil, les modifications doivent inclure les éléments suivants :
 
 >[!NOTE]
 >
