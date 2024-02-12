@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,6 @@ Voici quelques cas d’utilisation possibles pour l’intégration de [!DNL Targ
 
 * **[!DNL Adobe Journey Optimizer]envoie un courrier électronique en bloc aux visiteurs qualifiés après une visite du site pour suggérer des articles populaires ;**: ce cas d’utilisation est basé sur le fait qu’un visiteur visite un site web, mais ne consulte aucun élément particulier. L&#39;email est envoyé en bloc à tous ceux qui répondent aux critères d&#39;une audience particulière, par exemple :
 
-  Supposons que le visiteur ne consulte aucune montre particulière. Il se peut que le visiteur ait simplement cliqué sur le site et visualisé des pages de catégorie ou des entrées de blog. Par conséquent, la variable [!DNL Target] profile ne contient pas d’informations spécifiques sur les articles récemment consultés. Dans ce cas, [!DNL Target Recommendations] peut utiliser une [recommandation de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs.md) so [!DNL Adobe Journey Optimizer] peut envoyer un email contenant des images et des liens vers des articles populaires sur le site web pour inciter le visiteur à revenir et éventuellement à faire un achat.
+  Supposons que le visiteur ne consulte aucune montre particulière. Il se peut que le visiteur ait simplement cliqué sur le site et visualisé des pages de catégorie ou des entrées de blog. Par conséquent, la variable [!DNL Target] profile ne contient pas d’informations spécifiques sur les articles récemment consultés. Dans ce cas, [!DNL Target Recommendations] utilise une [recommandation de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs.md) so [!DNL Adobe Journey Optimizer] peut envoyer un email contenant des images et des liens vers des articles populaires sur le site web pour inciter le visiteur à revenir et éventuellement à faire un achat.
 
 
