@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 8 février | [Prérécupération](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | Ajout d’une nouvelle section : &quot;Prérécupération des mbox avec des mesures de suivi des clics lors de l’utilisation d’Analytics for Target (A4T)&quot; |
+| 8 février | [Prérécupération](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=fr){target=_blank} | Ajout d’une nouvelle section : « Prérécupération des mbox avec des mesures de suivi des clics lors de l’utilisation d’Analytics for Target (A4T) » |
 | 5 février | [Création d’une activité utilisant Analytics en tant que source de rapports](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom pour deux activités provenant d’espaces de travail distincts lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) comme source des rapports. |
 |  | [Questions fréquentes sur le paramétrage des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom pour deux activités provenant d’espaces de travail distincts lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) comme source des rapports. |
-|  | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la pause de café de la communauté Adobe Target prévue pour le 7 février 2024. |
+|  | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations à propos de la pause-café de la communauté Adobe Target prévue pour le 7 février 2024. |
 | 24 janvier | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank} | Ajout de notes de mise à jour pour la version 2.11.4 d’at.js. |
 |  | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | Annonce que les deux nouveaux profils ne sont pas encore disponibles. Ces notes seront mises à jour lorsque ces profils seront disponibles. |
 |  | [Questions fréquentes sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr){target=_blank} | Ajout de questions fréquentes relatives à at.js dans un environnement d’application Ionic. Cette implémentation n’est ni testée ni recommandée. |
