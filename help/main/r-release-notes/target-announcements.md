@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Pourquoi devriez-vous y assister ?
 
      L’intelligence artificielle et le machine learning sont au cœur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement d’utilisation, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et du ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes en matière de contexte.
 
-     [Écoutez l&#39;enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recommendations haute performance**
    * **Mardi 13 février 2024**
