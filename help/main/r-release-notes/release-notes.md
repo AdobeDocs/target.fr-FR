@@ -7,9 +7,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 | Retrait | Détails |
 |--- |--- |
-| Les [!DNL iPad] et [!DNL iPhone] sont retirés de l’[attribut de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md), qui est utilisé lors de la création d’audiences.<p>Date de retrait :<P>30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la liste déroulante [!UICONTROL Navigateur] disponible lors de la création de catégories pour les audiences.</b><P>Audiences intégrées créées à l’aide du [!DNL Target] L’interface utilisateur, telle que &quot;Navigateur : iPad&quot; et &quot;Navigateur : iPhone&quot;, sera automatiquement déplacée vers la nouvelle définition d’audience.<p>Pour obtenir des exemples d’autres paramètres qui doivent être modifiés manuellement, voir [Abandon de l’attribut d’audience iPad et iPhone du navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| Les [!DNL iPad] et [!DNL iPhone] sont retirés de l’[attribut de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md), qui est utilisé lors de la création d’audiences.<p>Date de retrait :<P>30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la liste déroulante [!UICONTROL Navigateur] disponible lors de la création de catégories pour les audiences.</b><P>Les audiences intégrées créées à l’aide de l’interface utilisateur [!DNL Target], telles que « Navigateur : iPad » et « Navigateur : iPhone », seront automatiquement déplacées vers la nouvelle définition d’audience.<p>Pour obtenir des exemples de paramètres alternatifs à modifier manuellement, consultez [Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
 
