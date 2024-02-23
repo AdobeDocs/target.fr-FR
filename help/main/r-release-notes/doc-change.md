@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 100%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 février | [Adresses IP utilisées par [!DNL Recommendations] serveurs de traitement de flux](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Ajout de la remarque importante suivante et des nouvelles adresses IP que vous devez placer sur la liste autorisée.<P>**Important**: la variable [!DNL Target] L’équipe met actuellement à jour les adresses de passerelle NAT pour le téléchargement. [!DNL Recommendations] flux. Si vous implémentez l’liste autorisée IP, veillez à placer sur la liste autorisée les nouveaux hôtes AWS suivants. Les hôtes existants doivent être mis hors service le 30 juin 2024. Pour assurer une transition en douceur, placez sur la liste autorisée les neuf adresses. Il n&#39;est pas urgent de supprimer les adresses existantes. |
 | 8 février | [Prérécupération](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html?lang=fr){target=_blank} | Ajout d’une nouvelle section : « Prérécupération des mbox avec des mesures de suivi des clics lors de l’utilisation d’Analytics for Target (A4T) » |
 | 5 février | [Création d’une activité utilisant Analytics en tant que source de rapports](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom pour deux activités provenant d’espaces de travail distincts lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) comme source des rapports. |
 |  | [Questions fréquentes sur le paramétrage des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Ajout d’un texte spécifiant que vous ne pouvez pas utiliser le même nom pour deux activités provenant d’espaces de travail distincts lors de l’utilisation d’[!UICONTROL Analytics for Target] (A4T) comme source des rapports. |
