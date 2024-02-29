@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 76%
 
 ---
 
@@ -15,13 +15,28 @@ ht-degree: 100%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 22 janvier 2024**
+**Dernière mise à jour : jeudi 28 février 2024**
 
 >[!NOTE]
 >
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
+
+Cette version est programmée pour les jours suivants :
+
+* **4 mars** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **5 mars** : région Asie-Pacifique (APAC)
+* **6 mars** : région Amériques
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Correction de la logique qui calcule le nombre de sélecteurs uniques dans une activité. (TGT-47878)
+* Correction d’un problème qui provoquait [!UICONTROL Multivariate] (MVT) activités configurées avec [!UICONTROL Analytics pour Target] (A4T) de ne pas s’afficher correctement. (TGT-47490)
+* Amélioration du message d’avertissement affiché dans les rapports lorsqu’une expérience sans trafic est utilisée comme expérience de contrôle. (TGT-47537)
+* Ajout de nombreux correctifs d’arrière-plan et de localisation.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
