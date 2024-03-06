@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+workflow-type: tm+mt
+source-wordcount: '511'
+ht-degree: 63%
 
 ---
 
@@ -19,28 +19,26 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)
+## Mises à jour pour `Browser:iPad` et `Browser:iPhone` in [!UICONTROL Browser] Attributs d’audience (30 avril 2024)
 
-| Retrait | Détails |
+| Mises à jour | Détails |
 |--- |--- |
-| Les [!DNL iPad] et [!DNL iPhone] sont retirés de l’[attribut de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md), qui est utilisé lors de la création d’audiences.<p>Date de retrait :<P>30 avril 2024 | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P><B>À compter du 30 avril 2024, iPad et iPhone seront retirés de la liste déroulante [!UICONTROL Navigateur] disponible lors de la création de catégories pour les audiences.</b><P>Les audiences intégrées créées à l’aide de l’interface utilisateur [!DNL Target], telles que « Navigateur : iPad » et « Navigateur : iPhone », seront automatiquement déplacées vers la nouvelle définition d’audience.<p>Pour obtenir des exemples de paramètres alternatifs à modifier manuellement, consultez [Obsolescence de l’iPad et de l’iPhone dans l’attribut d’audience Navigateur (30 avril 2024)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| [!UICONTROL Browser:iPad] et [!UICONTROL Browser:iPhone] mis à jour dans [Attributs du navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilisé lors de la création d’audiences. | [!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les visiteurs qui utilisent une variable [options de navigateur ou de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) lorsqu’ils visitent votre page.<P>Commencer avec la méthode [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), audiences intégrées créées à l’aide de l’interface utilisateur de Target, telles que `Browser:iPad` et `Browser:iPhone` sera mis à jour afin d’effectuer un ciblage correct pour [!DNL iPad] et [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` et `profile.mobile.isTablet`.<P>Cette mise à jour ne nécessite aucune action du côté des clients.<p><B>Important</b>: pour que les clients effectuent un ciblage correct pour [!DNL iPad] et [!DNL iPhone] dans les scripts de profil (et les segments JavaScript), les modifications manuelles doivent être effectuées par le client **30 avril 2024**. Pour obtenir des exemples d’autres paramètres qui doivent être modifiés manuellement, voir [Mises à jour pour [!DNL iPad] et [!DNL iPhone] in [!UICONTROL Browser] attributs d’audience](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-## [!DNL Target] Standard/Premium 24.1.1 (22, 23 et 25 janvier 2024)
+## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 
 Cette version est programmée pour les jours suivants :
 
-* **22 janvier** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **23 janvier** : région Asie-Pacifique (APAC)
-* **25 janvier** : région des Amériques
+* **4 mars** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **5 mars** : région Asie-Pacifique (APAC)
+* **6 mars** : région Amériques
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Les activités [!UICONTROL Analytics for Target] (A4T) avec des mesures d’objectif de revenus n’affichaient pas « Revenus » comme nom de colonne et la mesure des revenus ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème d’ordre cosmétique qui a été corrigé. (TGT-46995)
-* Correction d’un problème en raison duquel les périodes des rapports ne fonctionnaient pas correctement. (TGT-47396)
-* Correction d’un problème qui entraîne l’affichage d’un statut incorrect sur la page [!UICONTROL Toutes les activités] après l’activation ou la désactivation d’une activité à l’aide de l’icône [!UICONTROL Plus d’actions]. (TGT-47367)
-* Correction d’un problème en raison duquel le rapport [!UICONTROL Attributs importants] ne s’affichait pas pour un seul client ou une seule cliente. (TGT-47272)
-* Correction d’un problème en raison duquel le message « Payload non valide » s’affichait lorsqu’un seul client ou une seule cliente tentait d’activer l’option « Authentification obligatoire ». (TGT-47195)
-* Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de [!DNL Target].
+* Correction de la logique qui calcule le nombre de sélecteurs uniques dans une activité. (TGT-47878)
+* Correction d’un problème qui provoquait [!UICONTROL Multivariate] (MVT) activités configurées avec [!UICONTROL Analytics for Target] (A4T) de ne pas s’afficher correctement. (TGT-47490)
+* Amélioration du message d’avertissement affiché dans les rapports lorsqu’une expérience sans trafic est utilisée comme expérience de contrôle. (TGT-47537)
+* Ajout de nombreux correctifs d’arrière-plan et de localisation.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
