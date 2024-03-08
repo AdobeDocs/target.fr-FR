@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: Comment utiliser les attributs d’entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ Exemple : `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Prend en charge plusieurs valeurs (liste délimitée par des virgules).
 
-Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-section &quot;cardigans&quot; (par exemple, womens, womens:sweaters, womens:sweaters:cardigans). Plusieurs catégories doivent être séparées par des virgules.
+Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section &quot;cardigans&quot; (par exemple, `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Plusieurs catégories doivent être séparées par des virgules.
 
 La variable `categoryId` est limitée à 250 caractères.
 
 >[!NOTE]
 >
->Pour afficher une recommandation basée sur une catégorie dans une page [!UICONTROL Catégorie], seule une `categoryId` peut être transférée à la mbox utilisée pour afficher cette recommandation spécifique. La valeur de `categoryId` doit correspondre exactement à la valeur de `entity.categoryId` transmise sur la page [!UICONTROL Détail du produit].
+>Pour afficher une recommandation basée sur une catégorie dans une [!UICONTROL Category] page, une seule `categoryId` peut être transmis dans la mbox utilisée pour afficher cette recommandation spécifique. La valeur de la variable `categoryId` doit correspondre exactement à la valeur de `entity.categoryId` transmis au [!UICONTROL Product Detail] page.
 
 Exemples :
 
-* Exemple de page Détails du produit : womens, womens:sweaters, womens:sweaters:cardigans
-* Exemple de page Catégorie Pulls : womens:sweaters
-* Exemple de carnets de page de catégorie : womans:sweaters:cardigans
+* Exemple de page Détails du produit : `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Exemple de page Catégorie Pulls : `womens:sweaters`
+* Exemple de carnets de page de catégorie : `womens:sweaters:cardigans`
 
 Pour les recommandations basées sur des catégories, une virgule sépare la valeur de la catégorie. Toutes les valeurs séparées par des virgules deviennent des catégories. Vous pouvez également définir des sous-catégories en utilisant un autre séparateur, tel que les deux-points (:), pour séparer les sous-catégories au sein de la valeur de catégorie.
 
@@ -117,7 +117,7 @@ Par exemple, dans le code suivant, la catégorie Femmes est divisée en plusieur
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Pour la diffusion de mbox, le nom d’attribut le plus long est utilisé pour la clé. S’il existe un lien, le dernier attribut est utilisé. Dans l’exemple ci-dessus, la clé de catégorie est Womens.:Outerwear:Jackets : Caban.
+Pour la diffusion de mbox, le nom d’attribut le plus long est utilisé pour la clé. S’il existe un lien, le dernier attribut est utilisé. Dans l’exemple ci-dessus, la clé de catégorie est `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
