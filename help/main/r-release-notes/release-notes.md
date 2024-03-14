@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 63%
+source-wordcount: '570'
+ht-degree: 57%
 
 ---
 
@@ -24,6 +24,14 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 | Mises à jour | Détails |
 |--- |--- |
 | [!UICONTROL Browser:iPad] et [!UICONTROL Browser:iPhone] mis à jour dans [Attributs du navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilisé lors de la création d’audiences. | [!DNL Adobe Target] vous permet de [cibler sur l’un des attributs de catégorie les plus courants](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les visiteurs qui utilisent une variable [options de navigateur ou de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) lorsqu’ils visitent votre page.<P>Commencer avec la méthode [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024), audiences intégrées créées à l’aide de l’interface utilisateur de Target, telles que `Browser:iPad` et `Browser:iPhone` sera mis à jour afin d’effectuer un ciblage correct pour [!DNL iPad] et [!DNL iPhone] using `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` et `profile.mobile.isTablet`.<P>Cette mise à jour ne nécessite aucune action du côté des clients.<p><B>Important</b>: pour que les clients effectuent un ciblage correct pour [!DNL iPad] et [!DNL iPhone] dans les scripts de profil (et les segments JavaScript), les modifications manuelles doivent être effectuées par le client **30 avril 2024**. Pour obtenir des exemples d’autres paramètres qui doivent être modifiés manuellement, voir [Mises à jour pour [!DNL iPad] et [!DNL iPhone] in [!UICONTROL Browser] attributs d’audience](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+## [!UICONTROL Visual Editing Helper] extension (14 mars 2023)
+
+Cette version de contient les améliorations et correctifs suivants pour le [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) extension pour [!DNL Google Chrome]:
+
+* Amélioration du mécanisme de chargement des iFrames lors de la création sur les sites web des clients.
+* Correction d’un problème en raison duquel l’extension dupliquait les cookies lors de la création dans le [!UICONTROL Visual Experience Composer] (VEC).
+* Suppression de la dépendance de téléchargement d’at.js pour les clients qui utilisent la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 
