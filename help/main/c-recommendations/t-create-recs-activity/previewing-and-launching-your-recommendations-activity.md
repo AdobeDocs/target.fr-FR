@@ -4,10 +4,10 @@ description: Découvrez comment prévisualiser votre Adobe [!DNL Target] Activit
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ Un fichier CSV est téléchargé. Ouvrez-le pour afficher les éléments recomma
 
 De gauche à droite est une liste d’éléments recommandés, dans ce cas le plus fréquemment consultés. Les recommandations sont séparées par environnement. Dans ce cas, seul l’environnement de production comporte des recommandations.
 
-Si un astérisque (*) est la première valeur d’une ligne, il indique les éléments de sauvegarde. Les éléments de sauvegarde s’affichent si tous les créneaux d’une conception ne peuvent pas être remplis par les éléments recommandés de l’algorithme (critères). Pour un algorithme de popularité tel que &quot;best sell&quot;, il ne peut y avoir que zéro ou une ligne hors sauvegarde pour chaque environnement dans le fichier CSV, car ces types d’algorithmes n’ont pas de &quot;clé&quot;, par exemple &quot;montrer au client les produits les plus populaires, indépendamment de ce qu’il consulte ou achète&quot;. Ainsi, contrairement à d’autres algorithmes basés sur des clés, par exemple view-view, la première valeur de la ligne n’est PAS la clé, mais le premier élément de la liste des éléments recommandés.
+Si un astérisque (*) est la première valeur d’une ligne, il indique [éléments de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s’affichent si tous les créneaux d’une conception ne peuvent pas être remplis par les éléments recommandés de l’algorithme (critères).
 
 Pour d’autres types d’algorithme basés sur une valeur de clé, comme [!UICONTROL People Who Viewed This, Viewed That], les valeurs clés (c’est-à-dire les éléments &quot;This&quot;) sont répertoriées dans la colonne la plus à gauche et les éléments recommandés (c’est-à-dire les éléments &quot;That&quot;) sont répertoriés de gauche à droite dans les colonnes de Recommendations_X.
 

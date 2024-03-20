@@ -2,25 +2,25 @@
 keywords: recommandation, sauvegarde, sauvegarde
 description: Découvrez comment utiliser les recommandations de sauvegarde dans Adobe [!DNL Target] Recommendations. Les recommandations qui ne comportent pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
 title: Comment utiliser une recommandation de sauvegarde dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 82%
+source-wordcount: '527'
+ht-degree: 77%
 
 ---
 
 # Utilisation d’une recommandation de sauvegarde
 
-Si vous utilisez la fonction de recommandation de sauvegarde dans Adobe Target, toute recommandation ne contenant pas suffisamment d’éléments recommandés n’affichera pas de contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
+Si vous utilisez la fonction de recommandation de sauvegarde dans [!DNL Adobe Target], toute recommandation ne contenant pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 
 Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandation ne comporte pas suffisamment d’articles pour remplir l’écran, le système présente le contenu par défaut à l’utilisateur.
 
 >[!NOTE]
 >
->Des informations supplémentaires sont incluses dans la variable [Section Contenu du critère Créer](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) rubrique, y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation de la variable [!UICONTROL Rendu de conception partiel] et [!UICONTROL Afficher Recommendations de sauvegarde] ensemble ou séparément.
+>Des informations supplémentaires sont incluses dans la variable [Section Contenu du critère Créer](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) rubrique, y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation de la variable [!UICONTROL Partial Design Rendering] et [!UICONTROL Show Backup Recommendations] ensemble ou séparément.
 
 La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 
@@ -49,4 +49,4 @@ Les doublons sont supprimés des lots de recommandations.
 
 L’utilisation des recommandations de sauvegarde fait généralement partie de la discussion avec l’équipe de mise en œuvre lors de la configuration initiale. Si vous souhaitez modifier la recommandation de sauvegarde après la mise en œuvre, contactez votre gestionnaire de compte.
 
-Si l’option Activer le rendu de conception partiel (voir [Paramètres de contenu](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) n’est pas activé et que le modèle ne s’affiche pas, la recommandation de sauvegarde ou le contenu par défaut s’affiche à la place.
+Si vous activez le rendu de conception partiel (voir [Paramètres de contenu](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content)) n’est pas activé et que le modèle ne s’affiche pas, la recommandation de sauvegarde ou le contenu par défaut s’affiche à la place.

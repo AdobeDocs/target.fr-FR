@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 57%
+source-wordcount: '552'
+ht-degree: 59%
 
 ---
 
@@ -31,7 +31,6 @@ Cette version de contient les améliorations et correctifs suivants pour le [[!D
 
 * Amélioration du mécanisme de chargement des iFrames lors de la création sur les sites web des clients.
 * Correction d’un problème en raison duquel l’extension dupliquait les cookies lors de la création dans le [!UICONTROL Visual Experience Composer] (VEC).
-* Suppression de la dépendance de téléchargement d’at.js pour les clients qui utilisent la variable [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1 (4-6 mars 2024)
 
