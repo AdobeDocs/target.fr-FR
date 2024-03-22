@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
+source-git-commit: a470b414705135885b0671cb2008315848703724
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 76%
@@ -124,3 +124,4 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 25 juillet | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md#edge) | Ajout d’informations sur la mise à niveau de l’infrastructure Edge prévue pour le 9 août 2023. |
 |  | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=fr){target=_blank} | Mise à jour des domaines NAT et IP pour les déploiements Edge 41-48. |
 | 24 juillet | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 23.7.1 de [!DNL Target Standard/Premium]. |
+
