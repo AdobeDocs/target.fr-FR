@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 78%
+source-wordcount: '1573'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 22 mars | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Suppression des références aux noeuds Edge 31 à 38, car ces noeuds n’existent plus. Vérifiez que votre liste autorisée est à jour. |
+|  | [Impact de l’obsolescence des cookies tiers sur Target (at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Nouvel article de blog décrivant ce que signifie l’abandon planifié des cookies tiers par Google pour votre [!DNL Adobe Target] Implémentation d’at.js. |
 | 14 mars | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout des notes de mise à jour pour la variable [!DNL Adobe Experience Platform Visual Editing Helper] pour [!DNL Google Chrome]. |
 | 13 mars | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | Ajout d’informations à noter pour réenregistrer les audiences basées sur le temps afin de prendre en compte l’heure d’été. |
 | 6 mars | [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) | Mise à jour des informations dans la section suivante : &quot;Mises à jour pour [!DNL iPad] et [!DNL iPhone] in [!UICONTROL Browser] Attributs d’audience (30 avril 2024)&quot;. |
