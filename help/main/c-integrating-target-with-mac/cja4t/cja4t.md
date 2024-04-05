@@ -7,7 +7,7 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -37,7 +37,7 @@ Tenez compte des informations suivantes avant d’utiliser la variable [!DNL Cus
    * Si votre organisation dispose d’un compte [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), voir [Spécification des rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs et utilisatrices*.
    * Si vous avez un compte [Target Premium](/help/main/c-intro/intro.md#premium), voir [Rôles et autorisations](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) dans *Autorisations des utilisateurs et utilisatrices d’Enterprise*.
 
-* Vous devez avoir un rôle dans [!DNL Adobe Experience Platform] pour configurer une activité de [!DNL Target] avec [!DNL Customer Journey Analytics] comme source des rapports. Pour plus d’informations, voir [Ajouter un rôle dans [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank} dans la section *Configurer des autorisations* du *Tutoriel sur l’architecture et l’ingénierie des données.*
+* Vous devez avoir un rôle dans [!DNL Adobe Experience Platform] pour configurer une activité de [!DNL Target] avec [!DNL Customer Journey Analytics] comme source des rapports. Pour plus d’informations, voir [Ajouter un rôle dans [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} dans la section *Configurer des autorisations* du *Tutoriel sur l’architecture et l’ingénierie des données.*
 * Selon vos paramètres, la création de rapports peut être modifiée par activité ou au niveau de l’organisation. Voir [Solution de création de rapports dans le cloud](/help/main/administrating-target/reporting.md#solution) dans *Configuration de la création de rapports dans Target*.
 * Utilisez une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données de plusieurs sources pour une même activité.
 * Lorsque vous définissez [!DNL Customer Journey Analytics] en tant que source de création de rapports, il vous est demandé de spécifier le sandbox pour la création de rapports. Pendant la configuration, vous ne voyez que les sandbox auxquels vous avez accès.
