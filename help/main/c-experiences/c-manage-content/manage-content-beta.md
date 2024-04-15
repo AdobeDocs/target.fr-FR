@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: 886ca4c924c83d182597d298eb4724a79a24faa2
+source-git-commit: fb6383c86503ac9a8313aed65418e9564c93aa1c
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '597'
 ht-degree: 29%
 
 ---
@@ -19,7 +19,7 @@ Utilisez la variable [!UICONTROL Offers] bibliothèque dans [!DNL Adobe Target] 
 
 >[!NOTE]
 >
->Cet article contient des informations sur la fonctionnalité Target actuellement intégrée à un programme bêta. L’équipe Adobe Target active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités seront activées pour tous les clients à l’avenir. [!DNL Target Standard/Premium] versions et annoncées dans les notes de mise à jour.
+>Cet article contient des informations sur la variable [!DNL Target] qui fait actuellement partie d’un programme bêta. La variable [!DNL Adobe Target] L’équipe active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités seront activées pour tous les clients à l’avenir. [!DNL Target Standard/Premium] versions et annoncées dans les notes de mise à jour.
 
 1. Cliquez sur **[!UICONTROL Offers]** pour ouvrir la bibliothèque.
 
