@@ -3,10 +3,13 @@ keywords: contenu;créer un dossier;ressources;déplacer le dossier;copier le do
 description: Comment créer des dossiers dans le [!UICONTROL Offers] bibliothèque ?
 title: Découvrez comment créer des dossiers dans le [!UICONTROL Offers] pour contenir les offres de code et d’image, ainsi que d’autres dossiers.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+hide: true
+hidefromtoc: true
+source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
