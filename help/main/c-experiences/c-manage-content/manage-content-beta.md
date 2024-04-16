@@ -7,10 +7,10 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
+source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 17%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -62,7 +62,7 @@ Vous pouvez effectuer les actions rapides suivantes en cliquant sur l’icône a
 
 ### Informations rapides
 
-Cliquez sur le bouton **[!UICONTROL Quick Info]** icône en regard de chaque nom d’offre pour afficher plus d’informations sur cette offre dans une carte contextuelle, notamment l’identifiant, le type, la date de dernière modification de l’offre et par qui, etc.
+Cliquez sur le bouton **[!UICONTROL Quick Info]** icône en regard de chaque nom d’offre pour afficher plus d’informations sur cette offre dans une carte contextuelle, notamment l’identifiant, le type, la date de dernière modification de l’offre et par qui, etc. Les options disponibles dépendent du type d&#39;offre : Offre HTML, [Offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -100,64 +100,68 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 >
 >Les offres d’images ne font pas partie de la [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) modèle.
 
-## Affichage des définitions d’offre {#section_6B059DD121434E6292CAB393507D010E}
+<!--
 
-Vous pouvez afficher les détails de la définition de l’offre sur une carte contextuelle dans le [!UICONTROL Offers] sans ouvrir l’offre.
+## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
-Par exemple, la carte de définition d’offre suivante pour une offre de HTML est accessible en pointant la souris sur une offre de la fonction [!UICONTROL Content] , puis cliquez sur l’icône d’informations :
+You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
 
-![image offer-card-html](assets/offer-card-html.png)
+For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
-Les informations suivantes sont disponibles :
+![offer-card-html image](assets/offer-card-html.png)
 
-* Nom
-* Source
-* Type
-* ID d’offre
-* Chemin de l’offre
-* Dernière modification
+The following information is available:
 
-Cliquez sur le bouton [!UICONTROL Offer Usage] pour afficher les activités qui référencent une offre de code dans la carte contextuelle de définition de chaque offre. Cette fonctionnalité ne s’applique pas aux offres d’image. Vous pouvez ainsi éviter toute répercussion sur les autres activités lorsque vous modifiez les offres. Informations incluses [!UICONTROL Live Activities] et [!UICONTROL Inactive Activities].
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer path 
+* Last Modified
 
-![image d’utilisation de carte-offre](assets/offer-card-usage.png)
+Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-L’illustration ci-dessous présente une carte de définition d’offre pour une offre de redirection :
+![offer-card-usage image](assets/offer-card-usage.png)
 
-![image de redirection par carte-offre](assets/offer-card-redirect.png)
+The following offer definition card for a Redirect offer:
 
-Les informations suivantes sont disponibles :
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
-* Nom
-* Source
-* Type
-* ID d’offre
-* Chemin de l’offre
-* Dernière modification
-* URL de redirection
-* Inclure tous les paramètres d’URL (Activé ou Désactivé)
-* Transmettre l’ID de session de mbox (activé ou désactivé)
+The following information is available:
 
-L’illustration ci-dessous présente une carte de définition d’offre pour une offre distante :
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL 
+* Include all URL parameters (On or Off) 
+* Pass mbox session ID (On or Off)
 
-![image-carte-offre-distante](assets/offer-card-remote.png)
+The following offer definition card for a Remote offer:
 
-Les informations suivantes sont disponibles :
+![offer-card-remote image](assets/offer-card-remote.png)
 
-* Nom
-* Source
-* Type
-* ID d’offre
-* Chemin de l’offre
-* Dernière modification
-* Type d’URL de redirection
-* URL absolue ou relative
+The following information is available:
 
-## Vidéo de formation : le référentiel de contenu ![Badge d’aperçu](/help/main/assets/overview.png)
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL Type 
+* Absolute or Relative URL
 
-Cette vidéo fournit des informations sur la gestion des offres.
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
-* Offres HTML personnalisées
-* Offre HTML personnalisée dans le compositeur d’expérience visuelle
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
