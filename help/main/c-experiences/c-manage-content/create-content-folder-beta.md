@@ -6,9 +6,9 @@ feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
@@ -19,7 +19,7 @@ Création de dossiers dans le [!DNL Adobe Target] [!UICONTROL Offer] pour conten
 
 Le processus de création de dossiers pour les offres de code et d’image diffère légèrement. Les sections suivantes contiennent plus d’informations.
 
-## Dossiers d’offres de code
+## [!UICONTROL Code Offer] dossiers
 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -35,7 +35,7 @@ Le processus de création de dossiers pour les offres de code et d’image diff�
 
 Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [Utilisation du contenu de la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## Dossiers des offres d’image
+## [!UICONTROL Image Offer] dossiers
 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
