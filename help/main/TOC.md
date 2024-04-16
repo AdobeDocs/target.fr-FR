@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 5d14dfd700cb1cec0fa62f66da1400bc8d7fd109
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 91%
 
 ---
@@ -247,10 +247,11 @@ ht-degree: 91%
    + [Compositeur d’expérience visuelle pour application d’une seule page](c-experiences/spa-visual-experience-composer.md)
    + Offres {#offers}
       + [Présentation des offres](c-experiences/c-manage-content/manage-content.md)
-      + [Présentation des offres bêta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
+      + [Présentation des offres bêta](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
       + [Création d’un dossier d’offres](c-experiences/c-manage-content/create-content-folder.md)
-      + [Créer une version bêta du dossier d’offres](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#offers} {#hidden}
-      + [Chargement de contenu](c-experiences/c-manage-content/assets-upload.md)
+      + [Créer une version bêta du dossier d’offres](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [Téléchargement de contenu](c-experiences/c-manage-content/assets-upload.md)
+      + [Chargement ou suppression d’offres d’image](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [Création d’offres de redirection](c-experiences/c-manage-content/offer-redirect.md)
       + [Créer des offres distantes](c-experiences/c-manage-content/about-remote-offers.md)
       + [Création d’offres JSON](c-experiences/c-manage-content/create-json-offer.md)

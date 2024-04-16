@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # Création de dossiers d’offres
 
 Création de dossiers dans le [!DNL Adobe Target] [!UICONTROL Offer] pour contenir des offres de code, des offres d’image, ainsi que d’autres dossiers afin de créer une structure de sous-dossiers.
+
+>[!NOTE]
+>
+>Cet article contient des informations sur les mises à jour apportées à la variable [!DNL Target] interface utilisateur qui fait actuellement partie d’un programme bêta. La variable [!DNL Adobe Target] L’équipe active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités seront activées pour tous les clients à l’avenir. [!DNL Target Standard/Premium] versions et annoncées dans les notes de mise à jour.
 
 Le processus de création de dossiers pour les offres de code et d’image diffère légèrement. Les sections suivantes contiennent plus d’informations.
 
