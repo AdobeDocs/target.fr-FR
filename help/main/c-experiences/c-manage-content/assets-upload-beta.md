@@ -1,14 +1,14 @@
 ---
 keywords: contenu;mettre à jour le contenu;ressources;télécharger du contenu;télécharger une ressource;supprimer du contenu
 description: Découvrez comment télécharger ou supprimer des images utilisées comme offres d’images.
-title: Comment télécharger ou supprimer du contenu dans la bibliothèque des offres ?
+title: Comment télécharger ou supprimer du contenu dans la [!UICONTROL Offers] Bibliothèque ?
 feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 13%
 
 ---
