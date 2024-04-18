@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 3ddd97008dc40634de876851c2d798eb57a6a3ee
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1240'
 ht-degree: 91%
 
 ---
@@ -253,6 +253,7 @@ ht-degree: 91%
       + [Téléchargement de contenu](c-experiences/c-manage-content/assets-upload.md)
       + [Chargement ou suppression d’offres d’image](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
       + [Création d’offres de redirection](c-experiences/c-manage-content/offer-redirect.md)
+      + [Créer des offres de redirection](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [Créer des offres distantes](c-experiences/c-manage-content/about-remote-offers.md)
       + [Création d’offres JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Utilisation du contenu de la bibliothèque](c-experiences/c-manage-content/assets-working.md)
