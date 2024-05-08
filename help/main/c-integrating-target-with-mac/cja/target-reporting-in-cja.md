@@ -4,10 +4,10 @@ description: Utilisation [!DNL Target] création de rapports dans [!DNL Adobe Cu
 title: Présentation [!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ Les types d’activité suivants sont pris en charge lors de l’utilisation de 
 ## Créer une activité utilisant [!DNL Customer Journey Analytics] en tant que source de création de rapports
 
 La création d’une activité [!DNL Target] qui utilise [!DNL Customer Journey Analytics] en tant que source de création de rapports est similaire à la configuration d’une activité [!DNL Target] standard.
+
+>[!TIP]
+>
+>Vous pouvez également indiquer que [!DNL Target] utilise la création de rapports dans [!DNL Customer Journey Analytics] pour toutes les activités créées dans votre compte (**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). Pour plus d’informations, voir *Solution Reporting Cloud* in [Configuration de la création de rapports dans [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. Dans la **[!UICONTROL Activities]** liste, cliquez sur **[!UICONTROL Create Activity]**, puis sélectionnez le type d’activité (en fonction du [graphique d’activités pris en charge ci-dessus](#supported-activities)) et commencez à configurer l’activité.
 1. Lorsque vous accédez au **[!UICONTROL Goals & Settings]** page du workflow de création de l’activité en trois parties, sélectionnez **[!DNL Customer Journey Analytics]** comme source des rapports.

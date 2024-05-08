@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3171'
 ht-degree: 48%
 
 ---
@@ -258,7 +258,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 
 Les questions fréquentes concernant les autorisations d’entreprise sont les suivantes :
 
-### Que se passe-t-il si un utilisateur dispose de plusieurs rôles et autorisations ? [#multiple-roles]
+### Que se passe-t-il si un utilisateur ou une utilisatrice dispose de plusieurs rôles et autorisations ? {#multiple-roles}
 
 Si un utilisateur dispose de plusieurs rôles et autorisations, le rôle avec les autorisations du navigateur est appliqué. Par exemple, si un utilisateur possède [!UICONTROL Observer] et [!UICONTROL Approver] les rôles, [!UICONTROL Approver] est appliqué.
 
