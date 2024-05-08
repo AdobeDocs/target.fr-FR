@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: f11f65a9dc88acca53c34cb2a151dffb390cfee7
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 91%
+source-wordcount: '1250'
+ht-degree: 90%
 
 ---
 
@@ -257,7 +257,9 @@ ht-degree: 91%
       + [Créer des offres distantes](c-experiences/c-manage-content/about-remote-offers.md)
       + [Créer des offres distantes bêta](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [Création d’offres JSON](c-experiences/c-manage-content/create-json-offer.md)
+      + [Création d’offres JSON bêta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
       + [Utilisation du contenu de la bibliothèque](c-experiences/c-manage-content/assets-working.md)
+      + [Utilisation du contenu de la bibliothèque version bêta](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
       + [Recherche de contenu](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Transmission de données dynamiques dans les offres](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM Experience et fragments de contenu](c-experiences/c-manage-content/aem-experience-fragments.md)
