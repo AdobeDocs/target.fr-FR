@@ -3,14 +3,11 @@ keywords: analytics du parcours client;analytics du parcours client pour target;
 description: Utilisation [!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics] pour créer des activités basées sur [!DNL Customer Journey Analytics] mesures de conversion et segments d’audience et utilisation [!DNL Customer Journey Analytics] rapports pour examiner les résultats.
 title: Présentation [!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 58%
+source-wordcount: '1005'
+ht-degree: 57%
 
 ---
 
