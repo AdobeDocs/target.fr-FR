@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # Chargement ou suppression d’offres d’image
 
-Vous pouvez télécharger des images vers le [!UICONTROL Image Offers] list in [!DNL Adobe Target] à utiliser comme offres d’image dans les activités. Vous pouvez également supprimer des offres d’image lorsqu’elles ne sont plus nécessaires dans les activités.
+Vous pouvez télécharger des images vers le [!UICONTROL Image Offers] page [!DNL Adobe Target] à utiliser comme offres d’image dans les activités. Vous pouvez également supprimer des offres d’image lorsqu’elles ne sont plus nécessaires dans les activités.
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Vous pouvez télécharger des images vers le [!UICONTROL Image Offers] list in [
 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Offres > Offres (images)](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![Offres > Offres (images)](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. Recherchez et sélectionnez l’élément à ajouter, puis cliquez sur **[!UICONTROL Open]**.
