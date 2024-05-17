@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 83c6f67b141a3dbaf58df3b6b3b1172930939537
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1741'
 ht-degree: 71%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 17 mai | [Résolution des problèmes liés à [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Ajout d’adresses IP supplémentaires que vous pouvez placer sur la liste autorisée lors de l’utilisation de la variable [!UICONTROL Enhanced Experience Composer]. |
 | 8 mai | [[!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nouvel article : ajout d’informations sur le [!DNL Target] intégration avec [!DNL Adobe Customer Journey Analytics]. |
 | 30 avril | [Résolution des problèmes liés à [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Mise à jour de la liste des adresses IP du serveur d’Adobe utilisé pour la liste autorisée du proxy du compositeur d’expérience avancé. |
 | 23 avril | [[!DNL Target] Notes de mise à jour (actuelles)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations expliquant le plan de Google pour commencer à désactiver les extensions créées à l’aide du manifeste V2. [!DNL Adobe] recommande aux clients de passer à la nouvelle [!UICONTROL Visual Editing Helper] l’extension dès que possible. |

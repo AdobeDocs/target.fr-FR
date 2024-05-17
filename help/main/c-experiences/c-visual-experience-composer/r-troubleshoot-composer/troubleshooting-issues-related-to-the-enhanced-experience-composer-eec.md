@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience avancé ?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ Cela peut être résolu en plaçant sur la liste autorisée les adresses IP suiv
 
 Demandez à votre équipe informatique de placer sur la liste autorisée les adresses IP suivantes :
 
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
@@ -66,7 +75,7 @@ Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres
 
    ![image firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si vous constatez que votre site web affiche TLS 1.0, voir [Modifications du chiffrement de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, contactez pour [Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour la configuration avec votre version TLS et le domaine.
+1. Si vous constatez que votre site web affiche TLS 1.0, voir [Modifications du chiffrement de TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} pour plus d’informations sur la politique de prise en charge de TLS de Target. Pour remédier à la situation (valable jusqu’au 12 septembre 2018){target=_blank}, contactez pour [Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour la configuration avec votre version TLS et le domaine.
 
 ## Je reçois des messages de délai d’expiration ou des erreurs « accès refusé » lors du chargement de sites où un serveur proxy est activé. (Compositeur d’expérience avancé uniquement)  {#section_60CBB9022DC449F593606C0E6252302D}
 
