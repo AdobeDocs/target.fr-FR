@@ -5,7 +5,7 @@ description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnalise
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 

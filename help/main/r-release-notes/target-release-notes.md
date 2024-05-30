@@ -5,9 +5,9 @@ title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans l
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 78%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : jeudi 8 mai 2024**
+**Dernière mise à jour : 8 mai 2024**
 
 >[!NOTE]
 >
@@ -23,17 +23,17 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics] (8 mai 2024)
+## Création de rapports [!DNL Target] dans [!DNL Adobe Customer Journey Analytics] (8 mai 2024)
 
-L&#39;intégration entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et d’économie de temps pour votre programme d’optimisation.
+L’intégration entre [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
 
 Les principaux avantages de l’utilisation de [!DNL Customer Journey Analytics] comme source de création de rapports pour [!DNL Target] sont les suivants :
 
 * Les personnes spécialisées dans le marketing peuvent appliquer dynamiquement les mesures de succès de [!DNL Customer Journey Analytics] aux rapports d’activités de [!DNL Target], à tout moment. Il n’est pas nécessaire de spécifier tous les éléments avant d’exécuter l’activité.
-* Les marketeurs peuvent tirer parti des [!DNL Customer Journey Analytics] les fonctions, telles que la fonction [Panneau d’expérience](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, afin d’analyser plus en détail la personnalisation de leur site web.
-* Les marketeurs peuvent avoir une source unique de création de rapports pour [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} et [!DNL Target]. Les deux produits de personnalisation peuvent être connectés à [!DNL Customer Journey Analytics] pour une vue plus holistique de votre personnalisation web.
+* Les personnes spécialisées dans le marketing tirent parti des fonctionnalités de [!DNL Customer Journey Analytics], telles que le [panneau Expérimentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}, afin d’analyser plus en détail la personnalisation de votre site web.
+* Les spécialistes du marketing disposent d’une source unique de création de rapports pour [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} et [!DNL Target]. Les deux produits de personnalisation peuvent être connectés à [!DNL Customer Journey Analytics] pour une vue plus holistique de votre personnalisation web.
 
-Pour plus d’informations, voir [Rapports Target dans Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+Pour plus d’informations, voir [Créer des rapports Target dans Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
