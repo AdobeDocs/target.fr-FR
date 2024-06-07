@@ -5,9 +5,9 @@ title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Tar
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1783'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 3 juin | [Priorité](/help/main/c-activities/priority.md) | Mise à jour de la rubrique entière, y compris l’indication du contenu de plusieurs [!UICONTROL Form-Based Experience Composer] et les activités du compositeur d’expérience visuelle peuvent être diffusées. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités d’après les formulaires pouvant être diffusées. |
+| 3 juin | [Priorité](/help/main/c-activities/priority.md) | Mise à jour de la rubrique entière, y compris l’indication selon laquelle le contenu de plusieurs activités [!UICONTROL Form-Based Experience Composer] et du compositeur d’expérience visuelle peut être diffusé. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités basées sur les formulaires pouvant être diffusées. |
 | 17 mai | [Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Ajout d’adresses IP supplémentaires à placer sur la liste autorisée lors de l’utilisation du [!UICONTROL Enhanced Experience Composer]. |
 | 8 mai | [[!DNL Target] création de rapports dans  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Nouvel article : ajout d’informations sur l’intégration de [!DNL Target] à [!DNL Adobe Customer Journey Analytics]. |
 | 30 avril | [Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Mise à jour des adresses IP du serveur Adobe utilisé sur la liste autorisée du proxy du compositeur d’expérience avancé. |
