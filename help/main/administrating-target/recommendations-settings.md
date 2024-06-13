@@ -2,13 +2,15 @@
 keywords: recommandations;implémenter des recommandations;code client;jeton d’authentification;secteur industriel vertical;mode de filtrage incompatible;groupe d’hôtes par défaut;base de miniatures;générer un jeton d’authentification;jeton d’authentification;
 description: Découvrez comment configurer les paramètres pour [!DNL Adobe Target Recommendations].
 title: Comment configurer les paramètres de Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Administration & Configuration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
+exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
+source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
