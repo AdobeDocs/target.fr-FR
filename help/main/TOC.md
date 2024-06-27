@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 89%
 
 ---
@@ -300,6 +300,7 @@ ht-degree: 89%
       + [Collections](c-recommendations/c-products/collections.md)
       + [Collections bêta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Exclusions](c-recommendations/c-products/exclusions.md)
+      + [Exclusions bêta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Critères {#criteria}
       + [Présentation des critères](c-recommendations/c-algorithms/algorithms.md)
       + [Création de critères](c-recommendations/c-algorithms/create-new-algorithm.md)

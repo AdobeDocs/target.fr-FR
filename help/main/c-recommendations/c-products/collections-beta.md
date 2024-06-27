@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 29%
@@ -83,7 +83,7 @@ Cliquez sur le bouton **ellipse** en regard de la collection souhaitée dans la 
 
 ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-Vous pouvez copier une collection existante pour créer une collection en double que vous pourrez ensuite modifier. Vous pouvez ainsi créer une exclusion similaire avec moins d’effort.
+Vous pouvez copier une collection existante pour créer une collection en double que vous pourrez ensuite modifier. Vous pouvez ainsi créer une collection similaire avec moins d’effort.
 
 Gardez à l’esprit que les collections sont disponibles pour l’ensemble du compte. Veillez à tenir compte de ce point avant de supprimer une collection. Les collections supprimées le sont définitivement.
 
