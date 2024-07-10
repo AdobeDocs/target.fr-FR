@@ -5,10 +5,10 @@ title: Comment utiliser les exclusions dans [!UICONTROL Recommendations] Activit
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 26%
+source-wordcount: '513'
+ht-degree: 18%
 
 ---
 
@@ -56,17 +56,17 @@ Voici quelques exemples d’utilisation des exclusions :
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-## Création d’une exclusion à l’aide de la recherche avancée
+<!-- ## Create an exclusion using Advanced Search
 
-Vous pouvez également créer des exclusions à l’aide de [!UICONTROL Advanced Search] sur le [Recherche catalogue](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Enregistrer sous, boîte de dialogue](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Après avoir créé une recherche avec &quot;id > contient&quot;, par exemple, vous pouvez cliquer sur [!UICONTROL Save As] > [!UICONTROL Exclusion].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Exclusion].
 
 >[!IMPORTANT]
 >
->La variable [!UICONTROL Advanced Search] Cette fonctionnalité n’est pas sensible à la casse. Toutefois, les produits renvoyés au moment de l’envoi sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
 
 ## Modification, copie ou suppression d’une exclusion
 

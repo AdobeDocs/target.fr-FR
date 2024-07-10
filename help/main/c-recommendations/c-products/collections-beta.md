@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '707'
+ht-degree: 26%
 
 ---
 
@@ -65,17 +65,17 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-## Créez une collection à l’aide de [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-Vous pouvez également créer des collections à l’aide de [!UICONTROL Advanced Search] sur le [Recherche catalogue](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![Enregistrer sous, boîte de dialogue](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Après avoir créé une recherche avec &quot;id > contient&quot;, par exemple, vous pouvez cliquer sur [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->La variable [!UICONTROL Advanced Search] Cette fonctionnalité n’est pas sensible à la casse. Toutefois, les produits renvoyés au moment de l’envoi sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections en fonction des résultats de l’utilisation de la variable [!UICONTROL Advanced Search] . Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## Modification, copie ou suppression d’une collection
 
@@ -100,12 +100,3 @@ Gardez à l’esprit que les collections sont disponibles pour l’ensemble du c
 1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Experiences]** (étape 2 du processus assisté en trois parties), cliquez sur un emplacement où vous avez placé les recommandations, puis cliquez sur **[!UICONTROL Change Collection]**, puis sélectionnez la collection souhaitée.
 
    ![Option Changer la collection](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## Vidéo de formation : création de collections et d’exclusions dans Recommendations (7:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
-
-Cette vidéo traite des sujets suivants :
-
-* Créer une collection
-* Créer une exclusion
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
