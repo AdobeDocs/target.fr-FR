@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 88%
+source-wordcount: '1291'
+ht-degree: 87%
 
 ---
 
@@ -315,6 +315,7 @@ ht-degree: 88%
       + [Téléchargement de la version bêta des critères personnalisés](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Règles d’inclusion dynamiques et statiques {#dynamic-static}
          + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [Utilisation de règles d’inclusion dynamiques et statiques bêta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Correspondance des attributs d’entité](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Correspondance des attributs de profil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [Correspondance des paramètres](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
