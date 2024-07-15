@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1320'
 ht-degree: 86%
 
 ---
@@ -325,8 +325,11 @@ ht-degree: 86%
          + [Filtre statique](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [Filtre statique bêta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
+      + [Utilisation d’une recommandation de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Utilisation des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Utilisation de la version bêta des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Utiliser Adobe Analytics avec Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Utilisation d’Adobe Analytics avec Recommendations bêta](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
