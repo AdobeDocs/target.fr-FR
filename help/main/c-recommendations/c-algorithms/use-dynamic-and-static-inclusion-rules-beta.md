@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 43986f4b83d0165b03046f52afd3cd6b5b42ab65
+source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1825'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ Les sections suivantes comprennent davantage d’informations :
 
    ![Ajouter une règle de filtrage](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. Pour choisir d’utiliser des règles d’inclusion dynamiques ou statiques, cliquez sur **Filtre statique** dans la zone &quot;Quelles autres règles doivent respecter la recommandation&quot;, puis sélectionnez l’option de votre choix dans la liste déroulante Filtre statique .
+1. Cliquez sur la liste déroulante **Filtre statique** dans la zone &quot;Quelles autres règles doivent respecter la recommandation&quot;, puis sélectionnez l’option de votre choix dans la liste déroulante [!UICONTROL Static Filter].
 
    ![Liste déroulante Filtre statique](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
