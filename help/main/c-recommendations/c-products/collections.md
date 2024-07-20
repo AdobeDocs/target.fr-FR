@@ -28,11 +28,11 @@ Vous pouvez regrouper vos éléments dans des catalogues, puis créer des recomm
 
 Les critères d’inclusion vous permettent d’effectuer des opérations similaires aux collections mais ils doivent être configurés chaque fois que vous créez une activité. Les collections vous permettent de créer un ensemble d’éléments une seule fois et de l’utiliser chaque fois que vous le souhaitez sans avoir à le configurer à nouveau.
 
-Lorsque vous créez ou modifiez une [!DNL Recommendations] , le nom de la collection s’affiche en regard de l’activité [!UICONTROL Criteria] libellé sur le diagramme d’activité.
+Lorsque vous créez ou modifiez une activité [!DNL Recommendations], le nom de la collection s’affiche en regard du libellé [!UICONTROL Criteria] sur le diagramme d’activités.
 
 >[!NOTE]
 >
->Les collections ne sont pas appliquées lors de l’utilisation de la variable [!UICONTROL Recently Viewed Items] clé de recommandation.
+>Les collections ne sont pas appliquées lors de l’utilisation de la clé de recommandation [!UICONTROL Recently Viewed Items].
 
 ## Création d’une collection {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,21 +42,21 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
    ![Liste des collections](assets/collections_list.png)
 
-   La variable [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer des collections, cliquez sur le bouton [!UICONTROL Create Collection] bouton . Vous pouvez également modifier, copier et supprimer des collections existantes en faisant glisser le curseur sur la collection souhaitée et en cliquant sur l’icône souhaitée.
+   La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer des collections, cliquez sur le bouton [!UICONTROL Create Collection] . Vous pouvez également modifier, copier et supprimer des collections existantes en faisant glisser le curseur sur la collection souhaitée et en cliquant sur l’icône souhaitée.
 
    ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le &quot;nombre d’éléments&quot; consigné pour chaque collection sur la variable [!UICONTROL Collections] le mode Liste est le nombre de produits correspondant aux règles de cette collection dans le Recommendations par défaut configuré. [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le &quot;nombre d’éléments&quot; consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de cette collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) par défaut configuré de Recommendations (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Collection]**.
 
-1. (Conditionnel) Choisissez un environnement dans la **[!UICONTROL Environment]** filtrer lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de cette collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Sélectionnez un environnement dans le filtre **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Création d’une collection ](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Saisissez un **[!UICONTROL Name]** pour la collection.
 
-   Vous pouvez également saisir une **[!UICONTROL Description]**.
+   Vous pouvez également saisir un **[!UICONTROL Description]** facultatif.
 
 1. Définissez les règles utilisées pour générer la collection.
 
@@ -68,11 +68,11 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
 ## Création d’une collection à l’aide de la recherche avancée
 
-Vous pouvez également créer des collections à l’aide de la fonction de recherche avancée de la fonction [Recherche catalogue](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Vous pouvez également créer des collections à l’aide de la fonctionnalité de recherche avancée de la page [Recherche catalogue](/help/main/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Enregistrer sous, boîte de dialogue](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Enregistrer comme boîte de dialogue](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-Après avoir créé une recherche avec &quot;id > contient&quot;, par exemple, vous pouvez cliquer sur [!UICONTROL Save As] > [!UICONTROL Collection].
+Après avoir créé une recherche à l’aide de &quot;id > contient&quot;, par exemple, vous pouvez cliquer sur [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
@@ -82,7 +82,7 @@ Après avoir créé une recherche avec &quot;id > contient&quot;, par exemple, v
 
 Passez la souris sur la collection souhaitée dans la liste, puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
 
-![Icônes de survol d’une collection](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![Icônes de survol pour une collection](/help/main/c-recommendations/c-products/assets/hover-collections.png)
 
 Vous pouvez copier une collection existante pour créer une collection en double que vous pourrez ensuite modifier. Vous pouvez ainsi créer une exclusion similaire avec moins d’effort.
 
@@ -92,15 +92,15 @@ Gardez à l’esprit que les collections sont disponibles pour l’ensemble du c
 
 1. Créez une collection à l’aide de l’une des méthodes mentionnées ci-dessus.
 
-1. Cliquez sur **[!UICONTROL Activities]** et [créer un Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) activité ou modifier une activité existante.
+1. Cliquez sur **[!UICONTROL Activities]** et [créer une activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou modifiez une activité existante.
 
-1. Une fois que vous avez sélectionné un critère et une conception, la variable [!UICONTROL Options] s’affiche lorsque vous sélectionnez une collection.
+1. Une fois que vous avez sélectionné un critère et une conception, la page [!UICONTROL Options] s’affiche lorsque vous sélectionnez la collection souhaitée.
 
    ![Choisir l’option de collection](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Experiences]** (étape 2 du processus assisté en trois parties), cliquez sur un emplacement où vous avez placé les recommandations, puis cliquez sur **[!UICONTROL Change Collection]**, puis sélectionnez la collection souhaitée.
+1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Experiences]** (étape 2 du processus assisté en trois parties), cliquez sur un emplacement où vous avez placé les recommandations, cliquez sur **[!UICONTROL Change Collection]**, puis sélectionnez la collection souhaitée.
 
-   ![Option Changer la collection](/help/main/c-recommendations/c-products/assets/change-collection.png)
+   ![Option de modification de la collection](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
 ## Vidéo de formation : création de collections et d’exclusions dans Recommendations (7:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

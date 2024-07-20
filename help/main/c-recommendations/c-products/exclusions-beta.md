@@ -1,7 +1,7 @@
 ---
 keywords: exclusions
-description: Découvrez comment créer des exclusions dans [!DNL Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
-title: Comment utiliser les exclusions dans [!UICONTROL Recommendations] Activités ?
+description: Découvrez comment créer des exclusions dans  [!DNL Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+title: Comment utiliser les exclusions dans les activités [!UICONTROL Recommendations] ?
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # Exclusions
 
-Création d’une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
+Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
 
-Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux collections, dans lesquelles vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une [!UICONTROL Recommendations] , les exclusions s’appliquent à toutes les activités sur l’ensemble du compte. Il n’existe pas d’option permettant d’affecter un groupe d’exclusion lors de la création de l’activité.
+Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités du compte. Il n’existe pas d’option permettant d’affecter un groupe d’exclusion lors de la création de l’activité.
 
 Voici quelques exemples d’utilisation des exclusions :
 
@@ -38,9 +38,9 @@ Voici quelques exemples d’utilisation des exclusions :
 
    ![image exclusions_list](assets/exclusions-list.png)
 
-   Le &quot;nombre d’éléments&quot; signalé pour chaque exclusion sur la variable [!UICONTROL Exclusions] le mode Liste est le nombre de produits correspondant aux règles de cette exclusion dans le Recommendations par défaut configuré. [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Voir [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
+   Le &quot;nombre d’éléments&quot; consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de cette exclusion dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) par défaut configuré de Recommendations (environnement). Pour plus d’informations sur la modification du groupe d’hôtes par défaut, voir [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur Adobe Target*.
 
-1. (Conditionnel) Cliquez sur le bouton [!UICONTROL Filter] , puis choisissez la [environnement](/help/main/administrating-target/environments.md) de la **[!UICONTROL Environment]** liste déroulante lors de la création (ou de la mise à jour) d’une exclusion pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Cliquez sur l’icône [!UICONTROL Filter], puis sélectionnez l’ [environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une exclusion pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Créer une exclusion](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
@@ -48,7 +48,7 @@ Voici quelques exemples d’utilisation des exclusions :
 
    ![Boîte de dialogue Créer une exclusion](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. Type d’exclusion **[!UICONTROL Name]** et saisissez une description facultative.
+1. Saisissez une exclusion **[!UICONTROL Name]** et une description facultative.
 
 1. Utilisez le créateur de règles pour créer les exclusions.
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modification, copie ou suppression d’une exclusion
 
-Cliquez sur le bouton **ellipse** en regard de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+Cliquez sur l’icône **ellipse** en regard de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : modification, copie ou suppression.
 
 ![Options : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 

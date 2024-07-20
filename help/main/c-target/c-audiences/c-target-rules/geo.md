@@ -1,47 +1,47 @@
 ---
 keywords: ciblage;a4t;géo;géociblage;précision du géociblage;pays;état;ville;code postal;dma;opérateur de téléphonie mobile;codes ville;codes région;codes pays;codes métro;scripts de profil;scripts de profil de géociblage;géociblage mobile
-description: Découvrez comment créer des audiences dans [!DNL Adobe Target] pour cibler les utilisateurs en fonction de leur emplacement géographique.
+description: Découvrez comment créer des audiences dans  [!DNL Adobe Target] pour cibler les utilisateurs en fonction de leur emplacement géographique.
 title: Puis-je cibler les visiteurs en fonction de leur emplacement ?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 47%
+source-wordcount: '1014'
+ht-degree: 41%
 
 ---
 
 # Géo
 
-Utilisation des audiences dans [!DNL Adobe Target] pour cibler les utilisateurs en fonction de leur emplacement géographique.
+Utilisez les audiences de [!DNL Adobe Target] pour cibler les utilisateurs en fonction de leur emplacement géographique.
 
-Les paramètres de géolocalisation vous permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque [!DNL Target] et repose sur l’adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
+Les paramètres de géolocalisation vous permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête [!DNL Target] et basées sur l’adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
 
 ## Création d’une audience avec le géociblage {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Glisser-déposer **[!UICONTROL Géo]** dans le volet audience builder.
+1. Faites glisser **[!UICONTROL Geo]** dans le volet du créateur d’audiences.
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
+1. Cliquez sur **[!UICONTROL Select]**, puis sélectionnez l’une des options suivantes :
 
-   * [!UICONTROL Pays/zone géographique]
-   * [!UICONTROL État]
-   * [!UICONTROL Ville]
-   * [!UICONTROL Code postal]
+   * [!UICONTROL Country/Region]
+   * [!UICONTROL State]
+   * [!UICONTROL City]
+   * [!UICONTROL Zip Code]
    * [!UICONTROL Longitude]
    * [!UICONTROL Latitude]
-   * [!UICONTROL Zone desservie (DMA)]
-   * [!UICONTROL Opérateur de téléphonie mobile]
+   * [!UICONTROL DMA]
+   * [!UICONTROL Mobile Carrier]
 
    Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.
 
-   Pour [!UICONTROL Opérateur de téléphonie mobile], [!DNL Target] utilise les données d’enregistrement de l’adresse IP (qui possède le bloc d’adresses IP) pour déterminer l’opérateur de téléphonie mobile approprié à l’aide de [Codes de pays mobile (MCC) et codes de réseau mobile (MNC)](https://www.mcc-mnc.com).
+   Pour [!UICONTROL Mobile Carrier], [!DNL Target] utilise les données d&#39;enregistrement des adresses IP (qui détient le bloc d&#39;adresses IP) pour déterminer l&#39;opérateur de téléphonie mobile approprié à l&#39;aide des [ Codes MCC (Mobile Country Codes, Indicatifs de pays du mobile) et des codes MNC (Mobile Network Codes, Codes de réseau mobile)](https://www.mcc-mnc.com).
 
 1. Indiquez un opérateur et la valeur appropriée.
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Done]**.
 
 L’illustration suivante présente une audience qui cible les utilisateurs accédant à l’activité à partir d’une latitude supérieure à 44° et d’une longitude inférieure à 22°.
 
@@ -49,7 +49,7 @@ L’illustration suivante présente une audience qui cible les utilisateurs acc�
 
 ## Précision {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. Lorsqu’un visiteur utilise une connexion de données cellulaires, la précision de la recherche géographique peut être affectée par la localisation, la relation des données du fournisseur avec [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)et d’autres facteurs. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. En outre, l’adresse IP d’un visiteur peut être mappée à l’emplacement du FAI du visiteur, qui peut ne pas être identique à l’emplacement réel du visiteur. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de la variable [API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. Lorsqu’un visiteur utilise une connexion de données cellulaires, la précision de la recherche géographique peut être affectée par la localisation, la relation des données du fournisseur avec [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) et d’autres facteurs. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. En outre, l’adresse IP d’un visiteur peut être mappée à l’emplacement du FAI du visiteur, qui peut ne pas être identique à l’emplacement réel du visiteur. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de l’ [API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Le tableau ci-après indique la précision des informations géographiques basées sur les adresses IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) pour les connexions Internet sur un réseau WiFi ou câblé. DigitalEnvoy offre les données les plus précises du secteur. La précision globale est de plus de 99,9 % au niveau du pays et atteint 97 % au niveau de la ville. Les informations sur la précision ne s’appliquent pas aux réseaux basés sur des antennes-relais.
 
@@ -88,7 +88,7 @@ Vous pouvez alors écrire une expression cible appelée « A partir des États-
 
 ## Utiliser les valeurs de géociblage comme jetons {#section_E7F7FDF62C3B4934A6565D04B24655F6}
 
-Vous pouvez utiliser `profile.geolocation` valeurs directement sous la forme de jetons dans les offres, les modules externes, etc.
+Vous pouvez utiliser des valeurs `profile.geolocation` directement comme jetons dans des offres, des modules externes, etc.
 
 Par exemple, utilisez :
 
@@ -108,7 +108,7 @@ Par exemple, utilisez :
 
 Les questions fréquentes sur le géociblage sont les suivantes :
 
-### Comment spécifier la latitude et la longitude ?
+### Comment spécifier la latitude et la longitude ?
 
 +++Voir les détails
 * La valeur de latitude et de longitude doit être une valeur numérique en degrés.
@@ -120,17 +120,19 @@ Les questions fréquentes sur le géociblage sont les suivantes :
 
 ### Comment le géociblage fonctionne-t-il pour les appareils mobiles ?
 
-+++Voir les détails La plupart des utilisateurs de périphériques mobiles accèdent au contenu par Wi-Fi, ce qui signifie [!DNL Target]Le géociblage basé sur les adresses IP de est aussi précis que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de la variable [API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
++++Voir les détails
+La plupart des utilisateurs d’appareils mobiles accèdent au contenu par Wi-Fi, ce qui signifie que le géociblage basé sur les adresses IP de [!DNL Target] est aussi précis que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de l’ [API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 +++
 
-### Comment la fonction géographique gère-t-elle les visiteurs provenant d’AOL ?
+### Comment la fonction géographique gère-t-elle les visiteurs provenant d’AOL ?
 
-+++Voir les détails en raison de la manière dont AOL effectue des proxys sur son trafic, [!DNL Target] ne peuvent les cibler qu’au niveau des pays. Par exemple, une campagne ciblée sur la France cible correctement les utilisateurs d’AOL en France. Mais une campagne ciblée sur Paris ne cible pas correctement les utilisateurs d’AOL à Paris. Si vous envisagez de cibler des utilisateurs d’AOL, vous pouvez affecter au champ Région la valeur « aol ». En fait, vous pouvez cibler des utilisateurs d’AOL aux États-Unis en spécifiant deux conditions de ciblage : Pays correspond exactement à « états-unis » et Région correspond exactement à « aol ».
++++Voir les détails
+En raison de la manière dont AOL effectue des proxys, [!DNL Target] ne peut les cibler qu&#39;au niveau du pays. Par exemple, une campagne ciblée sur la France cible correctement les utilisateurs d’AOL en France. Mais une campagne ciblée sur Paris ne cible pas correctement les utilisateurs d’AOL à Paris. Si vous envisagez de cibler des utilisateurs d’AOL, vous pouvez affecter au champ Région la valeur « aol ». En fait, vous pouvez cibler des utilisateurs d’AOL aux États-Unis en spécifiant deux conditions de ciblage : Pays correspond exactement à « états-unis » et Région correspond exactement à « aol ».
 
 +++
 
-### Quelle est la précision de la localisation fournie par le géociblage ?
+### Quelle granularité d’emplacement le géociblage offre-t-il ?
 
 +++Voir les détails
 * Pays : globale
@@ -142,36 +144,38 @@ Les questions fréquentes sur le géociblage sont les suivantes :
 
 +++
 
-### Comment puis-je faire pour tester mes activités si je ne me trouve pas dans mon lieu habituel ?
+### Comment puis-je faire pour tester mes activités si je ne me trouve pas dans mon lieu habituel ?
 
 +++Voir les détails
-* **at.js 1.*x***: Vous pouvez remplacer votre adresse IP par une adresse IP indiquant un autre emplacement et utiliser la variable `mboxOverride.browserIp url` . Par exemple, si votre société est installée au Royaume-Uni, mais que vos visiteurs ciblés pour les campagnes globales résident à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL en supposant que `60.234.0.39` est une adresse IP à Auckland :
+* **at.js 1.*x*** : vous pouvez remplacer votre adresse IP par une adresse IP indiquant un autre emplacement et utiliser le paramètre `mboxOverride.browserIp url`. Par exemple, si votre société est installée au Royaume-Uni, mais que vos visiteurs ciblés pour les campagnes globales résident à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL en supposant que `60.234.0.39` est une adresse IP à Auckland :
 
-   `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
+  `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
-   Effacez vos cookies avant de tester l’activité.
+  Effacez vos cookies avant de tester l’activité.
 
-   >[!NOTE]
-   >
-   >`mboxOverride.browserIp` est pris en charge dans at.js 1.*x* uniquement. Cette fonctionnalité n’est pas prise en charge dans at.js 2.*x*.
+  >[!NOTE]
+  >
+  >`mboxOverride.browserIp` est pris en charge dans at.js 1.*x* uniquement. Cette fonctionnalité n’est pas prise en charge dans at.js 2.*x*.
 
-* **Équivalent at.js 2.*x***: Pour remplacer votre adresse IP par at.js 2.*x*, installez une extension/un module externe de navigateur (comme X-Forwarded-For Header pour Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-transfer-for dans vos requêtes de page.
-
-+++
-
-### Comment les territoires tels que Porto Rico et Hong Kong sont-ils mappés dans la structure de géociblage ?
-
-+++Voir les détails Porto Rico, Hong Kong et d&#39;autres territoires sont traités comme des valeurs &quot;Pays&quot; distinctes.
+* **Équivalent at.js 2.*x*** : pour remplacer votre adresse IP par at.js 2.*x*, installez une extension/un module externe de navigateur (comme X-Forwarded-For Header pour Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-transfer-for dans vos requêtes de page.
 
 +++
 
-### Does [!DNL Target] capturer (et stocker) des informations telles que le code postal lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?
+### Comment les territoires, comme Porto Rico et Hong Kong, sont-ils mappés dans la structure de géociblage ?
 
-+++Voir les détails Non, [!DNL Target] utilise les données géographiques uniquement pendant la session, puis les données sont ignorées.
++++Voir les détails
+Porto Rico, Hong Kong et d&#39;autres territoires sont traités comme des valeurs &quot;Pays&quot; distinctes.
 
 +++
 
-## Vidéo de formation : Création d’audiences ![Badge du tutoriel](/help/main/assets/tutorial.png)
+### [!DNL Target] capture-t-il (et stocke-t-il) des informations telles que le code postal lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?
+
++++Voir les détails
+Non, [!DNL Target] utilise des données géographiques uniquement pendant la session, puis les données sont ignorées.
+
++++
+
+## Vidéo de formation : création d’audiences ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 

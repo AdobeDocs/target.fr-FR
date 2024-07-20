@@ -1,29 +1,31 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4T;redirection;offres de redirection;adobe-mc-sdid;adobe_mc_ref
-description: Trouver des réponses aux questions sur l’utilisation des offres de redirection lors de l’utilisation d’Analytics pour [!DNL Target] (A4T). A4T vous permet d’utiliser les rapports Analytics pour [!DNL Target] activités.
+description: Trouvez des réponses aux questions sur l’utilisation des offres de redirection lors de l’utilisation d’Analytics for [!DNL Target] (A4T). A4T vous permet d’utiliser les rapports Analytics pour les activités  [!DNL Target] .
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 47%
+source-wordcount: '1430'
+ht-degree: 44%
 
 ---
 
 # FAQ sur les offres de redirection - A4T
 
-Cette rubrique contient des réponses aux questions fréquentes sur l’utilisation des offres de redirection lors de l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T).
+Cette rubrique contient des réponses aux questions fréquentes sur l’utilisation des offres de redirection lors de l’utilisation de [!DNL Adobe Analytics] comme source des rapports pour [!DNL Adobe Target] (A4T).
 
 ## Analytics for Adobe Target (A4T) prend-il en charge les offres de redirection ? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-+++Répondez Oui, si votre mise en oeuvre utilise [!DNL at.js]. Toutefois, votre implémentation doit respecter la configuration minimale requise ci-dessous pour utiliser les offres [de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) dans les activités qui utilisent Analytics comme source de création de rapports.
++++Réponse
+Oui, si votre mise en oeuvre utilise [!DNL at.js]. Toutefois, votre implémentation doit respecter la configuration minimale requise ci-dessous pour utiliser les offres [de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) dans les activités qui utilisent Analytics comme source de création de rapports.
 
 +++
 
 ## Quelles sont les conditions minimales requises pour utiliser les offres de redirection avec A4T ? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
-+++Réponse Votre mise en oeuvre doit respecter les conditions minimales suivantes :
++++Réponse
+Votre mise en oeuvre doit répondre aux exigences minimales suivantes :
 
 * Service d’identification des visiteurs d’Experience Cloud : [!DNL visitorAPI.js] version 2.3.0 ou ultérieure.
 * Adobe Analytics : [!DNL appMeasurement.js] version 2.1.
@@ -35,30 +37,33 @@ Les trois bibliothèques doivent être incluses sur la page comportant l’offre
 
 ## Pourquoi y a-t-il parfois des incohérences de données entre A4T et Analytics ?
 
-+++Réponse Certaines incohérences de données sont attendues. Pour plus d’informations, voir [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
++++Réponse
+Certaines incohérences de données sont attendues. Pour plus d’informations, voir [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
 +++
 
 ## Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ? {#discrepancies}
 
-+++Réponse Un nombre limité de clients ont signalé des degrés de variation de trafic plus élevés lors de l’utilisation d’offres de redirection dans des activités configurées avec [!UICONTROL Analytics pour Target] (A4T).
++++Réponse
+Un nombre limité de clients ont signalé des degrés de variation de trafic plus élevés lors de l’utilisation d’offres de redirection dans des activités configurées avec [!UICONTROL Analytics for Target] (A4T).
 
 Tenez compte des points suivants :
 
-* Ordre incorrect de [!DNL Target] et [!DNL Analytics] les appels peuvent être responsables de degrés de variance plus élevés.
+* L’ordre incorrect des appels [!DNL Target] et [!DNL Analytics] peut être responsable de degrés d’écart plus élevés.
 
-   Le [!DNL Target] doit précéder l’appel [!DNL Analytics] appel sur la page source (où se produit la redirection) et sur la page de destination (où se termine la redirection).
+  L’appel [!DNL Target] doit précéder l’appel [!DNL Analytics] sur la page source (où se produit la redirection) et sur la page de destination (où se termine la redirection).
 
 * Assurez-vous d’utiliser les offres de redirection dans les activités de redirection A4T.
-* S’il existe plusieurs [!DNL Target] requêtes d’emplacement sur la page source (où la redirection a lieu), [!DNL Adobe] recommande d’exécuter l’activité de redirection sur la première [!DNL Target] requête d’emplacement.
+* S’il existe plusieurs demandes d’emplacement [!DNL Target] sur la page source (où la redirection a lieu), [!DNL Adobe] recommande d’exécuter l’activité de redirection sur la première demande d’emplacement [!DNL Target].
 
-   Exécuter l’activité de redirection sur la première [!DNL Target] la requête d’emplacement réduit les risques que des qualifications d’activité se produisent sur d’autres [!DNL Target] requêtes d’emplacement et comptage dans le rapport. Les visiteurs qui sont redirigés n’ont pas besoin d’être comptabilisés dans les rapports des autres activités, car ils ne verront pas les expériences.
+  L’exécution de l’activité de redirection sur la première requête d’emplacement [!DNL Target] réduit les chances que des qualifications d’activité se produisent sur d’autres requêtes d’emplacement [!DNL Target] et soient comptabilisées dans le rapport. Les visiteurs qui sont redirigés n’ont pas besoin d’être comptabilisés dans les rapports des autres activités, car ils ne verront pas les expériences.
 
 +++
 
 ## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-+++Réponse Lors de l’utilisation d’at.js version 1.6.3 ou ultérieure, le comptage des pages vues sur les deux pages n’est pas un problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour at.js si nécessaire pour vous assurer que vous utilisez une [version prise en charge](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
++++Réponse
+Lorsque vous utilisez at.js version 1.6.3 ou ultérieure, le comptage des pages vues sur les deux pages n’est pas un problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à niveau at.js si nécessaire pour vous assurer que vous exécutez une [version prise en charge](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.
 
 Si vous utilisez une version antérieure d’at.js non prise en charge, il est possible qu’une condition de concurrence puisse se produire et que l’appel Analytics se déclenche avant que la redirection ne s’exécute sur la première page. Cette situation peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Cette situation entraîne la comptabilisation d’une page vue supplémentaire sur la première page, bien que le visiteur ne l’ait jamais véritablement consultée.
 
@@ -70,7 +75,8 @@ L’utilisation des offres de redirection pour toutes les expériences de l’ac
 
 ## Le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires sont-ils tous les deux pris en charge ? {#section_FDA26FE7909B48539DA770559E687677}
 
-+++Répondez Oui, les deux compositeurs sont pris en charge tant que vous utilisez les offres de redirection intégrées.
++++Réponse
+Oui, les deux compositeurs sont pris en charge tant que vous utilisez les offres de redirection intégrées.
 
 Si vous utilisez votre propre code personnalisé pour la redirection, vous devez vous assurer de générer les deux nouveaux paramètres associés aux URL de redirection (`adobe_mc_sdid` et `adobe_mc_ref`, tel qu’expliqué ci-dessus).
 
@@ -78,11 +84,12 @@ Si vous utilisez votre propre code personnalisé pour la redirection, vous devez
 
 ## Quels sont les nouveaux paramètres de chaîne de requête ajoutés aux URL de redirection ? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
-+++Réponse Les paramètres de chaîne de requête suivants sont associés aux offres de redirection :
++++Réponse
+Les paramètres de chaîne de requête suivants sont associés aux offres de redirection :
 
 | Paramètre | Description |
 |--- |--- |
-| `adobe_mc_sdid` | Le `adobe_mc_sdid` transmet l’ID de données supplémentaire (SDID) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T de &quot;regrouper&quot; la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page.<br>Le format attendu pour transmettre sdid dans l’URL (pour les applications hybrides ou d’une application à un site web ou d’un site web à un autre) est `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | Le paramètre `adobe_mc_sdid` transmet l’ID de données supplémentaire (SDID) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T de &quot;regrouper&quot; la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page.<br>Le format attendu pour transmettre sdid dans l’URL (pour les applications hybrides ou d’une application à un site web ou d’un site web à un autre) est `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | Le paramètre `adobe_mc_ref` transfère l’URL de référence de la page par défaut vers la nouvelle page. Lorsqu’il est utilisé avec AppMeasurement.js version 2.1 (ou ultérieure), Analytics utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
 
 Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vous utilisez les offres de redirection intégrées dans le compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires, lorsque le service Identifiant visiteur est mis en œuvre dans la page. Si vous utilisez votre propre code de redirection personnalisé dans le compositeur d’expérience visuelle ou le compositeur d’expérience d’après les formulaires, vous devez vous assurer de transférer ces paramètres avec votre code personnalisé.
@@ -91,13 +98,15 @@ Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vou
 
 ## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-+++Répondre Contactez votre équipe informatique pour utiliser ces paramètres ( `adobe_mc_sdid` et `adobe_mc_ref`) placé sur la liste autorisée.
++++Réponse
+Contactez votre équipe informatique pour que ces paramètres ( `adobe_mc_sdid` et `adobe_mc_ref`) soient placés sur la liste autorisée.
 
 +++
 
 ## Que puis-je faire si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires s’ajoutent à mes URL ? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
-+++Réponse Utilisez une redirection personnalisée si :
++++Réponse
+Utilisez une redirection personnalisée si :
 
 * Vous n’utilisez pas A4T avec votre activité de redirection.
 * Le service d’identification des visiteurs est mis en oeuvre
@@ -107,50 +116,56 @@ Cependant, il est recommandé de conserver le paramètre `adobe_mc_ref` dans l�
 
 +++
 
-## Pourquoi les paramètres adobe_mc_ref and adobe_mc_sdid comportent-ils un codage URL double dans mon implémentation ? {#section_5EFE5F012B944C40865731EA18E7E79E}
+## Pourquoi les paramètres adobe_mc_ref et adobe_mc_sdid comportent-ils un codage URL double dans mon implémentation ? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
-+++Réponse Si vous utilisez A4T et que vous redirigez des offres, Target ajoute la variable `adobe_mc_ref` et `adobe_mc_sdid` à l’URL. Ces valeurs sont déjà en codage URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder à nouveau les paramètres de la chaîne de requête.
++++Réponse
+Si vous utilisez A4T et redirigez des offres, Target ajoute les paramètres `adobe_mc_ref` et `adobe_mc_sdid` à l’URL. Ces valeurs sont déjà en codage URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder à nouveau les paramètres de la chaîne de requête.
 
 En raison de ce double codage, lorsque l’API visiteur tente de décoder la valeur `adobe_mc_sdid`, elle ne parvient pas à extraire le SDID et en génère un nouveau. Ce processus entraîne l’envoi de valeurs SDID incorrectes à Target et Analytics et un fractionnement inégal des redirections dans les rapports Analytics.
 
-Adobe vous recommande de discuter avec votre équipe informatique pour vous assurer que `adobe_mc_ref` et `adobe_mc_sdid` sont placées sur la liste autorisée afin que ces valeurs ne soient jamais transformées.
+Adobe vous recommande de discuter avec votre équipe informatique pour vous assurer que `adobe_mc_ref` et `adobe_mc_sdid` sont placés sur la liste autorisée afin que ces valeurs ne soient jamais transformées.
 
 +++
 
 ## Pourquoi l’URL de référence doit-elle être transmise à la nouvelle page ? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-+++Réponse Supposons qu’un visiteur clique sur un lien de [!DNL `www.google.com`] à votre page d’accueil (`www.mysite.com/index.html`) sur laquelle une activité de redirection est active, puis est redirigée vers une nouvelle page (`www.mysite.com/index2.html`).
++++Réponse
+Supposons qu’un visiteur clique sur un lien sur [!DNL `www.google.com`] vers votre page d’accueil (`www.mysite.com/index.html`) sur laquelle une activité de redirection est active, puis qu’il soit redirigé vers une nouvelle page (`www.mysite.com/index2.html`).
 
-Auparavant, la requête [!DNL Analytics] sur la nouvelle page signalait l’URL de référence [!DNL `www.mysite.com/index.html`] au lieu de [!DNL `www.google.com`]. Dans [!DNL Analytics], cela générait des rapports inexacts concernant les URL de référence (dans les rapports sur les canaux marketing, par exemple). Les rapports manquaient la véritable provenance du visiteur, c’est-à-dire [!DNL `www.google.com`].
+Auparavant, la requête [!DNL Analytics] sur la nouvelle page signalait une URL de référence de [!DNL `www.mysite.com/index.html`] au lieu de [!DNL `www.google.com`]. Dans [!DNL Analytics], cela générait des rapports inexacts concernant les URL de référence (dans les rapports sur les canaux marketing, par exemple). Les rapports avaient perdu le fait que vous soyez venu sur le site depuis [!DNL `www.google.com`].
 
-Avec [!DNL at.js] version 0.9.6 (ou ultérieure) et [!DNL AppMeasurement.js] 2.1 (ou version ultérieure), la variable [!DNL Analytics] sur la nouvelle page, la requête signale une URL de référence de [!DNL `www.google.com`].
+Avec [!DNL at.js] version 0.9.6 (ou ultérieure) et [!DNL AppMeasurement.js] 2.1 (ou version ultérieure), la requête [!DNL Analytics] sur la nouvelle page signale une URL de référence de [!DNL `www.google.com`].
 
 +++
 
 ## Puis-je utiliser des offres de redirection/HTML personnalisées ? {#section_E49F9A83A286488C8F1098A040203D7E}
 
-+++Réponse Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T). Pour [!DNL Target], les offres HTML sont opaques : [!DNL Target] ne peut pas savoir si un code HTML spécifique contient le code JavaScript qui instancie une redirection.
++++Réponse
+Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T). Pour [!DNL Target], les offres HTML sont opaques : [!DNL Target] ne peut pas savoir si un code HTML spécifique contient le code JavaScript qui instancie une redirection.
 
 +++
 
-## ![Badge du SDK Web Adobe Experience Platform](/help/main/assets/platform.png) La variable [!DNL Adobe Experience Platform Web SDK] prendre en charge les offres de redirection pour A4T ? {#platform}
+## ![Badge du SDK Web Adobe Experience Platform](/help/main/assets/platform.png) Le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
 
-Les questions fréquentes suivantes fournissent des informations supplémentaires sur l’utilisation d’A4T et les offres de redirection avec le [!DNL Platform Web SDK].
+Les questions fréquentes suivantes fournissent plus d’informations sur l’utilisation d’A4T et les offres de redirection avec l’ [!DNL Platform Web SDK].
 
 ### Analytics for Target (A4T) prend-il en charge les offres de redirection ?
 
-+++Répondez Oui, A4T via le SDK Web de Platform prend en charge [offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
++++Réponse
+Oui, A4T via le SDK Web Platform prend en charge les [offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
 +++
 
-### Sont les [!UICONTROL Compositeur d’expérience visuelle] (VEC) et [!UICONTROL Compositeur d’expérience d’après les formulaires] pris en charge ?
+### Les [!UICONTROL Visual Experience Composer] (VEC) et [!UICONTROL Form-Based Experience Composer] sont-ils pris en charge ?
 
-+++Répondez Oui, le [[!UICONTROL Compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et la variable [[!UICONTROL Compositeur d’expérience d’après les formulaires]](/help/main/c-experiences/form-experience-composer.md) sont pris en charge si vous utilisez des offres de redirection intégrées.
++++Réponse
+Oui, les [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) sont pris en charge si vous utilisez des offres de redirection intégrées.
 
 +++
 
-### Puis-je utiliser des offres de redirection personnalisées/par HTML avec la variable [!DNL Platform Web SDK]?
+### Puis-je utiliser des offres de redirection personnalisées/par HTML avec [!DNL Platform Web SDK] ?
 
-+++Réponse Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent A4T. Dans la [!DNL Target] en perspective, les offres de HTML sont opaques. [!DNL Target] ne peut pas savoir qu’un HTML particulier contient du code JavaScript qui instancie une redirection.
++++Réponse
+Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent A4T. Du point de vue de [!DNL Target], les offres d’HTML sont opaques. [!DNL Target] ne peut pas savoir qu’un élément d’HTML particulier contient JavaScript qui instancie une redirection.
 
 +++

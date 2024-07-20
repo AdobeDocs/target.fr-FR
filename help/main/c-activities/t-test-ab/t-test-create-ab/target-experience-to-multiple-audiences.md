@@ -1,19 +1,19 @@
 ---
 keywords: audiences multiples, versions d’expérience, ciblage de versions d’expérience
-description: Découvrez comment cibler des versions d’une même expérience vers différentes audiences dans [!DNL Adobe Target] Activités A/B.
+description: Découvrez comment cibler des versions d’une même expérience sur différentes audiences dans les activités  [!DNL Adobe Target] A/B.
 title: Puis-je utiliser plusieurs versions d’expérience dans une activité A/B ?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: 3adf1e763e6fabec28aacd63219b8e53e638c1b6
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 56%
+source-wordcount: '590'
+ht-degree: 53%
 
 ---
 
 # Audiences d’expériences multiples dans un test A/B
 
-Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans [!DNL Adobe Target] Activités A/B. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
+Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans des activités A/B [!DNL Adobe Target]. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL Visual Experience Composer] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
 
 Les visiteurs peuvent basculer entre les audiences d’expérience à mesure que leur profil change. Les visiteurs ne sont pas bloqués dans la même expérience pendant la durée de vie de l’activité.
 
@@ -33,13 +33,13 @@ Dans ce cas, vous avez besoin de versions de l’expérience spécifiques à la 
 
    Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
 
-1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audience]** > **[!UICONTROL Audiences multiples]**.
+1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Option Audiences multiples](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter une audience]**, puis sélectionnez la première audience dont vous souhaitez effectuer le ciblage. Reproduisez cette procédure pour chaque audience.
+1. Cliquez sur **[!UICONTROL Add Audience]**, puis sélectionnez la première audience que vous souhaitez cibler. Reproduisez cette procédure pour chaque audience.
 
-   ![image exp-versions](assets/exp-versions.png)
+   ![image-exp-versions](assets/exp-versions.png)
 
    Si l’audience n’existe pas encore, cliquez sur [Créer une audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
 
@@ -51,4 +51,4 @@ Dans ce cas, vous avez besoin de versions de l’expérience spécifiques à la 
 
 * Choisissez des audiences mutuellement exclusives. Si l’activité a été créée dans le compositeur d’expérience visuelle, si un visiteur correspond à plusieurs audiences, le contenu de chaque audience est renvoyé, le contenu de l’audience étant répertorié pour la dernière fois s’affichant sur la page.
 * Les audiences d’entrée d’activité définies dans le diagramme sont combinées aux audiences d’expérience en utilisant la condition ET. Pour accéder à une activité, le visiteur doit répondre aux critères d’audience de l’activité et à ceux de l’une des audiences d’expérience.
-* Ajout des mêmes audiences en tant que segment pour la création de rapports. Vous pouvez ainsi consulter les résultats du test au niveau élevé de l’expérience A par rapport à B, et au niveau inférieur de l’expérience A par rapport à B pour le simple &quot;lang du navigateur ja_JP&quot;. Cela ne fonctionne que pour [!DNL Target]Rapports basés sur , pas [!DNL Analytics]Rapports basés sur .
+* Ajout des mêmes audiences en tant que segment pour la création de rapports. Vous pouvez ainsi consulter les résultats du test au niveau élevé de l’expérience A par rapport à B, et au niveau inférieur de l’expérience A par rapport à B pour le simple &quot;lang du navigateur ja_JP&quot;. Cela fonctionne uniquement pour les rapports basés sur [!DNL Target] et non sur [!DNL Analytics].

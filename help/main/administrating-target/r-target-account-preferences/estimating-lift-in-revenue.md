@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # Estimation de l’effet élévateur dans les recettes
 
-Utilisation [!DNL Adobe Target] pour estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
+Utilisez [!DNL Adobe Target] pour estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
 
 >[!NOTE]
 >
->L’effet élévateur estimé n’est pas disponible pour [!UICONTROL Ciblage d’expérience] (XT) actuellement.
+>L’effet élévateur estimé n’est pas disponible actuellement pour les activités [!UICONTROL Experience Targeting] (XT).
 
 La fonctionnalité d’effet élévateur estimé est désactivée par défaut. Elle peut être activée dans les préférences du compte. Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 
@@ -30,7 +30,7 @@ Cette estimation calcule le montant de l’effet élévateur obtenu par l’exp�
 
 L’effet élévateur en termes de revenu est calculé d’après le revenu par visite (RPV) obtenu à partir de l’indicateur d’objectif principal.
 
-L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+L’effet élévateur estimé est calculé selon la formule suivante : (&lt;RPV de l’expérience gagnante> - &lt;RPV de l’expérience de contrôle&lt;)&#42;&lt;nombre total de visiteurs dans l’activité>
 
 Le chiffre obtenu est arrondi à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la virgule (par exemple, 1,6M, 60K, 900, 8,5K, 205K).
 

@@ -2,31 +2,31 @@
 keywords: rapports;ciblage automatique;ciblage automatique;AT;rapport
 description: Découvrez comment interpréter le rapport de synthèse de ciblage automatique dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser le rapport de synthèse de ciblage automatique ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 53%
+source-wordcount: '667'
+ht-degree: 52%
 
 ---
 
 # Rapport de synthèse de ciblage automatique
 
-Informations sur la manière d’interpréter la variable [!UICONTROL Résumé du ciblage automatique] rapports dans [!DNL Adobe Target].
+Informations sur la manière d’interpréter les rapports [!UICONTROL Auto-Target Summary] dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
->Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [Target Premium](/help/main/c-intro/intro.md#premium).
+>[!UICONTROL Auto-Target] est disponible dans le cadre de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une [licence Target Premium](/help/main/c-intro/intro.md#premium).
 
-Pour afficher la variable [!UICONTROL Résumé du ciblage automatique] rapports :
+Pour afficher les rapports [!UICONTROL Auto-Target Summary] :
 
-1. Dans la [!UICONTROL Activités] , cliquez sur la page souhaitée. [!UICONTROL Ciblage automatique] activité.
+1. Sur la page [!UICONTROL Activities], cliquez sur l’activité [!UICONTROL Auto-Target] souhaitée.
 
-   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans la [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source de création de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure], et [!UICONTROL Source de l’activité] listes déroulantes.
+   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] et [!UICONTROL Activity Source].
 
-1. Cliquez sur le bouton [!UICONTROL Rapports] , puis cliquez sur l’icône de votre choix :
+1. Cliquez sur l’onglet [!UICONTROL Reports] , puis sur l’icône de votre choix :
 
    * Vue Tableau
    * Vue graphique
@@ -35,11 +35,11 @@ Pour afficher la variable [!UICONTROL Résumé du ciblage automatique] rapports 
 
 ## Vue Tableau
 
-L’illustration suivante présente à quoi ressemble un rapport de synthèse type dans [!UICONTROL Vue Tableau] lors de l’affichage d’une [!UICONTROL Ciblage automatique] rapport de l’activité :
+L’illustration suivante montre à quoi ressemble un rapport de synthèse type dans [!UICONTROL Table View] lors de l’affichage d’un rapport d’activité [!UICONTROL Auto-Target] :
 
-![Rapport d’affichage de tableau de ciblage automatique](/help/main/c-reports/assets/at-table-view.png)
+![Rapport d’affichage de table de ciblage automatique](/help/main/c-reports/assets/at-table-view.png)
 
-Quelques conseils et remarques à mesure que vous interprétez vos [!UICONTROL Ciblage automatique] rapports :
+Quelques conseils et remarques lors de l’interprétation de vos rapports [!UICONTROL Auto-Target] :
 
 * Les différentes lignes du tableau vous aident à comprendre les performances de l’activité.
 
@@ -52,23 +52,23 @@ Quelques conseils et remarques à mesure que vous interprétez vos [!UICONTROL C
    * Dans ce cas, pour augmenter la rapidité de construction des modèles par l’activité pour toutes les expériences, le trafic supplémentaire est envoyé aux expériences associées à des modèles non construits.
    * Il doit exister au moins deux expériences comportant des modèles construits (identifiés par une coche verte) pour que la personnalisation puisse débuter.
 
-* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans [!UICONTROL Ciblage automatique]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
+* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans [!UICONTROL Auto-Target]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
 * Les expériences présentant l’effet élévateur le plus élevé peuvent être interprétées comme ayant la différenciation la plus élevée dans la population. Ceci indique que l’algorithme a trouvé un segment qui aime davantage cette expérience particulière.
 * Les différentes colonnes du tableau indiquent le nombre de visites, le taux de conversion, l’effet élévateur moyen, le degré de confiance et le degré de confiance. Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Vue graphique
 
-L’illustration suivante présente à quoi ressemble un rapport de synthèse type dans [!UICONTROL Vue graphique] lors de l’affichage d’une [!UICONTROL Ciblage automatique] rapport de l’activité :
+L’illustration suivante montre à quoi ressemble un rapport de synthèse type dans [!UICONTROL Graph View] lors de l’affichage d’un rapport d’activité [!UICONTROL Auto-Target] :
 
-![Rapport d’affichage de graphique de ciblage automatique](/help/main/c-reports/assets/at-graph-view.png)
+![Rapport de vue de graphique de ciblage automatique](/help/main/c-reports/assets/at-graph-view.png)
 
-Comme illustré ci-dessous, vous pouvez utiliser les deux listes déroulantes pour choisir les mesures souhaitées, la méthodologie de calcul, etc. Voir [Paramètres des rapports - Aperçu](/help/main/c-reports/c-report-settings/report-settings.md) pour plus d’informations :
+Comme illustré ci-dessous, vous pouvez utiliser les deux listes déroulantes pour choisir les mesures souhaitées, la méthodologie de calcul, etc. Pour plus d’informations, consultez la [présentation des paramètres de rapport](/help/main/c-reports/c-report-settings/report-settings.md) :
 
-![Rapport d’affichage de graphique de ciblage automatique](/help/main/c-reports/assets/at-graph-view-2.png)
+![Rapport de vue de graphique de ciblage automatique](/help/main/c-reports/assets/at-graph-view-2.png)
 
 ## Segments automatisés
 
-Cliquez sur le bouton [!UICONTROL Segments automatisés] icône . Ce rapport montre comment différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
+Cliquez sur l’icône [!UICONTROL Automated Segments] . Ce rapport montre comment différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
 ![Icône Segments automatisés](/help/main/c-reports/assets/icon-automated-sements.png)
 
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Rapport Segments automatisés](/help/main/c-re
 
 ## Attributs importants
 
-Cliquez sur le bouton [!UICONTROL Attributs importants] icône . Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
+Cliquez sur l’icône [!UICONTROL Important Attributes] . Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
 ![Icône Attributs importants](/help/main/c-reports/assets/icon-important-attributes.png)
 

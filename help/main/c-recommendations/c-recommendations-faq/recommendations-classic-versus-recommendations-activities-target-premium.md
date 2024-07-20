@@ -2,17 +2,17 @@
 keywords: Recommendations;algorithmes de recommandations;activité Recommendations;Recommendations Classic
 description: Consultez les informations pour vous aider à comprendre les différences entre l’ancienne version Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium.
 title: Quelle est la différence entre Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 97%
+source-wordcount: '652'
+ht-degree: 88%
 
 ---
 
-# Recommendations Différences entre les activités Classic et Recommendations dans [!DNL Target] Premium
+# Différences entre Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium
 
 Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités Recommendations dans Target Premium.
 
@@ -30,35 +30,35 @@ L’activité [!DNL Recommendations] de [!DNL Target] améliore [!DNL Recommenda
 
 ## Recommendations en tant qu’offre
 
-Vous pouvez maintenant inclure des recommandations dans les activités de [!UICONTROL test A/B] (dont l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique]) et de [!UICONTROL ciblage d’expérience] (XT).
+Vous pouvez inclure des recommandations dans les activités [!UICONTROL A/B Test] (y compris [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target]) et [!UICONTROL Experience Targeting] (XT).
 
 Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Dirigez automatiquement le trafic vers les recommandations les plus performantes à l’aide de l’[!UICONTROL affectation automatique].
-* À l’aide du [!UICONTROL ciblage automatique], affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil.
+* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de [!UICONTROL Auto-Allocate].
+* Affectez dynamiquement les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil à l’aide de [!UICONTROL Auto-Target].
 
-Pour commencer, créez une activité de [!UICONTROL test A/B] ou de [!UICONTROL ciblage d’expérience] à l’aide du [!UICONTROL compositeur d’expérience visuelle], puis utilisez l’action [!UICONTROL Insérer avant], [!UICONTROL Insérer après] ou [!UICONTROL Remplacer par] pour ajouter des recommandations à une expérience.
+Pour commencer, créez une activité [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] à l’aide de [!UICONTROL Visual Experience Composer] et utilisez l’action [!UICONTROL Insert Before], [!UICONTROL Insert After] ou [!UICONTROL Replace With] pour ajouter des recommandations à une expérience.
 
-Pour plus d’informations, voir [Recommendations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
+Pour plus d’informations, consultez [Recommendations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 ## Critères {#section_117709846DAA404580EBE879FFCBD9BA}
 
 [!DNL Target Recommendations] comprend une bibliothèque de critères contenant des jeux de règles et de configurations prédéfinis. Dans [!DNL Recommendations Classic], chaque recommandation a été générée manuellement en remplissant un formulaire et en effectuant une sélection à partir d’une liste volumineuse de règles. Désormais, lorsque vous créez une activité [!DNL Recommendations], vous sélectionnez simplement un jeu de critères préconfiguré. Vous pouvez toujours créer des recommandations personnalisées, mais la bibliothèque de critères comporte la plupart des configurations les plus courantes, prédéfinies pour simplifier le processus et utilisant une langue que les utilisateurs comprennent. Les critères prédéfinis peuvent être utilisés en l’état ou vous pouvez les copier et les modifier pour répondre à vos besoins spécifiques.
 
-![image overview_critères](assets/overview_criteria.png)
+![overview_critères image](assets/overview_criteria.png)
 
 Les critères sont préconfigurés et triés par secteur industriel vertical, par type de page et par mise en œuvre. Par exemple, vous pouvez rechercher les critères qui s’appliquent au secteur du commerce de détail pour les utiliser sur une page de produits affichant les produits d’une catégorie spécifique (telle que définie par le paramètre `entity.categoryID`).
 
 Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-## Processus {#section_76B4A26297BF422382DE2C79A2713D3C}
+## Workflow {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Le processus de [!DNL Recommendations] a été simplifié. Au lieu de remplir des formulaires complexes, vous suivez un processus permettant de :
 
 1. sélectionner des critères ;
-1. sélectionner une conception  [conception](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Sélectionnez une [conception](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) préconfigurée.
 1. prévisualiser les recommandations obtenues.
 
 ## Aperçu visuel  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
@@ -75,4 +75,4 @@ Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les act
 
 Dans [!DNL Target], [!DNL Recommendations] fournit une fonctionnalité de création de rapports améliorée qui tire parti des fonctionnalités de [!DNL Target] et de [!DNL Experience Cloud]. Au lieu d’afficher seulement l’effet élévateur fourni par les [!DNL Recommendations] comparé aux résultats sans elles, vous pouvez afficher des informations complètes sur votre activité [!DNL Recommendations].
 
-![image overview_report](assets/overview_report.png)
+![}image overview_report](assets/overview_report.png)

@@ -13,17 +13,17 @@ ht-degree: 35%
 
 # [!UICONTROL Time Frame]
 
-Vous pouvez ajouter des dates et heures de début et de fin dans la variable [!DNL Adobe Target] pour cibler les utilisateurs qui visitent votre site au cours d’une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
+Vous pouvez ajouter des dates et heures de début et de fin dans [!DNL Adobe Target] pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
 
-Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc combinées](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenu spécifique pendant les trois jours précédant Noël et de contenu différent après Noël.
+Par exemple, en utilisant la [ fonction d’audiences ad hoc combinées](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenu spécifique pendant les trois jours précédant Noël et de contenu autre après Noël.
 
-1. Dans le [!DNL Target] interface, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Glisser-déposer **[!UICONTROL Time Frame]** dans le volet audience builder.
+1. Faites glisser **[!UICONTROL Time Frame]** dans le volet du créateur d’audiences.
 
    ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
-1. Spécifiez la variable [!UICONTROL Start] et [!UICONTROL End] dates et heures pour l’audience.
+1. Spécifiez les dates et heures [!UICONTROL Start] et [!UICONTROL End] pour l’audience.
 
    Laissez la date de début vide pour lancer le ciblage conformément à la planification de l’activité. Laissez la date de fin vide pour poursuivre le ciblage jusqu’aux date et heure de fin de l’activité.
 
@@ -35,19 +35,19 @@ Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc comb
    >
    >* Le fuseau horaire des dates de début et de fin s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte et non au niveau du visiteur. Par exemple, le fuseau horaire de la Californie s’affiche comme suit : GMT -08:00.
    >
-   >* [!DNL Target] les audiences horaires ne prennent pas en compte les modifications de l’heure d’été. Vous devez enregistrer à nouveau manuellement les audiences afin de prendre en compte les modifications de l’heure d’été.
+   >* [!DNL Target] fois que les audiences ne prennent pas en compte les modifications de l’heure d’été (DST). Vous devez enregistrer à nouveau manuellement les audiences afin de prendre en compte les modifications de l’heure d’été.
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Set frequency]** pour définir des schémas récurrents, y compris les jours de la semaine et les heures.
 
    ![Partage de semaine et de journée](assets/week_and_day_parting.png)
 
-   Vous pouvez utiliser [!UICONTROL Frequency] par exemple, pour afficher une option &quot;Chat Now&quot; aux visiteurs uniquement pendant les jours et heures où votre centre d’appel est en service.
+   Vous pouvez utiliser les options [!UICONTROL Frequency], par exemple, pour afficher une option &quot;Chat Now&quot; aux visiteurs uniquement pendant les jours et heures où votre centre d’appel est en service.
 
    Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Add frequency]** pour spécifier d’autres modèles, suivant vos besoins.
 
    >[!NOTE]
    >
-   >Le fuseau horaire de [!UICONTROL Week and Day Parting] s’affiche au format GMT +/- NN:NN, où NN:NN correspond au décalage par rapport au fuseau horaire GMT et reflète le fuseau horaire au niveau du compte plutôt que celui du visiteur. Par exemple, le fuseau horaire de la Californie pour l’heure d’été du Pacifique s’affiche au format GMT -07:00.
+   >Le fuseau horaire de [!UICONTROL Week and Day Parting] s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte plutôt qu’à celui du visiteur. Par exemple, le fuseau horaire de la Californie pour l’heure d’été du Pacifique s’affiche au format GMT -07:00.
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
 

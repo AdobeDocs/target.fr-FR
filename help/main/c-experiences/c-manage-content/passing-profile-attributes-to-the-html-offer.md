@@ -1,19 +1,19 @@
 ---
 keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-description: Découvrez comment transmettre des données dynamiques dans [!DNL Adobe Target] Offres.
+description: Découvrez comment transmettre des données dynamiques dans les  [!DNL Adobe Target] offres.
 title: Comment puis-je transférer des données dynamiques dans des offres ?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # Transmission de données dynamiques dans les offres
 
-Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées dans la variable [!DNL Adobe Target] profile. De même, les informations sur l’activité (comme le nom de l’activité ou le nom de l’expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
+Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées dans le profil [!DNL Adobe Target]. De même, les informations sur l’activité (comme le nom de l’activité ou le nom de l’expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
 
 ## Cas d’entreprise
 
@@ -23,14 +23,14 @@ Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées 
 
 ## Avantages techniques
 
-Les préférences, les comportements et l’état spécifiques au visiteur pouvant être stockés dans le profil du visiteur, vous pouvez répéter ce message lors de leurs prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Le contenu de votre site web change automatiquement pour refléter les modifications des intentions du visiteur.
+Comme les préférences, les comportements et l’état spécifiques au visiteur peuvent être stockés dans le profil du visiteur, vous pouvez répéter ce message lors de leurs prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Le contenu de votre site web change automatiquement pour refléter les modifications des intentions du visiteur.
 
 ## Exemple
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * Code offre HTML : `Get your ${profile.keyword} information here!`
-* Le visiteur voit : Trouvez vos informations sur la Coupe du Monde ici !
+* Le visiteur voit : Renseignez-vous sur la Coupe du Monde ici !
 
 Les valeurs suivantes peuvent être « remplacées par un jeton » :
 
@@ -47,7 +47,7 @@ Les valeurs suivantes peuvent être « remplacées par un jeton » :
 
 Consigner les informations dans la console à des fins de débogage, telles que `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Pour [!DNL Recommendations] conceptions, voir d’autres exemples dans [Aperçu de la conception](/help/main/c-recommendations/c-design-overview/design-overview.md).
+Pour [!DNL Recommendations] conceptions, reportez-vous à d’autres exemples dans [Aperçu de la conception](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## Mise en œuvre
 
@@ -59,7 +59,7 @@ Pour les paramètres de profil créés dans un script de profil, utilisez la syn
 
 `${user.parameter}`
 
-Lors de l’utilisation d’attributs dynamiques dans une [!DNL Recommendations] conception, vous devez insérer une barre oblique inverse ( \ ) avant le symbole du dollar ( $ ) pour que la valeur dynamique soit correctement rendue :
+Lors de l’utilisation d’attributs dynamiques dans une conception [!DNL Recommendations], vous devez insérer une barre oblique inverse ( \ ) avant le symbole du dollar ( $ ) pour que la valeur dynamique soit correctement rendue :
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -73,7 +73,7 @@ Lorsque `testAttribute` n’existe pas ou n’est pas renseigné, sélectionnez 
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si votre valeur comporte une apostrophe, par exemple, vous pouvez ajouter une séquence d’échappement afin de ne pas interrompre le code JavaScript sur la page. (Les offres sont écrites en JavaScript. Une apostrophe peut donc être prise pour un guillemet simple.) Par exemple :
+Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si votre valeur comporte une apostrophe, par exemple, vous pouvez ajouter une séquence d’échappement afin qu’elle ne rompe pas le JavaScript sur la page. (Les offres sont écrites en JavaScript. Une apostrophe peut donc être prise pour un guillemet simple.) Par exemple :
 
 `${user.encodedValue encode="unescape"}`
 

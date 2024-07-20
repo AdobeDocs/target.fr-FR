@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Vous devez disposer de l’une des autorisations utilisateur suivantes pour générer un jeton d’authentification :
 
-* Au minimum l’autorisation [!UICONTROL Éditeur] (ou [!UICONTROL Approbateur])
+* Au moins [!UICONTROL Editor] autorisations (ou [!UICONTROL Approver])
 
-   Pour plus d’informations concernant les clients [!DNL Target Standard], consultez [Spécifier les rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations concernant les clients [!DNL Target Premium], consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Pour plus d’informations concernant les clients [!DNL Target Standard], consultez [Spécifier les rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations concernant les clients [!DNL Target Premium], consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Rôle d’administrateur au niveau de l’espace de travail/du profil de produit
 
-   Les espaces de travail sont disponibles uniquement pour les clients [!DNL Target Premium]. Pour plus d’informations, consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
+  Les espaces de travail sont disponibles uniquement pour les clients [!DNL Target Premium]. Pour plus d’informations, consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Droits d’administrateur (autorisation Sysadmin) au niveau du produit [!DNL Adobe Target]
 
 Pour récupérer le jeton d’autorisation :
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
-1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Generate New Authentication Token]**.
 
    ![Générer un nouveau jeton d’authentification](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Il n’est pas nécessaire d’inclure   `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
+Vous n’avez pas besoin d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé avec les détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommendations.
 
@@ -111,7 +111,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour des informations plus détaillées, consultez [Débogage dʼat.js à lʼaide dʼAdobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target ne prend plus en charge Internet Explorer 8.
 
 ## Le cookie Target n’est pas défini {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=fr){target=_blank}.
 
 ## Le contenu de Target scintille ou nʼest pas affiché si un élément fait également partie de la personnalisation Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype no
 
 ## Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
-Lʼ[!UICONTROL URL dʼactivité] détermine la page qui qualifie les visiteurs pour lʼactivité et présente les expériences dʼactivité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
+L’ [!UICONTROL Activity URL] détermine la page qui qualifie les visiteurs pour l’activité et présente les expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
 
-Par défaut, le [!UICONTROL compositeur dʼexpérience visuelle] (VEC) ouvre la page qui est spécifiée dans vos [paramètres du compositeur dʼexpérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
+Par défaut, le [!UICONTROL Visual Experience Composer] (VEC) ouvre la page qui est spécifiée dans vos [ paramètres du compositeur d’expérience visuelle ](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
 
-Pour afficher une autre page après lʼouverture du VEC, cliquez sur lʼ&#x200B;**[!UICONTROL icône dʼengrenage Configurer]** > sélectionnez **[!UICONTROL Diffusion de page]** > puis spécifiez lʼURL de votre choix dans le champ [!UICONTROL URL dʼactivité].
+Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configure gear icon]** > sélectionnez **[!UICONTROL Page Delivery]** > puis spécifiez l’URL souhaitée dans le champ [!UICONTROL Activity URL] .
 
 ![Configuration de lʼinterface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
 
@@ -165,7 +165,7 @@ Mais comment dois-je procéder si lʼURL contient des paramètres de chaîne de 
 
 Les options suivantes peuvent être utilisées pour inclure des règles de modèle supplémentaires :
 
-### Option 1 : Répliquez l’URL et conservez-la dans la règle du modèle avec l’option &quot;contient&quot;.
+### Option 1 : répliquez l’URL et conservez-la dans la règle du modèle avec l’option &quot;contient&quot;.
 
 Cette option garantit que lʼURL qualifie pour lʼactivité, mais vous devez être conscient quʼelle risque dʼinfluencer vos données de rapport en ajoutant des enregistrements supplémentaires aux URL qui contiennent lʼURL de base.
 
@@ -173,7 +173,7 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ![Réplication de lʼURL dans les règles de modèle](assets/option1.png)
 
-### Option 2 : Limitez la condition &quot;contains&quot; de l’URL à la seule chaîne de requête.
+### Option 2 : limite la condition &quot;contient&quot; de l’URL avec uniquement la chaîne de requête.
 
 Le risque abordé dans lʼoption précédente est également présent ici. Toutefois, la configuration conditionnelle est désormais uniquement limitée à la chaîne de requête.
 
@@ -183,13 +183,13 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ### Option 3 : au lieu de cibler lʼURL complète, limitez-vous à une portion spécifique de lʼURL.
 
-Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers` et la règle de modèle supplémentaire est une [!UICONTROL Requête] avec lʼoption [!UICONTROL type] > [!UICONTROL est (respect de la casse)] > type=Summers%20Offers, séparée par un opérateur OU :
+Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et des règles de modèle supplémentaires spécifient une [!UICONTROL Query] avec [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offres, séparées par un opérateur OU :
 
 ![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
 
-## Échappement des guillemets doubles dans [!DNL Target] la valeur d’attribut de profil ne fonctionne pas comme prévu. {#escape}
+## L’échappement des guillemets doubles dans la valeur d’attribut de profil [!DNL Target] ne fonctionne pas comme prévu. {#escape}
 
-Lorsque vous envoyez des valeurs contenant des guillemets doubles dans un [!DNL Target] attribut de profil, vous devez double-lui ajouter une séquence d’échappement comme illustré ci-dessous.
+Lorsque vous envoyez des valeurs contenant des guillemets doubles dans un attribut de profil [!DNL Target], vous devez les placer dans une double séquence d’échappement comme illustré ci-dessous.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Ajouter l’extension   ![Badge de tutoriel](/help/main/assets/tutorial.png)
+### Ajoutez l’extension ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

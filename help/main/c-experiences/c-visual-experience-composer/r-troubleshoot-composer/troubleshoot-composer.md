@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 70%
+source-wordcount: '243'
+ht-degree: 67%
 
 ---
 
 # Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
 
-Des problèmes d’affichage se produisent parfois dans la variable [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) et la variable [!UICONTROL Compositeur d’expérience avancé] (CEE) sous certaines conditions.
+Dans certains cas, des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) et le [!UICONTROL Enhanced Experience Composer] (EEC).
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Il s’agit d’un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
 Le compositeur d’expérience avancé est une extension du compositeur d’expérience visuelle qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore la mise en œuvre de Target. Si vous rencontrez des difficultés à ouvrir une page dans le compositeur d’expérience visuelle, essayez dans le compositeur d’expérience avancé.
 
-Pour plus d’informations sur ces deux compositeurs, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Pour plus d’informations sur le compositeur d’expérience visuelle et le compositeur d’expérience avancé, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Certains problèmes affectent à la fois le compositeur d’expérience visuelle et le compositeur d’expérience avancé, tandis que d’autres n’affectent qu’un seul des deux compositeurs à la fois. Pour plus d’informations, consultez la page correspondante.
 

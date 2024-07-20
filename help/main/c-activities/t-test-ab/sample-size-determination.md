@@ -1,19 +1,19 @@
 ---
 keywords: AB;A/B;AB...n;taille de l’échantillon;calculateur de taille d’échantillon;affectation automatique;calculateur
-description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
+description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi dans  [!DNL Adobe Target]  nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 49%
+source-wordcount: '3123'
+ht-degree: 46%
 
 ---
 
 # Quelle doit être la durée d’exécution d’un test A/B ?
 
-Une réussite [!UICONTROL Test A/B] activité dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion. Comment savez-vous combien de temps exécuter un test A/B ? Cet article contient des informations sur [!UICONTROL Affectation automatique] les activités et [!UICONTROL Adobe Target] Calculateur de taille d’échantillon pour vous aider à vous assurer que votre activité a suffisamment de visiteurs pour atteindre vos objectifs.
+Une activité [!UICONTROL A/B Test] réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion. Comment savez-vous combien de temps exécuter un test A/B ? Cet article contient des informations sur les activités [!UICONTROL Auto-Allocate] et le calculateur de taille d’échantillon [!UICONTROL Adobe Target] pour vous aider à vous assurer que votre activité a suffisamment de visiteurs pour atteindre vos objectifs.
 
 Il est tentant d’arrêter une activité si l’une des offres est plus ou moins performante que les autres dans les premiers jours de l’activité. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que l’activité collecte davantage de points de données.
 
@@ -25,23 +25,23 @@ Il est tentant d’arrêter une activité si l’une des offres est plus ou moin
 
 ## Affectation automatique {#auto-allocate}
 
-Un [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activité est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un [!UICONTROL Affectation automatique] test réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
+Une activité [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL Auto-Allocate] réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
 Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
-La solution est : [!UICONTROL Affectation automatique]. [!UICONTROL L’affectation automatique réduit les frais inhérents à la détermination d’une expérience gagnante. ] [!UICONTROL Elle contrôle les performances de la mesure d’objectif de toutes les expériences et envoie davantage de nouveaux participants vers les expériences hautement performantes de manière proportionnelle. ] Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez voir les avantages de l’activité sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
+La solution est [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] réduit ce coût et les frais liés à la détermination d’une expérience gagnante. [!UICONTROL Auto-Allocate] surveille les performances de la mesure d’objectif de toutes les expériences et envoie plus de nouveaux participants vers les expériences hautement performantes proportionnellement. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez voir les avantages de l’activité sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
 
-[!UICONTROL L’affectation automatique dirige progressivement les visiteurs vers des expériences gagnantes, sans que vous ayez besoin d’attendre la fin d’une activité pour déterminer un gagnant. ] Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
+[!UICONTROL Auto-Allocate] dirige progressivement les visiteurs vers les expériences gagnantes, plutôt que d’exiger que vous attendiez la fin d’une activité pour déterminer un gagnant. Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
 
-Lorsque vous utilisez [!UICONTROL Affectation automatique], [!DNL Target] affiche un badge en haut de la page de l’activité indiquant &quot;Pas encore de gagnant&quot; jusqu’à ce que l’activité atteigne le nombre minimal de conversions avec un degré de confiance suffisant. [!DNL Target] désigne alors l’expérience gagnante, en affichant un badge en haut de la page de l’activité.
+Lors de l’utilisation de [!UICONTROL Auto-Allocate], [!DNL Target] affiche en haut de la page de l’activité un badge indiquant &quot;Pas encore de gagnant&quot; jusqu’à ce que l’activité atteigne le nombre minimal de conversions avec un degré de confiance suffisant. [!DNL Target] déclare ensuite l’expérience gagnante en affichant un badge en haut de la page de l’activité.
 
 Pour plus d’informations, voir [Présentation de l’affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Adobe [!DNL Target] Calculateur de taille d’échantillon {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] du calculateur de taille d’échantillon {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Si vous choisissez d’utiliser un manuel [!UICONTROL Test A/B] activité plutôt que [!UICONTROL Affectation automatique], la variable [!DNL Target] Le calculateur de taille d’échantillon vous permet de déterminer la taille d’échantillon requise pour un test réussi. Un test A/B manuel est un test d’horizon fixe, le calculateur est donc utile. Utilisation du calculateur pour une [!UICONTROL Affectation automatique] est facultative, car [!UICONTROL Affectation automatique] déclare un gagnant pour vous. Le calculateur vous donne une estimation approximative de la taille d’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
+Si vous choisissez d’utiliser une activité [!UICONTROL A/B Test] manuelle plutôt que [!UICONTROL Auto-Allocate], le calculateur de taille d’échantillon [!DNL Target] vous aide à déterminer la taille d’échantillon requise pour un test réussi. Un test A/B manuel est un test d’horizon fixe, le calculateur est donc utile. L’utilisation du calculateur pour une activité [!UICONTROL Auto-Allocate] est facultative car [!UICONTROL Auto-Allocate] déclare un gagnant pour vous. Le calculateur vous donne une estimation approximative de la taille d’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
-Avant de configurer votre test A/B, accédez à la [!DNL Adobe Target] [Calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr).
+Avant de configurer votre test A/B, accédez au [!DNL Adobe Target] [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr).
 
 ![Calculateur de taille d’échantillon d’Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -65,7 +65,7 @@ Il existe cinq paramètres définis par l’utilisateur qui définissent un test
 
 Pour un test A/B, la signification statistique, la puissance statistique, l’effet élévateur minimal détectable de manière fiable et le taux de conversion de ligne de base sont définis par l’analyste, puis le nombre requis de visiteurs est calculé à partir de ces chiffres. Cet article décrit ces éléments et fournit des instructions sur la manière de déterminer ces mesures pour un test spécifique.
 
-![image samplesize](assets/samplesize.png)
+![samplesize image](assets/samplesize.png)
 
 La figure ci-dessous illustre les quatre résultats possibles d’un test A/B :
 
@@ -77,7 +77,7 @@ Il est souhaitable de n’obtenir aucun faux positif ou faux négatif. Cependant
 
 Le niveau de pertinence d’un test détermine la probabilité que le test signale une différence significative de taux de conversion entre deux offres différentes alors qu’en fait, il n’y a aucune différence réelle. Cette situation est connue sous le nom de faux positif ou d’erreur de type I. Le niveau de pertinence est un seuil spécifié par l’utilisateur. Il s’agit d’un compromis entre la tolérance envers les faux positifs et le nombre de visiteurs qui doivent être inclus dans le test.
 
-Dans un test A/B, il est initialement supposé que les deux offres ont le même taux de conversion. Ensuite, la probabilité du résultat observé est calculée en fonction de cette supposition. Si cette probabilité (la valeur p) est inférieure à un seuil prédéfini (le niveau de pertinence), [!DNL Target] conclut que l’hypothèse initiale, à savoir que les deux offres ont le même taux de conversion, est incorrecte. Par conséquent, les taux de conversion de A et B sont statistiquement différents au niveau de pertinence donné.
+Dans un test A/B, il est initialement supposé que les deux offres ont le même taux de conversion. Ensuite, la probabilité du résultat observé est calculée en fonction de cette supposition. Si cette probabilité (la valeur p) est inférieure à un seuil prédéfini (le niveau de pertinence), [!DNL Target] conclut que l’hypothèse initiale (que les deux offres ont le même taux de conversion) est incorrecte. Par conséquent, les taux de conversion de A et B sont statistiquement différents au niveau de pertinence donné.
 
 Le niveau de pertinence généralement utilisé dans un test A/B est de 5 %, ce qui correspond à un degré de confiance de 95 % (degré de confiance = 100 % - niveau de pertinence). Un degré de confiance de 95 % signifie que chaque fois que vous effectuez un test, il existe une probabilité de 5 % de détecter un effet élévateur statistiquement significatif, même en cas d’absence de différence entre les offres.
 
@@ -115,9 +115,9 @@ La figure ci-dessous illustre ces lois de probabilités.
 
 ![image de probabilité_distributions](assets/probability_distributions.png)
 
-En raison du chevauchement important entre les deux plages, le test ne peut pas déterminer si les taux de conversion sont différents. De ce fait, ce test avec 100 visiteurs ne peut pas faire la distinction entre les deux offres. Cependant, si [!DNL Target] expose les offres à 5 000 visiteurs chacun, il y a 95 % de chances que les taux de conversion observés baissent respectivement dans les plages de 9 % à 11 % et de 14 % à 16 %.
+En raison du chevauchement important entre les deux plages, le test ne peut pas déterminer si les taux de conversion sont différents. De ce fait, ce test avec 100 visiteurs ne peut pas faire la distinction entre les deux offres. Cependant, si [!DNL Target] expose les offres à 5 000 visiteurs chacun, il y a 95 % de chance que les taux de conversion observés baissent respectivement dans les plages de 9 % à 11 % et de 14 % à 16 %.
 
-![image probabilité_distributions2](assets/probability_distributions2.png)
+![probabilité_distributions2 image](assets/probability_distributions2.png)
 
 Dans ce cas, il est peu probable que le test aboutisse à une conclusion incorrecte. Par conséquent, le test avec 5 000 visiteurs peut faire la distinction entre les deux offres. Le test avec 5 000 visiteurs a un intervalle de confiance de +/-1 %. Cela signifie que le test peut détecter des différences d’environ 1 %. De ce fait, encore plus de visiteurs seraient requis si les véritables taux de conversion des offres étaient, par exemple, 10 et 10,5 % au lieu de 10 et 15 %.
 
@@ -127,7 +127,7 @@ Le taux de conversion de ligne de base est le taux de conversion de l’offre de
 
 ### Nombre de visiteurs {#section_19009F165505429E95291E6976E498DD}
 
-Il peut être difficile d’équilibrer le coût d’exécution d’un test sur une longue période avec le risque de faux positifs ou de faux négatifs. Évidemment, vous ne souhaitez pas prendre de mauvaises décisions, mais être paralysé par des normes de test trop strictes ou trop rigides n’est pas souhaitable non plus.
+Il peut être difficile d’équilibrer le coût d’exécution d’un test sur une longue période avec le risque de faux positifs ou de faux négatifs. Évidemment, vous ne voulez pas prendre les mauvaises décisions, mais être paralysé par des normes de test trop strictes ou trop rigides n&#39;est pas non plus souhaitable.
 
 En règle générale, un degré de confiance de 95 % et une puissance statistique de 80 % sont recommandés.
 
@@ -135,17 +135,17 @@ Le calculateur de taille d’échantillon (lien fourni ci-dessus) vous demande d
 
 Il existe un compromis entre l’effet élévateur minimal qui peut être identifié de manière fiable par le test et le nombre requis de visiteurs. La figure ci-dessous, qui est valide pour un taux de conversion de ligne de base (contrôle) de 5 %, illustre des retours fortement en baisse alors que le nombre de visiteurs a augmenté. L’effet élévateur minimal qui peut être détecté de manière fiable s’améliore fortement lors de l’ajout des premiers visiteurs au test mais il faut un nombre toujours plus grand de visiteurs pour améliorer le test. Cette figure permet de trouver le compromis approprié entre le temps requis pour exécuter le test (tel que déterminé par le nombre requis de visiteurs et le trafic du site) et l’effet élévateur minimal qui peut être détecté de manière fiable par le test.
 
-![image samplesizecontrol](assets/samplesizecontrol.png)
+![samplesizecontrol image](assets/samplesizecontrol.png)
 
-Dans cet exemple, vous pouvez décider de détecter un effet élévateur de 5 % (correspondant à un taux de conversion de l’offre alternative de (100 %+5 %).&#42;5 % = 5,25 %) dans 80 tests sur 100 est approprié. Vous avez donc besoin d’une taille d’échantillon de 100 000 visiteurs pour chaque offre. Si le site compte 20 000 visiteurs par jour et que vous testez deux offres, le test doit être autorisé à s’exécuter pendant 2 heures.&#42;100,000/20,000 = 10 jours avant de pouvoir déterminer si l’offre alternative est statistiquement significativement supérieure à l’offre de contrôle.
+Dans cet exemple, vous pouvez décider qu’être en mesure de détecter un effet élévateur de 5 % (correspondant à un taux de conversion de l’offre alternative de (100 %+5 %)&#42;5 % = 5,25 %) dans 80 tests sur 100 est approprié, vous avez donc besoin d’une taille d’échantillon de 100 00 visiteurs pour chaque offre. Si le site compte 20 000 visiteurs par jour et que vous testez deux offres, le test doit être autorisé à s’exécuter pour 2&#42;100,000/20 000 = 10 jours avant de pouvoir déterminer si l’offre alternative est statistiquement nettement supérieure à l’offre de contrôle.
 
 A nouveau, il est recommandé que la durée requise soit systématiquement arrondie à la semaine entière la plus proche afin que les effets « jour de la semaine » soient évités. Ainsi, dans cet exemple, le test serait exécuté pendant deux semaines avant d’évaluer les résultats.
 
 ### Mesure Recettes par visiteur {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Lors de l’utilisation de la mesure Recettes par visite (RPV) , une autre source de variance est ajoutée, car le RPV est le produit des recettes par commande et du taux de conversion (RPV = Recettes / #visitors = (Recettes par commande). &#42; #orders) / # visiteurs = Recettes par commande &#42; (#visitors &#42; CTR) / #visitors = Recettes par commande &#42; CTR), chacune avec sa propre variance. La variance du taux de conversion peut être estimée directement à l’aide d’un modèle mathématique, mais la variance du revenu par commande est spécifique à l’activité. Par conséquent, utilisez les connaissances de cette variance provenant des activités antérieures ou exécutez le test A/B pendant quelques jours pour estimer la variance du chiffre d’affaires. La variance est calculée à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs trouvées dans le fichier de téléchargement CSV. Une fois ce délai établi, utilisez la feuille de calcul pour calculer la durée requise pour terminer le test.
+Lors de l’utilisation de la mesure Recettes par visite (RPV) , une source supplémentaire de variance est ajoutée, car le RPV est le produit des recettes par commande et du taux de conversion (RPV = Recettes / #visitors = (Recettes par commande &#42; #orders) / # visiteurs = Recettes par commande &#42; (#visitors &#42; CTR) / #visitors = Recettes par commande &#42; CTR), chacun avec sa propre variance. La variance du taux de conversion peut être estimée directement à l’aide d’un modèle mathématique, mais la variance du revenu par commande est spécifique à l’activité. Par conséquent, utilisez les connaissances de cette variance provenant des activités antérieures ou exécutez le test A/B pendant quelques jours pour estimer la variance du chiffre d’affaires. La variance est calculée à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs trouvées dans le fichier de téléchargement CSV. Une fois ce délai établi, utilisez la feuille de calcul pour calculer la durée requise pour terminer le test.
 
-Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet s’affiche intitulé [!UICONTROL Mesure RPV]. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
+Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet intitulé [!UICONTROL RPV Metric] s’affiche. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
 
 * Nombre de visiteurs de l’offre de contrôle
 * Recettes totales pour l’offre de contrôle
@@ -164,6 +164,6 @@ Chaque fois que vous comparez deux offres, la probabilité d’obtenir un faux p
 
 ## Conclusion {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-En utilisant une [!UICONTROL Affectation automatique] activité, [!DNL Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend. [!UICONTROL L’affectation automatique vous permet d’atteindre facilement vos objectifs de conversion, tout en vous évitant de devoir faire des estimations.]
+En utilisant une activité [!UICONTROL Auto-Allocate], [!DNL Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend. [!UICONTROL Auto-Allocate] permet d’atteindre facilement vos objectifs de conversion tout en supprimant le travail de devinette.
 
 En utilisant le calculateur de taille d’échantillon (lien fourni ci-dessus) introduit dans cet article et en permettant au test de s’exécuter pendant la durée suggérée par le calculateur, vous pouvez vous assurer que vous effectuez toujours des tests A/B de haute qualité qui respectent les taux de faux positifs et de faux négatifs que vous avez déterminés comme étant adéquats au test spécifique. Vous garantissez ainsi que vos tests sont cohérents et en mesure de détecter de manière fiable l’effet élévateur que vous recherchez.

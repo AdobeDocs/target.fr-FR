@@ -6,36 +6,36 @@ feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 18%
+source-wordcount: '203'
+ht-degree: 20%
 
 ---
 
 # Téléchargement de contenu
 
-Vous pouvez télécharger des images vers le [!UICONTROL Offres d’image] list in [!DNL Adobe Target] à utiliser comme offres d’image dans les activités. Vous pouvez également supprimer des offres d’image lorsqu’elles ne sont plus nécessaires dans les activités.
+Vous pouvez charger des images dans la liste [!UICONTROL Image Offers] de [!DNL Adobe Target] à utiliser comme offres d’image dans les activités. Vous pouvez également supprimer des offres d’image lorsqu’elles ne sont plus nécessaires dans les activités.
 
 ## Ajout d’offres d’image à la liste
 
-1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres d’image]**.
+1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Offres > Offres (images)](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![Offres > Offres d’image](/help/main/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Fichiers]**.
-1. Recherchez et sélectionnez l’élément à ajouter, puis cliquez sur **[!UICONTROL Ouvrir]**.
-1. Si nécessaire, modifiez le nom de fichier de l’élément, puis cliquez sur **[!UICONTROL Télécharger]**.
+1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Files]**.
+1. Recherchez et sélectionnez l’élément à ajouter, puis cliquez sur **[!UICONTROL Open]**.
+1. Si nécessaire, modifiez le nom de fichier de l’élément, puis cliquez sur **[!UICONTROL Upload]**.
 
 ## Suppression d’offres ou de dossiers d’image
 
-Pour basculer entre les [!UICONTROL Mode Carte] et [!UICONTROL Mode Liste], cliquez sur le bouton [!UICONTROL Mode Carte] ou le [!UICONTROL Mode Liste] dans le coin supérieur droit de la bibliothèque de contenu.
+Pour basculer entre [!UICONTROL Card View] et [!UICONTROL List View], cliquez sur l’icône [!UICONTROL Card View] ou l’icône [!UICONTROL List View] dans le coin supérieur droit de la bibliothèque de contenu.
 
-Dans la [!UICONTROL Mode Carte], passez la souris sur l’offre ou le dossier de l’image, puis cliquez sur **[!UICONTROL Sélectionner]** (coche), puis cliquez sur **[!UICONTROL Supprimer]**.
+Dans [!UICONTROL Card View], passez la souris sur l’offre ou le dossier d’image souhaité, cliquez sur l’icône **[!UICONTROL Select]** (coche), puis sur **[!UICONTROL Delete]**.
 
-Dans la [!UICONTROL Mode Liste], cliquez sur l’image miniature sur le côté gauche de la liste pour sélectionner l’offre ou le dossier d’image de votre choix, puis cliquez sur **[!UICONTROL Supprimer]**, comme illustré ci-dessous :
+Dans [!UICONTROL List View], cliquez sur l’image miniature sur le côté gauche de la liste pour sélectionner l’offre ou le dossier d’image de votre choix, puis cliquez sur **[!UICONTROL Delete]**, comme illustré ci-dessous :
 
 ![Supprimer l’élément sélectionné](/help/main/c-experiences/c-manage-content/assets/delete-image-offer.png)
 
-## Vidéo de formation : Le référentiel de contenu ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : ![Badge de présentation](/help/main/assets/overview.png) du référentiel de contenu
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 

@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # Chapitre 4 : Conseils d’utilisation de Target
 
-Basé sur notre travail avec beaucoup de [!DNL Target] utilisateurs, nous avons observé comment vous pouvez tirer le meilleur parti de vos [!DNL Target] solution. Nous les avons résumées dans les nombreux conseils que nous avons inclus dans ce chapitre. Conservez cette liste, même si vous n’êtes pas prêt à mettre toutes ces idées en application immédiatement. Plus vous obtenez d’expérience avec la solution et plus votre programme est mûr, plus vous verrez comment ces conseils peuvent vous aider à accomplir davantage avec [!DNL Target].
+Sur la base de notre travail avec de nombreux utilisateurs [!DNL Target], nous avons observé comment vous pouvez obtenir plus de valeur de votre solution [!DNL Target]. Nous les avons résumées dans les nombreux conseils que nous avons inclus dans ce chapitre. Conservez cette liste, même si vous n’êtes pas prêt à mettre toutes ces idées en application immédiatement. Plus vous obtenez d’expérience avec la solution et plus votre programme est mûr, plus vous verrez comment ces conseils peuvent vous aider à accomplir davantage avec [!DNL Target].
 
 ## Conseil 1 : personnalisation plus approfondie en enrichissant le profil du visiteur de données supplémentaires.
 
@@ -25,7 +25,7 @@ Consultez [Attributs personnalisés](https://experienceleague.adobe.com/docs/tar
 
 **Important** : [!DNL Target] étant une plateforme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des données de gestion de la relation client ou achetées de différentes manières. Cela signifie que vous pouvez choisir la méthode qui convient le mieux à votre organisation.
 
-Voir [Méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} pour plus d’informations.
+Pour plus d’informations, voir [Méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank} .
 
 ## Conseil 2 : personnalisation plus approfondie en mélangeant les audiences [!DNL Target] avec d’autres audiences Adobe Experience Cloud.
 
@@ -33,11 +33,11 @@ La combinaison des audiences qui se trouvent dans différentes solutions [!DNL A
 
 Consultez [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md) pour obtenir des instructions détaillées.
 
-**Important** : les audiences [!DNL Adobe Audience Manager] sont automatiquement disponibles dans [!DNL Target]. Cependant, le partage d’audiences [!DNL Adobe Analytics] nécessite un minimum de configuration manuelle. Cochez simplement la case &quot;Faire de ceci une audience Experience Cloud&quot; pendant le processus de création d’audiences dans [!DNL Analytics]. Puis à partir de [!DNL Target], cliquez sur &quot;Importer des audiences Experience Cloud&quot;.
+**Important** : les audiences [!DNL Adobe Audience Manager] sont automatiquement disponibles dans [!DNL Target]. Cependant, le partage d’audiences [!DNL Adobe Analytics] nécessite un minimum de configuration manuelle. Cochez simplement la case intitulée &quot;Faire de ceci une audience Experience Cloud&quot; lors du processus de création d’audiences dans [!DNL Analytics]. Ensuite, depuis [!DNL Target], cliquez sur &quot;Importer les audiences Experience Cloud&quot;.
 
 ## Conseil 3 : exportation de données issues de [!DNL Target] pour les utiliser avec des outils tiers.
 
-Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête montre un échantillon d’une population ayant obtenu un &quot;9&quot; et qu’une autre a obtenu un &quot;4&quot;, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour l’exportation. [!DNL Target] données de votre entrepôt de données interne. Cliquez simplement sur &quot;Administration&quot;, puis faites basculer le commutateur en regard du jeton de réponse souhaité sur la position Activé. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
+Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête montre un échantillon d’une population ayant obtenu un &quot;9&quot; et qu’une autre a obtenu un &quot;4&quot;, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter des données [!DNL Target] vers votre entrepôt de données interne. Cliquez simplement sur &quot;Administration&quot;, puis faites basculer le commutateur en regard du jeton de réponse souhaité sur la position Activé. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
 
 Consultez [Jetons de réponse](/help/main/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
 
@@ -63,7 +63,7 @@ Facilitez l’utilisation des données de votre entreprise tout en conservant le
 
 Consultez [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) pour plus d’informations.
 
-**Conseil utile**: lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été ajouté auparavant à votre organisation (par exemple, avec un employé d’agence tiers), la saisie de son adresse électronique et de son mot de passe déclenche une invitation par courrier électronique à rejoindre l’espace de travail d’une équipe.
+**Conseil utile** : lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été ajouté auparavant à votre organisation, par exemple avec un employé d’agence tiers, la saisie de son adresse électronique et de son mot de passe déclenche une invitation par courrier électronique à rejoindre l’espace de travail d’une équipe.
 
 Vous utilisez Target Standard ? Vous pouvez toujours [attribuer trois niveaux d’accès](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) à vos utilisateurs avec des rôles en lecture seule, d’éditeur et d’approbateur.
 
@@ -73,7 +73,7 @@ Découvrez les performances d’une offre, telle que la livraison gratuite, pend
 
 Consultez [Activité multipage](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) pour obtenir des instructions détaillées.
 
-**Conseil utile**: la modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, pensez à redéfinir l’expérience.
+**Conseil utile** : la modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, pensez à redéfinir l’expérience.
 
 ## Conseil 7 : test d’une offre avec différentes audiences pour déterminer si les audiences ont des préférences différentes.
 
@@ -109,7 +109,7 @@ De nombreux professionnels du marketing lancent des programmes d’optimisation 
 * Quel est le taux de conversion de la page ?
 * Pendant combien de temps estimez-vous devoir effectuer le test avant de pouvoir le considérer comme terminé ?
 
-**Conseil utile**: utilisez la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer la taille d’échantillon requise pour un test réussi.
+**Conseil utile** : utilisez le [!DNL Adobe Target] [calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer la taille d’échantillon requise pour un test réussi.
 
 ## Conseil 12 : conception de tests plus simples pour s’assurer de pouvoir les créer et les implémenter
 

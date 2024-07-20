@@ -6,13 +6,13 @@ feature: Integrations
 exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
 source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '60'
+ht-degree: 66%
 
 ---
 
 # Intégrer [!DNL Target] à [!DNL Adobe Experience Manager] (AEM)
 
-L’intégration [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) permet actuellement d’utiliser des [!UICONTROL fragments d’expérience] (XF) et des [!UICONTROL fragments de contenu] (CF) créés dans AEM dans les activités [!DNL Target] à des fins d’optimisation et de personnalisation.
+L’intégration [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) vous permet actuellement d’utiliser [!UICONTROL Experience Fragments] (XF) et [!UICONTROL Content Fragments] (CF) créés dans AEM dans les activités [!DNL Target] pour faciliter l’optimisation et la personnalisation.
 
 Pour plus d’informations, voir [Présentation des fragments d’expérience et des fragments de contenu d’AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).

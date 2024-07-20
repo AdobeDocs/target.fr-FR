@@ -1,26 +1,26 @@
 ---
 keywords: compositeur d’expérience visuelle;vec;url par défaut;compositeur d’expérience avancé;eec;contenu mixte;instantanés d’expérience;fenêtre d’affichage mobile;css;sélecteurs css
-description: Découvrez comment configurer l’Adobe [!DNL Target] compositeur d’expérience visuelle (VEC) en spécifiant ses paramètres généraux, sa configuration de fenêtre d’affichage mobile et ses sélecteurs CSS.
-title: Comment configurer le compositeur d’expérience visuelle (VEC) ?
+description: Découvrez comment configurer le compositeur d’expérience visuelle (VEC) de l’Adobe  [!DNL Target]  en spécifiant ses paramètres généraux, sa configuration de fenêtre d’affichage mobile et ses sélecteurs CSS.
+title: Comment configurer le compositeur d’expérience visuelle ?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 57%
+source-wordcount: '690'
+ht-degree: 48%
 
 ---
 
 # Configuration du compositeur d’expérience visuelle
 
-Configurez la variable [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) en spécifiant ses paramètres généraux, la configuration de fenêtre d’affichage mobile et les sélecteurs CSS.
+Configurez le [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
 
-Pour accéder au [!UICONTROL Compositeur d’expérience visuelle] page de configuration, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle].**
+Pour accéder à la page de configuration [!UICONTROL Visual Experience Composer], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Gardez à l’esprit que les paramètres de cette page s’appliquent à l’ensemble de la page [!DNL Target] compte .
+>Notez que les paramètres de cette page s’appliquent à l’ensemble du compte [!DNL Target].
 
 ![Page de configuration du compositeur d’expérience visuelle](/help/main/administrating-target/assets/vec.png)
 
@@ -34,19 +34,19 @@ Les méthodes suivantes sont disponibles :
 
 ### URL par défaut
 
-Définissez l’URL par défaut utilisée par le [!UICONTROL compositeur d’expérience visuelle]. Il s’agit de la page par défaut, par exemple votre page d’accueil, utilisée lorsque vous configurez une expérience pour chaque nouvelle activité. Si vous ne définissez pas d’URL par défaut, vous devez saisir une URL pour chaque activité lors de sa création.
+Définissez l’URL par défaut utilisée par le [!UICONTROL Visual Experience Composer]. Il s’agit de la page par défaut, par exemple votre page d’accueil, utilisée lorsque vous configurez une expérience pour chaque nouvelle activité. Si vous ne définissez pas d’URL par défaut, vous devez saisir une URL pour chaque activité lors de sa création.
 
 ### Activer le compositeur d’expérience avancé {#eec}
 
-Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Désélectionnez cette option pour revenir à l’original. [!UICONTROL Compositeur d’expérience visuelle]. La répartition des activités sur les sites n’est pas affectée par ce choix.
+Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Désélectionnez cette option pour revenir à l’original [!UICONTROL Visual Experience Composer]. La répartition des activités sur les sites n’est pas affectée par ce choix.
 
-Pour plus d’informations, voir [Résolution des problèmes du compositeur d’expérience visuelle.](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+Pour plus d’informations, voir [Résolution des problèmes du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Vous pouvez également activer la variable [!UICONTROL Compositeur d’expérience avancé] au niveau de l’activité.
+Vous pouvez également activer le [!UICONTROL Enhanced Experience Composer] au niveau de l’activité.
 
 ### Chargement du contenu mixte
 
-Activer le contenu mixte lors de l’ouverture d’un site web à l’aide de la fonction [!UICONTROL Compositeur d’expérience avancé] (Compositeur d’expérience avancé). L’activation de cette option permet d’éviter les frais supplémentaires liés au chargement de ressources statiques via [!DNL Target] serveurs proxy.
+Activez le contenu mixte lors de l’ouverture d’un site web à l’aide de [!UICONTROL Enhanced Experience Composer] (EEC). L’activation de cette option permet d’éviter les frais supplémentaires liés au chargement de ressources statiques via des serveurs proxy [!DNL Target].
 
 Cette option s’avère utile si, par exemple :
 
@@ -57,13 +57,13 @@ Cette option s’avère utile si, par exemple :
 
 L’activation des instantanés d’expérience génère des miniatures pour vos expériences dans le diagramme de processus de l’activité. Pour certains utilisateurs, la désactivation des instantanés peut permettre d’obtenir des performances plus rapides.
 
-##  [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."}
 
 Vous pouvez ajouter des périphériques à utiliser lors de la prévisualisation d’expériences. Chaque périphérique est associé à une audience.
 
 ![Section de configuration des fenêtres d’affichage mobiles](/help/main/administrating-target/assets/mobile-viewport-configuration.png)
 
-Cliquez sur **[!UICONTROL Ajouter]**, attribuez un nom explicite à la fenêtre d’affichage mobile, spécifiez la largeur et la hauteur, sélectionnez le système d’exploitation souhaité, puis cliquez sur [!UICONTROL Enregistrer].
+Cliquez sur **[!UICONTROL Add]**, attribuez un nom explicite à la fenêtre d’affichage mobile, spécifiez la largeur et la hauteur, sélectionnez le système d’exploitation souhaité, puis cliquez sur [!UICONTROL Save].
 
 Pour obtenir des informations sur l’ajout d’une fenêtre d’affichage mobile, voir [Configuration de fenêtre d’affichage mobile](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -83,19 +83,19 @@ Désélectionnez cette option si le même ID est utilisé pour plusieurs éléme
 
 ### Utiliser les classes d’éléments
 
-Par défaut, [!DNL Target] utilise uniquement les identifiants d’élément. Néanmoins, si votre page est conçue pour utiliser des classes pour identifier les éléments, par exemple une page créée avec [!DNL Adobe Experience Manager], vous devez également sélectionner [!UICONTROL Utiliser les classes d’éléments].
+Par défaut, [!DNL Target] utilise uniquement les identifiants d’élément. Cependant, si votre page est conçue pour utiliser des classes pour identifier les éléments, par exemple une page créée avec [!DNL Adobe Experience Manager], vous devez également sélectionner [!UICONTROL Use element classes].
 
 >[!NOTE]
 >
 >Bien que tout ait été fait pour garantir la précision, sachez que l’utilisation de classes peut entraîner des erreurs. Si vous ne sélectionnez aucune des deux options, la précision est également affectée. L’ordre de précision est ID > classes > aucune des options. Assurez-vous de systématiquement tester votre page pour garantir que les sélecteurs sont corrects.
 
-Vous pouvez remplacer ce paramètre par activité (cliquez sur l’icône en forme d’engrenage [!UICONTROL Paramètres], puis sélectionnez [!UICONTROL Sélecteurs CSS]). Cette fonctionnalité est particulièrement utile si vous avez plusieurs sites qui sont configurés différemment.
+Vous pouvez remplacer ce paramètre par activité (cliquez sur l’icône d’engrenage [!UICONTROL Settings], puis sélectionnez [!UICONTROL CSS Selectors]). Cette fonctionnalité est particulièrement utile si vous avez plusieurs sites qui sont configurés différemment.
 
 >[!NOTE]
 >
->Le remplacement du paramètre par activité n’est pas disponible dans [!UICONTROL Automated Personalization] et [!UICONTROL Multivariate Testing] activités.  Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) pour plus d’informations sur les sélecteurs.
+>Le remplacement du paramètre par activité n’est pas disponible dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Multivariate Testing].  Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) pour plus d’informations sur les sélecteurs.
 
-## Vidéo de formation : Préférences de compte (7:33) ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Préférences de compte (7:33) ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo comporte des informations sur les préférences de compte.
 
@@ -103,6 +103,6 @@ Cette vidéo comporte des informations sur les préférences de compte.
 
 >[!NOTE]
 >
->L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont généralement correctes. Toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin de fournir de meilleures performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes. Toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

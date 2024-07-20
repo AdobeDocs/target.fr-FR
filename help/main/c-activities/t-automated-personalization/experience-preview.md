@@ -1,24 +1,24 @@
 ---
 keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
-description: Découvrez comment utiliser les URL d’aperçu d’expérience pour Adobe [!DNL Target] Activités Automated Personalization pour afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée.
+description: Découvrez comment utiliser les URL d’aperçu de l’expérience pour les activités Adobe [!DNL Target] Automated Personalization afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée.
 title: Comment utiliser les URL d’aperçu d’expérience dans les activités Automated Personalization ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 51%
+source-wordcount: '715'
+ht-degree: 49%
 
 ---
 
 # Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
 
-Les URL de prévisualisation de l’expérience peuvent être générées pour [!DNL Target] [!UICONTROL Automated Personalization] pour afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité. Les URL d’aperçu de l’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
+Les URL d’aperçu de l’expérience peuvent être générées pour les activités [!DNL Target] [!UICONTROL Automated Personalization] afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité. Les URL d’aperçu de l’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
 
 >[!NOTE]
 >
->Vous pouvez créer des URL d’aperçu d’expérience pour d’autres types de [!DNL Target] activités. Cependant, le processus est légèrement différent. Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md#preview)..
+>Vous pouvez créer des URL d’aperçu d’expérience pour d’autres types d’activités [!DNL Target]. Cependant, le processus est légèrement différent. Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
 
 Utilisez les URL d’aperçu de l’expérience pour partager des expériences avec les membres de l’équipe et pour contrôler la qualité des expériences dans les navigateurs et les environnements, sans créer d’activité d’assurance qualité distincte. Cette fonctionnalité s’avère particulièrement utile en cas de site complexe ou lorsque les stratégies de sécurité n’autorisent pas l’affichage du site dans un simulateur.
 
@@ -26,18 +26,18 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 
    Il n’est pas nécessaire qu’une activité soit active pour prévisualiser une expérience.
 
-1. Sur la page Aperçu de l’activité, cliquez sur les trois points verticaux, puis sur **[!UICONTROL Affichage des URL d’expérience]**.
+1. Sur la page Aperçu de l’activité, cliquez sur les trois points verticaux, puis cliquez sur **[!UICONTROL View Experience URLs]**.
 
 1. Passez en revue et/ou spécifiez vos adresses URL.
 
-   * Si vous utilisez la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC), l’URL par défaut que vous avez spécifiée pour l’activité est automatiquement saisie et un lien est généré pour chaque expérience de votre activité. Vous pouvez modifier cette URL et en ajouter d’autres si vous le souhaitez.
-   * Si vous utilisez la variable [!UICONTROL Compositeur d’expérience d’après les formulaires], aucune URL par défaut n’est saisie automatiquement. Si vous n’avez pas encore créé d’URL de prévisualisation d’expérience, cliquez sur **Ajouter une URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
+   * Si vous utilisez le [!UICONTROL Visual Experience Composer] (VEC), l’URL par défaut que vous avez spécifiée pour l’activité est automatiquement entrée et un lien est généré pour chaque expérience de votre activité. Vous pouvez modifier cette URL et en ajouter d’autres si vous le souhaitez.
+   * Si vous utilisez [!UICONTROL Form-Based Experience Composer], aucune URL par défaut n’est saisie automatiquement. Si vous n’avez pas encore créé d’URL d’aperçu d’expérience, cliquez sur **Ajouter une nouvelle URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
 
    Vous pouvez ajouter plusieurs URL, ce qui s’avère utile lorsque vous effectuez un test multi-page ou de modèle et que vous souhaitez prévisualiser l’activité de plusieurs pages.
 
-   Une fenêtre modale affiche des liens vers vos expériences sur votre site pour obtenir un &quot;véritable aperçu&quot; des expériences en dehors de [!DNL Target] VEC. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
+   Une fenêtre modale affiche des liens vers vos expériences sur votre site pour obtenir un &quot;véritable aperçu&quot; des expériences en dehors du VEC [!DNL Target]. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
 
-1. Cliquez sur **[!UICONTROL Générer tout]**, puis cliquez sur chaque expérience pour la prévisualiser.
+1. Cliquez sur **[!UICONTROL Generate All]**, puis sur chaque expérience pour la prévisualiser.
 
    Si vous apportez ensuite des modifications à l’expérience, veillez à générer de nouveaux liens d’aperçu pour votre équipe en revenant à la fenêtre modale et en cliquant sur **Renouveler les liens** pour obtenir de nouveaux liens.
 
@@ -49,11 +49,11 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 
    La page s’ouvre, affichant l’activité.
 
-1. Cliquez sur **[!UICONTROL Terminé]** pour revenir au récapitulatif de l’activité.
+1. Cliquez sur **[!UICONTROL Done]** pour revenir au résumé de l’activité.
 
 ## Considérations {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
-**Génération des URL d’aperçu de l’expérience**
+**Génération d’URL d’aperçu d’expérience**
 
 * L’URL d’aperçu de l’expérience n’est pas affectée par la division du trafic entre les expériences.
 * Le ciblage au niveau des audiences n’affecte pas l’aperçu.
@@ -70,8 +70,8 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 **Affichage d’expériences avec des URL d’aperçu d’expérience**
 
 * L’aperçu peut être utilisé pour les activités enregistrées tant que la page n’a pas été modifiée.
-* L’URL de prévisualisation de l’expérience est disponible que l’activité soit principale ou inactive.
-* Vous ne pouvez pas prévisualiser une expérience qui se trouve dans [!UICONTROL Version préliminaire] statut.
+* L’URL d’aperçu de l’expérience est disponible que l’activité soit active ou inactive.
+* Vous ne pouvez pas prévisualiser une expérience dont l’état est [!UICONTROL Draft].
 * La création de rapports n’est pas affectée par l’affichage des URL d’aperçu de l’expérience.
 
 **Dépannage des URL d’aperçu d’expérience**

@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] est un ancien produit et n’est plus disponible sous licence pour les nouveaux clients. Pour le meilleur [!DNL Recommendations] expérience, mise à niveau vers [!DNL Recommendations] activités disponibles dans [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] est un ancien produit et n’est plus disponible sous licence pour les nouveaux clients. Pour la meilleure expérience [!DNL Recommendations], effectuez une mise à niveau vers les activités [!DNL Recommendations] disponibles dans [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 Ce module vous aide à orienter les clients vers des éléments dont ils n’auraient pas eu connaissance autrement, en améliorant ainsi les ventes générées sur votre site web.
 

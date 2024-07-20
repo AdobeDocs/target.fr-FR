@@ -1,29 +1,29 @@
 ---
 keywords: paramètres, priorité
-description: Découvrez comment [!DNL Adobe Target] détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction du [!DNL Target] et la fonction de création d’activité que vous utilisez.
-title: Comment [!DNL Target] Attribuer la priorité aux différentes activités ?
+description: Découvrez comment  [!DNL Adobe Target] détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface  [!DNL Target] et de la fonction de création d’activité que vous utilisez.
+title: Comment  [!DNL Target] Attribue-t-il la priorité à différentes activités ?
 feature: Activities
 exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
 source-wordcount: '907'
-ht-degree: 37%
+ht-degree: 39%
 
 ---
 
 # Priorité
 
-[!DNL Adobe Target] détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction du [!DNL Target] l’interface et la fonction de création d’activité ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ou [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md)) que vous utilisez.
+[!DNL Adobe Target] détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface [!DNL Target] et de la fonction de création d’activité ([[!UICONTROL Visual Experience Composer (VEC)]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) ou [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md)) que vous utilisez.
 
-## [!UICONTROL Visual Experience Composer] uniquement ou [!UICONTROL Form-Based Experience Composer] à l’aide d’une [!DNL Target] requête uniquement {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## [!UICONTROL Visual Experience Composer] uniquement ou [!UICONTROL Form-Based Experience Composer] utilisant une requête [!DNL Target] globale uniquement {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si votre entreprise utilise le compositeur d’expérience visuelle exclusivement, le contenu de plusieurs activités peut être renvoyé pour le même appel. Les activités sont diffusées en suivant le flux décisionnel suivant :
 
-1. La variable [!DNL Target] l’appel au serveur arrive à [!DNL Target] avec des informations sur l’URL.
-1. [!DNL Target] extrait chaque activité s’exécutant sur cette URL.
+1. L’appel au serveur [!DNL Target] renvoie à [!DNL Target] avec des informations sur l’URL.
+1. [!DNL Target] récupère chaque activité s’exécutant sur cette URL.
 1. [!DNL Target] tente de faire correspondre le visiteur à des activités.
 
-   Si le visiteur fait déjà partie d’un [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test] , elles correspondent à cette activité jusqu’à ce qu’elles soient converties. S’ils étaient auparavant dans un [!UICONTROL Experience Targeting] , ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
+   Si le visiteur se trouve déjà dans une activité [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test], il fait correspondre cette activité jusqu’à ce qu’il effectue une conversion. S’ils se trouvaient auparavant dans une activité [!UICONTROL Experience Targeting], ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
 1. Le contenu de toutes les activités et expériences auxquelles le visiteur correspond est envoyé sur la page.
 1. Si le contenu de chaque activité fait référence à différents [sélecteurs CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), tout le contenu s’affiche.
@@ -41,15 +41,15 @@ Si votre entreprise utilise le compositeur d’expérience visuelle exclusivemen
 
 ## [!UICONTROL Form-Based Experience Composer] et [!UICONTROL Visual Experience Composer] {#section_4620253E1CE942DD830724C7822B175F}
 
-Si votre entreprise utilise la variable [!UICONTROL Form-Based Experience Composer] *et* le VEC, contenu de plusieurs [!UICONTROL Form-Based Experience Composer] et les activités du compositeur d’expérience visuelle peuvent être diffusées. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités d’après les formulaires pouvant être diffusées.
+Si votre entreprise utilise le VEC [!UICONTROL Form-Based Experience Composer] *et*, le contenu de plusieurs activités [!UICONTROL Form-Based Experience Composer] et du VEC peut être diffusé. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités basées sur les formulaires pouvant être diffusées.
 
 La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. [!DNL Target] l’appel au serveur arrive à [!DNL Target] avec des informations sur la variable [!DNL Target] requête et URL.
-1. [!DNL Target] extrait toutes les activités s’exécutant dans [!DNL Target] requête.
+1. [!DNL Target] l’appel au serveur renvoie à [!DNL Target] avec des informations sur la requête [!DNL Target] et l’URL.
+1. [!DNL Target] extrait chaque activité s’exécutant dans cette requête [!DNL Target].
 1. [!DNL Target] tente de faire correspondre le visiteur à des activités.
 
-   Si le visiteur fait déjà partie d’un [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test] , ils correspondent à ce test jusqu’à ce qu’ils se convertissent. S’ils étaient auparavant dans un [!UICONTROL Experience Targeting] , ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
+   Si le visiteur se trouve déjà dans une activité [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test], il effectue une correspondance dans ce test jusqu’à sa conversion. S’ils se trouvaient auparavant dans une activité [!UICONTROL Experience Targeting], ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
 1. Si une activité basée sur des formulaires est la priorité la plus élevée, le contenu de cette activité est renvoyé avec tout le contenu de l’activité correspondant provenant des activités du compositeur d’expérience visuelle.
 1. Si une activité du compositeur d’expérience visuelle est la priorité la plus élevée, le contenu de toutes les activités du compositeur d’expérience visuelle correspondantes est renvoyé, mais aucun contenu d’activité d’après les formulaires n’est renvoyé.
@@ -62,15 +62,15 @@ Si vous avez deux activités, l’une ciblant le mot-clé de recherche de marque
 
 Si les deux activités ciblées ont la même priorité, l’activité qui a été consultée le plus récemment s’affiche. Si le visiteur est nouveau sur la page, l’activité qui a été activée le plus récemment s’affiche.
 
-## [!UICONTROL Form-Based Experience Composer] avec non global [!DNL Target] requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## [!UICONTROL Form-Based Experience Composer] avec des requêtes [!DNL Target] non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
-Si votre entreprise utilise [!DNL Target] demandes autres que la demande globale [!DNL Target] dans le compositeur d’après les formulaires, le contenu d’une seule activité peut être renvoyé par appel. La diffusion des activités est déterminée selon le flux décisionnel suivant :
+Si votre entreprise utilise des requêtes [!DNL Target] autres que la requête [!DNL Target] globale dans le compositeur d’après les formulaires, le contenu d’une seule activité peut être renvoyé par appel. La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. La variable [!DNL Target] l’appel au serveur arrive à [!DNL Target] avec des informations sur la variable [!DNL Target] requête et URL.
-1. [!DNL Target] extrait toutes les activités s’exécutant dans [!DNL Target] requête.
+1. L’appel au serveur [!DNL Target] renvoie à [!DNL Target] avec des informations sur la requête [!DNL Target] et l’URL.
+1. [!DNL Target] extrait chaque activité s’exécutant dans cette requête [!DNL Target].
 1. [!DNL Target] tente de faire correspondre le visiteur à l’activité de priorité la plus élevée.
 
-   Si le visiteur fait déjà partie d’un [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test] , elles correspondent à cette activité jusqu’à ce qu’elles soient converties. S’ils étaient auparavant dans un [!UICONTROL Experience Targeting] , ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
+   Si le visiteur se trouve déjà dans une activité [!UICONTROL A/B Test] ou [!UICONTROL Multivariate Test], il fait correspondre cette activité jusqu’à ce qu’il effectue une conversion. S’ils se trouvaient auparavant dans une activité [!UICONTROL Experience Targeting], ils doivent y faire à nouveau correspondre. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
 1. Si plusieurs activités partagent un niveau de priorité, il existe deux brise-glace :
 
@@ -81,18 +81,18 @@ Si votre entreprise utilise [!DNL Target] demandes autres que la demande globale
 
 >[!NOTE]
 >
->Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Low], [!UICONTROL Medium], ou [!UICONTROL High]ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres d’activité](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High], ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres d’activité](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 Réponse : offer1
 
-**Deux activités n’utilisent que les offres créées dans la variable [!UICONTROL Visual Experience Composer] pour différents sélecteurs**
+**Deux activités utilisent uniquement les offres créées dans [!UICONTROL Visual Experience Composer] pour différents sélecteurs**
 
 * Activité 1 : target-global-mbox, selector1, visualExpCompOffer1, priorité faible
 * Activité 2 : target-global-mbox, selector2, visualExpCompOffer2, priorité haute
 
 Réponse : visualExpCompOffer1, visualExpCompOffer2
 
-**Deux activités n’utilisent que les offres créées dans la variable [!UICONTROL Visual Experience Composer] pour le même sélecteur**
+**Deux activités utilisent uniquement les offres créées dans [!UICONTROL Visual Experience Composer] pour le même sélecteur**
 
 * Activité 1 : target-global-mbox, selector1, visualExpCompOffer1, priorité faible
 * Activité 2 : target-global-mbox, selector1, visualExpCompOffer2, priorité haute

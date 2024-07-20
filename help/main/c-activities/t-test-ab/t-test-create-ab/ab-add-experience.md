@@ -1,23 +1,23 @@
 ---
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
-description: Découvrez comment utiliser le [!UICONTROL Compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target].
-title: Comment ajouter des expériences dans une [!DNL Target] Activité A/B ?
+description: Découvrez comment utiliser le [!UICONTROL Visual Experience Composer] (VEC) dans  [!DNL Adobe Target].
+title: Comment ajouter des expériences dans une activité  [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 6fa1b428e7955bae976649c42d3eb9b2ddc2c79f
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '441'
 ht-degree: 43%
 
 ---
 
 # Ajout d’une expérience
 
-La variable [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) fournit une interface visuelle pour l’ajout et la modification des expériences sur votre page.
+Le [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) fournit une interface visuelle pour l’ajout et la modification des expériences sur votre page.
 
 Pour plus d’informations sur les expériences, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-1. Dans la **[!UICONTROL Expériences]** dans le VEC, cliquez sur **[!UICONTROL Ajouter une expérience]**.
+1. Sur la page **[!UICONTROL Experiences]** du VEC, cliquez sur **[!UICONTROL Add Experience]**.
 
    ![Option Ajouter une expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -27,9 +27,9 @@ Pour plus d’informations sur les expériences, voir [Expériences](/help/main/
 
 1. Sélectionnez les éléments à modifier et apportez les modifications souhaitées.
 
-   Lorsque vous placez le pointeur de la souris sur les éléments de votre page, ceux-ci sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du VEC.
+   Lorsque vous placez le pointeur de la souris sur les éléments de votre page, ceux-ci sont mis en surbrillance. Tout élément en surbrillance peut être modifié à l’aide du VEC.
 
-   Si vous avez créé une [!DNL Target] requête sur la page à l’aide de [!DNL Target Classic] (anciennement [!DNL Test&Target]), que [!DNL Target] s’affiche sous la forme d’un élément qui indique le nom de la requête et qui peut être modifié comme tout autre élément.
+   Si vous avez créé une requête [!DNL Target] sur la page en utilisant [!DNL Target Classic] (anciennement [!DNL Test&Target]), cette requête [!DNL Target] apparaît comme un élément qui indique le nom de la requête et peut être modifiée comme tout autre élément.
 
    Pour obtenir la liste des actions pouvant être exécutées sur un élément de la page affichée pour modifier l’expérience, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -37,11 +37,11 @@ Pour plus d’informations sur les expériences, voir [Expériences](/help/main/
    >
    >Si vous publiez une image provenant d’une source autre que votre page principale (une image hébergée sur `akamai.net` et publiée sur `example.com`, par exemple), cette image ne s’affiche pas dans la miniature de la page dans le diagramme de flux.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de concevoir l’expérience.
+1. Cliquez sur **[!UICONTROL Save]** lorsque vous avez fini de concevoir l’expérience.
 
 ## Renommer l’expérience
 
-1. Cliquez sur le bouton **[!UICONTROL Renommer l’expérience]** d’une expérience dans une [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT) pour donner un nouveau nom à l’expérience.
+1. Cliquez sur l’icône **[!UICONTROL Rename Experience]** sur une expérience dans une activité [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) pour donner un nouveau nom à l’expérience.
 
    ![Renommer l’expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,7 +62,7 @@ Pour plus d’informations sur les expériences, voir [Expériences](/help/main/
 
 ## Rediriger vers l’URL
 
-1. Cliquez sur le bouton **[!UICONTROL Plus]** Icône (points de suspension verticaux) sur une expérience dans une [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT), puis cliquez sur **[!UICONTROL Rediriger vers l’URL]**.
+1. Cliquez sur l’icône **[!UICONTROL More]** (ellipse verticale) sur une expérience dans une activité [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT), puis cliquez sur **[!UICONTROL Redirect to URL]**.
 
    Pour plus d’informations, voir [Redirection vers une URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
@@ -81,25 +81,25 @@ Pour plus d’informations sur les expériences, voir [Expériences](/help/main/
 
 1. Indiquez l’URL vers laquelle vous souhaitez rediriger l’expérience.
 
-1. (Conditionnel) Vérifiez le **[!UICONTROL Inclure les paramètres de requête actuels]** .
+1. (Conditionnel) Cochez la case **[!UICONTROL Include Current Query Parameters]** .
 
 ## Duplication d’une expérience
 
-Vous pouvez copier une expérience dans une [!UICONTROL Test A/B] vous pouvez donc y apporter des modifications mineures sans avoir à recréer l’expérience de zéro.
+Vous pouvez copier une expérience dans un [!UICONTROL A/B Test] afin d’y apporter des modifications mineures sans avoir à la recréer de zéro.
 
-1. Sur le **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur l’icône représentant des points de suspension verticaux > **[!UICONTROL Dupliquer]**.
+1. Sur la page **[!UICONTROL Experiences]** (la première étape du processus assisté en trois étapes), cliquez sur l’icône représentant des points de suspension verticaux > **[!UICONTROL Duplicate]**.
 
    ![Option de duplication d’une expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Suppression d’une expérience
 
-1. Sur le **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur l’icône représentant des points de suspension verticaux > **[!UICONTROL Dupliquer]**.
+1. Sur la page **[!UICONTROL Experiences]** (la première étape du processus assisté en trois étapes), cliquez sur l’icône représentant des points de suspension verticaux > **[!UICONTROL Duplicate]**.
 
    ![Option de suppression d’une expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vidéo de formation : utilisation de [!UICONTROL Compositeur d’expérience visuelle]
+## Vidéo de formation : utilisation de [!UICONTROL Visual Experience Composer]
 
-La vidéo ci-dessous fournit des informations sur l’utilisation de la variable [!UICONTROL Compositeur d’expérience visuelle] options. (07:17)
+La vidéo ci-dessous fournit des informations sur l’utilisation des options [!UICONTROL Visual Experience Composer]. (07:17)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page

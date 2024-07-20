@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '940'
 ht-degree: 1%
 
 ---
 
 # Test A/A
 
-Avant d’effectuer un test A/A sur votre site en utilisant [!DNL Adobe Target], il est important de comprendre ce qu’est un test A/A, pourquoi vous souhaitez peut-être exécuter un test A/A, combien de temps vous devez exécuter le test et comment interpréter les résultats.
+Avant d’exécuter un test A/A sur votre site à l’aide de [!DNL Adobe Target], il est important de comprendre ce qu’est un test A/A, pourquoi vous souhaitez peut-être exécuter un test A/A, combien de temps vous devez exécuter le test et comment interpréter les résultats.
 
 ## Qu’est-ce que le test A/A ?
 
@@ -21,11 +21,11 @@ Avant d’expliquer les tests A/A, il est conseillé de passer en revue les test
 
 Dans un test A/B standard, le trafic est affecté à plusieurs expériences différentes. Une expérience correspond généralement au &quot;contrôle&quot; et des variantes de l’expérience sont testées par rapport au contrôle afin de déterminer l’expérience qui crée le plus d’effet élévateur dans une mesure donnée.
 
-Le test A/A implique toutefois d’affecter le trafic à deux expériences identiques, généralement avec une répartition 50/50 de trafic. Avec un test A/B standard, vous souhaitez généralement découvrir un effet élévateur en conversion. Cela diffère d’un test A/A dans lequel votre objectif est généralement de déterminer qu’il existe *non* différence d’effet élévateur entre les expériences identiques.
+Le test A/A implique toutefois d’affecter le trafic à deux expériences identiques, généralement avec une répartition 50/50 de trafic. Avec un test A/B standard, vous souhaitez généralement découvrir un effet élévateur en conversion. Cela diffère d’un test A/A dont l’objectif est généralement de déterminer qu’il existe *aucune* différence d’effet élévateur entre les expériences identiques.
 
 ## Pourquoi voudrais-tu tester deux expériences identiques et qu’est-ce que cela accomplit ?
 
-Certaines organisations effectuent des tests A/A lors de la mise en oeuvre d’un nouvel outil de test, tel que [!DNL Target], afin de déterminer si :
+Certaines organisations effectuent des tests A/A lors de l’implémentation d’un nouvel outil de test, tel que [!DNL Target], pour déterminer si :
 
 * L’activité a été correctement configurée.
 * Le code a été correctement implémenté.
@@ -41,13 +41,13 @@ Il existe de nombreuses raisons pour lesquelles vous pouvez voir un effet élév
 
 Un problème courant lors de l’exécution de tout type de test, y compris un test A/A, consiste à examiner les résultats en permanence, et à arrêter prématurément un test lorsque vous constatez une signification statistique, puis à déclarer une expérience gagnante. Les analystes font souvent ce qu&#39;on appelle la &quot;recherche de données&quot;. La recherche de données implique d’examiner les données de test de manière précoce et fréquente tout en essayant de déterminer l’expérience la plus performante. Le risque est d&#39;arrêter le test de manière prématurée, ce qui pourrait invalider les résultats.
 
-Dans un test A/A, la recherche de données peut souvent amener les analystes à voir l’effet élévateur dans une expérience, alors qu’en fait il ne devrait y avoir aucune différence, car les deux expériences sont identiques. En fait, les tests A/A sont *garanti* pour afficher une &quot;signification statistique&quot; (à savoir, un degré de confiance supérieur à un certain seuil, comme 95 %) à un moment donné pendant le test.
+Dans un test A/A, la recherche de données peut souvent amener les analystes à voir l’effet élévateur dans une expérience, alors qu’en fait il ne devrait y avoir aucune différence, car les deux expériences sont identiques. En fait, avec un contrôle continu, les tests A/A sont *garantis* pour montrer une &quot;signification statistique&quot; (à savoir, un degré de confiance supérieur à un certain seuil, comme 95 %) à un moment donné pendant le test.
 
 Pour éviter cela, et comme pour un test A/B classique, vous devez donc décider à l’avance quelle taille d’échantillon utiliser, en fonction de la taille d’effet minimale (l’effet élévateur minimal en dessous duquel un effet n’est pas important pour votre entreprise), de la puissance et des niveaux de pertinence que vous trouvez acceptables.
 
-Dans un test A/A, l’objectif serait alors de *not* voir un résultat statistiquement significatif une fois que votre test a atteint la taille d’échantillon souhaitée.
+Dans un test A/A, l’objectif serait alors de *ne pas* voir un résultat statistiquement significatif une fois que votre test aura atteint la taille d’échantillon souhaitée.
 
-La variable [!UICONTROL Calculateur de taille d’échantillon Adobe Target] est un outil important pour vous aider à déterminer la taille d’échantillon à cibler et la durée d’exécution du test.
+[!UICONTROL Adobe Target Sample Size Calculator] est un outil important pour vous aider à déterminer la taille d’échantillon à cibler et la durée d’exécution du test.
 
 * [Calculateur de taille Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
@@ -68,6 +68,6 @@ Supposons que vous souhaitiez atteindre un degré de confiance de 95 % avec votr
 
 Si vous décidez qu’un test A/A est nécessaire dans votre entreprise, sachez que les expériences identiques peuvent temporairement montrer une différence par rapport au contrôle. Cela peut être normal, en fonction de la période d’exécution du test. La différence devrait diminuer au fur et à mesure que les visiteurs et le temps passeront.
 
-La bonne pratique consiste à utiliser une méthodologie de test A/B classique : déterminer à l’avance la taille de l’échantillon en fonction d’une taille minimale d’effet, de la puissance souhaitée et de l’importance en utilisant la méthode [Calculateur de taille Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+La bonne pratique consiste à utiliser une méthodologie de test A/B standard : choisissez la taille de l’échantillon à l’avance en fonction d’une taille d’effet minimale, de la puissance souhaitée et de la signification en utilisant le [calculateur de taille Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Accordez ensuite un temps suffisant et aux visiteurs avant d’arriver à une conclusion. N’oubliez pas que selon le niveau de pertinence de votre test, il est possible qu’une expérience montre une différence d’effet élévateur, voire qu’elle soit déclarée gagnante.

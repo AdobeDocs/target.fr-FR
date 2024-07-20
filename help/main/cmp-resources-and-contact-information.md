@@ -6,8 +6,8 @@ feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 93%
 
 ---
 
@@ -44,10 +44,10 @@ Les sessions Target enregistrées actuelles incluent :
 
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
-| [Conseils et aperçu d’at.js](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:12<br>26 juin 2019 | Ce que vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, consultez [Fonctionnement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
+| [Conseils et aperçu d’at.js](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:12<br>26 juin 2019 | Ce que vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, voir [Fonctionnement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | [Espaces de travail Target Premium](https://helpx.adobe.com/fr/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>4 septembre 2018 | Ce que vous apprendrez :<ul><li>Création d’un espace de travail (profil produit)</li><li>Création de propriétés</li><li>Ajout d’utilisateurs</li><li>Mise à jour de l’implémentation</li></ul>Pour plus d’informations, voir [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
-| [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/fr/customer-care-office-hours/target/visual-experience-composer.html)<br> 50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir   [Expériences](/help/main/c-experiences/experiences.md). |
-| [Adobe Target : Intégration d’Analytics/de Target (A4T)](https://helpx.adobe.com/fr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/fr/customer-care-office-hours/target/visual-experience-composer.html)<br> 50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/main/c-experiences/experiences.md). |
+| [Adobe Target : Intégration d’Analytics/de Target (A4T)](https://helpx.adobe.com/fr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics as a Reporting Source for Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js : Avantages et bonnes pratiques d’implémentation](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>Avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js aujourd’hui obsolète</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul> |
 
 >[!NOTE]
@@ -64,7 +64,7 @@ Le service à la clientèle a pour mission de vous aider à résoudre les probl�
 
 Pour tout problème ou toute question concernant l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
-Pour toute question, vous pouvez contacter les experts d’Adobe Target au sein de la [Communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+Pour toute question, vous pouvez contacter les experts Adobe Target de la [communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Vous trouverez les numéros gratuits en dehors des États-Unis sur la page [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/fr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
 
@@ -75,7 +75,7 @@ Pour que votre problème soit redirigé le plus rapidement possible, préparez l
 | Informations | Détails |
 | --- | --- |
 | Résumé | Bref résumé du problème |
-| Informations du compte | Nom de la société<br>Admin Number<br>Campaign Name<br>Type of Campaign<br>Report Suite/Report Suite ID (s’il s’agit d’une intégration de cible à SiteCatalyst) |
+| Informations du compte | Nom de la société <br>Numéro d’administrateur<br>Nom de la campagne<br>Type de campagne<br>Identifiant de suite de rapports/de suite de rapports (s’il s’agit d’une intégration Target/SiteCatalyst) |
 | Étapes à reproduire | Donnez autant de détails que possible, y compris les URL nécessaires pour reproduire le problème ainsi que le résultat attendu.<br>Incluez suffisamment de détails pour qu’une personne ne connaissant pas bien Target puisse suivre les instructions et reproduire le problème. |
 | Priorité | P1 (le plus important) à P4 (le moins important). |
 | Impact sur l’entreprise | Quel est l’impact sur votre entreprise ? Par exemple, le problème est-il à l’origine d’une baisse du chiffre d’affaires ou rend-il le produit inutilisable ? Existe-t-il un palliatif viable ? |
@@ -115,7 +115,7 @@ En fonction de la configuration de votre solution, il est possible que vous n’
 
 ### Commentaires  {#section_8154D6D712054220A90D85FA8E92933E}
 
-Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Des idées et suggestions d’amélioration peuvent être ajoutées à la [Communauté Experience League d’Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr). Cliquez sur l’onglet [!UICONTROL Idées].
+Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Des idées et suggestions d’amélioration peuvent être ajoutées à la [Communauté Experience League d’Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr). Cliquez sur l’onglet [!UICONTROL Ideas] .
 
 ### Mentions légales {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 

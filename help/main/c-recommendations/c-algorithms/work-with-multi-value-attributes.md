@@ -1,13 +1,13 @@
 ---
 keywords: plusieurs valeurs;attributs;recommandations;plusieurs valeurs;plusieurs valeurs;plusieurs valeurs
-description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe [!DNL Target] Recommendations utilisant des opérateurs spéciaux à plusieurs valeurs, par exemple, lorsque vous recommandez des films avec plusieurs acteurs.
+description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe [!DNL Target] Recommendations à l’aide d’opérateurs à plusieurs valeurs spéciaux, par exemple, lorsque vous recommandez des films avec plusieurs acteurs.
 title: Puis-je utiliser des attributs à plusieurs valeurs dans Recommendations ?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 8%
+source-wordcount: '454'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Il peut arriver que vous souhaitiez travailler avec un champ à plusieurs valeur
 
 Pour gérer les recommandations dans ces scénarios, vous pouvez transmettre des données à plusieurs valeurs à [!DNL Target Recommendations] et utiliser des opérateurs spéciaux à plusieurs valeurs.
 
-Pour autoriser [!DNL Recommendations] pour identifier des données à plusieurs valeurs, elles doivent être envoyées sous la forme d’un tableau JSON, comme dans les exemples de code ci-dessous.
+Pour permettre à [!DNL Recommendations] d’identifier des données à plusieurs valeurs, elles doivent être envoyées sous la forme d’un tableau JSON, comme dans les exemples de code ci-dessous.
 
 ## Transmettre un paramètre à plusieurs valeurs dans JavaScript
 
@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-Pour plus d’informations, voir [Implémentation d’attributs à plusieurs valeurs](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Attributs d’entité personnalisés*.
+Pour plus d’informations, voir [Implémentation d’attributs à plusieurs valeurs](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) dans *Attributs d’entité personnalisés*.
 
 ## Transmettre un attribut d’entité à plusieurs valeurs dans un fichier CSV
 
@@ -59,12 +59,12 @@ Pour plus d’informations, voir [Implémentation d’attributs à plusieurs val
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Lorsqu’un attribut d’entité, un attribut de profil ou un paramètre de mbox est fourni sous la forme de plusieurs valeurs selon le format ci-dessus, [!DNL Recommendations] déduit automatiquement que le champ comporte plusieurs valeurs.
+Lorsqu’un attribut d’entité, un attribut de profil ou un paramètre de mbox est fourni sous la forme de plusieurs valeurs selon le format ci-dessus, [!DNL Recommendations] déduit automatiquement que le champ est de plusieurs valeurs.
 
 Les opérateurs suivants peuvent être utilisés avec des attributs d’entité, de profil et de mbox à plusieurs valeurs :
 
-* [!UICONTROL est contenu dans la liste]
-* [!UICONTROL ne figure pas dans la liste]
+* [!UICONTROL is contained in list]
+* [!UICONTROL is not contained in list]
 
 ## Utilisation d’attributs à plusieurs valeurs dans les règles d’inclusion
 
@@ -72,7 +72,7 @@ Les opérateurs suivants peuvent être utilisés avec des attributs d’entité,
 >
 >La prise en charge de la correspondance dynamique avec des attributs à plusieurs valeurs n’est actuellement disponible que dans les critères lors de l’utilisation d’une règle de correspondance d’attributs de profil ou de paramètre (mbox) lors de la comparaison d’une seule valeur du côté gauche à un côté droit à plusieurs valeurs. Les attributs à plusieurs valeurs ne sont actuellement pas pris en charge dans les promotions, la correspondance des attributs d’entité ou pour les listes sur le côté gauche des règles d’inclusion.
 
-### Exemple : Exclusion des éléments récemment consultés
+### Exemple : exclure les éléments récemment visionnés
 
 Supposons que vous souhaitiez empêcher la recommandation de films figurant dans les dix derniers films visionnés par l’utilisateur. Commencez par écrire un script de profil appelé `user.lastWatchedMovies` pour effectuer le suivi des dix derniers films consultés en tant que tableau JSON. Vous pouvez ensuite exclure les éléments à l’aide de la règle d’inclusion suivante :
 
@@ -94,9 +94,9 @@ Représentation de l’API JSON de la règle d’inclusion :
 } 
 ```
 
-### Exemple : Éléments recommandés parmi les favoris de l’utilisateur
+### Exemple : recommandations d’éléments parmi les favoris de l’utilisateur
 
-Supposons que vous ne vouliez recommander des tickets que pour les concerts si le groupe jouant est l’un des groupes favoris de l’utilisateur. Tout d’abord, assurez-vous que vous disposez d’une variable de profil appelée `profile.favoriteBands` qui contient les bandes préférées de l’utilisateur. Ensuite, assurez-vous que votre catalogue comprend un attribut . `entity.artistPerforming` qui inclut l&#39;artiste qui joue dans le concert. Vous pouvez ensuite utiliser la règle d’inclusion suivante :
+Supposons que vous ne vouliez recommander des tickets que pour les concerts si le groupe jouant est l’un des groupes favoris de l’utilisateur. Tout d’abord, assurez-vous que vous disposez d’une variable de profil appelée `profile.favoriteBands` qui contient les bandes préférées de l’utilisateur. Ensuite, assurez-vous que votre catalogue comprend un attribut `entity.artistPerforming` qui inclut l’artiste qui joue dans le concert. Vous pouvez ensuite utiliser la règle d’inclusion suivante :
 
 ```
 `Profile Attribute Matching`
@@ -116,9 +116,9 @@ Représentation de l’API JSON de la règle d’inclusion :
 }
 ```
 
-### Exemple : Création d’API de critères recommandant des éléments à partir des favoris d’un utilisateur
+### Exemple : création d’API de critères recommandant des éléments à partir des favoris d’un utilisateur
 
-Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via des API Adobe I/O. Exemple d’appel API pour créer un critère où l’attribut d’entité `id` est contenu dans la liste des paramètres de mbox `favorites` est fourni ici :
+Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via des API Adobe I/O. Un exemple d’appel API pour créer un critère où l’attribut d’entité `id` est contenu dans la liste de paramètres de mbox `favorites` est fourni ici :
 
 ```
 curl -X POST \

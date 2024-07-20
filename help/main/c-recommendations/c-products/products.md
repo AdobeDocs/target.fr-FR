@@ -1,14 +1,14 @@
 ---
 keywords: produit, collections
-description: En savoir plus sur les entités dans Adobe [!DNL Target] Recommendations. Les entités font référence aux éléments que vous souhaitez recommander à l’aide de [!DNL Target], comme des articles, des films ou des produits.
+description: Découvrez les entités dans Adobe [!DNL Target] Recommendations. Les entités font référence aux éléments que vous souhaitez recommander à l’aide de  [!DNL Target], tels que des articles, films ou produits.
 title: Comment utiliser les entités ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 74%
+source-wordcount: '114'
+ht-degree: 68%
 
 ---
 

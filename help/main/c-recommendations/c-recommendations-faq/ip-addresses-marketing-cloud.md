@@ -7,22 +7,22 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 46%
+source-wordcount: '173'
+ht-degree: 59%
 
 ---
 
-# Adresses IP utilisées par [!DNL Recommendations] serveurs de traitement de flux
+# Adresses IP utilisées par les serveurs de traitement de flux [!DNL Recommendations]
 
-Liste des adresses IP utilisées dans [!DNL Adobe Target] [!DNL Recommendations] serveurs de traitement de flux pour vous aider à configurer votre pare-feu pour autoriser les adresses IP issues de [!DNL Adobe] serveurs.
+Liste des adresses IP utilisées dans les serveurs de traitement de flux [!DNL Adobe Target] [!DNL Recommendations] pour vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->La variable [!DNL Target] L’équipe met actuellement à jour les adresses de passerelle NAT pour le téléchargement. [!DNL Recommendations] flux. Si vous implémentez l’liste autorisée IP, veillez à placer sur la liste autorisée les nouveaux hôtes AWS suivants. Les hôtes existants doivent être mis hors service le 30 juin 2024. Pour assurer une transition en douceur, placez sur la liste autorisée les neuf adresses. Il n&#39;est pas urgent de supprimer les adresses existantes.
+>L&#39;équipe [!DNL Target] met actuellement à jour les adresses de passerelle NAT pour télécharger des flux [!DNL Recommendations]. Si vous implémentez le placement sur liste autorisée d’adresses IP, assurez-vous que les nouveaux hôtes AWS suivants sont bien répertoriés. La mise hors service des hôtes existants est prévue pour le 30 juin 2024. Pour assurer une transition en douceur, placez l’ensemble des neuf adresses sur la liste autorisée. La suppression des adresses existantes n’est pas urgente.
 
-Les activités [!DNL Target] [!UICONTROL Recommendations] utilisent les hôtes AWS suivants lors de l’accès aux serveurs FTP des clients :
+[!DNL Target] [!UICONTROL Recommendations] Les activités utilisent les hôtes AWS suivants lors de l’accès aux serveurs FTP des clients :
 
-**Nouveaux hôtes**:
+**Nouveaux hôtes** :
 
 | Emplacement | Hôte |
 | --- | --- |
@@ -33,7 +33,7 @@ Les activités [!DNL Target] [!UICONTROL Recommendations] utilisent les hôtes 
 | Oregon | `54.190.78.243` |
 | Oregon | `52.41.73.133` |
 
-**Hôtes existants**:
+**Hôtes existants** :
 
 | Emplacement | Hôte |
 | --- | --- |
@@ -41,4 +41,4 @@ Les activités [!DNL Target] [!UICONTROL Recommendations] utilisent les hôtes 
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-Les API [!DNL Target] [!UICONTROL Recommendations] utilisent les mêmes hôtes AWS.
+Les API [!DNL Target] [!UICONTROL Recommendations] utilisent également les mêmes hôtes AWS.

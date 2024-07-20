@@ -1,13 +1,13 @@
 ---
 keywords: vidéos de formation;youtube;vidéos;formation vidéo;tutoriel;tutoriels;vidéo
-description: Visionnez des vidéos de formation pour tirer le meilleur parti de  [!DNL Target]  Standard et de  [!DNL Target]  Premium.
+description: Regardez des vidéos de formation pour tirer le meilleur parti de  [!DNL Target] Standard et [!DNL Target] Premium.
 title: Où puis-je trouver des vidéos de formation sur  [!DNL Target]  ?
 feature: Overview
 exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 86%
 
 ---
 
@@ -25,7 +25,7 @@ Des vidéos sont proposées dans les catégories suivantes :
 * Implémentation et résolution des problèmes
 * Cas d’utilisation marketing
 
-## Dans l’aide d’Adobe [!DNL Target]  {#section_53C618334E974FB89B3F093DEF789CCB}
+## Aide intégrée dans l’Adobe [!DNL Target] {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Vous trouverez des vidéos de formation dans différentes sections du présent guide. Cliquez sur l’image de la vidéo pour lire cette dernière sans quitter l’Aide.
 
@@ -35,7 +35,7 @@ Une collection de vidéos et de tutoriels relatifs aux fonctionnalités de Targe
 
 ![Vidéos d’Experience League](/help/main/c-intro/assets/experience-league.png)
 
-## Tutoriels Adobe [!DNL Target]  {#tutorials}
+## Adobe [!DNL Target] Tutorials {#tutorials}
 
 Des tutoriels vidéo présentant des concepts et des outils pour [!DNL Target] sont disponibles sur la page [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr).
 

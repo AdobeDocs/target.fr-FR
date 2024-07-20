@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2395'
-ht-degree: 93%
+source-wordcount: '2402'
+ht-degree: 91%
 
 ---
 
@@ -19,15 +19,15 @@ En suivant ces bonnes pratiques, vous avez moins de chance de rencontrer des pro
 
 ## Bonnes pratiques  {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Placez la référence at.js en haut de la page `<head>` de votre page.**
+**Placez la référence at.js en haut de la section `<head>` de votre page.**
 
 Si vous utilisez également le service d’API visiteur, placez le script de l’API visiteur au-dessus d’at.js.
 
 **Vous pouvez activer le compositeur d’expérience avancé au niveau du compte (il est alors activé pour toutes les activités créées dans le compte) ou au niveau des activités individuelles.**
 
-Pour activer le compositeur d’expérience avancé au niveau du compte, cliquez sur [!UICONTROL Administration > Compositeur d’expérience visuelle], puis faites basculer le commutateur en position Activé .
+Pour activer le compositeur d’expérience avancé au niveau du compte, cliquez sur [!UICONTROL Administration > Visual Experience Composer], puis faites basculer le commutateur en position Activé.
 
-Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configurer > URL], puis faites basculer le commutateur en position Activé.
+Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configure > URL], puis faites basculer le commutateur en position Activé.
 
 **Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de votre site.**
 
@@ -217,7 +217,7 @@ La balise div externe ne doit pas être sélectionnée dans une expérience car 
 
 Si vous utilisez un compositeur d’expérience avancé comme site non actif, par exemple un environnement d’évaluation, vous pourrez constater des délais d’attente et des erreurs de refus d’accès si votre site bloque les RIP.
 
-**Lors de l’ajout de plusieurs pages, le rail d’expérience et le rail de page sont ouverts simultanément. Cela entraîne une réduction de la largeur utilisable par le compositeur d’expérience visuelle pour afficher le site lors des optimisations. De ce fait, les sites reformatables peuvent commencer à s’afficher autrement que ce qui a été prévu dans l’espace réduit.**
+**Lors de l’ajout de plusieurs pages, le rail d’expérience et le rail de page sont ouverts simultanément. Cela entraîne une réduction de la largeur utilisable par le compositeur d’expérience visuelle pour afficher le site lors des optimisations. Par conséquent, les sites reconfigurables peuvent commencer à apparaître différemment que prévu dans l’espace réduit.**
 
 La méthode de contournement consiste à réduire le rail d’expérience et le rail de page en cliquant sur les icônes Chevron de gauche en haut de la page.
 
@@ -229,7 +229,7 @@ Un élément ne peut pas être déplacé en dehors d’un conteneur qui est suiv
 
 **Seules les offres de permutation sont disponibles sur les mbox.**
 
-Les actions telles que Modifier une classification et Réorganiser ne sont pas autorisées dans une mbox.
+Les actions telles que Modifier la classe et Réorganiser ne sont pas autorisées dans une mbox.
 
 **Vous ne devez pas réorganiser et déplacer le même élément.**
 

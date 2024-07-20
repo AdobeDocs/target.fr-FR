@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 90%
 
 ---
 
@@ -21,15 +21,15 @@ Il existe plusieurs raisons pour lesquelles les données s’affichent comme «�
 
 * La classification dans [!DNL Target] n’a pas été entièrement traitée.
 
-   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
+  La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
 
 * La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les accès. [!DNL Target] ne peut pas classer les données tant que le premier accès n’a pas eu lieu.
 
-   Assurez-vous que la suite de rapports compte au moins un accès.
+  Assurez-vous que la suite de rapports compte au moins un accès.
 
 * L’appel à la classification de [!DNL Target] à [!DNL Analytics] a échoué.
 
-   [Contactez l’Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir de l’aide.
+  [Contactez l’Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir de l’aide.
 
 Si vous ventilez la ligne « non spécifié » par la dimension « Analytics for Target » et qu’elle ne contient aucun ID d’activité, cela signifie que tout est classé correctement. Si les ID d’activité y sont répertoriés, cela indique un problème de classification.
 
@@ -41,13 +41,13 @@ Si vous ventilez la ligne « non spécifié » par la dimension « Analytics 
 
 ## Les rapports d’activité A4T comprennent une ligne avec de nombreux événements « non spécifiés ». {#added_unspecified_events}
 
-Votre rapport peut contenir une ligne d’événements « [!UICONTROL Non spécifiés] », selon la mesure que vous utilisez pour afficher vos données.
+Il peut y avoir une ligne d’événements &quot;[!UICONTROL Unspecified]&quot; affichée dans votre rapport, selon la mesure avec laquelle vous utilisez pour afficher vos données.
 
-En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à [!DNL Target] (par exemple, [!UICONTROL Pages vues], [!UICONTROL Visites], [!UICONTROL Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL « Non spécifié »] comprend toutes les [!UICONTROL Pages vues], [!UICONTROL Visites], et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
+En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à [!DNL Target] (par exemple, [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors], etc.). Dans ce cas, la ligne [!UICONTROL "Unspecified"] comprend tous les [!UICONTROL Page Views], [!UICONTROL Visits] et [!UICONTROL Unique Visitors] qui ne sont pas associés aux activités [!DNL Target].
 
 Cette ligne ne contient aucune information relative à [!DNL Target] (par exemple, aucun visiteur, aucune visite ou impression). Pour plus d’informations, consultez la section [« Non spécifié », « Aucun », « Autre » et « Inconnu » dans les rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=fr) dans les *notes techniques d’Analytics*.
 
-Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, la ligne [!UICONTROL « Non spécifié »] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
+Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, cette ligne [!UICONTROL "Unspecified"] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
 
 ## L’effet élévateur estimé dans les recettes ne présente pas les données appropriées. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -59,7 +59,7 @@ Les activités A4T exigent qu’un serveur de suivi Analytics soit spécifié. P
 
 >[!NOTE]
 >
->Vous n’avez pas besoin de spécifier de serveur de suivi lors de la création de l’activité si vous utilisez la version 0.9.1 d’at.js (ou ultérieure). La bibliothèque at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
+>Vous n’avez pas besoin de spécifier de serveur de suivi lors de la création de l’activité si vous utilisez la version 0.9.1 d’at.js (ou ultérieure). La bibliothèque at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Tracking Server] vide sur la page [!UICONTROL Goals & Settings].
 
 ## Mes segments Analytics n’apparaissent pas dans Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

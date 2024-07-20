@@ -14,11 +14,11 @@ ht-degree: 50%
 
 # Paramètres de l’activité de recommandations
 
-Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une [!UICONTROL Recommendations] activité dans [!DNL Adobe Target].
+Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une activité [!UICONTROL Recommendations] dans [!DNL Adobe Target].
 
 ![Page Objectifs et paramètres de Recommandations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
-Les sections suivantes décrivent les paramètres disponibles pour une [!UICONTROL Recommendations] activité.
+Les sections suivantes décrivent les paramètres disponibles pour une activité [!UICONTROL Recommendations].
 
 ## Nom
 
@@ -35,7 +35,7 @@ Le nom de l’activité ne peut pas contenir les caractères suivants :
 `-`
 `@`
 
-Si vous spécifiez une [!UICONTROL Recommendations] nom de l’activité qui existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom correspond au nom d’origine complété par un horodatage pour le rendre unique. Le nouveau nom est affiché dans [!DNL Target Standard/Premium] et dans [!UICONTROL Recommendations Classic].
+Si vous spécifiez un nom d’activité [!UICONTROL Recommendations] qui existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom correspond au nom d’origine complété par un horodatage pour le rendre unique. Le nouveau nom est affiché dans [!DNL Target Standard/Premium] et dans [!UICONTROL Recommendations Classic].
 
 ## Intention
 
@@ -55,23 +55,23 @@ L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également 
 
 ## Paramètres de création de rapports
 
-* **Source de création de rapports :** Spécifiez les données de solution à partir desquelles collecter :
+* **Source de création de rapports :** Spécifiez les données de solution à partir desquelles les données sont collectées :
 
    * [!DNL Adobe Target]
    * [!DNL Adobe Analytics]
    * [!DNL Adobe Customer Journey Analytics]
 
-  Si une solution de création de rapports est spécifiée dans votre [paramètres du compte](/help/main/administrating-target/reporting.md), la solution spécifiée est utilisée et ce paramètre n’est pas visible.
+  Si une solution de création de rapports est spécifiée dans les [paramètres du compte](/help/main/administrating-target/reporting.md), la solution spécifiée est utilisée et ce paramètre n’est pas visible.
 
   Vous ne pouvez pas modifier votre source de création de rapports une fois l’activité activée pour préserver la cohérence des rapports.
 
-  **[!DNL Adobe Analytics]**: Voir [[!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour découvrir les différences entre les solutions de création de rapports et les avantages de chacune d’elles.
+  **[!DNL Adobe Analytics]** : voir [[!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour découvrir les différences entre les solutions de création de rapports et les avantages de chacune d’elles.
 
-  Lorsque vous sélectionnez [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T), vous sélectionnez une [!DNL Analytics] suite de rapports à recevoir [!DNL Target] données d’activité. Pour ce faire, faites d’abord votre choix parmi les options suivantes : [!DNL Analytics] société à laquelle votre compte est lié, puis sélectionnez la suite de rapports appropriée à l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Target] sont disponibles pour sélection. Si vous ne voyez pas la suite de rapports attendue, essayez d’abord de vous déconnecter et de vous reconnecter au [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports n’apparaît toujours pas dans la liste, contactez [Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+  Lorsque vous sélectionnez [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T), vous sélectionnez une suite de rapports [!DNL Analytics] pour recevoir les données d’activité [!DNL Target]. Pour ce faire, faites d’abord votre choix parmi les sociétés [!DNL Analytics] auxquelles votre compte est lié, puis sélectionnez la suite de rapports appropriée à l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si vous ne voyez pas la suite de rapports attendue, essayez d’abord de vous déconnecter et de vous reconnecter à [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports n’apparaît toujours pas dans la liste, contactez l’ [assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-  [!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s’affiche dans la variable [!UICONTROL Tracking Server] champ . Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le serveur de suivi approprié dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
+  [!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s’affiche dans le champ [!UICONTROL Tracking Server] . Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le serveur de suivi approprié dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
 
-  **[!DNL Adobe Customer Journey Analytics]**: Voir [[!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
+  **[!DNL Adobe Customer Journey Analytics]** : Voir [[!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
 
 * **Mesure d’objectif :** Sélectionnez la mesure de succès qui détermine si l’activité est réussie.
 * **Mesures supplémentaires :** Configurez des mesures de succès supplémentaires à utiliser dans les rapports.
@@ -81,7 +81,7 @@ L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également 
 
 Entrez des notes relatives à votre activité.
 
-## Vidéo de formation : paramètres d’activité (3:02) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : Paramètres d’activité (3:02) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 

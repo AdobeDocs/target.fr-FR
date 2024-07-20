@@ -6,26 +6,26 @@ feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 46%
+source-wordcount: '131'
+ht-degree: 35%
 
 ---
 
 # Système d’exploitation
 
-Vous pouvez cibler les visiteurs qui utilisent [!DNL Adobe Target] qui utilisent un certain système d’exploitation.
+Vous pouvez cibler les visiteurs utilisant [!DNL Adobe Target] qui utilisent un certain système d’exploitation.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Glisser-déposer **[!UICONTROL Système d’exploitation]** dans le volet audience builder.
-1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
+1. Faites glisser **[!UICONTROL Operating System]** dans le volet du créateur d’audiences.
+1. Cliquez sur **[!UICONTROL Select]**, puis sélectionnez l’une des options suivantes :
 
    * Linux
    * Macintosh
    * Windows
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Cliquez sur **[!UICONTROL Done]**.
 
 L’illustration suivante présente une audience ciblant les visiteurs utilisant un système d’exploitation Macintosh.
 

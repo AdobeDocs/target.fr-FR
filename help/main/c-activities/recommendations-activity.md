@@ -1,6 +1,6 @@
 ---
 keywords: recommendations
-description: Obtention d’informations sur les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction des activités passées des utilisateurs.
+description: Obtenez des informations sur les activités Recommendations dans Adobe  [!DNL Target] qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en fonction des activités passées des utilisateurs.
 title: Où Trouver Des Informations Sur Les Activités Recommendations ?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963

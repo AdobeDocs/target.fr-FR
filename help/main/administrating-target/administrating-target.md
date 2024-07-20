@@ -7,16 +7,16 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '92'
 ht-degree: 11%
 
 ---
 
-# Administrer [!DNL Target] Présentation
+# Présentation de l’administrateur [!DNL Target]
 
-Informations relatives à l’administration [!DNL Adobe Target], y compris les paramètres de configuration du compositeur d’expérience visuelle (VEC), de la création de rapports, de la configuration de Scene7, de l’implémentation, des hôtes, des environnements, des jetons de réponse et des utilisateurs.
+Informations destinées à vous aider à administrer [!DNL Adobe Target], notamment les paramètres de configuration du compositeur d’expérience visuelle (VEC), le reporting, la configuration de Scene7, l’implémentation, les hôtes, les environnements, les jetons de réponse et les utilisateurs.
 
-Pour accéder au [!UICONTROL Administration] éléments de menu, cliquez sur **[!UICONTROL Administration]** dans la barre de menu supérieure, cliquez sur l’onglet de votre choix le long du côté gauche :
+Pour accéder aux éléments du menu [!UICONTROL Administration], cliquez sur **[!UICONTROL Administration]** dans la barre de menus supérieure, puis cliquez sur l’onglet de votre choix le long du côté gauche :
 
 * [Compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md)
 * [Création de rapports](/help/main/administrating-target/reporting.md)
@@ -26,6 +26,6 @@ Pour accéder au [!UICONTROL Administration] éléments de menu, cliquez sur **[
 * [Hôtes](/help/main/administrating-target/hosts.md)
 * [Environnements](/help/main/administrating-target/environments.md)
 * [Jetons de réponse](/help/main/administrating-target/response-tokens.md)
-* [Utilisateurs](/help/main/administrating-target/c-user-management/user-management.md)
+* [Utilisateurs et utilisatrices](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Menu Administration d’Adobe Target](/help/main/administrating-target/assets/administration.png)
+![Menu Administration Adobe Target](/help/main/administrating-target/assets/administration.png)

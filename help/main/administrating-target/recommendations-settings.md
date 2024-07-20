@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Découvrez comment configurer les paramètres pour [!DNL Adobe Target Recommendations].
 
-Pour accéder au [!DNL Recommendations] options de paramètres, ouvrez [!DNL Target] dans le [!DNL Adobe Experience Cloud], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Pour accéder aux options de paramètres [!DNL Recommendations], ouvrez [!DNL Target] dans [!DNL Adobe Experience Cloud], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Recommendations].
 
 Vous pouvez configurer les paramètres suivants :
 
 * Définition du code client
-* Générer un jeton d’autorisation pour [!DNL Target] API
+* Générer un jeton d’autorisation pour les API [!DNL Target]
 * Définition de votre secteur industriel ou vertical
 * Filtrer les critères incompatibles
 * Définition de votre groupe d’hôtes par défaut

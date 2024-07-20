@@ -1,7 +1,7 @@
 ---
 keywords: recherche catalogue;catalogue;recherche;exclusion;collection;filtre;recommandations
-description: Découvrez comment utiliser le [!DNL Recommendations] [!UICONTROL Catalog Search] pour localiser des produits ou du contenu, supprimez des éléments de votre catalogue, etc.
-title: Comment utiliser la variable [!DNL Recommendations] [!UICONTROL Catalog Search]?
+description: Découvrez comment utiliser le  [!DNL Recommendations] [!UICONTROL Catalog Search] pour localiser des produits ou du contenu, supprimer des éléments de votre catalogue, etc.
+title: Comment utiliser le  [!DNL Recommendations] [!UICONTROL Catalog Search] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 hide: true
@@ -16,21 +16,21 @@ ht-degree: 21%
 
 # [!UICONTROL Catalog Search]
 
-La variable [!UICONTROL Catalog Search] page [!DNL Adobe Recommendations] vous aide à localiser les produits ou le contenu dans votre catalogue. La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement, filtrer les facettes, modifier les colonnes du tableau, ajouter de nouvelles facettes de recherche, etc.
+La page [!UICONTROL Catalog Search] de [!DNL Adobe Recommendations] vous aide à localiser les produits ou le contenu dans votre catalogue. La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement, filtrer les facettes, modifier les colonnes du tableau, ajouter de nouvelles facettes de recherche, etc.
 
 Les catalogues font référence à l’ensemble de vos produits (entités). Votre catalogue peut contenir de nombreuses collections, un moyen d’organiser vos produits dans des compartiments logiques.
 
 ## Accès [!UICONTROL Catalog Search]
 
-Pour accéder au [!UICONTROL Catalog Search] page, cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Pour accéder à la page [!UICONTROL Catalog Search], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
-![Page Recherche catalogue](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+![Page de recherche catalogue](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## Exécution d’une recherche simple
 
-1. Saisissez un terme de recherche dans la variable **[!UICONTROL Search In]** champ .
+1. Saisissez un terme de recherche dans le champ **[!UICONTROL Search In]**.
 
-1. (Facultatif) Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans la variable [!UICONTROL Search In] champ .
+1. (Facultatif) Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans le champ [!UICONTROL Search In].
 
    Les options de recherche disponibles sont les suivantes :
 
@@ -46,7 +46,7 @@ Pour accéder au [!UICONTROL Catalog Search] page, cliquez sur **[!UICONTROL Rec
    >
    >Aucune fonctionnalité actuellement disponible ne permet de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) avec en référence les attributs dont le type doit être passé de chaîne à numérique.
 
-   Vous pouvez également utiliser des filtres pour trouver les produits souhaités. Par exemple, en cliquant sur la fonction **[!UICONTROL Show Filters]** icône ( ![Icône Afficher les filtres](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), en développant la variable [!UICONTROL Collections] , puis en sélectionnant une ou plusieurs collections, tous les produits appartenant aux collections sélectionnées de votre catalogue s’affichent.
+   Vous pouvez également utiliser des filtres pour trouver les produits souhaités. Par exemple, en cliquant sur l’icône **[!UICONTROL Show Filters]** ( ![Icône Afficher les filtres](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), en développant la facette [!UICONTROL Collections], puis en sélectionnant une ou plusieurs collections, tous les produits appartenant aux collections sélectionnées de votre catalogue s’affichent.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ Toutes les informations sur cet élément sont supprimées de l’index de catal
 
 ## Actualiser le catalogue
 
-L’index de votre catalogue est automatiquement créé lorsque vous chargez votre premier flux et actualisé en fonction de la variable [planning spécifié](/help/main/c-recommendations/c-products/feeds.md#steps).
+L’index de votre catalogue est automatiquement créé lorsque vous chargez votre premier flux et actualisé selon la [planification spécifiée](/help/main/c-recommendations/c-products/feeds.md#steps).
 
 Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement effectuées dans l’heure. Si des mises à jour sont en cours, l’heure de début de la mise à jour la plus récente s’affiche. Si aucune mise à jour n’est en cours, l’heure de début et de fin de la mise à jour la plus récente s’affiche.
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## Modification de l’environnement
 
-[Environnements](/help/main/administrating-target/environments.md) vous permettent d’organiser vos sites et environnements de préproduction pour une gestion facile et des rapports distincts.
+Les [environnements](/help/main/administrating-target/environments.md) vous permettent d’organiser vos sites et environnements de préproduction pour une gestion facile et des rapports distincts.
 
 1. Cliquez sur l’icône Afficher les filtres ( ![Icône Afficher les filtres](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
 
-1. Sélectionnez l’environnement souhaité dans la **[!UICONTROL Environment]** liste déroulante.
+1. Sélectionnez l’environnement souhaité dans la liste déroulante **[!UICONTROL Environment]**.
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modifier les colonnes
 
-Vous pouvez temporairement modifier les colonnes actives sur la [!UICONTROL Catalog Search] page.
+Vous pouvez temporairement modifier les colonnes actives sur la page [!UICONTROL Catalog Search].
 
-1. Cliquez sur le bouton **[!UICONTROL Customize Table]** icône (  ![Icône Personnaliser le tableau](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. Cliquez sur l’icône **[!UICONTROL Customize Table]** ( ![Icône Personnaliser la table](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
 
 1. Sélectionnez ou désélectionnez les colonnes que vous souhaitez afficher ou masquer.
 

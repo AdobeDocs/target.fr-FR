@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1350'
+ht-degree: 96%
 
 ---
 
@@ -23,16 +23,15 @@ La fonctionnalité d’aperçu des fenêtres d’affichage mobiles est conçue p
 >
 >* Les fenêtres d’affichage mobiles ne sont pas disponibles si elles sont recouvertes par une offre de redirection.
 
-
 Une fenêtre d’affichage est définie par la taille du rectangle occupé par une page web sur votre écran. La fenêtre d’affichage correspond à la taille de la fenêtre du navigateur, sans les barres de défilement et les barres d’outils. Les navigateurs utilisent les « pixels CSS ». Pour de nombreux périphériques, notamment ceux disposant d’écrans Retina, la fenêtre d’affichage est plus petite que la résolution annoncée du périphérique.
 
-Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des périphériques populaires. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target].
+Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des appareils populaires. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target].
 
 >[!NOTE]
 >
 >Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Pour obtenir un exemple, reportez-vous à la section `https://viewportsizer.com/devices/`. Consultez le site web du fabricant de l’appareil pour obtenir les informations les plus précises et les plus récentes.
 
-| Périphérique | Taille de la fenêtre d’affichage (largeur x hauteur) | Résolution de l’appareil (largeur x hauteur) |
+| Appareil | Taille de la fenêtre d’affichage (largeur x hauteur) | Résolution de l’appareil (largeur x hauteur) |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
@@ -55,7 +54,7 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des p�
 | iPhone 6s | 375 x 667 | 750 x 1334 |
 | iPhone 6 Plus | 414 x 736 | 1080 x 1920 |
 | iPhone 6 | 375 x 667 | 750 x 1334 |
-| iPad  Pro | 1024 x 1366 | 2048 x 2732 |
+| iPad Pro | 1024 x 1366 | 2048 x 2732 |
 | iPad 3e et 4e génération | 768 x 1024 | 1536 x 2048 |
 | iPad Air 1 et 2 | 768 x 1024 | 1536 x 2048 |
 | iPad Mini | 768 x 1024 | 768 x 1024 |
@@ -82,13 +81,13 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des p�
 | Samsung Galaxy Tab 10 | 800 x 1280 | 800 x 1280 |
 | Chromebook Pixel | 1280 x 850 | 2560 x 1700 |
 
-Pour diffuser une activité aux utilisateurs d’un périphérique précis, choisissez l’audience appropriée pour ce périphérique dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour ce périphérique. Pour exécuter une activité sur l’ensemble de votre expérience digitale afin de vous assurer qu’elle s’affiche correctement sur tous les appareils, n’appliquez pas de ciblage. Utilisez plutôt les fenêtres d’affichage mobiles pour prévisualiser l’activité sur chaque taille d’écran.
+Pour diffuser une activité aux utilisateurs d’un appareil précis, choisissez l’audience appropriée pour cet appareil dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour cet appareil. Pour exécuter une activité sur l’ensemble de votre expérience digitale afin de vous assurer qu’elle s’affiche correctement sur tous les appareils, n’appliquez pas de ciblage. Utilisez plutôt les fenêtres d’affichage mobiles pour prévisualiser l’activité sur chaque taille d’écran.
 
-Si votre site est réactif, il est typiquement conçu pour s’ouvrir dans un affichage différent lorsqu’on y accède par le biais d’un périphérique avec une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points de rupture CSS sont les points où le contenu du site web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points de rupture CSS sont également appelés [requêtes multimédias](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries).
+Si votre site est réactif, il est typiquement conçu pour s’ouvrir dans un affichage différent lorsqu’on y accède par le biais d’un appareil avec une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points de rupture CSS sont les points où le contenu du site web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points de rupture CSS sont également appelés [requêtes multimédias](https://developer.mozilla.org/fr/docs/Web/CSS/Media_Queries/Using_media_queries).
 
 Enregistrez vos points de rupture CSS dans [!DNL Target] pour pouvoir prévisualiser vos expériences pour chaque affichage défini. Chacune de ces expériences est affichée dans une fenêtre d’affichage mobile dans l’interface [!DNL Target]. Ouvrez l’affichage pour chaque taille d’écran en cliquant sur la fenêtre d’affichage située en haut de l’écran.
 
-Si votre site n’est pas réactif, utilisez le compositeur web mobile pour afficher un site si votre activité cible un périphérique spécifique.
+Si votre site n’est pas réactif, utilisez le compositeur web mobile pour afficher un site si votre activité cible un appareil spécifique.
 
 >[!IMPORTANT]
 >
@@ -98,24 +97,24 @@ Si votre site n’est pas réactif, utilisez le compositeur web mobile pour affi
 
 Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponibles lors de la création de vos expériences.
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**.
-1. Dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, cliquez sur **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
+1. Dans la section **[!UICONTROL Mobile viewports configuration]**, cliquez sur **[!UICONTROL Add]**.
 
    ![Ajout de la fenêtre d’affichage](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Ou
 
-   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage puis cliquez sur l’icône [!UICONTROL Modifier] (crayon).
+   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage, puis cliquez sur l’icône [!UICONTROL Edit] (crayon).
 
 1. Saisissez un nom pour la fenêtre d’affichage mobile.
 
    Choisissez un nom explicite facile à reconnaître pour votre fenêtre d’affichage mobile. Le nom ne peut excéder 36 caractères.
 
-1. Précisez la taille de l’écran du périphérique mobile (largeur et la hauteur).
+1. Précisez la taille de l’écran de l’appareil mobile (largeur et la hauteur).
 
    La largeur peut être comprise entre 150 et 968 pixels. La hauteur peut être comprise entre 150 et 1 280 pixels.
 
-1. (Facultatif) Sélectionnez le système d’exploitation du périphérique.
+1. (Facultatif) Sélectionnez le système d’exploitation de l’appareil.
 
    Options :
 
@@ -127,7 +126,7 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 
    Si vous utilisez le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation, [!DNL Target] émule cet appareil lorsque vous affichez la page. Par exemple, si l’apparence est différente sur Android et sur iOS pour votre site réactif, [!DNL Target] reproduit ce comportement.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -138,11 +137,11 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] pour créer des expériences réactives pour les écrans mobiles.
 
 1. Créez l’[activité souhaitée](/help/main/c-activities/activities.md).
-1. Dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur l’icône d’engrenage représentant les **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter des fenêtres d’affichage mobiles]**.
+1. Dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur l’icône d’engrenage **[!UICONTROL Settings]**, puis sélectionnez **[!UICONTROL Add Mobile Viewports]**.
 
    ![Option Ajouter des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Périphériques]**, puis activez chaque périphérique auquel ajouter une fenêtre d’affichage mobile.
+1. Cliquez sur l’icône **[!UICONTROL Devices]**, puis activez chaque périphérique qui doit disposer d’une fenêtre d’affichage mobile.
 
    ![Activation des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -164,7 +163,7 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] pour
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (2 de 2) (07:29)  ![Badge de présentation](/help/main/assets/overview.png)
+### Compositeur d’expérience visuelle (2 sur 2) (7:29) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 La vidéo de démonstration suivante contient des informations sur l’utilisation du compositeur d’expérience visuelle avec des fenêtres d’affichage mobiles :
 

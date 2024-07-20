@@ -6,7 +6,7 @@ feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1066'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Il suffit peut-être de modifier l’ordre des options parmi lesquelles les clie
 
 ## Idée 8 : Faites la promotion de votre application mobile sur votre site web.
 
-Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou autres appareils, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tombent sur votre application. Au lieu de cela, ayez une bonne stratégie en place pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation de l’application. Si votre site web comporte un lien pour télécharger votre application, essayez de tester l’efficacité d’une page interstitielle qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d’accueil. Configurez un test de redirection qui filtre la moitié du trafic mobile sur la page de votre site actuel et l’autre moitié sur la page interstitielle.
+Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou autres appareils, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tombent sur votre application. Au lieu de cela, ayez une bonne stratégie en place pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation de l’application. Si votre site web comporte un lien pour télécharger votre application, essayez de tester l’efficacité d’une page de destination interstitielle qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d’accueil. Configurez un test de redirection qui filtre la moitié du trafic mobile sur la page de votre site actuel et l’autre moitié sur la page de destination interstitielle.
 
 ## Idée 9 : Utilisez les innovations des applications mobiles.
 

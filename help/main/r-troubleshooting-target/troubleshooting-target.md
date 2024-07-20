@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -117,7 +117,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ### at.js
 
-* [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
+* [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr)
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
 * [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 

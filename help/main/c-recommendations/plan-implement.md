@@ -12,10 +12,10 @@ ht-degree: 20%
 
 ---
 
-# Planification et implémentation [!DNL Recommendations]
+# Planification et implémentation de [!DNL Recommendations]
 
 Avant de commencer à utiliser [!DNL Adobe Target Recommendations], vous devez effectuer plusieurs étapes.
 
-La variable [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contient des informations sur la mise en oeuvre de [!DNL Recommendations] sur votre site, ainsi que la manière de mettre en oeuvre [!DNL Target].
+Le [Guide du développeur Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} contient des informations sur la mise en oeuvre de [!DNL Recommendations] sur votre site, ainsi que sur la mise en oeuvre de [!DNL Target].
 
-Pour plus d’informations et des instructions détaillées, voir [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans le *Guide du développeur d’Adobe Target* Portal.
+Pour plus d’informations et des instructions détaillées, voir [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} sur le portail *Adobe Target Developer Guide*.

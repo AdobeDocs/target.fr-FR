@@ -2,13 +2,13 @@
 keywords: Recommendations;critères des recommandations;algorithmes de recommandations;activité Recommendations;critères;ciblage des recommandations
 description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
 title: Qu’est-ce qu’ [!DNL Target]  Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '922'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Les activités de [!DNL Adobe Target Recommendations] affichent automatiquement 
 
 L’illustration suivante présente les recommandations sur une page web :
 
-![image velocity_example](assets/velocity_example.png)
+![velocity_example image](assets/velocity_example.png)
 
 Une recommandation détermine comment un produit est proposé à un visiteur, en fonction de ses activités sur le site. Par exemple :
 
@@ -72,7 +72,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations ![Badge de tutoriel ](/help/main/assets/tutorial.png)  {#intro-to-recs}
+## Webinaire sur les bases d’Adobe Target : présentation de Recommendations ![Badge de tutoriel](/help/main/assets/tutorial.png) {#intro-to-recs}
 
 Le webinaire *Présentation de Recommendations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 

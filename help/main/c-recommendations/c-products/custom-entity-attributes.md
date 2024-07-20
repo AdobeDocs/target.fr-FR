@@ -1,6 +1,6 @@
 ---
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
-description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre Adobe [!DNL Target] Catalogue Recommendations.
+description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue Recommendations  [!DNL Target] Adobe.
 title: Comment utiliser les attributs d’entité personnalisés ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Attributs d’entité personnalisés
 
-Utilisation d’attributs d’entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
+Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
 
 ## Limites {#limits}
 
@@ -63,7 +63,7 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 
 ## Implémentation d’attributs à plusieurs valeurs {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), `targetPageParams`et l’API de diffusion pour charger les produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Tableaux vides ( [] ) sont traitées comme n’ayant aucune valeur.
+Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), `targetPageParams` et de l’API de diffusion pour télécharger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ( [] ) sont traités comme ne comportant aucune valeur.
 
 Les guillemets doubles doivent être précédés d’un caractère d’échappement. Par exemple, `"[""test"", ""value""]"` est un tableau JSON valide qui peut être utilisé dans le fichier CSV.
 
@@ -71,7 +71,7 @@ Vous pouvez inclure jusqu’à 500 valeurs dans un attribut multi-valeurs.
 
 ### Utilisation de targetPageParams
 
-L’exemple suivant illustre l’utilisation de `targetPageParams`
+L’exemple suivant montre comment utiliser `targetPageParams`
 
 ```javascript
 function targetPageParams() { 
@@ -127,7 +127,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Voir [Documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités.
+Pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités, voir la [ documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 

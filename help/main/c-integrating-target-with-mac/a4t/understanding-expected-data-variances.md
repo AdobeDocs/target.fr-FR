@@ -1,17 +1,17 @@
 ---
 keywords: écarts de données;analytics;différences;écart;a4t;analytics pour target;analytics en tant que source de reporting;incohérences;incohérence
-description: En savoir plus sur les écarts de données attendus entre les Adobes [!DNL Target] et Analytics lorsque vous n’utilisez pas Analytics pour [!DNL Target] (A4T), ce qui élimine complètement la variance de données.
+description: Découvrez les écarts de données attendus entre Adobe [!DNL Target] et Analytics lorsque vous n’utilisez pas Analytics for [!DNL Target] (A4T), ce qui élimine complètement la variance de données.
 title: Quel est l’écart de données attendu entre Analytics et A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 46%
+source-wordcount: '730'
+ht-degree: 45%
 
 ---
 
-# Écarts de données attendus entre les Adobes [!DNL Target] et Adobe Analytics lors de l’utilisation ou de la non-utilisation d’A4T
+# Écarts de données attendus entre l’Adobe [!DNL Target] et Adobe Analytics lors de l’utilisation ou de la non-utilisation de A4T
 
 Informations sur les écarts de données attendus entre [!DNL Target] et Adobe [!DNL Analytics] lorsque vous *utilisez* ou *non* Analytics en tant que source de reporting (A4T). A4T réduit considérablement les écarts de données.
 
@@ -21,11 +21,11 @@ Avec A4T, les comptes rendus Analytics et Target des performances d’activités
 
 Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de données attendue :
 
-* A4T permet qu’un accès Target (haut de la page) se produise, mais empêche qu’un accès Analytics (bas de la page) ne se produise. Supposons, par exemple, qu’un visiteur charge la page, mais ferme le navigateur avant que l’appel Analytics ne soit déclenché. Dans ce cas, A4T exclut l’accès Target des données. Permettre aux accès Target (encore une fois, en haut de la page) de compter comme les accès Analytics en l’absence d’appel Analytics réel crée des incohérences avec l’ensemble de données dans Analytics (gonflement des visiteurs, etc.).
+* A4T permet qu’un accès Target (haut de la page) se produise, mais empêche qu’un accès Analytics (bas de la page) ne se produise. Supposons, par exemple, qu’un visiteur charge la page, mais ferme le navigateur avant que l’appel Analytics ne soit déclenché. Dans ce cas, A4T exclut l’accès Target des données. Le fait d’autoriser les accès Target (encore une fois, en haut de la page) à être comptabilisés comme des accès Analytics en l’absence d’appel Analytics réel crée des incohérences avec l’ensemble de données dans Analytics (gonflement des visiteurs, etc.).
 
-   Si un test de redirection est configuré dans Target pour fractionner le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur peut ne pas être divisé uniformément. Si un fractionnement inégal s’affiche, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page d’entrée plus que les autres groupes. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
+  Si un test de redirection est configuré dans Target pour fractionner le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur peut ne pas être divisé uniformément. Si un fractionnement inégal s’affiche, cela signifie simplement qu’un groupe d’utilisateurs n’a pas exécuté un appel Analytics plus que les autres groupes sur la page d’entrée. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
 
-   Adobe espère résoudre ce problème à l’avenir, à mesure que les équipes d’Adobe s’orienteront vers A4T sur Adobe Experience Platform. Les équipes d’Adobe déterminent comment gérer ces différents événements se produisant à des moments différents sur la page.
+  Adobe espère résoudre ce problème à l’avenir, à mesure que les équipes d’Adobe s’orienteront vers A4T sur Adobe Experience Platform. Les équipes d’Adobe déterminent comment gérer ces différents événements se produisant à des moments différents sur la page.
 
 ## Écarts de données attendus lorsqu’A4T *n’est pas utilisé* {#expected-not-using-a4t}
 
@@ -33,9 +33,9 @@ Ainsi, des écarts de 15 à 20 % sont normaux, même avec des jeux de données 
 
 Bien que les données réelles puissent considérablement varier, les tendances sont généralement cohérentes. Ainsi, les données demeurent valides et utiles tant que les différences et les tendances restent cohérentes. En cas d’incohérence des différences et des tendances, toutefois, il est possible que la configuration soit incorrecte. Dans ce cas, contactez le représentant de votre compte pour obtenir de l’aide.
 
-[!DNL Analytics] applique un système reposant sur les visites et les transactions, tandis que utilise des mesures basées sur les visiteurs. [!DNL Target] Chaque fois qu’un visiteur ouvre une page, il est compté comme une visite dans [!DNL Analytics], mais [!DNL Target] ne comptabilise la visite que lorsque les conditions définies dans l’activité sont remplies.
+[!DNL Analytics] applique un système reposant sur les visites et les transactions, tandis que utilise des mesures basées sur les visiteurs. [!DNL Target] Chaque fois qu’un visiteur ouvre une page, il est compté comme une visite dans [!DNL Analytics], mais [!DNL Target] ne comptabilise pas la visite tant que les conditions définies dans l’activité ne sont pas remplies.
 
-Rapports dans [!DNL Target] afficher les performances en fonction de la mbox de conversion sélectionnée lors de la définition de l’activité. Toutefois, ces données de mbox de conversion ne sont pas envoyées à [!DNL Analytics], qui possède ses propres variables de conversion, définies par votre [!DNL Analytics] implémentation du balisage. Si vous attendez des données identiques (par exemple, si la commande d’un détaillant confirme que la page contient à la fois une mbox de conversion et une [!DNL Analytics] purchase ), les données peuvent différer en raison de l’emplacement de ces balises. En général, les tendances dans les rapports des deux produits sont similaires.
+Les rapports dans [!DNL Target] affichent les performances en fonction de la mbox de conversion sélectionnée lors de la définition de l’activité. Toutefois, ces données de mbox de conversion ne sont pas envoyées à [!DNL Analytics], qui possède ses propres variables de conversion, définies par votre implémentation de balisage [!DNL Analytics]. Si vous attendez des données identiques (par exemple, si la commande d’un détaillant confirme que la page contient à la fois une mbox de conversion et un événement d’achat [!DNL Analytics]), les données peuvent différer en raison de l’emplacement de ces balises. En général, les tendances dans les rapports des deux produits sont similaires.
 
 Les écarts de données attendus peuvent résulter de variations techniques et commerciales.
 

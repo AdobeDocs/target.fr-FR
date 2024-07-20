@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # Profils de visiteur
 
-Profils de visiteur dans [!DNL Adobe Target] contiennent des informations sur la manière dont les visiteurs utilisent vos pages et d’autres emplacements de contenu optimisés.
+Les profils de visiteur dans [!DNL Adobe Target] contiennent des informations sur la manière dont vos visiteurs utilisent vos pages et d’autres emplacements de contenu optimisés.
 
-If [!DNL Target] est utilisé avec d’autres [!DNL Adobe Experience Cloud] les solutions, telles que [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] partage des informations sur les visiteurs dans l’ensemble des solutions.
+Si [!DNL Target] est utilisé avec d’autres solutions [!DNL Adobe Experience Cloud], telles que [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] partage des informations sur les visiteurs entre les solutions.
 
-Par défaut, [!DNL Target] les informations de profil sont stockées dans un seul cookie propriétaire. Cette configuration peut facilement être modifiée afin d’utiliser également des cookies tiers.
+Par défaut, les informations de profil [!DNL Target] sont stockées dans un seul cookie propriétaire. Cette configuration peut facilement être modifiée afin d’utiliser également des cookies tiers.
 
 Les sections suivantes comprennent davantage d’informations :
 

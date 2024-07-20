@@ -6,14 +6,14 @@ feature: Overview
 exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
 
 # Chapitre 1 : Introduction
 
-Si vous êtes comme la plupart des entreprises d’aujourd’hui, vous avez modernisé vos canaux de marketing numérique. Vous recherchez maintenant des moyens de vous démarquer afin d’augmenter votre chiffre d’affaires, les taux de conversion et d’autres mesures commerciales clés. Pour ce faire, vous pouvez optimiser et personnaliser les expériences numériques que vous proposez à vos clients en utilisant ce que vous savez d’eux pour tirer le meilleur parti de leurs interactions sur votre site web, site mobile, application mobile ou tout autre point de contact de votre marque. Vous souhaitez peut-être même étendre cette optimisation et cette personnalisation au-delà de vos points de contact numériques traditionnels. Par exemple, l’étendre à des points de contact tels que les kiosques, l’Internet des objets (IoT), les interactions des centres d’appels et les assistants vocaux comme Alexa. Les marques qui ont utilisé [!DNL Target] pour tester et personnaliser leurs expériences numériques ont obtenu des résultats incroyables.
+Si vous êtes comme la plupart des entreprises d’aujourd’hui, vous avez modernisé vos canaux de marketing numérique. Vous recherchez maintenant des moyens de vous démarquer afin d’augmenter votre chiffre d’affaires, les taux de conversion et d’autres mesures commerciales clés. Pour ce faire, vous pouvez optimiser et personnaliser les expériences digitales que vous proposez à vos clients en utilisant ce que vous savez d’eux pour tirer le meilleur parti de leurs interactions sur votre site web, site mobile, application mobile ou tout autre point de contact de votre marque. Vous souhaitez peut-être même étendre cette optimisation et cette personnalisation au-delà de vos points de contact numériques traditionnels. Par exemple, l’étendre à des points de contact tels que les kiosques, l’Internet des objets (IoT), les interactions des centres d’appels et les assistants vocaux comme Alexa. Les marques qui ont utilisé [!DNL Target] pour tester et personnaliser leurs expériences digitales ont obtenu des résultats incroyables.
 
 Par exemple :
 

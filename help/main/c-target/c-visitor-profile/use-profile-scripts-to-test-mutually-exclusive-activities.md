@@ -1,23 +1,23 @@
 ---
 keywords: Script de profil;attributs de script de profil;activités s’excluant mutuellement
-description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe [!DNL Target] qui comparent plusieurs activités, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
+description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe [!DNL Target] qui comparent plusieurs activités mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 title: Puis-je utiliser des scripts de profil pour tester des activités mutuellement exclusives ?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 74%
+source-wordcount: '708'
+ht-degree: 66%
 
 ---
 
 # Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
 
-Vous pouvez utiliser des attributs de profil dans [!DNL Adobe Target] pour configurer des tests qui comparent deux activités ou plus mais ne laissent pas les mêmes visiteurs participer à chaque activité.
+Vous pouvez utiliser des attributs de profil dans [!DNL Adobe Target] pour configurer des tests qui comparent deux activités ou plus, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 
 Grâce à ces tests, un visiteur d’une activité n’aura aucune influence sur les résultats des tests des autres activités. Lorsqu’un visiteur participe à plusieurs activités, il peut s’avérer difficile de déterminer si des effets positifs ou négatifs sont ressortis de l’expérience du visiteur sur une seule activité, ou si des interactions entre plusieurs activités ont affecté les résultats d’une ou de plusieurs activités.
 
-Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez tester en rouge le bouton &quot;Ajouter au panier&quot; au lieu de bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de succès (un achat terminé), il peut être difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
+Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez tester en rouge le bouton &quot;Ajouter au panier&quot; au lieu de bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de succès (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
 
 Tenez compte des informations suivantes lorsque vous utilisez les scripts de profil suivants :
 
@@ -43,9 +43,9 @@ if (!user.get('twogroups')) {
 
 * `var ran_number=Math.floor(Math.random() *100)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 100 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 100, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
 
-* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 100, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
+* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre est compris entre 50 et 100, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
 
-Après avoir créé l’attribut de profil, configurez la première activité pour cibler la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` correspond à la valeur spécifiée pour GroupA.
+Après avoir créé l’attribut de profil, configurez la première activité pour cibler la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le GroupeA.
 
 >[!NOTE]
 >

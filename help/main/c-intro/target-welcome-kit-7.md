@@ -6,14 +6,14 @@ feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 78%
+source-wordcount: '1724'
+ht-degree: 76%
 
 ---
 
 # Chapitre 7 : Création et exécution de votre première activité [!DNL Target]
 
-Vous êtes donc prêt à commencer votre première activité dans [!DNL Target]? Excellent. Déterminons une activité de votre site web, site mobile ou application mobile qui n’est pas trop complexe, mais qui peut fournir un retour sur investissement rapide et vous enthousiasmer du potentiel d’utilisation de [!DNL Target] pour tester et personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
+Vous êtes donc prêt à commencer votre première activité dans [!DNL Target] ? Excellent. Découvrez une activité de votre site web, site mobile ou application mobile qui n’est pas trop complexe, mais qui peut fournir un retour sur investissement rapide et vous enthousiasmer sur le potentiel d’utilisation de [!DNL Target] pour tester et personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
 
 Cependant, la clé de votre première activité consiste à établir une ligne de base de la mesure d’entreprise que vous essayez d’améliorer (recettes, clics publicitaires, envois de formulaire, enregistrements terminés, etc.). Dans un test A/B, vous pouvez souvent utiliser l’expérience ou l’offre actuelle comme un &quot;contrôle&quot; et mesurer l’impact d’une variante de cette expérience ou offre par rapport à elle. Toutefois, avec la plupart des activités de personnalisation, vous devez idéalement déterminer les performances de l’expérience actuelle avant de lancer une version personnalisée de celle-ci. Vous pourrez ainsi mesurer l’impact de la personnalisation.
 
@@ -51,7 +51,7 @@ Lorsque vous proposez votre idée de test, rappelez-vous que vous devez être en
 
 ## Planification de votre activité à l’aide du planificateur d’activités
 
-Nous avons inclus le [Gestionnaire d’activités Adobe Target](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
+Nous avons inclus le [planificateur d’activité Adobe Target](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
 
 Vous devez remplir chaque zone du planificateur pour que l’activité s’exécute efficacement. Utilisez cet outil lorsque vous réfléchissez, avec d’autres personnes, à des idées concernant les activités de test et de personnalisation.
 
@@ -91,7 +91,7 @@ Si votre activité nécessite l’assistant d’un concepteur, d’un développe
 
 Un certain nombre de visiteurs doit être placé dans la population testée pour tirer une conclusion statistiquement significative du test. Réfléchissez : si seulement deux personnes participent à votre test, pouvez-vous vous fier aux résultats ?
 
-[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous aide à déterminer la durée d’exécution d’un test en fonction de la confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser le calculateur.
+[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous aide à déterminer la durée d’exécution d’un test en fonction de la confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL Learn More] de cette zone pour ouvrir et utiliser le calculateur.
 
 ### Quelle est l’importance de cette activité ?
 
@@ -107,4 +107,4 @@ Les résultats de votre activité fournissent souvent des informations sur les p
 
 ## Ouvrir [!DNL Target], créer et lancer votre activité
 
-Vous avez rempli votre planificateur d’activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL compositeur d’expérience visuelle].
+Vous avez rempli votre planificateur d’activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite énormément la modification de votre page web dans [!UICONTROL Visual Experience Composer].

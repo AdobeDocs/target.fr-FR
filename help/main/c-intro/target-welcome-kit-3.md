@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 1f1af086-70bf-43ab-80aa-36d98d8d8d8f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '715'
 ht-degree: 100%
 
 ---
@@ -66,23 +66,23 @@ Par exemple, si vous souhaitez cibler les nouveaux visiteurs avec une offre de b
 
 ## Étape 5 : analyse
 
-Analysez les performances des activités et résumez les résultats, les statistiques et les recommandations des activités.
+Analysez les performances des activités et résumez les résultats, les informations et les recommandations des activités.
 
 Instructions :
 
 * Utilisez l’analyse des données et des bonnes pratiques pour comprendre les résultats des activités.
 * Analysez les performances des audiences pour trouver de précieux segments de visiteurs.
-* Documentez les statistiques, les résultats et les recommandations.
+* Documentez les informations, les résultats et les recommandations.
 
 Par exemple, vous pouvez découvrir que vos visiteurs récurrents préfèrent une expérience différente de celle de vos nouveaux visiteurs.
 
 ## Étape 6 : action et itération
 
-Mettez en œuvre des expériences gagnantes afin d’augmenter la valeur commerciale et de tirer parti des résultats obtenus.
+Mettez en œuvre des expériences gagnantes afin d’augmenter la valeur commerciale et de tirer parti des informations obtenues.
 
 Instructions :
 
-* Transmettez les statistiques, les résultats et les recommandations des activités aux parties prenantes.
+* Transmettez les informations, les résultats et les recommandations des activités aux parties prenantes.
 * Obtenez l’approbation des parties prenantes pour mettre en œuvre les recommandations d’activités.
 * Définissez et exécutez le plan pour mettre en œuvre l’expérience gagnante.
 
