@@ -1,14 +1,14 @@
 ---
 keywords: recommandations;foire aux questions;faq
-description: Consultez une liste de questions fréquentes (FAQ) relatives aux conceptions Recommandations Adobe  [!DNL Target]  et parcourez les réponses.
-title: Où puis-je obtenir des réponses aux questions relatives à la conception pour Recommandations  [!DNL Target]  ?
+description: Questions fréquentes et leurs réponses sur les  [!DNL Target Recommendations] designs.
+title: Où puis-je obtenir des réponses aux questions de conception pour  [!DNL Target Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 94%
+source-wordcount: '463'
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Deux solutions permettent de résoudre ce problème:
 
 ## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J’utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieurs catégories peuvent être stockées, le système ne saurait pas quelle catégorie afficher.
+L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieurs catégories peuvent être stockées, le système ne sait pas quelle catégorie afficher.
 
 ## Comment dois-je modifier une conception pour obtenir une mise à jour instantanée ? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ La modification d’une conception en cours d’utilisation prend du temps. Pour
 
 ## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits clés à afficher dans la conception. Exemple : si vous souhaitiez afficher la miniature d’un produit clé, vous utiliseriez `$key.thumbnailURL`.
+Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits clés à afficher dans la conception. Par exemple, si vous souhaitez afficher la miniature du produit clé, utilisez `$key.thumbnailURL`.
 
 ## Quelle version de Velocity est utilisée ? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 La version 1.7 sans outil ou bibliothèque ajoutée. La fonctionnalité de base de Velocity est disponible.
 
-## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, le paramètre entity.message d’un élément doit être effacé lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, les `entity.message` d’un élément doivent être effacés lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente au lieu d’une valeur nulle.
 

@@ -1,14 +1,15 @@
 ---
 keywords: conception de recommandations, créer une conception, copier une conception
-description: Découvrez comment créer une conception Recommendations d'Adobe  [!DNL Target] à l'aide d'une conception par défaut ou en créant une conception personnalisée qui s'adapte le mieux à la disposition de votre page.
+description: Découvrez comment créer une conception  [!DNL Target Recommendations] à l’aide d’une conception par défaut ou en créant une conception personnalisée qui s’adapte le mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '972'
+ht-degree: 20%
 
 ---
 
@@ -33,7 +34,7 @@ Cette illustration présente une conception personnalisée :
 
 ![Conception personnalisée](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-Vous pouvez créer une conception au cours du processus de création d’activité à partir du compositeur d’expérience visuelle (VEC) ou de la bibliothèque de conception en dehors de la création d’activité. Les sections suivantes supposent que vous créez des conceptions à partir de la bibliothèque, mais les étapes sont similaires.
+Vous pouvez créer une conception pendant le processus de création de l’activité à partir du [!UICONTROL Visual Experience Composer] (VEC) ou de la bibliothèque de conception en dehors de la création de l’activité. Les sections suivantes supposent que vous créez des conceptions à partir de la bibliothèque, mais les étapes sont similaires.
 
 ## Création de conceptions
 
@@ -43,15 +44,12 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** pour afficher la bibliothèque [!UICONTROL Designs].
 
-   ![Bibliothèque de conceptions](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Pointez sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copy]**.
 
-   ![Image Card_CopyDesign](assets/Card_CopyDesign.png)
+   ![Image Card_CopyDesign](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    La boîte de dialogue [!UICONTROL Create Design] s’affiche.
-
-   ![image createDesign](assets/createDesign.png)
 
 1. Dans le panneau **[!UICONTROL Information]**, ajoutez **[!UICONTROL Content Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
 
@@ -59,7 +57,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, suivant vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception Open Source [!DNL Velocity]. Vous trouverez des informations sur [!DNL Velocity] à l&#39;adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l&#39;aide de [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
    Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions d’HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTMLS sont destinées aux environnements non Web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position &quot;désactivé&quot; pour utiliser du code non HTML.
 
@@ -91,17 +89,15 @@ N’oubliez pas que vous ne pouvez pas modifier ou copier une conception par dé
 
 Passez la souris sur la conception souhaitée dans la bibliothèque [!UICONTROL Design], puis cliquez sur l’icône appropriée : modifiez, copiez ou supprimez.
 
-![Icônes de survol pour une conception](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 Vous pouvez copier une conception existante pour créer une conception en double que vous pourrez ensuite modifier. Ce processus vous permet de créer une conception similaire avec moins d’effort.
 
-Gardez à l’esprit que les conceptions sont disponibles pour l’ensemble du compte. Tenez compte de l’utilisation dans d’autres comptes avant de supprimer une conception. Les conceptions supprimées sont irrémédiables.
+Gardez à l’esprit que les conceptions sont disponibles pour l’ensemble du compte. Veillez à tenir compte de l’utilisation entre plusieurs comptes avant de supprimer une conception. Les conceptions supprimées sont irrémédiables.
 
 ## Exemple d’objet JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’éditeur basé sur les formulaires.
+L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’ [éditeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
-1. Créez une conception dans la bibliothèque de conception ou dans le processus basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Visual Experience Composer] (VEC), vous ne pouvez pas créer autre chose qu’une conception d’HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
+1. Créez une conception à partir de [!UICONTROL Design library] ou dans le processus basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Visual Experience Composer] (VEC), vous ne pouvez pas créer autre chose qu’une conception d’HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
 
 1. Assurez-vous que l’option « Conception HTML » est désactivée :
 
@@ -174,13 +170,13 @@ Après l’exécution de votre algorithme et l’obtention des résultats, votre
 
 ## Autres conseils et astuces concernant les objets JSON {#section_C305673C68944749969DB239E3221DC2}
 
-Vous pouvez également renvoyer une simple liste d’éléments délimitée par des virgules en configurant une conception avec la syntaxe suivante :
+Vous pouvez également renvoyer une simple liste d’éléments délimités par des virgules en configurant une conception avec la syntaxe suivante :
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). Cet exemple de conception renvoie également les détails de l’activité, les détails du profil Target (le cas échéant) et d’autres `entity.attributes` associés aux éléments renvoyés.
+Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). Cet exemple de conception renvoie également les détails de l’activité, [!UICONTROL Target Profile] les détails (le cas échéant) et d’autres `entity.attributes` associés aux éléments renvoyés.
 
 ```javascript
     {   
