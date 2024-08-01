@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 ## Mises à jour
 
-|Date|Rubrique|Modifications|
-|10 juillet|[Configuration du proxy (Java)](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Ajout d’une nouvelle section : prise de décision sur l’appareil|
-|3 juin|[Priorité](/help/main/c-activities/priority.md)|Mise à jour de la rubrique entière, y compris l’indication selon laquelle le contenu de plusieurs activités du [!UICONTROL Form-Based Experience Composer] et du compositeur d’expérience visuelle peut être diffusé. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités basées sur les formulaires pouvant être diffusées.|
+|Date|Topic|Changes|
+|1 août|[FAQ Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|Ajout de la question fréquente suivante : &quot;Puis-je gérer les [!DNL Target] offres visuelles créées par l’interface utilisateur à l’aide des API [!DNL Target] ?&quot;|
+|10 juillet|[Configuration du proxy (Java)](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|Ajout d’une nouvelle section : prise de décision sur l’appareil|
+|3 juin|[Priorité](/help/main/c-activities/priority.md)|Mise à jour de la rubrique entière, indiquant notamment que le contenu de plusieurs activités [!UICONTROL Form-Based Experience Composer] et du compositeur d’expérience visuelle peut être diffusé. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités basées sur les formulaires pouvant être diffusées.|
 |17 mai|[Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Ajout d’adresses IP supplémentaires à placer sur la liste autorisée lors de l’utilisation du [!UICONTROL Enhanced Experience Composer].|
 |8 mai|Création de rapports [[!DNL Target]  dans  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)|Nouvel article : ajout d’informations sur le l’intégration de [!DNL Target] à [!DNL Adobe Customer Journey Analytics].|
 |30 avril|[Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)|Mise à jour de la liste des adresses IP du serveur Adobe utilisées pour le proxy du compositeur d’expérience avancé vers la liste autorisée.|
