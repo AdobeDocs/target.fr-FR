@@ -1,13 +1,13 @@
 ---
 keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-description: Découvrez comment transmettre des données dynamiques dans les  [!DNL Adobe Target] offres.
+description: Découvrez comment transmettre des données dynamiques dans Offres dans  [!DNL Adobe Target].
 title: Comment puis-je transférer des données dynamiques dans des offres ?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées 
 
 * Promotion d’une offre réduite pour « redéfinir » ou « reconstituer » le dernier produit acheté. Au lieu de créer une offre distincte pour chaque élément de votre catalogue, vous pouvez créer une offre avec du texte dynamique qui lit le « dernier produit acheté » depuis le profil et affiche un lien dans l’offre.
 * Un visiteur arrive sur votre page d’entrée avec `keyword=world` `cup`. Vous affichez les termes *coupe du monde* dans l’offre.
-* Personnalisez une étiquette Recommendations avec des informations telles que (1) le dernier élément ajouté au panier d’un visiteur (une paire de Nike Air Max 1000), (2) la préférence de couleur du visiteur (noir) et (3) la catégorie préférée du visiteur autre que les chaussures (sweat-shirts à capuche). Exemple : « Accessoirisez vos « Nike Air Max 1000 » avec ces « sweat-shirts à capuche » « noirs » ! »
+* Personnalisez une étiquette de recommandations avec des informations, telles que (1) le dernier article ajouté au panier d’un visiteur (Nike Air Max 1 000), (2) la préférence de couleur du visiteur (noir) et (3) la catégorie préférée du visiteur autre que les chaussures (sweat-shirts à capuche). Exemple : « Accessoirisez vos « Nike Air Max 1000 » avec ces « sweat-shirts à capuche » « noirs » ! »
 
 ## Avantages techniques
 
@@ -69,7 +69,7 @@ Les valeurs par défaut peuvent également être spécifiées pour les valeurs q
 
 `${user.testAttribute default="All Items!"}`
 
-Lorsque `testAttribute` n’existe pas ou n’est pas renseigné, sélectionnez « Tous les éléments ». est écrit. Si une valeur d’attribut vide est valide et que vous souhaitez l’écrire plutôt que de présenter la valeur par défaut, utilisez :
+Lorsque `testAttribute` n’existe pas ou n’est pas renseigné, sélectionnez &quot;Tous les éléments&quot;. est écrit. Si une valeur d’attribut vide est valide et que vous souhaitez l’écrire plutôt que de présenter la valeur par défaut, utilisez :
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
