@@ -3,7 +3,7 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 4e5c3c1f93459619ff4d016af47f7f8ba9b16c2d
+source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
 workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 85%
@@ -22,7 +22,7 @@ ht-degree: 85%
    + [Mises à jour d’état du système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
    + [Notes de mise à jour pour les versions antérieures](r-release-notes/release-notes-for-previous-releases.md)
-   + [Actualisation du programme Beta dans l’interface utilisateur de Target Activités, Offres et Recommendations](/help/main/r-release-notes/refresh-ui-beta.md)
+   + [Actualisation du programme Beta dans l’interface utilisateur de Target Activités, Offres et Recommendations](/help/main/refresh-ui-beta.md)
 + Introduction {#introduction}
    + [Présentation de Target](c-intro/intro.md)
    + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
