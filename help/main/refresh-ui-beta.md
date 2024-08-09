@@ -6,22 +6,24 @@ badgePremium: label="Bêta" type="Informative" url="https://experienceleague.ado
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations] L’interface utilisateur actualise le programme Beta
 
-Utilisez ces liens dans cet article pour accéder à la documentation mise à jour dans le cadre du programme Beta pour l’actualisation de l’interface utilisateur [!DNL Adobe Target] pour [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations].
+Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre du programme Beta pour l’actualisation de l’interface utilisateur [!DNL Adobe Target] pour [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
->Les informations de ces articles sont fréquemment mises à jour pendant le programme Beta.
+>L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target] et annoncées dans les notes de mise à jour.
+>
+>Les informations de ces articles sont fréquemment mises à jour pendant le programme Beta sans préavis.
 
-+++ Activités (cliquez pour développer)
++++Activités (cliquez pour développer)
 
 + [Présentation des activités](c-activities/activities.md){target=_blank}
 + [Types d’activité de Target](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ Utilisez ces liens dans cet article pour accéder à la documentation mise à jo
 
 +++
 
-+++ Offres (cliquez pour développer)
++++Offres (cliquez pour développer)
 
 + [Présentation des offres](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [Création d’un dossier d’offres](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
