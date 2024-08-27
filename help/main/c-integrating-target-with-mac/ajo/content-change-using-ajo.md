@@ -6,9 +6,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,13 @@ ht-degree: 1%
 
 Ce cas pratique vous aide à déverrouiller les secrets pour les modifications de contenu de test A/B efficaces dans [!DNL Adobe Journey Optimizer].
 
-Ce cas pratique est conçu pour démontrer comment effectuer une tâche familière dans [!DNL Adobe Target], un test A/B à l’aide d’une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md), mais en utilisant [!DNL Journey Optimizer].
+Ce cas pratique est conçu pour démontrer comment effectuer des tâches courantes dans [!DNL Adobe Target], des tests A/B à l’aide d’une [ activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md), mais en utilisant [!DNL Journey Optimizer].
 
-## Scénario
+## Scénarios possibles
 
-Une société de vêtements a augmenté les conversions en testant diverses images et en personnalisant les landing pages de campagne avec les prénoms des utilisateurs à partir de leurs attributs de profil.
+* Une société de vêtements a augmenté les conversions en testant diverses images et en personnalisant les landing pages de campagne avec les prénoms des utilisateurs à partir de leurs attributs de profil.
+
+* En testant diverses descriptions et images de produits sur une page d’entrée de campagne, une société de commerce électronique a constaté que ses membres fidélisés à l’or avaient des taux de conversion plus élevés, ce qui a entraîné une augmentation des ventes.
 
 ## Avantages et valeur
 
@@ -29,13 +31,13 @@ Une société de vêtements a augmenté les conversions en testant diverses imag
 * **Décisions pilotées par les données** : utilisez les données pour prendre des décisions éclairées dans votre stratégie de contenu, ce qui garantit un impact maximum.
 * **Expérience utilisateur personnalisée** : personnalisez le contenu pour répondre aux préférences et aux besoins uniques de tous vos segments d’audience.
 
-## Instructions détaillées
+## Étapes
 
 >[!NOTE]
 >
->Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], voir [Modifier le contenu web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} dans la *documentation Journey Optimizer*.
+>Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], voir [Modifier le contenu web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} dans la *documentation Journey Optimizer*. La vidéo située en bas de la page est particulièrement utile.
 
-Effectuez les étapes suivantes pour optimiser une page web en testant différentes images et en personnalisant les messages avec les prénoms des utilisateurs :
+Effectuez les étapes suivantes pour optimiser une page web en testant différentes images et en personnalisant les messages avec les prénoms des utilisateurs à l’aide d’un script de profil :
 
 1. Dans [!DNL Adobe Journey Optimizer], cliquez sur **Campagnes** dans le rail de gauche pour afficher la page [!UICONTROL Campaigns].
 
@@ -51,7 +53,7 @@ Effectuez les étapes suivantes pour optimiser une page web en testant différen
 
 1. (Conditionnel) Dans la section **[!UICONTROL Audience]** , cliquez sur **[!UICONTROL Select Audience]** et sélectionnez l’audience souhaitée.
 
-   Dans ce cas pratique, nous avons choisi d&#39;activer la campagne pour tous les visiteurs (valeur par défaut).
+   Pour ce cas d’utilisation, nous avons choisi d’activer la campagne pour [!UICONTROL All Visitors] (valeur par défaut).
 
 1. Dans la section **[!UICONTROL Action]** , sélectionnez **[!UICONTROL Web]** dans la liste déroulante **[!UICONTROL Action]** , puis sélectionnez ou créez une configuration web.
 
@@ -111,6 +113,6 @@ Pour plus d’informations, voir [Prise en main de la nouvelle interface de cré
 >[!MORELIKETHIS]
 >
 >[Modifier le contenu web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} dans la *documentation Journey Optimizer*
->[Vidéo pratique ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank} dans la *documentation Journey Optimizer*
+>[Vidéo pratique ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} dans la *documentation Journey Optimizer*
 >[Créez une campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans *Journey Optimizer Tutorials*
 

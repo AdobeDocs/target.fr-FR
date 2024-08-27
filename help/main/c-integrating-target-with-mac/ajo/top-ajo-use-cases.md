@@ -6,16 +6,16 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# Cas d’utilisation de l’optimisation des plus courants dans [!DNL Adobe Journey Optimizer] - canaux web et basés sur du code
+# Cas d’utilisation de l’optimisation des plus fréquents dans [!DNL Adobe Journey Optimizer] - canaux web et basés sur du code
 
-Découvrez comment implémenter efficacement les cas d’utilisation d’optimisation ayant le plus d’impact dans [!DNL Adobe Journey Optimizer].
+Découvrez comment implémenter efficacement les cas d’utilisation d’optimisation ayant le plus d’impact dans [!DNL Adobe Journey Optimizer] dans les canaux web et basés sur du code.
 
 ## Conditions préalables
 
