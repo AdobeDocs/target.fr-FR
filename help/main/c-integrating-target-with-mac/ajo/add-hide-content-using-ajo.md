@@ -6,9 +6,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ Effectuez les étapes suivantes pour ajouter des composants ou masquer des compo
 
    ![Landing page Yoga sur le site web LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Pour ajouter un bouton d’appel à l’action, cliquez sur **[!UICONTROL Edit Web Page]** dans le rail de droite.
+1. Pour ajouter un élément masqué, cliquez sur **[!UICONTROL Edit Web Page]** dans le rail de droite.
 
-1. Cliquez sur le bouton
+1. Cliquez sur l’élément à masquer, puis sur le bouton [!UICONTROL Hide] dans le rail de droite.
+
+   Le rail de droite affiche l’option que vous pouvez effectuer sur l’élément sélectionné. Ces options varient en fonction de l’élément sélectionné.
+
+   ![Bouton Masquer l’élément](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. Cliquez sur la flèche Précédent dans le coin supérieur gauche pour revenir au concepteur web.
 
