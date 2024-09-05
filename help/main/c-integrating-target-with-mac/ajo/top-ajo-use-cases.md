@@ -6,9 +6,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '167'
 ht-degree: 7%
 
 ---
@@ -31,3 +31,4 @@ Les cas d’utilisation suivants montrent comment effectuer des tâches courante
 Ces cas d’utilisation concernent les canaux web et basés sur du code.
 
 * [Modifications du contenu par le biais de tests A/B dans  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+* [Ajouter ou masquer des composants dans votre page web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
