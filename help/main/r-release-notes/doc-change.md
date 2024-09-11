@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 95e6802f5ba5e56962302c37691cc499d79cf68a
+source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 86%
+source-wordcount: '384'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 11 septembre | [Utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Ajout de la remarque suivante sous Spécifier les rôles et les autorisations :<P> Pour afficher les activités dans [!DNL Target], les utilisateurs doivent être directement affectés à un espace de travail avec au moins le rôle [!UICONTROL Observer] . L’affectation par le biais de groupes d’utilisateurs est insuffisante. Il est généralement recommandé d’accorder aux utilisateurs l’accès à l’espace de travail par défaut. |
 | 1 août | [Questions fréquentes relatives à Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout de la question fréquente suivante : &quot;Puis-je gérer les offres visuelles créées par l’interface utilisateur [!DNL Target] à l’aide des API [!DNL Target] ?&quot; |
 | 10 juillet | [Configuration du proxy (Java)](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | Ajout d’une nouvelle section : Prise de décision sur appareil |
 | 3 juin | [Priorité](/help/main/c-activities/priority.md) | Mise à jour de la rubrique entière, y compris l’indication selon laquelle le contenu de plusieurs activités [!UICONTROL Form-Based Experience Composer] et du compositeur d’expérience visuelle peut être diffusé. Auparavant, une seule activité du workflow basé sur les formulaires pouvait être diffusée. Il n’existe plus de limite au nombre d’activités basées sur les formulaires pouvant être diffusées. |

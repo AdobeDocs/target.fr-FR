@@ -5,10 +5,10 @@ title: Comment ajouter des utilisateurs et utilisatrices et gérer des autorisat
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ Vous pouvez créer des groupes d’utilisateurs et d’utilisatrices (développe
 Seuls les administrateurs système peuvent définir des rôles utilisateur dans [!DNL Target]. Par exemple, un utilisateur approbateur [!UICONTROL Standard] ne peut pas changer un observateur en approbateur, sans avoir également les droits d’administrateur [!DNL Experience Cloud].
 
 Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-ci ne sont pas automatiquement ajoutés. Ils sont invités par courrier électronique depuis [!DNL Experience Cloud] et doivent confirmer leur adresse e-mail avant que leurs comptes ne soient enregistrés.
+
+>[!NOTE]
+>
+>Pour afficher les activités dans [!DNL Target], les utilisateurs doivent être directement affectés à un espace de travail avec au moins le rôle [!UICONTROL Observer] . L’affectation par le biais de groupes d’utilisateurs est insuffisante. Il est généralement recommandé d’accorder aux utilisateurs l’accès à l’espace de travail par défaut.
 
 1. [Dans l’Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Products]**, puis sélectionnez le nom du produit souhaité.
 
