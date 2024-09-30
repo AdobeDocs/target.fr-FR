@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '407'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 30 septembre | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Mise à jour du nombre d’offres autorisées. |
 | 29 septembre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations relatives à la version 2.11.6 d’at.js. |
 | 11 septembre | [Utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Ajout de la remarque suivante sous Spécifier les rôles et les autorisations :<P> Pour afficher les activités dans [!DNL Target], les utilisateurs doivent être directement affectés à un espace de travail avec au moins le rôle [!UICONTROL Observer] . L’affectation par le biais de groupes d’utilisateurs est insuffisante. Il est généralement recommandé d’accorder aux utilisateurs l’accès à l’espace de travail par défaut. |
 | 1 août | [Questions fréquentes relatives à Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout de la question fréquente suivante : &quot;Puis-je gérer les offres visuelles créées par l’interface utilisateur [!DNL Target] à l’aide des API [!DNL Target] ?&quot; |
