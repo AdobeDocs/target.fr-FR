@@ -1,16 +1,16 @@
 ---
 keywords: contenu;ressources;gestion du contenu;offres;gérer les ressources;accès au mode de sélection;mode de sélection
-description: Découvrez comment gérer efficacement les offres de code et d’image à l’aide de la bibliothèque [!UICONTROL Offers]. Découvrez les bonnes pratiques et les conseils pour rationaliser votre workflow et améliorer vos projets.
+description: Découvrez comment gérer efficacement les offres de code et d’image à l’aide de la bibliothèque [!UICONTROL Offers].
 title: Comment gérer les offres de code et d’image ?
 feature: Experiences and Offers
 badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 

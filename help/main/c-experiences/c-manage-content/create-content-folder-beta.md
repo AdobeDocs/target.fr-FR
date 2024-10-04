@@ -7,9 +7,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,7 @@ Le processus de création de dossiers pour les offres de code et d’image diff�
 
    ![Onglet Offres de code](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. Cliquez sur **[!UICONTROL Create Folder].
 
 1. Attribuez un nom explicite au dossier.
 
@@ -44,9 +44,8 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![Onglet Offres d’image](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+
 1. Spécifiez un **[!UICONTROL Title]** descriptif pour le dossier.
 
    Par exemple, vous pouvez inclure le type de contenu qu’il contient.
@@ -54,9 +53,9 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
    Le nom ne peut pas contenir les caractères suivants : signe pourcentage `%`, barre oblique `/`, barre oblique inverse `\`, deux points `:`, astérisque `*`, point d’interrogation `?`, guillemets doubles `"`, crochet `[`, crochet `]`, signe plus : `+`, morceau : `|`, point : `.`, signe numérique : `#` 2}, Accolade : `{`, Accolade `}`, Accolade `^` ou Point-virgule `;`. Vous pouvez utiliser un trait d’union ( `- `) au lieu de ces caractères.
 
 1. (Facultatif) Spécifiez un **[!UICONTROL Name]** descriptif.
-1. (Facultatif) Cochez la case **[!UICONTROL Private]** pour indiquer que le dossier est privé. Vous seul pouvez donc le voir et son contenu.
+1. (Facultatif) Sélectionnez **[!UICONTROL Private]** pour indiquer que le dossier est privé, de sorte que vous seul puissiez le voir et son contenu.
 
-1. (Facultatif) Cochez la case **[!UICONTROL Reorder-able in List View]** pour indiquer que vous et d’autres pouvez réorganiser la position du dossier dans le [!UICONTROL List View].
+1. (Facultatif) Sélectionnez **[!UICONTROL Reorder-able in List View]** pour indiquer que vous et d’autres pouvez réorganiser la position du dossier dans le [!UICONTROL List View].
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
