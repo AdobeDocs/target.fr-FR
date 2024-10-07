@@ -4,14 +4,14 @@ description: Découvrez comment rechercher des offres de code et d'image dans la
 title: Comment rechercher du contenu dans la bibliothèque d’offres ?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 9%
+source-wordcount: '235'
+ht-degree: 8%
 
 ---
 
-# Recherche de contenu
+# Recherche et filtrage de contenu
 
 Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offers] de [!DNL Adobe Target].
 
