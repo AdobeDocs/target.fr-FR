@@ -4,10 +4,10 @@ description: Trouvez des réponses aux questions fréquentes sur l’affichage d
 title: Trouvez des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ Un segment peut également être superposé directement dans le tableau à struc
 
 +++
 
-## Puis-je appliquer le modèle Attribution IQ &quot;Même touche&quot; dans [!DNL Analysis Workspace] ?
+## Quel modèle Attribution IQ est utilisé dans [!DNL Analysis Workspace] ?
 
 +++Réponse
-Lors de l’utilisation des impressions et conversions d’activité [!DNL Target] dans [!DNL Analysis Workspace], appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution autre que celui par défaut](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=fr), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne, activez l’option Utiliser un modèle d’attribution autre que celui par défaut, puis sélectionnez le modèle Touche identique**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
-
-Tous les packages [!DNL Adobe Analytics] actuels peuvent ajouter ce modèle avec [!UICONTROL Attribution IQ]. Si vous n’avez pas accès à [!UICONTROL Attribution IQ], vous pouvez vous fier aux données A4T dans [!UICONTROL Reports & Analytics].
+Lors de l’utilisation des impressions et conversions d’activité [!DNL Target] dans [!DNL Analysis Workspace], le modèle Attribution IQ &quot;Même touche&quot; est le modèle par défaut appliqué aux mesures pour garantir un comptage précis. Ce modèle fonctionne bien dans 99 % des cas. Cependant, vous pouvez remplacer cette attribution standard dans Attribution IQ.
 
 +++
 
