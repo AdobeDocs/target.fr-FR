@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [Sélection de l’audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [Sélection de la version bêta de l’audience](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Objectifs et paramètres](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [Objectifs et paramètres bêta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Utilisation de données Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [Définition de mesures bêta](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Audiences d’expériences multiples dans une version bêta de test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Affectation automatique {#auto-allocate}
       + [Aperçu de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
