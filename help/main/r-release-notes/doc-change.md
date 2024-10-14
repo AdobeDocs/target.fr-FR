@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 77%
+source-wordcount: '447'
+ht-degree: 72%
 
 ---
 
@@ -20,6 +20,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
 | 14 octobre | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour pour la version 24.10.2 de [!DNL Target Standard/Premium]. |
+|  | Extension Assistant du [[!UICONTROL Visual Experience Composer] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations importantes sur l’utilisation de l’extension avec des magasins web Chrome privés. |
+|  | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ajout d’informations importantes sur l’utilisation de l’extension avec des magasins web Chrome privés. |
 | 30 septembre | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Mise à jour du nombre d’offres autorisées. |
 | 29 septembre | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations relatives à la version 2.11.6 d’at.js. |
 | 11 septembre | [Utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | Ajout de la remarque suivante sous Spécifier les rôles et les autorisations :<P> Pour afficher les activités dans [!DNL Target], les utilisateurs doivent être directement affectés à un espace de travail avec au moins le rôle [!UICONTROL Observer] . L’affectation par le biais de groupes d’utilisateurs est insuffisante. Il est généralement recommandé d’accorder aux utilisateurs l’accès à l’espace de travail par défaut. |

@@ -4,10 +4,10 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension d’assistance [!UICONTROL Visual Experience Composer] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 55%
+source-wordcount: '1077'
+ht-degree: 53%
 
 ---
 
@@ -19,9 +19,11 @@ Le navigateur d’assistance de VEC est une extension [!DNL Chrome]. Cette exten
 
 >[!IMPORTANT]
 >
->L’ancienne extension d’assistance VEC [!DNL Target] documentée dans cet article a été créée à l’aide du manifeste V2. [!DNL Google] a annoncé qu’il n’autoriserait plus les extensions créées à l’aide de Manifest V2 à compter de juin 2024. Pour plus d’informations, voir l’ [ annonce de la chronologie de la prise en charge de Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} à partir de [!DNL Google] sur le site *Chrome for Developers*.
+>* L’ancienne extension d’assistance VEC [!DNL Target] documentée dans cet article a été créée à l’aide du manifeste V2. [!DNL Google] a annoncé qu’il n’autoriserait plus les extensions créées à l’aide de Manifest V2 à compter de juin 2024. Pour plus d’informations, voir l’ [ annonce de la chronologie de la prise en charge de Manifest V2](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank} à partir de [!DNL Google] sur le site *Chrome for Developers*.
 >
->À compter de juin 2024, [!DNL Google] commencera à désactiver les extensions créées à l’aide du manifeste V2, y compris l’extension documentée dans cette rubrique. [!DNL Adobe] recommande à la clientèle de passer à la version la plus récente de l’[extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) dès que possible.
+>* À compter de juin 2024, [!DNL Google] commencera à désactiver les extensions créées à l’aide du manifeste V2, y compris l’extension documentée dans cette rubrique. [!DNL Adobe] recommande à la clientèle de passer à la version la plus récente de l’[extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) dès que possible.
+>
+>* Les clients qui utilisent des magasins web Chrome privés doivent continuer à utiliser cette version de l’extension jusqu’à ce que la prise en charge de ce cas d’utilisation soit implémentée dans la [nouvelle extension [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) d’ici la fin janvier 2025.
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
