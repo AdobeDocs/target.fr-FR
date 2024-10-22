@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '459'
 ht-degree: 72%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 22 octobre | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout des informations importantes suivantes :<ul><li>Optimisation de la portée [!DNL Adobe Experience Platform Web SDK] `__view__`</li></ul> |
 | 14 octobre | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour pour la version 24.10.2 de [!DNL Target Standard/Premium]. |
 |  | Extension Assistant du [[!UICONTROL Visual Experience Composer] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations importantes sur l’utilisation de l’extension avec des magasins web Chrome privés. |
 |  | [[!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ajout d’informations importantes sur l’utilisation de l’extension avec des magasins web Chrome privés. |
