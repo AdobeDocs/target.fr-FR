@@ -1,13 +1,13 @@
 ---
-keywords: Target;accueil;rubriques les plus consultées;adobe target;target standard;target premium;documentation target;documentation adobe target
+keywords: Target;accueil;rubriques les plus consultées;adobe target;target standard;target premium;documentation target;documentation adobe target;guide du pratique;guide de l’utilisateur
 title: Guide du spécialiste d’Adobe Target
 description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de votre clientèle afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux digitaux.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 96%
 
 ---
 
