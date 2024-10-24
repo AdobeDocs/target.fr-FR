@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
+source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 75%
+source-wordcount: '351'
+ht-degree: 62%
 
 ---
 
@@ -43,57 +43,59 @@ Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre 
    * [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [FAQ et dépannage du ciblage automatique](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-* Automated Personalization {#automated-personalization}
-   * [Créez une activité de Automated Personalization](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
-   * [Estimation du trafic requis pour réussir un test](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
-   * [Aperçu d’expériences pour un test Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
-   * [Offres Target Automated Personalization](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [Gestion des exclusions](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
-   * [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
-   * [Sélection du contrôle de votre activité de Automated Personalization ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
-   * [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
-   * [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md){target=_blank}
-* Ciblage d’expérience {#experience-targeting}
-   * [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md){target=_blank}
-   * Création d’une activité de ciblage d’expérience {#create-targeting}
-      * [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md){target=_blank}
-      * [URL d’activité](c-activities/t-experience-target/t-xt-create/xt-activity-url.md){target=_blank}
-      * [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md){target=_blank}
-      * [Changement d’expérience dans Adobe Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md){target=_blank}
-      * [Objectifs et paramètres](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md){target=_blank}
-      * [Définition de mesures](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md){target=_blank}
-* Test multivarié {#multivariate-test}
-   * [Présentation du test multivarié](c-activities/c-multivariate-testing/multivariate-testing.md){target=_blank}
-   * [Bonnes pratiques du test multivarié](c-activities/c-multivariate-testing/best-practices.md){target=_blank}
-   * [Planification d’un test multivarié](c-activities/c-multivariate-testing/plan-mvt.md){target=_blank}
-   * Création d’un test multivarié {#create-mvt}
-      * [Création d’un test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md){target=_blank}
-      * [URL d’activité](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md){target=_blank}
-      * [Création de combinaisons](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md){target=_blank}
-      * [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md){target=_blank}
-      * [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md){target=_blank}
-      * [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md){target=_blank}
-      * [Objectifs et paramètres](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md){target=_blank}
-      * [Définition de mesures](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md){target=_blank}
-      * [Résolution de problèmes liés aux tests multivariés](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md){target=_blank}
-* [Activité Recommendations](c-activities/recommendations-activity.md){target=_blank}
-* [Modification d’une activité ou enregistrement sous forme de version préliminaire](c-activities/edit-activity.md){target=_blank}
-* [Priorité](c-activities/priority.md){target=_blank}
-* [Paramètres d’activité](c-activities/activity-settings.md){target=_blank}
-* Mesures de succès {#success-metrics}
-   * [Mesures de succès](c-activities/r-success-metrics/success-metrics.md){target=_blank}
-   * [Suivi des clics](c-activities/r-success-metrics/click-tracking.md){target=_blank}
-   * [Score de capture](c-activities/r-success-metrics/capture-score.md){target=_blank}
-* [Journal des modifications d’activité](c-activities/change-log.md){target=_blank}
-* Résolution des problèmes liés aux activités {#troubleshoot-activities}
-   * [Résolution des problèmes d’activités](c-activities/c-troubleshooting-activities/troubleshooting-activities.md){target=_blank}
-   * [Résolution des problèmes liés à la diffusion de contenu](c-activities/c-troubleshooting-activities/content-trouble.md){target=_blank}
-* AQ d’activité {#activity-qa}
-   * [Présentation de l’AQ d’activité](c-activities/c-activity-qa/activity-qa.md){target=_blank}
-   * [Signet d’applet de l’AQ d’activité](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
-   * [Utilisation de l’AQ d’activité avec diffusion côté serveur](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}
 
 +++
+
+<!-- 
+* Automated Personalization {#automated-personalization}
+   * [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [Estimate the traffic required for success](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [Preview experiences for an Automated Personalization test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
+   * [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
+   * [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
+   * [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
+   * [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
+   * [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
+   * [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md){target=_blank}
+* Experience Targeting {#experience-targeting}
+   * [Experience Targeting overview](c-activities/t-experience-target/experience-target.md){target=_blank}
+   * Create an Experience Targeting activity {#create-targeting}
+      * [Create an activity](c-activities/t-experience-target/t-xt-create/xt-create.md){target=_blank}
+      * [Activity URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md){target=_blank}
+      * [Create an experience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md){target=_blank}
+      * [Switching experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md){target=_blank}
+      * [Goals and settings](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md){target=_blank}
+      * [Set metrics](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md){target=_blank}
+* Multivariate Test {#multivariate-test}
+   * [Multivariate Test overview](c-activities/c-multivariate-testing/multivariate-testing.md){target=_blank}
+   * [Multivariate Test best practices](c-activities/c-multivariate-testing/best-practices.md){target=_blank}
+   * [Plan a Multivariate Test](c-activities/c-multivariate-testing/plan-mvt.md){target=_blank}
+   * Create a Multivariate Test {#create-mvt}
+      * [Create a test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md){target=_blank}
+      * [Activity URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md){target=_blank}
+      * [Create combinations](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md){target=_blank}
+      * [Preview experiences for a Multivariate Test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md){target=_blank}
+      * [Estimate the traffic required for a successful test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md){target=_blank}
+      * [Test summary](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md){target=_blank}
+      * [Goals and settings](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md){target=_blank}
+      * [Set metrics](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md){target=_blank}
+      * [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md){target=_blank}
+* [Recommendations activity](c-activities/recommendations-activity.md){target=_blank}
+* [Edit an activity or save as draft](c-activities/edit-activity.md){target=_blank}
+* [Priority](c-activities/priority.md){target=_blank}
+* [Activity settings](c-activities/activity-settings.md){target=_blank}
+* Success metrics {#success-metrics}
+   * [Success metrics](c-activities/r-success-metrics/success-metrics.md){target=_blank}
+   * [Click tracking](c-activities/r-success-metrics/click-tracking.md){target=_blank}
+   * [Capture score](c-activities/r-success-metrics/capture-score.md){target=_blank}
+* [Activity change log](c-activities/change-log.md){target=_blank}
+* Troubleshoot activities {#troubleshoot-activities}
+   * [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md){target=_blank}
+   * [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md){target=_blank}
+* Activity QA {#activity-qa}
+   * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
+   * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
+   * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
 ## Offres
 
