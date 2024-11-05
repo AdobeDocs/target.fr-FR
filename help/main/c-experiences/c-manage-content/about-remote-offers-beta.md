@@ -7,9 +7,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 19%
 
 ---
@@ -20,7 +20,7 @@ Utilisez des offres distantes pour héberger du contenu en dehors de [!DNL Adobe
 
 >[!NOTE]
 >
->Cet article contient des informations sur les mises à jour apportées à l’interface utilisateur de [!DNL Target] qui fait actuellement partie d’un programme Beta. L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target Standard/Premium] et annoncées dans les notes de mise à jour.
+>Cet article contient des informations sur les mises à jour apportées à l’interface utilisateur de [!DNL Target] qui fait actuellement partie d’un programme Beta. L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target] et annoncées dans les [notes de mise à jour](/help/main/r-release-notes/release-notes.md).
 
 Les offres distantes peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le [compositeur d’expérience d’après Forms](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête [!DNL Target] globale.
 
@@ -70,14 +70,15 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 ## Créez une offre distante à l’aide de [!UICONTROL Form-Based Experience Composer]
 
 1. Lors de la création d’une activité à l’aide du [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md), sélectionnez l’emplacement d’affichage de la section **[!UICONTROL Content]**.
+1. Cliquez sur la liste déroulante **[!UICONTROL Content]**, cliquez sur l&#39;icône **[!UICONTROL List]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ), puis sur **[!UICONTROL Change Remote Offer]**.
 
-1. Cliquez sur la liste déroulante **[!UICONTROL Default Content]**, puis sur **[!UICONTROL Change Remote Offer]**.
-
-1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**.
+1. Cliquez sur **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Attribuez un nom explicite à l’offre.
 
    Un nom explicite vous aide, ainsi que d’autres personnes, à trouver rapidement l’offre dans la bibliothèque [!UICONTROL Assets].
+
+1. (Conditionnel) Si vous disposez d’un [compte Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’ [espace de travail](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC) de votre choix.
 
 1. Spécifiez le type d’URL de redirection.
 
@@ -85,7 +86,7 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
 1. Spécifiez l’URL distante de l’offre distante.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Create]**.
 
 ## Type d’URL de redirection : [!UICONTROL Onsite Cached] ou [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ Vous pouvez cliquer sur **[!UICONTROL Add Parameter]** pour ajouter une ou plusi
 
 ## Utiliser des offres distantes dans les activités
 
-Vous devez appliquer des offres distantes à l’aide de [!UICONTROL Form-Based Experience Composer]. Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
+Appliquez des offres distantes à l’aide de [!UICONTROL Form-Based Experience Composer]. Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’expérience et d’offres non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque [!UICONTROL Visual Experience Composer] n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres distantes.
 
@@ -121,9 +122,9 @@ Vous devez appliquer des offres distantes à l’aide de [!UICONTROL Form-Based 
 
 1. Indiquez l’emplacement souhaité et ajoutez toute amélioration de l’audience nécessaire.
 
-1. Cliquez sur la liste déroulante de la section **[!UICONTROL Content]**, puis cliquez sur **[!UICONTROL Change Remote Offer]**.
+1. Cliquez sur la liste déroulante **[!UICONTROL Content]**, cliquez sur l&#39;icône **[!UICONTROL List]** ( ![Liste](/help/main/assets/icons/MoreSmallList.svg) ), puis sur **[!UICONTROL Change Remote Offer]**.
 
-1. Sélectionnez l’offre distante souhaitée dans la boîte de dialogue [!UICONTROL Select Remote Offer], puis cliquez sur **[!UICONTROL Done]**.
+1. Sélectionnez l’offre distante souhaitée dans la boîte de dialogue [!UICONTROL Change Remote Offer], puis cliquez sur **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**.
 
 1. Terminez la configuration de l’activité.
 
@@ -141,9 +142,9 @@ L’offre est exécutée une fois la page affichée. Un iFrame invisible rassemb
 
 3. L’appel `mboxCreate` comprend les paramètres nécessaires au rendu du contenu dynamique.
 
-4. [!DNL Target] renvoie l’URL avec l’emplacement du contenu dynamique et ses paramètres. Définit un iFrame dans la zone mbox.
+4. [!DNL Target] renvoie une URL avec l’emplacement du contenu dynamique et ses paramètres. Définit un iFrame dans la zone mbox.
 
-5. Le navigateur demande l’URL et effectue le rendu dans la page.
+5. Le navigateur demande l’URL et effectue le rendu dans la page .
 
 ## Matrice de sélection des offres distantes {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
@@ -158,13 +159,3 @@ La matrice de sélection des offres distantes permet de déterminer le type d’
 | Les offres peuvent inclure du code JavaScript | Oui | Oui |
 | URL de l’offre | Absolu ou Relatif | Relatif |
 | Ordinateur émettant la requête | Serveurs Adobe | Ordinateur du visiteur qui stocke les cookies de celui-ci |
-
-## Vidéo de formation : Compositeur d’après les formulaires ![Badge de tutoriel](/help/main/assets/tutorial.png)
-
-Cette vidéo fournit une démonstration de [!UICONTROL Form-Based Experience Composer], que vous pouvez utiliser pour créer des offres distantes.
-
-* Créez une activité à l’aide de [!UICONTROL Form-Based Experience Composer]
-* Comprendre quand utiliser [!UICONTROL Form-Based Experience Composer] et [!UICONTROL Visual Experience Composer]
-* Utilisation des ajustements pour cibler un emplacement
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)

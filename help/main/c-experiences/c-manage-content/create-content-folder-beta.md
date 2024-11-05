@@ -7,20 +7,20 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '322'
 ht-degree: 8%
 
 ---
 
 # Création de dossiers d’offres
 
-Créez des dossiers dans la bibliothèque [!DNL Adobe Target] [!UICONTROL Offer] afin de contenir les offres de code, les offres d’image, ainsi que d’autres dossiers pour créer une structure de sous-dossiers.
+Créez des dossiers dans la bibliothèque [!DNL Adobe Target] [!UICONTROL Offer] pour contenir les offres de code et les offres d’image. Vous pouvez également créer des dossiers pour créer une structure de sous-dossiers.
 
 >[!NOTE]
 >
->Cet article contient des informations sur les mises à jour apportées à l’interface utilisateur de [!DNL Target] qui fait actuellement partie d’un programme Beta. L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target Standard/Premium] et annoncées dans les notes de mise à jour.
+>Cet article contient des informations sur les mises à jour apportées à l’interface utilisateur de [!DNL Target] qui fait actuellement partie d’un programme Beta. L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target] et annoncées dans les [notes de mise à jour](/help/main/r-release-notes/release-notes.md).
 
 Le processus de création de dossiers pour les offres de code et d’image diffère légèrement. Les sections suivantes contiennent plus d’informations.
 
@@ -28,9 +28,7 @@ Le processus de création de dossiers pour les offres de code et d’image diff�
 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![Onglet Offres de code](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
-1. Cliquez sur **[!UICONTROL Create Folder].
+1. Cliquez sur **[!UICONTROL Create Folder]**.
 
 1. Attribuez un nom explicite au dossier.
 
@@ -54,7 +52,6 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 
 1. (Facultatif) Spécifiez un **[!UICONTROL Name]** descriptif.
 1. (Facultatif) Sélectionnez **[!UICONTROL Private]** pour indiquer que le dossier est privé, de sorte que vous seul puissiez le voir et son contenu.
-
 1. (Facultatif) Sélectionnez **[!UICONTROL Reorder-able in List View]** pour indiquer que vous et d’autres pouvez réorganiser la position du dossier dans le [!UICONTROL List View].
 
 1. Cliquez sur **[!UICONTROL Create]**.
