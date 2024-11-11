@@ -6,9 +6,10 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 Ce cas pratique vous aide à déverrouiller les secrets pour les modifications de contenu de test A/B efficaces dans [!DNL Adobe Journey Optimizer].
 
-Ce cas pratique montre comment effectuer des tâches courantes, telles que des tests A/B avec une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md), en utilisant [!DNL Journey Optimizer] au lieu de [!DNL Adobe Target].
-
-Ce cas pratique est conçu pour démontrer comment exécuter des tâches courantes que vous avez pu effectuer à l’aide de [!DNL Adobe Target], de tests A/B à l’aide d’une [ activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md), mais en utilisant [!DNL Journey Optimizer].
+Ce cas pratique montre comment effectuer des tâches courantes, telles que des tests A/B avec une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) dans [!DNL Adobe Target], en utilisant [!DNL Journey Optimizer] au lieu de [!DNL Adobe Target].
 
 ## Avantages et valeur
 
@@ -31,7 +30,7 @@ Ce cas pratique est conçu pour démontrer comment exécuter des tâches courant
 
 * Une société d’habillement a augmenté les conversions en testant diverses images et en personnalisant les landing pages de campagne avec les prénoms des utilisateurs dans le texte d’appel à l’action.
 
-* Une société de commerce électronique a constaté que ses membres fidélisés à l’or avaient des taux de conversion plus élevés en testant diverses descriptions et images de produits sur une page d’entrée de campagne, ce qui a entraîné une augmentation des ventes.
+* Une société de commerce électronique a constaté que les membres du programme de fidélité Gold avaient des taux de conversion plus élevés en testant diverses descriptions et images de produits sur une page d’entrée de campagne, ce qui a entraîné une augmentation des ventes.
 
 ## Étapes
 
@@ -41,17 +40,13 @@ Ce cas pratique est conçu pour démontrer comment exécuter des tâches courant
 >
 >La vidéo située en bas de la page est particulièrement utile.
 
-Effectuez les étapes suivantes pour optimiser une page web en testant différentes images et en personnalisant les messages avec les prénoms des utilisateurs à l’aide d’un script de profil :
+Pour optimiser une page web en testant différentes images et en personnalisant les messages avec les prénoms des utilisateurs à l’aide d’un script de profil :
 
-1. Dans [!DNL Adobe Journey Optimizer], cliquez sur **Campagnes** dans le rail de gauche pour afficher la page [!UICONTROL Campaigns].
-
-   ![Page d’entrée Adobe Journey Optimizer avec l’onglet Campagnes surligné.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. Dans [!DNL Journey Optimizer], cliquez sur **Campagnes** dans le rail de gauche pour afficher la page [!UICONTROL Campaigns].
 
 1. Cliquez sur **[!UICONTROL Create Campaign]** dans le coin supérieur droit de la page [!UICONTROL Campaigns].
 
 1. Sélectionnez **[!UICONTROL Scheduled - Marketing]** (valeur par défaut), puis cliquez sur **Créer** pour afficher la page de détails [!UICONTROL Campaign].
-
-   ![Page Détails de la campagne dans Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. Dans la section **[!UICONTROL Properties]** , indiquez un nom descriptif et une description facultative de la campagne.
 
@@ -85,7 +80,7 @@ Effectuez les étapes suivantes pour optimiser une page web en testant différen
 
 1. Sur la page de détails [!UICONTROL Campaign], sous **[!UICONTROL Action]**, cliquez sur **[!UICONTROL Edit Content]**.
 
-1. Cliquez sur Web sous le traitement B
+1. Cliquez sur Web sous Traitement B.
 
    Pour ce cas d’utilisation, ne modifiez pas [!UICONTROL Treatment A] afin d’utiliser l’expérience d’origine comme première expérience dans le test A/B.
 
@@ -133,4 +128,3 @@ Pour plus d’informations, voir [Prise en main de la nouvelle interface de cré
 >[Modifier le contenu web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank} dans la *documentation Journey Optimizer*
 >[Vidéo pratique ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank} dans la *documentation Journey Optimizer*
 >[Créez une campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans *Journey Optimizer Tutorials*
-
