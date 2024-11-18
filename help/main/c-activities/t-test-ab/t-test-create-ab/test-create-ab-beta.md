@@ -1,11 +1,12 @@
 ---
 keywords: Créer A/B;test A/B;activité A/B;nouvelle activité a/b;créer a/b
-description: Principal de [!UICONTROL Visual Experience Composer] (VEC) pour créer des activités de test A/B directement sur une page compatible avec  [!DNL Target].
+description: Utilisez le [!UICONTROL Visual Experience Composer] (VEC) pour créer des activités de test A/B directement sur une page compatible avec  [!DNL Target].
 title: Comment créer un test A/B ?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 17%
@@ -101,8 +102,8 @@ Pour créer une activité [!UICONTROL A/B Test] manuelle :
 
       Si vous devez créer une audience qui ne figure pas encore dans le [!UICONTROL Audience Library], cliquez sur **Créer une audience**. Au cours du [processus de création d’audience](/help/main/c-target/c-audiences/audiences.md), vous pouvez choisir parmi les options suivantes :
 
-      * Créez une audience à la demande enregistrée dans le [!UICONTROL Audience Library] qui peut être réutilisée dans d’autres activités.
-      * Créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et qui ne peut être utilisée que dans l’activité active.
+      * **[!UICONTROL Audience Library]** : créez une audience à la demande qui est enregistrée dans le [!UICONTROL Audience Library] et qui peut être réutilisée dans d’autres activités.
+      * **[!UICONTROL This activity only]** : créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans [!UICONTROL Audience Library] et peut être utilisée dans l’activité active uniquement.
 
    1. Cliquez sur **[!UICONTROL Visitor Percentage]** dans le cadre de droite, puis sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 

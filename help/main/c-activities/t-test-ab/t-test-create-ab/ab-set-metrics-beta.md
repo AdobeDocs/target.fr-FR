@@ -5,7 +5,8 @@ title: Comment définir des mesures d’objectif dans une activité A/B ?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 58%
@@ -18,7 +19,7 @@ Utilisez des mesures dans une activité A/B [!DNL Adobe Target] pour déterminer
 
 Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
-1. Dans la section **[!UICONTROL Reporting Settings]** de la page **[!UICONTROL Goals & Settings]**, sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Dans la section **[!UICONTROL Reporting Settings]** de la page **[!UICONTROL Goals & Settings]**, sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
    L’option [!UICONTROL Select Metrics] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 

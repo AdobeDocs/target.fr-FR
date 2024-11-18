@@ -5,10 +5,11 @@ title: Comment sélectionner une audience dans une activité  [!DNL Target] A/B 
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ Pour plus d’informations sur toutes les options du diagramme de flux, voir [Cr
 
 1. (Conditionnel) Cliquez sur **Combiner les audiences** à [créer une audience qui combine plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Conditionnel) Pour créer une audience qui ne figure pas encore dans le [!UICONTROL Audience Library], cliquez sur **Créer une audience**. Au cours du [processus de création d’audience](/help/main/c-target/c-audiences/audiences.md), vous pouvez choisir parmi les options suivantes :
+1. (Conditionnel) Pour créer une audience qui ne figure pas encore dans le [!UICONTROL Audience Library], cliquez sur **Créer une audience**, définissez l’audience, puis cliquez sur **[!UICONTROL Done]**.
 
-   * Créez une audience à la demande enregistrée dans le [!UICONTROL Audience Library] qui peut être réutilisée dans d’autres activités.
-   * Créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et qui ne peut être utilisée que dans l’activité active.
+   Au cours du [processus de création d’audience](/help/main/c-target/c-audiences/audiences.md), vous pouvez choisir parmi les options suivantes :
+
+   * **[!UICONTROL Audience Library]** : créez une audience à la demande qui est enregistrée dans le [!UICONTROL Audience Library] et qui peut être réutilisée dans d’autres activités.
+   * **[!UICONTROL This activity only]** : créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans [!UICONTROL Audience Library] et peut être utilisée dans l’activité active uniquement.
 
 1. Cliquez sur **[!UICONTROL Visitor Percentage]** dans le volet de droite, puis spécifiez le pourcentage de visiteurs admissibles à inclure dans l’activité.
 
@@ -51,7 +54,7 @@ Pour plus d’informations sur toutes les options du diagramme de flux, voir [Cr
 
 >[!NOTE]
 >
->Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste d’audiences et que les audiences ont été importées il y a plus de 10 minutes.
+>Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste [!UICONTROL Audience] et que les audiences importées ont plus de 10 minutes.
 
 ## Affichage des informations d’une audience
 
@@ -64,4 +67,3 @@ Pour plus d’informations sur toutes les options du diagramme de flux, voir [Cr
 Vous pouvez modifier ou copier une audience en cliquant sur l’icône [!UICONTROL More Actions] ( ![Icône Autres actions](/help/main/assets/icons/More.svg) ) en regard de l’audience souhaitée dans la boîte de dialogue [!UICONTROL Add Audience], puis en cliquant sur [!UICONTROL Edit] ou [!UICONTROL Copy].
 
 La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, apporter vos modifications, puis l’enregistrer en tant que nouvelle audience.
-

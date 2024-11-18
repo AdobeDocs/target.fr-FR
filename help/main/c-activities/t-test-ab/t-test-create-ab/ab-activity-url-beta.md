@@ -5,9 +5,10 @@ title: Quelle est l’URL d’activité dans une activité A/B ?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ Lorsque vous y êtes invité au cours de la création de l’activité, spécifi
 
 Par défaut, le [!UICONTROL Visual Experience Composer] ouvre la page qui est spécifiée dans vos [ paramètres du compositeur d’expérience visuelle ](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
 
-1. Pour afficher une autre page après l’ouverture de [!UICONTROL Visual Experience Composer], sur la page **[!UICONTROL Experiences]**, cliquez sur **[!UICONTROL Configure]** en haut de la page, puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. (Conditionnel) Pour afficher une autre page après l’ouverture de [!UICONTROL Visual Experience Composer], sur la page **[!UICONTROL Experiences]**, cliquez sur **[!UICONTROL Configure]** en haut de la page, puis sélectionnez **[!UICONTROL Page Delivery]**.
 
 1. Spécifiez l’URL dans le champ **[!UICONTROL URL]**.
 
@@ -40,6 +41,7 @@ Par défaut, le [!UICONTROL Visual Experience Composer] ouvre la page qui est sp
    * Fragment de hachage (#)
    * Requête
    * Paramètre de mbox
+   * Valeur personnalisée
 
    Des règles supplémentaires peuvent être jointes à l’URL de l’activité avec l’opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 

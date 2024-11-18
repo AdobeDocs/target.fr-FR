@@ -5,7 +5,8 @@ title: Comment spécifier les objectifs et les paramètres dans une activité A/
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 La page [!UICONTROL Goals & Settings] de [!DNL Adobe Target] est l’endroit où vous spécifiez des informations sur les objectifs de l’activité.
 
-Les paramètres disponibles dépendent si vous utilisez Target ou [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) comme source de création de rapports.
+Les paramètres disponibles dépendent si vous utilisez Target ou [Analytics comme source des rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ Les options disponibles sont les suivantes :
 | Paramètre | Description |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilisez cette option pour comptabiliser une personne comme atteignant la mesure de succès uniquement si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion d’activité peut uniquement être valide si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion. Vous pouvez définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. Définissez les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. L’option [!UICONTROL Add Dependency] permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte. Pour ajouter une dépendance :<ul><li>Après avoir ajouté des mesures supplémentaires, cliquez sur [!UICONTROL Advanced Settings].</li><li>Cliquez sur l’option [!UICONTROL Add Dependency] :</li><li>Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur [!UICONTROL Reached] pour passer du paramètre [!UICONTROL Reached] à [!UICONTROL  Not Reached].</li><li>Vous pouvez modifier ou supprimer des dépendances après leur ajout.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | Trois options sont disponibles :<ul><li>Sélectionnez [!UICONTROL Increment Count & Keep User in Activity] pour spécifier comment le nombre est incrémenté.</li><li>Sélectionnez [!UICONTROL Increment Count, Release User & Allow Reentry] pour spécifier l’expérience que l’utilisateur voit s’il entre à nouveau dans l’activité.</li><li>Sélectionnez [!UICONTROL Increment Count, Release User & Bar from Reentry] pour spécifier ce que l’utilisateur voit à la place du contenu de l’activité.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | Trois options sont disponibles :<ul><li>Sélectionnez **[!UICONTROL Increment Count & Keep User in Activity]** pour spécifier comment le nombre est incrémenté.</li><li>Sélectionnez **[!UICONTROL Increment Count, Release User & Allow Reentry]** pour spécifier l’expérience que l’utilisateur voit s’il entre à nouveau dans l’activité.</li><li>Sélectionnez **[!UICONTROL Increment Count, Release User & Bar from Reentry]** pour spécifier ce que l’utilisateur voit à la place du contenu de l’activité.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Il existe trois options d’incrémentation du décompte :<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 Reportez-vous à [Mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) pour plus d’informations sur les paramètres avancés.

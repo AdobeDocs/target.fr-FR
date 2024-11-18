@@ -1,13 +1,14 @@
 ---
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
-description: Principal utilisant le [!UICONTROL Visual Experience Composer] (VEC) pour ajouter des expériences aux activités.
+description: Utilisez le [!UICONTROL Visual Experience Composer] (VEC) pour ajouter des expériences aux activités.
 title: Comment ajouter des expériences dans une activité A/B ?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---
