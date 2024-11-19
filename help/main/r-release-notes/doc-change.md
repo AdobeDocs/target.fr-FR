@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 69%
+source-wordcount: '512'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 19 novembre | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de la remarque importante suivante à la section &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (22 octobre 2024)&quot; :<ul><li>IMPORTANT : si vous ne pouvez pas terminer votre révision de mise en oeuvre et résoudre des problèmes d’ici le 3 février 2025, vous pouvez demander une extension unique de six mois. Assurez-vous que votre demande est envoyée avant le 31 janvier 2025. Adobe examinera votre demande et décidera de celle-ci.</li><ul> |
 | 22 octobre | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout des informations importantes suivantes :<ul><li>Optimisation de la portée [!DNL Adobe Experience Platform Web SDK] `__view__`</li></ul> |
 | 14 octobre | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour pour la version 24.10.2 de [!DNL Target Standard/Premium]. |
 |  | Extension Assistant du [[!UICONTROL Visual Experience Composer] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations importantes sur l’utilisation de l’extension avec des magasins web Chrome privés. |
