@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 25%
 
 ---
@@ -46,17 +46,7 @@ Les offres JSON sont prises en charge uniquement dans les activités créées à
 
 Voici un exemple :
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![Boîte de dialogue Créer une offre JSON](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 Les actions transmises au rappel de succès constituent un tableau d’objets. En supposant que vous disposiez d’une seule offre JSON, qui présente le contenu suivant :
 

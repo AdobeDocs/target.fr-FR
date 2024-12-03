@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 26%
+source-wordcount: '729'
+ht-degree: 22%
 
 ---
 
@@ -15,13 +15,27 @@ ht-degree: 26%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : vendredi 14 novembre 2024**
+**Dernière mise à jour : mercredi 3 décembre 2024**
 
 >[!NOTE]
 >
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## Mise à jour de l’interface utilisateur de [!UICONTROL Offers Library] (9 janvier 2024)
+
+Pour améliorer l’expérience utilisateur des utilisateurs de [!DNL Adobe Target], cette version met à jour l’interface utilisateur de [!UICONTROL Offers Library]. En utilisant le dernier système de conception [!DNL Adobe Spectrum], cette mise à jour normalise les modèles de conception incohérents et introduit de nouvelles améliorations, notamment :
+
+* **Gestion des offres en bloc** : sélectionnez et supprimez plusieurs offres simultanément.
+
+* **Mises à niveau de l’éditeur de code** : HTML actualisé et éditeurs JSON avec mise en surbrillance de syntaxe et numérotation de lignes.
+
+* **Cartes d’offre améliorées** : amélioration des informations rapides et des cartes de détails pour un accès plus facile aux informations.
+
+* **Recherche et filtres persistants** : ajoute des options de recherche et de filtre persistantes dans la session.
+
+À compter du 9 janvier 2025, tous les clients [!DNL Target] auront accès à la nouvelle interface utilisateur, avec la possibilité de revenir à la version actuelle de l’interface utilisateur si nécessaire.
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` optimisation de la portée (22 octobre 2024)
 

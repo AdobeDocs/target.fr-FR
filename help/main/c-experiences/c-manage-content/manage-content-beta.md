@@ -7,9 +7,9 @@ badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ La bibliothèque [!UICONTROL Offers] offre un aperçu de toutes les offres de co
 | Rail de navigation à gauche | Basculez entre l’affichage de [!UICONTROL Code Offers] ou de [!UICONTROL Image Offers]. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![ Icône Afficher les filtres/Masquer les filtres](/help/main/assets/icons/RailLeft.svg) | Cliquez sur l’icône **[!UICONTROL Show Folders]** ou **[!UICONTROL Hide Folders]** pour basculer entre l’affichage de la structure de dossiers de vos offres et l’affichage de la structure de dossiers.<P>Pour plus d’informations, voir [Création de dossiers d’offres](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | Icône [!UICONTROL Show filters]<P>![Icône Afficher les filtres](/help/main/assets/icons/Filter.svg) | Cliquez sur l’icône **[!UICONTROL Show filters]** pour filtrer les offres par [!UICONTROL Type], [!UICONTROL Source] et [!UICONTROL AEM Type].<P>Pour plus d’informations, voir [Application de filtres à la liste Offres](#filters) ci-dessous. |
-| Champs de recherche | Utilisez les champs **[!UICONTROL Search in]** pour rechercher rapidement une offre ou pour réduire le nombre d’offres affichées dans la bibliothèque [!UICONTROL Offers]. Vous pouvez effectuer des recherches par [!UICONTROL Offer Name], [!UICONTROL AEM Paths] ou [!UICONTROL AEM Tags]. |
+| Champs de recherche | Utilisez les champs **[!UICONTROL Search in]** pour rechercher rapidement une offre ou pour réduire le nombre d’offres affichées dans la bibliothèque [!UICONTROL Offers]. Vous pouvez effectuer des recherches par [!UICONTROL Offer Name], [!UICONTROL AEM Paths] ou [!UICONTROL AEM Tags]. Les options de recherche sont persistantes. |
 | [!UICONTROL Create Folder] | Cliquez sur **[!UICONTROL Create Folder]** pour créer des dossiers dans la bibliothèque [!UICONTROL Offer] afin de contenir les offres de code, les offres d’image, ainsi que d’autres dossiers pour créer une structure de sous-dossiers.<P>Pour plus d’informations, voir [Création de dossiers d’offres](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
 | [!UICONTROL [!UICONTROL Create Offer]] | Cliquez sur **[!UICONTROL Create Offer]** pour créer une offre.<P>Pour plus d’informations sur la création des différents types d’offres, voir : <ul><li>Offre HTML</li><li>[Offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | Cases à cocher des opérations en bloc<P>![Icône Opérations en bloc](/help/main/assets/icons/Rectangle.svg) | Cochez les cases [!UICONTROL Bulk Operations] pour effectuer des opérations en bloc sur toutes les offres ou sur les offres sélectionnées.<P>Pour obtenir la liste des actions disponibles (en fonction de vos autorisations et de l’état de l’offre), reportez-vous à la section [ Exécution d’actions rapides ](#quick-actions) ci-dessous. |
@@ -55,6 +55,8 @@ L&#39;icône **[!UICONTROL Show filters]** permet de filtrer les offres selon le
 * **[!UICONTROL Source]** : [!DNL Adobe Target], [!DNL Adobe Target Classic] et [!DNL Adobe Experience Manager].
 
 * **AEM Type** : [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) et [Fragments d’expérience](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Pour plus d’informations sur les différents types de fragments, consultez la [présentation des fragments d’expérience AEM et des fragments de contenu](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+Les filtres sont persistants dans les sessions.
 
 ## Exécution d’actions rapides {#quick-actions}
 

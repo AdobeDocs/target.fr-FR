@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 62%
+source-wordcount: '543'
+ht-degree: 61%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 3 décembre | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour la prochaine mise à jour de l’interface utilisateur de [!UICONTROL Offers Library]. |
 | 20 novembre | [Ajout des nœuds Edge de Target sur liste autorisée](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Mise à jour de la liste des adresses IP Target Edge pour la liste autorisée. |
 | 19 novembre | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de la remarque importante suivante à la section &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` scope optimization (22 octobre 2024)&quot; :<ul><li>IMPORTANT : si vous ne pouvez pas terminer votre révision de mise en oeuvre et résoudre des problèmes d’ici le 3 février 2025, vous pouvez demander une extension unique de six mois. Assurez-vous que votre demande est envoyée avant le 31 janvier 2025. Adobe examinera votre demande et décidera de celle-ci.</li><ul> |
 | 22 octobre | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout des informations importantes suivantes :<ul><li>Optimisation de la portée [!DNL Adobe Experience Platform Web SDK] `__view__`</li></ul> |
