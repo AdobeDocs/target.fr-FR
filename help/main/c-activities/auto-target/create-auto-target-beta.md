@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: d2c4532d-91ce-4bec-9cd3-a70a02f6b289
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 18%
+source-wordcount: '909'
+ht-degree: 19%
 
 ---
 
@@ -75,7 +76,7 @@ Pour créer une activité [!UICONTROL Auto-Target] :
 
 1. Créez de nouvelles expériences en modifiant les éléments sur la page.
 
-   Le [!UICONTROL Visual Experience Composer] affiche deux onglets sur le côté gauche après la création d’une activité : Expérience A et Expérience B. L’Expérience A est l’expérience de contrôle. Vous vous concentrez sur l’onglet Expérience B, que vous pouvez modifier selon vos besoins. L’expérience B est l’autre expérience que vous pouvez ajouter à votre test. Vous pouvez ajouter plusieurs expériences au test en cliquant sur l’icône [!UICONTROL Add] ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) en haut du volet [!UICONTROL Experiences]. Vous pouvez également supprimer l’Expérience A de l’activité si vous ne souhaitez pas que l’expérience de site par défaut soit une option possible.
+   [!UICONTROL Visual Experience Composer] affiche deux onglets sur le côté gauche après la création d’une activité : [!UICONTROL Experience A] et [!UICONTROL Experience B]. [!UICONTROL Experience A] est l’expérience de contrôle. Votre focus est sur l’onglet [!UICONTROL Experience B], que vous pouvez modifier selon vos besoins. [!UICONTROL Experience B] est l’autre expérience que vous pouvez ajouter à votre test. Vous pouvez ajouter plusieurs expériences au test en cliquant sur l’icône [!UICONTROL Add] ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) en haut du volet [!UICONTROL Experiences]. Vous pouvez également supprimer l’Expérience A de l’activité si vous ne souhaitez pas que l’expérience de site par défaut soit une option possible.
 
    Pour plus d’informations sur l’ajout et la modification d’expériences dans [!UICONTROL Visual Experience Composer], voir [Ajout d’une expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Pour modifier l’Expérience B, commencez à l’étape 2.
 
@@ -100,8 +101,8 @@ Pour créer une activité [!UICONTROL Auto-Target] :
 
       Si vous devez créer une audience qui ne figure pas encore dans le [!UICONTROL Audience Library], cliquez sur **Créer une audience**. Au cours du [processus de création d’audience](/help/main/c-target/c-audiences/audiences.md), vous pouvez choisir parmi les options suivantes :
 
-      * Créez une audience à la demande enregistrée dans le [!UICONTROL Audience Library] qui peut être réutilisée dans d’autres activités.
-      * Créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et qui ne peut être utilisée que dans l’activité active.
+      * **[!UICONTROL Audience Library]** : créer une audience à la demande enregistrée dans le [!UICONTROL Audience Library] qui peut être réutilisée dans d’autres activités
+      * **[!UICONTROL This activity only]** : créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et peut être utilisée dans l’activité actuelle uniquement.
 
    1. Cliquez sur **[!UICONTROL Visitor Percentage]** dans le cadre de droite, puis sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -109,7 +110,7 @@ Pour créer une activité [!UICONTROL Auto-Target] :
 
 1. Cliquez sur le contrôle **[!UICONTROL Traffic Allocation]**, puis sélectionnez la méthode d’affectation du trafic souhaitée dans le volet de droite. Dans ce scénario, cliquez sur **[!UICONTROL Auto-Taget for personalized experiences]**.
 
-   ![ Paramètres de méthode d’affectation du trafic ](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+   ![ Paramètres de méthode d’affectation du trafic ](/help/main/c-activities/assets/auto-target.png)
 
    Les méthodes d’affectation de trafic suivantes sont disponibles :
 
