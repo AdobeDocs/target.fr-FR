@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -29,9 +29,9 @@ Pour améliorer l’expérience utilisateur des utilisateurs de [!DNL Adobe Targ
 
 * **Gestion des offres en bloc** : sélectionnez et supprimez plusieurs offres simultanément.
 
-* **Mises à niveau de l’éditeur de code** : HTML actualisé et éditeurs JSON avec mise en surbrillance de syntaxe et numérotation de lignes.
+* **[!UICONTROL Code Editor]mises à niveau** : HTML actualisé et éditeurs JSON avec mise en surbrillance de la syntaxe et numérotation des lignes.
 
-* **Cartes d’offre améliorées** : amélioration des informations rapides et des cartes de détails pour un accès plus facile aux informations.
+* **Amélioration des cartes d’offre** : amélioration des informations rapides et des cartes de détails pour un accès plus facile aux informations.
 
 * **Recherche et filtres persistants** : ajoute des options de recherche et de filtre persistantes dans la session.
 
