@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 28%
 
 ---
@@ -43,7 +44,7 @@ Le workflow d’activité [!UICONTROL Automated Personalization] (AP) dans [!DNL
 
    La page avec l’URL spécifiée s’ouvre dans le VEC.
 
-1. Cliquez sur **[!UICONTROL Untitled Activity]** en haut du VEC, puis spécifiez un nom pour l’activité dans l’espace fourni.
+1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, nommez l’activité, puis cliquez sur **[!UICONTROL Save]**.
 
    Le nom de l’activité ne peut pas commencer par les caractères suivants :
 
