@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 21%
@@ -23,7 +23,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## Mise à jour de l’interface utilisateur de [!UICONTROL Offers Library] (9 janvier 2024)
+## Mise à jour de l’interface utilisateur de [!UICONTROL Offers Library] (9 janvier 2025)
 
 Pour améliorer l’expérience utilisateur des utilisateurs de [!DNL Adobe Target], cette version met à jour l’interface utilisateur de [!UICONTROL Offers Library]. En utilisant le dernier système de conception [!DNL Adobe Spectrum], cette mise à jour normalise les modèles de conception incohérents et introduit de nouvelles améliorations, notamment :
 
