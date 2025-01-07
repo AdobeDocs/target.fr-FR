@@ -1,15 +1,15 @@
 ---
-keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;correctifs;correctifs;mises à jour;mises à jour actuelles
+keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bogues;mises à jour,mises à jour actuelles
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
 short-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 37%
+source-wordcount: '868'
+ht-degree: 31%
 
 ---
 
@@ -19,44 +19,64 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Adobe Experience Platform Web SDK] `__view__` optimisation de la portée (22 octobre 2024)
+## Mise à jour de l’interface utilisateur d’[!UICONTROL Offers Library] (9 janvier 2025)
 
-Entre le 22 juillet 2024 et le 15 août 2024, l’équipe [!DNL Target] a optimisé la portée de `__view__`, ce qui améliore la précision des rapports d’impression d’activité, de visites et de visiteurs. Cette optimisation a pour but de capturer automatiquement les données de rapport pour les propositions générées automatiquement et doit être transparente pour la plupart des comptes.
+Pour améliorer l’expérience utilisateur des utilisateurs [!DNL Adobe Target], cette version met à jour l’interface utilisateur [!UICONTROL Offers Library]. En utilisant le dernier système de conception [!DNL Adobe Spectrum], cette mise à jour normalise les modèles de conception incohérents et introduit de nouvelles améliorations, notamment les suivantes :
 
-Cette optimisation sera activée pour tous les nouveaux clients [!DNL Adobe Experience Platform Web SDK]. Toutefois, les clients qui ont migré depuis at.js et n’ont pas suivi les étapes de mise en oeuvre ci-dessous ont désactivé l’optimisation. Nous recommandons vivement à ces clients de passer en revue leurs mises en oeuvre d’ici le 3 février 2025. À compter de cette date, nous activerons l’optimisation pour tous les clients. L’échec de la révision et de l’ajustement des mises en oeuvre d’ici là peut avoir un impact sur les rapports, comme mentionné ci-dessous. Contactez [!DNL Adobe Customer Care] si vous devez confirmer si votre implémentation est affectée ou si vous avez besoin de plus de temps pour ajuster votre implémentation.
+* **Gestion des offres en masse** : sélectionnez et supprimez ou déplacez plusieurs offres simultanément.
+
+* Mises à niveau de **[!UICONTROL Code Editor]** : actualisation de l’HTML et des éditeurs JSON avec mise en surbrillance de la syntaxe et numérotation des lignes.
+
+* **Cartes d’offres améliorées** : cartes d’informations rapides et détaillées améliorées pour un accès plus facile aux informations.
+
+* **Recherche et filtres persistants** : ajoute des options de recherche et de filtrage persistantes dans la session.
+
+À compter du 9 janvier 2025, tous les clients [!DNL Target] auront accès à la nouvelle interface utilisateur, avec la possibilité de revenir à la version actuelle de l’interface utilisateur si nécessaire.
+
+Pour plus d’informations, consultez [Offres](/help/main/c-experiences/c-manage-content/manage-content.md) et les sous-articles de cette section.
+
+Regardez cette courte vidéo pour découvrir les modifications apportées à cette version :
+
+![Vidéo d’actualisation de l’interface utilisateur des offres](/help/main/r-release-notes/assets/offers-video-v2.gif)
+
+## Optimisation de la portée de la `__view__` [!DNL Adobe Experience Platform Web SDK] (22 octobre 2024)
+
+Entre le 22 juillet 2024 et le 15 août 2024, l’équipe [!DNL Target] a optimisé la portée du `__view__`, améliorant la précision des impressions d’activité, des visites et des rapports des visiteurs. Cette optimisation vise à capturer automatiquement les données de rapport pour les propositions générées automatiquement et doit être transparente pour la plupart des comptes.
+
+Cette optimisation sera activée pour tous les nouveaux clients [!DNL Adobe Experience Platform Web SDK]. Toutefois, l’optimisation est désactivée pour les clients qui ont migré depuis at.js et n’ont pas suivi les étapes d’implémentation ci-dessous. Nous recommandons vivement à ces clients de passer en revue leurs mises en œuvre d’ici le 3 février 2025. Passée cette date, nous activerons l’optimisation pour tous les clients. Si vous ne révisez pas et n’ajustez pas les implémentations d’ici là, les rapports peuvent être affectés, comme mentionné ci-dessous. Contactez [!DNL Adobe Customer Care] si vous devez confirmer si votre implémentation est affectée ou si vous avez besoin de plus de temps pour ajuster votre implémentation.
 
 >[!IMPORTANT]
 >
->Si vous ne parvenez pas à terminer la révision de votre mise en oeuvre et à résoudre des problèmes d’ici le 3 février 2025, vous pouvez demander une extension unique de six mois. Assurez-vous que votre demande est envoyée avant le 31 janvier 2025. Adobe examinera votre demande et décidera de celle-ci.
+>Si vous ne parvenez pas à terminer l’examen de votre mise en œuvre et à résoudre les problèmes d’ici le 3 février 2025, vous pouvez demander une prolongation unique de six mois. Assurez-vous que votre demande a été soumise au plus tard le 31 janvier 2025. L’Adobe examinera votre demande et prendra une décision à son sujet.
 
-Pour bénéficier de cette optimisation en cas de rendu manuel des propositions, passez en revue votre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} pour vous assurer que vous envoyez des notifications après avoir effectué un rendu manuel des expériences ou lorsque vous utilisez la méthode `applyPropositions` (ou l’action [!DNL Launch] correspondante en tant qu’assistance) pour effectuer le rendu des expériences.
+Pour bénéficier de cette optimisation en cas de rendu manuel des propositions, passez en revue votre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} pour vous assurer que vous envoyez des notifications après avoir effectué manuellement le rendu des expériences ou lors de l’utilisation de la méthode `applyPropositions` (ou de l’action [!DNL Launch] correspondante en tant qu’assistant) pour effectuer le rendu des expériences.
 
-Les scénarios les plus courants lorsque des expériences sont générées manuellement sont les suivants :
+Les scénarios les plus courants lorsque les expériences sont rendues manuellement incluent :
 
 * Utilisation des offres JSON
 * Utilisation d’une portée de décision personnalisée dans une activité créée dans le [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)
-* Ne pas utiliser `renderDecisions: true` lors de la récupération d’une activité créée à l’aide de [!UICONTROL Form-Based Experience Composer] qui utilise la portée globale `__view__`
+* Ne pas utiliser de `renderDecisions: true` lors de la récupération d’une activité créée à l’aide du [!UICONTROL Form-Based Experience Composer] qui utilise la portée `__view__` globale
 
-Si les notifications ne sont pas implémentées comme indiqué dans le guide [Render personalized content](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} dans la *collecte de données*, il se peut que les données de rapport soient manquantes dans [!DNL Target] et dans les [rapports Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Dans certains scénarios, il se peut que vous remarquiez un partage de trafic incorrect, car les données de rapport ne sont pas capturées. Ou, dans d’autres scénarios, signaler le même événement à plusieurs reprises.
+Si les notifications ne sont pas implémentées comme indiqué dans la section [Rendu de contenu personnalisé](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} du guide *Collecte de données*, les données de rapport peuvent être manquantes dans les rapports [!DNL Target] et [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Dans certains scénarios, vous remarquerez peut-être une répartition incorrecte du trafic, car les données des rapports ne sont pas capturées. Ou, dans d’autres scénarios, signaler le même événement à plusieurs reprises.
 
-Selon votre mise en oeuvre, recherchez les impacts des rapports [!DNL Analytics] et A4T.
+Selon votre implémentation, vérifiez l’impact des rapports [!DNL Analytics] et A4T.
 
-[!DNL Platform Web SDK] prend en charge deux types d’implémentation pour le rendu des expériences et des personnalisations :
+Le [!DNL Platform Web SDK] prend en charge deux types d’implémentation pour le rendu des expériences et des personnalisations :
 
 * **Appel unique pour la personnalisation et la mesure.**
 
-  Initialement recommandé, l’approche d’appel unique pour [!DNL Platform Web SDK] est planifiée pour être abandonnée au profit de l’approche d’appel partagé. Adobe conseille à toutes les nouvelles implémentations d’utiliser la nouvelle approche d’appel partagé et recommande que les clients existants passent également à la méthode d’appel partagé.
+  Initialement recommandée, l’approche par appel unique pour le [!DNL Platform Web SDK] devrait être abandonnée au profit de l’approche par appel partagé. Adobe conseille à toutes les nouvelles mises en œuvre d’utiliser la nouvelle approche de l’appel partagé et recommande aux clients existants d’effectuer également la transition vers la méthode d’appel partagé.
 
   Si vous continuez à utiliser l’approche d’appel unique, vous remarquerez peut-être les modifications inattendues suivantes dans vos rapports [!DNL Analytics] :
 
-   * Rebonds en creux.
-   * Les accès A4T et [!UICONTROL Page View] ne sont pas assemblés, ce qui complique l’exécution de certaines ventilations et corrélations de vos rapports A4T à l’aide d’eVars et d’événements [!DNL Analytics].
+   * Baisse des bounces.
+   * Les accès A4T et [!UICONTROL Page View] ne sont pas regroupés, ce qui rend difficile l’exécution de certaines répartitions et corrélations de vos rapports A4T à l’aide d’eVars et d’événements [!DNL Analytics].
 
-* **Scinder les appels (également appelés événements de haut et de bas de page).**
+* **Appels fractionnés (également appelés événements en haut et en bas de page).**
 
-  Ce type d’implémentation est la nouvelle [méthode d’implémentation d’appel partagé](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recommandée par [!DNL Adobe]. Avec cette approche, la nouvelle optimisation n’a aucune incidence sur les rapports [!DNL Analytics] ou A4T.
+  Ce type d’implémentation est la nouvelle approche d’implémentation [appel fractionné](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recommandée par [!DNL Adobe]. Avec cette approche, la nouvelle optimisation n’a aucune incidence sur les rapports [!DNL Analytics] ou A4T.
 
-Si vous avez des questions, contactez l&#39;[Assistance clientèle Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Si vous avez des questions, contactez l’Assistance clientèle d’Adobe [](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

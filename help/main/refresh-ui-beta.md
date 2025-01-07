@@ -1,28 +1,28 @@
 ---
-keywords: bêta;actualisation de l’interface utilisateur;actualisation de l’interface utilisateur ;
-description: Accès aux articles mis à jour pour l’actualisation de l’interface utilisateur de Target pour les activités, les offres et Recommendations
-title: Beta d’actualisation de l’interface utilisateur de Recommendations, des activités et des offres
-badgePremium: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="Découvrez le programme  [!DNL Target] Beta."
+keywords: version bêta;actualisation de l’interface utilisateur;actualisation de l’interface utilisateur;
+description: Accéder aux articles mis à jour pour l’actualisation de l’interface utilisateur de Target pour les activités, les offres et Recommendations
+title: Beta d’actualisation de l’interface utilisateur des activités, offres et Recommendations
+badgePremium: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="En savoir plus sur le programme  [!DNL Target] Beta."
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
 
-# [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations] L’interface utilisateur actualise le programme Beta
+# [!DNL Target] du programme Beta d’actualisation de l’interface utilisateur de [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations]
 
-Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre du programme Beta pour l’actualisation de l’interface utilisateur [!DNL Adobe Target] pour [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations].
+Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre du programme Beta pour l’actualisation de l’interface utilisateur de [!DNL Adobe Target] pour [!UICONTROL Activities], [!UICONTROL Offers] et [!UICONTROL Recommendations].
 
 >[!NOTE]
 >
->L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaire. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target] et annoncées dans les notes de mise à jour.
+>L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaires. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions d’[!DNL Target] et annoncées dans les notes de mise à jour.
 >
->Les informations de ces articles sont fréquemment mises à jour pendant le programme Beta sans préavis.
+>Les informations contenues dans ces articles sont fréquemment mises à jour pendant le programme Beta sans préavis.
 
 ## Activités
 
@@ -96,24 +96,6 @@ Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre 
    * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
-
-## Offres
-
-+++Cliquez pour développer
-
-* [Présentation des offres](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [Création d’un dossier d’offres](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [Télécharger le contenu](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Télécharger ou supprimer des offres d’image](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [Création d’offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [Créer des offres distantes](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [Utilisation du contenu de la bibliothèque](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [Recherche de contenu](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [Transmission de données dynamiques dans les offres](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM Experience et fragments de contenu](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
 
 ## Recommendations
 
