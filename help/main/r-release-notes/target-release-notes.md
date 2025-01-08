@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 21%
+source-wordcount: '731'
+ht-degree: 22%
 
 ---
 
@@ -34,8 +34,6 @@ Pour améliorer l’expérience utilisateur des utilisateurs [!DNL Adobe Target]
 * **Cartes d’offres améliorées** : cartes d’informations rapides et détaillées améliorées pour un accès plus facile aux informations.
 
 * **Recherche et filtres persistants** : ajoute des options de recherche et de filtrage persistantes dans la session.
-
-À compter du 9 janvier 2025, tous les clients [!DNL Target] auront accès à la nouvelle interface utilisateur, avec la possibilité de revenir à la version actuelle de l’interface utilisateur si nécessaire.
 
 Pour plus d’informations, consultez [Offres](/help/main/c-experiences/c-manage-content/manage-content.md) et les sous-articles de cette section.
 
