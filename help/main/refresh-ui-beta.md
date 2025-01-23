@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 62%
+source-wordcount: '340'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,11 @@ Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre 
    * [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [FAQ et dépannage du ciblage automatique](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [Création d’une activité Automated Personalization](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [Estimation du trafic requis pour réussir un test](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
+   * [Prévisualiser des expériences dans des activités Automated Personalization dans le Compositeur d’expérience visuelle (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [Offres Target Automated Personalization](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 
