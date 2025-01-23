@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 31%
+source-wordcount: '894'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 ## Mise à jour de l’interface utilisateur d’[!UICONTROL Offers Library] (9 janvier 2025)
 
-Pour améliorer l’expérience utilisateur des utilisateurs [!DNL Adobe Target], cette version met à jour l’interface utilisateur [!UICONTROL Offers Library]. En utilisant le dernier système de conception [!DNL Adobe Spectrum], cette mise à jour normalise les modèles de conception incohérents et introduit de nouvelles améliorations, notamment les suivantes :
+Pour améliorer l’expérience utilisateur des utilisateurs [!DNL Adobe Target], cette version met à jour l’interface utilisateur [!UICONTROL Offers Library].
+
+>[!NOTE]
+>
+>Pour garantir un déploiement transparent pour tous les clients, cette version sera déployée par étapes contrôlées. La première étape a mis à niveau le groupe initial de clients Target vers la nouvelle interface utilisateur d’offres. Les étapes suivantes mettront à niveau les clients restants.
+
+En utilisant le dernier système de conception [!DNL Adobe Spectrum], cette mise à jour normalise les modèles de conception incohérents et introduit de nouvelles améliorations, notamment les suivantes :
 
 * **Gestion des offres en masse** : sélectionnez et supprimez ou déplacez plusieurs offres simultanément.
 

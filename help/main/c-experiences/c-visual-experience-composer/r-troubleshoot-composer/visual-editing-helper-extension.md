@@ -4,10 +4,10 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension du [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 94%
+source-wordcount: '672'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,6 @@ L’extension de navigateur du [!UICONTROL Visual Editing Helper] [!DNL Adobe Ex
 >[!IMPORTANT]
 >
 >* Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consultez la remarque importante en haut de cet article. En raison des améliorations de sécurité apportées à Manifest v3, [!DNL Adobe] nécessite le téléchargement de cette nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target].
->
->* Cette nouvelle extension ne prend actuellement pas en charge les magasins web Chrome privés. Cette fonctionnalité sera prise en charge d’ici la fin janvier 2025. Pour les clients qui utilisent des magasins web Chrome privés pour charger des extensions, utilisez l’ [ancienne [!UICONTROL Visual Experience Composer] extension d’assistance](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) à la place.
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
