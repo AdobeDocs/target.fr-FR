@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 61%
+source-wordcount: '356'
+ht-degree: 58%
 
 ---
 
@@ -48,6 +48,8 @@ Utilisez ces liens pour accéder à la documentation mise à jour dans le cadre 
    * [Estimation du trafic requis pour réussir un test](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
    * [Prévisualiser des expériences dans des activités Automated Personalization dans le Compositeur d’expérience visuelle (VEC)](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [Offres Target Automated Personalization](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
+   * [Offrir des groupes de génération de rapports dans Automated Personalization en version bêta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
+   * [Sélection du contrôle de votre activité Automated Personalization ou de ciblage automatique - version bêta](c-activities/t-automated-personalization/experience-as-control-beta.md)
 +++
 
 <!-- 
