@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 78%
+source-wordcount: '1481'
+ht-degree: 77%
 
 ---
 
@@ -190,13 +190,20 @@ ht-degree: 78%
       + [Planification d’un test multivarié](c-activities/c-multivariate-testing/plan-mvt.md)
       + Création d’un test multivarié {#create-mvt}
          + [Création d’un test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [Créer une version bêta de test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [URL d’activité](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [URL de l’activité bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Création de combinaisons](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [Création de combinaisons bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [Aperçu d’expériences pour une version Beta de test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [Estimation du trafic requis pour la réussite d’un test bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [Résumé du test bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Objectifs et paramètres](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Définition de mesures](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [Définition des mesures bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Résolution de problèmes liés aux tests multivariés](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Activité de recommandations](c-activities/recommendations-activity.md)
    + [Modification d’une activité ou enregistrement sous forme de version préliminaire](c-activities/edit-activity.md)
