@@ -1,14 +1,15 @@
 ---
 keywords: exclusions
-description: Découvrez comment créer des exclusions dans  [!DNL Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+description: Découvrez comment créer des exclusions dans  [!DNL Target Recommendations]  empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
 title: Comment utiliser les exclusions dans les activités [!UICONTROL Recommendations] ?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
+exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -16,15 +17,15 @@ ht-degree: 18%
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
 
-Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités du compte. Il n’existe pas d’option permettant d’affecter un groupe d’exclusion lors de la création de l’activité.
+Les exclusions sont disponibles sur l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité de [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités sur le compte. Il n’existe aucune option pour affecter un groupe d’exclusion lors de la création de l’activité.
 
-Voici quelques exemples d’utilisation des exclusions :
+Voici quelques exemples d’exclusions :
 
-* Produits qui ont été abandonnés.
-* Le catalogue d’automne et d’hiver est désormais le seul catalogue qui devrait être présent en ligne. Tout article du catalogue d’été n’est plus disponible à l’achat.
-* Éléments qui peuvent être inappropriés à recommander sur la plupart des pages ou écrans (produits pour adultes, films NC-17, etc.).
-* Produits avec des champs de métadonnées incomplets (miniature, prix ou autres métadonnées importantes manquants).
-* Produits qui ne doivent jamais être recommandés (il existe peut-être un SKU dans le système pour quelque chose, mais ce n’est pas un article achetable. Ou peut-être s’agit-il d’un faux SKU pour l’équipe d’assurance qualité afin de simuler un achat sans vraiment commander quelque chose, etc.).
+* Produits qui ont été interrompus.
+* Le catalogue d’automne et d’hiver est désormais le seul catalogue qui devrait être présent en ligne. Les articles du catalogue d&#39;été ne peuvent plus être achetés.
+* Éléments qu’il pourrait être inapproprié de recommander sur la plupart des pages ou des écrans (produits pour adultes, films NC-17, etc.).
+* Produits avec des champs de métadonnées incomplets (miniature, prix ou autres métadonnées importantes manquantes).
+* Produits qui ne devraient jamais être recommandés (il se peut qu’un SKU existe dans le système pour quelque chose, mais il ne s’agit pas d’un article achetable). Ou peut-être s’agit-il d’un faux SKU permettant à l’équipe d’assurance qualité de simuler un achat sans réellement commander quelque chose, et ainsi de suite).
 
 >[!IMPORTANT]
 >
@@ -36,23 +37,17 @@ Voici quelques exemples d’utilisation des exclusions :
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
-   ![image exclusions_list](assets/exclusions-list.png)
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le Recommendations [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement) par défaut configuré. Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
 
-   Le &quot;nombre d’éléments&quot; consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de cette exclusion dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) par défaut configuré de Recommendations (environnement). Pour plus d’informations sur la modification du groupe d’hôtes par défaut, voir [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur Adobe Target*.
-
-1. (Conditionnel) Cliquez sur l’icône [!UICONTROL Filter], puis sélectionnez l’ [environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une exclusion pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
-
-   ![Créer une exclusion](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Show Filters]** ( ![icône Afficher les filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’[environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
 1. Cliquez sur **[!UICONTROL Create Exclusion]**.
 
-   ![Boîte de dialogue Créer une exclusion](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
-
-1. Saisissez une exclusion **[!UICONTROL Name]** et une description facultative.
+1. Saisissez un **[!UICONTROL Name]** d’exclusion et saisissez une description facultative.
 
 1. Utilisez le créateur de règles pour créer les exclusions.
 
-   Sélectionnez un paramètre dans la liste Règles, sélectionnez un opérateur, puis saisissez une ou plusieurs valeurs pour identifier les produits. Séparez les diverses valeurs par des virgules.
+   Sélectionnez un paramètre dans la liste [!UICONTROL Rules], sélectionnez un opérateur, puis saisissez une ou plusieurs valeurs pour identifier les produits. Séparez les diverses valeurs par des virgules.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -68,15 +63,13 @@ After creating a search using "id > contains," for example, you can then click [
 >
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
 
-## Modification, copie ou suppression d’une exclusion
+## Modifier, copier ou supprimer une exclusion
 
-Cliquez sur l’icône **ellipse** en regard de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : modification, copie ou suppression.
+Cliquez sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : [!UICONTROL Edit], [!UICONTROL Copy] ou [!UICONTROL Delete].
 
-![Options : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+Vous pouvez copier une exclusion existante pour créer une exclusion en double que vous pouvez ensuite modifier. Cette option vous permet de créer une exclusion similaire avec moins d’effort.
 
-Vous pouvez copier une exclusion existante pour créer une exclusion en double que vous pourrez ensuite modifier. Cette option vous permet de créer une exclusion similaire avec moins d’effort.
-
-Gardez à l’esprit que les exclusions sont disponibles pour l’ensemble du compte. Veillez à tenir compte de cet avertissement avant de supprimer une exclusion. Les exclusions supprimées ne peuvent pas être récupérées.
+N’oubliez pas que les exclusions sont disponibles sur l’ensemble du compte. Veillez à tenir compte de cet avertissement avant de supprimer une exclusion. Les exclusions supprimées ne peuvent pas être récupérées.
 
 ## Vidéo de formation : création de collections et d’exclusions dans Recommendations (7:05) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
