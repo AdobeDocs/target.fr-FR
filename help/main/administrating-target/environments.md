@@ -1,14 +1,14 @@
 ---
-keywords: environnement;dépannage;bonnes pratiques;boîte de réception;redirections;redirection;liste blanche;liste noire;liste bloquée;liste autorisée
-description: Découvrez comment utiliser les environnements dans Adobe [!DNL Target] pour organiser vos sites et environnements de préproduction afin de faciliter la gestion et de créer des rapports séparés.
+keywords: placer sur la liste bloquée placer sur la liste autorisée environnement;dépannage;bonnes pratiques;ubox;redirections;redirection;liste blanche;liste bloquée;
+description: Découvrez comment utiliser des environnements en Adobe  [!DNL Target]  organiser vos sites et vos environnements de pré-production pour une gestion facile et des rapports séparés.
 title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -16,17 +16,15 @@ ht-degree: 49%
 
 Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 
-Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Par exemple, dix hôtes peuvent être groupés dans deux ou trois environnements. Les environnements prédéfinis incluent [!UICONTROL Production], [!UICONTROL Staging] et [!UICONTROL Development]. Si vous le souhaitez, vous pouvez ajouter de nouveaux environnements et renommer vos environnements.
+Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Par exemple, dix hôtes peuvent être groupés dans deux ou trois environnements. Les environnements prédéfinis comprennent [!UICONTROL Production], [!UICONTROL Staging] et [!UICONTROL Development]. Si vous le souhaitez, vous pouvez ajouter de nouveaux environnements et renommer vos environnements.
 
 Un environnement, l’environnement par défaut, est prénommé [!UICONTROL Production]. Il n’est pas possible de supprimer cet environnement, même si vous le renommez. [!DNL Target] considère que c’est là que vous diffuserez les activités et tests finaux et approuvés.
 
-Lorsqu’une demande [!DNL Target] est reçue de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans l’environnement [!UICONTROL Production]. Les paramètres de l’environnement [!UICONTROL Production] ne peuvent pas être modifiés. Par conséquent, les sites nouveaux ou inconnus peuvent voir uniquement le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
+Lorsqu’une demande de [!DNL Target] est reçue de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans l’environnement [!UICONTROL Production]. Les paramètres de l’environnement [!UICONTROL Production] ne peuvent pas être modifiés. Par conséquent, les sites inconnus ou nouveaux ne pourront afficher que le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
 Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 
-![Liste des environnements](/help/main/administrating-target/assets/environments.png)
-
-## Ajouter un environnement {#section_32097D0993724DF3A202D164D3F18674}
+## Ajout d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Dans la liste [!UICONTROL Environments], cliquez sur **[!UICONTROL Add Environment]**.
 1. Attribuez un nom explicite à l’environnement.
@@ -36,46 +34,46 @@ Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Définition de l’environnement par défaut pour la création de rapports {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Définir l’environnement par défaut pour le reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Vous pouvez sélectionner l’environnement à utiliser par défaut pour tous les rapports d’activités.
 
-Si vous utilisez [!UICONTROL Production] comme valeur par défaut, tous les hôtes inconnus sont automatiquement ajoutés à cet emplacement et les données de rapport de cet emplacement sont incluses dans la vue de rapport par défaut. La création d’un environnement « propre » garantit que seuls vos sites/domaines principaux sont inclus.
+Si vous utilisez [!UICONTROL Production] par défaut, tous les hôtes inconnus sont automatiquement ajoutés ici et les données des rapports qui en proviennent sont incluses dans la vue de rapport par défaut. La création d’un environnement « propre » garantit que seuls vos sites/domaines principaux sont inclus.
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la liste [!UICONTROL Environments], cliquez sur l’icône Étoile
+1. Dans la liste [!UICONTROL Environments], cliquez sur l’icône Étoile .
 
 >[!NOTE]
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
 >
->Si vous spécifiez un [environnement par défaut dans un  [!DNL Adobe Experience Platform] arbre de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
+>Si vous spécifiez un environnement [par défaut dans un flux  [!DNL Adobe Experience Platform]  données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Dans la liste [!UICONTROL Environment], cliquez sur l&#39;icône **[!UICONTROL Edit]**.
+1. Dans la liste [!UICONTROL Environment], cliquez sur l’icône **[!UICONTROL Edit]** .
 1. Modifiez le nom de l’environnement.
 1. Cliquez sur **[!UICONTROL Save]**.
 
-## Supprimer un environnement {#section_737F8869612047868D03FC755B1223D3}
+## Suppression d’un environnement {#section_737F8869612047868D03FC755B1223D3}
 
 Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
-1. Dans la liste [!UICONTROL Environment], cliquez sur l&#39;icône **[!UICONTROL Delete]**.
+1. Dans la liste [!UICONTROL Environment], cliquez sur l’icône **[!UICONTROL Delete]** .
 1. Cliquez sur **[!UICONTROL Delete]** pour confirmer la suppression.
 
 >[!NOTE]
 >
 >Vous ne pouvez pas supprimer l’environnement [!UICONTROL Production], mais vous pouvez le renommer.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."}
+## [!BADGE Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."}
 
 Vous pouvez prévisualiser le contenu des collections et des exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
 {{premium-note}}
 
-Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements [!UICONTROL Development] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un ID d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
+Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différentes utilisations. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements [!UICONTROL Development] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d&#39;hôtes pour prévisualiser les résultats à l&#39;aide du filtre Environnement.) Par défaut, les nouveaux éléments ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
 
 >[!NOTE]
 >
@@ -87,7 +85,7 @@ Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe
 >[!NOTE]
 >Après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.
 
-Le filtre [!UICONTROL Environment] est disponible à partir des emplacements suivants dans l’interface utilisateur de Target :
+Le filtre [!UICONTROL Environment] est disponible aux emplacements suivants de l’interface utilisateur de Target :
 
 * Recherche catalogue ([!UICONTROL Recommendations > Catalog Search])
 * Boîte de dialogue Créer une collection ([!UICONTROL Recommendations > Collections > Create New])
