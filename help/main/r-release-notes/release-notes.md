@@ -6,9 +6,9 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -19,7 +19,11 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Mise à jour de l’interface utilisateur d’[!UICONTROL Offers Library] (9 janvier 2025)
+## Target Standard/Premium 25.1.1 (vendredi 9 janvier 2025)
+
+Cette version comprend les mises à jour suivantes :
+
+### Mise à jour de l’interface utilisateur d’[!UICONTROL Offers Library]
 
 Pour améliorer l’expérience utilisateur des utilisateurs [!DNL Adobe Target], cette version met à jour l’interface utilisateur [!UICONTROL Offers Library].
 
