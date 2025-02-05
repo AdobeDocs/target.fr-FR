@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 74%
+source-wordcount: '1259'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 74%
    + [Mises à jour d’état du système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
    + [Notes de mise à jour pour les versions antérieures](r-release-notes/release-notes-for-previous-releases.md)
-   + [Activités, offres et programme Beta d’actualisation de l’interface utilisateur de Recommendations](/help/main/refresh-ui-beta.md)
 + Introduction {#introduction}
    + [Présentation de Target](c-intro/intro.md)
    + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 74%
    + [FAQ relative à l’optimisation et la personnalisation de Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administration de Target {#administer}
    + [Présentation de l’administration de Target](administrating-target/administrating-target.md)
-   + [Présentation de l’administration de Target (bêta)](administrating-target/administrating-target-beta.md)
    + [Premières étapes de l’administrateur](administrating-target/start-target.md)
    + [Configuration du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + Création de rapports {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 74%
    + [Types d’activités de Target](c-activities/target-activities-guide.md)
    + Test A/B {#abtest}
       + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
-      + [Présentation du test A/B bêta](c-activities/t-test-ab/test-ab-beta.md)
       + [Quelle doit être la durée d’exécution d’un test A/B ?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dix écueils courants des tests A/B et comment les éviter](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [Test A/A](/help/main/c-activities/t-test-ab/aa-testing.md)
       + Création d’un test A/B {#create}
          + [Création d’un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [Création d’une version bêta de test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [URL d’activité](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [URL de l’activité bêta](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [Ajout d’une expérience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [Ajout de la version bêta de l’expérience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [Sélection de l’audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [Sélectionner l’audience bêta](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [Objectifs et paramètres](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Objectifs et paramètres bêta](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Utilisation de données Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Définition des mesures bêta](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [Audiences d’expériences multiples dans une version bêta de test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + Affectation automatique {#auto-allocate}
       + [Aperçu de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [Interprétation de la version Beta des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Ciblage automatique {#auto-target}
       + [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [Présentation du ciblage automatique bêta](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Création d’une activité de ciblage automatique en version bêta](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [FAQ et dépannage du ciblage automatique](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Rapports et ciblage automatique](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Présentation d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algorithme Forêt aléatoire](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Création d’une activité Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Création d’une activité Automated Personalization bêta](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Chargement de données pour les algorithmes de personnalisation de Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Collecte de données pour les algorithmes de personnalisation Target](c-activities/t-automated-personalization/ap-data.md)
       + [Estimation du trafic requis pour réussir un test](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Estimation du trafic requis pour une version bêta réussie](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Aperçu d’expériences pour un test Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Aperçu des expériences pour une version bêta de test Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Offres Target Automated Personalization](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Offres Target Automated Personalization en version bêta](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [Gestion des exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Gestion des exclusions bêta](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Offrir des groupes de génération de rapports dans Automated Personalization en version bêta](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Sélection du contrôle de votre activité de Automated Personalization ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Sélection du contrôle de votre activité de ciblage automatique Automated Personalization en version bêta](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Ciblage d’expérience {#experience-targeting}
       + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
       + Création d’une activité de ciblage d’expérience {#create-targeting}
          + [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [Création d’une version bêta d’activité](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [URL d’activité](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [Activité URL-Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Création d’une version bêta d’expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [Changement d’expérience dans Adobe Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [Changement d’expérience dans Experience Targeting-bêta](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [Objectifs et paramètres](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Définition de mesures](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Test multivarié {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 74%
       + [Planification d’un test multivarié](c-activities/c-multivariate-testing/plan-mvt.md)
       + Création d’un test multivarié {#create-mvt}
          + [Création d’un test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [Créer une version bêta de test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [URL d’activité](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [URL de l’activité bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [Création de combinaisons](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [Création de combinaisons bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [Aperçu d’expériences pour une version Beta de test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [Estimation du trafic requis pour la réussite d’un test bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [Résumé du test bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [Objectifs et paramètres](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [Définition de mesures](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [Définition des mesures bêta](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [Résolution de problèmes liés aux tests multivariés](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [Activité de recommandations](c-activities/recommendations-activity.md)
    + [Modification d’une activité ou enregistrement sous forme de version préliminaire](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 74%
    + [Paramètres d’activité](c-activities/activity-settings.md)
    + Mesures de succès {#success-metrics}
       + [Mesures de succès](c-activities/r-success-metrics/success-metrics.md)
-      + [Mesures de succès bêta](c-activities/r-success-metrics/success-metrics-beta.md)
       + [Suivi des clics](c-activities/r-success-metrics/click-tracking.md)
       + [Score de capture](c-activities/r-success-metrics/capture-score.md)
    + [Journal des modifications d’activité](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 74%
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
    + Compositeur d’expérience visuelle {#vec}
       + [Présentation du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [Présentation du compositeur d’expérience visuelle bêta](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [Options du compositeur d’expérience visuelle bêta](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [Inclure la même expérience sur des pages similaires](c-experiences/c-visual-experience-composer/temtest.md)
-      + [Inclure la même expérience sur des pages Beta similaires](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [Activité multi-page](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [Collisions d’activités](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + Modifications {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 74%
          + [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Extension d’assistance du Compositeur d’Expérience Visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Redirection vers une URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [Redirection vers une URL bêta](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [Compositeur d’expérience d’après les formulaires](c-experiences/form-experience-composer.md)
    + [Compositeur d’expérience visuelle pour application d’une seule page](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 74%
       + [Attributs d’entité](c-recommendations/c-products/entity-attributes.md)
       + [Attributs d’entité personnalisés](c-recommendations/c-products/custom-entity-attributes.md)
       + [Flux](c-recommendations/c-products/feeds.md)
-      + [Flux bêta](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [Recherche catalogue](c-recommendations/c-products/catalog-search.md)
-      + [Recherche catalogue bêta](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [Collections](c-recommendations/c-products/collections.md)
-      + [Collections bêta](/help/main/c-recommendations/c-products/collections-beta.md)
       + [Exclusions](c-recommendations/c-products/exclusions.md)
-      + [Exclusions bêta](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + Critères {#criteria}
       + [Présentation des critères](c-recommendations/c-algorithms/algorithms.md)
-      + [Présentation des critères bêta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [Création de critères](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Créer une version Beta des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [Création d’une séquence de critères](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [Création d’une séquence de critères bêta](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [Baser la recommandation sur une clé de recommandation bêta](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [La science derrière les algorithmes de recommandations de Target](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [Chargement de la version bêta des critères personnalisés](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + Règles d’inclusion dynamiques et statiques {#dynamic-static}
          + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [Utilisation des règles d’inclusion dynamiques et statiques en version Beta](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [Correspondance des attributs d’entité](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [Attribut d’entité correspondant à la version Beta](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [Correspondance des attributs de profil](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [Attribut de profil correspondant à la version Beta](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [Correspondance des paramètres](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [Paramètre correspondant à Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [Filtre statique](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [Filtre statique bêta](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
-      + [Utilisation d’une recommandation de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [Utilisation des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Utilisation de la version Beta des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Utiliser Adobe Analytics avec Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [Utilisation d’Adobe Analytics avec la version bêta de Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
-      + [Création d’une version bêta de conception](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [Questions fréquentes sur la conception](c-recommendations/c-design-overview/template-faq.md)
       + [Personnalisation d’une conception à l’aide de Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
    + Activité {#recommendations-activity}
       + [Création d’une activité de recommandations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [Création d’une version bêta d’activité Recommendations](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [Sélection de critères](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [Sélectionner la version bêta des critères](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [Ajout de promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Paramètres des activités Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Prévisualisation et lancement de votre activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

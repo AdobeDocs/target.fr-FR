@@ -1,47 +1,33 @@
 ---
-keywords: Automated Personalization;ap;aperçu;exclure une expérience
-description: Découvrez comment prévisualiser chaque expérience dans une activité [!UICONTROL Automated Personalization] (AP) dans  [!DNL Adobe Target]  à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
-title: Comment puis-je prévisualiser des expériences [!UICONTROL Automated Personalization] dans le VEC ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+keywords: Automated Personalization;ap;prévisualisation;exclure l’expérience
+description: Découvrez comment prévisualiser chaque expérience dans une activité [!UICONTROL Automated Personalization] (AP) à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
+title: Comment prévisualiser des expériences [!UICONTROL Automated Personalization] dans le compositeur d’expérience visuelle ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 15%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
-# Aperçu des expériences dans les activités [!UICONTROL Automated Personalization] dans le [!UICONTROL Visual Experience Composer] (VEC)
+# Aperçu des expériences dans [!UICONTROL Automated Personalization] activités dans le [!UICONTROL Visual Experience Composer] (VEC)
 
-Comme les activités [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) comparent plusieurs offres sur une page, il est utile de prévisualiser la page avec chaque expérience.
+Comme [!DNL Adobe Target] activités [!UICONTROL Automated Personalization] (AP) comparent plusieurs offres sur une page, il est utile de prévisualiser la page avec chaque expérience.
 
 1. Dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur **[!UICONTROL Preview]**.
 
-   ![Icône Aperçu](/help/main/c-activities/t-automated-personalization/assets/preview.png)
+1. Cliquez sur l’icône **[!UICONTROL Show Experiences]** ( ![icône Afficher les expériences](/help/main/assets/icons/WebPages.svg) ) pour afficher la liste de toutes les expériences dans le cadre de gauche.
 
-   Une liste de toutes les expériences s’affiche.
+1. Cliquez sur une expérience spécifique dans la liste pour l’afficher.
 
-   ![Aperçu des expériences](/help/main/c-activities/t-automated-personalization/assets/ap_preview-new.png)
+1. (Conditionnel) Pour exclure une ou plusieurs expériences de l’activité, cliquez sur l’icône **[!UICONTROL Manage Content]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour afficher la boîte de dialogue [!UICONTROL Manage Content].
 
-1. Cliquez sur une expérience spécifique dans la liste pour afficher cette expérience.
-
-1. (Conditionnel) Pour exclure une ou plusieurs expériences de l’activité, cliquez sur l’icône **[!UICONTROL Exclude]** .
-
-   ![Icône Exclure](/help/main/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
-
-   La boîte de dialogue [!UICONTROL Manage Content] s’affiche.
-
-   ![Boîte de dialogue Gestion du contenu](/help/main/c-activities/t-automated-personalization/assets/preview-exclude.png)
+1. (Conditionnel) Dans la boîte de dialogue [!UICONTROL Manage Content], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) en regard de l’expérience à exclure, puis cliquez sur **[!UICONTROL Exclude]**.
 
    Vous pouvez choisir d’exclure une expérience qui affiche des variations en conflit ou une expérience qui n’est pas équilibrée esthétiquement.
 
-   Pour exclure une expérience, passez la souris sur l’expérience et cliquez sur l’icône **[!UICONTROL Exclude]** .
+1. (Conditionnel) Pour exclure plusieurs expériences, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur **[!UICONTROL Exclude]**.
 
-   Pour exclure plusieurs expériences, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Exclude]** en haut à droite de la liste.
-
-   Par défaut, toutes les expériences sont incluses dans l’activité [!UICONTROL Automated Personalization]. Pour inclure une expérience qui a été exclue, passez la souris sur l’expérience et cliquez sur l’icône **[!UICONTROL Include]** .
-
-   Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Include]** en haut à droite de la liste.
-
-1. Cliquez sur **[!UICONTROL Compose]** pour revenir à [!UICONTROL Visual Experience Composer] afin que vous puissiez apporter des modifications supplémentaires ou cliquez sur **[!UICONTROL Next]** pour accéder à l’étape [!UICONTROL Targeting].
+1. (Conditionnel) Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur **[!UICONTROL Include]**.

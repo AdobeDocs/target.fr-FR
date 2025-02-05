@@ -1,32 +1,32 @@
 ---
 keywords: recommandation, sauvegarde, sauvegarde
-description: Découvrez comment utiliser les recommandations de sauvegarde dans Adobe [!DNL Target] Recommendations. Les recommandations qui ne comportent pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
-title: Comment utiliser une recommandation de sauvegarde dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+description: Découvrez comment utiliser les recommandations de sauvegarde dans Adobe [!DNL Target Recommendations].
+title: Comment utiliser une recommandation de sauvegarde dans  [!DNL Target Recommendations] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
 # Utilisation d’une recommandation de sauvegarde
 
-Si vous utilisez la fonction de recommandation de sauvegarde dans [!DNL Adobe Target], toute recommandation ne contenant pas suffisamment d’éléments recommandés n’affichera pas de contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
+Si vous utilisez la fonction de recommandation de sauvegarde dans [!DNL Adobe Target], toute recommandation qui ne comporte pas suffisamment d’éléments recommandés n’affiche pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 
 Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandation ne comporte pas suffisamment d’articles pour remplir l’écran, le système présente le contenu par défaut à l’utilisateur.
 
 >[!NOTE]
 >
->Des informations supplémentaires sont incluses dans la section [Contenu de la rubrique Créer des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content), y compris une matrice qui explique les résultats que vous constaterez lors de l’utilisation conjointe ou séparée des options [!UICONTROL Partial Design Rendering] et [!UICONTROL Show Backup Recommendations].
+>Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris un tableau qui explique les résultats que vous observerez lorsque vous utiliserez les options [!UICONTROL Partial Design Rendering] et [!UICONTROL Show Backup Recommendations] ensemble ou séparément.
 
-La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
+La fonction de recommandation de sauvegarde utilise toujours les éléments les plus consultés sur le site pour remplir les emplacements restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 
 Les recommandations de sauvegarde sont choisies de manière aléatoire à partir des 500 produits les plus consultés sur l’ensemble du site. La période des données pour les recommandations de sauvegarde est d’une semaine.
 
-Les 500 résultats les plus consultés sont classés par ordre séquentiel, puis répartis par lots de 20. Ces lots sont servis dans l’ordre, mais les résultats qu’ils contiennent sont randomisés et renvoyés vers la page. Si les utilisateurs actualisent la page, ils visualisent des résultats nouveaux et randomisés. Si l’ensemble de résultats obtenu par l’union de la collection et des règles de filtrage est inférieur à 20 entrées, la sélection est effectuée au hasard dans la collection.
+Les 500 résultats les plus consultés sont classés par ordre séquentiel, puis répartis par lots de 20. Ces lots sont servis dans l’ordre, mais les résultats qu’ils contiennent sont randomisés et renvoyés vers la page. Si les utilisateurs actualisent la page, ils visualisent des résultats nouveaux et randomisés. Si le jeu de résultats de l’union de la collection et des règles de filtrage est inférieur à 20, il effectue une sélection aléatoire dans la collection.
 
 Ce processus de compartimentation implique que les recommandations de sauvegarde sont indiquées dans l’ordre suivant :
 

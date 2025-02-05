@@ -1,84 +1,67 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité Adobe [!DNL Target] .
-title: Comment sélectionner une audience dans une activité  [!DNL Target] A/B ?
+description: Définissez les visiteurs et visiteuses du site qui rejoignent votre Adobe  [!DNL Target] activité en fonction des critères d’audience.
+title: Comment sélectionner une audience dans une activité a [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 64%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # Sélection de l’audience
 
-L’audience détermine les visiteurs du site qui sont entrés dans votre activité [!DNL Adobe Target].
+L’audience détermine les visiteurs qualifiés qui sont entrés dans votre activité [!DNL Adobe Target].
 
->[!NOTE]
->
->En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+L’étape [!UICONTROL Targeting] du workflow guidé en trois parties lors de la [création d’une activité](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) affiche un diagramme de flux qui vous guide tout au long des étapes suivantes : attribution d’une audience et de son pourcentage de trafic, sélection de la méthode d’affectation du trafic et spécification de l’affectation du trafic pour chaque expérience de l’activité.
 
-1. Dans la zone [!UICONTROL Audience], cliquez sur l’icône **[!UICONTROL Edit]** (points de suspension alignés verticalement), puis sur **[!UICONTROL Replace Audience]**.
+![Étape Ciblage des tests A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![Option de remplacement d’une audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+Pour plus d’informations sur toutes les options du diagramme de flux, voir [Création d’une activité de test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies, y compris certaines audiences courantes préconfigurées dans le cadre de [!DNL Target].
+## Sélectionner une audience pour l’activité
 
-1. Sélectionnez ou créez l’audience souhaitée :
+1. Cliquez sur le contrôle **[!UICONTROL All Visitors]** pour sélectionner une autre audience pour l’activité.
 
-   * Sélection d’une audience dans la bibliothèque
-   * [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [Créer une nouvelle audience](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [Créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   L’audience [!UICONTROL All Visitors] est définie comme audience par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche.
 
    Pour un test A/B sans ciblage d’audience spécifique, choisissez la valeur par défaut, [!UICONTROL All Visitors].
 
-   Vous pouvez également modifier ou copier une audience en survolant l’audience souhaitée dans la boîte de dialogue [!UICONTROL Add Audience], comme illustré ci-dessous.
+   Le cadre de droite s’affiche, ce qui vous permet d’ajouter ou de supprimer une audience et d’attribuer le pourcentage de visiteur ou de visiteuse à l’activité.
 
-   La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
+1. Pour modifier l’audience, cliquez sur l’icône **[!UICONTROL Replace]** ( ![icône Remplacer](/help/main/assets/icons/Retweet.svg) ) dans le cadre de droite.
 
-   ![Survol d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. Dans la boîte de dialogue [!UICONTROL Add Audience], [sélectionnez l’audience souhaitée](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) puis cliquez sur **[!UICONTROL Assign Audience]**.
 
-   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous [!UICONTROL Custom Parameters], sélectionnez la mbox, puis spécifiez les paramètres souhaités.
+   Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées dans la [!UICONTROL Audience Library] ou vous pouvez créer une audience d’activité unique. Le [!UICONTROL Audience Library] contient des audiences qui ont été précédemment définies, y compris certaines audiences courantes qui sont préconfigurées dans le cadre de [!DNL Target].
 
-   >[!NOTE]
-   >
-   >Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste d’audiences et que les audiences ont été importées il y a plus de 10 minutes.
+1. (Conditionnel) Cliquez sur **Combiner les audiences** pour [créer une audience qui combine plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
 
-1. (Conditionnel) Indiquez le pourcentage de visiteurs admissibles à inclure dans l’activité.
+1. (Conditionnel) Pour créer une nouvelle audience qui n’est pas encore dans la [!UICONTROL Audience Library], cliquez sur **Créer une audience**, définissez l’audience, puis cliquez sur **[!UICONTROL Done]**.
 
-   Vous pouvez par exemple décider d’inclure 50 % de tous les visiteurs.
+   Au cours du [workflow de création d’audience](/help/main/c-target/c-audiences/audiences.md), vous pouvez choisir parmi les options suivantes :
 
-   ![Pourcentage d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]** : créez une audience à la demande qui est enregistrée dans le [!UICONTROL Audience Library] et qui peut être réutilisée dans d’autres activités.
+   * **[!UICONTROL This activity only]** : créez une [audience spécifique à l’activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et qui ne peut être utilisée que dans l’activité actuelle.
 
-   Vous pouvez également laisser Target [affecter le trafic automatiquement](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+1. Cliquez sur **[!UICONTROL Visitor Percentage]** dans le volet de droite, puis spécifiez le pourcentage de visiteurs qualifiés à inclure dans l’activité.
 
-## Vidéos de formation
+1. Lorsque vous êtes satisfait(e) de votre audience, cliquez sur **[!UICONTROL Next]** pour passer à la troisième étape du workflow guidé en trois étapes.
 
-Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
+>[!NOTE]
+>
+>Les audiences importées sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste [!UICONTROL Audience] et qu’elles datent de plus de 10 minutes.
 
-### Utilisation des audiences dans Adobe Target (6:21) ![Badge d’aperçu](/help/main/assets/overview.png)
+## Afficher les informations d’une audience
 
-Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target Standard/Premium].
+1. Dans la boîte de dialogue [!UICONTROL Add Audiences], cliquez sur l’icône **[!UICONTROL Information]** ( ![icône Infos](/help/main/assets/icons/InfoOutline.svg) ) à côté d’une audience pour afficher les détails la concernant, y compris sa source et ses attributs.
 
-* Explication du terme « audience »
-* Explication des deux façons d’utiliser les audiences pour l’optimisation
-* Recherche d’audiences dans la liste des audiences
-* Ciblage d’une activité sur une audience
-* Utilisation d’audiences à des fins de création passive de rapports dans une activité
+1. Cliquez sur **[!UICONTROL View Full Details]** pour afficher des détails supplémentaires sur l’audience. Les détails incluent les attributs de l’audience, sa description, son espace de travail, son type et sa source, ainsi qu’une liste des activités qui y font référence. Vous pouvez afficher des informations sur chaque audience, notamment le nom de l’activité, le statut, l’espace de travail, ainsi que la date de la dernière modification de l’audience et la personne qui l’a effectuée.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## Modifier ou copier une audience
 
-### Workflow d’activité - Ciblage (2:14) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+Vous pouvez modifier ou copier une audience en cliquant sur l’icône [!UICONTROL More Actions] ( ![icône Autres actions](/help/main/assets/icons/More.svg) ) à côté de l’audience souhaitée dans la boîte de dialogue [!UICONTROL Add Audience], puis en cliquant sur [!UICONTROL Edit] ou [!UICONTROL Copy].
 
-Cette vidéo comprend des informations sur la configuration des audiences.
-
-* Affecter une audience à votre activité
-* Augmenter ou ralentir le trafic
-* Sélectionner votre méthode d’affectation du trafic
-* Affecter du trafic entre différentes expériences
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-Pour plus d’informations, voir [Audiences](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, apporter vos modifications, puis l’enregistrer en tant que nouvelle audience.
