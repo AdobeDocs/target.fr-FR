@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
@@ -23,45 +23,17 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
 1. Sélectionnez **[!UICONTROL Form]** dans la boîte de dialogue [!UICONTROL Create Activity].
 
-1. (Conditionnel) Si vous êtes un client [Target Premium](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Choisissez un espace de travail et une propriété.
 
-   L’option [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
-
-1. Choisissez une propriété.
-
-1. Cliquez sur **[!UICONTROL Create]**.
+1. Cliquez sur **[!UICONTROL Next]**.
 
    La [!UICONTROL Form-Based Experience Composer] s’ouvre.
 
+   ![image location_raffinements](assets/location_refinements.png)
+
    Cet écran est différent si vous créez une activité [!UICONTROL Recommendations]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
-1. 
-   1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
-
-   Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
-
-   | Caractère | Description |
-   |--- |--- |
-   | `=` | Égal |
-   | `+` | Plus |
-   | `-` | Moins |
-   | `@` | Arobase |
-
-   Le nom de l’activité ne peut pas contenir l’une des séquences de caractères suivantes :
-
-   | Séquence De Caractères | Description |
-   |--- |--- |
-   | ;= | Point-virgule, égal à |
-   | ;+ | Point-virgule plus |
-   | ;- | Point-virgule, moins |
-   | ;@ | Point-virgule, signe At |
-   | ,= | Virgule, est égal à |
-   | ,+ | Virgule, Plus |
-   | ,- | Virgule, Moins |
-   | ,@ | Virgule, Au signe |
-   | `[` » | Crochet ouvert, guillemets doubles |
-   |  »`]` | Guillemets doubles, crochet fermant |
-
+1. Nommez l’activité en cliquant sur « [!UICONTROL Untitled Activity] ».
 1. Sélectionnez un emplacement.
 
    Lorsque vous cliquez dans la zone de [!UICONTROL Select Location], une liste des emplacements disponibles s&#39;affiche. Sélectionnez l’un de ces emplacements.
@@ -74,9 +46,13 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
 1. Cliquez sur **[!UICONTROL Add Audience Refinements]**, choisissez une ou plusieurs [audiences](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour cette activité, puis cliquez sur **[!UICONTROL Done]**.
 
+   ![image location_raffements_2](assets/location_refinements_2.png)
+
    Dans la [!UICONTROL Form-based Experience Composer], les améliorations ont été remplacées par des fonctionnalités d’audience complètes. Les perfectionnements apportés aux activités existantes ont été migrés vers des [audiences d’activité uniquement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Sélectionnez le type de contenu que vous souhaitez voir à cet emplacement.
+
+   ![image form_content](assets/form_content.png)
 
 1. Pour le type de contenu que vous avez sélectionné, indiquez le contenu.
 
@@ -120,7 +96,11 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
 
-   Sur la page [!UICONTROL Targeting] du workflow guidé en trois étapes [!DNL Target] :
+   ![image change_criteria](assets/change_criteria.png)
+
+   Dans la page Ciblage du processus assisté en trois étapes Target :
+
+   ![image change_criteria_2](assets/change_criteria_2.png)
 
    **Ajouter une décision d’offre :**
 
