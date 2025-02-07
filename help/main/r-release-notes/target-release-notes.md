@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 15%
 
 ---
@@ -40,13 +40,13 @@ Alors que les efforts de modernisation de l’interface utilisateur de [!DNL Ado
 
 En fonction du dernier système de conception [!DNL Adobe Spectrum], la mise à jour normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :
 
-* Redéfinition des rapports pour de meilleures informations sur les résultats des activités
+* [Redéfinition des rapports](/help/main/administrating-target/reporting.md) pour une meilleure compréhension des résultats des activités
 * Mise à jour de [!UICONTROL Audit] page, obtenant désormais les informations du [!DNL Audit API] pour des informations en temps réel
-* Vues Liste personnalisables vers pour une meilleure flexibilité en fonction des besoins des différentes équipes
-* Écrans d’informations rapides et de détails améliorés pour un accès plus facile aux informations
-* Options de recherche et de filtrage persistantes dans la session
-* Entièrement reconstruit [!UICONTROL Visual Editing Composer] avec la prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne
-* Mise à jour de l’extension [!DNL Chrome] prenant en charge Manifest V3 pour une sécurité accrue et une meilleure prise en charge des cookies propriétaires
+* [Vues Liste personnalisables](/help/main/c-activities/activities.md) pour une meilleure flexibilité en fonction des besoins de chaque équipe
+* [Amélioration des écrans d’informations rapides et détaillées](/help/main/c-activities/activities.md) pour un accès plus facile aux informations
+* [Options de recherche et de filtrage persistantes dans la session](/help/main/c-activities/activities.md)
+* [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) entièrement [reconstruit avec prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne
+* [Mise à jour [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) prise en charge de Manifest V3 pour une sécurité accrue et une meilleure prise en charge des cookies propriétaires
 
 ![Actualisation des activités](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -60,11 +60,11 @@ Alors que les efforts de modernisation de l’interface utilisateur de [!DNL Ado
 
 En fonction du dernier système de conception [!DNL Adobe Spectrum], la mise à jour normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :
 
-* La recherche catalogue de produits comprend désormais une base de données mise à jour permettant une synchronisation en temps réel des produits
-* [!UICONTROL Recommendation] objets ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] et [!UICONTROL Exclusions]) créés via l’API sont désormais disponibles dans l’interface utilisateur
-* Les paramètres ont été consolidés dans la section [!UICONTROL Administration]
+* La [ recherche catalogue de produits ](/help/main/c-recommendations/c-products/catalog-search.md) comprend désormais une base de données mise à jour permettant une synchronisation en temps réel des produits
+* [!UICONTROL Recommendations] objets ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] et [!UICONTROL Exclusions]) [créés via l’API sont désormais disponibles dans l’interface utilisateur](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* Les paramètres de [Recommendations](/help/main/administrating-target/recommendations-settings.md) ont été consolidés dans la section [!UICONTROL Administration]
 * Vues Liste personnalisables pour une meilleure flexibilité en fonction des besoins des différentes équipes
-* Actualisation des éditeurs de code JSON et d’HTML avec mise en surbrillance de la syntaxe et numérotation des lignes
+* Actualisation de l’HTML et des éditeurs de code JSON avec [mise en surbrillance de la syntaxe et numérotation des lignes](/help/main/c-experiences/c-manage-content/create-json-offer.md)
 * Écrans d’informations rapides et de détails améliorés pour un accès plus facile aux informations
 * Options de recherche et de filtrage persistantes dans la session
 

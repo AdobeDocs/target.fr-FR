@@ -1,13 +1,13 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Affichez la liste des questions fréquentes et des réponses sur les activités  [!DNL Target Recommendations] .
-title: Où puis-je trouver des questions et des réponses sur [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+description: Consultez une liste de questions fréquentes sur les activités  [!DNL Target Recommendations] .
+title: Où puis-je trouver des questions/réponses sur  [!DNL Recommendations] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '3485'
+source-wordcount: '3506'
 ht-degree: 84%
 
 ---
@@ -16,11 +16,15 @@ ht-degree: 84%
 
 Liste des questions fréquentes (FAQ) relatives aux activités d’[!DNL Adobe Target] [!DNL Recommendations].
 
-## Puis-je gérer les offres visuelles [!DNL Target] créées par l’interface utilisateur à l’aide des API [!DNL Target] ?
+## Les objets [!DNL Recommendations] créés via l’API s’affichent-ils dans l’interface utilisateur [!DNL Target] ?
 
-Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL Activities], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
+Oui, les objets [!UICONTROL Recommendations] ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] et [!UICONTROL Exclusions]) créés via l’API sont désormais disponibles dans l’interface utilisateur.
 
-## Pourquoi [!UICONTROL Catalog Search] n’affiche-t-il pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
+## Puis-je gérer des offres visuelles créées par l’interface utilisateur de [!DNL Target] à l’aide des API [!DNL Target] ?
+
+Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL Activities], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
+
+## Pourquoi n’affiche-t-[!UICONTROL Catalog Search] pas les bons résultats lorsque j’effectue une recherche sur un attribut personnalisé avec une valeur numérique ?
 
 Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme une valeur de type chaîne plutôt que comme une valeur numérique.
 
@@ -58,21 +62,21 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 >
 >Un fichier de flux est considéré comme importé lorsque son état passe de « Importation des éléments » à « Préparation des mises à jour de l’index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l’interface utilisateur de la recherche catalogue. La recherche catalogue est à jour lorsque l’état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n’est pas encore à jour, votre site répercute les mises à jour selon les périodes répertoriées ci-dessus. La durée de mise à jour de l’index de recherche catalogue la plus récente s’affiche sur la page Recherche catalogue.
 
-## Combien de temps faut-il pour qu’une modification de la configuration de mon activité [!UICONTROL Recommendations], de mes offres, de mes promotions ou de mes paramètres de critères soit répercutée sur mon site ?
+## Combien de temps faut-il pour qu’une modification apportée à la configuration de mes paramètres d’activité, d’offre, de promotions ou de critères [!UICONTROL Recommendations] soit prise en compte sur mon site ?
 
 * La prise en compte d’une modification des paramètres de promotion sur le site peut prendre jusqu’à cinq heures.
 * Dans le cas des autres paramètres de critères, il se peut que la modification ne soit pas prise en compte avant la prochaine exécution de l’algorithme :
 
-   * Certains paramètres de critère (par exemple, &quot;ajout d’une règle d’inclusion dynamique&quot;) sont immédiatement répercutés.
-   * D’autres paramètres de critère (par exemple, &quot;suppression d’une règle d’inclusion dynamique&quot;, changement d’intervalle de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
+   * Certains paramètres de critère (par exemple, « ajout d’une règle d’inclusion dynamique ») sont immédiatement pris en compte.
+   * D’autres paramètres (par exemple, « suppression d’une règle d’inclusion dynamique », changement de l’intervalle de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
    * L’exécution des algorithmes est déclenchée par ces modifications, mais cette opération peut prendre jusqu’à 24 heures. Les algorithmes s’exécutent également selon un planning défini toutes les 12-24 heures.
 
-## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, en cliquant sur le produit A et en achetant le produit B) soit reflété dans les recommandations *reçues par cet utilisateur* ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que* l’utilisateur reçoit ?
 
 * Le produit/contenu actuellement consulté/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu pageview/[!DNL Target].
-* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette requête et influence les recommandations que l’utilisateur reçoit sur la prochaine requête de contenu pageview/[!DNL Target]. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Recommandé pour vous&quot; sont mis à jour avec chaque consultation/achat de produit et sont répercutés sur la demande de contenu suivante.
+* Le comportement historique de l’utilisateur, tel que « dernier produit consulté » ou « produit le plus consulté », et l’historique d’affichage/d’achat global sont mis à jour avec cette demande et influencent les recommandations que l’utilisateur recevra lors de la prochaine demande de contenu pageview/[!DNL Target]. Par exemple, les algorithmes « Éléments récemment consultés » et « Recommandé pour vous » sont mis à jour avec chaque consultation/achat du produit et sont répercutés sur la demande de contenu suivante.
 
-## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, en cliquant sur le produit A et en achetant le produit B) soit reflété dans les recommandations que les autres *utilisateurs* reçoivent ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *autres* reçues par les utilisateurs ?
 
 Le comportement global des utilisateurs est incorporé dans le traitement des algorithmes hors ligne avec chaque exécution d’algorithme effectuée toutes les 12-24 heures.
 
@@ -99,25 +103,25 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] possède un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] dispose d’un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
 >Ce paramètre s’applique uniquement aux activités créées dans le [!UICONTROL Visual Experience Composer] (VEC). Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience basé sur des formulaires ([!DNL Target] ne dispose pas de contexte d’emplacement).
 
-Pour accéder au paramètre [!UICONTROL Filter Incompatible Criteria] , cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Settings] :
+Pour accéder au paramètre [!UICONTROL Filter Incompatible Criteria], cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Settings] :
 
-![recs_settings_filter image](assets/recs_settings_filter.png)
+![image recs_settings_filter](assets/recs_settings_filter.png)
 
 Si le paramètre [!UICONTROL Filter Incompatible Criteria] n’est PAS activé, [!DNL Target] ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.
 
-Si le paramètre [!UICONTROL Filter Incompatible Criteria] est activé, dans les activités du VEC, [!DNL Target] lit entityId et categoryId à partir de l’emplacement sélectionné, puis affiche des algorithmes basés sur `currentItem|currentCategory` (si des valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
+Si le paramètre [!UICONTROL Filter Incompatible Criteria] est activé, dans les activités du compositeur d’expérience visuelle, [!DNL Target] lit les paramètres entityId et categoryId à partir de l’emplacement sélectionné, puis affiche des algorithmes basés sur `currentItem|currentCategory` (si les valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
 
-Si le paramètre [!UICONTROL Filter Incompatible Criteria] est activé, vous pouvez toujours afficher les algorithmes non compatibles en désélectionnant la case [!UICONTROL Compatible] lors de la sélection des critères.
+Si le paramètre [!UICONTROL Filter Incompatible Criteria] est activé, vous pouvez toujours afficher les algorithmes non compatibles en désélectionnant la case à cocher [!UICONTROL Compatible] lors de la sélection de critères.
 
-![}image compatible_checkbox](assets/compatible_checkbox.png)
+![image compatible_checkbox](assets/compatible_checkbox.png)
 
-La liste suivante contient des cas spéciaux dans lesquels [!DNL Target] n&#39;affiche pas la case à cocher [!UICONTROL Compatible] :
+La liste suivante présente les cas spéciaux dans lesquels [!DNL Target] n’affiche pas la case à cocher [!UICONTROL Compatible] :
 
 * Les paramètres entityId et categoryId sont présents à l’emplacement, puis rien n’est filtré.
 * Vous utilisez [!DNL mbox.js] version 55 ou antérieure.
@@ -133,10 +137,10 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 
   ![image product_catalog](assets/product_catalog.png)
 
-* Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez l’âge en heures de l’index (par exemple, &quot;Indexé il y a 3 heures&quot;). Vous pouvez actualiser l’index si nécessaire.
+* Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez le nombre d’heures de l’index depuis sa création (par exemple, « Indexé il y a 3 heures »). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il modifié le répertoire FTP, le mot de passe, etc. ?
-* [!DNL Target] fait de son mieux pour mettre à jour la diffusion (sur la page/l’application du client) aussi rapidement que possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
+* [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l&#39;application du client) soient effectuées le plus rapidement possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
 ## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -144,13 +148,13 @@ La pondération des attributs existe sous deux formes : « pondération standa
 
 La « pondération standard des attributs » s’applique à la plupart, ou même à tous les types de critères (et pas seulement à la similarité de contenu). Ce type de pondération donne plus de poids à certaines valeurs d’attribut. Dans l’exemple suivant, les produits Nike sont favorisés dans les recommandations de sortie.
 
-![attribute_pondérting_example image](assets/attribute_weighting_example.png)
+![image attribute_weight_example](assets/attribute_weighting_example.png)
 
-La &quot;pondération des attributs de similarité de contenu&quot; s’applique uniquement aux critères de similarité de contenu.
+La « pondération des attributs de similarité de contenu » s’applique uniquement aux critères de similarité de contenu.
 
-Ce type de pondération est plus dynamique et repose sur la &quot;clé de recommandation&quot; actuelle (l’élément actuellement consulté). Dans l’exemple suivant (marque x 16), si un visiteur regardait des baskets Nike, il est plus probable qu’il soit recommandé d’autres produits Nike (pas nécessairement uniquement des baskets) plutôt que des baskets de concurrents. Si un visiteur regarde des baskets Adidas, celui-ci est plus susceptible de se voir recommander des produits Adidas.
+Ce type de pondération est plus dynamique et repose sur la « clé de recommandation » actuelle (l’élément actuellement consulté). Dans l&#39;exemple suivant (marque x 16), si un visiteur visualisait des baskets Nike, il est plus probable qu&#39;il se voie recommander d&#39;autres produits Nike (pas nécessairement uniquement des baskets) plutôt que les baskets de ses concurrents. Si un visiteur regarde des baskets Adidas, celui-ci est plus susceptible de se voir recommander des produits Adidas.
 
-![content_similarity_example image](assets/content_similarity_example.png)
+![image content_similarity_example](assets/content_similarity_example.png)
 
 ## Pourquoi [!DNL Target] n’affiche-t-il pas de recommandations dans certains cas ? {#section_DB3F40673AED42228E407C05437D99E9}
 
@@ -248,14 +252,14 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 
 ## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
 
-[!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] par rapport  [!DNL Recommendations]  activités dans [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
 
 Certains clients du secteur des médias et de la publication souhaitent s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles datant de moins de 60 jours :
 
 1. Transmettez la date de publication de l’article, au format AAAAMMJJ, en tant qu’attribut d’entité personnalisé.
-1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
+1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format AAAAMMJJ.
 1. Utilisez un filtre d’inclusion dynamique dans les critères afin que `publish date > today's date minus 60 days`.
 
 ### Transmettez la date de publication en tant qu’attribut d’entité personnalisé :
@@ -280,7 +284,7 @@ Certains clients du secteur des médias et de la publication souhaitent s’assu
 >
 >Cet exemple peut également être réalisé à l’aide de la correspondance des paramètres et de la transmission de la valeur `priorDate60` en tant que paramètre mbox.
 
-### Quels sont les problèmes connus lors de l&#39;utilisation des activités [!DNL Recommendations] ?
+### Quels sont les problèmes connus lors de l’utilisation d’activités [!DNL Recommendations] ?
 
 Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Recommendations] :
 
