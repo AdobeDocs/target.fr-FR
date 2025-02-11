@@ -4,9 +4,9 @@ description: Découvrez les modifications introduites dans le Compositeur d’ex
 title: Quelles modifications ont été introduites dans le nouveau Compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 75f44b7ea4c3aff0e33cc2ee54bc39a705deaf2a
+source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 1%
 
 La version [!DNL Adobe Target Standard/Premium] 25.2.1 (11 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions précédente et mise à jour du compositeur d’expérience visuelle.
 
+>[!IMPORTANT]
+>
+>La [!UICONTROL Visual Editing Composer] mise à jour nécessite l’extension [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible sur Chrome Web Store.
+
 Le compositeur d’expérience visuelle s’affiche lorsque vous créez ou modifiez une activité existante.
 
 ![Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
 
-## Modifications majeures
+## Modifications majeures apportées au compositeur d’expérience visuelle
 
 Les sections suivantes expliquent les modifications majeures apportées au VEC mis à jour par rapport à la version précédente.
 
@@ -99,4 +103,6 @@ Le compositeur d’expérience visuelle mis à jour vous permet également d’e
 
 L’illustration suivante présente les modifications de haut niveau de l’interface utilisateur apportées au VEC mis à jour. La partie supérieure de l’illustration présente l’interface utilisateur du compositeur d’expérience visuelle mise à jour et la partie inférieure l’interface utilisateur précédente. Les flèches indiquent l’endroit où divers éléments ont été déplacés.
 
-![Comparaison du compositeur d’expérience visuelle - nouveau par rapport à l’interface utilisateur précédente](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png)
+(Cliquez sur l’image pour la développer sur toute la largeur du navigateur.)
+
+![Comparaison du compositeur d’expérience visuelle - nouveau par rapport à l’interface utilisateur précédente](/help/main/c-experiences/c-visual-experience-composer/assets/vec-comparison.png){width="600" zoomable="yes"}
