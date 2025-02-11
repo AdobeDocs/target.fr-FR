@@ -4,16 +4,21 @@ description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UIC
 title: Comment utiliser les options du [!UICONTROL Visual Experience Composer] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 16%
+source-wordcount: '1007'
+ht-degree: 14%
 
 ---
 
 # Options du compositeur d’expérience visuelle
 
-Lorsque vous cliquez sur un élément de page dans le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
+Lorsque vous cliquez sur un élément de page dans le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page pour vous permettre de parcourir facilement la structure de la page
+
+>[!NOTE]
+>
+>La version [!DNL Target Standard/Premium] 25.2.1 (11 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+
 
 Les différentes actions [!UICONTROL Visual Experience Composer] (VEC) sont regroupées dans des options de menu appropriées pour rendre votre tâche plus rapide et plus efficace :
 

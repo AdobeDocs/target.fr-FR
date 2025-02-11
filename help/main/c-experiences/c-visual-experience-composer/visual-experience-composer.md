@@ -4,16 +4,20 @@ description: Découvrez les principes de base de l’utilisation du compositeur 
 title: Comment utiliser le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 59%
+source-wordcount: '1130'
+ht-degree: 57%
 
 ---
 
 # Compositeur d’expérience visuelle (VEC)
 
 Informations sur l’utilisation du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Target].
+
+>[!NOTE]
+>
+>La version [!DNL Target Standard/Premium] 25.2.1 (11 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 Le compositeur d’expérience visuelle est une interface utilisateur de WYSIWYG qui vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour des activités [!DNL Target] en faisant glisser, en permutant et en modifiant la disposition et le contenu d’une page web (ou d’une offre) ou d’une page web mobile.
 
