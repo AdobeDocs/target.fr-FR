@@ -1,10 +1,10 @@
 ---
-keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer la sélection;naviguer vers ce lien;naviguer;lien;annuler;annuler;rétablir;événements personnalisés;composants web;décision d’offre;offer decisioning
+keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer l’élément;élargir la sélection;naviguer sur le lien;naviguer;lien;annuler;lien;annuler;rétablir;annuler;annuler;annuler;annuler;annuler les événements personnalisés;événements personnalisés;événements personnalisés;composants web
 description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Comment utiliser les options du [!UICONTROL Visual Experience Composer] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ Lorsque vous cliquez sur un élément de page dans le [!UICONTROL Visual Experie
 
 >[!NOTE]
 >
->La version [!DNL Target Standard/Premium] 25.2.1 (11 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
+>La version [!DNL Target Standard/Premium] 25.2.1 (12 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
 
 Les différentes actions [!UICONTROL Visual Experience Composer] (VEC) sont regroupées dans des options de menu appropriées pour rendre votre tâche plus rapide et plus efficace :
@@ -38,7 +38,7 @@ Sélectionnez des composants dans le cadre Composants sur le côté gauche pour 
 
 * De base (séparateur, HTML, image).
 * Texte (titre, paragraphe, lien).
-* Dynamique ([recommandation](/help/main/c-recommendations/recommendations-as-an-offer.md), [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offre d’HTML).
+* Dynamique ([recommandation](/help/main/c-recommendations/recommendations-as-an-offer.md), [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offre HTML).
 
 Le menu en haut de l’image vous permet d’effectuer les opérations suivantes :
 
@@ -51,7 +51,7 @@ Le cadre sur le côté droit permet de configurer plus en détail les propriét�
 
 Les icônes situées en haut du cadre permettent d’effectuer les opérations suivantes :
 
-* Modifiez l’HTML ( ![Icône Insérer un HTML ](/help/main/assets/icons/Code.svg) ). Consultez [Modifier l’HTML ](#html) ci-dessous pour plus d’informations.
+* Modifiez l’HTML ( ![Icône Insérer une HTML](/help/main/assets/icons/Code.svg) ). Consultez [Modifier HTML](#html) ci-dessous pour plus d’informations.
 * Dupliquez l’image ( ![icône Dupliquer](/help/main/assets/icons/Code.svg) ).
 * Supprimez l’image ( ![icône de suppression](/help/main/assets/icons/Delete.svg) ).
 * Masquez l’image ( ![Icône Masquer](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -77,7 +77,7 @@ Sélectionnez des composants dans le cadre [!UICONTROL Components] sur le côté
 
 * De base (séparateur, HTML, image).
 * Texte (titre, paragraphe, lien).
-* Dynamique ([recommandation](/help/main/c-recommendations/recommendations-as-an-offer.md), [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offre d’HTML).
+* Dynamique ([recommandation](/help/main/c-recommendations/recommendations-as-an-offer.md), [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), offre HTML).
 
 Cliquez sur l’icône [!UICONTROL Show Modifications] ( ![icône Afficher les modifications](/help/main/assets/icons/History.svg) ) pour afficher les modifications apportées à l’expérience.
 
@@ -88,8 +88,8 @@ Le menu situé en haut de l’élément de texte vous permet d’effectuer les o
 * Configurez les attributs du texte (gras, italique, souligné ou barré) ( ![icône Choisir les attributs de texte](/help/main/assets/icons/Text.svg) ).
 * Configurer l’alignement du texte (gauche, centre, droite, justifier) (![icône Alignement du texte](/help/main/assets/icons/TextAlignCenter.svg) ).
 * Insérez un lien ( ![Icône Insérer un lien](/help/main/assets/icons/Link.svg) ).
-* Remplacez le contenu par une offre d’HTML, [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) ou [recommandation]/help/main/c-recommendations/recommendations-as-an-offer.md).
-* Modifiez l’HTML ( ![Icône Insérer un HTML ](/help/main/assets/icons/Code.svg) ).
+* Remplacez le contenu par une offre HTML, [fragment d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) ou [recommandation]/help/main/c-recommendations/recommendations-as-an-offer.md).
+* Modifiez l’HTML ( ![Icône Insérer une HTML](/help/main/assets/icons/Code.svg) ).
 * Ajoutez une personnalisation ( ![icône Ajouter un Personalization](/help/main/assets/icons/PersonalizationField.svg) ).
 * Supprimez l’image ( ![icône de suppression](/help/main/assets/icons/Delete.svg) ).
 
@@ -97,7 +97,7 @@ Le cadre sur le côté droit permet de configurer plus en détail les propriét�
 
 Les icônes situées en haut du cadre permettent d’effectuer les opérations suivantes :
 
-* Modifiez l’HTML ( ![Icône Insérer un HTML ](/help/main/assets/icons/Code.svg) ). Consultez [Modifier l’HTML ](#html) ci-dessous pour plus d’informations.
+* Modifiez l’HTML ( ![Icône Insérer une HTML](/help/main/assets/icons/Code.svg) ). Consultez [Modifier HTML](#html) ci-dessous pour plus d’informations.
 * Dupliquez le texte ( ![icône Dupliquer](/help/main/assets/icons/Code.svg) ).
 * Supprimez le texte ( ![icône de suppression](/help/main/assets/icons/Delete.svg) ).
 * Masquez le texte ( ![Icône Masquer](/help/main/assets/icons/VisibilityOff.svg) ).
@@ -115,11 +115,11 @@ Les options du cadre de droite permettent d’effectuer les opérations suivante
 * Configurez les effets de l’élément (opacité). Cliquez sur [!UICONTROL Show Advanced Options] pour configurer les valeurs de sépia, niveaux de gris, contraste, luminosité et flou de l’image. Vous pouvez également inverser ou faire pivoter le texte.
 * Configurez les styles intégrés.
 
-## Modifier l’HTML {#html}
+## Modifier HTML {#html}
 
 En plus du code HTML, vous pouvez modifier et insérer du code JavaScript personnalisé.
 
-Plusieurs options de mise en forme de texte enrichi sont disponibles lors de la modification de texte et de l’HTML pour les activités de [!UICONTROL A/B] et de [!UICONTROL Experience Targeting]. Vous pouvez choisir une police, sélectionner un style de police, modifier l’alignement du texte et accéder à d’autres options de mise en forme de texte standard. Lors de la modification de l’HTML, vous pouvez basculer entre l’affichage du code et l’affichage de modification riche de l’HTML.
+Plusieurs options de formatage de texte enrichi sont disponibles lors de la modification de texte et dans HTML pour les activités de [!UICONTROL A/B] et de [!UICONTROL Experience Targeting]. Vous pouvez choisir une police, sélectionner un style de police, modifier l’alignement du texte et accéder à d’autres options de mise en forme de texte standard. Lors de la modification d’HTML, vous pouvez basculer entre l’affichage du code et l’affichage de modification riche d’HTML.
 
 Les balises HTML 5 suivantes peuvent être imbriquées :
 
