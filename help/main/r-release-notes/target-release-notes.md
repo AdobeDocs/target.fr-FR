@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1156'
 ht-degree: 15%
 
 ---
@@ -40,16 +40,16 @@ Alors que les efforts de modernisation de l’interface utilisateur de [!DNL Ado
 
 En fonction du dernier système de conception [!DNL Adobe Spectrum], la mise à jour normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :
 
-* [Redéfinition des rapports](/help/main/administrating-target/reporting.md) pour une meilleure compréhension des résultats des activités
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, obtenant maintenant les informations du [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour des informations en temps réel
-* [Vues Liste personnalisables](/help/main/c-activities/activities.md) pour une meilleure flexibilité en fonction des besoins de chaque équipe
-* [Amélioration des écrans d’informations rapides et détaillées](/help/main/c-activities/activities.md) pour un accès plus facile aux informations
-* [Options de recherche et de filtrage persistantes dans la session](/help/main/c-activities/activities.md)
-* [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) entièrement [reconstruit avec prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne
+* [Redéfinition des rapports](/help/main/administrating-target/reporting.md) pour une meilleure compréhension des résultats des activités.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) page, obtenant maintenant les informations du [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour des informations en temps réel.
+* [Vues Liste personnalisables](/help/main/c-activities/activities.md) pour une meilleure flexibilité en fonction des besoins des différentes équipes.
+* [Amélioration des écrans d’informations rapides et détaillées](/help/main/c-activities/activities.md) pour un accès plus facile aux informations.
+* [Options de recherche et de filtrage persistantes dans la session](/help/main/c-activities/activities.md).
+* [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) entièrement [reconstruit) avec prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne. Pour plus d’informations, consultez les options du [compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-  Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, voir [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+  Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md).
 
-* [Mise à jour [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) prise en charge de Manifest V3 pour une sécurité accrue et une meilleure prise en charge des cookies propriétaires
+* [Mise à jour [!DNL Chrome] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) prise en charge de Manifest V3 pour une sécurité accrue et une meilleure prise en charge des cookies propriétaires.
 
 ![Actualisation des activités](/help/main/r-release-notes/assets/activities-refresh.png)
 
@@ -63,13 +63,13 @@ Alors que les efforts de modernisation de l’interface utilisateur de [!DNL Ado
 
 En fonction du dernier système de conception [!DNL Adobe Spectrum], la mise à jour normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :
 
-* La [ recherche catalogue de produits ](/help/main/c-recommendations/c-products/catalog-search.md) comprend désormais une base de données mise à jour permettant une synchronisation en temps réel des produits
-* [!UICONTROL Recommendations] objets ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] et [!UICONTROL Exclusions]) [créés via l’API sont désormais disponibles dans l’interface utilisateur](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
-* Les [ Paramètres Recommendations ](/help/main/administrating-target/recommendations-settings.md) ont été consolidés dans la section [!UICONTROL Administration]
-* Vues Liste personnalisables pour une meilleure flexibilité en fonction des besoins des différentes équipes
-* Actualisation des éditeurs de code HTML et JSON avec [mise en surbrillance de la syntaxe et numérotation des lignes](/help/main/c-experiences/c-manage-content/create-json-offer.md)
-* Écrans d’informations rapides et de détails améliorés pour un accès plus facile aux informations
-* Options de recherche et de filtrage persistantes dans la session
+* La [recherche catalogue de produits](/help/main/c-recommendations/c-products/catalog-search.md) comprend désormais une base de données mise à jour permettant une synchronisation en temps réel des produits.
+* [!UICONTROL Recommendations] objets ([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] et [!UICONTROL Exclusions]) [créés via l’API sont désormais disponibles dans l’interface utilisateur](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* Les [paramètres Recommendations](/help/main/administrating-target/recommendations-settings.md) ont été consolidés dans la section [!UICONTROL Administration].
+* Vues Liste personnalisables pour une meilleure flexibilité en fonction des besoins des différentes équipes.
+* Actualisation des éditeurs de code HTML et JSON avec [mise en surbrillance de la syntaxe et numérotation des lignes](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+* Amélioration des fenêtres d’informations rapides et détaillées pour un accès plus facile aux informations.
+* Options de recherche et de filtrage persistantes dans la session.
 
 ![Actualisation de l’interface utilisateur de Recommendations](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 

@@ -4,16 +4,16 @@ description: Découvrez les modifications introduites dans le Compositeur d’ex
 title: Quelles modifications ont été introduites dans le nouveau Compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] changes
 
-La version [!DNL Adobe Target Standard/Premium] 25.2.1 (11 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions précédente et mise à jour du compositeur d’expérience visuelle.
+La version [!DNL Adobe Target Standard/Premium] 25.2.1 (12 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions précédente et mise à jour du compositeur d’expérience visuelle.
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ Vous pouvez créer, renommer ou supprimer des expériences à l’aide du pannea
 
 ### Panneau [!UICONTROL Components] (nouveau)
 
-Vous pouvez ajouter plusieurs composants à votre page web et les modifier si nécessaire à l’aide du nouveau panneau [!UICONTROL Components].
+Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon vos besoins à l’aide du nouveau panneau [!UICONTROL Components].
 
 ![ Panneau Composants ](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-Pour ajouter un nouveau composant, faites glisser le composant à insérer sur un élément de page existant dans la zone de travail d’édition. Choisissez ensuite d’insérer le composant avant ou après l’élément sélectionné.
+Pour ajouter un nouveau composant, faites-le glisser depuis le panneau Composants à insérer sur un élément de page existant dans la zone de travail de conception. Choisissez ensuite d’insérer le composant avant ou après l’élément sélectionné.
 
 Par rapport à la version précédente du compositeur d’expérience visuelle, vous ne pouvez pas remplacer un élément sélectionné par un composant.
 
