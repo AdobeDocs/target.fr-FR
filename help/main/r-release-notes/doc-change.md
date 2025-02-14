@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 32%
@@ -17,7 +17,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 ## Mises à jour
 
-### [!DNL Target Standard/Premium] 25.2.1 (12 février 2025)
+### [!DNL Target Standard/Premium] 25.2.1 (17 février 2025)
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
