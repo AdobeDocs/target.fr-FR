@@ -1,12 +1,12 @@
 ---
 keywords: Ciblage d’expérience, Test de page de destination
-description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle (VEC) de l’Adobe  [!DNL Target] .
+description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser les sélecteurs d’éléments dans le compositeur  [!DNL Target] ’expérience visuelle (VEC) d’Adobe.
 title: Puis-je utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -17,7 +17,7 @@ Un sélecteur d’éléments est une expression CSS qui peut identifier un ou p
 
 Vous pouvez trouver des informations de base à propos des sélecteurs CSS dans le document [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) du MDN (Mozilla Developer Network, réseau de développeurs Mozilla).
 
-Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Visual Experience Composer]**, puis sélectionnez vos sélecteurs CSS préférés.
+Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Visual Experience Composer]**, puis choisissez vos sélecteurs CSS préférés.
 
 ![image css_selectors](assets/css_selectors.png)
 
@@ -27,7 +27,7 @@ Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élém
 
 Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Comment l’Adobe [!DNL Target] génère un sélecteur pour un élément {#section_D89D954BCBFB486CA081BE183776A475}
+## Génération d’un sélecteur pour un élément par Adobe [!DNL Target] {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci-dessous une brève explication de la logique de génération :
 
@@ -91,8 +91,6 @@ Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci
    ```
 
    Sélecteur : `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`.
-
-   Vous pouvez en savoir plus sur [nth-of-type sur la page web des astuces CSS](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
 Dans le processus ci-dessus :
 
