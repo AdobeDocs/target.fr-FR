@@ -4,7 +4,7 @@ description: Découvrez des ressources supplémentaires pour en apprendre plus s
 title: Où puis-je trouver des informations sur les ressources et les contacts pour Target ?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
+source-git-commit: 562eeb4a3c9b27aeb9f606ac5ba8b6802bce0564
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 93%
@@ -25,7 +25,7 @@ La communauté vous permet :
 * de rentrer en contact avec vos pairs et avec des experts Adobe ;
 * de voter ou de proposer une idée pour une prochaine version de Target.
 
-Visitez le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr) pour rejoindre celle-ci.
+Visitez le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) pour rejoindre celle-ci.
 
 ## Série de webinaires sur les bases de Target {#concept_11902FAC95C64479AABE020557A7EEE4}
 
@@ -64,7 +64,7 @@ Le service à la clientèle a pour mission de vous aider à résoudre les probl�
 
 Pour tout problème ou toute question concernant l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
-Pour toute question, vous pouvez contacter les experts Adobe Target de la [communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+Pour toute question, vous pouvez contacter les experts Adobe Target de la [Communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Vous trouverez les numéros gratuits en dehors des États-Unis sur la page [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/fr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
 
@@ -75,7 +75,7 @@ Pour que votre problème soit redirigé le plus rapidement possible, préparez l
 | Informations | Détails |
 | --- | --- |
 | Résumé | Bref résumé du problème |
-| Informations du compte | Nom de la société <br>Numéro d’administrateur<br>Nom de la campagne<br>Type de campagne<br>Identifiant de suite de rapports/de suite de rapports (s’il s’agit d’une intégration Target/SiteCatalyst) |
+| Informations du compte | Nom de la société<br>Numéro d’administrateur<br>Nom de la campagne<br><br> Type de suite de rapports/d’identifiant de suite de rapports de la campagne (s’il s’agit d’une intégration de Target à SiteCatalyst) |
 | Étapes à reproduire | Donnez autant de détails que possible, y compris les URL nécessaires pour reproduire le problème ainsi que le résultat attendu.<br>Incluez suffisamment de détails pour qu’une personne ne connaissant pas bien Target puisse suivre les instructions et reproduire le problème. |
 | Priorité | P1 (le plus important) à P4 (le moins important). |
 | Impact sur l’entreprise | Quel est l’impact sur votre entreprise ? Par exemple, le problème est-il à l’origine d’une baisse du chiffre d’affaires ou rend-il le produit inutilisable ? Existe-t-il un palliatif viable ? |
