@@ -1,10 +1,10 @@
 ---
 keywords: qa;aperçu;signet d’applet;liens d’aperçu
-description: Découvrez comment utiliser le signet d’applet d’Adobe  [!DNL Target] AQ pour forcer [!DNL Target]  à vous libérer du mode AQ.
-title: Comment utiliser le signet d’applet AQ d’activité ?
+description: Découvrez comment utiliser le signet Adobe [!DNL Target] QA pour forcer  [!DNL Target]  à quitter le mode assurance qualité.
+title: Comment utiliser le signet d’applet de l’AQ d’activité ?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 13%
@@ -13,17 +13,17 @@ ht-degree: 13%
 
 # Signet d’applet de l’AQ d’activité
 
-Informations pour vous aider à utiliser le signet d’applet AQ [!DNL Target] pour forcer [!DNL Target] à vous libérer du mode AQ.
+Informations destinées à vous aider à utiliser le signet d’assurance qualité [!DNL Target] pour forcer [!DNL Target] à quitter le mode assurance qualité.
 
 >[!NOTE]
 >
 >Le processus de création d’un signet d’applet varie en fonction du type et de la version du navigateur. Consultez l’aide ou la recherche de votre navigateur sur Internet pour obtenir des instructions spécifiques.
 
-## signet d’applet AQ d’activité pour at.js 1.*x*
+## Signet d’applet de l’AQ d’activité pour at.js 1.*x*
 
-Comme le [ mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md) est attractif, une fois que vous avez navigué sur un site web en mode AQ, votre session [!DNL Target] doit expirer ou [!DNL Target] doit vous libérer du mode AQ pour pouvoir afficher votre site comme un visiteur type. Utilisez le signet d’applet AQ [!DNL Target] pour vous libérer du mode AQ.
+Étant donné que le [mode assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) est contigu, après avoir parcouru un site web en mode assurance qualité, votre session [!DNL Target] doit expirer ou vous devez être libéré [!DNL Target] du mode assurance qualité avant de pouvoir afficher votre site comme un visiteur standard. Utilisez le signet d’[!DNL Target] de l’assurance qualité pour vous forcer à quitter le mode assurance qualité.
 
-Pour utiliser le signet d’applet AQ [!DNL Target], créez un signet d’applet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils des signets de votre navigateur :
+Pour utiliser le signet d’assurance qualité [!DNL Target], créez un signet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils des signets de votre navigateur :
 
 ```javascript
 javascript:(
@@ -42,17 +42,17 @@ javascript:(
 )();
 ```
 
-Vous pouvez également vous libérer manuellement du mode AQ en chargeant une page de votre site avec le paramètre `at_preview_token` avec une valeur vide.
+Vous pouvez également vous forcer manuellement à quitter le mode AQ en chargeant une page de votre site avec le paramètre `at_preview_token` avec une valeur vide.
 
 Par exemple :
 
 `https://www.mysite.com/?at_preview_token=`
 
-## signet d’applet AQ d’activité pour at.js 2.*x*
+## Signet d’applet de l’AQ d’activité pour at.js 2.*x*
 
-Contrairement à at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode AQ n’est attractif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Par conséquent, dans at.js 2.*x*, la session du mode AQ est gérée uniquement côté client et aucun cookie du mode AQ n’est envoyé à Target.
+À la différence d’at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode QA n’est actif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session en mode QA est gérée uniquement côté client et aucun cookie en mode QA n’est envoyé à Target.
 
-Pour utiliser le signet d’applet AQ [!DNL Target], créez un signet d’applet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils des signets de votre navigateur :
+Pour utiliser le signet d’assurance qualité [!DNL Target], créez un signet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils des signets de votre navigateur :
 
 ```javascript
 javascript:(
@@ -61,14 +61,15 @@ javascript:(
         var isSet = document.cookie.split(';').some(function (cookie) {
             return cookie.trim().startsWith(AT_QA_MODE);
         });
-        if (isSet) {
-            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
-            var url = window.location.href.split('at_preview_token',2)[0];
-            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
+        if (isSet) {            
+            document.cookie = AT_QA_MODE + ';domain='+window.location.hostname+";Path=/; Max-Age=-0;";
+            var token = window.location.href.indexOf("?at_preview_token")<0? "&at_preview_token" : "?at_preview_token";
+            var url = window.location.href.split(token,2)[0];
+            window.open(url, '_self', 'noreferrer');
         }
-    })();
+    })(); 
 ```
 
-## Utilisation du signet d’applet AQ d’activité
+## Utiliser le signet d’AQ d’activité
 
-Cliquez sur le signet d’applet dans la barre d’outils de votre navigateur.
+Cliquez sur le signet dans la barre d’outils du navigateur.
