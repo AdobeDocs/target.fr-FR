@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 100%
 
 ---
@@ -207,16 +207,14 @@ Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamiqu
 
 Découvrez comment l’intelligence artificielle continue à redéfinir les attentes des consommateurs à mesure que les modèles de machine learning automatique et les informations sur les données ouvrent de nouvelles portes aux professionnels du marketing, aux développeurs et aux propriétaires de produits afin d’impliquer les consommateurs avec des expériences personnalisées pertinentes. Profitez d’une visite détaillée des workflows [!DNL Adobe Analytics] + [!DNL Adobe Target] de personnalisation, de ciblage et de test.
 
-* [Lien d’enregistrement](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++Détails
 
-  +++Détails
+Rejoignez Jordan Ison (Consultant principal en solutions pour [!DNL Adobe]) afin d’échanger sur les points suivants :
 
-  Rejoignez Jordan Ison (Consultant principal en solutions pour [!DNL Adobe]) afin d’échanger sur les points suivants :
-
-   * Comment les professionnels du marketing, les développeurs et les équipes de produits peuvent ouvrir la « boîte noire » de l’IA pour piloter les stratégies de test et de personnalisation à venir
-   * Comment relever les défis liés à l’optimisation du web, des applications mobiles, des e-mails, de l’IoT et de chaque point de contact numérique pour une conversion et un engagement plus élevés
-   * Une visite détaillée des workflows [!DNL Adobe Analytics] et [!DNL Target] de personnalisation, de ciblage et de test
-   * Les cas pratiques les plus courants pour déverrouiller les attributs qui prédisent le comportement des visiteurs et les attributs les plus importants pour les visualisations principales et l’analyse de segmentation
+* Comment les professionnels du marketing, les développeurs et les équipes de produits peuvent ouvrir la « boîte noire » de l’IA pour piloter les stratégies de test et de personnalisation à venir
+* Comment relever les défis liés à l’optimisation du web, des applications mobiles, des e-mails, de l’IoT et de chaque point de contact numérique pour une conversion et un engagement plus élevés
+* Une visite détaillée des workflows [!DNL Adobe Analytics] et [!DNL Target] de personnalisation, de ciblage et de test
+* Les cas pratiques les plus courants pour déverrouiller les attributs qui prédisent le comportement des visiteurs et les attributs les plus importants pour les visualisations principales et l’analyse de segmentation
 
 +++
 

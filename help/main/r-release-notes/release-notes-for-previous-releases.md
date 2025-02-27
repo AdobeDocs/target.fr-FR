@@ -4,7 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '38891'
 ht-degree: 84%
@@ -684,7 +684,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 | --- | --- |
 | Actualisation de l’interface utilisateur de [!UICONTROL Audiences] | Dans le cadre des efforts continus de l’équipe [!DNL Adobe Target] pour améliorer l’expérience utilisateur pour les utilisateurs [!DNL Target], cette version actualise les pages [!UICONTROL Audiences] et [!UICONTROL Profile Scripts] de l’interface utilisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations, notamment :<ul><li>Possibilité de sélectionner et de supprimer plusieurs audiences simultanément</li><li>[Conception du créateur dʼaudiences](/help/main/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles d’exclusion dans le créateur de règles de bibliothèque [!UICONTROL Audience]</li><li>Un nouveau filtre « Audience Source », pour permettre une découverte d’audience plus rapide</li><li>Options de recherche et de filtrage persistantes dans la session</li></ul>Pour plus d’informations, consultez [Audiences](/help/main/c-target/target.md). |
 | Actualisation de l’interface utilisateur de [!UICONTROL Profile Scripts] | La bibliothèque [!UICONTROL Profile Scripts] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour relatives à la productivité :<ul><li>Possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Nouvel éditeur de code pour les scripts de profil</li><li>Mise en évidence de la syntaxe et vérification des erreurs dans lʼéditeur de code</li><li>Paramètres (mbox ou de profil) de saisie automatique des jetons à lʼaide de raccourcis clavier</li></ul>Pour plus dʼinformations, consultez la section [Profils des visiteurs](/help/main/c-target/c-visitor-profile/visitor-profile.md). |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."} Création et modification de Critères de Recommendations | Le workflow de création et de modification de [!UICONTROL Recommendations Criteria] a été rationalisé afin de simplifier le choix de l’algorithme et des paramètres de recommandations appropriés pour atteindre vos objectifs.<br>Pour plus dʼinformations, consultez la section [Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| [!BADGE Premium]{type=Positive url= »/help/main/c-intro/intro.md#premium newtab=true » tooltip=« Voir ce qui est inclus dans Target Premium. »} Création et modification de Critères de Recommendations | Le workflow de création et de modification de [!UICONTROL Recommendations Criteria] a été rationalisé afin de simplifier le choix de l’algorithme et des paramètres de recommandations appropriés pour atteindre vos objectifs.<br>Pour plus dʼinformations, consultez la section [Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Badge Premium](/help/main/assets/premium.png) Améliorations apportées à lʼintervalle de recherche en amont et à la fréquence dʼactualisation des algorithmes de Recommendations | Vous pouvez désormais exécuter les algorithmes « Les plus consultés » et « Meilleurs vendeurs » dans un intervalle de recherche en amont de six heures pour capturer le contenu populaire le plus récent. Lorsque lʼintervalle de recherche en amont de six heures est sélectionné, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures au cours de la journée.<br>Pour plus dʼinformations, consultez la section [Source de données](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) sous *Création de critères*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1 (14 septembre 2021)
@@ -2536,7 +2536,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nouvel emplacement du forum Target </p> </td> 
-   <td colname="col2"> <p> Le forum Target a été déplacé vers la nouvelle <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr" format="https" scope="external">plateforme de la communauté Adobe</a>. </p> </td> 
+   <td colname="col2"> <p> Le forum Target a été déplacé vers la nouvelle <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external">plateforme de la communauté Adobe</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
