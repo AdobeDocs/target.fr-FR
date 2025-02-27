@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1402'
 ht-degree: 13%
 
 ---
@@ -43,6 +43,8 @@ Cette version comprend les mises à jour suivantes :
 Cette version comprend la mise à jour suivante :
 
 * Correction de la journalisation de la télémétrie lorsque `localStorage` n’est pas disponible. La télémétrie provoquait un problème pour certains clients qui avaient `localStorage` désactivés dans leurs navigateurs.
+
+Pour plus d’informations à ce sujet et sur les versions précédentes d’at.js, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}.
 
 ## [!DNL Target Standard/Premium] 25.2.1 (17 février 2025)
 
