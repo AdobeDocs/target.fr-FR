@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 36%
+source-wordcount: '532'
+ht-degree: 37%
 
 ---
 
@@ -30,7 +30,6 @@ Cette version comprend les correctifs et mises à jour suivants :
 * Correction d’un problème où les audiences d’activité unique n’étaient pas visibles dans le panneau [!UICONTROL Audiences], empêchant leur modification ou leur réutilisation. (TGT-51860)
 * Correction d’un problème qui empêchait les clients [!DNL Target Standard] de créer des activités à l’aide des rapports [!UICONTROL Analytics for Target] (A4T). (TGT-51854)
 * Correction d’un problème qui excluait les compteurs d’identifiants locaux de la payload lors des opérations de création et de modification par lots. (TGT-51867)
-* Amélioration des rapports sur l’accessibilité en intégrant les [!DNL Axe Developer Hub], en améliorant la couverture, les rapports, la collaboration des équipes, la prise en charge des tests manuels, les normes de conformité et l’expérience utilisateur.
 
 ## [!DNL Target Standard/Premium] 25.3.2 (6 mars 2025)
 
