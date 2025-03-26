@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 44%
+source-wordcount: '409'
+ht-degree: 43%
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
 | 26 mars | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.3.7 de [!DNL Target Standard/Premium]. |
+|  | [Questions fréquentes relatives à Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Mise à jour des FAQ pour indiquer que [!DNL Recommendations] objets créés via l’API sont disponibles dans l’interface utilisateur de [!DNL Target]. |
 | 19 mars | [Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Adresses IP mises à jour pour la place sur la liste autorisée. |
 | 18 mars | [Prise en charge d’A4T pour les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Ajout d’une remarque à la section *Mesures d’objectif prises en charge*. |
 | 14 mars | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.3.6 de [!DNL Target Standard/Premium]. |
