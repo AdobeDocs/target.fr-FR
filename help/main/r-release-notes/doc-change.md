@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
+source-git-commit: 36f269331d992f621d71fc085c85f3a7ad5bdfa6
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 40%
+source-wordcount: '450'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 31 mars | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations relatives à la version 2.11.8 d’at.js. |
 | 26 mars | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.3.7 de [!DNL Target Standard/Premium]. |
 |  | [Questions fréquentes relatives à Recommendations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Mise à jour des FAQ pour indiquer que [!DNL Recommendations] objets créés via l’API sont disponibles dans l’interface utilisateur de [!DNL Target]. |
 |  | [Collections](/help/main/c-recommendations/c-products/collections.md) | Ajout de la remarque suivante : les règles de collection s’appliquent aux éléments de recommandation générés après l’exécution du critère. Elles affectent uniquement les recommandations d’entité (RE) dans la sortie, et non la clé. |
