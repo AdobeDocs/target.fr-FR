@@ -5,7 +5,7 @@ title: Comment Administrer Target ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 13%
@@ -15,6 +15,8 @@ ht-degree: 13%
 # Aperçu de l’administration [!DNL Target]
 
 Informations destinées à vous aider à administrer les [!DNL Adobe Target], notamment les paramètres de configuration du compositeur d’expérience visuelle (VEC), les rapports, la configuration de Scene7, l’implémentation, les hôtes, les environnements, les jetons de réponse, les utilisateurs et les [!DNL Recommendations].
+
+{{permissions-update}}
 
 Pour accéder aux éléments de menu [!UICONTROL Administration], cliquez sur **[!UICONTROL Administration]** dans la barre de menus supérieure, puis cliquez sur l’onglet de votre choix sur le côté gauche :
 

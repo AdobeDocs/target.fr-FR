@@ -5,7 +5,7 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ Les jetons de réponse vous permettent de générer automatiquement des informat
 Les jetons de réponse vous permettent de choisir les variables (dans les paires clé-valeur) à utiliser, puis de les autoriser à être envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec des réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Preview].
 
 Une différence essentielle entre les plug-ins et les jetons de réponse réside dans le fait que les plug-ins diffusent JavaScript vers la page qui s’exécute lors de la diffusion. Toutefois, les jetons de réponse fournissent un objet qui peut ensuite être lu et sur lequel il est possible d’agir à l’aide d’écouteurs d’événement. L’approche des jetons de réponse est plus sûre et permet un développement et une maintenance plus faciles des intégrations tierces.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -84,7 +86,7 @@ L’exemple de réponse suivant ajoute un gestionnaire d’événements personna
 
 | Objet | Informations |
 | --- | --- |
-| Type - Personalization.decision | Si la décision a été prise par le [!DNL Target] ou le fournisseur d’Offer decisioning. |
+| Type - Personalization.decision | Indique si la décision a été prise par le fournisseur [!DNL Target] ou Offer Decisioning. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fournit les métadonnées et les valeurs du jeton de réponse à la page. |
 | Méta | Métadonnées transmises à la page. |
 | Données | Valeurs des métadonnées transmises à la page. |
@@ -212,13 +214,13 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 [!DNL Target] actualise les attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Cependant, si vous avez un attribut qui a été activé et supprimé, ce script n’est pas supprimé de la liste des attributs tant que vous ne le désactivez pas. Par exemple, vous avez supprimé un script de profil utilisé comme jeton. [!DNL Target] supprime uniquement les attributs activés de la liste lorsqu’ils sont supprimés ou renommés.
 
-## Envoi de données aux Google Analytics
+## Envoi de données à Google Analytics
 
-Les sections suivantes décrivent comment envoyer des données [!DNL Target] aux Google Analytics 4. Les données envoyées par les jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
+Les sections suivantes décrivent comment envoyer des données [!DNL Target] à Google Analytics 4. Les données envoyées par les jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
 
-### ![Badge AEP](/help/main/assets/platform.png) Envoi de données aux Google Analytics via Platform Web SDK
+### ![Badge AEP ](/help/main/assets/platform.png) envoi de données à Google Analytics via Platform Web SDK
 
-Il est possible d’envoyer des données aux Google Analytics via la version 2.6.0 (ou ultérieure) de Platform Web SDK en ajoutant le code suivant dans la page d’HTML.
+Il est possible d’envoyer des données à Google Analytics via la version 2.6.0 (ou ultérieure) de Platform Web SDK en ajoutant le code suivant dans la page HTML.
 
 >[!NOTE]
 >
@@ -254,7 +256,7 @@ Il est possible d’envoyer des données aux Google Analytics via la version 2.6
 </script>
 ```
 
-### ![badge at.js](/help/main/assets/atjs.png) Envoi de données aux Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![badge at.js](/help/main/assets/atjs.png) Envoi de données à Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
@@ -312,7 +314,7 @@ Les sections suivantes fournissent des informations sur le débogage des jetons 
 
 ### ![badge at.js](/help/main/assets/atjs.png) Google Analytics et débogage
 
-Le code suivant permet de déboguer à l’aide de Google Analytics :
+Le code suivant permet d’effectuer le débogage à l’aide de Google Analytics :
 
 ```javascript
 <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>

@@ -1,11 +1,11 @@
 ---
 keywords: placer sur la liste bloquée placer sur la liste autorisée environnement;dépannage;bonnes pratiques;ubox;redirections;redirection;liste blanche;liste bloquée;
-description: Découvrez comment utiliser des environnements en Adobe  [!DNL Target]  organiser vos sites et vos environnements de pré-production pour une gestion facile et des rapports séparés.
+description: Découvrez comment utiliser les environnements dans Adobe  [!DNL Target]  organiser vos sites et vos environnements de pré-production pour une gestion facile et des rapports séparés.
 title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -21,6 +21,8 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 Un environnement, l’environnement par défaut, est prénommé [!UICONTROL Production]. Il n’est pas possible de supprimer cet environnement, même si vous le renommez. [!DNL Target] considère que c’est là que vous diffuserez les activités et tests finaux et approuvés.
 
 Lorsqu’une demande de [!DNL Target] est reçue de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans l’environnement [!UICONTROL Production]. Les paramètres de l’environnement [!UICONTROL Production] ne peuvent pas être modifiés. Par conséquent, les sites inconnus ou nouveaux ne pourront afficher que le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
+
+{{permissions-update}}
 
 Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
 

@@ -5,7 +5,7 @@ title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 17%
@@ -22,13 +22,15 @@ Un hôte est tout domaine à partir duquel une requête [!DNL Target] est effect
 
 Par défaut, [!DNL Target] ne limite pas un hôte qui peut effectuer des requêtes [!DNL Target] et recevoir des réponses [!DNL Target]. Lorsque de nouveaux hôtes effectuent des requêtes, elles fonctionnent automatiquement. Ce processus permet également de tester différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper. Si vous souhaitez remplacer ce comportement par défaut, vous pouvez configurer une liste autorisée ou une liste bloquée pour limiter les hôtes [!DNL Target].
 
-Pour gérer les hôtes, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
+{{permissions-update}}
 
-## Reconnaissance des hôtes {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+To manage hosts, click **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**.
 
-Pour reconnaître un hôte et l’ajouter à la liste [!UICONTROL Hosts], les conditions suivantes doivent être remplies :
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-* Au moins une requête [!DNL Target] doit exister sur l’hôte
+To recognize a host and add it to the [!UICONTROL Hosts] list, the following conditions must be met:
+
+* At least one [!DNL Target] request must exist on the host
 * Une page sur l’hôte doit contenir les éléments suivants :
 
    * Une référence at.js précise
@@ -63,11 +65,11 @@ Pour effectuer une recherche dans la liste [!UICONTROL Hosts], saisissez un term
 
 ## Placer sur la liste autorisée Créez des qui spécifient les hôtes autorisés à envoyer des requêtes [!DNL Target] à [!DNL Target]. {#allowlist}
 
-Vous pouvez créer une place sur la liste autorisée qui spécifie les hôtes (domaines) autorisés à envoyer des requêtes [!DNL Target] à [!DNL Target]. Tous les autres hôtes générant des requêtes reçoivent une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte contenant une demande de [!DNL Target] s’enregistre auprès des [!DNL Target] de l’environnement [!UICONTROL Production] et a accès à toutes les activités actives et approuvées. Si cette approche n’est pas souhaitée, vous pouvez plutôt utiliser la liste autorisée pour enregistrer des hôtes spécifiques qui sont éligibles pour effectuer des requêtes [!DNL Target] et recevoir du contenu [!DNL Target]. Tous les hôtes continuent de s’afficher dans la liste [!UICONTROL Hosts], et les environnements peuvent toujours être utilisés pour regrouper ces hôtes et leur attribuer différents niveaux, par exemple si l’hôte peut voir des activités actives et/ou inactives.
+You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. All other hosts generating requests get a commented-out authorization error response. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this approach is not desired, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
-Pour créer une liste autorisée :
+To create an allowlist:
 
-1. Dans la liste [!UICONTROL Hosts], cliquez sur **[!UICONTROL Authorize Hosts]**.
+1. From the [!UICONTROL Hosts] list, click **[!UICONTROL Authorize Hosts]**.
 1. Activez le bouton (bascule) **[!UICONTROL Enable Authorized Hosts for content delivery]** .
 1. Ajoutez les hôtes souhaités dans la zone de **[!UICONTROL Host contains]**, selon vos besoins.
 
@@ -87,11 +89,11 @@ Si une requête [!DNL Target] est effectuée sur un hôte non autorisé, l’app
 >
 >La liste autorisée prévaut sur les environnements. Effacez tous les hôtes avant d’utiliser la fonction de place sur la liste autorisée, puis seuls les hôtes autorisés par la liste autorisée apparaissent dans votre liste d’hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
-Il arrive parfois que les domaines d’autres sites s’affichent dans vos environnements. Un domaine apparaît dans la liste si le domaine appelle at.js. Si, par exemple, un utilisateur copie l’une de vos pages web sur son serveur, ce domaine est répertorié dans votre environnement. Les domaines de robots, sites de traduction ou disques durs locaux peuvent également s’afficher.
+Il arrive parfois que les domaines d’autres sites s’affichent dans vos environnements. A domain appears in the list if the domain calls at.js. Si, par exemple, un utilisateur copie l’une de vos pages web sur son serveur, ce domaine est répertorié dans votre environnement. Les domaines de robots, sites de traduction ou disques durs locaux peuvent également s’afficher.
 
-Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. Si aucun environnement n’est transmis, l’hôte de l’appel est défini par défaut sur [!UICONTROL Production].
+Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
-Placer sur la liste bloquée Vous pouvez également créer une qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer de requêtes [!DNL Target] aux [!DNL Target] en ajoutant les hôtes souhaités dans la zone de [!UICONTROL Host Does Not Contain].
+You can also create a denylist that specifies hosts (domains) that cannot send [!DNL Target] requests to [!DNL Target] by adding the desired hosts in the [!UICONTROL Host Does Not Contain] box.
 
 >[!NOTE]
 >
@@ -122,6 +124,6 @@ Suivez les conseils de résolution suivants si vous rencontrez des problèmes av
 
 Un domaine apparaît dans cette liste si une demande de [!DNL Target] est effectuée à partir du domaine. Vous pouvez souvent voir des domaines à partir de moteurs de balayage, de sites de traduction de langue ou d’unités de disque locales. Si le domaine répertorié n’est pas celui que votre équipe utilise, vous pouvez cliquer sur [!UICONTROL Delete] pour le supprimer.
 
-**Ma requête [!DNL Target] renvoie /&#42; aucun affichage - hôte de mbox non autorisé &#42;/.**
+**My [!DNL Target] request returns /&#42; no display - unauthorized mbox host &#42;/.**
 
-Si une requête [!DNL Target] est effectuée sur un hôte non autorisé, la requête répond avec /&#42; no display - mbox host non autorisé &#42;/.
+If a [!DNL Target] request is made on an unauthorized host, the request responds with /&#42; no display - unauthorized mbox host &#42;/.
