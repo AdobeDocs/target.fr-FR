@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 41%
+source-wordcount: '549'
+ht-degree: 40%
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
+| 7 avril | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour préliminaires pour les prochaines versions suivantes :<UL><li>[!DNL Target Standard/Premium] 25.4.2 (8 avril 2025)</li><li>[!DNL Target Standard/Premium] 25.4.3 (10 avril 2025)</li></ul> |
 | 4 avril | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Mise à jour des notes de mise à jour pour la prochaine mise à jour des autorisations [!DNL Target] prévue pour le 22 avril 2025. |
 |  | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des notes préliminaires pour la prochaine mise à jour des autorisations [!DNL Target] prévue pour le 22 avril 2025. |
 |  | [Premières étapes pour l’administrateur ou l’administratrice](/help/main/administrating-target/start-target.md#admin-permissions) | Ajout d’une nouvelle section : « Autorisations requises pour la modification des paramètres de [!UICONTROL Administration] ». |
