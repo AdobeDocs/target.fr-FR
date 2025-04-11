@@ -4,7 +4,7 @@ description: Découvrez le fonctionnement  [!DNL Adobe Target]  et obtenez des i
 title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Pour plus d’informations, consultez [Recommendations](/help/main/c-recommendat
 
 Les informations suivantes vous aident à comprendre la stratégie de comptage utilisée pour les appels au serveur [!DNL Target], comme indiqué dans le tableau ci-dessous :
 
-* **Count Once** : compte une fois par appel API
-* **Compter le nombre de mbox** : compte le nombre de mbox sous le tableau dans la payload d’un seul appel API
-* **Ignorer** : n’est pas comptabilisé du tout
-* **Compter le nombre de vues (une fois)** : compte le nombre de vues sous le tableau dans la payload. Dans une implémentation standard, une notification d’affichage ne comporte qu’une seule vue sous le tableau de notifications, ce qui équivaut à compter une seule fois dans la plupart des implémentations
+* **Count Once** : compte une fois par appel API.
+* **Compter le nombre de mbox** : compte le nombre de mbox sous le tableau dans la payload d’un seul appel API.
+* **Ignorer** : n’est pas comptabilisé du tout.
+* **Compter le nombre de vues (une fois)** : compte le nombre de vues sous le tableau dans la payload. Dans une implémentation standard, une notification d’affichage ne comporte qu’une seule vue sous le tableau de notifications, ce qui équivaut à compter une fois dans la plupart des implémentations.
 
 | Point d&#39;entrée | Type de récupération | Options | Stratégie de comptage |
 |--- |--- |--- |-- |
