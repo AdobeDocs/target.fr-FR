@@ -4,10 +4,10 @@ description: Découvrez le fonctionnement  [!DNL Adobe Target]  et obtenez des i
 title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -100,6 +100,13 @@ Pour plus d’informations, consultez [Recommendations](/help/main/c-recommendat
 ## Comptabilisation de l[!DNL Target]utilisation des appels au serveur {#usage}
 
 [!DNL Target] compte uniquement les appels au serveur qui offrent une valeur ajoutée aux clients. Le tableau suivant montre comment compte [!DNL Target] points d’entrée, la mbox unique, les appels de mbox par lots, les appels d’exécution, de prérécupération et de notification.
+
+Les informations suivantes vous aident à comprendre la stratégie de comptage utilisée pour les appels au serveur [!DNL Target], comme indiqué dans le tableau ci-dessous :
+
+* **Count Once** : compte une fois par appel API
+* **Compter le nombre de mbox** : compte le nombre de mbox sous le tableau dans la payload d’un seul appel API
+* **Ignorer** : n’est pas comptabilisé du tout
+* **Compter le nombre de vues (une fois)** : compte le nombre de vues sous le tableau dans la payload. Dans une implémentation standard, une notification d’affichage ne comporte qu’une seule vue sous le tableau de notifications, ce qui équivaut à compter une seule fois dans la plupart des implémentations
 
 | Point d&#39;entrée | Type de récupération | Options | Stratégie de comptage |
 |--- |--- |--- |-- |

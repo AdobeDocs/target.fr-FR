@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 39%
+source-wordcount: '634'
+ht-degree: 38%
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
 | 11 avril | Notes de mise à jour (actuelles) [[!DNL Target] ](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.4.3 de [!DNL Target Standard/Premium]. |
+|  | [Comment  [!DNL Target] -vous ](/help/main/c-intro/how-target-works.md#usage) | Ajout d’une nouvelle section : « Comment compte [!DNL Target] l’utilisation des appels au serveur ». |
 | 9 avril | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des dates des notes préliminaires pour la version 25.4.4. |
 | 8 avril | [ CNAME et Target ](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | Mise à jour des éléments suivants :<ul><li>Tous les certificats sont RSA SHA-256 et les clés sont RSA 2048 bits, par défaut. Les tailles de clé supérieures à 2 048 bits doivent être demandées explicitement via l’assistance clientèle. (Les tailles de clé déclarées précédemment supérieures à 2 048 bits n’étaient pas prises en charge.)</li><li>Mise à jour du script Bash.</li><li>Mise à jour du fragment de code de sortie de validation.</li></ul> |
 | 7 avril | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de mise à jour préliminaires pour la prochaine version suivante :<UL><li>[!DNL Target Standard/Premium] 25.4.3 (10 avril 2025)</li></ul> |
