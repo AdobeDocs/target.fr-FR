@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 25.4.5 (24 avril 2025)
+
+Cette version comprend les correctifs et mises à jour suivants :
+
+* Correction d’un problème en raison duquel plusieurs audiences d’expérience s’affichaient lors de la modification ou de l’enregistrement d’une activité. (TGT-52134)
+* Correction d’un problème en raison duquel les recommandations ne s’affichaient pas sur le site web du client ou de la cliente après l’activation de l’activité [!DNL Recommendations]. (TGT-52164)
+* `OptionLocalIDs` n’incrémente plus incorrectement lorsque l’option reste inchangée. (TGT-52187)
+* Les fichiers de rapports téléchargés affichent désormais correctement les données présentes dans l’interface utilisateur de création de rapports. (TGT-52068)
+* Correction d’un problème qui empêchait Target de reconnaître le caractère « # » dans l’URL d’un site web. (TGT-52093)
+* Les opérations par lots n’échouent plus après l’ajout de règles de diffusion de page. (TGT-52097)
+* Correction d’un problème en raison duquel [!DNL Target] supprimait tous les paramètres de requête de l’URL du site web. (TGT-52100)
+* Correction d’un problème en raison duquel les affinements d’audience et les audiences d’activité étaient inversés dans l’interface utilisateur mise à jour. (TGT-52158)
 
 ## Mise à jour des autorisations Target (22 avril 2025)
 
