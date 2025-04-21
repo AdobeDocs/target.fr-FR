@@ -1,62 +1,62 @@
 ---
-keywords: données environnementales;données de session;données géographiques;données géographiques;données de périphérique;données mobiles;attributs;attributs de profil;algorithmes de personnalisation;algorithmes d’apprentissage automatique;algorithmes d’apprentissage automatique
-description: Découvrez quelles données [!DNL Adobe Target] collecte et utilise pour créer ses algorithmes d’apprentissage automatique.
-title: Quelles données sont collectées pour créer des algorithmes d’apprentissage automatique ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+keywords: données environnementales;données de session;données géographiques;données géographiques;données d’appareil;données mobiles;attributs;attributs de profil;algorithmes de personnalisation;algorithmes de machine learning;algorithmes de machine learning
+description: Découvrez les données  [!DNL Adobe Target]  et utilisées pour créer ses algorithmes de machine learning.
+title: Quelles données sont collectées pour créer des algorithmes de machine learning ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
+source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1958'
 ht-degree: 51%
 
 ---
 
-# Données utilisées par les algorithmes d’apprentissage automatique [!DNL Target]
+# Données utilisées par [!DNL Target] algorithmes de machine learning de
 
-[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT). Lorsqu’un visiteur entre dans une activité [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target], un instantané des informations est transmis à un ensemble d’&quot;enregistrements d’entraînement&quot; (les données de visiteur sur lesquelles les algorithmes de personnalisation apprennent).
+[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT). Lorsqu’un visiteur ou une visiteuse accède à une activité de [!UICONTROL Automated Personalization] ou de [!UICONTROL Auto-Target], un instantané des informations est transmis à un ensemble d’« enregistrements d’identification » (les données de visiteur sur lesquelles les algorithmes de personnalisation s’appuient).
 
 Pour en savoir plus sur les algorithmes de personnalisation [!DNL Target], voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-## Catégories d’attributs par défaut [!DNL Target]
+## Catégories d’attributs de [!DNL Target] par défaut
 
-Le tableau suivant affiche les données collectées par les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] par défaut, sans aucune configuration de [!DNL Target] ou d&#39;autres solutions [!DNL Adobe]. Le tableau comprend également la convention d’affectation des noms utilisée pour indiquer ces attributs dans les [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le téléchargement de données supplémentaires, voir [Chargement de données pour les  [!DNL Target] algorithmes de personnalisation](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
-
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL Insights] |
-| --- | --- | --- | --- |
-| Paramètres d’environnement | ENV | Informations sur l’environnement d’un utilisateur, y compris le système d’exploitation, le navigateur et l’heure du jour/jour de la semaine. | Browser - [Attribute Name]<br>Operating System - [Value] |
-| Géographie | GEO | Informations sur la géographie d’un utilisateur, obtenues par le biais de la recherche d’adresses IP. | Geo - [attribut geo] |
-| Appareil mobile | MOB | Informations sur l’appareil mobile d’un utilisateur. | Appareil - [attribut de périphérique]<br>Mobile - [attribut mobile] |
-| [!DNL Target] segments de création de rapports | SEG | Segments de création de rapports configurés dans la création de rapports [!DNL Target]. | Segment de création de rapports -[Nom de segment] |
-| Comportement de la session | SES | Informations sur le comportement des utilisateurs, telles que le nombre de pages consultées. | Profil du visiteur - [Nom d’attribut] |
-
-## Catégories d’attributs [!DNL Target] personnalisées
-
-Le tableau suivant montre les données fournies par le client collectées par les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target]. Ces données ne sont collectées que si vous les fournissez. Des noms d’attributs spécifiques et des exemples de valeurs sont spécifiques à la configuration de votre système.
+Le tableau suivant présente les données collectées par [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] les activités par défaut, sans aucune configuration de [!DNL Target] ou d’autres solutions de [!DNL Adobe]. Le tableau inclut également la convention de nommage utilisée pour indiquer ces attributs dans les [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le téléchargement de données supplémentaires, consultez [Téléchargement de données pour les algorithmes  [!DNL Target]  personnalisation](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL Insights] |
 | --- | --- | --- | --- |
-| Paramètres de page | BOX | Paramètres de page personnalisés (&quot;paramètres mbox&quot;) transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [nom du paramètre] |
-| Profil [!DNL Target] | PRO | Les attributs de profil personnalisés sont directement chargés vers le profil [!DNL Target] via l’API ou le paramètre de page et les scripts de profil [!DNL Target]. | Personnalisé - Profil du visiteur - [nom d’attribut] |
-| Attributs du client | CRS | Attributs du client transférés vers le profil [!DNL Target] via [[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personnalisé - Profil du visiteur - [nom d’attribut] |
-| paramètres d’URL | URL | URL et paramètres d’URL de la page actuellement consultée. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
-| URL de référence | REF | URL de référence et tous les paramètres d’URL de l’URL de référence. | Personnalisé - [Paramètre d’URL de référence] - [Valeur de paramètre] |
-| [!DNL Adobe Experience Cloud] audiences partagées | AAM | Toutes les audiences partagées avec [!DNL Target] à partir d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personnalisé - Audience Experience Cloud - [Nom d’audience] |
-| [!DNL Adobe Experience Platform Real-time CDP] audiences | UPS | Plateforme d’audiences CDP en temps réel partagées avec [!DNL Target] via [!UICONTROL Destinations]. |  |
-| [!DNL Adobe Experience Platform Real-time CDP] attributs | AEP | Attributs de plateforme CDP en temps réel partagés avec [!DNL Target] via [!UICONTROL Destinations]. |  |
+| Paramètres d’environnement | ENV | Informations sur l’environnement d’un utilisateur, notamment le système d’exploitation, le navigateur et l’heure du jour ou du jour de la semaine. | Navigateur - [Nom D’Attribut]<br>Système D’Exploitation - [Valeur] |
+| Géographie | GÉO | Informations sur la zone géographique d’un utilisateur, obtenues via la recherche d’adresses IP. | Géo - [attribut géographique] |
+| Appareil mobile | FOULE | Informations sur l’appareil mobile d’un utilisateur. | Appareil - [attribut d’appareil]<br>mobile - [attribut mobile] |
+| [!DNL Target] des segments de reporting | SEG | Segments de reporting configurés dans les rapports [!DNL Target]. | Segment de création de rapports -[Nom du segment] |
+| Comportement de la session | SES | Informations sur le comportement de l’utilisateur, telles que le nombre de pages vues. | Profil du visiteur - [Nom de l’attribut] |
 
-## Blocage des fonctionnalités des algorithmes d’apprentissage automatique [!DNL Target]
+## Catégories d’attributs de [!DNL Target] personnalisées
 
-Les fonctionnalités peuvent être bloquées dans les algorithmes d’apprentissage automatique [!DNL Target], ce qui les empêche d’être utilisées dans n’importe quel modèle ou activité [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
+Le tableau suivant présente les données fournies par le client collectées par les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target]. Ces données ne sont collectées que si vous les fournissez. Les noms d’attributs et les valeurs d’exemple spécifiques sont spécifiques à votre configuration système.
 
-Pour plus d’informations, voir [Présentation de l’API Modèles (Liste bloquée)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le *[!DNL Adobe Target]Guide du développeur*.
+| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL Insights] |
+| --- | --- | --- | --- |
+| Paramètres de page | BOX | Paramètres de page personnalisés (« paramètres mbox ») transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [nom du paramètre] |
+| profil [!DNL Target] | PRO | Les attributs de profil personnalisés sont directement chargés vers le profil [!DNL Target] via l’API ou le paramètre de page, ainsi que des scripts de profil [!DNL Target]. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
+| Attributs du client | CRS | Attributs du client chargés dans le profil [!DNL Target] via l’[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
+| paramètres d’URL | URL | URL et tout paramètre d’URL pour la page actuellement consultée. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
+| URL de référence | RÉF | l’URL de référence et les paramètres d’URL correspondants ; | Personnalisé - [Paramètre d’URL de référence] - [Valeur du paramètre] |
+| [!DNL Adobe Experience Cloud] des audiences partagées | AAM | Toutes les audiences partagées avec des [!DNL Target] d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via l’[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} ). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
+| [!DNL Adobe Experience Platform Real-time CDP] des audiences | UPS | Audiences de Platform Real-time CDP partagées avec [!DNL Target] via [!UICONTROL Destinations]. |  |
 
-## Données de périphérique et de mobile {#device-mobile}
+
+## Blocage des fonctionnalités des algorithmes de machine learning [!DNL Target]
+
+Les fonctionnalités peuvent être bloquées à partir [!DNL Target] algorithmes de machine learning , qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
+
+Placer sur la liste bloquée Pour plus d’informations, consultez [Présentation de l’API Modèles (pour en savoir plus)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le Guide du développeur *[!DNL Adobe Target].*.
+
+## Appareil et données mobiles {#device-mobile}
 
 | Attribute name | Description de l’attribut | Exemples de valeurs | Nom du système |
 | --- | --- | --- | --- |
-| Mobile - Device - Brand | Marque de l’appareil mobile utilisé par le visiteur pour accéder à l’activité. | Apple | MOB_targeting.mobile.vendor |
-| Mobile - Device - eReader | Indique si l’appareil est un eReader. | 0 est Faux, 1 est Vrai | MOB_targeting.mobile.ereader |
+| Mobile - Device - Brand | Marque de l’appareil mobile utilisé par le visiteur pour accéder à l’activité. | Apple | MOB_targeting.mobile.provider |
+| Mobile - Device - eReader | Indique si l’appareil est un eReader. | 0 est Faux, 1 est Vrai | MOB_targeting.mobile.reader |
 | Mobile - Device - Game Console | Indique si l’appareil est une console de jeu. | 0 est Faux, 1 est Vrai | MOB_targeting.mobile.gamesConsole |
 | Mobile - Device - Media Player | Indique si l’appareil est un lecteur multimédia. | 0 est Faux, 1 est Vrai | MOB_targeting.mobile.mediaPlayer |
 | Mobile - Device - Mobile Phone | Indique si l’appareil est un téléphone mobile. | 0 est Faux, 1 est Vrai | MOB_targeting.mobile.mobilePhone |
@@ -72,19 +72,19 @@ Pour plus d’informations, voir [Présentation de l’API Modèles (Liste bloqu
 
 | Attribute name | Description de l’attribut | Exemples de valeurs | Nom du système |
 | --- | --- | --- | -- |
-| Browser - Day of Week | Jour de la semaine où le visiteur a accédé à l’activité. | 0 à 6.<br>(0 est dimanche) | ENV_DayOfWeek |
+| Browser - Day of Week | Jour de la semaine où le visiteur a accédé à l’activité. | 0 - 6.<br>(0 est dimanche) | ENV_DayOfWeek |
 | Browser - Hour of Day | Heure du jour où le visiteur a accédé à l’activité. | 0 - 23<br>(0 est minuit) | ENV_UserHour |
-| Browser - Hour of Week | Heure de la semaine où le visiteur a accédé à l’activité. | 0 - 168<br>(le dimanche minuit est 0) | ENV_WeekHour |
+| Browser - Hour of Week | Heure de la semaine où le visiteur a accédé à l’activité. | 0 - 168<br>(dimanche minuit est 0) | ENV_WeekHour |
 | Browser - Language Setting | Langue spécifiée dans le navigateur du visiteur utilisé pour accéder à l’activité. | English<br>German | ENV_Language |
 | Browser - Time of Day | Heure du navigateur lorsque le visiteur a accédé à l’activité. | 0, 6, 12, 18<br>(0 est la nuit, 6 est le matin,<br>12 est l’après-midi et 18 est le soir) | ENV_LocalTimePeriod |
 | Browser - Timezone | Fuseau horaire du visiteur lors de l’accès à l’activité. | Pacific Time<br>Eastern Time<br>GMT | ENV_BrowserTimezoneOffsetMinutes |
-| Browser - Type | Type de navigateur utilisé par le visiteur lors de l’accès à l’activité. | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br> Autre | ENV_Browser |
-| Browser - Weekday/Weekend | État de travail lorsque le visiteur a accédé à l’activité (week-end, heures de travail ou loisirs en semaine). | Samedi et dimanche sont le week-end<br>Lundi-vendredi 09 h 00 - 18 h 00 est l’heure de travail<br>Lundi au vendredi après 18 h 00 jusqu’à 9 h 00 est l’heure de la semaine libre. | ENV_UserHourType |
+| Browser - Type | Type de navigateur utilisé par le visiteur lors de l’accès à l’activité. | [!DNL Chrome]<br>[!DNL Firefox]<br>[!DNL Internet Explorer]<br>[!DNL Safari]<br>Autres frais | ENV_Browser |
+| Browser - Weekday/Weekend | État de travail lorsque le visiteur a accédé à l’activité (week-end, heures de travail ou loisirs en semaine). | Samedi et dimanche sont week<br>lundi-vendredi 0900 - 1800 est le temps de travail<br>lundi-vendredi après 1800 jusqu&#39;à 0900 est le temps libre en semaine | ENV_UserHourType |
 | Browser - Window Height (px) | Hauteur de fenêtre du navigateur (en pixels) utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc., | ENV_BrowserHeight |
 | Browser - Window Width (px) | Largeur de la fenêtre du navigateur (en pixels) utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc., | ENV_BrowserWidth |
 | Appareil - Hauteur d’écran (px) | Hauteur d’écran de l’appareil utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc., | ENV_ScreenHeight |
 | Appareil - Largeur d’écran (px) | Largeur d’écran de l’appareil utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc., | ENV_ScreenWidth |
-| Système d’exploitation | Système d’exploitation sur l’appareil du visiteur utilisé pour accéder à l’activité. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>Search Bot<br>Système d’exploitation inconnu | ENV_OperatingSystem |
+| Système d’exploitation | Système d’exploitation sur l’appareil du visiteur utilisé pour accéder à l’activité. | [!DNL Mac OS]<br>[!DNL Windows]<br>[!DNL Linux]<br>Rechercher un robot<br>Système d’exploitation inconnu | ENV_OperatingSystem |
 | Operating System - Version | Version du système d’exploitation utilisée par le visiteur pour accéder à l’activité. | [!DNL Windows] 10<br>[!DNL Mac OS] 10 | ENV_OperatingSystemVersion |
 | Traffic Sources - Referring Landing Page URL | Première page vue par le visiteur lors de l’accès à votre site. | `https://www.adobe.com/ecloud.html` | ENV_Referrer |
 
@@ -95,8 +95,8 @@ Pour plus d’informations, voir [Présentation de l’API Modèles (Liste bloqu
 | Geo - City | Ville à partir de laquelle le visiteur a accédé à l’activité. | San Francisco | Geo_City |
 | Geo - Country | Pays depuis lequel le visiteur a accédé à l’activité. | Allemagne | Geo_Country |
 | Geo - DMA | Zone desservie à partir de laquelle le visiteur a accédé à l’activité. | Charlottesville | Geo_DMA |
-| Geo - Latitude | Latitude à partir de laquelle le visiteur a accédé à l’activité. | 47.269<br>Arrondi à 3 décimales près (précision d’environ 100 mètres) | GEO_Latitude |
-| Geo - Longitude | Longitude à partir de laquelle le visiteur a accédé à l’activité. | -122.269<br>Arrondi à 3 décimales près (précision d’environ 100 mètres) | GEO_Longitude |
+| Geo - Latitude | Latitude à partir de laquelle le visiteur a accédé à l’activité. | 47,269<br>arrondi à la 3e décimale (précision d&#39;environ 100 mètres) | Latitude_GÉO |
+| Geo - Longitude | Longitude à partir de laquelle le visiteur a accédé à l’activité. | -122,269<br>arrondi à la 3e décimale (précision d&#39;environ 100 mètres) | GEO_Longitude |
 | Geo - State/Region | État ou région à partir duquel le visiteur a accédé à l’activité. | Utah<br>New South Wales | GEO_State<br>GEO_Region |
 | Geo - Zip Code | Code postal à partir duquel le visiteur a accédé à l’activité. | 84004 | GEO_ZipCode |
 | Mobile - Carrier | Opérateur de téléphonie mobile utilisé par le visiteur lors de l’accès à l’activité. | [!DNL Vodafone]<br>[!DNL T-Mobile] | GEO_mobileCarrier |
@@ -113,16 +113,16 @@ Pour plus d’informations, voir [Présentation de l’API Modèles (Liste bloqu
 | Visitor Profile -Average Page Views per Visit during Activity | Indique le nombre moyen de pages vues par session, à l’exception de la session en cours. | Double | SES_REQUESTS_PER_SESSION |
 | Visitor Profile - Average Time per Visit | Indique la durée moyenne passée par visite/session. Ceci n’inclut pas la session en cours. | Double, millisecondes | SES_TIME_PER_SESSION |
 | Visitor Profile - First Visit | Indique l’heure de la première visite à laquelle l’utilisateur a interagi avec [!DNL Target]. | Double, millisecondes | SES_PROFILE_CREATION_TIME |
-| Visitor Profile - Hours since Last Visit | Indique les heures écoulées depuis la dernière visite de cette activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_HOURS_SINCE_LAST_VISIT |
-| Visitor Profile - Impressions of Location/Content | Indique le nombre d’impressions à une combinaison emplacement/contenu spécifique dans une activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
-| Profil du visiteur - Dernière interaction [!DNL Target] | Indique l’heure de la dernière interaction avec [!DNL Target]. L’interaction se produit sur chaque requête [!DNL Target], car l’implémentation actuelle de [!DNL Target] met à jour le profil sur chaque requête. | Double, millisecondes | SES_PROFILE_UPDATE_TIME |
-| Visitor Profile - Pages Seen Before Activity | Indique le nombre total de pages vues (impressions), y compris la visite/session actuelle jusqu’à ce que le visiteur entre dans l’activité. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_TOTAL_PAGE_VIEWS |
-| Visitor Profile - Page Views in Current Visit | Indique le nombre de pages vues lors de la visite/session en cours jusqu’à ce que le visiteur entre dans l’activité. Plus précisément, le nombre d’impressions. Ces impressions ne sont pas des pages vues réelles, mais il s’agit du nombre de fois où la requête a atteint [!DNL Target]. [!DNL Target] ne peut pas distinguer les dépassements de délai ou toute autre raison pour laquelle l’utilisateur n’a pas reçu ou consulté le contenu. | Double (uniquement nombre entier positif) | SES_SESSION_POSITION |
-| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session en cours avec [!DNL Target]. La visite avec [!DNL Target] peut être lancée sans entrer dans une activité. Tout ce qui est requis est un appel à toute requête [!DNL Target]. Un visiteur peut prendre un certain temps avant de saisir l’activité et l’instantané est pris. | Double, millisecondes | SES_SESSION_START |
-| Visitor Profile - Start of Most Recent Visit | Indique l’heure de début de la dernière visite/session avec [!DNL Target]. Cet attribut est mis à jour lorsque la session expire.<br>S’il s’agit de la première session du visiteur, `LAST_SESSION_START = 0.` en résulte | Double, millisecondes | SES_LAST_SESSION_START |
+| Visitor Profile - Hours since Last Visit | Indique les heures écoulées depuis la dernière visite de cette activité particulière. | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_HOURS_SINCE_LAST_VISIT |
+| Visitor Profile - Impressions of Location/Content | Indique le nombre d’impressions à une combinaison emplacement/contenu spécifique dans une activité particulière. | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
+| Profil du visiteur - Dernière interaction [!DNL Target] | Spécifie l&#39;heure de la dernière interaction avec [!DNL Target]. L’interaction se produit sur chaque requête [!DNL Target], car l’implémentation actuelle de [!DNL Target] met à jour le profil de chaque requête. | Double, millisecondes | SES_PROFILE_UPDATE_TIME |
+| Visitor Profile - Pages Seen Before Activity | Indique le nombre total de pages vues (impressions), y compris la visite/session en cours jusqu’à ce que le visiteur rejoigne l’activité. | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_TOTAL_PAGE_VIEWS |
+| Visitor Profile - Page Views in Current Visit | Indique le nombre de pages vues dans la visite/session en cours jusqu’à ce que le visiteur rejoigne l’activité. Plus précisément, le nombre d’impressions. Ces impressions ne sont pas de vraies pages vues, il s’agit plutôt du nombre de fois où la requête a été [!DNL Target]. [!DNL Target] n’est pas en mesure de distinguer les délais d’expiration ou toute autre raison pour laquelle l’utilisateur ou l’utilisatrice n’a pas reçu ou vu le contenu. | Double (uniquement nombre entier positif) | SES_SESSION_POSITION |
+| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session en cours avec [!DNL Target]. La visite avec [!DNL Target] peut être initiée sans entrer dans une activité. Il suffit d’appeler une requête [!DNL Target]. Un visiteur peut mettre un certain temps avant d’accéder à l’activité et que l’instantané soit pris. | Double, millisecondes | SES_SESSION_START |
+| Visitor Profile - Start of Most Recent Visit | Indique l’heure de début de la dernière visite/session avec [!DNL Target]. Cet attribut est mis à jour lorsque la session expire.<br>S’il s’agit de la première session pour le visiteur, cela entraîne des `LAST_SESSION_START = 0.` | Double, millisecondes | SES_LAST_SESSION_START |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Indique la durée entre la session précédente et l’heure à laquelle l’utilisateur saisit l’activité et l’instantané est exécuté. | Double, millisecondes | SES_RECENCY |
-| Visitor Profile - Time in Visit Before Enter Activity | Indique la différence entre la dernière interaction avec [!DNL Target] et le début de la visite en cours. Cet attribut peut être considéré comme une durée de visite/session jusqu’à ce que l’utilisateur entre dans l’activité et que l’instantané soit pris.<br>Des valeurs négatives surviennent lorsque la session démarre et que la dernière heure de mise à jour est déclenchée par le même appel [!DNL Target]. Les valeurs négatives doivent être considérées comme 0 (zéro). | Double, millisecondes | SES_SESSION_TIME |
-| Profil de visiteur – Nombre total de visites | Indique le nombre total de visites/sessions. N’inclut pas la visite/session active. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_TOTAL_SESSIONS |
-| Visitor Profile - Total Visits to Activity | Indique le nombre de visites sur une activité particulière. En l’absence de visite précédente, renvoie 0 (zéro). | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_PREVIOUS_VISIT_COUNT |
+| Visitor Profile - Time in Visit Before Enter Activity | Spécifie la différence entre la dernière interaction avec [!DNL Target] et le moment où la visite actuelle a commencé. Cet attribut peut être considéré comme une durée de visite/session jusqu’à ce que l’utilisateur entre dans l’activité et que l’instantané soit pris.<br>Les valeurs négatives se produisent lorsque le démarrage de la session et l’heure de la dernière mise à jour sont déclenchés par le même appel [!DNL Target]. Les valeurs négatives doivent être considérées comme 0 (zéro). | Double, millisecondes | SES_SESSION_TIME |
+| Profil de visiteur – Nombre total de visites | Indique le nombre total de visites/sessions. N’inclut pas la visite/session active. | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_TOTAL_SESSIONS |
+| Visitor Profile - Total Visits to Activity | Indique le nombre de visites sur une activité particulière. En l’absence de visite précédente, renvoie 0 (zéro). | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_PREVIOUS_VISIT_COUNT |
 | Visitor Profile - Total Visits to Activity with Conversion | Indique le nombre de visites/sessions sur une activité particulière en cas d’au moins une conversion durant la visite. | Double | SES_CUMULATIVE_SUCCESSES |
-| Visitor Profile - Visits to Activity with No Conversion | Nombre de visites/sessions sans conversion sur une activité particulière. Cette valeur est réinitialisée à zéro après la conversion ou -1 si la conversion n’a jamais eu lieu. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_SUCCESS_RECENCY |
+| Visitor Profile - Visits to Activity with No Conversion | Nombre de visites/sessions sans conversion sur une activité particulière. Cette valeur est réinitialisée à zéro après la conversion ou -1 si la conversion n’a jamais eu lieu. | Double (nombre entier positif uniquement) 1, 2, 3, etc. | SES_SUCCESS_RECENCY |
