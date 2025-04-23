@@ -4,10 +4,10 @@ description: Découvrez comment utiliser l’intégration  [!DNL Target]/[!DNL R
 title: Comment intégrer  [!DNL Target]  à  [!DNL Real-Time Customer Data Platform] ?
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
+source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 85%
+source-wordcount: '975'
+ht-degree: 71%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 85%
 
 [!DNL Real-Time Customer Data Platform] (RTCDP), qui repose sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. RTCDP vous permet de créer des profils clients afin d’offrir des expériences personnalisées à votre clientèle sur l’ensemble des canaux et appareils en temps réel.
 
-Pour plus d’informations sur RTCDP, consultez la page [Présentation de Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank}.
+Pour plus d’informations sur RTCDP, consultez la présentation de [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank}.
 
 ## Fonctionnalités principales
 
 Les principales fonctionnalités sont les suivantes :
 
 * Intégration directe de [!DNL Target] à Real-Time CDP/[!DNL Adobe Experience Platform] sur Edge (suppression de la dépendance aux [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] avec gouvernance et application des politiques
+* [!UICONTROL Target Edge Destinations Card] de la gouvernance et de l’application des politiques
 * Segments Real-time CDP et attributs de profil partagés
 
 ## Scénarios d’implémentation
@@ -42,7 +42,7 @@ Les sections suivantes indiquent le type de cas d’utilisation de la personnali
 | <ul><li>[!DNL RTCDP] (tout SKU) et [!DNL Target]</li></ul> | <ul><li>Personnalisation de la prochaine session</li><li>Personnalisation de la même page via Edge</li><li>Application de la gouvernance lors du partage de segments</li></ul> |
 | <ul><li>[!DNL RTCDP] (tout SKU), [!DNL AAM] et [!DNL Target]</li></ul> | <ul><li>Personnalisation de la prochaine session</li><ul><li>Segments [!DNL AAM]</li><li>Segments tiers via [!DNL AAM]</li></ul><li>Personnalisation de la même page via Edge</li><ul><li>Segments [!DNL RTCDP]</li><li>Application de la gouvernance lors du partage de segments</li></ul> |
 
-### Combinaison de l’implémentation [!UICONTROL at.js] et [!DNL Platform Web SDK]
+### Combinaison d’implémentation [!UICONTROL at.js] et [!DNL Platform Web SDK]
 
 | Solutions | Cas d’utilisation activé |
 | --- | --- |
@@ -63,7 +63,7 @@ Le tableau suivant indique le temps d’évaluation des segments pour les évén
 
 ## Utiliser des audiences d’[!DNL Adobe Experience Platform] {#aep}
 
-Les [audiences](/help/main/c-target/c-audiences/audiences.md) créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée. [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), qui repose sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils clients afin d’offrir des expériences personnalisées à votre clientèle sur l’ensemble des canaux et appareils en temps réel.
+Les [audiences](/help/main/c-target/c-audiences/audiences.md) créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée. [Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), qui repose sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils clients afin d’offrir des expériences personnalisées à votre clientèle sur l’ensemble des canaux et appareils en temps réel.
 
 En associant [!DNL Target] à [!DNL Real-Time Customer Data Platform], nos clientes et clients peuvent offrir une personnalisation web plus poussée. Cette intégration vous permet de déverrouiller de nouveaux segments, inaccessibles autrefois pour [!DNL Target], afin d’activer la personnalisation en temps réel en millisecondes sur la première page de la visite d’un client ou d’une cliente sur le web. Utilisez les audiences et les attributs de profil créés dans [!DNL Adobe Experience Platform] pour étendre les points de données disponibles pour une personnalisation plus riche.
 
@@ -76,13 +76,14 @@ L’intégration permet de déverrouiller les cas d’utilisation clés suivants
 
 Les attributs de profil Real-Time CDP peuvent être transmis à [!DNL Target] pour être utilisés dans les offres HTML et les [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-### Limites et considérations de la fonctionnalité Attributs de profil Real-Time CDP
+### Limites et considérations de la fonctionnalité Attributs de profil Real-Time CDP {#limitations}
 
 Tenez compte des points suivants :
 
-* Les attributs d’une offre donnée doivent provenir du même environnement de test [!UICONTROL Experience Platform]. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test [!UICONTROL Experience Platform].)
-* Les attributs d’une offre donnée peuvent provenir de différentes sources, à savoir le profil [!DNL Target] et le profil [!UICONTROL Experience Platform]. (En d’autres termes, vous pouvez combiner des attributs provenant de [!DNL Target] ou du profil [!UICONTROL Experience Platform].)
-* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour [!UICONTROL Real-Time CDP Profile Attributes], au cas où l’attribut n’aurait pas de valeur explicite. Par exemple, si une politique de consentement ou de gouvernance bloque l’utilisation de l’attribut dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
+* Les attributs d’une offre donnée doivent provenir du même sandbox [!UICONTROL Experience Platform]. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents sandbox [!UICONTROL Experience Platform].)
+* Les attributs d’une offre donnée peuvent provenir de différentes sources, à savoir du profil [!DNL Target] et du profil [!UICONTROL Experience Platform]. (En d’autres termes, vous pouvez combiner des attributs provenant de l’[!DNL Target] ou du profil [!UICONTROL Experience Platform].)
+* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut à [!UICONTROL Real-Time CDP Profile Attributes], au cas où l’attribut n’a pas de valeur explicite. Par exemple, si une politique de consentement ou de gouvernance bloque l’utilisation de l’attribut dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
+* [!DNL Target] prend uniquement en charge le type de données « chaîne » pour [!DNL Adobe Experience Platform] attributs de profil à utiliser dans les offres. Les attributs de type « Map » et « Array » ne sont pas encore pris en charge.
 
 ### Exemple de cas d’utilisation JSON
 
@@ -90,8 +91,8 @@ En tant que personne travaillant dans le marketing en ligne, vous souhaitez que 
 
 Pour créer une offre JSON afin de partager des attributs de profil AEP/unifié avec [!DNL Target], procédez comme suit :
 
-1. Lors de la [création d&#39;une offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dans la liste **[!UICONTROL Select a source]**, sélectionnez **[!UICONTROL Adobe Experience Platform]**.
-1. Dans la liste **[!UICONTROL Select a profile sandbox name]**, sélectionnez un environnement de test.
+1. Lors de la [création d’une offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dans la liste **[!UICONTROL Select a source]**, sélectionnez **[!UICONTROL Adobe Experience Platform]**.
+1. Dans la liste **[!UICONTROL Select a profile sandbox name]**, sélectionnez le sandbox de votre choix.
 1. Dans la liste **[!UICONTROL Select a profile attribute]**, sélectionnez les attributs souhaités.
 1. (Facultatif) Dans la liste **[!UICONTROL Insert a default value]**, sélectionnez les valeurs souhaitées.
 1. Cliquez sur **[!UICONTROL Add]**.
@@ -104,12 +105,12 @@ L’illustration suivante montre l’ajout des deux attributs de profil `loyalty
 
 Pour plus d’informations, voir les rubriques suivantes :
 
-* [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr#destinations){target=_blank} dans les *Notes de mise à jour d’Adobe Experience Platform*
-* [Configurez les destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr){target=_blank} dans le guide de *présentation des destinations*.
-* [Connexion à Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide de *présentation des destinations*
-* [Attributs de mappage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr#map-attributes){target=_blank} dans le guide de *présentation des destinations*.
+* [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr#destinations){target=_blank} dans les notes de mise à jour de *Adobe Experience Platform*
+* [Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*.
+* [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*
+* [Attributs de mappage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr#map-attributes){target=_blank} dans le guide *Présentation des destinations* .
 * [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} dans le guide *Vue d’ensemble des destinations*.
-* [Personnalisation de la même page et de la page suivante via les destinations  [!DNL Adobe Target]  et Personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=fr#same-next-page-personalization){target=_blank} sous « Questions fréquentes » dans le guide *Vue d’ensemble des destinations*.
+* [Personnalisation de la même page et de la page suivante via les destinations  [!DNL Adobe Target]  et Custom Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=fr#same-next-page-personalization){target=_blank} sous « Questions fréquentes » dans le guide *Vue d’ensemble des destinations*.
 
 ## Vidéos et articles de blog {#videos-blogs}
 
@@ -119,7 +120,7 @@ Consultez les vidéos et articles de blog suivants pour en savoir plus sur la pe
 
 Découvrez comment personnaliser l’accès suivant avec [!DNL Real-Time Customer Data Platform] et [!DNL Adobe Target]. La destination [!DNL Adobe Target] dans [!DNL Real-Time CDP] permet d’utiliser des segments [!DNL Experience Platform] dans [!DNL Adobe Target] afin d’offrir une personnalisation de la même page et de la page suivante, avec prise en charge de la gouvernance et de la confidentialité.
 
-Pour plus d’informations, consultez la section [Personnalisation de l’accès suivant avec Real-Time CDP et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=fr){target=_blank} dans le guide des *tutoriels de Platform*.
+Pour plus d’informations, consultez [Personnalisation de l’accès suivant avec Real-Time CDP et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=fr){target=_blank} dans le guide *Tutoriels Platform*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
@@ -149,4 +150,4 @@ Découvrez comment utiliser les attributs de profil [!DNL Adobe Real-Time Custom
 
 ### Blog et vidéo [!DNL Adobe Target] : personnalisation améliorée de la même page
 
-[[!DNL Adobe]  annonce le Personalization amélioré de même page avec  [!DNL Adobe Target] et [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] annonce le Personalization amélioré de la même page avec [!DNL Adobe Target] et [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
