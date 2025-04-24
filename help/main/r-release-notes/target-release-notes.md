@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
+source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 33%
+source-wordcount: '642'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : jeudi 23 avril 2025**
+**Dernière mise à jour : vendredi 24 avril 2025**
 
 >[!NOTE]
 >
@@ -23,14 +23,16 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.4.5 (24 avril 2025)
+## [!DNL Target Standard/Premium] 25.4.5 (25 avril 2025)
 
 Cette version comprend les correctifs et mises à jour suivants :
 
+* Correction d’un problème qui entraînait des incohérences dans les listes d’audience entre la page des paramètres de [!UICONTROL Activity] et la page d’aperçu des [!UICONTROL Reporting]. (TGT-52203)
+* Correction d’un problème qui empêchait l’ajout d’une nouvelle page à une activité en raison d’une erreur d’entrée utilisateur non valide. (TGT-52263)
 * Correction d’un problème en raison duquel les recommandations ne s’affichaient pas sur le site web du client ou de la cliente après l’activation de l’activité [!DNL Recommendations]. (TGT-52164)
-* `OptionLocalIDs` n’incrémente plus incorrectement lorsque l’option reste inchangée. (TGT-52187)
-* Les fichiers de rapports téléchargés affichent désormais correctement les données présentes dans l’interface utilisateur de création de rapports. (TGT-52068)
-* Les opérations par lots n’échouent plus après l’ajout de règles de diffusion de page. (TGT-52097)
+* Correction d’un problème en raison duquel les `OptionLocalIDs` étaient incorrectement incrémentées lorsque l’option restait inchangée. (TGT-52187)
+* Correction d’un problème en raison duquel les fichiers de création de rapports téléchargés affichaient correctement les données présentes dans l’interface utilisateur de création de rapports. (TGT-52068)
+* Correction d’un problème en raison duquel les opérations par lots n’échouaient plus après l’ajout de règles de diffusion de page. (TGT-52097)
 * Correction d’un problème en raison duquel [!DNL Target] supprimait tous les paramètres de requête de l’URL du site web. (TGT-52100)
 * Correction d’une erreur de console qui empêchait les clients de créer des activités dans l’interface utilisateur de Target héritée et mise à jour. (TGT-52181)
 * Correction d’un problème qui empêchait les clients et clientes d’ajouter de nouvelles pages, provoquant une erreur d’entrée utilisateur non valide. (TGT-52258)
@@ -45,7 +47,7 @@ Cette version comprend les correctifs et mises à jour suivants :
 * Correction d’un problème qui empêchait l’enregistrement d’une activité avec la mesure URL [!UICONTROL View a Page]. (TGT-52260)
 * Correction d’un problème qui empêchait les clients de sélectionner des espaces de travail lors de la création d’offres dans une activité. (TGT-52289)
 * Correction d’un problème où les modifications d’une expérience s’affichaient incorrectement lors du passage à une autre expérience. (TGT-52184)
-* Correction d’un problème en raison duquel l’offre par défaut s’affichait incorrectement dans l’interface utilisateur de [!DNL Target] après l’ouverture de l’activité. (TGT-52198)
+* Correction d’un problème en raison duquel l’offre par défaut s’affichait incorrectement dans l’interface utilisateur de [!DNL Target] lors de l’ouverture de l’activité. (TGT-52198)
 
 ## Mise à jour des autorisations Target (22 avril 2025)
 
