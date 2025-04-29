@@ -4,10 +4,10 @@ description: Découvrez le fonctionnement  [!DNL Adobe Target]  et obtenez des i
 title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -97,33 +97,36 @@ Les activités [!UICONTROL Recommendations] affichent automatiquement les produi
 
 Pour plus d’informations, consultez [Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
-## Comptabilisation de l[!DNL Target]utilisation des appels au serveur {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target] compte uniquement les appels au serveur qui offrent une valeur ajoutée aux clients. Le tableau suivant montre comment compte [!DNL Target] points d’entrée, la mbox unique, les appels de mbox par lots, les appels d’exécution, de prérécupération et de notification.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-Les informations suivantes vous aident à comprendre la stratégie de comptage utilisée pour les appels au serveur [!DNL Target], comme indiqué dans le tableau ci-dessous :
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **Count Once** : compte une fois par appel API.
-* **Compter le nombre de mbox** : compte le nombre de mbox sous le tableau dans la payload d’un seul appel API.
-* **Ignorer** : n’est pas comptabilisé du tout.
-* **Compter le nombre de vues (une fois)** : compte le nombre de vues sous le tableau dans la payload. Dans une implémentation standard, une notification d’affichage ne comporte qu’une seule vue sous le tableau de notifications, ce qui équivaut à compter une fois dans la plupart des implémentations.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| Point d&#39;entrée | Type de récupération | Options | Stratégie de comptage |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | Simple | [!UICONTROL execute] | Comptage une fois |
-| `rest/v2/batchmbox` | Batch | [!UICONTROL execute] | Compter le nombre de mbox |
-|  | Batch | [!UICONTROL prefetch] | Ignorer |
-|  | Batch | [!UICONTROL notifications] | Compter le nombre de mbox |
-| `/ubox/[raw\|image\|page]` | Simple | [!UICONTROL execute] | Comptage une fois |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | Simple | [!UICONTROL execute] > [!UICONTROL pageLoad] | Comptage une fois |
-|  | Simple | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | Ignorer |
-|  | Simple | [!UICONTROL prefetch] > [!UICONTROL views] | Ignorer |
-|  | Batch | [!UICONTROL execute] > [!UICONTROL mboxes] | Compter le nombre de mbox |
-|  | Batch | [!UICONTROL prefetch] > [!UICONTROL mboxes] | Ignorer |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL views] | Compter le nombre de vues (une fois) |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL pageLoad] | Comptage une fois |
-|  | Batch | [!UICONTROL notifications] > type ([!UICONTROL conversions]) | Comptage une fois |
-|  | Batch | [!UICONTROL notifications] > [!UICONTROL mboxes] | Compter le nombre de mbox |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## Le réseau Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
