@@ -75,4 +75,4 @@ Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les act
 
 Dans [!DNL Target], [!DNL Recommendations] fournit une fonctionnalité de création de rapports améliorée qui tire parti des fonctionnalités de [!DNL Target] et de [!DNL Experience Cloud]. Au lieu d’afficher seulement l’effet élévateur fourni par les [!DNL Recommendations] comparé aux résultats sans elles, vous pouvez afficher des informations complètes sur votre activité [!DNL Recommendations].
 
-![}image overview_report](assets/overview_report.png)
+![&rbrace;image overview_report](assets/overview_report.png)

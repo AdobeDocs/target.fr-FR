@@ -29,7 +29,7 @@ Le [modèle d’expérience de bannière de carrousel avec miniatures](https://g
 
 Le [modèle d’expérience de bannière de carrousel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les flèches droite et gauche.
 
-![ {exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
+![ &lbrace;exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
 
 ## Bannière avec compte à rebours {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
@@ -47,7 +47,7 @@ Le [modèle d’expérience Créateur de boutons](https://github.com/Adobe-Marke
 
 Le [modèle d’expérience de cadre lumineux avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) est une fenêtre contextuelle sous forme de cadre lumineux, qui recouvre la bannière, avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
-![{exp-template-lightbox-countdown image](assets/exp-template-lightbox-countdown.png)
+![&lbrace;exp-template-lightbox-countdown image](assets/exp-template-lightbox-countdown.png)
 
 ## Cadre lumineux avec intention de quitter {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 

@@ -20,7 +20,7 @@ Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherch
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
-1. 
+1. &#x200B;
    1. Nommez l’audience et ajoutez une description facultative.
 1. Faites glisser **[!UICONTROL Traffic Sources]** dans le volet du créateur d’audiences.
 

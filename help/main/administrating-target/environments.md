@@ -69,7 +69,7 @@ Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 >
 >Vous ne pouvez pas supprimer l’environnement [!UICONTROL Production], mais vous pouvez le renommer.
 
-## [!BADGE Premium ]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."}
+## [!BADGE Premium &#x200B;]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."}
 
 Vous pouvez prévisualiser le contenu des collections et des exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 

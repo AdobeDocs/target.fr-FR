@@ -33,7 +33,7 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée a
 
 1. Cliquez sur **[!UICONTROL Analytics]** dans le menu de navigation de gauche.
 
-   ![}Image Screen_DebuggerTrackKit](assets/Screen_DebuggerTrackServ.png)
+   ![&rbrace;Image Screen_DebuggerTrackKit](assets/Screen_DebuggerTrackServ.png)
 
    Le serveur de suivi [!DNL Analytics] se trouve dans la section [!UICONTROL Hostname] du débogueur.
 

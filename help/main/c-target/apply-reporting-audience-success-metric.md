@@ -46,7 +46,7 @@ Prenez en compte les points suivants lorsque vous appliquez une audience de rapp
 
 Pour afficher la segmentation dans les rapports, sélectionnez l’audience souhaitée dans la liste déroulante [!UICONTROL Audience] du rapport de l’activité.
 
-![image de menu déroulant de reporting_audience_1}](assets/reporting_audience_dropdown.png)
+![image de menu déroulant de reporting_audience_1&rbrace;](assets/reporting_audience_dropdown.png)
 
 ## Exemple
 

@@ -115,7 +115,7 @@ Où *μ<sub>v</sub>* et *μ<sub>v0</sub>* sont les moyens de *ν* et *ν<sub>0</
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-Où *static<sup>2</sup><sub>v</sub>* et *exemple <sup>2</sup><sub>v<sub>0</sub></sub>* sont les variations de deux expériences *ν* et *ν<sub>0</sub>* respectivement, et *N<sub>v</sub>* et *N<sub> 8}v<sub>0</sub></sub>* sont des tailles d’échantillon pour *ν* et *<sub>0</sub>*, respectivement.
+Où *static<sup>2</sup><sub>v</sub>* et *exemple <sup>2</sup><sub>v<sub>0</sub></sub>* sont les variations de deux expériences *ν* et *ν<sub>0</sub>* respectivement, et *N<sub>v</sub>* et *N<sub> 8&rbrace;v<sub>0</sub></sub>* sont des tailles d’échantillon pour *ν* et *<sub>0</sub>*, respectivement.
 
 Pour le test en t de Welch, le degré de liberté est calculé comme suit :
 
