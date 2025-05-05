@@ -246,4 +246,4 @@ Cette vidéo explique comment créer un test A/B à l’aide du processus assist
 * Créer une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)

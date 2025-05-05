@@ -110,4 +110,4 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)

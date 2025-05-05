@@ -19,5 +19,5 @@ Pour plus d’informations, voir [Integrate [!DNL Audience Manager] with [!DNL T
 
 ## Vidéo : Intégrez [!DNL Target] à [!DNL Adobe Audience Manager] (3:06)
 
->[!VIDEO](https://video.tv.adobe.com/v/35151)
+>[!VIDEO](https://video.tv.adobe.com/v/3421743?captions=fre_fr)
 

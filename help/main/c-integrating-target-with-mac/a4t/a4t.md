@@ -107,7 +107,7 @@ Cette vidéo explique de quelle façon utiliser [!DNL Analytics] comme source de
 * Explication du fonctionnement d’A4T
 * Compréhension des conditions préalables requises pour pouvoir utiliser A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/3421725?captions=fre_fr)
 
 ### Intégration d’Analytics/d’Adobe Target (A4T) (40:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

@@ -210,7 +210,7 @@ Cette vidéo explique comment créer des espaces de travail.
 
 * Utilisation des espaces de travail par défaut
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421731?captions=fre_fr)
 
 ### Comment créer des propriétés dans Adobe Target (3:05) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

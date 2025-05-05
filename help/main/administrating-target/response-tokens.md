@@ -426,4 +426,4 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 >
 >La vidéo mentionne `option.name` et `option.id`, qui ont été remplacées par `offer.name` et `offer.id`, respectivement.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33875?captions=fre_fr)

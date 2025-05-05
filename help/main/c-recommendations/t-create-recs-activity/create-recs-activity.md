@@ -174,4 +174,4 @@ Utilisez le [!UICONTROL Visual Experience Composer] d’[!DNL Target] (VEC) pour
 
 ## Vidéo de formation : création d’une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688)
+>[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)

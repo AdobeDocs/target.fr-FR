@@ -310,7 +310,7 @@ Objectifs de la formation :
 * Les concepts de propriétés et d’espaces de travail, et comment ces limites et regroupements fonctionnent pour permettre le contrôle des niveaux d’accès des utilisateurs
 * Différents exemples de propriétés dont votre organisation doit tenir compte
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421737?captions=fre_fr)
 
 ### Heures d’ouverture : espaces de travail [!DNL Target] Premium
 

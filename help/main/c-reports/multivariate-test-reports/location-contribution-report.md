@@ -37,4 +37,4 @@ Le deuxième tableau fournit un rapport au niveau de l’offre. Il présente le 
 
 Cette vidéo explique comment créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL Target]. Le rapport Contribution des emplacements est décrit dans la vidéo à partir de 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)

@@ -121,4 +121,4 @@ Cette vidéo comprend des informations sur l’utilisation des audiences.
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)

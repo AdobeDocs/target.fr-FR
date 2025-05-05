@@ -107,4 +107,4 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)

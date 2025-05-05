@@ -17,15 +17,15 @@ Déboguer [!DNL Adobe Target] avec [!DNL Adobe Experience Cloud Debugger].
 
 ## Ajouter l’extension
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33872/?quality=12&captions=fre_fr)
 
 ## Débogage de base de [!DNL Target]
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37917/?quality=12&captions=fre_fr)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33895/?quality=12&captions=fre_fr)
 
 ## Ressources supplémentaires
 

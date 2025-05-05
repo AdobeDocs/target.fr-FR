@@ -70,7 +70,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
 
 ## Webinaire sur les bases d’Adobe Target : présentation de Recommendations ![Badge de tutoriel](/help/main/assets/tutorial.png) {#intro-to-recs}
 

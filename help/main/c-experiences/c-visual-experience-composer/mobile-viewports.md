@@ -174,7 +174,7 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
 
 ### Préférences du compte dans Adobe Target ![Badge de présentation](/help/main/assets/overview.png)
 

@@ -175,7 +175,7 @@ Pour plus d’informations, voir l’article de blog suivant : [AEM 6.5 : suppre
 
 La vidéo suivante montre comment configurer et utiliser [!UICONTROL Experience Fragments] :
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38081?captions=fre_fr)
 
 >[!NOTE]
 >
