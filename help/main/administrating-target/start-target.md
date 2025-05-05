@@ -20,7 +20,7 @@ Cet article décrit les premières étapes que [!DNL Adobe Target] administrateu
 
 Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs groupes spécifiques au rôle. Ces deux tâches sont effectuées dans [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) dans l’aide d’*Experience Cloud et des services principaux*.
+Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr) dans l’aide d’*Experience Cloud et des services principaux*.
 
 Vous recevrez un e-mail d’invitation une fois que l’administrateur système aura effectué ces étapes.
 

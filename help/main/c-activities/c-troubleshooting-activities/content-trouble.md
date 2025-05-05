@@ -111,7 +111,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=fr){target=_blank}.
 
 ## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 

@@ -2,7 +2,7 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment une activité [!UICONTROL Auto-Target] offre l’expérience la plus adaptée à chaque visiteur en fonction des profils client et du comportement de visiteurs similaires.
 title: Qu’est-ce qu’une activité [!UICONTROL Auto-Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71

@@ -2,7 +2,7 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser des collections de produits ou d’éléments dans  [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -46,7 +46,7 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
    ![Icônes de survol : modifier, copier et supprimer](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans le Recommendations [groupe hôte](/help/main/administrating-target/hosts.md) (environnement) par défaut configuré. Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans le Recommendations [groupe hôte](/help/main/administrating-target/hosts.md) (environnement) par défaut configuré. Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Collection]**.
 

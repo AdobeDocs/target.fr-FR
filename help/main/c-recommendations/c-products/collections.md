@@ -2,7 +2,7 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser des collections de produits ou d’éléments dans  [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
@@ -44,7 +44,7 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
    La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Create Collection] . Vous pouvez également modifier, copier et supprimer des collections existantes en cliquant sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de la collection souhaitée, puis en cliquant sur l’option souhaitée.
 
-   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Collection]**.
 

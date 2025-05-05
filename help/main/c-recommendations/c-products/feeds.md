@@ -2,7 +2,7 @@
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format  [!DNL Google Product Search]  flux et  [!DNL Analytics]  classifications de produits.
 title: Comment utiliser [!UICONTROL Feeds] dans  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification de produit [!DNL Adobe Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
+La classification de produit [!DNL Adobe Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >

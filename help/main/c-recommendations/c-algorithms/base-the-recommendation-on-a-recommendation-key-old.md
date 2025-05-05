@@ -34,7 +34,7 @@ Les différents algorithmes de recommandations se prêtent à un placement sur d
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme [!UICONTROL Cart-Based] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme [!UICONTROL Cart-Based] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « [!UICONTROL Recommended For You] » et aux algorithmes basés sur les éléments « [!UICONTROL People Who Viewed These, Bought Those] » et « [!UICONTROL People Who Bought These, Bought Those] ».
 

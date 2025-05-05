@@ -25,17 +25,17 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour en savoir plus sur ce que sont les vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien : [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+**Lien : [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/)**
 
 ![Site d’accueil](/help/main/c-experiences/assets/home.png)
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien : [Site produit](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+**Lien : [Site produit](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products)**
 
 ![site de produit](/help/main/c-experiences/assets/product-site.png)
 
-Alors que les produits nous intéressent davantage, nous décidons de cliquer sur le lien Produits. Comme pour le site d’accueil, l’intégralité du site de produits peut être définie comme une Vue. Nous pouvons nommer cet affichage « produits » comme le nom de chemin d’accès dans `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products`.
+Alors que les produits nous intéressent davantage, nous décidons de cliquer sur le lien Produits. Comme pour le site d’accueil, l’intégralité du site de produits peut être définie comme une Vue. Nous pouvons nommer cet affichage « produits » comme le nom de chemin d’accès dans `https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products`.
 
 ![site produit 2](/help/main/c-experiences/assets/product-site-2.png)
 
@@ -45,7 +45,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien : [Passage en caisse](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+**Lien : [Passage en caisse](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/checkout)**
 
 ![page paiement](/help/main/c-experiences/assets/checkout.png)
 
@@ -67,7 +67,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé via des balises dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
-1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sur vos sites.
+1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=fr){target=_blank} sur vos sites.
 
    Après avoir défini les affichages de votre SPA où vous souhaitez exécuter un test A/B ou XT, implémentez la fonction `triggerView()` d’at.js 2.x avec les affichages transmis en tant que paramètre. Cela permet aux spécialistes du marketing d’utiliser le compositeur d’expérience visuelle pour concevoir et exécuter les tests A/B et XT pour ces vues définies. Si la fonction `triggerView()` n’est pas définie pour ces affichages, le VEC ne détectera pas les affichages. Les spécialistes en marketing ne peuvent donc pas utiliser le VEC pour concevoir et exécuter des tests A/B et XT.
 
@@ -81,7 +81,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique SPA de commerce électronique :
 
-   **Lien : [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+   **Lien : [Home Site](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/)**
 
    ![home-react-1](/help/main/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Lien : [Site de produits](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+   **Lien : [Site de produits](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products)**
 
    Maintenant, regardons un exemple un peu plus compliqué. En tant que marketeurs, nous souhaitons personnaliser la deuxième ligne des produits en définissant la couleur de l’étiquette de prix sur rouge après qu’un utilisateur a cliqué sur le bouton Charger plus .
 
@@ -141,7 +141,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien : [Passage en caisse](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+   **Lien : [Passage en caisse](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/checkout)**
 
    ![Paiement React](/help/main/c-experiences/assets/react6.png)
 
@@ -354,7 +354,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Oui |
 | [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Oui |
-| [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Oui |
+| [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr){target=_blank} | Oui |
 | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Oui |
 
 ## Fonctionnalités prises en charge {#supported-features}
@@ -389,10 +389,10 @@ Considérez cet exemple d’utilisation :
 
 Les modifications suivantes ont été apportées :
 
-* Modification de la couleur d’arrière-plan dans la vue Accueil, située sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* Modification de la couleur du bouton dans la vue Produits, située sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Modification de la couleur d’arrière-plan dans la vue Accueil, située sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
+* Modification de la couleur du bouton dans la vue Produits, située sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 
-En gardant l’exemple ci-dessus à l’esprit, que se passerait-il lorsque nous configurons les paramètres [!UICONTROL Page Delivery] pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) dans un SPA avec at.js 2.*x* ?
+En gardant l’exemple ci-dessus à l’esprit, que se passerait-il lorsque nous configurons les paramètres [!UICONTROL Page Delivery] pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/) dans un SPA avec at.js 2.*x* ?
 
 ![Boîte de dialogue Diffusion de page](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ L’illustration suivante illustre la demande Flux cible - Chargement de page da
 
 **Parcours d’utilisateur n°1**
 
-* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* at.js 2.*x* effectue une requête vers Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
+* at.js 2.*x* effectue une requête vers Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
 * À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
-**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits.
+**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits.
 
-Remarque : L’utilisateur accédant à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) n’a pas déclenché de chargement de page.
+Remarque : L’utilisateur accédant à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) n’a pas déclenché de chargement de page.
 
 **Parcours d’utilisateur n°2**
 
-* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* at.js 2.*x* effectue une requête vers Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* Aucune activité n&#39;est qualifiée pour [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
+* at.js 2.*x* effectue une requête vers Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
+* Aucune activité n&#39;est qualifiée pour [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 * Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
-**Résultat** : même si vous avez défini `triggerView()` pour la vue Produits et que vous avez effectué une action sur la vue Produits via le SPA VEC, vous ne verrez pas l’action attendue puisque vous n’avez pas créé de règle qui incluait [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) dans les paramètres de diffusion de page.
+**Résultat** : même si vous avez défini `triggerView()` pour la vue Produits et que vous avez effectué une action sur la vue Produits via le SPA VEC, vous ne verrez pas l’action attendue puisque vous n’avez pas créé de règle qui incluait [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) dans les paramètres de diffusion de page.
 
 ### Bonne pratique
 

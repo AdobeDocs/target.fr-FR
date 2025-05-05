@@ -2,7 +2,7 @@
 keywords: critères;algorithme;secteur vertical;type de page;clé de recommandation;logique;plage de données;intervalle de recherche en amont;source de données de comportement;conception partielle;recommandations de sauvegarde;règles d’inclusion;pondération d’attribut;catégorie actuelle;attribut personnalisé;dernier élément acheté;dernier élément consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier élément consulté;dernier achat;le plus consulté;favori;récemment consulté
 description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités afin  [!DNL Recommendations] ’afficher les recommandations les plus appropriées pour votre activité.
 title: Comment créer des [!UICONTROL Criteria] dans  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

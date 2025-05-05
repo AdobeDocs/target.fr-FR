@@ -20,7 +20,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur le partage d
 +++Réponse
 Souvent, vous souhaitez créer un affichage de test pour différents groupes d’utilisateurs afin de leur permettre de consulter plus facilement les résultats du test. Dans Analytics, il est possible de créer un signet qui enregistre la vue actuelle d’un rapport, y compris les métriques, les périodes, les segments et d’autres données.
 
-Pour plus d’informations, voir [Gestionnaire de signets](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
+Pour plus d’informations, voir [Gestionnaire de signets](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=fr).
 
 +++
 
@@ -29,6 +29,6 @@ Pour plus d’informations, voir [Gestionnaire de signets](https://experiencelea
 +++Réponse
 Si vous utilisez des mesures et des segments spéciaux avec un test, vous pouvez envisager de créer un groupe d’utilisateurs pour votre équipe d’optimisation. Partagez ces mesures et ces segments avec le groupe à la place de membres individuels pour vous assurer qu’ils ont tous accès aux segments et aux mesures. Seuls les administrateurs peuvent partager des données avec des groupes.
 
-Voir [Partage de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) et [Partage de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Voir [Partage de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html?lang=fr) et [Partage de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html?lang=fr).
 
 +++

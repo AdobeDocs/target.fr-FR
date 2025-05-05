@@ -2,7 +2,7 @@
 keywords: conception de recommandations, créer une conception, copier une conception
 description: Découvrez comment créer une conception Recommendations Adobe [!DNL Target] en utilisant une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

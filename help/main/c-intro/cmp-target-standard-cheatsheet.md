@@ -33,7 +33,7 @@ Consultez le [forum de la communauté Target](/help/main/cmp-resources-and-conta
 
 **Quels sont les navigateurs non pris en charge par Target ?**
 
-Pour plus d’informations, consultez notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} . Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
+Pour plus d’informations, consultez notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} . Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilisez les commandes d&#39;affectation de pourcentages disponibles [à l’ét
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 

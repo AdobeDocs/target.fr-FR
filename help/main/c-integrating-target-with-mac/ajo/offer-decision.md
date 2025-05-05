@@ -19,9 +19,9 @@ Ajoutez des décisions d’offre créées dans [!DNL Adobe Journey Optimizer] au
 
 Pour plus d’informations sur [!DNL Adobe Journey Optimizer] et les décisions d’offre, consultez les rubriques suivantes dans la documentation *[!DNL Journey Optimizer]* :
 
-* [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=fr)
 
-* [À propos de la gestion de décision](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
+* [À propos de la gestion de décision](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr)
 
 ## Conditions préalables
 
@@ -72,7 +72,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de 
 
 1. Dans la boîte de dialogue **[!UICONTROL Add Offer Decision]**, sélectionnez l’environnement de test et l’emplacement souhaités.
 
-   Un [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} dans [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement intermédiaire. Un [emplacement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
+   Un [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=fr){target=_blank} dans [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement intermédiaire. Un [emplacement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=fr){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon emplacement.
 
    ![Listes déroulantes Environnement de test et Emplacements dans la boîte de dialogue Ajouter une décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 

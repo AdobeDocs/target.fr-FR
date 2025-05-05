@@ -2,7 +2,7 @@
 keywords: ciblage automatique;ciblage;affectation du trafic;questions fréquentes;faq;dépannage;dépannage;création de rapports;rapports;rapport de synthèse de ciblage automatique;rapport de synthèse;segments automatisés;attributs importants
 description: Découvrez comment interpréter les rapports d’activité [!UICONTROL Auto-Target] dans  [!DNL Target].
 title: Comment interpréter un rapport [!UICONTROL Auto-Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

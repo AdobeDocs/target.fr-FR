@@ -2,7 +2,7 @@
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
 description: Adobe Découvrez comment différents segments définis par les modèles  [!DNL Target]  personnalisation répondent aux offres/expériences dans l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

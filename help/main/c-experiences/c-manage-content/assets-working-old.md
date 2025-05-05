@@ -86,7 +86,7 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 

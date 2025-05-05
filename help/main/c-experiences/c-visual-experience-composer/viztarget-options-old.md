@@ -217,7 +217,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -249,7 +249,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -281,7 +281,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -371,7 +371,7 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 ## Considérations {#considerations}
 
-* Si une offre contient du contenu HTML, voir « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} pour plus d’informations.
+* Si une offre contient du contenu HTML, voir « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank} pour plus d’informations.
 
 ## Prise en charge des éléments personnalisés {#custom}
 

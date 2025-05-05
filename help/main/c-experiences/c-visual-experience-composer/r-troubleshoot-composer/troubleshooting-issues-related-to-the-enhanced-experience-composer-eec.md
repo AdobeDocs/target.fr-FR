@@ -135,13 +135,13 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
   **Remedy:** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
 
-* **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+* **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
   **Solution :** la question suivante (Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2) s’affiche.
 
 ## Le compositeur d’expérience avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement)  {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Il se peut que le message d’erreur décrit ci-dessus s’affiche dans « Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site ». si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Il se peut que le message d’erreur décrit ci-dessus s’affiche dans « Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site ». si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
 Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres navigateurs suivent des étapes similaires) :
 
@@ -158,7 +158,7 @@ Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres
 
    ![image firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Si vous constatez que votre site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} pour plus d’informations sur la politique de prise en charge de TLS par Target. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018){target=_blank} contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir une configuration avec votre version de TLS et le domaine.
+1. Si vous constatez que votre site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank} pour plus d’informations sur la politique de prise en charge de TLS par Target. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018){target=_blank} contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir une configuration avec votre version de TLS et le domaine.
 
 ## Je reçois des messages de délai d’expiration ou des erreurs « accès refusé » lors du chargement de sites où un serveur proxy est activé. (Compositeur d’expérience avancé uniquement)  {#section_60CBB9022DC449F593606C0E6252302D}
 

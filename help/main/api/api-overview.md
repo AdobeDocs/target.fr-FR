@@ -33,4 +33,4 @@ Le portail destiné aux développeurs contient des informations sur les types de
 * API de création de rapports
 * API de recommandation.
 
-Pour plus d’informations, voir [Présentation de l’API Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} dans le [ Guide du développeur Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Pour plus d’informations, voir [Présentation de l’API Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=fr){target=_blank} dans le [ Guide du développeur Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.

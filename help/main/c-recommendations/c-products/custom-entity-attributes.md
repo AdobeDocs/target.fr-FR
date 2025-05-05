@@ -2,7 +2,7 @@
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
 description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue Recommendations  [!DNL Target] Adobe.
 title: Comment utiliser les attributs d’entité personnalisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -127,7 +127,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités, voir la [ documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+Pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités, voir la [ documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 

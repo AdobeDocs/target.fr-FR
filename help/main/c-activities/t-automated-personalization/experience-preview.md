@@ -2,7 +2,7 @@
 keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
 description: Découvrez comment utiliser les URL d’aperçu de l’expérience pour les activités Adobe [!DNL Target] Automated Personalization afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée.
 title: Comment utiliser les URL d’aperçu d’expérience dans les activités Automated Personalization ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

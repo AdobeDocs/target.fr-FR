@@ -2,7 +2,7 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project;observer;editor;approver;publisher
 description: Découvrez comment créer des espaces de travail distincts (profils de produit), puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels.
 title: Que sont les autorisations des utilisateurs d’Enterprise et comment les utiliser ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc

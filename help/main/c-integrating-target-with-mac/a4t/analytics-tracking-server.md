@@ -29,7 +29,7 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée a
 
 1. Depuis la page sur laquelle vous créez votre activité, ouvrez le [!DNL Adobe Experience Platform Debugger].
 
-   Si vous n’avez pas installé le débogueur, reportez-vous à la section [Présentation de l’Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
+   Si vous n’avez pas installé le débogueur, reportez-vous à la section [Présentation de l’Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=fr).
 
 1. Cliquez sur **[!UICONTROL Analytics]** dans le menu de navigation de gauche.
 
