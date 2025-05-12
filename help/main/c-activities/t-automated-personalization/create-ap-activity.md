@@ -2,13 +2,13 @@
 keywords: automated personalization;ap
 description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) à l’aide de l’[!UICONTROL Visual Experience Composer] .
 title: Comment créer une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 24%
+source-wordcount: '1851'
+ht-degree: 23%
 
 ---
 
@@ -42,7 +42,7 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
 
    La page avec l’URL spécifiée s’ouvre dans le VEC.
 
-1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
+1. Pour attribuer un nom à l’activité, cliquez sur l’icône **[!UICONTROL Edit]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Untitled Activity] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Save]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
 
@@ -138,7 +138,7 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
    ![Options de l’objectif d’affectation du trafic](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** Si votre objectif est de tester l’algorithme, utilisez une répartition de 50/50 % des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggérée pour une utilisation avec des « expériences aléatoires » comme contrôle.
-   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** si votre objectif est de créer une activité « toujours active », placez 10 % des visiteurs dans le contrôle. Cette option permet de s’assurer qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Le compromis ici est qu&#39;en l&#39;exchange de la personnalisation d&#39;une plus grande proportion de votre trafic, vous avez moins de précision dans ce qu&#39;est exactement l&#39;ascenseur. Quel que soit votre objectif, cette option est la répartition recommandée du trafic lors de l’utilisation d’une expérience spécifique comme contrôle.
+   * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** si votre objectif est de créer une activité « toujours active », placez 10 % des visiteurs dans le contrôle. Cette option permet de s’assurer qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Le compromis ici est qu&#39;en échange de la personnalisation d&#39;une plus grande proportion de votre trafic, vous avez moins de précision dans ce qu&#39;est exactement l&#39;ascenseur. Quel que soit votre objectif, cette option est la répartition recommandée du trafic lors de l’utilisation d’une expérience spécifique comme contrôle.
    * **[!UICONTROL Custom Allocation]:** fractionnez manuellement le pourcentage selon vos besoins.
 
 1. (Conditionnel) Dans la liste déroulante [!UICONTROL Control], [sélectionnez une expérience spécifique à utiliser comme contrôle](/help/main/c-activities/t-automated-personalization/experience-as-control.md) ou sélectionnez [!UICONTROL Random Experience.]

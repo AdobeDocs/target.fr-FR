@@ -4,9 +4,9 @@ description: Découvrez comment utiliser le [!UICONTROL Visual Experience Compos
 title: Comment créer un [!UICONTROL Multivariate Test] ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '731'
 ht-degree: 26%
 
 ---
@@ -39,8 +39,7 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
 
    La [!UICONTROL Visual Experience Composer] s’ouvre.
 
-1. &#x200B;
-   1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
+1. Pour attribuer un nom à l’activité, cliquez sur l’icône **[!UICONTROL Edit]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Untitled Activity] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Save]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
 
@@ -129,4 +128,4 @@ Cette vidéo explique comment planifier et créer un test multivarié à l’aid
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

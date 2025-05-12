@@ -4,9 +4,9 @@ description: Utilisez le [!UICONTROL Visual Experience Composer] (VEC) pour cré
 title: Comment créer un test A/B ?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 17%
 
 ---
@@ -47,7 +47,7 @@ Pour créer une activité de [!UICONTROL A/B Test] manuelle, procédez comme sui
 
    La [!UICONTROL Visual Experience Composer] s’ouvre et affiche la page spécifiée dans l’URL.
 
-1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
+1. Pour attribuer un nom à l’activité, cliquez sur l’icône **[!UICONTROL Edit]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Untitled Activity] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Save]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
 

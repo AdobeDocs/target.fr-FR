@@ -4,9 +4,9 @@ description: Découvrez comment utiliser le [!UICONTROL Visual Experience Compos
 title: Comment créer une activité [!UICONTROL Auto-Allocate] ?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 15%
 
 ---
@@ -43,7 +43,7 @@ Pour créer une activité [!UICONTROL Auto-Allocate] :
 
    La [!UICONTROL Visual Experience Composer] s’ouvre et affiche la page spécifiée dans l’URL.
 
-1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
+1. Pour attribuer un nom à l’activité, cliquez sur l’icône **[!UICONTROL Edit]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Untitled Activity] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Save]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
 
