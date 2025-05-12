@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2678'
 ht-degree: 95%
 
 ---
@@ -33,7 +33,7 @@ Consultez le [forum de la communauté Target](/help/main/cmp-resources-and-conta
 
 **Quels sont les navigateurs non pris en charge par Target ?**
 
-Pour plus d’informations, consultez notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} . Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
+Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilisez les commandes d&#39;affectation de pourcentages disponibles [à l’ét
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -166,9 +166,9 @@ Référez-vous aux [Règles de modèle](/help/main/c-experiences/c-visual-experi
 
 **J’en ai assez de voir s’afficher le message « Autoriser votre navigateur à charger les scripts » chaque fois que je tente de charger ma page dans le compositeur d’expérience visuelle (VEC). Comment puis-je éviter cela ?**
 
-Cela est dû au fait que votre site comporte un contenu mixte : il s’agit d’un site qui récupère des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
+En effet, votre site comporte du contenu mixte : il récupère à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
 
-Dans l’intervalle, suivez les instructions de la section [Activation du contenu mixte dans votre navigateur](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
+En attendant, suivez les instructions de la section [Activation du contenu mixte dans votre navigateur](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
 
 **Puis-je tester le compositeur d’expérience visuelle (VEC) sur mon site même si la bibliothèque at.js de Target n’a pas encore été déployée ?**
 
@@ -180,7 +180,7 @@ Essayez les [informations de dépannage](/help/main/c-experiences/c-visual-exper
 
 Nous disposons aussi d’une [approche basée sur les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) qui peut permettre de vous débloquer.
 
-Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Vous devrez peut-être contacter votre service informatique pour [placer sur la liste autorisée également les serveurs proxy de l’Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez également contacter votre service informatique pour [placer sur la liste autorisée des serveurs proxy Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Mon site est très réactif. Lors de la création d’une activité, comment puis-je m’assurer de prendre en compte les appareils clés ?**
 
@@ -212,13 +212,7 @@ L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](
 
 Utilisez les fonctionnalités Composer et Parcourir pour naviguer vers la page de votre choix et commencer à créer votre expérience.
 
-![image vec2](assets/vec2.png)
-
-**Comment puis-je accéder à l’expérience de mon choix à l’étape 2 du workflow guidé en trois parties de Target (page de ciblage) ?**
-
-Cliquez sur la miniature qui précède le nom de l’expérience à l’étape 2 pour accéder à l’expérience de votre choix.
-
-![thumbnail_experience image](assets/thumbnail_experiences.png)
+![Boutons bascule Conception et navigation](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **Je suis un ancien utilisateur de Target Classic. Puis-je utiliser mes mbox pour certains cas d’utilisation ?**
 
@@ -258,7 +252,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -283,11 +277,11 @@ Utilisez la mbox [Exportation du rapport au format CSV et Exportation des déta
 
 **Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?**
 
-Effectuez ces modifications à l’aide de l’engrenage [Paramètres sur la page des rapports](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
+Effectuez ces modifications à l’aide de l’engrenage [Paramètres) de la page des rapports](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
 
 **Comment dois-je interpréter les rapports ?**
 
-Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctionnalités telles que les barres [intervalle de confiance, limites de l’effet élévateur, sélections de signification/confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports puissante mais facile. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
+Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctionnalités telles que les [barres d’intervalle de confiance, les limites de l’effet élévateur, les sélections de niveau de pertinence et de confiance et de mesures multiples, les vues tableau et graphique, les moyennes d’exécution, etc](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et facile à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
 
 ## Jetons de réponse {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -309,4 +303,4 @@ Nous sommes désolés d’apprendre que vous rencontrez des difficultés. Voir [
 
 **Où puis-je en apprendre davantage sur les API Target ?**
 
-Nous disposons d’une documentation exhaustive sur les API. Voir la [documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
+Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
