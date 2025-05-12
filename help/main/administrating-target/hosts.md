@@ -85,7 +85,7 @@ Si une requête [!DNL Target] est effectuée sur un hôte non autorisé, l’app
 
 >[!IMPORTANT]
 >
->placer sur la liste autorisée **Bonnes pratiques de sécurité** : si vous utilisez la fonctionnalité ubox de [!DNL Target], cette contrôle également la liste des domaines vers lesquels vos [redirecteurs](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} peuvent naviguer. Veillez à ajouter tous les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre implémentation. Si la place sur la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger contre les redirections malveillantes potentielles.
+>placer sur la liste autorisée **Bonnes pratiques de sécurité** : si vous utilisez la fonctionnalité ubox de [!DNL Target], cette contrôle également la liste des domaines vers lesquels vos [redirecteurs](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=fr){target=_blank} peuvent naviguer. Veillez à ajouter tous les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre implémentation. Si la place sur la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger contre les redirections malveillantes potentielles.
 >
 >La liste autorisée prévaut sur les environnements. Effacez tous les hôtes avant d’utiliser la fonction de place sur la liste autorisée, puis seuls les hôtes autorisés par la liste autorisée apparaissent dans votre liste d’hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
