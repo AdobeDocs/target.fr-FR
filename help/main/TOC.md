@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 89%
+source-wordcount: '1274'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
    + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Concepts clés de Target](c-intro/target-key-concepts.md)
    + [Comprendre l’interface utilisateur de Target](/help/main/c-intro/understand-the-target-ui.md)
-   + [Utilisation de l’assistant AI](/help/main/c-intro/ai-assistant.md)
+   + Assistant Adobe Target AI {#ai-assistant}
+      + [Activer l’assistant AI](/help/main/c-intro/ai-assistant.md)
+      + [Utiliser l’assistant d’IA pour acquérir des connaissances sur les produits](/help/main/c-intro/ai-assistant-product-knowledge.md)
    + Kit de bienvenue Adobe Target {#welcome}
       + [Aperçu du kit de bienvenue Target](/help/main/c-intro/target-welcome-kit.md)
       + [Chapitre 1 : Introduction](/help/main/c-intro/target-welcome-kit-1.md)
@@ -56,9 +58,9 @@ ht-degree: 89%
    + [Hôtes](administrating-target/hosts.md)
    + [Environnements](/help/main/administrating-target/environments.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
-   + Gestion des utilisateurs {#manage-users}
+   + Gérer les utilisateurs et les utilisatrices {#manage-users}
       + [Gestion des utilisateurs](administrating-target/c-user-management/user-management.md)
-      + Utilisateurs {#users}
+      + Utilisateurs et utilisatrices {#users}
          + [Présentation des utilisateurs](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Résolution des problèmes liés à la gestion des utilisateurs](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
       + Autorisations des utilisateurs d’Enterprise {#enterprise}
@@ -68,8 +70,8 @@ ht-degree: 89%
    + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Implémentation de Target {#implement-target}
    + [Implémentation de la vue d’ensemble de Target](c-implementing-target/implementing-target.md)
-+ Intégration de Target à Experience Cloud {#integrate}
-   + Adobe Analytics comme source de reporting pour Adobe Target (A4T) {#a4t}
++ Intégration de Target à Experience Cloud {#integrate}
+   + Adobe Analytics comme source de création de rapports pour Target (A4T) {#a4t}
       + [Vue d’ensemble d’A4T](c-integrating-target-with-mac/a4t/a4t.md)
       + [Avant l’implémentation](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implémentation d’Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -103,8 +105,8 @@ ht-degree: 89%
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Intégration de Target à Adobe Experience Manager (AEM) {#aem}
       + [Présentation de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + Fragments d’expérience et Fragments de contenu {#fragments}
-         + [Présentation des fragments d’expérience et fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+      + Fragments d’expérience et fragments de contenu {#fragments}
+         + [Présentation des fragments d’expérience et des fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Intégration de Target à Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
@@ -226,7 +228,7 @@ ht-degree: 89%
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Offres et expériences {#experiences}
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
-   + Compositeur d’expérience visuelle {#vec}
+   + Compositeur d’expérience visuelle (VEC) {#vec}
       + [Présentation du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
@@ -275,7 +277,7 @@ ht-degree: 89%
    + Rapports Personalization {#personalization-reports}
       + [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Rapports de synthèse d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-   + Rapports des informations de personnalisation {#insights}
+   + Rapport Personalization Insights {#insights}
       + [Présentation des rapports des informations de personnalisation](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Segments automatisés](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Attributs importants](c-reports/c-personalization-insights-reports/important-attributes-report.md)
@@ -284,7 +286,7 @@ ht-degree: 89%
       + [Rapport Contribution des emplacements (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Rapports Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [FAQ sur la création de rapports](c-reports/reporting-frequently-asked-questions.md)
-+ Recommandations {#recommendations}
++ Recommendations {#recommendations}
    + [Présentation de Recommendations](c-recommendations/recommendations.md)
    + [Présentation des recommandations](c-recommendations/introduction-to-recommendations.md)
    + [Planification et implémentation de Recommendations](c-recommendations/plan-implement.md)
@@ -332,6 +334,6 @@ ht-degree: 89%
 + Résolution des problèmes liés à Target {#troubleshoot}
    + [Résolution des problèmes liés à Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limites](r-troubleshooting-target/target-limits.md)
-+ API Target {#apis}
++ API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
 + [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
