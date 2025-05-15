@@ -4,10 +4,10 @@ description: Familiarisez-vous avec l’interface utilisateur et trouvez des lie
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 28%
+source-wordcount: '1387'
+ht-degree: 26%
 
 ---
 
@@ -39,25 +39,25 @@ Sélectionnez l’organisation souhaitée dans la liste déroulante [!UICONTROL 
 
 Fournissez une description pour vos commentaires, incluez les fichiers ou les captures d’écran applicables et tout autre détail supplémentaire, si nécessaire, puis cliquez sur **[!UICONTROL Submit]**.
 
-### [!DNL AI Assistant] (sortie prévue le 20 mai 2025)
+### [!DNL AI Assistant]
 
-(Conditionnel) Si votre entreprise vous a accordé des droits d’utilisation de l’assistant AI, cliquez sur l’icône de l’assistant AI.
+(Conditionnel) Si votre organisation vous a accordé des droits d’utilisation du [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
+
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
-L’icône d’aide vous permet d’accéder à des informations, des vidéos, des blogs et bien plus encore pour vous aider à utiliser [!DNL Target] plus efficacement. Vous pouvez créer un ticket d’assistance, trouver des numéros de téléphone d’assistance, poser des questions sur Twitter ou laisser des commentaires sur [!DNL Target] pour nous faire part de l’état de l’équipe d’[!DNL Target].
+Cliquer sur l’icône [!UICONTROL Help] ( ![icône Aide](/help/main/assets/icons/HelpOutline.svg) ) vous permet d’accéder à des informations, des vidéos, des blogs et bien plus encore pour vous aider à utiliser les [!DNL Target] plus efficacement. Vous pouvez créer un ticket d’assistance, trouver des numéros de téléphone d’assistance, poser des questions sur Twitter ou laisser des commentaires sur [!DNL Target] pour nous faire part de l’état de l’équipe d’[!DNL Target].
 
 ![Aide](/help/main/c-intro/assets/help.png)
 
-### Notifications et annonces {#notifications-announcements}
+### Demandes, notifications et annonces {#notifications-announcements}
 
-Les panneaux [!UICONTROL Notifications] et [!UICONTROL Announcements] vous permettent de rester informé sur tout ce qui [!DNL Adobe Target]. Les notifications proactives vous permettent de connaître l’état des solutions [!DNL Adobe Experience Cloud] et des événements [!DNL Target]. Les annonces proactives vous avertissent des événements de panne et de maintenance.
+Les panneaux [!UICONTROL Requests], [!UICONTROL Notifications] et [!UICONTROL Announcements] vous permettent de rester informé sur tout ce qui [!DNL Adobe Target]. Les notifications proactives vous permettent de connaître l’état des solutions [!DNL Adobe Experience Cloud] et des événements [!DNL Target]. Les annonces proactives vous avertissent des événements de panne et de maintenance.
 
-Cliquez sur l’icône représentant une cloche dans l’en-tête pour afficher les notifications :
+Cliquez sur l’icône [!UICONTROL Notifications] ( ![Icône Notifications](/help/main/assets/icons/Bell.svg) ) dans l’en-tête pour afficher les notifications :
 
-![Icône cloche pour les notifications et les annonces](assets/bell-icon.png)
-
-Le panneau contient des onglets pour [!UICONTROL Notifications] et [!UICONTROL Announcements].
+Le panneau contient des onglets pour [!UICONTROL Requests], [!UICONTROL Notifications] et [!UICONTROL Announcements].
 
 ![Notifications](assets/notifications.png)
 
