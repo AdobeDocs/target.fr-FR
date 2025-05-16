@@ -3,12 +3,11 @@ keywords: assistant ia;assistant intelligence artificielle
 description: Découvrez comment acquérir  [!DNL Target]  connaissances sur les produits avec  [!DNL AI Assistant].
 title: Comment utiliser l’in [!DNL AI Assistant] in [!DNL Target] pour acquérir des connaissances sur le produit ?
 feature: Overview
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 9%
+source-wordcount: '302'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +25,7 @@ Les questions relatives à la connaissance des produits incluent des concepts [!
 
 Pour accéder au [!DNL AI Assistant] :
 
-1. Vérifiez que vous avez terminé les tâches préalables requises dans [Activation [!DNL Adobe Experience Platform] [!DNL AI Assistant] dans [!DNL Adobe Target]](/help/main/c-intro/ai-assistant.md).
+1. Vérifiez que vous avez terminé les tâches préalables requises dans [Activation [!DNL Adobe Experience Platform] [!DNL AI Assistant] dans [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md).
 
    * Votre entreprise doit d’abord accepter les conditions juridiques. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
    * Vos administrateurs doivent vous accorder des autorisations suffisantes pour accéder à [!DNL AI Assistant].
@@ -61,10 +60,10 @@ Pour accéder au [!DNL AI Assistant] :
 
 En savoir plus sur les applications [!DNL Adobe Experience Platform] de [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441026/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Valider les réponses de l’assistant AI
 
 Découvrez comment vérifier et valider les réponses fournies par [!DNL AI Assistant] dans [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441740/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
