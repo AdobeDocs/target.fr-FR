@@ -75,7 +75,7 @@ Pour générer du texte à l’aide de [!DNL AI Assistant] :
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr">https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr)
 
 
 
