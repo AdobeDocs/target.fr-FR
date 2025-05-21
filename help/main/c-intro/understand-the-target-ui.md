@@ -43,7 +43,7 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 (Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
