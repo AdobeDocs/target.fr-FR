@@ -4,9 +4,9 @@ description: Découvrez comment acquérir  [!DNL Target]  connaissances sur les 
 title: Comment utiliser l’in [!DNL AI Assistant] in [!DNL Target] pour acquérir des connaissances sur le produit ?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 6%
 
 ---
@@ -54,7 +54,7 @@ Pour accéder au [!DNL AI Assistant] de connaissances sur les produits :
    >
    >Les réponses de l’IA peuvent être inexactes ou trompeuses. Assurez-vous de vérifier les réponses et les sources.
 
-1. (Facultatif) Faites des commentaires à l’assistant d’IA.
+1. (Facultatif) Faites-nous part de vos commentaires à [!DNL AI Assistant].
 
    * Cliquez sur l’icône Pouces vers le haut ( ![icône Pouces vers le haut](/help/main/assets/icons/ThumbUp.svg) ) pour [!DNL AI Assistant] indiquer que la réponse est correcte.
    * Cliquez sur l’icône Thumbs down ( ![icône Thumbs down](/help/main/assets/icons/ThumbDown.svg) ) pour [!DNL AI Assistant] indiquer que la réponse est incorrecte.
@@ -66,10 +66,10 @@ Pour accéder au [!DNL AI Assistant] de connaissances sur les produits :
 
 En savoir plus sur les applications [!DNL Adobe Experience Platform] de [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441026/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Valider les réponses de l’assistant AI
 
 Découvrez comment vérifier et valider les réponses fournies par [!DNL AI Assistant] dans [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441740/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

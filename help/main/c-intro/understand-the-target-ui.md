@@ -4,10 +4,10 @@ description: Familiarisez-vous avec l’interface utilisateur et trouvez des lie
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 26%
+source-wordcount: '1355'
+ht-degree: 23%
 
 ---
 
@@ -41,9 +41,9 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 ### [!DNL AI Assistant]
 
-(Conditionnel) Si votre organisation vous a accordé des droits d’utilisation du [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
+(Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
@@ -62,6 +62,12 @@ Le panneau contient des onglets pour [!UICONTROL Requests], [!UICONTROL Notifica
 ![Notifications](assets/notifications.png)
 
 Les sections suivantes contiennent des informations sur chaque onglet et sur la configuration des notifications et des annonces :
+
+#### [!UICONTROL Requests]
+
+Recevez des informations importantes sur [!DNL Adobe] produits et solutions, votre collaboration avec d’autres utilisateurs et autres mises à jour pertinentes dans le panneau [!UICONTROL Requests].
+
+Lorsqu’une personne vous envoie une demande pour approuver un objet ou pour accorder l’accès à un objet, cette demande s’affiche dans le panneau [!UICONTROL Requests].
 
 #### Notifications {#notifications}
 
@@ -97,9 +103,9 @@ Les notifications d’événement [!DNL Target] incluent les éléments suivants
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-Vous pouvez marquer les notifications individuelles comme lues en pointant sur la notification souhaitée, puis en cliquant sur la coche. Vous pouvez marquer toutes les notifications comme lues ou les afficher en cliquant sur [!UICONTROL "Mark as Read"] ou [!UICONTROL "View All"] au bas du panneau.
+Vous pouvez marquer des notifications individuelles comme lues en pointant sur la notification souhaitée, puis en cliquant sur l’icône [!UICONTROL Mark as Read] ( ![Icône Marquer comme lue](/help/main/assets/icons/CheckmarkCircle.svg) ). Vous pouvez marquer toutes les notifications comme lues ou les afficher en cliquant sur [!UICONTROL Mark as Read] ou [!UICONTROL View All] au bas du panneau.
 
-Vous pouvez également définir un rappel pour recevoir une nouvelle notification en pointant sur une notification, en cliquant sur l’icône « [!UICONTROL Remind me] », puis en sélectionnant le moment où vous souhaitez recevoir une notification : 5 minutes, 15 minutes, une heure ou demain.
+Vous pouvez également définir un rappel pour recevoir une nouvelle notification en pointant sur une notification et en cliquant sur l’icône [!UICONTROL Snooze] ( ![Icône Répéter](/help/main/assets/icons/Clock.svg) ). Vous pouvez ensuite choisir le moment où vous souhaitez être averti : 5 minutes, 15 minutes, une heure ou demain.
 
 #### Annonces
 
@@ -111,33 +117,31 @@ Vous trouverez des informations plus détaillées sur la page [Statut d’Adobe]
 
 Pour modifier vos préférences de notifications :
 
-1. Cliquez sur l’icône d’engrenage, puis sur **[!UICONTROL Notifications]**.
-1. Sous **[!UICONTROL Target]**, cliquez sur **[!UICONTROL Customize]**.
-1. Sélectionnez ou désélectionnez les catégories pour lesquelles vous souhaitez recevoir des notifications :
+1. Cliquez sur l’icône [!UICONTROL Edit Preferences] ( ![icône Modifier les préférences](/help/main/assets/icons/Setting.svg) ), puis sur **[!UICONTROL Notifications]** dans le rail de gauche.
+1. Sous **[!UICONTROL Target]**, sélectionnez le mode de notification souhaité :
 
-   * Demandes : lorsqu’une personne vous envoie une demande pour approuver un objet ou pour accorder l’accès à un objet. Impossible de se désabonner de cette catégorie.
-   * Affecté à moi : lorsqu’un utilisateur vous affecte un objet.
-   * Mentions : lorsqu’une personne vous mentionne dans un commentaire.
-   * Nouvelles versions : lorsqu’une nouvelle version est disponible pour un produit ou un service auquel vous avez accès.
-   * Partagé avec moi : lorsque quelqu’un partage un objet avec vous.
-   * Mises à jour sur le contenu : lorsqu’une personne modifie, supprime ou commente un objet que vous avez créé ou suivi.
-   * Autres :
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. Sélectionnez les catégories qui doivent être considérées comme prioritaires.
 
    >[!NOTE]
    >
-   >Les catégories « Nouvelles versions » et « Mises à jour de contenu » sont les seules catégories de notification qui s’appliquent à [!DNL Target]. Les autres catégories s’appliquent aux autres solutions Adobe.
+   >« [!UICONTROL New releases] » et « [!UICONTROL Updates on content] » sont les seules catégories de notification qui s’appliquent à [!DNL Target]. Les autres catégories s’appliquent aux autres solutions [!DNL Adobe].
 
-1. Sélectionnez les catégories qui doivent être considérées comme prioritaires.
 1. Sélectionnez les notifications pour lesquelles vous souhaitez afficher des alertes dans votre navigateur.
 
    Ces alertes s’affichent dans le coin supérieur droit de votre navigateur pendant quelques secondes. Vous pouvez choisir d’afficher les catégories à priorité élevée, toutes les catégories ou de masquer tous les pop-ups de notification. Vous pouvez également configurer si vous souhaitez que les notifications restent visibles jusqu’à ce que vous les ignoriez ou configurer la durée de la notification.
 
 1. Sélectionnez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification :
 
-   * Ne pas envoyer d’e-mails
-   * Notifications instantanées
-   * Envoi quotidien
-   * Envoi hebdomadaire
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. Configuration des notifications Slack pour un espace de travail.
 
 ### Sélecteur d’applications
 
@@ -151,21 +155,17 @@ Cliquez sur l’avatar de votre profil pour modifier vos préférences [!DNL Ado
 
 ![Avatar du profil](/help/main/c-intro/assets/change-language.png)
 
-Examinons maintenant les onglets situés sur le côté gauche de l’en-tête [!DNL Target].
+Examinons maintenant les onglets situés sur le côté gauche de l’en-tête [!DNL Target] .
 
 ## Activités
 
 La liste **[!UICONTROL Activities]** est la vue par défaut lorsque vous ouvrez [!DNL Target]. Vous pouvez créer des activités à partir de cette page et gérer les activités existantes.
-
-![Liste des activités](/help/main/c-intro/assets/activities-list.png)
 
 Consultez [Activités](/help/main/c-activities/activities.md) pour obtenir des informations détaillées sur les types d’activités disponibles dans [!DNL Target] et pour en savoir plus sur l’interface utilisateur de la liste [!UICONTROL Activity].
 
 ## Audiences
 
 Cliquez sur l’onglet **[!UICONTROL Audiences]** pour afficher la liste [!UICONTROL Audiences] dans laquelle vous pouvez créer des audiences et gérer les audiences existantes.
-
-![Liste des audiences](/help/main/c-intro/assets/audience-list.png)
 
 Une audience est un groupe de participants à une activité similaire qui voient une activité ciblée. Une audience est un groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. La fonctionnalité [!UICONTROL Audience] vous permet de cibler différents contenus et expériences selon les audiences, afin d’optimiser votre marketing numérique en affichant les messages adéquats aux personnes appropriées et au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, [!DNL Target] détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
 
@@ -174,8 +174,6 @@ Voir [Création d’audiences](/help/main/c-target/c-audiences/create-audience.m
 ## Offres
 
 Cliquez sur l’onglet **[!UICONTROL Offers]** pour afficher la liste [!UICONTROL Offers] dans laquelle vous pouvez créer des expériences et des offres et gérer les expériences et offres existantes.
-
-![Liste des offres](/help/main/c-intro/assets/offers.png)
 
 Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un tunnel de vente ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
@@ -187,9 +185,7 @@ Cliquez sur l’onglet **[!UICONTROL Recommendations]** pour accéder aux [!DNL 
 
 >[!NOTE]
 >
->Les activités Recommendations sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations, consultez [Target Premium](/help/main/c-intro/intro.md#premium) dans *Présentation de Target*.
-
-![Recommendations](/help/main/c-intro/assets/recommendations.png)
+>Les activités [!UICONTROL Recommendations] sont disponibles dans le cadre de la solution [!DNL Target Premium]. [!UICONTROL Recommendations] activités ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations, consultez [Target Premium](/help/main/c-intro/intro.md#premium) dans *Présentation de Target*.
 
 Les activités [!UICONTROL Recommendations] affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Recommendations permet d’orienter les clients vers des éléments pertinents qu’ils ne connaîtraient pas autrement.
 
@@ -199,8 +195,10 @@ Consultez [Recommendations](/help/main/c-recommendations/recommendations.md) pou
 
 Cliquez sur l’onglet **[!UICONTROL Administration]** pour accéder aux pages [!UICONTROL Administration].
 
-![Pages Administration](/help/main/c-intro/assets/administration.png)
-
-Les pages [!UICONTROL Administration] vous permettent d’administrer des [!DNL Target], notamment les paramètres de configuration du [!UICONTROL Visual Experience Composer] (VEC), les rapports, la configuration [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse et les utilisateurs.
+Les pages [!UICONTROL Administration] vous permettent d’administrer des [!DNL Target], notamment les paramètres de configuration du [!UICONTROL Visual Experience Composer] (VEC), les rapports, la configuration [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse, les utilisateurs et utilisatrices et les recommandations.
 
 Consultez [Aperçu de l’administration dans Target](/help/main/administrating-target/administrating-target.md) pour obtenir des informations détaillées et en savoir plus sur l’interface utilisateur.
+
+## Compositeur d’expérience visuelle (VEC)
+
+Outre l’interface utilisateur [!DNL Target], vous devez vous familiariser avec l’interface utilisateur du compositeur d’expérience visuelle. Pour plus d’informations, voir [[!DNL Visual Experience Composer] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).

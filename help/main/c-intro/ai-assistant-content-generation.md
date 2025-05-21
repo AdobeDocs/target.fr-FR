@@ -1,22 +1,24 @@
 ---
-keywords: assistant ia;assistant intelligence artificielle;génération de contenu;accélérateur de contenu
+keywords: assistant ia;assistant intelligence artificielle;génération de contenu;accélérateur de contenu;génération de contenu;générer du contenu
 description: Découvrez comment générer du contenu avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu ?
 feature: Overview
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
 # Utilisation de [!DNL AI Assistant] dans les [!DNL Adobe Target] pour la génération de contenu
 
-Tirez parti de la puissance des [!DNL AI Assistant] dans [!DNL Adobe Target] pour élever le contenu de votre activité, grâce à l’IA générative.
+Utilisez [!DNL AI Assistant] dans [!DNL Adobe Target] pour améliorer l’efficacité de vos activités en adaptant des fragments de texte et en choisissant des images à l’aide de l’intelligence artificielle (IA) qui s’adressent directement à votre audience, ce qui stimule l’engagement et l’interaction.
 
-Utilisez l’assistant d’IA dans Target pour améliorer l’efficacité de vos activités en personnalisant les fragments de texte et en choisissant des images qui s’adressent directement à votre audience, ce qui stimule l’engagement et l’interaction.
+Tirez parti de la puissance des [!DNL AI Assistant] dans [!DNL Adobe Target] pour élever le contenu de votre activité, grâce à l’IA générative.
 
 ## Conditions préalables
 
@@ -29,7 +31,7 @@ Utilisez l’assistant d’IA dans Target pour améliorer l’efficacité de vos
 
 Pour générer du texte à l’aide de [!DNL AI Assistant] :
 
-1. Dans [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), cliquez sur l’icône **[!UICONTROL Show Content Assistant] ( ![Afficher l’icône de l’assistant de contenu](/help/main/assets/icons/MagicWand.svg) )** dans le rail droit de l’interface utilisateur du VEC.
+1. Dans [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), cliquez sur l’icône **[!UICONTROL Show Content Assistant]** ( ![Afficher l’icône de l’assistant de contenu](/help/main/assets/icons/MagicWand.svg) ) dans le rail droit de l’interface utilisateur du VEC.
 
    ![Icône Afficher l’assistant de contenu](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
@@ -39,21 +41,21 @@ Pour générer du texte à l’aide de [!DNL AI Assistant] :
 
    ![Volet Paramètres de texte](/help/main/c-intro/assets/ai-text-settings.png)
 
-1. (Facultatif) Cliquez sur l’icône **Plein écran ( ![icône Plein écran](/help/main/assets/icons/FullScreen.svg) )** pour développer l’[!DNL AI Assistant].
+1. (Facultatif) Cliquez sur l’**icône Plein écran** ( ![icône Plein écran](/help/main/assets/icons/FullScreen.svg) ) pour développer l’[!DNL AI Assistant].
 
 1. Dans la zone de **[!UICONTROL Prompt]**, décrivez le texte que vous souhaitez générer.
 
-   Par exemple, pour une vente de vacances saisonnière, vous pouvez saisir « Rédiger un texte héroïque faisant la publicité d’une vente d’été à durée limitée ».
+   Par exemple, pour une vente de vacances saisonnières, vous pouvez saisir « Rédiger un texte héroïque attrayant faisant la publicité d’une vente de vacances d’été à durée limitée ».
 
 1. Cliquez sur l’icône **[!UICONTROL Text Settings]** pour spécifier le ton et la stratégie de communication de votre texte.
 
    * **Stratégie de communication** : choisissez le style de communication le plus adapté à votre texte généré.
    * **Langues** : sélectionnez la langue souhaitée pour votre texte. [!DNL AI Assistant] est actuellement disponible uniquement en anglais.
-   * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
+   * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
 1. Utilisez le curseur pour choisir la longueur du texte ([!UICONTROL Shorter Text] à [!UICONTROL Larger Text]).
 
-1. Cliquez sur **[!UICONTROL Generate]** pour créer une liste des variations de texte possibles.
+1. Cliquez sur **[!UICONTROL Generate]** pour créer une liste de variations de texte.
 
    ![Variantes de texte de l’assistant AI](/help/main/c-intro/assets/ai-variations-text.png)
 
@@ -67,20 +69,12 @@ Pour générer du texte à l’aide de [!DNL AI Assistant] :
 
 1. (Facultatif) Faites des commentaires à l’assistant d’IA.
 
-   * Cliquez sur l’icône Pouces vers le haut ( ![icône Pouces vers le haut](/help/main/assets/icons/ThumbUp.svg) ) pour [!DNL AI Assistant] indiquer que la réponse est correcte.
-   * Cliquez sur l’icône Thumbs down ( ![icône Thumbs down](/help/main/assets/icons/ThumbDown.svg) ) pour [!DNL AI Assistant] indiquer que la réponse est incorrecte.
-   * Cliquez sur l’icône Résultats du rapport ( ![icône Résultats du rapport](/help/main/assets/icons/Flag.svg) ) pour signaler un problème au [!DNL AI Assistant].
+   * Cliquez sur l’icône Pouces vers le haut ( ![Pouces vers le haut](/help/main/assets/icons/ThumbUp.svg) ) pour [!DNL AI Assistant] indiquer que vous aimez la variation.
+   * Cliquez sur l’icône Thumbs down ( ![icône Thumbs down](/help/main/assets/icons/ThumbDown.svg) ) pour [!DNL AI Assistant] indiquer que vous n’aimez pas la variation.
+   * Cliquez sur l’icône [!UICONTROL Report Results] ( ![icône de rapport de résultats](/help/main/assets/icons/Flag.svg) ) pour signaler un problème au [!DNL AI Assistant].
 
 ## Vidéos de formation
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr">https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr)
-
-
-
-
-
-
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
