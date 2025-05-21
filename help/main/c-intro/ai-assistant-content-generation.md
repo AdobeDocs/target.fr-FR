@@ -3,7 +3,7 @@ keywords: assistant ia;assistant intelligence artificielle;génération de conte
 description: Découvrez comment générer du contenu avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu ?
 feature: Overview
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
