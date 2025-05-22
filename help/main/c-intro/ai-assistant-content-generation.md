@@ -3,14 +3,14 @@ keywords: assistant ia;assistant intelligence artificielle;génération de conte
 description: Découvrez comment générer du contenu avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu ?
 feature: Overview
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
+source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 2%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -47,6 +47,8 @@ Pour générer du texte à l’aide de [!DNL AI Assistant] :
 
    Par exemple, pour une vente de vacances saisonnières, vous pouvez saisir « Rédiger un texte héroïque attrayant faisant la publicité d’une vente de vacances d’été à durée limitée ».
 
+   Consultez [Exemples de variations](#variations) ci-dessous pour découvrir comment [!DNL AI Assistant] transforme une simple invite en une copie publicitaire plus longue et captivante pour une aventure à New York passionnante.
+
 1. Cliquez sur l’icône **[!UICONTROL Text Settings]** pour spécifier le ton et la stratégie de communication de votre texte.
 
    * **Stratégie de communication** : choisissez le style de communication le plus adapté à votre texte généré.
@@ -73,8 +75,21 @@ Pour générer du texte à l’aide de [!DNL AI Assistant] :
    * Cliquez sur l’icône Thumbs down ( ![icône Thumbs down](/help/main/assets/icons/ThumbDown.svg) ) pour [!DNL AI Assistant] indiquer que vous n’aimez pas la variation.
    * Cliquez sur l’icône [!UICONTROL Report Results] ( ![icône de rapport de résultats](/help/main/assets/icons/Flag.svg) ) pour signaler un problème au [!DNL AI Assistant].
 
+## Exemples de variations {#variations}
+
+Changer le texte du héros n&#39;est que le début. Avec [!DNL AI Assistant] dans [!DNL Target], vous ne vous limitez pas aux modifications de base. Vous pouvez créer, affiner et améliorer le contenu de l’ensemble de votre expérience. Que vous souhaitiez réfléchir à des variantes, optimiser votre message ou générer une nouvelle copie à la volée, [!DNL AI Assistant] utilise la puissance de l’IA générative pour vous aider à créer du contenu attrayant et à fort impact en quelques secondes.
+
+L’invite et les variations suivantes montrent la puissance de [!DNL AI Assistant].
+
+**[!UICONTROL Prompt]** : Rédigez une annonce attrayante pour un voyage de trois jours à New York pour visiter les meilleures destinations.
+**[!UICONTROL Text Settings]** : FOMO, anglais, persuasif, longueur du Medium.
+* **[!UICONTROL Variation 1]** : Découvrez la magie de New York avec notre voyage exclusif de trois jours ! Plongez dans des sites emblématiques tels que Times Square, Central Park et la Statue de la Liberté. Rejoignez d&#39;innombrables autres personnes qui ont déjà expérimenté le frisson et la beauté de la ville qui ne dort jamais. Ne manquez pas les souvenirs inoubliables. Réservez votre aventure dès aujourd&#39;hui et faites partie de l&#39;excitation ! Places limitées disponibles !
+* **[!UICONTROL Variation 2]** : Découvrez la magie de New York avec notre escapade exclusive de trois jours ! Visitez des sites emblématiques comme Times Square et Central Park et plongez-vous dans des restaurants et des divertissements de classe mondiale. Ne manquez pas cette aventure inoubliable. Les places sont limitées, et tout le monde est ravi de vivre des expériences incroyables. Réservez dès maintenant et faites partie de l&#39;excitation qui séduit les voyageurs du monde entier !
+* **[!UICONTROL Variation 3]** : Embarquez pour une escapade passionnante de trois jours à New York, où des monuments emblématiques vous attendent ! Découvrez l&#39;ambiance électrique de Times Square, savourez les délices culinaires de Manhattan et capturez des vues à couper le souffle depuis l&#39;Empire State Building. Agissez maintenant et rejoignez les innombrables aventuriers qui vivent leur rêve. Ne manquez pas de créer des souvenirs inoubliables dans la ville qui ne dort jamais. Places limitées disponibles. Réservez votre aventure dès aujourd’hui !
+* **[!UICONTROL Variation 4]** : Réservez votre aventure de trois jours à New York et vivez la magie de la ville comme jamais auparavant ! Des sites emblématiques aux joyaux cachés, chaque coin du Big Apple recèle quelque chose d&#39;passionnant. Ne manquez pas les moments inoubliables que d&#39;autres aiment déjà. Fais partie du buzz. Gardez votre place dès aujourd&#39;hui et créez des souvenirs qui dureront toute une vie. Dépêchez-vous, les places se remplissent rapidement !
+
 ## Vidéos de formation
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr">https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
