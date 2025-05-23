@@ -258,7 +258,7 @@ En fonction du dernier système de conception [!DNL Adobe Spectrum], la mise à 
 * [Vues Liste personnalisables](/help/main/c-activities/activities.md) pour une meilleure flexibilité en fonction des besoins des différentes équipes.
 * [Amélioration des écrans d’informations rapides et détaillées](/help/main/c-activities/activities.md) pour un accès plus facile aux informations.
 * [Options de recherche et de filtrage persistantes dans la session](/help/main/c-activities/activities.md).
-* [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) entièrement [reconstruit) avec prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne.
+* [!UICONTROL Visual Editing Composer][&#128279;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) entièrement reconstruit) avec prise en charge des dernières mises à jour de sécurité des fournisseurs de navigateur et une interface utilisateur moderne.
 
   Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, voir :
 
@@ -3440,7 +3440,7 @@ La version d’Adobe Target Standard/Premium 16.5.1 (19 mai 2016) comprend les 
    <td colname="col1" class="premium"> Téléchargement d’un CSV de recommandations </td> 
    <td colname="col2"> <p>Les téléchargements de CSV possèdent désormais une ligne dédiée à l’ensemble des environnements, et notamment ceux ne disposant pas de recommandations d’entité (par exemple : 
      <code>
-       # environment: 1724 
+       &#x200B;# environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
