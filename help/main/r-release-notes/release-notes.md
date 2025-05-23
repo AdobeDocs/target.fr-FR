@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0d7ae6e269211b1c0beea346f527d28c8765f8c3
+source-git-commit: 663fa963e7758558d1342044de989bff3a560bc6
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 21%
+source-wordcount: '1724'
+ht-degree: 20%
 
 ---
 
@@ -43,8 +43,17 @@ Pour plus d’informations sur l’interface utilisateur mise à jour, consultez
 
 * [Notes de mise à jour d’[!DNL Target Standard/Premium] 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
 * [Notes de mise à jour de la version 25.1.1 de [!DNL Target Standard/Premium] (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
+* [Présentation de l’interface utilisateur  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md)
+
+  Fournit un bref aperçu pour vous familiariser avec les [!DNL Target], ainsi que des liens vers des informations plus détaillées et des instructions détaillées.
+
 * [[!UICONTROL Visual Experience Composer] changes](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+
+  La version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+
 * [[!UICONTROL Visual Experience Composer] des options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+  Cet article explique l’interface utilisateur mise à jour et ses options.
 
 ## [!DNL Target Standard/Premium] 25.5.3 (22 mai 2025)
 
@@ -80,7 +89,7 @@ Nous sommes ravis d&#39;annoncer le lancement du [!DNL AI Assistant] en [!DNL Ad
 
 En [!DNL Target], la première phase d’[!DNL AI Assistant] fournit une connaissance inestimable des produits, basée sur la documentation [!DNL Experience League]. Que vous configuriez un script de profil, résolviez les erreurs ou envisagiez une mise à niveau vers AEP Web SDK, [!DNL AI Assistant] a tout prévu.
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
 
 ## [!DNL Target Standard/Premium] 25.5.2 (8 mai 2025)
 
