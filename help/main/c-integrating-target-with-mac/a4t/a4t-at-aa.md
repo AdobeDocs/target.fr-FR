@@ -4,10 +4,10 @@ description: Découvrez comment créer des [!UICONTROL Auto-Allocate] et [!UICON
 title: A4T prend-il en charge les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target] ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: ddced04c730519dae74e70a60bed26462825ad23
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 1%
+source-wordcount: '1276'
+ht-degree: 4%
 
 ---
 
@@ -20,29 +20,36 @@ L’intégration A4T vous permet d’effectuer les opérations suivantes :
 * Utilisez la fonctionnalité de bandit à plusieurs bras [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) pour orienter le trafic vers des expériences gagnantes.
 * Utilisez l’algorithme de machine learning d’ensemble [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) pour choisir la meilleure expérience pour chaque visiteur. [!UICONTROL Auto-Target] choisit la meilleure expérience en fonction du profil, du comportement et du contexte de chaque utilisateur, tout en utilisant une mesure d’objectif [!DNL Adobe Analytics] et les riches fonctionnalités de création de rapports et d’analyse de [!DNL Adobe Analytics].
 
-Vérifiez que vous avez [implémenté A4T pour une utilisation avec les activités de test A/B et de ciblage d’expérience](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la valeur `sessionId` à [!DNL Analytics]. Pour plus d’informations, consultez [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=fr){target=_blank} dans le *Guide de développement d’Adobe Target*.
+Vérifiez que vous avez [implémenté A4T pour une utilisation avec les activités de test A/B et de ciblage d’expérience](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la valeur `sessionId` à [!DNL Analytics]. Pour plus d’informations, consultez [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} dans le *Guide de développement d’Adobe Target*.
 
 Pour démarrer :
 
-1. Lors de la [création d’une activité [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), sur la page **[!UICONTROL Targeting]**, sélectionnez l’une des options suivantes comme **[!UICONTROL Traffic Allocation Method]** :
+1. Lors de la [création d’une activité [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), sur la page **[!UICONTROL Targeting]**, cliquez sur la commande **[!UICONTROL Traffic Allocation]**, puis choisissez la méthode d’affectation du trafic souhaitée dans le volet de droite.
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experiences]
+   ![Paramètres de la méthode d’affectation du trafic](/help/main/c-activities/assets/auto-target.png)
 
-   ![Options des méthodes d’affectation du trafic : manuel, affectation automatique et ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
+   Les méthodes d’affectation du trafic disponibles sont les suivantes :
+
+   * **[!UICONTROL Manual (Default)]** : indiquez le pourcentage de participants qui doivent voir chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %.
+
+   * **[!UICONTROL Auto-Allocate to best experience]** : la plupart des participants aux activités sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez [[!UICONTROL Auto-Allocate] présentation](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+
+   * **[!UICONTROL Auto-Target for personalized experiences]** : [!DNL Target] utilise un machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en offrant l’expérience la plus adaptée aux visiteurs et visiteuses en fonction de leurs profils clients individuels et des comportements passés de visiteurs et visiteuses similaires. Pour plus d’informations, voir [Présentation du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
    Pour plus d’informations et des instructions détaillées, voir [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) et [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target.md).
 
-1. Sélectionnez **[!UICONTROL Adobe Analytics]** pour votre **[!UICONTROL Reporting Source]** sur la page **[!UICONTROL Goals & Settings]** et sélectionnez la suite de rapports correspondant à l’objectif d’optimisation souhaité.
+1. Sélectionnez **[!UICONTROL Adobe Analytics]** pour votre **[!UICONTROL Reporting Source]** sur la page **[!UICONTROL Goals & Settings]** , sélectionnez l’entreprise et la suite de rapports correspondant à l’objectif d’optimisation souhaité.
 
    ![Section Reporting Source sur la page Objectifs et paramètres](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
+1. Spécifiez le serveur de suivi et le sandbox.
 
 1. Choisissez une mesure de [!UICONTROL Primary Goal].
 
    * Pour utiliser [!DNL Adobe Target] pour spécifier l’objectif d’optimisation, choisissez **[!UICONTROL Conversion]** .
    * Choisissez **[!UICONTROL Use an Analytics metric]** puis sélectionnez une mesure dans [!DNL Analytics] à utiliser comme objectif d’optimisation. Vous pouvez utiliser une mesure de conversion de [!DNL Analytics] prête à l’emploi ou un événement personnalisé [!DNL Analytics].
 
-   Pour plus d’informations[&#128279;](#supported) voir  Mesures d’objectif prises en charge ci-dessous.
+   Pour plus d’informations](#supported) voir [ Mesures d’objectif prises en charge ci-dessous.
 
 1. Enregistrez et activez votre activité.
 
@@ -113,7 +120,7 @@ Certaines restrictions et notes s’appliquent aux activités [!UICONTROL Auto-A
 ### Affectation automatique {#aa}
 
 * **Fréquence d’entraînement** : les modèles [!UICONTROL Auto-Allocate] continuent de s’entraîner toutes les heures, comme d’habitude.
-* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour [!UICONTROL &#x200B; Auto-Allocate] activités qui utilisent A4T.
+* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour [!UICONTROL  Auto-Allocate] activités qui utilisent A4T.
 * **Confiance** : la formule de confiance utilisée par [!UICONTROL Auto-Allocate] activités est différente de la formule affichée par défaut dans le panneau [!UICONTROL A4T] de [!DNL Adobe Analytics]. [Comme décrit ici](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] utilise des intervalles de confiance plus conservateurs que les activités de [!UICONTROL A/B Test] normales. Ces niveaux de confiance conservateurs compensent les évaluations répétées (aperçus) des données. Par conséquent, le rapport par défaut dans [!DNL Adobe Analytics] affiche des intervalles de confiance plus étroits par rapport à ceux utilisés par l’algorithme de [!UICONTROL Auto-Allocate]. Néanmoins, vous pouvez déterminer quelle expérience est favorisée par les algorithmes en fonction de quelle expérience reçoit le plus de visiteurs uniques.
 * **Statut du gagnant** : actuellement, les badges [ « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Auto-Allocate] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par [!UICONTROL Auto-Allocate].
 
@@ -125,7 +132,7 @@ Certaines restrictions et notes s’appliquent aux activités [!UICONTROL Auto-A
 
 * Lorsque vous utilisez [!DNL Analytics] comme source de données pour une activité [!UICONTROL Auto-Target], les sessions se terminent après six heures. Les conversions survenant après six heures ne sont pas comptabilisées.
 
-Pour plus d’informations, voir [Modèles d’attribution et intervalles de recherche en amont](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=fr) dans le *Guide des outils Analytics*.
+Pour plus d’informations, voir [Modèles d’attribution et intervalles de recherche en amont](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) dans le *Guide des outils Analytics*.
 
 ## Tutoriels
 
@@ -141,6 +148,6 @@ Pour plus d’informations, consultez [Comment configurer des rapports A4T dans 
 
 Ce tutoriel vous guide tout au long des modifications recommandées pour l’analyse des activités [!UICONTROL Auto-Target] dans [!DNL Analysis Workspace].
 
-Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank} dans *Tutoriels Adobe Target*.
+Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank} dans *Tutoriels Adobe Target*.
 
 
