@@ -49,7 +49,7 @@ Pour démarrer :
    * Pour utiliser [!DNL Adobe Target] pour spécifier l’objectif d’optimisation, choisissez **[!UICONTROL Conversion]** .
    * Choisissez **[!UICONTROL Use an Analytics metric]** puis sélectionnez une mesure dans [!DNL Analytics] à utiliser comme objectif d’optimisation. Vous pouvez utiliser une mesure de conversion de [!DNL Analytics] prête à l’emploi ou un événement personnalisé [!DNL Analytics].
 
-   Pour plus d’informations](#supported) voir [ Mesures d’objectif prises en charge ci-dessous.
+   Pour plus d’informations[&#128279;](#supported) voir  Mesures d’objectif prises en charge ci-dessous.
 
 1. Enregistrez et activez votre activité.
 
@@ -120,7 +120,7 @@ Certaines restrictions et notes s’appliquent aux activités [!UICONTROL Auto-A
 ### Affectation automatique {#aa}
 
 * **Fréquence d’entraînement** : les modèles [!UICONTROL Auto-Allocate] continuent de s’entraîner toutes les heures, comme d’habitude.
-* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour [!UICONTROL  Auto-Allocate] activités qui utilisent A4T.
+* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour [!UICONTROL &#x200B; Auto-Allocate] activités qui utilisent A4T.
 * **Confiance** : la formule de confiance utilisée par [!UICONTROL Auto-Allocate] activités est différente de la formule affichée par défaut dans le panneau [!UICONTROL A4T] de [!DNL Adobe Analytics]. [Comme décrit ici](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] utilise des intervalles de confiance plus conservateurs que les activités de [!UICONTROL A/B Test] normales. Ces niveaux de confiance conservateurs compensent les évaluations répétées (aperçus) des données. Par conséquent, le rapport par défaut dans [!DNL Adobe Analytics] affiche des intervalles de confiance plus étroits par rapport à ceux utilisés par l’algorithme de [!UICONTROL Auto-Allocate]. Néanmoins, vous pouvez déterminer quelle expérience est favorisée par les algorithmes en fonction de quelle expérience reçoit le plus de visiteurs uniques.
 * **Statut du gagnant** : actuellement, les badges [ « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Auto-Allocate] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par [!UICONTROL Auto-Allocate].
 
