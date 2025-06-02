@@ -1,19 +1,19 @@
 ---
 keywords: compositeur d’expérience visuelle;bonne utilisation du compositeur d’expérience visuelle;limites du compositeur d’expérience visuelle;avertissements concernant le compositeur d’expérience visuelle;bonnes pratiques pour vec;vec
 description: Découvrez les bonnes pratiques pour que vos expériences fonctionnent comme prévu lors de l’utilisation du [!UICONTROL Visual Experience Composer] (VEC).
-title: Que sont les [!UICONTROL Visual Experience Composer] bonnes pratiques et limites ?
+title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] bonnes pratiques et limites
+# [!UICONTROL Visual Experience Composer] des bonnes pratiques et des limites
 
-Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Il existe également d’autres conseils et limites que vous devez connaître lors de l’utilisation du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Target].
+Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Il existe également d’autres conseils et restrictions que vous devez connaître lors de l’utilisation du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Target].
 
 ## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -23,21 +23,21 @@ Voici les bonnes pratiques à appliquer lors de l’utilisation du compositeur d
 
 Si vous utilisez également le service d’API visiteur, placez le script de l’API visiteur au-dessus d’at.js.
 
-### Vous pouvez activer le compositeur d’expérience avancé au niveau du compte (activé pour toutes les activités créées dans le compte) ou au niveau des activités individuelles.
+### Vous pouvez activer le compositeur d’expérience avancé au niveau du compte (activé pour toutes les activités créées dans le compte) ou au niveau de chaque activité.
 
-Pour activer le compositeur d’expérience avancé au niveau du compte, cliquez sur [!UICONTROL Administration > Visual Experience Composer], puis faites basculer le commutateur en position Activé.
+Pour activer le compositeur d’expérience avancé au niveau du compte, cliquez sur [!UICONTROL Administration > Visual Experience Composer], puis activez le bouton (bascule) sur la position Activé .
 
-Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configure > URL], puis faites basculer le commutateur en position Activé.
+Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configure > URL], puis activez le bouton (bascule) sur la position Activé.
 
-### Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de votre site.
+### Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle amélioré ne se charge pas sur les pages sécurisées de votre site.
 
-Les problèmes de chargement du compositeur d’expérience visuelle avancé peuvent être résolus en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les visiteurs de votre site n’ont pas besoin que ces adresses IP soient placées sur la liste autorisée.
+Les problèmes de chargement du compositeur d’expérience visuelle amélioré peuvent être résolus en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Placer sur la liste autorisée Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
 
-États-Unis : 52.55.99.45, 54.80.158.92 et 54.204.197.253
+États-Unis : 52.55.99.45, 54.80.158.92 et 54.204.197.253
 
-Europe, Moyen-Orient et Afrique (EMEA) : 52.51.238.221, 52.210.199.44 et 54.72.56.50
+Europe, Moyen-Orient et Afrique (EMEA) : 52.51.238.221, 52.210.199.44 et 54.72.56.50
 
-Asie-Pacifique (APAC) : 52.193.67.35, 54.199.198.109 et 54.199.241.57
+Asie-Pacifique : 52.193.67.35, 54.199.198.109 et 54.199.241.57
 
 ### Utiliser des identifiants uniques pour les éléments de niveau supérieur et pour tout autre élément qui serait un bon candidat pour le test/ciblage.
 
@@ -57,7 +57,7 @@ Si la propriété CSS 1!important1 est présente, les modifications effectuées
 
 Target Standard et Premium utilisent JavaScript pour mettre en forme une page. Il est difficile de modifier les dispositions basées sur des tables avec JavaScript. En outre, les dispositions basées sur des tables peuvent ne pas s’afficher de la même manière dans tous les navigateurs. Pour de meilleurs résultats, utilisez CSS pour créer les dispositions de page.
 
-### Minimiser l’utilisation des iFrames.
+### Réduisez l’utilisation des iFrames.
 
 Il est de bonne pratique de minimiser l’utilisation des iFrames afin de simplifier la gestion des pages et des tests. Le compositeur d’expérience visuelle peut appliquer des actions dans un iFrame mais certaines actions, telles que le redimensionnement, ne fonctionnent pas correctement. Il est difficile de gérer et de redimensionner des pages qui utilisent plusieurs iFrames. De ce fait, le test de pages lourdes en iFrame peut générer des problèmes.
 
@@ -79,7 +79,7 @@ Les éléments de niveau bloc ne doivent pas être utilisés dans des éléments
 
 ### Ne pas utiliser la balise de base dans votre site web pour résoudre les URL et les liens.
 
-Le compositeur d’expérience visuelle manipule le site web en arrière-plan à l’aide d’un serveur proxy qui a mis à jour les liens. Si vous ajoutez une balise de base, les URL utilisées par le serveur proxy sont à nouveau résolues par le navigateur et apparaissent rompues.
+Le compositeur d’expérience visuelle manipule le site web en arrière-plan, à l’aide d’un serveur proxy qui a mis à jour les liens. Si vous ajoutez une balise de base, les URL utilisées par le serveur proxy sont à nouveau résolues par le navigateur et apparaissent rompues.
 
 ### L’utilisation de l’option Modifier HTML pour manipuler la structure DOM peut rompre les sélecteurs.
 
@@ -94,7 +94,7 @@ En d’autres termes, si vous ajoutez un élément avec du texte, puis, dans une
 
 Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)
 
-### Utilisez les balises `<b>` et `<i>` lors de la mise en forme d’éléments de texte avec l’éditeur de texte enrichi.
+### Utilisez des balises `<b>` et `<i>` lors de la mise en forme d’éléments de texte avec l’éditeur de texte enrichi.
 
 * Pour mettre le texte en gras, utilisez `<b>` plutôt que `<strong>`.
 * Pour mettre le texte en italique, utilisez `<i>` plutôt que `<em>`.
@@ -105,7 +105,7 @@ Les balises `<strong>` et `<em>` pourraient engendrer des résultats inattendus.
 
 Certains champs de formulaire peuvent être obligatoires pour la soumission. La suppression de ces champs de formulaire peut avoir un impact sur les soumissions.
 
-### N’incluez pas `mboxCreate` dans les scripts.
+### N’incluez pas de `mboxCreate` dans les scripts.
 
 Du fait que `mboxCreate` utilise `document.write`, il n’est pas recommandé d’inclure `mboxCreate` dans les scripts. À la place, utilisez `mboxDefine` et `mboxUpdate` dans le même objectif.
 
@@ -179,7 +179,7 @@ Désactivez les techniques d’iFrame sur votre site web et vérifiez qu’il s�
 
 ## Avertissements {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Tenez compte des avertissements suivants lors de l’utilisation de [!UICONTROL Visual Experience Composer] pour concevoir votre activité.
+Tenez compte des avertissements suivants lors de l’utilisation de l’[!UICONTROL Visual Experience Composer] pour concevoir votre activité.
 
 ### La fonctionnalité Déplacer ne prend pas en charge l’index z.
 
@@ -191,7 +191,7 @@ Si un élément marqué pour le suivi des clics est réorganisé, les chemins d�
 
 Cela se produit car le code de diffusion du contenu d’activité ainsi que le code de suivi des clics sont inclus dans un fragment de code qui est diffusé sur la page. Si vous naviguez sur une page différente et configurez le suivi des clics, le code du contenu d’activité et le code de suivi des clics sont diffusés sur cette page. Si la page de suivi des clics comporte une structure de page similaire dans laquelle le test est exécuté, alors le contenu du test peut également apparaître sur la page de suivi des clics.
 
-### L’insertion d’un élément peut ne pas fonctionner dans une `<div>` qui est une mbox.
+### L’insertion d’un élément peut ne pas fonctionner dans un `<div>` qui est une mbox.
 
 Si une mbox contient une offre, l’insertion d’un élément peut apparaître en tant que insertBefore au lieu de insertAfter si le mbox n’est pas implémenté correctement.
 
@@ -223,15 +223,27 @@ La méthode de contournement consiste à réduire le rail d’expérience et le 
 
 ## Limites  {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
-Tenez compte des restrictions suivantes lors de l’utilisation du VEC :
+Tenez compte des restrictions suivantes lorsque vous utilisez le compositeur d’expérience visuelle :
+
+### Gestion de la compatibilité du VEC avec les modifications de la politique d’extension de Chrome.
+
+En raison des politiques de manifeste [V3 mises à jour dans Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, les extensions ne peuvent plus modifier le DOM d’origine avant qu’il ne soit analysé par le navigateur. Par conséquent, certains scripts de sécurité, tels que les implémentations qui démolissent un iframe, peuvent bloquer le chargement des pages dans le compositeur d’expérience visuelle.
+
+Pour garantir la compatibilité, ces scripts doivent être désactivés de manière conditionnelle lorsque la page est chargée dans l’iframe [!DNL Target]. Ce processus peut être effectué en toute sécurité en vérifiant la présence de l’objet `window.adobeVecExtension`, qui est injecté par [!DNL Target] pendant le chargement du compositeur d’expérience visuelle.
+
+Les fragments de code suivants sont des exemples de code qui démolissent un iframe et peuvent entraîner le non chargement de la page web dans le VEC :
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
 
 ### Vous ne pouvez pas déplacer un élément en dehors d’un conteneur suivi d’une propriété CSS.
 
 Un élément ne peut pas être déplacé en dehors d’un conteneur qui est suivi par une propriété CSS.
 
-### Vous ne pouvez pas sélectionner l’élément [!UICONTROL Button] pour la réorganisation.
+### Vous ne pouvez pas sélectionner l’élément [!UICONTROL Button] pour réorganiser.
 
-Les éléments [!UICONTROL Button] ne peuvent pas être sélectionnés directement pour la réorganisation. Pour activer la réorganisation, placez des boutons dans un conteneur plus grand.
+Les éléments [!UICONTROL Button] ne peuvent pas être sélectionnés directement pour la réorganisation. Pour activer la réorganisation, placez les boutons dans un conteneur plus grand.
 
 ### Seules les offres de permutation sont disponibles sur les mbox.
 
@@ -257,7 +269,7 @@ Une fois que vous avez permuté l’image, vous ne pouvez pas modifier l’URL d
 
 ### Les éléments HTML comportant une source externe ne peuvent pas être modifiés.
 
-Par exemple : vidéo, balises audio, élément intégré, iFrames, images.
+Par exemple : vidéo, balises audio, élément incorporé, iFrames, images.
 
 ### Le suivi des clics ne fonctionne pas pour les éléments d’ancre qui contiennent des éléments autres que du texte brut ou des balises d’image.
 
@@ -293,7 +305,7 @@ Le script est exécuté dans les limites de target.js après le chargement de la
 </script>
 ```
 
-### L’insertion d’une image à partir de la bibliothèque de contenu (Scene7) et la modification de l’HTML rompt l’URL de l’image.
+### L’insertion d’une image à partir de la bibliothèque de contenu (Scene7) et la modification de l’HTML rompent l’URL de l’image.
 
 Ajoutez un élément d’ancre à l’intérieur de l’élément div « customHeaderMessage » avec du texte de remplissage :
 
@@ -316,7 +328,7 @@ Après l’insertion de l’image, vous obtenez ceci :
 
 Supprimez l’élément span de texte de remplissage.
 
-### L’action customCode du VEC ne fonctionne pas avec Internet Explorer 8.
+### L’action customCode dans le VEC ne fonctionne pas avec Internet Explorer 8.
 
 target.js ne prend pas en charge cette action dans IE8 en raison de limitations d’IE8 au niveau de la gestion des contenus de script. Si la page contient jQuery et est exposée globalement sur l’objet window, la méthode de contournement consiste à utiliser target.js pour diffuser l’action customCode. Assurez-vous que window.jQuery et window.jQuery.fn.prepend sont définis.
 
