@@ -4,7 +4,7 @@ description: Découvrez les bonnes pratiques pour que vos expériences fonctionn
 title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
+source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
 workflow-type: tm+mt
 source-wordcount: '2512'
 ht-degree: 81%
@@ -225,7 +225,7 @@ La méthode de contournement consiste à réduire le rail d’expérience et le 
 
 Tenez compte des restrictions suivantes lorsque vous utilisez le compositeur d’expérience visuelle :
 
-### Gestion de la compatibilité du VEC avec les modifications de la politique d’extension de Chrome.
+### Gestion de la compatibilité du VEC avec les modifications de la politique d’extension de Chrome. {#ext}
 
 En raison des politiques de manifeste [V3 mises à jour dans Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}, les extensions ne peuvent plus modifier le DOM d’origine avant qu’il ne soit analysé par le navigateur. Par conséquent, certains scripts de sécurité, tels que les implémentations qui démolissent un iframe, peuvent bloquer le chargement des pages dans le compositeur d’expérience visuelle.
 
