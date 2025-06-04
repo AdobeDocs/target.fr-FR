@@ -4,10 +4,10 @@ description: Découvrez les bonnes pratiques pour que vos expériences fonctionn
 title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -236,6 +236,14 @@ Les fragments de code suivants sont des exemples de code qui démolissent un ifr
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+Une simple vérification peut être utilisée pour vérifier si une page web est incorporée dans [!DNL Target]. Un fragment de code devrait ressembler à ceci :
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### Vous ne pouvez pas déplacer un élément en dehors d’un conteneur suivi d’une propriété CSS.
 
