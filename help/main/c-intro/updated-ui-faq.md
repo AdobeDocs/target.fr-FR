@@ -5,9 +5,9 @@ title: Où puis-je trouver des questions fréquentes sur l’interface utilisate
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 8efcbd1c610a71c9afcb6a0bb6bd31bff6876a8f
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,12 @@ ht-degree: 0%
 
 Trouvez des réponses aux questions courantes sur l’interface utilisateur de [!DNL Adobe Target] mise à jour, avec des conseils utiles et des liens pour en savoir plus.
 
+## Où puis-je trouver plus d’informations sur l’interface utilisateur de [!DNL Target] mise à jour ?
+
++++Détails
 {{updated-ui}}
+
++++
 
 ## L’interface utilisateur mise à jour est-elle disponible pour tous les clients, [!UICONTROL Standard] et [!UICONTROL Premium] actuels de [!DNL Target] ?
 
