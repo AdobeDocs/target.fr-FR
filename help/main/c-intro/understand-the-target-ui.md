@@ -4,10 +4,10 @@ description: Familiarisez-vous avec l’interface utilisateur et trouvez des lie
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: df0a0aea7348bfde9114399fd6c1131b740f3c24
+source-git-commit: 3f7c81654d4f7982acf166b314cc332822cc87a6
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 22%
+source-wordcount: '1355'
+ht-degree: 23%
 
 ---
 
@@ -15,19 +15,7 @@ ht-degree: 22%
 
 L’interface utilisateur suit un format logique et convivial pour vous aider à tirer le meilleur parti d’[!DNL Adobe Target]. Le bref aperçu suivant vous permet de vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 
->[!NOTE]
->
->Nouveau en 2025, [!DNL Target] introduit une interface utilisateur et un [!UICONTROL Visual Experience Composer] (VEC) mis à jour. Pour en savoir plus, cliquez sur les liens suivants :
->
->* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
->
->* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
->
->* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
->
->* [[!UICONTROL Visual Experience Composer] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
->
->* [[!UICONTROL Visual Experience Composer] options ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
+{{updated-ui}}
 
 ## En-tête de l’interface utilisateur de [!DNL Target]
 
@@ -57,7 +45,7 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 (Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
