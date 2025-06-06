@@ -4,7 +4,7 @@ description: Découvrez les bonnes pratiques pour que vos expériences fonctionn
 title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 1f2c6bbabf0158672e5f926ffdf9662637cd8416
+source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
 ht-degree: 37%
@@ -312,7 +312,7 @@ Les fragments de code suivants sont des exemples de code qui démolissent un ifr
 
 `top.location.href = self.location.href;`
 
-Une simple vérification peut être utilisée pour vérifier si une page web est incorporée dans [!DNL Target]. Un fragment de code devrait ressembler à ceci :
+Une simple vérification peut être utilisée pour vérifier si une page web est incorporée dans [!DNL Target]. Un fragment de code doit se présenter comme suit :
 
 ```
 if(!window.adobeVecExtension) {
