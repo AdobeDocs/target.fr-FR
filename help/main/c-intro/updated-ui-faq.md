@@ -5,21 +5,31 @@ title: Où puis-je trouver des questions fréquentes sur l’interface utilisate
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Mise à jour du FAQ sur l’interface utilisateur de Target
+# FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
-Trouvez des réponses aux questions courantes sur l’interface utilisateur de [!DNL Adobe Target] mise à jour, avec des conseils utiles et des liens pour en savoir plus.
+Nouvelle version de 2025, l’interface utilisateur mise à jour de [!DNL Adobe Target] offre une expérience rationalisée et intuitive conçue pour améliorer la convivialité et l’efficacité dans tous les rôles. Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
 ## Où puis-je trouver plus d’informations sur l’interface utilisateur de [!DNL Target] mise à jour ?
 
 +++Détails
-{{updated-ui}}
+Les ressources suivantes fournissent des informations pour en savoir plus sur l’interface utilisateur de [!DNL Target] mise à jour :
+
+* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
+
+* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
+
+* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+
+* [[!UICONTROL Visual Experience Composer] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+
+* [[!UICONTROL Visual Experience Composer] options ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 
 +++
 
@@ -50,7 +60,7 @@ Le bouton (bascule) Version de l’interface utilisateur est une fonctionnalité
 
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, consultez la section [Obsolescence du bouton (bascule) de la version de l’interface utilisateur cible (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
 
 ++++
 
@@ -61,7 +71,7 @@ Pour plus d’informations sur le déploiement et l’obsolescence du bouton (ba
 
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, consultez la section [Obsolescence du bouton (bascule) de la version de l’interface utilisateur cible (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
 
 +++
 
