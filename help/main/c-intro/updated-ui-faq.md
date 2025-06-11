@@ -5,9 +5,9 @@ title: Où puis-je trouver des questions fréquentes sur l’interface utilisate
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ Le bouton (bascule) Version de l’interface utilisateur est une fonctionnalité
 
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
+>[!NOTE]
+>
+>Les clients avec des cas spéciaux qui doivent conserver le bouton bascule après le 22 juin peuvent contacter l’assistance clientèle d’Adobe pour obtenir de l’aide.
+
+
 Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
 
 ++++
@@ -85,21 +90,23 @@ Les activités créées ou modifiées dans l’interface utilisateur mise à jou
 ## Quelles sont les différences entre la création d’offres dans l’interface utilisateur héritée et celle mise à jour ? Des attributs supplémentaires sont-ils requis ?
 
 +++Détails
-Muti, de l&#39;aide.
+L’interface utilisateur de [!UICONTROL Offer Library] nécessite des définitions d’attribut cohérentes pour toutes les offres. Lors de la création d’une offre d’activité uniquement (ad hoc), les utilisateurs doivent également spécifier un nom d’offre. Ces informations s’affichent dans le [!UICONTROL Form-based Experience Composer], ce qui facilite l’identification des offres sans consulter le code ou le contenu.
 
 +++
 
 ## Qu’est-il advenu des liens de prévisualisation des offres dans l’interface utilisateur mise à jour ?
 
 +++Détails
-Muti, de l&#39;aide.
+[!UICONTROL Experience Fragment] liens d’aperçu sont disponibles dans la fenêtre contextuelle [!UICONTROL Quick Info], qui s’affiche lorsque vous cliquez sur l’icône d’informations ( ![icône Infos](/help/main/assets/icons/InfoOutline.svg) ) correspondant au fragment sélectionné.
 
 +++
 
 ## Je dois désactiver le [!UICONTROL Enhanced Experience Composer] lors de la modification des activités existantes avec l’interface utilisateur mise à jour. A-t-[!DNL Adobe] observé un comportement similaire avec d’autres clients ?
 
 +++Détails
-Muti, de l&#39;aide.
+Oui. Lors de l’utilisation du [!DNL Visual Editing Helper extension] [!DNL Adobe Experience Cloud], vous devrez peut-être désactiver le [!UICONTROL Enhanced Experience Composer] (EEC) .
+
+Pour plus d’informations, consultez [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 +++
 
@@ -113,7 +120,7 @@ Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur
 
 +++
 
-## Nous avons rencontré des problèmes avec Browse qui ne fonctionne pas ou qui nous autorise à naviguer. A-t-[!DNL Adobe] observé un comportement similaire avec d’autres clients ?
+## Nous avons rencontré des problèmes liés au fait que [!UICONTROL Browse] ne fonctionnait pas ou ne nous permettait pas de naviguer. A-t-[!DNL Adobe] observé un comportement similaire avec d’autres clients ?
 
 +++Détails
 Muti, de l&#39;aide.
@@ -123,7 +130,9 @@ Muti, de l&#39;aide.
 ## L’environnement est-il réinitialisé à l’évaluation par défaut dans la nouvelle interface utilisateur de Recommendations ?
 
 +++Détails
-Muti, de l&#39;aide.
+Les environnements utilisent désormais par défaut le dernier utilisé par le client. Pour changer d’environnement, utilisez le sélecteur de [!UICONTROL Environment] dans le coin supérieur droit de l’interface utilisateur de [!UICONTROL Catalog Search].
+
+![ Commutateur d’environnement ](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
