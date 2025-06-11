@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: 65ac352a1de7ad532f8c39781054fb09fa62c0fa
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 28%
+source-wordcount: '1125'
+ht-degree: 27%
 
 ---
 
@@ -49,6 +49,10 @@ Cette version comprend les correctifs et mises à jour suivants :
 Le déploiement de la nouvelle interface utilisateur [!DNL Target] sera terminé d’ici le 27 **2025**. À ce stade, tous les clients auront accès à la dernière version de l’interface utilisateur.
 
 À compter du **22 juin 2025**, le bouton (bascule) de version de l’interface utilisateur sera supprimé. Tous les utilisateurs passeront définitivement à la nouvelle interface, sans possibilité de revenir à la version précédente.
+
+>[!NOTE]
+>
+>Les clients avec des cas spéciaux qui doivent conserver le bouton bascule après le 22 juin peuvent contacter l’assistance clientèle d’Adobe pour obtenir de l’aide.
 
 ### Informations importantes sur le bouton (bascule) de version de l’interface utilisateur
 
