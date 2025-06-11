@@ -5,9 +5,9 @@ title: Où puis-je trouver des questions fréquentes sur l’interface utilisate
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
+source-git-commit: 83a649b01adfe503af2bf38c0b47844ee00ecb37
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,6 @@ Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur
 
 * **Enhanced Experience Composer (EEC)** : consultez la section [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) dans *Résolution des problèmes liés au Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]** : voir [ adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
-
-+++
-
-## Nous avons rencontré des problèmes liés au fait que [!UICONTROL Browse] ne fonctionnait pas ou ne nous permettait pas de naviguer. A-t-[!DNL Adobe] observé un comportement similaire avec d’autres clients ?
-
-+++Détails
-Muti, de l&#39;aide.
 
 +++
 
