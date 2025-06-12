@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 26%
+source-wordcount: '1701'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,38 @@ ht-degree: 26%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.6.2 (vendredi 12 juin 2025)
+
+Cette version comprend les correctifs et mises à jour suivants :
+
+* Ajout d’un [nouvel article de FAQ](/help/main/c-intro/updated-ui-faq.md) pour répondre aux questions courantes sur l’interface utilisateur et le [!UICONTROL Visual Experience Composer] de [!DNL Target] mis à jour (VEC).
+* Correction d’un problème en raison duquel la règle « [!UICONTROL URL - does not contain] » dans [!UICONTROL Page Delivery] ne fonctionnait pas, ce qui permettait d’afficher le contenu même lorsqu’il aurait dû être bloqué. (TGT-52754)
+* Correction d’un problème en raison duquel [!UICONTROL Page Delivery] affichait incorrectement le message d’erreur : « Les URL de page en double ne sont pas autorisées. (TGT-52765)
+* Correction d’un problème où les audiences des URL [!UICONTROL Page Delivery] contenant des fragments d’expérience étaient créées avec le signe # ajouté par erreur. (TGT-52786)
+* Correction d’un problème en raison duquel la copie d’une activité et les paramètres de modification sur la page [!UICONTROL Goals and Settings] ne répondaient plus dans l’interface utilisateur de [!DNL Target]. (TGT-52797)
+* Correction d’un problème dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC) qui autorisait incorrectement la redirection d’une page supplémentaire dans une activité [!UICONTROL A/B Test] vers la même URL. (TGT-51838)
+* Correction d’un problème en raison duquel les modifications apportées aux mesures sur la page [!UICONTROL Goals and Settings] n’étaient pas enregistrées lors de la modification d’une activité. (TGT-52799)
+* Correction d’un problème en raison duquel l’ajout d’une nouvelle expérience alors que l’éditeur web était toujours en cours de chargement entraînait la duplication du contenu de la nouvelle expérience depuis l’expérience précédente. (TGT-51397)
+* Restauration de la possibilité d’utiliser du code personnalisé en dehors de la balise `<head>`, une fonctionnalité auparavant disponible dans l’ancienne interface utilisateur de Target. (TGT-52304 et TGT-52300)
+* Suppression de la validation inutile lors de la sélection de l’espace de travail par défaut lors de la création de l’activité. La validation obligatoire des propriétés ne s’applique plus à l’espace de travail par défaut, mais reste en place pour les espaces de travail non par défaut. (TGT-52449)
+* Correction d’un problème dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC) en raison duquel `triggerView()` appels n’étaient pas détectés. (TGT-52575)
+* Correction d’un problème dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC) qui empêchait les utilisateurs d’ajouter des modifications aux vues [!UICONTROL Single Page Application] (SPA). (TGT-52556)
+* Correction d’un problème dans l’interface utilisateur de [!DNL Target] mise à jour qui empêchait les clients d’afficher les détails de l’offre. (TGT-52607)
+* Correction d’un problème en raison duquel les mises à jour apportées aux offres dans le [!UICONTROL Offers Library] n’étaient pas répercutées dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC). (TGT-52637)
+* Correction d’un problème qui empêchait l’affichage correct de la section Offres lors de la création d’une activité. (TGT-52773)
+* Ajout d’une validation pour s’assurer que toutes les `optionLocalIds` référencées dans `optionGroups` existent dans le tableau d’options. Les références non valides sont automatiquement supprimées lors de la création de l’activité. (TGT-52687)
+* Correction d’un problème où les groupes de génération de rapports et les exclusions n’étaient pas conservés après l’ajout d’une nouvelle offre. (TGT-52728)
+* Correction d&#39;un problème en raison duquel les activités sans bouton [!UICONTROL Activity QA] affichaient un sélecteur d&#39;options vide. (TGT-52733)
+* Correction d’un problème en raison duquel les liens d’assurance qualité ne rendaient pas correctement le contenu. (TGT-52718)
+* Correction d’un problème en raison duquel le remplacement d’un élément par un fragment d’expérience ne reflétait pas correctement les modifications dans l’environnement d’assurance qualité. (TGT-52762)
+* Correction d’un problème dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC) qui provoquait une erreur « Entrée non valide » lorsque les utilisateurs tentaient d’ajouter des fragments d’expérience. (TGT-52701)
+* Correction d’un problème en raison duquel la boîte de dialogue modale « Modifier l’audience » apparaissait vide lors de la modification du ciblage des audiences dans le [!UICONTROL Visual Experience Composer] mis à jour (VEC). (TGT-52749)
+* Ajout d&#39;un message pour informer les utilisateurs qu&#39;une entité n&#39;est pas accessible dans l&#39;espace de travail sélectionné. (TGT-52767)
+* Correction d’un problème en raison duquel l’interface utilisateur ne permettait pas l’affectation manuelle d’un identifiant d’environnement à un critère. Au lieu de cela, il a défini par défaut l’ID du groupe d’hôtes [!UICONTROL Product Catalog Search]. Ce correctif garantit que les modifications des critères sont désormais appliquées à tous les environnements, et pas seulement à la valeur par défaut. (TGT-52817)
+* Correction d’un problème en raison duquel l’option « [!UICONTROL Download Recommendations data] » était manquante pour les activités [!UICONTROL Experience Targeting] (XT) avec des recommandations. (TGT-52730 et TGT-52756)
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1 (samedi 6 juin 2025)
 
