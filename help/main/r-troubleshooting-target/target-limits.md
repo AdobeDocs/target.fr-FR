@@ -1,20 +1,20 @@
 ---
 keywords: limite de caractères;paramètres mbox;api de diffusion par lots;paramètres de profil;limites;profils intégrés;maximum;limite;contrainte;caractère;bonne pratique;orderid;orderTotal;mbox3rdPartyID;catégorie;categoryID;dépannage
-description: Affichez une liste des limites de caractères et autres limites qui affectent les activités et autres éléments dans  [!DNL Adobe Target].
-title: Quelles sont les différentes limites de caractère, taille et autres dans [!DNL Adobe Target] ?
+description: Affichez une liste des limites de caractères et d’autres limites qui affectent les activités et autres éléments dans [!DNL Adobe Target].
+title: Quelles sont les différentes limites de caractère, de taille et autres en  [!DNL Adobe Target] ?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 77%
+source-wordcount: '1734'
+ht-degree: 74%
 
 ---
 
 # Limites
 
-Limites de caractères et autres limites (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui concernent les activités et autres éléments dans [!DNL Adobe Target].
+Limites de caractères et autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et autres éléments dans les [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -78,21 +78,21 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
       * at.js:
          * Contenu par défaut affiché
 
-* **Limite** : 50 mbox par [!DNL Target] demande de mbox de diffusion de contenu par lot.
+* **Limite** : 50 mbox par demande de mbox par lot de diffusion de contenu [!DNL Target].
 
-  Le dépassement de 50 mbox par requête de mbox de diffusion de contenu par lot de [!DNL Target] entraîne un code d’erreur de réponse `HTTP 400` avec le message d’erreur `size must be between 0 and 50`.
+  Si la demande de mbox de diffusion par lots de contenu est supérieure à 50 mbox par [!DNL Target], un code d’erreur de réponse `HTTP 400` avec un message d’erreur `size must be between 0 and 50`.
 
-  Les requêtes de mbox par lot sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus la requête par lot contient de mbox, plus il est possible d’attendre de latence de réponse, ce qui peut entraîner des délais d’expiration. Si le rendu de l’expérience est bloqué sur ces demandes par lots de latence élevée, la latence peut entraîner une expérience utilisateur dégradée, car les utilisateurs attendent le rendu des expériences.
+  Les requêtes de mbox par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus il y a de mbox sur la requête par lots, plus la latence de réponse attendue est importante et donc le risque de dépassement de délai est élevé. Si le rendu de l’expérience est bloqué sur ces requêtes par lots à latence élevée, la latence peut entraîner une dégradation de l’expérience utilisateur, car les utilisateurs et utilisatrices attendent que les expériences s’affichent.
 
-* **Limite** : taille du corps du POST HTTP de 60 Mo pour les demandes de diffusion de contenu [!DNL Target].
+* **Limite** : taille de corps HTTP POST de 60 Mo pour les requêtes de diffusion de contenu [!DNL Target].
 
-  Si la taille du corps du POST HTTP d’une requête de diffusion de contenu [!DNL Target] dépasse 60 Mo, le code d’erreur de réponse `HTTP 413 Request Entity Too Large` s’affiche.
+  Si la taille du corps HTTP POST d’une requête de diffusion de contenu [!DNL Target] dépasse 60 Mo, un code d’erreur de réponse `HTTP 413 Request Entity Too Large`.
 
-* **Limite recommandée** : 50 notifications par [!DNL Target] demande de lot de diffusion.
+* **Limite recommandée** : 50 notifications par demande de lot de diffusion [!DNL Target].
 
-  Le dépassement de 50 notifications par requête de lot de diffusion [!DNL Target] entraîne probablement une latence de réponse et des délais d’attente plus importants.
+  Dépasser 50 notifications par demande de lot de diffusion [!DNL Target] entraîne probablement une latence de réponse et des délais accrus.
 
-  Les demandes de notification par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus le nombre de notifications sur la requête par lot est élevé, plus il est possible d’attendre une latence de réponse, ce qui peut entraîner des délais d’expiration. Une latence supplémentaire sur les demandes de notification par lots peut être acceptable pour certains clients, mais sachez que les dépassements de délai et les reprises ultérieures peuvent entraîner une latence encore plus importante.
+  Les demandes de notification par lots sont traitées de manière séquentielle, ce qui augmente le temps de réponse global à chaque itération. Plus il y a de notifications sur la requête par lots, plus la latence de réponse attendue est élevée, et donc le risque de dépassement de délai. Une latence supplémentaire sur les requêtes de notification par lots peut être acceptable pour certains clients. Toutefois, gardez à l’esprit que les dépassements de délai et toute reprise ultérieure peuvent entraîner une latence encore plus importante.
 
 ## Attributs du client
 
@@ -116,7 +116,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 * La limite recommandée pour bénéficier de performances optimales consiste à conserver le catalogue à moins d’un million d’articles par environnement et à moins de dix millions d’articles dans tous les environnements.
-* La limite maximale est de dix millions d’articles par environnement et de 100 millions d’articles dans tous les environnements. Si vous avez entre un million et dix millions d’éléments par environnement, les performances de l’interface utilisateur [!UICONTROL Catalog Search] sont affectées. Toutefois, [!DNL Target Recommendations] continue de générer et de fournir des recommandations.
+* La limite maximale est de dix millions d’articles par environnement et de 100 millions d’articles dans tous les environnements. Si vous avez entre un et dix millions d’éléments par environnement, cela aura une incidence sur les performances de l’interface utilisateur [!UICONTROL Catalog Search]. Toutefois, [!DNL Target Recommendations] continue de générer et de fournir des recommandations.
 
 ### Attributs d’entité personnalisés
 
@@ -155,7 +155,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ### Expériences par activité
 
-* **Limite** : 2 000 expériences par [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) et [!UICONTROL Auto-Target] activité.
+* **Limite** : 2 000 expériences par [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) et activité [!UICONTROL Auto-Target].
 
   30 000 expériences par activité d’Automated Personalization (AP).
 
@@ -169,7 +169,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 256 caractères.
 
-  Les valeurs comportant plus de 256 caractères sont tronquées lors de l’utilisation d’at.js 1.*x*. Lorsque vous utilisez at.js 2, vous recevez un message d’erreur lors de l’envoi de valeurs comportant plus de 256 caractères.*x* ou [!DNL Adobe Experience Platform Web SDK]. Les valeurs ne sont pas automatiquement tronquées.
+  Les valeurs de plus de 256 caractères sont tronquées lors de l’utilisation d’at.js 1.*x*. Vous recevez un message d’erreur lors de l’envoi de valeurs de plus de 256 caractères lors de l’utilisation d’at.js 2.*x* ou la [!DNL Adobe Experience Platform Web SDK]. Les valeurs ne sont pas automatiquement tronquées.
 
 ### Noms des profils internes à mbox
 
@@ -179,13 +179,13 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite** : 250 caractères.
 
-  Pour [!DNL Delivery API] (at.js 2.Intégrations *x*), mbox par lot V2 et [!DNL Adobe Experience Platform Web SDK] (alloy.js), les noms de mbox *can* contiennent des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
+  Par [!DNL Delivery API] (at.js 2.*x*), les intégrations de mbox par lot V2 et [!DNL Adobe Experience Platform Web SDK] (alloy.js), les noms de mbox *peuvent* contenir des caractères alphanumériques (A-Z, a-z, 0-9) et l’un des caractères suivants :
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  Pour at.js 1.Les intégrations *x*, les noms de mbox *ne peuvent pas* contenir les caractères suivants :
+  Pour at.js 1.Les intégrations *x*, les noms de mbox *ne peuvent pas* contenir l’un des caractères suivants :
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -205,7 +205,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
   Si vous utilisez l’API de diffusion par lots, la limite est de 50 mbox par requête de lot.
 
-  Si vous utilisez l’API de livraison par lots dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
+  Si vous utilisez l’API de diffusion par lots dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
 
   « Le nombre de mboxParameters ne peut pas dépasser 50. »
 
@@ -295,11 +295,15 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite** : 50 audiences/segments créant des rapports par activité.
 
+## sessionID
+
+L’ID de session peut être n’importe quelle chaîne imprimable, à l’exception d’un espace ou d’un point d’interrogation ( ? ), des accolades ( { } ) ou une barre oblique ( / ). Elle doit comporter entre 1 et 128 caractères.
+
 ## Zone d’entrée Profil de script dans l’interface utilisateur de [!DNL Target]
 
 * **Limite recommandée** : 2 000 caractères.
 
-  Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop grande, elle échoue avant d’atteindre [!DNL Adobe Target].
+  Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop volumineuse, elle échoue avant d’arriver à [!DNL Adobe Target].
 
 ## Profils de script
 
