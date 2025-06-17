@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## Mise à jour : obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target] (17 juin 2025) {#revised}
+
+Depuis le 17 juin 2025, toutes les organisations IMS doivent avoir été activées pour l’interface utilisateur [!DNL Target] mise à jour, que ce soit pour des utilisateurs spécifiques ou à l’échelle de l’organisation, afin de commencer à tester la nouvelle expérience.
+
+En raison de problèmes récents identifiés, principalement liés à des personnalisations client complexes, l’équipe [!DNL Target] a ajusté le calendrier d’abandon :
+
+* **30 juin 2025** : l’[updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) deviendra l’expérience par défaut pour toutes les organisations IMS qui ont activé le bouton (bascule) de version de l’interface utilisateur.
+
+   * Par défaut, les clients qui consultent actuellement l’interface utilisateur héritée verront désormais l’interface utilisateur mise à jour lors de leur connexion.
+   * Le bouton (bascule) de version de l’interface utilisateur reste disponible jusqu’à la fin juillet, ce qui permet aux utilisateurs et utilisatrices de revenir en arrière si nécessaire.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe] recommande vivement d’utiliser l’interface utilisateur de [!DNL Target] mise à jour. Revenez à l’interface utilisateur héritée uniquement si un problème de blocage se produit. Consultez [[!DNL Target] Obsolescence du bouton (bascule) de version de l’interface utilisateur (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans les notes de mise à jour des versions précédentes pour obtenir des informations importantes sur le bouton (bascule).
+
+* **du 15 au 30 juillet 2025** : le bouton (bascule) de version de l’interface utilisateur sera désactivé définitivement par phases. Les organisations IMS affectées ne pourront plus revenir à l’interface utilisateur héritée.
+
+   * Les exceptions seront examinées au cas par cas.
+   * Les délais d’abandon du bouton (bascule) ne sont accordés que brièvement (quelques jours) pendant que les problèmes de blocage sont résolus.
+
+Contactez l’[Assistance clientèle d’Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) pour toute question ou si vous prévoyez des problèmes au cours de cette transition.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (vendredi 12 juin 2025)
 
@@ -49,8 +71,6 @@ Cette version comprend les correctifs et mises à jour suivants :
 * Correction d’un problème en raison duquel l’interface utilisateur ne permettait pas l’affectation manuelle d’un identifiant d’environnement à un critère. Au lieu de cela, il a défini par défaut l’ID du groupe d’hôtes [!UICONTROL Product Catalog Search]. Ce correctif garantit que les modifications des critères sont désormais appliquées à tous les environnements, et pas seulement à la valeur par défaut. (TGT-52817)
 * Correction d’un problème en raison duquel l’option « [!UICONTROL Download Recommendations data] » était manquante pour les activités [!UICONTROL Experience Targeting] (XT) avec des recommandations. (TGT-52730 et TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (samedi 6 juin 2025)
 
 Cette version comprend les correctifs et mises à jour suivants :
@@ -76,7 +96,11 @@ Cette version comprend les correctifs et mises à jour suivants :
 * Correction d’un problème de localisation en langue coréenne en raison duquel les traductions précédentes utilisaient des caractères en dehors du plan multilingue de base. La traduction mise à jour utilise des caractères appropriés qui transmettent précisément la signification prévue. (TGT-52508 et TGT-52509)
 * Correction d’un problème de localisation en coréen en raison duquel la traduction de la « date » était incohérente lors de la sélection des dates de début et de fin d’une activité. (TGT-52510)
 
-## Obsolescence du bouton (bascule) de la version de l’interface utilisateur Target (23 mai 2025) {#toggle}
+## Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target] (23 mai 2025) {#toggle}
+
+>[!IMPORTANT]
+>
+>L’équipe [!DNL Target] a ajusté la chronologie de l’obsolescence du bouton (bascule) de version de l’interface utilisateur. Pour plus d’informations, consultez la section [Mise à jour du basculement vers l’obsolescence de la version  [!DNL Target] UI (17 juin 2025)](#revised).
 
 Le déploiement de la nouvelle interface utilisateur [!DNL Target] sera terminé d’ici le 27 **2025**. À ce stade, tous les clients auront accès à la dernière version de l’interface utilisateur.
 

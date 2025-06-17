@@ -3,9 +3,9 @@ keywords: interface utilisateur de target;interface utilisateur;iu;questions fr�
 description: Questions et réponses sur l [!DNL Target]interface utilisateur de mise à jour d’.
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,13 @@ ht-degree: 0%
 # FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
 Nouvelle version de 2025, l’interface utilisateur mise à jour de [!DNL Adobe Target] offre une expérience rationalisée et intuitive conçue pour améliorer la convivialité et l’efficacité dans tous les rôles. Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
+
+## La chronologie d’abandon du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
+
++++Détails
+Oui. Vous trouverez le nouveau journal et des informations importantes dans la section [Mise à jour : obsolescence de la version de l’interface utilisateur  [!DNL Target]  (17 juin 2025)](/help/main/r-release-notes/release-notes.md#revised).
+
++++
 
 ## Où puis-je trouver plus d’informations sur l’interface utilisateur de [!DNL Target] mise à jour ?
 
@@ -60,8 +67,7 @@ Le bouton (bascule) Utiliser la version de l’interface utilisateur présente p
 
 >[!NOTE]
 >
->Les clients avec des cas spéciaux qui doivent conserver le bouton bascule après le 22 juin peuvent contacter l’assistance clientèle d’Adobe pour obtenir de l’aide.
-
+>Les clients avec des cas spéciaux qui doivent conserver le bouton bascule après le 22 juin peuvent contacter l’assistance clientèle d’Adobe pour obtenir de l’aide. Pour plus d’informations, consultez la section [Mise à jour du basculement vers l’obsolescence de la version  [!DNL Target] UI (17 juin 2025)](/help/main/r-release-notes/release-notes.md#revised).
 
 Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
 

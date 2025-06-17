@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 10%
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Nouveau en 2025, [!DNL Target] introduit une interface utilisateur et un [!UICONTROL Visual Experience Composer] (VEC) mis à jour. Pour en savoir plus, cliquez sur les liens suivants :
+>Nouveau en 2025, [!DNL Target] a introduit une interface utilisateur et un [!UICONTROL Visual Experience Composer] (VEC) mis à jour. Pour en savoir plus, cliquez sur les liens suivants :
 >
 >* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
 >
