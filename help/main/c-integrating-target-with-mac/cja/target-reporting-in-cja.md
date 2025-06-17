@@ -34,14 +34,14 @@ Tenez compte des informations suivantes avant d’utiliser l’intégration [!DN
    * Si votre organisation dispose d’un compte [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), voir [Spécification des rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs et utilisatrices*.
    * Si vous avez un compte [Target Premium](/help/main/c-intro/intro.md#premium), voir [Rôles et autorisations](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions) dans *Autorisations des utilisateurs et utilisatrices d’Enterprise*.
 
-* Vous devez avoir un rôle dans [!DNL Adobe Experience Platform] pour configurer une activité de [!DNL Target] avec [!DNL Customer Journey Analytics] comme source des rapports. Pour plus d’informations, voir [Ajouter un rôle dans [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} dans *Configurer les autorisations* dans le tutoriel *Architecte et ingénieur de données.*
+* Vous devez avoir un rôle dans [!DNL Adobe Experience Platform] pour configurer une activité de [!DNL Target] avec [!DNL Customer Journey Analytics] comme source des rapports. Pour plus d’informations, voir [Ajouter un rôle dans [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/fr/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank} dans *Configurer les autorisations* dans le tutoriel *Architecte et ingénieur de données.*
 * Selon vos paramètres, la création de rapports peut être modifiée par activité ou au niveau de l’organisation. Voir [Solution de création de rapports dans le cloud](/help/main/administrating-target/reporting.md#solution) dans *Configuration de la création de rapports dans Target*.
 * Utilisez une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données de plusieurs sources pour une même activité.
 * Lorsque vous définissez [!DNL Customer Journey Analytics] en tant que source de création de rapports, il vous est demandé de spécifier le sandbox pour la création de rapports. Pendant la configuration, vous ne voyez que les sandbox auxquels vous avez accès.
 * Toutes les activités [!DNL Target] existantes continuent à utiliser la collecte de données [!DNL Target] et ne sont pas affectées par l’activation de cette intégration.
-* Pour utiliser cette intégration, la méthode de mise en œuvre préférée consiste à [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} et [!DNL Target] mises en œuvre par le biais de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
+* Pour utiliser cette intégration, la méthode de mise en œuvre préférée consiste à [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/fr/docs/experience-platform){target=_blank} et [!DNL Target] mises en œuvre par le biais de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
 
-  Si le [!DNL Adobe Experience Platform Web SDK] n’est pas actuellement implémenté, vous pouvez également créer une [[!DNL Adobe Analytics] connexion source](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) pour importer les données dans [!DNL Adobe Experience Platform]. Si vous envisagez d’utiliser cette méthode, vous devez sélectionner une suite de rapports [!DNL Analytics] avec le sandbox [!DNL Adobe Experience Platform] que vous utilisez avec [!DNL Customer Journey Analytics].
+  Si le [!DNL Adobe Experience Platform Web SDK] n’est pas actuellement implémenté, vous pouvez également créer une [[!DNL Adobe Analytics] connexion source](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) pour importer les données dans [!DNL Adobe Experience Platform]. Si vous envisagez d’utiliser cette méthode, vous devez sélectionner une suite de rapports [!DNL Analytics] avec le sandbox [!DNL Adobe Experience Platform] que vous utilisez avec [!DNL Customer Journey Analytics].
 
   ![Option Sandbox dans la boîte de dialogue Paramètres des rapports](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
@@ -49,11 +49,11 @@ Tenez compte des informations suivantes avant d’utiliser l’intégration [!DN
   >
   >Si vous utilisez une connexion source [!DNL Adobe Analytics], vous disposez de rapports dans [!DNL Adobe Analytics] et [!DNL Customer Journey Analytics]. Cependant, en raison d’algorithmes différents entre ces deux solutions, il est peu probable que les résultats correspondent.
 
-* Pour toute question sur le minutage, consultez [Considérations relatives à la latence](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} dans *Questions fréquentes* dans le guide de *[!DNL Adobe Customer Analytics]-réseau*.
+* Pour toute question sur le minutage, consultez [Considérations relatives à la latence](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank} dans *Questions fréquentes* dans le guide de *[!DNL Adobe Customer Analytics]-réseau*.
 
 ## Types d’activité pris en charge {#supported-activities}
 
-Les types d&#39;activités suivants sont pris en charge lors de l&#39;utilisation de la bibliothèque JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ou [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
+Les types d&#39;activités suivants sont pris en charge lors de l&#39;utilisation de la bibliothèque JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ou [at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
 
 | Types d’activités | Pris en charge ? |
 |--- |--- |
@@ -104,7 +104,7 @@ Après la création d’une activité [!DNL Target], vous devez créer une conne
 
    ![Créer un lien de connexion dans [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)
 
-1. Configurez vos [paramètres de connexion et de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank} avec les informations appropriées.
+1. Configurez vos [paramètres de connexion et de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview){target=_blank} avec les informations appropriées.
 1. Ajoutez le jeu de données d’événement que vous avez utilisé lors de la configuration de votre train de données.
 1. Ajoutez le jeu de données de recherche **[!UICONTROL Adobe Target Classification Events]**, puis cliquez sur **[!UICONTROL Next]**.
 
@@ -112,7 +112,7 @@ Après la création d’une activité [!DNL Target], vous devez créer une conne
 
 1. Configurez votre jeu de données d’événement.
 
-   Pour plus d’informations, voir [Ajouter et configurer des jeux de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} dans *Créer une connexion* dans le guide de *[!DNL Adobe Customer Journey Analytics].*
+   Pour plus d’informations, voir [Ajouter et configurer des jeux de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank} dans *Créer une connexion* dans le guide de *[!DNL Adobe Customer Journey Analytics].*
 
 1. Configurez votre jeu de données de recherche avec le champ [!UICONTROL Key] comme « clé » et le champ clé [!UICONTROL Matching] comme suit :
 
@@ -130,7 +130,7 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics]. Une vue d
 
 1. Configurez votre vue de données et assurez-vous qu’elle pointe vers la connexion que vous avez créée ci-dessus.
 
-   Pour plus d’informations, voir [Création ou modification d’une vue de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} dans le guide de *[!DNL Adobe Customer Journey Analytics].*
+   Pour plus d’informations, voir [Création ou modification d’une vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank} dans le guide de *[!DNL Adobe Customer Journey Analytics].*
 
 1. Pour afficher correctement vos données [!DNL Target] dans [!DNL Customer Journey Analytics], vous devez ajouter les champs suivants de votre jeu de données de recherche en tant que dimensions.
 
@@ -168,16 +168,16 @@ L’onglet Rapports comporte un lien **[!UICONTROL View in Customer Journey Anal
 
 1. Dans [!DNL Customer Journey Analytics], créez un panneau Expérimentation , puis sélectionnez l’activité dans le menu déroulant **[!UICONTROL Experiment]**.
 
-   Pour plus d’informations, voir [Panneau Expérimentation](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
+   Pour plus d’informations, voir [Panneau Expérimentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
 
    ![Panneau Expérimentation dans Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
    >[!IMPORTANT]
    >
-   >Si l’activité n’apparaît pas dans la liste déroulante [!UICONTROL Experiment], vérifiez que la vue de données appropriée est sélectionnée et que les dimensions [!DNL Target] incluent les libellés de contexte requis (voir l’étape 3 de la section [Configurer des vues de données](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
+   >Si l’activité n’apparaît pas dans la liste déroulante [!UICONTROL Experiment], vérifiez que la vue de données appropriée est sélectionnée et que les dimensions [!DNL Target] incluent les libellés de contexte requis (voir l’étape 3 de la section [Configurer des vues de données](https://experienceleague.adobe.com/fr/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}).
 
 1. Cliquez sur **[!UICONTROL Build]**.
 
-   Le panneau [!UICONTROL Experimentation] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les performances de vos expériences. Pour plus d’informations, voir [[!UICONTROL Panel output]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
+   Le panneau [!UICONTROL Experimentation] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les performances de vos expériences. Pour plus d’informations, voir [[!UICONTROL Panel output]](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
 
    ![ Expérimentation ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
