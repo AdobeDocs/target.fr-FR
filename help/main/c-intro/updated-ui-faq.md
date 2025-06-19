@@ -3,7 +3,8 @@ keywords: interface utilisateur de target;interface utilisateur;iu;questions fr�
 description: Questions et réponses sur l [!DNL Target]interface utilisateur de mise à jour d’.
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Nouvelle version de 2025, l’interface utilisateur mise à jour de [!DNL Adobe Target] offre une expérience rationalisée et intuitive conçue pour améliorer la convivialité et l’efficacité dans tous les rôles. Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
-## La chronologie d’abandon du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
+## La chronologie de l’obsolescence du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
 
 +++Détails
 Oui. Vous trouverez le nouveau journal et des informations importantes dans la section [Mise à jour : obsolescence de la version de l’interface utilisateur  [!DNL Target]  (17 juin 2025)](/help/main/r-release-notes/release-notes.md#revised).
@@ -145,7 +146,3 @@ L’intégration de [!DNL Adobe Analytics] (AA) ou [!DNL Customer Journey Analyt
 * Valider les paramètres de collecte de données et d’attribution
 
 +++
-
-
-
-
