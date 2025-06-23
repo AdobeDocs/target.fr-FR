@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 75%
+source-wordcount: '217'
+ht-degree: 60%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 20 juin 2025**
+**Dernière mise à jour : 23 juin 2025**
 
 >[!NOTE]
 >
@@ -25,9 +25,13 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.6.3 (samedi 20 juin 2025)
+## [!DNL Target Standard/Premium] 25.6.4 (vendredi 26 juin 2025)
 
-Voir [[!DNL Target]  Notes de mise à jour (actualisées)](/help/main/r-release-notes/release-notes.md).
+Cette version comprend les correctifs et mises à jour suivants :
+
+* Ajout de l’option [!UICONTROL Rearrange] à l’interface utilisateur du [!UICONTROL Visual Experience Composer] mis à jour pour s’aligner sur les fonctionnalités disponibles dans l’ancien compositeur d’expérience visuelle. (TGT-46957)
+* Correction d’une exception de pointeur nul qui se produisait lors de la récupération des données de rapport pour les activités [!UICONTROL Automated Personalization] (AP). (TGT-52362)
+* Correction d’un problème qui empêchait la modification d’une activité [!DNL Recommendations]. (TGT-52823)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
