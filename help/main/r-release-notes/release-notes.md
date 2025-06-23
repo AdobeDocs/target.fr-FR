@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 19%
+source-wordcount: '2330'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 19%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 25.6.3 (samedi 20 juin 2025)
+
+Cette version comprend les correctifs et mises à jour suivants :
+
+* Ajout de l’option [!UICONTROL Rearrange] à l’interface utilisateur du [!UICONTROL Visual Experience Composer] mis à jour pour s’aligner sur les fonctionnalités disponibles dans l’ancien compositeur d’expérience visuelle. (TGT-46957)
+* Correction d’un problème en raison duquel la copie d’une activité d’un espace de travail à un autre déclenchait des erreurs telles que « ne doit pas être nul » ou « Un problème est survenu ». (TGT-52474)
+* Correction d’un problème en raison duquel les rapports [!UICONTROL Automated Segments] et [!UICONTROL Important Attributes] n’étaient pas générés pour certaines activités. (TGT-52904)
+* Correction d’un problème dans le VEC mis à jour en raison duquel la gestion de contenu par défaut dans les activités [!UICONTROL Automated Personalization] (AP) ne correspondait pas à l’interface utilisateur héritée. Le système ajoute désormais automatiquement un `optionGroup` par défaut nommé « Contenu par défaut » avec des `optionGroupLocalId = 0` lorsqu’aucun groupe n’est explicitement ajouté. Ce groupe comprend l’option par défaut (par exemple, `optionLocalId: 0`). Si le contenu par défaut est supprimé, le groupe d&#39;options correspondant est également supprimé. (TGT-52651)
+* Correction d’un problème dans les activités [!UICONTROL Multivariate Test] (MVT) où la réutilisation d’un `experienceLocalId` d’expériences supprimées précédemment était incorrectement interdite. (TGT-52672)
+* Correction d’un problème qui empêchait la copie ou la modification des activités contenant un fragment d’expérience. Cela a déclenché l’erreur : `Enum "AemOfferType" cannot represent value: "html"`. (TGT-52635)
+* Correction d’un problème en raison duquel les URL des emplacements d’activité n’affichaient pas les paramètres de requête en raison de caractères non valides, tels que des barres obliques (/). (TNT52845)
+* Amélioration du message d’erreur de validation pour les mises à jour d’activité [!DNL A/B Test] via l’API principale. Lorsque des noms d’emplacement en double sont présents, le message indique désormais clairement : « Les noms en double ne sont pas autorisés » pour `locations.selectors`. (TGT-52589)
+* Correction d’une erreur qui se produisait lors de la mise à jour d’une activité Live [!UICONTROL Recommendations] en raison d’une propriété non reconnue dans la payload de la requête. Le système gère désormais correctement le fichier JSON « non valide ». Erreur « Nom de propriété non reconnu ». (TGT-52723)
+* Correction d’un problème qui empêchait la création d’une conception [!DNL Recommendations]. Cliquer sur [!UICONTROL Create] a déclenché le message : « Au moins 1 variable d’entité doit être utilisée dans le script. » (TGT-52395 et TGT-52899)
+* Correction d’un problème en raison duquel le réenregistrement d’une conception [!DNL Recommendations] sans modifications était bloqué. (TGT-52879)
+* Correction d’une erreur de validation du serveur principal qui provoquait une erreur « 400 Bad Request » lors de l’enregistrement d’une activité [!UICONTROL Recommendations]. (TGT-52716)
+* Correction d’un problème dans l’[!UICONTROL Form-Based Experience Composer] en raison duquel le survol d’une mbox avec des caractères spéciaux dans la liste déroulante [!UICONTROL Location] entraînait le vide de l’éditeur et le déclenchement d’un événement « Échec de l’exécution de querySelector » sur « Élément ». s’affiche. (TGT-52717)
+* Amélioration de la précision de l’état du flux avec un nouvel indicateur « PARTIALLY_IMPORTED ». Auparavant, les flux étaient marqués comme « succès » même lorsque toutes les lignes d’un fichier n’étaient pas importées, ce qui était trompeur. (TGT-52892)
+* Correction d’une erreur en raison de laquelle, après la migration vers AP V2, certains appels API à `/admin/rest/ui/v1/campaigns` renvoyaient des erreurs côté client (HTTP 4xx). (TGT-52721)
 
 ## Mise à jour : obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target] (17 juin 2025) {#revised}
 
