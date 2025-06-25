@@ -4,16 +4,16 @@ description: Découvrez comment  [!DNL Adobe Target]  vous permet d’effectuer 
 title: Qu’est-ce que le suivi des clics ?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 43d2484e57b1e2d292cf65c041fb9f5f49b2084c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 82%
+source-wordcount: '858'
+ht-degree: 75%
 
 ---
 
 # Suivi des clics
 
-[!DNL Adobe Target] vous permet d’effectuer le suivi des clics sur un élément en tant que mesure de succès.
+[!DNL Adobe Target] vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de succès. Le suivi des clics fait référence au processus de surveillance et d’enregistrement des interactions utilisateur, en particulier des clics, sur les éléments d’une page web ou d’une expérience. Il s’agit d’un élément clé pour mesurer l’engagement et les performances dans les tests A/B, les tests multivariés et les activités de personnalisation.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 ## Configuration du suivi des clics {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Lorsque vous définissez vos objectifs sur la page [!UICONTROL Goals & Settings] pour votre activité , sélectionnez la mesure de succès **[!UICONTROL Conversion]**.
+1. Lorsque vous définissez vos objectifs sur la page [!UICONTROL Goals & Settings] de votre activité , sélectionnez la mesure de succès **[!UICONTROL Conversion]**.
 1. Pour l’action, sélectionnez **[!UICONTROL Clicked an element]**, puis cliquez sur **[!UICONTROL Select elements]**.
 
    Votre page s’ouvre dans le [!UICONTROL Visual Experience Composer] (VEC).
@@ -30,35 +30,27 @@ ht-degree: 82%
 
    Pour des conseils sur la sélection des éléments, voir *Points à prendre en compte*.
 
-1. Cliquez sur **[!UICONTROL Save]** en haut de l’écran pour enregistrer vos sélections.
+1. Cliquez sur **[!UICONTROL Done]** dans la partie supérieure de l’écran pour enregistrer vos sélections.
 
 Lorsqu’un participant à une activité clique sur un élément sélectionné, le clic est comptabilisé comme une conversion.
 
 ## Panneau Éléments sélectionnés {#selected-elements}
 
-Pour les activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Multivariate Test] (MVT), un panneau [!UICONTROL Selected Elements] répertorie les éléments sélectionnés pour le suivi des clics sur le côté droit.
+Pour les activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Multivariate Test] (MVT), un panneau [!UICONTROL Selected Elements] répertorie les éléments sélectionnés pour le suivi des clics sur le côté gauche.
 
 ![Panneau Éléments sélectionnés](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Plusieurs actions peuvent être appliquées lorsque vous passez la souris sur un élément du panneau [!UICONTROL Selected Elements]. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
+Plusieurs actions peuvent être appliquées lorsque vous cliquez sur un élément dans le panneau [!UICONTROL Tracked Components]. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
 
 | Action | Description |
 | --- | --- |
-| Informations | Affiche le type d’élément et le chemin DOM complet du sélecteur. |
-| Modifier | Permet de modifier le sélecteur CSS. |
-| Supprimer | Supprime l’élément. |
+| [!UICONTROL Tracked actions] | Affiche l’action de l’élément. |
+| [!UICONTROL CSS selector] | Permet de modifier le sélecteur CSS. |
+| [!DNL Delete] | Supprime l’élément. |
 
 ### Ajoute un élément
 
-Si vous connaissez déjà le chemin d’accès DOM vers le sélecteur, vous pouvez l’ajouter manuellement en cliquant sur l’icône Plus en haut du panneau.
-
-![Icône Ajouter un élément](/help/main/c-activities/r-success-metrics/assets/add-element.png)
-
-### Fenêtre contextuelle des éléments sélectionnés
-
-Après avoir sélectionné plusieurs éléments pour le suivi des clics, vous pouvez cliquer sur le lien [!UICONTROL Elements Selected] sur l’étape [!UICONTROL Goals & Settings] de l’activité pour afficher la liste complète des éléments sélectionnés pour le suivi des clics. La liste contient le chemin DOM complet de l’élément pour vous aider à vérifier que l’élément sélectionné doit être utilisé pour le suivi des clics.
-
-![Lien Éléments sélectionnés](/help/main/c-activities/r-success-metrics/assets/elements-selected-link.png)
+Si vous connaissez déjà le chemin d’accès DOM vers le sélecteur, vous pouvez l’ajouter manuellement en cliquant sur l’icône [!UICONTROL Add Component] dans la partie supérieure du panneau.
 
 ## Considérations {#considerations}
 
@@ -66,17 +58,15 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 
 * La fonction de chemin d’accès DOM est disponible lorsque vous définissez le suivi des clics. Lorsque vous cliquez sur un élément de la page, le menu des options du VEC s’affiche. En outre, le chemin d’accès DOM correspondant s’affiche au bas de la page. Vous pouvez utiliser le chemin d’accès DOM pour afficher rapidement les informations sur l’élément sélectionné (type, ID et classe). Vous pouvez monter ou descendre le chemin d’accès DOM pour sélectionner l’élément souhaité.
 
-  ![Illustration du chemin d’accès DOM](/help/main/c-activities/r-success-metrics/assets/click-tracking-dom.png)
-
   Comme lors de la création d’expériences à l’étape 1 dans le workflow de création de l’activité, le sélecteur de chemin d’accès DOM au bas de la page vous permet de choisir un élément. Lorsque vous sélectionnez un élément dans le chemin d’accès DOM, l’élément correspondant dans le VEC s’affiche sous la forme « Sélectionné ». Pour désélectionner un élément sélectionné, vous pouvez de nouveau cliquer sur l’élément dans le sélecteur de chemin d’accès DOM ou cliquer sur la case « Sélectionné » dans le VEC.
 
   Pour plus d’informations, voir [Navigation dans les éléments à l’aide du chemin d’accès DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans *Options du compositeur d’expérience visuelle*.
 
-* Vous pouvez accéder à une autre page pour effectuer le suivi des clics sur une page pour laquelle vous ne modifiez pas le contenu. Cette page différente doit être incluse dans l’activité à l’aide de la [fonctionnalité multi-page](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) et [!DNL at.js] doit y être implémentée.
+* Vous pouvez accéder à une autre page pour effectuer le suivi des clics sur une page pour laquelle vous ne modifiez pas le contenu. Cette autre page doit être incluse dans l’activité à l’aide de la fonction [multipage](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) et [!DNL at.js] doit y être implémentée.
 * Si vous sélectionnez plusieurs éléments et si un participant clique sur l’un d’entre eux, le clic est comptabilisé. Pour comptabiliser séparément chaque élément, configurez des mesures de succès distinctes pour chacun d’entre eux. Pour comptabiliser un élément en cliquant sur plusieurs éléments d’une page, modifiez le sélecteur d’éléments CSS pour qu’il corresponde à plusieurs éléments.
 * Veillez à sélectionner le niveau de l’élément dont vous souhaitez effectuer le suivi. Par exemple, lorsque vous spécifiez un bouton, veillez à sélectionner le lien et non le texte du bouton.
 * Les événements de clic sont envoyés à [!DNL Target] sur la même page que le clic.
-* Si la mesure de suivi des clics est la mesure de l’objectif d’une activité [!UICONTROL Analytics for Target] (A4T), le visiteur doit cliquer sur cet élément dans les 60 secondes suivant le chargement de la page pour que la mesure soit suivie.
+* Si la mesure de suivi des clics est la mesure de l’objectif d’une activité [!UICONTROL Analytics for Target] (A4T), le visiteur doit cliquer sur cet élément dans les 60 secondes suivant le chargement de la page pour que la mesure puisse être suivie.
 * Le suivi des clics ne fonctionne pas pour des éléments dont les sélecteurs contiennent des caractères d’échappement, y compris pour les éléments suivants :
 
   | Caractère | Description |
