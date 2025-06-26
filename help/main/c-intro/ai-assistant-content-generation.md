@@ -3,22 +3,20 @@ keywords: assistant ia;assistant intelligence artificielle;génération de conte
 description: Découvrez comment générer du contenu attrayant avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu attrayant ?
 feature: Overview
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
 
 # Utilisation de [!DNL AI Assistant] dans les [!DNL Adobe Target] pour la génération de contenu
 
-Utilisez [!DNL AI Assistant] dans [!DNL Adobe Target] pour améliorer l’efficacité de vos activités en adaptant les fragments de texte à utiliser dans les expériences à l’aide de l’intelligence artificielle (IA) qui s’adressent directement à votre audience, ce qui améliore l’engagement, l’interaction et la conversion.
-
-Tirez parti de la puissance des [!DNL AI Assistant] dans [!DNL Adobe Target] pour élever le contenu de votre activité, grâce à l’IA générative.
+Stimulez l’engagement et les conversions en [!DNL Adobe Target] avec [!DNL AI Assistant]. Utilisez l’IA générative pour créer du texte personnalisé à fort impact qui correspond à votre audience et élève votre contenu d’activité.
 
 ## Conditions préalables
 
@@ -55,10 +53,13 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
      Les options incluent : [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (peur de manquer), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] et [!UICONTROL Education & Insights].
 
-   * **Langues** : sélectionnez la langue souhaitée pour votre texte. [!DNL AI Assistant] est actuellement disponible uniquement en anglais.
+   * **Langues** : sélectionnez la langue souhaitée pour votre texte.
+
+     [!DNL AI Assistant] est actuellement disponible uniquement en anglais.
+
    * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL &#x200B; Story Telling] [!UICONTROL Conversational].
+     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL  Story Telling] [!UICONTROL Conversational].
 
 1. Utilisez le curseur pour choisir la longueur du texte ([!UICONTROL Shorter Text] à [!UICONTROL Larger Text]).
 
@@ -97,4 +98,4 @@ L’invite et les variations suivantes montrent la puissance de [!DNL AI Assista
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr">https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
