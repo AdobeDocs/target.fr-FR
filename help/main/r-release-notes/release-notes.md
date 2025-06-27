@@ -6,16 +6,16 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b0de4b039dd2a130d55fac3058fbdb40771d4fc7
+source-git-commit: f8e91caa133a1addc12ab1834d7e178df7e7a3ce
 workflow-type: tm+mt
-source-wordcount: '2731'
-ht-degree: 15%
+source-wordcount: '2725'
+ht-degree: 14%
 
 ---
 
 # Notes de mise à jour [!DNL Target] (actuelles)
 
-Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
+Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, d’A[!DNL dobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
