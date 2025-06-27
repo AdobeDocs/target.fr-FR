@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 926a045e5bcebc8d094ea41a6c1b7c59568a35ab
+source-git-commit: 2f49a957979b4acaac7060f530b26861e1e774c9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '581'
 ht-degree: 27%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 26 juin 2025**
+**Dernière mise à jour : 27 juin 2025**
 
 >[!NOTE]
 >
@@ -33,6 +33,7 @@ Cette version comprend les correctifs et mises à jour suivants :
 * Correction d’un problème en raison duquel les modifications apportées aux variantes d’expériences (par exemple, l’expérience B) dans une activité [!UICONTROL A/B Test] n’étaient pas conservées. Après avoir basculé entre les expériences, les modifications apportées à la variante disparaissaient. Ce problème n’a pas affecté l’expérience de contrôle. (TGT-52664)
 * Correction d’un problème en raison duquel certains clients ne pouvaient pas créer ou enregistrer d’activités, tandis que d’autres pouvaient effectuer les mêmes actions sans problème. Le problème était incohérent entre les comptes.(TGT-52842)
 * Correction d’un problème en raison duquel, dans le VEC mis à jour, les utilisateurs ne pouvaient pas déplacer les modifications vers le [!UICONTROL Page Load event], une fonctionnalité qui existait dans l’interface utilisateur héritée. (TGT-52617)
+* Correction d’un problème dans l’interface utilisateur mise à jour en raison duquel les événements [!UICONTROL page load] n’étaient pas visibles dans [!DNL Target] lors de la création de modifications ; les mises à jour étaient appliquées uniquement aux vues. (TGT-52604)
 * Correction d’un problème qui empêchait l’affichage correct de certaines modifications d’activité dans le VEC mis à jour. (TGT-52818)
 * Correction d’une exception de pointeur nul qui se produisait lors de la récupération des données de rapport pour les activités [!UICONTROL Automated Personalization] (AP). (TGT-52362)
 * Correction d’un problème qui empêchait l’affichage des détails au niveau de l’offre dans le fichier .CSV pour les activités [!UICONTROL Automated Personalization] (AP). (TGT-52675)
