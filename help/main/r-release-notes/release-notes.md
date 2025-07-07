@@ -6,7 +6,7 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1163fb68b36b2dbdaa18bdb78f634cc475702fc2
+source-git-commit: 34693e5c94328b5f1ad1d692d6a986cadb6349c4
 workflow-type: tm+mt
 source-wordcount: '3112'
 ht-degree: 12%
@@ -19,7 +19,9 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Mises à jour importantes nécessitant une attention particulière {#time-sensitive}
+## Mises à jour sensibles à l’heure que vous devez connaître {#time-sensitive}
+
+[!BADGE Important]{type=Informative}
 
 Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe]fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points forts importants relatifs à votre implémentation :
 
