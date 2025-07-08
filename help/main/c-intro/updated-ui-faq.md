@@ -4,21 +4,21 @@ description: Questions et réponses sur l [!DNL Target]interface utilisateur de 
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
 
 # FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
-Nouvelle version de 2025, l’interface utilisateur mise à jour de [!DNL Adobe Target] offre une expérience rationalisée et intuitive conçue pour améliorer la convivialité et l’efficacité dans tous les rôles. Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
+Nouvelle version de 2025, l’interface utilisateur mise à jour de [!DNL Adobe Target] offre une expérience rationalisée et intuitive conçue pour améliorer la convivialité et l’efficacité dans tous les rôles. Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
 ## La chronologie de l’obsolescence du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
 
 +++Détails
-Oui. Vous trouverez le nouveau journal et des informations importantes dans la section [Mise à jour : obsolescence de la version de l’interface utilisateur  [!DNL Target]  (17 juin 2025)](/help/main/r-release-notes/release-notes.md#revised).
+Oui. Vous trouverez la nouvelle chronologie et des informations importantes dans les [mises à jour sensibles à l’heure que vous devez connaître](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -39,14 +39,12 @@ Les ressources suivantes fournissent des informations pour en savoir plus sur l�
 
 +++
 
-## L’interface utilisateur mise à jour est-elle disponible pour tous les clients, [!UICONTROL Standard] et [!UICONTROL Premium] actuels de [!DNL Target] ?
+## L’interface utilisateur mise à jour est-elle disponible pour tous les clients, [!DNL Target] et [!UICONTROL Standard] actuels de [!UICONTROL Premium] ?
 
 +++Détails
 L’interface utilisateur mise à jour est disponible pour tous [!DNL Target] clients, [!UICONTROL Standard] et [!UICONTROL Premium]. Aucune licence ou SKU mise à niveau n’est requise.
 
-Le déploiement de la nouvelle interface utilisateur de [!DNL Target] s’est terminé le 27 mai 2025. À ce stade, tous les clients ont accès à la dernière version de l’interface utilisateur.
-
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, consultez la section [Obsolescence du bouton (bascule) de la version de l’interface utilisateur cible (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [ Mises à jour sensibles à l’heure que vous devez connaître ](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -55,22 +53,18 @@ Pour plus d’informations sur le déploiement et l’obsolescence du bouton (ba
 +++Détails
 L’équipe [!DNL Target] s’occupe activement des problèmes liés au nouveau déploiement de l’interface utilisateur. Les mises à jour et les améliorations continues sont présentées en détail dans les notes de mise à jour.
 
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, consultez la section [Obsolescence du bouton (bascule) de la version de l’interface utilisateur cible (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [ Mises à jour sensibles à l’heure que vous devez connaître ](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
 ## Les clients peuvent-ils demander que le bouton (bascule) de version de l’interface utilisateur soit conservé pour leurs comptes s’ils préfèrent conserver l’interface utilisateur héritée ?
 
 +++Détails
-Le bouton (bascule) Version de l’interface utilisateur est une fonctionnalité temporaire qui vous permet de basculer entre l’interface utilisateur [!DNL Target] mise à jour et la version héritée à l’aide d’un bouton (bascule). Cette option n’est disponible que pendant la phase finale du déploiement de l’interface utilisateur. Une fois le déploiement terminé, le bouton (bascule) sera supprimé et tous les utilisateurs passeront définitivement à l’interface utilisateur mise à jour le 22 juin 2025.
+Le bouton (bascule) Version de l’interface utilisateur est une fonctionnalité temporaire qui vous permet de basculer entre l’interface utilisateur [!DNL Target] mise à jour et la version héritée à l’aide d’un bouton (bascule). Cette option n’est disponible que pendant la phase finale du déploiement de l’interface utilisateur. Une fois le déploiement terminé, le bouton (bascule) est supprimé et tous les utilisateurs passent définitivement à l’interface utilisateur mise à jour.
 
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
->[!NOTE]
->
->Les clients avec des cas spéciaux qui doivent conserver le bouton bascule après le 22 juin peuvent contacter l’assistance clientèle d’Adobe pour obtenir de l’aide. Pour plus d’informations, consultez la section [Mise à jour du basculement vers l’obsolescence de la version  [!DNL Target] UI (17 juin 2025)](/help/main/r-release-notes/release-notes.md#revised).
-
-Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 ++++
 
@@ -81,7 +75,7 @@ Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la ve
 
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
-Pour plus d’informations, consultez [Obsolescence du bouton (bascule) de la version de l’interface utilisateur de Target (23 mai 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle) dans *Notes de mise à jour des versions précédentes*.
+Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -109,7 +103,7 @@ L’interface utilisateur de [!UICONTROL Offer Library] nécessite des définiti
 ## Je dois désactiver le [!UICONTROL Enhanced Experience Composer] lors de la modification des activités existantes avec l’interface utilisateur mise à jour. A-t-[!DNL Adobe] observé un comportement similaire avec d’autres clients ?
 
 +++Détails
-Oui. Lors de l’utilisation du [!DNL Visual Editing Helper extension] [!DNL Adobe Experience Cloud], vous devrez peut-être désactiver le [!UICONTROL Enhanced Experience Composer] (EEC) .
+Oui. Lors de l’utilisation du [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension], vous devrez peut-être désactiver le [!UICONTROL Enhanced Experience Composer] (EEC) .
 
 Pour plus d’informations, consultez [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
