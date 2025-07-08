@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 
 ## [!DNL Target Standard/Premium] 25.7.1 (mercredi 8 juillet 2025)
 
-Cette version comprend les correctifs et mises à jour suivants :
+En raison de problèmes récents identifiés, principalement liés à des personnalisations client complexes, cette version comprend les correctifs et mises à jour suivants :
 
 * Correction d’un problème en raison duquel les améliorations d’audience d’activité unique disparaissaient de l’interface utilisateur immédiatement après avoir été supprimées d’un emplacement, avant même que l’activité ne soit enregistrée. Ce comportement est en contradiction avec la fonctionnalité attendue et le guide d’info-bulle, qui indique : « Toutes les audiences inutilisées de cette bibliothèque seront supprimées une fois l’activité enregistrée ». (TGT-52982)
 * Correction d’un problème lors de la tentative d’affectation d’une audience autre que [!UICONTROL All Visitors] à une activité. Lors de l’enregistrement, le message d’erreur suivant s’affichait : « Nous ne pouvons pas terminer votre demande. Si le problème persiste, contactez l’assistance clientèle d’Adobe. » (TGT-53008)
