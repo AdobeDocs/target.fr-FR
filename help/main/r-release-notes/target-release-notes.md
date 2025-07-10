@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2c7a915d6dadcf38daa397dbdc2f86fb007a951e
+source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 72%
@@ -25,7 +25,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.7.1 (jeudi 9 juillet 2025)
+## [!DNL Target Standard/Premium] 25.7.1 (samedi 11 juillet 2025)
 
 Pour plus d’informations sur cette version, consultez les [notes de mise à jour actuelles](/help/main/r-release-notes/release-notes.md).
 
