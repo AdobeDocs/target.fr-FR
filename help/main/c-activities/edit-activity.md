@@ -4,9 +4,9 @@ description: Découvrez les différentes manières de modifier une activité exi
 title: Comment modifier une activité ou l’enregistrer en tant que brouillon ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 9d9caa1d0d17f2126352d60f2ff1c09bfe87125e
+source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '925'
 ht-degree: 39%
 
 ---
@@ -92,11 +92,3 @@ Tenez compte des informations suivantes lors de l’utilisation de la fonctionna
 * Lors de la copie d’une activité dans un autre espace de travail, l’activité est copiée vers l’autre espace de travail sans s’ouvrir dans le flux de création de l’activité. Une fois l’activité copiée avec succès, un message s’affiche pour indiquer que l’activité a été copiée avec succès, en fournissant un lien permettant d’ouvrir la nouvelle activité.
 
 Si la fonctionnalité d’autorisation des utilisateurs Enterprise n’est pas activée dans votre environnement, toutes les activités s’ouvrent en mode d’édition avant la copie.
-
-## Bonnes pratiques
-
-* Il est recommandé de mettre à jour l’activité en utilisant la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité initiale.
-
-  Les activités créées à l’aide de l’interface utilisateur [!DNL Target] doivent être mises à jour via l’interface utilisateur [!DNL Target]. Les activités créées via l’API doivent être mises à jour via celle-ci. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous la modifiez ultérieurement par le biais de l’interface utilisateur de [!DNL Target], toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel API.
-
-
