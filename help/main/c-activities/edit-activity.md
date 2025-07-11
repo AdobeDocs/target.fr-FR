@@ -1,66 +1,53 @@
 ---
 keywords: activités; activité; types d’activité; modifier l’activité; modifier; version préliminaire
-description: Découvrez les différentes manières de modifier une activité existante dans Adobe Target, y compris l’enregistrement d’une activité sous forme de version préliminaire.
-title: Comment modifier une activité ou enregistrer comme brouillon ?
+description: Découvrez les différentes manières de modifier une activité dans Adobe Target, notamment en enregistrant une activité dans un brouillon.
+title: Comment modifier une activité ou l’enregistrer en tant que brouillon ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 44%
 
 ---
 
 # Modification d’une activité ou enregistrement sous forme de version préliminaire
 
-Informations sur les différentes manières de modifier une activité existante dans [!DNL Adobe Target], y compris l’enregistrement d’une activité sous forme de version préliminaire.
+Découvrez comment modifier les activités existantes dans [!DNL Adobe Target], notamment comment enregistrer les modifications sous forme de brouillons. Cet article couvre les différentes méthodes disponibles dans l’interface [!DNL Target] pour modifier les activités, que vous mettiez à jour des expériences, ajustiez des règles de ciblage ou configuriez des objectifs, tout en vous assurant que vos modifications sont enregistrées en toute sécurité avant l’activation.
 
-Target propose différents emplacements dans l’interface utilisateur où vous pouvez modifier les activités existantes. Le processus varie selon la méthode que vous choisissez.
+[!DNL Target] propose différents emplacements dans l’interface utilisateur où vous pouvez modifier des activités existantes. Le processus varie selon la méthode que vous choisissez.
 
-## Modification d’une activité à l’aide du bouton de survol de la page Activités {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Modifiez une activité à l’aide du bouton de survol de la page Activités {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Sur la page **[!UICONTROL Activities]**, survolez l’activité que vous souhaitez modifier, puis cliquez sur l’icône **[!UICONTROL Edit]**.
+1. Sur la page **[!UICONTROL Activities]**, cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de l’activité à modifier, puis cliquez sur [!UICONTROL **Modifier**].
 
-   ![Icône Modifier](/help/main/c-activities/assets/hover_edit.png)
-
-   Target ouvre l’activité dans le compositeur d’expérience visuelle (VEC) et la page [!UICONTROL Experiences] s’affiche (la première étape du processus assisté en trois étapes).
+   Target ouvre l’activité dans le [!UICONTROL Visual Experience Composer] (VEC) et la page [!UICONTROL Experiences] s’affiche (première étape du workflow guidé en trois étapes).
 
 1. Modifiez l’activité selon vos besoins à l’aide des [options du VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Cliquez sur le bouton fractionner pour passer à l’étape suivante ou enregistrer l’activité.
+1. Cliquez sur le **[!UICONTROL Next]** pour passer à l’étape suivante, puis apportez les modifications nécessaires.
 
-   ![Bouton Fractionner](/help/main/c-activities/assets/edit_split_button_2.png)
+1. Lorsque vous accédez à la page **Objectifs et paramètres**, les options suivantes s’offrent à vous :
 
-   * **Suivant :** Pour modifier une autre page dans le processus en trois étapes, cliquez sur **[!UICONTROL Next]** pour passer à l’étape souhaitée. Par exemple, dans l’illustration ci-dessus, cliquez sur [!UICONTROL Next] pour afficher l’étape [!UICONTROL Targeting].
-   * **Enregistrer et fermer :** apportez les modifications souhaitées à l’étape en cours, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Save and Close]** pour enregistrer les modifications et afficher la page [!UICONTROL Overview] de l’activité.
-   * **Enregistrer :** apportez les modifications souhaitées à une étape, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Save]** pour enregistrer vos modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
+   * **[!UICONTROL Save & Close]:** Cliquez sur **[!UICONTROL Save and Close]** pour enregistrer vos modifications et afficher la page de [!UICONTROL Overview] de l’activité.
+   * **Enregistrer :** cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallListVert.svg) ), puis sélectionnez **[!UICONTROL Save]** pour enregistrer vos modifications et rester dans le VEC où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
-## Modification d’une activité en ouvrant celle-ci en cliquant sur son nom dans la page Activités {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Modifiez une activité en ouvrant l’activité en cliquant sur son nom sur la page [!UICONTROL Activities] {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. Pour éviter d’avoir à parcourir le workflow, cliquez sur l’activité souhaitée dans la page Activités pour l’ouvrir, puis sélectionnez une option dans la liste déroulante **[!UICONTROL Edit Activity]** .
+1. Pour éviter d’avoir à exécuter plusieurs étapes du workflow, cliquez sur l’activité souhaitée dans la page de [!UICONTROL Activities] pour l’ouvrir, sélectionnez une option dans la liste déroulante **[!UICONTROL Edit Activity]**, puis sélectionnez l’option souhaitée.
 
-   ![Menu déroulant Modifier l’activité](/help/main/c-activities/assets/edit_activity.png)
+   * **Modifier les expériences :** vous permet d’accéder directement à la page [!UICONTROL Experiences] (première étape du workflow guidé en trois étapes).
+   * **Modifier le ciblage** : permet d’accéder directement à la page [!UICONTROL Targeting] (deuxième étape du workflow guidé en trois étapes).
+   * **[!UICONTROL Goals & Settings]** : permet d’accéder directement à la page [!UICONTROL Goals & Settings] (troisième étape du workflow guidé en trois étapes).
 
-1. Sélectionnez une option :
+1. Apportez les modifications souhaitées, puis enregistrez l’activité.
 
-   * **Modifier les expériences :** permet d’accéder directement à la page [!UICONTROL Experiences] (première étape du processus assisté). Apportez les modifications souhaitées, puis utilisez le bouton partagé (expliqué ci-dessus) pour enregistrer l’activité.
+   * **[!UICONTROL Save & Close]:** Cliquez sur **[!UICONTROL Save and Close]** pour enregistrer vos modifications et afficher la page de [!UICONTROL Overview] de l’activité.
+   * **Enregistrer :** cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallListVert.svg) ), puis sélectionnez **[!UICONTROL Save]** pour enregistrer vos modifications et rester dans le VEC où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
-      * Cliquez sur **[!UICONTROL Save & Close]** pour enregistrer vos modifications et afficher la page Aperçu de l’activité.
-      * Cliquez sur **[!UICONTROL Save]** pour enregistrer vos modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
+## Utiliser les activités héritées créées dans [!DNL Recommendations Classic] {#classic}
 
-   * **Modifier le ciblage :** permet d’accéder directement à la page [!UICONTROL Targeting] (deuxième étape du processus assisté). Apportez les modifications souhaitées, puis utilisez le bouton partagé (expliqué ci-dessus) pour enregistrer l’activité.
-
-      * Cliquez sur **[!UICONTROL Save & Close]** pour enregistrer vos modifications et afficher la page Aperçu de l’activité.
-      * Cliquez sur **[!UICONTROL Save]** pour enregistrer vos modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
-
-   * **Modifier les objectifs et paramètres :** permet d’accéder directement à la page [!UICONTROL Goals & Settings] (dernière étape du processus assisté). Apportez les modifications souhaitées, puis utilisez le bouton partagé (expliqué ci-dessus) pour enregistrer l’activité.
-
-      * Cliquez sur **[!UICONTROL Save & Close]** pour enregistrer vos modifications et afficher la page Aperçu de l’activité.
-      * Cliquez sur **[!UICONTROL Save]** pour enregistrer vos modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
-
-## Utilisation des activités existantes créées dans Recommendations Classic {#classic}
-
-La liste [!UICONTROL Activities] affiche les activités créées dans diverses sources, y compris [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous utilisez des activités existantes créées dans [!DNL Recommendations Classic] :
+La liste [!UICONTROL Activities] affiche les activités créées dans diverses sources, y compris les [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous utilisez des activités existantes créées dans [!DNL Recommendations Classic] :
 
 * [!UICONTROL Activate]
 * [!UICONTROL Deactivate]
@@ -70,9 +57,9 @@ La liste [!UICONTROL Activities] affiche les activités créées dans diverses s
 
 Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations]. Si vous souhaitez la modifier, vous devez en créer une copie à l’aide de [!DNL Target Premium], puis enregistrer l’activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée, si nécessaire.
 
-## Enregistrement d’une activité sous forme de version préliminaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Enregistrer une activité dans un brouillon de formulaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Lorsque vous créez une activité qui n’a pas encore été enregistrée ou que vous modifiez une activité précédemment enregistrée sous forme de version préliminaire, les options Enregistrer la version préliminaire s’affichent dans le bouton partagé.
+Lorsque vous créez une activité qui n’a pas encore été enregistrée, ou que vous modifiez une activité qui a été précédemment enregistrée en tant que brouillon, les options de [!UICONTROL Save Draft] s’affichent dans le bouton de division.
 
 Vous pouvez enregistrer une activité en mode préliminaire si la configuration de l’activité a démarré mais n’est pas prête à être exécutée.
 
@@ -81,11 +68,11 @@ Vous pouvez enregistrer une activité en mode préliminaire si la configuration 
 
    ![Enregistrer le brouillon](/help/main/c-activities/assets/save_draft.png)
 
-   * **Suivant :** Pour modifier une autre page dans le processus en trois étapes, cliquez sur **[!UICONTROL Next]** pour passer à l’étape souhaitée.
-   * **Enregistrer la version préliminaire et fermer :** apportez les modifications souhaitées à l’étape en cours, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Save Draft and Close]** pour enregistrer les modifications et afficher la page [!UICONTROL Overview] de l’activité.
-   * **Enregistrer la version préliminaire :** apportez les modifications souhaitées à une étape, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Save Draft]** pour enregistrer les modifications et rester à cette étape.
+   * **Suivant :** pour modifier une autre page du workflow en trois étapes, cliquez sur **[!UICONTROL Next]** pour passer à l’étape souhaitée.
+   * **Enregistrer le brouillon et fermer :** apportez les modifications souhaitées à l’étape en cours, cliquez sur la liste déroulante du bouton de division, puis sélectionnez **[!UICONTROL Save Draft and Close]** pour enregistrer vos modifications et afficher la page de [!UICONTROL Overview] de l’activité.
+   * **Enregistrer le brouillon :** effectuez les modifications souhaitées sur une étape, cliquez sur la liste déroulante du bouton de division, puis sélectionnez **[!UICONTROL Save Draft]** pour enregistrer vos modifications et rester sur cette étape.
 
-## Copie ou modification d’une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copie/modification d’une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans [!DNL Adobe Analytics].
 
@@ -97,7 +84,7 @@ Si vous êtes membre d’une organisation internationale, vous pouvez avoir un e
 
 Pour plus d’informations sur les espaces de travail et la fonctionnalité Autorisations des utilisateurs d’Enterprise, voir [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Si des autorisations des utilisateurs Enterprise sont activées dans votre environnement, vous pouvez copier les activités dans le même espace de travail ou dans un espace de travail différent. Vous ne pouvez pas, pour le moment, déplacer une activité d’un espace de travail à un autre. Pour copier une activité vers un autre espace de travail, dans la page [!UICONTROL Activities], passez la souris sur l’activité que vous souhaitez copier, cliquez sur l’icône [!UICONTROL Copy], puis sélectionnez l’espace de travail de votre choix dans la liste déroulante.
+Si des autorisations des utilisateurs Enterprise sont activées dans votre environnement, vous pouvez copier les activités dans le même espace de travail ou dans un espace de travail différent. Vous ne pouvez pas, pour le moment, déplacer une activité d’un espace de travail à un autre. Pour copier une activité dans un autre espace de travail, à partir de la page [!UICONTROL Activities], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de l’activité à copier, puis cliquez sur [!UICONTROL **Copier**].
 
 Tenez compte des informations suivantes lors de l’utilisation de la fonctionnalité de copie ou d’édition avec les espaces de travail :
 
@@ -110,6 +97,6 @@ Si la fonctionnalité d’autorisation des utilisateurs Enterprise n’est pas a
 
 * Il est recommandé de mettre à jour l’activité en utilisant la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité initiale.
 
-  Les activités créées à l’aide de l’interface utilisateur [!DNL Target] doivent être mises à jour via l’interface utilisateur [!DNL Target]. Les activités créées via l’API doivent être mises à jour via celle-ci. Si vous créez une activité à l’origine à l’aide de l’API, par exemple, mais que vous modifiez ensuite l’activité via l’interface utilisateur [!DNL Target], toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel API.
+  Les activités créées à l’aide de l’interface utilisateur [!DNL Target] doivent être mises à jour via l’interface utilisateur [!DNL Target]. Les activités créées via l’API doivent être mises à jour via celle-ci. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous la modifiez ultérieurement par le biais de l’interface utilisateur de [!DNL Target], toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel API.
 
 
