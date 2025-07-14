@@ -4,9 +4,9 @@ description: Questions et réponses sur l [!DNL Target]interface utilisateur de 
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/ma
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
 Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Les états [!UICONTROL Save as Draft] et [!UICONTROL Syncing] sont-ils toujours disponibles ?
+
++++Détails
+
+
+Avec les dernières mises à jour de l’interface utilisateur, les états [!UICONTROL Save as Draft] et [!UICONTROL Syncing] ne sont plus disponibles. Pour plus d’informations, voir Statuts sous [Appliquer des filtres à la liste Activités](/help/main/c-activities/activities.md#filters) dans *[!UICONTROL Activities overview]*.
 
 +++
 

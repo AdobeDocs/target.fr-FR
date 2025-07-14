@@ -1,19 +1,19 @@
 ---
-keywords: activités; activité; types d’activité; modifier l’activité; modifier; version préliminaire
-description: Découvrez les différentes manières de modifier une activité existante, notamment en enregistrant une activité dans un brouillon.
-title: Comment modifier une activité ou l’enregistrer en tant que brouillon ?
+keywords: activités;activité;types d’activité;modifier l’activité;modifier
+description: Découvrez les différentes manières de modifier une activité existante.
+title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: fd368ba4a59c855fe9fc7c4bada4d93fcda006f0
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 41%
 
 ---
 
-# Modifier une activité ou l’enregistrer en tant que brouillon
+# Modification d’une activité
 
-Découvrez comment modifier les activités existantes dans [!DNL Adobe Target], notamment comment enregistrer les modifications sous forme de brouillons. Cet article couvre les différentes méthodes disponibles dans l’interface [!DNL Target] pour modifier les activités. Que vous mettiez à jour des expériences, ajustiez des règles de ciblage ou configuriez des objectifs, Target s’assure que vos modifications sont enregistrées en toute sécurité avant l’activation.
+Découvrez comment modifier les activités existantes dans [!DNL Adobe Target]. Cet article couvre les différentes méthodes disponibles dans l’interface [!DNL Target] pour modifier les activités. Que vous mettiez à jour des expériences, ajustiez des règles de ciblage ou configuriez des objectifs, [!DNL Target] vous assure que vos modifications sont enregistrées en toute sécurité avant l’activation.
 
 [!DNL Target] propose différents emplacements dans l’interface utilisateur où vous pouvez modifier des activités existantes. Le processus varie en fonction de la méthode choisie.
 
@@ -59,18 +59,7 @@ Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations].
 
 ## Enregistrer une activité dans un brouillon de formulaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-Lorsque vous créez une activité qui n’a pas encore été enregistrée, ou que vous modifiez une activité qui a été précédemment enregistrée en tant que brouillon, les options de [!UICONTROL Save Draft] s’affichent dans le bouton de division.
-
-Vous pouvez enregistrer une activité en mode préliminaire si la configuration de l’activité a démarré mais n’est pas prête à être exécutée.
-
-1. Créez une activité ou modifiez une activité existante qui se trouve dans le formulaire en mode brouillon.
-1. Sélectionnez l’option souhaitée dans le bouton partagé :
-
-   ![Enregistrer le brouillon](/help/main/c-activities/assets/save_draft.png)
-
-   * **Suivant :** pour modifier une autre page du workflow en trois étapes, cliquez sur **[!UICONTROL Next]** pour passer à l’étape souhaitée.
-   * **Enregistrer le brouillon et fermer :** apportez les modifications souhaitées à l’étape en cours, cliquez sur la liste déroulante du bouton de division, puis sélectionnez **[!UICONTROL Save Draft and Close]** pour enregistrer vos modifications et afficher la page de [!UICONTROL Overview] de l’activité.
-   * **Enregistrer le brouillon :** effectuez les modifications souhaitées sur une étape, cliquez sur la liste déroulante du bouton de division, puis sélectionnez **[!UICONTROL Save Draft]** pour enregistrer vos modifications et rester sur cette étape.
+La fonction Enregistrer en tant que brouillon n’est plus disponible. Pour plus d’informations, voir *[!UICONTROL Status]* sous [Appliquer des filtres à la liste des activités](/help/main/c-activities/activities.md#filters).
 
 ## Copie/modification d’une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
