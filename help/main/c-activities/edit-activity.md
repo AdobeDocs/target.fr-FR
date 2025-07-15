@@ -4,9 +4,9 @@ description: Découvrez les différentes manières de modifier une activité exi
 title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
+source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 28%
 
 ---
@@ -73,7 +73,7 @@ Si vous êtes membre d’une organisation internationale, vous pouvez avoir un e
 
 Pour plus d’informations sur les espaces de travail et la fonctionnalité Autorisations des utilisateurs d’Enterprise, voir [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838).
 
-Si des autorisations des utilisateurs Enterprise sont activées dans votre environnement, vous pouvez copier les activités dans le même espace de travail ou dans un espace de travail différent. Vous ne pouvez pas, pour le moment, déplacer une activité d’un espace de travail à un autre. Pour copier une activité dans un autre espace de travail, à partir de la page [!UICONTROL Activities], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de l’activité à copier, puis cliquez sur [!UICONTROL **Copier**].
+Si des autorisations des utilisateurs Enterprise sont activées dans votre environnement, vous pouvez copier les activités dans le même espace de travail ou dans un espace de travail différent. Vous ne pouvez pas, pour le moment, déplacer une activité d’un espace de travail à un autre. Pour copier une activité dans un autre espace de travail, à partir de la page [!UICONTROL Activities], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de l’activité à copier, puis cliquez sur [!UICONTROL **Copier**] ou **[!UICONTROL Edit]**.
 
 Tenez compte des informations suivantes lors de l’utilisation de la fonctionnalité de copie ou d’édition avec les espaces de travail :
 
