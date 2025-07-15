@@ -1,13 +1,13 @@
 ---
-keywords: activités;activité;types d’activité;modifier l’activité;modifier
+keywords: activités;activité;types d’activité;modifier l’activité;modifier;copier
 description: Découvrez les différentes manières de modifier une activité existante.
 title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -61,7 +61,7 @@ Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations].
 
 La fonction Enregistrer en tant que brouillon n’est plus disponible. Pour plus d’informations, voir *[!UICONTROL Status]* sous [Appliquer des filtres à la liste des activités](/help/main/c-activities/activities.md#filters).
 
-## Copie/modification d’une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
+## Copier/modifier une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
 Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans [!DNL Adobe Analytics].
 
@@ -77,7 +77,24 @@ Si des autorisations des utilisateurs Enterprise sont activées dans votre envir
 
 Tenez compte des informations suivantes lors de l’utilisation de la fonctionnalité de copie ou d’édition avec les espaces de travail :
 
-* Lorsque vous copiez une activité dans le même espace de travail, la première étape du flux de création de l’activité nouvellement copiée s’ouvre en mode d’édition.
-* Lors de la copie d’une activité dans un autre espace de travail, l’activité est copiée vers l’autre espace de travail sans s’ouvrir dans le flux de création de l’activité. Une fois l’activité copiée avec succès, un message s’affiche pour indiquer que l’activité a été copiée avec succès, en fournissant un lien permettant d’ouvrir la nouvelle activité.
+* Si vous copiez une activité dans le même espace de travail ou depuis l’espace de travail par défaut vers un espace de travail autre que celui par défaut, l’Assistant Activité s’ouvre automatiquement. Dans les copies entre espaces de travail, il se peut que vous deviez uniquement mettre à jour les propriétés de l’activité.
+* Lorsqu’une activité est copiée d’un espace de travail non par défaut vers un autre espace de travail (par défaut ou non), l’Assistant Activité s’ouvre et une saisie manuelle est nécessaire pour terminer la configuration :
+   * **[!UICONTROL Properties]** : les propriétés peuvent différer selon les espaces de travail. Cette situation peut déclencher un avertissement :
 
-Si la fonctionnalité d’autorisation des utilisateurs Enterprise n’est pas activée dans votre environnement, toutes les activités s’ouvrent en mode d’édition avant la copie.
+      * Dans l’[!UICONTROL Form-Based Experience Composer], les avertissements s’affichent directement dans l’interface utilisateur pour une visibilité immédiate.
+
+        ![Avertissement relatif à l’espace de travail basé sur les formulaires](/help/main/c-activities/assets/form-based-warning.png)
+
+      * Dans le compositeur d’expérience visuelle, des avertissements s’affichent lorsque vous cliquez sur [!UICONTROL Configure] > [!UICONTROL Properties].
+
+        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+        Pour résoudre ce problème, cliquez sur [!UICONTROL Add/Remove] afin que seules les propriétés disponibles dans l’espace de travail de destination s’affichent pour la sélection.
+
+   * **Audiences et offres** : toutes les audiences et offres de l’espace de travail d’origine doivent être remplacées. Vous pouvez également les copier à partir des pages [!UICONTROL Audiences] ou [!UICONTROL Offers], puis sélectionner les éléments appropriés dans la liste correspondante de l’activité.
+
+   * **Modifications manuelles requises** : toutes les modifications manuelles requises sont résumées dans l’étape finale ([!UICONTROL Save & Close]). Une fenêtre contextuelle affiche une liste des entités qui nécessitent des mises à jour, ce qui permet de s’assurer que tous les ajustements nécessaires sont effectués avant de terminer la configuration de l’activité.
+
+     ![Avertissement de validation de Workspace](/help/main/c-activities/assets/work-space-validation.png)
+
+Si la fonctionnalité [!UICONTROL Enterprise User Permissions] n’est pas activée pour votre environnement, toutes les activités s’ouvrent en mode d’édition avant d’être copiées.
