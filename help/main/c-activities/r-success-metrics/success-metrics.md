@@ -4,9 +4,9 @@ description: Découvrez les mesures de succès qui vous aident à déterminer le
 title: Que Sont Les Mesures De Succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 22%
 
 ---
@@ -33,8 +33,8 @@ Les mesures de succès suivantes peuvent être configurées dans la section [!UI
 
 | Mesure de succès | Approche de mesure | Définition |
 |--- |--- |--- |
-| [!UICONTROL Con]version | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
-| [!UICONTROL Revenue] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>Pour plus d’informations sur les modifications de l’interface utilisateur de [!DNL Target] mise à jour en ce qui concerne les mesures de succès des recettes, consultez [Modifications de l’interface utilisateur liées aux mesures de succès](#changes) ci-dessous. |
+| [!UICONTROL Conversion] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
+| [!UICONTROL Revenue] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>Pour plus d’informations sur les modifications de l’interface utilisateur [!DNL Target] mise à jour en ce qui concerne les mesures de succès des recettes, voir [Modifications de l’interface utilisateur  [!DNL Target]  mises à jour](#changes) ci-dessous. |
 | [!UICONTROL Engagement] | Basée sur les engagements | Engagement généré par la visite. Vous pouvez choisir parmi les mesures d’engagement suivantes :<UL><li>Pages vues : chaque visite unique est comptabilisée comme une conversion.</li><li>[!UICONTROL Custom Scoring] : score agrégé basé sur la valeur affectée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la demande de [!DNL Target] d’affichage de l’activité.</li>[!DNL Time on Site] : durée de la visite (en secondes) entre le moment où le visiteur voit la première demande d’affichage de l’activité [!DNL Target] le chargement de la page finale avec une demande dans la session.</UL> |
 
 Pour les mesures basées sur l’engagement (contrairement aux mesures basées sur la conversion et sur les recettes), les visiteurs doivent se requalifier pour l’activité à chaque visite afin d’incrémenter le nombre pour cette session. La mesure associée commence l’incrémentation après la requalification et s’arrête à la fin de la session de chaque visiteur. Une session s’arrête au bout de 30 minutes d’inactivité. Par conséquent, vous ne voyez pas les résultats immédiatement pendant le test. Cependant, tous les résultats de cette session sont disponibles quelques minutes après la fin de la session.
@@ -111,11 +111,11 @@ Choisissez le comportement souhaité :
 
   Lorsqu’une mesure de succès est définie pour incrémenter à chaque impression, [!DNL Target] comptabilise à nouveau le visiteur à chaque fois qu’il visite cette mesure de succès. [!DNL Target] réinitialise ensuite la mesure de succès « appartenance » sur 0 afin qu’elle puisse être comptabilisée à nouveau à la prochaine impression. Ainsi, si une autre mesure nécessite que cette mesure ait été vue au préalable, [!DNL Target] ne reconnaît jamais que l’utilisateur a vu la première mesure.
 
-## Mise à jour des modifications de l’interface utilisateur de Target
+## Mise à jour des modifications apportées à l’interface utilisateur de [!DNL Target] {#changes}
 
 La version [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), lancée le 17 février 2015, a introduit des interfaces utilisateur [!DNL Target] et [!UICONTROL Visual Experience Composer] (VEC) mises à jour. Cette section décrit les principales différences entre l’interface utilisateur héritée et mise à jour, en particulier en ce qui concerne la configuration et la gestion des mesures de succès.
 
-### Modifications de l’interface utilisateur liées aux mesures de succès [!UICONTROL Revenue] {#changes}
+### Modifications de l’interface utilisateur liées aux mesures de succès [!UICONTROL Revenue]
 
 Dans l’interface [!DNL Target] mise à jour, la liste déroulante [!UICONTROL Default View for Reporting] a été supprimée. Ce champ était redondant, car il enregistrait auparavant la vue de création de rapports par défaut sous [!DNL Overview] > [!UICONTROL Reports] dans l’interface utilisateur héritée.
 
