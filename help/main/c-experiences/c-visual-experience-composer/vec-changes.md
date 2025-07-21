@@ -4,9 +4,9 @@ description: Découvrez les modifications introduites dans le Compositeur d’ex
 title: Quelles modifications ont été introduites dans le nouveau Compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,23 @@ Vous pouvez ajouter plusieurs composants à votre page web et les modifier selon
 
 Pour ajouter un nouveau composant, faites-le glisser depuis le rail de [!UICONTROL Components] à insérer sur un élément de page existant dans la zone de travail de [!UICONTROL Design]. Choisissez ensuite d’insérer le composant avant ou après l’élément sélectionné.
 
+>[!NOTE]
+>
+>Si le rail [!UICONTROL Modifications] s’affiche dans cette zone à la place du rail [!UICONTROL Components], cliquez sur l’icône **[!UICONTROL Show Components]** ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ). L’icône [!UICONTROL Show Components] ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ) et l’icône [!UICONTROL Show Modifications] ( ![rail Afficher les modifications](/help/main/assets/icons/History.svg) ) servent de bascule pour afficher les options appropriées.
+>
+>Pour réduire le rail de [!UICONTROL Components] et agrandir la zone de travail de [!UICONTROL Design], alors que le rail de [!UICONTROL Components] est ouvert, cliquez sur l’icône ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ).
+
 ### rail [!UICONTROL Modifications]
 
 Pour ouvrir le rail [!UICONTROL Modifications], cliquez sur l’icône [!UICONTROL Show Modifications] ( ![Afficher le rail Modifications](/help/main/assets/icons/History.svg) ) dans le rail [!UICONTROL Components]. Le rail de [!UICONTROL Modifications] a changé de position du côté droit au côté gauche de la zone de travail de modification.
 
 ![Rail Modifications](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>L’icône [!UICONTROL Show Components] ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ) et l’icône [!UICONTROL Show Modifications] ( ![rail Afficher les modifications](/help/main/assets/icons/History.svg) ) servent de bascule pour afficher les options appropriées.
+>
+>Pour réduire le rail de [!UICONTROL Modifications] et agrandir la zone de travail de [!UICONTROL Design], alors que le rail de [!UICONTROL Modifications] est ouvert, cliquez sur l’icône [!UICONTROL Show Modifications] ( ![Afficher le rail des modifications](/help/main/assets/icons/History.svg) ).
 
 Le rail [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le VEC et vous permet d’effectuer des modifications supplémentaires (comme le sélecteur CSS, la mbox et le code personnalisé).
 
