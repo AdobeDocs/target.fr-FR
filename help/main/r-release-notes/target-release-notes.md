@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -15,7 +15,7 @@ ht-degree: 34%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 10 juillet 2025**
+**Dernière mise à jour : 21 juillet 2025**
 
 >[!NOTE]
 >

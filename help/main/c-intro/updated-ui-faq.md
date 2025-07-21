@@ -4,10 +4,10 @@ description: Questions et réponses sur l [!DNL Target]interface utilisateur de 
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/ma
 
 +++
 
-## Puis-je réduire les rails de [!UICONTROL Components] et de [!UICONTROL Modifications] afin de pouvoir agrandir le panneau de [!UICONTROL Design] ? {#collapse}
+## Puis-je réduire les rails [!UICONTROL Components], [!UICONTROL Modifications] et [!UICONTROL Properties] afin de pouvoir agrandir le panneau [!UICONTROL Design] ? {#collapse}
 
 +++Détails
 
-Oui, vous pouvez réduire les deux rails pour vous permettre de développer la zone de travail [!UICONTROL Design] afin de faciliter la modification. Procédez comme suit :
+Oui, vous pouvez réduire ces rails pour vous permettre de développer la zone de travail [!UICONTROL Design] afin de faciliter la modification. Procédez comme suit :
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ Pour réduire le rail de [!UICONTROL Components] et agrandir la zone de travail 
 **Réduire le rail de [!UICONTROL Modifications]**
 
 Pour réduire le rail de [!UICONTROL Modifications] et agrandir la zone de travail de [!UICONTROL Design], alors que le rail de [!UICONTROL Modifications] est ouvert, cliquez sur l’icône [!UICONTROL Show Modifications] ( ![Afficher le rail des modifications](/help/main/assets/icons/History.svg) ).
+
+**Réduire le rail de [!UICONTROL Properties]**
+
+Pour réduire le rail de [!UICONTROL Properties] et agrandir la zone de travail de [!UICONTROL Design], cliquez sur l’icône [!UICONTROL Show/Hide Properties] ( ![icône Propriétés](/help/main/assets/icons/Propertie.svg) ) à droite du rail pour réduire ou afficher le rail de [!UICONTROL Properties].
 
 +++
 
