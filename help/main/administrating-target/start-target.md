@@ -5,9 +5,9 @@ title: Où Puis-Je Commencer À Administrer  [!DNL Target] ?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ Cet article décrit les premières étapes que [!DNL Adobe Target] administrateu
 
 ## Être invité à [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs groupes spécifiques au rôle. Ces deux tâches sont effectuées dans le [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com).
+Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs profils de produit spécifiques au rôle (groupes d’utilisateurs). Ces deux tâches sont effectuées dans [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr) dans l’aide d’*Experience Cloud et des services principaux*.
+Pour plus d’informations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/enterprise/using/users.html).
 
 Vous recevrez un e-mail d’invitation une fois que l’administrateur système aura effectué ces étapes.
 
