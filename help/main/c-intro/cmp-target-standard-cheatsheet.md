@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;questions fréquentes;aide mémoire;aide-mémoire
-description: Explorez une liste des questions fréquemment posées à propos des fonctionnalités d’Adobe Target, ainsi que des informations et des liens d’accès à des informations complémentaires.
+description: Explorez une liste des questions fréquentes sur l’utilisation des fonctionnalités d’ [!DNL Target], ainsi que des informations et des liens d’accès à des informations supplémentaires.
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 80%
+source-wordcount: '2693'
+ht-degree: 72%
 
 ---
 
 # FAQ relative à l’optimisation et la personnalisation de Target
 
-Liste des questions fréquentes sur l’utilisation des fonctionnalités de [!DNL Adobe Target], ainsi que des informations et des liens vers des informations supplémentaires.
+Explorez les réponses aux questions fréquentes sur l’utilisation des fonctionnalités [!DNL Adobe Target]. Découvrez comment optimiser vos expériences, personnaliser les expériences et accéder à des ressources utiles avec des liens directs pour obtenir des informations plus précises.
 
 ## Informations générales {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**Où puis-je trouver des informations sur l’interface utilisateur et le [!DNL Target] (VEC) [!UICONTROL Visual Experience Composer] mis à jour ?**
+
++++Voir les détails
+
+L’interface utilisateur suit un format logique et convivial pour vous aider à tirer le meilleur parti d’[!DNL Target]. Le bref aperçu suivant vous permet de vous familiariser avec [!DNL Target] et le compositeur d’expérience visuelle et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+
+Pour plus d’informations, consultez [Présentation  [!DNL Target]  l’interface utilisateur](/help/main/c-intro/understand-the-target-ui.md) .
+
++++
+
 **Comment puis-je voir comment d’autres clients ont exploité [!DNL Target] pour obtenir de meilleurs résultats ?**
 
-Voici quelques [récits de succès de nos clients](https://www.adobe.com/fr/marketing-cloud/target/resources.html#x). Découvrez comment des clients tels que vous exploitent Target pour améliorer l’optimisation et la personnalisation et atteindre leurs objectifs de résultat.
++++Voir les détails
+Explorez des [témoignages de clients](https://www.adobe.com/fr/marketing-cloud/target/resources.html#x) réels pour découvrir comment les entreprises utilisent les [!DNL Target] pour stimuler l’optimisation, personnaliser les expériences et obtenir des résultats commerciaux mesurables.
 
-Il est à noter que certaines de ces études de cas font appel à des capacités d’Adobe Target Premium.
++++
 
 **Où puis-je en savoir plus sur les dernières fonctionnalités [!DNL Target] ?**
 
-Consultez nos [Notes de mise à jour](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour prendre connaissance des détails relatifs à la dernière version. Des informations sur toutes nos [versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md) sont également disponibles en ligne.
++++Voir les détails
+Restez à jour avec les mises à jour de [!DNL Target].
+
+* **Dernière version** : consultez les [[!DNL Target] notes de mise à jour (actualisées)](/help/main/r-release-notes/release-notes.md) pour plus d’informations sur les nouvelles fonctionnalités, les améliorations et les correctifs de bugs.
+* **Prochaines versions** : consultez la page [[!DNL Target] notes de mise à jour (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) pour obtenir un aperçu des prochaines versions.
+* **Versions précédentes** : parcourez les [notes de mise à jour des versions précédentes](/help/main/r-release-notes/release-notes-for-previous-releases.md) pour obtenir un historique des mises à jour et des modifications.
+
++++
 
 **Existe-t-[!DNL Adobe] une communauté/un forum dans lequel je peux trouver des réponses et plus d’informations sur les [!DNL Target] ?**
 
-Consultez le [forum de la communauté Target](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42) dans lequel nous aidons nos clients et, ce qui est plus important encore, où nous encourageons les utilisateurs d’Adobe Target à s’entraider. Après tout, le succès d’une communauté et d’un forum repose sur la participation active de ses membres. Devenez membre de la communauté et contribuez à rechercher des réponses à vos questions.
++++Voir les détails
+Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
+
++++
 
 **Quels navigateurs [!DNL Target] prend-il en charge ?**
 
-Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
++++Voir les détails
+Veuillez lire notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
+
++++
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ Utilisez les commandes d&#39;affectation de pourcentages disponibles [à l’ét
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -194,7 +218,7 @@ Vous pouvez toujours utiliser l’[option du compositeur d’expérience avancé
 
 Contactez Adobe pour [vous assurer que votre compte est configuré pour Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Une fois le provisionnement effectué, vous pourrez permuter aisément les images.
 
-**Je voudrais tester deux expériences différentes, par exemple une remise à plat par rapport à une remise en pourcentage, mais en ciblant les expériences de façon appropriée (en affichant le texte en langue locale ou d’autres devises pour les personnes venant de différents pays). Comment faire ?**
+**Je voudrais tester deux expériences différentes, par exemple une remise à plat par rapport à une remise en pourcentage, mais en ciblant les expériences de façon appropriée (en affichant différents paramètres régionaux ou devises pour les personnes venant de différents pays). Comment faire ?**
 
 Vous pouvez facilement y parvenir avec notre [fonctionnalité Versions d’expériences multiples](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Veuillez noter les nuances qui caractérisent la livraison lors de ces tests.
 
@@ -252,7 +276,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
