@@ -48,14 +48,14 @@ Restez à jour avec les mises à jour de [!DNL Target].
 **Existe-t-[!DNL Adobe] une communauté/un forum dans lequel je peux trouver des réponses et plus d’informations sur les [!DNL Target] ?**
 
 +++Voir les détails
-Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
+Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
 
 +++
 
 **Quels navigateurs [!DNL Target] prend-il en charge ?**
 
 +++Voir les détails
-Veuillez lire notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
+Veuillez lire notre matrice [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
 
 +++
 
@@ -219,7 +219,7 @@ Utilisez les commandes d&#39;affectation de pourcentages disponibles [à l’ét
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -316,7 +316,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
