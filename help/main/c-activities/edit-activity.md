@@ -4,10 +4,10 @@ description: Découvrez les différentes manières de modifier une activité exi
 title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez comment modifier les activités existantes dans [!DNL Adobe Target]. 
 
 1. Sur la page **[!UICONTROL Activities]**, cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de l’activité à modifier, puis cliquez sur [!UICONTROL **Modifier**].
 
-   Target ouvre l’activité dans le [!UICONTROL Visual Experience Composer] (VEC) et la page [!UICONTROL Experiences] s’affiche (première étape du workflow guidé en trois étapes).
+   [!DNL Target] ouvre l’activité dans le [!UICONTROL Visual Experience Composer] (VEC) et vous voyez la page [!UICONTROL Experiences] (la première étape du workflow guidé en trois étapes).
 
 1. Modifiez l’activité selon vos besoins à l’aide des [options du VEC](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -44,22 +44,6 @@ Découvrez comment modifier les activités existantes dans [!DNL Adobe Target]. 
 
    * **[!UICONTROL Save & Close]:** Cliquez sur **[!UICONTROL Save and Close]** pour enregistrer vos modifications et afficher la page de [!UICONTROL Overview] de l’activité.
    * **Enregistrer :** cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallListVert.svg) ), puis sélectionnez **[!UICONTROL Save]** pour enregistrer vos modifications et rester dans le VEC où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
-
-## Utiliser les activités héritées créées dans [!DNL Recommendations Classic] {#classic}
-
-La liste [!UICONTROL Activities] affiche les activités créées dans diverses sources, y compris les [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous utilisez des activités existantes créées dans [!DNL Recommendations Classic] :
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations]. Si vous souhaitez la modifier, vous devez en créer une copie à l’aide de [!DNL Target Premium], puis enregistrer l’activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée, si nécessaire.
-
-## Enregistrer une activité dans un brouillon de formulaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-La fonction Enregistrer en tant que brouillon n’est plus disponible. Pour plus d’informations, voir *[!UICONTROL Status]* sous [Appliquer des filtres à la liste des activités](/help/main/c-activities/activities.md#filters).
 
 ## Copier/modifier une activité lors de l’utilisation d’espaces de travail {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ Tenez compte des informations suivantes lors de l’utilisation de la fonctionna
 
         Pour résoudre ce problème, cliquez sur [!UICONTROL Add/Remove] afin que seules les propriétés disponibles dans l’espace de travail de destination s’affichent pour la sélection.
 
-   * **Audiences et offres** : toutes les audiences et offres de l’espace de travail d’origine doivent être remplacées. Vous pouvez également les copier à partir des pages [!UICONTROL Audiences] ou [!UICONTROL Offers], puis sélectionner les éléments appropriés dans la liste correspondante de l’activité.
+   * **Audiences et offres** : lorsque vous copiez une activité dans un nouvel espace de travail, toutes les audiences et offres associées de l’espace de travail d’origine sont dupliquées au format : `Entity Name Copy <Date>`.
 
-   * **Modifications manuelles requises** : toutes les modifications manuelles requises sont résumées dans l’étape finale ([!UICONTROL Save & Close]). Une fenêtre contextuelle affiche une liste des entités qui nécessitent des mises à jour, ce qui permet de s’assurer que tous les ajustements nécessaires sont effectués avant de terminer la configuration de l’activité.
+     Détails du comportement :
 
-     ![Avertissement de validation de Workspace](/help/main/c-activities/assets/work-space-validation.png)
+      * Les audiences et les offres copiées n’apparaissent pas dans les listes [!UICONTROL Audiences] et [!UICONTROL Offers] tant que l’activité n’a pas été enregistrée et rouverte.
+      * Ces entités ne peuvent pas être modifiées immédiatement après la copie. Il se peut que les clients voient du contenu vide dans le VEC pour ces éléments au cours de la session de modification initiale.
+      * Si nécessaire, les clients peuvent remplacer les audiences ou les offres copiées par d’autres à partir de l’espace de travail de destination.
 
-Si la fonctionnalité [!UICONTROL Enterprise User Permissions] n’est pas activée pour votre environnement, toutes les activités s’ouvrent en mode d’édition avant d’être copiées.
+     Ce processus garantit une duplication plus fluide des activités entre les espaces de travail tout en conservant une certaine flexibilité pour la personnalisation.
+
+     Lors de la copie d’une activité, les audiences combinées, les audiences non cibles et les offres qui ne sont pas enregistrées dans l’espace de travail actuel ou par défaut doivent être remplacées manuellement.
+
+     Le remplacement manuel de ces audiences combinées, audiences non cibles et offres permet de s’assurer que seules des entités accessibles valides sont utilisées dans l’activité copiée et d’éviter les erreurs lors de la modification ou de la diffusion.
+
+     ![Message d&#39;avertissement](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>Si la fonctionnalité [!UICONTROL Enterprise User Permissions] n’est pas activée pour votre environnement, toutes les activités s’ouvrent en mode d’édition avant d’être copiées.
+
+## Enregistrer une activité dans un brouillon de formulaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+La fonctionnalité [!UICONTROL Save as Draft] n’est plus disponible. Pour plus d’informations, voir *[!UICONTROL Status]* sous [Appliquer des filtres à la liste des activités](/help/main/c-activities/activities.md#filters).
+
+## Utiliser les activités héritées créées dans [!DNL Recommendations Classic] {#classic}
+
+La liste [!UICONTROL Activities] affiche les activités créées dans diverses sources, y compris les [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous utilisez des activités existantes créées dans [!DNL Recommendations Classic] :
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations]. Si vous souhaitez la modifier, vous devez en créer une copie à l’aide de [!DNL Target Premium], puis enregistrer l’activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée, si nécessaire.
