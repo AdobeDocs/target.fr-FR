@@ -4,9 +4,9 @@ description: Questions et réponses sur l [!DNL Target]interface utilisateur de 
 title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/ma
 Le bouton (bascule) Utiliser la version de l’interface utilisateur présente plusieurs limites, notamment la visibilité des nouvelles activités, la modification des activités existantes et la cohérence des détails des activités.
 
 Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/main/r-release-notes/release-notes.md#time-sensitive).
+
++++
+
+## Comment le VEC mis à jour gère-t-il les options de réorganisation, de redimensionnement, de déplacement, de masquage et de suppression et en quoi ces options diffèrent-elles du VEC hérité ? {#options}
+
++++Détails
+**[!UICONTROL Rearrange*]* : dans le VEC hérité, l’option de réorganisation utilisait une superposition pour permettre aux utilisateurs de repositionner un élément dans son groupe frère. Le mouvement se limitait à modifier l’ordre entre les éléments frères.
+
+Dans le compositeur d’expérience visuelle mis à jour, cette fonctionnalité est rationalisée grâce à des actions Avancer et Reculer. Ces commandes permettent d&#39;ajuster la position d&#39;un élément dans la mise en page, horizontalement et verticalement, en le déplaçant vers l&#39;avant ou vers l&#39;arrière dans l&#39;ordre d&#39;empilement.
+
+**Redimensionner** : la fonction [!UICONTROL Resize] se trouve dans le panneau [!UICONTROL Properties] sous la section [!UICONTROL Size]. Les utilisateurs peuvent ajuster directement la largeur et la hauteur d’un élément. Les paramètres avancés sont les suivants :
+
+* Commandes Largeur et Hauteur min./Max.
+* Paramètres de comportement de débordement.
+* Options d’ajustement d’objet pour les éléments multimédias
+
+Ces outils permettent de contrôler précisément les dimensions des éléments et le comportement de la disposition.
+
+**Déplacer** : l’option [!UICONTROL Move] se trouve dans le panneau [!UICONTROL Properties] sous la section [!UICONTROL Position] . Cette option permet aux utilisateurs d’effectuer les opérations suivantes :
+
+* Définissez la position de l’élément (par exemple, absolue, relative, fixe)
+* Définir l’index z pour le calque
+* Choisir un type de positionnement
+
+Le rail de [!UICONTROL Properties] mis à jour prend également en charge les styles intégrés personnalisés, ce qui offre une certaine flexibilité lorsque les options prédéfinies ne répondent pas aux besoins de mise en page.
+
+**[!UICONTROL Hide]** : la fonction [!UICONTROL Hide] se trouve dans le panneau [!UICONTROL Properties]. Après avoir sélectionné un élément, cliquez sur [!UICONTROL Hide Element] pour le supprimer de la vue sans le supprimer. Cela s’avère utile pour gérer la visibilité lors de la conception ou de la prévisualisation.
+
+**[!UICONTROL Remove]** : la fonction [!UICONTROL Remove] est accessible via le panneau [!UICONTROL Properties]. Après avoir sélectionné un élément, cliquez sur Supprimer l’élément pour le supprimer de la page. Cette action supprime définitivement l’élément de la mise en page.
 
 +++
 
