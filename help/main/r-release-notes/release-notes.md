@@ -2,13 +2,13 @@
 keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bugs;mises à jour;mises à jour actuelles
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
-short-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
+short-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Target].
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -75,6 +75,66 @@ Les informations suivantes décrivent les limites que vous devez connaître lors
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.4 (1er août 2025)
+
+Cette version résout les problèmes récents, principalement causés par des personnalisations client complexes, et comprend les correctifs et améliorations suivants :
+
+**Activités**
+
++++Voir les détails
+* Correction d’un problème en raison duquel un client rencontrait une erreur « Entrée utilisateur non valide » lors de la tentative d’enregistrement d’une activité dynamique, même sans apporter de modifications. La réponse GraphQL indique un problème de doublon de LocalId. (TGT-53329 ET TGT-53373 ET TGT-53195)
+* Correction d’un problème qui empêchait la création d’une expérience de redirection dans le VEC mis à jour. L’URL de redirection a été ignorée et la page d’origine a été affichée à la place. (TGT-53306)
+
++++
+
+**Localisation**
+
++++Voir les détails
+* Correction d’un problème de localisation dans la boîte de dialogue modale [!UICONTROL Create Criteria]. Lors de la sélection de l’option « entre les valeurs suivantes » dans la liste déroulante [!UICONTROL Choose Price Rule], la chaîne « vers » était délocalisée dans la section [!UICONTROL Inclusion Rules]. (TGT-49754)
+* Correction d’un problème de localisation en raison duquel la chaîne « [!UICONTROL All host groups] » dans la liste déroulante [!UICONTROL Environment] de l’assistant de création de flux n’était pas correctement localisée. (TGT-46737)
+
++++
+
+**QA**
+
++++Voir les détails
+* Correction d’un problème en raison duquel l’environnement d’assurance qualité ne chargeait pas les données sur plusieurs onglets, ce qui rendait l’interface inutilisable. (TGT-53377)
+* Correction d’un problème qui empêchait la création d’une activité dans l’environnement d’assurance qualité. Le processus a été redirigé vers la page [!UICONTROL Activities] au lieu d’être terminé avec succès. (TGT-53328)
+
++++
+
+**Recommendations**
+
++++Voir les détails
+* Correction d’un problème en raison duquel le survol de l’opérande « deep-learning » lors de la création d’une collection dans [!DNL Recommendations] entraînait le blocage de la page. (TGT-53305)
+* Correction d’un problème en raison duquel les suggestions de filtres dans [!UICONTROL Catalog Search] dans l’interface utilisateur mise à jour étaient inexactes. (TGT-52007)
+* Correction d’un problème dans l’interface utilisateur de [!DNL Recommendations] en raison duquel le filtre Opérandes s’affichait lors de l’utilisation des opérateurs « valeur présente » ou « valeur non présente », bien qu’il doive être masqué. (TGT-53012)
+
++++
+
+**Compositeur d’expérience visuelle**
+
++++Voir les détails
+* Correction d’un problème en raison duquel un utilisateur clique sur [!UICONTROL Manage Content], puis sur [!UICONTROL Done] lors de la modification d’une activité Automated Personalization (AP), la page devient vierge et ne répond plus. (TGT-53047 et TGT-52993)
+* Correction d’un problème en raison duquel la sélection de la mesure de conversion [!UICONTROL Viewed an mbox] sous [!UICONTROL Goals & Settings] entraînait le blocage de la page. (TGT-53346, TGT-53343, et TGT-53348)
+* Correction d’un problème en raison duquel la fonction [!UICONTROL Redirect to URL] ne fonctionnait pas comme prévu (aucune redirection ne se produisait, même avec des URL valides). (TGT-53307)
+
++++
+
+**Workspaces**
+
++++Voir les détails
+* Correction d’un problème lors de la copie d’activités entre les espaces de travail provoquant des entrées « Copie d’audience » en double et des conflits d’ID. Les audiences sont désormais copiées avec des ID uniques, un contexte d’espace de travail et une gestion récursive pour les audiences combinées (jusqu’à 5 niveaux). (TGT-53081)
+* Correction d’un problème en raison duquel l’espace de travail est défini sur « [!UICONTROL All Workspaces] ». La copie d’une activité qui existe déjà dans l’espace de travail par défaut entraîne une erreur incorrecte :
+
+  « Au moins une propriété doit être incluse pour les espaces de travail non par défaut. »
+
+  Comme la copie se trouve dans l’espace de travail par défaut, aucune propriété ne doit être requise. Toute tentative d’ajout d’une propriété et d’enregistrement entraîne une seconde erreur :
+
+  « Entrée Utilisateur Non Valide »
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.3 (vendredi 24 juillet 2025)
 
 En raison de problèmes récents identifiés, principalement liés à des personnalisations client complexes, cette version comprend les correctifs et mises à jour suivants :
@@ -137,7 +197,6 @@ En raison de problèmes récents identifiés, principalement liés à des person
 **Compositeur d’expérience visuelle**
 
 +++Voir les détails
-
 * Correction d’un problème dans le VEC en raison duquel l’application d’une modification à une vue provoquait une duplication et déclenchait une erreur « Entrée utilisateur non valide ». (TGT-52886)
 * Correction d’un problème lié à [!UICONTROL Undo] fonctionnalité des options [!UICONTROL Insert Before] et [!UICONTROL Insert After] lors de la configuration des offres d’images dans le VEC.
 
@@ -191,7 +250,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Voir les détails
 * Correction d’un problème en raison duquel les clients affichaient les rapports d’activités spécifiques sur la page [!UICONTROL Goals & Settings] ; le lien [!UICONTROL View in Analytics] pointait incorrectement vers l’environnement d’assurance qualité plutôt que vers l’environnement de production. (TGT-53163)
@@ -230,7 +289,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Voir les détails
 * Correction d’un problème sur la page [!UICONTROL Goals & Settings] en raison duquel les sélecteurs utilisés dans plusieurs expériences n’étaient pas systématiquement mis en surbrillance comme sélectionnés. (TGT-53062)
@@ -281,7 +340,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++Voir les détails
 * Correction d’un problème en raison duquel la copie d’une activité existante et la modification de la source de création de rapports en [!DNL Adobe Analytics] (A4T) entraînaient une erreur « Entrée utilisateur non valide ». L’erreur a été déclenchée lorsque certaines actions de mesures incompatibles avec les rapports [!DNL Analytics], telles que `restart_same_experience`, `restart_random_experience` et `restart_new_experience`, ont été conservées dans l’activité d’origine. (TGT-52900)
@@ -338,7 +397,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Voir les détails
 * Correction d’un problème où l’application d’une modification à une vue entraînait la duplication de la vue et le renvoi d’une erreur « Entrée utilisateur non valide » par l’activité. Ce correctif garantit que les modifications d’affichage sont appliquées correctement sans déclencher de duplication ou d’erreurs de validation. (TGT-52886)
