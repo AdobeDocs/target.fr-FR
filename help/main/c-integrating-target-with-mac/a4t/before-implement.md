@@ -83,7 +83,7 @@ L’augmentation de la latence commence après la mise en œuvre du service d’
 
 Tous les appels [!DNL Target] utilisés par une activité A4T pour diffuser du contenu ou enregistrer la mesure d’objectif doivent avoir un accès [!DNL Analytics] correspondant qui partage l’ID supplémentaire pour que A4T fonctionne correctement.
 
-Les accès contenant des données provenant de [!DNL Analytics] et [!DNL Target] un ID de données supplémentaire. Cet identifiant apparaît dans [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) comme paramètre `sdid`. Par exemple :`sdid=2F3C18E511F618CC-45F83E994AEE93A0` Cet ID est généré chaque fois que les critères suivants sont respectés :
+Les accès contenant des données provenant de [!DNL Analytics] et [!DNL Target] un ID de données supplémentaire. Cet identifiant apparaît dans [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) comme paramètre `sdid`. Par exemple :`sdid=2F3C18E511F618CC-45F83E994AEE93A0` Cet ID est généré chaque fois que les critères suivants sont respectés :
 
 * Le service d’identification des visiteurs est implémenté.
 
