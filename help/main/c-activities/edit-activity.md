@@ -4,9 +4,9 @@ description: Découvrez les différentes manières de modifier une activité exi
 title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
+source-git-commit: b46ff78a9145e2e837a849d72adc4a7fb8797d00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '962'
 ht-degree: 22%
 
 ---
@@ -75,7 +75,7 @@ Tenez compte des informations suivantes lors de l’utilisation de la fonctionna
 
         Pour résoudre ce problème, cliquez sur [!UICONTROL Add/Remove] afin que seules les propriétés disponibles dans l’espace de travail de destination s’affichent pour la sélection.
 
-   * **Audiences et offres** : lorsque vous copiez une activité dans un nouvel espace de travail, toutes les audiences et offres associées de l’espace de travail d’origine sont dupliquées au format : `Entity Name Copy <Date>`.
+   * **Audiences et offres** : lors de la copie d’une activité dans un nouvel espace de travail, toutes les audiences et offres [!DNL Target] ou ad hoc associées de l’espace de travail d’origine sont dupliquées à l’aide du format : `<Entity Name> Copy <Date>` pour les audiences [!DNL Target] et pour les `<Entity Name>` d’offres ad hoc.
 
      Détails du comportement :
 
@@ -85,9 +85,9 @@ Tenez compte des informations suivantes lors de l’utilisation de la fonctionna
 
      Ce processus garantit une duplication plus fluide des activités entre les espaces de travail tout en conservant une certaine flexibilité pour la personnalisation.
 
-     Lors de la copie d’une activité, les audiences combinées, les audiences non cibles et les offres qui ne sont pas enregistrées dans l’espace de travail actuel ou par défaut doivent être remplacées manuellement.
+     Lors de la copie d’une activité, les audiences non ciblées et les offres qui ne sont pas enregistrées dans l’espace de travail actuel ou l’espace de travail par défaut doivent être remplacées manuellement.
 
-     Le remplacement manuel de ces audiences combinées, audiences non cibles et offres permet de s’assurer que seules des entités accessibles valides sont utilisées dans l’activité copiée et d’éviter les erreurs lors de la modification ou de la diffusion.
+     Le remplacement manuel de ces audiences et offres non cibles garantit que seules des entités accessibles valides sont utilisées dans l’activité copiée et empêche les erreurs lors de la modification ou de la diffusion.
 
      ![Message d&#39;avertissement](/help/main/c-activities/assets/copy.png)
 
