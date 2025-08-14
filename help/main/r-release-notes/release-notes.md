@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6ecc59588b51da505b8f567a7e87ccef0f375477
+source-git-commit: 1a5c47277bfd5eb1c90887728540bbc3b0433d77
 workflow-type: tm+mt
-source-wordcount: '1959'
-ht-degree: 15%
+source-wordcount: '3800'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 
 ### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
 
-+++Voir les détails
++++Afficher les détails
 L’équipe [!DNL Target] propose une fonctionnalité temporaire qui vous permet de basculer entre l’interface utilisateur de [!DNL Target] mise à jour et la version héritée à l’aide d’un bouton bascule. Cette option n’est disponible que pendant la phase finale du déploiement de l’interface utilisateur.
 
 ![Basculement de la version de l’interface utilisateur de Target](/help/main/r-release-notes/assets/toggle.png)
@@ -75,13 +75,73 @@ Les informations suivantes décrivent les limites que vous devez connaître lors
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.2 (14 août 2025)
+
+Cette version comprend les correctifs et mises à jour suivants :
+
+**[!UICONTROL Activities]**
+
++++Afficher les détails
+* **Correction d’un problème de chargement d’activité dans l’interface utilisateur de [!DNL Target] mise à jour**: correction d’un problème dans l’interface utilisateur de [!DNL Target] mise à jour où certaines activités ne se chargeaient pas lors de la tentative de modification. Ce problème entraînait le départ des clients dans un écran de chargement indéfini. Ce problème affectait plusieurs activités et il était signalé de manière incohérente parmi les clients. Grâce à ce correctif, les activités affectées se chargent désormais correctement, ce qui permet une modification transparente et réduit l’interruption des workflows d’activité. (TGT-53209)
+* **Correction d’une erreur d’enregistrement dans le processus de création d’activités en raison de la validation du `optionLocalId`** : correction d’un problème dans le processus de création d’activités qui empêchait les clients d’enregistrer les modifications en raison d’une erreur de validation du serveur principal : `OptionLocalIdReferentialIntegrity.ABActivity - Invalid optionLocalIds:` ce problème se produisait lors de la modification d’éléments spécifiques dans une activité, ce qui entraînait l’échec de l’opération d’enregistrement. Le correctif garantit que les références `optionLocalId` sont désormais correctement validées, ce qui permet aux clients d’enregistrer les activités sans rencontrer cette erreur. (TGT-53293)
+* **Correction du blocage dans le processus de création d’activités en raison de références d’option non valides lors du changement de page** : correction d’un problème dans le processus de création d’activités en raison duquel l’interface utilisateur se bloquait après avoir changé de page trois fois lors de la modification. Le crash a été déclenché par des références d&#39;option non valides, entraînant des erreurs de console telles que « Option avec localId &#39;7&#39; introuvable. » Grâce à cette mise à jour, les clients peuvent désormais basculer entre les pages et appliquer des modifications sans rencontrer de défaillances ou d’interruptions du système. (TGT-53295)
+* **Correction d’une erreur d’enregistrement dans le processus de création d’activités due à une entrée utilisateur non valide lors de la modification d’expériences** : correction d’un problème dans le processus de création d’activités en raison duquel les clients et clientes ne pouvaient pas enregistrer les modifications apportées à une activité en raison d’une erreur d’entrée utilisateur non valide. L’erreur s’est produite lors de la modification d’expériences dans l’interface utilisateur mise à jour, empêchant la validation des mises à jour. L’activité peut désormais être enregistrée avec succès, ce qui permet aux clients de la modifier et de la publier sans interruption. (TGT-53267)
+* **Correction d’un problème de chargement dans le processus de création d’activités qui bloquait la modification dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités en raison duquel les clients ne pouvaient pas modifier les activités dans l’interface utilisateur mise à jour en raison d’un écran de chargement continu. Les clients peuvent désormais ouvrir et modifier des activités sans rencontrer d’échecs de chargement. (TGT-53415)
+* **Correction d’un problème d’exigence d’expérience dans le processus de création d’activités pour les activités AP dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités où les activités [!UICONTROL Automated Personalization] (AP) nécessitaient deux emplacements au lieu de deux expériences dans l’interface utilisateur mise à jour. Ce comportement bloque les cas d’utilisation où les clients configurent un emplacement unique avec plusieurs offres, qui était auparavant pris en charge. L’exigence a été corrigée pour correspondre à la fonctionnalité d’origine, ce qui permet aux clients de poursuivre les activités AP à l’aide de deux expériences, quel que soit le nombre d’emplacements. (TGT-53429)
+* **Correction du comportement des champs d’élément suivis en mode Cliquer sur le suivi pour empêcher l’enregistrement d’une entrée et améliorer la clarté** : correction d’un problème dans le processus de création d’activités où le champ [!UICONTROL Tracked Element] en mode [!DNL Click Track] était modifiable, mais ne conservait pas le nom saisi, ce qui entraînait une confusion pour les clients. Le champ est maintenant désactivé pour empêcher toute entrée non enregistrée et le nom des éléments sélectionnés a été clarifié pour améliorer la configuration des objectifs et la précision du suivi.** (TGT-53458)
+* **Correction d’un problème dans le processus de création d’activités qui bloquait l’attribution de noms aux composants suivis en mode [!UICONTROL Click Track]** : correction d’un problème dans le processus de création d’activités en raison duquel les clients et clientes ne pouvaient pas nommer les composants suivis en mode [!UICONTROL Click Track]. Après avoir saisi un nom, le champ semblait modifiable, mais ne conservait pas l’entrée. Par défaut, les libellés génériques tels que « MON OBJECTIF DE PRINCIPAL 0 » étaient utilisés en mode d’édition. Le champ Élément suivi est maintenant désactivé et le comportement de dénomination a été clarifié afin d’améliorer la configuration des objectifs et la précision du suivi. (TGT-51396)
+
++++
+
+**Fragments d’expérience (XF)**
+
++++Afficher les détails
+* **Correction d’un problème dans le processus de création d’activités qui autorisait la modification involontaire par HTML des fragments exportés par AEM** : correction d’un problème dans le processus de création d’activités qui permettait aux clients de modifier l’HTML des [!DNL Experience Fragments] (XF) exportés depuis [!DNL Adobe Experience Manager] (AEM) dans [!DNL Target]. Ce comportement n’était pas prévu, car les fichiers XF doivent rester verrouillés pour modification une fois publiés à partir d’AEM. Le correctif garantit que l’option « Modifier HTML » n’est plus disponible pour les fragments exportés par AEM, préservant ainsi l’intégrité du contenu et la gouvernance attendue. (TGT-53286)
+* **Correction d’un problème d’aperçu intermittent du contenu XF dans le processus de création d’activités dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités où le rendu du contenu XF échouait par intermittence en mode d’aperçu dans l’interface utilisateur mise à jour. Bien que le contenu ait été correctement diffusé, l’aperçu ne s’affichait pas de manière cohérente, ce qui rendait difficile la validation de la configuration de l’offre pour les clients. Les aperçus XF se chargent désormais de manière fiable, améliorant la confiance et l’efficacité lors de la configuration des activités. (TGT-53318)
+
++++
+
+**Mode assurance qualité**
+
++++Afficher les détails
+* **Correction d’un problème dans le processus de création d’activités en raison duquel les espaces de début dans les URL provoquaient des liens d’assurance qualité rompus** : correction d’un problème dans le processus de création d’activités en raison duquel les espaces de début dans l’URL de l’activité n’étaient pas correctement supprimés lors de l’enregistrement. Cela entraînait des liens d’assurance qualité non valides et un formatage incorrect dans le serveur principal. Après la mise à jour, les URL sont désormais enregistrées proprement, ce qui empêche les liens rompus et améliore la fiabilité des workflows d’assurance qualité pour les clients et les clientes. (TGT-53427)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++Afficher les détails
+* **Correction d’un problème dans l’interface utilisateur de recherche de catalogue en raison duquel la recherche avancée ne pouvait pas fournir de suggestions** : correction d’un problème dans la nouvelle interface utilisateur de [!UICONTROL Catalog Search] en raison duquel la fonction de [!UICONTROL Advanced Search] ne pouvait pas fournir de suggestions. Les utilisateurs devaient saisir des valeurs exactes avec une orthographe précise, ce qui rendait la recherche difficile et susceptible de contenir des erreurs. Grâce à ce correctif, le [!UICONTROL Advanced Search] offre désormais des suggestions pertinentes au fur et à mesure que les utilisateurs saisissent, améliorant ainsi la convivialité et réduisant le frottement lors de la localisation des produits. (TGT-52008)
+* **Résolution de plusieurs problèmes d’interface utilisateur et de filtrage pour améliorer la réactivité et l’interaction des entités** : résolution de plusieurs problèmes, notamment la faible réactivité des détails des critères sur les appareils à petit écran, l’absence de résultats lors de la sélection de « Tous les groupes d’hôtes » dans le filtre Environnement et l’impossibilité d’interagir avec des entités sans nom. Ces correctifs améliorent la convivialité sur toutes les tailles d’écran, assurent un filtrage précis et permettent une interaction complète avec toutes les entités de produit, améliorant ainsi l’expérience globale pour les utilisateurs. (TGT-52992)
+* **Correction d’ID de produit manquants dans la vue détaillée Recommendations lors de la création de l’activité** : correction d’un problème dans le processus de création d’activité [!DNL Recommendations] en raison duquel les ID de produit étaient manquants dans l’écran des détails du produit, ce qui rendait difficile pour les clients de copier ou de référencer les ID de produit pendant les workflows. Les identifiants de produit apparaissent désormais clairement dans la vue détaillée, ce qui améliore la visibilité et permet une gestion plus efficace des produits pour les clients. (TGT-51964)
+* **Correction d’un problème dans le processus de création d’activités en raison duquel les messages de produit ne s’affichaient pas dans la vue de recommandations**: correction d’un problème dans le processus de création d’activités en raison duquel la colonne [!UICONTROL Message] de la vue de [!DNL Recommendations] n’affichait pas les données de produit, même si des messages étaient présents. Les clients devaient supprimer et ajouter à nouveau manuellement la colonne pour afficher temporairement le contenu, qui disparaissait souvent à nouveau lors du défilement ou de la recherche. Cette mise à jour restaure une visibilité cohérente des messages de produit, améliorant la navigation dans le catalogue et les workflows de révision. (TGT-52777)
+* **Correction d’un problème dans le processus de création d’activités, en raison duquel la sélection de « Tous les groupes d’hôtes » n’avait renvoyé aucun résultat dans la vue de recommandations** : correction d’un problème dans le processus de création d’activités, en raison duquel la sélection de l’environnement « Tous les groupes d’hôtes » dans la vue de [!DNL Recommendations] n’avait renvoyé aucun résultat. Les clients peuvent désormais afficher comme prévu les données de produit sur tous les groupes d’hôtes, ce qui améliore la visibilité et la précision du filtrage lors de la configuration des activités. (TGT-53006)
+* **Correction d’un problème dans le processus de création d’activités en raison duquel le bouton de promotion front ne persistait pas après l’enregistrement** : correction d’un problème dans le processus de création d’activités en raison duquel la désactivation du bouton de promotion front dans les paramètres d’activité ne persistait pas après l’enregistrement. Les clients qui tentaient de supprimer la promotion principale ont trouvé que le bouton (bascule) était réactivé lors de leur visite de l’activité, empêchant une personnalisation correcte. Cette mise à jour permet d’enregistrer les modifications de manière fiable, ce qui donne aux clients un contrôle total sur les paramètres de promotion. (TGT-53215)
+* **Correction d’un tri incohérent par colonne [!UICONTROL Last Updated] :** correction d’un problème dans le processus de création d’activités en raison duquel le tri du catalogue par colonne [!UICONTROL Last updated] générait des résultats incohérents. Les clients ne pouvaient pas organiser de manière fiable les données de produit en fonction des horodatages de mise à jour, ce qui rendait la révision et la gestion du catalogue plus difficiles. Le tri fonctionne désormais comme prévu, ce qui améliore la précision et la convivialité dans l’interface utilisateur mise à jour. (TGT-53116)
+
++++
+
+**Compositeur d’expérience visuelle**
+
++++Afficher les détails
+* **Correction des problèmes de chargement des activités et de bouton de [!UICONTROL Cancel] dans le processus de création d’activités** : correction d’un problème dans le processus de création d’activités où le chargement de certaines activités échouait, empêchant les clients d’accéder aux modifications. En outre, le bouton [!UICONTROL Cancel] ne répondait pas, ce qui empêchait les clients d’arrêter le processus de chargement ou de quitter la vue de modification. Ce correctif garantit que les activités se chargent désormais de manière fiable et que le bouton [!UICONTROL Cancel] fonctionne comme prévu, améliorant ainsi la stabilité globale et l’expérience utilisateur du compositeur d’expérience visuelle. (VEC)(TGT-53218)
+* **Correction d’un problème de changement d’expérience dans l’interface utilisateur du VEC mise à jour qui bloquait la modification et désactivait [!UICONTROL Cancel] bouton** : correction d’un problème dans l’interface utilisateur du VEC mise à jour où les modifications ne se chargeaient pas lors du changement d’expérience dans une activité de ciblage d’expérience (XT). Les clients ne pouvaient pas modifier les expériences au-delà de celle qu’ils avaient saisie initialement et le bouton [!UICONTROL Cancel] était manquant ou ne répondait pas. Ce correctif garantit que les modifications se chargent désormais correctement sur toutes les expériences et que le bouton [!UICONTROL Cancel] fonctionne de manière fiable, même sans l’extension d’assistance, améliorant les workflows de modification et réduisant la frustration. (TGT-53256)
+* **Correction d’un problème d’écran blanc lors du changement entre plusieurs expériences dans le processus de création d’activités** : correction d’un problème en raison duquel le changement entre plusieurs expériences provoquait un écran blanc. Correction également d’un problème dans le processus de création d’activités en raison duquel les clients et clientes rencontraient un écran blanc lorsqu’ils tentaient de modifier plusieurs expériences au sein d’une activité. Ce problème se produisait après l’application des modifications à deux expériences, puis la sélection d’une troisième expérience, ce qui empêchait d’autres modifications. La mise à jour assure des transitions fluides entre les expériences, ce qui permet aux clients d’apporter des modifications sans interruption. (TGT-53266)
+* **Correction d’un problème dans le VEC en raison duquel les modifications de code personnalisé n’étaient pas enregistrées de manière fiable dans les sessions de modification** : correction d’un problème en raison duquel les modifications de code personnalisé effectuées dans le compositeur d’expérience visuelle (VEC) n’étaient pas enregistrées de manière fiable en une seule tentative. Les clients ont signalé que des modifications, telles que des mises à jour de style ou des modifications d’HTML, manquaient par intermittence sur le site web et dans les URL d’assurance qualité, même après avoir utilisé les boutons [!UICONTROL Edit Content] et [!UICONTROL Save] final. Cette régression a été résolue, en veillant à ce que toutes les modifications du code personnalisé persistent comme prévu entre les sessions de modification.** (TGT-53418)
+* **Correction d’un `triggerViews` manquant dans l’interface utilisateur mise à jour lors de la création de l’activité** : correction d’un problème dans le processus de création d’activités où les `triggerViews` n’apparaissaient pas dans l’interface utilisateur mise à jour, même si elles étaient correctement implémentées sur la page. Cela affectait plusieurs clients et rendait difficile la validation des déclencheurs basés sur les vues lors de la configuration de l’activité. Les `TriggerViews` s’affichent désormais comme prévu, ce qui permet aux clients de terminer et de tester leurs configurations de manière fiable. (TGT-53239)
+* **Correction d’un problème de chargement des vues dans le processus de création d’activités pour des pages web spécifiques dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités en raison duquel les vues ne se chargeaient pas dans l’interface utilisateur mise à jour pour des pages web spécifiques, bien qu’elles aient été correctement implémentées et visibles dans les appels de diffusion ou d’interaction. Cela affectait plusieurs clients et clientes et rendait difficile la validation du ciblage basé sur les vues. Les vues sont désormais renseignées de manière cohérente sur les pages prises en charge, ce qui améliore la fiabilité lors de la configuration des activités. (TGT-53246)
+* **Correction d’un problème de chargement des vues intermittentes dans le processus de création d’activités dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités où les vues ne s’affichaient pas par intermittence dans l’interface utilisateur mise à jour lors de la modification des activités. Bien que le nom d’affichage correct était présent dans la payload du réseau, il n’était pas reconnu de manière cohérente dans l’interface, ce qui affectait la capacité des clients à configurer la personnalisation basée sur les vues. Les vues apparaissent désormais de manière fiable, ce qui facilite la configuration et les workflows de validation. (TGT-53223)
+* **Correction d’un problème dans le processus de création d’activités, en raison duquel les noms des actions suivies n’étaient pas enregistrés dans l’interface utilisateur mise à jour** : correction d’un problème dans le processus de création d’activités, en raison duquel les mesures des actions suivies ne pouvaient pas être enregistrées dans l’interface utilisateur mise à jour. Après avoir nommé un élément suivi et enregistré l’activité, le nom est réinitialisé à un libellé par défaut lors de la réouverture, ce qui entraîne une confusion et perturbe la configuration des objectifs. Les actions suivies conservent désormais leurs noms attribués, ce qui permet aux clients de définir et de gérer avec précision les mesures de conversion. (TGT-53453)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.1 (7 août 2025)
 
 Cette version comprend les améliorations et correctifs suivants :
 
 **Activités**
 
-+++Voir les détails
++++Afficher les détails
 * Correction de plusieurs problèmes liés à l’interface utilisateur mise à jour, notamment des erreurs lors de la suppression de types de page en raison de l’espacement des valeurs d’entrée, d’une copie d’activité non fiable entre les espaces de travail et d’un dysfonctionnement des règles de diffusion de page dans les environnements d’assurance qualité. (TGT-52703)
 * Correction d’un problème dans l’interface utilisateur de [!DNL Target] mise à jour en raison duquel les utilisateurs dotés du rôle [!UICONTROL Editor] pouvaient accéder aux activités en direct et tenter de les modifier, ce qui devait être limité. Les écrans de liste et d’aperçu des activités n’affichaient pas correctement les options de modification des activités en direct, ce qui entraînait des modifications involontaires potentielles. (TGT-53055)
 * Correction d’un problème dans l’interface utilisateur de [!UICONTROL Advanced Search] en raison duquel la sélection des opérateurs « valeur présente » ou « valeur absente » invitait les utilisateurs à saisir un opérande, qui n’était pas obligatoire pour ces conditions. (TGT-51961)
@@ -91,21 +151,21 @@ Cette version comprend les améliorations et correctifs suivants :
 
 **Fragments d’expérience (XF)**
 
-+++Voir les détails
++++Afficher les détails
 * Correction d’un problème en raison duquel le rendu du contenu du fragment d’expérience (XF) échouait dans l’aperçu du [!UICONTROL Visual Experience Composer] (VEC), malgré le fonctionnement correct dans la diffusion de contenu. (TGT-53318)
 
 +++
 
 **Localisation**
 
-+++Voir les détails
++++Afficher les détails
 * Correction d’un problème de localisation en raison duquel le bouton « Ajouter une promotion » de la section « Promotions » apparaissait non localisé dans plusieurs environnements linguistiques dans le client d’assurance qualité. (TGT-53263)
 
 +++
 
 **Offres**
 
-+++Voir les détails
++++Afficher les détails
 * Correction d’un problème en raison duquel la modification d’une offre HTML existante via le Compositeur d’expérience visuelle (VEC) entraînait la suppression de toutes les modifications de la diffusion de contenu. Les modifications apparaissent grisées dans l’onglet de modification et ne sont pas répercutées dans les aperçus de l’assurance qualité, bien qu’elles aient été correctement appliquées dans l’interface utilisateur héritée. (TGT-52863)
 * Correction d’un problème dans l’interface utilisateur de [!DNL Target] mise à jour en raison duquel les modifications d’offre HTML effectuées dans le [!UICONTROL Visual Experience Composer] (VEC) ne persistaient pas après avoir repassé de l’onglet [!UICONTROL Targeting] à [!UICONTROL Experiences]. (TGT-52874)
 * Correction d’un problème dans l’interface utilisateur [!DNL Target] mise à jour en raison duquel l’insertion d’une offre HTML avant et d’une autre après le même sélecteur provoquait une génération d’emplacement incorrecte. Lorsque les clients sont revenus de l’onglet [!UICONTROL Targeting] à l’onglet [!UICONTROL Experience] , un seul sélecteur a été conservé, ce qui a entraîné la perte des modifications et l’interruption de la diffusion de contenu. Ce comportement était différent de celui de l’interface utilisateur héritée, qui conservait correctement les deux modifications avec des identifiants d’emplacement distincts. (TGT-52891)
@@ -117,14 +177,14 @@ Cette version comprend les améliorations et correctifs suivants :
 
 **Applications monopages (SPA)**
 
-+++Voir les détails
++++Afficher les détails
 * Correction d’un problème dans le VEC mis à jour qui empêchait les clients et clientes d’appliquer des modifications aux vues [!UICONTROL Single Page Application] (SPA). Bien que les activités créées dans l’ancienne interface utilisateur prenaient en charge le ciblage spécifique des vues, la nouvelle interface utilisateur n’a pas réussi à détecter ou à autoriser les modifications de ces vues, et les commandes de changement de vue sont apparues désactivées. (TGT-52556)
 
 +++
 
 **Compositeur d’expérience visuelle**
 
-+++Voir les détails
++++Afficher les détails
 * Correction d’un problème en raison duquel les modifications apportées aux expériences dans le [!UICONTROL Visual Experience Composer] n’étaient pas visibles ou s’affichaient de manière incohérente dans l’interface utilisateur. (TGT-TGT-53381)
 * Correction d’un problème dans le VEC mis à jour en raison duquel la section [!UICONTROL Manage Content] n’affichait pas de texte secondaire pour les miniatures d’expérience. Ce problème rendait difficile l’identification des documents pour les utilisateurs et les utilisatrices, en particulier lorsque les noms de fichier étaient longs ou tronqués. (TGT-52291)
 * Correction d’une erreur en raison de laquelle les clients rencontraient des erreurs de validation incorrectes lors de la configuration des règles [!UICONTROL page delivery] dans les activités du compositeur d’expérience visuelle. En particulier, les opérateurs tels que « est égal à n’importe lequel » et « n’est égal à aucun de » déclenchent une « entrée non valide pour le type d’opérateur » lors de la saisie de valeurs de texte, même si le texte doit être pris en charge. (TGT-52629)
@@ -136,7 +196,7 @@ Cette version comprend les améliorations et correctifs suivants :
 
 **Workspaces**
 
-+++Voir les détails
++++Afficher les détails
 * Amélioration du workflow lors de la copie d’activités entre les espaces de travail. Les activités de copie entre les espaces de travail entraînaient précédemment des erreurs de synchronisation en raison d’audiences manquantes et de propriétés non attribuées. Cette mise à jour introduit un workflow plus intelligent et plus intuitif qui garantit que les activités copiées sont correctement configurées et prêtes à être publiées. (TGT-47094)
 * Correction d’un problème en raison duquel les clients ne pouvaient pas copier d’activités entre les espaces de travail en raison d’un échec de la mutation `copyActivityBatchOperations`. Les tentatives de duplication d’activités ont entraîné une erreur de serveur (500) et une payload de réponse nulle. (TGT-52405)
 * Correction d’un problème en raison duquel les activités ne se synchronisaient pas lorsque les offres référencées dans la configuration n’étaient pas accessibles dans l’espace de travail sélectionné. Cela provoquait des erreurs de publication et laissait les activités dans un état d’échec. (TGT-52535)
