@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 64bfa3710450ee9609592610e210a950e0403339
+source-git-commit: 1f8fa78c2b88e179f021128a8fd3dac177dfa3dd
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 69%
+source-wordcount: '340'
+ht-degree: 37%
 
 ---
 
@@ -15,19 +15,34 @@ ht-degree: 69%
 
 Cet article contient des informations sur les prochaines versions d’[!DNL Adobe Target], y compris les SDK, les API et les bibliothèques JavaScript.
 
-**Dernière mise à jour : 14 août 2025**
+**Dernière mise à jour : 15 août 2025**
 
 >[!NOTE]
 >
->* Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
+>* Les dates de publication, fonctions et autres informations peuvent changer sans préavis. Les informations de cet article sont mises à jour fréquemment, en particulier avant les versions .
 >
 >* Pour afficher des informations sur la version actuelle, voir [ Notes de mise à jour de Target ](release-notes.md).
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.2 (14 août 2025)
+## [!DNL Target Standard/Premium] 25.8.3 (21 août 2025)
 
-La version 25.8.2 de [!DNL Target Standard/Premium] (14 août 2025) est en ligne. Pour plus d’informations, voir [[!DNL Target] Notes de mise à jour (actualisées)](/help/main/r-release-notes/release-notes.md).
+Cette version comprend les mises à jour et correctifs suivants :
+
+**Recommendations**
+
++++Afficher les détails
+* **Correction d’un problème dans l’interface utilisateur des recommandations en raison duquel le téléchargement d’un CSV de critères personnalisés renvoyait une erreur 404** : correction d’un problème en raison duquel les clients et clientes ne pouvaient pas télécharger le CSV de critères personnalisés dans le processus de création d’activités.
+* **Correction d’un chargement incohérent des images dans[!UICONTROL Catalog Search]** : correction d’un problème en raison duquel les miniatures et les images dans [!UICONTROL  Catalog Search] ne se chargeaient pas de manière cohérente dans le processus de création d’activités. Les images ne s’affichaient pas, sauf si la colonne « URL de la miniature » était visible et que certaines images de produit étaient partiellement chargées ou pas du tout après des actions de navigation ou de recherche. (TGT-52778)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Afficher les détails
+* **Correction d’un problème dans le processus de création d’activités qui bloquait la progression vers [!UICONTROL Targeting] étape dans les activités AP**: correction d’un problème dans le processus de création d’activités en raison duquel les clients ne pouvaient pas passer à l’étape de [!UICONTROL Targeting] dans les activités [!UICONTROL Automated Personalization] (AP) à moins que deux emplacements ne soient ajoutés. Ce comportement différait de l’expérience précédente, où un seul emplacement avec plusieurs offres était suffisant. Cette exigence a été corrigée, ce qui permet aux clients de continuer à utiliser des configurations à emplacement unique dans le cadre de leurs workflows AP. (TGT-53426)
+
++++
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
