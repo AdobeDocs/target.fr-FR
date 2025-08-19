@@ -15,4 +15,4 @@ ht-degree: 22%
 
 Utilisez les fragments d’expérience (XF) et les fragments de contenu (CF) créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation.
 
-Pour plus d’informations, consultez la présentation sur les fragments d’expérience et les fragments de contenu d’AEM [](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+Pour plus d’informations, consultez la présentation sur les fragments d’expérience et les fragments de contenu d’AEM [&#128279;](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).

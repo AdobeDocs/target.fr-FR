@@ -19,7 +19,7 @@ Vous pouvez avoir deux pages complètement différentes à tester au lieu de mod
 
 >[!NOTE]
 >
-> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
+> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
 >
 >* Vous ne pouvez pas utiliser d’offres de redirection dans les mbox AJAX (`mboxUpdate`).
 >

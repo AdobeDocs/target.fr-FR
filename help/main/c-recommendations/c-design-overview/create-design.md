@@ -48,7 +48,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    La boîte de dialogue [!UICONTROL Create Design] s’affiche.
 
-1. Saisissez un **[!UICONTROL  Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
+1. Saisissez un **[!UICONTROL &#x200B; Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
 
    Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » s’affichent dans le champ **[!UICONTROL Content Name]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
 

@@ -25,7 +25,7 @@ Avant de décider d’utiliser cette intégration, consultez les sections suivan
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez le Formulaire de configuration des intégrations Marketing Cloud [](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} pour demander à être configuré.
+>Avant de commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez le Formulaire de configuration des intégrations Marketing Cloud [&#128279;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} pour demander à être configuré.
 
 Cette intégration A4T nécessite l’implémentation des versions de bibliothèque suivantes (ou plus récentes), selon que vous souhaitez utiliser ou non les offres de redirection avec A4T.
 
@@ -97,7 +97,7 @@ Dans certains cas, vous souhaiterez peut-être mieux contrôler quand et comment
 
 ## Audiences partagées
 
-Lorsque vous remplissez le Formulaire de configuration des intégrations Marketing Cloud [](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenez compte des informations importantes suivantes concernant l’option [!UICONTROL Shared Audiences] répertoriée sous « [!UICONTROL For which capabilities are you requesting provisioning] ? »
+Lorsque vous remplissez le Formulaire de configuration des intégrations Marketing Cloud [&#128279;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenez compte des informations importantes suivantes concernant l’option [!UICONTROL Shared Audiences] répertoriée sous « [!UICONTROL For which capabilities are you requesting provisioning] ? »
 
 ![Formulaire de demande](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

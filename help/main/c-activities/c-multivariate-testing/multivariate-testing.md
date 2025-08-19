@@ -102,7 +102,7 @@ Cette vidéo de présentation explique les types d’activités disponibles dans
 
 ### Création de tests multivariés (9:25) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL]Target.
+Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du workflow guidé en trois étapes Target.
 
 * Définir et créer un test multivarié
 * Création d’un test multivarié

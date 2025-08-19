@@ -230,9 +230,9 @@ Il existe quatre modes pour [!UICONTROL Auto-Target] activités : [!UICONTROL Da
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* **[!UICONTROL A/B Test](y compris [!UICONTROL Auto-Allocate] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
-* **[!UICONTROL Experience Targeting](XT)** : ordre des expériences dans l’activité.
-* **[!UICONTROL Multivariate Test](MVT)** : Alphabétique par nom d’expérience.
+* **[!UICONTROL A/B Test] (y compris [!UICONTROL Auto-Allocate] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
+* **[!UICONTROL Experience Targeting] (XT)** : ordre des expériences dans l’activité.
+* **[!UICONTROL Multivariate Test] (MVT)** : Alphabétique par nom d’expérience.
 * **[!UICONTROL Recommendations]** : ordre de création de l’expérience, par ordre décroissant.
 
 Lorsque vous utilisez les options de [!UICONTROL Counting Methodology], tenez compte des avertissements suivants :

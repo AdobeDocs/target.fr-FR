@@ -64,7 +64,7 @@ Voir [Mise en œuvre du service Experience Cloud ID pour Target](https://experie
 
 Implémentez ou migrez vers la version requise d’appMeasurement.js. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
+Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
 
 Pour une migration, voir [Migration vers AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) dans le *Guide de mise en œuvre d’Analytics*.
 

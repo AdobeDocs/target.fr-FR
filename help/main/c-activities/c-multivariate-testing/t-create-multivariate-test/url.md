@@ -29,7 +29,7 @@ L’URL de l’activité détermine la page utilisée dans le [!UICONTROL Multiv
 
    Les règles supplémentaires peuvent être basées sur les éléments suivants :
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
    * [!UICONTROL Hash (#) Fragment]

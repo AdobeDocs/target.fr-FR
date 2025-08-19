@@ -160,7 +160,7 @@ Les expériences mobiles encouragent l’innovation dans la manière dont les é
 
 ### Collection du chef : recettes pour une personnalisation réussie (30 août 2022)
 
-Rejoignez l’équipe [!DNL Adobe Target] [!DNL] et écoutez leurs suggestions du jour pour tirer le meilleur parti de Target. D’après notre dernier livre électronique, « Collection du chef : recettes pour une personnalisation réussie ».
+Rejoignez l’équipe [!DNL Adobe Target]  et écoutez leurs suggestions du jour pour tirer le meilleur parti de Target. D’après notre dernier livre électronique, « Collection du chef : recettes pour une personnalisation réussie ».
 
 * [Lien d’enregistrement](https://video.tv.adobe.com/v/346970/){target=_blank}
 

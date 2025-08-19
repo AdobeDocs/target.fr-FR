@@ -27,7 +27,7 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE Premium ]{type=Positive}
+[!BADGE Premium &#x200B;]{type=Positive}
 
 [!DNL Target Premium] est une offre avancée qui nécessite une licence pour ajouter des fonctionnalités premium à [!DNL Target Standard]. Tous les articles [!DNL Target Premium] des guides de [!DNL Target] incluent le badge [!UICONTROL Premium] en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge [!UICONTROL Premium] et accéder à cette section.
 
