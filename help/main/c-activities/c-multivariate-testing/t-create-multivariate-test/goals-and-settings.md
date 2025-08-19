@@ -178,4 +178,4 @@ Cette vidéo explique comment créer un test multivarié à l’aide du workflow
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)

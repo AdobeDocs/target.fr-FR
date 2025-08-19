@@ -39,4 +39,4 @@ Cette vidéo décrit comment faire passer les tests A/B au niveau supérieur ave
 * Décrire comment diffuser du contenu spécifique à un emplacement auprès d’audiences situées dans différentes zones géographiques
 * Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)

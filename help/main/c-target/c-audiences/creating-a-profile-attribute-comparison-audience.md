@@ -65,4 +65,4 @@ Pour plus d’informations, voir [Méthodes pour obtenir des données dans Targe
 
 Pour plus d’informations et obtenir un scénario dans lequel vous pourriez utiliser cette fonction, regardez la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/328089?captions=fre_fr)

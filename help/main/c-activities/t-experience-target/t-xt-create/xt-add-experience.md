@@ -98,7 +98,7 @@ Cette vidéo décrit comment faire passer les tests A/B au niveau supérieur ave
 * Décrire comment diffuser du contenu spécifique à un emplacement auprès d’audiences situées dans différentes zones géographiques
 * Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)
 
 ### Types d’activités (9:03)
 
@@ -108,7 +108,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. [
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
 
 ### Utilisation de l’[!UICONTROL Visual Experience Composer]
 
@@ -117,4 +117,4 @@ Cette vidéo fournit des informations sur l’utilisation des options du [!UICON
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29229?captions=fre_fr)

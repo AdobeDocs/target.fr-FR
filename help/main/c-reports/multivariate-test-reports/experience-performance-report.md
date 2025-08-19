@@ -37,4 +37,4 @@ Sous le graphique, un tableau indique le nombre de participants qui ont vu chaqu
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit à partir de la :20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)

@@ -113,7 +113,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29229?captions=fre_fr)
 
 ### Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -124,7 +124,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
 
 ### Office Hours : Compositeur d’expérience visuelle ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

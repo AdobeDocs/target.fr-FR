@@ -104,4 +104,4 @@ La vidéo ci-dessous fournit des informations sur l’utilisation des options [!
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/29229?captions=fre_fr)

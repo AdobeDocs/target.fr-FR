@@ -26,4 +26,4 @@ Dans cette vidéo, vous apprendrez à :
 * Explorer le panneau d’administration [!DNL Adobe Experience Cloud] (AEC)
 * Liste des exigences relatives à l’identifiant [!DNL Experience Cloud] (ECID)
 
->[!VIDEO](https://video.tv.adobe.com/v/35152)
+>[!VIDEO](https://video.tv.adobe.com/v/3421749?captions=fre_fr)

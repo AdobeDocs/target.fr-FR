@@ -206,12 +206,12 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 ### Ajoutez l’extension ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33872?captions=fre_fr)
 
 ### Débogage de base d’Adobe Target ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/37917?captions=fre_fr)
 
 ### Mbox Trace ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33895?captions=fre_fr)
