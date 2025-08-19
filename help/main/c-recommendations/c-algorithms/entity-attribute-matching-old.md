@@ -2,7 +2,7 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance des attributs d’entité
 description: Découvrez comment filtrer dynamiquement dans Adobe [!DNL Target] Recommendations en comparant un groupe d’éléments potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
 title: Comment filtrer par correspondance d’attributs d’entité dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -56,7 +56,7 @@ Si vous affichez ensuite une page de produit de la marque B, la valeur `entity.b
 
 ### Intensification des ventes vers un produit plus cher
 
-Supposons que vous soyez un détaillant de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et, par conséquent, plus rentables. Vous pouvez utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers appartenant à la même catégorie et à la même marque. Par exemple, un détaillant de chaussures de course peut faire la promotion de chaussures de course plus coûteuses afin d’augmenter les ventes de chaussures de course à un visiteur, comme dans l’exemple suivant :
+Supposons que vous soyez un retailer de l&#39;habillement et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et, par conséquent, plus rentables. Vous pouvez utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers appartenant à la même catégorie et à la même marque. Par exemple, un retailer de chaussures de course peut promouvoir des chaussures de course plus coûteuses afin d’augmenter les ventes d’un visiteur qui cherche des chaussures de course, comme dans l’exemple suivant :
 
 ![Vente incitative](/help/main/c-recommendations/c-algorithms/assets/upsell.png)
 

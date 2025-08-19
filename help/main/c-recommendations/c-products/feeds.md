@@ -2,13 +2,13 @@
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format  [!DNL Google Product Search]  flux et  [!DNL Analytics]  classifications de produits.
 title: Comment utiliser [!UICONTROL Feeds] dans  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
 source-wordcount: '2613'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification de produit [!DNL Adobe Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
+La classification de produit [!DNL Adobe Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
@@ -323,15 +323,15 @@ Prenons les exemples suivants :
 
 **Exemple 1 :**
 
-* Premier jour : processus quotidiens d’alimentation à 9 h (heure du Pacifique).
-* 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
+* Premier jour : processus quotidiens d&#39;alimentation à 9 :00 HNP.
+* Jour deux : il est 15 :30 et le flux n&#39;a pas fonctionné depuis hier à 9:00h.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
 **Exemple 2 :**
 
-* 1er janvier : processus mensuels d&#39;alimentation à 9 h (heure du Pacifique)
-* 3 février : il est 10h00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
+* 1er janvier : processus mensuels d&#39;alimentation à 9 :00 HNP.
+* 3 février : il est 10:00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ un jour et une heure. Même si cela représente seulement (31+(1/25))/30 = 1,03 % du paramètre de fréquence, le délai d’un jour maximum a été dépassé.
 
@@ -346,7 +346,7 @@ Cette vidéo traite des sujets suivants :
 * Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/33898?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Créer un flux (6:44) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ Cette vidéo traite des sujets suivants :
 * Configurer un flux
 * Déterminer le type de flux à utiliser
 
->[!VIDEO](https://video.tv.adobe.com/v/33897?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

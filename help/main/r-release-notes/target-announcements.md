@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +22,7 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=fr){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=fr){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Pourquoi devriez-vous y assister ?
 
   L’intelligence artificielle et le machine learning sont au cœur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement d’utilisation, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et du ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes en matière de contexte.
 
-  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}
+  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **Recommendations haute performance**
 
   Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, tout en stimulant l’engagement et en générant des revenus. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs et utilisatrices de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
-  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=fr#M3685){target=_blank}
+  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **Déverrouillage de la personnalisation optimisée par l’IA**
 
@@ -76,7 +76,7 @@ Pourquoi devriez-vous y assister ?
 
 Proposer des expériences client attrayantes pour améliorer les taux de conversion. Votre entreprise est-elle prête pour la haute saison ? Rejoignez-nous et accédez à des conseils d’experts sur la manière d’optimiser les performances et le retour sur investissement.
 
-+++Voir les détails
++++Afficher les détails
 
 Rejoignez John Magnusson, Adobe Customer Success Manager et Katherine Klein, Director - MarTech &amp; AdTech Solutions, Macy&#39;s Inc. Rejoignez-nous pour apprendre des stratégies qui ont une incidence significative sur votre programme de préparation à la haute saison.
 
@@ -132,7 +132,7 @@ Nous sommes ravis de partager de « très grandes » nouvelles qui vont révol
    * Comment les marques peuvent-elles offrir des vitesses et une prise de décision plus rapides en affinant leurs algorithmes basés sur l’IA
    * Cas d’utilisation uniques pour la personnalisation
 
-+++
+  +++
 
 ### Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022) {#AI}
 
@@ -156,7 +156,7 @@ Les expériences mobiles encouragent l’innovation dans la manière dont les é
    * Mesures de cycle de vie pour le test et le ciblage sur les expériences client
    * SDK mobiles = API pour des mises en œuvre flexibles (plateformes iOS et Android)
 
-+++
+  +++
 
 ### Collection du chef : recettes pour une personnalisation réussie (30 août 2022)
 
@@ -172,7 +172,7 @@ Rejoignez l’équipe [!DNL Adobe Target] [!DNL] et écoutez leurs suggestions d
    * Optimiser pour un avantage concurrentiel
    * Créer des expériences hyper-personnalisées
 
-+++
+  +++
 
 ### Activation de la fidélité en temps réel (25 août 2022)
 
@@ -201,7 +201,7 @@ Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamiqu
 
   Rejoignez Michael Klein (Directeur, Stratégie du secteur de la vente au détail) et Leina Betzer (consultante Target, Adobe Premier Support) pour discuter de la manière dont les ventes en ligne montent en flèche à mesure que les habitudes d’achat et les comportements des consommateurs changent, avec une demande plus élevée de biens et de services sur certains marchés.
 
-+++
+  +++
 
 ### [!DNL Adobe] : personnalisation et précision - [!DNL Adobe Analytics] et [!DNL Target] (2 juin 2022)
 
@@ -235,7 +235,7 @@ Découvrez les bonnes pratiques relatives au développement à grande échelle d
    * L’impact global sur l’entreprise en mettant à l’échelle les activités de personnalisation et d’expérimentation sur le web et les appareils mobiles
    * Les conseils et les astuces relatifs à la vente au détail et l’utilisation des données d’analyse pour transformer les visiteurs lambda en athlètes fidèles
 
-+++
+  +++
 
 ### [!DNL Adobe] : insider du secteur de la personnalisation - Services financiers et assurance (24 mai 2022)
 
@@ -247,7 +247,7 @@ Découvrez comment les sociétés de services financiers soutiennent et informen
 
   Rejoignez Christopher Young (Directeur, Services financiers des stratégies d’investissement) et James Capasso (Consultant Target, Adobe Premier Support), pour découvrir comment les marques réagissent immédiatement aux évolutions de la demande tout en mettant la personnalisation au centre de leurs engagements client. Découvrez comment les sociétés de services financiers soutiennent et informent les clients du monde entier qui s’interrogent sur les dernières tendances en matière d’inflation et sur l’environnement de leurs investissements.
 
-+++
+  +++
 
 ### City National Bank : Comment faire partie du top des 1 % les meilleurs dans le domaine de l’optimisation numérique (26 mai 2022)
 
@@ -266,7 +266,7 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
    * Accélérer la croissance des entreprises grâce à un engagement et à l’adoption accrus d’offres personnalisées
    * Optimiser les campagnes multicanaux pour une valorisation plus rapide et pour un meilleur retour sur investissement.
 
-+++
+  +++
 
 ### Webinaire : personnaliser et tester sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
 
@@ -278,7 +278,7 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
 
   Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent en quoi le transfert de décisions essentielles d’optimisation de l’expérience sur les appareils, pour une exécution locale sans latence, permet d’ouvrir la voie à de nouveaux cas d’utilisation intéressants, tout en améliorant les performances du site pour vos clients.
 
-+++
+  +++
 
 ### Webinaire : Comment HSBC tire profit d’Adobe [!DNL Target] et de l’IA pour rapidement optimiser ses contenus et fournir une personnalisation à grande échelle
 
@@ -298,7 +298,7 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
 
    * Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 
-+++
+  +++
 
 ### Développement des compétences [!DNL Adobe Target] : conversations avec les développeurs et développeuses, migration de la bibliothèque mbox.js d’[!DNL Adobe Target] vers at.js {#skill-builder}
 

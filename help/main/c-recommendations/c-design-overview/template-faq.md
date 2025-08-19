@@ -1,8 +1,8 @@
 ---
 keywords: recommandations;foire aux questions;faq
-description: Questions fréquentes et leurs réponses sur les  [!DNL Target Recommendations] designs.
-title: Où puis-je obtenir des réponses aux questions de conception pour  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+description: Questions fréquentes (FAQ) et leurs réponses sur les conceptions  [!DNL Target Recommendations] .
+title: Où puis-je obtenir des réponses aux questions relatives à la conception pour  [!DNL Target Recommendations] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -30,9 +30,9 @@ Deux solutions permettent de résoudre ce problème:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J’utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J&#39;utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieurs catégories peuvent être stockées, le système ne sait pas quelle catégorie afficher.
+L’ID de catégorie ne peut pas s’afficher dans la conception. Plusieurs catégories pouvant être stockées, le système ne sait pas quelle catégorie afficher.
 
 ## Comment dois-je modifier une conception pour obtenir une mise à jour instantanée ? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -46,9 +46,9 @@ Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits 
 
 La version 1.7 sans outil ou bibliothèque ajoutée. La fonctionnalité de base de Velocity est disponible.
 
-## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, les `entity.message` d’un élément doivent être effacés lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, le `entity.message` d’un élément doit être effacé lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente au lieu d’une valeur nulle.
+L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
 
 ## Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

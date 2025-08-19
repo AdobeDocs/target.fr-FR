@@ -1,8 +1,8 @@
 ---
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
-description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à  [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
-title: Comment utiliser les attributs d’entité ?
+description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations de produit ou de contenu à  [!DNL Target]  Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+title: Comment Utiliser Les Attributs D’Entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
@@ -14,24 +14,24 @@ ht-degree: 48%
 
 # Attributs d’entité
 
-Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à [!DNL Adobe Target Recommendations].
+Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu aux [!DNL Adobe Target Recommendations].
 
-Les entités font référence aux éléments que vous voulez recommander. Les entités peuvent inclure des produits, du contenu (articles, diaporamas, images, films et émissions de télévision), des listes d’emplois, des restaurants, etc.
+Les entités font référence aux éléments que vous voulez recommander. Les entités peuvent inclure des produits, du contenu (articles, diaporamas, images, films et émissions télévisées), des offres d’emploi, des restaurants, etc.
 
 [!DNL Recommendations] envoie le `productId` ou le `productPurchasedId` (appelé `entity.id` dans le code) utilisé dans les algorithmes.
 
 Tenez compte des points suivants :
 
-* `entity.id` doit correspondre au `productPurchasedId` envoyé à la page de confirmation de commande et au `productId` utilisé dans les rapports de produit [!DNL Adobe Analytics].
-* Les valeurs d’attribut d’entité que vous transmettez à [!DNL Recommendations] expirent après 61 jours. Adobe recommande de transmettre la dernière valeur de chaque attribut d’entité à [!DNL Recommendations] au moins une fois par mois pour chaque élément de votre catalogue.
+* `entity.id` devez correspondre aux `productPurchasedId` envoyés à la page de confirmation de commande et aux `productId` utilisés dans [!DNL Adobe Analytics] rapports de produit.
+* Les valeurs d’attribut d’entité que vous transmettez à [!DNL Recommendations] expirent après 61 jours. Adobe vous recommande de transmettre la dernière valeur de chaque attribut d’entité à [!DNL Recommendations] au moins une fois par mois pour chaque élément de votre catalogue.
 
-La plupart des paramètres prédéfinis acceptent une seule valeur uniquement, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
+La plupart des paramètres prédéfinis n’acceptent qu’une seule valeur, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
 
-En règle générale, la mbox d’affichage d’informations ressemble à l’exemple suivant si vous utilisez at.js 1.*x* avec `mboxCreate`. Tous les attributs de paramètre d’entité sont sensibles à la casse.
+En règle générale, la mbox des informations d’affichage ressemble à l’exemple suivant si vous utilisez at.js 1.*x* avec `mboxCreate`. Tous les attributs de paramètre d’entité sont sensibles à la casse.
 
 >[!NOTE]
 >
->Si vous utilisez at.js 2.*x*, `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=fr){target=_blank}. Pour obtenir un exemple, reportez-vous à la section [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+>Si vous utilisez at.js 2.*x*, `mboxCreate` (comme dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur des produits ou du contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Pour obtenir un exemple, consultez [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -79,7 +79,7 @@ Une seule valeur uniquement.
 
 Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [!DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
-Les valeurs `entity.id` ne doivent *pas* contenir des espaces, des barres obliques, des esperluettes, des points d’interrogation, des symboles de pourcentage, des virgules ou d’autres caractères de ponctuation qui nécessitent le codage d’URL lorsqu’ils sont transmis dans un appel API REST. Les tirets et les traits de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
+Les valeurs `entity.id` ne doivent *pas* contenir d’espaces, de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation qui nécessitent un codage d’URL lors de leur transmission dans un appel API REST. Les tirets et les traits de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
 Exemple : `'entity.id=67833'`
 
@@ -95,18 +95,18 @@ Exemple : `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Prend en charge plusieurs valeurs (liste délimitée par des virgules).
 
-Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section &quot;cardigans&quot; (par exemple, `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Plusieurs catégories doivent être séparées par des virgules.
+Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section de cardigans (par exemple, `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). Plusieurs catégories doivent être séparées par des virgules.
 
 La valeur `categoryId` est limitée à 250 caractères.
 
 >[!NOTE]
 >
->Pour afficher une recommandation basée sur une catégorie dans une page [!UICONTROL Category], un seul `categoryId` peut être transmis dans la mbox utilisée pour afficher cette recommandation spécifique. La valeur de `categoryId` doit correspondre exactement à la valeur de `entity.categoryId` transmise sur la page [!UICONTROL Product Detail].
+>Pour afficher une recommandation basée sur une catégorie dans une page de [!UICONTROL Category], une seule `categoryId` peut être transmise à la mbox utilisée pour afficher cette recommandation particulière. La valeur de l’`categoryId` doit correspondre exactement à la valeur des `entity.categoryId` transmises sur la page [!UICONTROL Product Detail].
 
 Exemples :
 
-* Exemple de page Détails du produit : `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
-* Exemple de page Catégorie Pulls : `womens:sweaters`
+* Exemple de page de détails de produit : `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* Exemple de pulls de page de catégorie : `womens:sweaters`
 * Exemple de cardigans de page de catégorie : `womens:sweaters:cardigans`
 
 Pour les recommandations basées sur des catégories, une virgule sépare la valeur de la catégorie. Toutes les valeurs séparées par des virgules deviennent des catégories. Vous pouvez également définir des sous-catégories en utilisant un autre séparateur, tel que les deux-points (:), pour séparer les sous-catégories au sein de la valeur de catégorie.
@@ -159,11 +159,11 @@ Affiche le niveau de stock de l’élément.
 
 Exemple : `'entity.inventory=1'`
 
-**Gestion des attributs d’inventaire vide :** Pour la diffusion, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` > 0 ou `entity.inventory` = 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] évalue cette valeur à TRUE et inclut les produits dont l’inventaire n’est pas défini. Par conséquent, les produits dont l’inventaire n’est pas défini s’affichent dans les résultats de la recommandation.
+**Gestion des attributs de stock vides :** pour la diffusion, si une règle d’inclusion, une règle de collecte ou un paramètre de critère est défini avec `entity.inventory` > 0 ou `entity.inventory` = 0 et que le stock du produit n’est pas défini, [!DNL Target] évalue cette valeur sur TRUE et inclut les produits pour lesquels le stock n’est pas défini. Par conséquent, les produits dont le stock n’est pas défini s’affichent dans les résultats de recommandation.
 
 De même, si vous disposez d’une règle d’exclusion globale avec `entity.inventory` = 0 et que `entity.inventory`n’est pas définie, [!DNL Target] évalue cette règle à TRUE et exclut le produit.
 
-**Problème connu :** La recherche de produit est incohérente avec la diffusion pour les attributs de valeur d’inventaire qui ne sont pas définis. Par exemple, pour une règle avec `entity.inventory` = 0 , la recherche de produit n’affiche pas les produits dont la valeur d’inventaire n’est pas définie.
+**Problème connu :** la recherche de produit est incohérente avec la diffusion pour les attributs de valeur de stock qui ne sont pas définis. Par exemple, pour une règle avec `entity.inventory` = 0 , la recherche de produits n’affiche pas les produits pour lesquels la valeur de stock n’est pas définie.
 
 ### entity.value
 
@@ -183,16 +183,16 @@ Marge bénéficiaire ou autre valeur de l’élément.
 
 Exemple : `'entity.margin=1.00'`
 
-### entité.*custom*
+### l’entité .*custom*
 
 Prend en charge plusieurs valeurs (tableau JSON).
 
-Définissez jusqu’à 100 variables personnalisées donnant d’autres informations sur l’élément. Pour chaque attribut personnalisé, vous pouvez spécifier un nom d’attribut non utilisé. Par exemple, vous pouvez créer un attribut personnalisé appelé `entity.genre` pour définir un livre ou un film. Un vendeur de billets peut créer des attributs pour le lieu d’un événement pour un interprète secondaire, par exemple pour une équipe en déplacement dans le cadre d’un événement sportif ou une première partie dans le cadre d’un concert.
+Définissez jusqu’à 100 variables personnalisées donnant d’autres informations sur l’élément. Pour chaque attribut personnalisé, vous pouvez spécifier un nom d’attribut non utilisé. Par exemple, vous pouvez créer un attribut personnalisé appelé `entity.genre` pour définir un livre ou un film. Un vendeur de billets peut créer des attributs pour un lieu d’événement pour un interprète secondaire, tel qu’une équipe visiteuse lors d’un événement sportif ou un acte d’ouverture dans un concert.
 
 Restrictions :
 
 * Vous ne pouvez pas utiliser de noms d’attributs d’entité prédéfinis pour les attributs d’entité personnalisés.
-* L’attribut entity.environment est réservé par le système et ne peut pas être utilisé pour les attributs d’entité personnalisés. Toute tentative de transférer entity.environment à l’aide de targetPageParams, d’un flux ou d’une API est ignorée.
+* L’attribut entity.environment est réservé par le système et ne peut pas être utilisé pour les attributs d’entité personnalisés. Les tentatives de transmission de entity.environment à l’aide de targetPageParams, de flux ou de l’API sont ignorées.
 
 Exemples :
 
@@ -214,7 +214,7 @@ Utilisé pour empêcher un appel mbox d’incrémenter les compteurs de données
 
 Exemple : `'entity.event.detailsOnly=true'`
 
-Dans les exemples ci-dessous, le premier appel de mbox met à jour le catalogue et les données comportementales. Le deuxième appel de mbox ne met à jour que le catalogue.
+Dans les exemples ci-dessous, le premier appel de mbox met à jour le catalogue et les données comportementales. Le deuxième appel de mbox met uniquement à jour le catalogue.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )

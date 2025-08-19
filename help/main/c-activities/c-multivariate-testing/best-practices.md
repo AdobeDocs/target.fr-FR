@@ -1,6 +1,6 @@
 ---
 keywords: mvt;test multivarié;bonnes pratiques de test multivarié;bonnes pratiques mvt;combinaisons mvt;rapports mvt
-description: Découvrez comment améliorer les performances, éviter les problèmes et corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités [!UICONTROL Multivariate Test] dans [!DNL Adobe Target].
+description: Découvrez comment améliorer les performances, éviter les problèmes et corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution d’activités [!UICONTROL Multivariate Test] dans  [!DNL Adobe Target].
 title: Quelles sont les bonnes pratiques pour une activité [!UICONTROL Multivariate Test] ?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
@@ -11,9 +11,9 @@ ht-degree: 57%
 
 ---
 
-# [!UICONTROL Multivariate Test] bonnes pratiques
+# Bonnes pratiques [!UICONTROL Multivariate Test]
 
-Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités [!UICONTROL Multivariate Test] (MVT) dans [!DNL Adobe Target].
+Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution d’activités [!UICONTROL Multivariate Test] (MVT) dans [!DNL Adobe Target].
 
 ## Planifier  {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -32,30 +32,30 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
 * Nommez les emplacements et les offres.
 
-  Vous pouvez renommer chaque emplacement et offre de votre test par un nom plus pertinent. Le nombre d’offres à chaque emplacement apparaît dans l’en-tête de l’emplacement. Des noms utiles vous aident à identifier vos offres lors de l’examen des rapports.
+  Vous pouvez renommer chaque emplacement et offre de votre test par un nom plus pertinent. Le nombre d’offres à chaque emplacement apparaît dans l’en-tête de l’emplacement. Les noms utiles vous aident à identifier vos offres lors de l’examen des rapports.
 
 * Tirez parti des fonctionnalités d’aperçu pour éviter des combinaisons non souhaitables de contenu.
 
-  Révisez toutes les expériences générées par votre test avant de passer en réel. Assurez-vous qu’il n’existe aucune combinaison avec des revendications contradictoires (par exemple, 20 % de remise et 19 $ de remise dans la même expérience) ou des conceptions incompatibles, comme l’arrière-plan et la police de la même couleur.
+  Révisez toutes les expériences générées par votre test avant de passer en réel. Assurez-vous qu’il n’existe aucune combinaison avec des affirmations contradictoires (par exemple, 20 % de réduction et 19 $ de réduction dans la même expérience) ou des conceptions incompatibles, telles que l’arrière-plan et la police de la même couleur.
 
 * Utilisez l’[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) pour vous assurer que le test est conçu pour le volume de trafic que votre page reçoit.
 
-  Assurez-vous que l’estimateur de trafic donne le feu vert à votre configuration de test afin que vous puissiez obtenir les résultats souhaités.
+  Assurez-vous que l’estimateur de trafic donne le feu vert à la configuration de test afin d’obtenir les résultats souhaités.
 
-* Les alternatives de chaque élément doivent être significativement différentes les unes des autres.
+* Les alternatives de chaque élément doivent être sensiblement différentes les unes des autres.
 
 ## Analyser  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Utilisez fréquemment le [rapport Contribution des emplacements](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
-* Dans le [ rapport Performance de l&#39;expérience ](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l&#39;aide des filtres [!UICONTROL Best 5] et [!UICONTROL Worst 5].
+* Utilisez fréquemment le rapport [ Contribution des emplacements ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
+* Dans le [rapport Performance de l’expérience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l’aide des filtres [!UICONTROL Best 5] et [!UICONTROL Worst 5].
 
-  Le filtre [!UICONTROL All] rend difficile l’extraction des informations souhaitées. Toutes les expériences ne peuvent pas s’afficher dans le graphique. Utilisez le filtre [!UICONTROL All] si vous souhaitez examiner une expérience spécifique qui ne figure pas dans les cinq meilleures ou les cinq pires.
+  Le filtre [!UICONTROL All] rend difficile l’extraction des informations souhaitées. En outre, toutes les expériences ne peuvent pas s’afficher dans le graphique. Utilisez le filtre [!UICONTROL All] si vous souhaitez examiner une expérience spécifique qui ne fait pas partie des cinq meilleures ou pires.
 
 ## Effectuer le suivi  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Bien que [!DNL Target] vous permette de modifier une activité en direct, la modification d’une activité en cours peut réinitialiser le test. Les rapports peuvent ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
+* Bien que [!DNL Target] vous permette de modifier une activité active, la modification d’une activité en cours peut réinitialiser le test. Il se peut que les rapports ne reconnaissent pas certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
 
-  Les actions spécifiques qui réinitialisent les noms et les rapports d’expérience incluent :
+  Les actions spécifiques qui réinitialisent les noms d’expérience et les rapports incluent :
 
    * Ajout d’un nouvel emplacement
    * Suppression d’un emplacement
@@ -65,4 +65,4 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
 * En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
-  Une fois que vous avez déterminé les emplacements et le contenu qui sont le plus utiles pour vous aider à atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats. Par exemple, lorsque vous savez quels emplacements sont les plus importants, testez deux images spécifiques l’une par rapport à l’autre ou comparez la formulation ou les couleurs d’un appel à l’action.
+  Une fois que vous avez déterminé les emplacements et le contenu qui sont le plus utiles pour vous aider à atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats. Par exemple, lorsque vous savez quels emplacements sont les plus importants, testez deux images spécifiques l’une par rapport à l’autre ou comparez le libellé ou les couleurs d’un call to action.

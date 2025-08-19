@@ -2,13 +2,13 @@
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux de recherche de produit Google et  [!DNL Analytics]  classifications de produits.
 title: Comment utiliser [!UICONTROL Feeds] dans  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -121,7 +121,7 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
+La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
@@ -221,7 +221,7 @@ La classification de produit [!DNL Analytics] est la seule classification dispon
 > Tenez compte des restrictions suivantes :
 >
 >* Les mises à jour des attributs d’entité exigent un délai supplémentaire de 24 heures.
->* [!DNL Target] ne prend en charge que les [!UICONTROL Product Classifications]. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le `entity.id` [!DNL Recommendations]. Les classifications de [!DNL Analytics] personnalisées peuvent être conçues à l’aide de [!UICONTROL Adobe Consulting Services]. Contactez votre gestionnaire de compte pour toute question.
+>* [!DNL Target] ne prend en charge que les [!UICONTROL Product Classifications]. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le [!DNL Recommendations] `entity.id`. Les classifications de [!DNL Analytics] personnalisées peuvent être conçues à l’aide de [!UICONTROL Adobe Consulting Services]. Contactez votre gestionnaire de compte pour toute question.
 
 ## Création d’un flux {#steps}
 
@@ -328,15 +328,15 @@ Prenons les exemples suivants :
 
 **Exemple 1 :**
 
-* Premier jour : processus quotidiens d’alimentation à 9 h (heure du Pacifique).
-* 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
+* Premier jour : processus quotidiens d&#39;alimentation à 9 :00 HNP.
+* Jour deux : il est 15 :30 et le flux n&#39;a pas fonctionné depuis hier à 9:00h.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
 **Exemple 2 :**
 
-* 1er janvier : processus mensuels d&#39;alimentation à 9 h (heure du Pacifique)
-* 3 février : il est 10h00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
+* 1er janvier : processus mensuels d&#39;alimentation à 9 :00 HNP.
+* 3 février : il est 10:00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ un jour et une heure. Même si cela représente seulement (31+(1/25))/30 = 1,03 % du paramètre de fréquence, le délai d’un jour maximum a été dépassé.
 
@@ -351,7 +351,7 @@ Cette vidéo traite des sujets suivants :
 * Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/33898?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Créer un flux (6:44) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -360,4 +360,4 @@ Cette vidéo traite des sujets suivants :
 * Configurer un flux
 * Déterminer le type de flux à utiliser
 
->[!VIDEO](https://video.tv.adobe.com/v/33897?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

@@ -1,6 +1,6 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: Définissez les visiteurs et visiteuses du site qui rejoignent votre Adobe  [!DNL Target] activité en fonction des critères d’audience.
+description: Définissez les visiteurs et visiteuses du site qui rejoignent votre activité Adobe [!DNL Target] en fonction des critères d’audience.
 title: Comment sélectionner une audience dans une activité a [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be

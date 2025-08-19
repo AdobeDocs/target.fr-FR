@@ -1,6 +1,6 @@
 ---
 keywords: affectation automatisée du trafic;ciblage;gagnant;garantie statistique;confiance;déterminer le gagnant;effet élévateur;confiance;par défaut;expérience par défaut;affectation automatique;affectation automatique
-description: Découvrez comment interpréter les résultats d’une activité A/B [!UICONTROL Auto-Allocate] dans l’Adobe  [!DNL Target] en examinant des indicateurs importants, notamment l’effet élévateur et le degré de confiance.
+description: Découvrez comment interpréter les résultats d’une activité A/B [!UICONTROL Auto-Allocate] dans Adobe [!DNL Target] en examinant des indicateurs importants, notamment l’effet élévateur et le degré de confiance.
 title: Comment Interpréter [!UICONTROL Auto-Allocate] Rapports ?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc

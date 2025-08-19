@@ -55,7 +55,7 @@ Pour réduire la collecte de données partielles, nous vous recommandons de pass
 | ![Étape 1](assets/step1_icon.png) | Assurez-vous que la suite de rapports sélectionnée dans [!DNL Target] est identique à celle présente sur les pages où l’activité est présentée. |
 | ![Étape 2](assets/step2_icon.png) | Assurez-vous que les bibliothèques visitorAPI.js, appMeasurement.js, et at.js se trouvent sur des versions compatibles avec A4T. Pour en savoir plus sur les exigences d’implémentation, voir [Avant l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Étape 3](assets/step3_icon.png) | Vérifiez que le SDID est défini sur tous les appels [!DNL Target] et [!DNL Analytics] qui quittent la page et que les SDID correspondent.<br/>Utilisez un analyseur de réseau ou un outil de débogage pour vérifier que le paramètre `mboxMCSDID` sur l’appel à [!DNL Target] correspond au paramètre SDID de l’appel à [!DNL Analytics]. |
-| ![Étape 4](assets/step4_icon.png) | Vérifiez que les bibliothèques d’implémentation se chargent dans l’ordre correct sur vos sites. Pour plus d’informations, voir [Mise en oeuvre d’Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| ![Étape 4](assets/step4_icon.png) | Vérifiez que les bibliothèques d’implémentation se chargent dans l’ordre correct sur vos sites. Pour plus d’informations, voir [Implémentation d’Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Comment puis-je voir de combien de données partielles je dispose ? {#section_89B663E2824A4805AB934153508A0F4B}
 

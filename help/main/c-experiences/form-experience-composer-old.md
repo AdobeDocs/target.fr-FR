@@ -1,6 +1,6 @@
 ---
 keywords: compositeur d’expérience d’après les formulaires, compositeur basé sur les formulaires, ajustements
-description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience d’après les Adobes pour la création d’expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
+description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience d’après les formulaires d’Adobe pour créer des expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
 title: Comment utiliser le compositeur d’expérience d’après les formulaires ?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
@@ -13,7 +13,7 @@ ht-degree: 37%
 
 # Compositeur d’expérience d’après les formulaires
 
-Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
+Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
 
 Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune expérience. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, [!UICONTROL Target] génère automatiquement les expériences.
 
@@ -92,7 +92,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Ajouter une recommandation :**
 
-   Pour une activité Recommendations , la liste déroulante Contenu propose l&#39;option [!UICONTROL Add Recommendation] . Cliquez sur **[!UICONTROL Add Recommendation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Pour une activité Recommendations , la liste déroulante Contenu propose l’option [!UICONTROL Add Recommendation] . Cliquez sur **[!UICONTROL Add Recommendation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
 
@@ -104,7 +104,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Ajouter une décision d’offre :**
 
-   Ajoutez une offre créée dans [!DNL Adobe Journey Optimizer] (AJO) à une activité [!DNL Adobe Target] pour présenter la meilleure offre et la meilleure expérience dynamique aux visiteurs de votre site web ou mobile à l’aide de l’offer decisioning. Cette option est disponible uniquement pour les activités de [!UICONTROL A/B Test] et de [!UICONTROL Experience Targeting] manuels (XT).
+   Ajoutez une offre créée dans [!DNL Adobe Journey Optimizer] (AJO) à une activité [!DNL Adobe Target] pour présenter la meilleure offre et la meilleure expérience dynamique aux visiteurs de votre site web ou mobile à l’aide de la fonction Offer Decisioning. Cette option est disponible uniquement pour les activités de [!UICONTROL A/B Test] et de [!UICONTROL Experience Targeting] manuels (XT).
 
    Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 

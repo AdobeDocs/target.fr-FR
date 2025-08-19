@@ -6,7 +6,7 @@ feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2214'
 ht-degree: 24%
 
 ---
@@ -35,12 +35,12 @@ Target s’intègre aux sites web à l’aide de [!DNL Experience Platform Web S
 >
 >La bibliothèque mbox.js est une implémentation héritée de [!DNL Target] et n’est plus prise en charge après le 31 mars 2021. Effectuez la mise à niveau vers la version [!UICONTROL Experience Platform Web SDK] (préférée) ou la dernière version d’at.js.
 
-Référencez le fichier [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
+Référencez le fichier [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
 
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation de [!DNL Experience Platform Web SDK] ou d’at.js :
 
 * [[!DNL Adobe Experience Platform Web SDK] Extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=fr){target=_blank}
-* [Implémentation de  [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [Implémentation de  [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 Chaque fois qu’un visiteur demande une page optimisée pour la [!DNL Target], une requête en temps réel est envoyée au système de ciblage pour déterminer le contenu à diffuser. Cette demande est effectuée et honorée chaque fois qu’une page se charge, selon des activités et des expériences contrôlées par les spécialistes marketing. Le contenu est ciblé sur les visiteurs et visiteuses du site, afin d’optimiser les taux de réponse, les taux d’acquisition et les recettes. Le contenu personnalisé permet de s’assurer que les visiteurs répondent, interagissent ou effectuent des achats.
 
@@ -134,7 +134,7 @@ Une « Edge » est une architecture de diffusion géographiquement distribuée q
 
 Pour améliorer les temps de réponse, les Edges de [!DNL Target] hébergent uniquement la logique d’activité, les profils mis en cache et les informations d’offre.
 
-Les bases de données des activités et du contenu, les données [!DNL Analytics], les API et les interfaces utilisateur des spécialistes du marketing sont hébergées dans [!DNL Adobe] clusters centraux. Des mises à jour sont envoyées aux Edges de [!DNL Target], qui sont automatiquement synchronisées avec les clusters centraux pour mettre à jour en continu les données d’activité mises en cache. Toute la modélisation 1:1 est également stockée sur chaque périphérie, ce qui permet aux requêtes complexes d’être traitées localement.
+Les bases de données des activités et du contenu, les données [!DNL Analytics], les API et les interfaces utilisateur des spécialistes du marketing sont hébergées dans [!DNL Adobe] clusters centraux. Des mises à jour sont envoyées aux Edges de [!DNL Target], qui sont automatiquement synchronisées avec les clusters centraux pour mettre à jour en continu les données d’activité mises en cache. Toute la modélisation 1:1 est également stockée sur chaque serveur Edge, ce qui permet aux requêtes complexes d’être traitées localement.
 
 Chaque cluster Edge contient toutes les informations nécessaires pour répondre aux demandes de contenu des visiteurs et pour effectuer le suivi des données d’analyse. Les demandes des visiteurs sont acheminées vers le cluster Edge le plus proche.
 

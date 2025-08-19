@@ -17,7 +17,7 @@ Tirez parti du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Ta
 
 >[!NOTE]
 >
->Outre l’activité de [!UICONTROL A/B Test] [!UICONTROL Manual] (par défaut) (abordée dans cet article), [!DNL Target] propose deux types supplémentaires d’activités [!UICONTROL A/B Test] : [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target].
+>Outre l’activité de [!UICONTROL Manual] [!UICONTROL A/B Test] (par défaut) (abordée dans cet article), [!DNL Target] propose deux types supplémentaires d’activités [!UICONTROL A/B Test] : [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target].
 >
 >Voir [Types d’activités de test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) dans la présentation des tests A/B **.
 

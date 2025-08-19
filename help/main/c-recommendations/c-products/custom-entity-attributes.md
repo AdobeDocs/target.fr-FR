@@ -1,8 +1,8 @@
 ---
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
-description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue Recommendations  [!DNL Target] Adobe.
-title: Comment utiliser les attributs d’entité personnalisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+description: Découvrez comment utiliser des attributs d’entité personnalisés à une et plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue Adobe [!DNL Target] Recommendations.
+title: Comment Utiliser Les Attributs D’Entité Personnalisés ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -15,7 +15,7 @@ ht-degree: 82%
 
 # Attributs d’entité personnalisés
 
-Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
+Utilisez des attributs d’entité personnalisés à une et plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les articles de votre catalogue.
 
 ## Limites {#limits}
 
@@ -63,7 +63,7 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 
 ## Implémentation d’attributs à plusieurs valeurs {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), `targetPageParams` et de l’API de diffusion pour télécharger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ( [] ) sont traités comme ne comportant aucune valeur.
+Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), de `targetPageParams` et de l’API de diffusion pour charger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ( [] ) sont traités comme n’ayant aucune valeur.
 
 Les guillemets doubles doivent être précédés d’un caractère d’échappement. Par exemple, `"[""test"", ""value""]"` est un tableau JSON valide qui peut être utilisé dans le fichier CSV.
 
@@ -109,7 +109,7 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 
 ### Utilisation des API
 
-Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
+Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de diffusion dans un paramètre mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
 
 ```javascript
 "execute": {
@@ -127,7 +127,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités, voir la [ documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+Consultez la [documentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur l’utilisation des API Delivery et Save entities.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -138,9 +138,9 @@ Dans l’exemple suivant, la règle est `message contains abc`.
 * Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.
 * Cas 2 : `entity.genre = ["abcde","de","ef"]`. Le résultat est true car une valeur contient `abc`.
 
-Pour les opérateurs négatifs, toutes les valeurs d’attribut doivent être transmises (opérateur booléen *et*). Par exemple, si l’opérateur est `notEquals`, le résultat sera *false* si une valeur correspond.
+Pour les opérateurs négatifs, toutes les valeurs d’attribut doivent être transmises (opérateur booléen *et*). Par exemple, si l’opérateur est `notEquals`, le résultat sera *false* si l’une des valeurs correspond.
 
-Reportez-vous aux sections suivantes pour connaître le comportement des opérateurs dans les règles d’inclusion d’algorithme, les règles de catalogue et les règles d’exclusion.
+Reportez-vous aux sections suivantes pour connaître le comportement des opérateurs dans les règles d’inclusion d’algorithmes, les règles de catalogue et les règles d’exclusion.
 
 ### Est égal
 
@@ -150,7 +150,7 @@ Exemple : `genre equals abc`
 
 * Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur n’est égale à `abc`.
 * Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur est égale à `abc`.
-* Cas 3 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est false car `abc` n’est égal à aucun élément de la liste.
+* Troisième cas : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est false car `abc` n’est égal à aucun élément de la liste.
 
 ### N’est pas égal à
 
@@ -160,7 +160,7 @@ Exemple : `genre not equals abc`
 
 * Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur n’est égale à `abc`.
 * Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est false car une valeur est égale à `abc`.
-* Cas 3 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car `abc` n’est égal à aucun élément de la liste.
+* Troisième cas : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car `abc` n’est égal à aucun élément de la liste.
 
 ### Contient
 
@@ -188,7 +188,7 @@ Exemple : `genre starts with abc`
 
 * Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne commence par `abc`.
 * Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car une valeur commence par `abc`.
-* Cas 3 : `entity.genre = ["ab", "de", "abc"]`. Le résultat est true car une valeur commence par `abc` (pas nécessairement le premier élément de la liste).
+* Troisième cas : `entity.genre = ["ab", "de", "abc"]`. Le résultat est true car une valeur commence par `abc` (pas nécessairement le premier élément de la liste).
 
 ### Se termine par
 
@@ -203,7 +203,7 @@ Exemple : `genre ends with abc`
 
 La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
 
-Après le traitement, toute valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true.
+Après traitement, toute valeur d’attribut supérieure ou égale à la valeur d’entrée renvoie true.
 
 Exemple : `price greater than or equal to 100`
 
@@ -214,7 +214,7 @@ Exemple : `price greater than or equal to 100`
 
 La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
 
-Après le traitement, toute valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true.
+Après traitement, toute valeur d’attribut inférieure ou égale à la valeur d’entrée renvoie true.
 
 Exemple : `price less than or equal to 100`
 
@@ -241,7 +241,7 @@ Exemple : `genre does not match abc`
 
 ### Se trouve dynamiquement dans la plage (uniquement disponible dans les algorithmes basés sur un élément, valeurs numériques uniquement)
 
-Si une valeur d’attribut numérique se trouve dans la plage spécifiée, le résultat est true.
+Si une valeur d’attribut numérique se situe dans la plage spécifiée, renvoie true.
 
 Exemple : `price dynamically ranges in 80% to 120% of 100`
 

@@ -2,7 +2,7 @@
 keywords: Recommendations;critères des recommandations;algorithmes de recommandations;activité Recommendations;critères;ciblage des recommandations
 description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
 title: Qu’est-ce qu’ [!DNL Target]  Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -33,7 +33,7 @@ Les activités de [!DNL Adobe Target Recommendations] affichent automatiquement 
 
 L’illustration suivante présente les recommandations sur une page web :
 
-![velocity_example image](assets/velocity_example.png)
+![image velocity_example](assets/velocity_example.png)
 
 Une recommandation détermine comment un produit est proposé à un visiteur, en fonction de ses activités sur le site. Par exemple :
 
@@ -64,13 +64,13 @@ Avant de commencer à utiliser [!DNL Recommendations], il est utile de vous fami
 
 ## Vidéo de formation : Types d’activités ![Badge d’aperçu](/help/main/assets/overview.png)
 
-Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] est abordé à partir de 7:20.
+Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] discussion commence à 7:20.
 
 * Décrire les types d’activités inclus dans [!DNL Adobe Target]
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Webinaire sur les bases d’Adobe Target : présentation de Recommendations ![Badge de tutoriel](/help/main/assets/tutorial.png) {#intro-to-recs}
 

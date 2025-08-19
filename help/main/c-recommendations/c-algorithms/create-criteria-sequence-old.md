@@ -1,8 +1,8 @@
 ---
 keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandations;séquence;nombre limite d’éléments renvoyés;contrôle au niveau de l’emplacement;emplacement
-description: Découvrez comment définir des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités Adobe [!DNL Target] Recommendations.
+description: Découvrez comment définir des séquences de cinq critères maximum afin d’exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités Adobe [!DNL Target] Recommendations.
 title: Comment créer des séquences de critères dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -87,7 +87,7 @@ Les étapes suivantes supposent que vous accédez à l’écran de [!UICONTROL C
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](/help/main/c-recommendations/c-algorithms/algorithms.md).
 
-## Vidéo de formation : création de critères dans Recommendations (12:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : créer des critères dans Recommendations (12:33) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -95,4 +95,4 @@ Cette vidéo traite des sujets suivants :
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/29401?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

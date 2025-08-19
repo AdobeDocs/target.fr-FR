@@ -1,6 +1,6 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Découvrez comment utiliser l’option Rediriger vers l’URL à l’Adobe  [!DNL Target]  lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
+description: Découvrez comment utiliser l’option Rediriger vers l’URL dans Adobe [!DNL Target] lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
 title: Puis-je rediriger une page vers une autre URL ?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae

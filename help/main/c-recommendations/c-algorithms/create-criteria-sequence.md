@@ -2,7 +2,7 @@
 keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandations;séquence;nombre limite d’éléments renvoyés;contrôle au niveau de l’emplacement;emplacement
 description: Découvrez comment définir des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités Recommendations.
 title: Comment créer des séquences de critères dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # Création d’une séquence de critères
 
-Utilisez des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités de [!UICONTROL Recommendations] [!DNL Adobe Target]. Vous pouvez également limiter le nombre d’éléments renvoyés (parfois appelé « contrôle au niveau de l’emplacement »).
+Utilisez des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités de [!DNL Adobe Target] [!UICONTROL Recommendations]. Vous pouvez également limiter le nombre d’éléments renvoyés (parfois appelé « contrôle au niveau de l’emplacement »).
 
 >[!NOTE]
 >

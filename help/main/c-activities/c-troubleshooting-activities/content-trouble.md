@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Vous devez disposer de l’une des autorisations utilisateur suivantes pour générer un jeton d’authentification :
 
-* Au moins [!UICONTROL Editor] autorisations (ou [!UICONTROL Approver])
+* Au moins [!UICONTROL Editor] autorisation (ou [!UICONTROL Approver])
 
   Pour plus d’informations concernant les clients [!DNL Target Standard], consultez [Spécifier les rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations concernant les clients [!DNL Target Premium], consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -83,7 +83,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Vous n’avez pas besoin d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé avec les détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
+Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommendations.
 
@@ -111,7 +111,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=fr){target=_blank}.
+Pour des informations plus détaillées, consultez [Débogage dʼat.js à lʼaide dʼAdobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -153,11 +153,11 @@ at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype no
 
 ## Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
-L’ [!UICONTROL Activity URL] détermine la page qui qualifie les visiteurs pour l’activité et présente les expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
+L’[!UICONTROL Activity URL] détermine la page qui qualifie les visiteurs pour l’activité et effectue le rendu des expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
 
-Par défaut, le [!UICONTROL Visual Experience Composer] (VEC) ouvre la page qui est spécifiée dans vos [ paramètres du compositeur d’expérience visuelle ](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
+Par défaut, le [!UICONTROL Visual Experience Composer] (VEC) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
 
-Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configure gear icon]** > sélectionnez **[!UICONTROL Page Delivery]** > puis spécifiez l’URL souhaitée dans le champ [!UICONTROL Activity URL] .
+Pour afficher une autre page après l’ouverture du compositeur d’expérience visuelle, cliquez sur le **[!UICONTROL Configure gear icon]** > sélectionnez **[!UICONTROL Page Delivery]** > puis spécifiez l’URL de votre choix dans le champ [!UICONTROL Activity URL] .
 
 ![Configuration de lʼinterface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
 
@@ -165,7 +165,7 @@ Mais comment dois-je procéder si lʼURL contient des paramètres de chaîne de 
 
 Les options suivantes peuvent être utilisées pour inclure des règles de modèle supplémentaires :
 
-### Option 1 : répliquez l’URL et conservez-la dans la règle du modèle avec l’option &quot;contient&quot;.
+### Option 1 : répliquez l’URL et conservez-la dans la règle de modèle avec l’option « contient ».
 
 Cette option garantit que lʼURL qualifie pour lʼactivité, mais vous devez être conscient quʼelle risque dʼinfluencer vos données de rapport en ajoutant des enregistrements supplémentaires aux URL qui contiennent lʼURL de base.
 
@@ -173,7 +173,7 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ![Réplication de lʼURL dans les règles de modèle](assets/option1.png)
 
-### Option 2 : limite la condition &quot;contient&quot; de l’URL avec uniquement la chaîne de requête.
+### Option 2 : restreindre la condition d’URL « contains » uniquement avec la chaîne de requête.
 
 Le risque abordé dans lʼoption précédente est également présent ici. Toutefois, la configuration conditionnelle est désormais uniquement limitée à la chaîne de requête.
 
@@ -183,13 +183,13 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ### Option 3 : au lieu de cibler lʼURL complète, limitez-vous à une portion spécifique de lʼURL.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et des règles de modèle supplémentaires spécifient une [!UICONTROL Query] avec [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offres, séparées par un opérateur OU :
+Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires spécifient un [!UICONTROL Query] avec [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offres, séparé par un opérateur OR :
 
 ![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
 
-## L’échappement des guillemets doubles dans la valeur d’attribut de profil [!DNL Target] ne fonctionne pas comme prévu. {#escape}
+## L’échappement des guillemets doubles dans [!DNL Target] valeur d’attribut de profil ne fonctionne pas comme prévu. {#escape}
 
-Lorsque vous envoyez des valeurs contenant des guillemets doubles dans un attribut de profil [!DNL Target], vous devez les placer dans une double séquence d’échappement comme illustré ci-dessous.
+Lorsque vous envoyez des valeurs contenant des guillemets doubles dans un attribut de profil [!DNL Target], vous devez ajouter un double échappement, comme illustré ci-dessous.
 
 ```
 adobe.target.trackEvent({
@@ -206,12 +206,12 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 ### Ajoutez l’extension ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33872?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Débogage de base d’Adobe Target ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/37917?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33895?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

@@ -1,7 +1,7 @@
 ---
 keywords: contenu;créer un dossier;ressources;déplacer le dossier;copier le dossier;supprimer le dossier;télécharger le dossier;dossier
 description: Comment créer des dossiers dans la bibliothèque des offres ?
-title: Découvrez comment créer des dossiers dans la bibliothèque Adobe  [!DNL Target] Offres pour contenir des offres de code et d’image, ainsi que d’autres dossiers.
+title: Découvrez comment créer des dossiers dans la bibliothèque Adobe [!DNL Target] Offres pour contenir des offres de code et d’image, ainsi que d’autres dossiers.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a

@@ -13,7 +13,7 @@ ht-degree: 39%
 
 # Résumé du test ([!UICONTROL Multivariate Test])
 
-Le résumé du test fournit un aperçu visuel de votre [!UICONTROL Multivariate Test] [!DNL Adobe Target].
+Le résumé du test fournit un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL Multivariate Test].
 
 ![Boîte de dialogue de synthèse du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

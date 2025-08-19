@@ -7,7 +7,7 @@ exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Pour plus d’informations sur la manière dont le profil du visiteur effectue l
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Types d’activité (9:03) ![Badge d’aperçu](/help/main/assets/overview.png)
+### Types d’activités (9:03) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium].
 
@@ -115,7 +115,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilisation des audiences dans Adobe Target (6:21) ![Badge d’aperçu](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

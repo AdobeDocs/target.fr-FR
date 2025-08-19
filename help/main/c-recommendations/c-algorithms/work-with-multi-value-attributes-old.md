@@ -118,7 +118,7 @@ Représentation de la règle d’inclusion par l’API JSON :
 
 ### Exemple : création par l’API de critères recommandant des éléments des favoris d’un utilisateur
 
-Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés à l’aide d’API Adobe I/O. Un exemple d’appel API permettant de créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste des paramètres de mbox `favorites` est fourni ici :
+Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés à l’aide des API d’Adobe I/O. Un exemple d’appel API permettant de créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste des paramètres de mbox `favorites` est fourni ici :
 
 ```
 curl -X POST \

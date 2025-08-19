@@ -1,7 +1,7 @@
 ---
-keywords: expérience;compositeur d’expérience visuelle;compositeur d’expérience avancé;compositeur d’expérience d’après les formulaires;compositeur de formulaire;compositeur visuel;compositeur d’expérience;contenu mixte;iframe;suppression d’iframe;bust iframe;x-frame-options;options x frame;origines multiples;problèmes d’origines multiples;processus d’authentification
-description: En savoir plus sur les compositeurs d’expérience d’Adobe - compositeur d’expérience visuelle (VEC), le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle d’une seule page.
-title: Quel compositeur d’expérience propose [!DNL Target] ?
+keywords: expérience;compositeur d’expérience visuelle;compositeur d’expérience amélioré;compositeur d’expérience basé sur les formulaires;compositeur de formulaires;compositeur visuel;compositeur d’expérience;contenu mixte;iframe;décomposition d’iframe;iframe-buste;x-frame-options;x-frame options;croisée;origine croisée;problèmes inter-origines;processus d’authentification
+description: 'En savoir plus sur les Compositeurs d’expérience Adobe : le Compositeur d’expérience visuelle (VEC), le Compositeur d’expérience d’après les formulaires et le Compositeur d’expérience visuelle monopage.'
+title: Quels Compositeurs D’Expérience Propose [!DNL Target] T-Il ?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Une expérience dans [!DNL Adobe Target] détermine le contenu qui s’affiche lorsque le visiteur répond aux critères d’audience pour une activité.
 
-Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un tunnel de vente ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
+Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un tunnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
 En règle générale, une activité contient plusieurs expériences. Par exemple, les visiteurs de Chambéry peuvent visualiser une offre de remise de 30 € sur les chaussures de ski, tandis que les visiteurs de Nice peuvent afficher une offre de remise sur les combinaisons de plongée. Vous pouvez aussi tester une page avec des offres spéciales différentes pour les visiteurs récurrents. Chacune de ces offres est présentée dans une expérience distincte.
 

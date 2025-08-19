@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -104,7 +104,7 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 
    Ou
 
-   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage, puis cliquez sur l’icône [!UICONTROL Edit] (crayon).
+   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage puis cliquez sur l’icône [!UICONTROL Edit] (crayon).
 
 1. Saisissez un nom pour la fenêtre d’affichage mobile.
 
@@ -141,7 +141,7 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] pour
 
    ![Option Ajouter des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Devices]**, puis activez chaque périphérique qui doit disposer d’une fenêtre d’affichage mobile.
+1. Cliquez sur l’icône **[!UICONTROL Devices]**, puis activez chaque appareil auquel ajouter une fenêtre d’affichage mobile.
 
    ![Activation des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 
@@ -163,7 +163,7 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] pour
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (2 sur 2) (7:29) ![Badge d’aperçu](/help/main/assets/overview.png)
+### Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 La vidéo de démonstration suivante contient des informations sur l’utilisation du compositeur d’expérience visuelle avec des fenêtres d’affichage mobiles :
 
@@ -174,10 +174,10 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Préférences du compte dans Adobe Target ![Badge de présentation](/help/main/assets/overview.png)
 
-Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de la minute 4:40.
+Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de la :40 4.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

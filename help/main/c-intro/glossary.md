@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Définitions des termes.
 
-## Une {#section_02E8CD217BFC42D288C8A9CBFC215E46}
+## A {#section_02E8CD217BFC42D288C8A9CBFC215E46}
 
 **Test A/B**
 
@@ -70,7 +70,7 @@ Automated Personalization (AP) associe des offres ou des messages et utilise le 
 
 Testent et effectuent le suivi des visites des publicités et du contenu hors site. Vous pouvez également utiliser les annonces comportementales pour identifier un même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente.
 
-## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C   {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign**
 
@@ -138,7 +138,7 @@ Permet à de nombreuses applications Internet enrichies (RIA) de manipuler le co
 
 Utilise la technologie de page dynamique pour transférer les valeurs à l’offre.
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## E   {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -146,7 +146,7 @@ Mesure de l’intérêt des visiteurs pour un site, en fonction du temps passé 
 
 **compositeur d’expérience avancé**
 
-[!UICONTROL Enhanced Experience Composer] est une extension de [!UICONTROL Visual Experience Composer] qui vous permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore l’implémentation de [!DNL Target]. Si vous rencontrez des problèmes pour ouvrir votre page dans le [!UICONTROL Visual Experience Composer], essayez le [!UICONTROL Enhanced Experience Composer].
+Le [!UICONTROL Enhanced Experience Composer] est une extension de l’[!UICONTROL Visual Experience Composer] qui vous permet de modifier une expérience pour un site qui démolit un iframe ou pour des pages qui n’incluent pas encore l’implémentation [!DNL Target]. Si vous avez des difficultés à ouvrir votre page dans le [!UICONTROL Visual Experience Composer], essayez le [!UICONTROL Enhanced Experience Composer].
 
 **Autorisations des utilisateurs d’Enterprise**
 
@@ -166,13 +166,13 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 
 **expérience**
 
-Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un tunnel de vente ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
+Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un tunnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
 **ciblage d’expérience**
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-## F {#section_45450032955C4DD2B607B85A23C4E21A}
+## F   {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **flux**
 
@@ -186,7 +186,7 @@ Représentation visuelle d’une activité dans Target Standard.
 
 Une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités de test A/B, de ciblage d’expérience, d’Automated Personalization et de Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des e-mails, des kiosques et des assistants vocaux. 
 
-## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **paramètre de géolocalisation**
 
@@ -196,7 +196,7 @@ Permet de cibler des activités et expériences en fonction de l’emplacement g
 
 Conversion ou résultat qui signale une activité réussie. La bonne pratique consiste à ne jamais exécuter un test sans avoir un objectif d’amélioration d’une manière spécifique.
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H   {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **hôte**
 
@@ -212,7 +212,7 @@ Voir *Environnement*. Les groupes d’hôtes sont appelés « environnements �
 
 Paramètre spécifique au visiteur transmis au cookie du visiteur à partir de la mbox. Un visiteur qui revient sur votre site constitue un exemple de paramètre de profil interne à la mbox.
 
-## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L   {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **Activité de page de destination**
 
@@ -222,7 +222,7 @@ Une activité de page de destination permet d’utiliser le ciblage afin d’aff
 
 Zone de contenu spécifique sur une page, souvent contenue par un seul élément DOM. Dans la méthodologie du test multivarié, un emplacement est parfois référencé en tant que *facteur*. Un test multivarié factoriel complet compare toutes les combinaisons possibles d’offres dans vos emplacements.
 
-## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -266,7 +266,7 @@ Une offre correspond au contenu affiché dans une mbox pendant les activités et
 
 Permet aux visiteurs de s’exclure de tout suivi et diffusion de contenu.
 
-## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P   {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **nombre de pages**
 
@@ -280,7 +280,7 @@ Page vue désigne une vue unique d’une application mobile ou de navigateur, d�
 
 La priorité est utilisée lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-## R {#section_86725D549B6F46A6ADEE424F33595705}
+## R   {#section_86725D549B6F46A6ADEE424F33595705}
 
 **recette**
 
@@ -332,9 +332,9 @@ Une application monopage est une application ou un site tenant sur une seule pag
 
 **mesures de succès**
 
-Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un élément à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
+Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un élément à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels d’achat, mais aussi avec l’engagement des visiteurs et visiteuses ou des clientes et clients.
 
-## T {#section_1841144841AF41169AF1E83B90C18292}
+## T   {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -344,7 +344,7 @@ Activité qui compare plusieurs expériences à des mesures de succès que vous 
 
 Type d’engagement qui représente la durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de l’activité et celui où la page finale de la session est chargée avec une mbox.
 
-## U {#section_6407B81326FF43049D92265746E6C402}
+## U   {#section_6407B81326FF43049D92265746E6C402}
 
 **paramètres d’URL**
 
@@ -364,7 +364,7 @@ Un visiteur est une personne qui accède à votre site. Un visiteur est évalué
 
 Dans Target Standard, une interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre).
 
-## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **expérience gagnante**
 

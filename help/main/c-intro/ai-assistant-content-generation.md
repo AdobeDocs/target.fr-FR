@@ -3,7 +3,7 @@ keywords: assistant ia;assistant intelligence artificielle;génération de conte
 description: Découvrez comment générer du contenu attrayant avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu attrayant ?
 feature: Overview
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
@@ -59,7 +59,7 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
    * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL &#x200B; Story Telling] [!UICONTROL Conversational].
+     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL  Story Telling] [!UICONTROL Conversational].
 
 1. Utilisez le curseur pour sélectionner la durée pendant laquelle vous souhaitez que le texte soit long, de plus court à plus long.
 
@@ -100,4 +100,4 @@ L’invite et les variations suivantes montrent la puissance de [!DNL AI Assista
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr">https://video.tv.adobe.com/v/3434637/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

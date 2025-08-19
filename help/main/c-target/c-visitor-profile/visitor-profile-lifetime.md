@@ -1,7 +1,7 @@
 ---
 keywords: Aperçu et référence
-description: En savoir plus sur le moment où un profil de visiteur expire dans  [!DNL Adobe Target].
-title: Quelle est la durée de vie du profil du visiteur et puis-je l’étendre ?
+description: En savoir plus sur le moment auquel un profil de visiteur expire dans  [!DNL Adobe Target].
+title: Quelle est la durée de vie du profil du visiteur et puis-je la prolonger ?
 feature: Audiences
 exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # Durée de vie du profil du visiteur
 
-Par défaut, un profil du visiteur dans [!DNL Adobe Target] expire après 14 jours d’inactivité pour ce visiteur. Cette durée de vie peut être prolongée.
+Par défaut, un profil de visiteur dans [!DNL Adobe Target] expire après 14 jours d’inactivité pour ce visiteur. Cette durée de vie peut être prolongée.
 
 [Contactez le service à la clientèle ou votre consultant Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour prolonger la durée de vie du profil sans frais supplémentaires. La durée de vie peut être fixée à 90 jours.
 

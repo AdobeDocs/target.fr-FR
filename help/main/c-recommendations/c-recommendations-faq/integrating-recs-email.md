@@ -2,17 +2,17 @@
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de diffusion;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;e-mail au moment de la génération
 description: Découvrez comment intégrer la messagerie électronique dans l’API Delivery Adobe [!DNL Target Recommendations], including using the [!DNL Target] , les modèles Rawbox et les modèles en téléchargement uniquement.
 title: Comment intégrer Recommendations aux e-mails ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
 source-wordcount: '1734'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
-# Intégrer [!DNL Recommendations] avec le courrier électronique
+# Intégration de [!DNL Recommendations] dans la messagerie électronique
 
 [!DNL Adobe Target] prend en charge la personnalisation au moment de l’envoi des recommandations dans les e-mails.
 
@@ -78,7 +78,7 @@ Où `clientcode` est votre code client [!DNL Target].
 >
 >Veillez à renseigner une valeur unique pour `sessionId` et `tntId` ou `thirdPartyId` pour chaque destinataire d’e-mail (par exemple, pour chaque appel d’API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil.
 
-Pour plus d’informations, consultez la [documentation de l’API de diffusion](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=fr){target=_blank} .
+Pour plus d’informations, consultez la [documentation relative à l’API de diffusion](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=fr){target=_blank}.
 
 ## Méthode 2 : utilisation d’un modèle d’e-mail rawbox {#rawbox}
 
@@ -133,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>(Requis pour certains types de critères : les plus consultés par catégorie et les plus vendus par catégorie) | *category_id* | Catégorie sur laquelle repose la recommandation (meilleurs vendeurs dans une catégorie, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.categoryId`. |  |
 | `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` est absent, `mboxDefault` doit être une URL absolue qui renvoie le contenu par défaut si aucune recommandation n’est disponible. Il peut s’agir d’une image ou d’un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de messagerie doit gérer le cas où cette valeur est renvoyée et insérer le code HTML par défaut dans l’e-mail. <br> **Bonne pratique en matière de sécurité** : si le domaine utilisé dans l’URL `mboxDefault` n’est pas placé sur la liste autorisée, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirection ou `mboxDefault` par des tiers, Adobe recommande d’utiliser des « hôtes autorisés » pour placer les domaines d’URL de redirection par défaut sur la liste autorisée. Target utilise des hôtes pour placer sur la liste autorisée les domaines vers lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, consultez [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) dans *Hôtes*. |  |
 | `mboxHost` | *mbox_host* | Domaine qui est ajouté à l’environnement par défaut (groupe d’hôtes) lors du déclenchement de l’appel. |  |
-| `mboxPC` | Vide | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun &quot;thirdPartyId&quot; n’a été fourni, un nouvel tntId est généré et renvoyé dans la réponse. Sinon, il reste vide.<br>**Remarque** : veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>Ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
+| `mboxPC` | Vide | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun « thirdPartyId » n’a été fourni, un nouvel tntId est généré et renvoyé dans le cadre de la réponse. Sinon, il reste vide.<br>**Remarque** : veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>Ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
 
 ### Paramètres facultatifs
 

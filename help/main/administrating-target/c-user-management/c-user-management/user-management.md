@@ -62,14 +62,14 @@ Pour les tâches effectuées dans [!DNL Adobe Admin Console], accédez à la con
 
 L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans l’Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) cliquez sur **[!UICONTROL Users]** > **[!UICONTROL Users]** pour créer des utilisateurs ou modifier des utilisateurs existants.
+1. [Dans Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Users]** > **[!UICONTROL Users]** pour créer des utilisateurs ou modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Création de groupes d’utilisateurs {#user-groups}
 
 Vous pouvez créer des groupes d’utilisateurs et d’utilisatrices (développeurs, développeuses, analystes, responsables du marketing, directeurs, directrices) et leur attribuer des droits d’accès à l’échelle de plusieurs produits et espaces de travail [!DNL Adobe]. Il est aussi facile d’affecter tous les droits d’accès de différents produits [!DNL Adobe] à une nouvelle personne membre d’équipe qu’à un groupe de personnes spécifique.
 
-1. [Dans l’Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Users]** > **[!UICONTROL User Groups]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
+1. [Dans Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Users]** > **[!UICONTROL User Groups]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécifier les rôles et autorisations {#roles-permissions}
@@ -82,7 +82,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 >
 >Pour afficher les activités dans [!DNL Target], les utilisateurs doivent être directement affectés à un espace de travail avec au moins le rôle [!UICONTROL Observer]. L’affectation par le biais de groupes d’utilisateurs est insuffisante. Il est généralement recommandé d’accorder aux utilisateurs l’accès à l’espace de travail par défaut.
 
-1. [Dans l’Admin Console ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Products]**, puis sélectionnez le nom du produit souhaité.
+1. [Dans Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Products]**, puis sélectionnez le nom du produit souhaité.
 
 1. Cliquez sur l’espace de travail souhaité (par exemple, Espace de travail par défaut).
 
@@ -113,4 +113,4 @@ Objectifs de la formation :
 >
 >L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont généralement correctes. Toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421731?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

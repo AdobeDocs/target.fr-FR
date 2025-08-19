@@ -1,7 +1,7 @@
 ---
 keywords: variables;profils;paramètres;profils intégrés;méthodes;variables d’url;profils géographiques;profils tiers;variables de mbox;variables de campagne;attributs du client
-description: Affichez la liste des différents profils, variables et paramètres utiles dans les scripts de profil dans Adobe Target.
-title: Quels profils, variables et paramètres sont utilisés dans [!DNL Target] ?
+description: Affichez une liste de différents profils, variables et paramètres utiles dans les scripts de profil d’Adobe Target.
+title: Dans quels profils, variables et paramètres est-il utilisé  [!DNL Target] ?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
@@ -28,9 +28,9 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | L’agent-utilisateur |
-| user.browserType | Renvoie le type de navigateur, par exemple safari, chrome, etc. |
+| user.browserType | Renvoie le type de navigateur, par exemple, Safari, Chrome, etc. |
 | user.header | Tous les profils `user.header` sont intégrés à partir des données de l’en-tête de la requête de mbox. |
-| user.header(&#39;x-transfer-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez obtenir ce résultat de plusieurs façons, par exemple [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), qui commence par 10., 192.168. ou 172.<br>Remarque : user.header(&#39;x-cluster-client-ip&#39;) a été abandonné. |
+| user.header(&#39;x-forwarded-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez obtenir ceci de plusieurs façons, par exemple [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), qui commence par 10., 192.168. ou 172.<br>Remarque : user.header(’x-cluster-client-ip’) a été abandonné. |
 | user.header(&#39;host&#39;) | Nom d’hôte du site web |
 | user.header(&#39;cookie&#39;) | Données de cookie du visiteur |
 | user.header(&#39;user-agent&#39;) | Agent-utilisateur du navigateur des visiteurs |
@@ -40,17 +40,17 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.header(&#39;connection&#39;) | Connexion au serveur. Par exemple : keep-live |
 | user.header(&#39;referrer&#39;) | URL du site web de la page active du visiteur. Ne fonctionne pas pour Internet Explorer. |
 | user.getLocal(&#39;param_name&#39;); | Récupérez la valeur que vous avez définie à l’aide de `user.setLocal`. |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Créez des valeurs de profil persistantes dans un script de profil. Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que dans le script qu’il a été défini. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Créez des valeurs de profil persistantes dans un script de profil. Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que dans le script dans lequel il a été défini. |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Fait également référence aux profils &quot;système&quot; tels que la géolocalisation, le nombre de visites, etc. |
-| profile.get(&#39;param_name&#39;) | La méthode profile.get(&#39;param_name&#39;) constitue la méthode correcte pour obtenir un paramètre de profil à utiliser dans un script de profil. |
+| user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Fait également référence à des profils « système » tels que la géolocalisation, le nombre de visites, etc. |
+| profile.get(&#39;param_name&#39;) | La méthode profile.get(&#39;param_name&#39;) est le moyen correct d&#39;obtenir un paramètre de profil à utiliser dans un script de profil. |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile. prefix. |
 | profile.browserTime | L’heure du navigateur local du visiteur. Pour l’heure du système, créez un nouvel objet de date dans le script du profil. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | Le périphérique du visiteur est une tablette.<P>**REMARQUE** : ce profil remplace le navigateur hérité obsolète : il s’agit de la catégorie d’audience iPad. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) pour plus d’informations. |
-| profile.mobile.isMobilePhone | L’appareil du visiteur est un téléphone mobile.<P>**REMARQUE** : ce profil remplace le navigateur hérité obsolète : il s’agit de la catégorie d’audience iPhone. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) pour plus d’informations. |
+| profile.mobile.isTablet | L’appareil visiteur est une tablette.<P>**REMARQUE** : ce profil remplace l’ancien navigateur obsolète de la catégorie d’audience iPad. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) pour plus d’informations. |
+| profile.mobile.isMobilePhone | L’appareil visiteur est un téléphone mobile.<P>**REMARQUE** : ce profil remplace l’ancien navigateur obsolète de la catégorie d’audience iPhone. Voir [Navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) pour plus d’informations. |
 | parameter= | Terme générique pour les valeurs additionnelles transmises par une mbox, généralement des paires nom/valeur. Non persistantes sauf si elles y sont forcées avec `profile.parameter` ou `user.parameter`. |
 
 ## Variables d’URL {#section_8F25958273164EBAA6DC659302993FD3}
@@ -85,13 +85,13 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | mbox.param(&#39;param_name&#39;) |  |
 | Paramètres automatiquement transmis avec chaque requête :<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Paramètres transmis avec les mbox de commande :<ul><li>mbox.param(&#39;orderId’)</li><li>mbox.param(&#39;orderTotal’)</li><li>mbox.param(&#39;productPurchasedId’)</li></ul> |
-| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations via les API de profil et les [attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr){target=_blank}. |
+| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations via les API de profil et [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | Dans chaque appel de mbox, une valeur est attribuée à la page. |
-| mboxDebug | Utilisée uniquement pour les informations de débogage. Ajout à l’URL de la page où at.js la recherche. |
+| mboxDebug | Utilisée uniquement pour les informations de débogage. Ajout à l’URL de la page où at.js le recherche. |
 | mboxOverride.browserIp | Définit un autre lieu géographique que le lieu actuel afin que vous puissiez tester à quoi ressemblerait un élément particulier dans un autre lieu.<br>**Remarque :** les paramètres mboxOverride doivent être utilisés pour tester l’activité et non en production. L’utilisation de tout paramètre mboxOverride peut entraîner des incohérences avec la création de rapports lors de l’utilisation d’[Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilisez le [mode AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) pour vous assurer que l’activité fonctionne comme prévu avant de la transférer dans votre environnement de production. |
 
 ## Attributs du client {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 Les attributs du client peuvent être référencés dans les scripts de profil, au format `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format : `${crs.datasourceName.attributeName}`. Notez que les espaces dans `datasourceName` doivent être supprimés de tout appel API.
+Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit se présenter sous la forme : `${crs.datasourceName.attributeName}`. Notez que les espaces dans le `datasourceName` doivent être supprimés de tout appel API.

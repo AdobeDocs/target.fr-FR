@@ -1,6 +1,6 @@
 ---
 keywords: implémenter, implémentation
-description: Découvrez comment implémenter l’Adobe  [!DNL Target]  votre site. Définissez vos paramètres globaux, votre méthode d’implémentation (AEP Web SDK ou at.js), etc.
+description: Découvrez comment implémenter Adobe  [!DNL Target]  votre site. Définissez vos paramètres globaux, votre méthode d’implémentation (AEP Web SDK ou at.js), etc.
 title: Comment effectuer l [!DNL Target] implémentation sur mon site ?
 feature: Administration & Configuration
 role: Admin
@@ -24,4 +24,4 @@ Pour plus d’informations, consultez les différentes rubriques sous [Implémen
 
 1. Pour accéder à la page [!UICONTROL Implementation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-1. Pour plus d’informations sur les paramètres de cette page, voir [ Implémentation de Target sans gestionnaire de balises ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=fr){target=_blank}.
+1. Pour plus d’informations sur les paramètres de cette page, voir [ Implémentation de Target sans gestionnaire de balises ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.

@@ -9,7 +9,7 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 source-git-commit: 218036d23803643f25e6cf9dd91ea71dd55342ea
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
@@ -27,7 +27,7 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE Premium &#x200B;]{type=Positive}
+[!BADGE Premium ]{type=Positive}
 
 [!DNL Target Premium] est une offre avancée qui nécessite une licence pour ajouter des fonctionnalités premium à [!DNL Target Standard]. Tous les articles [!DNL Target Premium] des guides de [!DNL Target] incluent le badge [!UICONTROL Premium] en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge [!UICONTROL Premium] et accéder à cette section.
 
@@ -102,7 +102,7 @@ Créez votre programme d’optimisation et de personnalisation sur [!DNL Adobe T
 
 [Le kit de bienvenue Adobe Target](/help/main/c-intro/target-welcome-kit.md)
 
-## Vidéo de formation : Types d’activités (9:03) ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Types d’activités (9:03) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 La vidéo suivante décrit les types d’activités disponibles dans [!DNL Target Standard/Premium] et explique comment le workflow guidé en trois étapes de [!DNL Target] vous permet d’atteindre les objectifs fixés pour votre site.
 
@@ -110,4 +110,4 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

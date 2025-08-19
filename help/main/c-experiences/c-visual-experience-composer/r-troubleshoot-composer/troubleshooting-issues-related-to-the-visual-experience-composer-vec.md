@@ -13,7 +13,7 @@ ht-degree: 24%
 
 # Résolution des problèmes liés à l’[!UICONTROL Visual Experience Composer]
 
-Dans certaines conditions, des problèmes d’affichage surviennent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC).
+Dans certaines conditions, des problèmes d’affichage surviennent parfois dans le [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 
 ## Lorsque j’ouvre mon site web dans le [!UICONTROL Visual Experience Composer], les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 

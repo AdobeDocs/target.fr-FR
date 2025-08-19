@@ -2,7 +2,7 @@
 keywords: adresse IP;adresses IP;liste blanche;liste autorisée;pare-feu;recommandations;flux;serveurs;adobe experience cloud;recommendations
 description: Consultez une liste d’adresses IP utilisées dans les serveurs de traitement de flux de  [!DNL Target]  Recommendations destinée à vous aider à configurer votre pare-feu afin d’autoriser les adresses IP issues des serveurs Adobe.
 title: Quelles adresses IP les serveurs de traitement de flux de Recommendations utilisent-ils ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
@@ -12,15 +12,15 @@ ht-degree: 59%
 
 ---
 
-# Adresses IP utilisées par les serveurs de traitement de flux [!DNL Recommendations]
+# Adresses IP utilisées par [!DNL Recommendations] serveurs de traitement de flux
 
-Liste des adresses IP utilisées dans les serveurs de traitement de flux [!DNL Adobe Target] [!DNL Recommendations] pour vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs [!DNL Adobe].
+Liste d’adresses IP utilisées dans les serveurs de traitement de flux de [!DNL Adobe Target] [!DNL Recommendations] afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->L&#39;équipe [!DNL Target] met actuellement à jour les adresses de passerelle NAT pour télécharger des flux [!DNL Recommendations]. Si vous implémentez le placement sur liste autorisée d’adresses IP, assurez-vous que les nouveaux hôtes AWS suivants sont bien répertoriés. La mise hors service des hôtes existants est prévue pour le 30 juin 2024. Pour assurer une transition en douceur, placez l’ensemble des neuf adresses sur la liste autorisée. La suppression des adresses existantes n’est pas urgente.
+>L’équipe [!DNL Target] met actuellement à jour les adresses de passerelle NAT pour le téléchargement de flux [!DNL Recommendations]. Si vous implémentez le placement sur liste autorisée d’adresses IP, assurez-vous que les nouveaux hôtes AWS suivants sont bien répertoriés. La mise hors service des hôtes existants est prévue pour le 30 juin 2024. Pour assurer une transition en douceur, placez l’ensemble des neuf adresses sur la liste autorisée. La suppression des adresses existantes n’est pas urgente.
 
-[!DNL Target] [!UICONTROL Recommendations] Les activités utilisent les hôtes AWS suivants lors de l’accès aux serveurs FTP des clients :
+[!DNL Target] activités [!UICONTROL Recommendations] utilisent les hôtes AWS suivants lors de l’accès aux serveurs FTP des clients :
 
 **Nouveaux hôtes** :
 
@@ -41,4 +41,4 @@ Liste des adresses IP utilisées dans les serveurs de traitement de flux [!DNL A
 | Oregon | `44.232.167.82` |
 | Oregon | `52.41.252.205` |
 
-Les API [!DNL Target] [!UICONTROL Recommendations] utilisent également les mêmes hôtes AWS.
+[!DNL Target] API [!UICONTROL Recommendations] utilisent également les mêmes hôtes AWS.

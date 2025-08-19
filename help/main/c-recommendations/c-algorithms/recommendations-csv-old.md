@@ -2,7 +2,7 @@
 keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
 description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans Adobe [!DNL Target] Recommendations.
 title: Comment télécharger des critères personnalisés dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -80,12 +80,12 @@ Les étapes suivantes supposent que vous accédez à l’écran de [!UICONTROL C
   | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
   | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : création de critères dans Recommendations (12:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : créer des critères dans Recommendations (12:33) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo contient les informations suivantes (les détails sur le chargement des critères personnalisés commencent à 11h43) :
+Cette vidéo contient les informations suivantes (les détails sur le chargement des critères personnalisés commencent à 11:43) :
 
 * Création de critères
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/29401?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)

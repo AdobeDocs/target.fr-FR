@@ -1,6 +1,6 @@
 ---
 keywords: clé de recommandation;logique de recommandation;catégorie actuelle;attribut personnalisé;dernier article acheté;dernier article consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier article consulté;dernier achat;dernier consulté;le plus consulté;favori;récemment consulté
-description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte du comportement du visiteur pour afficher des résultats pertinents dans les activités Adobe [!DNL Target] Recommendations.
+description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement du visiteur pour afficher des résultats pertinents dans les activités Adobe [!DNL Target] Recommendations.
 title: Comment baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # Baser la recommandation sur une clé de recommandation
 
-Les Recommendations basées sur des algorithmes utilisent le contexte du comportement du visiteur pour afficher des résultats pertinents dans [!DNL Adobe Target] activités [!DNL Recommendations].
+Les recommandations basées sur des algorithmes utilisent le contexte de comportement des visiteurs pour afficher des résultats pertinents dans [!DNL Adobe Target] activités [!DNL Recommendations].
 
 Chaque type d’algorithme fournit différents algorithmes appropriés à son type, comme indiqué dans le tableau suivant :
 
@@ -34,7 +34,7 @@ Les différents algorithmes de recommandations se prêtent à un placement sur d
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme [!UICONTROL Cart-Based] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme [!UICONTROL Cart-Based] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « [!UICONTROL Recommended For You] » et aux algorithmes basés sur les éléments « [!UICONTROL People Who Viewed These, Bought Those] » et « [!UICONTROL People Who Bought These, Bought Those] ».
 
@@ -132,7 +132,7 @@ Par exemple, l’affichage de categorieA, puis de categorieB dans une même sess
 
 Utilisez cet algorithme sur les pages générales, telles que les pages d’accueil ou de destination et les annonces hors site.
 
-Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés Recommendations suivantes :
+Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés de recommandations suivantes :
 
 * Catégorie en cours
 * Catégorie préférée
@@ -157,7 +157,7 @@ Affiche les articles inclus dans les commandes les plus terminées par catégori
 
 Cet algorithme vous permet de créer des recommandations pour les articles les plus vendus sur votre site en fonction de la catégorie, afin d’augmenter la conversion et les recettes. Cette logique est particulièrement adaptée aux nouveaux visiteurs de votre site.
 
-Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés Recommendations suivantes :
+Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés de recommandations suivantes :
 
 * Catégorie en cours
 * Catégorie préférée
@@ -450,7 +450,7 @@ Recommande des éléments selon la certitude d’une relation entre ceux-ci. Vou
 
 Par exemple, si vous définissez une très forte affinité et si votre conception comporte cinq éléments dont trois qui correspondent à la force du seuil de connexion, les deux éléments qui ne répondent pas aux exigences de force minimales ne sont pas affichés dans vos recommandations et sont remplacés par les éléments de sauvegarde. Les éléments avec l’affinité la plus forte s’affichent en premier.
 
-Par exemple, un détaillant en ligne peut recommander des articles lors de visites ultérieures qui ont suscité l’intérêt d’un visiteur au cours de sessions précédentes. L’activité de la session de chaque visiteur est capturée afin de calculer une affinité en fonction d’un modèle de récence et de fréquence. À mesure que ce visiteur revient sur votre site, l’affinité du site est utilisée pour afficher des recommandations basées sur des actions passées sur votre site.
+Par exemple, un retailer en ligne peut recommander des éléments lors de visites ultérieures qui ont suscité l’intérêt d’un visiteur au cours de sessions précédentes. L’activité de la session de chaque visiteur est capturée afin de calculer une affinité en fonction d’un modèle de récence et de fréquence. À mesure que ce visiteur revient sur votre site, l’affinité du site est utilisée pour afficher des recommandations basées sur des actions passées sur votre site.
 
 Certains clients qui proposent plusieurs collections de produits et plusieurs comportements de site obtiendront de meilleurs résultats en définissant une affinité faible.
 

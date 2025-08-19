@@ -7,7 +7,7 @@ exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 35%
+ht-degree: 33%
 
 ---
 
@@ -25,7 +25,7 @@ La section [!UICONTROL Activity Settings] de la page [!UICONTROL Goals & Setting
 |--- |--- |
 | [!UICONTROL Objective] | Saisissez une intention facultative. L’objectif peut être toute information qui vous aide, vous et les membres de votre équipe, à identifier l’activité. |
 | [!UICONTROL Priority] | Selon vos paramètres, l’interface utilisateur [!DNL Target] et les options de [!UICONTROL Priority] varient. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High], ou activer les priorités affinées de 0 à 999.<P>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<P>Si cette option n’est pas activée dans [!UICONTROL Administration] (valeur par défaut), spécifiez une priorité : [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High].<P>Pour activer [les priorités affinées](/help/main/administrating-target/reporting.md), cliquez sur [!UICONTROL Administration] > [!UICONTROL Reporting], puis activez l’option [!UICONTROL Enable Fine-Grained Priorities]. <P>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 : 0 = [!UICONTROL Low] et 999 = [!UICONTROL High]. <P>Pour les activités créées dans les versions précédentes d’[!DNL Target], [!UICONTROL Low] priorité est convertie en 0, [!UICONTROL Medium] en 5 et [!UICONTROL High] en 10. Vous pouvez ajuster ces valeurs si besoin.<P>Remarque : avant de pouvoir désactiver cette option après l’utilisation de priorités affinées, toutes les priorités doivent être définies sur 0, 5 et 10. |
-| Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
+| Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -54,7 +54,7 @@ Pour définir les paramètres avancés, cliquez sur l’icône **[!UICONTROL Mor
 
 | Paramètre | Description |
 |--- |--- |
-| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilisez cette option pour comptabiliser une personne comme ayant atteint la mesure de succès uniquement si elle a précédemment atteint une autre mesure de succès. Par exemple, une conversion d’activité peut n’être valide que si le visiteur clique sur l’offre ou atteint une page particulière avant la conversion. Vous pouvez fournir une dépendance à plusieurs mesures, ainsi que la possibilité de choisir si la mesure doit être atteinte ou non pour que le nombre augmente. Définissez les deux mesures de succès (ou plusieurs) avant de pouvoir rendre l’une dépendante de l’autre. L’option [!UICONTROL Add Dependency] permet à la mesure de succès d’être incrémentée si une autre mesure de succès a été atteinte ou n’a pas été atteinte. Pour ajouter une dépendance :<ul><li>Après avoir ajouté des mesures supplémentaires, cliquez sur [!UICONTROL Advanced Settings].</li><li>Cliquez sur l’option [!UICONTROL Add Dependency] :</li><li>Faites glisser et déposez les mesures de votre choix depuis le volet de gauche vers le volet de droite, puis cliquez sur [!UICONTROL Reached] pour basculer le paramètre entre [!UICONTROL Reached] et [!UICONTROL &#x200B; Not Reached].</li><li>Vous pouvez modifier ou supprimer des dépendances après leur ajout.</li></ul> |
+| [!UICONTROL Which success metric must be reached before incrementing this metric?] | Utilisez cette option pour comptabiliser une personne comme ayant atteint la mesure de succès uniquement si elle a précédemment atteint une autre mesure de succès. Par exemple, une conversion d’activité peut n’être valide que si le visiteur clique sur l’offre ou atteint une page particulière avant la conversion. Vous pouvez fournir une dépendance à plusieurs mesures, ainsi que la possibilité de choisir si la mesure doit être atteinte ou non pour que le nombre augmente. Définissez les deux mesures de succès (ou plusieurs) avant de pouvoir rendre l’une dépendante de l’autre. L’option [!UICONTROL Add Dependency] permet à la mesure de succès d’être incrémentée si une autre mesure de succès a été atteinte ou n’a pas été atteinte. Pour ajouter une dépendance :<ul><li>Après avoir ajouté des mesures supplémentaires, cliquez sur [!UICONTROL Advanced Settings].</li><li>Cliquez sur l’option [!UICONTROL Add Dependency] :</li><li>Faites glisser et déposez les mesures de votre choix depuis le volet de gauche vers le volet de droite, puis cliquez sur [!UICONTROL Reached] pour basculer le paramètre entre [!UICONTROL Reached] et [!UICONTROL  Not Reached].</li><li>Vous pouvez modifier ou supprimer des dépendances après leur ajout.</li></ul> |
 | [!UICONTROL What will happen after a user encounters this goal metric?] | Trois options sont disponibles :<ul><li>Sélectionnez [!UICONTROL Increment Count & Keep User in Activity] pour spécifier la manière dont le nombre est incrémenté.</li><li>Sélectionnez [!UICONTROL Increment Count, Release User & Allow Reentry] pour spécifier l’expérience que verra l’utilisateur s’il entre à nouveau dans l’activité.</li><li>Sélectionnez [!UICONTROL Increment Count, Release User & Bar from Reentry] pour spécifier ce que l’utilisateur voit au lieu du contenu de l’activité.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | Il existe trois options d’incrémentation du décompte :<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
@@ -68,7 +68,7 @@ La section [!UICONTROL Other Metadata] de la page de [!UICONTROL Goals & Setting
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres des activités (3:02) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+### Paramètres d’activité (3:02) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -82,9 +82,9 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo présente la façon dont les paramètres d’activité s’intègrent dans le workflow guidé en trois étapes lors de la création d’une activité. Les objectifs et les paramètres sont abordés à partir de 05:30.
+Cette vidéo présente la façon dont les paramètres d’activité s’intègrent dans le workflow guidé en trois étapes lors de la création d’une activité. Les objectifs et les paramètres sont discutés à partir de 5 :30.
 
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

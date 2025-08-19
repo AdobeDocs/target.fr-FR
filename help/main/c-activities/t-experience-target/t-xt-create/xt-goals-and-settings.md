@@ -1,25 +1,25 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres du ciblage d’expérience;objectifs et paramètres xt;ciblage d’expérience;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectifs;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur rencontrera cette mesure d’objectif;remarques
-description: Découvrez comment utiliser la page [!UICONTROL Goals & Settings] dans  [!DNL Adobe Target]  pour spécifier des informations sur les objectifs d’une activité [!UICONTROL Experience Targeting] (XT).
-title: Comment spécifier [!UICONTROL Goals & Settings] dans une activité [!UICONTROL Experience Targeting] ?
+description: Découvrez comment utiliser la page [!UICONTROL Goals & Settings] dans  [!DNL Adobe Target]  spécifier des informations sur les objectifs d’une activité [!UICONTROL Experience Targeting] (XT).
+title: Comment spécifier des [!UICONTROL Goals & Settings] dans une activité [!UICONTROL Experience Targeting] ?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
-# Objectifs et paramètres dans les activités [!UICONTROL Experience Targeting] (XT)
+# Objectifs et paramètres des activités [!UICONTROL Experience Targeting] (XT)
 
-Sur la page [!UICONTROL Goals & Settings], vous saisissez des informations sur les objectifs du test :
+La page [!UICONTROL Goals & Settings] vous permet de saisir des informations sur les objectifs du test :
 
 * [!UICONTROL Activity Settings]
 * [!UICONTROL Reporting Settings]
 * [!UICONTROL Other Metadata]
 
-Les paramètres disponibles dépendent si vous utilisez [!DNL Target] ou [!DNL Analytics] comme source de création de rapports.
+Les paramètres disponibles varient selon que vous utilisez [!DNL Target] ou [!DNL Analytics] comme source de création de rapports.
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -31,20 +31,20 @@ Saisissez une intention facultative. L’intention peut être toute information 
 
 ### [!UICONTROL Priority]
 
-Selon vos paramètres, l’interface utilisateur de [!DNL Target] et les options de [!UICONTROL Priority] varient. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High], ou vous pouvez activer les priorités affinées de 0 à 999.
+Selon vos paramètres, l’interface utilisateur [!DNL Target] et les options de [!UICONTROL Priority] varient. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High], ou activer les priorités affinées de 0 à 999.
 
-Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si plusieurs activités sont affectées à l’emplacement, l’activité avec la priorité la plus élevée s’affiche.
+Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si plusieurs activités sont affectées à l’emplacement, l’activité ayant la priorité la plus élevée est affichée.
 
-Si cette option n&#39;est pas activée dans [!UICONTROL Administration] (valeur par défaut), spécifiez une priorité : [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High].
+Si cette option n’est pas activée dans [!UICONTROL Administration] (valeur par défaut), spécifiez une priorité : [!UICONTROL Low], [!UICONTROL Medium] ou [!UICONTROL High].
 
-Pour activer les priorités affinées, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, puis activez l’option [!UICONTROL Enable Fine-Grained Priorities].
+Pour activer les priorités affinées, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, puis activez l’option [!UICONTROL Enable Fine-Grained Priorities] à la position « Activé ».
 
 Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
 * 0 = Faible
 * 999 = Élevé
 
-Pour les activités créées dans les versions précédentes de [!DNL Target], la priorité [!UICONTROL Low] est convertie en 0, [!UICONTROL Medium] en 5 et [!UICONTROL High] en 10. Vous pouvez ajuster ces valeurs si besoin.
+Pour les activités créées dans les versions précédentes d’[!DNL Target], [!UICONTROL Low] priorité est convertie en 0, [!UICONTROL Medium] en 5 et [!UICONTROL High] en 10. Vous pouvez ajuster ces valeurs si besoin.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Pour les activités créées dans les versions précédentes de [!DNL Target], l
 
 ### [!UICONTROL Duration]
 
-L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut se terminer lorsqu’elle est désactivée ou vous pouvez définir une date et une heure de fin pour l’activité. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut se terminer lorsqu’elle est désactivée ou vous pouvez définir une date et une heure de fin. Le sélecteur d’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -60,39 +60,39 @@ Les méthodes suivantes sont disponibles :
 
 ### [!UICONTROL Reporting Source]
 
-Spécifiez les données de solution à partir desquelles collecter :
+Indiquez à partir de quelle solution les données sont collectées :
 
 * [!DNL Adobe Target]
 * [!DNL Adobe Analytics]
 * [!DNL Adobe Customer Journey Analytics]
 
-Si une solution de création de rapports est spécifiée dans les [paramètres du compte](/help/main/administrating-target/reporting.md), la solution spécifiée est utilisée et ce paramètre n’est pas visible.
+Si une solution de création de rapports est spécifiée dans les paramètres de votre [compte](/help/main/administrating-target/reporting.md), la solution spécifiée est utilisée et ce paramètre n’est pas visible.
 
-Vous ne pouvez pas modifier votre source de création de rapports une fois l’activité activée pour préserver la cohérence des rapports.
+Vous ne pouvez pas modifier votre source de création de rapports une fois l’activité activée pour conserver la cohérence des rapports.
 
-**[!DNL Adobe Analytics]** : voir [[!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour découvrir les différences entre les solutions de création de rapports et les avantages de chacune d’elles.
+**[!DNL Adobe Analytics]** : voir [[!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour en savoir plus sur les différences entre les solutions de création de rapports et les avantages de chacune d’elles.
 
-Lorsque vous sélectionnez [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T), vous sélectionnez une suite de rapports [!DNL Analytics] pour recevoir les données d’activité [!DNL Target]. Pour ce faire, faites d’abord votre choix parmi les sociétés [!DNL Analytics] auxquelles votre compte est lié, puis sélectionnez la suite de rapports appropriée à l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si vous ne voyez pas la suite de rapports attendue, essayez d’abord de vous déconnecter et de vous reconnecter à [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports n’apparaît toujours pas dans la liste, contactez l’ [assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+Lorsque vous sélectionnez [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T), vous sélectionnez une suite de rapports [!DNL Analytics] pour recevoir des données d’activité [!DNL Target]. Pour ce faire, choisissez d’abord l’une des [!DNL Analytics] sociétés auxquelles votre compte est lié, puis sélectionnez la suite de rapports appropriée pour l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si la suite de rapports attendue ne s’affiche pas, essayez d’abord de vous déconnecter puis de vous reconnecter à la [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports est toujours absente de la liste, contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-[!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s’affiche dans le champ [!UICONTROL Tracking Server] . Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le serveur de suivi approprié dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
+[!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de tracking par défaut s’affiche dans le champ [!UICONTROL Tracking Server] . Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le bon serveur de suivi dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
 
-**[!DNL Adobe Customer Journey Analytics]** : Voir [[!DNL Target] création de rapports dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
+**[!DNL Adobe Customer Journey Analytics]** : voir [[!DNL Target] Reporting dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
 
 ### [!UICONTROL Goal Metric]
 
-Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, choisissez une mesure [!UICONTROL Conversion], puis définissez les paramètres qui déterminent le moment où la réussite est atteinte.
+Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, choisissez une mesure de [!UICONTROL Conversion], puis définissez les paramètres qui déterminent le moment où la réussite est atteinte.
 
 Pour plus d’informations sur le paramétrage des mesures, voir [Paramétrage des mesures](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB).
 
 >[!NOTE]
 >
->Si la solution de création de rapports est définie sur [!DNL Analytics], la seule mesure d’objectif disponible est [!UICONTROL Conversion]. Les mesures [!DNL Analytics] ne peuvent pas être sélectionnées en tant qu’objectif.
+>Si la solution de création de rapports est définie sur [!DNL Analytics], la seule mesure d’objectif disponible est [!UICONTROL Conversion]. [!DNL Analytics] mesures ne peuvent pas être sélectionnées en tant qu’objectif.
 
 Lorsque vous sélectionnez votre mesure de succès, un sélecteur s’affiche. Utilisez ce sélecteur pour sélectionner les détails de la mesure de succès.
 
-S’il est activé, le champ [!UICONTROL Estimated Value of the Conversion] (indisponible pour les mesures [!UICONTROL Page Score]) fournit une valeur pour votre objectif, mais pas pour les autres mesures. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de recettes ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] et [!UICONTROL Orders]), l’estimation utilise [!UICONTROL Revenue per Visitor]. Les données sont de type devise.
+Si cette option est activée, le champ [!UICONTROL Estimated Value of the Conversion] (non disponible pour les mesures [!UICONTROL Page Score]) fournit une valeur pour votre objectif, mais pas pour d’autres mesures. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de chiffre d’affaires ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] et [!UICONTROL Orders]), l’estimation utilise [!UICONTROL Revenue per Visitor]. Les données sont de type devise.
 
-Après avoir atteint l’objectif de l’activité, un visiteur continue à voir le contenu de l’activité, sauf si le visiteur est admissible pour une activité de priorité plus élevée. Si le visiteur atteint à nouveau l’objectif, il est comptabilisé en tant que nouvelle conversion. Ce comportement est différent du comportement par défaut dans [!DNL Target Classic], qui a comptabilisé les visiteurs comme nouveaux s’ils affichent à nouveau le test.
+Une fois l’objectif d’activité atteint, le visiteur continue à voir le contenu de l’activité, sauf s’il est qualifié pour une activité prioritaire. Si le visiteur atteint à nouveau l’objectif, il est comptabilisé en tant que nouvelle conversion. Ce comportement est différent du comportement par défaut dans [!DNL Target Classic], qui comptait les visiteurs comme nouveaux s’ils voyaient à nouveau le test.
 
 ### [!UICONTROL Additional Metrics]
 
@@ -108,7 +108,7 @@ Ce paramètre n’est pas disponible si vous choisissez [!DNL Analytics] comme s
 
 ## [!UICONTROL Other Meta Data]
 
-Saisissez des informations sur votre activité qui vous seront utiles, ainsi qu’aux autres membres de l’équipe. Le volet [!UICONTROL Notes] peut être redimensionné.
+Saisissez toute information utile pour vous-même ou pour d’autres membres de l’équipe concernant votre activité. Le volet [!UICONTROL Notes] peut être redimensionné.
 
 ## [!UICONTROL Advanced Settings] {#section_E2FE441AFB324E498793ABB025ED9974}
 
@@ -124,22 +124,22 @@ Les méthodes suivantes sont disponibles :
 
 ### [!UICONTROL Which success metric must be reached before incrementing this metric?]
 
-Utilisez cette option pour comptabiliser uniquement les visiteurs comme atteignant la mesure de succès s’ils ont déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut uniquement être valide si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion.
+Utilisez cette option pour compter les visiteurs comme ayant atteint la mesure de succès uniquement s’ils ont précédemment atteint une autre mesure de succès. Par exemple, une conversion test peut n’être valide que si le visiteur clique sur l’offre ou atteint une page particulière avant la conversion.
 
 Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.
 
 Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre.
 
-L’option [!UICONTROL Add Dependency] permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
+L’option [!UICONTROL Add Dependency] permet à la mesure de succès d’être incrémentée si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
 
 Pour ajouter une dépendance :
 
 1. Après avoir ajouté des mesures supplémentaires, cliquez sur **[!UICONTROL Advanced Settings]**.
-2. Cliquez sur **[!UICONTROL Add Dependency]** :
+2. Cliquez **[!UICONTROL Add Dependency]** :
 
    ![Lien Ajouter une dépendance](/help/main/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
-3. Faites glisser les mesures de votre choix depuis le volet de gauche vers le volet de droite, puis cliquez sur **[!UICONTROL Reached]** pour passer du paramètre [!UICONTROL Reached] à [!UICONTROL Not Reached].
+3. Faites glisser et déposez les mesures de votre choix depuis le volet de gauche vers le volet de droite, puis cliquez sur **[!UICONTROL Reached]** pour basculer le paramètre entre [!UICONTROL Reached] et [!UICONTROL Not Reached].
 
    ![Boîte de dialogue Ajouter une dépendance de mesures](/help/main/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
@@ -149,13 +149,13 @@ Vous pouvez modifier ou supprimer des dépendances après leur ajout.
 
 Trois options sont disponibles :
 
-* Sélectionnez [!UICONTROL Increment Count & Keep User in Activity] pour spécifier comment le nombre est incrémenté.
-* Sélectionnez [!UICONTROL Increment Count, Release User & Allow Reentry] pour spécifier l’expérience que l’utilisateur voit s’il entre à nouveau dans l’activité.
-* Sélectionnez [!UICONTROL Increment Count, Release User & Bar from Reentry] pour spécifier ce que l’utilisateur voit à la place du contenu de l’activité.
+* Sélectionnez [!UICONTROL Increment Count & Keep User in Activity] pour spécifier la manière dont le nombre est incrémenté.
+* Sélectionnez [!UICONTROL Increment Count, Release User & Allow Reentry] pour spécifier l’expérience que verra l’utilisateur s’il entre à nouveau dans l’activité.
+* Sélectionnez [!UICONTROL Increment Count, Release User & Bar from Reentry] pour spécifier ce que l’utilisateur voit au lieu du contenu de l’activité.
 
 Reportez-vous à [Mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) pour plus d’informations sur les paramètres avancés.
 
-## Vidéo de formation : Paramètres d’activité (3:02)
+## Vidéo de formation : Paramètres des activités (3:02)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 

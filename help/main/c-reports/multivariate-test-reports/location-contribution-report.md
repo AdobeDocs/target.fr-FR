@@ -1,13 +1,13 @@
 ---
 keywords: mvt, test multivarié, rapport contribution des emplacements
-description: Découvrez comment utiliser le rapport Contribution de l’emplacement pour les activités d’Adobe  [!DNL Target] [!UICONTROL Experience Targeting] qui montrent les performances de chaque élément et de chaque offre.
+description: Découvrez comment utiliser le rapport Contribution de l’emplacement pour les activités Adobe [!DNL Target] [!UICONTROL Experience Targeting] qui présentent les performances de chaque élément et de chaque offre.
 title: Comment utiliser le rapport [!UICONTROL Location Contribution] pour les activités [!UICONTROL Multivariate Test] ?
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -35,6 +35,6 @@ Le deuxième tableau fournit un rapport au niveau de l’offre. Il présente le 
 
 ## Vidéo de formation : Création d’un test multivarié
 
-Cette vidéo explique comment créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL Target]. Le rapport Contribution des emplacements est décrit dans la vidéo à partir de 08:45.
+Cette vidéo explique comment créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL Target]. Le rapport Contribution de l’emplacement est décrit à partir de la :45 8.
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

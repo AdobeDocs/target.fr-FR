@@ -109,7 +109,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 * [Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*.
 * [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*
 * [Attributs de mappage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr#map-attributes){target=_blank} dans le guide *Présentation des destinations* .
-* [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Vue d’ensemble des destinations*.
+* [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} dans le guide *Vue d’ensemble des destinations*.
 * [Personnalisation de la même page et de la page suivante via les destinations  [!DNL Adobe Target]  et Custom Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=fr#same-next-page-personalization){target=_blank} sous « Questions fréquentes » dans le guide *Vue d’ensemble des destinations*.
 
 ## Vidéos et articles de blog {#videos-blogs}
@@ -128,25 +128,25 @@ Pour plus d’informations, consultez [Personnalisation de l’accès suivant av
 
 Découvrez comment configurer la destination [!DNL Adobe Target] dans [!DNL Real-Time Customer Data Platform] pour commencer à envoyer des segments et des attributs de profil à partir de [!DNL Real-Time CDP] vers [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3449795/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
 
 ### Vidéo : activer les segments et les attributs de profil
 
 Découvrez comment activer les segments et les attributs de profil à partir de [!DNL Adobe Real-Time Customer Data Platform] vers [!DNL Adobe Target] pour afficher du contenu personnalisé en temps réel sur vos sites web, applications mobiles et autres propriétés numériques.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447357/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
 
 ### Vidéo : utiliser les segments [!DNL Real-Time CDP] dans [!DNL Target]
 
 Découvrez comment utiliser les segments [!DNL Real-Time Customer Data Platform] dans [!DNL Adobe Target] pour offrir des expériences personnalisées sur votre site web et vos applications mobiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446829/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
 
 ### Vidéo : utiliser les attributs de profil [!DNL Real-Time CDP] dans [!DNL Adobe Target]
 
 Découvrez comment utiliser les attributs de profil [!DNL Adobe Real-Time Customer Data Platform] dans [!DNL Adobe Target] pour offrir des expériences personnalisées sur votre site web et vos applications mobiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451895/?learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### Blog et vidéo [!DNL Adobe Target] : personnalisation améliorée de la même page
 

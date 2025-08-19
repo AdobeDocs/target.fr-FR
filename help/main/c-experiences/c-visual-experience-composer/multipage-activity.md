@@ -1,6 +1,6 @@
 ---
 keywords: multi-page, test du parcours, activité multi-page
-description: Découvrez comment créer une activité multipage dans Adobe [!DNL Target] vous permet de créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
+description: Découvrez comment créer une activité multipage dans Adobe  [!DNL Target]  permet de créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
 title: Comment créer une activité multipage ?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545

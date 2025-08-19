@@ -1,5 +1,5 @@
 ---
-keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer la sélection;naviguer vers ce lien;naviguer;lien;annuler;annuler;rétablir;événements personnalisés;composants web;décision d’offre;offer decisioning
+keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer l’élément;élargir la sélection;naviguer sur le lien;naviguer;lien;annuler;lien;annuler;rétablir;annuler;annuler;annuler;annuler;annuler les événements personnalisés;événements personnalisés;événements personnalisés;composants web
 description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
 title: Comment utiliser les options du [!UICONTROL Visual Experience Composer] (VEC) ?
 feature: Visual Experience Composer (VEC)
@@ -7,13 +7,13 @@ exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
 # Options du compositeur d’expérience visuelle
 
-Lorsque vous cliquez sur un élément de page dans le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
+Lorsque vous cliquez sur un élément de page dans le [!DNL Adobe Target] d’[!UICONTROL Visual Experience Composer] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
 
 Les différentes actions [!UICONTROL Visual Experience Composer] (VEC) sont regroupées dans des options de menu appropriées pour rendre votre tâche plus rapide et plus efficace :
 
@@ -33,7 +33,7 @@ Permet de modifier le code HTML de l’élément (texte d’une zone de texte, b
 
 En plus du code HTML, vous pouvez modifier et insérer du code JavaScript personnalisé.
 
-Plusieurs options de mise en forme de texte enrichi sont disponibles lors de la modification de texte et de l’HTML pour les activités de [!UICONTROL A/B] et de [!UICONTROL Experience Targeting]. Vous pouvez choisir une police, sélectionner un style de police, modifier l’alignement du texte et accéder à d’autres options de mise en forme de texte standard. Lors de la modification de code HTML, vous pouvez basculer entre l’affichage du code et l’affichage de texte enrichi du code HTML.
+Plusieurs options de formatage de texte enrichi sont disponibles lors de la modification de texte et dans HTML pour les activités de [!UICONTROL A/B] et de [!UICONTROL Experience Targeting]. Vous pouvez choisir une police, sélectionner un style de police, modifier l’alignement du texte et accéder à d’autres options de mise en forme de texte standard. Lors de la modification de code HTML, vous pouvez basculer entre l’affichage du code et l’affichage de texte enrichi du code HTML.
 
 Les balises HTML 5 suivantes peuvent être imbriquées :
 
@@ -88,7 +88,7 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Modification de la typographie d’un élément. Les modifications apportées à la typographie sont rapides et faciles à réaliser.
 
-  Bien que l’éditeur de texte enrichi (Modifier le texte/l’HTML) soit disponible pour les réglages précis, les actions rapides permettant de modifier l’élément entier sont disponibles via cette option. Si vous souhaitez appliquer des modifications de typographie à une partie seulement du texte (et non au texte intégral), utilisez l’éditeur [de texte enrichi](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+  Bien que l’éditeur de texte enrichi (Modifier le texte/HTML) soit disponible pour les réglages précis, des actions rapides permettant de modifier l’ensemble de l’élément sont disponibles via cette option. Si vous souhaitez appliquer des modifications de typographie à une partie seulement du texte (et non au texte intégral), utilisez l’éditeur [de texte enrichi](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
   Vous pouvez modifier les styles de typographie suivants :
 
@@ -178,7 +178,7 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -227,7 +227,7 @@ Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/ma
 
 Ajoutez n’importe quel élément à votre page en plus de la modification du contenu existant. Ajoutez du texte, du code, des listes et plus afin de créer des expériences entièrement différentes à tester.
 
-Sélectionnez un élément sur la page, puis cliquez sur [!UICONTROL Insert Before] et choisissez d’insérer une image, un HTML ou du texte. L’élément inséré s’affiche avant l’élément sélectionné.
+Sélectionnez un élément sur la page, puis cliquez sur [!UICONTROL Insert Before] et choisissez d’insérer une image, une HTML ou un texte. L’élément inséré s’affiche avant l’élément sélectionné.
 
 Le comportement de l’élément inséré dépend de la structure de votre page, de votre CSS et d’autres options de configuration de page. Un code HTML valide est requis pour faire apparaître votre page correctement. Testez toujours votre page après l’insertion d’un élément afin de vous assurer qu’il apparaît comme prévu.
 
@@ -249,7 +249,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -259,7 +259,7 @@ Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/ma
 
 Ajoutez n’importe quel élément à votre page en plus de la modification du contenu existant. Ajoutez du texte, du code, des listes et plus afin de créer des expériences entièrement différentes à tester.
 
-Sélectionnez un élément sur la page, puis cliquez sur [!UICONTROL Insert After] et choisissez d’insérer une image, un HTML ou du texte. L’élément inséré s’affiche après l’élément sélectionné.
+Sélectionnez un élément sur la page, puis cliquez sur [!UICONTROL Insert After] et choisissez d’insérer une image, une HTML ou un texte. L’élément inséré s’affiche après l’élément sélectionné.
 
 Le comportement de l’élément inséré dépend de la structure de votre page, de votre CSS et d’autres options de configuration de page. Un code HTML valide est requis pour faire apparaître votre page correctement. Testez toujours votre page après l’insertion d’un élément afin de vous assurer qu’il apparaît comme prévu.
 
@@ -281,7 +281,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Offer Decision]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de l’offer decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -311,7 +311,7 @@ Sélectionnez une autre offre dans la [!UICONTROL Content Library].
 
 **Remarque :** Les offres HTML sont stockées sur les serveurs [!DNL Target].
 
-Une offre d’HTML peut aller jusqu’à 256 Ko.
+Une offre HTML peut atteindre 256 Ko.
 
 ### Recommandation
 
@@ -371,7 +371,7 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 ## Considérations {#considerations}
 
-* Si une offre contient du contenu HTML, voir « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank} pour plus d’informations.
+* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} pour obtenir des informations supplémentaires.
 
 ## Prise en charge des éléments personnalisés {#custom}
 

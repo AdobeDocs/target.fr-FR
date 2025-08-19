@@ -1,14 +1,14 @@
 ---
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
-description: Adobe Découvrez comment différents segments définis par les modèles  [!DNL Target]  personnalisation répondent aux offres/expériences dans l’activité en affichant le rapport Segments automatisés .
+description: Découvrez comment différents segments définis par les modèles  [!DNL Target]  personnalisation d’Adobe répondent aux offres/expériences dans l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -96,13 +96,13 @@ Plusieurs raisons expliquent pourquoi les rapports [!UICONTROL Personalization I
 
 * 15 jours ne se sont pas écoulés depuis l’activation de l’activité. Les rapports Segments automatisés et Attributs importants ne seront disponibles qu’au moins 15 jours après que vous ayez commencé votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants.
 * Votre activité n’a pas présenté assez de trafic au cours de la période spécifiée. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité pour construire les modèles de personnalisation, les rapports Segments automatisés et Attributs importants seront disponibles.
-* Votre activité a un objectif d’optimisation des revenus. Actuellement, [!UICONTROL Personalization Insights] n’est disponible que pour les activités d’objectif d’optimisation de conversion. L’Adobe ajoutera la prise en charge des activités d’objectif d’optimisation du chiffre d’affaires dans une version ultérieure.
+* Votre activité a un objectif d’optimisation des revenus. Actuellement, [!UICONTROL Personalization Insights] n’est disponible que pour les activités d’objectif d’optimisation de conversion. Adobe ajoutera la prise en charge des activités d’objectif d’optimisation du chiffre d’affaires dans une version ultérieure.
 
 **Qu’est-ce qu’un attribut ?**
 
 Un attribut consiste en des informations sur un visiteur ou sa visite spécifique utilisées par les algorithmes de personnalisation pour savoir comment personnaliser le trafic. Par exemple, un attribut peut être le type de navigateur, l’emplacement, l’heure de la journée de la visite, etc.
 
-Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur le téléchargement de nouveaux attributs dans Target afin de les utiliser dans les modèles de personnalisation de Target, consultez la section [Méthodes pour importer des données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}.
+Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}.
 
 **Qu’est-ce qu’un segment automatisé ?**
 
@@ -138,7 +138,7 @@ La création de rapports Personalization Insights ([!UICONTROL Automated Segment
 
 **Comment les [!UICONTROL Personalization Insights] sont-elles créées ?**
 
-[!UICONTROL Personalization Insights] est réalisé à l&#39;aide d&#39;une technique Adobe en instance de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l&#39;article publié par l&#39;équipe de recherche sur l&#39;Adobe sur le site Web [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Personalization Insights] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le site web [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Pourquoi les données de trafic total des visiteurs dans le rapport [!UICONTROL Automated Segments] ne correspondent-elles pas à mon rapport de synthèse/performances AP ou AT ?**
 
@@ -150,7 +150,7 @@ Non, il existe un chevauchement entre les segments automatisés.
 
 **Est-[!UICONTROL Personalization Insights] disponible pour les objectifs de modélisation basés sur le chiffre d’affaires/objectif principal ?**
 
-Actuellement, [!UICONTROL Personalization Insights] n’est disponible que pour les activités d’objectif d’optimisation de la conversion. L’Adobe ajoutera la prise en charge des activités d’objectif d’optimisation du chiffre d’affaires dans une version ultérieure.
+Actuellement, [!UICONTROL Personalization Insights] n’est disponible que pour les activités d’objectif d’optimisation de la conversion. Adobe ajoutera la prise en charge des activités d’objectif d’optimisation du chiffre d’affaires dans une version ultérieure.
 
 **Quelles sont les différentes méthodes pour exploiter les informations du rapport Informations sur la personnalisation ?**
 

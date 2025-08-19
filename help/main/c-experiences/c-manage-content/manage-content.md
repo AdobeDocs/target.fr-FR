@@ -47,7 +47,7 @@ L&#39;icône **[!UICONTROL Show filters]** permet de filtrer les offres selon le
 
 * **[!UICONTROL Source]** : [!DNL Adobe Target], [!DNL Adobe Target Classic] et [!DNL Adobe Experience Manager].
 
-* **Type AEM** : [fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) et [fragments d’expérience](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Pour plus d’informations sur les différents types de fragments, consultez la présentation sur les fragments d’expérience et les fragments de contenu [AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+* **Type AEM** : [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) et [Fragments d’expérience](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Pour plus d’informations sur les différents types de fragments, consultez la présentation sur les fragments d’expérience et les fragments de contenu d’AEM [](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 Les filtres sont persistants au niveau de la session.
 

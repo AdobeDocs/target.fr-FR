@@ -1,6 +1,6 @@
 ---
 keywords: offre à distance;matrice de sélection d’offres à distance;contenu mis en cache;contenu dynamique;type d’url
-description: Découvrez comment utiliser des offres distantes en Adobe  [!DNL Target]  héberger du contenu externe (contenu dans un CMS ou autre système). Découvrez pourquoi utiliser des offres à distance.
+description: Découvrez comment utiliser les offres distantes dans Adobe  [!DNL Target]  héberger du contenu externe (contenu dans un CMS ou autre système). Découvrez pourquoi utiliser des offres à distance.
 title: Comment Créer Des Offres À Distance ?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
@@ -17,7 +17,7 @@ Utilisez les offres distantes pour héberger hors de [!DNL Adobe Target] du cont
 
 >[!NOTE]
 >
->Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
+>Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
 >
 >[!DNL Target Classic] a inclus des fonctionnalités similaires : [!UICONTROL Offer on Your Site] et [!UICONTROL Offer Outside Test&Target].
 
@@ -102,7 +102,7 @@ Le contenu d’une offre distante mise en cache est diffusé à partir de [!DNL 
 
 Toutes les deux heures, [!DNL Target] récupère le contenu dans l’URL distante, puis le stocke dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre à distance, l’offre est diffusée par [!DNL Target].
 
-Les offres distantes mises en cache offrent une sécurité renforcée, car une personne connectée à [!DNL Target] ne peut pas modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.
+Les offres distantes mises en cache offrent une sécurité renforcée, car une personne connectée à [!DNL Target] ne peut pas modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter à la gestion de contenu ou à un autre système pour le modifier dans celui-ci.
 
 Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache.
 
@@ -118,7 +118,7 @@ Vous pouvez cliquer sur **[!UICONTROL Add Parameter]** pour ajouter une ou plusi
 
 Vous devez appliquer des offres distantes à l’aide de l’[!UICONTROL Form-Based Experience Composer] . Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du compositeur d’expérience visuelle.
 
-Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
+Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Form-Based Experience Composer].
 

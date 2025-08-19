@@ -1,8 +1,8 @@
 ---
 keywords: recommendations;activité recommendations;critères;algorithme;clé de recommandation;clé personnalisée;secteur vertical;vente au détail;commerce électronique;génération de pistes;b2b;services financiers;médias;publication
 description: Découvrez comment utiliser les critères dans Adobe [!DNL Target] [!DNL Recommendations].
-title: Comment utiliser les critères dans [!DNL Target] Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+title: Comment utiliser les critères dans Recommendations  [!DNL Target]  ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -88,4 +88,4 @@ Cliquez sur l’onglet **[!UICONTROL Algorithm Usage]** pour afficher la liste d
 
 >[!NOTE]
 >
->La fonction [!UICONTROL Algorithm Usage] est actuellement prise en charge uniquement pour les activités Recommendations. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B, d’affectation automatique, de ciblage automatique et de ciblage d’expérience (XT) qui incluent des [recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
+>La fonctionnalité [!UICONTROL Algorithm Usage] est actuellement prise en charge uniquement pour les activités Recommendations. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B, d’affectation automatique, de ciblage automatique et de ciblage d’expérience (XT) qui incluent des [recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).

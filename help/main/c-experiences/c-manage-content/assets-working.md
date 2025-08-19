@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # Utilisation du contenu de la bibliothèque [!UICONTROL Asset]
 
-Découvrez les tâches que vous pouvez effectuer sur les ressources dans le [!UICONTROL Content Library] [!UICONTROL Adobe Target]. Les tâches incluent l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
+Découvrez les tâches que vous pouvez effectuer sur les ressources dans le [!UICONTROL Adobe Target] [!UICONTROL Content Library]. Les tâches incluent l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
 
 ## Accès à la bibliothèque des offres
 
@@ -34,7 +34,7 @@ Lors de l’affichage de la page de [!UICONTROL Code Offers], vous pouvez effect
 * **[!UICONTROL Copy]** : cliquez sur l&#39;icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copy]** pour copier l&#39;offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
 * **[!UICONTROL Delete]** : cliquez sur l&#39;icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]** pour supprimer l&#39;offre ou le dossier.
 
-  Pour plus d’informations[&#128279;](#delete) voir  Considérations relatives à la suppression d’éléments .
+  Pour plus d’informations[ voir ](#delete) Considérations relatives à la suppression d’éléments .
 
 * **[!UICONTROL Move]** : cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Move]**, accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur **[!UICONTROL Move]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
 
@@ -58,7 +58,7 @@ Lors de l’affichage de la page [!UICONTROL Image Offers], vous pouvez effectue
    * [!UICONTROL Annotate] : ajoutez une note à la ressource. Cliquez sur la ressource, sélectionnez la zone à annoter, puis entrez votre note.
    * [!UICONTROL Copy] : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
    * [!UICONTROL Move] : cliquez sur l’icône [!UICONTROL Move], accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur **[!UICONTROL Move]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
-   * [!UICONTROL Delete] : supprimez l’offre. Pour plus d’informations[&#128279;](#delete) consultez la section  Remarques concernant la suppression d’éléments ci-dessous.
+   * [!UICONTROL Delete] : supprimez l’offre. Pour plus d’informations[ consultez la section ](#delete) Remarques concernant la suppression d’éléments ci-dessous.
 
 ## Remarques concernant la suppression d’éléments {#delete}
 

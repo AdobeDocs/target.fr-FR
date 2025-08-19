@@ -7,13 +7,13 @@ exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
 workflow-type: tm+mt
 source-wordcount: '2435'
-ht-degree: 37%
+ht-degree: 50%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] des bonnes pratiques et des limites
 
-Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
+Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
 
 ## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -21,14 +21,14 @@ Voici les bonnes pratiques à appliquer lors de l’utilisation du compositeur d
 
 ### Placez la référence at.js en haut de la section `<head>` de votre page.
 
-+++Voir les détails
++++Afficher les détails
 Si vous utilisez également le [!UICONTROL Visitor API Service] , placez le script de l’API visiteur au-dessus d’at.js.
 
 +++
 
 ### Vous pouvez activer le [!UICONTROL Enhanced Experience Composer] au niveau du compte (activé pour toutes les activités créées dans le compte) ou au niveau de chaque activité.
 
-+++Voir les détails
++++Afficher les détails
 Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau du compte, cliquez sur [!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]], puis activez le bouton d’activation de la [!UICONTROL Enable Enhanced Experience Composer].
 
 Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau de l’activité lors de la création d’une activité dans le [!UICONTROL Visual Experience Composer], cliquez sur [!UICONTROL Configure > [!UICONTROL Page Delivery]], puis activez le bouton [!UICONTROL Enable Enhanced Experience Composer] sur Activé.
@@ -37,7 +37,7 @@ Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau de l’activ
 
 ### Vous pouvez placer sur la liste autorisée certaines adresses IP si le [!UICONTROL Enhanced Experience Composer] ne se charge pas sur des pages sécurisées de votre site.
 
-+++Voir les détails
++++Afficher les détails
 Placer sur la liste autorisée Les problèmes de chargement de l’[!UICONTROL Enhanced Experience Composer] peuvent être résolus en GRANT les adresses IP suivantes. Ces adresses IP sont destinées aux serveurs [!DNL Adobe] utilisés pour le proxy [!UICONTROL Enhanced Experience Composer]. Elles ne sont requises que pour la modification des activités. Placer sur la liste autorisée Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
 
 Pour plus d’informations, voir [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) dans *Résolution des problèmes liés au Enhanced Experience Composer*.
@@ -47,7 +47,7 @@ Pour plus d’informations, voir [L’EEC ne charge pas d’URL d’assurance qu
 ### Utiliser des identifiants uniques pour les éléments de niveau supérieur et pour tout autre élément qui serait un bon candidat pour le test/ciblage.
 
 +++Détails
-Tout ce qui se trouve immédiatement à l’intérieur de l’élément de corps doit avoir un identifiant unique. Si de nouveaux éléments sont injectés dans le corps et que le code se déplace, au moins les éléments parents sont dotés d’un moyen plus facile pour les reconnaître.
+Tout élément se trouvant immédiatement dans l’élément de corps doit avoir un ID unique. Si de nouveaux éléments sont injectés dans le corps et que le code se déplace, au moins les éléments parents sont dotés d’un moyen plus facile pour les reconnaître.
 
 [!DNL Target] ne nécessite pas d’identifiants, mais leur utilisation accroît la fiabilité des expériences créées avec le compositeur d’expérience. [!DNL Target] utilise des sélecteurs CSS pour modifier le contenu lors de la diffusion de l’expérience. Lorsque vous modifiez une expérience, le [!UICONTROL Visual Experience Composer] ancre le sélecteur à l’ancêtre le plus proche avec un attribut d’ID non nul sur l’élément HTML en cours de modification. En conséquence, il n’est pas conseillé d’utiliser un mécanisme, notamment les bibliothèques JavaScript, qui définit ou modifie les attributs d’identifiant HTML. Bien que ces identifiants puissent être disponibles pour le compositeur d’expérience [!DNL Target] pour la création d’activités, si JavaScript modifie les identifiants, l’identifiant utilisé lors de la création de l’expérience peut ne pas être disponible lors de l’exécution de l’expérience. Si un identifiant n’est pas disponible, le sélecteur ancré à l’identifiant échoue.
 
@@ -74,7 +74,7 @@ Si la propriété CSS `!important` est présente, les modifications apportées p
 ### Réduisez l’utilisation des iFrames.
 
 +++Détails
-Il est recommandé de minimiser l’utilisation des iFrames afin de simplifier la gestion des pages et des tests. Le compositeur d’expérience visuelle peut appliquer certaines actions dans un iFrame, mais certaines actions, telles que le redimensionnement, ne fonctionnent pas correctement. Il est difficile de gérer et de redimensionner des pages qui utilisent plusieurs iFrames. De ce fait, le test de pages lourdes en iFrame peut générer des problèmes.
+Il est de bonne pratique de minimiser l’utilisation des iFrames afin de simplifier la gestion des pages et des tests. Le compositeur d’expérience visuelle peut appliquer certaines actions dans un iFrame, mais certaines actions, telles que le redimensionnement, ne fonctionnent pas correctement. Il est difficile de gérer et de redimensionner des pages qui utilisent plusieurs iFrames. De ce fait, le test de pages lourdes en iFrame peut générer des problèmes.
 
 +++
 
@@ -113,7 +113,7 @@ Le compositeur d’expérience visuelle manipule le site web en arrière-plan, �
 ### L’utilisation de l’option Modifier HTML pour manipuler la structure DOM peut rompre les sélecteurs.
 
 +++Détails
-Par exemple, si vous avez effectué deux actions :
+Par exemple, si vous avez entrepris deux actions :
 
 * Ajout d’une classe à l’élément 1
 * Modification du code HTML pour l’élément 1
@@ -139,14 +139,14 @@ Les balises `<strong>` et `<em>` pourraient engendrer des résultats inattendus.
 ### Soyez attentif lors de la suppression des champs de formulaire.
 
 +++Détails
-Certains champs de formulaire peuvent être obligatoires pour l’envoi. La suppression de ces champs de formulaire peut avoir un impact sur les soumissions.
+Certains champs de formulaire peuvent être obligatoires pour la soumission. La suppression de ces champs de formulaire peut avoir un impact sur les soumissions.
 
 +++
 
 ### N’incluez pas de `mboxCreate` dans les scripts.
 
 +++Détails
-Étant donné que `mboxCreate` utilise `document.write`, il n’est pas recommandé d’inclure `mboxCreate` dans les scripts. À la place, utilisez `mboxDefine` et `mboxUpdate` dans le même objectif.
+Du fait que `mboxCreate` utilise `document.write`, il n’est pas recommandé d’inclure `mboxCreate` dans les scripts. À la place, utilisez `mboxDefine` et `mboxUpdate` dans le même objectif.
 
 +++
 
@@ -177,7 +177,7 @@ Lorsque vous utilisez le [!UICONTROL Enhanced Experience Composer], le site web 
 ### Le texte important du site qui est susceptible d’être utilisé pour le ciblage doit être conservé en code HTML à l’intérieur d’un élément.
 
 +++Détails
-Par exemple, vous ne pouvez pas cibler le texte Panier dans le compositeur d’expérience visuelle si votre code se présente comme suit :
+Par exemple, vous ne pouvez pas cibler le texte Panier dans le compositeur d’expérience visuelle si le code est le suivant :
 
 ```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
@@ -244,14 +244,14 @@ Tenez compte des avertissements suivants lors de l’utilisation de l’[!UICONT
 ### La fonction [!UICONTROL Move] ne prend pas en charge z-index.
 
 +++Détails
-Comme il n’existe aucune fonctionnalité z-index, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+En raison de l’absence de fonctionnalité d’index z, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 
 ### La réorganisation des éléments affecte le suivi des clics.
 
 +++Détails
-Si un élément marqué pour le suivi des clics est réorganisé, les chemins des éléments réorganisés sont modifiés. De ce fait, l’élément à l’emplacement où l’élément d’origine se trouvait avant la réorganisation est celui dont les clics sont suivis.
+Si un élément marqué pour le suivi des clics est réorganisé, les chemins d’accès des éléments réorganisés sont modifiés. De ce fait, l’élément à l’emplacement où l’élément d’origine se trouvait avant la réorganisation est celui dont les clics sont suivis.
 
 Cela se produit car le code de diffusion du contenu d’activité ainsi que le code de suivi des clics sont inclus dans un fragment de code qui est diffusé sur la page. Si vous naviguez sur une page différente et configurez le suivi des clics, le code du contenu d’activité et le code de suivi des clics sont diffusés sur cette page. Si la page de suivi des clics comporte une structure de page similaire dans laquelle le test est exécuté, alors le contenu du test peut également apparaître sur la page de suivi des clics.
 
@@ -267,14 +267,14 @@ Si une mbox contient une offre, l’insertion d’un élément peut apparaître 
 ### Lors de la modification simultanée d’un élément parent et d’un élément enfant, modifiez d’abord le parent.
 
 +++Détails
-Si vous permutez une action d’image sur un élément, puis modifiez le texte ou HTML sur son élément parent, des problèmes de diffusion peuvent se produire. Le meilleur processus consiste à modifier l’élément parent avant de permuter l’image sur l’élément enfant.
+Si vous permutez une action d’image sur un élément puis modifiez le texte ou le code HTML sur son élément parent, des problèmes de diffusion peuvent survenir. Le meilleur processus consiste à modifier l’élément parent avant de permuter l’image sur l’élément enfant.
 
 +++
 
 ### Impossible de sélectionner un élément de page qui inclut une mbox en tant qu’élément enfant.
 
 +++Détails
-Par exemple, si votre page contient :
+Par exemple, si votre page comporte :
 
 ```html
 <div> 
@@ -325,7 +325,7 @@ if(!window.adobeVecExtension) {
 ### Vous ne pouvez pas déplacer un élément en dehors d’un conteneur suivi d’une propriété CSS.
 
 +++Détails
-Un élément ne peut pas être déplacé en dehors d’un conteneur suivi d’une propriété CSS.
+Un élément ne peut pas être déplacé en dehors d’un conteneur qui est suivi par une propriété CSS.
 
 +++
 
@@ -346,7 +346,7 @@ Les actions telles que [!UICONTROL Edit Class] et [!UICONTROL Rearrange] ne sont
 ### Vous ne devez pas réorganiser et déplacer le même élément.
 
 +++Détails
-Si un élément a été déplacé vers un autre emplacement et que vous sélectionnez le conteneur parent et essayez de réorganiser les éléments enfants, l’élément déplacé n’est pas affecté et reste à son emplacement actuel. La réorganisation peut ne pas apparaître comme vous le souhaitez.
+Si un élément a été déplacé vers un autre emplacement et que vous sélectionnez le conteneur parent et tentez de réorganiser les éléments enfants, l’élément déplacé n’est pas affecté et reste où il se trouve. La réorganisation peut ne pas apparaître comme vous le souhaitez.
 
 +++
 
@@ -362,35 +362,35 @@ La solution consiste à sélectionner le conteneur parent et à utiliser l’act
 ### Les images ne peuvent pas être redimensionnées dans une mbox.
 
 +++Détails
-Si vous permutez une image dans un élément mbox, puis essayez de redimensionner cette image en fonction de la taille de l’élément mbox, le redimensionnement n’est pas autorisé.
+Si vous permutez une image dans un élément de mbox, puis tentez de redimensionner cette image selon la taille de l’élément de mbox, le redimensionnement n’est pas autorisé.
 
 +++
 
 ### Après avoir permuté une image, vous ne pouvez pas sélectionner l’action [!UICONTROL Edit].
 
 +++Détails
-Après avoir permuté l’image, vous ne pouvez plus modifier l’URL de Scene7.
+Une fois que vous avez permuté l’image, vous ne pouvez pas modifier l’URL de Scene7.
 
 +++
 
 ### Les éléments HTML avec une source externe ne peuvent pas être modifiés.
 
 +++Détails
-Par exemple : balises vidéo, audio, incorporer, iFrames, images.
+Par exemple : vidéo, balises audio, élément incorporé, iFrames, images.
 
 +++
 
 ### Le suivi des clics ne fonctionne pas pour les éléments d’ancre qui contiennent des éléments autres que du texte brut ou des balises d’image.
 
 +++Détails
-Par exemple, le suivi des clics ne fonctionne pas si l’élément contient JavaScript.
+Par exemple, le suivi des clics ne fonctionne pas si l’élément contient du code JavaScript.
 
 +++
 
 ### Les pages doivent accepter les paramètres d’URL pour que le compositeur d’expérience visuelle fonctionne.
 
 +++Détails
-Certains sites suppriment tous les paramètres d’URL de leurs pages. Toutefois, le compositeur d’expérience visuelle requiert ces paramètres.
+Certains sites retirent les paramètres d’URL de leurs pages. Toutefois, le compositeur d’expérience visuelle requiert ces paramètres.
 
 +++
 
@@ -426,7 +426,7 @@ Le script est exécuté dans la portée de `target.js` après le chargement de l
 ### L’insertion d’une image à partir de la bibliothèque [!UICONTROL Content] (Scene7) et la modification de l’HTML rompent l’URL de l’image.
 
 +++Détails
-Ajoutez un élément d’ancrage dans la balise div « customHeaderMessage » avec un texte factice :
+Ajoutez un élément d’ancre à l’intérieur de l’élément div « customHeaderMessage » avec du texte de remplissage :
 
 ```html
 <a href="#"> 

@@ -1,6 +1,6 @@
 ---
 keywords: modèle d’expérience;code personnalisé;bannière;cadre lumineux;carrousel;décompte;ruban;boutons
-description: Découvrez comment utiliser les modèles d’expérience, qui sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialistes du marketing courants dans Adobe Target.
+description: Découvrez comment utiliser les modèles d’expérience, qui sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation courants de spécialistes marketing dans Adobe Target.
 title: Quels modèles d’expérience sont disponibles dans Target ?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 # Modèles d’expérience
 
-Informations sur les [!DNL Adobe Target] modèles d’expérience à utiliser dans le code personnalisé. [!DNL Target] Les modèles d’expérience sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation courants du spécialiste du marketing.
+Informations sur les modèles d’expérience [!DNL Adobe Target] à utiliser dans le code personnalisé. Les modèles d’expérience [!DNL Target] sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation marketing courants.
 
 Ces modèles d’expérience sont fournis gratuitement aux développeurs et aux spécialistes du marketing comme point de départ pour exécuter certains cas d’utilisation courants, via le VEC ou le compositeur d’expérience d’après les formulaires.
 
@@ -23,13 +23,13 @@ Les modèles ci-dessous sont actuellement disponibles sur la page GitHub Adobe 
 
 Le [modèle d’expérience de bannière de carrousel avec miniatures](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les images miniatures sous l’image principale.
 
-![image exp-template-banner-carousel-thumbnails](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## Bannière de carrousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 Le [modèle d’expérience de bannière de carrousel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les flèches droite et gauche.
 
-![ &lbrace;exp-template-banner-carousel image](assets/exp-template-banner-carousel.png)
+![exp-template-banner-carrousel image](assets/exp-template-banner-carousel.png)
 
 ## Bannière avec compte à rebours {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
@@ -47,7 +47,7 @@ Le [modèle d’expérience Créateur de boutons](https://github.com/Adobe-Marke
 
 Le [modèle d’expérience de cadre lumineux avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) est une fenêtre contextuelle sous forme de cadre lumineux, qui recouvre la bannière, avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
-![&lbrace;exp-template-lightbox-countdown image](assets/exp-template-lightbox-countdown.png)
+![image exp-template-lightbox-countdown](assets/exp-template-lightbox-countdown.png)
 
 ## Cadre lumineux avec intention de quitter {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
@@ -57,7 +57,7 @@ Le [modèle d’expérience de cadre lumineux avec intention de quitter](https:/
 
 ## Cadre lumineux {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-Le [ modèle d’expérience Lightbox ](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) est une fenêtre contextuelle sous forme de cadre lumineux, avec un délai intégré, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
+Le [modèle d’expérience Lightbox](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) est une fenêtre contextuelle de recouvrement Lightbox avec un délai intégré, généralement utilisée sur les pages d’accueil et les pages de destination ou d’autres pages d’entrée à volume élevé.
 
 ![exp-template-lightbox image](assets/exp-template-lightbox.png)
 

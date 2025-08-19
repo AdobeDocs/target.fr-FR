@@ -7,13 +7,13 @@ exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 27%
+ht-degree: 32%
 
 ---
 
-# Résolution des problèmes liés à l’[!UICONTROL Visual Experience Composer] et à l’[!UICONTROL Enhanced Experience Composer] [!DNL Adobe Target]
+# Résolution des problèmes liés à l’[!DNL Adobe Target] et à l’[!UICONTROL Visual Experience Composer] [!UICONTROL Enhanced Experience Composer]
 
-Des problèmes d&#39;affichage et d&#39;autres problèmes surviennent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE) sous certaines conditions.
+Des problèmes d&#39;affichage et d&#39;autres problèmes surviennent parfois dans le [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE) sous certaines conditions.
 
 ## Comment les politiques dʼapplication des cookies SameSite de Google Chrome influencent-elles le VEC et l’EEC ? {#samesite}
 
@@ -114,7 +114,7 @@ Par défaut, le compositeur d’expérience visuelle bloque les éléments JavaS
 ## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Détails
-Si le même ID d’élément DOM est utilisé sur plusieurs éléments de la page, la modification de l’un de ces éléments modifie tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la page, la modification d’un de ces éléments entraîne celle de tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
@@ -132,7 +132,7 @@ Ce problème peut être résolu en autorisant la [!UICONTROL Enhanced Experience
 ## Je souhaite configurer des tests sur des pages dont l’implémentation de la mbox/[!DNL Target] n’est pas encore terminée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Détails
-Voir « Je ne peux pas modifier les expériences d’un site qui éclate des iFrames » ci-dessus.
+Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames » ci-dessus.
 
 +++
 
@@ -155,6 +155,6 @@ Si vous rencontrez ce problème :
 ## La permutation d’image apparaît rompue dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé pour les activités d’Automated Personalization. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Détails
-L’ajout d’une offre d’image à un emplacement prend toute la dimension de l’espace d’image d’origine dans le VEC ou l’EEC. Lors de la diffusion, l’image n’est pas développée et est affichée en l’état, ce qui n’a aucun impact sur la diffusion.
+L’ajout d’une offre d’image à un emplacement occupe l’ensemble de l’espace de l’image d’origine dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé. Lors de la diffusion, l’image n’est pas développée et est affichée en l’état, ce qui n’a aucun impact sur la diffusion.
 
 +++

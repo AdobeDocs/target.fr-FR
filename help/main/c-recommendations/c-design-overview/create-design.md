@@ -2,7 +2,7 @@
 keywords: conception de recommandations, créer une conception, copier une conception
 description: Découvrez comment créer une conception à l [!DNL Target Recommendations] aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -48,7 +48,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    La boîte de dialogue [!UICONTROL Create Design] s’affiche.
 
-1. Saisissez un **[!UICONTROL &#x200B; Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
+1. Saisissez un **[!UICONTROL  Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
 
    Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » s’affichent dans le champ **[!UICONTROL Content Name]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
 
@@ -56,7 +56,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions d’HTML sont enveloppées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTMLS sont destinées aux environnements non web pour lesquels le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions autres qu’HTML sont destinées aux environnements non web où le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Sachez que les conceptions sont disponibles sur l’ensemble du compte. Veillez 
 
 L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’[éditeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
-1. Créez une conception à partir du [!UICONTROL Design library] ou dans le workflow basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Visual Experience Composer] (VEC), vous ne pouvez rien créer d’autre qu’une conception d’HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
+1. Créez une conception à partir du [!UICONTROL Design library] ou dans le workflow basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Visual Experience Composer] (VEC), vous ne pouvez rien créer d’autre qu’une conception HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
 
 1. Assurez-vous que l’option « Conception HTML » est désactivée :
 
@@ -157,7 +157,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
    | Paramètre | Valeur |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur /help/target/products.html#recsSettings > Jeton API Recommendations > Code client). |
-   | `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section « Emplacements » du Recommendations basé sur les formulaires, dans ce cas Sample_Recs_Response. |
+   | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des Recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
    | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
    | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
 
@@ -313,11 +313,11 @@ Vous avez aussi la possibilité d’envoyer des informations supplémentaires da
     }  
 ```
 
-## Vidéo de formation : création de conceptions personnalisées dans Recommendations (3:20) ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : créer des conceptions personnalisées dans Recommendations (3:20) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
 * Créer une conception personnalisée
 * comprendre comment référencer des variables d’affichage dans vos conceptions ;
 
->[!VIDEO](https://video.tv.adobe.com/v/34832?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

@@ -98,7 +98,7 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 
    ![Le domaine contient](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Vidéo de formation : Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
@@ -107,4 +107,4 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

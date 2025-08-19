@@ -14,7 +14,7 @@ ht-degree: 49%
 
 # Configuration du [!UICONTROL Visual Experience Composer]
 
-Configurez le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC) en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+Configurez le [!DNL Adobe Target] d’[!UICONTROL Visual Experience Composer] (VEC) en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
 
 Pour accéder à la page de configuration des [!UICONTROL Visual Experience Composer], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 

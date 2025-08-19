@@ -2,7 +2,7 @@
 keywords: Recommendations;offre
 description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
 title: Comment utiliser Recommendations en tant qu’offre dans d’autres types d’activités ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -111,7 +111,7 @@ Il existe deux façons de supprimer une offre de recommandations :
 
 ### Affichage du statut de l’offre de recommandations {#status}
 
-L’état (algorithme) de l’offre de recommandations s’affiche au bas de la page [!UICONTROL Overview] pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres Recommendations :
+L’état (algorithme) de l’offre de recommandations s’affiche au bas de la page [!UICONTROL Overview] pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres de recommandations :
 
 * Résultats prêts
 * Résultats non prêts

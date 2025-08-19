@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;statut;critères;algorithme
-description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations pour vous assurer que les résultats sont disponibles avant le lancement de l’activité.
+description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
@@ -13,15 +13,15 @@ ht-degree: 15%
 
 # Prévisualisation et lancement de votre activité Recommendations
 
-Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contenant [offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous devez prévisualiser vos recommandations pour vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.
+Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contenant des [offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualiser vos recommandations pour vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.
 
-## Vérification du statut de l’algorithme Recommendations
+## Vérification du statut de l’algorithme de recommandations
 
 Après avoir créé une activité, [!DNL Recommendations] exécute un algorithme pour générer des recommandations. L’exécution de cet algorithme peut prendre quelques heures.
 
-Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!UICONTROL Overview] d&#39;une activité [!DNL Recommendations] :
+Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!DNL Recommendations] d&#39;une activité [!UICONTROL Overview] :
 
-Page Aperçu de l’activité ![Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
+![Page Aperçu de l’activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 Les résultats du statut sont les suivants, comme illustré ci-dessous :
 
@@ -53,7 +53,7 @@ Lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données 
 >
 >[!UICONTROL Recently Viewed Items] ne nécessite pas d’exécution d’algorithme hors ligne et les résultats sont immédiatement disponibles. Les algorithmes [!UICONTROL Top Viewed] et [!UICONTROL Top Sellers] basés sur les données mbox produisent généralement des résultats très rapidement en raison de la simplicité de calcul requise. Il peut s’agir d’options intéressantes lorsque vous souhaitez prévisualiser une modification de conception ou confirmer que les données comportementales sont collectées correctement.
 
-## Utilisation des liens d’assurance qualité pour prévisualiser Recommendations
+## Utilisation des liens d’assurance qualité pour prévisualiser les recommandations
 
 Une fois que l’algorithme a des résultats prêts, vous pouvez prévisualiser ces résultats à l’aide de la fonctionnalité [lien d’assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) de [!DNL Adobe Target]. Des liens d’assurance qualité sont disponibles dans la section [!UICONTROL Activity Location] de la page d’aperçu de la [!UICONTROL Activity] :
 

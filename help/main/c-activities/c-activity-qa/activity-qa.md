@@ -1,6 +1,6 @@
 ---
 keywords: qa;mode qa; qa d’activité;url qa;url qa;url qa;prévisualiser l’url;prévisualiser les url
-description: Découvrez comment utiliser des URL d’assurance qualité d’Adobe  [!DNL Target]  pour effectuer facilement une assurance qualité de bout en bout de l’activité avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+description: Découvrez comment utiliser les URL Adobe [!DNL Target] QA pour effectuer facilement un contrôle qualité d’activité de bout en bout avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Comment Puis-Je Contrôler La Qualité Des Activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
@@ -39,7 +39,7 @@ Utilisez les URL d’assurance qualité dans [!DNL Adobe Target] pour effectuer 
 
    * **Afficher le contenu par défaut pour toutes les autres activités :** si cette option est activée, le contenu par défaut est affiché pour toutes les autres activités. Par exemple, l’aperçu s’affiche de manière isolée sans prendre en compte toutes les autres activités actives sur la même demande de page/[!DNL Target].
 
-     Si ce paramètre est désactivé, considérez ce qui suit :
+     Si ce paramètre est désactivé, tenez compte de ce qui suit :
 
       * En cas de conflits entre l’activité que vous testez et d’autres activités actives, les [ règles de priorité normales ](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. En raison de collisions, il est possible que vous ne puissiez pas voir l’activité que vous prévoyez d’AQ.
       * Les mesures s’incrémentent pour les activités vues, mais uniquement dans l’environnement de création de rapports d’AQ.
@@ -84,7 +84,7 @@ Si le [[!UICONTROL Platform Web SDK]](https://experienceleague.corp.adobe.com/do
 * Les activités importées dans [!DNL Target Standard/Premium] (à partir de [!DNL Target Classic], par exemple) ne prennent pas en charge les URL d’assurance qualité.
 * Dans les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Recommendations], le modèle n’est pas affecté par les visites capturées dans [!UICONTROL Activity QA].
 * Si vous avez spécifié « URL is » lors de la création de l’activité [affinements dans le compositeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [options de diffusion de page dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas, car [!UICONTROL Activity QA] ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
-* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL Activity QA] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=fr){target=_blank}.
+* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL Activity QA] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni qui est inclus dans la même activité), les liens d’assurance qualité ne sont pas générés pour les quatre combinaisons (site Experience A/US, site Experience A/UK, site Experience B/US, site Experience B/UK). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Un responsable du contrôle qualité au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu. Cependant, certains clients doivent utiliser des équilibreurs de charge ou des serveurs Web qui tentent à nouveau de coder les paramètres de chaîne de requête.
 
@@ -111,8 +111,8 @@ Si le [[!UICONTROL Platform Web SDK]](https://experienceleague.corp.adobe.com/do
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr)
 
 Le tableau suivant répertorie les différents types d’activités et indique si [!UICONTROL Activity QA] mode est pris en charge pour chaque bibliothèque :

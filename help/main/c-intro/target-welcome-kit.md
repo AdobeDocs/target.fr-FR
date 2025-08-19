@@ -19,7 +19,7 @@ Ce kit de bienvenue contient les chapitres suivants :
 
 * [Chapitre 1 : Introduction](/help/main/c-intro/target-welcome-kit-1.md)
 * [Chapitre 2 : Principales caractéristiques d’Adobe Target](/help/main/c-intro/target-welcome-kit-2.md)
-* [Chapitre 3 : Développer vos tests et vos idées de personnalisation](/help/main/c-intro/target-welcome-kit-3.md)
+* [Chapitre 3 : Développement de vos idées de test et de personnalisation](/help/main/c-intro/target-welcome-kit-3.md)
 * [Chapitre 4 : Conseils d’utilisation de Target](/help/main/c-intro/target-welcome-kit-4.md)
 * [Chapitre 5 : Inspiration pour les activités de test et de personnalisation](/help/main/c-intro/target-welcome-kit-5.md)
 * [Chapitre 6 : Pièges facilement évitables](/help/main/c-intro/target-welcome-kit-6.md)

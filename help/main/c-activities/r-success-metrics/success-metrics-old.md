@@ -1,6 +1,6 @@
 ---
 keywords: Ciblage;succès;mesure de conversion;mesure de score de page;mesure pages vues;mesures de chiffre d’affaires;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès;paramètres avancés;dépendance;dépendant;Incrémenter le décompte et maintenir l’utilisateur dans l’activité;Incrémenter le décompte, Libérer l’utilisateur et Autoriser la reprise;incrémenter le décompte, Libérer l’utilisateur et Interdire la reprise
-description: Découvrez les mesures de succès d’Adobe [!DNL Target]  qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
+description: Découvrez les mesures de succès dans Adobe [!DNL Target] qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
 title: Que Sont Les Mesures De Succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
@@ -15,7 +15,7 @@ ht-degree: 42%
 
 Dans [!DNL Adobe Target], les mesures de succès sont des paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui vous permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité [!DNL Target].
 
-Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
+Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels d’achat, mais aussi avec l’engagement des visiteurs et visiteuses ou des clientes et clients.
 
 ## Aperçu
 

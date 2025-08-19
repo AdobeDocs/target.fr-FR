@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Pour configurer les attributs de profil :
 
    | Type de paramètre | Description |
    |--- |--- |
-   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. Voir [Transférer les paramètres à une mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank} dans le *Guide de développement de Target*.<P>**Remarque** : [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], transmettez-les à l’aide de la méthode [!UICONTROL Profile Update API]. Pour plus d’informations, voir [Mettre à jour les profils](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=fr){target=_blank} dans le *Guide de développement de Target*. |
+   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. Voir [Transférer les paramètres à une mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank} dans le *Guide de développement de Target*..<P>**Remarque** : [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], transmettez-les à l’aide de la méthode [!UICONTROL Profile Update API]. Pour plus d’informations, consultez [Mise à jour de profils](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=fr){target=_blank} dans le *Guide du développeur de Target*. |
    | Profil | Défini directement avec un extrait de code JavaScript. Ces extraits peuvent stocker les totaux en cours, tel que le total des dépenses d’un client ou d’une cliente. Ils sont exécutés pour chaque requête de mbox. Voir *Attributs de script de profil* ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,13 +46,13 @@ Les scripts de profil sont différents des paramètres de profil. Les paramètre
 
 ## Création de scripts de profil {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Les scripts de profil sont disponibles sous l’onglet [!UICONTROL Audiences] de l’interface [!DNL Target].
+Les scripts de profil sont disponibles sous l’onglet [!UICONTROL Audiences] de l’interface [!DNL Target] .
 
 Pour ajouter un script de profil, cliquez sur l’onglet **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]**, puis écrivez votre script.
 
 Ou
 
-Pour copier un script de profil existant, dans la liste [!UICONTROL Profile Scripts], cliquez sur l’icône représentant des points de suspension pour le script souhaité, puis cliquez sur **[!UICONTROL Duplicate]**.
+Pour copier un script de profil existant, à partir de la liste [!UICONTROL Profile Scripts], cliquez sur l’icône représentant des points de suspension pour sélectionner le script souhaité, puis cliquez sur **[!UICONTROL Duplicate]**.
 
 Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
@@ -85,21 +85,21 @@ Gardez à l’esprit les informations suivantes :
 
 Vous pouvez afficher des cartes pop-up d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
 
-Par exemple, la carte d’informations de script de profil suivante est accessible en cliquant sur l’icône [!UICONTROL Info] pour le script de profil souhaité dans la liste ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
+Par exemple, la carte d’informations de script de profil suivante est accessible en cliquant sur l’icône [!UICONTROL Info] du script de profil souhaité dans la liste ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-L’onglet [!UICONTROL Script Info] contient les informations suivantes : Nom, Description et code de script.
+L’onglet [!UICONTROL Script Info] contient les informations suivantes : nom, description et code de script.
 
 ![Carte d’informations du script de profil](assets/profile_script_info_card.png)
 
-Cliquez sur **[!UICONTROL View full details]** pour afficher les audiences et les activités qui référencent le script de profil sélectionné.
+Cliquez sur **[!UICONTROL View full details]** pour afficher les audiences et les activités qui font référence au script de profil sélectionné.
 
 ![Carte d’informations du script de profil > Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->L’onglet [!UICONTROL Script Usage] n’affiche pas les activités qui référencent le script de profil sélectionné dans les situations suivantes :
+>L’onglet [!UICONTROL Script Usage] n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
 >
-> * L’activité se trouve à l’état [!UICONTROL Draft].
+> * L’activité est à l’état [!UICONTROL Draft].
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
 
 ## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -176,7 +176,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 **Est-il possible d’utiliser des scripts de profil pour capturer les informations d’une page dans une couche de données ?**
 
-Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent être transmises par le biais d’une requête mBox ou d’autres [méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}. Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
+Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent être transmises par le biais d’une requête de mbox ou d’autres [méthodes de transfert de données dans Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}. Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
 
 ## Référence JavaScript pour les paramètres de profil de script
 

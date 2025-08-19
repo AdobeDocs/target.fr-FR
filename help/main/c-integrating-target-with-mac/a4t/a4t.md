@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -39,7 +39,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics f
 * La source de création de rapports est définie pour chaque activité. [!DNL Target] continue à collecter les données à utiliser dans la création de rapports et les [!DNL Target] données sont toujours disponibles si vous préférez baser une activité sur les données collectées par [!DNL Target].
 * Utilisez une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données des deux sources pour une même activité.
 * Lorsque vous utilisez A4T, toutes les mesures de succès disponibles pour vos activités sont des mesures [!DNL Analytics]. Cependant, votre mesure d’objectif peut être basée sur un appel de mbox si vous utilisez at.js. Par exemple, vous pouvez utiliser les fonctionnalités de suivi des clics prêtes à l’emploi de Target avec A4T au lieu de devoir implémenter le code de suivi des clics d’[!DNL Analytics].
-* Lorsque vous consultez des rapports relatifs à une activité A4T dans l’interface utilisateur de [!DNL Target], vous consultez des données [!DNL Analytics]. Par exemple, si vous utilisez la mesure [!UICONTROL Visitor] dans [!DNL Target], vous utilisez la mesure [!DNL Analytics] [!UICONTROL Visitor] et non la mesure [!DNL Target] [!UICONTROL Visitors], qui s’appelle désormais [!UICONTROL Entrants]. Cette différence est particulièrement importante pour les mesures de trafic de base ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) et les mesures de conversion.
+* Lorsque vous consultez des rapports relatifs à une activité A4T dans l’interface utilisateur de [!DNL Target], vous consultez des données [!DNL Analytics]. Par exemple, si vous utilisez la mesure [!UICONTROL Visitor] dans [!DNL Target], vous utilisez la mesure [!DNL Analytics] [!UICONTROL Visitor], et non la mesure [!DNL Target] [!UICONTROL Visitors], qui est désormais appelée [!UICONTROL Entrants]. Cette différence est particulièrement importante pour les mesures de trafic de base ([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views]) et pour les mesures de conversion.
 * Toute activité [!DNL Target] existante continue à utiliser la collecte de données [!DNL Target] et n’est pas affectée par l’activation d’A4T.
 * Une seule mesure basée sur mbox est autorisée lors de l’utilisation d’A4T.
 * L’appel serveur à serveur de [!DNL Target] vers [!DNL Analytics] envoie les informations d’activité et d’expérience à [!DNL Analytics]. Cette intégration ne résulte pas en appels au serveur supplémentaires, que ce soit pour [!DNL Target] ou [!DNL Analytics].
@@ -60,7 +60,7 @@ Les sections suivantes contiennent des informations sur les types d’activité 
 | [Activité A/B avec affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Oui | Consultez la page [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | [Activité A/B avec ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | Oui | La prise en charge d’A4T pour les activités de ciblage automatique est désormais prise en charge pour [!DNL Platform Web SDK] et at.js. |
 | [Ciblage d’expérience (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Oui |  |
-| [Test multivarié (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Oui | Nécessite une mesure d’objectif basée sur mbox pour obtenir le rapport [!UICONTROL Element Contribution]. Le rapport [!UICONTROL Element Contribution] ne prend actuellement pas en charge les mesures [!DNL Analytics]. |
+| [Test multivarié (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Oui | Requiert la mesure d’objectif basée sur mbox pour obtenir le rapport [!UICONTROL Element Contribution]. Le rapport [!UICONTROL Element Contribution] ne prend actuellement pas en charge les mesures [!DNL Analytics]. |
 | [Activité d’Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Non |  |
 | [Activité Recommendations](/help/main/c-recommendations/recommendations.md) | Oui |  |
 | [Activité utilisant une offre de redirection](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Oui |
@@ -69,23 +69,23 @@ Dans la mesure où tous les types d’activité ne prennent pas encore en charge
 
 ## Exemples de rapports A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Pour afficher les rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Activities]**, sélectionnez une activité dans la liste qui utilise [!DNL Analytics] comme source de création de rapports, puis cliquez sur l’onglet **[!UICONTROL Reports]** .
+Pour afficher les rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Activities]**, cliquez sur l’activité souhaitée dans la liste qui utilise [!DNL Analytics] comme source de rapports, puis cliquez sur l’onglet **[!UICONTROL Reports]** .
 
 >[!NOTE]
 >
->Vous pouvez utiliser la liste déroulante [!UICONTROL Reporting Source] située en haut de la page [!UICONTROL Activities] pour afficher uniquement les activités qui utilisent A4T.
+>Vous pouvez utiliser la liste déroulante [!UICONTROL Reporting Source] en haut de la page [!UICONTROL Activities] pour afficher uniquement les activités qui utilisent A4T.
 
-Vous pouvez basculer entre les [!UICONTROL Table View] et [!UICONTROL Graph View] du rapport en cliquant sur l’icône appropriée dans le coin supérieur droit du rapport.
+Vous pouvez basculer entre les [!UICONTROL Table View] et les [!UICONTROL Graph View] du rapport en cliquant sur l’icône appropriée en haut à droite du rapport.
 
-L’illustration suivante présente la [!UICONTROL Graph View] d’un rapport A4T avec la liste déroulante [!UICONTROL Report Metric] répertoriant les mesures d’objectif [!DNL Analytics] disponibles :
+L’illustration suivante présente la [!UICONTROL Graph View] d’un rapport A4T avec la liste déroulante [!UICONTROL Report Metric] répertoriant les mesures d’objectifs [!DNL Analytics] disponibles :
 
 ![image a4t_report_graph1](assets/a4t_report_graph1.png)
 
-L’illustration suivante présente l’ [!UICONTROL Graph View] d’un rapport A4T avec la liste déroulante [!UICONTROL Audience] qui affiche les audiences [!DNL Analytics] disponibles :
+L’illustration suivante présente la [!UICONTROL Graph View] d’un rapport A4T avec la liste déroulante [!UICONTROL Audience] répertoriant les audiences [!DNL Analytics] disponibles :
 
 ![image a4t_report_graph2](assets/a4t_report_graph2.png)
 
-L’illustration suivante présente le [!UICONTROL Table View] d’un rapport A4T :
+L’illustration suivante présente les [!UICONTROL Table View] d’un rapport A4T :
 
 ![image a4t_report_table](assets/a4t_report_table.png)
 
@@ -99,7 +99,7 @@ Ouvrez le tutoriel [Analytics et Target : bonnes pratiques relatives à l’ana
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cette rubrique.
 
-### Analytics for Adobe Target (A4T) (4:32)![Badge de présentation](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser [!DNL Analytics] comme source de création de rapports dans [!DNL Target] dans le cadre de l’analyse de votre programme d’optimisation.
 
@@ -107,7 +107,7 @@ Cette vidéo explique de quelle façon utiliser [!DNL Analytics] comme source de
 * Explication du fonctionnement d’A4T
 * Compréhension des conditions préalables requises pour pouvoir utiliser A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421725?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Intégration d’Analytics/d’Adobe Target (A4T) (40:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

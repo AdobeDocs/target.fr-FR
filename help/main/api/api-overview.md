@@ -1,7 +1,7 @@
 ---
-keywords: api;api;api admin;api de diffusion;api de création de rapports;api de profil
-description: Recherchez les API d’Adobe  [!DNL Target] , y compris les API d’administration, de diffusion, de création de rapports et de profil.
-title: Où puis-je trouver la documentation  [!DNL Target] API et SDK ?
+keywords: api;api;api admin;api delivery;api reporting;api profile
+description: Recherchez les API Adobe [!DNL Target] y compris les API Admin, Delivery, Reporting et Profile.
+title: Où puis [!DNL Target] je trouver de la documentation sur les API et SDK ?
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Adobe de [!DNL Target] SDK et API
+# SDK et API Adobe [!DNL Target]
 
 Avant de commencer à utiliser [!DNL Adobe Target], vous devez l’implémenter sur votre site.
 
-Le [Guide du développeur Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} contient des informations que vous devez connaître avant de mettre en oeuvre [!DNL Target].
+Le [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} contient des informations que vous devez connaître avant d’implémenter [!DNL Target].
 
-Le portail destiné aux développeurs contient des informations sur les types de mise en oeuvre suivants :
+Le portail destiné aux développeurs contient des informations sur les types d’implémentation suivants :
 
-* Côté client, y compris des informations sur l’implémentation à l’aide de [!DNL Adobe Experience Platform Web SDK] ou de [!DNL Target Web SDK] (at.js).
-* Côté serveur, y compris des informations sur l’implémentation des SDK Node.JS, JAVA, .NET et Python.
-* Hybride, informations à mettre en oeuvre si vous utilisez une combinaison d’implémentations côté client et côté serveur.
-* Recommendations, informations pour vous aider à mettre en oeuvre [!DNL Recommendations], une offre [Target Premium](/help/main/c-intro/intro.md#premium).
+* Côté client, y compris des informations sur l’implémentation de à l’aide du [!DNL Adobe Experience Platform Web SDK] ou du [!DNL Target Web SDK] (at.js).
+* Côté serveur, y compris des informations sur l’implémentation de à propos de l’utilisation des SDK Node.JS, JAVA, .NET et Python.
+* Informations hybrides destinées à vous aider à mettre en œuvre si vous utilisez une combinaison d’implémentations côté client et côté serveur.
+* Recommandations, informations pour vous aider à implémenter [!DNL Recommendations], une offre [Target Premium](/help/main/c-intro/intro.md#premium).
 * Applications mobiles.
-* Courriel.
+* E-mail.
 
-[!DNL Adobe Target] Les API peuvent être regroupées en fonction du type :
+[!DNL Adobe Target] API peuvent être regroupées par type :
 
-* API d’administration et de profil
+* API Admin et Profile.
 * API de création de rapports
-* API de recommandation.
+* API Recommendations.
 
-Pour plus d’informations, voir [Présentation de l’API Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=fr){target=_blank} dans le [ Guide du développeur Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.
+Pour plus d’informations, consultez [Présentation de l’API Target](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank} dans le [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.

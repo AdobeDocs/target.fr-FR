@@ -11,17 +11,17 @@ ht-degree: 40%
 
 ---
 
-# AEM [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] - Aperçu
+# Présentation d’AEM [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments]
 
-Utilisez [!UICONTROL Experience Fragments] (XF) et [!UICONTROL Content Fragments] (CF) créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation et la personnalisation.
+Utilisez les [!UICONTROL Experience Fragments] (XF) et [!UICONTROL Content Fragments] (CF) créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation et la personnalisation.
 
-L’utilisation de [!UICONTROL Experience Fragments] et de [!UICONTROL Content Fragments] créés dans les activités [!DNL AEM] dans [!DNL Target] vous permet de combiner la facilité d’utilisation et la puissance de [!DNL AEM] avec de puissantes fonctionnalités d’intelligence artificielle (IA) et d’apprentissage automatique (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.
+L’utilisation des [!UICONTROL Experience Fragments] et des [!UICONTROL Content Fragments] créés dans [!DNL AEM] dans les activités [!DNL Target] permet d’associer la facilité d’utilisation et la puissance des [!DNL AEM] à de puissantes fonctionnalités d’intelligence artificielle (AI) et de machine learning (ML) dans [!DNL Target] de tester et de personnaliser des expériences à grande échelle.
 
 [!DNL AEM] rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. [!DNL AEM] permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil. [!DNL AEM] ajuste automatiquement chaque expérience pour chaque appareil à l’aide de votre contenu.
 
 [!DNL Target] permet de diffuser des expériences personnalisées à grande échelle en combinant des approches de machine learning basées sur des règles et sur l’intelligence artificielle qui intègrent des variables comportementales, contextuelles et hors ligne.
 
-[!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] représentent un énorme pas en avant pour lier les créateurs et gestionnaires de contenu/d’expérience aux professionnels de l’optimisation et de la personnalisation qui dirigent les résultats commerciaux en utilisant [!DNL Target].
+[!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] représentent une énorme avancée permettant de relier les créateurs et les gestionnaires de contenu et d’expérience aux professionnels de l’optimisation et de la personnalisation qui génèrent les résultats commerciaux en utilisant [!DNL Target].
 
 ## Considérations
 
@@ -37,14 +37,14 @@ Tenez compte des points suivants lorsque vous utilisez AEM [!UICONTROL Experienc
 
 * [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] ne sont pas disponibles pour les types d’activité suivants :
 
-   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Multivariate Test] (VMT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* Vous pouvez utiliser [!UICONTROL Experience Fragments] dans des activités [!DNL Target] à l’aide du [ compositeur d’expérience visuelle ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et du [ compositeur d’expérience d’après les formulaires ](/help/main/c-experiences/form-experience-composer.md).
-* Vous pouvez utiliser [!UICONTROL Content Fragments] dans des activités [!DNL Target] à l’aide du [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement.
+* Vous pouvez utiliser des [!UICONTROL Experience Fragments] dans des activités [!DNL Target] à l’aide du [Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et du [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md).
+* Vous pouvez utiliser des [!UICONTROL Content Fragments] dans des activités [!DNL Target] à l’aide du [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement.
 
 ## Quelle est la différence entre [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] ?
 
-[!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] peuvent sembler similaires à la surface, mais chaque type de fragment joue des rôles clés dans différents cas d’utilisation.
+[!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] peuvent sembler similaires à première vue, mais chaque type joue des rôles clés dans différents cas d’utilisation.
 
-Pour plus d’informations sur la manière dont [!UICONTROL Experience Fragments] et [!UICONTROL Content Fragments] sont similaires, différents, et sur le moment et la manière d’utiliser chacun d’eux, voir [Comprendre [!UICONTROL Content Fragments] et [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=fr){target=_blank} dans le [guide des vidéos et tutoriels AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=fr){target=_blank}.
+Pour plus d’informations sur les similitudes et les différences entre les [!UICONTROL Experience Fragments] et les [!UICONTROL Content Fragments], ainsi que pour savoir quand et comment utiliser chacun d’eux, consultez [Présentation des [!UICONTROL Content Fragments] et des [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=fr){target=_blank} dans le guide des vidéos et tutoriels d’[AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=fr){target=_blank}.

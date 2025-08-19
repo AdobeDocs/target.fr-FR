@@ -110,11 +110,11 @@ Pour créer une activité [!UICONTROL Auto-Allocate] :
 
 Après avoir créé l’activité, l’onglet [!UICONTROL Overview] affiche des informations sur l’activité, y compris un diagramme de votre activité.
 
-## Vidéo de formation : création de tests A/B (8 min 36)
+## Vidéo de formation : Création de tests A/B (8:36)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de [!DNL Target].
 
 * Création d’une activité [!UICONTROL A/B Test] dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

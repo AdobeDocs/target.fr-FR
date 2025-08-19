@@ -1,7 +1,7 @@
 ---
 keywords: effet élévateur dans les recettes;recettes;estimation de l’effet élévateur dans les recettes;calculer l’effet élévateur;valeur estimée
-description: Estimez l’effet élévateur que vous pourriez obtenir si chaque visiteur voit l’expérience gagnante, si les tendances se poursuivent comme elles l’ont fait au cours du test.
-title: Qu’est-ce que j’estime de l’effet élévateur dans les recettes ?
+description: Estimez l’effet élévateur que vous pouvez obtenir si chaque visiteur voit l’expérience gagnante, si les tendances se poursuivent comme elles l’ont fait pendant le test.
+title: À quoi correspond l’effet élévateur estimé dans les revenus ?
 feature: Administration & Configuration
 role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
@@ -14,11 +14,11 @@ ht-degree: 85%
 
 # Estimation de l’effet élévateur dans les recettes
 
-Utilisez [!DNL Adobe Target] pour estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
+Utilisez [!DNL Adobe Target] pour estimer l’effet élévateur de chiffre d’affaires que vous obtiendriez si tous les utilisateurs visualisaient l’expérience gagnante.
 
 >[!NOTE]
 >
->L’effet élévateur estimé n’est pas disponible actuellement pour les activités [!UICONTROL Experience Targeting] (XT).
+>L’effet élévateur estimé n’est pas disponible pour les activités [!UICONTROL Experience Targeting] (XT) pour le moment.
 
 La fonctionnalité d’effet élévateur estimé est désactivée par défaut. Elle peut être activée dans les préférences du compte. Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 
@@ -30,7 +30,7 @@ Cette estimation calcule le montant de l’effet élévateur obtenu par l’exp�
 
 L’effet élévateur en termes de revenu est calculé d’après le revenu par visite (RPV) obtenu à partir de l’indicateur d’objectif principal.
 
-L’effet élévateur estimé est calculé selon la formule suivante : (&lt;RPV de l’expérience gagnante> - &lt;RPV de l’expérience de contrôle&lt;)&#42;&lt;nombre total de visiteurs dans l’activité>
+L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;expérience gagnante RPV> - &lt;expérience de contrôle RPV&lt;)&#42;&lt;nombre total de visiteurs dans l’activité>
 
 Le chiffre obtenu est arrondi à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la virgule (par exemple, 1,6M, 60K, 900, 8,5K, 205K).
 

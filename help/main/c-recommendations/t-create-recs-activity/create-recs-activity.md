@@ -2,7 +2,7 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser le  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) pour créer une  [!DNL Recommendations] .
 title: Comment créer une activité  [!DNL Recommendations]  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # Création d’une activité [!DNL Recommendations]
 
-Utilisez le [!UICONTROL Visual Experience Composer] d’[!DNL Target] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
+Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
 
 1. Cliquez sur **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
@@ -73,7 +73,7 @@ Utilisez le [!UICONTROL Visual Experience Composer] d’[!DNL Target] (VEC) pour
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -172,6 +172,6 @@ Utilisez le [!UICONTROL Visual Experience Composer] d’[!DNL Target] (VEC) pour
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : création d’une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : créer une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

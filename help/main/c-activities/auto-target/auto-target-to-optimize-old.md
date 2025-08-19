@@ -2,7 +2,7 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment une activité [!UICONTROL Auto-Target] dans offre  [!DNL Target]  expérience la plus adaptée à chaque visiteur en fonction des profils client et du comportement de visiteurs similaires.
 title: Qu’est-ce qu’une activité [!UICONTROL Auto-Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
@@ -12,7 +12,7 @@ ht-degree: 21%
 
 ---
 
-# Présentation de [!UICONTROL Auto-Target]
+# Vue d’ensemble des [!UICONTROL Auto-Target]
 
 [!UICONTROL Auto-Target] activités dans [!DNL Adobe Target] utilisent le machine learning avancé pour sélectionner plusieurs expériences hautement performantes définies par des spécialistes marketing afin de personnaliser le contenu et de générer des conversions. [!UICONTROL Auto-Target] offre à chaque visiteur l’expérience la plus adaptée en fonction du profil client individuel et du comportement des visiteurs précédents présentant des profils similaires.
 
@@ -24,7 +24,7 @@ ht-degree: 21%
 
 ## Témoignages de clients qui utilisent le ciblage automatique {#success}
 
-Un grand détaillant de vêtements a récemment utilisé une activité [!UICONTROL Auto-Target] avec dix expériences basées sur des catégories de produits (ainsi qu’un contrôle randomisé) pour fournir le contenu approprié à chaque visiteur. « [!UICONTROL Add to Cart] » a été choisi comme mesure d’optimisation principale. Les expériences ciblées ont connu une augmentation moyenne de 29,09 %. Après avoir créé les modèles [!UICONTROL Auto-Target], l’activité a été définie sur 90 % d’expériences personnalisées.
+Un retailer vestimentaire majeur a récemment utilisé une activité [!UICONTROL Auto-Target] avec dix expériences basées sur des catégories de produits (ainsi qu’un contrôle randomisé) pour fournir le contenu approprié à chaque visiteur. « [!UICONTROL Add to Cart] » a été choisi comme mesure d’optimisation principale. Les expériences ciblées ont connu une augmentation moyenne de 29,09 %. Après avoir créé les modèles [!UICONTROL Auto-Target], l’activité a été définie sur 90 % d’expériences personnalisées.
 
 En dix jours seulement, plus de 1 700 000 $ ont été débloqués.
 
@@ -91,7 +91,7 @@ La liste déroulante [!UICONTROL Custom Allocation] permet d&#39;effectuer un ch
 | Objectif de l’activité | Suggestion d’affectation du trafic | Compromis |
 |--- |--- |--- |
 | **Évaluer l’algorithme de personnalisation (50/50)** : Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggérée pour une utilisation avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Moins de visiteurs ont une expérience personnalisée</li></ul> |
-| **Maximiser le trafic Personalization (90/10)** : si votre objectif est de créer une activité « toujours active », placez 10 % des visiteurs dans le contrôle pour vous assurer qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Le compromis ici est qu&#39;en l&#39;exchange de la personnalisation d&#39;une plus grande proportion de votre trafic, vous avez moins de précision dans ce qu&#39;est exactement l&#39;ascenseur. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
+| **Maximiser le trafic Personalization (90/10)** : si votre objectif est de créer une activité « toujours active », placez 10 % des visiteurs dans le contrôle pour vous assurer qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Le compromis ici est qu&#39;en échange de la personnalisation d&#39;une plus grande proportion de votre trafic, vous avez moins de précision dans ce qu&#39;est exactement l&#39;ascenseur. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
 | **Affectation personnalisée** | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
 
 Pour ajuster le pourcentage de [!UICONTROL Control], cliquez sur les icônes de la colonne [!UICONTROL Allocation]. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.

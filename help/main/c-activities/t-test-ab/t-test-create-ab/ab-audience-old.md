@@ -1,13 +1,13 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: L’audience détermine les visiteurs du site qui sont entrés dans votre Adobe  [!DNL Target] activité.
+description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité Adobe [!DNL Target] a.
 title: Comment sélectionner une audience dans une activité a [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 64%
+ht-degree: 62%
 
 ---
 
@@ -68,7 +68,7 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Workflow d’activité - Ciblage (2:14) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

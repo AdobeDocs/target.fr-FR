@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # Ajout d’une expérience
 
-Le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC) fournit une interface visuelle permettant d’ajouter et de modifier des expériences sur votre page.
+Le [!DNL Adobe Target] d’[!UICONTROL Visual Experience Composer] (VEC) fournit une interface visuelle permettant d’ajouter et de modifier des expériences sur votre page.
 
 Pour plus d’informations sur les expériences, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 

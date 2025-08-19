@@ -1,13 +1,13 @@
 ---
 keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
-description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque d [!DNL Target] offres d’Adobe. Découvrez comment afficher les détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
+description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque Adobe [!DNL Target] Offres . Découvrez comment afficher les détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
 title: Comment utiliser le contenu de la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 33%
+ht-degree: 32%
 
 ---
 
@@ -84,9 +84,9 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
 
 ## Vidéo de formation : référentiel de contenu ![badge Aperçu](/help/main/assets/overview.png)
 
-Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
+Cette vidéo fournit des informations sur la gestion du contenu. (4:56)
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 

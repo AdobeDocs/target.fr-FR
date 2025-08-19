@@ -1,6 +1,6 @@
 ---
 keywords: journal des modifications d’activité;journal des modifications
-description: Accédez à l’Adobe du journal des modifications d’une activité  [!DNL Target]  afficher un enregistrement indiquant qui a modifié vos activités et quand les modifications se sont produites.
+description: Accédez au journal des modifications d’une activité dans Adobe [!DNL Target] pour consulter un enregistrement indiquant qui a modifié vos activités et quand les modifications se sont produites.
 title: Comment puis-je voir un journal des modifications d’activités ?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Journal des modifications d’activité
 
-Le [!UICONTROL Change Log] [!DNL Adobe Target] enregistre les actions d’activité, y compris les modifications apportées, les personnes qui les ont effectuées et le moment où elles se sont produites. La page [!UICONTROL Change Log] est renseignée à partir du [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour obtenir des informations en temps réel.
+Le [!DNL Adobe Target] [!UICONTROL Change Log] enregistre les actions d’activité, y compris les modifications apportées, les personnes qui les ont effectuées et le moment où elles se sont produites. La page [!UICONTROL Change Log] est renseignée à partir du [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour obtenir des informations en temps réel.
 
 Pour accéder à la page [!UICONTROL Change Log] :
 

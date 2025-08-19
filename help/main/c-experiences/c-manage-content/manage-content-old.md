@@ -23,7 +23,7 @@ Utilisez la bibliothèque [!UICONTROL Offers] dans [!DNL Adobe Target] pour gér
 
    ![Page Offres affichant les onglets Offres de code et Offres d’image](/help/main/c-experiences/c-manage-content/assets/offers-page.png)
 
-1. (Facultatif) Cliquez sur la liste déroulante **[!UICONTROL Type]** pour filtrer les offres par type (Offre d’HTML, [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) et [Dossiers](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
+1. (Facultatif) Cliquez sur la liste déroulante **[!UICONTROL Type]** pour filtrer les offres par type (Offre HTML, [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) et [Dossiers](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
    ![image offer_filter](assets/offers_filter.png)
 
@@ -82,7 +82,7 @@ Les informations suivantes sont disponibles :
 
 Cliquez sur le lien [!UICONTROL View Full Details] pour afficher le contenu de l’offre et les activités qui font référence à une offre de code. Vous pouvez ainsi éviter toute répercussion sur les autres activités lorsque vous modifiez les offres. Les informations comprennent les [!UICONTROL Live Activities] et les [!UICONTROL Inactive Activities].
 
-Les informations disponibles sur chaque carte varient en fonction du type d’offre : Offre d’HTML, [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre à distance](/help/main/c-experiences/c-manage-content/about-remote-offers.md) ou [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+Les informations disponibles sur chaque carte varient en fonction du type d’offre : Offre HTML, [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md) ou [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 La fonctionnalité Détails de l’offre ne s’applique pas aux offres d’image.
 
@@ -92,7 +92,7 @@ La fonctionnalité Détails de l’offre ne s’applique pas aux offres d’imag
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

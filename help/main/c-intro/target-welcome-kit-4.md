@@ -77,7 +77,7 @@ Consultez [Activité multipage](/help/main/c-experiences/c-visual-experience-com
 
 ## Conseil 7 : test d’une offre avec différentes audiences pour déterminer si les audiences ont des préférences différentes.
 
-Les versions d’expérience vous permettent d’exécuter un test avec des variations pour autant d’audiences que vous le souhaitez. Par exemple, vous pouvez créer une bannière publicitaire offrant la livraison gratuite (avec des images et des variations de devises pour les clients aux États-Unis, au Royaume-Uni et aux Émirats arabes unis), sans avoir à exécuter de tests pour trois audiences différentes.
+Les versions d’expérience vous permettent d’exécuter un test avec des variations pour autant d’audiences que vous le souhaitez. Par exemple, vous pouvez créer une bannière publicitaire offrant la livraison gratuite (avec des images et des variations de devises pour des personnes résidant aux États-Unis, au Royaume-Uni et aux Émirats arabes unis), sans avoir à exécuter de tests pour trois audiences différentes.
 
 Consultez [Audiences d’expériences multiples dans un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) pour obtenir des instructions détaillées.
 
@@ -145,7 +145,7 @@ Un test est inutile si vous n’êtes pas sûr de la manière dont vous allez ag
 
 Les organisations d’optimisation performantes adhèrent au concept des tests et comprennent que leurs opinions professionnelles, indiquant que le test de l’expérience se révélera concluant, ne se vérifient pas toujours. Ils déterminent l’expérience gagnante sur la base de données solides et sont impatients et disposés à activer l’expérience gagnante une fois les résultats connus, même si elle n’est pas conforme à leurs attentes ou semble contre-intuitive.
 
-Par exemple, un client des services de santé Adobe a récemment prouvé l’utilité des tests en démontrant comment une bannière à forte identification, que l’équipe avait considérée comme un coup de maître, avait en réalité eu un impact négatif sur la conversion. Si votre entreprise n’a pas encore entièrement adopté les tests, il est préférable de commencer par des tests plus simples et de moindre envergure, afin de pouvoir apporter des modifications progressives à partir des résultats des tests.
+Par exemple, un client des services de santé Adobe a récemment prouvé l’utilité des tests en démontrant comment une bannière principale, que l’équipe avait considérée comme un coup de maître, avait en réalité eu un impact négatif sur la conversion. Si votre entreprise n’a pas encore entièrement adopté les tests, il est préférable de commencer par des tests plus simples et de moindre envergure, afin de pouvoir apporter des modifications progressives à partir des résultats des tests.
 
 ## Conseil 19 : l’annonce du lancement d’un test permet d’éviter toute inquiétude lors de la modification du site.
 

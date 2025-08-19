@@ -17,15 +17,15 @@ Utilisez la page [!UICONTROL Adobe System Status] et les notifications proactive
 
 ## Mises à jour d’état du système
 
-Utilisez la page [!UICONTROL Adobe System Status] pour afficher l’état de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [!UICONTROL Adobe System Status] pour afficher l’état des [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 >[!NOTE]
 >
 >Une notification apparaît systématiquement dans le produit durant la mise à jour mensuelle de [!DNL Target] ; les éventuelles mises à jour mineures sont répertoriées sur cette page.
 
-1. Accédez à [[!UICONTROL System Status]](https://status.adobe.com/fr){target=_blank}.
+1. Accédez au [[!UICONTROL System Status]](https://status.adobe.com/fr){target=_blank} .
 
-1. Pour afficher l’état des solutions [!DNL Experience Cloud], y compris [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud] .
+1. Pour afficher le statut des solutions [!DNL Experience Cloud], y compris des [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud] .
 
    ![image system_status](assets/system_status.png)
 
