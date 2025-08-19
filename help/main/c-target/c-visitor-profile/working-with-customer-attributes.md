@@ -19,7 +19,7 @@ Les données client d’entreprise collectées à l’aide de plusieurs sources 
 
 ## Présentation des attributs du client {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html) dans le service [!DNL People] fait partie du [!DNL Adobe Experience Cloud] et fournit aux entreprises un outil pour transmettre leurs données client à la plateforme [!DNL Experience Cloud].
+[Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=fr) dans le service [!DNL People] fait partie du [!DNL Adobe Experience Cloud] et fournit aux entreprises un outil pour transmettre leurs données client à la plateforme [!DNL Experience Cloud].
 
 Les données intégrées à [!DNL Experience Cloud] sont accessibles par tous les workflows [!DNL Experience Cloud]. [!DNL Target] utilise ces données pour cibler les clients récurrents en fonction d’attributs. [!DNL Adobe Analytics] utilise ces attributs. Ils peuvent être utilisés pour l’analyse et la segmentation.
 
@@ -27,7 +27,7 @@ Les données intégrées à [!DNL Experience Cloud] sont accessibles par tous le
 
 Tenez compte des informations suivantes dans votre travail avec les attributs et les [!DNL Target] du client :
 
-* Vous devez respecter certaines conditions préalables avant de pouvoir utiliser la fonctionnalité [!UICONTROL Customer attributes] dans le service [!DNL People]. Pour plus d’informations, voir « Conditions préalables pour le chargement des attributs du client » dans [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) dans la documentation sur les services et l’administration d’Experience Cloud **.
+* Vous devez respecter certaines conditions préalables avant de pouvoir utiliser la fonctionnalité [!UICONTROL Customer attributes] dans le service [!DNL People]. Pour plus d’informations, voir « Conditions préalables pour le chargement des attributs du client » dans [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr#section_BD38693AFBF34926BA28E964963B4EA0) dans la documentation sur les services et l’administration d’Experience Cloud **.
 * Gardez à l’esprit les limites relatives aux chargements de fichiers, comme indiqué dans la section [ À propos du fichier de données et des sources de données pour les attributs du client ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=fr) dans le *Guide des composants de l’interface centrale d’Experience Cloud*. Bonne pratique :
 
    * Chargez uniquement des fichiers volumineux (dans les [limites spécifiées](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=fr)). Les fichiers volumineux uniques sont préférés à plusieurs fichiers plus petits.
@@ -57,7 +57,7 @@ Exécutez les étapes illustrées ci-dessous pour utiliser les données CRM dans
 
 ![workflow crm](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Vous trouverez des instructions détaillées pour effectuer chacune des tâches suivantes dans [Création d’une source d’attributs du client et chargement du fichier de données](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) dans la documentation sur les services et l’administration d’Experience Cloud **.
+Vous trouverez des instructions détaillées pour effectuer chacune des tâches suivantes dans [Création d’une source d’attributs du client et chargement du fichier de données](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=fr) dans la documentation sur les services et l’administration d’Experience Cloud **.
 
 1. Création d’un fichier de données.
 
@@ -82,7 +82,7 @@ Vous trouverez des instructions détaillées pour effectuer chacune des tâches 
    Votre fichier de données doit être conforme aux exigences de chargement de fichier et ne doit pas dépasser 100 Mo. Si votre fichier est trop volumineux ou que vous disposez de données qui doivent être chargées de manière récurrente, vous pouvez utiliser le FTP pour vos fichiers à la place.
 
    * **HTTPS :** faites glisser et déposez le fichier de données .csv ou cliquez sur **[!UICONTROL Browse]** pour effectuer un chargement à partir de votre système de fichiers.
-   * **FTP :** cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Indiquez le mot de passe, puis cliquez sur **[!UICONTROL Done]**.
+   * **FTP :** cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=fr). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Indiquez le mot de passe, puis cliquez sur **[!UICONTROL Done]**.
 
    Transférez maintenant le fichier CSV/ZIP/GZIP vers le serveur FTP. Une fois ce transfert de fichier réussi, créez un fichier portant le même nom et une extension `.fin`. Transférez ce fichier vide vers le serveur. Cela indique la fin du transfert et le [!DNL Experience Cloud] commence à traiter le fichier de données.
 
@@ -98,7 +98,7 @@ Vous trouverez des instructions détaillées pour effectuer chacune des tâches 
 
 1. Configurez les abonnements et activez la source d’attributs.
 
-   Cliquez sur **[!UICONTROL Add Subscription]**, puis sélectionnez la solution pour abonner ces attributs. [Configurer les abonnements](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) configure le flux de données entre le [!DNL Experience Cloud] et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
+   Cliquez sur **[!UICONTROL Add Subscription]**, puis sélectionnez la solution pour abonner ces attributs. [Configurer les abonnements](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=fr) configure le flux de données entre le [!DNL Experience Cloud] et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
 
    ![Configurer la solution](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -140,11 +140,11 @@ Transmettez le `mbox3rdPartyId` en tant que paramètre à la mbox globale dans l
 
 ### Utilisation du service Experience Cloud ID
 
-Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. Pour plus d’informations, voir [ID de client et état d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) dans l’aide du service Experience Cloud ID **.
+Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. Pour plus d’informations, voir [ID de client et état d’authentification](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=fr) dans l’aide du service Experience Cloud ID **.
 
 Pour plus d’informations sur l’utilisation des attributs du client dans [!DNL Target], voir les ressources suivantes :
 
-* [Créez une source d’attributs du client et chargez le fichier de données](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) dans la documentation *Services et administration Experience Cloud*
+* [Créez une source d’attributs du client et chargez le fichier de données](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=fr) dans la documentation *Services et administration Experience Cloud*
 
 ## Problèmes fréquemment rencontrés par les clients {#section_BE0F70E563F64294B17087DE2BC1E74C}
 

@@ -2,7 +2,7 @@
 keywords: résolution de problèmes;questions fréquentes;FAQ;FAQ;automated personalization;contrôle;expérience par défaut;bonnes pratiques
 description: Explorez une liste de questions fréquentes (FAQ) et de réponses sur les activités d’[!UICONTROL Automated Personalization] (AP) dans [!UICONTROL Adobe Target].
 title: Comment puis-je trouver des questions fréquentes sur les activités [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 336da9dd876243a0eea662b4604a8fc1e6a69b1a

@@ -2,7 +2,7 @@
 keywords: estimateur de trafic;automated personalization;ap;estimer le trafic
 description: Utilisez le  [!DNL Adobe Target] [!UICONTROL Traffic Estimator] pour déterminer si vous disposez d’un trafic suffisant pour que votre activité [!UICONTROL Automated Personalization] réussisse.
 title: Quelle est la quantité de trafic nécessaire à la réussite d’une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

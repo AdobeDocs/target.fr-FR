@@ -37,7 +37,7 @@ Voici quelques exemples d’exclusions :
 
    ![image exclusions_list](assets/exclusions_list.png)
 
-   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le groupe d’hôtes [Recommendations](/help/main/administrating-target/hosts.md) par défaut configuré (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le groupe d’hôtes [Recommendations](/help/main/administrating-target/hosts.md) par défaut configuré (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Exclusion]**.
 

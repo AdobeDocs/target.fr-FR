@@ -18,7 +18,7 @@ Cette rubrique contient les réponses aux questions fréquentes sur les classifi
 ## Après avoir utilisé l’[!UICONTROL Classifications Importer] pour télécharger des classifications, comment faire correspondre la valeur post-tnt-action avec un nom d’activité ? {#section_6045DAC488B248418F430E663C38D001}
 
 +++Réponse
-Vous pouvez télécharger les classifications correspondant à la chaîne A4T/TNT à l’aide de l’[importateur de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) des outils d’administration. La variable est appelée « TNT » dans la liste d’exportation. Des noms conviviaux sont attribués aux données téléchargées pour les activités, les expériences, etc.
+Vous pouvez télécharger les classifications correspondant à la chaîne A4T/TNT à l’aide de l’[importateur de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=fr) des outils d’administration. La variable est appelée « TNT » dans la liste d’exportation. Des noms conviviaux sont attribués aux données téléchargées pour les activités, les expériences, etc.
 
 Ce fichier de recherche est utile pour les clients qui reçoivent le flux de données de parcours de navigation de [!DNL Adobe]. Le fichier fournit des noms conviviaux pour les colonnes `post_tnt` et `post_tnt_action`.
 
@@ -42,6 +42,6 @@ activityId:experienceId:targettype:algorithmId|event
 * Event = 32767 correspond à une conversion d’activité.
 * L’événement -1 ou 65535 indique que l’utilisateur est supprimé de l’activité ou de l’expérience. Cette situation se produit souvent lorsque le visiteur effectue une conversion. Le visiteur est libéré de l’expérience et peut désormais se qualifier pour toute autre expérience.
 
-Vous pouvez importer fréquemment le fichier de classification à partir de l’interface utilisateur à l’aide d’une [importation de navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) ou d’une [importation FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). Vous pouvez également demander aux services techniques un fichier que vous utiliserez comme tableau de recherche avec un flux de données de flux de clics.
+Vous pouvez importer fréquemment le fichier de classification à partir de l’interface utilisateur à l’aide d’une [importation de navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=fr) ou d’une [importation FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=fr). Vous pouvez également demander aux services techniques un fichier que vous utiliserez comme tableau de recherche avec un flux de données de flux de clics.
 
 +++

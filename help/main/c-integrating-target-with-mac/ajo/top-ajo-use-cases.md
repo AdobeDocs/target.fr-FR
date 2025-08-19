@@ -2,7 +2,7 @@
 keywords: optimisation;personnalisation;adobe parcours optimizer;ajo;cas d’utilisation;scénarios;web;basé sur le code
 description: Découvrez comment mettre en œuvre les meilleurs cas d’utilisation d’optimisation dans Adobe Journey Optimizer pour un impact maximal.
 title: Cas d’utilisation d’optimisation principaux dans  [!DNL Adobe Journey Optimizer]  canaux web et basés sur le code
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -22,7 +22,7 @@ Découvrez comment mettre en œuvre les principaux cas d’utilisation d’optim
 
 Pour réaliser les cas pratiques suivants, vous avez besoin des éléments suivants :
 
-* [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Ces cas d’utilisation ne nécessitent pas de licence [!DNL Adobe Target]. Ces cas d’utilisation montrent comment effectuer des tâches familières dans [!DNL Target] à l’aide de [!DNL Journey Optimizer], ce qui vous permet d’explorer et d’obtenir les mêmes résultats avec [!DNL Journey Optimizer].
 
 ## Cas d’utilisation

@@ -2,7 +2,7 @@
 keywords: recommandations;foire aux questions;faq
 description: Questions fréquentes (FAQ) et leurs réponses sur les conceptions  [!DNL Target Recommendations] .
 title: Où puis-je obtenir des réponses aux questions relatives à la conception pour  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

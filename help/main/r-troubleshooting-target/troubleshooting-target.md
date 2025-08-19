@@ -96,7 +96,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 
 ## mbox globale
 
-* [mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=fr)
 
 ## Hôtes/Environnements
 
@@ -108,23 +108,23 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ### Implémentation globale
 
-* [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr)
+* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=fr)
 
 ### mbox globales
 
-* [FAQ sur la mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [FAQ sur la mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=fr)
 
 ### at.js
 
 * [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr)
-* [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=fr)
 * [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
 
 ## Applications mobiles
 
-* [FAQ sur Target pour les applications mobiles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [FAQ sur Target pour les applications mobiles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=fr)
 
 ## Création de rapports
 
@@ -133,7 +133,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Optimisation pour moteurs de recherche
 
-* [Tests adaptés à l’optimisation du référencement](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [Tests adaptés à l’optimisation du référencement](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
 
 ## Sécurité
 

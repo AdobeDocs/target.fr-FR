@@ -3,8 +3,8 @@ keywords: ajo;adobe parcours optimizer;intégration target d’adobe parcours op
 description: Intégration  [!DNL Adobe Target Recommendations]  à  [!DNL Adobe Journey Optimizer].
 title: Comment utiliser dans les parcours  [!DNL Target Recommendations]  clients à l’aide de  [!DNL Adobe Journey Optimizer] ?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -29,7 +29,7 @@ Pour utiliser l’intégration [!DNL Target Recommendations] et [!DNL Adobe Jour
 
   Cette fonctionnalité n’est pas disponible avec une licence [!DNL Target Standard] ou lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Exemples de cas d’utilisation
 

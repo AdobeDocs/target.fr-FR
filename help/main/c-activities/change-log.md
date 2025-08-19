@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Journal des modifications d’activité
 
-Le [!DNL Adobe Target] [!UICONTROL Change Log] enregistre les actions d’activité, y compris les modifications apportées, les personnes qui les ont effectuées et le moment où elles se sont produites. La page [!UICONTROL Change Log] est renseignée à partir du [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour obtenir des informations en temps réel.
+Le [!DNL Adobe Target] [!UICONTROL Change Log] enregistre les actions d’activité, y compris les modifications apportées, les personnes qui les ont effectuées et le moment où elles se sont produites. La page [!UICONTROL Change Log] est renseignée à partir du [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank} pour obtenir des informations en temps réel.
 
 Pour accéder à la page [!UICONTROL Change Log] :
 

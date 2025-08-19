@@ -22,7 +22,7 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=fr){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=fr){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Pourquoi devriez-vous y assister ?
 
   L’intelligence artificielle et le machine learning sont au cœur de la maturité de la personnalisation. [!DNL Adobe Target] tire parti de ces technologies pour comprendre le comportement d’utilisation, prédire les préférences et personnaliser dynamiquement le contenu. En exploitant la puissance de l’IA et du ML, découvrez comment les marques vont au-delà des tests A/B statiques et de la personnalisation basée sur des règles pour offrir des expériences dynamiques et pertinentes en matière de contexte.
 
-  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}
 
 * **Recommendations haute performance**
 
   Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, tout en stimulant l’engagement et en générant des revenus. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs et utilisatrices de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
-  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=fr#M3685){target=_blank}
 
 * **Déverrouillage de la personnalisation optimisée par l’IA**
 

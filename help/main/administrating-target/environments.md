@@ -50,7 +50,7 @@ Procédez comme suit pour définir l’environnement par défaut pour la créati
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
 >
->Si vous spécifiez un environnement [par défaut dans un flux  [!DNL Adobe Experience Platform]  données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
+>Si vous spécifiez un environnement [par défaut dans un flux  [!DNL Adobe Experience Platform]  données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

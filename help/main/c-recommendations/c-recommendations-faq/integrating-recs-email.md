@@ -2,7 +2,7 @@
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de diffusion;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;e-mail au moment de la génération
 description: Découvrez comment intégrer la messagerie électronique dans l’API Delivery Adobe [!DNL Target Recommendations], including using the [!DNL Target] , les modèles Rawbox et les modèles en téléchargement uniquement.
 title: Comment intégrer Recommendations aux e-mails ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf

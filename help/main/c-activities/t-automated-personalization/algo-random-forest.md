@@ -2,7 +2,7 @@
 keywords: forêt aléatoire;arborescence de décision;ap;Automated Personalization
 description: Découvrez comment utilise l [!DNL Adobe Target] algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target].
 title: Comment utilise [!DNL Target] t-on l’algorithme Forêt aléatoire ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd

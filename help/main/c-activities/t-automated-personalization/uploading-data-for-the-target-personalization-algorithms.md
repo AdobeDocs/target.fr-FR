@@ -3,7 +3,7 @@ keywords: Automated Personalization;ap;charger des données;données hors ligne;
 description: Découvrez comment charger des données hors ligne lors de la création de modèles de personnalisation dans des activités  [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target].
 title: Comment télécharger des données pour les algorithmes de Personalization ?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt
