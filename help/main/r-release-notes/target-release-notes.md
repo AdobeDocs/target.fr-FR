@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 66%
+source-wordcount: '231'
+ht-degree: 55%
 
 ---
 
@@ -25,9 +25,16 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 25.8.3 (21 août 2025)
+## [!DNL Target Standard/Premium] 25.8.4 (28 août 2025)
 
-Cette version est maintenant en ligne. Voir [[!DNL Target]  Notes de mise à jour (actualisées)](/help/main/r-release-notes/release-notes.md) pour plus d’informations.
+Cette version comprend les mises à jour et correctifs suivants :
+
+**Compositeur d’expérience visuelle**
+
++++Afficher les détails
+* **Correction d’un problème en raison duquel le changement de nom d’un emplacement dans une activité [!UICONTROL Automated Personalization] (AP) ou [!UICONTROL Multivariate Test] (MVT) ne persistait pas après avoir accédé à l’étape [!UICONTROL Targeting] et y être revenu.** clients peuvent désormais modifier et enregistrer les noms des emplacements. Les modifications restent visibles tout au long du processus de création d’activités. (TGT-52367)
+
++++
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
