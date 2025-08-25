@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,14 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 
 Cette version comprend les mises à jour et correctifs suivants :
 
-**Compositeur d’expérience visuelle**
+**[!DNL Recommendations]**
+
++++Afficher les détails
+**Mise à jour de l’interface utilisateur afin que le filtrage de recherche avancé dans [!UICONTROL Product Catalog Search] ne respecte pas la casse** : l’interface utilisateur [!UICONTROL Advanced Search] de la page [!UICONTROL Product Catalog Search] effectuait auparavant une correspondance exacte de la casse sur les valeurs renvoyées, même si les requêtes du serveur principal et de GraphQL ne respectaient pas la casse. Cette incohérence entraînait de la confusion et réduisait la précision de la recherche. Le filtrage [!UICONTROL Advanced Search] ne respecte plus la casse. Il s’aligne sur le comportement du serveur principal et améliore la convivialité.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++Afficher les détails
 * **Correction d’un problème en raison duquel le changement de nom d’un emplacement dans une activité [!UICONTROL Automated Personalization] (AP) ou [!UICONTROL Multivariate Test] (MVT) ne persistait pas après avoir accédé à l’étape [!UICONTROL Targeting] et y être revenu.** clients peuvent désormais modifier et enregistrer les noms des emplacements. Les modifications restent visibles tout au long du processus de création d’activités. (TGT-52367)
