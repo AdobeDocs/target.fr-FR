@@ -2,13 +2,13 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
 description: Découvrez comment créer des règles d’inclusion dans  [!DNL Target]  Recommendations pour les critères et les promotions.
 title: Comment utiliser les règles d’inclusion dynamiques et statiques dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1846'
 ht-degree: 16%
 
 ---
@@ -76,6 +76,10 @@ L’option suivante est disponible pour le filtrage par valeur :
 Les critères dynamiques et les promotions sont beaucoup plus puissants que les critères statiques et les promotions et produisent de meilleurs résultats et un meilleur engagement.
 
 Les exemples suivants donnent des idées générales sur l’utilisation des promotions et exclusions dynamiques dans vos efforts marketing :
+
+>[!NOTE]
+>
+>« Liste » nécessite que les entités et les attributs de profil soient stockés sous forme de tableaux. Une liste séparée par des virgules ne fonctionne pas.
 
 | Opérateur | Exemples |
 | --- | --- |
