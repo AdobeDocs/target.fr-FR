@@ -58,8 +58,8 @@ Pour utiliser [!DNL AEM] [!UICONTROL Experience Fragments] dans [!DNL Target], p
 
 Pour obtenir plus d’informations, voir :
 
-* **AEM as a Cloud Service** : [Intégration à Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
-* **Adobe Developer** : [Intégration à Adobe Target à l’aide d’Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} dans la documentation du *Guide d’utilisation d’administration*.
+* **AEM as a Cloud Service** : [Intégration à Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
+* **Adobe Developer** : [Intégration à Adobe Target à l’aide d’Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=fr){target=_blank} dans la documentation du *Guide d’utilisation d’administration*.
 * **[!DNL AEM] 6.5** : [Sélection d’Adobe Analytics et Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.5*.
 * **[!DNL AEM] 6.4** : [Sélection d’Adobe Analytics et Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.4*.
 
@@ -84,7 +84,7 @@ Les [!UICONTROL Experience Fragments] sont créées dans [!DNL AEM]. Pour obteni
 
 Selon votre version d’[!DNL AEM], consultez les liens suivants pour obtenir des instructions détaillées :
 
-* **AEM as a Cloud Service** : [Exportation de [!UICONTROL Experience Fragments] vers Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
+* **AEM as a Cloud Service** : [Exportation de [!UICONTROL Experience Fragments] vers Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
 * **[!DNL AEM] 6.5** : [Exportation d’un fragment d’expérience vers Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.5*.
 * **[!DNL AEM] 6.4** : [Exportation d’un fragment d’expérience vers Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.4*.
 
