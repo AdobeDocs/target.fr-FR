@@ -54,7 +54,7 @@ Cette version comprend les mises à jour et correctifs suivants :
 * **Le changement d’audience sur la page Rapports provoquait des erreurs dans l’interface utilisateur de Target** : les clients et clientes rencontraient des erreurs lors de la sélection de certaines audiences dans la section Reports de l’interface utilisateur de Target mise à jour. Ce problème était dû à une gestion des audiences non valide dans les appels GraphQL principaux, ce qui entraînait des erreurs inattendues et des données manquantes. Le problème a été résolu et les audiences de bureau se chargent désormais sans erreurs, même lorsqu’aucune donnée n’est disponible. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Afficher les détails
 * **Échec du clic sur « Accepter les cookies » à l’aide de l’[!UICONTROL Enhanced Experience Composer] (EEC) en raison d’une fonction manquante** : les clients ont signalé qu’une tentative d’acceptation de cookies via l’EEC entraînait une erreur de console : `handleclickAcceptAllButton is not defined`. La fonctionnalité d’acceptation des cookies fonctionne désormais comme prévu, assurant une expérience plus fluide lors de la création de l’activité dans l’interface utilisateur mise à jour. (TGT-52794)
