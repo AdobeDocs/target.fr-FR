@@ -5,7 +5,7 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
 
 | SDK Target | Actions suggérées |
 |--- |--- |
-| [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} | Assurez-vous d’utiliser la version 2.6.0 ou ultérieure de Platform Web SDK. Pour plus d’informations sur le téléchargement de la dernière version de Platform Web SDK, consultez [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr){target=_blank} dans le guide *Présentation de Platform Web SDK*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version de Platform Web SDK, consultez [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) dans le guide *Présentation de Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank} | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=fr){target=_blank}. Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains plug-ins qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolète), mais pas dans at.js, sont diffusés, mais échouent. |
+| [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} | Assurez-vous d’utiliser la version 2.6.0 ou ultérieure de Platform Web SDK. Pour plus d’informations sur le téléchargement de la dernière version de Platform Web SDK, consultez [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} dans le guide *Présentation de Platform Web SDK*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version de Platform Web SDK, consultez [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) dans le guide *Présentation de Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains plug-ins qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolète), mais pas dans at.js, sont diffusés, mais échouent. |
 
 ## Utilisation de jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
 
    Pour plus d’informations :
 
-   * **Platform Web SDK** : consultez la section [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) dans le guide *Présentation de Platform Web SDK*.
-   * **at.js** : consultez la section [Téléchargement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=fr){target=_blank}.
+   * **Platform Web SDK** : consultez la section [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le guide *Présentation de Platform Web SDK*.
+   * **at.js** : consultez la section [Téléchargement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -58,7 +58,7 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    |  | `profile.categoryAffinity` | Renvoie la catégorie préférée du visiteur. |
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Détails de l’activité courante.<br> Notez que les valeurs des paramètres d’offre sont évaluées au niveau de l’expérience. |
-   | Géo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
+   | Géo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
    | Méthode d’affectation du trafic <br>(s’applique uniquement aux activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ». |
    |  | `experience.trafficAllocationType` | Renvoie « contrôle » ou « ciblé ». |
 
@@ -147,7 +147,7 @@ L’exemple de réponse suivant ajoute un gestionnaire d’événements personna
 
 ### ![badge at.js](/help/main/assets/atjs.png) at.js avec des événements personnalisés
 
-Utilisez des événements personnalisés [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=fr){target=_blank} pour écouter la réponse [!DNL Target] et lire les jetons de réponse.
+Utilisez des événements personnalisés [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank} pour écouter la réponse [!DNL Target] et lire les jetons de réponse.
 
 L’échantillon de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL at.js] directement dans la page HTML :
 
@@ -426,4 +426,4 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 >
 >La vidéo mentionne `option.name` et `option.id`, qui ont été remplacées par `offer.name` et `offer.id`, respectivement.
 
->[!VIDEO](https://video.tv.adobe.com/v/33875?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
