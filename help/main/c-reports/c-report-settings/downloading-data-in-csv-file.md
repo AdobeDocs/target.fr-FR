@@ -4,10 +4,10 @@ description: Découvrez comment télécharger des données d’activités Adobe 
 title: Comment Télécharger Les Données D’Un Rapport Dans Un Fichier CSV ?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 34%
+source-wordcount: '732'
+ht-degree: 30%
 
 ---
 
@@ -26,6 +26,20 @@ Pour télécharger les données dans un fichier CSV, procédez comme suit :
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
+
+## Format de téléchargement CSV pour la popularité et les algorithmes basés sur des clés {#format}
+
+Le fichier de téléchargement CSV reflète de manière cohérente les résultats générés après l’exécution des critères du serveur principal.
+
+**Pour les algorithmes de popularité (non basés sur une clé), le fichier comprend :**
+
+* Une ligne de recommandations de sauvegarde précédée d’un *
+* Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
+
+**Pour les algorithmes basés sur des clés, le fichier comprend :**
+
+* Une ligne de sauvegarde similaire aux algorithmes de popularité
+* Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
