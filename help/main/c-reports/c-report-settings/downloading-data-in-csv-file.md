@@ -4,7 +4,7 @@ description: Découvrez comment télécharger des données d’activités Adobe 
 title: Comment Télécharger Les Données D’Un Rapport Dans Un Fichier CSV ?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
+source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 30%
@@ -26,20 +26,6 @@ Pour télécharger les données dans un fichier CSV, procédez comme suit :
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-## Format de téléchargement CSV pour la popularité et les algorithmes basés sur des clés {#format}
-
-Le fichier de téléchargement CSV reflète de manière cohérente les résultats générés après l’exécution des critères du serveur principal.
-
-**Pour les algorithmes de popularité (non basés sur une clé), le fichier comprend :**
-
-* Une ligne de recommandations de sauvegarde précédée d’un *
-* Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
-
-**Pour les algorithmes basés sur des clés, le fichier comprend :**
-
-* Une ligne de sauvegarde similaire aux algorithmes de popularité
-* Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -83,6 +69,20 @@ Le rapport [!UICONTROL Order Details] affiche des informations sur vos commandes
 >
 >* Le rapport de commande comprend quatre semaines de données pour l’environnement par défaut (groupe d’hôtes) et deux semaines de données pour tous les autres environnements qui ne sont pas des environnements par défaut.
 >* Mesures de revenus définies sur « [!UICONTROL Increment count and keep the user in the activity] » détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas le chiffre d&#39;affaires au RPV/AOV/Ventes et ne sont pas incluses dans l&#39;état [!UICONTROL Order Details].
+
+## Format de téléchargement CSV pour la popularité et les algorithmes basés sur des clés {#format}
+
+Le fichier de téléchargement CSV reflète de manière cohérente les résultats générés après l’exécution des critères du serveur principal.
+
+**Pour les algorithmes de popularité (non basés sur une clé), le fichier comprend :**
+
+* Une ligne de recommandations de sauvegarde précédée d’un *
+* Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
+
+**Pour les algorithmes basés sur des clés, le fichier comprend :**
+
+* Une ligne de sauvegarde similaire aux algorithmes de popularité
+* Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
 
 ## Bonnes pratiques
 
