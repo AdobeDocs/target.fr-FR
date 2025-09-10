@@ -4,9 +4,9 @@ description: Découvrez comment prévisualiser votre activité Adobe [!DNL Targe
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ Pour d’autres types d’algorithmes basés sur une valeur de clé, tels que [!
 >[!NOTE]
 >
 >Les téléchargements de résultats ne sont pas disponibles pour les activités contenant un algorithme de [!UICONTROL User-Based Recommendations]. Les résultats téléchargés ne sont pas disponibles pour les critères utilisant la logique de recommandation [!UICONTROL Recently-Viewed Items].
+
+### Format de téléchargement CSV pour les algorithmes basés sur la popularité et les clés {#format}
+
+Le fichier de téléchargement CSV reflète de manière cohérente les résultats générés après l’exécution des critères du serveur principal.
+
+* **Pour les algorithmes basés sur la popularité (non basés sur une clé), le fichier comprend :**
+
+   * Une ligne de recommandations de sauvegarde précédée d’un * (astérisque)
+   * Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
+
+* **Pour les algorithmes basés sur des clés, le fichier comprend :**
+
+   * Une ligne de sauvegarde similaire aux algorithmes basés sur la popularité
+   * Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
 
 ## Activation de votre activité Recommendations
 
