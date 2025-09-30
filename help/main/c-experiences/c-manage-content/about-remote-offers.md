@@ -4,9 +4,9 @@ description: Découvrez comment exploiter les offres distantes dans  [!DNL Targe
 title: Comment Créer Des Offres À Distance ?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 19%
 
 Utilisez des offres distantes pour héberger du contenu en dehors de [!DNL Adobe Target], ce qui [!DNL Target] permet de référencer et de diffuser ce contenu sur les sites web des utilisateurs et utilisatrices. Ce contenu peut se trouver dans un système de gestion de contenu (CMS) ou un autre système pour des raisons de facilité d’utilisation ou de sécurité.
 
-Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
+Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
 
 Voici quelques exemples d’offres distantes :
 
@@ -31,6 +31,17 @@ Voici quelques exemples d’offres distantes :
 ## Bonnes pratiques relatives à l’utilisation des offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités :
+
+* Les offres distantes sont prises en charge dans :
+
+   * Activités A/B
+   * Activités de ciblage d’expérience (XT)
+   * Workflows basés sur des formulaires
+
+* Les offres distantes ne sont pas prises en charge dans :
+
+   * [Fonctionnalités Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), ciblage automatique et Recommendations)
+   * Multivariate Testing (MVT), en raison de la dépendance au VEC (compositeur d’expérience visuelle), qui ne prend pas en charge les offres distantes.
 
 * Si votre offre réside dans le même domaine que les requêtes [!DNL Target], l’utilisation de l’option [!UICONTROL Cached] vous permet d’utiliser des URL relatives pour décrire l’emplacement de votre offre.
 
