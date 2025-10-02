@@ -25,7 +25,7 @@ ht-degree: 27%
 
 L’équipe [!DNL Target] a ajusté la chronologie de l’obsolescence du bouton (bascule) de version de l’interface utilisateur.
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
 >[!TAB Nouveautés]
 
@@ -33,7 +33,7 @@ L’équipe [!DNL Target] a ajusté la chronologie de l’obsolescence du bouton
 
 Cette version se concentre sur les correctifs et les améliorations apportés à l’interface utilisateur et au [!DNL Target] de [!UICONTROL Visual Experience Composer] mis à jour (VEC).
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
 
 >[!TAB  Mise à jour de l’interface utilisateur de Target ]
 
@@ -41,13 +41,13 @@ Cette version se concentre sur les correctifs et les améliorations apportés à
 
 L’interface utilisateur est conçue pour être claire et efficace et vous aider à tirer le meilleur parti de [!DNL Target]. Explorez les ressources qui vous aideront à vous mettre rapidement à jour, avec des liens directs vers des articles détaillés et des instructions détaillées.
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/understand-the-target-ui.md)
 
 FAQ sur la mise à jour de l’interface utilisateur de *[!DNL *Targe]t**
 
 Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
 >[!TAB Assistant IA]
 
@@ -55,7 +55,7 @@ Cette FAQ aborde les questions courantes à propos de la nouvelle interface util
 
 [!DNL AI Assistant] est votre guide de navigation [!DNL Adobe Experience Cloud]. Disponible dans des produits comme [!DNL Target], [!DNL AI Assistant] vous aide à comprendre rapidement les concepts et fonctionnalités clés, directement depuis l’interface.
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/ai-assistant.md)
 
 >[!TAB Ressources Target]
 
@@ -63,7 +63,7 @@ Cette FAQ aborde les questions courantes à propos de la nouvelle interface util
 
 [!DNL Target] de documentation dans plusieurs formats : guides détaillés de l’interface utilisateur, ressources pour les développeurs (y compris les SDK et les API), tutoriels, vidéos, webinaires et forums communautaires dynamiques.
 
-[![ Icône En savoir plus ](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/target-documentation.md)
 
 >[!ENDTABS]
 
@@ -82,8 +82,8 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 - [[!DNL Target] notes de mise à jour](r-release-notes/release-notes.md) : contient des informations sur la version actuelle, ainsi que sur les problèmes connus de [!DNL Target], une liste des modifications importantes apportées à cette documentation et une archive des notes de mise à jour antérieures.
 - [Présentation de  [!DNL Target]](c-intro/intro.md) : explique les concepts de base de la [!DNL Target].
-- [Comprendre l’interface utilisateur [!DNL Target]  ](/help/main/c-intro/understand-the-target-ui.md) : permet de vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
-- [[!UICONTROL AI Assistant] présentation ](/help/main/c-intro/ai-assistant.md) : [!DNL AI Assistant] dans A[!DNL dobe Experience Platform] est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour parcourir et comprendre les concepts [!DNL Adobe Target].
+- [Comprendre l’interface utilisateur [!DNL Target]  &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : permet de vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+- [[!UICONTROL AI Assistant] présentation &#x200B;](/help/main/c-intro/ai-assistant.md) : [!DNL AI Assistant] dans A[!DNL dobe Experience Platform] est une fonctionnalité d’interface utilisateur que vous pouvez utiliser pour parcourir et comprendre les concepts [!DNL Adobe Target].
 - Intégration de [!DNL Target] à l’[!DNL Adobe Experience Cloud] : explique comment intégrer [!DNL Target] à d’autres solutions [!DNL Experience Cloud], y compris [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [[!DNL Experience Cloud Audiences]](/help/main/c-integrating-target-with-mac/mmp.md) et [[!DNL Adobe Campaign]](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [[!DNL Adobe Target] Tutoriels](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr) : fournit des tutoriels et des vidéos pour vous aider à tirer le meilleur parti de [!DNL Target].
 - [Dépannage  [!DNL Target]](r-troubleshooting-target/troubleshooting-target.md) : fournit des liens vers les informations de dépannage contenues dans ce guide, y compris des informations sur les limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et autres éléments dans [!DNL Target].
