@@ -2,24 +2,24 @@
 keywords: déduplication;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;
 description: Gérer les exclusions dans les activités [!UICONTROL Automated Personalization] (AP).
 title: Comment gérer les exclusions dans les activités [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: e620cd189e2783ba3abbe93bb9c5000866c41b99
+source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 28%
+source-wordcount: '482'
+ht-degree: 21%
 
 ---
 
 # Gestion des exclusions
 
-Gérez les exclusions en excluant les offres en double, en excluant les expériences spécifiques et en excluant le contenu par défaut dans les activités [!UICONTROL Automated Personalization] (AP) de [!DNL Adobe Target].
+Contrôlez votre stratégie [!UICONTROL Automated Personalization] (AP) en maîtrisant les exclusions. Que vous préviez les offres en double, affiniez les combinaisons d’expériences ou supprimiez le contenu par défaut, les exclusions vous permettent de proposer des expériences plus propres et plus pertinentes, conformes à vos objectifs et aux attentes de votre audience.
 
 ## Autoriser ou interdire les offres en double {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
-Empêcher la duplication des offres de la bibliothèque des offres lorsqu&#39;elles sont utilisées à différents emplacements dans des activités [!UICONTROL Automated Personalization].
+Empêcher la duplication des offres de la bibliothèque des offres lorsqu&#39;elles sont utilisées à différents emplacements dans des activités AP.
 
 Vous pouvez par exemple avoir une activité avec six emplacements sur une page comportant 12 offres. Il existe un risque que la même offre soit placée dans un ou plusieurs emplacements de cette activité. Cette fonctionnalité permet d’empêcher l’affichage simultané d’offres en double à différents emplacements d’une même activité.
 
@@ -27,7 +27,7 @@ Vous pouvez par exemple avoir une activité avec six emplacements sur une page c
 
 ## Exclure des expériences spécifiques {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
-Excluez des expériences spécifiques si vous souhaitez exclure certaines combinaisons d’offres de votre activité [!UICONTROL Automated Personalization].
+Excluez des expériences spécifiques si vous souhaitez exclure certaines combinaisons d’offres de votre activité AP.
 
 Certaines combinaisons peuvent ne pas fonctionner ensemble, ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
 
@@ -47,7 +47,7 @@ Certaines combinaisons peuvent ne pas fonctionner ensemble, ou vous pouvez limit
 
 ## Exclure le contenu par défaut {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Parfois, vous ne souhaitez pas inclure votre contenu par défaut dans le cadre de votre activité [!UICONTROL Automated Personalization]. Vous pouvez appliquer cette méthode de manière à conserver une seule offre (différente de votre contenu par défaut) à un emplacement donné dans le cadre de votre activité AP.
+Parfois, vous pouvez ne pas vouloir inclure votre contenu par défaut dans votre activité AP. Vous pouvez utiliser cette méthode pour n’avoir qu’une seule offre (différente de votre contenu par défaut) à un emplacement dans le cadre de votre activité.
 
 L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspect du reste de la page pour l’adapter aux offres que vous testez avec votre activité AP. Supposons par exemple que vous souhaitiez faire correspondre la palette de couleurs des offres que vous testez ; dans ce cas, vous pouvez modifier la couleur d’arrière-plan de votre page et exclure la couleur d’arrière-plan par défaut.
 
@@ -56,8 +56,9 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), sélectionnez le contenu à remplacer et cliquez pour accéder aux **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image Offer]** ou **[!UICONTROL Change Background Color]**. Les options disponibles varient en fonction du type de contenu.
 
    ![Modifier les options](/help/main/c-activities/t-automated-personalization/assets/options.png)
+1. Créez votre nouveau contenu.
 
-1. Créez votre nouveau contenu et désélectionnez **Inclure** à droite du contenu par défaut (ou désélectionnez l’option Image/vidéo par défaut dans l’écran de [!UICONTROL Select Content]).
+1. Cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/Setting.svg) ), puis sur le bouton **Exclure l’offre par défaut/Inclure la valeur par défaut**/ pour exclure ou inclure l’offre par défaut.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
