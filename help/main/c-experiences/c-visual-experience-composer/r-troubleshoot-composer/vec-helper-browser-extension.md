@@ -39,7 +39,7 @@ Malheureusement, les API d’extension Chrome qui interceptent les requêtes web
 
 Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application, puis activer la case à cocher « Contourner pour le réseau » sous la section Service Workers.
 
-* Vous utilisez Google Chrome 80+ avec des politiques améliorées d’application des cookies SameSite. Pour plus d’informations, consultez [Comment les politiques d’application des cookies SameSite récemment annoncées par Google Chrome affectent-elles le VEC et l’EEC ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) ?
+* Vous utilisez Google Chrome 80+ avec des politiques améliorées d’application des cookies SameSite. Pour plus d’informations, consultez [Comment les politiques d’application des cookies SameSite récemment annoncées par Google Chrome affectent-elles le VEC et l’EEC &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) ?
 
 L’extension de navigateur VEC Helper pour Chrome résout les problèmes de chargement du site pour lesquels les clients se fient désormais au [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou à des extensions tierces, telles que Requestly.
 
