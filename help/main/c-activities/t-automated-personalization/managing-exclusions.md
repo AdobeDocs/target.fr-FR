@@ -2,13 +2,13 @@
 keywords: déduplication;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;
 description: Gérer les exclusions dans les activités [!UICONTROL Automated Personalization] (AP).
 title: Comment gérer les exclusions dans les activités [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
    ![Modifier les options](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Créez votre nouveau contenu.
 
-1. Cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/Setting.svg) ), puis sur le bouton **Exclure l’offre par défaut/Inclure la valeur par défaut**/ pour exclure ou inclure l’offre par défaut.
+1. Cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/Setting.svg) ), puis sur le bouton (bascule) **Exclure l’offre par défaut/Inclure l’offre par défaut**/ pour exclure ou inclure l’offre par défaut.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
