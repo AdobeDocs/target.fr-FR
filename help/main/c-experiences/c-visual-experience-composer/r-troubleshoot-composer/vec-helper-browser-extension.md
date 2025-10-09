@@ -4,7 +4,7 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension d’assistance [!UICONTROL Visual Experience Composer] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 55%
@@ -56,7 +56,7 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 
 ## Obtenir et installer l’extension d’assistance du compositeur d’expérience visuelle
 
-1. Accédez à l’extension de navigateur [Adobe Target VEC Helper dans la boutique en ligne Chrome](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Accédez à l’extension de navigateur [Adobe Target VEC Helper dans la boutique en ligne Chrome](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
 1. Cliquez sur **[!UICONTROL Add to Chrome > Add Extension]**.
 1. Ouvrez le VEC dans [!DNL Target].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension du navigateur d’assistance de VEC (![icône de l’assistant de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) dans la barre d’outils du navigateur Chrome lorsque vous êtes en mode VEC ou en [mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md).
