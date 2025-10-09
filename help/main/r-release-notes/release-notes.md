@@ -6,9 +6,9 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
+source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
 workflow-type: tm+mt
-source-wordcount: '5412'
+source-wordcount: '4858'
 ht-degree: 7%
 
 ---
@@ -23,57 +23,11 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 [!BADGE Important]{type=Informative}
 
-Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe]fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
+Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
 
 ### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
 
-+++Afficher les détails
-L’équipe [!DNL Target] propose une fonctionnalité temporaire qui vous permet de basculer entre l’interface utilisateur de [!DNL Target] mise à jour et la version héritée à l’aide d’un bouton bascule. Cette option n’est disponible que pendant la phase finale du déploiement de l’interface utilisateur.
-
-![Basculement de la version de l’interface utilisateur de Target](/help/main/r-release-notes/assets/toggle.png)
-
-Une fois le déploiement terminé, le bouton (bascule) est supprimé et tous les utilisateurs passent définitivement à l’interface utilisateur mise à jour. [!DNL Adobe] recommande de planifier l’avenir, car cette fonctionnalité sera bientôt supprimée.
-
-#### Chronologie de l’obsolescence
-
-En raison de problèmes récents identifiés, principalement liés à des personnalisations client complexes, l’équipe [!DNL Target] a ajusté le calendrier d’abandon :
-
-* **17 juin 2025** : toutes les organisations IMS ont été activées pour l’interface utilisateur [!DNL Target] mise à jour, pour des utilisateurs spécifiques ou à l’échelle de l’organisation, afin de commencer à tester la nouvelle expérience.
-
-* **30 juin 2025** : l’[updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) est devenue l’expérience par défaut pour toutes les organisations IMS qui ont activé le bouton (bascule) de version de l’interface utilisateur.
-
-   * Les clients qui consultent actuellement l’interface utilisateur héritée, par défaut, voient désormais l’interface utilisateur mise à jour lors de la connexion.
-   * Le bouton (bascule) de version de l’interface utilisateur reste disponible jusqu’à la fin juillet, ce qui permet aux utilisateurs et utilisatrices de revenir en arrière si nécessaire.
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe] recommande vivement d’utiliser l’interface utilisateur de [!DNL Target] mise à jour. Revenez à l’interface utilisateur héritée uniquement si un problème de blocage se produit, en raison des [limitations du comportement du bouton (bascule)](#limitations).
-
-* **du 15 au 30 juillet 2025** : le bouton (bascule) de version de l’interface utilisateur sera désactivé définitivement par phases. Les organisations IMS affectées ne peuvent plus revenir à l’interface utilisateur héritée.
-
-   * Les exceptions sont examinées au cas par cas.
-   * Les délais d’abandon du bouton (bascule) ne sont accordés que brièvement (quelques jours) pendant que les problèmes de blocage sont résolus.
-
-Contactez l’[Assistance clientèle d’Adobe](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) si vous avez des inquiétudes ou si vous prévoyez des problèmes au cours de cette transition.
-
-#### Limites du comportement du bouton (bascule) de l’interface utilisateur {#limitations}
-
-Les informations suivantes décrivent les limites que vous devez connaître lorsque vous choisissez d’utiliser le bouton (bascule) de version :
-
-* **Visibilité des nouvelles activités** : les activités créées dans l’interface utilisateur mise à jour ne seront pas visibles si vous revenez à l’interface utilisateur héritée.
-* **Modification d’activités existantes** : les modifications apportées à des activités existantes (créées à l’origine dans l’interface utilisateur héritée) lors de l’utilisation de l’interface utilisateur mise à jour sont publiées sur votre site web. Toutefois, ces mises à jour ne sont pas visibles dans l’interface utilisateur héritée si vous revenez en arrière ; seules les dernières mises à jour effectuées à partir de l’interface utilisateur héritée y apparaissent.
-* **Cohérence des détails de l’activité** : les modifications les plus récentes, quelle que soit l’interface utilisateur que vous utilisez, sont répercutées sur votre site web actif. Cependant, l’interface utilisateur héritée n’affiche que les dernières modifications apportées à partir de cette version. Cette situation peut prêter à confusion si les activités modifiées dans l’interface utilisateur mise à jour ont un aspect différent de celui de l’interface utilisateur héritée.
-
-#### Plus de ressources pour en savoir plus sur l’interface utilisateur mise à jour
-
-* [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) : cette FAQ aborde les questions courantes sur la nouvelle interface utilisateur [!DNL Target] et le nouveau [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, les emplacements de fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
-* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
-* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
-* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
-* [[!UICONTROL Visual Experience Composer] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
-* [[!UICONTROL Visual Experience Composer] options ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
-
-+++
+Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 
 ## [!DNL Target Standard/Premium] 25.9.3 (30 septembre 2025)
 
@@ -141,14 +95,14 @@ Cette version comprend les améliorations et correctifs suivants :
 
 +++Afficher les détails
 * **Correction d’un problème en raison duquel les activités ne pouvaient pas être copiées en raison d’identifiants d’audience non valides.** Les clients et clientes qui tentent de copier des activités dans le processus de création d’activités mis à jour ont rencontré une erreur due à des ID d’audience non valides (par exemple, -1752722444307). Ce problème de validation du serveur principal a empêché la duplication des activités dans le même espace de travail. Ce problème a été résolu, et les activités peuvent désormais être copiées sans erreurs liées aux audiences. (TGT-53717)
-* **Correction d’un problème en raison duquel des erreurs d’entrée utilisateur non valides s’affichaient pour les audiences d’activité uniquement dans les activités [!UICONTROL Automated Personalization] la fenêtre modale [!UICONTROL Manage Content].** clients ont rencontré des erreurs d’entrée utilisateur non valides lors de la configuration des audiences d’activité uniquement dans la boîte de dialogue modale [!UICONTROL &#x200B; Manage Content] pour les activités AP. Ce problème se produisait malgré l’utilisation réussie des audiences précédentes. Les configurations d’audience combinées s’enregistrent désormais correctement sans déclencher d’erreurs de validation. (TGT-53749)
+* **Correction d’un problème en raison duquel des erreurs d’entrée utilisateur non valides s’affichaient pour les audiences d’activité uniquement dans les activités [!UICONTROL Automated Personalization] la fenêtre modale [!UICONTROL Manage Content].** clients ont rencontré des erreurs d’entrée utilisateur non valides lors de la configuration des audiences d’activité uniquement dans la boîte de dialogue modale [!UICONTROL  Manage Content] pour les activités AP. Ce problème se produisait malgré l’utilisation réussie des audiences précédentes. Les configurations d’audience combinées s’enregistrent désormais correctement sans déclencher d’erreurs de validation. (TGT-53749)
 
 +++
 
 **Documentation**
 
 +++Afficher les détails
-* **Déplacement des pages de documentation de Web SDK spécifiques à Target vers le référentiel Adobe Target.** Dans le cadre de la restructuration de la documentation de Web SDK, le contenu spécifique à [!DNL Target] a été migré de la documentation générale de Web SDK vers le [!DNL Adobe Target] [guide de développement](https://experienceleague.adobe.com/fr/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Cette modification améliore la visibilité du contenu et garantit que l’équipe produit appropriée maintient les conseils spécifiques à la solution. (TGT-53374)
+* **Déplacement des pages de documentation de Web SDK spécifiques à Target vers le référentiel Adobe Target.** Dans le cadre de la restructuration de la documentation de Web SDK, le contenu spécifique à [!DNL Target] a été migré de la documentation générale de Web SDK vers le [!DNL Adobe Target] [guide de développement](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}. Cette modification améliore la visibilité du contenu et garantit que l’équipe produit appropriée maintient les conseils spécifiques à la solution. (TGT-53374)
 
 +++
 
@@ -224,7 +178,7 @@ Mise à jour de la logique de validation pour [!DNL Target] connexions de destin
 * Un même identifiant de flux de données peut être utilisé pour différentes connexions uniquement si elles sont configurées dans différents sandbox.
 * Cette règle s’applique à toutes les sélections de flux de données, y compris lorsque l’option « Aucun » est sélectionnée.
 
-Cette mise à jour garantit une configuration cohérente et empêche les conflits entre les environnements multi-sandbox. Pour plus d’informations, voir [Connexion Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide *Destinations Experience Platform*.
+Cette mise à jour garantit une configuration cohérente et empêche les conflits entre les environnements multi-sandbox. Pour plus d’informations, voir [Connexion Adobe Target](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide *Destinations Experience Platform*.
 
 ## [!DNL Target Standard/Premium] 25.9.1 (5 septembre 2025)
 
