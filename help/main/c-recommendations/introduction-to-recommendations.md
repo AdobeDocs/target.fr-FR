@@ -81,7 +81,7 @@ La création de votre implémentation de recommandations comprend trois grandes 
 
 Lorsque vous commencez à utiliser [!DNL Recommendations], vous transmettez des informations sur chaque article à recommander. [!DNL Target] propose plusieurs options d’intégration pour créer votre catalogue.
 
-![Illustration montrant comment apprendre votre contexte et vos produits à Target ](/help/main/c-recommendations/assets/intro-7.png)
+![Illustration montrant comment apprendre votre contexte et vos produits à Target &#x200B;](/help/main/c-recommendations/assets/intro-7.png)
 
 La méthode la plus simple et la plus souvent utilisée consiste à envoyer un fichier CSV tous les jours ou toutes les semaines depuis votre système de gestion des informations sur les produits ou de votre système de gestion de contenu. Vous pouvez également transmettre des informations sur la couche de données depuis votre page à l’aide de la bibliothèque JavaScript [!DNL Adobe Target], utiliser nos API pour transmettre des informations directement depuis votre système source ou tirer parti de notre intégration [!DNL Adobe Analytics] si vous transmettez déjà des données de catalogue à [!DNL Analytics].
 
