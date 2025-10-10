@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
+source-git-commit: d62d3ddece7227a7ef810fbf63758a6afb075852
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 62%
+source-wordcount: '171'
+ht-degree: 71%
 
 ---
 
@@ -24,10 +24,6 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >* Pour afficher des informations sur la version actuelle, voir [ Notes de mise à jour de Target ](release-notes.md).
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
-
-## [!DNL Target Standard/Premium] 25.10.1 (9 octobre 2025)
-
-Cette version devrait sortir le 9 octobre 2025. Cette page sera fréquemment mise à jour, en particulier au cours de la semaine précédant la publication.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
