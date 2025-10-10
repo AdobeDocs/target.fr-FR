@@ -2,13 +2,13 @@
 keywords: recommandations;intro;introduction;webinaire;démo
 description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
 title: Que sont les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ Les marketeurs utilisent [!DNL Adobe Target] pour proposer des expériences pers
 * **Publication** : les éditeurs web utilisent [!DNL Target Recommendations] pour recommander des articles aux visiteurs du site et augmenter l’engagement.
 * **Tutoriels vidéo** : [!DNL Adobe Creative Cloud] utilise [!DNL Target] pour recommander des tutoriels vidéo aux utilisateurs de Photoshop dans l’application Photoshop.
 * **Jeux** : les éditeurs de jeux utilisent [!DNL Target] pour recommander sur leurs consoles des jeux et du contenu aux utilisateurs.
-* **Ventes B2B** : [les entreprises B2B utilisent Target pour recommander des vidéos, des articles techniques et des publications de blog aux prospects B2B, proposer des téléchargements et offrir une aide aux clients existants](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **Ventes B2B** : les entreprises B2B utilisent Target pour recommander des vidéos, des articles techniques et des publications de blog aux prospects B2B, proposer des téléchargements et fournir une aide aux clients existants.
 
 * **Tourisme** : [une agence de voyages allemande utilise Target pour recommander des hôtels et d’autres services aux voyageurs](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Vente au détail** : [un détaillant B2B important utilise Target pour recommander des catégories et des produits aux visiteurs récurrents dans le navigateur et son application mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
+* **Vente au détail** : un retailer B2B de premier plan utilise [!DNL Target] pour recommander des catégories et des produits aux visiteurs récurrents dans le navigateur et son application mobile.
 
 Ce ne sont que quelques exemples de la façon dont les clients utilisent Target pour proposer des recommandations personnalisées.
 
@@ -129,9 +129,9 @@ Une activité de [!DNL Recommendations] est constituée des composants suivants�
 
 ![Illustration montrant les éléments qui constituent une activité Recommendations : audiences, critères et conceptions](/help/main/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] comprend 14 audiences, 42 critères et 10 modèles de conception intégrés, prêts à l’emploi. Vous pouvez personnaliser chaque élément ou ajouter les vôtres. Des webinaires [sur la création d’audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) ont déjà été organisés en [!DNL Target]. Cette section est axée sur la définition des critères qui définissent les éléments recommandés.
+[!DNL Target] comprend 14 audiences, 42 critères et 10 modèles de conception intégrés, prêts à l’emploi. Vous pouvez personnaliser chacun de ces éléments ou ajouter les vôtres.
 
-Target utilise le concept de carte de critères. Une carte de critères peut être comparée à une recette pour la personnalisation.
+[!DNL Target] utilise le concept de la carte des critères. Une carte de critères peut être comparée à une recette pour la personnalisation.
 
 ![Illustration d’une carte de critères](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Par exemple, dans le contexte du contenu, vous pouvez exclure les films que le v
 ## Démonstration
 
 Une fois que vous avez effectué les tâches illustrées dans l’entonnoir de recommandation décrit ci-dessus, vous obtenez votre recommandation finale. Pour regarder une démonstration intégrée au produit dans [!DNL Target], la démonstration commence à la 21e :00 du *webinaire sur les bases d’Adobe Target*, dont les liens figurent ci-dessous.
-
-## Webinaire sur les bases d’Adobe [!DNL Target] : présentation de Recommendations {#intro-to-recs}
-
-[Présentation de Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
