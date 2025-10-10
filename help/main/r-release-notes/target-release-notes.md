@@ -21,7 +21,7 @@ Cet article contient des informations sur les prochaines versions d’[!DNL Adob
 >
 >* Les dates de publication, fonctions et autres informations peuvent changer sans préavis. Les informations de cet article sont mises à jour fréquemment, en particulier avant les versions .
 >
->* Pour afficher des informations sur la version actuelle, voir [ Notes de mise à jour de Target ](release-notes.md).
+>* Pour afficher des informations sur la version actuelle, voir [&#x200B; Notes de mise à jour de Target &#x200B;](release-notes.md).
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
