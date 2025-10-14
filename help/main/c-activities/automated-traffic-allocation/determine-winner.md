@@ -17,7 +17,7 @@ Interpréter les résultats d’une activité A/B [!UICONTROL Auto-Allocate] dan
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. [!DNL Target] vous permet de déterminer plus facilement le gagnant.
 
-Pour obtenir des informations générales sur la manière de désigner un gagnant, consultez [ Dix pièges courants des tests A/B et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+Pour obtenir des informations générales sur la manière de désigner un gagnant, consultez [&#x200B; Dix pièges courants des tests A/B et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifier l’expérience gagnante {#section_24007470CF5B4D30A06610CE8DD23CE3}
 

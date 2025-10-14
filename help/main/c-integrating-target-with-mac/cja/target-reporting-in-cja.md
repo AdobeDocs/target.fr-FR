@@ -180,4 +180,4 @@ L’onglet Rapports comporte un lien **[!UICONTROL View in Customer Journey Anal
 
    Le panneau [!UICONTROL Experimentation] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les performances de vos expériences. Pour plus d’informations, voir [[!UICONTROL Panel output]](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
 
-   ![ Expérimentation ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+   ![&#x200B; Expérimentation &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

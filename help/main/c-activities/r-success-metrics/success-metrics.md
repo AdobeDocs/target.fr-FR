@@ -59,7 +59,7 @@ Pour accéder aux options de [!UICONTROL Advanced Settings], cliquez sur l’ic�
 
 ![Menu Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Pour plus d’informations sur les options de [!UICONTROL Advanced Settings] (« [!UICONTROL What will happen after a user encounters this goal] » et « [!UICONTROL How will the count be incremented] »), voir [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice rencontre cette mesure d’objectif ](#what-happens) ?
+Pour plus d’informations sur les options de [!UICONTROL Advanced Settings] (« [!UICONTROL What will happen after a user encounters this goal] » et « [!UICONTROL How will the count be incremented] »), voir [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice rencontre cette mesure d’objectif &#x200B;](#what-happens) ?
 
 >[!NOTE]
 >

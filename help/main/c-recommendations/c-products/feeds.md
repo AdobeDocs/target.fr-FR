@@ -121,7 +121,7 @@ Si vous disposez d’un [!DNL Google Product Feed] existant, vous pouvez l’uti
 >
 >Il n’est pas nécessaire d’utiliser les données [!DNL Google]. [!DNL Recommendations] utilise le même format que [!DNL Google]. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Cependant, vous devez conserver les noms d’attributs prédéfinis [!DNL Google] lors de la configuration du fichier.
 
-La plupart des détaillants chargent des produits sur [!DNL Google]. Ainsi, lorsqu’un visiteur utilise la recherche de produits [!DNL Google], ses produits s’affichent. [!DNL Recommendations] suit exactement la spécification [!DNL Google] pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Vous pouvez rechercher les résultats dans les [[!DNL Google] pages d’achat](https://www.google.com/prdhp).
+La plupart des détaillants chargent des produits sur [!DNL Google]. Ainsi, lorsqu’un visiteur utilise la recherche de produits [!DNL Google], ses produits s’affichent. [!DNL Recommendations] suit exactement la spécification [!DNL Google] pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Vous pouvez rechercher les résultats dans les [[!DNL Google] pages d’achat](https://www.google.com/prdhp).
 
 >[!NOTE]
 >

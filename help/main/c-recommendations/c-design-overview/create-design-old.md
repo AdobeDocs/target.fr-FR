@@ -43,7 +43,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** pour afficher la bibliothèque de [!UICONTROL Designs].
 
-   ![ Bibliothèque de conceptions ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![&#x200B; Bibliothèque de conceptions &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copy]**.
 

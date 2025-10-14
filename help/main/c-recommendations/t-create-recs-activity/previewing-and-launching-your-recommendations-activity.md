@@ -87,7 +87,7 @@ Un fichier CSV est téléchargé. Ouvrez-le pour afficher les éléments recomma
 
 De gauche à droite se trouve une liste des éléments recommandés, dans ce cas les plus consultés. Les recommandations sont séparées par environnement. Dans ce cas, seul l’environnement de production dispose de recommandations.
 
-Si un astérisque (*) est la première valeur d’une ligne, il indique [ éléments de sauvegarde ](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
+Si un astérisque (*) est la première valeur d’une ligne, il indique [&#x200B; éléments de sauvegarde &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
 
 Pour d’autres types d’algorithmes basés sur une valeur de clé, tels que [!UICONTROL People Who Viewed This, Viewed That], les valeurs de clé (c’est-à-dire les éléments « This ») sont répertoriées dans la colonne la plus à gauche et les éléments recommandés (c’est-à-dire les éléments « That ») sont répertoriés de gauche à droite dans les colonnes Recommendation_X.
 

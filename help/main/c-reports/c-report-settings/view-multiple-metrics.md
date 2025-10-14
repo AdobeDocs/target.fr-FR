@@ -18,7 +18,7 @@ Vous pouvez sélectionner plusieurs mesures à afficher dans un rapport [!DNL Ad
 Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures dans les rapports :
 
 * La possibilité d’afficher plusieurs mesures est disponible pour les activités [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) et [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement.
-* Vous ne pouvez pas ajouter plus de 20 mesures à un rapport pour une activité qui utilise [ Analytics for Target ](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Vous pouvez ajouter autant de mesures que vous en avez dans votre activité aux rapports pour les activités qui n’utilisent *pas* A4T.
+* Vous ne pouvez pas ajouter plus de 20 mesures à un rapport pour une activité qui utilise [&#x200B; Analytics for Target &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Vous pouvez ajouter autant de mesures que vous en avez dans votre activité aux rapports pour les activités qui n’utilisent *pas* A4T.
 * Vous ne pouvez pas utiliser l’option [Télécharger](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) pour télécharger des rapports au format CSV si vous avez sélectionné plusieurs mesures. Vous ne devez sélectionner qu’une seule mesure pour activer l’option [!UICONTROL Download].
 * Vous ne pouvez pas afficher plusieurs mesures pour les activités créées avant la version [!DNL Target] de juillet 2015 (30 juillet 2015).
 

@@ -33,7 +33,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 1. Cliquez sur **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 1. Saisissez le nom de l’offre.
-1. (Conditionnel) Si vous disposez d’un compte [[!DNL Target] Premium](/help/main/c-intro/intro.md#premium), choisissez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Conditionnel) Si vous disposez d’un compte [[!DNL Target] Premium](/help/main/c-intro/intro.md#premium), choisissez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Conditionnel) Sélectionnez les attributs de profil souhaités.
 1. Saisissez ou collez votre code JSON dans la zone de **[!UICONTROL Code]**.
 1. Cliquez sur **[!UICONTROL Create]**.

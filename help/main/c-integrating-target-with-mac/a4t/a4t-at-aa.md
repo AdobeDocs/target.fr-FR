@@ -49,7 +49,7 @@ Pour démarrer :
    * Pour utiliser [!DNL Adobe Target] pour spécifier l’objectif d’optimisation, choisissez **[!UICONTROL Conversion]** .
    * Choisissez **[!UICONTROL Use an Analytics metric]** puis sélectionnez une mesure dans [!DNL Analytics] à utiliser comme objectif d’optimisation. Vous pouvez utiliser une mesure de conversion de [!DNL Analytics] prête à l’emploi ou un événement personnalisé [!DNL Analytics].
 
-   Pour plus d’informations[ voir ](#supported) Mesures d’objectif prises en charge ci-dessous.
+   Pour plus d’informations[&#x200B; voir &#x200B;](#supported) Mesures d’objectif prises en charge ci-dessous.
 
 1. Enregistrez et activez votre activité.
 
@@ -122,7 +122,7 @@ Certaines restrictions et notes s’appliquent aux activités [!UICONTROL Auto-A
 * **Fréquence d’entraînement** : les modèles [!UICONTROL Auto-Allocate] continuent de s’entraîner toutes les heures, comme d’habitude.
 * **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour [!UICONTROL &#x200B; Auto-Allocate] activités qui utilisent A4T.
 * **Confiance** : la formule de confiance utilisée par [!UICONTROL Auto-Allocate] activités est différente de la formule affichée par défaut dans le panneau [!DNL Adobe Analytics] de [!UICONTROL A4T]. [Comme décrit ici](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [!UICONTROL Auto-Allocate] utilise des intervalles de confiance plus conservateurs que les activités de [!UICONTROL A/B Test] normales. Ces niveaux de confiance conservateurs compensent les évaluations répétées (aperçus) des données. Par conséquent, le rapport par défaut dans [!DNL Adobe Analytics] affiche des intervalles de confiance plus étroits par rapport à ceux utilisés par l’algorithme de [!UICONTROL Auto-Allocate]. Néanmoins, vous pouvez déterminer quelle expérience est favorisée par les algorithmes en fonction de quelle expérience reçoit le plus de visiteurs uniques.
-* **Statut du gagnant** : actuellement, les badges [ « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Auto-Allocate] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par [!UICONTROL Auto-Allocate].
+* **Statut du gagnant** : actuellement, les badges [&#x200B; « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Auto-Allocate] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par [!UICONTROL Auto-Allocate].
 
 ### Ciblage automatique {#at}
 
@@ -148,6 +148,6 @@ Pour plus d’informations, consultez [Comment configurer des rapports A4T dans 
 
 Ce tutoriel vous guide tout au long des modifications recommandées pour l’analyse des activités [!UICONTROL Auto-Target] dans [!DNL Analysis Workspace].
 
-Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank} dans *Tutoriels Adobe Target*.
+Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr){target=_blank} dans *Tutoriels Adobe Target*.
 
 

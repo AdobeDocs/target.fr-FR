@@ -49,9 +49,9 @@ Avant d’utiliser [!DNL Adobe Campaign] pour configurer vos offres par e-mail c
 
 * Plusieurs offres de redirection [!DNL Target]
 
-  Voir [ Création d’une offre de redirection ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+  Voir [&#x200B; Création d’une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
-* Une activité [!DNL Target] avec une expérience pour chaque offre et la [ mesure de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md) souhaitée.
+* Une activité [!DNL Target] avec une expérience pour chaque offre et la [&#x200B; mesure de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) souhaitée.
 
   Voir [Redirection vers une URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 

@@ -15,7 +15,7 @@ ht-degree: 17%
 
 Plusieurs étapes sont nécessaires lors de l’implémentation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T). Le processus varie selon que vous implémentez A4T avec le [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) ou avec at.js.
 
-## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
+## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site si vous envisagez d’utiliser le SDK Web Platform :
 

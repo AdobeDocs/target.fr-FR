@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Les paramètres personnalisés sont des paramètres mbox dans [!DNL Adobe Target]. Si vous transmettez des paramètres de mbox aux mbox ou utilisez la fonction `targetPageParams`, ces paramètres apparaissent ici pour être utilisés dans les audiences.
 
-Pour plus d’informations, voir [ Transmettre des paramètres à une mbox globale ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank}.
+Pour plus d’informations, voir [&#x200B; Transmettre des paramètres à une mbox globale &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank}.
 
 Lors de la création d’une audience personnalisée basée sur un paramètre mbox, `mboxParameter` ne vous demande plus le `mboxName`. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 

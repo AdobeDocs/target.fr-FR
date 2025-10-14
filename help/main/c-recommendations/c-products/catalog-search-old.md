@@ -89,7 +89,7 @@ Vous pouvez utiliser [!UICONTROL Advanced Search] pour affiner davantage vos ré
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Save As]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
-   ![Options Enregistrer en tant que ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Options Enregistrer en tant que &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    Pour plus d’informations, consultez [Création d’une collection ou d’une exclusion basée sur la recherche avancée](#save-as) ci-dessous.
 
@@ -99,7 +99,7 @@ Vous pouvez afficher les détails d’un élément individuel, notamment son ide
 
 1. Cliquez sur un élément dans les résultats de la recherche pour en afficher les détails.
 
-   ![ Détails du produit ](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
+   ![&#x200B; Détails du produit &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## Supprimer un élément du catalogue
 
@@ -125,7 +125,7 @@ Vous pouvez créer des [collections](/help/main/c-recommendations/c-products/col
 
 1. Cliquez sur **[!UICONTROL Save As]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
-   ![Options Enregistrer en tant que ](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Options Enregistrer en tant que &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >

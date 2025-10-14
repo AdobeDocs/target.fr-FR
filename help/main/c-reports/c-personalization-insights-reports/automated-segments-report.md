@@ -110,7 +110,7 @@ Un « segment automatisé » est semblable à une audience, mais est défini p
 
 Un segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques. Voir l’étape 5 ci-dessus pour obtenir des exemples de segment automatisé. Les segments peuvent se chevaucher.
 
-Pour en savoir plus sur l’algorithme de personnalisation de forêt aléatoire, qui constitue la base des modèles de personnalisation de Target, voir [ Algorithme de forêt aléatoire ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+Pour en savoir plus sur l’algorithme de personnalisation de forêt aléatoire, qui constitue la base des modèles de personnalisation de Target, voir [&#x200B; Algorithme de forêt aléatoire &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **Qu’est-ce qui décide de l’ordre des segments automatisés ?**
 

@@ -28,7 +28,7 @@ N’oubliez pas que [!DNL Target] diffuse les expériences de manière aléatoir
 
    La [!UICONTROL Traffic Estimator] s’ouvre.
 
-   ![ Interface utilisateur de l’estimateur de trafic ](assets/ap-est.png)
+   ![&#x200B; Interface utilisateur de l’estimateur de trafic &#x200B;](assets/ap-est.png)
 
    Vous pouvez de nouveau cliquer sur l’icône pour masquer le [!UICONTROL Traffic Estimator].
 

@@ -19,13 +19,13 @@ Il est tentant d&#39;arrêter une activité si l&#39;une des offres est plus per
 
 >[!IMPORTANT]
 >
->L’arrêt prématuré d’une activité est l’un des dix écueils importants auxquels vous pourriez être confronté lors de l’exécution de tests A/B. Pour plus d’informations, consultez [ Dix pièges courants des tests A/B et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>L’arrêt prématuré d’une activité est l’un des dix écueils importants auxquels vous pourriez être confronté lors de l’exécution de tests A/B. Pour plus d’informations, consultez [&#x200B; Dix pièges courants des tests A/B et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Adobe Target] fournit des outils pour vous assurer que votre activité dispose d’un échantillon suffisamment grand pour atteindre vos objectifs de conversion : Affectation automatique.
 
 ## Affectation automatique {#auto-allocate}
 
-Une activité [ Affectation automatique ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL Auto-Allocate] réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
+Une activité [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL Auto-Allocate] réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
 Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
@@ -35,7 +35,7 @@ La solution est [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] réduit c
 
 Lors de l’utilisation de [!UICONTROL Auto-Allocate], [!DNL Target] affiche un badge en haut de la page de l’activité indiquant « Aucun gagnant pour le moment » jusqu’à ce que l’activité atteigne le nombre minimum de conversions avec un degré de confiance suffisant. [!DNL Target] déclare ensuite l’expérience gagnante en affichant un badge en haut de la page de l’activité.
 
-Pour plus d’informations, voir [ Aperçu de l’affectation automatique ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Pour plus d’informations, voir [&#x200B; Aperçu de l’affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe [!DNL Target] Calculateur de taille d’échantillon {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 

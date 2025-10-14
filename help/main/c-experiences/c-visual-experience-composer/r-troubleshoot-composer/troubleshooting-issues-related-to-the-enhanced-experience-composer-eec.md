@@ -137,7 +137,7 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
   **Remedy:** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
 
-* **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
+* **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
   **Solution :** la question suivante (Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2) s’affiche.
 
@@ -146,7 +146,7 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 ## Le compositeur d’expérience avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement)  {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Détails
-Il se peut que le message d’erreur décrit ci-dessus s’affiche dans « Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site ». si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) ](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
+Il se peut que le message d’erreur décrit ci-dessus s’affiche dans « Le [!UICONTROL Enhanced Visual Experience Composer] ne se charge pas sur les pages sécurisées de mon site ». si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security) &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
 Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres navigateurs suivent des étapes similaires) :
 

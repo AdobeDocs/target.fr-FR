@@ -49,7 +49,7 @@ Le degré de confiance d’une expérience ou d’une offre affichée est une pr
 
 ## Comprendre comment l’intervalle de confiance de l’effet élévateur est déterminé {#pdf}
 
-Téléchargez le fichier PDF [ Intervalle de confiance pour l’effet élévateur ](/help/main/assets/confidence_interval_lift.pdf) pour plus d’informations.
+Téléchargez le fichier PDF [&#x200B; Intervalle de confiance pour l’effet élévateur &#x200B;](/help/main/assets/confidence_interval_lift.pdf) pour plus d’informations.
 
 ## Comment les limites de l’effet élévateur sont-elles calculées ? {#section_1D360781D972483693680BE0F07AEAD1}
 

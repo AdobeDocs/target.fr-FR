@@ -41,7 +41,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    Un nom descriptif vous permet, ainsi qu’à d’autres personnes, de trouver rapidement l’offre dans la bibliothèque [!UICONTROL Assets].
 
-1. (Conditionnel) Si vous disposez d’un compte [Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez l’URL du contenu ou de la destination unique vers lequel vous souhaitez rediriger. Cette URL doit être absolue.
 

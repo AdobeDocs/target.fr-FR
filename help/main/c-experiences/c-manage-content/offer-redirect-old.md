@@ -41,7 +41,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
-   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 
@@ -81,7 +81,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
-   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 

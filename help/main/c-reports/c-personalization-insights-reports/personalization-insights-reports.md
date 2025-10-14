@@ -20,7 +20,7 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 
 Tenez compte des points suivants lors de l’utilisation de rapports [!UICONTROL Personalization Insights] :
 
-* Les activités AP et AT sont disponibles dans le cadre de la [[!DNL Target Premium]  solution ](/help/main/c-intro/intro.md#premium). Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
+* Les activités AP et AT sont disponibles dans le cadre de la [[!DNL Target Premium]  solution &#x200B;](/help/main/c-intro/intro.md#premium). Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
 
 * [!UICONTROL Personalization Insights] rapports ne sont disponibles que pour les activités AP et AT configurées comme suit :
 
@@ -52,7 +52,7 @@ Tenez compte des points suivants lors de l’utilisation de rapports [!UICONTROL
 
 ## Présentation de la création de rapports Personalization Insights {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L’objectif des rapports [!UICONTROL Personalization Insights] est de fournir plus d’informations sur la manière dont les modèles de personnalisation [!UICONTROL Target] derrière vos activités AP et AT personnalisent le trafic des visiteurs. L’algorithme [ Forêt aléatoire ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
+L’objectif des rapports [!UICONTROL Personalization Insights] est de fournir plus d’informations sur la manière dont les modèles de personnalisation [!UICONTROL Target] derrière vos activités AP et AT personnalisent le trafic des visiteurs. L’algorithme [&#x200B; Forêt aléatoire &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
 
 Comme l’objectif des rapports [!UICONTROL Personalization Insights] est de comprendre comment les modèles de personnalisation [!DNL Target] ont décidé d’envoyer quel visiteur à quel(s) élément(s) de contenu, les rapports [!UICONTROL Personalization Insights] ne reflètent qu’un sous-segment de tout le trafic généré par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports [!UICONTROL Personalization Insights] ne prennent pas en compte le trafic de contrôle ou le trafic fourni par le modèle gagnant global.
 
@@ -101,5 +101,5 @@ Pour plus d’informations, voir [Utilisation des rapports Personalization Insig
 ## Blogs Adobe
 
 * Partie 1 : [Sortir du mystère de la magie du Personalization piloté par l’IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Partie 2 : [ Aperçu derrière le rideau de l’IA pour Personalization dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Partie 2 : [&#x200B; Aperçu derrière le rideau de l’IA pour Personalization dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * Partie 3 : [MAGIX — la solution au problème de la boîte noire du Personalization piloté par l&#39;IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

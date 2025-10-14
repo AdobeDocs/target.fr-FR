@@ -29,7 +29,7 @@ Vous pouvez cibler les visiteurs et visiteuses utilisant des [!DNL Adobe Target]
 
 L’illustration suivante présente une audience ciblant des visiteurs à l’aide d’un système d’exploitation Macintosh.
 
-![ image target_os ](assets/target_os.png)
+![&#x200B; image target_os &#x200B;](assets/target_os.png)
 
 ## Vidéo de formation : Création d’audiences
 

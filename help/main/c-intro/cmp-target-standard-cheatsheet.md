@@ -71,7 +71,7 @@ Utilisez le [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB
 **Comment savoir à quel moment arrêter une activité ?**
 
 +++Afficher les détails
-L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [ pièges courants et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
+L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [&#x200B; pièges courants et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 
 +++
 
@@ -85,7 +85,7 @@ Voir [rapports pour déterminer l’expérience gagnante](/help/main/c-activitie
 **Puis-je exécuter une activité avec un niveau de personnalisation faisant partie intégrante de l’activité ?**
 
 +++Afficher les détails
-Consultez le type d’activité [ Ciblage automatique ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Consultez le type d’activité [&#x200B; Ciblage automatique &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 +++
 
@@ -144,7 +144,7 @@ Cela est rendu possible par le paramètre [!UICONTROL Primary Goal] à l’étap
 **Puis-je planifier une activité qui débute et se termine à un moment précis ?**
 
 +++Afficher les détails
-Utilisez la fonction [ Planification à l’étape [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow d’activité en trois parties en spécifiant les dates de début et de fin.
+Utilisez la fonction [&#x200B; Planification à l’étape [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow d’activité en trois parties en spécifiant les dates de début et de fin.
 
 N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état [!UICONTROL Ended].
 
@@ -153,7 +153,7 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Targeting] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Vous pouvez le faire facilement en [accédant directement à l’étape de votre choix à partir de la page [!UICONTROL Activity Overview] ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) , puis en quittant cette étape à l’aide de l’option [!UICONTROL Save and Close] .
+Vous pouvez le faire facilement en [accédant directement à l’étape de votre choix à partir de la page [!UICONTROL Activity Overview] &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) , puis en quittant cette étape à l’aide de l’option [!UICONTROL Save and Close] .
 
 +++
 
@@ -232,7 +232,7 @@ Utilisez les contrôles d’affectation en pourcentage disponibles à l’étape
 +++ Afficher les détails
 Consultez les aspects suivants du produit :
 
-* [Analytics for Target (A4T) ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 

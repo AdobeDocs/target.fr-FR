@@ -30,7 +30,7 @@ N’oubliez pas que [!DNL Target] diffuse les expériences de manière aléatoir
 
    La [!UICONTROL Traffic Estimator] s’ouvre. Cliquez à nouveau sur **[!UICONTROL Traffic]** pour masquer le [!UICONTROL Traffic Estimator].
 
-   ![ Interface utilisateur de l’estimateur de trafic ](assets/ap_est.png)
+   ![&#x200B; Interface utilisateur de l’estimateur de trafic &#x200B;](assets/ap_est.png)
 
 1. Spécifiez le taux de conversion type (ou le taux de conversion attendu de cette activité), les impressions d’activité estimées par jour et la durée du test.
 

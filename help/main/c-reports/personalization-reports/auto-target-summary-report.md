@@ -60,10 +60,10 @@ Utilisez les deux listes déroulantes pour choisir les mesures souhaitées, la m
 
 Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation [!DNL Target] ont répondu aux offres/expériences dans l’activité.
 
-Pour plus d’informations, voir le rapport [ Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir le rapport [&#x200B; Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 
 Ce rapport montre comment, dans différentes activités, les différents attributs sont plus (ou moins) importants pour la manière dont le modèle décide d’effectuer la personnalisation. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
-Pour plus d’informations, consultez le rapport [ Attributs importants ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Pour plus d’informations, consultez le rapport [&#x200B; Attributs importants &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).

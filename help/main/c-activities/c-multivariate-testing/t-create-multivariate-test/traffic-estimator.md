@@ -29,7 +29,7 @@ Le [!UICONTROL Traffic Estimator] fournit également des commentaires qui vous p
 
    La [!UICONTROL Traffic Estimator] s’ouvre.
 
-   ![ Interface utilisateur de l’estimateur de trafic ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
+   ![&#x200B; Interface utilisateur de l’estimateur de trafic &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
    Vous pouvez de nouveau cliquer sur l’icône pour masquer le [!UICONTROL Traffic Estimator].
 

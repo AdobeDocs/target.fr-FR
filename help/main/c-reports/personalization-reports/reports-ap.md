@@ -55,7 +55,7 @@ Les offres peuvent être affichées dans des [groupes de rapports](/help/main/c-
 
 Cliquez sur l’icône [!UICONTROL Automated Segments] . Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
-Pour plus d’informations, voir [ Rapport Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir [&#x200B; Rapport Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 

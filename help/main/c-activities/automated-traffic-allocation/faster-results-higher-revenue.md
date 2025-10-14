@@ -37,7 +37,7 @@ L’avantage est clair : davantage de visiteurs voient les variations qui ont le
 
 Dans l’exemple suivant, [!UICONTROL Auto-Allocate] a généré davantage de chiffre d’affaires pendant le test en poussant plus de trafic (40 %) vers l’expérience D, qui avait le taux de conversion le plus élevé.
 
-![ L’affectation automatique fournit une illustration de chiffre d’affaires plus élevé](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
+![&#x200B; L’affectation automatique fournit une illustration de chiffre d’affaires plus élevé](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## Dans quels cas dois-je m’en tenir à l’affectation manuelle du trafic ?
 

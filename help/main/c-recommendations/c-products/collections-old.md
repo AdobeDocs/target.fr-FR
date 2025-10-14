@@ -52,7 +52,7 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
 1. (Conditionnel) Sélectionnez un environnement à partir du filtre **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
-   ![Création d’une collection ](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![Création d’une collection &#x200B;](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Saisissez un **[!UICONTROL Name]** pour la collection.
 

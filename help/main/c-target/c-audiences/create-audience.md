@@ -65,7 +65,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent [!DNL Chrome] 
 
    Par exemple, l’audience suivante cible les visiteurs de l’Utah à l’aide du système d’exploitation [!DNL Macintosh].
 
-   ![ Audience Utah/Macintosh ](assets/adience-builder.png)
+   ![&#x200B; Audience Utah/Macintosh &#x200B;](assets/adience-builder.png)
 
 1. (Conditionnel) Continuez à ajouter et à définir les attributs souhaités.
 

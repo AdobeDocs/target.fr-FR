@@ -90,7 +90,7 @@ Pour plus d’informations sur le choix d’une [!UICONTROL Recommendation Key],
 
 ## [!UICONTROL Backup Content] {#content}
 
-[!UICONTROL Backup Content] règles déterminent ce qui se produit si le nombre d’éléments recommandés ne remplit pas votre conception [ recommendations](/help/main/c-recommendations/c-design-overview/design-overview.md). Il est possible que [!DNL Recommendations] critères renvoient moins de recommandations que ce que votre conception appelle. Par exemple, si votre conception comporte des emplacements pour quatre éléments, mais que vos critères entraînent la recommandation de seulement deux éléments, vous pouvez laisser les emplacements restants vides, utiliser des recommandations de sauvegarde pour remplir les emplacements supplémentaires ou choisir d&#39;afficher aucune recommandation.
+[!UICONTROL Backup Content] règles déterminent ce qui se produit si le nombre d’éléments recommandés ne remplit pas votre conception [&#x200B; recommendations](/help/main/c-recommendations/c-design-overview/design-overview.md). Il est possible que [!DNL Recommendations] critères renvoient moins de recommandations que ce que votre conception appelle. Par exemple, si votre conception comporte des emplacements pour quatre éléments, mais que vos critères entraînent la recommandation de seulement deux éléments, vous pouvez laisser les emplacements restants vides, utiliser des recommandations de sauvegarde pour remplir les emplacements supplémentaires ou choisir d&#39;afficher aucune recommandation.
 
 1. (Facultatif) Faites glisser le bouton (bascule) **[!UICONTROL Partial Design Rendering]** vers la position « activé ».
 

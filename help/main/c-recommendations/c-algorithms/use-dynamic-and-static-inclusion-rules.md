@@ -31,7 +31,7 @@ Les sections suivantes comprennent davantage d’informations :
 
 1. Cliquez sur la liste déroulante **Filtre statique** dans la zone « À quelles autres règles la recommandation doit-elle se conformer ? », puis choisissez l’option de votre choix dans la liste déroulante [!UICONTROL Static Filter].
 
-   ![ Liste déroulante Filtre statique ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
+   ![&#x200B; Liste déroulante Filtre statique &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
    Les options disponibles varient en fonction du secteur industriel vertical et de la clé de recommandation sélectionnés.
 

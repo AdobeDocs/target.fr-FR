@@ -40,7 +40,7 @@ Il n’existe pas d’option clé en main permettant de comparer des [!UICONTROL
 
 +++Afficher les détails
 
-* Si vous souhaitez personnaliser une page à faible trafic ou apporter des modifications structurelles à l’expérience que vous personnalisez, pensez à utiliser une activité [!UICONTROL Auto-Target] à la place de [!UICONTROL Automated Personalization]. Voir [ Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+* Si vous souhaitez personnaliser une page à faible trafic ou apporter des modifications structurelles à l’expérience que vous personnalisez, pensez à utiliser une activité [!UICONTROL Auto-Target] à la place de [!UICONTROL Automated Personalization]. Voir [&#x200B; Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Envisagez d’effectuer une activité de [!UICONTROL A/B Test] entre les offres et les emplacements que vous prévoyez d’utiliser dans votre activité de [!UICONTROL Automated Personalization] afin de vous assurer que l’emplacement et les offres ont un impact sur l’objectif d’optimisation. Si une activité [!UICONTROL A/B Test] ne parvient pas à démontrer une différence significative, [!UICONTROL Automated Personalization] ne parvient probablement pas non plus à générer d’effet élévateur.
 
    * Si un test A/B...N ne montre aucune différence statistiquement significative entre les expériences, une ou plusieurs des situations suivantes sont probablement responsables :

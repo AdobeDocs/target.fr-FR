@@ -96,4 +96,4 @@ Pour plus d’informations, consultez [Prise en main de la nouvelle interface de
 >[!MORELIKETHIS]
 >
 >[Utiliser le concepteur web](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*
->&#x200B;>[Créez une campagne ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*
+>&#x200B;>[Créez une campagne &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*

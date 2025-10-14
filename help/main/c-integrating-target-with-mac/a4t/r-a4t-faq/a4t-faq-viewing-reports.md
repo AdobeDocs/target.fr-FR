@@ -74,7 +74,7 @@ Tenez compte des points suivants :
 * Les mesures ci-dessus se déclenchent lorsqu’un utilisateur est qualifié pour une activité et que le contenu est renvoyé par [!DNL Target]. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * [!UICONTROL Activity Impressions] (mesurée par [!DNL Target]) et [!UICONTROL Instances] (mesurée par [!DNL Analytics]) sont égales, sauf s’il existe plusieurs appels de mbox sur la même page dans la même activité. Cela entraîne le comptage de plusieurs [!UICONTROL Activity Impressions], mais d’une seule [!UICONTROL Instance].
 
-Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
+Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
 
 +++
 

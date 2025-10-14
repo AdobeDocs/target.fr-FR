@@ -68,7 +68,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Modifier l’offre JSON :** choisissez une offre json.
 
-   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [ Fragment d’expérience ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [&#x200B; Fragment d’expérience &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
    **Modifier l’offre de redirection :** sélectionnez une offre de redirection. Pour plus d’informations, voir [Création d’offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 

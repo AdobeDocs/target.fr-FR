@@ -34,7 +34,7 @@ Pour utiliser la fonctionnalité [!UICONTROL AI Assistant] dans [!UICONTROL Targ
 
    Un pop-up d’autorisations s’affiche.
 
-   ![ Paramètres de l’assistant AI ](/help/main/c-intro/assets/ai-pop-up2.png)
+   ![&#x200B; Paramètres de l’assistant AI &#x200B;](/help/main/c-intro/assets/ai-pop-up2.png)
 
 1. Utilisez le bouton (bascule) pour activer ou désactiver l’autorisation **[!UICONTROL Target AI Assistant]** pour cet utilisateur.
 

@@ -91,7 +91,7 @@ Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérat
 
 ## Voir comment fonctionne l’affectation automatique
 
-Pour plus d’informations, voir [ L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
+Pour plus d’informations, voir [&#x200B; L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
 ## Avertissements {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -139,7 +139,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activit�
 
 ### [!UICONTROL Analytics for Target] (A4T) prend-il en charge les activités [!UICONTROL Auto-Allocate] ?
 
-Oui. Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Oui. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Les visiteurs récurrents sont-ils automatiquement réaffectés à des expériences hautement performantes ?
 

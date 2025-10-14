@@ -60,7 +60,7 @@ L’étape suivante doit consister à configurer les utilisateurs dans [!DNL Tar
 
 ## Autorisations requises pour la modification des paramètres de [!UICONTROL Administration] {#admin-permissions}
 
-**Avant le 22 avril 2025** : les utilisateurs disposant de droits d’[!UICONTROL Approvers] dans le [!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la [[!UICONTROL Administration] page ](/help/main/administrating-target/administrating-target.md) page de [!DNL Target], quel que soit leur rôle de [!DNL Target].
+**Avant le 22 avril 2025** : les utilisateurs disposant de droits d’[!UICONTROL Approvers] dans le [!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la [[!UICONTROL Administration] page &#x200B;](/help/main/administrating-target/administrating-target.md) page de [!DNL Target], quel que soit leur rôle de [!DNL Target].
 
 **À compter du 22 avril 2025** : seuls les administrateurs [!UICONTROL Product] et [!UICONTROL Solutions] pourront mettre à jour les paramètres des sections [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md), quels que soient leurs rôles dans les espaces de travail [!DNL Target]. Les utilisateurs ne disposant pas de cette autorisation auront un accès en lecture seule aux sections [!UICONTROL Administration].
 

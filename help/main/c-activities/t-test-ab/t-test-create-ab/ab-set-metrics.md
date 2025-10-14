@@ -15,7 +15,7 @@ ht-degree: 58%
 
 Utilisez les mesures d’une activité A/B [!DNL Adobe Target] pour déterminer le moment où une visite est réussie.
 
-Pour plus d’informations sur les mesures de succès, voir [ Mesures de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Dans la section **[!UICONTROL Reporting Settings]** de la page **[!UICONTROL Goals & Settings]**, sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 

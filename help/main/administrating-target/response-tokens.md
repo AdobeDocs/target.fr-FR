@@ -218,7 +218,7 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 Les sections suivantes décrivent comment envoyer des données [!DNL Target] à Google Analytics 4. Les données envoyées par les jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
 
-### ![Badge AEP ](/help/main/assets/platform.png) envoi de données à Google Analytics via Platform Web SDK
+### ![Badge AEP &#x200B;](/help/main/assets/platform.png) envoi de données à Google Analytics via Platform Web SDK
 
 Il est possible d’envoyer des données à Google Analytics via la version 2.6.0 (ou ultérieure) de Platform Web SDK en ajoutant le code suivant dans la page HTML.
 

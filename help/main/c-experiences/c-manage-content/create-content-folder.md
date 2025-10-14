@@ -29,7 +29,7 @@ Le processus de création de dossiers pour les offres de code et les offres d’
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## [!UICONTROL Image Offer] des dossiers
 
@@ -53,4 +53,4 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 >
 >Les offres d’image ne font pas partie du modèle [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
