@@ -48,4 +48,4 @@ Pour utiliser la fonctionnalité [!UICONTROL AI Assistant] dans [!UICONTROL Targ
 
 Découvrez comment configurer l’accès et les autorisations pour les [!DNL AI Assistant] dans [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475921/?captions=fre_fr&learn=on&#x26;enablevpops)
