@@ -5,7 +5,7 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
+source-git-commit: 720f70a97c5c9457f134085696dd79196c7869bc
 workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 74%
@@ -220,7 +220,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
    * Paramètres de profil : 50
    * Longueur maximale du nom du paramètre de profil : 128
    * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 5000
+   * Longueur maximale de la valeur du paramètre de profil : 256
 
   **Point d’entrée de l’API de diffusion** :
 
@@ -231,7 +231,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
    * Paramètres de profil : 50
    * Longueur maximale du nom du paramètre de profil : 128
    * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 5000
+   * Longueur maximale de la valeur du paramètre de profil : 256
 
 ### URL de requête mbox
 
