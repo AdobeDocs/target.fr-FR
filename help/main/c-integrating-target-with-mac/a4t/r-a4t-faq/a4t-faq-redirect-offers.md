@@ -22,7 +22,7 @@ Oui, si votre implémentation utilise [!DNL at.js]. Toutefois, votre implémenta
 
 +++
 
-## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
+## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
 
 +++Réponse
 Les questions fréquentes suivantes fournissent des informations supplémentaires sur l’utilisation d’A4T et sur les offres de redirection avec l’[!DNL Platform Web SDK] .
