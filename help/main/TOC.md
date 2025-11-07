@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 + Notes de mise à jour de Target {#release-notes}
    + [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
-   + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
+   + [Notes de mise à jour de Target (version préliminaire)](r-release-notes/target-release-notes.md)
    + [Aperçu de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
    + [Mises à jour d’état du système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
@@ -29,7 +29,7 @@ ht-degree: 84%
    + [Comprendre l’interface utilisateur de Target](/help/main/c-intro/understand-the-target-ui.md)
    + [FAQ sur la mise à jour de l’interface utilisateur de Target](/help/main/c-intro/updated-ui-faq.md)
    + Assistant Adobe Target AI {#assistant-ai}
-      + [Présentation de l’assistant AI](/help/main/c-intro/ai-assistant.md)
+      + [Vue d’ensemble de l’Assistant IA](/help/main/c-intro/ai-assistant.md)
       + [Activer l’assistant AI](/help/main/c-intro/enabling-ai-assistant.md)
       + [Utiliser l’assistant d’IA pour acquérir des connaissances sur les produits](/help/main/c-intro/ai-assistant-product-knowledge.md)
       + [Utiliser l’assistant AI pour la génération de contenu](/help/main/c-intro/ai-assistant-content-generation.md)
@@ -100,7 +100,7 @@ ht-degree: 84%
       + [Rapports Target dans Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Intégration de Target à Adobe Journey Optimizer (AJO) {#ajo}
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [Intégrer [!DNL Adobe Target Recommendations] et [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [Intégrer  [!DNL Adobe Target Recommendations]  et  [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Cas d’utilisation de Adobe Journey Optimizer {#use-cases}
          + [Meilleurs cas d’utilisation d’optimisation dans Adobe Journey Optimizer : canaux web et basés sur le code](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Modifications de contenu par le biais de tests A/B dans Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -162,7 +162,7 @@ ht-degree: 84%
          + [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [URL d’activité](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Changement d’expérience dans Adobe Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [Changement d’expérience dans le ciblage d’expérience](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [Objectifs et paramètres](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [Définition de mesures](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + Test multivarié {#multivariate-test}
@@ -339,4 +339,4 @@ ht-degree: 84%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)

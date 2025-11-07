@@ -4,10 +4,10 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -271,8 +271,8 @@ Tous les opérateurs JavaScript standard sont présents et utilisables. Les opé
 | `<=` | Même que `<` sauf si les variables sont égales, elles seront évaluées sur vraies. |
 | `>=` | Même que `>` sauf si les variables sont égales, elles seront évaluées sur vraies. |
 | `&&` | Applique « ET » de manière logique aux expressions à gauche et à droite - est uniquement vrai lorsque les deux côtés sont vrais (faux dans le cas contraire). |
-| `||` | Applique « OU » de manière logique aux expressions à gauche et à droite - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
-| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3` et d’expressions régulières `/[^a-z]$/.test(landing.referring.url)`). |
+| `\|\|` | Applique « OU » de manière logique aux expressions à gauche et à droite - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
+| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La fonction prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 \|\| condition2) && condition3`) et d’expressions régulières (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vidéo de formation : Scripts de profil ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

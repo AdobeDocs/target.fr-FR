@@ -4,7 +4,7 @@ description: Trouvez des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -22,7 +22,7 @@ Oui, si votre implémentation utilise [!DNL at.js]. Toutefois, votre implémenta
 
 +++
 
-## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
+## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
 
 +++Réponse
 Les questions fréquentes suivantes fournissent des informations supplémentaires sur l’utilisation d’A4T et sur les offres de redirection avec l’[!DNL Platform Web SDK] .
@@ -110,7 +110,7 @@ Les paramètres de chaîne de requête suivants sont associés aux offres de red
 
 | Paramètre | Description |
 |--- |--- |
-| `adobe_mc_sdid` | Le paramètre `adobe_mc_sdid` transmet le SDID (Supplemental Data Id) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T d’« assembler » la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page.<br>Le format attendu pour transmettre le SDID dans l’URL (pour les applications hybrides ou d’une application au site Web ou d’un site Web à un autre) est `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
+| `adobe_mc_sdid` | Le paramètre `adobe_mc_sdid` transmet le SDID (Supplemental Data Id) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T d’« assembler » la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page.<br>Le format attendu pour transmettre le SDID dans l’URL (pour les applications hybrides ou d’une application au site Web ou d’un site Web à un autre) est `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322` |
 | `adobe_mc_ref` | Le paramètre `adobe_mc_ref` transfère l’URL de référence de la page par défaut vers la nouvelle page. Utilisé avec AppMeasurement.js version 2.1 (ou ultérieure), Analytics utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
 
 Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vous utilisez les offres de redirection intégrées dans le compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires, lorsque le service Identifiant visiteur est mis en œuvre dans la page. Si vous utilisez votre propre code de redirection personnalisé dans le compositeur d’expérience visuelle ou le compositeur d’expérience d’après les formulaires, vous devez vous assurer de transférer ces paramètres avec votre code personnalisé.
