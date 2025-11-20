@@ -2,13 +2,13 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser le  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) pour créer une  [!DNL Recommendations] .
 title: Comment créer une activité  [!DNL Recommendations]  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 52%
+source-wordcount: '1201'
+ht-degree: 51%
 
 ---
 
@@ -42,6 +42,10 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
 1. Cliquez sur un élément de votre page, puis, si des recommandations sont disponibles à l’emplacement de cet élément, cliquez sur **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** ou **[!UICONTROL Insert Recommendations After]**.
 
+   >[!NOTE]
+   >
+   >[!UICONTROL Recommendations] activités ne prennent en charge qu’une seule modification/recommandation à la fois. Pour plusieurs recommandations, vous pouvez créer plusieurs activités [!DNL Recommendations] ou utiliser les tests A/B ou XT.
+
    Les visiteurs et visiteuses de votre site ne verront le contenu recommandé que s’ils remplissent les critères de la recommandation. Le contenu par défaut s’affichera pour les visiteurs qui ne remplissent pas les critères de la recommandation.
 
    ![Options de recommandations](/help/main/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
@@ -60,7 +64,7 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
    * Page de catégorie
    * Page d’accueil
    * Page de destination
-   * Page de produit
+   * Page produit
    * Page Résultats de recherche
    * Page de remerciement
    * Les autres
@@ -73,7 +77,7 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -174,4 +178,4 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
 ## Vidéo de formation : créer une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
