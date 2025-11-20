@@ -1,12 +1,12 @@
 ---
 user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
-user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
+user-guide-description: Découvrez comment personnaliser les expériences client sur les sites web, les applications et les canaux sociaux pour augmenter les recettes.
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -333,10 +333,10 @@ ht-degree: 85%
       + [Intégration de Recommandations dans la messagerie électronique](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Adresses IP utilisées par les serveurs de traitement de flux de Recommandations](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Documentation sur Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [Documentation sur Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Résolution des problèmes liés à Target {#troubleshoot}
    + [Résolution des problèmes liés à Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
