@@ -339,4 +339,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
