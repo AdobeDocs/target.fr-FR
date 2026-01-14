@@ -2,14 +2,14 @@
 keywords: optimisation;personnalisation;adobe parcours optimizer;ajo;cas d’utilisation;scénarios;ajouter du contenu;masquer du contenu;ajouter des composants;masquer des composants
 description: Découvrez comment ajouter ou masquer des composants sur votre page web à l’aide de  [!DNL Adobe Journey Optimizer].
 title: Ajoutez ou masquez des composants à votre page web dans  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Ce cas d’utilisation est conçu pour montrer comment effectuer des tâches fam
 
 >[!NOTE]
 >
->Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], consultez [Utilisation du concepteur web](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*.
+>Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], consultez [Utilisation du concepteur web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*.
 >
 >La vidéo au bas de la page est particulièrement utile.
 
@@ -64,7 +64,7 @@ Pour ajouter des composants ou masquer des composants sur votre page web, procé
 
    Une configuration web, ou surface de canal, est une configuration définie par un administrateur système. La configuration web contient tous les paramètres techniques pour l’envoi du message, tels que le paramètre d’en-tête, le sous-domaine, les applications mobiles, etc.
 
-   Pour plus d’informations, voir [Configuration des surfaces de canal](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} dans la documentation de Journey Optimizer **.
+   Pour plus d’informations, voir [Configuration des surfaces de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} dans la documentation de Journey Optimizer **.
 
 1. Dans la section **[!UICONTROL Action]**, cliquez sur **[!UICONTROL Edit Content]** pour ouvrir votre site web dans le concepteur web [!DNL Journey Optimizer].
 
@@ -91,9 +91,9 @@ Cliquez sur le bouton [!UICONTROL Reports] , puis sur la période de reporting s
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-Pour plus d’informations, consultez [Prise en main de la nouvelle interface de création de rapports](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} dans la documentation de *Journey Optimizer*.
+Pour plus d’informations, consultez [Prise en main de la nouvelle interface de création de rapports](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} dans la documentation de *Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Utiliser le concepteur web](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*
->&#x200B;>[Créez une campagne &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*
+>[Utiliser le concepteur web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*
+>[Créez une campagne ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*

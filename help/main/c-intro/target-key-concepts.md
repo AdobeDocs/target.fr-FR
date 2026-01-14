@@ -4,10 +4,10 @@ description: Apprenez les bases d’Adobe Target. Cet article vous présente Ta
 title: Comment utiliser Target ?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 99%
+source-wordcount: '1524'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Target comprend plusieurs types d’activité. Le tableau suivant présente un a
 | [Test multivarié](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité. |
 | [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) | Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage d’expérience](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | Automated Personalization (AP) associe des offres ou des messages et utilise le machine learning avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions. |
-| [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Une recommandation détermine comment un produit est proposé à l’utilisateur d’un site web, en fonction de ses activités sur le site.<br>Par exemple, vous pouvez encourager les personnes qui achètent un sac à dos à envisager l’achat de chaussures et de bâtons de randonnée. Vous pouvez créer une recommandation qui affiche les éléments qui sont souvent achetés ensemble à l’aide de l’algorithme « Les personnes qui ont acheté ceci ont également acheté ». Ou, vous souhaitez peut-être encourager les visiteurs à passer plus de temps sur votre site multimédia en recommandant une vidéo similaire à celle qu’ils regardent, à l’aide de l’algorithme « Les personnes qui ont regardé cette vidéo ont également regardé ».<br>**Remarque :** vous pouvez désormais inclure des recommandations dans les activités de test A/B (dont l’affectation automatique et le ciblage automatique) et de ciblage d’expérience.  [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommandations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Une recommandation détermine comment un produit est proposé à l’utilisateur d’un site web, en fonction de ses activités sur le site.<br>Par exemple, vous pouvez encourager les personnes qui achètent un sac à dos à envisager l’achat de chaussures et de bâtons de randonnée. Vous pouvez créer une recommandation qui affiche les éléments qui sont souvent achetés ensemble à l’aide de l’algorithme « Les personnes qui ont acheté ceci ont également acheté ». Ou, vous souhaitez peut-être encourager les visiteurs à passer plus de temps sur votre site multimédia en recommandant une vidéo similaire à celle qu’ils regardent, à l’aide de l’algorithme « Les personnes qui ont regardé cette vidéo ont également regardé ».<br>**Remarque :** vous pouvez désormais inclure des recommandations dans les activités de test A/B (dont l’affectation automatique et le ciblage automatique) et de ciblage d’expérience.  [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Emplacements {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -61,7 +61,7 @@ Une expérience est composée d’offres, de ressources image ou d’autres él�
 
 Une expérience peut également être une conception de page différente. Par exemple, une expérience peut comporter un jeu de liens en haut de la page alors qu’une autre expérience comporte des liens différents ou les mêmes liens organisés dans un ordre différent. Vous pouvez tester si une image crée un effet élévateur plus important qu’une autre ou s’il y a plus de chance de cliquer sur une publicité près du haut de la page ou à un autre emplacement.
 
-[!DNL Target] optimise les expériences pour chaque visiteur sur l’ensemble de vos points de contact numériques et teste différentes expériences afin de déterminer lesquelles seront les plus réussies. En planifiant soigneusement le ciblage d’expérience, vous pouvez vous assurer que les visiteurs de votre site voient les offres les plus pertinentes aux emplacements appropriés de la page, améliorant ainsi vos chances de succès.
+[!DNL Target] optimise les expériences de chacun de vos visiteurs à travers vos points de contact numériques et de tester différentes expériences pour déterminer celle qui sera la plus réussie. En planifiant soigneusement le ciblage d’expérience, vous pouvez vous assurer que les visiteurs de votre site voient les offres les plus pertinentes aux emplacements appropriés de la page, améliorant ainsi vos chances de succès.
 
 ## Offres  {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -115,7 +115,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilisation des audiences dans Adobe Target (6:21) ![Badge d’aperçu](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

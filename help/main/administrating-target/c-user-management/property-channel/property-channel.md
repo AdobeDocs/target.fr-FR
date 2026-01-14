@@ -2,13 +2,13 @@
 keywords: espaces de travail;gérer la propriété;autorisations;configuration de produit;profil de produit;rôles;projet;observateur;éditeur;approbateur;éditeur
 description: Découvrez comment créer des espaces de travail distincts (profils de produit), puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels.
 title: Que sont les autorisations des utilisateurs d’Enterprise et comment les utiliser ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3166'
 ht-degree: 48%
 
 ---
@@ -139,7 +139,7 @@ En outre, Jan ne peut pas voir de pages, de propriétés ou de sites dans [!DNL 
 
 ![image permissions_4](assets/permissions_4.png)
 
-Dans cet exemple, Jeanne ne peut pas afficher les pages produit, le site de Russie ni le site Carrières.
+Dans cet exemple, Jeanne ne peut pas afficher les pages produits, le site de Russie ni le site Carrières.
 
 ## Scénarios d’utilisation {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
@@ -163,7 +163,7 @@ Si vous êtes membre d’une organisation internationale, vous pouvez avoir un e
 
   Puisqu’aucun de ses rôles ne justifie qu’il consulte les sites Russie, France ou Carrières, Ernest n’a pas accès aux activités de ces sites.
 
-* **Diana** : Diana est analyste pour l’organisation. Elle détient les autorisations associées à son rôle d’observatrice pour la page d’accueil et le site des États-Unis, les pages produit et les sites français et russe, ce qui lui permet d’accéder aux activités en lecture seule. Elle peut visualiser des activités, mais elle ne peut pas les créer ni les modifier.
+* **Diana** : Diana est analyste pour l’organisation. Elle détient les autorisations associées à son rôle d’observatrice pour la page d’accueil et le site des États-Unis, les pages produits et les sites français et russe, ce qui lui permet d’accéder aux activités en lecture seule. Elle peut visualiser des activités, mais elle ne peut pas les créer ni les modifier.
 
   Puisqu’aucun de ses rôles ne justifie qu’elle consulte le site Carrières, Diana n’a pas accès aux activités de ce site.
 
@@ -187,7 +187,7 @@ Après une réorganisation, en utilisant les personnages des illustrations ci-de
 
 * **Diana :** Diana est analyste pour l’organisation. Elle détient des autorisations associées à son rôle d’observatrice pour le site de l’hôpital et celui dédié aux consommateurs, ce qui lui permet d’accéder aux activités en lecture seule. Elle peut visualiser des activités, mais elle ne peut pas les créer ni les modifier.
 
-## Points de contact de propriété et d’autorisations de l’interface utilisateur de Target {#section_3414371393BB42999A268628B5456EC9}
+## Points de contact Propriétés et autorisations de l’interface utilisateur de Target {#section_3414371393BB42999A268628B5456EC9}
 
 La nouvelle fonctionnalité Autorisations est accessible depuis différents emplacements dans l’interface utilisateur de [!DNL Target].
 
@@ -310,7 +310,7 @@ Objectifs de la formation :
 * Les concepts de propriétés et d’espaces de travail, et comment ces limites et regroupements fonctionnent pour permettre le contrôle des niveaux d’accès des utilisateurs
 * Différents exemples de propriétés dont votre organisation doit tenir compte
 
->[!VIDEO](https://video.tv.adobe.com/v/3421737?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
 ### Heures d’ouverture : espaces de travail [!DNL Target] Premium
 
