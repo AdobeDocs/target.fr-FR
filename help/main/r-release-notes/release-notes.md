@@ -77,7 +77,7 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Afficher les détails
 * **[!UICONTROL Experience Fragment]nom a été tronqué dans la nouvelle interface utilisateur du VEC** (TGT-54312)
