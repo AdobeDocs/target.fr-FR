@@ -4,10 +4,10 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension du [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '765'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,17 @@ L’extension de navigateur du [!UICONTROL Visual Editing Helper] [!DNL Adobe Ex
 >[!IMPORTANT]
 >
 >* Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consultez la remarque importante en haut de cet article. En raison des améliorations de sécurité apportées à Manifest v3, [!DNL Adobe] nécessite le téléchargement de cette nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target].
+
+## Modifications de l’extension [!UICONTROL Visual Editing Helper] (17 janvier 2026)
+
+### **Correction d’un problème en ajoutant la nouvelle fonctionnalité expérimentale de nettoyage des cookies de démarrage dans l’assistant du VEC.**
+
+* Correction d’un problème en ajoutant une nouvelle fonctionnalité expérimentale de nettoyage des cookies de démarrage dans l’assistant du VEC.
+* Cette amélioration améliore les performances et la fiabilité en nettoyant les cookies non partitionnés une fois par onglet au début de la création plutôt qu’en continu.
+* Cette fonctionnalité effectue le suivi de l’historique des onglets pour éviter tout nettoyage redondant, et efface l’historique lors de la fermeture des onglets afin que le nettoyage se comporte correctement lorsqu’un onglet est rouvert.
+* Des tests unitaires complets ont été ajoutés pour garantir un comportement cohérent.
+
+![nouvelles options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
