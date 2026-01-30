@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences client sur les sites web, les applications et les canaux sociaux pour augmenter les recettes.
 feature-set: Target
-source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1275'
 ht-degree: 83%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 83%
          + [Autorisations des utilisateurs d’Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuration des autorisations d’Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+   + [Recommandations](/help/main/administrating-target/recommendations-settings.md)
 + Implémentation de Target {#implement-target}
    + [Implémentation de la vue d’ensemble de Target](c-implementing-target/implementing-target.md)
 + Intégration de Target à Experience Cloud {#integrate}
@@ -117,6 +117,7 @@ ht-degree: 83%
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activités {#activities}
    + [Présentation des activités](c-activities/activities.md)
+   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
    + [Types d’activités de Target](c-activities/target-activities-guide.md)
    + Test A/B {#abtest}
       + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
@@ -289,10 +290,10 @@ ht-degree: 83%
       + [Rapport Contribution des emplacements (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Rapports Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
    + [FAQ sur la création de rapports](c-reports/reporting-frequently-asked-questions.md)
-+ Recommendations {#recommendations}
-   + [Présentation de Recommendations](c-recommendations/recommendations.md)
++ Recommandations {#recommendations}
+   + [Présentation de Recommandations](c-recommendations/recommendations.md)
    + [Présentation des recommandations](c-recommendations/introduction-to-recommendations.md)
-   + [Planification et implémentation de Recommendations](c-recommendations/plan-implement.md)
+   + [Planifier et implémenter des recommandations](c-recommendations/plan-implement.md)
    + Entités {#entities}
       + [Présentation des entités](c-recommendations/c-products/products.md)
       + [Attributs d’entité](c-recommendations/c-products/entity-attributes.md)
@@ -316,7 +317,7 @@ ht-degree: 83%
          + [Filtre statique](/help/main/c-recommendations/c-algorithms/static-value.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
       + [Utilisation des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Utiliser Adobe Analytics avec Recommendations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Utiliser Adobe Analytics avec Recommandations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
@@ -325,18 +326,18 @@ ht-degree: 83%
    + Activité {#recommendations-activity}
       + [Création d’une activité de recommandations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Ajout de promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [Paramètres des activités Recommendations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Prévisualisation et lancement de votre activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [Recommendations en tant qu’offre](c-recommendations/recommendations-as-an-offer.md)
+      + [Paramètres des activités Recommandations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Prévisualisation et lancement de votre activité Recommandations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+   + [Recommandations en tant qu’offre](c-recommendations/recommendations-as-an-offer.md)
    + Questions fréquentes {#recommendations-faq}
       + [Forum aux questions (FAQ) de Recommandations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [Intégration de Recommandations dans la messagerie électronique](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Adresses IP utilisées par les serveurs de traitement de flux de Recommandations](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Documentation sur Recommendations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
+   + [Documentation sur Recommandations Classic](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Résolution des problèmes liés à Target {#troubleshoot}
    + [Résolution des problèmes liés à Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
