@@ -59,9 +59,9 @@ Les informations suivantes décrivent les limites que vous devez connaître lors
 * [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) : cette FAQ aborde les questions courantes sur la nouvelle interface utilisateur [!DNL Target] et le nouveau [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, les emplacements de fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 * [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
 * Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
-* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
-* [[!UICONTROL Visual Experience Composer] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
-* [[!UICONTROL Visual Experience Composer] options ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
+* [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+* [[!UICONTROL Visual Experience Composer] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Visual Experience Composer] options &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 
 +++
 
@@ -72,11 +72,11 @@ Les ressources suivantes fournissent des informations pour en savoir plus sur l�
 
 * Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
 
-* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+* [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 
-* [[!UICONTROL Visual Experience Composer] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Visual Experience Composer] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
 
-* [[!UICONTROL Visual Experience Composer] options ](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
+* [[!UICONTROL Visual Experience Composer] options &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 
 +++
 
@@ -85,7 +85,7 @@ Les ressources suivantes fournissent des informations pour en savoir plus sur l�
 +++Détails
 L’interface utilisateur mise à jour est disponible pour tous [!DNL Target] clients, [!UICONTROL Standard] et [!UICONTROL Premium]. Aucune licence ou SKU mise à niveau n’est requise.
 
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [ Mises à jour sensibles à l’heure que vous devez connaître ](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [&#x200B; Mises à jour sensibles à l’heure que vous devez connaître &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur le déploiement et l’obsolescence du bouton (ba
 +++Détails
 L’équipe [!DNL Target] s’occupe activement des problèmes liés au nouveau déploiement de l’interface utilisateur. Les mises à jour et les améliorations continues sont présentées en détail dans les notes de mise à jour.
 
-Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [ Mises à jour sensibles à l’heure que vous devez connaître ](/help/main/r-release-notes/release-notes.md#time-sensitive).
+Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [&#x200B; Mises à jour sensibles à l’heure que vous devez connaître &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
 +++
 
@@ -216,7 +216,7 @@ Pour plus d’informations, consultez [Extension Assistant d’édition visuelle
 Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur la liste autorisée, consultez les articles suivants :
 
 * **Enhanced Experience Composer (EEC)** : consultez la section [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) dans *Résolution des problèmes liés au Enhanced Experience Composer*
-* **[!UICONTROL Recommendations]** : voir [ adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+* **[!UICONTROL Recommendations]** : voir [&#x200B; adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++
 
@@ -225,7 +225,7 @@ Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur
 +++Détails
 Les environnements utilisent désormais par défaut le dernier utilisé par le client. Pour changer d’environnement, utilisez le sélecteur de [!UICONTROL Environment] dans le coin supérieur droit de l’interface utilisateur de [!UICONTROL Catalog Search].
 
-![ Commutateur d’environnement ](/help/main/c-intro/assets/environmnent.png)
+![&#x200B; Commutateur d’environnement &#x200B;](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
