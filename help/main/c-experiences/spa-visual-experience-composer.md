@@ -17,7 +17,7 @@ En [!DNL Adobe Target], le [!UICONTROL Visual Experience Composer] (VEC) permet 
 
 ![Cycle de vie traditionnel par rapport au cycle de vie d’une application d’une seule page](/help/main/c-experiences/assets/trad-vs-spa.png)
 
-Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de ](/help/main/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
+Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
 
 ## Vues Adobe [!DNL Target] et applications monopages
 
@@ -364,7 +364,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | [Espaces de travail et propriétés](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Oui |
 | [Liens d’assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Oui |
 | [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) | Non |
-| [Code personnalisé ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Oui |
+| [Code personnalisé &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Oui |
 | [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Toutes |
 | [Suivi des clics](/help/main/c-activities/r-success-metrics/click-tracking.md) | Oui |
 | [Diffusion multi-activité](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Oui |
