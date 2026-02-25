@@ -4,7 +4,7 @@ description: Découvrez comment utiliser le VEC de SPA dans Adobe  [!DNL Target]
 title: Comment utiliser le compositeur d’expérience visuelle pour application monopage (SPA) ?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -49,7 +49,7 @@ Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres pr
 
 ![page paiement](/help/main/c-experiences/assets/checkout.png)
 
-Comme nous avons aimé certains produits sur le site, nous avons décidé d’en acheter quelques uns. Sur la page de paiement du site, certaines options permettent de choisir une livraison normale ou express. Comme une Vue peut représenter n’importe quel groupe d’éléments visuels d’un site, nous pouvons la nommer « Préférences de livraison de la Vue ».
+Comme nous avons aimé certains produits sur le site, nous avons décidé d’en acheter quelques uns. Sur la page de passage en caisse du site, certaines options permettent de choisir une livraison normale ou express. Comme une Vue peut représenter n’importe quel groupe d’éléments visuels d’un site, nous pouvons la nommer « Préférences de livraison de la Vue ».
 
 De plus, le concept des Vues peut être beaucoup plus étendu. Si les spécialistes marketing souhaitent personnaliser le contenu du site selon la préférence de livraison sélectionnée, une Vue peut être créée pour chaque préférence de livraison. Dans ce cas, lorsque vous sélectionnez Livraison normale, la Vue peut être nommée « Livraison normale ». Si l’option Livraison express est sélectionnée, la Vue peut être nommée « Livraison express ».
 
@@ -143,7 +143,7 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
    **Lien : [Extraction](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/checkout)**
 
-   ![Paiement React](/help/main/c-experiences/assets/react6.png)
+   ![passage en caisse React](/help/main/c-experiences/assets/react6.png)
 
    Si les spécialistes marketing souhaitent personnaliser le contenu du site selon la préférence de livraison sélectionnée, une Vue peut être créée pour chaque préférence de livraison. Dans ce cas, lorsque vous sélectionnez Livraison normale, la Vue peut être nommée « Livraison normale ». Si l’option Livraison express est sélectionnée, la Vue peut être nommée « Livraison express ».
 
@@ -196,7 +196,7 @@ Le panneau [!UICONTROL Modifications], comme illustré ci-dessous, capture les a
 
 **Actions**
 
-Cliquer sur une action met en évidence l’élément de la page sur lequel cette action sera appliquée. Chaque action du VEC créée sous une vue comporte les icônes suivantes, comme illustré ci-dessous : Informations, Modifier, Cloner, Déplacer et Supprimer.
+Cliquer sur une action met en évidence l’élément du site sur lequel cette action sera appliquée. Chaque action du VEC créée sous une vue comporte les icônes suivantes, comme illustré ci-dessous : Informations, Modifier, Cloner, Déplacer et Supprimer.
 
 ![Modifications](/help/main/c-experiences/assets/modifications.png)
 
@@ -238,12 +238,12 @@ Reportons-nous à l’exemple ci-dessus dans lequel nous avons créé une vue PR
 
 **Exemple 3**
 
-Enfin, comme mentionné précédemment, les vues peuvent être définies à un niveau plus détaillé. Les vues peuvent être un état ou une option d’un bouton radio. Auparavant, vous aviez créé les vues pour les PAIEMENTS-EXPRESS et les PAIEMENTS-STANDARD. Notre objectif est de modifier la couleur du bouton en rouge pour la vue PAIEMENT-EXPRESS.
+Enfin, comme mentionné précédemment, les vues peuvent être définies à un niveau plus détaillé. Les vues peuvent être un état ou une option d’un bouton radio. Auparavant, vous aviez créé les vues pour les PASSAGE EN CAISSE-EXPRESS et les PASSAGE EN CAISSE-STANDARD. Notre objectif est de modifier la couleur du bouton en rouge pour la vue PASSAGE EN CAISSE-EXPRESS.
 
 1. Cliquez sur [!UICONTROL Browse].
 1. Ajoutez deux produits au panier.
 1. Cliquez sur l’icône de panier dans le coin supérieur droit.
-1. Cliquez sur Payer votre commande.
+1. Cliquez sur Passage en caisse.
 1. Cliquez sur le bouton radio Livraison express.
 1. Cliquez sur [!UICONTROL Compose].
 1. Modifiez la dénomination du bouton « Paiement » en « Terminer la commande » et la couleur en rouge.
@@ -252,13 +252,13 @@ Enfin, comme mentionné précédemment, les vues peuvent être définies à un n
 
 >[!NOTE]
 >
->La vue PAIEMENT-EXPRESS n’apparaîtra pas dans le panneau de modification tant que vous n’avez pas cliqué sur le bouton radio Livraison express. Cela est dû au fait que `triggerView()` la fonction est déclenchée lorsque le bouton radio Livraison express est sélectionné et que cette fonction n’est disponible que lorsque le compositeur d’expérience visuelle sait qu’une vue s’affiche dans le panneau de modification.
+>La vue PASSAGE EN CAISSE-EXPRESS n’apparaîtra pas dans le panneau de modification tant que vous n’avez pas cliqué sur le bouton radio Livraison express. Cela est dû au fait que `triggerView()` la fonction est déclenchée lorsque le bouton radio Livraison express est sélectionné et que cette fonction n’est disponible que lorsque le compositeur d’expérience visuelle sait qu’une vue s’affiche dans le panneau de modification.
 
 ## Exploration approfondie d’at.js et des applications à page unique
 
 **Comment récupérer les vues des dernières données d’audience hydratées par des actions, après le chargement initial de la page sur mon application monopage ?**
 
-Le workflow type d’at.js 2.x est que lorsque votre site se charge, toutes vos vues et actions sont mises en cache, de sorte que les actions suivantes de l’utilisateur ou de l’utilisatrice sur votre site ne déclenchent pas d’appels au serveur pour récupérer les offres. Si vous souhaitez récupérer les vues en fonction des données de profil les plus récentes, actualisées selon les actions de l’utilisateur, vous pouvez appeler `getOffers()` et `applyOffers()` avec les dernières données utilisateur ou données de profil transmises.
+Le workflow type d’at.js 2.x est que lorsque votre site se charge, toutes vos vues et actions sont mises en cache, de sorte que les actions suivantes de l’utilisateur ou de l’utilisatrice sur votre site ne déclenchent pas d’appels au serveur pour récupérer les offres. Si vous souhaitez récupérer les vues en fonction des données de profil les plus récentes, mises à jour selon les actions de l’utilisateur ou de l’utilisatrice, vous pouvez appeler `getOffers()` et `applyOffers()` avec les dernières données d’audience ou données de profil transmises.
 
 Supposons, par exemple, que vous soyez une société de télécommunications et que vous ayez une application d’une seule page utilisant at.js 2.x. En tant qu’entreprise, vous souhaitez atteindre les objectifs suivants :
 
