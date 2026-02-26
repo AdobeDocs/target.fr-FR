@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
+source-git-commit: cb53635de421da438c4c0d4b0b368235abe29f00
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 71%
@@ -21,7 +21,7 @@ Cet article contient des informations en version préliminaire pour les versions
 >
 >* Les dates de publication, fonctions et autres informations peuvent changer sans préavis. Les informations de cet article sont mises à jour fréquemment, en particulier avant les versions .
 >
->* Pour afficher des informations sur la version actuelle, voir [&#x200B; Notes de mise à jour de Target &#x200B;](release-notes.md).
+>* Pour afficher des informations sur la version actuelle, voir [ Notes de mise à jour de Target ](release-notes.md).
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -41,3 +41,4 @@ Cette version est maintenant en ligne. Voir [[!DNL Target]  Notes de mise à jou
 Pour recevoir des notifications avancées sur les améliorations à venir de [!DNL Target] et des autres solutions [!DNL Adobe Experience Cloud], inscrivez-vous à [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
+
