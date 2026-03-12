@@ -2,11 +2,11 @@
 keywords: déduplication;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;
 description: Gérer les exclusions dans les activités [!UICONTROL Automated Personalization] (AP).
 title: Comment gérer les exclusions dans les activités [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
+source-git-commit: 482d3aa3345eb8e6ad4db4d10f9bcf883d6aba82
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 21%
@@ -60,7 +60,8 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
 1. Cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/Setting.svg) ), puis sur le bouton (bascule) **Exclure l’offre par défaut/Inclure l’offre par défaut**/ pour exclure ou inclure l’offre par défaut.
 
-   <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
+   <!--
+   Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
    For Text/HTML content: 
 
@@ -72,9 +73,11 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
    For background color: 
 
-   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)-->
+   ![Include checkbox in Edit Background Color dialog box](/help/main/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   -->
 
-<!-- 1. Click **[!UICONTROL Save]**.
+<!--
+1. Click **[!UICONTROL Save]**.
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
@@ -99,4 +102,5 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
    You can see the experiences created from the offers you specified under [!UICONTROL Manage Content]. You notice that no experiences are created in [!UICONTROL Manage Content] using the default offer you excluded. 
 
-   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)-->
+   ![exclude_content_form_3 image](assets/exclude_content_form_3.png)
+-->
