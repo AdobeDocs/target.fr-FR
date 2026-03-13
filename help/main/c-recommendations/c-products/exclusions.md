@@ -4,7 +4,7 @@ description: Découvrez comment créer des exclusions dans  [!DNL Target Recomme
 title: Comment utiliser les exclusions dans les activités [!UICONTROL Recommendations] ?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 14%
@@ -35,7 +35,7 @@ Voici quelques exemples d’exclusions :
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
-   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le groupe d’hôtes [Recommendations](/help/main/administrating-target/hosts.md) par défaut configuré (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le groupe d’hôtes [Recommendations](/help/main/administrating-target/hosts.md) par défaut configuré (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
 
 1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Show Filters]** ( ![icône Afficher les filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’[environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
@@ -49,7 +49,8 @@ Voici quelques exemples d’exclusions :
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
-<!-- ## Create an exclusion using Advanced Search
+<!--
+## Create an exclusion using Advanced Search
 
 You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
@@ -59,7 +60,8 @@ After creating a search using "id > contains," for example, you can then click [
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded. -->
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create exclusions based on results using the Advanced Search functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create an exclusion with the intent to exclude products containing "holiday," only products containing "holiday" are excluded. Products containing "Holiday" are not excluded.
+-->
 
 ## Modifier, copier ou supprimer une exclusion
 
@@ -76,4 +78,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une collection
 * Créer une exclusion
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
