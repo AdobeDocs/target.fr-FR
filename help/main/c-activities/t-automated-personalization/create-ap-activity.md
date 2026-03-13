@@ -2,7 +2,7 @@
 keywords: automated personalization;ap
 description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) à l’aide de l’[!UICONTROL Visual Experience Composer] .
 title: Comment créer une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Découvrez les fonctionnalités incluses dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 18d183798ee041bee761a108be3130e5ccb0a10a
