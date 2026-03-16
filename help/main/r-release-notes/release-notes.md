@@ -1,5 +1,5 @@
 ---
-keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bogues;mises à jour;mises à jour actuelles
+keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifs de bugs;mises à jour;mises à jour actuelles
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
 short-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Target].
@@ -24,7 +24,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 [!BADGE Important]{type=Informative}
 
-Pour les mises à jour urgentes liées à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points saillants importants concernant votre mise en œuvre :
+Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
 
 ### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
 
@@ -44,7 +44,7 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++Afficher les détails
 
-* **Activez/désactivez la gestion du scintillement sur l&#39;écran Implémentation.** Un nouveau bouton (bascule) a été ajouté à l’écran [!UICONTROL Implementation] pour contrôler l’activation du paramètre de gestion du scintillement. Ce bouton permet aux administrateurs de configurer la gestion du scintillement directement à partir de l’écran Implémentation . (TGT-52247)
+* **Bouton bascule Ajouter la gestion du scintillement sur l’écran Implémentation .** Un nouveau bouton (bascule) a été ajouté à l’écran [!UICONTROL Implementation] pour contrôler l’activation du paramètre de gestion du scintillement. Ce bouton permet aux administrateurs de configurer la gestion du scintillement directement à partir de l’écran Implémentation . (TGT-52247)
 
 +++
 
@@ -56,11 +56,11 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Afficher les détails
 
-* **Les modifications du compositeur d’expérience visuelle ne sont pas répercutées sur les sites utilisant Shadow DOM (composants web Salesforce Lightning).** Ce correctif résout un problème en raison duquel les modifications apportées dans Adobe Target (telles que les changements de couleur CTA) n’étaient pas enregistrées ou répercutées sur le site actif pour les sites basés sur Salesforce utilisant les composants web Lightning (LWC). Le CMS n’acceptait pas les mises à jour des activités Target, et ce problème est survenu de manière cohérente entre les tests A/B et d’autres types d’activités. (TGT-54059)
+* **Les modifications du compositeur d’expérience visuelle ne sont pas répercutées sur les sites utilisant Shadow DOM (composants web Salesforce Lightning).** Ce correctif résout un problème en raison duquel les modifications apportées dans Adobe Target (telles que les changements de couleur CTA) n’étaient pas enregistrées ou répercutées sur le site actif pour les sites basés sur Salesforce utilisant les composants web Lightning (LWC). Le CMS n’acceptait pas les mises à jour des activités Target et ce problème survenait de manière cohérente dans les tests A/B et les autres types d’activités. (TGT-54059)
 
 +++
 

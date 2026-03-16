@@ -1,8 +1,8 @@
 ---
 keywords: collection, ciblage
-description: Découvrez comment utiliser des collections de produits ou d'éléments dans  [!DNL Target Recommendations].
+description: Découvrez comment utiliser des collections de produits ou d’éléments dans  [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
@@ -20,7 +20,7 @@ Généralement, une collection est un ensemble d’éléments similaires ou asso
 
 Utilisez les collections pour organiser vos produits dans des groupes logiques. Par exemple, si certains éléments sont disponibles dans une région, mais pas dans une autre, vous pouvez créer une collection qui exclut les éléments qui ne sont pas disponibles dans la région du visiteur. Vous pouvez également utiliser les collections pour organiser des éléments saisonniers ou d’autres paramètres fonctionnels qui s’appliquent à votre entreprise.
 
-Les [recommandations de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs.md) générées pour chaque critère dans la recommandation utilisent également cette collection, de sorte que seuls les éléments de la collection sont inclus dans la recommandation de sauvegarde. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
+[Recommandations de sauvegarde](/help/main/c-recommendations/c-algorithms/backup-recs.md) générées pour chaque critère de la recommandation utilisent également cette collection, de sorte que seuls les éléments de la collection soient inclus dans la recommandation de sauvegarde. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
 
 Les collections peuvent être recréées ou mises à jour chaque fois qu’un critère s’exécute.
 
@@ -42,9 +42,9 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
 
-   La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Create Collection]. Vous pouvez également modifier, copier et supprimer des collections existantes en cliquant sur l&#39;icône Plus d&#39;actions ( ![icône Plus d&#39;actions](/help/main/assets/icons/MoreSmallList.svg) ) en regard de la collection souhaitée, puis en cliquant sur l&#39;option souhaitée.
+   La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Create Collection] . Vous pouvez également modifier, copier et supprimer des collections existantes en cliquant sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de la collection souhaitée, puis en cliquant sur l’option souhaitée.
 
-   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Collection]**.
 
@@ -58,7 +58,7 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
    Ainsi, votre collection peut-elle être créée sur la base d’une catégorie ou d’un ID de produit, d’une marge bénéficiaire ou de tout autre paramètre de la liste.
 
-   Vous pouvez ajouter des règles pour utiliser plusieurs paramètres pour définir une collection. Plusieurs règles sont jointes par un opérateur AND. Pour que la collection soit appliquée, toutes les règles spécifiées doivent être respectées.
+   Vous pouvez ajouter des règles pour utiliser plusieurs paramètres pour définir une collection. Plusieurs règles sont reliées par un opérateur AND. Pour que la collection soit appliquée, toutes les règles spécifiées doivent être respectées.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -90,6 +90,6 @@ Sachez que les collections sont disponibles sur l’ensemble du compte. Assurez-
 
 1. Cliquez sur **[!UICONTROL Activities]** et [créez une activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou modifiez une activité existante.
 
-1. Après avoir sélectionné un critère et une conception, la page [!UICONTROL Options] s&#39;affiche, dans laquelle vous sélectionnez la collection souhaitée.
+1. Après avoir sélectionné un critère et une conception, la page [!UICONTROL Options] s’affiche à l’emplacement où vous sélectionnez la collection souhaitée.
 
-1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Experiences]** (étape 1 du workflow guidé en trois parties), cliquez sur un emplacement où vous avez placé des recommandations, cliquez sur **[!UICONTROL Change Collection]**, puis sélectionnez la collection souhaitée.
+1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Experiences]** (étape 1 du workflow en trois parties), cliquez sur un emplacement où vous avez placé des recommandations, cliquez sur **[!UICONTROL Change Collection]**, puis sélectionnez la collection souhaitée.
