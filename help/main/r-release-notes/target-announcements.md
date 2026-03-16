@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '2049'
 ht-degree: 99%
@@ -17,7 +17,8 @@ ht-degree: 99%
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
-<!-- ## Adobe Target Community Q&A Coffee Break
+<!--
+## Adobe Target Community Q&A Coffee Break
 
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
@@ -36,7 +37,8 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=fr){target=_blank}."
 
-+++ -->
++++
+-->
 
 ## Enregistrements des anciens webinaires et sessions de création de compétences
 
@@ -60,7 +62,7 @@ Pourquoi devriez-vous y assister ?
 
   [Écoutez l’enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}
 
-* **Recommendations haute performance**
+* **Recommandations haute performance**
 
   Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, tout en stimulant l’engagement et en générant des revenus. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs et utilisatrices de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
@@ -176,7 +178,7 @@ Rejoignez l’équipe [!DNL Adobe Target]  et écoutez leurs suggestions du jour
 
 ### Activation de la fidélité en temps réel (25 août 2022)
 
-La plupart des marques actives dans le secteur des voyages, de l’hôtellerie et de la restauration sont confrontées au dilemme suivant : comment augmenter la fidélisation à une époque marquée par les problèmes de chaîne d’approvisionnement, les défaillances de service et les effectifs limités. À l’ère de l’IA, comment les marques peuvent-elles créer les meilleures expériences sans les ressources nécessaires, qui ont quitté le secteur ? Le passage au tout numérique n’a cessé de gagner des adeptes pour répondre non seulement aux attentes toujours plus nombreuses des clients, mais aussi pour transformer les équipes grâce à l’automatisation.
+La plupart des marques actives dans le secteur des voyages, de l’hôtellerie et de la restauration sont confrontées au dilemme suivant : comment renforcer la fidélité à une époque marquée par les problèmes de chaîne d’approvisionnement, les défaillances de service et les effectifs limités. À l’ère de l’IA, comment les marques peuvent-elles créer les meilleures expériences sans les ressources nécessaires, qui ont quitté le secteur ? Le passage au tout numérique n’a cessé de gagner des adeptes pour répondre non seulement aux attentes toujours plus nombreuses des clients, mais aussi pour transformer les équipes grâce à l’automatisation.
 
 +++Détails
 

@@ -4,10 +4,10 @@ description: Découvrez comment créer des offres de redirection pour guider fac
 title: Comment Créer Des Offres De Redirection ?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 25%
+source-wordcount: '1080'
+ht-degree: 23%
 
 ---
 
@@ -47,7 +47,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    >[!NOTE]
    >
-   >Les offres de redirection engendrent une boucle infinie si l’URL de redirection qualifie également l’utilisateur pour la même activité. Assurez-vous que l’utilisateur ou l’utilisatrice ne se qualifie pas à nouveau pour l’activité après avoir été redirigé.
+   >Les offres de redirection engendrent une boucle infinie si l’URL de redirection qualifie également l’utilisateur pour la même activité. Pour éviter cela, ajoutez un paramètre de requête à l’URL de redirection (par exemple, `?redirect=true`). Ensuite, dans l’audience de l’activité ou dans la règle de modèle, vérifiez que ce paramètre de requête n’est pas présent. Cela permet de s’assurer que l’utilisateur ou l’utilisatrice ne se qualifie pas à nouveau pour l’activité après avoir été redirigé.
 
 1. Sélectionnez les options pour personnaliser votre offre de redirection :
 
@@ -78,7 +78,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    >[!NOTE]
    >
-   >Les offres de redirection engendrent une boucle infinie si l’URL de redirection qualifie également l’utilisateur pour la même activité. Assurez-vous que l’utilisateur ou l’utilisatrice ne se qualifie pas à nouveau pour l’activité après avoir été redirigé.
+   >Les offres de redirection engendrent une boucle infinie si l’URL de redirection qualifie également l’utilisateur pour la même activité. Pour éviter cela, ajoutez un paramètre de requête à l’URL de redirection (par exemple, `?redirect=true`). Ensuite, dans l’audience de l’activité ou dans la règle de modèle, vérifiez que ce paramètre de requête n’est pas présent. Cela permet de s’assurer que l’utilisateur ou l’utilisatrice ne se qualifie pas à nouveau pour l’activité après avoir été redirigé.
 
 1. Sélectionnez les options pour personnaliser votre offre de redirection :
 
