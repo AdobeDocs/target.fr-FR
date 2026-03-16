@@ -56,7 +56,7 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Afficher les détails
 
