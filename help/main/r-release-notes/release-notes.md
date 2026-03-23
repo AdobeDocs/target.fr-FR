@@ -6,11 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 41%
+source-wordcount: '516'
+ht-degree: 47%
 
 ---
 
@@ -56,13 +55,6 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
-
-+++Afficher les détails
-
-* **Les modifications du compositeur d’expérience visuelle ne sont pas répercutées sur les sites utilisant Shadow DOM (composants web Salesforce Lightning).** Ce correctif résout un problème en raison duquel les modifications apportées dans Adobe Target (telles que les changements de couleur CTA) n’étaient pas enregistrées ou répercutées sur le site actif pour les sites basés sur Salesforce utilisant les composants web Lightning (LWC). Le CMS n’acceptait pas les mises à jour des activités Target et ce problème survenait de manière cohérente dans les tests A/B et les autres types d’activités. (TGT-54059)
-
-+++
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
@@ -79,7 +71,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
