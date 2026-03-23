@@ -4,8 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-hold: true
-source-git-commit: 44d9cd4de7ff2064e6005a4d7ece7f37194fbf2f
+source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
 workflow-type: tm+mt
 source-wordcount: '64670'
 ht-degree: 52%
@@ -491,7 +490,7 @@ Mise à jour de la logique de validation pour [!DNL Target] connexions de destin
 * Un même identifiant de flux de données peut être utilisé pour différentes connexions uniquement si elles sont configurées dans différents sandbox.
 * Cette règle s’applique à toutes les sélections de flux de données, y compris lorsque l’option « Aucun » est sélectionnée.
 
-Cette mise à jour garantit une configuration cohérente et empêche les conflits entre les environnements multi-sandbox. Pour plus d’informations, voir [Connexion Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide *Destinations Experience Platform*.
+Cette mise à jour garantit une configuration cohérente et empêche les conflits entre les environnements multi-sandbox. Pour plus d’informations, voir [Connexion &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide *Destinations Experience Platform*.
 
 ### [!DNL Target Standard/Premium] 25.9.1 (5 septembre 2025)
 
@@ -504,7 +503,7 @@ Cette version comprend les mises à jour et correctifs suivants :
 
 +++
 
-**Offer Decisioning**
+**&#x200B;**
 
 +++Afficher les détails
 * **L’erreur de décision d’offre a été résolue pour les offres ODE.** Correction d’un problème où les offres du moteur de décision d’offre (ODE) injectées par [!DNL Target] renvoyaient une erreur 400 en raison de métadonnées de format manquantes. Le message d’erreur indiquait que le type MIME était nul, ce qui empêchait le traitement réussi des décisions d’offre. Ce correctif garantit la gestion appropriée des métadonnées de l’offre, la restauration de la fonctionnalité pour la diffusion de contenu personnalisé et la possibilité d’exécuter sans interruption les campagnes marketing. (TGT-53635)
@@ -1699,7 +1698,7 @@ Le [!DNL Platform Web SDK] prend en charge deux types d’implémentation pour l
 
   Ce type d’implémentation est la nouvelle approche d’implémentation [appel fractionné](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recommandée par [!DNL Adobe]. Avec cette approche, la nouvelle optimisation n’a aucune incidence sur les rapports [!DNL Analytics] ou A4T.
 
-Si vous avez des questions, contactez l’[Assistance clientèle Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Si vous avez des questions, contactez l’[Assistance clientèle &#x200B;](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ### at.js version 2.11.6 (29 septembre 2024)
 
@@ -1709,7 +1708,7 @@ Pour plus d’informations sur les versions d’at.js, voir [informations détai
 
 ### Création de rapports [!DNL Target] dans [!DNL Adobe Customer Journey Analytics] (8 mai 2024)
 
-L’intégration entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
+L’intégration entre [&#128279;](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
 
 Les principaux avantages de l’utilisation de [!DNL Customer Journey Analytics] comme source de création de rapports pour [!DNL Target] sont les suivants :
 
@@ -1903,7 +1902,7 @@ Cette version contient des mises à jour de sécurité et les nouvelles fonction
 | Fonctionnalité | Détails |
 |--- |--- |
 | AEM [!UICONTROL Content Fragments] pour une personnalisation et une expérimentation découplées | Utilisez le [!DNL Adobe Experience Manager] [!UICONTROL Content Fragments] (AEM) dans les activités [!DNL Target]. Combinez la facilité d’utilisation et la puissance d’AEM à de puissantes capacités d’intelligence artificielle (IA) et de machine learning (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.<P>Pour plus d’informations, voir [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
-| [*Guide du développeur d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} | Le guide de développement *Adobe Target* a été déplacé vers *[!UICONTROL Adobe Experience League]*. Le déplacement vers *[!UICONTROL Experience League]* permet la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* afin d’étendre et d’offrir les résultats de recherche à partir du *[!UICONTROL Adobe Target Business Practitioner Guide]* et du *[!UICONTROL Adobe Target Developer Guide]*, et offre des avantages supplémentaires.<P>La redirection depuis l’emplacement précédent vers *[!UICONTROL Experience League]* est automatique. Mettez à jour vos signets si nécessaire. |
+| [*Guide du développeur d’Adobe Target*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} | Le guide de développement ** a été déplacé vers *[!UICONTROL Adobe Experience League]*. Le déplacement vers *[!UICONTROL Experience League]* permet la localisation du texte dans d’autres langues, unifie la recherche dans *Experience League* afin d’étendre et d’offrir les résultats de recherche à partir du *[!UICONTROL Adobe Target Business Practitioner Guide]* et du *[!UICONTROL Adobe Target Developer Guide]*, et offre des avantages supplémentaires.<P>La redirection depuis l’emplacement précédent vers *[!UICONTROL Experience League]* est automatique. Mettez à jour vos signets si nécessaire. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (28 et 30 mars 2023)
 
@@ -2012,7 +2011,7 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 ### Version de l’API Modèles (23 novembre 2022)
 
-Placer sur la liste bloquée La nouvelle API [!DNL Adobe Target] Modèles , également appelée API de suppression, permet aux utilisateurs d’afficher et de gérer la liste des fonctionnalités utilisées dans les modèles de machine learning pour les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT).
+La nouvelle API [!DNL Adobe Target] Modèles , également appelée API de suppression, permet aux utilisateurs d’afficher et de gérer la liste des fonctionnalités utilisées dans les modèles de machine learning pour les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT).
 
 Pour plus d’informations, consultez [Présentation de l’API Modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=fr){target=_blank} dans le *Guide du développeur d’Adobe Target*.
 
@@ -2091,7 +2090,7 @@ Cette version comprend les fonctionnalités, les améliorations et correctifs su
 | *Guide du développeur d’Adobe Target* | Le *Guide du développeur d’Adobe Target* consolide tout le contenu développeur [!DNL Target] dans un guide pratique. Ce guide contient des informations sur l’implémentation de [!DNL Target] et [!DNL Recommendations], des SDK [!DNL Target] et des API [!DNL Target].<br>Pour plus d’informations, consultez le [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}. |
 
 * Les utilisateurs dotés du rôle [!UICONTROL Editor] ne peuvent plus modifier les audiences dans les activités dynamiques. (TGT-43582)
-* Un message d’avertissement s’affiche si un client tente d’enregistrer une audience sous un nom comportant un point d’exclamation ( !) ) comme premier caractère du nom de l’audience (par exemple, !Londres). (TGT-43643)
+* Un message d’avertissement s’affiche si un client tente d’enregistrer une audience avec un point d’exclamation ( ! ) comme premier caractère du nom de l’audience (par exemple, !Londres). (TGT-43643)
 * Correction d’un problème en raison duquel les cartes de définition des audiences de certains clients indiquaient qu’une activité terminée était toujours active. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (version échelonnée : 7-9 juin 2022)
@@ -2987,7 +2986,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
 
 | Fonction/amélioration | Description |
 | --- | --- |
-| ![Badge Target Premium](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] prise en charge dans les API [!DNL Target] | Les [API Adobe Target Admin](https://developers.adobetarget.com/api/#admin-apis) tirent maintenant pleinement parti des mêmes fonctionnalités d’autorisations d’Enterprise que celles de l’interface utilisateur de Target. À compter du **21 février 2019**, les administrateurs système pourront accéder par programme aux données des rapports. Ils pourront également créer et gérer des activités, des offres et des audiences dans n’importe quel espace de travail. Ces actions étaient précédemment limitées uniquement à l’espace de travail par défaut. La prise en charge des activités d’Automated Personalization (AP) sera assurée dans une version ultérieure. |
+| ![Badge &#x200B;](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] prise en charge dans les API [!DNL Target] | Les [API Adobe Target Admin](https://developers.adobetarget.com/api/#admin-apis) tirent maintenant pleinement parti des mêmes fonctionnalités d’autorisations d’Enterprise que celles de l’interface utilisateur de Target. À compter du **21 février 2019**, les administrateurs système pourront accéder par programme aux données des rapports. Ils pourront également créer et gérer des activités, des offres et des audiences dans n’importe quel espace de travail. Ces actions étaient précédemment limitées uniquement à l’espace de travail par défaut. La prise en charge des activités d’Automated Personalization (AP) sera assurée dans une version ultérieure. |
 | ![Badge Target Premium &#x200B;](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations] : filtrer les collections et exclusions par environnement (groupe d’hôtes) | Vous pouvez désormais prévisualiser le contenu des collections et exclusions de [!UICONTROL Recommendations] pour un environnement sélectionné (groupe d’hôtes).<br/>Auparavant, lorsque vous affichiez une collection ou une exclusion, les éléments affichés contenus étaient des résultats pour le groupe d’hôtes par défaut (spécifié dans [!UICONTROL Recommendations > Settings > Default Host Group]).<br/>À présent, lors de la création ou de la mise à jour d’une collection ou d’une exclusion, vous pouvez utiliser le sélecteur de [!UICONTROL Environment] pour choisir l’environnement pour lequel prévisualiser les résultats. Le nouveau filtre de [!UICONTROL Environment] vous permet de gagner du temps et vous évite d’avoir à accéder à la page [!UICONTROL Settings] pour sélectionner le groupe d’hôtes par défaut approprié avant de créer ou de modifier des collections et des exclusions.<br/>**Remarque :** après avoir modifié l’environnement sélectionné, vous devez cliquer sur [!UICONTROL Search] pour mettre à jour les résultats renvoyés.<br/>Le nouveau filtre de [!UICONTROL Environment] est disponible aux emplacements suivants dans l’interface utilisateur de [!DNL Target] :<ul><li>[!UICONTROL Catalog Search] ([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] boîte de dialogue ([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] boîte de dialogue ([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] boîte de dialogue ([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] boîte de dialogue ([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>Pour plus d’informations, voir les rubriques suivantes :<uL><li>[Collections](/help/main/c-recommendations/c-products/collections.md)</li><li>[Exclusions](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[Recherche catalogue](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}</li><li>[Recommandations : filtrer les collections et exclusions par environnement (groupe d’hôtes)](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Améliorations, correctifs et modifications**
