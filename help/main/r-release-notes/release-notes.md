@@ -6,10 +6,11 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+hold: true
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 47%
+source-wordcount: '447'
+ht-degree: 53%
 
 ---
 
@@ -29,32 +30,17 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.2 (10 mars 2026)
+## [!DNL Target Standard/Premium] 26.3.4 (19 mars 2026)
 
-**Activités**
-
-+++Afficher les détails
-
-* **Les modifications directes des offres dans l’expérience ne sont pas enregistrées.** Ce correctif résout un problème où les modifications apportées aux offres directes dans une expérience d’activité n’étaient pas enregistrées. Auparavant, lorsque les utilisateurs ouvraient une offre directe, apportaient des modifications et les enregistraient, les modifications semblaient reflétées initialement, mais étaient perdues lors de la réouverture de l’offre. Le correctif garantit que les modifications apportées aux offres directes sont correctement enregistrées et conservées lorsque l’offre est rouverte. (TGT-54653)
-
-+++
-
-**Implémentation**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++Afficher les détails
 
-* **Bouton bascule Ajouter la gestion du scintillement sur l’écran Implémentation .** Un nouveau bouton (bascule) a été ajouté à l’écran [!UICONTROL Implementation] pour contrôler l’activation du paramètre de gestion du scintillement. Ce bouton permet aux administrateurs de configurer la gestion du scintillement directement à partir de l’écran Implémentation . (TGT-52247)
+* **Sélection du mode Conception/Navigation visible dans l’éditeur web du compositeur d’expérience visuelle.** Ce correctif résout un problème en raison duquel le passage entre les modes Conception, Parcourir et Aperçu fonctionnait correctement, mais le mode actif n’était pas clairement indiqué dans l’interface. Le mode sélectionné est maintenant mis en surbrillance de façon visible afin que vous puissiez voir dans quel mode vous vous trouvez. (TGT-54790)
+
+* **URL de réseau privé dans le compositeur d’expérience visuelle (Chrome).** Chrome peut bloquer des pages sur un réseau privé à moins que l’accès au réseau local ne soit autorisé. Le **[!UICONTROL Visual Experience Composer]** demande désormais cette autorisation dans le framework utilisé par Experience Cloud. De ce fait, Chrome peut afficher une invite d’autorisation au lieu d’échouer en silence. Une fois l’accès autorisé, les URL internes peuvent se charger dans le VEC lorsque votre environnement le prend en charge. (TGT-54346)
 
 +++
-
-**Aperçu**
-
-+++Afficher les détails
-
-* **Afficher le nom complet de l’audience et de l’expérience dans la page Aperçu .** Cette amélioration met à jour la page [!UICONTROL Overview] pour afficher le nom complet des audiences et des expériences. Auparavant, les noms longs étaient tronqués et pas entièrement visibles, ce qui obligeait les utilisateurs à triple-cliquer pour sélectionner tout le texte pour afficher le nom complet. La mise à jour garantit que les noms complets de l’audience et de l’expérience sont visibles, ce qui facilite l’identification et la révision des configurations d’activité. (TGT-53323)
-
-+++
-
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

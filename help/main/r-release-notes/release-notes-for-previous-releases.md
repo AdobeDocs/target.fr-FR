@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 62d33419f2cbad93d99b29cef58e99f4d84a98f6
+source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
 workflow-type: tm+mt
-source-wordcount: '64670'
+source-wordcount: '64864'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,32 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.3.2 (10 mars 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **Les modifications directes des offres dans l’expérience ne sont pas enregistrées.** Ce correctif résout un problème où les modifications apportées aux offres directes dans une expérience d’activité n’étaient pas enregistrées. Auparavant, lorsque les utilisateurs ouvraient une offre directe, apportaient des modifications et les enregistraient, les modifications semblaient reflétées initialement, mais étaient perdues lors de la réouverture de l’offre. Le correctif garantit que les modifications apportées aux offres directes sont correctement enregistrées et conservées lorsque l’offre est rouverte. (TGT-54653)
+
++++
+
+**Implémentation**
+
++++Afficher les détails
+
+* **Bouton bascule Ajouter la gestion du scintillement sur l’écran Implémentation .** Un nouveau bouton (bascule) a été ajouté à l’écran [!UICONTROL Implementation] pour contrôler l’activation du paramètre de gestion du scintillement. Ce bouton permet aux administrateurs de configurer la gestion du scintillement directement à partir de l’écran Implémentation . (TGT-52247)
+
++++
+
+**Aperçu**
+
++++Afficher les détails
+
+* **Afficher le nom complet de l’audience et de l’expérience dans la page Aperçu .** Cette amélioration met à jour la page [!UICONTROL Overview] pour afficher le nom complet des audiences et des expériences. Auparavant, les noms longs étaient tronqués et pas entièrement visibles, ce qui obligeait les utilisateurs à triple-cliquer pour sélectionner tout le texte pour afficher le nom complet. La mise à jour garantit que les noms complets de l’audience et de l’expérience sont visibles, ce qui facilite l’identification et la révision des configurations d’activité. (TGT-53323)
+
++++
 
 ### [!DNL Target Standard/Premium] 26.3.1 (3 mars 2026)
 
