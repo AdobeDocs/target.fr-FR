@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
 workflow-type: tm+mt
-source-wordcount: '64864'
+source-wordcount: '64938'
 ht-degree: 52%
 
 ---
@@ -46,6 +46,14 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 +++Afficher les détails
 
 * **Afficher le nom complet de l’audience et de l’expérience dans la page Aperçu .** Cette amélioration met à jour la page [!UICONTROL Overview] pour afficher le nom complet des audiences et des expériences. Auparavant, les noms longs étaient tronqués et pas entièrement visibles, ce qui obligeait les utilisateurs à triple-cliquer pour sélectionner tout le texte pour afficher le nom complet. La mise à jour garantit que les noms complets de l’audience et de l’expérience sont visibles, ce qui facilite l’identification et la révision des configurations d’activité. (TGT-53323)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Afficher les détails
+
+* **Les modifications du compositeur d’expérience visuelle ne sont pas répercutées sur les sites utilisant Shadow DOM (composants web Salesforce Lightning).** Ce correctif résout un problème en raison duquel les modifications apportées dans Adobe Target (telles que les changements de couleur CTA) n’étaient pas enregistrées ou répercutées sur le site actif pour les sites basés sur Salesforce utilisant les composants web Lightning (LWC). Le CMS n’acceptait pas les mises à jour des activités Target et ce problème survenait de manière cohérente dans les tests A/B et les autres types d’activités. (TGT-54059)
 
 +++
 
