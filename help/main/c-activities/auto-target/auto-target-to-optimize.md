@@ -2,10 +2,10 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment une activité [!UICONTROL Auto-Target] offre l’expérience la plus adaptée à chaque visiteur en fonction des profils client et du comportement de visiteurs similaires.
 title: Qu’est-ce qu’une activité [!UICONTROL Auto-Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -20,7 +20,7 @@ ht-degree: 18%
 >
 >* [!UICONTROL Auto-Target] est disponible dans le cadre de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/main/c-intro/intro.md).
 >
->* [!UICONTROL Analytics for Target] (A4T) prend en charge les activités [!UICONTROL Auto-Target]. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>* [!UICONTROL Analytics for Target] (A4T) prend en charge les activités [!UICONTROL Auto-Target]. Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Témoignages de clients qui utilisent le ciblage automatique {#success}
 
@@ -73,7 +73,7 @@ Pour en savoir plus sur les données et les algorithmes sous-jacents aux [!UICON
 | Terme | Détails |
 |--- |--- |
 | [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Le principal algorithme de personnalisation de [!DNL Target] utilisé dans [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] est Random Forest. Des méthodes d&#39;ensemble, telles que Random Forest, utilisent de multiples algorithmes d&#39;apprentissage pour obtenir de meilleures performances prédictives que celles qui pourraient être obtenues à partir de n&#39;importe lequel des algorithmes d&#39;apprentissage constitutifs. L’algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] est une méthode de classification, ou de régression, qui fonctionne en construisant une multitude d’arbres de décision au moment de l’entraînement. |
-| [Chargement des données pour  [!DNL Target] algorithmes Personalization de &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Il existe plusieurs façons de saisir des données pour les modèles [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization]. |
+| [Chargement des données pour  [!DNL Target] algorithmes Personalization de ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Il existe plusieurs façons de saisir des données pour les modèles [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization]. |
 | [Collecte de données pour les algorithmes Personalization de  [!DNL Target]](/help/main/c-activities/t-automated-personalization/ap-data.md) | Les algorithmes de personnalisation de [!DNL Target] collectent automatiquement diverses données. |
 
 ## Détermination de l’affectation du trafic {#section_AB3656F71D2D4C67A55A24B38092958F}
@@ -163,3 +163,4 @@ Par [!UICONTROL Auto-Target], des règles générales simples peuvent être util
 ## Rapports et [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 Pour plus d’informations, voir [Reporting et ciblage automatique](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+
