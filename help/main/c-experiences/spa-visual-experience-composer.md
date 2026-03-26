@@ -17,7 +17,7 @@ En [!DNL Adobe Target], le [!UICONTROL Visual Experience Composer] (VEC) permet 
 
 ![Cycle de vie traditionnel par rapport au cycle de vie d’une application d’une seule page](/help/main/c-experiences/assets/trad-vs-spa.png)
 
-Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de ](/help/main/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
+Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
 
 ## Vues Adobe [!DNL Target] et applications monopages
 
@@ -65,7 +65,7 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
    ![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé à l’aide de balises dans [](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé à l’aide de balises dans [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
 
 1. Implémentez la nouvelle fonction d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sur vos sites.
 
@@ -364,7 +364,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | [Espaces de travail et propriétés](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) | Oui |
 | [Liens d’assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Oui |
 | [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) | Non |
-| [Code personnalisé ](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Oui |
+| [Code personnalisé &#x200B;](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Oui |
 | [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Toutes |
 | [Suivi des clics](/help/main/c-activities/r-success-metrics/click-tracking.md) | Oui |
 | [Diffusion multi-activité](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md) | Oui |
@@ -389,8 +389,8 @@ Considérez cet exemple d’utilisation :
 
 Les modifications suivantes ont été apportées :
 
-* Modification de la couleur d’arrière-plan dans la vue d’accueil, qui se trouve sous l’URL : [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* Modification de la couleur du bouton dans la vue Produits , qui se trouve sous l’URL : [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Modification de la couleur d’arrière-plan dans la vue d’accueil, qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Modification de la couleur du bouton dans la vue Produits , qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
 En gardant à l’esprit l’exemple ci-dessus, que se passe-t-il lorsque nous configurons [!UICONTROL Page Delivery] paramètres pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) dans une SPA avec at.js 2.*x* ?
 
@@ -402,19 +402,19 @@ L’illustration suivante illustre la demande Flux cible - Chargement de page da
 
 **Parcours d’utilisateur n°1**
 
-* Un utilisateur accède directement à [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* Un utilisateur accède directement à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * at.js 2.*x* effectue une requête à Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
-**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits .
+**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits .
 
-Remarque : l’utilisateur accédant à [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) n’a pas déclenché de chargement de page.
+Remarque : l’utilisateur accédant à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) n’a pas déclenché de chargement de page.
 
 **Parcours d’utilisateur n°2**
 
-* Un utilisateur accède directement à [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Un utilisateur accède directement à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * at.js 2.*x* effectue une requête à Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* Aucune activité qualifiée pour [](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* Aucune activité qualifiée pour [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 * Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
 **Résultat** : même si vous avez défini des `triggerView()` pour la vue Produits et effectué une action vers la vue Produits via le VEC SPA, l’action attendue ne s’affichera pas, car vous n’avez pas créé de règle qui incluait [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) dans les paramètres de diffusion de la page.
