@@ -6,11 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: ebece601c66f1f165d742f2d39af256ea7b7e277
+source-git-commit: d1517ad557dc63956346bf36fc2a001c848eb6ce
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 53%
+source-wordcount: '378'
+ht-degree: 62%
 
 ---
 
@@ -30,15 +29,14 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.3.4 (19 mars 2026)
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+## [!DNL Target Standard/Premium] 26.3.7 (26 mars 2026)
+
+**Audiences**
 
 +++Afficher les détails
 
-* **Sélection du mode Conception/Navigation visible dans l’éditeur web du compositeur d’expérience visuelle.** Ce correctif résout un problème en raison duquel le passage entre les modes Conception, Parcourir et Aperçu fonctionnait correctement, mais le mode actif n’était pas clairement indiqué dans l’interface. Le mode sélectionné est maintenant mis en surbrillance de façon visible afin que vous puissiez voir dans quel mode vous vous trouvez. (TGT-54790)
-
-* **URL de réseau privé dans le compositeur d’expérience visuelle (Chrome).** Chrome peut bloquer des pages sur un réseau privé à moins que l’accès au réseau local ne soit autorisé. Le **[!UICONTROL Visual Experience Composer]** demande désormais cette autorisation dans le framework utilisé par Experience Cloud. De ce fait, Chrome peut afficher une invite d’autorisation au lieu d’échouer en silence. Une fois l’accès autorisé, les URL internes peuvent se charger dans le VEC lorsque votre environnement le prend en charge. (TGT-54346)
+* **Précision du libellé de la source d’audience dans l’interface Audiences.** Correction d’un problème où les audiences provenant de la destination Adobe Target v2 dans Adobe Experience Platform pouvaient apparaître avec **Adobe Experience Cloud** comme source au lieu de **Adobe Experience Platform**. Cette mise à jour améliore la cohérence source-libellé lors du filtrage et de la révision des audiences. (TGT-54802)
 
 +++
 
@@ -57,7 +55,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
