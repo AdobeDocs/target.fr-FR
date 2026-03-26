@@ -4,7 +4,7 @@ description: Découvrez comment utiliser le VEC de SPA dans Adobe  [!DNL Target]
 title: Comment utiliser le compositeur d’expérience visuelle pour application monopage (SPA) ?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
+source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
@@ -65,7 +65,7 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
    ![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé à l’aide de balises dans [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé à l’aide de balises dans [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
 
 1. Implémentez la nouvelle fonction d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=fr){target=_blank} sur vos sites.
 
@@ -389,8 +389,8 @@ Considérez cet exemple d’utilisation :
 
 Les modifications suivantes ont été apportées :
 
-* Modification de la couleur d’arrière-plan dans la vue d’accueil, qui se trouve sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
-* Modification de la couleur du bouton dans la vue Produits , qui se trouve sous l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
+* Modification de la couleur d’arrière-plan dans la vue d’accueil, qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
+* Modification de la couleur du bouton dans la vue Produits , qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 
 En gardant à l’esprit l’exemple ci-dessus, que se passe-t-il lorsque nous configurons [!UICONTROL Page Delivery] paramètres pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/) dans une SPA avec at.js 2.*x* ?
 
@@ -402,19 +402,19 @@ L’illustration suivante illustre la demande Flux cible - Chargement de page da
 
 **Parcours d’utilisateur n°1**
 
-* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
+* Un utilisateur accède directement à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
 * at.js 2.*x* effectue une requête à Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
 * À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
-**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits .
+**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products), la couleur d’arrière-plan bleue du bouton s’affiche, car l’action est mise en cache dans le navigateur sous la vue Produits .
 
-Remarque : l’utilisateur accédant à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) n’a pas déclenché de chargement de page.
+Remarque : l’utilisateur accédant à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) n’a pas déclenché de chargement de page.
 
 **Parcours d’utilisateur n°2**
 
-* Un utilisateur accède directement à [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
+* Un utilisateur accède directement à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 * at.js 2.*x* effectue une requête à Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
-* Aucune activité qualifiée pour [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
+* Aucune activité qualifiée pour [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 * Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
 **Résultat** : même si vous avez défini des `triggerView()` pour la vue Produits et effectué une action vers la vue Produits via le VEC SPA, l’action attendue ne s’affichera pas, car vous n’avez pas créé de règle qui incluait [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) dans les paramètres de diffusion de la page.
@@ -440,3 +440,4 @@ Ce message s’affiche lorsque vous ajoutez la première action à une vue pour 
 >[!VIDEO](https://video.tv.adobe.com/v/34769?captions=fre_fr)
 
 Pour plus d’informations, consultez [Utilisation du compositeur d’expérience visuelle pour les applications d’une seule page (SPA VEC) dans Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
+
