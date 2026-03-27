@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 45225233e9eb2441d657402fe6309d927329aa5a
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
-source-wordcount: '64938'
+source-wordcount: '65113'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,28 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.3.6 (23 mars 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Afficher les détails
+
+* **Écran gris intermittent après l’authentification dans la nouvelle interface utilisateur du compositeur d’expérience visuelle.** Correction d’un problème en raison duquel les utilisateurs pouvaient voir par intermittence un écran gris après s’être connectés au nouveau compositeur d’expérience visuelle, ce qui empêchait toute modification ultérieure. Cette mise à jour améliore la fiabilité du chargement après authentification. (TGT-54626)
+
++++
+
+## [!DNL Target Standard/Premium] 26.3.4 (19 mars 2026)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Afficher les détails
+
+* **Sélection du mode Conception/Navigation visible dans l’éditeur web du compositeur d’expérience visuelle.** Ce correctif résout un problème en raison duquel le passage entre les modes Conception, Parcourir et Aperçu fonctionnait correctement, mais le mode actif n’était pas clairement indiqué dans l’interface. Le mode sélectionné est maintenant mis en surbrillance de façon visible afin que vous puissiez voir dans quel mode vous vous trouvez. (TGT-54790)
+
+* **URL de réseau privé dans le compositeur d’expérience visuelle (Chrome).** Chrome peut bloquer des pages sur un réseau privé à moins que l’accès au réseau local ne soit autorisé. Le **[!UICONTROL Visual Experience Composer]** demande désormais cette autorisation dans le framework utilisé par Experience Cloud. De ce fait, Chrome peut afficher une invite d’autorisation au lieu d’échouer en silence. Une fois l’accès autorisé, les URL internes peuvent se charger dans le VEC lorsque votre environnement le prend en charge. (TGT-54346)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.2 (10 mars 2026)
 
@@ -1705,7 +1727,7 @@ Cette optimisation sera activée pour tous les nouveaux clients [!DNL Adobe Expe
 >
 >Si vous ne parvenez pas à terminer l’examen de votre mise en œuvre et à résoudre les problèmes d’ici le 3 février 2025, vous pouvez demander une prolongation unique de six mois. Assurez-vous que votre demande a été soumise au plus tard le 31 janvier 2025. Adobe examinera votre demande et prendra une décision à ce sujet.
 
-Pour bénéficier de cette optimisation en cas de rendu manuel des propositions, passez en revue votre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} pour vous assurer que vous envoyez des notifications après avoir effectué manuellement le rendu des expériences ou lors de l’utilisation de la méthode `applyPropositions` (ou de l’action [!DNL Launch] correspondante en tant qu’assistant) pour effectuer le rendu des expériences.
+Pour bénéficier de cette optimisation en cas de rendu manuel des propositions, passez en revue votre [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} pour vous assurer que vous envoyez des notifications après avoir effectué manuellement le rendu des expériences ou lors de l’utilisation de la méthode `applyPropositions` (ou de l’action [!DNL Launch] correspondante en tant qu’assistant) pour effectuer le rendu des expériences.
 
 Les scénarios les plus courants lorsque les expériences sont rendues manuellement incluent :
 

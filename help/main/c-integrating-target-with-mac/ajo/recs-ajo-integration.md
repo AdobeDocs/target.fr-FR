@@ -4,11 +4,11 @@ description: Intégration  [!DNL Adobe Target Recommendations]  à  [!DNL Adobe 
 title: Comment utiliser dans les parcours  [!DNL Target Recommendations]  clients à l’aide de  [!DNL Adobe Journey Optimizer] ?
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
-badgeBeta: label="Bêta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités bêta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Cette intégration vous permet de générer davantage de conversions et de voir 
 
 Pour utiliser l’intégration [!DNL Target Recommendations] et [!DNL Adobe Journey Optimizer], vous avez besoin des éléments suivants :
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implémenté à l’aide de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implémenté à l’aide de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   Cette fonctionnalité n’est pas disponible avec une licence [!DNL Target Standard] ou lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 

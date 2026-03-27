@@ -4,7 +4,7 @@ description: Utilisez  [!DNL Target]  rapports dans  [!DNL Adobe Customer Journe
 title: En quoi consistent  [!DNL Target]  rapports  [!DNL Adobe Customer Journey Analytics] ?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 41%
@@ -13,7 +13,7 @@ ht-degree: 41%
 
 # [!DNL Target] de rapports dans [!DNL Adobe Customer Journey Analytics]
 
-L’intégration entre [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
+L’intégration entre [&#128279;](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
 
 Les principaux avantages de l’utilisation de [!DNL Customer Journey Analytics] comme source de création de rapports pour [!DNL Target] sont les suivants :
 
@@ -39,7 +39,7 @@ Tenez compte des informations suivantes avant d’utiliser l’intégration [!DN
 * Utilisez une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données de plusieurs sources pour une même activité.
 * Lorsque vous définissez [!DNL Customer Journey Analytics] en tant que source de création de rapports, il vous est demandé de spécifier le sandbox pour la création de rapports. Pendant la configuration, vous ne voyez que les sandbox auxquels vous avez accès.
 * Toutes les activités [!DNL Target] existantes continuent à utiliser la collecte de données [!DNL Target] et ne sont pas affectées par l’activation de cette intégration.
-* Pour utiliser cette intégration, la méthode de mise en œuvre préférée consiste à [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/fr/docs/experience-platform){target=_blank} et [!DNL Target] mises en œuvre par le biais de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} .
+* Pour utiliser cette intégration, la méthode de mise en œuvre préférée consiste à [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/fr/docs/experience-platform){target=_blank} et [!DNL Target] mises en œuvre par le biais de l’[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} .
 
   Si le [!DNL Adobe Experience Platform Web SDK] n’est pas actuellement implémenté, vous pouvez également créer une [[!DNL Adobe Analytics] connexion source](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics) pour importer les données dans [!DNL Adobe Experience Platform]. Si vous envisagez d’utiliser cette méthode, vous devez sélectionner une suite de rapports [!DNL Analytics] avec le sandbox [!DNL Adobe Experience Platform] que vous utilisez avec [!DNL Customer Journey Analytics].
 
@@ -53,7 +53,7 @@ Tenez compte des informations suivantes avant d’utiliser l’intégration [!DN
 
 ## Types d’activité pris en charge {#supported-activities}
 
-Les types d&#39;activités suivants sont pris en charge lors de l&#39;utilisation de la bibliothèque JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} ou [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
+Les types d&#39;activités suivants sont pris en charge lors de l&#39;utilisation de la bibliothèque JavaScript [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} ou [at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} :
 
 | Types d’activités | Pris en charge ? |
 |--- |--- |
@@ -63,7 +63,7 @@ Les types d&#39;activités suivants sont pris en charge lors de l&#39;utilisatio
 | [Ciblage d’expérience (XT)](/help/main/c-activities/t-experience-target/experience-target.md) | Oui |
 | [Test multivarié (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Oui |
 | [Activité d’Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Non |
-| [Activité Recommendations](/help/main/c-recommendations/recommendations.md) | Oui |
+| [Activité Recommandations](/help/main/c-recommendations/recommendations.md) | Oui |
 
 ## Créer une activité utilisant [!DNL Customer Journey Analytics] en tant que source de création de rapports
 
@@ -156,7 +156,7 @@ Une fois la configuration terminée, [!DNL Customer Journey Analytics] via le [!
 
 L’onglet Rapports comporte un lien **[!UICONTROL View in Customer Journey Analytics]**. Actuellement, ce lien vous redirige vers la page de destination d’accueil [!DNL Customer Journey Analytics].
 
-![Lien de création de rapports CJA](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
+![Lien de création de rapports &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
