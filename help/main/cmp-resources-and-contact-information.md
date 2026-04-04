@@ -87,7 +87,7 @@ Pour les problèmes de diffusion de contenu, consultez [Résolution des problèm
 
 ### En cas de panne  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
-Si vous pensez que votre problème est lié à une panne, consultez la [page État du système Experience Cloud](https://status.adobe.com/fr) ([!DNL https://status.adobe.com]). Elle répertorie toutes les pannes, les incidents et les périodes de maintenance pour les solutions Experience Cloud, notamment Target. Elle contient également les mises à jour les plus récentes effectuées par l’équipe chargée des opérations techniques. Si vous avez toujours besoin d’aide, rassemblez les informations suivantes en plus de celles répertoriées ci-dessus avant de contacter le service d’assistance clientèle :
+Si vous pensez que votre problème est lié à une panne, consultez la [page État du système Experience Cloud](https://status.adobe.com/fr) ([!DNL https://status.adobe.com/fr-fr]). Elle répertorie toutes les pannes, les incidents et les périodes de maintenance pour les solutions Experience Cloud, notamment Target. Elle contient également les mises à jour les plus récentes effectuées par l’équipe chargée des opérations techniques. Si vous avez toujours besoin d’aide, rassemblez les informations suivantes en plus de celles répertoriées ci-dessus avant de contacter le service d’assistance clientèle :
 
 * Heure du début de la panne
 * Explication de ce qui se produit
