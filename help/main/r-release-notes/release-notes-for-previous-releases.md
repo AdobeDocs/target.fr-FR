@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 23e5513879ec15922af78ca6696f94ed4d0ae9b5
+source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
 workflow-type: tm+mt
-source-wordcount: '65113'
+source-wordcount: '65169'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,16 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.3.7 (26 mars 2026)
+
+**Audiences**
+
++++Afficher les détails
+
+* **Précision du libellé de la source d’audience dans l’interface Audiences.** Correction d’un problème où les audiences provenant de la destination Adobe Target v2 dans Adobe Experience Platform pouvaient apparaître avec **Adobe Experience Cloud** comme source au lieu de **Adobe Experience Platform**. Cette mise à jour améliore la cohérence source-libellé lors du filtrage et de la révision des audiences. (TGT-54802)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.6 (23 mars 2026)
 
