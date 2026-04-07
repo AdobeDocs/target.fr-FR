@@ -6,11 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-hold: true
-source-git-commit: cad8c365028b28bd9349d2d283370e2c8a750180
+source-git-commit: ada5803424b4930d91dda735901390fe5073932f
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 35%
+source-wordcount: '660'
+ht-degree: 39%
 
 ---
 
@@ -30,6 +29,20 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 
+<!--
+## [!DNL Target Standard/Premium] 26.4.2 (April 7, 2026)
+
+**Activities**
+
++++See details
+
+* **Custom code preserved when applied to additional views.** Fixed an issue where custom code applied to one **[!UICONTROL View]** could be removed when adding or saving custom code for another **[!UICONTROL View]** in the same **[!UICONTROL Activity]**. (TGT-53933)
+
+* **Reporting metrics column order.** The updated [!DNL Target] interface allows reporting metrics to be reordered without clearing the full selection and re-adding metrics in sequence. Previously, users were required to unselect all metrics and select them again in the desired order, which was time-consuming when many metrics were enabled and when adjusting column placement to limit horizontal scrolling. (TGT-53044)
+
++++
+
+-->
 
 ## [!DNL Target Standard/Premium] 26.4.1 (vendredi 2 avril 2026)
 
@@ -38,8 +51,6 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 +++Afficher les détails
 
 * **Attributs d’audience visibles dans la vue Activités.** Correction d’un problème où les détails des règles d’audience affichés à partir d’un **[!UICONTROL Activity]** n’affichaient pas certains attributs qui s’affichaient lors de l’ouverture de la même audience à partir de la section **[!UICONTROL Audiences]** . (TGT-54742)
-
-* **Le code personnalisé est conservé lorsqu’il est appliqué à des vues supplémentaires.** Correction d’un problème en raison duquel le code personnalisé appliqué à un **[!UICONTROL View]** pouvait être supprimé lors de l’ajout ou de l’enregistrement de code personnalisé pour un autre **[!UICONTROL View]** du même **[!UICONTROL Activity]**. (TGT-53933)
 
 * **Exporter au format CSV dans les pages de liste Activités et Audiences.** Ajout d’une action **[!UICONTROL Export CSV]** afin que vous puissiez exporter des listes d’activités à partir de l’interface utilisateur, y compris lorsque des filtres sont appliqués, sans vous fier uniquement aux API pour les exportations de routine. (TGT-51466)
 
@@ -73,7 +84,7 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Afficher les détails
 
@@ -83,15 +94,6 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-## [!DNL Target Standard/Premium] 26.3.7 (26 mars 2026)
-
-**Audiences**
-
-+++Afficher les détails
-
-* **Précision du libellé de la source d’audience dans l’interface Audiences.** Correction d’un problème où les audiences provenant de la destination Adobe Target v2 dans Adobe Experience Platform pouvaient apparaître avec **Adobe Experience Cloud** comme source au lieu de **Adobe Experience Platform**. Cette mise à jour améliore la cohérence source-libellé lors du filtrage et de la révision des audiences. (TGT-54802)
-
-+++
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
@@ -108,7 +110,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

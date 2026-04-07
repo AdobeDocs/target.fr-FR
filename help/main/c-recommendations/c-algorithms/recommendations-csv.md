@@ -1,11 +1,11 @@
 ---
 keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
-description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans Adobe [!DNL Target] Recommendations.
+description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans  [!DNL Target] Recommendations.
 title: Comment télécharger des critères personnalisés dans  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 9ab594394fab977b6bf83b5c6f5e3cb91b71fe80
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 33%
@@ -44,13 +44,13 @@ Les étapes suivantes supposent que vous accédez à l’écran de [!UICONTROL C
 
 1. Dans la section **[!UICONTROL Upload CSV]** , sélectionnez le **[!UICONTROL Location]** de votre fichier CSV.
 
-Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Download the CSV template]** pour obtenir un fichier CSV correctement formaté.
+   Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Download the CSV template]** pour obtenir un fichier CSV correctement formaté.
 
-Vous avez le choix entre deux options :
+   Vous avez le choix entre deux options :
 
-    * **FTP :** pour charger votre fichier CSV à partir d’un serveur FTP, sélectionnez **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser SSL, qui utilise le protocole FTPS pour transférer votre fichier CSV en toute sécurité.
-    
-    * **URL :** pour charger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
+   * **FTP :** pour charger votre fichier CSV à partir d’un serveur FTP, sélectionnez **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser SSL, qui utilise le protocole FTPS pour transférer votre fichier CSV en toute sécurité.
+
+   * **URL :** pour charger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
