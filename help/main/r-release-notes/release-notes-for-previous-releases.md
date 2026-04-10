@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 3a0f3a8a7cdf20cfc92b663bb148a334853350e1
+source-git-commit: ee66ca185cc1d2c4659134d038add2e75026ad0d
 workflow-type: tm+mt
-source-wordcount: '65169'
+source-wordcount: '65505'
 ht-degree: 52%
 
 ---
@@ -22,6 +22,56 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.4.1 (vendredi 2 avril 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **Attributs d’audience visibles dans la vue Activités.** Correction d’un problème où les détails des règles d’audience affichés à partir d’un **[!UICONTROL Activity]** n’affichaient pas certains attributs qui s’affichaient lors de l’ouverture de la même audience à partir de la section **[!UICONTROL Audiences]** . (TGT-54742)
+
+* **Exporter au format CSV dans la page de liste des activités.** Ajout d’une action **[!UICONTROL Export CSV]** afin que vous puissiez exporter des listes d’activités à partir de l’interface utilisateur, y compris lorsque des filtres sont appliqués, sans vous fier uniquement aux API pour les exportations de routine. (TGT-51466)
+
+* **Modifications de l’expérience marquées lorsque les sélecteurs sont introuvables.Les modifications de l’expérience** exécutent désormais une vérification d’existence du sélecteur ; lorsqu’un sélecteur est introuvable sur la page, la modification est marquée comme non valide. (TGT-54815)
+
+* activités **[!UICONTROL Automated personalization].** Correction de problèmes de chargement des activités et de l’interface qui empêchaient les utilisateurs de créer, de modifier ou de gérer de manière fiable des activités Automated Personalization, ce qui bloquait la configuration des campagnes et retardait les cas d’utilisation de la personnalisation. (TGT-54421)
+
++++
+
+**Audiences**
+
++++Afficher les détails
+
+* **Nom et description de l’audience visibles lors de la création d’audiences à partir d’une activité.** Correction d’un problème où les champs **[!UICONTROL Name]** et **[!UICONTROL Description]** de l’audience ne se démarquaient pas clairement lors de la création ou de la modification d’une audience à partir du flux d’activité, par rapport à la création de l’audience directement sous **[!UICONTROL Audiences]**. (TGT-54837)
+
++++
+
+**Informations**
+
++++Afficher les détails
+
+* **[!UICONTROL Live Activities]comptez sur Insights.** Correction d’un problème en raison duquel la mesure **[!UICONTROL Live Activities]** sur le tableau de bord Insights pouvait signaler un total plus élevé que le nombre d’activités qui apparaissaient comme étant en ligne dans **[!UICONTROL All Activities]**. (TGT-54788)
+
++++
+
+**Recommandations**
+
++++Afficher les détails
+
+* **Listes d’ID longues dans [!UICONTROL Global Exclusions].** Correction d’un problème en raison duquel le collage ou la saisie d’une longue liste d’identifiants dans **[!UICONTROL Global Exclusions]** pouvaient être tronqués dans l’interface mise à jour par rapport à l’ancienne version, ce qui entraînait une liste d’exclusion incomplète. (TGT-54422)
+
++++
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++Afficher les détails
+
+* **Indicateur de statut du compositeur d’expérience amélioré (EEC) dans la [!UICONTROL Visual Experience Composer].** L’indicateur EEC indique si le compositeur d’expérience avancé est activé. Sa présentation a été révisée afin qu’elle ne ressemble plus à un bouton bascule interactif, car elle sert uniquement d’affichage d’état non interactif. (TGT-54828)
+
+* **Rail de gauche réductible dans le [!UICONTROL Visual Experience Composer].** Le rail de gauche peut maintenant être réduit lorsqu’une activité est ouverte pour modification. Cela améliore l’accès aux **[!UICONTROL Components]** et aux **[!UICONTROL Properties]** pour les activités qui incluent plusieurs audiences et pages, y compris sur des affichages plus petits. (TGT-54269)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.3.7 (26 mars 2026)
 
