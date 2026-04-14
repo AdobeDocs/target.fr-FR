@@ -59,7 +59,7 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
    * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL  Story Telling] [!UICONTROL Conversational].
+     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL &#x200B; Story Telling] [!UICONTROL Conversational].
 
 1. Utilisez le curseur pour sélectionner la durée pendant laquelle vous souhaitez que le texte soit long, de plus court à plus long.
 

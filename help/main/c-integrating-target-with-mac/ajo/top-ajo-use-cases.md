@@ -22,7 +22,7 @@ Découvrez comment mettre en œuvre les principaux cas d’utilisation d’optim
 
 Pour réaliser les cas pratiques suivants, vous avez besoin des éléments suivants :
 
-* [](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
+* [&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started){target=_blank}.
 * Ces cas d’utilisation ne nécessitent pas de licence [!DNL Adobe Target]. Ces cas d’utilisation montrent comment effectuer des tâches familières dans [!DNL Target] à l’aide de [!DNL Journey Optimizer], ce qui vous permet d’explorer et d’obtenir les mêmes résultats avec [!DNL Journey Optimizer].
 
 ## Cas d’utilisation
