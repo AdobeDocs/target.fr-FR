@@ -1,19 +1,19 @@
 ---
-keywords: Recommendations;offre
-description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
-title: Comment utiliser Recommendations en tant qu’offre dans d’autres types d’activités ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+keywords: Recommandations;offre
+description: Découvrez comment utiliser Adobe Recommandations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
+title: Comment utiliser Recommandations en tant qu’offre dans d’autres types d’activités ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 47%
 
 ---
 
-# Recommendations en tant qu’offre
+# Recommandations en tant qu’offre
 
 Vous pouvez désormais inclure des recommandations dans les activités [!UICONTROL A/B Test] (y compris les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target]) et [!UICONTROL Experience Targeting] (XT).
 
@@ -48,14 +48,14 @@ Pour commencer, créez une activité de [!UICONTROL A/B Test] ou de [!UICONTROL 
    * Page de catégorie
    * Page d’accueil
    * Page de destination
-   * Page de produit
+   * Page produit
    * Page Résultats de recherche
    * Page de remerciement
    * Les autres
 
 1. Cliquez sur **[!UICONTROL Create Criteria]** ou sélectionnez un [critère](/help/main/c-recommendations/c-algorithms/algorithms.md) existant, puis cliquez sur **[!UICONTROL Next]** pour afficher la boîte de dialogue [!UICONTROL Select Design].
 
-1. Cliquez sur **[!UICONTROL Create Design]** ou sélectionnez une [conception](/help/main/c-recommendations/c-design-overview/design-overview.md) existante, puis cliquez sur **[!UICONTROL &#x200B; Next]**.
+1. Cliquez sur **[!UICONTROL Create Design]** ou sélectionnez une [conception](/help/main/c-recommendations/c-design-overview/design-overview.md) existante, puis cliquez sur **[!UICONTROL  Next]**.
 
 1. Dans la boîte de dialogue [!UICONTROL Options], spécifiez ce qui suit :
 
