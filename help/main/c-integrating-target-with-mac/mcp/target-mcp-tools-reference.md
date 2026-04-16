@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: d24958d17ff62e957a8d3d6602abfcc8dfd67e46
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 15%
@@ -36,7 +36,7 @@ Cette page est une référence complète pour tous les outils publics exposés p
 
 ## Outils d’activité {#tools-activities}
 
-### list_target_activities
++++list_target_activities
 
 Liste [!DNL Adobe Target] activités avec filtrage et tri côté serveur.
 
@@ -67,7 +67,9 @@ Récupère une liste paginée d’activités. Tous les filtres sont appliqués c
 
 **Exemple d’invite :** « Répertorie tous les tests A/B actifs triés en fonction de la dernière modification ».
 
-### get_ab_activity
++++
+
++++get_ab_activity
 
 Obtenez des informations détaillées sur une activité A/B.
 
@@ -81,7 +83,9 @@ Récupère la configuration complète d’un test A/B spécifique, y compris les
 
 **Exemple d’invite :** « Obtenir des détails sur les 12345 d’activité A/B ».
 
-### get_xt_activity
++++
+
++++get_xt_activity
 
 Obtenez des informations détaillées sur une activité de ciblage d’expérience (XT).
 
@@ -95,7 +99,9 @@ Récupère la configuration complète d’une activité XT spécifique, y compri
 
 **Exemple d’invite :** « Obtention de détails sur les 12345 d’activité de ciblage d’expérience ».
 
-### get_abt_activity
++++
+
++++get_abt_activity
 
 Obtenez des informations détaillées sur une activité Automated Personalization (AP).
 
@@ -107,7 +113,9 @@ Obtenez des informations détaillées sur une activité Automated Personalizatio
 
 **Exemple d’invite :** « Obtenir des détails sur les 12345 d’activité d’Auto-Personalization ».
 
-### create_ab_activity
++++
+
++++create_ab_activity
 
 Créez une activité de test A/B.
 
@@ -130,7 +138,9 @@ Crée un test A/B avec la configuration spécifiée comprenant les expériences,
 
 **Exemple d’invite :** « Créez un test A/B appelé « Test du héros de la page d’accueil » avec deux expériences testant différentes images principales sur la mbox du héros de la page d’accueil. »
 
-### create_xt_activity
++++
+
++++create_xt_activity
 
 Créez une activité de Ciblage d’expérience (XT).
 
@@ -152,7 +162,9 @@ Crée une activité XT qui diffuse différentes expériences à différentes aud
 
 **Exemple d’invite :** « Créez une activité de ciblage d’expérience appelée « Geo Personalization » qui présente un contenu différent aux visiteurs de différentes régions. »
 
-### update_ab_activity
++++
+
++++update_ab_activity
 
 Mettez à jour une activité A/B existante.
 
@@ -167,7 +179,9 @@ Utilise un modèle de lecture-modification-écriture : récupère l’état actu
 
 **Exemple d’invite :** « Mettez à jour les 12345 d’activité pour modifier l’affectation du trafic sur 70/30. »
 
-### update_xt_activity
++++
+
++++update_xt_activity
 
 Mettez à jour une activité de ciblage d’expérience existante.
 
@@ -182,7 +196,9 @@ Utilise un modèle de lecture-modification-écriture.
 
 **Exemple d’invite :** « Mettez à jour les 12345 d’activité XT pour ajouter une nouvelle expérience pour les visiteurs mobiles ».
 
-### update_abt_activity
++++
+
++++update_abt_activity
 
 Mettre à jour une activité Automated Personalization existante
 
@@ -197,7 +213,9 @@ Utilise un modèle de lecture-modification-écriture.
 
 **Exemple d’invite :** « Mettez à jour le 12345 d’activité Personalization automatique pour modifier l’objectif d’optimisation. »
 
-### update_activity_schedule
++++
+
++++update_activity_schedule
 
 Mettez à jour les dates de début et de fin d’activité.
 
@@ -214,7 +232,9 @@ Met à jour le planning d’une activité sans modifier les autres paramètres.
 
 **Exemple d’invite :** « Mettez à jour le planning des 12345 d’activité A/B à exécuter du 1er au 31 mai. »
 
-### update_activity_state
++++
+
++++update_activity_state
 
 Modifier le statut de l’activité (activer, désactiver ou mettre en pause).
 
@@ -227,7 +247,9 @@ Modifier le statut de l’activité (activer, désactiver ou mettre en pause).
 
 **Exemple d’invite :** « Activer le 12345 d’activité » ou « Suspendre le test du héros de la page d’accueil ».
 
-### update_activity_name
++++
+
++++update_activity_name
 
 Renommez une activité.
 
@@ -242,7 +264,9 @@ Met à jour uniquement le nom sans modifier la configuration complète.
 
 **Exemple d’invite :** « Renommez le 12345 d’activité en « Test du héros de la campagne d’été ».
 
-### update_activity_priority
++++
+
++++update_activity_priority
 
 Modifier la priorité des activités.
 
@@ -257,7 +281,9 @@ Les activités à priorité élevée sont prioritaires lorsque plusieurs activit
 
 **Exemple d’invite :** « Définissez la priorité du 12345 d’activité sur 100. »
 
-### add_activity_variant
++++
+
++++add_activity_variant
 
 Ajouter une nouvelle expérience/variante à une activité.
 
@@ -278,7 +304,9 @@ Gère toute la coordination structurelle, y compris la création d’options, le
 
 **Exemple d’invite :** « Ajoutez une nouvelle variante appelée « Thème des vacances » aux 12345 d’activité A/B à l’aide du 67890 d’offre. »
 
-### update_traffic_split
++++
+
++++update_traffic_split
 
 Mettez à jour l’affectation du trafic entre les variantes.
 
@@ -294,7 +322,9 @@ Les pourcentages doivent totaliser exactement 100.
 
 **Exemple d’invite :** « Remplacez la répartition du trafic pour l’activité 12345 par 70 % Contrôle et 30 % Variante A ».
 
-### update_variant_offer
++++
+
++++update_variant_offer
 
 Modifiez l’offre pour une variante spécifique.
 
@@ -313,7 +343,9 @@ Fonctionne pour les activités basées sur des formulaires (à l’aide de `offe
 
 **Exemple d’invite :** « Mettez à jour l’expérience « Variante A » dans le 12345 d’activité pour utiliser les 99999 d’offre. »
 
-### remove_activity_variant
++++
+
++++remove_activity_variant
 
 Supprimer une expérience/variante d’une activité.
 
@@ -329,9 +361,11 @@ Supprime l’expérience, nettoie les options orphelines et rééquilibre unifor
 
 **Exemple d’invite :** « Supprimez l’expérience « Variante de test » du 12345 d’activité A/B. »
 
++++
+
 ## Outils d’offre {#tools-offers}
 
-### list_target_offers
++++list_target_offers
 
 Répertoriez toutes les offres de votre client [!DNL Target].
 
@@ -348,7 +382,9 @@ Récupère une liste paginée d’offres de contenu avec un filtrage facultatif.
 
 **Exemple d’invite :** « Répertorier toutes les offres JSON ».
 
-### get_target_offer
++++
+
++++get_target_offer
 
 Obtenez des informations détaillées sur une offre spécifique.
 
@@ -360,7 +396,9 @@ Obtenez des informations détaillées sur une offre spécifique.
 
 **Exemple d’invite :** « Obtenir les détails de l’67890 de l’offre ».
 
-### create_target_offer
++++
+
++++create_target_offer
 
 Créez une offre de contenu HTML.
 
@@ -374,7 +412,9 @@ Créez une offre de contenu HTML.
 
 **Exemple d’invite :** « Créez une offre HTML appelée « Bannière de vente d’été » avec une bannière promotionnelle. »
 
-### create_target_json_offer
++++
+
++++create_target_json_offer
 
 Créez une offre JSON pour diffuser des données structurées.
 
@@ -388,7 +428,9 @@ Créez une offre JSON pour diffuser des données structurées.
 
 **Exemple d’invite :** « Créez une offre JSON appelée « Configuration des indicateurs de fonctionnalité » avec les paramètres de basculement de fonctionnalité. »
 
-### update_target_offer
++++
+
++++update_target_offer
 
 Mettez à jour une offre existante.
 
@@ -402,9 +444,11 @@ Mettez à jour une offre existante.
 
 **Exemple d’invite :** « Mettre à jour le 67890 d’offre avec du nouveau contenu promotionnel ».
 
++++
+
 ## Outils Audience {#tools-audiences}
 
-### list_target_audiences
++++list_target_audiences
 
 Répertoriez toutes les audiences de votre client [!DNL Target].
 
@@ -417,7 +461,9 @@ Répertoriez toutes les audiences de votre client [!DNL Target].
 
 **Exemple d’invite :** « Répertorier toutes les audiences ».
 
-### create_target_audience
++++
+
++++create_target_audience
 
 Créez une audience avec des règles de ciblage.
 
@@ -432,9 +478,11 @@ Créez une audience avec des règles de ciblage.
 
 **Exemple d’invite :** « Créez une audience appelée « Visiteurs mobiles de Californie » ciblant les utilisateurs mobiles en Californie. »
 
++++
+
 ## Outils de mbox {#tools-mboxes}
 
-### list_target_mboxes
++++list_target_mboxes
 
 Répertoriez toutes les mbox de votre client [!DNL Target].
 
@@ -449,7 +497,9 @@ Répertoriez toutes les mbox de votre client [!DNL Target].
 
 **Exemple d’invite :** « Répertorier toutes les mbox contenant « homepage ». »
 
-### get_target_mbox
++++
+
++++get_target_mbox
 
 Obtenez des informations détaillées sur une mbox spécifique.
 
@@ -461,7 +511,9 @@ Obtenez des informations détaillées sur une mbox spécifique.
 
 **Exemple d’invite :** « Obtention des détails sur la mbox « homepage-hero ». »
 
-### list_target_mbox_profile_attributes
++++
+
++++list_target_mbox_profile_attributes
 
 Répertorier tous les attributs de profil mbox disponibles pour le ciblage.
 
@@ -471,9 +523,11 @@ Aucun paramètre requis.
 
 **Exemple d’invite :** « Quels attributs de profil sont disponibles pour le ciblage ? »
 
++++
+
 ## Outils de propriété {#tools-properties}
 
-### list_target_properties
++++list_target_properties
 
 Répertoriez toutes les propriétés de votre client [!DNL Target].
 
@@ -485,9 +539,11 @@ Aucun paramètre requis.
 
 **Exemple d’invite :** « Répertorier toutes les propriétés Target ».
 
++++
+
 ## Outils de reporting {#tools-reporting}
 
-### get_ab_performance_report
++++get_ab_performance_report
 
 Obtenez un rapport de performances pour une activité A/B.
 
@@ -502,7 +558,9 @@ Récupère les taux de conversion, l’effet élévateur et les niveaux de confi
 
 **Exemple d’invite :** « Afficher le rapport de performances des 12345 de test A/B au cours des 30 derniers jours ».
 
-### get_ab_orders_report
++++
+
++++get_ab_orders_report
 
 Obtenez un état des commandes/revenus pour une activité A/B.
 
@@ -515,7 +573,9 @@ Obtenez un état des commandes/revenus pour une activité A/B.
 
 **Exemple d’invite :** « Obtenir l’état des commandes pour les 12345 d’activité ».
 
-### get_xt_performance_report
++++
+
++++get_xt_performance_report
 
 Obtenez un rapport de performances pour une activité de ciblage d’expérience.
 
@@ -528,7 +588,9 @@ Obtenez un rapport de performances pour une activité de ciblage d’expérience
 
 **Exemple d’invite :** « Afficher les performances de mon 54321 d’activité de ciblage d’expérience ».
 
-### get_xt_orders_report
++++
+
++++get_xt_orders_report
 
 Obtenez un rapport commandes/revenus pour une activité de ciblage d’expérience.
 
@@ -541,7 +603,9 @@ Obtenez un rapport commandes/revenus pour une activité de ciblage d’expérien
 
 **Exemple d’invite :** « Obtenir les données de commande pour les 54321 d’activité XT ».
 
-### get_activity_report_by_name
++++
+
++++get_activity_report_by_name
 
 Recherchez une activité par nom et obtenez son rapport de performances.
 
@@ -556,9 +620,11 @@ Utile lorsque vous connaissez le nom de l’activité, mais pas son identifiant.
 
 **Exemple d’invite :** « Obtenez le rapport de performances de mon activité « Test du héros de la page d’accueil ». »
 
++++
+
 ## Outils de prévisualisation {#tools-preview}
 
-### preview_activity
++++preview_activity
 
 Générer des URL d’aperçu de l’AQ du navigateur pour une activité [!DNL Target].
 
@@ -574,9 +640,11 @@ Crée des liens d’aperçu cliquables qui forcent l’affichage d’expérience
 
 **Exemple d’invite :** « Générer des URL d’aperçu pour les 12345 d’activité afin que je puisse tester chaque expérience dans mon navigateur ».
 
++++
+
 ## Outils de jeton de réponse {#tools-response-tokens}
 
-### list_target_response_tokens
++++list_target_response_tokens
 
 Répertoriez tous les jetons de réponse de votre client [!DNL Target].
 
@@ -588,7 +656,9 @@ Aucun paramètre requis.
 
 **Exemple d’invite :** « Répertorier tous les jetons de réponse ».
 
-### create_target_response_token
++++
+
++++create_target_response_token
 
 Créez un jeton de réponse personnalisé pour collecter des données supplémentaires dans les réponses [!DNL Target].
 
@@ -601,9 +671,11 @@ Créez un jeton de réponse personnalisé pour collecter des données supplémen
 
 **Exemple d’invite :** « Créez un jeton de réponse personnalisé appelé « campaign_id » de type ACTIVITY. »
 
++++
+
 ## Outils de révision {#tools-revisions}
 
-### get_target_revisions
++++get_target_revisions
 
 Obtenez le journal d’audit pour un type de ressource.
 
@@ -620,7 +692,9 @@ Récupère les modifications apportées aux ressources [!DNL Target] avec le fil
 
 **Exemple d’invite :** « Afficher le journal d’audit pour les modifications d’activité ».
 
-### get_target_entity_revisions
++++
+
++++get_target_entity_revisions
 
 Récupère toutes les révisions d’une entité spécifique par ID.
 
@@ -633,9 +707,11 @@ Récupère toutes les révisions d’une entité spécifique par ID.
 
 **Exemple d’invite :** « Afficher toutes les modifications apportées aux 12345 d’activité ».
 
++++
+
 ## Outils de modèles {#tools-templates}
 
-### list_target_templates
++++list_target_templates
 
 Répertoriez les ressources et modèles MCP disponibles pour créer des activités et des offres.
 
@@ -644,6 +720,8 @@ Aucun paramètre requis.
 **Renvoie :** objet JSON répertoriant les modèles et ressources disponibles.
 
 **Exemple d’invite :** « Quels modèles sont disponibles pour la création d’activités ? »
+
++++
 
 ## Résumé des outils {#tools-summary}
 
