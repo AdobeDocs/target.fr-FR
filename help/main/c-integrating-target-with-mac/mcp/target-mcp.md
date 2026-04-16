@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 782256b734068075795d5e9c1f3f552ca48918e6
+source-git-commit: a0fbca3156a7d2a1c582ce591112a18b4a122a64
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 1%
@@ -191,7 +191,7 @@ Les procédures pas à pas suivantes montrent comment effectuer des tâches cour
 +++Création d’un test A/B
 
 **Invite:**
-> « Créez un test A/B appelé « Test d’image du héros de la page d’accueil » avec deux expériences : « Contrôle » montrant le héros actuel et « Variante » montrant une nouvelle image du héros sur le thème de l’été. Ciblez la mbox de la page d’accueil. »
+« Créez un test A/B appelé « Test d’image du héros de la page d’accueil » avec deux expériences : « Contrôle » montrant le héros actuel et « Variante » montrant une nouvelle image du héros sur le thème de l’été. Ciblez la mbox de la page d’accueil. »
 
 L’assistant d’IA utilise l’outil `create_ab_activity` pour créer l’activité avec la configuration que vous avez décrite. L’outil renvoie le nouvel identifiant d’activité et une confirmation des expériences créées.
 
@@ -200,7 +200,7 @@ L’assistant d’IA utilise l’outil `create_ab_activity` pour créer l’acti
 +++Vérification des performances de l’activité
 
 **Invite:**
-> « Affichez-moi les mesures de performances de mon activité « Optimisation du flux de passage en caisse » au cours des 30 derniers jours. »
+« Affichez-moi les mesures de performances de mon activité « Optimisation du flux de passage en caisse » au cours des 30 derniers jours. »
 
 L’assistant d’IA utilise `get_ab_performance_report` ou `get_xt_performance_report` (selon le type d’activité) pour récupérer les taux de conversion, le nombre de visiteurs et d’autres mesures pour la fenêtre temporelle spécifiée.
 
@@ -209,7 +209,7 @@ L’assistant d’IA utilise `get_ab_performance_report` ou `get_xt_performance_
 +++Gestion des offres
 
 **Invite:**
-> « Créez une offre HTML appelée « Bannière de vente d’été » avec une bannière promotionnelle indiquant « 20 % de réduction sur tous les articles d’été ». »
+« Créez une offre HTML appelée « Bannière de vente d’été » avec une bannière promotionnelle indiquant « 20 % de réduction sur tous les articles d’été ». »
 
 L’assistant d’IA utilise l’outil `create_target_offer` pour créer l’offre avec le contenu HTML spécifié et renvoie une confirmation avec le nouvel identifiant d’offre.
 
@@ -218,7 +218,7 @@ L’assistant d’IA utilise l’outil `create_target_offer` pour créer l’off
 +++Création d’une audience
 
 **Invite:**
-> « Créez une audience appelée « Visiteurs mobiles de Californie » qui cible les utilisateurs sur les appareils mobiles situés en Californie. »
+« Créez une audience appelée « Visiteurs mobiles de Californie » qui cible les utilisateurs sur les appareils mobiles situés en Californie. »
 
 L’assistant d’IA utilise l’outil `create_target_audience` avec les règles de ciblage appropriées dérivées de votre description.
 
@@ -227,7 +227,7 @@ L’assistant d’IA utilise l’outil `create_target_audience` avec les règles
 +++Génération des liens d’aperçu de l’AQ
 
 **Invite:**
-> « Générer des URL d’aperçu pour les 12345 d’activité afin que je puisse tester chaque expérience. »
+« Générer des URL d’aperçu pour les 12345 d’activité afin que je puisse tester chaque expérience. »
 
 L’assistant d’IA utilise l’outil `preview_activity` pour générer des URL cliquables qui contournent le ciblage d’audience et vous permettent d’afficher chaque expérience directement dans votre navigateur.
 
@@ -236,7 +236,7 @@ L’assistant d’IA utilise l’outil `preview_activity` pour générer des URL
 +++Création d&#39;une activité de ciblage d&#39;expérience
 
 **Invite:**
-> « Créez une activité de ciblage d’expérience appelée « Geo Personalization » qui présente différentes bannières principales aux visiteurs de différentes régions. »
+« Créez une activité de ciblage d’expérience appelée « Geo Personalization » qui présente différentes bannières principales aux visiteurs de différentes régions. »
 
 L’assistant d’IA utilise `create_xt_activity` pour créer l’activité avec un mappage d’expérience basé sur les audiences en fonction des régions que vous décrivez.
 
@@ -245,7 +245,7 @@ L’assistant d’IA utilise `create_xt_activity` pour créer l’activité avec
 +++Planification d’une activité
 
 **Invite:**
-> « Mettez à jour le planning des 12345 d’activité pour qu’elles commencent le 1er mai et se terminent le 31 mai. »
+« Mettez à jour le planning des 12345 d’activité pour qu’elles commencent le 1er mai et se terminent le 31 mai. »
 
 L’assistant d’IA utilise l’outil `update_activity_schedule` pour appliquer les nouvelles dates de début et de fin à l’activité.
 
