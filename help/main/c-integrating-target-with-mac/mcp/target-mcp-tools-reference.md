@@ -830,7 +830,7 @@ Aucun paramètre requis.
 | Jeton de réponse | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Révision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | Modèle | 1 | `list_target_templates` |
-| **Total** | 39 **** | |
+| **Total** | 39 **&#x200B;**&#x200B;| |
 
 ## Ressources connexes {#tools-related}
 
