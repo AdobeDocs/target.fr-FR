@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
 hide: true
-source-git-commit: 79cce28b604c667b1339675a6846027477e5e3e2
+source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
 workflow-type: tm+mt
-source-wordcount: '2941'
+source-wordcount: '2972'
 ht-degree: 14%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 14%
 
 Table des matières :
 
-* [Utiliser les clients MCP](target-mcp.md)
+* [Aperçu](target-mcp.md)
+* [Prise en main](target-mcp-get-started.md)
+* [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md)
 * **[Référence des outils du serveur MCP](target-mcp-tools-reference.md)**
 
 >[!ENDSHADEBOX]
 
-Cette page est une référence complète pour tous les outils publics exposés par le serveur MCP [!DNL Adobe Target]. Pour chaque outil, vous trouverez une description, les détails des paramètres, la valeur renvoyée et un exemple d’invite en langage naturel. Pour obtenir des instructions de configuration et des cas pratiques, voir [Utilisation de clients MCP](target-mcp.md).
-
->[!NOTE]
->
->Les outils de lecture sont disponibles pour tous les utilisateurs connectés ayant un rôle **Observateur** ou supérieur ; les outils d’écriture nécessitent un rôle **Éditeur** ou **Approbateur**.
+Cette page est une référence complète pour tous les outils publics exposés par le serveur MCP [!DNL Adobe Target]. Pour chaque outil, vous trouverez une description, les détails des paramètres, la valeur renvoyée et un exemple d’invite en langage naturel. Pour obtenir des instructions de configuration et des cas d’utilisation, consultez [Prise en main](target-mcp-get-started.md) et [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -40,6 +38,16 @@ Cette page est une référence complète pour tous les outils publics exposés p
 >La connexion des clients ou serveurs MCP aux produits Adobe est une configuration choisie par le client. Ce dernier est chargé d’évaluer la sécurité et l’adéquation de toute intégration MCP. Adobe n’est pas responsable des problèmes résultant d’une mauvaise configuration, d’une utilisation abusive du MCP, de vulnérabilités dans les implémentations tierces ou d’actions involontaires effectuées par le biais de workflows prenant en charge MCP.
 >
 >Pour réduire les risques, Adobe encourage à tester les intégrations dans un environnement Sandbox avant une utilisation productive et à examiner et valider soigneusement toutes les actions et réponses initiées par MCP avant de les confirmer ou de s’y fier.
+
+## Conditions préalables {#tools-prerequisites}
+
+Votre rôle [!DNL Adobe Target] détermine les outils disponibles :
+
+* **Observateur** rôle ou supérieur : accès à tous les outils de lecture
+* **Éditeur** rôle : accès aux outils de lecture et d’écriture (création)
+* **Approbateur** rôle : accès pour la lecture, l’écriture et l’activation/désactivation des outils
+
+Pour obtenir des instructions de configuration complètes, voir [Prise en main](target-mcp-get-started.md).
 
 ## Outils d’activité {#tools-activities}
 
