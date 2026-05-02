@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e2230782005110914dbf108a865463d1faaa62cc
+source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 49%
 
 ---
 
@@ -29,19 +29,52 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 
-## [!DNL Target Standard/Premium] 26.4.3 (vendredi 9 avril 2026)
+## [!DNL Target Standard/Premium] 26.4.4 (28 avril 2026)
 
 **Activités**
 
 +++Afficher les détails
 
-* **Emplacement manquant dans certaines activités.** Correction d’un problème en raison duquel **[!UICONTROL Location]** manquait dans certaines activités. (TGT-54951)
+* **Erreur avec le filtre Audience dans les rapports.** Correction d’un problème en raison duquel la modification du filtre d’audience dans **[!UICONTROL Goals & Settings]** provoquait une erreur dans la section Création de rapports de l’interface utilisateur de [!DNL Target]. (TGT-55006)
 
-* **Ordre des colonnes des mesures de rapports.** L’interface [!DNL Target] mise à jour permet de réorganiser les mesures de rapports sans effacer la sélection complète et ajouter à nouveau des mesures dans l’ordre. Auparavant, les utilisateurs devaient désélectionner toutes les mesures et les sélectionner à nouveau dans l’ordre souhaité, ce qui prenait du temps lorsque de nombreuses mesures étaient activées et lors de l’ajustement du positionnement des colonnes pour limiter le défilement horizontal. (TGT-53044)
+* **Trier les activités par priorité.** Ajout du tri par priorité dans la liste des activités à l’aide de l’en-tête de colonne **[!UICONTROL Priority]**, avec un ordre croissant et décroissant cohérent avec les autres colonnes triables. (TGT-54948)
+
+* **Les propriétés d’activité supplémentaires ne sont pas conservées après l’enregistrement.** Correction d’un problème en raison duquel certaines sélections de **[!UICONTROL Properties]** ne persistaient pas après l’enregistrement et la réouverture d’une activité. (TGT-53889)
+
++++
+
+**Localisation**
+
++++Afficher les détails
+
+* **Libellés japonais pour les opérateurs de règle [!UICONTROL Page Delivery].** Correction de chaînes illisibles ou corrompues pour les libellés d’opérateur de règle de diffusion de page dans l’interface utilisateur japonaise. (TGT-53097)
+
++++
+
+**API**
+
++++Afficher les détails
+
+* **Prise en charge de l’API Reporting [!DNL GraphQL] pour `segmentId`.** Ajout de `segmentId` à l’API Reporting [!DNL GraphQL]. (TGT-55021)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++Afficher les détails
+
+* **Modifications affichées sur une expérience incorrecte dans l’éditeur.** Correction d’un problème en raison duquel une suppression ou une autre modification pouvait apparaître sur la mauvaise expérience après le passage d’une expérience à l’autre dans le [!UICONTROL Visual Experience Composer]. (TGT-54955)
+
+* **Modifications supprimées lors de la suppression de l’insertion HTML.** Correction d’un problème en raison duquel la suppression du bloc de **[!UICONTROL HTML]** supplémentaire ajouté avec **[!UICONTROL Insert before]** ou **[!UICONTROL Insert after]** supprimait également une modification liée qui n’avait pas de sélecteur CSS. (TGT-54530)
 
 +++
 
 <!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+
+
+
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++See details
@@ -50,15 +83,6 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 -->
-
-## [!DNL Target Standard/Premium] 26.4.2 (mercredi 7 avril 2026)
-
-**Activités**
-
-+++Afficher les détails
-
-* **Le code personnalisé est conservé lorsqu’il est appliqué à des vues supplémentaires.** Correction d’un problème en raison duquel le code personnalisé appliqué à un **[!UICONTROL View]** pouvait être supprimé lors de l’ajout ou de l’enregistrement de code personnalisé pour un autre **[!UICONTROL View]** du même **[!UICONTROL Activity]**. (TGT-53933)
-+++
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
@@ -75,7 +99,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
