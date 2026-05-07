@@ -6,10 +6,10 @@ short-description: Découvrez les nouvelles fonctionnalités, améliorations et 
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7976d43e43baeabdb68509373f1b0b72bbe723b3
+source-git-commit: e3a22ef34bc78b03b71c75968d2271b9a634a0cd
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 49%
+source-wordcount: '582'
+ht-degree: 46%
 
 ---
 
@@ -28,6 +28,16 @@ Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre imp
 ### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
+
+## [!DNL Target Standard/Premium] 26.5.1 (7 mai 2026)
+
+**Intégrations**
+
++++Afficher les détails
+
+* Gestion des **[!DNL Adobe Target]dans Experimentation Accelerator.** Ajout de la prise en charge de l’affectation d’espaces de travail [!DNL Target] aux sandbox Experimentation Accelerator afin que les équipes puissent afficher les expériences de [!DNL Adobe Target] dans Experimentation Accelerator à un seul endroit. [En savoir plus](../c-integrating-target-with-mac/experimentation-accelerator.md)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.4.4 (28 avril 2026)
 
@@ -59,7 +69,7 @@ Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’i
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++Afficher les détails
 
@@ -99,7 +109,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

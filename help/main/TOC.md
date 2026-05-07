@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1317'
 ht-degree: 83%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 83%
 
 + [Guide du professionnel d’Adobe Target - Page d’accueil](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
-   + {hide-from-toc}[Annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
+   + {hide-from-toc}[annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (version préliminaire)](r-release-notes/target-release-notes.md)
    + [Aperçu de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
@@ -105,6 +105,7 @@ ht-degree: 83%
          + {hide-from-toc}[Principaux cas d’utilisation d’optimisation dans Adobe Journey Optimizer : canaux web et basés sur le code](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + {hide-from-toc}[Modifications de contenu par le biais de tests A/B dans Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
          + {hide-from-toc}[Ajouter ou masquer des composants à une page web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+   + [Intégration de Target à Experimentation Accelerator](/help/main/c-integrating-target-with-mac/experimentation-accelerator.md)
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
    + Serveur Adobe Target MCP {#mcp}
       + {hide-from-toc}[Aperçu](c-integrating-target-with-mac/mcp/target-mcp.md)
@@ -345,4 +346,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
