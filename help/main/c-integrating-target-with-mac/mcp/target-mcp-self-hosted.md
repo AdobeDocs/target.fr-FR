@@ -26,7 +26,7 @@ Cette page explique comment cloner, configurer et exécuter votre propre instanc
 
 >[!AVAILABILITY]
 >
->Le déploiement auto-hébergé est destiné aux développeurs et aux utilisateurs avancés qui ont besoin d’un contrôle total sur l’exécution du serveur MCP [!DNL Adobe Target]. Pour la plupart des utilisateurs, le point d’entrée hébergé (`https://targetmcp.adobe.io/mcp`) est recommandé. Voir [ Utilisation de clients MCP ](target-mcp.md).
+>Le déploiement auto-hébergé est destiné aux développeurs et aux utilisateurs avancés qui ont besoin d’un contrôle total sur l’exécution du serveur MCP [!DNL Adobe Target]. Pour la plupart des utilisateurs, le point d’entrée hébergé (`https://targetmcp.adobe.io/mcp`) est recommandé. Voir [&#x200B; Utilisation de clients MCP &#x200B;](target-mcp.md).
 
 
 
