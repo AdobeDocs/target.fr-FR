@@ -8,32 +8,29 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 1%
+source-wordcount: '1009'
+ht-degree: 0%
 
 ---
 
 # Serveur MCP [!DNL Adobe Target] {#target-mcp}
 
->[!BEGINSHADEBOX]
 
-Table des matières :
-
-* **[Aperçu](target-mcp.md)**
-* [Prise en main](target-mcp-get-started.md)
-* [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md)
-* [Référence des outils du serveur MCP](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
+L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter, d’analyser et de gérer des tests A/B, des activités de personnalisation et des critères de recommandations directement à partir de votre assistant d’IA. Transformez les API de lecture et d’écriture d’[!DNL Target] en workflows en langage clair : vérifiez votre portfolio d’expériences, examinez les rapports de performances, gérez les audiences et les offres, et prenez les mesures gouvernées sans parcourir l’interface utilisateur ni écrire d’appels d’API.
 
 >[!AVAILABILITY]
 >
->Le serveur MCP [!DNL Adobe Target] est actuellement disponible en **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**. La prise en charge d’autres applications compatibles avec MCP sera ajoutée dans les prochaines versions.
+>Le serveur MCP [!DNL Adobe Target] est disponible pour tous les clients dans **Public Beta**. Il est actuellement pris en charge dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**. La prise en charge d’autres applications compatibles avec MCP sera ajoutée dans les prochaines versions.
 
-L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter, d’analyser et de gérer des tests A/B, des activités de personnalisation et des critères de recommandations directement à partir de votre assistant d’IA. Transformez les API de lecture et d’écriture d’[!DNL Target] en workflows en langage clair : vérifiez votre portfolio d’expériences, examinez les rapports de performances, gérez les audiences et les offres, et prenez les mesures gouvernées sans parcourir l’interface utilisateur ni écrire d’appels d’API.
+
+## Qu’est-ce que le protocole de contexte de modèle ? {#mcp-overview}
+
+Les équipes de marketing et d’optimisation s’appuient de plus en plus sur des applications de chat et des outils de développement tels qu’Anthropic Claude, OpenAI ChatGPT, Cursor et Microsoft Copilot Studio pour rationaliser leur travail quotidien. Ces applications prennent en charge le **Model Context Protocol (MCP)**, une norme ouverte qui permet aux applications d’exposer de manière uniforme les outils back-end à des modèles de langage (LLM) volumineux.
+
+[!DNL Adobe Target] fournit désormais un serveur MCP qui surfacie les opérations d’expérimentation, de personnalisation et de recommandations directement dans toute application compatible MCP. [!DNL Adobe Target] agit comme couche de prise de décision et d’exécution, tandis que l’assistant d’IA gère le raisonnement et l’explication, ce qui permet aux équipes d’accéder plus rapidement aux informations d’optimisation sans avoir à parcourir plusieurs écrans de produit ni à écrire des requêtes sur l’API REST [!DNL Adobe Target].
+
 
 >[!IMPORTANT]
 >
@@ -42,12 +39,6 @@ L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter, d’analyser
 >La connexion des clients ou serveurs MCP aux produits Adobe est une configuration choisie par le client. Ce dernier est chargé d’évaluer la sécurité et l’adéquation de toute intégration MCP. Adobe n’est pas responsable des problèmes résultant d’une mauvaise configuration, d’une utilisation abusive du MCP, de vulnérabilités dans les implémentations tierces ou d’actions involontaires effectuées par le biais de workflows prenant en charge MCP.
 >
 >Pour réduire les risques, Adobe encourage à tester les intégrations dans un environnement Sandbox avant une utilisation productive et à examiner et valider soigneusement toutes les actions et réponses initiées par MCP avant de les confirmer ou de s’y fier.
-
-## Qu’est-ce que le protocole de contexte de modèle ? {#mcp-overview}
-
-Les équipes de marketing et d’optimisation s’appuient de plus en plus sur des applications de chat et des outils de développement tels qu’Anthropic Claude, OpenAI ChatGPT, Cursor et Microsoft Copilot Studio pour rationaliser leur travail quotidien. Ces applications prennent en charge le **Model Context Protocol (MCP)**, une norme ouverte qui permet aux applications d’exposer de manière uniforme les outils back-end à des modèles de langage (LLM) volumineux.
-
-[!DNL Adobe Target] fournit désormais un serveur MCP qui surfacie les opérations d’expérimentation, de personnalisation et de recommandations directement dans toute application compatible MCP. [!DNL Adobe Target] agit comme couche de prise de décision et d’exécution, tandis que l’assistant d’IA gère le raisonnement et l’explication, ce qui permet aux équipes d’accéder plus rapidement aux informations d’optimisation sans avoir à parcourir plusieurs écrans de produit ni à écrire des requêtes sur l’API REST [!DNL Adobe Target].
 
 ## Fonctionnalités clés {#mcp-capabilities}
 
@@ -94,7 +85,7 @@ Non. Le serveur MCP est conçu à la fois pour les professionnels du marketing e
 
 +++Mes données [!DNL Adobe Target] sont-elles envoyées au fournisseur du client MCP ?
 
-Lorsque vous envoyez une invite, le client MCP peut envoyer le contexte approprié (y compris [!DNL Adobe Target] données renvoyées par le serveur MCP) à son modèle pour traitement. Consultez les politiques de confidentialité et de gestion des données de votre fournisseur client MCP avant de vous connecter aux données de production. La gestion des données d’Adobe est régie par la [Politique de confidentialité d’Adobe](https://www.adobe.com/fr/privacy.html) et les [Conditions de protection des données](https://www.adobe.com/go/dpt-ww).
+Lorsque vous envoyez une invite, le client MCP peut envoyer le contexte approprié (y compris [!DNL Adobe Target] données renvoyées par le serveur MCP) à son modèle pour traitement. Consultez les politiques de confidentialité et de gestion des données de votre fournisseur client MCP avant de vous connecter aux données de production. La gestion des données d’Adobe est régie par la [Politique de confidentialité d’Adobe](https://www.adobe.com/privacy.html) et les [Conditions de protection des données](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Les opérations d’écriture peuvent-elles entraîner des modifications involontaires des activités en direct ?
@@ -117,6 +108,6 @@ Le serveur MCP étend les opérations à l’organisation associée à vos infor
 * [Prise en main](target-mcp-get-started.md)
 * [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md)
 * [Référence des outils du serveur MCP](target-mcp-tools-reference.md)
-* [Documentation du protocole Model Context](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Référence de l’API Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentation du protocole ModelContext](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [Référence de l’API [!DNL Adobe Target] Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
 * [Documentation du curseur](https://docs.cursor.com/){target="_blank"}

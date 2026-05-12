@@ -8,27 +8,21 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-hide: true
-source-git-commit: ecb51d828807735b990b8f3a52102feb005bc61b
+source-git-commit: 7b0c8b18abe2db4e07e3ef979d6d194f4c4c81d6
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # Prise en main du serveur [!DNL Adobe Target] MCP {#target-mcp-get-started}
 
->[!BEGINSHADEBOX]
 
-Table des matières :
+>[!AVAILABILITY]
+>
+>Le serveur MCP [!DNL Adobe Target] est disponible pour tous les clients dans **Public Beta**. Il est actuellement pris en charge dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**.
 
-* [Aperçu](target-mcp.md)
-* **[Commencer](target-mcp-get-started.md)**
-* [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md)
-* [Référence des outils du serveur MCP](target-mcp-tools-reference.md)
-
->[!ENDSHADEBOX]
-
+Cette page vous explique tout ce dont vous avez besoin pour connecter le serveur MCP [!DNL Adobe Target] à votre assistant d’IA et vérifier votre configuration.
 
 >[!IMPORTANT]
 >
@@ -37,8 +31,6 @@ Table des matières :
 >La connexion des clients ou serveurs MCP aux produits Adobe est une configuration choisie par le client. Ce dernier est chargé d’évaluer la sécurité et l’adéquation de toute intégration MCP. Adobe n’est pas responsable des problèmes résultant d’une mauvaise configuration, d’une utilisation abusive du MCP, de vulnérabilités dans les implémentations tierces ou d’actions involontaires effectuées par le biais de workflows prenant en charge MCP.
 >
 >Pour réduire les risques, Adobe encourage à tester les intégrations dans un environnement Sandbox avant une utilisation productive et à examiner et valider soigneusement toutes les actions et réponses initiées par MCP avant de les confirmer ou de s’y fier.
-
-Cette page vous explique tout ce dont vous avez besoin pour connecter le serveur MCP [!DNL Adobe Target] à votre assistant d’IA et vérifier votre configuration.
 
 ## Conditions préalables {#mcp-prerequisites}
 
@@ -152,5 +144,5 @@ Les jetons OAuth sont validés par rapport à Adobe IMS à chaque requête, ne s
 * [Aperçu](target-mcp.md)
 * [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md)
 * [Référence des outils du serveur MCP](target-mcp-tools-reference.md)
-* [Documentation du protocole Model Context](https://modelcontextprotocol.io/introduction){target="_blank"}
-* [[!DNL Adobe Target] Référence de l’API Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
+* [Documentation du protocole ModelContext](https://modelcontextprotocol.io/introduction){target="_blank"}
+* [Référence de l’API [!DNL Adobe Target] Admin](https://developers.adobe.com/target/administer/admin-api/){target="_blank"}
