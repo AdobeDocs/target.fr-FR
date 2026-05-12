@@ -4,10 +4,21 @@ title: Guide du spécialiste d’Adobe Target
 description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de votre clientèle afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux digitaux.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/FZseZZEVSfBXtgdDTjo08FJoJ1OesGwoxcMiCxrkegM
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 27%
+source-wordcount: 703
+ht-degree: 33%
 
 ---
 
@@ -15,25 +26,17 @@ ht-degree: 27%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de votre clientèle afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : 26 janvier 2026 ( [voir les modifications](r-release-notes/doc-change.md) )**
+**Dernière mise à jour : 12 mai 2026 ( [voir les modifications](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
 
->[!TAB Attention !]
-
-**Mise à jour : obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target] (17 juin 2025)**
-
-L’équipe [!DNL Target] a ajusté la chronologie de l’obsolescence du bouton (bascule) de version de l’interface utilisateur.
-
-[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
-
 >[!TAB Nouveautés]
 
-**Target 26.1.1 est en ligne !**
+**[!DNL Adobe Target]du serveur MCP (Public Beta)**
 
-Cette version se concentre sur les correctifs et les améliorations apportés à l’interface utilisateur et au [!DNL Target] de [!UICONTROL Visual Experience Composer] mis à jour (VEC).
+[!DNL Adobe Target] fournit désormais un serveur MCP (Model Context Protocol) qui surfacique les opérations d’expérimentation, de personnalisation et de création de rapports directement dans toute application compatible MCP, y compris Claude, Cursor et ChatGPT.
 
-[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+[![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md)
 
 >[!TAB  Mise à jour de l’interface utilisateur de Target ]
 
@@ -45,7 +48,7 @@ L’interface utilisateur est conçue pour être claire et efficace et vous aide
 
 FAQ sur la mise à jour de l’interface utilisateur de *[!DNL *Targe]t**
 
-Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
+Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
 [![&#x200B; Icône En savoir plus &#x200B;](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 

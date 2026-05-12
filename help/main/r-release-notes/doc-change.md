@@ -4,10 +4,28 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41d3acff6b1fc95b409aecda92eb84e6f066b32b
+TQID: https://experienceleague.adobe.com/8EcK9hck9HDIrY94Pr7bmoGIWNz54B-odkfHlQwpuv4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 38%
+source-wordcount: 2503
+ht-degree: 32%
 
 ---
 
@@ -16,6 +34,19 @@ ht-degree: 38%
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
 ## Mises à jour
+
+### [!DNL Target Standard/Premium] 26.5.1 (7 mai 2026)
+
+| Date | Rubrique | Modifications |
+|--- |--- |--- |
+| 12 mai | [[!DNL Adobe Target] Guide du professionnel](/help/main/target-home.md) | Mise à jour de la page d’accueil pour afficher l’annonce du serveur MCP [!DNL Adobe Target] (Public Beta) et suppression des annonces 2025 obsolètes. |
+|  | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la mise à jour de la fonctionnalité de serveur MCP [!DNL Adobe Target] (Public Beta). |
+|  | [[!DNL Adobe Target] Présentation du serveur MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp.md) | Nouvel article. Découvrez ce qu’est le serveur MCP [!DNL Adobe Target], ses fonctionnalités clés et comment il se connecte à votre assistant d’IA. |
+|  | [Prise en main du serveur  [!DNL Adobe Target] MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-get-started.md) | Nouvel article. Découvrez comment connecter le serveur MCP [!DNL Adobe Target] à votre assistant d’IA, notamment les conditions préalables, la configuration du client et le dépannage. |
+|  | [[!DNL Adobe Target] Serveur MCP : cas d’utilisation et procédures pas à pas](/help/main/c-integrating-target-with-mac/mcp/target-mcp-use-cases.md) | Nouvel article. Explorez les cas d’utilisation courants et les procédures pas à pas des invites pour le serveur MCP [!DNL Adobe Target]. |
+|  | [[!DNL Adobe Target] Référence des outils du serveur MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Nouvel article. Référence complète des paramètres pour tous les outils en lecture seule exposés par le serveur MCP [!DNL Adobe Target]. |
+|  | [Auto-hébergement du serveur  [!DNL Adobe Target]  MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-self-hosted.md) | Nouvel article. Découvrez comment exécuter votre propre instance du serveur MCP [!DNL Adobe Target] à l’aide de Python, de Docker ou d’un environnement de développement local. |
+| 7 mai | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 26.5.1 de [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 26.1.1 (lundi 18 janvier 2026)
 
@@ -38,7 +69,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
 | 5 novembre | [[!DNL Adobe Targe]t [!DNL Bulk Profile Update API]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/profile-apis/profile-bulk-api#empty){target=_blank} | Ajout d’une nouvelle section : Gérer les valeurs vides dans le [!DNL Bulk Profile Update API]. |
-| 28 octobre | placer sur la liste autorisée [nœuds  [!DNL Target]  edge](https://experienceleague.adobe.com/fr/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Adresses IP mises à jour que vous pouvez placer sur la liste autorisée. |
+| 28 octobre | [nœuds  [!DNL Target]  edge](https://experienceleague.adobe.com/fr/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | Adresses IP mises à jour que vous pouvez placer sur la liste autorisée. |
 | 27 octobre | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Correction des limites de la longueur maximale de la valeur du paramètre de profil sous *mbox par lots v2* et *point d’entrée de l’API de diffusion*. |
 | 22 octobre | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.10.1 de [!DNL Target Standard/Premium]. |
 
@@ -54,7 +85,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 30 septembre | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.9.3 de [!DNL Target Standard/Premium]. |
 | 29 septembre | [Création d’offres distantes](/help/main/c-experiences/c-manage-content/about-remote-offers.md) | Ajout d’informations détaillant les types d’activités qui prennent en charge les offres distantes. |
 | 22 septembre | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.9.3 de [!DNL Target Standard/Premium]. |
-| 19 septembre | [Connexion Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide des destinations [!DNL Adobe Experience Platform]. | Mise à jour de la note suivante : *unicité des flux de données dans l’ensemble de l’organisation*. |
+| 19 septembre | [Connexion &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} dans le guide des destinations [!DNL Adobe Experience Platform]. | Mise à jour de la note suivante : *unicité des flux de données dans l’ensemble de l’organisation*. |
 |  | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la mise à jour des fonctionnalités du flux de données/du sandbox. |
 | 9 septembre | [Prévisualisation et lancement de votre activité Recommandations](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md#format) | Ajout d’une nouvelle section : « Format de téléchargement CSV pour la popularité et les algorithmes basés sur des clés ». |
 | 5 septembre | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.9.1 de [!DNL Target Standard/Premium]. |
@@ -71,7 +102,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/fr/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank} dans le guide de développement *[!DNL Target]* | Ajout d’une remarque sur l’utilisation de la prudence lors de la mise à jour de [!DNL Recommendations] [!UICONTROL Catalogs] via le [!DNL Target Delivery API] . |
 | 21 août | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.8.3 de [!DNL Target Standard/Premium]. |
 | 18 août | [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank} dans le Guide de développement de *[!DNL Target]* | Mise à jour des sections suivantes :<ul><li>Mise à jour du fragment de code de requête GET.</li><li>Mise à jour du tableau des paramètres et variables de chaîne de requête .</li><li>Mise à jour de la section *Exemple d’appel HTTP Get à l’insertion de données A4T*.</li></ul> |
-|  | [API de mise à jour du profil en masse d’Adobe Target](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} dans le Guide du développeur *[!DNL Target]* | Mettez à jour la note sur la version de l’API à utiliser. |
+|  | [API de mise à jour du profil en masse d’](https://experienceleague.adobe.com/fr/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank} dans le Guide du développeur *[!DNL Target]* | Mettez à jour la note sur la version de l’API à utiliser. |
 |  | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version 25.8.3 de [!DNL Target] (21 août 2025). Les dates de publication, fonctions et autres informations peuvent changer sans préavis. Les informations de cet article sont mises à jour fréquemment, en particulier avant les versions . |
 | 14 août | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.8.2 de [!DNL Target Standard/Premium]. |
 | 11 août | [Connexion à Adobe Analytics for Target (A4T) dans Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/a4t/overview-a4t){target=_blank} | Pour améliorer l’organisation et l’accessibilité du contenu, nous avons déplacé l’ensemble des conseils d’implémentation pour [!UICONTROL Analytics for Target] (A4T) à l’aide du [!DNL Adobe Experience Platform Web SDK] du guide *Collecte de données* dans le guide de développement de [!DNL Target]. Grâce à cette consolidation, toutes les informations relatives à la [!DNL Target] sont désormais hébergées dans un emplacement unique et rationalisé, ce qui facilite la recherche et la référence de contenu pertinent pour les développeurs et les développeuses. |
@@ -109,10 +140,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 20 juin | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.6.3 de [!DNL Target Standard/Premium]. |
 | 19 juin | Notes de mise à jour de [[!DNL Target]  (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire relatives à la version 25.6.3 de [!DNL Target Standard/Premium] |
 | 16 juin | [[!DNL Target] création de rapports dans  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | Ajout d’une nouvelle section : Créer et afficher des rapports d’activité dans [!DNL Customer Journey Analytics]. |
-|  | [Cookies Adobe Target](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/target){target=_blank} | Mise à jour du texte pour ajouter que le `sessionId` ne peut pas inclure d’accolades ( {} ).<P>Le texte se lit désormais comme suit : L’ID de session peut être n’importe quelle chaîne imprimable, à l’exception d’un espace ou d’un point d’interrogation ( ? ), des accolades ( { } ) ou une barre oblique ( / ). Elle doit comporter entre 1 et 128 caractères. |
-|  | [API de diffusion Adobe Target](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | Mise à jour du texte pour ajouter que le `sessionId` ne peut pas inclure d’accolades ( {} ).<P> Le texte se lit désormais comme suit : L’ID de session peut être n’importe quelle chaîne imprimable, à l’exception d’un espace ou d’un point d’interrogation ( ? ), des accolades ( { } ) ou une barre oblique ( / ). Elle doit comporter entre 1 et 128 caractères. |
+|  | [Cookies &#x200B;](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/target){target=_blank} | Mise à jour du texte afin d’ajouter que le `sessionId` ne peut pas inclure d’accolades ( {} ).<P>Le texte se lit désormais comme suit : L’ID de session peut être n’importe quelle chaîne imprimable, à l’exception d’un espace ou d’un point d’interrogation ( ? ), des accolades ( { } ) ou une barre oblique ( / ). Elle doit comporter entre 1 et 128 caractères. |
+|  | [API de diffusion &#x200B;](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} | Mise à jour du texte afin d’ajouter que le `sessionId` ne peut pas inclure d’accolades ( {} ).<P> Le texte se lit désormais comme suit : L’ID de session peut être n’importe quelle chaîne imprimable, à l’exception d’un espace ou d’un point d’interrogation ( ? ), des accolades ( { } ) ou une barre oblique ( / ). Elle doit comporter entre 1 et 128 caractères. |
 | 12 juin | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.6.2 de [!DNL Target Standard/Premium]. |
-|  | [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) | Nouvel article.<P>Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour. |
+|  | [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) | Nouvel article.<P>Cette FAQ aborde les questions courantes à propos de la nouvelle interface utilisateur et du nouveau [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour. |
 | 6 juin | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.6.1 de [!DNL Target Standard/Premium]. |
 
 ### [!DNL Target Standard/Premium] 25.5.1 (5 mai 2025)
@@ -150,7 +181,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
-| 31 mars | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations relatives à la version 2.11.8 d’at.js. |
+| 31 mars | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations relatives à la version 2.11.8 d’at.js. |
 | 26 mars | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 25.3.7 de [!DNL Target Standard/Premium]. |
 |  | [Questions fréquentes relatives à Recommandations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Mise à jour des FAQ pour indiquer que [!DNL Recommendations] objets créés via l’API sont disponibles dans l’interface utilisateur de [!DNL Target]. |
 |  | [Collections](/help/main/c-recommendations/c-products/collections.md) | Ajout de la remarque suivante : les règles de collection s’appliquent aux éléments de recommandation générés après l’exécution du critère. Elles affectent uniquement les recommandations d’entité (RE) dans la sortie, et non la clé. |
@@ -169,7 +200,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 |--- |--- |--- |
 | 26 février | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout d’informations pour les versions suivantes :<ul><li>[!DNL Target Standard/Premium] 25.2.3 (26 février 2025)</li><li>at.js version 2.11.7 (26 février 2025)</li></ul> |
-|  | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations pour la version 2.11.7 d’at.js (26 février 2025). |
+|  | [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | Ajout d’informations pour la version 2.11.7 d’at.js (26 février 2025). |
 |  | [Signet d’applet de l’AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du signet d’AQ d’activité pour at.js 2.x. |
 | 13 février | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Modification de la version [!DNL Target Standard/Premium] 25.2.1 de l’interface utilisateur de au 17 février 2025. |
 | 12 février | [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Mise à jour de la rubrique entière pour expliquer le VEC mis à jour introduit dans la version 25.2.1 de [!DNL Target Standard/Premium] (12 février 2025). |
