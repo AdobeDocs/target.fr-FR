@@ -8,16 +8,16 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 216b1103f501a3fcf955523d4bcc8254a8ea418d
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
 
 # Serveur MCP [!DNL Adobe Target] {#target-mcp}
 
-L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter, d’analyser et de gérer des tests A/B, des activités de personnalisation et des critères de recommandations directement à partir de votre assistant d’IA. Transformez les API de lecture et d’écriture d’[!DNL Target] en workflows en langage clair : vérifiez votre portfolio d’expériences, examinez les rapports de performances, gérez les audiences et les offres, et prenez les mesures gouvernées sans parcourir l’interface utilisateur ni écrire d’appels d’API.
+L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter et d’analyser les tests A/B, les activités de personnalisation et les critères de Recommendations directement à partir de l’assistant d’IA. Transformez les données d’expérimentation et de personnalisation de [!DNL Target] en workflows en langage clair : auditez votre portfolio d’expériences, examinez les rapports de performances et explorez les audiences et les offres sans parcourir l’interface utilisateur ni écrire d’appels API.
 
 >[!AVAILABILITY]
 >
@@ -41,20 +41,20 @@ Les équipes de marketing et d’optimisation s’appuient de plus en plus sur d
 
 ## Fonctionnalités clés {#mcp-capabilities}
 
-Le serveur MCP [!DNL Adobe Target] permet d’accéder en lecture et en écriture aux activités, audiences, offres, recommandations et à la configuration de l’implémentation. Avec l’intégration , vous pouvez :
+Le serveur MCP [!DNL Adobe Target] fournit un accès en lecture aux activités, audiences, offres, recommandations et à la configuration de l’implémentation. Avec l’intégration , vous pouvez :
 
 * **Inspecter et auditer les expériences** - Obtenez des liens d’aperçu de statut, de performances, d’historique des modifications et d’assurance qualité pour toute activité sans avoir à naviguer dans l’interface utilisateur.
 * **Analyser les résultats** - Récupérez les rapports de performances, de chiffre d’affaires et A4T pour les activités A/B, XT, AP et de ciblage automatique.
-* **Gérer les activités** - Créer, mettre à jour et activer les activités A/B et XT ; ajuster les fractionnements de trafic, les variantes, les plannings et les priorités.
-* **Gérer les audiences et les offres** - Répertoriez, examinez et créez des audiences, des offres HTML et des offres JSON.
+* **Explorer les activités** - Répertorier, inspecter et analyser les activités A/B et XT.
+* **Explorer les audiences et les offres** - Répertoriez et examinez les audiences, les offres HTML et les offres JSON.
 * **Explorer les critères de Recommendations** - Répertoriez et examinez les critères et les algorithmes basés sur le panier.
 * **Implémentation d’audit** - Examinez les paramètres at.js, les jetons de réponse et l’historique des révisions par entité.
 
 >[!NOTE]
 >
->Les opérations d’écriture (création, mise à jour, activation, désactivation) incluent des annotations de sécurité. Aucune modification n’est exécutée sans confirmation explicite de l’utilisateur.
+>Les outils d’écriture (création, mise à jour, activation, désactivation) ne sont pas exposés via le catalogue public MCP dans **Public Beta**. Tous les outils actuellement disponibles sont en lecture seule. L’accès en écriture sera disponible dans une version ultérieure.
 
-Le serveur MCP [!DNL Adobe Target] expose 52 outils répartis dans 10 catégories, de la gestion des activités et des rapports à la création d’audiences et aux aperçus d’assurance qualité. Pour consulter la référence complète des paramètres, voir [Référence des outils du serveur MCP](target-mcp-tools-reference.md).
+Le serveur MCP [!DNL Adobe Target] présente 23 outils en lecture seule répartis sur 10 catégories, depuis l’inspection des activités et la création de rapports jusqu’à l’exploration des audiences et les aperçus d’assurance qualité. Pour consulter la référence complète des paramètres, voir [Référence des outils du serveur MCP](target-mcp-tools-reference.md).
 
 Pour découvrir ce que vous pouvez faire avec le serveur MCP [!DNL Adobe Target], y compris les procédures pas à pas d’invites, consultez [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md).
 
@@ -69,12 +69,12 @@ Le serveur MCP [!DNL Adobe Target] est actuellement disponible pour **Claude Web
 
 +++À quels objets de [!DNL Adobe Target] puis-je accéder via MCP ?
 
-Vous pouvez accéder aux activités (A/B, XT, AP), aux audiences, aux offres, aux propriétés, aux mbox, aux critères de recommandations, aux jetons de réponse, à la configuration d’at.js, aux rapports A4T et à l’historique de révision des entités. Les opérations de lecture et d’écriture sont toutes deux prises en charge dans 52 outils. Les opérations d’écriture nécessitent le rôle approprié et une confirmation explicite.
+Vous pouvez accéder aux activités (A/B, XT, AP), aux audiences, aux offres, aux propriétés, aux mbox, aux critères de recommandations, aux jetons de réponse, à la configuration d’at.js, aux rapports A4T et à l’historique de révision des entités. Les 23 outils actuellement disponibles sont en lecture seule.
 +++
 
 +++Le serveur MCP peut-il créer ou modifier des activités ?
 
-Oui. Outre les opérations de lecture, le serveur expose les opérations d’écriture qui vous permettent de créer des activités, de les mettre en pause, de mettre à jour les priorités, d’ajuster les divisions de trafic, etc. Les opérations d’écriture suivent le même modèle d’autorisation que l’interface utilisateur de [!DNL Adobe Target]. Vous avez besoin du rôle approprié pour apporter des modifications, et aucune action n’est exécutée sans confirmation explicite de l’utilisateur.
+Pas dans le Beta public. Le catalogue MCP public contient actuellement 23 outils en lecture seule. Les opérations d’écriture (création, mise à jour, activation, désactivation) ne sont pas encore disponibles via le serveur MCP public. L’accès en écriture sera disponible dans une version ultérieure.
 +++
 
 +++Ai-je besoin d’un accès développeur pour utiliser le serveur MCP ?
@@ -89,12 +89,12 @@ Lorsque vous envoyez une invite, le client MCP peut envoyer le contexte appropri
 
 +++Les opérations d’écriture peuvent-elles entraîner des modifications involontaires des activités en direct ?
 
-Les outils d’écriture incluent des annotations de sécurité et des points de contrôle de confirmation. Avant toute action de changement d’état, telle que l’activation d’une activité, la modification de la priorité ou la mise à jour de l’affectation du trafic, le serveur présente une confirmation structurée montrant l’objet affecté, l’impact estimé du trafic et une étape d’approbation explicite requise. Aucune modification n’est apportée avant confirmation.
+Les outils d’écriture ne sont pas disponibles via le catalogue public MCP dans Public Beta : les 23 outils actuellement exposés sont en lecture seule. Lorsque les outils d’écriture seront introduits dans une version ultérieure, ils incluront des annotations de sécurité et des points de contrôle de confirmation afin qu’aucune action de changement d’état ne soit exécutée sans confirmation explicite de l’utilisateur.
 +++
 
 +++De quelles autorisations ai-je besoin dans [!DNL Adobe Target] ?
 
-Au minimum, le rôle **Observateur** accorde l’accès à tous les outils de lecture. Le rôle **Éditeur** permet de créer des activités, des audiences et des offres. Le rôle **Approbateur** est requis pour activer, désactiver ou archiver des activités. Contactez votre administrateur [!DNL Adobe Target] si vous n’êtes pas sûr de votre niveau d’accès actuel.
+Le rôle **Observateur** ou une valeur supérieure accorde l’accès à l’ensemble des 23 outils en lecture seule disponibles dans Public Beta. Les outils d’écriture ne sont pas encore exposés via le catalogue MCP public. Par conséquent, les privilèges des rôles Éditeur et Approbateur ne déverrouillent pas d’autres outils MCP pour le moment. Contactez votre administrateur [!DNL Adobe Target] si vous n’êtes pas sûr de votre niveau d’accès actuel.
 +++
 
 +++Puis-je utiliser le serveur MCP sur plusieurs organisations ou propriétés Target ?

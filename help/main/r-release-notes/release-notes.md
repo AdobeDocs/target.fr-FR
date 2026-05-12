@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 42%
+source-wordcount: 630
+ht-degree: 43%
 
 ---
 
@@ -36,7 +36,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 **[!DNL Adobe Target]du serveur MCP (Public Beta)**
 
-[!DNL Adobe Target] fournit désormais un serveur MCP (Model Context Protocol) qui surfacique les opérations d’expérimentation, de personnalisation et de création de rapports directement dans toute application compatible MCP. Grâce à cette intégration, les personnes spécialisées dans le marketing et la technologie peuvent inspecter les tests A/B, analyser les rapports de performances, gérer les audiences et les offres, et prendre des mesures gouvernées, le tout à l’aide d’invites en langage naturel au lieu de parcourir plusieurs écrans d’interface utilisateur ou d’écrire des requêtes sur l’API REST [!DNL Adobe Target]. Cette fonctionnalité est actuellement disponible dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**.
+[!DNL Adobe Target] fournit désormais un serveur MCP (Model Context Protocol) qui surfacique les opérations d’expérimentation, de personnalisation et de création de rapports directement dans toute application compatible MCP. Grâce à cette intégration, les personnes spécialisées dans le marketing et la technologie peuvent inspecter les tests A/B, analyser les rapports de performances et explorer les audiences et les offres, le tout à l’aide d’invites en langage naturel au lieu de parcourir plusieurs écrans d’interface utilisateur ou d’écrire des requêtes sur l’API REST [!DNL Adobe Target]. Cette fonctionnalité est actuellement disponible dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**.
 
 Cette fonctionnalité est disponible pour tous les clients dans Public Beta.
 
