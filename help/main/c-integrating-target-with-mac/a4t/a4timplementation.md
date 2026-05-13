@@ -5,10 +5,18 @@ title: Comment mettre en œuvre Analytics for  [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1168
@@ -20,7 +28,7 @@ ht-degree: 17%
 
 Plusieurs étapes sont nécessaires lors de l’implémentation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T). Le processus varie selon que vous implémentez A4T avec le [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) ou avec at.js.
 
-## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
+## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site si vous envisagez d’utiliser le SDK Web Platform :
 
@@ -69,7 +77,7 @@ Voir [Mise en œuvre du service Experience Cloud ID pour Target](https://experie
 
 Implémentez ou migrez vers la version requise d’appMeasurement.js. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
+Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
 
 Pour une migration, voir [Migration vers AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) dans le *Guide de mise en œuvre d’Analytics*.
 

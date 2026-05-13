@@ -5,9 +5,13 @@ title: Comment créer une activité qui utilise A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 652
@@ -35,7 +39,7 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
 1. Sélectionnez le type d’activité et commencez à configurer l’activité.
 
-   Pour plus d’informations sur la création d’une activité de [!UICONTROL Auto-Allocate] ou de [!UICONTROL Auto-Target], consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   Pour plus d’informations sur la création d’une activité de [!UICONTROL Auto-Allocate] ou de [!UICONTROL Auto-Target], consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Lorsque vous accédez à la partie **[!UICONTROL Settings]** du flux de création d’activités, choisissez **[!UICONTROL Adobe Analytics]** et spécifiez votre société.
 1. Sélectionnez une suite de rapports.
@@ -79,4 +83,4 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
 ## A4T et les activités d’affectation automatique et de ciblage automatique
 
-Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).

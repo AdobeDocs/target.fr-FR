@@ -5,9 +5,16 @@ title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
 TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1373
@@ -41,7 +48,7 @@ Sélectionnez l’organisation souhaitée dans la liste déroulante [!UICONTROL 
 
 (Conditionnel) Si vous faites partie d’un programme [!DNL Target] Beta officiel, l’icône [!UICONTROL Beta Feedback] s’affiche.
 
-![Icône Commentaires ](/help/main/c-intro/assets/beta-feedback.png)
+![Icône Commentaires &#x200B;](/help/main/c-intro/assets/beta-feedback.png)
 
 Fournissez une description pour vos commentaires, incluez les fichiers ou les captures d’écran applicables et tout autre détail supplémentaire, si nécessaire, puis cliquez sur **[!UICONTROL Submit]**.
 
@@ -49,7 +56,7 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 (Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
@@ -117,7 +124,7 @@ Vous pouvez également définir un rappel pour recevoir une nouvelle notificatio
 
 Les annonces proactives vous avertissent des événements de panne et de maintenance.
 
-Vous trouverez des informations plus détaillées sur la page [](https://status.adobe.com/fr).
+Vous trouverez des informations plus détaillées sur la page [&#128279;](https://status.adobe.com/fr).
 
 ### Configuration des notifications et des annonces
 

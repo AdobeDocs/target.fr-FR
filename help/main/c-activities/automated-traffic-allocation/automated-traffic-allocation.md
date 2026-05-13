@@ -5,9 +5,16 @@ title: Qu’est-ce qu’une activité [!UICONTROL Auto-Allocate] ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 3572
@@ -43,7 +50,7 @@ Dans de tels tests, la plupart des produits, y compris les [!DNL Target], utilis
 
 * Utilisez **[!UICONTROL Auto-Allocate]** lorsque vous souhaitez optimiser votre activité depuis le début et identifier les expériences gagnantes le plus rapidement possible. En diffusant plus souvent des expériences hautement performantes, les performances globales de l’activité augmentent.
 * Utilisez un test A/B standard **[A/B Test](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** lorsque vous souhaitez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous aide à classer toutes vos expériences, tandis que [!UICONTROL Auto-Allocate] trouve les meilleures performances, mais ne garantit pas la différenciation entre les moins performantes.
-* Utilisez [](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. [!UICONTROL Auto-Allocate] examine le comportement agrégé des expériences (tout comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
+* Utilisez [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. [!UICONTROL Auto-Allocate] examine le comportement agrégé des expériences (tout comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
 
 ## Principaux avantages de la [!UICONTROL Auto-Allocate] {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -87,7 +94,7 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 >
 >Si une activité ne comporte que deux expériences, les deux expériences obtiennent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, les deux tiers du trafic sont attribués au gagnant et un tiers au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est alloué au gagnant et 10 % au perdant. [!DNL Target] envoie toujours du trafic vers l’expérience « perdue » pour éviter les faux positifs à la fin (c’est-à-dire conserver une partie de l’exploration).
 
-Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérations suivantes ne sont pas autorisées à partir de l’interface utilisateur Tar[!DNL]get :
+Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérations suivantes ne sont pas autorisées à partir de l’interface utilisateur Target :
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
@@ -95,7 +102,7 @@ Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérat
 
 ## Voir comment fonctionne l’affectation automatique
 
-Pour plus d’informations, voir [ L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
+Pour plus d’informations, voir [&#x200B; L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
 ## Avertissements {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -143,7 +150,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activit�
 
 ### [!UICONTROL Analytics for Target] (A4T) prend-il en charge les activités [!UICONTROL Auto-Allocate] ?
 
-Oui. Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Oui. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Les visiteurs récurrents sont-ils automatiquement réaffectés à des expériences hautement performantes ?
 

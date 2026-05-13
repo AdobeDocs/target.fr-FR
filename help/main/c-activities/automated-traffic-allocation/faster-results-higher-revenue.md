@@ -5,8 +5,10 @@ title: Les activités [!UICONTROL Auto-Allocate] peuvent-elles obtenir des résu
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 531
@@ -40,7 +42,7 @@ L’avantage est clair : davantage de visiteurs voient les variations qui ont le
 
 Dans l’exemple suivant, [!UICONTROL Auto-Allocate] a généré davantage de chiffre d’affaires pendant le test en poussant plus de trafic (40 %) vers l’expérience D, qui avait le taux de conversion le plus élevé.
 
-![ L’affectation automatique fournit une illustration de chiffre d’affaires plus élevé](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
+![&#x200B; L’affectation automatique fournit une illustration de chiffre d’affaires plus élevé](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## Dans quels cas dois-je m’en tenir à l’affectation manuelle du trafic ?
 

@@ -5,9 +5,13 @@ title: Qu'est-ce qu'un [!UICONTROL Multivariate Test] ?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 TQID: https://experienceleague.adobe.com/JKmjIHJuRxAXlhvUOrrmLMVLnJFhA3T4xkahgH-ozHE
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1453
@@ -76,7 +80,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
 ## Test factoriel partiel
 
 [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques,
-La « conception d’expériences » propose de nombreuses approches, ou conceptions, pour déterminer les facteurs qui influencent les résultats. Une telle approche est la [méthode de Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) pour les tests partiels factoriels. Taguchi permet aux professionnels du marketing de formuler un ensemble d’hypothèses qui réduisent le nombre de permutations d’expériences à tester et, par conséquent, réduisent les exigences de trafic pour un test multivarié. Cette fonctionnalité et cette approche de test peuvent être appliquées dans [!DNL Target] à l’aide de cette feuille de calcul [ hors ligne ](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+La « conception d’expériences » propose de nombreuses approches, ou conceptions, pour déterminer les facteurs qui influencent les résultats. Une telle approche est la [méthode de Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) pour les tests partiels factoriels. Taguchi permet aux professionnels du marketing de formuler un ensemble d’hypothèses qui réduisent le nombre de permutations d’expériences à tester et, par conséquent, réduisent les exigences de trafic pour un test multivarié. Cette fonctionnalité et cette approche de test peuvent être appliquées dans [!DNL Target] à l’aide de cette feuille de calcul [&#x200B; hors ligne &#x200B;](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Si votre équipe utilise d’autres approches de design d’expériences, vous pouvez utiliser cette feuille de calcul comme implémentation de référence pour des designs d’expériences personnalisés.
 
@@ -106,7 +110,7 @@ Cette vidéo de présentation explique les types d’activités disponibles dans
 
 ### Création de tests multivariés (9:25) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL]Target.
+Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du workflow guidé en trois étapes Target.
 
 * Définir et créer un test multivarié
 * Création d’un test multivarié

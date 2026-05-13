@@ -5,9 +5,15 @@ title: Comment Configurer Les Paramètres Des Rapports ?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 TQID: https://experienceleague.adobe.com/Nz7EFST7BeVE2FqfFkbWnp-hRJug7HPlOodak73H-Uo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1795
@@ -139,7 +145,7 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 >[!NOTE]
 >
->Si votre organisation utilise [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
+>Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
 
 ### Réinitialisation des données du rapport
 
@@ -234,9 +240,9 @@ Il existe quatre modes pour [!UICONTROL Auto-Target] activités : [!UICONTROL Da
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* **[!UICONTROL A/B Test](y compris [!UICONTROL Auto-Allocate] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
-* **[!UICONTROL Experience Targeting](XT)** : ordre des expériences dans l’activité.
-* **[!UICONTROL Multivariate Test](MVT)** : Alphabétique par nom d’expérience.
+* **[!UICONTROL A/B Test] (y compris [!UICONTROL Auto-Allocate] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
+* **[!UICONTROL Experience Targeting] (XT)** : ordre des expériences dans l’activité.
+* **[!UICONTROL Multivariate Test] (MVT)** : Alphabétique par nom d’expérience.
 * **[!UICONTROL Recommendations]** : ordre de création de l’expérience, par ordre décroissant.
 
 Lorsque vous utilisez les options de [!UICONTROL Counting Methodology], tenez compte des avertissements suivants :

@@ -5,10 +5,21 @@ title: Comment intégrer  [!DNL Target]  à  [!DNL Real-Time Customer Data Platf
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 TQID: https://experienceleague.adobe.com/0Zw98ulFxHFH-PdV8tmocpOXYCKR2ciKtqFKwD44iiM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1125
@@ -68,7 +79,7 @@ Le tableau suivant indique le temps d’évaluation des segments pour les évén
 
 ## Utiliser des audiences d’[!DNL Adobe Experience Platform] {#aep}
 
-Les [audiences](/help/main/c-target/c-audiences/audiences.md) créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée. [](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), qui repose sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils clients afin d’offrir des expériences personnalisées à votre clientèle sur l’ensemble des canaux et appareils en temps réel.
+Les [audiences](/help/main/c-target/c-audiences/audiences.md) créées dans [!DNL Adobe Experience Platform] fournissent des données clientes plus riches et permettent d’offrir une personnalisation plus poussée. [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), qui repose sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils clients afin d’offrir des expériences personnalisées à votre clientèle sur l’ensemble des canaux et appareils en temps réel.
 
 En associant [!DNL Target] à [!DNL Real-Time Customer Data Platform], nos clientes et clients peuvent offrir une personnalisation web plus poussée. Cette intégration vous permet de déverrouiller de nouveaux segments, inaccessibles autrefois pour [!DNL Target], afin d’activer la personnalisation en temps réel en millisecondes sur la première page de la visite d’un client ou d’une cliente sur le web. Utilisez les audiences et les attributs de profil créés dans [!DNL Adobe Experience Platform] pour étendre les points de données disponibles pour une personnalisation plus riche.
 
@@ -112,7 +123,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 
 * [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=fr#destinations){target=_blank} dans les notes de mise à jour de *Adobe Experience Platform*
 * [Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*.
-* [Connexion ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*
+* [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*
 * [Attributs de mappage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr#map-attributes){target=_blank} dans le guide *Présentation des destinations* .
 * [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} dans le guide *Vue d’ensemble des destinations*.
 * [Personnalisation de la même page et de la page suivante via les destinations  [!DNL Adobe Target]  et Custom Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=fr#same-next-page-personalization){target=_blank} sous « Questions fréquentes » dans le guide *Vue d’ensemble des destinations*.

@@ -5,10 +5,26 @@ title: Où puis-je trouver des réponses à mes questions sur l’optimisation e
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2806
@@ -76,7 +92,7 @@ Utilisez le [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB
 **Comment savoir à quel moment arrêter une activité ?**
 
 +++Afficher les détails
-L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [ pièges courants et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
+L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [&#x200B; pièges courants et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 
 +++
 
@@ -90,7 +106,7 @@ Voir [rapports pour déterminer l’expérience gagnante](/help/main/c-activitie
 **Puis-je exécuter une activité avec un niveau de personnalisation faisant partie intégrante de l’activité ?**
 
 +++Afficher les détails
-Consultez le type d’activité [ Ciblage automatique ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Consultez le type d’activité [&#x200B; Ciblage automatique &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 +++
 
@@ -149,7 +165,7 @@ Cela est rendu possible par le paramètre [!UICONTROL Primary Goal] à l’étap
 **Puis-je planifier une activité qui débute et se termine à un moment précis ?**
 
 +++Afficher les détails
-Utilisez la fonction [ Planification à l’étape [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow d’activité en trois parties en spécifiant les dates de début et de fin.
+Utilisez la fonction [&#x200B; Planification à l’étape [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow d’activité en trois parties en spécifiant les dates de début et de fin.
 
 N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état [!UICONTROL Ended].
 
@@ -158,7 +174,7 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Targeting] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Vous pouvez le faire facilement en [accédant directement à l’étape de votre choix à partir de la page [!UICONTROL Activity Overview] ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) , puis en quittant cette étape à l’aide de l’option [!UICONTROL Save and Close] .
+Vous pouvez le faire facilement en [accédant directement à l’étape de votre choix à partir de la page [!UICONTROL Activity Overview] &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) , puis en quittant cette étape à l’aide de l’option [!UICONTROL Save and Close] .
 
 +++
 
@@ -443,7 +459,7 @@ Nous disposons également d’une solution pour cela, grâce à la [fonctionnali
 **Comment puis-je connaître le statut de disponibilité de [!DNL Target] ?**
 
 +++Afficher les détails
-Utilisez la page [Statut du système ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [Statut du système &#x200B;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 +++
 

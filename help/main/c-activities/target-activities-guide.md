@@ -5,9 +5,18 @@ title: Quels types d’activités sont disponibles dans  [!DNL Target] ?
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 TQID: https://experienceleague.adobe.com/-q-l6teGnZIZWbS7MR9-yCoBKnEbc156-YybqoYZ0a0
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1424
@@ -73,7 +82,7 @@ Téléchargez un PDF interactif décrivant les différents types d’activités 
 
 | Type d’activité | Avantages | Considérations |
 |--- |--- |--- |
-| [!UICONTROL A/B Test] manuelle | Les tests A/B permettent d’acquérir une compréhension globale des performances de chaque expérience, pas seulement de l’expérience la plus performante. | Dans une [!UICONTROL A/B Test], si vous regardez les résultats du test avant que la taille de l’échantillon ne soit atteinte, vous risquez de vous fier à des résultats inexacts (vous ne pouvez pas « jeter un coup d’œil » plus tôt !).<P>Contrairement à [!UICONTROL Auto-Allocate], dans un test A/B, la distribution du trafic reste fixe même après avoir reconnu que certaines expériences sont plus performantes que d’autres.<P>Pour plus d’informations sur les bonnes pratiques relatives aux activités de [!UICONTROL A/B Test], consultez [Combien de temps devez-vous exécuter un test A/B ](/help/main/c-activities/t-test-ab/sample-size-determination.md) et [Dix pièges courants des tests A/B et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md). |
+| [!UICONTROL A/B Test] manuelle | Les tests A/B permettent d’acquérir une compréhension globale des performances de chaque expérience, pas seulement de l’expérience la plus performante. | Dans une [!UICONTROL A/B Test], si vous regardez les résultats du test avant que la taille de l’échantillon ne soit atteinte, vous risquez de vous fier à des résultats inexacts (vous ne pouvez pas « jeter un coup d’œil » plus tôt !).<P>Contrairement à [!UICONTROL Auto-Allocate], dans un test A/B, la distribution du trafic reste fixe même après avoir reconnu que certaines expériences sont plus performantes que d’autres.<P>Pour plus d’informations sur les bonnes pratiques relatives aux activités de [!UICONTROL A/B Test], consultez [Combien de temps devez-vous exécuter un test A/B &#x200B;](/help/main/c-activities/t-test-ab/sample-size-determination.md) et [Dix pièges courants des tests A/B et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md). |
 | [!UICONTROL Auto-Allocate] | [!UICONTROL Auto-Allocate] réduit le coût d’un test A/B standard, car il présente un taux de conversion global plus élevé qu’un test A/B manuel. Le taux de conversion est plus élevé, car [!UICONTROL Auto-Allocate] envoie plus de trafic vers l’expérience la plus performante, ce qui signifie que vous pouvez tirer parti de cette expérience gagnante avant la fin de la période de test (vous pouvez obtenir un aperçu). | [!UICONTROL Auto-Allocate] identifie le gagnant mais ne fait pas de distinction entre les perdants. Si vous devez connaître les performances de chaque expérience, le test A/B est préférable.<P>La fonctionnalité [!UICONTROL Auto-Allocate] fonctionne avec un seul paramètre de mesure avancé, à savoir « Incrémenter le décompte et maintenir l’utilisateur dans l’activité ». Si vous ne souhaitez pas décompter les conversions répétées, vous devez utiliser le test A/B à la place. |
 | [!UICONTROL Auto-Target] | Avec [!UICONTROL Auto-Target], le machine learning est appliqué à tout type d’expérience, y compris aux expériences de plusieurs pages. Une activité de [!UICONTROL Auto-Target] vous permet également d’obtenir la valeur de [!UICONTROL Automated Personalization] tout en utilisant le workflow de test A/B familier. | Avec [!UICONTROL Auto-Target], si vous souhaitez modifier le contenu de vos offres souvent ou fréquemment, l’algorithme a besoin de suffisamment de temps après chaque modification pour exploiter ce qu’il apprend et diffuser ce contenu aux visiteurs appropriés. |
 | [!UICONTROL Automated Personalization] (AP) | Avec [!UICONTROL Automated Personalization], vous pouvez collecter toutes vos offres en un seul endroit et l’algorithme détermine la meilleure combinaison d’offres. Vous n’avez pas besoin de spécifier ou de créer des expériences individuelles. [!UICONTROL Automated Personalization] utilise les mêmes algorithmes de machine learning que [!UICONTROL Auto-Target]. | Lorsque vous combinez plusieurs offres, une explosion combinatoire se produit, nécessitant un volume important de trafic. L’algorithme [!UICONTROL Automated Personalization] prend en compte de nombreux facteurs et nécessite donc le trafic le plus important.<P>[!UICONTROL Automated Personalization] ne pouvez pas utiliser les rapports dans [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). |

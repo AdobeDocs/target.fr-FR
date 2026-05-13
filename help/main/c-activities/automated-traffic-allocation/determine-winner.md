@@ -5,8 +5,11 @@ title: Comment Interpréter [!UICONTROL Auto-Allocate] Rapports ?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 TQID: https://experienceleague.adobe.com/o4mFGMk-M5QUvJ57kYnfjMPvVZL8l6YegJQSJyHjAxc
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1190
@@ -20,7 +23,7 @@ Interpréter les résultats d’une activité A/B [!UICONTROL Auto-Allocate] dan
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. [!DNL Target] vous permet de déterminer plus facilement le gagnant.
 
-Pour obtenir des informations générales sur la manière de désigner un gagnant, consultez [ Dix pièges courants des tests A/B et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+Pour obtenir des informations générales sur la manière de désigner un gagnant, consultez [&#x200B; Dix pièges courants des tests A/B et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifier l’expérience gagnante {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
