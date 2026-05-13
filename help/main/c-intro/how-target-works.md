@@ -50,14 +50,14 @@ Les points clés sont les suivants :
 
 Target s’intègre aux sites web à l’aide de [!DNL Experience Platform Web SDK] ou d’at.js :
 
-* **[Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
+* **[Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}** : cette bibliothèque d’implémentation pour [!DNL Target] réduit les temps de chargement des pages pour les implémentations web et offre de meilleures options pour les applications d’une seule page. Mise à jour fréquente avec de nouvelles fonctionnalités, [!DNL Adobe] recommande à tous les utilisateurs d’[at.js d’effectuer la mise à jour vers la dernière version](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La bibliothèque mbox.js est une implémentation héritée de [!DNL Target] et n’est plus prise en charge après le 31 mars 2021. Effectuez la mise à niveau vers la version [!UICONTROL Experience Platform Web SDK] (préférée) ou la dernière version d’at.js.
 
-Référencez le fichier [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
+Référencez le fichier [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
 
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation de [!DNL Experience Platform Web SDK] ou d’at.js :
 

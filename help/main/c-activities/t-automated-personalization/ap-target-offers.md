@@ -2,7 +2,7 @@
 keywords: automated personalization;offres;cible;audience;règles de ciblage;ciblage
 description: Découvrez comment cibler des offres individuelles sur des audiences spécifiques à l’aide d’activités [!UICONTROL Automated Personalization] (AP).
 title: Comment Cibler [!UICONTROL Automated Personalization] Offres ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: 633308dd-437b-4525-a7f8-69656c7d89be

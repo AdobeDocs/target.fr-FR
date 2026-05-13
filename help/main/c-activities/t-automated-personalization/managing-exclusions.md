@@ -2,7 +2,7 @@
 keywords: déduplication;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;
 description: Gérer les exclusions dans les activités [!UICONTROL Automated Personalization] (AP).
 title: Comment gérer les exclusions dans les activités [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652

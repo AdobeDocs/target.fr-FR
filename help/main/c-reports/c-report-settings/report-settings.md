@@ -145,7 +145,7 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 >[!NOTE]
 >
->Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
+>Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
 
 ### Réinitialisation des données du rapport
 
