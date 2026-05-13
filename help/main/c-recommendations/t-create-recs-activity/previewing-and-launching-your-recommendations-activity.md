@@ -1,17 +1,24 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;statut;critères;algorithme
-description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
+description: Découvrez comment prévisualiser votre activité  [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
+TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1424
 ht-degree: 15%
 
 ---
 
-# Prévisualisation et lancement de votre activité Recommendations
+# Prévisualisation et lancement de votre activité Recommandations
 
 Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] (XT) contenant des [offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualiser vos recommandations pour vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.
 
@@ -19,7 +26,7 @@ Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL A/
 
 Après avoir créé une activité, [!DNL Recommendations] exécute un algorithme pour générer des recommandations. L’exécution de cet algorithme peut prendre quelques heures.
 
-Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!DNL Recommendations] d&#39;une activité [!UICONTROL Overview] :
+Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!UICONTROL Overview] d&#39;une activité [!DNL Recommendations] :
 
 ![Page Aperçu de l’activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 

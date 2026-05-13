@@ -6,10 +6,20 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 39%
+source-wordcount: 783
+ht-degree: 38%
 
 ---
 
@@ -29,7 +39,7 @@ Deux options permettent de contrôler vos activités de [!UICONTROL Automated Pe
 
 ## Définition d’une expérience spécifique comme contrôle
 
-1. Lors de la création ou de la modification d’une activité de [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou d’[[!UICONTROL Auto-Target] activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
+1. Lors de la création ou de la modification d’une activité de [&#128279;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou d’[[!UICONTROL Auto-Target] activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.[!UICONTROL Automated Personalization]
 1. Sur la page [!UICONTROL Targeting] (étape 2 du workflow en trois parties), cliquez sur l’expérience de contrôle pour afficher [!UICONTROL Control] options dans le volet de droite.
 
    ![Panneau de contrôle](/help/main/c-activities/t-automated-personalization/assets/control.png)

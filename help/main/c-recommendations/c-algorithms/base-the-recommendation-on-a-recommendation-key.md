@@ -5,9 +5,19 @@ title: Comment baser le [!UICONTROL Recommendation] sur un [!UICONTROL Recommend
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3463'
+source-wordcount: 3510
 ht-degree: 27%
 
 ---
@@ -71,7 +81,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 ### [!UICONTROL People Who Viewed This, Also Bought]
 
-Recommande les articles qui sont le plus souvent achetés au cours de la même session que celle au cours de laquelle l’article spécifié est affiché.
+Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté.
 
 Cette logique renvoie d’autres produits que les personnes ont achetés après avoir consulté celui-ci. Le produit spécifié n&#39;est pas inclus dans le jeu de résultats.
 
@@ -295,7 +305,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés de fil
 
 Le type d’algorithme [!UICONTROL Custom Criteria] vous permet de faire des recommandations basées sur un fichier personnalisé que vous téléchargez.
 
-La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x>* ou profile.attributs *x*.
+La recommandation est déterminée par un élément stocké dans le profil d’un visiteur, à l’aide des attributs user.*x* ou profile.*x*.
 
 Si cette option est sélectionnée, la valeur `entity.id` doit être présente dans l’attribut de profil.
 
@@ -324,7 +334,7 @@ Les clés de recommandation suivantes sont disponibles à partir de la liste dé
 
 La recommandation est déterminée par l’article que le visiteur consulte actuellement.
 
-Les recommandations présentent d’autres articles susceptibles d’intéresser les visiteurs qui consultent l’article spécifié.
+Les recommandations présentent d’autres articles susceptibles d’intéresser les personnes qui consultent l’article spécifié.
 
 Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transmise comme un paramètre à la mbox d’affichage.
 

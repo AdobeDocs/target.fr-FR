@@ -1,19 +1,32 @@
 ---
-keywords: Placer sur la liste autorisée Ciblage;compositeur d’expérience visuelle;liste blanche;liste blanche;;liste autorisée;compositeur d’expérience visuelle amélioré;vec;dépannage du compositeur d’expérience visuelle;dépannage;eec;compositeur d’expérience amélioré;tls;tls 1.2
+keywords: Ciblage;compositeur d’expérience visuelle;liste blanche;liste blanche;;liste autorisée;compositeur d’expérience visuelle amélioré;vec;dépannage du compositeur d’expérience visuelle;dépannage;eec;compositeur d’expérience amélioré;tls;tls 1.2
 description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) et le [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
 title: Comment résoudre les problèmes liés aux [!UICONTROL Visual Experience Composer] et aux [!UICONTROL Enhanced Experience Composer] ?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: 1202
 ht-degree: 32%
 
 ---
 
-# Résolution des problèmes liés à l’[!DNL Adobe Target] et à l’[!UICONTROL Visual Experience Composer] [!UICONTROL Enhanced Experience Composer]
+# Résolution des problèmes liés à l’[!UICONTROL Visual Experience Composer] et à l’[!UICONTROL Enhanced Experience Composer] [!DNL Adobe Target]
 
-Des problèmes d&#39;affichage et d&#39;autres problèmes surviennent parfois dans le [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE) sous certaines conditions.
+Des problèmes d&#39;affichage et d&#39;autres problèmes surviennent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE) sous certaines conditions.
 
 ## Comment les politiques dʼapplication des cookies SameSite de Google Chrome influencent-elles le VEC et l’EEC ? {#samesite}
 
@@ -65,14 +78,14 @@ Pour pallier ce problème, vous pouvez ajouter une page dans l’expérience ave
 
 +++
 
-## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_313001039F79446DB28C70D932AF5F58}
+## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Détails
 Cette situation peut se produire si l’URL contient un caractère #. Pour résoudre le problème, basculez en mode [!UICONTROL Browse] dans le VEC ou l’EEC, puis revenez en mode [!UICONTROL Compose]. Le compteur doit disparaître et la page doit se charger.
 
 +++
 
-## Les en-têtes de politique de sécurité du contenu (CSP) bloquent les bibliothèques [!DNL Target] sur mon site web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_89A30C7A213D43BFA0822E66B482B803}
+## Les en-têtes de politique de sécurité du contenu (CSP) bloquent les bibliothèques [!DNL Target] sur mon site web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 
 +++Détails
@@ -80,7 +93,7 @@ Si les en-têtes CSP de votre site web bloquent les bibliothèques [!DNL Target]
 
 >[!NOTE]
 >
->En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [Adobe Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
+>En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
 
 ![image cps_headers](assets/cps_headers.png)
 
@@ -97,28 +110,28 @@ Par [!DNL Requestly], lorsqu’il est nécessaire de supprimer des en-têtes, vo
 
 +++
 
-## Le compositeur d’expérience visuelle et le compositeur d’expérience avancé semblent rompus et ne s’initialisent pas lors de la réédition d’une activité enregistrée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## Le compositeur d’expérience visuelle et le compositeur d’expérience avancé semblent rompus et ne s’initialisent pas lors de la réédition d’une activité enregistrée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 +++Détails
 Si le site web a été modifié en dehors du compositeur d’expérience visuelle après la définition de l’expérience, les sélecteurs sur lesquels des actions ont été entreprises précédemment sont introuvables lorsque l’activité est ouverte pour modification. La page apparaît rompue et aucun avertissement ne s’affiche.
 
 +++
 
-## Le compositeur d’expérience visuelle ou le compositeur d’expérience avancé n’affiche pas mes bannières tournantes ni le contenu comportant du code JavaScript. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_8B5BE6EB050B42D6A14A054724C41330}
+## Le compositeur d’expérience visuelle ou le compositeur d’expérience avancé n’affiche pas mes bannières tournantes ni le contenu comportant du code JavaScript. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 +++Détails
 Par défaut, le compositeur d’expérience visuelle bloque les éléments JavaScript. Vous pouvez utiliser ces éléments si vous désactivez JavaScript. Selon la configuration du site, il est possible que certains éléments continuent à s’afficher incorrectement ou ne soient pas disponibles.
 
 +++
 
-## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_309188ACF34942989BE473F63C5710AF}
+## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_309188ACF34942989BE473F63C5710AF}
 
 +++Détails
 Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la page, la modification d’un de ces éléments entraîne celle de tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 +++
 
-## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_9FE266B964314F2EB75604B4D7047200}
+## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Détails
 Ce problème peut être résolu en autorisant la [!UICONTROL Enhanced Experience Composer] (CEE). Cliquez sur **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, puis cochez la case qui active le [!UICONTROL Enhanced Experience Composer]. L’EEC utilise un proxy géré par [!DNL Adobe] pour charger votre page à modifier. Ce proxy permet la modification sur les sites qui démolissent un iFrame ainsi que sur les sites et les pages où vous n’avez pas encore ajouté de code [!DNL Adobe Target]. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites peuvent ne pas charger via l&#39;EEC, auquel cas vous pouvez décocher cette option pour charger l&#39;EEC via un iFrame.
@@ -129,14 +142,14 @@ Ce problème peut être résolu en autorisant la [!UICONTROL Enhanced Experience
 
 +++
 
-## Je souhaite configurer des tests sur des pages dont l’implémentation de la mbox/[!DNL Target] n’est pas encore terminée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Je souhaite configurer des tests sur des pages dont l’implémentation de la mbox/[!DNL Target] n’est pas encore terminée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Détails
 Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames » ci-dessus.
 
 +++
 
-## Les styles de texte gras et italique avec [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] ou [!UICONTROL Change Text]/[!DNL Change HTML] ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Les styles de texte gras et italique avec [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] ou [!UICONTROL Change Text]/[!DNL Change HTML] ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Détails
 Si vous utilisez **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** dans le compositeur d’expérience visuelle pour des activités [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] ou **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** pour des activités [!UICONTROL Automated Personalization] ou [!UICONTROL Multivariate Test] afin de mettre le texte en gras ou en italique, il se peut que ces styles ne soient pas appliqués à la page ou que le texte disparaisse de la page dans le compositeur d’expérience visuelle. Cela se produit en raison de la manière dont l’éditeur de texte enrichi applique ces styles qui peuvent interférer avec le balisage du site web.
@@ -152,7 +165,7 @@ Si vous rencontrez ce problème :
 
 +++
 
-## La permutation d’image apparaît rompue dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé pour les activités d’Automated Personalization. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_88AABFDFE6A3420299B0D508B12A3994}
+## La permutation d’image apparaît rompue dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé pour les activités d’Automated Personalization. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 +++Détails
 L’ajout d’une offre d’image à un emplacement occupe l’ensemble de l’espace de l’image d’origine dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé. Lors de la diffusion, l’image n’est pas développée et est affichée en l’état, ce qui n’a aucun impact sur la diffusion.

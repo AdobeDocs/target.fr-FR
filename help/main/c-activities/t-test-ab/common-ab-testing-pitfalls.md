@@ -4,9 +4,16 @@ description: Découvrez comment éviter les écueils et les erreurs les plus cou
 title: Comment éviter les erreurs courantes des tests A/B ?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 271d5bd8730830dd58be33f88793f2bef2b8d211
+TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3933'
+source-wordcount: 3983
 ht-degree: 100%
 
 ---
@@ -45,7 +52,7 @@ Pour les services marketing, 95 % constitue généralement un compromis raisonn
 
 Toutefois, deux situations demandent de s’intéresser de près au niveau de pertinence et à ses implications dans les résultats du test : la segmentation post-test et le test de plusieurs offres.
 
-* **Segmentation post-test :** les marketeurs décortiquent souvent les résultats d’un test A/B terminé en fonction des segments de visiteurs.  Les segments courants comprennent le type de navigateur, le type d’appareil, les zones géographiques, l’heure de la journée et les nouveaux visiteurs par rapport aux visiteurs récurrents. Cette pratique, appelée segmentation post-test, permet d’obtenir d’excellentes informations sur les segments de visiteurs. Les spécialistes marketing peuvent alors utiliser ces informations pour créer un contenu différencié mieux ciblé et plus approprié.
+* **Segmentation post-test :** les marketeurs décortiquent souvent les résultats d’un test A/B terminé en fonction des segments de visiteurs. Les segments courants comprennent le type de navigateur, le type d’appareil, les zones géographiques, l’heure de la journée et les nouveaux visiteurs par rapport aux visiteurs récurrents. Cette pratique, appelée segmentation post-test, permet d’obtenir d’excellentes informations sur les segments de visiteurs. Les spécialistes marketing peuvent alors utiliser ces informations pour créer un contenu différencié mieux ciblé et plus approprié.
 
   Si le taux de conversion ne présente aucune réelle différence, la probabilité d’un faux positif équivaut au niveau de pertinence chaque fois que vous testez un segment. Comme nous l’avons mentionné, la probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct. Avec un niveau de pertinence de 5 %, vous risquez d’obtenir un faux positif chaque fois que vous examinez 20 segments post-test, en moyenne. Le graphique ci-dessus illustre de quelle façon cette probabilité augmente.
 
@@ -95,7 +102,7 @@ Lors d’un test unilatéral, vous évaluez si l’offre B est plus performante
 
 Un test unilatéral reviendrait à faire le procès d’une offre devant un juge qui a déjà pris sa décision : Avec un test unilatéral, vous avez déjà décidé quelle était l’offre gagnante et vous cherchez à le prouver, plutôt que de donner à chaque expérience la chance de prouver qu’elle est la gagnante. Utilisez des tests unilatéraux uniquement dans les rares cas où vous cherchez seulement à déterminer si une offre est plus performante que l’autre et non l’inverse. Afin d’éviter les inconvénients d’un test unilatéral, exécutez plutôt une solution de tests A/B (tests bilatéraux), telle qu’[!DNL Adobe Target].
 
-## Écueil 5 : surveiller les tests {#section_EA42F8D5967B439284D863C46706A1BA}
+## Écueil 5 : surveillance des tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Les marketeurs surveillent fréquemment les tests A/B jusqu’à ce qu’ils en obtiennent un résultat significatif. Après tout, pourquoi exécuter un test après avoir obtenu un résultat statistiquement significatif ?
 
@@ -103,7 +110,7 @@ Ce n’est malheureusement pas aussi simple. Il s’avère en fait que le fait d
 
 Cela peut sembler déroutant. Nous avons l’air d’affirmer que le simple fait d’observer les résultats d’un test à mi-parcours pourrait leur faire perdre leur signification statistique. Ce n’est pas exactement le cas. La raison est illustrée dans l’exemple suivant.
 
-Supposons que vous simuliez 10 000 événements de conversion de deux offres, les deux offres présentant un taux de conversion de 10 %. Les taux de conversion étant identiques, l’effet élévateur des deux offres testées l’une par rapport à l’autre ne devrait présenter aucune différence. Avec un intervalle de confiance de 95 %, le test produit un taux prévu de 5 % de faux positifs au moment de son évaluation après avoir récupéré 10 000 observations. Ainsi, si nous exécutons 100 de ces tests, nous obtenons en moyenne cinq faux positifs (en réalité, tous les positifs dans cet exemple sont faux, les deux offres ayant le même taux de conversion). Si, en revanche, nous évaluons le test dix fois durant son exécution (toutes les 1 000 observations), le taux de faux positifs passe à 16 %. Ainsi, l’observation du test a plus que triplé le risque de faux positifs. Comment cela s’explique-t-il ?
+Supposons que vous simuliez 10 000 événements de conversion de deux offres, les deux offres présentant un taux de conversion de 10 %. Les taux de conversion étant identiques, l’effet élévateur des deux offres testées l’une par rapport à l’autre ne devrait présenter aucune différence. Avec un intervalle de confiance de 95 %, le test produit un taux prévu de 5 % de faux positifs au moment de son évaluation après avoir récupéré 10 000 observations. Ainsi, si nous exécutons 100 de ces tests, nous obtenons en moyenne cinq faux positifs (en réalité, tous les positifs dans cet exemple sont faux, les deux offres ayant le même taux de conversion). Si, en revanche, nous évaluons le test dix fois durant son exécution (toutes les 1 000 observations), le taux de faux positifs passe à 16 %. Ainsi, la surveillance du test a plus que triplé le risque de faux positifs. Comment cela s’explique-t-il ?
 
 Pour comprendre pourquoi, vous devez tenir compte des différentes mesures prises lorsqu’un résultat significatif est détecté ou lorsqu’aucun résultat significatif n’est détecté. Si un test statistiquement significatif est détecté, il est interrompu et un gagnant est déclaré. Si, en revanche, le résultat n’est pas statistiquement significatif, nous le laissons se poursuivre. Cette situation favorise considérablement les résultats positifs et fausse donc le niveau de pertinence réel du test.
 
@@ -119,7 +126,7 @@ L’illustration ci-dessous présente cinq offres ayant le même taux de convers
 
 On parle alors de « retour à la moyenne », ce qui peut s’avérer décevant lorsqu’une offre qui était très performante durant les premiers jours du test n’a pas conservé ce niveau de performance sur le long terme. Il peut en outre en résulter une perte de revenus si une offre performante n’est pas mise en œuvre parce qu’elle semblait, par hasard, peu rentable lors des premiers jours du test.
 
-De même que pour l’observation des tests, il convient pour éviter ces problèmes de déterminer un nombre adéquat de visiteurs et visiteuses avant d’exécuter le test, puis de laisser le test s’exécuter jusqu’à ce que ce nombre de visiteurs et visiteuses ait été exposé aux offres.
+De même que pour la surveillance des tests, il convient pour éviter ces problèmes de déterminer un nombre adéquat de visiteurs et visiteuses avant d’exécuter le test, puis de laisser le test s’exécuter jusqu’à ce que ce nombre de visiteurs et visiteuses ait été exposé aux offres.
 
 ## Écueil 7 : modifier l’affectation du trafic au cours de la période de test {#allocation}
 

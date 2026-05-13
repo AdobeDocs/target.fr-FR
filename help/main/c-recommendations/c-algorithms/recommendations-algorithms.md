@@ -6,9 +6,21 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2739'
+source-wordcount: 2850
 ht-degree: 0%
 
 ---
@@ -73,7 +85,7 @@ Les détails de ces étapes sont les suivants :
    * **Calcul de similarité d’élément** : il s’agit de l’étape de calcul principale : calcul de la similarité du rapport de vraisemblance logarithmique entre toutes les paires d’éléments candidats et classement des paires d’éléments en fonction de ce score de similarité.
    * **Filtrage hors ligne** : enfin, tous les autres filtres dynamiques applicables sont appliqués (par exemple, les exclusions de catégories dynamiques). Après cette étape, les recommandations précalculées sont mises en cache globalement pour être disponibles pour diffusion.
 
-* **Diffusion de modèles** : le contenu de Recommendations est diffusé à partir du réseau [!DNL Target]global « Edge »[&#x200B; d’](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). Lorsque des requêtes de mbox sont envoyées à [!DNL Target] et qu’il est déterminé que le contenu des recommandations doit être diffusé sur la page, la requête de la clé [item appropriée](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) pour l’algorithme de recommandations est analysée à partir de la requête ou recherchée à partir du profil utilisateur, puis utilisée pour récupérer les recommandations calculées dans les étapes précédentes. D’autres filtres dynamiques sont appliqués à ce stade, avant que la [conception](/help/main/c-recommendations/c-design-overview/create-design.md) appropriée ne soit rendue.
+* **Diffusion de modèles** : le contenu de Recommendations est diffusé à partir du réseau [global « Edge »](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) d’[!DNL Target]. Lorsque des requêtes de mbox sont envoyées à [!DNL Target] et qu’il est déterminé que le contenu des recommandations doit être diffusé sur la page, la requête de la clé [item appropriée](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys) pour l’algorithme de recommandations est analysée à partir de la requête ou recherchée à partir du profil utilisateur, puis utilisée pour récupérer les recommandations calculées dans les étapes précédentes. D’autres filtres dynamiques sont appliqués à ce stade, avant que la [conception](/help/main/c-recommendations/c-design-overview/create-design.md) appropriée ne soit rendue.
 
 ## Similarité de contenu
 
@@ -96,7 +108,7 @@ Les détails de ces étapes sont les suivants :
    * **Extraction d’attributs** : après l’application de filtres statiques standard, de règles de catalogue et d’exclusions globales, cet algorithme extrait les champs de texte pertinents du schéma d’entité. [!DNL Target] utilise automatiquement les champs nom, message et catégorie des attributs d’entité et tente d’extraire n’importe quel champ de chaîne des [attributs d’entité](/help/main/c-recommendations/c-products/entity-attributes.md) personnalisés. Pour ce faire, assurez-vous que la majorité des valeurs de ce champ ne sont pas analysables sous la forme d’un nombre, d’une date ou d’une valeur booléenne.
    * **Suppression de mots vides et de mots vides** : pour une correspondance de similarité de texte plus précise, il est recommandé de supprimer les mots vides très courants qui ne modifient pas considérablement la signification d’un élément (par exemple, « était », « est », « et », etc.). De même, le terme de bourrage fait référence au processus de réduction de mots ayant des suffixes différents à leur mot racine, qui a une signification identique (par exemple, « connect », « connection » et « connection » ont tous le même mot racine : « connect »). [!DNL Target] utilise la tige de boule de neige. [!DNL Target] effectue d&#39;abord la détection automatique de la langue, et peut arrêter la suppression de mots pour jusqu&#39;à 50 langues et la gestion de contenu pour 18 langues.
    * **création n-gramme** : Suite aux étapes précédentes, chaque mot est traité comme un jeton. Le processus de combinaison de séquences contiguës de jetons en un seul jeton est appelé création de n-grammes. Les algorithmes de [!DNL Target] prennent en compte jusqu&#39;à 2 grammes.
-   * **calcul tf-idf** : l’étape suivante implique la création de vecteurs tf-idf pour refléter l’importance relative des jetons dans la description de l’élément. Pour chaque jeton/terme t d&#39;un élément i, dans un catalogue D avec |D| on calcule d&#39;abord le terme fréquence TF(t, i) (nombre d&#39;occurrences du terme dans l&#39;élément i), ainsi que la fréquence document DF(t, D). En substance, le nombre d’éléments pour lesquels le jeton t existe. La mesure tf-idf est alors
+   * **calcul tf-idf** : l’étape suivante implique la création de vecteurs tf-idf pour refléter l’importance relative des jetons dans la description de l’élément. Pour chaque jeton/terme t d&#39;un élément i, dans un catalogue D avec |D| éléments, le terme fréquence TF(t, i) est calculé en premier (nombre d&#39;occurrences du terme dans l&#39;élément i), ainsi que la fréquence document DF(t, D). En substance, le nombre d’éléments pour lesquels le jeton t existe. La mesure tf-idf est alors
 
      ![Formule affichant la mesure tf-idf](assets/formula2.png)
 

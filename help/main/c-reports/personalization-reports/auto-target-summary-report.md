@@ -5,10 +5,18 @@ title: Comment utiliser le rapport de synthèse de ciblage automatique ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 37%
+source-wordcount: 628
+ht-degree: 36%
 
 ---
 
@@ -31,7 +39,7 @@ Pour afficher les rapports [!UICONTROL Auto-Target Summary] :
    * **[!UICONTROL Table View]** ( ![Icône Vue Tableau](/help/main/assets/icons/Table.svg) )
    * **[!UICONTROL Graph View]** ( ![icône Vue graphique](/help/main/assets/icons/GraphTrend.svg) )
    * **[!UICONTROL Automated Segments]** ( ![Rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) )
-   * [!UICONTROL Important Attributes]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) )
+   * ** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ) [!UICONTROL Important Attributes]
 
 ## Vue Tableau
 

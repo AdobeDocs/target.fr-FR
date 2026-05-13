@@ -4,10 +4,27 @@ description: Lisez les conseils de notre panel d’experts sur l’utilisation d
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2883'
-ht-degree: 72%
+source-wordcount: 2960
+ht-degree: 73%
 
 ---
 
@@ -57,7 +74,7 @@ Lors de la création d’audiences pour le ciblage ou le test de promotions et d
 * Hors ligne. Modèles de visites et d’achats dans les magasins physiques
 * Environnement. Pays d’origine, système d’exploitation, type de navigateur
 
-## Conseil 5 : attribution aux utilisateurs du niveau d’accès nécessaire pour travailler.
+## Conseil 5 : attribution aux utilisateurs et utilisatrices du niveau d’accès nécessaire pour travailler.
 
 Simplifiez l’utilisation des données de votre organisation tout en assurant leur sécurité. [!DNL Target Premium] permet aux administrateurs de contrôler le niveau d’accès donné aux différentes équipes internes et externes.
 
@@ -135,7 +152,7 @@ Si votre hypothèse ne se vérifie pas, réfléchissez aux moyens d’améliorer
 
 La comparaison des performances de conversion de différentes audiences dans le cadre de différents tests effectués à différents emplacements peut aider à cibler et à affiner la stratégie d’optimisation d’une entreprise. Utilisez des comparaisons de tests pour identifier les audiences les plus intéressantes à tester, celles qui devraient recevoir des expériences ciblées et les types d’expériences les plus susceptibles de susciter une réponse.
 
-Par exemple, un client des services financiers a lancé une campagne promotionnelle pour une carte de crédit qui comportait des incentives pour des événements sportifs professionnels. Grâce à des tests multivariés factoriels partiels de ses pages de destination, le client a pu équilibrer de façon optimale les messages sur les avantages des cartes de crédit et les incentives sportifs pour cibler différentes audiences de sa base de clients. Cette approche a permis à la société de tirer parti de la conversion et de l’optimiser lors d’une période critique entourant un événement sportif majeur.
+Par exemple, un client des services financiers a lancé une campagne promotionnelle pour une carte de crédit qui comportait des incentives pour des événements sportifs professionnels. Grâce à des tests multivariés factoriels partiels de ses pages de destination, le client a pu équilibrer de façon optimale les messages sur les avantages des cartes de crédit et les incentives sportifs pour cibler différentes audiences de sa clientèle. Cette approche a permis à la société de tirer parti de la conversion et de l’optimiser lors d’une période critique entourant un événement sportif majeur.
 
 ## Conseil 17 : lancement des tests uniquement si l’exploitation des données est possible pour en garantir l’utilité.
 
@@ -166,7 +183,7 @@ Les utilisateurs mobiles ont un haut niveau d’intention. La majorité d’entr
 
 Découvrez comment et quand cibler votre audience et comment mieux gérer vos dépenses publicitaires quotidiennes en répartissant vos campagnes mobiles en différents segments de tranches horaires tout au long de la journée.
 
-De nombreux professionnels du marketing commettent l’erreur de ne pas attribuer suffisamment de budget pour conquérir cette part de voix aux heures où l’utilisation de certains appareils est la plus forte, laissant ainsi s’échapper un chiffre d’affaires et des prospects importants.
+De nombreux spécialistes marketing commettent l’erreur de ne pas attribuer suffisamment de budget pour conquérir cette part de voix aux heures où l’utilisation de certains appareils est la plus forte, laissant ainsi s’échapper un chiffre d’affaires et des prospects importants.
 
 Par exemple, le pic d’utilisation des tablettes a généralement lieu le soir et de nombreux utilisateurs naviguent en regardant la télévision. En revanche, les utilisateurs de smartphones accèdent généralement au contenu en déplacement. Les temps de conversion de pointe varient également selon le secteur. Il est donc important de comprendre à quel moment vos clients uniques sont les plus susceptibles d’agir.
 

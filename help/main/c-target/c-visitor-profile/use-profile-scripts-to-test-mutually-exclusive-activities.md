@@ -1,12 +1,19 @@
 ---
 keywords: Script de profil;attributs de script de profil;activités s’excluant mutuellement
-description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe [!DNL Target] qui comparent plusieurs activités sans permettre aux mêmes visiteurs de participer à chacune d’elles.
+description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans  [!DNL Target] qui comparent plusieurs activités sans permettre aux mêmes visiteurs de participer à chacune d’elles.
 title: Puis-je utiliser des scripts de profil pour tester des activités s’excluant mutuellement ?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
+TQID: https://experienceleague.adobe.com/9BA1U7UXUyrBWjUohZpXj-v-O-DepEISMFgkaDnVuPU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 708
 ht-degree: 66%
 
 ---

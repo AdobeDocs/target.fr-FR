@@ -5,10 +5,19 @@ title: Puis-je cibler les visiteurs en fonction de leur emplacement ?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 42%
+source-wordcount: 1059
+ht-degree: 40%
 
 ---
 
@@ -157,7 +166,7 @@ En raison de la manière dont AOL traite son trafic par proxy, [!DNL Target] ne 
   >
   >`mboxOverride.browserIp` est pris en charge dans at.js 1.*x* uniquement. Cette fonctionnalité n’est pas prise en charge dans at.js 2.*x*.
 
-* **Équivalent at.js 2.*x*** : pour remplacer votre adresse IP par at.js 2.*x*, installez une extension/un module externe de navigateur (tel que X-Forwarded-For-Header pour Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-forwarded-for dans vos requêtes de page.
+* **at.js 2.*x*** : pour remplacer votre adresse IP par at.js 2.*x*, installez une extension de navigateur/un module externe (tel que X-Forwarded-For-Header pour Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-forwarded-for dans vos requêtes de page.
 
 +++
 

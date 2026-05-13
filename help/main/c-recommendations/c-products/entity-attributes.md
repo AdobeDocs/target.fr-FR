@@ -1,14 +1,25 @@
 ---
-keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
+keywords: entités ; attributs d’entité ; transférer des informations à Recommandations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
 description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations de produit ou de contenu à  [!DNL Target]  Recommendations.
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 title: Comment Utiliser Les Attributs D’Entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
+TQID: https://experienceleague.adobe.com/GXQOxQxTV0vTYsWy9Ky9wPNEqoRSAhIA5zlBd4Cr4Ec
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 48%
+source-wordcount: 1122
+ht-degree: 45%
 
 ---
 
@@ -31,7 +42,7 @@ En règle générale, la mbox des informations d’affichage ressemble à l’ex
 
 >[!NOTE]
 >
->Si vous utilisez at.js 2.*x*, `mboxCreate` (comme dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur des produits ou du contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html?lang=fr){target=_blank}. Pour obtenir un exemple, consultez [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+>Si vous utilisez at.js 2.*x*, la `mboxCreate` (utilisée dans l’exemple suivant) n’est plus prise en charge. Pour transmettre des informations sur des produits ou du contenu à des [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Pour obtenir un exemple, consultez [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -67,7 +78,7 @@ mboxCreate('productPage',
 >
 >Il est préférable d’utiliser des URL relatives pour `pageUrl` et `thumbnailUrl`, plutôt que des URL absolues, car les recommandations reçoivent les données envoyées de tous les environnements sur le site. L’utilisation d’URL relatives évite d’avoir à utiliser des liens codés en dur sur un serveur de développement ou de test.
 
-Si la mbox se situe sur une page de produit, vous pouvez inclure l’identifiant du produit et l’identifiant de sa catégorie. L’algorithme sélectionné détermine ce qui s’affiche. L’identifiant du produit est utilisé pour les algorithmes d’affinité et l’identifiant de la catégorie, pour les algorithmes de catégorie.
+Si la mbox se trouve sur une page de produit, vous pouvez inclure l’ID de produit et l’ID de catégorie. L’algorithme sélectionné détermine les affichages. L’identifiant du produit est utilisé pour les algorithmes d’affinité et l’identifiant de la catégorie, pour les algorithmes de catégorie.
 
 ## Variables disponibles
 
@@ -183,7 +194,7 @@ Marge bénéficiaire ou autre valeur de l’élément.
 
 Exemple : `'entity.margin=1.00'`
 
-### l’entité .*custom*
+### entity.*custom*
 
 Prend en charge plusieurs valeurs (tableau JSON).
 

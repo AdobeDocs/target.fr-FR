@@ -4,10 +4,28 @@ description: Découvrez comment utiliser le VEC de SPA dans Adobe  [!DNL Target]
 title: Comment utiliser le compositeur d’expérience visuelle pour application monopage (SPA) ?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 5cd8cd0d25dea28f1dd46a59fdcaa4cfc48d9969
+TQID: https://experienceleague.adobe.com/SilMhoqEp7o5GvyO2vzBt83e8EmiULUvo14Y-E-PcJA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 64%
+source-wordcount: 3904
+ht-degree: 56%
 
 ---
 
@@ -61,13 +79,13 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
 1. Installez at.js 2.x.
 
-   Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des applications monopages. Les versions précédentes d’at.js et ne prennent pas en charge les vues Adobe Target et le VEC pour SPA.
+   Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des SPA. Les versions précédentes d’at.js et ne prennent pas en charge les vues Adobe Target et le VEC pour SPA.
 
    ![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
 
    Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé à l’aide de balises dans [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
 
-1. Implémentez la nouvelle fonction d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html?lang=fr){target=_blank} sur vos sites.
+1. Implémentez la nouvelle fonction d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sur vos sites.
 
    Après avoir défini les vues de la SPA dans laquelle vous souhaitez exécuter un test A/B ou XT, implémentez la fonction `triggerView()` d’at.js 2.x avec les vues transmises en tant que paramètre. Cela permet aux spécialistes du marketing d’utiliser le compositeur d’expérience visuelle pour concevoir et exécuter les tests A/B et XT pour ces vues définies. Si la fonction `triggerView()` n’est pas définie pour ces affichages, le VEC ne détectera pas les affichages. Les spécialistes en marketing ne peuvent donc pas utiliser le VEC pour concevoir et exécuter des tests A/B et XT.
 
@@ -75,9 +93,9 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
    | Paramètre | Type | Obligatoire ? | Validation | Description |
    | --- | --- | --- | --- | --- |
-   | viewName | Chaîne | Oui | &#x200B;1. Aucun espace à la fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « accueil » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom de vue s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
+   | viewName | Chaîne | Oui | &#x200B;1. Pas d’espaces de fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « maison » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom de vue s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
    | Options | Objet | Non |  |  |
-   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsque cette option est `page=false`, les notifications d’incrémentation du nombre d’impressions ne sont pas envoyées. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsqu’elles sont `page=true`, les notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsqu’elles sont `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
    Passons maintenant en revue quelques exemples de cas d’utilisation sur la manière d’appeler la fonction `triggerView()` dans React pour notre hypothétique SPA d’e-commerce :
 
@@ -206,8 +224,8 @@ Le tableau suivant décrit chaque action :
 | --- | --- |
 | Informations | Affiche les détails de cette action. |
 | Modifier | Permet de modifier directement les propriétés de cette action. |
-| Dupliquer | Clonez l’action sur une ou plusieurs vues existant dans le panneau [!UICONTROL Modifications] ou sur une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le compositeur d’expérience visuelle. L’action n’a pas nécessairement à exister dans le panneau [!UICONTROL Modifications].<br>**Remarque** : une fois une opération de clonage effectuée, vous devez accéder à la vue dans le VEC via [!UICONTROL Browse] pour voir si l’action clonée était une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
-| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Page Load Event] : toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application web.<br>**Remarque** une fois une opération de déplacement effectuée, vous devez accéder à la vue dans le compositeur d’expérience visuelle via Parcourir pour voir si le déplacement était une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
+| Dupliquer | Clonez l’action sur une ou plusieurs vues existant dans le panneau [!UICONTROL Modifications] ou sur une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le compositeur d’expérience visuelle. L’action n’a pas nécessairement à exister dans le panneau [!UICONTROL Modifications].<br>**Remarque** : une fois l’opération de clonage effectuée, vous devez accéder à la vue dans le VEC via [!UICONTROL Browse] pour voir si l’action clonée était une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
+| Déplacer | Déplace l’action vers un Événement de chargement de page ou tout autre Affichage existant dans le panneau des modifications.<br>[!UICONTROL Page Load Event] : toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application web.<br>**Remarque** une fois une opération de déplacement effectuée, vous devez accéder à la vue dans le compositeur d’expérience visuelle via Parcourir pour voir si le déplacement était une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
 | Supprimer | Supprime l’action. |
 
 >[!NOTE]
@@ -260,7 +278,7 @@ Enfin, comme mentionné précédemment, les vues peuvent être définies à un n
 
 Le workflow type d’at.js 2.x est que lorsque votre site se charge, toutes vos vues et actions sont mises en cache, de sorte que les actions suivantes de l’utilisateur ou de l’utilisatrice sur votre site ne déclenchent pas d’appels au serveur pour récupérer les offres. Si vous souhaitez récupérer les vues en fonction des données de profil les plus récentes, mises à jour selon les actions de l’utilisateur ou de l’utilisatrice, vous pouvez appeler `getOffers()` et `applyOffers()` avec les dernières données d’audience ou données de profil transmises.
 
-Supposons, par exemple, que vous soyez une société de télécommunications et que vous ayez une application d’une seule page utilisant at.js 2.x. En tant qu’entreprise, vous souhaitez atteindre les objectifs suivants :
+Supposons, par exemple, que vous soyez une société de télécommunications et que vous disposiez d’une SPA qui utilise at.js 2.x. En tant qu&#39;entreprise, vous souhaitez atteindre les objectifs suivants :
 
 * Pour un utilisateur déconnecté ou anonyme, affichez la dernière promotion de l’entreprise, par exemple en présentant une offre principale « Premier mois gratuit » sur `http://www.telecom.com/home`.
 * Pour un utilisateur connecté, affichez une offre promotionnelle de mise à niveau pour les utilisateurs dont les contrats arrivent, par exemple « Vous êtes éligible pour un téléphone gratuit ! ». on `http://www.telecom.com/loggedIn/home`.
@@ -392,11 +410,11 @@ Les modifications suivantes ont été apportées :
 * Modification de la couleur d’arrière-plan dans la vue d’accueil, qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/).
 * Modification de la couleur du bouton dans la vue Produits , qui se trouve sous l’URL : [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 
-En gardant à l’esprit l’exemple ci-dessus, que se passe-t-il lorsque nous configurons [!UICONTROL Page Delivery] paramètres pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/) dans une SPA avec at.js 2.*x* ?
+Compte tenu de l’exemple ci-dessus, que se passerait-il lorsque nous configurons les paramètres de [!UICONTROL Page Delivery] pour inclure uniquement : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/) dans une SPA avec at.js 2.*x* ?
 
 ![Boîte de dialogue Diffusion de page](/help/main/c-experiences/assets/spa-page-delivery.png)
 
-L’illustration suivante illustre la demande Flux cible - Chargement de page dans at.js 2.*x* :
+L’illustration suivante présente la requête Flux cible - Chargement de page dans at.js 2.*x* :
 
 ![Flux cible : demande de chargement de page at.js 2.0](/help/main/c-experiences/assets/page-load-request.png)
 
@@ -415,7 +433,7 @@ Remarque : l’utilisateur accédant à [&#128279;](https://experienceleague.ado
 * Un utilisateur accède directement à [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 * at.js 2.*x* effectue une requête à Edge pour voir si une activité doit s’exécuter pour l’URL : [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
 * Aucune activité qualifiée pour [&#128279;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products).
-* Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
+* Comme il n’existe aucune activité qualifiée, aucune action ni vue ne doit être mise en cache pour qu’at.js 2.*x* se déclenche à partir de.
 
 **Résultat** : même si vous avez défini des `triggerView()` pour la vue Produits et effectué une action vers la vue Produits via le VEC SPA, l’action attendue ne s’affichera pas, car vous n’avez pas créé de règle qui incluait [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=fr#/products) dans les paramètres de diffusion de la page.
 

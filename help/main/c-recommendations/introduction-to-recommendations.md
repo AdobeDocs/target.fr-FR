@@ -1,22 +1,35 @@
 ---
 keywords: recommandations;intro;introduction;webinaire;démo
-description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
-title: Que sont les activités Recommendations ?
+description: Découvrez les activités Recommandations dans Adobe [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser votre clientèle selon l’activité précédente de l’utilisateur ou de l’utilisatrice, ou d’autres algorithmes.
+title: Que sont les activités Recommandations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
+TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 86%
+source-wordcount: 2109
+ht-degree: 83%
 
 ---
 
 # Présentation des recommandations
 
-Le texte de cet article provient du webinaire *Présentation de Recommendations*, que vous pouvez visualiser intégralement ci-dessous.
+Le texte de cet article provient du webinaire *Présentation de Recommandations*, que vous pouvez visualiser intégralement ci-dessous.
 
-Le webinaire *Présentation de Recommendations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
+Le webinaire *Présentation de Recommandations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 
 ## Introduction
 
@@ -53,19 +66,19 @@ Quels éléments permettent de créer des recommandations de grande qualité ?
 
 Des recommandations de grande qualité doivent être pertinentes et personnalisées. Vous avez donc besoin de trois éléments pour obtenir la pertinence et la personnalisation :
 
-* Les **contrôles marketeur** pour favoriser la pertinence des articles recommandés. En tant que marketeur, vous apportez vos connaissances précieuses en matière de contexte et vous savez quels attributs des produits ou contenus sont pertinents pour un modèle de recommandations. Si vous gérez un site de vidéos, vous savez que les utilisateurs peuvent être intéressés à voir des films du même réalisateur, mais ne se soucient probablement pas de voir des films produits par le même studio. [!DNL Target] vous propose des contrôles qui permettent d’améliorer vos algorithmes avec ces connaissances de domaine.
+* Les **contrôles marketeur** pour favoriser la pertinence des articles recommandés. En tant que spécialiste marketing, vous apportez vos précieuses connaissances en matière de contexte et vous savez quels attributs des produits ou contenus sont pertinents pour un modèle de recommandations. Si vous gérez un site de vidéos, vous savez que les utilisateurs peuvent être intéressés à voir des films du même réalisateur, mais ne se soucient probablement pas de voir des films produits par le même studio. [!DNL Target] vous propose des contrôles qui permettent d’améliorer vos algorithmes avec ces connaissances de domaine.
 * Des **modèles élaborés** pour comprendre des millions d’articles dans vos catalogues et événements d’interaction. [!DNL Target] dispose de capacités de machine learning élaborées reposant sur une dizaine d’années d’expérience. De plus, Adobe gère des milliards de recommandations par an.
 * Un **contexte utilisateur** pour être sûr que les recommandations sont opportunes et pertinentes pour vos utilisateurs. Vous ne souhaitez pas recommander la vidéo que quelqu’un vient de regarder ou la chemise que quelqu’un vient d’ajouter à son panier. Le profil utilisateur riche de Target peut être utilisé dans Recommendations pour garantir la personnalisation.
 
-## Implémentation de [!DNL Target] Recommendations
+## Implémentation de [!DNL Target] Recommandations
 
 Commencez par une stratégie.
 
 ![Illustration montrant la stratégie de recommandations](/help/main/c-recommendations/assets/intro-5.png)
 
-* **Quels éléments voulez-vous recommander ?** Réfléchissez d’abord aux éléments que vous souhaitez recommander. Il peut s’agir de produits, de films ou de contenu.
-* **Où souhaitez-vous afficher les recommandations ?** Réfléchissez ensuite à l’emplacement où vous souhaitez effectuer des recommandations. Il s’agit en fait des canaux (web, mobile, en magasin, kiosque, etc.). Quelles parties du parcours client contiendront des recommandations ? Quelles pages de votre site contiendront des recommandations ?
-* **Comment allez-vous déterminer les performances des recommandations ?** Supposons que vous ayez une expérience sans recommandations et une autre avec recommandations ou qu’il existe deux types de recommandations différents. Comment allez-vous déterminer la meilleure expérience pour vos clients ? Certaines mesures peuvent être plus difficiles que d’autres à obtenir. Par exemple, l’impact des recommandations sur la valeur de la durée de vie du client est souvent difficile à connaître. Il est donc souvent plus facile d’obtenir une mesure moins abstraite, par exemple, les recettes par visite, la valeur de commande moyenne ou le nombre de clics. Dans certains cas, vous rechercherez peut-être à minimiser une mesure, comme le nombre d’appels au service d’assistance.
+* **Quels éléments voulez-vous recommander ?** Tout d’abord, réfléchissez aux éléments que vous souhaitez recommander. Il peut s’agir de produits, de films ou de contenu.
+* **Où souhaitez-vous afficher les recommandations ?** Réfléchissez ensuite aux recommandations que vous souhaitez formuler. Il s’agit en fait des canaux (web, mobile, en magasin, kiosque, etc.). Quelles parties du parcours client contiendront des recommandations ? Quelles pages de votre site contiendront des recommandations ?
+* **Comment allez-vous déterminer si les recommandations ont réussi ?** Supposons que vous ayez une expérience sans recommandations et une expérience avec des recommandations, ou que vous ayez deux types de recommandations différents. Comment allez-vous déterminer la meilleure expérience pour vos clients ? Certaines mesures peuvent être plus difficiles que d’autres à obtenir. Par exemple, l’impact des recommandations sur la valeur de la durée de vie du client est souvent difficile à connaître. Il est donc souvent plus facile d’obtenir une mesure moins abstraite, par exemple, les recettes par visite, la valeur de commande moyenne ou le nombre de clics. Dans certains cas, vous rechercherez peut-être à minimiser une mesure, comme le nombre d’appels au service d’assistance.
 
 Une fois votre stratégie définie, vous pouvez commencer l’implémentation de [!DNL Target Recommendations].
 
@@ -115,11 +128,11 @@ Transmettez des informations sur l’utilisateur et le contexte au moment de l�
 
 Outre le comportement de utilisateur dans une forme agrégée, vous devez transmettre à [!DNL Target] le contexte spécifique où les recommandations sont affichées, notamment des informations sur la page et provenant du profil utilisateur. [!DNL Target] utilise ces informations pour effectuer des recommandations personnalisées. Par exemple, sur un site web de vente au détail, vous souhaitez connaître le produit et la catégorie de produits que le visiteur est en train de consulter. Vous souhaitez également obtenir des informations sur l’utilisateur (marque préférée, catégorie de produits préférée, niveau de fidélité, etc.). Ces informations sont importantes ; elles permettent à [!DNL Target] de filtrer les éléments et d’améliorer la personnalisation des recommandations.
 
-## Création de votre première activité Recommendations
+## Création de votre première activité Recommandations
 
 Qu’est-ce qu’une activité de [!DNL Recommendations] ?
 
-![Illustration montrant les éléments qui constituent une bonne activité Recommendations](/help/main/c-recommendations/assets/intro-11.png)
+![Illustration montrant les éléments qui constituent une bonne activité Recommandations](/help/main/c-recommendations/assets/intro-11.png)
 
 Une activité de [!DNL Recommendations] est constituée des composants suivants :
 
@@ -127,7 +140,7 @@ Une activité de [!DNL Recommendations] est constituée des composants suivants�
 * **Critères** : quels éléments doivent être recommandés ?
 * **Conception** : comment les articles recommandés doivent-ils être affichés ?
 
-![Illustration montrant les éléments qui constituent une activité Recommendations : audiences, critères et conceptions](/help/main/c-recommendations/assets/intro-12.png)
+![Illustration montrant les éléments qui constituent une activité Recommandations : audiences, critères et conceptions](/help/main/c-recommendations/assets/intro-12.png)
 
 [!DNL Target] comprend 14 audiences, 42 critères et 10 modèles de conception intégrés, prêts à l’emploi. Vous pouvez personnaliser chacun de ces éléments ou ajouter les vôtres.
 

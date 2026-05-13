@@ -4,10 +4,15 @@ description: Découvrez comment gérer efficacement les offres de code et d’im
 title: Comment gérer les offres de code et d’image ?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+TQID: https://experienceleague.adobe.com/A8ZLHW-FrWHGPJR7P-mhl2pO6SPoDc--LWpFEjtQzBY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 8%
+source-wordcount: 820
+ht-degree: 7%
 
 ---
 

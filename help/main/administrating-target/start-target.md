@@ -5,9 +5,18 @@ title: Où Puis-Je Commencer À Administrer  [!DNL Target] ?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
+TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: 446
 ht-degree: 32%
 
 ---
@@ -18,7 +27,7 @@ Cet article décrit les premières étapes que [!DNL Adobe Target] administrateu
 
 ## Être invité à [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs profils de produit spécifiques au rôle (groupes d’utilisateurs). Ces deux tâches sont effectuées dans [Adobe Admin Console](https://adminconsole.adobe.com).
+Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs profils de produit spécifiques au rôle (groupes d’utilisateurs). Ces deux tâches sont effectuées dans [&#128279;](https://adminconsole.adobe.com).
 
 Pour plus d’informations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html).
 

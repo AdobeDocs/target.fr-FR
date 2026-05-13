@@ -4,9 +4,19 @@ description: Où puis-je trouver des idées et de l’inspiration pour mes activ
 title: Où puis-je trouver de l’inspiration pour mes efforts de test et de personnalisation ?
 feature: Overview
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/8pCTZy1NR9Pt-TEWZFDinlS66fxhlYybFe69QrpMyT4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: 1073
 ht-degree: 100%
 
 ---
@@ -49,7 +59,7 @@ Si des visiteurs qui vous arrivent depuis Google sont envoyés vers un contenu e
 
 Par exemple, incluez des recommandations sur une page de fiche produit pour montrer aux visiteurs qui ont vu un produit en rupture de stock des recommandations personnalisées similaires ou des articles qu’ils ont consultés récemment en fonction de leur comportement de visiteur et de leur affinité catégorielle. Les utilisateurs peuvent les voir en un seul clic, ce qui vous donne une autre occasion d’obtenir de l’engagement sur votre site web ou de les inciter à acheter.
 
-![Illustration de Recommendations](/help/main/c-intro/assets/recs-illustration.png)
+![Illustration de Recommandations](/help/main/c-intro/assets/recs-illustration.png)
 
 ## Idée 7 : Intégrez des stratégies économiques de comportement dans vos tests.
 

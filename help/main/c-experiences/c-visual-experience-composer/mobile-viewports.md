@@ -4,16 +4,22 @@ description: Les fenêtres d’affichage mobiles vous aident à visualiser la ma
 title: Comment utiliser les fenêtres d’affichage mobiles pour les expériences réactives ?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: 1361
 ht-degree: 94%
 
 ---
 
 # Fenêtres d’affichage mobiles pour les expériences réactives
 
-Les fenêtres d’affichage mobiles vous permettent de prévisualiser vos activités [!DNL Adobe Target] sur des écrans de différentes tailles. 
+Les fenêtres d’affichage mobiles vous permettent de prévisualiser vos activités [!DNL Adobe Target] sur des écrans de différentes tailles.
 
 La fonctionnalité d’aperçu des fenêtres d’affichage mobiles est conçue pour les sites réactifs qui s’affichent correctement sur plusieurs appareils, fenêtres et tailles d’écran. Les sites réactifs s’ajustent et s’adaptent automatiquement à n’importe quelle taille d’écran, y compris les ordinateurs de bureau, les ordinateurs portables, les tablettes ou les téléphones portables.
 
@@ -130,7 +136,7 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 
 >[!NOTE]
 >
->Si vous tentez de supprimer une fenêtre d’affichage mobile en cours d’utilisation, le message suivant s’affiche : « Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez retirer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer. » 
+>Si vous tentez de supprimer une fenêtre d’affichage mobile en cours d’utilisation, le message suivant s’affiche : « Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez retirer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer. »
 
 ## Créer une expérience réactive {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 

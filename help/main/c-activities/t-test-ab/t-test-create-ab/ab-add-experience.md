@@ -4,26 +4,31 @@ description: Utilisez le [!UICONTROL Visual Experience Composer] (VEC) pour ajou
 title: Comment ajouter des expériences dans une activité A/B ?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+TQID: https://experienceleague.adobe.com/7qEiUXkfMbPmtB2eMio0LztOYM3naHxG-WRQZOyMmlU
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 28%
+source-wordcount: 387
+ht-degree: 33%
 
 ---
 
 # Ajout d’une expérience
 
-Le [!DNL Adobe Target] d’[!UICONTROL Visual Experience Composer] (VEC) fournit une interface visuelle permettant d’ajouter et de modifier des expériences sur votre page.
+Le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC) fournit une interface visuelle permettant d’ajouter et de modifier des expériences sur votre page.
 
 Pour plus d’informations sur les expériences, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Dans la page **[!UICONTROL Experiences]** du compositeur d’expérience visuelle, cliquez sur l’icône [!UICONTROL Add] ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) en haut du volet [!UICONTROL Experiences].
 
-   Le compositeur d’expérience visuelle affiche deux onglets sur le côté gauche après la création d’une activité : Expérience A et Expérience B. L’expérience A est l’expérience de contrôle. Vous pouvez ajouter plusieurs expériences au test.
+   Le compositeur d’expérience visuelle affiche deux onglets sur le côté gauche après la création d’une activité : Expérience A et Expérience B. L’expérience A est l’expérience de contrôle. Plusieurs expériences peuvent être ajoutées au test.
 
 1. Sélectionnez les éléments à modifier et apportez les modifications souhaitées.
 
-   Lorsque vous passez la souris sur les éléments de la page, les éléments sont mis en surbrillance. Tout élément mis en surbrillance peut être modifié à l’aide du compositeur d’expérience visuelle.
+   Lorsque vous passez la souris sur les éléments de la page, les éléments sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du VEC.
 
    Si vous avez créé une requête [!DNL Target] sur la page à l’aide de [!DNL Target Classic] (anciennement [!DNL Test&Target]), cette requête [!DNL Target] s’affiche sous la forme d’un élément indiquant le nom de la requête et peut être modifiée comme tout autre élément.
 

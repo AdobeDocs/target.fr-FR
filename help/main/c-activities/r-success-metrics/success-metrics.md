@@ -4,9 +4,22 @@ description: Découvrez les mesures de succès qui vous aident à déterminer le
 title: Que Sont Les Mesures De Succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
+TQID: https://experienceleague.adobe.com/utsuikYtBrKHv0bbdIu1KmlFyjXMgoC-2yaOP3-QJr8
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: 1374
 ht-degree: 22%
 
 ---
@@ -21,7 +34,7 @@ Vous pouvez, par exemple, déterminer si une nouvelle promotion augmente les rec
 
 Dans [!DNL Target], les mesures de succès sont préconfigurées avec les paramètres recommandés pour garantir un reporting précis et un suivi efficace.
 
-Par défaut, les événements de conversion utilisent le paramètre **[!UICONTROL Increment count & keep user in activity].** Ce paramètre signifie que chaque visiteur n’est comptabilisé comme une conversion qu’une seule fois. Aucune conversion répétée n’est comptabilisée. Ces visiteurs et visiteuses continuent à voir le contenu de l’activité tout au long de leur session.
+Par défaut, les événements de conversion utilisent le paramètre **[!UICONTROL Increment count & keep user in activity].** Ce paramètre signifie que chaque visiteur est comptabilisé comme une conversion une seule fois. Aucune conversion répétée n’est comptabilisée. Ces visiteurs et visiteuses continuent à voir le contenu de l’activité tout au long de leur session.
 
 Pour les mesures de recettes qui utilisent le même paramètre, seule la première commande d’un visiteur consigne les détails de la commande. Bien que les commandes suivantes augmentent le nombre de conversions, elles ne contribuent pas aux mesures basées sur le chiffre d’affaires telles que [!UICONTROL Revenue per Visitor (RPV)], [!UICONTROL Average Order Value (AOV)] ou [!DNL Total Sales]. Ces commandes supplémentaires sont également exclues du rapport [!UICONTROL Order Details].
 
@@ -51,7 +64,7 @@ Les mesures de succès que vous choisissez pour votre activité sont disponibles
 
 Certaines mesures, telles que [!UICONTROL Custom Scoring] et [!UICONTROL Revenue Per Visitor], nécessitent une implémentation personnalisée qui transmet des informations, telles que les totaux des commandes et les ID de commande.
 
-## Paramètres avancés  {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Paramètres avancés {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression.
 

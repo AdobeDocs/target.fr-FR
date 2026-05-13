@@ -1,12 +1,19 @@
 ---
 keywords: test multivarié, mvt, rapport de performance de l’expérience
-description: Découvrez comment utiliser le rapport Performances d’expérience pour les activités Adobe [!DNL Target] de ciblage d’expérience, qui présente les performances de chaque expérience de l’activité.
+description: Découvrez comment utiliser le rapport Performances d’expérience pour les activités  [!DNL Target] de ciblage d’expérience, qui présente les performances de chaque expérience de l’activité.
 title: Comment utiliser le rapport de performance d’expérience pour les tests multivariés ?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: 326
 ht-degree: 72%
 
 ---

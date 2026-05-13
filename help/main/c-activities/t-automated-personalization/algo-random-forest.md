@@ -5,10 +5,16 @@ title: Comment utilise [!DNL Target] t-on l’algorithme Forêt aléatoire ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
+TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 41%
+source-wordcount: 1438
+ht-degree: 40%
 
 ---
 
@@ -73,7 +79,7 @@ Avant d’être traitées par l’algorithme de personnalisation, les données f
 
 Les transformations des caractéristiques dépendent du type d’attribut. Il existe principalement deux types d’attributs (ou « caractéristiques », comme ils sont parfois appelés par les analystes en données) :
 
-* **Catégorielle :** les caractéristiques catégorielles ne peuvent pas être dénombrées mais peuvent être triées en différents groupes. Il peut s’agir de caractéristiques telles que le pays, le sexe ou le code postal.
+* **Catégorielle :** les caractéristiques catégorielles ne peuvent pas être dénombrées mais peuvent être triées en différents groupes. Il peut s’agir de caractéristiques telles que le pays, le genre ou le code postal.
 * **Numérique :** les caractéristiques numériques peuvent être mesurées ou dénombrées, par exemple l’âge, le revenu, etc.
 
 Pour les caractéristiques catégorielles, un jeu de toutes les caractéristiques possibles est conservé et la transformation de probabilité est utilisée pour réduire la taille des données. Pour les fonctions numériques, le redimensionnement permet de s’assurer que les fonctions sont comparables dans tous les cas.

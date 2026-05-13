@@ -4,10 +4,18 @@ description: Découvrez les principes de base de l’utilisation du compositeur 
 title: Comment utiliser le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 43%
+source-wordcount: 1138
+ht-degree: 46%
 
 ---
 
@@ -19,7 +27,7 @@ Le [!UICONTROL Visual Experience Composer] (VEC) d’[!DNL Adobe Target] est un 
 >
 >La version [!DNL Target Standard/Premium] 25.2.1 (17 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Pour obtenir un aperçu des différentes options du VEC mis à jour, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-Le compositeur d’expérience visuelle vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour des activités [!DNL Target] en faisant glisser, en permutant et en modifiant la disposition et le contenu d’une page web (ou d’une offre) ou d’une page web mobile.
+Le compositeur d’expérience visuelle vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités [!DNL Target] en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page web (ou d’une offre) ou d’une page web mobile.
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 

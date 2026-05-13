@@ -4,10 +4,23 @@ description: Trouvez des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/hB-Umhf7zuD0T13ArxfxId2JA1SAi7siLBdPQklWLmA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 50%
+source-wordcount: 1455
+ht-degree: 51%
 
 ---
 
@@ -84,7 +97,7 @@ Tenez compte des points suivants :
 ## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++Réponse
-Lors de l’utilisation de la version 1.6.3 ou ultérieure d’at.js, le comptage des pages vues sur les deux pages ne pose pas de problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour at.js si nécessaire pour vous assurer que vous utilisez une [version prise en charge](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.
+Lors de l’utilisation de la version 1.6.3 ou ultérieure d’at.js, le comptage des pages vues sur les deux pages ne pose pas de problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à niveau at.js si nécessaire pour vous assurer que vous utilisez une [version prise en charge](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.
 
 Si vous utilisez une version antérieure d’at.js non prise en charge, il est possible qu’une condition de concurrence puisse se produire et que l’appel Analytics se déclenche avant que la redirection ne s’exécute sur la première page. Cette situation peut entraîner le comptage de toutes les pages vues sur la page d’origine et sur la page de redirection. Cette situation entraîne la comptabilisation d’une page vue supplémentaire sur la première page, bien que le visiteur ne l’ait jamais véritablement consultée.
 
@@ -144,7 +157,7 @@ Si vous utilisez A4T et que vous redirigez des offres, Target ajoute les paramè
 
 En raison de ce double codage, lorsque l’API visiteur tente de décoder la valeur `adobe_mc_sdid`, elle ne parvient pas à extraire le SDID et en génère un nouveau. Ce processus entraîne l’envoi de valeurs SDID incorrectes à Target et Analytics et une répartition inégale des redirections s’affiche dans les rapports Analytics.
 
-Adobe placer sur la liste autorisée vous recommande de consulter votre équipe informatique pour vous assurer que les `adobe_mc_ref` et les `adobe_mc_sdid` sont traités de manière à ce que ces valeurs ne soient en aucun cas transformées.
+Adobe vous recommande de consulter votre équipe informatique pour vous assurer que les `adobe_mc_ref` et les `adobe_mc_sdid` sont traités de manière à ce que ces valeurs ne soient en aucun cas transformées.
 
 +++
 

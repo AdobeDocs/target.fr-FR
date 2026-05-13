@@ -1,18 +1,23 @@
 ---
-keywords: Recommendations;offre
-description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
-title: Comment utiliser Recommendations en tant qu’offre dans d’autres types d’activités ?
+keywords: Recommandations;offre
+description: Découvrez comment utiliser Adobe Recommandations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
+title: Comment utiliser Recommandations en tant qu’offre dans d’autres types d’activités ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
+TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 525
 ht-degree: 60%
 
 ---
 
-# Recommendations en tant qu’offre
+# Recommandations en tant qu’offre
 
 Vous pouvez désormais inclure des recommandations dans les activités [!UICONTROL A/B Test] (y compris les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target]) et [!UICONTROL Experience Targeting] (XT).
 
@@ -43,7 +48,7 @@ Pour commencer, créez une activité de [!UICONTROL A/B Test] ou de [!UICONTROL 
    * Page de catégorie
    * Page d’accueil
    * Page de destination
-   * Page de produit
+   * Page produit
    * Page Résultats de recherche
    * Page de remerciement
    * Les autres
@@ -119,6 +124,6 @@ L’état (algorithme) de l’offre de recommandations s’affiche au bas de la 
 
 ![État de l’offre de recommandations](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommendations en tant qu’offre ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Recommandations en tant qu’offre ![Badge d’aperçu](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

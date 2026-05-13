@@ -1,12 +1,18 @@
 ---
 keywords: faq;questions fréquentes;forum aux questions;analytics pour target;a4T;mesure;définitions de mesures
-description: Trouvez des réponses aux questions sur les définitions de mesures et l’utilisation d’Analytics for [!DNL Target] (A4T). A4T vous permet d’utiliser la création de rapports Analytics avec des activités Adobe [!DNL Target] .
+description: Trouvez des réponses aux questions sur les définitions de mesures et l’utilisation d’Analytics for [!DNL Target] (A4T). A4T vous permet d’utiliser la création de rapports Analytics avec des activités  [!DNL Target] .
 title: Où puis-je trouver des informations sur les définitions de mesures avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+TQID: https://experienceleague.adobe.com/CLUm25T-5PCOzdXVL94kCgvqM-OL3dZzWXkG1qmN8IE
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 352
 ht-degree: 36%
 
 ---
@@ -15,7 +21,7 @@ ht-degree: 36%
 
 Cette rubrique contient les réponses aux questions fréquentes sur les définitions de mesures et l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T).
 
-## Quelle est l’expiration de l’appartenance à une activité ? Combien de temps après l’entrée des visiteurs dans l’activité leurs actions sont-elles comptabilisées dans l’activité s’ils ne la voient plus ? {#section_41B4958F33534E4B96DEE0C981227A79}
+## Quelle est l’expiration de l’abonnement à une activité ? Combien de temps après l’entrée des visiteurs dans l’activité leurs actions sont-elles comptabilisées dans l’activité s’ils ne la voient plus ? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Réponse
 L’expiration par défaut pour l’activité est de 90 jours après la dernière interaction du visiteur avec l’activité. Ce paramètre peut être ajusté par le service clientèle si nécessaire. Cependant, ce paramètre est global pour toutes les activités. Il ne doit donc pas être ajusté pour un seul cas.

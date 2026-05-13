@@ -5,10 +5,15 @@ title: Où puis-je obtenir des réponses aux questions relatives à la conceptio
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
+TQID: https://experienceleague.adobe.com/xRu0XEnc8wX8PZngba7CO67mFdja7HALL-1OSnhAmuY
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 81%
+source-wordcount: 472
+ht-degree: 80%
 
 ---
 
@@ -48,7 +53,7 @@ La version 1.7 sans outil ou bibliothèque ajoutée. La fonctionnalité de base
 
 ## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, le `entity.message` d’un élément doit être effacé lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
+L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
 
 ## Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 

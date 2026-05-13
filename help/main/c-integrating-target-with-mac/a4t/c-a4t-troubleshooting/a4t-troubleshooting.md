@@ -4,10 +4,22 @@ description: Explorez les problèmes courants rencontrés par les clients lors d
 title: Comment résoudre les problèmes d’intégration d’Analytics et de  [!DNL Target]  (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 90%
+source-wordcount: 948
+ht-degree: 91%
 
 ---
 
@@ -85,7 +97,7 @@ Si la suite de rapports que vous recherchez ne s’affiche toujours pas, contact
 
 ## Je ne vois pas autant de données que prévu dans les rapports. {#section_75002584FA63456D8D9086172925DD8D}
 
-Passez en revue votre mise en œuvre, en particulier sur les pages où les visiteurs répondent aux critères des expériences et vérifiez la correspondance des ID de données supplémentaires dans les appels à [!DNL Target] et à [!DNL Analytics]. 
+Passez en revue votre mise en œuvre, en particulier sur les pages où les visiteurs répondent aux critères des expériences et vérifiez la correspondance des ID de données supplémentaires dans les appels à [!DNL Target] et à [!DNL Analytics].
 
 * **at.js 1.x** : dans l’appel à [!DNL Target], l’ID supplémentaire est contenu dans le paramètre `mboxMCSDID`. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.
 * **at.js 2.x** : dans l’appel à [!DNL Target], l’ID supplémentaire est renvoyé dans l’en-tête HTTP comme valeur pour `experienceCloud.analytics.supplementalDataId`. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.

@@ -4,9 +4,22 @@ description: Suivez les étapes requises pour implémenter Analytics for [!DNL T
 title: Comment mettre en œuvre Analytics for  [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ddfb06a17a24200b2aa4f01d370cc0e92ff5f180
+TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1168
 ht-degree: 17%
 
 ---
@@ -118,7 +131,7 @@ Cette configuration a un effet global, ce qui signifie que chaque appel effectu�
 
 La payload peut ensuite être transmise à Analytics via l’[API Data Insertion](https://helpx.adobe.com/fr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et de ciblage automatique , vous devez également transférer l’ID de session. Pour plus d’informations, consultez [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=fr){target=_blank} dans le guide des *SDK Adobe Target*.
 
-Si aucun paramètre global n’est souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html?lang=fr){target=_blank} en transmettant **analyticsLogging: « client_side »**. La payload d’analyse est renvoyée pour cet appel uniquement et le serveur principal [!DNL Target] ne transfère pas la payload vers [!DNL Analytics]. En suivant cette approche, chaque requête de [!DNL Target] at.js renvoie la payload par défaut, mais uniquement lorsque cela est souhaité et spécifié.
+Si aucun paramètre global n’est souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} en transmettant **analyticsLogging: « client_side »**. La payload d’analyse est renvoyée pour cet appel uniquement et le serveur principal [!DNL Target] ne transfère pas la payload vers [!DNL Analytics]. En suivant cette approche, chaque requête de [!DNL Target] at.js renvoie la payload par défaut, mais uniquement lorsque cela est souhaité et spécifié.
 
 Par exemple :
 

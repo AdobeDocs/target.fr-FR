@@ -4,10 +4,18 @@ description: Découvrez comment transmettre des données dynamiques dans les off
 title: Comment transmettre des données dynamiques aux offres ?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/SzzxgYAYlWviRCrG-LhAixFJbgHEN73shrt7jZOmp4Y
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 52%
+source-wordcount: 538
+ht-degree: 55%
 
 ---
 
@@ -73,7 +81,7 @@ Lorsque `testAttribute` n’existe pas ou est vide, « Tous les éléments ! » 
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si votre valeur comporte une apostrophe, par exemple, vous pouvez lui appliquer une séquence d’échappement afin qu’elle ne rompe pas le JavaScript de la page. (Les offres sont écrites en JavaScript, de sorte qu’une apostrophe peut être confondue avec un devis.) Par exemple :
+Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si votre valeur comporte une apostrophe, par exemple, vous pouvez lui appliquer une séquence d’échappement afin qu’elle ne rompe pas le JavaScript de la page. (Les offres sont écrites en JavaScript. Une apostrophe peut donc être prise pour un guillemet simple.) Par exemple :
 
 `${user.encodedValue encode="unescape"}`
 

@@ -4,10 +4,31 @@ description: Explorez une liste des questions fréquentes sur l’utilisation de
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: f5fa1d5c1747ed4c1e5e3d35f3c01f49f3f255c3
+TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2:
+  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2724'
-ht-degree: 50%
+source-wordcount: 2806
+ht-degree: 51%
 
 ---
 
@@ -17,7 +38,7 @@ Explorez les réponses aux questions fréquentes sur l’utilisation des fonctio
 
 ## Informations générales {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Où puis-je trouver des informations sur l’interface utilisateur et le [!DNL Target] (VEC) [!UICONTROL Visual Experience Composer] mis à jour ?**
+**Où puis-je trouver des informations sur l’interface utilisateur et le [!UICONTROL Visual Experience Composer] (VEC) [!DNL Target] mis à jour ?**
 
 +++Afficher les détails
 
@@ -94,7 +115,7 @@ Consultez le type d’activité [&#x200B; Ciblage automatique &#x200B;](/help/ma
 +++Afficher les détails
 Lisez le [Guide des activités Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) pour comprendre les scénarios dans lesquels chacune des options fournies par [!DNL Target] a un sens.
 
-Veillez également à tenir compte des [activités Recommendations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Veillez également à tenir compte des [activités Recommandations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 +++
 
@@ -107,7 +128,7 @@ Il est à noter que les exigences de trafic augmentent avec les activités MVT.
 
 +++
 
-**Puis-je exécuter une activité couvrant plusieurs pages dont la structure de page est différente ? Puis-je appliquer des offres à différents emplacements (par exemple, l’entonnoir de passage en caisse) ?**
+**Puis-je exécuter une activité couvrant plusieurs pages dont la structure de page est différente ? Puis-je appliquer des offres à différents emplacements (par exemple, le funnel de passage en caisse) ?**
 
 +++Afficher les détails
 Testez la [fonctionnalité d’activité multi-page](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) qui vous permet d’utiliser plusieurs pages dans les expériences.
@@ -123,7 +144,7 @@ Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décomp
 
 +++
 
-**J’ai créé plusieurs objectifs dans mon activité. Puis-je créer une chaîne d’objectifs en tant qu’entonnoir à des fins de création de rapports et d’analyse ? Par exemple, je souhaite prendre en compte l’objectif B lorsque l’utilisateur a atteint l’objectif A afin de pouvoir suivre les nombres pour un entonnoir particulier.**
+**J’ai créé plusieurs objectifs dans mon activité. Puis-je créer une chaîne d’objectifs sous forme d’entonnoir pour les besoins de génération de rapports et d’analyse ? Par exemple, je souhaite prendre en compte l’objectif B lorsque l’utilisateur a atteint l’objectif A afin de pouvoir effectuer le suivi des nombres pour un funnel particulier.**
 
 +++Afficher les détails
 [!DNL Target] dispose d’un moyen fiable d’y parvenir avec notre fonctionnalité [!UICONTROL Metrics Dependency]. Il vous suffit d’[ajouter des dépendances aux autres mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Vous disposez d’options telles que « Atteint » et « Non atteint », ainsi que de la possibilité de combiner les mesures de plusieurs manières afin de créer n’importe quelle combinaison souhaitée.
@@ -232,7 +253,7 @@ Utilisez les contrôles d’affectation en pourcentage disponibles à l’étape
 +++ Afficher les détails
 Consultez les aspects suivants du produit :
 
-* [Analytics for Target (A4T) &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -243,7 +264,7 @@ Consultez les aspects suivants du produit :
 **Puis-je exécuter une activité sur plusieurs pages dont la structure est commune ?**
 
 +++Afficher les détails
-Référez-vous aux [Règles de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) pour inclure de nombreuses pages structurées similaires à l’activité, tout en créant l’expérience sur l’unique adresse URL spécifiée.
+Consultez les [Règles de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) pour inclure de nombreuses pages structurées similaires à l’activité, tout en créant l’expérience sur l’unique adresse URL spécifiée.
 
 +++
 
@@ -343,7 +364,7 @@ Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities
 
 ## Offres {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
 
-**Je ne veux pas essayer d’apporter des modifications mineures, mais plutôt tester une toute nouvelle page complètement différente. Je souhaite diriger les utilisateurs vers une page de destination, par exemple un nouveau lancement. Comment faire ?**
+**Je ne veux pas essayer d’apporter des modifications mineures, mais plutôt tester une toute nouvelle page complètement différente. Je veux rediriger les utilisateurs vers une page d’entrée, par exemple un nouveau lancement. Comment faire ?**
 
 
 +++Afficher les détails
@@ -438,7 +459,7 @@ Nous disposons également d’une solution pour cela, grâce à la [fonctionnali
 **Comment puis-je connaître le statut de disponibilité de [!DNL Target] ?**
 
 +++Afficher les détails
-Utilisez la page [Statut du système Adobe](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [Statut du système &#x200B;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 +++
 

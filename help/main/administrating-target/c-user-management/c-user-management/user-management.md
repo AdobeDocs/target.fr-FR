@@ -5,10 +5,27 @@ title: Comment ajouter des utilisateurs et utilisatrices et gérer des autorisat
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+TQID: https://experienceleague.adobe.com/DdNQ81TpmyIRuPkmy4OIOq43CXwaMtm-uH2HtPjdx10
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+subfeature_v2:
+  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+  - id: cd7b6938-5837-4ee0-9790-5840997133d9
+  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+  - id: faed1c89-faf7-4df1-910d-a88263e03b15
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 63%
+source-wordcount: 873
+ht-degree: 61%
 
 ---
 
@@ -24,7 +41,7 @@ Ajoutez des utilisateurs et utilisatrices et gérez leurs autorisations dans [!D
 >
 >* **[!DNL Target]&#x200B;[!UICONTROL Standard] clients** : si vous voyez l’onglet [!UICONTROL Users] ([!UICONTROL Administration > Users]) (et non l’onglet **[!UICONTROL Properties]**), votre entreprise dispose d’une licence [!DNL Target] [!UICONTROL Standard]. [!DNL Target] clients [!UICONTROL Standard] doivent suivre les instructions de cet article pour ajouter des utilisateurs et attribuer des autorisations dans le [!DNL Adobe Admin Console].
 >
->* Clients **[!DNL Target]Premium** : si vous voyez l’onglet [!UICONTROL Users] et l’onglet [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), votre entreprise dispose d’une licence [!DNL Target] Premium. Les clients [!DNL Target] Premium doivent suivre les instructions données dans [Autorisations des utilisateurs de société](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) et dans [Configurer les autorisations de société](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+>* Clients **[!DNL Target]Premium** : si vous voyez l’onglet [!UICONTROL Users] et l’onglet [!UICONTROL Properties] ([!UICONTROL Administration > Properties]), votre entreprise dispose d’une licence [!DNL Target] Premium. [!DNL Target] Les clients Premium doivent suivre les instructions des sections [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) et [Configurer les autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans l’[!DNL Adobe Admin Console].
 >
 >Pour plus d’informations sur la gestion des utilisateurs et des autorisations, consultez la page [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html) dans le *Guide d’utilisation d’entreprise et d’équipes*.
 

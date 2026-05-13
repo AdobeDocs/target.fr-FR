@@ -5,10 +5,20 @@ title: Qu’est-ce qu’ [!DNL Target]  Recommandations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
+TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 98%
+source-wordcount: 866
+ht-degree: 94%
 
 ---
 
@@ -56,7 +66,7 @@ Avant de commencer à utiliser [!DNL Recommendations], il est utile de vous fami
 | Flux | Les flux sont utilisés pour importer des entités dans [!DNL Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics. Pour plus d’informations, consultez [Flux](/help/main/c-recommendations/c-products/feeds.md). |
 | Catalogue | Les catalogues font référence à l’ensemble de vos produits (entités). Votre catalogue peut contenir de nombreuses collections, ce qui permet d’organiser vos produits en intervalles logiques. |
 | Collection | Les collections se rapportent à un ensemble d’éléments similaires ou connexes, tels qu’une catégorie de produits unique. Néanmoins, vous pouvez regrouper n’importe quels éléments dans une catégorie qui est logique pour votre entreprise, par exemple des produits appartenant à une certaine plage de prix ou d’une certaine couleur, ou encore des éléments qui sont susceptibles d’intéresser une zone géographique spécifique. Pour plus d’informations, consultez [Collections](/help/main/c-recommendations/c-products/collections.md). |
-| Critères | Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.<br>Voici quelques exemples de critères : <ul><li>Les personnes ayant acheté ceci ont acheté cela</li><li>Les personnes ayant consulté ceci ont consulté cela</li><li>Articles avec des attributs similaires</li><li>Dernier article acheté</li><li>Catégorie préférée</li></ul>  Pour plus d’informations, consultez [Critères](/help/main/c-recommendations/c-algorithms/algorithms.md). |
+| Critères | Les critères sont des règles qui déterminent quels produits recommander en fonction d’un ensemble prédéterminé de comportements de visiteurs.<br>Voici quelques exemples de critères : <ul><li>Les personnes ayant acheté ceci ont acheté cela</li><li>Les personnes ayant consulté ceci ont consulté cela</li><li>Articles avec des attributs similaires</li><li>Dernier article acheté</li><li>Catégorie favorite</li></ul>  Pour plus d’informations, consultez [Critères](/help/main/c-recommendations/c-algorithms/algorithms.md). |
 | Conceptions | Les conceptions définissent l’aspect des recommandations dans une activité [!DNL Recommendations], telles qu’une ligne, une colonne, un tableau ou une grille. L’illustration en haut de cet article représente une conception 4 x 1. Pour plus d’informations, consultez [Création d’une conception](/help/main/c-recommendations/c-design-overview/create-design.md). |
 | Emplacements | Les emplacements font référence à une zone de contenu spécifique sur une page web, une application mobile ou un e-mail où vous exécutez une activité à des fins de personnalisation et d’optimisation. |
 | Audiences | Les audiences sont des groupes de participants à une activité similaire qui verront une activité ciblée. Une audience est un groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Pour plus d’informations, consultez [Audiences](/help/main/c-target/target.md). |

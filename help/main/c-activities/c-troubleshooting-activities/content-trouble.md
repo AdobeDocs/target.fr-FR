@@ -4,10 +4,24 @@ description: Obtenez des suggestions pour résoudre les problèmes si votre page
 title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu ?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 89%
+source-wordcount: 1663
+ht-degree: 86%
 
 ---
 
@@ -65,7 +79,7 @@ Les paramètres suivants sont disponibles :
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-Le résultat présente des informations détaillées sur le contenu. mboxTrace affiche des détails sur la campagne ou sur lʼactivité et le profil. Lʼoutil fournit également un instantané du profil avant lʼexécution et un instantané des modifications après lʼexécution. mboxTrace affiche également les campagnes ou les activités qui ont été évaluées pour chaque emplacement.
+Le résultat présente des informations détaillées sur le contenu. mboxTrace affiche les détails de votre campagne ou activité et de votre profil. Il fournit également un instantané du profil avant l’exécution et un instantané de ce qui a changé après l’exécution. mboxTrace affiche également les campagnes ou les activités qui ont été évaluées pour chaque emplacement.
 
 Certaines des informations incluent des segments correspondants et non correspondants et des ID cibles :
 
@@ -85,7 +99,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 
 Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
 
-mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommendations.
+mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommandations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -105,15 +119,15 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 >
 >Assurez-vous que le fragment d’URL figure après les paramètres de chaîne de requête. Tout ce qui suit le premier `#` est un identifiant de fragment et entraîne le mauvais fonctionnement des paramètres de débogage.
 
-## Débogueur Adobe Experience Cloud  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Débogueur Adobe Experience Cloud {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil MboxTrace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour des informations plus détaillées, consultez [Débogage dʼat.js à lʼaide dʼAdobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=fr){target=_blank}.
+Pour des informations plus détaillées, consultez [Débogage dʼat.js à lʼaide dʼAdobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
-## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Les meilleurs vendeurs n’apparaissent pas dans Recommandations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 L’appel *`SiteCatalyst: purchase`* ne peut pas être utilisé pour les données de trafic de l’algorithme Purchase. Utilisez plutôt l’appel *`orderConfirmPage`*.
 
@@ -135,7 +149,7 @@ Si un élément DOM fait partie du ciblage de personnalisation d’Adobe Exper
 
 Pour remédier à cette sitation, vous pouvez désactiver la personnalisation AEM dans les pages qui exécutent Target.
 
-## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si l’offre de redirection ou distante utilise une URL non valide, elle risque de ne pas être livrée.
 

@@ -4,10 +4,19 @@ description: Découvrez la durée d’exécution d’un test A/B. Un test A/B r�
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: b5da2f5d41739af39d97e0ce9761006794c04d2b
+TQID: https://experienceleague.adobe.com/KZ0Egi-KsoAgR7NBXsTXFXhanum8OgFEZz94lGaIQjs
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3123'
-ht-degree: 46%
+source-wordcount: 3150
+ht-degree: 47%
 
 ---
 
@@ -127,7 +136,7 @@ Le taux de conversion de ligne de base est le taux de conversion de l’offre de
 
 ### Nombre de visiteurs {#section_19009F165505429E95291E6976E498DD}
 
-Il peut être difficile d’équilibrer le coût d’exécution d’un test sur une longue période avec le risque de faux positifs ou de faux négatifs. Évidemment, vous ne voulez pas prendre les mauvaises décisions, mais être paralysé par des normes de test trop strictes ou rigides n&#39;est pas non plus souhaitable.
+Il peut être difficile d’équilibrer le coût d’exécution d’un test sur une longue période avec le risque de faux positifs ou de faux négatifs. Évidemment, vous ne souhaitez pas prendre de mauvaises décisions, mais être paralysé par des normes de test trop strictes ou trop rigides n’est pas souhaitable non plus.
 
 En règle générale, un degré de confiance de 95 % et une puissance statistique de 80 % sont recommandés.
 
