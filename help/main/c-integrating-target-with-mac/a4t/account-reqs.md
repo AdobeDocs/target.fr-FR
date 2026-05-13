@@ -5,10 +5,14 @@ title: Quelles sont les exigences d’autorisation des utilisateurs requises pou
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 35%
+source-wordcount: 298
+ht-degree: 32%
 
 ---
 
@@ -28,13 +32,13 @@ Effectuez les tâches suivantes dans l’[!DNL Adobe Experience Cloud] [Admin Co
 
 Vos comptes d’utilisateur [!DNL Analytics] et [!DNL Target] doivent être liés à votre Adobe ID.
 
-Pour plus d’informations, voir [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
+Pour plus d’informations, voir [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configuration de l’appartenance au groupe Experience Cloud
 
 Vous devez être membre d’un ou plusieurs groupes [!DNL Experience Cloud] ayant accès à [!DNL Analytics] et [!DNL Target].
 
-Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -48,7 +52,7 @@ Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à 
 
    L’illustration suivante est un exemple de profil de produit qui a accès à toutes les suites de rapports :
 
-   ![Onglet Autorisations Admin Console](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Onglet Autorisations ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configurez l’accès au groupe de [!UICONTROL Web Services Access] .
 

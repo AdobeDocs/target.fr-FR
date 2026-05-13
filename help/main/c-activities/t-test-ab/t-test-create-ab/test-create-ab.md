@@ -4,9 +4,13 @@ description: Utilisez le [!UICONTROL Visual Experience Composer] (VEC) pour cré
 title: Comment créer un test A/B ?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/3oJeJ1q8KeFLZhUJseG6hOe6xJqH4CKILIUglcL7E3M
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 899
 ht-degree: 17%
 
 ---
@@ -17,7 +21,7 @@ Tirez parti du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Ta
 
 >[!NOTE]
 >
->Outre l’activité de [!UICONTROL Manual] [!UICONTROL A/B Test] (par défaut) (abordée dans cet article), [!DNL Target] propose deux types supplémentaires d’activités [!UICONTROL A/B Test] : [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target].
+>Outre l’activité de [!UICONTROL A/B Test] [!UICONTROL Manual] (par défaut) (abordée dans cet article), [!DNL Target] propose deux types supplémentaires d’activités [!UICONTROL A/B Test] : [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target].
 >
 >Voir [Types d’activités de test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) dans la présentation des tests A/B **.
 
@@ -35,7 +39,7 @@ Pour créer une activité de [!UICONTROL A/B Test] manuelle, procédez comme sui
    >
    >Pour obtenir des informations de dépannage sur le VEC, voir [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Conditionnel) Si vous êtes un client [Target Premium](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    L’option [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
 
@@ -70,8 +74,8 @@ Pour créer une activité de [!UICONTROL A/B Test] manuelle, procédez comme sui
    | ,+ | Virgule, Plus |
    | ,- | Virgule, Moins |
    | ,@ | Virgule, Au signe |
-   | `[` » | Crochet ouvert, guillemets doubles |
-   |  »`]` | Guillemets doubles, crochet fermant |
+   | `[`&quot; | Crochet ouvert, guillemets doubles |
+   | &quot;`]` | Guillemets doubles, crochet fermant |
 
 1. Créez de nouvelles expériences en modifiant les éléments de la page.
 

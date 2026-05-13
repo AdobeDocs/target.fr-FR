@@ -4,9 +4,13 @@ description: Découvrez comment utiliser le [!UICONTROL Visual Experience Compos
 title: Comment créer une activité [!UICONTROL Auto-Allocate] ?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/dInypDH72qyoj5UygbEt-BWpq1gZkbxJiSXSheNPO54
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 918
 ht-degree: 15%
 
 ---
@@ -31,7 +35,7 @@ Pour créer une activité [!UICONTROL Auto-Allocate] :
    >
    >Pour obtenir des informations de dépannage sur le VEC, voir [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Conditionnel) Si vous êtes un client [Target Premium](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    L’option [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
 
@@ -66,8 +70,8 @@ Pour créer une activité [!UICONTROL Auto-Allocate] :
    | ,+ | Virgule, Plus |
    | ,- | Virgule, Moins |
    | ,@ | Virgule, Au signe |
-   | `[` » | Crochet ouvert, guillemets doubles |
-   |  »`]` | Guillemets doubles, crochet fermant |
+   | `[`&quot; | Crochet ouvert, guillemets doubles |
+   | &quot;`]` | Guillemets doubles, crochet fermant |
 
 1. Créez de nouvelles expériences en modifiant les éléments de la page.
 

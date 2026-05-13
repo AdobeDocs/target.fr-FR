@@ -4,10 +4,14 @@ description: Découvrez comment utiliser une activité de [!UICONTROL Auto-Alloc
 title: Qu’est-ce qu’une activité [!UICONTROL Auto-Allocate] ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '3502'
-ht-degree: 35%
+source-wordcount: 3572
+ht-degree: 36%
 
 ---
 
@@ -39,7 +43,7 @@ Dans de tels tests, la plupart des produits, y compris les [!DNL Target], utilis
 
 * Utilisez **[!UICONTROL Auto-Allocate]** lorsque vous souhaitez optimiser votre activité depuis le début et identifier les expériences gagnantes le plus rapidement possible. En diffusant plus souvent des expériences hautement performantes, les performances globales de l’activité augmentent.
 * Utilisez un test A/B standard **[A/B Test](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** lorsque vous souhaitez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous aide à classer toutes vos expériences, tandis que [!UICONTROL Auto-Allocate] trouve les meilleures performances, mais ne garantit pas la différenciation entre les moins performantes.
-* Utilisez [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. [!UICONTROL Auto-Allocate] examine le comportement agrégé des expériences (tout comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
+* Utilisez [](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. [!UICONTROL Auto-Allocate] examine le comportement agrégé des expériences (tout comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
 
 ## Principaux avantages de la [!UICONTROL Auto-Allocate] {#section_0913BF06F73C4794862561388BBDDFF0}
 
@@ -47,7 +51,7 @@ Dans de tels tests, la plupart des produits, y compris les [!DNL Target], utilis
 * Identifie un gagnant statistiquement significatif plus rapidement qu’un test A/B manuel
 * Fournit un effet élévateur de campagne moyen plus élevé qu’un test A/B manuel
 
-## Terminologie  {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
 
 Les termes suivants sont utiles pour aborder le [!UICONTROL Auto-Allocate] :
 
@@ -83,7 +87,7 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 >
 >Si une activité ne comporte que deux expériences, les deux expériences obtiennent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, les deux tiers du trafic sont attribués au gagnant et un tiers au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est alloué au gagnant et 10 % au perdant. [!DNL Target] envoie toujours du trafic vers l’expérience « perdue » pour éviter les faux positifs à la fin (c’est-à-dire conserver une partie de l’exploration).
 
-Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérations suivantes ne sont pas autorisées à partir de l’interface utilisateur Target :
+Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérations suivantes ne sont pas autorisées à partir de l’interface utilisateur Tar[!DNL]get :
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
@@ -91,7 +95,7 @@ Une fois qu’une activité [!UICONTROL Auto-Allocate] est activée, les opérat
 
 ## Voir comment fonctionne l’affectation automatique
 
-Pour plus d’informations, voir [&#x200B; L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
+Pour plus d’informations, voir [ L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
 ## Avertissements {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -115,7 +119,7 @@ Si vous souhaitez produire une différenciation statistiquement significative en
 
 ### Les taux de conversion corrélés au temps (ou variables selon le contexte) peuvent fausser les montants alloués.
 
-Certains facteurs qui peuvent être ignorés lors d’un test A/B standard, car ils affectent toutes les expériences de la même manière, ne peuvent pas être ignorés dans une activité [!UICONTROL Auto-Allocate]. L&#39;algorithme est sensible aux taux de conversion observés.
+Certains facteurs qui peuvent être ignorés lors d’un test A/B standard, car ils affectent toutes les expériences de la même manière, ne peuvent pas être ignorés dans une activité [!UICONTROL Auto-Allocate]. L’algorithme est sensible aux taux de conversion observés.
 
 Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les performances des expériences de manière inégale :
 
@@ -133,13 +137,13 @@ Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les perf
 
   Par exemple, « Derniers jours des soldes à -30 % » signale au visiteur d’effectuer une conversion aujourd’hui, tandis que « 50 % sur votre premier achat » n’engendre pas le même sentiment d’urgence.
 
-## Questions fréquentes  {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Questions fréquentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activités [!UICONTROL Auto-Allocate] :
 
 ### [!UICONTROL Analytics for Target] (A4T) prend-il en charge les activités [!UICONTROL Auto-Allocate] ?
 
-Oui. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Oui. Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Les visiteurs récurrents sont-ils automatiquement réaffectés à des expériences hautement performantes ?
 
@@ -163,7 +167,7 @@ Oui. Le bandit à plusieurs bras s’assure qu’au moins 20 % du trafic est r�
 
 ### Qu’advient-il des activités qui présentent de longs délais de conversion ?
 
-Tant que toutes les expériences en cours d’optimisation font face à des délais similaires, le comportement est identique à celui d’une activité avec un cycle de conversion plus rapide. Cependant, il faut plus de temps pour atteindre le seuil de conversion de 50 avant que le processus d’affectation du trafic ne commence.
+Tant que les expériences optimisées sont confrontées à des délais similaires, le comportement est le même que pour une activité avec un cycle de conversion plus rapide. Cependant, il faut plus de temps pour atteindre le seuil de conversion de 50 avant que le processus d’affectation du trafic ne commence.
 
 ### En quoi est-[!UICONTROL Auto-Allocate] différent de [!UICONTROL Automated Personalization] ?
 
@@ -246,4 +250,4 @@ Cette vidéo explique comment créer un test A/B à l’aide du processus assist
 * Création d’une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

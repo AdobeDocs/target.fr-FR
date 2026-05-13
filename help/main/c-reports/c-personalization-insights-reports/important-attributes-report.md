@@ -2,13 +2,17 @@
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;ciblage automatique;rapport de ciblage automatique;personnalisation;informations;faq;forum aux questions;attributs importants
 description: Découvrez comment utiliser le rapport [!UICONTROL Important Attributes] qui affiche les principaux attributs ayant influencé le modèle de personnalisation et leur importance relative.
 title: Qu’est-ce que le rapport Attributs importants ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/4G8mYap2O5RW5wr9YvXEaHm2k-oNQVVCHyKv4ltaNHo
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 57%
+source-wordcount: 1835
+ht-degree: 56%
 
 ---
 
@@ -40,7 +44,7 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
 1. Cliquez sur **[!UICONTROL Reports]**.
 
-   Le rapport [Résumé Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche, et fournit des informations sur les performances de vos activités, représentées par l’icône du premier écran. Les deux icônes supplémentaires représentent les deux rapports [!UICONTROL Personalization Insights] : **[!UICONTROL Automated Segments]** ( ![rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) et **[!UICONTROL Important Attributes]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ).
+   Le rapport [Résumé ](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche, et fournit des informations sur les performances de vos activités, représentées par l’icône du premier écran. Les deux icônes supplémentaires représentent les deux rapports [!UICONTROL Personalization Insights] : **[!UICONTROL Automated Segments]** ( ![rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) et **[!UICONTROL Important Attributes]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ).
 
 
    Notez que [!UICONTROL Auto-Target] comporte une icône de graphique supplémentaire pour la vue graphique du rapport [!UICONTROL Summary].
@@ -73,7 +77,7 @@ Le tableau suivant explique comment interpréter le rapport et en décrit les é
 
 | Élément | Détails |
 |--- |--- |
-| Graphique en barres | Le graphique en barres multicouleur situé en haut de l’écran vous permet de visualiser ces scores d’importance relative et est associé à la couleur du point en regard de chaque attribut respectif dans le tableau. Vous pouvez également survoler une couleur spécifique dans le graphique en barres avec le curseur pour afficher l’attribut qu’elle représente. Les scores d’importance sur les 100 premiers attributs totalisent 100 %. Pour plus d’informations sur l’ajout d’attributs supplémentaires utilisables par les modèles de personnalisation de Target, voir [Chargement de données pour les algorithmes Personalization de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Graphique en barres | Le graphique en barres multicouleur situé en haut de l’écran vous permet de visualiser ces scores d’importance relative et est associé à la couleur du point en regard de chaque attribut respectif dans le tableau. Vous pouvez également survoler une couleur spécifique dans le graphique en barres avec le curseur pour afficher l’attribut qu’elle représente.  Les scores d’importance sur les 100 premiers attributs totalisent 100 %. Pour plus d’informations sur l’ajout d’attributs supplémentaires utilisables par les modèles de personnalisation de Target, voir [Chargement de données pour les algorithmes Personalization de Target](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Graphique Classement des attributs de modèle | Le Classement des attributs de modèle comprend les 10 premiers attributs les plus importants dans la manière dont le modèle de personnalisation de Target a décidé du contenu à présenter à chaque visiteur. Le score d’importance indique, par rapport aux 100 premiers attributs, le degré d’importance d’un attribut spécifique pour les modèles de personnalisation de Target dans cette activité. |
 
 ## FAQ sur Attributs importants {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -98,7 +102,7 @@ Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans se
 
 L’[!UICONTROL Models API], également appelée API de Place sur la liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des attributs (également appelés fonctionnalités) utilisés dans les modèles de machine learning pour les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT). Si vous souhaitez exclure un ou plusieurs attributs de l’utilisation des modèles pour les activités AP ou AT, vous pouvez utiliser l’API Modèles pour ajouter ces attributs au « place sur la liste bloquée ».
 
-Pour plus d’informations, consultez [Présentation de l’API Modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=fr){target=_blank} dans le *Guide du développeur d’Adobe Target*. Pour utiliser l’API pour bloquer des attributs, voir [API Modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=fr){target=_blank}.
+Pour plus d’informations, consultez [Présentation de l’API Modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le *Guide du développeur d’Adobe Target*. Pour utiliser l’API pour bloquer des attributs, voir [API Modèles](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### Les informations contenues dans les rapports [!UICONTROL Automated Segments] et [!UICONTROL Important Attributes] sont-elles identiques à celles du téléchargement CSV ?
 

@@ -2,12 +2,15 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance d’attributs de profil
 description: Découvrez comment filtrer de manière dynamique en  [!DNL Target Recommendations]  des éléments (entités) par rapport à une valeur du profil de l’utilisateur.
 title: Comment filtrer par correspondance d’attributs de profil dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/Gm91Mww5ylvNjUcmzp6KwxIG6LTibvI44LnW67KFzqk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: 483
 ht-degree: 0%
 
 ---

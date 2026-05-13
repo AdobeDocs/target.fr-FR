@@ -4,9 +4,12 @@ description: Découvrez comment activer le contenu mixte dans  [!DNL Chrome],  [
 title: Comment activer le contenu mixte dans mon navigateur ?
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: c5b43faa2fc55c2c8737e586cfdfaa1444a05880
+TQID: https://experienceleague.adobe.com/6Q1UvNmU-vSr9sp3pe2JN-wkjFUMWFxtPkgQegArrVw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: 551
 ht-degree: 87%
 
 ---
@@ -66,7 +69,7 @@ Par défaut, [!DNL Firebox] bloque les pages qui contiennent du contenu sécuris
 
 1. Double-cliquez sur ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
-   La valeur true se transforme en false. Lorsque la valeur devient false, l’opération est terminée. 
+   La valeur true se transforme en false. Lorsque la valeur devient false, l’opération est terminée.
 
    ![Sécurité de Firefox](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 

@@ -2,12 +2,15 @@
 keywords: Automated Personalization;ap;prévisualisation;exclure l’expérience
 description: Découvrez comment prévisualiser chaque expérience dans une activité [!UICONTROL Automated Personalization] (AP) à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
 title: Comment prévisualiser des expériences [!UICONTROL Automated Personalization] dans le compositeur d’expérience visuelle ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/wkD1Z3b72D9Wm31yKFvSKJDNUeyHjKL0tzkeah7teQQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 200
 ht-degree: 10%
 
 ---

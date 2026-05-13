@@ -4,10 +4,15 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/dW3TS0g9VKJRluwA2PXDr4upXiY1yKzfh5v9WRaOB50
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 96%
+source-wordcount: 556
+ht-degree: 77%
 
 ---
 
@@ -52,7 +57,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [Résolution des problèmes liés aux tests multivariés](/help/main/c-activities/c-multivariate-testing/best-practices.md)
 * [Estimation du trafic requis pour un test réussi](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Recommendations
+### Recommandations
 
 * [Forum aux questions (FAQ) de Recommandations](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Questions fréquentes sur la conception](/help/main/c-recommendations/c-design-overview/template-faq.md)
@@ -62,7 +67,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [Résolution des problèmes d’intégration d’Analytics et de Target](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
 * Questions fréquentes sur A4T
-   * [FAQ sur la configuration initiale - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
+   * [FAQ sur l&#39;approvisionnement initial - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [FAQ sur la configuration des activités - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
    * [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
@@ -96,7 +101,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 
 ## mbox globale
 
-* [mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=fr)
+* [mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Hôtes/Environnements
 
@@ -108,23 +113,23 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ### Implémentation globale
 
-* [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr)
-* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=fr)
+* [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Utilisation d’instances basées sur le cloud avec Target](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### mbox globales
 
-* [FAQ sur la mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=fr)
+* [FAQ sur la mbox globale](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
 * [FAQ sur at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=fr)
-* [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=fr)
-* [Informations détaillées sur les versions d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr)
-* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
+* [Déboguer at.js à l’aide du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr)
+* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe.
 
 ## Applications mobiles
 
-* [FAQ sur Target pour les applications mobiles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=fr)
+* [FAQ sur Target pour les applications mobiles](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Création de rapports
 
@@ -133,7 +138,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Optimisation pour moteurs de recherche
 
-* [Tests adaptés à l’optimisation du référencement](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
+* [Tests adaptés à l’optimisation du moteur de recherche (SEO)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sécurité
 

@@ -4,9 +4,12 @@ description: Découvrez ce qu’est un test A/A, pourquoi vous souhaitez peut-ê
 title: Qu’est-ce que le test A/A ?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
-source-git-commit: 4f0ebdd06287a438e519d9bccb677ab1a9093396
+TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: 944
 ht-degree: 1%
 
 ---
@@ -68,6 +71,6 @@ Supposons que vous souhaitiez atteindre un niveau de confiance de 95 % avec votr
 
 Si vous décidez qu’un test A/A est nécessaire dans votre organisation, sachez que des expériences identiques peuvent temporairement montrer une différence par rapport au contrôle. Cela peut être normal, selon la durée d’exécution du test. La différence devrait diminuer avec plus de temps et de visiteurs.
 
-La bonne pratique consiste à utiliser la méthodologie de test A/B régulière : décidez à l’avance de la taille de l’échantillon en fonction de la taille minimale de l’effet pertinent, de la puissance souhaitée et de la signification à l’aide du [Calculateur de taille d’Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+La bonne pratique consiste à utiliser la méthodologie de test A/B régulière : décidez à l’avance de la taille de l’échantillon en fonction de la taille minimale de l’effet pertinent, de la puissance souhaitée et de la signification à l’aide du [Calculateur de taille d’](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 Ensuite, prévoyez suffisamment de temps et de visiteurs avant d’arriver à une conclusion, et souvenez-vous que selon le niveau de pertinence de votre test, il est possible qu’une expérience montre une différence d’effet élévateur, et qu’elle soit même déclarée gagnante.

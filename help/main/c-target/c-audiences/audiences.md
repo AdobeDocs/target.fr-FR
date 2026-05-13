@@ -4,10 +4,14 @@ description: Découvrez comment utiliser les audiences dans  [!DNL Adobe Target]
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
+TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 22%
+source-wordcount: 784
+ht-degree: 24%
 
 ---
 
@@ -21,7 +25,7 @@ Les audiences sont utilisées partout où le ciblage est disponible. Lors du cib
 * [Créer une audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) et la cibler
 * [Combiner plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc
 
-Vous pouvez également utiliser les données d’audience collectées par [!DNL Adobe Analytics] pour le ciblage et la personnalisation en temps réel dans [!DNL Target] et d’autres applications [!DNL Adobe Experience Cloud]. Voir [Audiences Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans le guide *Composants de l’interface centrale d’Experience Cloud*.
+Vous pouvez également utiliser les données d’audience collectées par [!DNL Adobe Analytics] pour le ciblage et la personnalisation en temps réel dans [!DNL Target] et d’autres applications [!DNL Adobe Experience Cloud]. Voir [Audiences ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans le guide *Composants de l’interface centrale d’Experience Cloud*.
 
 Il existe deux types d’audiences dans [!DNL Target] :
 
@@ -123,4 +127,4 @@ Cette vidéo comprend des informations sur l’utilisation des audiences.
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

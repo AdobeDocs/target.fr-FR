@@ -1,13 +1,16 @@
 ---
 keywords: qa;aperçu;signet d’applet;liens d’aperçu
-description: Découvrez comment utiliser le signet Adobe [!DNL Target] QA pour forcer  [!DNL Target]  à quitter le mode assurance qualité.
+description: Découvrez comment utiliser le signet  [!DNL Target] QA pour forcer  [!DNL Target]  à quitter le mode assurance qualité.
 title: Comment utiliser le signet d’applet de l’AQ d’activité ?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
+TQID: https://experienceleague.adobe.com/kOQcdF2WgiAGkOS3rrLWfDSFTvRJX8jb-IeaahWnM0c
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 13%
+source-wordcount: 272
+ht-degree: 12%
 
 ---
 
@@ -50,7 +53,7 @@ Par exemple :
 
 ## Signet d’applet de l’AQ d’activité pour at.js 2.*x*
 
-À la différence d’at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode QA n’est actif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session en mode QA est gérée uniquement côté client et aucun cookie en mode QA n’est envoyé à Target.
+Contrairement à at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode QA n’est actif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session en mode QA est gérée uniquement côté client et aucun cookie en mode QA n’est envoyé à Target.
 
 Pour utiliser le signet d’assurance qualité [!DNL Target], créez un signet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils des signets de votre navigateur :
 

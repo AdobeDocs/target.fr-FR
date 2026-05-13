@@ -4,9 +4,13 @@ description: Découvrez comment utiliser le [!UICONTROL Visual Experience Compos
 title: Comment créer un [!UICONTROL Multivariate Test] ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
+TQID: https://experienceleague.adobe.com/gxrnY43A7OWsiW48Rlq1Orp7ZxBswdAPZEAbRQrCDZA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 737
 ht-degree: 26%
 
 ---
@@ -27,7 +31,7 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
 
 1. (Conditionnel) Choisissez le type de diffusion : [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] ou [!UICONTROL Other/API].
 
-1. (Conditionnel) Si vous êtes un client [Target Premium](/help/main/c-intro/intro.md#premium), [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium), [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [Spécifiez l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Create]**.
 
@@ -62,8 +66,8 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
    | ,+ | Virgule, Plus |
    | ,- | Virgule, Moins |
    | ,@ | Virgule, Au signe |
-   | `[` » | Crochet ouvert, guillemets doubles |
-   |  »`]` | Guillemets doubles, crochet fermant |
+   | `[`&quot; | Crochet ouvert, guillemets doubles |
+   | &quot;`]` | Guillemets doubles, crochet fermant |
 
 1. [Créez les offres à chaque emplacement](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -128,4 +132,4 @@ Cette vidéo explique comment planifier et créer un test multivarié à l’aid
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

@@ -4,9 +4,13 @@ description: Découvrez comment utiliser le mbox3rdPartyId. Il s’agit de l’i
 title: Comment utiliser la synchronisation des profils en temps réel pour mbox3rdPartyId ?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/72tenrUdLD52p36hO1O70-zhr1Cg0jTVLfKXUR7iNhU
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 741
 ht-degree: 80%
 
 ---
@@ -62,7 +66,7 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
 
   >[!IMPORTANT]
   >
-  > L’utilisation des deux approches mentionnées ci-dessus de manière interchangeable pour un seul visiteur peut entraîner des fusions de profils incorrectes entre les profils [!DNL Target] authentifiés et non authentifiés.
+  > L’utilisation des deux approches mentionnées ci-dessus de manière interchangeable pour une seule personne peut entraîner des fusions de profils incorrectes entre les profils [!DNL Target] authentifiés et non authentifiés.
   >
   >Adobe vous déconseille d’utiliser à la fois `mbox3rdPartyId`/`thirdPartyId` et `setCustomerID`/`customerIds`.
   >

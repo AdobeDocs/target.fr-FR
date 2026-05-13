@@ -2,13 +2,16 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
 description: Découvrez comment créer des règles d’inclusion dans  [!DNL Target]  Recommendations pour les critères et les promotions.
 title: Comment utiliser les règles d’inclusion dynamiques et statiques dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: 1861
 ht-degree: 16%
 
 ---
@@ -31,7 +34,7 @@ Les sections suivantes comprennent davantage d’informations :
 
 1. Cliquez sur la liste déroulante **Filtre statique** dans la zone « À quelles autres règles la recommandation doit-elle se conformer ? », puis choisissez l’option de votre choix dans la liste déroulante [!UICONTROL Static Filter].
 
-   ![&#x200B; Liste déroulante Filtre statique &#x200B;](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
+   ![ Liste déroulante Filtre statique ](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
    Les options disponibles varient en fonction du secteur industriel vertical et de la clé de recommandation sélectionnés.
 

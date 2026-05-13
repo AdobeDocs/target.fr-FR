@@ -2,13 +2,16 @@
 keywords: conception de recommandations, créer une conception, copier une conception
 description: Découvrez comment créer une conception à l [!DNL Target Recommendations] aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 19%
+source-wordcount: 1006
+ht-degree: 23%
 
 ---
 
@@ -48,19 +51,19 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    La boîte de dialogue [!UICONTROL Create Design] s’affiche.
 
-1. Saisissez un **[!UICONTROL &#x200B; Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
+1. Saisissez un **[!UICONTROL  Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
 
    Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » s’affichent dans le champ **[!UICONTROL Content Name]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
 
 1. (Conditionnel) Modifiez le **[!UICONTROL Code]** de conception selon vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions autres qu’HTML sont destinées aux environnements non web où le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
-   >Le nombre maximal d’entités pouvant être référencées dans une conception, que ce soit en dur ou au moyen de boucles, est de 99.
+   >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 
 1. Cliquez sur **[!UICONTROL Create]**.
 
@@ -156,7 +159,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
    | Paramètre | Valeur |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur /help/target/products.html#recsSettings > Jeton API Recommendations > Code client). |
+   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur #recsSettings > Jeton API Recommendations > Code client). |
    | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des Recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
    | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
    | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
@@ -320,4 +323,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une conception personnalisée
 * comprendre comment référencer des variables d’affichage dans vos conceptions ;
 
->[!VIDEO](https://video.tv.adobe.com/v/34832?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

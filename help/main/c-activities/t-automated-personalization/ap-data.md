@@ -2,13 +2,17 @@
 keywords: données environnementales;données de session;données géographiques;données géographiques;données d’appareil;données mobiles;attributs;attributs de profil;algorithmes de personnalisation;algorithmes de machine learning;algorithmes de machine learning
 description: Découvrez les données  [!DNL Adobe Target]  et utilisées pour créer ses algorithmes de machine learning.
 title: Quelles données sont collectées pour créer des algorithmes de machine learning ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: fe6a7addd3854c430798fc339741c9ae6a4efc7d
+TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1958'
-ht-degree: 51%
+source-wordcount: 1986
+ht-degree: 50%
 
 ---
 
@@ -38,10 +42,10 @@ Le tableau suivant présente les données fournies par le client collectées par
 | --- | --- | --- | --- |
 | Paramètres de page | BOX | Paramètres de page personnalisés (« paramètres mbox ») transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [nom du paramètre] |
 | profil [!DNL Target] | PRO | Les attributs de profil personnalisés sont directement chargés vers le profil [!DNL Target] via l’API ou le paramètre de page, ainsi que des scripts de profil [!DNL Target]. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
-| Attributs du client | CRS | Attributs du client chargés dans le profil [!DNL Target] via l’[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=fr){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
+| Attributs du client | CRS | Attributs du client chargés dans le profil [!DNL Target] via l’[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
 | paramètres d’URL | URL | URL et tout paramètre d’URL pour la page actuellement consultée. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
 | URL de référence | RÉF | l’URL de référence et les paramètres d’URL correspondants ; | Personnalisé - [Paramètre d’URL de référence] - [Valeur du paramètre] |
-| [!DNL Adobe Experience Cloud] des audiences partagées | AAM | Toutes les audiences partagées avec des [!DNL Target] d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via l’[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=fr){target=_blank} ). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
+| [!DNL Adobe Experience Cloud] des audiences partagées | AAM | Toutes les audiences partagées avec des [!DNL Target] d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via l’[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} ). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
 | [!DNL Adobe Experience Platform Real-time CDP] des audiences | UPS | Audiences de Platform Real-time CDP partagées avec [!DNL Target] via [!UICONTROL Destinations]. |  |
 
 
@@ -49,7 +53,7 @@ Le tableau suivant présente les données fournies par le client collectées par
 
 Les fonctionnalités peuvent être bloquées à partir [!DNL Target] algorithmes de machine learning , qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
 
-Placer sur la liste bloquée Pour plus d’informations, consultez [Présentation de l’API Modèles (pour en savoir plus)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=fr){target=_blank} dans le Guide du développeur *[!DNL Adobe Target].*.
+Pour plus d’informations, consultez [Présentation de l’API Modèles (pour en savoir plus)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le Guide du développeur *[!DNL Adobe Target].*.
 
 ## Appareil et données mobiles {#device-mobile}
 

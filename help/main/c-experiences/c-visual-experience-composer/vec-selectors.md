@@ -4,10 +4,13 @@ description: Un sélecteur d’éléments est une expression CSS qui peut identi
 title: Puis-je utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 31%
+source-wordcount: 444
+ht-degree: 29%
 
 ---
 
@@ -25,7 +28,7 @@ Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élém
 
 >[!NOTE]
 >
->Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] et [!UICONTROL &#x200B; Multivariate Test].
+>Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] et [!UICONTROL  Multivariate Test].
 
 Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

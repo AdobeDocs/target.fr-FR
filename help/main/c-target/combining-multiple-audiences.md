@@ -4,10 +4,14 @@ description: Découvrez comment combiner plusieurs audiences (y compris les audi
 title: Puis-je combiner plusieurs audiences pour créer une nouvelle audience ?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/Y46Mlx-YgD1-N5U9tC4stYJeS0SfOpTJ87TAhTrSPQc
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 38%
+source-wordcount: 903
+ht-degree: 37%
 
 ---
 
@@ -17,7 +21,7 @@ Combinez plusieurs audiences (notamment des audiences [!DNL Adobe Experience Clo
 
 >[!NOTE]
 >
->La source [!DNL Adobe Experience Platform] est disponible pour tous les clients [!DNL Target] utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}. Les audiences disponibles à partir du [!DNL Adobe Experience Platform] peuvent être utilisées telles quelles ou combinées avec des audiences existantes, comme expliqué dans cette rubrique.
+>La source [!DNL Adobe Experience Platform] est disponible pour tous les clients [!DNL Target] utilisant le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Les audiences disponibles à partir du [!DNL Adobe Experience Platform] peuvent être utilisées telles quelles ou combinées avec des audiences existantes, comme expliqué dans cette rubrique.
 >
 >Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

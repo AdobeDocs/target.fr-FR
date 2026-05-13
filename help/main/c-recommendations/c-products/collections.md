@@ -2,19 +2,22 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser des collections de produits ou d’éléments dans  [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
+TQID: https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 28%
 
 ---
 
 # Collections
 
-Une collection est un ensemble de produits ou d’éléments éligibles à une recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments qui doivent en faire partie.
+Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments qui doivent en faire partie.
 
 Généralement, une collection est un ensemble d’éléments similaires ou associés, par exemple une collection de produits uniques. Cependant, vous pouvez regrouper n’importe quels éléments dans une catégorie qui est logique pour votre entreprise, tels que les produits d’une certaine plage de prix ou d’une certaine couleur ou les éléments susceptibles d’intéresser une zone géographique particulière.
 
@@ -44,7 +47,7 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
    La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Create Collection] . Vous pouvez également modifier, copier et supprimer des collections existantes en cliquant sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de la collection souhaitée, puis en cliquant sur l’option souhaitée.
 
-   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque collection dans la vue Liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les Recommendations par défaut configurées [groupe hôte](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Create Collection]**.
 

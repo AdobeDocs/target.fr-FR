@@ -4,10 +4,15 @@ description: Affichez une liste de différents profils, variables et paramètres
 title: Dans quels profils, variables et paramètres est-il utilisé  [!DNL Target] ?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/YMF4eXnu758kloK--c2mBzP-rwLBNRO2jLoV6s-P5JM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 67%
+source-wordcount: 699
+ht-degree: 59%
 
 ---
 
@@ -30,7 +35,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.browser | L’agent-utilisateur |
 | user.browserType | Renvoie le type de navigateur, par exemple, Safari, Chrome, etc. |
 | user.header | Tous les profils `user.header` sont intégrés à partir des données de l’en-tête de la requête de mbox. |
-| user.header(&#39;x-forwarded-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez obtenir ceci de plusieurs façons, par exemple [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), qui commence par 10., 192.168. ou 172.<br>Remarque : user.header(’x-cluster-client-ip’) a été abandonné. |
+| user.header(&#39;x-forwarded-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez obtenir ceci de plusieurs façons, par exemple [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), commençant par 10., 192.168. ou 172.<br>Remarque : user.header(&#39;x-cluster-client-ip&#39;) a été abandonné. |
 | user.header(&#39;host&#39;) | Nom d’hôte du site web |
 | user.header(&#39;cookie&#39;) | Données de cookie du visiteur |
 | user.header(&#39;user-agent&#39;) | Agent-utilisateur du navigateur des visiteurs |
@@ -45,7 +50,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Fait également référence à des profils « système » tels que la géolocalisation, le nombre de visites, etc. |
 | profile.get(&#39;param_name&#39;) | La méthode profile.get(&#39;param_name&#39;) est le moyen correct d&#39;obtenir un paramètre de profil à utiliser dans un script de profil. |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile. prefix. |
+| profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile.   |
 | profile.browserTime | L’heure du navigateur local du visiteur. Pour l’heure du système, créez un nouvel objet de date dans le script du profil. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -85,10 +90,10 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | mbox.param(&#39;param_name&#39;) |  |
 | Paramètres automatiquement transmis avec chaque requête :<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |  |
 | Paramètres transmis avec les mbox de commande :<ul><li>mbox.param(&#39;orderId’)</li><li>mbox.param(&#39;orderTotal’)</li><li>mbox.param(&#39;productPurchasedId’)</li></ul> |  |
-| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations via les API de profil et [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr){target=_blank}. |
+| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations via les API de profil et [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}. |
 | mboxPageValue | Dans chaque appel de mbox, une valeur est attribuée à la page. |
 | mboxDebug | Utilisée uniquement pour les informations de débogage. Ajout à l’URL de la page où at.js le recherche. |
-| mboxOverride.browserIp | Définit un autre lieu géographique que le lieu actuel afin que vous puissiez tester à quoi ressemblerait un élément particulier dans un autre lieu.<br>**Remarque :** les paramètres mboxOverride doivent être utilisés pour tester l’activité et non en production. L’utilisation de tout paramètre mboxOverride peut entraîner des incohérences avec la création de rapports lors de l’utilisation d’[Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilisez le [mode AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) pour vous assurer que l’activité fonctionne comme prévu avant de la transférer dans votre environnement de production. |
+| mboxOverride.browserIp | Définit une zone géographique différente de l’emplacement réel afin que vous puissiez tester l’aspect d’un élément dans un autre emplacement.<br>**Remarque :** l’utilisation des paramètres mboxOverride doit être utilisée uniquement lors du test de l’activité, et non en production. L’utilisation de tout paramètre mboxOverride peut entraîner des incohérences avec la création de rapports lors de l’utilisation d’[Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilisez le [mode AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) pour vous assurer que l’activité fonctionne comme prévu avant de la transférer dans votre environnement de production. |
 
 ## Attributs du client {#section_62B4821EB6564FF4A14159A837AD4EDB}
 

@@ -4,10 +4,15 @@ description: Vous avez créé votre première activité dans Adobe Target. Quell
 title: Où trouver des ressources supplémentaires pour utiliser Target plus efficacement ?
 feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+TQID: https://experienceleague.adobe.com/gnPAfU7eUX1v-Ku2KYzbn4l1SNqdLLtwcnpbVbiyrQM
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 78%
+source-wordcount: 698
+ht-degree: 79%
 
 ---
 
@@ -32,7 +37,7 @@ Nous avons compilé une liste organisée d’informations utiles pour vous aider
 * **Tutoriels Adobe Target** : apprenez les bases ou perfectionnez vos compétences. Consultez la [page Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr).
 * **Formation à la demande Adobe Target** : explorez les différents cours Target que nous proposons. Consultez la page [Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK).
 * **Vidéos Adobe Target :** regardez l’intégralité des vidéos [!DNL Target] pour découvrir des exemples de réussite et les fonctionnalités des solutions. Consultez [Vidéos de formation pour Adobe Target Standard et Premium](/help/main/c-intro/target-standard-premium-training-videos.md).
-* **Série de webinaires** : bases d’Adobe Target. Participez à notre série de webinaires sur la réussite des clients et découvrez les bases de l’optimisation pour les utilisateurs d’Adobe Target. Consultez [Série de webinaires sur les bases de Target](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
+* **Série de webinaires** : bases d’Adobe Target. Participez à notre série de webinaires sur le succès client et découvrez les bases de l’optimisation pour les personnes qui utilisent Adobe Target. Consultez [Série de webinaires sur les bases de Target](/help/main/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Office Hours de l’assistance clientèle d’Adobe** : « Office Hours » est une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Ces sessions sont conçues pour informer les participants des problèmes et les aider à les résoudre. Elles fournissent également des conseils et des astuces pour bien utiliser les solutions [!DNL Adobe Experience Cloud], y compris [!DNL Target]. Consultez [Office Hours de l’assistance clientèle d’Adobe](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit** : participez au plus grand événement professionnel de l’année pour les spécialistes du marketing numérique.
    * [Adobe Summit](https://summit.adobe.com/na/) (Amérique du Nord)
@@ -42,6 +47,6 @@ Nous avons compilé une liste organisée d’informations utiles pour vous aider
 
 * **Page d’accueil Adobe Target** : la page d’accueil d’[!DNL Adobe Target]. Découvrez nos fonctionnalités et consultez nos derniers exemples de réussite ici. Consultez [Adobe Target](https://www.adobe.com/fr/marketing/target.html).
 * **Le blog** : suivez les dernières nouvelles et obtenez des conseils et des témoignages de clients sur le [blog Target](https://blog.adobe.com/en/topics/target).
-* **Experience League** : découvrez les guides, événements et formations nécessaires au lancement de votre activité axée sur l’expérience, rejoignez la communauté Target et trouvez les réponses que vous recherchez. Consultez la [page d’accueil d’Adobe Experience League](https://experienceleague.adobe.com/fr?lang=fr#home).
+* **** : découvrez les guides, événements et formations nécessaires au lancement de votre activité axée sur l’expérience, rejoignez la communauté Target et trouvez les réponses que vous recherchez. Consultez la [page d’accueil d’Adobe Experience League](https://experienceleague.adobe.com/?lang=fr#home).
 * **Certification Adobe Target** : obtenez le statut Adobe Certified Expert avec les nouveaux examens d’Adobe Target. Planifiez un examen ou des cours de formation ici. Consultez [Formation et certification](/help/main/c-intro/training-and-certification.md).
 * **Notes de mise à jour d’Adobe Target** : informations sur les fonctionnalités, les améliorations et les correctifs de chaque version de [!DNL Target Standard] et [!DNL Target Premium]. En outre, des notes de mise à jour sur les API, les SDK et la bibliothèque JavaScript (at.js) de Target et d’autres modifications de plateforme sont également incluses, le cas échéant. Consultez [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md).

@@ -1,13 +1,16 @@
 ---
 keywords: recommendations
-description: Obtenez des informations sur les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente des utilisateurs et utilisatrices.
+description: Obtenez des informations sur les activités Recommendations dans  [!DNL Target] qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente des utilisateurs et utilisatrices.
 title: Où Puis-Je Trouver Des Informations Sur Les Activités Recommendations ?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+TQID: https://experienceleague.adobe.com/LwiP0qW5PgOULjotz6ScScBmyHvmDKp8SdJytGWZogs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 32%
+source-wordcount: 81
+ht-degree: 33%
 
 ---
 

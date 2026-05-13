@@ -2,12 +2,16 @@
 keywords: source de données comportementales;analytics;recommandations;critères;variables de produit
 description: Découvrez comment utiliser comme source  [!DNL Adobe Analytics]  données comportementales dans  [!DNL Target Recommendations].
 title: Comment puis-je utiliser  [!DNL Adobe Analytics]  avec  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+TQID: https://experienceleague.adobe.com/2ryixOT-YoKjDlMbqs8g2DJElNVmlCUFhbdZzpfSnNs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: 778
 ht-degree: 0%
 
 ---
@@ -47,7 +51,7 @@ Un [!DNL Target Recommendations] exemple de format de flux sert de guide sur leq
 >
 >S’il s’agit d’un site de contenu, les éléments de contenu respectifs doivent être traités comme des « produits » et les attributs associés à ce contenu doivent être transmis en tant qu’attributs. Ces attributs peuvent inclure le nom de l’auteur, la date de publication, le titre du contenu, le mois de publication, etc. La granularité du niveau de catégorie, ou des types de catégorie, doit être décidée par l’entreprise en fonction des exigences du cas d’utilisation.
 
-Pour plus d’informations sur la configuration des variables de produit, voir [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=fr) dans le guide *Implémentation d’Adobe Analytics*. Certaines des notes de cette documentation nécessitent la discrétion de l’équipe qui la déploie (exemple : Catégorie). Il est toujours conseillé de consulter [!DNL Adobe] avant d’effectuer cette activité.
+Pour plus d’informations sur la configuration des variables de produit, voir [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) dans le guide *Implémentation d’Adobe Analytics*. Certaines des notes de cette documentation nécessitent la discrétion de l’équipe qui la déploie (exemple : Catégorie). Il est toujours conseillé de consulter [!DNL Adobe] avant d’effectuer cette activité.
 
 ### Considérations
 

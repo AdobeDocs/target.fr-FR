@@ -2,12 +2,16 @@
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
 description: Découvrez comment différents segments définis par les modèles  [!DNL Target]  personnalisation d’Adobe répondent aux offres/expériences dans l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
+TQID: https://experienceleague.adobe.com/ZC68Nd--YErTUrEfPs3GOVUsG03-QiTjos81TPRr2Yg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2066'
+source-wordcount: 2111
 ht-degree: 60%
 
 ---
@@ -40,7 +44,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Cliquez sur **[!UICONTROL Reports]**.
 
-   Le rapport [Résumé Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche, et fournit des informations sur les performances de vos activités, représentées par l’icône du premier écran. Les deux icônes supplémentaires représentent les deux rapports [!UICONTROL Personalization Insights] : **[!UICONTROL Automated Segments]** ( ![rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) et **[!UICONTROL Important Attributes]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ). Le ciblage automatique comporte une icône de graphique supplémentaire pour la vue graphique du rapport [!UICONTROL Summary].
+   Le rapport [Résumé ](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche, et fournit des informations sur les performances de vos activités, représentées par l’icône du premier écran. Les deux icônes supplémentaires représentent les deux rapports [!UICONTROL Personalization Insights] : **[!UICONTROL Automated Segments]** ( ![rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) et **[!UICONTROL Important Attributes]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ). Le ciblage automatique comporte une icône de graphique supplémentaire pour la vue graphique du rapport [!UICONTROL Summary].
 
    >[!IMPORTANT]
    >
@@ -110,7 +114,7 @@ Un « segment automatisé » est semblable à une audience, mais est défini p
 
 Un segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques. Voir l’étape 5 ci-dessus pour obtenir des exemples de segment automatisé. Les segments peuvent se chevaucher.
 
-Pour en savoir plus sur l’algorithme de personnalisation de forêt aléatoire, qui constitue la base des modèles de personnalisation de Target, voir [&#x200B; Algorithme de forêt aléatoire &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
+Pour en savoir plus sur l’algorithme de personnalisation de forêt aléatoire, qui constitue la base des modèles de personnalisation de Target, voir [ Algorithme de forêt aléatoire ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **Qu’est-ce qui décide de l’ordre des segments automatisés ?**
 

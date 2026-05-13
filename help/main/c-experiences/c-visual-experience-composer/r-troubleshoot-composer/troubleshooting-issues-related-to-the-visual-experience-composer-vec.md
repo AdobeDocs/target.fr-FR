@@ -4,18 +4,23 @@ description: Découvrez comment résoudre les problèmes du [!UICONTROL Visual E
 title: Comment résoudre les problèmes liés à l’[!UICONTROL Visual Experience Composer] ?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ef5df0ae37ca1d07c0e51c06ed78739b2d2983fc
+TQID: https://experienceleague.adobe.com/VNkydzzU-WRRAL0pqQPOs-sKrY8a6DS5Go764UGh0Hs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 24%
+source-wordcount: 1042
+ht-degree: 26%
 
 ---
 
 # Résolution des problèmes liés à l’[!UICONTROL Visual Experience Composer]
 
-Dans certaines conditions, des problèmes d’affichage surviennent parfois dans le [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC).
+Dans certaines conditions, des problèmes d’affichage surviennent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC).
 
-## Lorsque j’ouvre mon site web dans le [!UICONTROL Visual Experience Composer], les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Lorsque j’ouvre mon site web dans le [!UICONTROL Visual Experience Composer], les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 +++Détails
 [!DNL Target] ajoute deux paramètres (`mboxEdit=1` et `mboxDisable=1`) lors de l’ouverture du site web dans le [!UICONTROL Visual Experience Composer].
@@ -26,7 +31,7 @@ Pour éviter ce problème, assurez-vous de ne pas supprimer ces deux paramètres
 
 +++
 
-## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Détails
 Plusieurs problèmes peuvent affecter les performances des pages dans les compositeurs d’expérience [!UICONTROL Target]. Les problèmes courants sont les suivants :
@@ -47,7 +52,7 @@ Si ni le [!UICONTROL Visual Experience Composer] ni le [!UICONTROL Enhanced Expe
 
 >[!NOTE]
 >
->En plus des informations suivantes, vous pouvez utiliser l’extension [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) par [!DNL Google Chrome].
+>En plus des informations suivantes, vous pouvez utiliser l’extension ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) par [!DNL Google Chrome].[[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]
 
 >[!NOTE]
 >
@@ -104,7 +109,7 @@ Si ni le [!UICONTROL Visual Experience Composer] ni le [!UICONTROL Enhanced Expe
 1. Cliquez sur **[!UICONTROL Add]**.
 1. Cliquez sur **[!UICONTROL Start]**.
 
-![Extension Firefox &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
+![Extension Firefox ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
 Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent maintenant se charger dans le [!UICONTROL Visual Experience Composer], même si le [!UICONTROL Enhanced Experience Composer] est désactivé.
 
@@ -145,7 +150,7 @@ Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent m
 
 +++
 
-## Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode [!UICONTROL Browse]. (Compositeur d’expérience visuelle uniquement)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode [!UICONTROL Browse]. (Compositeur d’expérience visuelle uniquement) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Détails
 Lors de l’utilisation du mode [!UICONTROL Browse], si vous accédez à une URL pour laquelle aucune bibliothèque [!DNL Target] n’est implémentée ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=fr){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}) ou qui contient un en-tête frame-buster, le compositeur d’expérience visuelle semble endommagé. En raison de problèmes de sécurité du navigateur, [!DNL Target] ne pouvez pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du compositeur d’expérience visuelle n’est pas mise à jour de manière cohérente si la page se charge.

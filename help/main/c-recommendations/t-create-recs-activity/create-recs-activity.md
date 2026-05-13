@@ -2,19 +2,23 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser le  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) pour créer une  [!DNL Recommendations] .
 title: Comment créer une activité  [!DNL Recommendations]  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 32b3a93b30c6ca6f7576be5dbb25b476167b33b7
+TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: 1218
 ht-degree: 51%
 
 ---
 
 # Création d’une activité [!DNL Recommendations]
 
-Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
+Utilisez le [!UICONTROL Visual Experience Composer] d’[!DNL Target] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
 
 1. Cliquez sur **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
@@ -77,7 +81,7 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Toutefois, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon les paramètres de Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -97,7 +101,7 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
    ![Boîte de dialogue Sélection d’une conception](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
-   Chaque conception affiche une représentation graphique de l’apparence qu’elle aura ainsi que des icônes qui montrent le nombre de vos activités actives et inactives qui utilisent cette conception.
+   Chaque conception affiche une représentation graphique de l’apparence qu’elle aura, ainsi que des icônes qui montrent le nombre de vos activités actives et inactives qui utilisent cette conception.
 
    * Pour sélectionner une ou plusieurs conceptions existantes, cliquez sur les conceptions, puis sur **[!UICONTROL Next]**.
 
@@ -178,4 +182,4 @@ Utilisez le [!DNL Target] d’[!UICONTROL Visual Experience Composer] (VEC) pour
 
 ## Vidéo de formation : créer une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

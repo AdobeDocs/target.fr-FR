@@ -4,9 +4,13 @@ description: Découvrez comment créer des offres de redirection pour guider fac
 title: Comment Créer Des Offres De Redirection ?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e42173fb4fe48e1ba74daaa8bae37da5799f9dc7
+TQID: https://experienceleague.adobe.com/-kFkgCCbzb34aNAxW-Q1CqmyK9rETL0qVMQeEP9JtrY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: 1094
 ht-degree: 23%
 
 ---
@@ -19,7 +23,7 @@ Vous pouvez avoir deux pages complètement différentes à tester au lieu de mod
 
 >[!NOTE]
 >
-> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
+> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
 >
 >* Vous ne pouvez pas utiliser d’offres de redirection dans les mbox AJAX (`mboxUpdate`).
 >
@@ -41,7 +45,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    Un nom descriptif vous permet, ainsi qu’à d’autres personnes, de trouver rapidement l’offre dans la bibliothèque [!UICONTROL Assets].
 
-1. (Conditionnel) Si vous disposez d’un compte [Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez l’URL du contenu ou de la destination unique vers lequel vous souhaitez rediriger. Cette URL doit être absolue.
 
@@ -100,7 +104,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 Appliquez des offres de redirection à l’aide de l’[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) . Vous ne pouvez actuellement pas appliquer d’offres de redirection à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
 
-Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres de redirection.
+Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres de redirection.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Form-Based Experience Composer].
 

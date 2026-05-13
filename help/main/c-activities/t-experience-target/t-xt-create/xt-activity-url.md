@@ -4,10 +4,13 @@ description: Découvrez comment spécifier la [!UICONTROL Activity URL] qui dét
 title: Quel est le [!UICONTROL Activity URL] d’une activité [!UICONTROL Experience Targeting] (XT) ?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 38%
+source-wordcount: 268
+ht-degree: 37%
 
 ---
 
@@ -23,7 +26,7 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
    >
    >Par défaut, le compositeur d’expérience visuelle ou le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
    >
-   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
+   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
 
 1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configure]**, sélectionnez **[!UICONTROL Page Delivery]**, puis spécifiez l’URL dans le champ [!UICONTROL URL] .
 

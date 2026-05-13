@@ -4,10 +4,15 @@ description: Apprenez les bases d’Adobe Target. Cet article vous présente Ta
 title: Comment utiliser Target ?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
+TQID: https://experienceleague.adobe.com/l4bZ9esCTiZNakTrNp89n5mAeFci5dp0HCLZYV-GleA
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+subfeature_v2: id: b077c1f1-7e5f-4dbf-a193-70e9fe784bb2id: b6f5758b-84f7-4943-8b05-1297a046943cid: c2923fce-066f-4e68-bc28-ac56b57ccb5cid: ca2e0bf6-f9f8-4b6b-a630-a3c4b1455817id: db15a02f-03cd-46fe-a53e-02064cdeadfaid: e73b329c-f712-4a22-abe7-bfbf3be6d0f9id: ed58f4a1-16eb-4c8c-b505-be9da766a9ecid: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 97%
+source-wordcount: 1538
+ht-degree: 84%
 
 ---
 
@@ -27,14 +32,14 @@ Target comprend plusieurs types d’activité. Le tableau suivant présente un a
 
 | Type d’activité | Description |
 |--- |--- |
-| [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de test A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités d’affectation automatique](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
-| [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Le ciblage automatique utilise l’apprentissage automatique (machine learning) avancé pour identifier plusieurs expériences à hautes performances définies par les marketeurs. Les activités de ciblage automatique proposent à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents présentant des profils similaires, et ce, afin de personnaliser le contenu et de générer des conversions.<br>**Remarque** : vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) | Les tests A/B comparent plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de test A/B](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités d’affectation automatique](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | Le ciblage automatique utilise l’apprentissage automatique (machine learning) avancé pour identifier plusieurs expériences à hautes performances définies par les marketeurs. Les activités de ciblage automatique proposent à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents présentant des profils similaires, afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Utilisation des données Analytics](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Vous pouvez configurer une activité pour utiliser [!DNL Adobe Analytics] en tant que source de création de rapports. Ce type d’activité requiert que vous liiez votre compte [!DNL Adobe Experience Cloud] avec [!DNL Analytics] et [!DNL Target]. |
 | [Test multivarié](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | Multivariate Testing (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité. |
-| [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) | Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage d’expérience](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
+| [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) | Le ciblage d’expérience (XT) diffuse du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par les spécialistes marketing.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage d’expérience](/help/main/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/main/c-intro/intro.md#premium). |
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | Automated Personalization (AP) associe des offres ou des messages et utilise le machine learning avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions. |
-| [Recommandations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Une recommandation détermine comment un produit est proposé à l’utilisateur d’un site web, en fonction de ses activités sur le site.<br>Par exemple, vous pouvez encourager les personnes qui achètent un sac à dos à envisager l’achat de chaussures et de bâtons de randonnée. Vous pouvez créer une recommandation qui affiche les éléments qui sont souvent achetés ensemble à l’aide de l’algorithme « Les personnes qui ont acheté ceci ont également acheté ». Ou, vous souhaitez peut-être encourager les visiteurs à passer plus de temps sur votre site multimédia en recommandant une vidéo similaire à celle qu’ils regardent, à l’aide de l’algorithme « Les personnes qui ont regardé cette vidéo ont également regardé ».<br>**Remarque :** vous pouvez désormais inclure des recommandations dans les activités de test A/B (dont l’affectation automatique et le ciblage automatique) et de ciblage d’expérience.  [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md). |
+| [Recommandations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | Une recommandation détermine comment un produit est proposé à l’utilisateur d’un site web, en fonction de ses activités sur le site.<br>Par exemple, vous pouvez encourager les personnes qui achètent un sac à dos à envisager l’achat de chaussures et de bâtons de randonnée. Vous pouvez créer une recommandation qui affiche les éléments qui sont souvent achetés ensemble à l’aide de l’algorithme « Les personnes qui ont acheté ceci ont également acheté ». Vous pouvez également encourager les visiteurs à passer plus de temps sur votre site de médias en recommandant une vidéo similaire à celle qu’ils regardent, à l’aide de l’algorithme « Personnes qui ont consulté ceci ».<br>**Remarque :** vous pouvez désormais inclure des recommandations dans les tests A/B (y compris les activités d’affectation automatique et de ciblage automatique) et les activités de ciblage d’expérience (XT). [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Emplacements {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -63,7 +68,7 @@ Une expérience peut également être une conception de page différente. Par ex
 
 [!DNL Target] optimise les expériences de chacun de vos visiteurs à travers vos points de contact numériques et de tester différentes expériences pour déterminer celle qui sera la plus réussie. En planifiant soigneusement le ciblage d’expérience, vous pouvez vous assurer que les visiteurs de votre site voient les offres les plus pertinentes aux emplacements appropriés de la page, améliorant ainsi vos chances de succès.
 
-## Offres  {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
+## Offres {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
 Une offre est le contenu affiché sur vos pages web lors des campagnes ou activités.
 
@@ -115,7 +120,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilisation des audiences dans Adobe Target (6:21) ![Badge d’aperçu](/help/main/assets/overview.png)
 
@@ -127,4 +132,4 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

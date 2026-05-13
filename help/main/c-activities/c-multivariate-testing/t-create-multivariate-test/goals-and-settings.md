@@ -4,9 +4,13 @@ description: Découvrez comment utiliser la page [!UICONTROL Goals & Settings] d
 title: Comment spécifier des objectifs et des paramètres dans une activité [!UICONTROL Multivariate Test] (MVT) ?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: 1170
 ht-degree: 39%
 
 ---
@@ -104,7 +108,7 @@ Ce paramètre n’est pas disponible si la solution de création de rapports est
 
 Par défaut, les rapports présentent les résultats pour tous les visiteurs qualifiés. Vous pouvez ajouter des audiences aux rapports pour afficher uniquement les informations sur des audiences spécifiques.
 
-### Paramètres avancés  {#section_E2FE441AFB324E498793ABB025ED9974}
+### Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL Multivariate Test].
 
@@ -178,4 +182,4 @@ Cette vidéo explique comment créer un test multivarié à l’aide du workflow
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

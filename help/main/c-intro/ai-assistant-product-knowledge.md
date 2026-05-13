@@ -4,10 +4,15 @@ description: Découvrez comment acquérir  [!DNL Target]  connaissances sur les 
 title: Comment utiliser l’in [!DNL AI Assistant] in [!DNL Target] pour acquérir des connaissances sur le produit ?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 1615dcf80643a1391a3b1fbad8e8378ff2785fd3
+TQID: https://experienceleague.adobe.com/C4O-4iorggYJHyg0MMtEb-n-v0-DtetiMtcDp-GWDWQ
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 6%
+source-wordcount: 315
+ht-degree: 1%
 
 ---
 
@@ -52,7 +57,7 @@ Pour accéder au [!DNL AI Assistant] de connaissances sur les produits :
 
    >[!IMPORTANT]
    >
-   >Les réponses de l’IA peuvent être inexactes ou trompeuses. Assurez-vous de vérifier les réponses et les sources.
+   >Les réponses générées par l&#39;IA peuvent être inexactes ou trompeuses. Veillez à vérifier les réponses et les sources.
 
 1. (Facultatif) Faites-nous part de vos commentaires à [!DNL AI Assistant].
 
@@ -66,10 +71,10 @@ Pour accéder au [!DNL AI Assistant] de connaissances sur les produits :
 
 En savoir plus sur les applications [!DNL Adobe Experience Platform] de [!DNL AI Assistant].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441026/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### Valider les réponses de l’assistant AI
 
 Découvrez comment vérifier et valider les réponses fournies par [!DNL AI Assistant] dans [!DNL Adobe Experience Platform].
 
->[!VIDEO](https://video.tv.adobe.com/v/3441740/?learn=on&#x26;enablevpops&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

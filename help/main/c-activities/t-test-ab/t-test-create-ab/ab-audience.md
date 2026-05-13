@@ -1,13 +1,17 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: Définissez les visiteurs et visiteuses du site qui rejoignent votre activité Adobe [!DNL Target] en fonction des critères d’audience.
+description: Définissez les visiteurs et visiteuses du site qui rejoignent votre activité  [!DNL Target] en fonction des critères d’audience.
 title: Comment sélectionner une audience dans une activité a [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
+TQID: https://experienceleague.adobe.com/7W8BrRxk4mKlYlgGb-GSOuc0kRMRWBvSochz9STYrTs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 8%
+source-wordcount: 531
+ht-degree: 11%
 
 ---
 
@@ -64,4 +68,4 @@ Pour plus d’informations sur toutes les options du diagramme de flux, voir [Cr
 
 Vous pouvez modifier ou copier une audience en cliquant sur l’icône [!UICONTROL More Actions] ( ![icône Autres actions](/help/main/assets/icons/More.svg) ) à côté de l’audience souhaitée dans la boîte de dialogue [!UICONTROL Add Audience], puis en cliquant sur [!UICONTROL Edit] ou [!UICONTROL Copy].
 
-La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, apporter vos modifications, puis l’enregistrer en tant que nouvelle audience.
+La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience.

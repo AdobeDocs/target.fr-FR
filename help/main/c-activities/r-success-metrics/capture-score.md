@@ -1,13 +1,16 @@
 ---
 keywords: score de capture, score
-description: Découvrez la mesure d’engagement Capture Score dans Adobe [!DNL Target] qui calcule un score agrégé en fonction de la valeur affectée aux pages visitées sur le site.
+description: Découvrez la mesure d’engagement Capture Score dans  [!DNL Target] qui calcule un score agrégé en fonction de la valeur affectée aux pages visitées sur le site.
 title: Qu’est-ce que la mesure Score de capture ?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+TQID: https://experienceleague.adobe.com/iqCPEY9x7Lg9TlAhxn8e-B1XOnUfNgUWFdOf8Bw2F3w
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 48%
+source-wordcount: 777
+ht-degree: 44%
 
 ---
 
@@ -21,7 +24,7 @@ L’exemple suivant illustre le mode de calcul de la note dans une campagne qui 
 
 Dans cet exemple, le premier visiteur teste l’expérience Chat. Supposons qu’une demande de [!DNL Target] globale réussisse dans un score de page basé sur la valeur de la page. Si le spécialiste marketing a capturé l’engagement du nombre de pages sur une mesure de succès associée à `**any Target request**`, le score de visite s’accumule pour toute demande affichée après la demande d’affichage autour de l’image de chat.
 
-La première page ajoute 1 au score, la deuxième page 0,25, la troisième et la quatrième 0,10 chacune, soit un total de 1;45. Ce chiffre peut être interprété comme une monnaie ou un nombre de points. Lors d’une autre visite, un visiteur accède à l’expérience Chien et même s’il voit moins de pages, la note est de 2,10 (elle est supérieure à la visite précédente car le visiteur a vu des pages ayant plus de valeur).
+La première page ajoute 1 au score, la deuxième page 0,25, la troisième 0,10 et la quatrième 0,10 pour un total de 1,45. Cela peut être interprété comme une devise ou des points. Lors d’une autre visite, un visiteur accède à l’expérience Chien et même s’il voit moins de pages, la note est de 2,10 (elle est supérieure à la visite précédente car le visiteur a vu des pages ayant plus de valeur).
 
 Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notez que, dans cet exemple, les deux requêtes [!DNL Target] sur la page d’article transmettent un score, représentant peut-être un CPM connu.
 

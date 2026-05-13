@@ -4,16 +4,21 @@ description: Découvrez les bonnes pratiques pour que vos expériences fonctionn
 title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 8c62a0e976ce075d07e1f80018c7ad7fac240eea
+TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 50%
+source-wordcount: 2462
+ht-degree: 49%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] des bonnes pratiques et des limites
 
-Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
+Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
 
 ## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -38,7 +43,7 @@ Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau de l’activ
 ### Vous pouvez placer sur la liste autorisée certaines adresses IP si le [!UICONTROL Enhanced Experience Composer] ne se charge pas sur des pages sécurisées de votre site.
 
 +++Afficher les détails
-Placer sur la liste autorisée Les problèmes de chargement de l’[!UICONTROL Enhanced Experience Composer] peuvent être résolus en GRANT les adresses IP suivantes. Ces adresses IP sont destinées aux serveurs [!DNL Adobe] utilisés pour le proxy [!UICONTROL Enhanced Experience Composer]. Elles ne sont requises que pour la modification des activités. Placer sur la liste autorisée Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
+Les problèmes de chargement de l’[!UICONTROL Enhanced Experience Composer] peuvent être résolus en GRANT les adresses IP suivantes. Ces adresses IP sont destinées aux serveurs [!DNL Adobe] utilisés pour le proxy [!UICONTROL Enhanced Experience Composer]. Elles ne sont requises que pour la modification des activités. Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
 
 Pour plus d’informations, voir [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) dans *Résolution des problèmes liés au Enhanced Experience Composer*.
 
@@ -295,7 +300,7 @@ Si vous utilisez [!UICONTROL Enhanced Experienced Composer] sur un site non acti
 
 +++
 
-## Limites  {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Limites {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 Tenez compte des restrictions suivantes lorsque vous utilisez le compositeur d’expérience visuelle :
 

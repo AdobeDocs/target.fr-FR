@@ -4,9 +4,12 @@ description: Découvrez comment exploiter les offres distantes dans  [!DNL Targe
 title: Comment Créer Des Offres À Distance ?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
+TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: 1040
 ht-degree: 19%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 19%
 
 Utilisez des offres distantes pour héberger du contenu en dehors de [!DNL Adobe Target], ce qui [!DNL Target] permet de référencer et de diffuser ce contenu sur les sites web des utilisateurs et utilisatrices. Ce contenu peut se trouver dans un système de gestion de contenu (CMS) ou un autre système pour des raisons de facilité d’utilisation ou de sécurité.
 
-Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
+Les offres distantes peuvent être créées dans la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL Visual Experience Composer] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
 
 Voici quelques exemples d’offres distantes :
 
@@ -61,7 +64,7 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
    Un nom descriptif vous permet, ainsi qu’à d’autres personnes, de trouver rapidement l’offre dans la bibliothèque [!UICONTROL Offers].
 
-1. (Conditionnel) Si vous disposez d’un compte [Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez le type d’URL de redirection.
 
@@ -82,7 +85,7 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
    Un nom descriptif vous permet, ainsi qu’à d’autres personnes, de trouver rapidement l’offre dans la bibliothèque [!UICONTROL Assets].
 
-1. (Conditionnel) Si vous disposez d’un compte [Target Premium](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez le type d’URL de redirection.
 
@@ -118,7 +121,7 @@ Vous pouvez cliquer sur **[!UICONTROL Add Parameter]** pour ajouter une ou plusi
 
 Appliquez des offres distantes à l’aide de l’[!UICONTROL Form-Based Experience Composer] . Vous ne pouvez actuellement pas appliquer d’offres distantes à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
 
-Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
+Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Form-Based Experience Composer].
 

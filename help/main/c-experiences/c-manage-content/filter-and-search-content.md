@@ -4,9 +4,12 @@ description: Découvrez comment rechercher des offres de code et d’image dans 
 title: Comment rechercher du contenu dans la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 193
 ht-degree: 1%
 
 ---
@@ -35,7 +38,7 @@ Recherche de ressources par mots-clés dans la bibliothèque [!UICONTROL Offers]
 
    Vous pouvez filtrer par :
 
-   * **[!UICONTROL File Type]** :
+   * **[!UICONTROL File Type]**:
       * [!UICONTROL Images]
       * [!UICONTROL Documents]
       * [!UICONTROL Multimedia]
@@ -43,7 +46,7 @@ Recherche de ressources par mots-clés dans la bibliothèque [!UICONTROL Offers]
    * **[!UICONTROL File Size]** : utilisez le curseur pour sélectionner la taille de fichier souhaitée : [!UICONTROL Smallest], [!UICONTROL Small], [!UICONTROL Medium], [!UICONTROL Large] ou [!UICONTROL Largest].
    * **[!UICONTROL Last Modified]** : utilisez le curseur pour sélectionner la période : [!UICONTROL Recent], [!UICONTROL Hour], [!UICONTROL Day], [!UICONTROL Week], [!UICONTROL Month], [!UICONTROL Year] ou [!UICONTROL All Assets].
    * **[!UICONTROL Approval Status]** : [!UICONTROL Approved] ou [!UICONTROL Rejected]
-   * **[!UICONTROL Expiry Status]** : [!UICONTROL Expired].
+   * **[!UICONTROL Expiry Status]**: [!UICONTROL Expired].
    * **[!UICONTROL Average Rating]** : 1 à 5.
    * **[!UICONTROL Orientation]** : [!UICONTROL Horizontal], [!UICONTROL Vertical] ou [!UICONTROL Square].
    * **[!UICONTROL Style]** : [!UICONTROL Color] ou [!UICONTROL Black & White].

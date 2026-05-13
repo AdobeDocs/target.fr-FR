@@ -4,10 +4,14 @@ description: Découvrez comment transmettre des paramètres personnalisés à  [
 title: Puis-je cibler les visiteurs et visiteuses en fonction de paramètres personnalisés ?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+TQID: https://experienceleague.adobe.com/IiMsTLXIYWfd8vXInIfyQtFZ4RDNTe28bPfvqFgi77U
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 38%
+source-wordcount: 497
+ht-degree: 40%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 38%
 
 Les paramètres personnalisés sont des paramètres mbox dans [!DNL Adobe Target]. Si vous transmettez des paramètres de mbox aux mbox ou utilisez la fonction `targetPageParams`, ces paramètres apparaissent ici pour être utilisés dans les audiences.
 
-Pour plus d’informations, voir [&#x200B; Transmettre des paramètres à une mbox globale &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank}.
+Pour plus d’informations, voir [ Transmettre des paramètres à une mbox globale ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=fr){target=_blank}.
 
 Lors de la création d’une audience personnalisée basée sur un paramètre mbox, `mboxParameter` ne vous demande plus le `mboxName`. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 

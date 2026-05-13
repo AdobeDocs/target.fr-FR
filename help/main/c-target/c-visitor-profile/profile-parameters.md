@@ -4,10 +4,14 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 91%
+source-wordcount: 2481
+ht-degree: 90%
 
 ---
 
@@ -180,7 +184,8 @@ Les scripts de profil ne parviennent pas à lire directement la page, car ils so
 
 ## Référence JavaScript pour les paramètres de profil de script
 
-Des connaissances simples en Javascript sont nécessaires pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
+Des connaissances simples en JavaScript sont nécessaires pour utiliser efficacement le profil de script
+paramètres. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
 
 Les paramètres de profil de script se trouvent sous l’onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
 
@@ -272,7 +277,7 @@ Tous les opérateurs JavaScript standard sont présents et utilisables. Les opé
 | `>=` | Même que `>` sauf si les variables sont égales, elles seront évaluées sur vraies. |
 | `&&` | Applique « ET » de manière logique aux expressions à gauche et à droite - est uniquement vrai lorsque les deux côtés sont vrais (faux dans le cas contraire). |
 | `\|\|` | Applique « OU » de manière logique aux expressions à gauche et à droite - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
-| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La fonction prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 \|\| condition2) && condition3`) et d’expressions régulières (`/[^a-z]$/.test(landing.referring.url)`). |
+| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la cible (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 \|\| condition2) && condition3`) et d’expressions régulières (`/[^a-z]$/.test(landing.referring.url)`). |
 
 ## Vidéo de formation : Scripts de profil ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

@@ -3,14 +3,17 @@ keywords: assistant ia;assistant intelligence artificielle;génération de conte
 description: Découvrez comment générer du contenu attrayant avec  [!DNL AI Assistant].
 title: Comment utiliser le  [!DNL AI Assistant]  pour générer  [!DNL Target]  contenu attrayant ?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+TQID: https://experienceleague.adobe.com/a6sdpItjPqp-YDDfYFU0dBj-uAX1fNZ5cGPrc8wylx0
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 1%
+source-wordcount: 777
+ht-degree: 2%
 
 ---
 
@@ -59,7 +62,7 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
    * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL &#x200B; Story Telling] [!UICONTROL Conversational].
+     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL  Story Telling] [!UICONTROL Conversational].
 
 1. Utilisez le curseur pour sélectionner la durée pendant laquelle vous souhaitez que le texte soit long, de plus court à plus long.
 
@@ -100,4 +103,4 @@ L’invite et les variations suivantes montrent la puissance de [!DNL AI Assista
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434637/?captions=fre_fr&learn=on">https://video.tv.adobe.com/v/3434637/?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

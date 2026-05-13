@@ -4,9 +4,14 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version de [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dadf2cf174019c01a205487ccdb9bdf6639d5a9f
+TQID: https://experienceleague.adobe.com/ITCtRvL0t6ZyT-BRkO7oYDq6-D08qoUP6XIQTe9RPKY
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 203
 ht-degree: 80%
 
 ---
@@ -21,7 +26,7 @@ Cet article contient des informations en version préliminaire pour les versions
 >
 >* Les dates de publication, fonctions et autres informations peuvent changer sans préavis. Les informations de cet article sont mises à jour fréquemment, en particulier avant les versions .
 >
->* Pour afficher des informations sur la version actuelle, voir [&#x200B; Notes de mise à jour de Target &#x200B;](release-notes.md).
+>* Pour afficher des informations sur la version actuelle, voir [ Notes de mise à jour de Target ](release-notes.md).
 >
 >* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
