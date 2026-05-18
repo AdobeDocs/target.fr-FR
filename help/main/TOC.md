@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 6bea471b0dcf99a77d3b2350a89bcc069062de19
+source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1320'
 ht-degree: 83%
 
 ---
@@ -58,6 +58,7 @@ ht-degree: 83%
       + [Estimation de l’effet élévateur dans les recettes](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Configuration de Scene7](administrating-target/scene7-settings.md)
    + [Mise en œuvre](/help/main/administrating-target/implementation.md)
+   + {hide-from-toc}[Prémasquage du contenu](administrating-target/content-pre-hiding.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Environnements](/help/main/administrating-target/environments.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
