@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 53dc7056ca62339a682756fe1b39e6af349f3ae6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Les exemples suivants montrent comment interagir avec le serveur MCP [!DNL Adobe
 | **Informations sur l’activité** | « Obtenez des informations pour mon test &#39;Summer Sale Banner&#39; — à quoi ressemble la performance et y a-t-il des anomalies ? » |
 | **Gestion des audiences** | « Répertoriez toutes les audiences ciblant les utilisateurs mobiles et montrez-moi à quelles activités ils sont associés. » |
 | **QA et prévisualisation** | « Générer des URL d’aperçu d’AQ pour les 12345 d’activité afin que je puisse examiner toutes les variantes avant l’activation. » |
-| **Révision des recommandations** | « Répertoriez tous les critères de recommandations configurés dans ce compte et résumez les types d’algorithmes utilisés. » |
-| **Audit de la mise en œuvre** | « Quelle version d’at.js est configurée et quels jetons de réponse sont actuellement actifs ? » |
-| **Modifier l’audit** | « Montrez-moi toutes les modifications apportées aux 98765 d’activité au cours des 30 derniers jours et qui les a effectuées. » |
+<!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
+| **Audit de l’implémentation** | « Quelle version d’at.js est configurée et quels jetons de réponse sont actuellement actifs ? » |
+| **Audit des modifications** | « Afficher toutes les modifications apportées aux 98765 d’activité au cours des 30 derniers jours et qui les a effectuées. » |
 
 ## Cas d’utilisation : présentation {#mcp-use-case-walkthroughs}
 
