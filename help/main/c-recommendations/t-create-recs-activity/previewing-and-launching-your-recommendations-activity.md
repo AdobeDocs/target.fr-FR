@@ -11,10 +11,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 15%
+source-wordcount: 1462
+ht-degree: 14%
 
 ---
 
@@ -97,6 +97,8 @@ De gauche à droite se trouve une liste des éléments recommandés, dans ce cas
 Si un astérisque (*) est la première valeur d’une ligne, il indique [&#x200B; éléments de sauvegarde &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
 
 Pour d’autres types d’algorithmes basés sur une valeur de clé, tels que [!UICONTROL People Who Viewed This, Viewed That], les valeurs de clé (c’est-à-dire les éléments « This ») sont répertoriées dans la colonne la plus à gauche et les éléments recommandés (c’est-à-dire les éléments « That ») sont répertoriés de gauche à droite dans les colonnes Recommendation_X.
+
+Notez que pour les activités avec des jeux de résultats très volumineux, l’option **[!UICONTROL Download data]** peut échouer avec l’erreur `Error while fetching recommendation data file.` Cela se produit lorsque le fichier CSV généré dépasse la taille de réponse qui peut être renvoyée par l’interface utilisateur dans un seul téléchargement.
 
 >[!NOTE]
 >

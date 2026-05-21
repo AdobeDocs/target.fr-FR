@@ -5,9 +5,9 @@ title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1371'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL A/
 
 Après avoir créé une activité, [!DNL Recommendations] exécute un algorithme pour générer des recommandations. L’exécution de cet algorithme peut prendre quelques heures.
 
-Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!DNL Recommendations] d&#39;une activité [!UICONTROL Overview] :
+Vous pouvez vérifier si l’algorithme a fini de s’exécuter dans le diagramme de présentation des [!UICONTROL Activity], où le statut des critères est répertorié. L&#39;illustration suivante présente le statut dans le diagramme d&#39;activité sur la page [!UICONTROL Overview] d&#39;une activité [!DNL Recommendations] :
 
 ![Page Aperçu de l’activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
@@ -91,6 +91,8 @@ De gauche à droite se trouve une liste des éléments recommandés, dans ce cas
 Si un astérisque (*) est la première valeur d’une ligne, il indique [&#x200B; éléments de sauvegarde &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
 
 Pour d’autres types d’algorithmes basés sur une valeur de clé, tels que [!UICONTROL People Who Viewed This, Viewed That], les valeurs de clé (c’est-à-dire les éléments « This ») sont répertoriées dans la colonne la plus à gauche et les éléments recommandés (c’est-à-dire les éléments « That ») sont répertoriés de gauche à droite dans les colonnes Recommendation_X.
+
+Notez que pour les activités avec des jeux de résultats très volumineux, l’option **[!UICONTROL Download data]** peut échouer avec l’erreur `Error while fetching recommendation data file.` Cela se produit lorsque le fichier CSV généré dépasse la taille de réponse qui peut être renvoyée par l’interface utilisateur dans un seul téléchargement.
 
 >[!NOTE]
 >
