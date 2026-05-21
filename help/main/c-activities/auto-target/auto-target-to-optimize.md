@@ -21,9 +21,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1882
+source-wordcount: 1920
 ht-degree: 18%
 
 ---
@@ -62,6 +62,7 @@ Contrairement à une activité A/B dans laquelle l’affectation d’expérience
 
 Voici quelques points importants à garder à l’esprit lors de l’utilisation de [!UICONTROL Auto-Target] :
 
+* Limitez les activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Étant donné que le nombre total d’expériences augmente à partir de la combinaison d’emplacements et d’offres, des configurations plus volumineuses peuvent entraîner un chargement ou une modification lent dans le [!UICONTROL Visual Experience Composer].
 * Vous ne pouvez pas changer une activité spécifique de [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], et inversement.
 * Vous ne pouvez pas passer de l’affectation de trafic [!UICONTROL Manual] ([!UICONTROL A/B Test] classique) à [!UICONTROL Auto-Target], et inversement après l’enregistrement d’une activité en tant que brouillon.
 * Un modèle est conçu pour identifier les performances de la stratégie personnalisée par rapport au trafic diffusé de manière aléatoire par rapport à l’envoi de tout le trafic vers l’expérience gagnante globale. Ce modèle prend uniquement en compte les accès et les conversions dans l’environnement par défaut.
