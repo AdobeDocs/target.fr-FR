@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: dfda53d7efb93ab4cbd980d27b47c0b67ee3e561
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 83%
 
 ---
@@ -61,6 +61,7 @@ ht-degree: 83%
    + {hide-from-toc}[Prémasquage du contenu](administrating-target/content-pre-hiding.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Environnements](/help/main/administrating-target/environments.md)
+   + [URL PLACÉES SUR LA LISTE AUTORISÉE](administrating-target/allowlisted-urls.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
    + Gérer les utilisateurs et les utilisatrices {#manage-users}
       + [Gestion des utilisateurs](administrating-target/c-user-management/user-management.md)
@@ -347,4 +348,4 @@ ht-degree: 83%
    + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
    + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
