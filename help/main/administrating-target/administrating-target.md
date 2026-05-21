@@ -19,16 +19,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 8aac18f48275c8611b69d1e8af3cf599b7e8cea1
 workflow-type: tm+mt
-source-wordcount: 90
-ht-degree: 13%
+source-wordcount: 94
+ht-degree: 12%
 
 ---
 
 # Aperçu de l’administration [!DNL Target]
 
-Informations destinées à vous aider à administrer les [!DNL Adobe Target], notamment les paramètres de configuration du compositeur d’expérience visuelle (VEC), les rapports, la configuration de Scene7, l’implémentation, les hôtes, les environnements, les jetons de réponse, les utilisateurs et les [!DNL Recommendations].
+Informations destinées à vous aider à administrer les [!DNL Adobe Target], notamment les paramètres de configuration du compositeur d’expérience visuelle (VEC), les rapports, la configuration de Scene7, l’implémentation, les hôtes, les environnements, les URL placées sur la liste autorisée, les jetons de réponse, les utilisateurs et les [!DNL Recommendations].
 
 {{permissions-update}}
 
@@ -41,6 +41,7 @@ Pour accéder aux éléments de menu [!UICONTROL Administration], cliquez sur **
 * [Propriétés](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hôtes](/help/main/administrating-target/hosts.md)
 * [Environnements](/help/main/administrating-target/environments.md)
+* [URL PLACÉES SUR LA LISTE AUTORISÉE](/help/main/administrating-target/allowlisted-urls.md)
 * [Jetons de réponse](/help/main/administrating-target/response-tokens.md)
 * [Utilisateurs et utilisatrices](/help/main/administrating-target/c-user-management/user-management.md)
 * [Recommandations](/help/main/administrating-target/recommendations-settings.md)
