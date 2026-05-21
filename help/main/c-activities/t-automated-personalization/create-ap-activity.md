@@ -6,9 +6,17 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
 source-wordcount: 1856
@@ -88,7 +96,7 @@ Définissez le pool de variations de contenu en fonction desquelles [!UICONTROL 
 
 1. Cliquez sur l’icône **[!UICONTROL Manage Content]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour configurer les combinaisons disponibles.
 
-   Une boîte de dialogue s’affiche avec deux onglets : [!UICONTROL Experiences] et [!UICONTROL Offers]. L’onglet [!UICONTROL Experiences] répertorie chaque élément de contenu et l’emplacement auquel il est affecté. Pour exclure une ou plusieurs expériences, cochez les cases correspondantes et cliquez sur l’icône [!UICONTROL Exclude] . Pour plus d’options, voir [ Gestion des exclusions ](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
+   Une boîte de dialogue s’affiche avec deux onglets : [!UICONTROL Experiences] et [!UICONTROL Offers]. L’onglet [!UICONTROL Experiences] répertorie chaque élément de contenu et l’emplacement auquel il est affecté. Pour exclure une ou plusieurs expériences, cochez les cases correspondantes et cliquez sur l’icône [!UICONTROL Exclude] . Pour plus d’options, voir [&#x200B; Gestion des exclusions &#x200B;](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
 
    >[!IMPORTANT]
    >
