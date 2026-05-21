@@ -2,28 +2,17 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment une activité [!UICONTROL Auto-Target] offre l’expérience la plus adaptée à chaque visiteur en fonction des profils client et du comportement de visiteurs similaires.
 title: Qu’est-ce qu’une activité [!UICONTROL Auto-Target] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-subfeature_v2:
-  - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+subfeature_v2: id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: 1920
+source-wordcount: 1962
 ht-degree: 18%
 
 ---
@@ -36,7 +25,7 @@ ht-degree: 18%
 >
 >* [!UICONTROL Auto-Target] est disponible dans le cadre de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/main/c-intro/intro.md).
 >
->* [!UICONTROL Analytics for Target] (A4T) prend en charge les activités [!UICONTROL Auto-Target]. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+>* [!UICONTROL Analytics for Target] (A4T) prend en charge les activités [!UICONTROL Auto-Target]. Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Témoignages de clients qui utilisent le ciblage automatique {#success}
 
@@ -62,7 +51,10 @@ Contrairement à une activité A/B dans laquelle l’affectation d’expérience
 
 Voici quelques points importants à garder à l’esprit lors de l’utilisation de [!UICONTROL Auto-Target] :
 
-* Limitez les activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Étant donné que le nombre total d’expériences augmente à partir de la combinaison d’emplacements et d’offres, des configurations plus volumineuses peuvent entraîner un chargement ou une modification lent dans le [!UICONTROL Visual Experience Composer].
+* Attention à la forme de l&#39;activité. Les performances dépendent davantage du nombre d’emplacements × d’offres que du nombre d’expériences brutes. Les combinaisons cartésiennes volumineuses peuvent ralentir le chargement et la modification dans le [!UICONTROL Visual Experience Composer], même en dessous des limites d’expérience documentées.
+
+  En règle générale, limitez les activités de [!UICONTROL Auto-Target] et de [!UICONTROL Automated Personalization] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Les configurations plus volumineuses ne sont pas recommandées. Comme ces activités sont créées directement à l’étape de [!UICONTROL Experiences], l’interface utilisateur de [!DNL Target] peut afficher des avertissements intégrés ou bloquer l’enregistrement lorsque la configuration dépasse les seuils pris en charge.
+
 * Vous ne pouvez pas changer une activité spécifique de [!UICONTROL Auto-Target] en [!UICONTROL Automated Personalization], et inversement.
 * Vous ne pouvez pas passer de l’affectation de trafic [!UICONTROL Manual] ([!UICONTROL A/B Test] classique) à [!UICONTROL Auto-Target], et inversement après l’enregistrement d’une activité en tant que brouillon.
 * Un modèle est conçu pour identifier les performances de la stratégie personnalisée par rapport au trafic diffusé de manière aléatoire par rapport à l’envoi de tout le trafic vers l’expérience gagnante globale. Ce modèle prend uniquement en compte les accès et les conversions dans l’environnement par défaut.
@@ -90,7 +82,7 @@ Pour en savoir plus sur les données et les algorithmes sous-jacents aux [!UICON
 | Terme | Détails |
 |--- |--- |
 | [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Le principal algorithme de personnalisation de [!DNL Target] utilisé dans [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] est Random Forest. Des méthodes d&#39;ensemble, telles que Random Forest, utilisent de multiples algorithmes d&#39;apprentissage pour obtenir de meilleures performances prédictives que celles qui pourraient être obtenues à partir de n&#39;importe lequel des algorithmes d&#39;apprentissage constitutifs. L’algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] est une méthode de classification, ou de régression, qui fonctionne en construisant une multitude d’arbres de décision au moment de l’entraînement. |
-| [Chargement des données pour  [!DNL Target] algorithmes Personalization de &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Il existe plusieurs façons de saisir des données pour les modèles [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization]. |
+| [Chargement des données pour  [!DNL Target] algorithmes Personalization de ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Il existe plusieurs façons de saisir des données pour les modèles [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization]. |
 | [Collecte de données pour les algorithmes Personalization de  [!DNL Target]](/help/main/c-activities/t-automated-personalization/ap-data.md) | Les algorithmes de personnalisation de [!DNL Target] collectent automatiquement diverses données. |
 
 ## Détermination de l’affectation du trafic {#section_AB3656F71D2D4C67A55A24B38092958F}

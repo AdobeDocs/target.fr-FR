@@ -2,13 +2,13 @@
 keywords: automated personalization;ap
 description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) dans à l [!DNL Adobe Target] aide de l’[!UICONTROL Visual Experience Composer] .
 title: Comment créer une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 28%
+source-wordcount: '1765'
+ht-degree: 29%
 
 ---
 
@@ -67,8 +67,8 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
    | ,+ | Virgule, Plus |
    | ,- | Virgule, Moins |
    | ,@ | Virgule, Au signe |
-   | `[` » | Crochet ouvert, guillemets doubles |
-   |  »`]` | Guillemets doubles, crochet fermant |
+   | `[`&quot; | Crochet ouvert, guillemets doubles |
+   | &quot;`]` | Guillemets doubles, crochet fermant |
 
 1. Modifiez les éléments de la page comme expliqué dans les options du [Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -84,7 +84,7 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
 
    >[!NOTE]
    >
-   >Bien que vous puissiez créer jusqu’à 30 000 expériences dans une activité AP, celle-ci fonctionne mieux lorsque moins de 5 000 expériences sont utilisées. Cette même limite est appliquée même lorsque l’activité a activé l’option [!UICONTROL Disalow Duplicates].
+   >Bien que vous puissiez créer jusqu’à 30 000 expériences dans une activité AP, celle-ci fonctionne mieux lorsque moins de 5 000 expériences sont utilisées. Cette même limite est appliquée même lorsque l’activité a activé l’option [!UICONTROL Disallow Duplicates].
 
    La liste [!UICONTROL Experiences] affiche chaque élément de contenu sélectionné pour l’activité et l’emplacement auquel il est affecté.
 
@@ -106,7 +106,7 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
 
    ![Onglet Groupes d’exclusion de la boîte de dialogue Gestion du contenu](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences distinctes sont utilisées. Cette même limite est appliquée même lorsque l’activité a activé l’option [!UICONTROL Disalow Duplicates].
+   Bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées. Cette même limite est appliquée même lorsque l’activité a activé l’option [!UICONTROL Disallow Duplicates].
 
    Si votre activité ne comprend pour l’instant aucun groupe d’exclusion, cliquez sur **Créer un groupe d’exclusion**. Vous pouvez appliquer un filtre pour créer une liste affichant uniquement les combinaisons à exclure. Nommez votre groupe d’exclusion, puis cliquez sur **Enregistrer**.
 
@@ -162,6 +162,6 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
    | - | Moins |
    | @ | Arobase |
 
-Une fois que vous avez cliqué sur **[!UICONTROL Save & Close]**, la page [!UICONTROL Overview] de l’activité s’affiche. Cliquez sur **Aperçu des expériences** pour prévisualiser vos expériences une fois diffusées. Un pop-up s’affiche, que vous pouvez utiliser pour afficher et partager des liens vers vos expériences AP sur votre site afin d’obtenir un « véritable aperçu » des expériences en dehors du [!UICONTROL Target] d’[!UICONTROL Visual Experience Composer] (VEC). Vous devez partager les liens provenant du message pour partager l’aperçu. Il n’est pas possible de cliquer sur un lien pour copier directement l’URL à partir du navigateur. La copie du lien entraîne la présence dans l’URL d’un paramètre qui affiche correctement la page uniquement lorsque vous accédez à la page à partir du lien du message.
+Une fois que vous avez cliqué sur **[!UICONTROL Save & Close]**, la page [!UICONTROL Overview] de l’activité s’affiche. Cliquez sur **Aperçu des expériences** pour prévisualiser vos expériences une fois diffusées. Un pop-up s’affiche, que vous pouvez utiliser pour afficher et partager des liens vers vos expériences AP sur votre site afin d’obtenir un « véritable aperçu » des expériences en dehors du [!UICONTROL Visual Experience Composer] d’[!UICONTROL Target] (VEC). Vous devez partager les liens provenant du message pour partager l’aperçu. Il n’est pas possible de cliquer sur un lien pour copier directement l’URL à partir du navigateur. La copie du lien entraîne la présence dans l’URL d’un paramètre qui affiche correctement la page uniquement lorsque vous accédez à la page à partir du lien du message.
 
 Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
