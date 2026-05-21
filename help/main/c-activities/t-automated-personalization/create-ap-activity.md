@@ -2,25 +2,17 @@
 keywords: automated personalization;ap
 description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) à l’aide de l’[!UICONTROL Visual Experience Composer] .
 title: Comment créer une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8d0c691fdbeee92b36105db9175475507e5fcfce
 workflow-type: tm+mt
-source-wordcount: 1873
-ht-degree: 24%
+source-wordcount: 1856
+ht-degree: 23%
 
 ---
 
@@ -29,6 +21,16 @@ ht-degree: 24%
 Créez une activité [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] à l’aide du [!UICONTROL Visual Experience Composer] (VEC).
 
 Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!DNL Target] diffère de celui des autres types d’activités.
+
+Cette procédure suit le workflow guidé en trois étapes de la [!UICONTROL Visual Experience Composer] :
+
+1. [Étape 1 : création d’expériences](#build-experiences)
+1. [Étape 2 : définition du ciblage](#set-targeting)
+1. [Étape 3 : configurer les objectifs et les paramètres](#configure-goals-and-settings)
+
+## Étape 1 : création d’expériences {#build-experiences}
+
+Définissez le pool de variations de contenu en fonction desquelles [!UICONTROL Automated Personalization] pouvez effectuer une personnalisation. Plus vos expériences et offres sont riches et distinctes, plus l’algorithme peut faire correspondre le contenu approprié à chaque visiteur.
 
 1. Dans la liste [!DNL Target] [!UICONTROL Activities] , cliquez sur **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**.
 
@@ -86,17 +88,11 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
 
 1. Cliquez sur l’icône **[!UICONTROL Manage Content]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour configurer les combinaisons disponibles.
 
-   Une boîte de dialogue s’affiche avec deux options en haut de l’écran : [!UICONTROL Experiences] et [!UICONTROL Offers].
+   Une boîte de dialogue s’affiche avec deux onglets : [!UICONTROL Experiences] et [!UICONTROL Offers]. L’onglet [!UICONTROL Experiences] répertorie chaque élément de contenu et l’emplacement auquel il est affecté. Pour exclure une ou plusieurs expériences, cochez les cases correspondantes et cliquez sur l’icône [!UICONTROL Exclude] . Pour plus d’options, voir [ Gestion des exclusions ](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Bien que vous puissiez créer jusqu’à 30 000 expériences dans une activité AP, celle-ci fonctionne mieux lorsque moins de 5 000 expériences sont utilisées. Cette même limite est appliquée même lorsque l’activité a activé l’option [!UICONTROL Disalow Duplicates].
-
-   La liste [!UICONTROL Experiences] affiche chaque élément de contenu sélectionné pour l’activité et l’emplacement auquel il est affecté.
-
-   Vous pouvez exclure des expériences spécifiques en cochant la case en regard de l’expérience souhaitée, puis en cliquant sur l’icône [!UICONTROL Exclude] .
-
-   Vous pouvez exclure ou inclure des expériences par lots en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur l’icône [!UICONTROL Exclude] .
+   >**Bonne pratique :** pour des performances optimales, limitez les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Le nombre total d’expériences augmente à partir de la combinaison cartésienne d’emplacements et d’offres. Des configurations plus volumineuses peuvent ralentir le chargement ou la modification dans le [!UICONTROL Visual Experience Composer]. Conservez un total inférieur à 5 000 expériences pour obtenir de meilleurs résultats ; la limite stricte est de 30 000 (la même limite s’applique lorsque l’option [!UICONTROL Disallow Duplicates] est activée).
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Offers]** pour sélectionner des éléments de contenu et les affecter à des groupes de génération de rapports ou permettre uniquement à certains visiteurs de voir certaines offres avec ciblage.
 
@@ -116,35 +112,21 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
 
 1. Cliquez sur **[!UICONTROL Done]** lorsque vous avez terminé de configurer le contenu de votre activité.
 
+## Étape 2 : définition du ciblage {#set-targeting}
+
+Choisissez les visiteurs qui rejoignent l’activité et la proportion de votre trafic exposée. Associez-les à une population témoin afin que [!DNL Target] puissiez mesurer les avantages de la personnalisation de l’effet élévateur.
+
 1. Cliquez sur **[!UICONTROL Targeting]** en haut de la [!UICONTROL Visual Experience Composer] pour passer à l’étape suivante du workflow guidé en trois étapes.
 
    L’étape **Ciblage** vous est familière si vous avez utilisé d’autres types d’activités [!DNL Target]. Ici, vous pouvez sélectionner une audience et spécifier le pourcentage de visiteurs et visiteuses qui voient chaque expérience.
 
-   Le diagramme de flux s’ouvre.
+1. Le diagramme de flux vous guide tout au long des étapes d’affectation d’une audience et de son pourcentage de trafic, de sélection de la méthode d’affectation du trafic et de spécification de l’affectation du trafic pour chaque expérience de l’activité.
 
    ![Étape de ciblage du test AP](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-   Le diagramme de flux vous guide tout au long des étapes d’affectation d’une audience et de son pourcentage de trafic, de sélection de la méthode d’affectation du trafic et de spécification de l’affectation du trafic pour chaque expérience de l’activité.
+1. (Conditionnel) Cliquez sur le contrôle **[!UICONTROL All Visitors]** pour [sélectionner une autre audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour l’activité et définir son pourcentage de visiteur.
 
-1. (Conditionnel) Cliquez sur le contrôle **[!UICONTROL All Visitors]** pour sélectionner une autre audience pour l’activité.
-
-   L’audience [!UICONTROL All Visitors] est définie comme audience par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche.
-
-   Le cadre de droite s’affiche, ce qui vous permet d’ajouter ou de supprimer une audience et d’attribuer le pourcentage de visiteur ou de visiteuse à l’activité.
-
-   1. Pour modifier l’audience, cliquez sur l’icône **[!UICONTROL Replace]** ( ![icône Remplacer](/help/main/assets/icons/Retweet.svg) ) dans le cadre de droite.
-   1. Dans la boîte de dialogue [!UICONTROL Add Audience], [sélectionnez l’audience souhaitée](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) puis cliquez sur **[!UICONTROL Assign Audience]**.
-
-      Vous pouvez cliquer sur **Combiner les audiences** pour [créer une audience qui combine plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
-
-      Si vous devez créer une nouvelle audience qui n’est pas encore dans le [!UICONTROL Audience Library], cliquez sur **Créer une audience**. Au cours du workflow [création d’audience](/help/main/c-target/c-audiences/audiences.md) vous pouvez choisir parmi les options suivantes :
-
-      * **[!UICONTROL Audience Library]** : créez une audience à la demande qui est enregistrée dans le [!UICONTROL Audience Library] et qui peut être réutilisée dans d’autres activités.
-      * **[!UICONTROL This activity only]** : créez une [audience spécifique à l’activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans le [!UICONTROL Audience Library] et qui ne peut être utilisée que dans l’activité actuelle.
-
-   1. Cliquez sur **[!UICONTROL Visitor Percentage]** dans le cadre de droite, puis choisissez le pourcentage de visiteurs qualifiés qui souhaitent rejoindre l’activité.
-
-   Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
+   L’audience [!UICONTROL All Visitors] est définie comme audience par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche, par exemple vous pouvez limiter les entrées à 50 % de tous les visiteurs ou 45 % de votre audience « Californiens ».
 
 1. Cliquez sur le contrôle **[!UICONTROL Traffic Allocation]** pour effectuer une sélection parmi les options suivantes :
 
@@ -163,6 +145,10 @@ Le workflow de l’activité [!UICONTROL Automated Personalization] (AP) dans [!
    >[!NOTE]
    >
    >Dans les activités [!UICONTROL Automated Personalization], les critères d’entrée (ciblage des URL, règles de modèle et cibles d’audience) sont évalués pour chaque requête. Dans les versions précédentes, les critères d’entrée étaient évalués une seule fois par session.
+
+## Étape 3 : configurer les objectifs et les paramètres {#configure-goals-and-settings}
+
+Dites-[!DNL Target] à quoi ressemble le succès. L’objectif d’optimisation que vous choisissez est la mesure sur laquelle l’algorithme de personnalisation s’entraîne. Choisissez donc le résultat le plus important pour cette activité.
 
 1. Cliquez sur **[!UICONTROL Next]** pour afficher la page **[!UICONTROL Goals & Settings]**.
 1. Configurez l’activité avec les paramètres suivants, puis cliquez sur **[!UICONTROL Save & Close]**.
