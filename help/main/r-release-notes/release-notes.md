@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 78ebcd007f58c2d2b3b4e959ac16b1753f30ff84
+source-git-commit: ad59ee31ae91e2f1bdcd5ec409ee9d04595ee2dd
 workflow-type: tm+mt
-source-wordcount: 504
-ht-degree: 53%
+source-wordcount: 446
+ht-degree: 60%
 
 ---
 
@@ -31,42 +31,28 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.5.2 (14 mai 2026)
+## [!DNL Target Standard/Premium] 26.5.3 (21 mai 2026)
 
-**Administration**
-
-+++Afficher les détails
-
-* **Validation de l’expression régulière pour les URL autorisées.** Correction d’un problème où les expressions régulières non valides pouvaient être saisies dans le champ **[!UICONTROL Allowed URLs]** sans validation correcte. (TGT-55095)
-
-+++
-
-**Audiences**
+**[!UICONTROL What's new]page**
 
 +++Afficher les détails
 
-* **Boutons dans [!UICONTROL Edit Audience] boîte de dialogue.** Correction d’un problème en raison duquel les boutons de la boîte de dialogue **[!UICONTROL Edit Audience]** ne s’affichaient plus correctement. (TGT-54638)
+* **Nouvelle page [!UICONTROL What's new].** Ajout d’une nouvelle page **[!UICONTROL What's new]** dans l’interface utilisateur de [!DNL Adobe Target] pour vous aider à découvrir les dernières fonctionnalités, améliorations et mises à jour sans quitter le produit. (TGT-55137)
 
 +++
 
-**[!DNL Adobe Target]du serveur MCP (Public Beta)**
+**Activités**
 
 +++Afficher les détails
 
-[!DNL Adobe Target] fournit désormais un serveur MCP (Model Context Protocol) qui surfacique les opérations d’expérimentation, de personnalisation et de création de rapports directement dans toute application compatible MCP. Grâce à cette intégration, les personnes spécialisées dans le marketing et la technologie peuvent inspecter les tests A/B, analyser les rapports de performances et explorer les audiences et les offres, le tout à l’aide d’invites en langage naturel au lieu de parcourir plusieurs écrans d’interface utilisateur ou d’écrire des requêtes sur l’API REST [!DNL Adobe Target]. Cette fonctionnalité est actuellement disponible dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**.
+* **Mauvaise expérience sélectionnée lors de la modification du ciblage dans les activités [!UICONTROL Automated Personalization].** Correction d’un problème en raison duquel une expérience incorrecte pouvait être sélectionnée lors de la modification de l’étape **[!UICONTROL Targeting]** dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
-Cette fonctionnalité est disponible pour tous les clients dans Public Beta.
-
-Pour plus d’informations, voir [[!DNL Adobe Target] Serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp.md).
+* **Date antérieure de fermeture d’une activité planifiée.** Correction d’un problème qui empêchait de sélectionner une date antérieure pour fermer une activité planifiée. (TGT-55163)
 
 +++
-
 
 <!--
 * **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
-
-
-
 
 **[!UICONTROL Visual Experience Composer] (VEC)**
 
