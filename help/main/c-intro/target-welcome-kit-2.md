@@ -5,28 +5,10 @@ title: Où puis-je obtenir un aperçu de Target ?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 TQID: https://experienceleague.adobe.com/nPXW07lMjkfeUeuElqoTVYd7-JG7N7uVVZ-m9cOKE8w
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f599e456-545c-47e5-8e50-b7dfe3579517
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: a94ced60-8199-4549-b453-ede2acb4101e
-  - id: b06652e6-189f-46a9-90c5-677f6d9cc699
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f599e456-545c-47e5-8e50-b7dfe3579517id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: a94ced60-8199-4549-b453-ede2acb4101eid: b06652e6-189f-46a9-90c5-677f6d9cc699id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2558
@@ -75,7 +57,7 @@ Beaucoup d’entre vous souhaitent peut-être utiliser [!DNL Target] pour tester
 
 | Type d’implémentation | Détails |
 | --- | --- |
-| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL Visual Experience Composer]** (VEC) ou une interface non visuelle, le **[!UICONTROL Form-based Experience Composer]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank}. |
+| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL Visual Experience Composer]** (VEC) ou une interface non visuelle, le **[!UICONTROL Form-based Experience Composer]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Côté serveur | Dans ce type d’implémentation [!DNL Target], un appareil client émet une demande d’expérience par l’intermédiaire de votre serveur. Votre serveur envoie cette demande à [!DNL Target]. [!DNL Target] renvoie la réponse à votre serveur et celui-ci décide de l’expérience à fournir à l’appareil client pour qu’il la restitue. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un appareil non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}. |
 | Implémentation hybride | Dans cette implémentation, vous choisissez l’approche d’implémentation qui fonctionne le mieux pour un cas d’utilisation donné. Par exemple, vous pouvez utiliser une implémentation côté client pour tester une offre A/B dans une bannière principale sur la page d’accueil, mais également utiliser une implémentation côté serveur pour déterminer les résultats de la recherche interne à afficher sur un navigateur client, l’expérience à afficher sur un tableau de bord de voiture intelligente ou la réponse vocale à fournir à partir d’un assistant vocal. |
 

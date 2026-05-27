@@ -5,7 +5,7 @@ hide: true
 exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Les indicateurs offrent deux modes de ciblage des fonctionnalités distincts. Ch
 
 ## Ciblage au niveau de l’utilisateur {#user-level}
 
-### Aperçu {#user-level-overview}
+### Vue d’ensemble {#user-level-overview}
 
 Le ciblage au niveau de l’utilisateur permet de déployer des fonctionnalités au niveau de chaque utilisateur. Il prend en charge le ciblage précis d’utilisateurs et utilisatrices spécifiques, les testeurs et testeuses internes, les utilisateurs et utilisatrices de canaris et les déploiements progressifs en fonction du pourcentage.
 
@@ -36,7 +36,7 @@ Utilisez le ciblage au niveau de l’utilisateur pour :
 * Déploiement progressif d’une fonctionnalité par pourcentage d’utilisateurs
 * Ajustez l’expérience en fonction des attributs d’utilisateur individuels (tels que le domaine de l’e-mail ou les données de profil)
 
-### Limites  {#user-level-limitations}
+### Limites {#user-level-limitations}
 
 Le ciblage au niveau de l’utilisateur n’est pas conçu pour les scénarios suivants :
 
@@ -45,7 +45,7 @@ Le ciblage au niveau de l’utilisateur n’est pas conçu pour les scénarios s
 
 ## Ciblage au niveau de l’organisation et de l’environnement {#org-level}
 
-### Aperçu {#org-level-overview}
+### Vue d’ensemble {#org-level-overview}
 
 Le ciblage au niveau de l’organisation permet le déploiement de fonctionnalités au niveau de l’organisation, de l’environnement et de la région. Il contrôle la disponibilité des fonctionnalités dans des organisations entières ou des environnements de déploiement spécifiques, plutôt que pour des utilisateurs individuels.
 
@@ -60,7 +60,7 @@ Utilisez le ciblage au niveau de l’organisation lorsque vous souhaitez :
 * Effectuer un déploiement régional
 * Fonctionnalités de point de contrôle en fonction du droit ou du niveau d’abonnement
 
-### Limites  {#org-level-limitations}
+### Limites {#org-level-limitations}
 
 Le ciblage au niveau de l’organisation et de l’environnement n’est pas conçu pour les scénarios suivants :
 
@@ -80,7 +80,7 @@ Le ciblage au niveau de l’organisation et de l’environnement n’est pas con
 
 ## Choisir le bon mode {#choosing}
 
-* Si votre question est *« Quels utilisateurs doivent voir cette fonctionnalité ? »* → Utiliser **ciblage au niveau de l’utilisateur**
+* Si votre question est *« Quels utilisateurs doivent voir cette fonctionnalité ? »* → Utiliser le **ciblage au niveau de l’utilisateur**
 * Si votre question est *« Quelles organisations ou quels environnements doivent disposer de cette fonctionnalité ? »* → Utiliser le ciblage **au niveau de l’organisation et de l’environnement**
 
 <!-- -->

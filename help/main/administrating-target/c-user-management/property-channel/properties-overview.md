@@ -2,30 +2,16 @@
 keywords: ajouter un utilisateur;projet;groupe d’utilisateurs;propriétés;espace de travail;gérer la propriété;propriété;at_property;rôles;autorisations
 description: Découvrez comment ajouter des utilisateurs à Adobe Target, créer des espaces de travail, des groupes d’utilisateurs et des propriétés, mettre à jour votre implémentation et spécifier des rôles et des autorisations.
 title: Comment Configurer Les Autorisations D’Enterprise ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: cd7b6938-5837-4ee0-9790-5840997133d9
-  - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: cd7b6938-5837-4ee0-9790-5840997133d9id: cf6b8469-14d0-4c0e-90ee-fb54066a035eid: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1476
@@ -58,7 +44,7 @@ Pour les tâches effectuées dans le [!DNL Adobe Admin Console for Enterprise], 
 
    Ou
 
-   Accédez à [&#128279;](https://adminconsole.adobe.com/enterprise/) > Connectez-vous à l’aide de votre Adobe ID, si ce n’est pas déjà fait.
+   Accédez à [](https://adminconsole.adobe.com/enterprise/) > Connectez-vous à l’aide de votre Adobe ID, si ce n’est pas déjà fait.
 
 
 1. (Conditionnel) Si vous avez accès à [!DNL Admin Console for Enterprise] pour plusieurs organisations, cliquez sur l’avatar en haut à droite de l’écran ou dans la barre de navigation supérieure, puis sélectionnez l’organisation appropriée.
@@ -97,7 +83,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
    Utilisez ces espaces de travail pour répartir l’accès entre différentes équipes par région, unité opérationnelle, section du site ou par toute autre méthode de votre choix. Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent leur être attribués dans chaque espace de travail.
 
-1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/fr/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
+1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
 
 >[!NOTE]
 >Pour plus d’informations sur la configuration des espaces de travail, consultez la vidéo de formation ci-dessous.
@@ -106,7 +92,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
 Vous devez transmettre l’identifiant de l’espace de travail pour exploiter les autorisations d’Enterprise dans les [API Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
 
-1. Dans [&#128279;](https://adminconsole.adobe.com), cliquez sur l&#39;onglet [!UICONTROL Products], puis cliquez sur le produit dans le menu de gauche pour afficher la liste PLC (espace de travail).
+1. Dans [](https://adminconsole.adobe.com), cliquez sur l&#39;onglet [!UICONTROL Products], puis cliquez sur le produit dans le menu de gauche pour afficher la liste PLC (espace de travail).
 1. Cliquez sur le PLC de votre choix (espace de travail), puis localisez l’identifiant « profils » dans l’URL, comme illustré ci-dessous.
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
@@ -116,7 +102,7 @@ Vous devez transmettre l’identifiant de l’espace de travail pour exploiter l
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
 1. Dans Admin Console, cliquez sur l’onglet **[!UICONTROL Users]** en haut de la page > **[!UICONTROL User Groups]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
-1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/fr/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
+1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
 
 ## Étape 4. Création de propriétés {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
@@ -165,7 +151,7 @@ Pour utiliser la fonctionnalité d’autorisations d’utilisateur [!DNL Target]
 
    * **Via un « paramètre personnalisé » dans les balises dans [!DNL Adobe Experience Platform]:**
 
-     Pour plus d’informations, voir [Ajouter des paramètres de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=fr#add-mbox-params) dans la documentation *Présentation des balises*.
+     Pour plus d’informations, voir [Ajouter des paramètres de mbox](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) dans la documentation *Présentation des balises*.
 
    * **Via la fonction targetPageParamsAll() :** placez le code suivant dans les balises `<head>`, au-dessus de la référence at.js.
 
@@ -230,7 +216,7 @@ Cette vidéo explique comment créer des espaces de travail.
 
 * Utilisation des espaces de travail par défaut
 
->[!VIDEO](https://video.tv.adobe.com/v/3421731?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
 ### Création de propriétés dans Adobe Target (3:05) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

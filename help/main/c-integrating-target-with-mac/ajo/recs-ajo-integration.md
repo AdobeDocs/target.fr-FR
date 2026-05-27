@@ -3,19 +3,15 @@ keywords: ajo;adobe parcours optimizer;intégration target d’adobe parcours op
 description: Intégration  [!DNL Adobe Target Recommendations]  à  [!DNL Adobe Journey Optimizer].
 title: Comment utiliser dans les parcours  [!DNL Target Recommendations]  clients à l’aide de  [!DNL Adobe Journey Optimizer] ?
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
 TQID: https://experienceleague.adobe.com/JA--Ll80bDZwn9WtGqIb-z3YxyJLOvOYPzuhZeKA17w
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 633
@@ -33,11 +29,11 @@ Cette intégration vous permet de générer davantage de conversions et de voir 
 
 Pour utiliser l’intégration [!DNL Target Recommendations] et [!DNL Adobe Journey Optimizer], vous avez besoin des éléments suivants :
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implémenté à l’aide de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium) implémenté à l’aide de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}.
 
   Cette fonctionnalité n’est pas disponible avec une licence [!DNL Target Standard] ou lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## Exemples de cas d’utilisation
 

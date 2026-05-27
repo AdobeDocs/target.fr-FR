@@ -1,13 +1,13 @@
 ---
 keywords: multi-valeur;attributs;recommendations;multi-valeur;multi-valeur;multi-valeur
-description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe [!DNL Target] Recommendations à l’aide d’opérateurs spéciaux à plusieurs valeurs, par exemple pour recommander des films avec plusieurs acteurs.
+description: Découvrez comment utiliser un champ à plusieurs valeurs dans  [!DNL Target] Recommendations à l’aide d’opérateurs spéciaux à plusieurs valeurs, par exemple pour recommander des films avec plusieurs acteurs.
 title: Puis-je utiliser des attributs à plusieurs valeurs dans Recommendations ?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 9%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
