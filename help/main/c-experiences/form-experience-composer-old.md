@@ -6,14 +6,14 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 37%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
 # Compositeur d’expérience d’après les formulaires
 
-Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
+Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
 
 Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune expérience. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, [!UICONTROL Target] génère automatiquement les expériences.
 
@@ -36,13 +36,13 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 1. Nommez l’activité en cliquant sur « [!UICONTROL Untitled Activity] ».
 1. Sélectionnez un emplacement.
 
-   Lorsque vous cliquez dans la zone de [!UICONTROL Select Location], une liste des emplacements disponibles s&#39;affiche. Sélectionnez l’un de ces emplacements.
+   Lorsque vous cliquez dans la zone de [!UICONTROL Select Location], une liste des emplacements disponibles s&#39;affiche. Sélectionnez un de ces emplacements.
 
    Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés dans la liste des emplacements disponibles. La prochaine fois que vous tenterez de sélectionner un emplacement saisi manuellement, il sera disponible dans la liste déroulante [!UICONTROL Select Location] pour cette activité.
 
    >[!NOTE]
    >
-   >La création d’un emplacement saisi manuellement lors de la création de l’activité ne crée pas automatiquement de nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé en cas d’appel de diffusion de contenu. Une fois l’emplacement créé, il pourra être utilisé dans d’autres activités, pour créer des audiences, etc. dans la liste déroulante des emplacements disponibles.
+   >La création d’un emplacement saisi manuellement lors de la création de l’activité ne crée pas automatiquement de nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé en cas d’appel de diffusion de contenu. Une fois l’emplacement créé, il pourra être utilisé dans d’autres activités, pour créer des audiences, etc. à partir de la liste déroulante des emplacements disponibles.
 
 1. Cliquez sur **[!UICONTROL Add Audience Refinements]**, choisissez une ou plusieurs [audiences](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour cette activité, puis cliquez sur **[!UICONTROL Done]**.
 
@@ -68,7 +68,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Modifier l’offre JSON :** choisissez une offre json.
 
-   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [&#x200B; Fragment d’expérience &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [ Fragment d’expérience ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
    **Modifier l’offre de redirection :** sélectionnez une offre de redirection. Pour plus d’informations, voir [Création d’offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
