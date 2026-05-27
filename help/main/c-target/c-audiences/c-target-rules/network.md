@@ -5,9 +5,12 @@ title: Puis-je cibler les visiteurs en fonction des options réseau ?
 feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 TQID: https://experienceleague.adobe.com/x6w2aeBu4enUJGJOFRIMidl2RaXRf-ZEwUErbB95yrY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 500
@@ -48,7 +51,7 @@ Vous pouvez créer des audiences dans [!DNL Adobe Target] en fonction des détai
      >
      >Lorsque vous effectuez un ciblage en fonction du fournisseur de services Internet, utilisez son nom et non le nom populaire. Veillez à créer la règle de sorte qu’elle ne soit pas sensible à la casse ou utilisez toujours le format minuscules.
 
-     Vous pouvez tester les fournisseurs de services Internet et les valeurs de nom de domaine. [](https://www.whoismyisp.org) est une bonne ressource à des fins de ciblage. Vous pouvez utiliser les exemples d’adresses IP indiqués dans le tableau ci-dessous, ou saisir la vôtre. Puis, utilisez le paramètre `mboxOverride.browserIp= URL` pour imiter cette adresse IP.
+     Vous pouvez tester les fournisseurs de services Internet et les valeurs de nom de domaine. [&#128279;](https://www.whoismyisp.org) est une bonne ressource à des fins de ciblage. Vous pouvez utiliser les exemples d’adresses IP indiqués dans le tableau ci-dessous, ou saisir la vôtre. Puis, utilisez le paramètre `mboxOverride.browserIp= URL` pour imiter cette adresse IP.
 
    * **Nom de domaine :** il s’agit du nom de domaine de l’adresse IP du visiteur. Ce nom n’est pas le nom de domaine du site web que vous utilisez avec [!DNL Target]. Ce nom de domaine est associé à l’adresse IP du visiteur et est parfois appelé « nom d’hôte ». Il est similaire au nom du FAI. Parfois, le nom d’hôte fait référence à des noms anciens de sociétés qui ont changé la marque de leur nom de fournisseur de services Internet mais pas le nom de domaine.
    * **Vitesse de connexion :** cette vitesse est la vitesse de connexion du visiteur à Internet. Les options sont : large bande, câble, ligne commutée, mobile, oc3, oc12, satellite, t1, t2, sans fil et xdsl.
