@@ -6,7 +6,7 @@ feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1034'
 ht-degree: 29%
 
 ---
@@ -118,7 +118,7 @@ Vous pouvez cliquer sur **[!UICONTROL Add Parameter]** pour ajouter une ou plusi
 
 Vous devez appliquer des offres distantes à l’aide de l’[!UICONTROL Form-Based Experience Composer] . Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du compositeur d’expérience visuelle.
 
-Le [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
+Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommendations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL Form-Based Experience Composer] pour créer des expériences qui utilisent des offres à distance.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Form-Based Experience Composer].
 
