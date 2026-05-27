@@ -4,8 +4,8 @@ description: Découvrez comment intégrer l’extension Experience Rollout à Ad
 hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 6%
+source-wordcount: '929'
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | Paramètre | Description |
    |---|---|
    | Sandbox | Le sandbox Adobe Experience Platform contenant votre configuration de déploiement d’expérience |
-   | ID d’application | Identifiant unique de votre application dans le déploiement d’expérience |
+   | ID de l&#39;application | Identifiant unique de votre application dans le déploiement d’expérience |
    | ID du jeu de données | Identifiant du jeu de données Adobe Experience Platform pour les données d’événement Analytics |
 
 1. Sélectionnez **Enregistrer**.
@@ -105,7 +105,7 @@ pod install
 
 >[!IMPORTANT]
 >
->Pour les applications de production, Adobe recommande d’épingler des numéros de version explicites au lieu d’utiliser des plages `~>` ou ouvertes. Pour plus d’informations[&#x200B; consultez le guide de contrôle de version &#x200B;](https://guides.cocoapods.org/using/the-podfile.html)CocoaPods .
+>Pour les applications de production, Adobe recommande d’épingler des numéros de version explicites au lieu d’utiliser des plages `~>` ou ouvertes. Pour plus d’informations[&#128279;](https://guides.cocoapods.org/using/the-podfile.html) consultez le guide de contrôle de version CocoaPods .
 
 ### Initialiser le SDK {#initialize-sdk}
 
@@ -417,7 +417,7 @@ Renvoie la chaîne de version de l’extension Experience Rollout.
 Rollout.extensionVersion(): String
 ```
 
-**Exemple**
+**Exemple &#x200B;**
 
 *Swift*
 
@@ -433,7 +433,7 @@ NSString *version = [AEPMobileRollout extensionVersion];
 
 ## Résumé des API {#api-summary}
 
-| API | Retours |
+| Visiteur | Retours |
 |---|---|
 | `isFeatureEnabled(featureKey:evaluationContext:completion:)`. `FeatureEvaluationContext` transporte les attributs de ciblage pour les règles et l’identité facultative pour les analyses. Voir [isFeatureEnabled](#is-feature-enabled). | Booléen via le gestionnaire d’achèvement |
 | `getFeature(featureKey:evaluationContext:completion:)`. Renvoie la payload de fonction évaluée pour le contexte donné. Voir [getFeature](#get-feature). | FeatureEvaluationResult ? via le gestionnaire d’achèvement |

@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '2667'
-ht-degree: 56%
+source-wordcount: '2804'
+ht-degree: 55%
 
 ---
 
 # Options du compositeur d’expérience visuelle
 
-Lorsque vous cliquez sur un élément de page dans le [!DNL Adobe Target] d’[!UICONTROL Visual Experience Composer] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
+Lorsque vous cliquez sur un élément de page dans le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
 
 Les différentes actions [!UICONTROL Visual Experience Composer] (VEC) sont regroupées dans des options de menu appropriées pour rendre votre tâche plus rapide et plus efficace :
 
@@ -301,7 +301,7 @@ Après la synchronisation des activités, l’URL de diffusion se présentera pl
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Recommendations prend en charge le remplacement par des balises DIV, SECTION et ARTICLE.
+La fonction Recommandations prend en charge le remplacement par des balises DIV, SECTION et ARTICLE.
 
 **Remarque :** La permutation d’images requiert un compte Adobe Scene7 Publishing System.
 

@@ -5,7 +5,7 @@ hide: true
 exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '341'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Ciblez les utilisateurs et utilisatrices en fonction de leur pays d’enregistre
 
 Ciblez des utilisateurs et utilisatrices spécifiques à l’aide de leur identifiant utilisateur unique (GUID).
 
-### Adresse e-mail {#email}
+### Adresse de courriel {#email}
 
 Ciblez les utilisateurs en fonction de leur adresse e-mail exacte. Pour ajouter plusieurs adresses e-mail à la fois, sélectionnez **dans** dans la liste déroulante des opérateurs (au lieu de **is**), puis :
 

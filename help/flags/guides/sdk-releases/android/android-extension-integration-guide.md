@@ -5,8 +5,8 @@ hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '934'
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | Paramètre | Description |
    |---|---|
    | Sandbox | Le sandbox Adobe Experience Platform contenant votre configuration de déploiement d’expérience |
-   | ID d’application | Identifiant unique de votre application dans le déploiement d’expérience |
+   | ID de l&#39;application | Identifiant unique de votre application dans le déploiement d’expérience |
    | ID du jeu de données | Identifiant du jeu de données Adobe Experience Platform pour les données d’événement Analytics |
 
 1. Sélectionnez **Enregistrer**.
@@ -447,7 +447,7 @@ Renvoie la chaîne de version de l’extension Experience Rollout.
 Rollout.extensionVersion(): String
 ```
 
-**Exemple**
+**Exemple &#x200B;**
 
 *Kotlin*
 
@@ -463,7 +463,7 @@ String version = Rollout.extensionVersion();
 
 ## Résumé des API {#api-summary}
 
-| API | Retours |
+| Visiteur | Retours |
 |---|---|
 | `isFeatureEnabled(featureKey, evaluationContext, callback)`. `FeatureEvaluationContext` transporte les attributs de ciblage pour les règles et l’identité facultative pour les analyses. Voir [Évaluation des fonctionnalités](#is-feature-enabled). | Booléen via le rappel |
 | `getFeature(featureKey, evaluationContext, callback)`. Renvoie la payload de fonction évaluée pour le contexte donné. Voir [getFeature](#get-feature). | FeatureEvaluationResult via le rappel |

@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 56%
+source-wordcount: '1270'
+ht-degree: 55%
 
 ---
 
@@ -64,7 +64,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    * Page de catégorie
    * Page d’accueil
    * Page de destination
-   * Page de produit
+   * Page produit
    * Page Résultats de recherche
    * Page de remerciement
    * Les autres
@@ -97,7 +97,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    ![Boîte de dialogue Sélection d’une conception](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
-   Chaque conception affiche une représentation graphique de l’apparence qu’elle aura ainsi que des icônes qui montrent le nombre de vos activités actives et inactives qui utilisent cette conception.
+   Chaque conception affiche une représentation graphique de l’apparence qu’elle aura, ainsi que des icônes qui montrent le nombre de vos activités actives et inactives qui utilisent cette conception.
 
    * Pour sélectionner une ou plusieurs conceptions existantes, cliquez sur les conceptions, puis sur **[!UICONTROL Next]**.
 
