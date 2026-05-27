@@ -5,16 +5,10 @@ title: Trouvez des réponses aux questions sur l’affichage de rapports avec A4
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 TQID: https://experienceleague.adobe.com/H1hpX9csogL5grp85Zn1HZleM9GF85W5LU-y-k9MSyc
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2624
@@ -85,7 +79,7 @@ Tenez compte des points suivants :
 * Les mesures ci-dessus se déclenchent lorsqu’un utilisateur est qualifié pour une activité et que le contenu est renvoyé par [!DNL Target]. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * [!UICONTROL Activity Impressions] (mesurée par [!DNL Target]) et [!UICONTROL Instances] (mesurée par [!DNL Analytics]) sont égales, sauf s’il existe plusieurs appels de mbox sur la même page dans la même activité. Cela entraîne le comptage de plusieurs [!UICONTROL Activity Impressions], mais d’une seule [!UICONTROL Instance].
 
-Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
+Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
 
 +++
 
@@ -94,7 +88,7 @@ Pour plus d’informations, consultez [Comment configurer des rapports A4T dans 
 +++Réponse
 [!DNL Reports & Analytics] applique un modèle d’attribution de même touche aux « impressions d’activité » et aux « conversions d’activité », tandis qu’[!DNL Analysis Workspace] affiche les mesures brutes, qui peuvent sembler exagérées en raison de la persistance de la dimension [!DNL Target].
 
-Pour évaluer des mesures d’[!UICONTROL Activity Impressions] et de [!UICONTROL Activity Conversions] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures sont dotées de modèles d’attribution [!UICONTROL Same Touch] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Non-default attribution models], puis en sélectionnant [!UICONTROL Same Touch]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=fr) dans le *Guide des outils Analytics*.
+Pour évaluer des mesures d’[!UICONTROL Activity Impressions] et de [!UICONTROL Activity Conversions] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures sont dotées de modèles d’attribution [!UICONTROL Same Touch] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Non-default attribution models], puis en sélectionnant [!UICONTROL Same Touch]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) dans le *Guide des outils Analytics*.
 
 +++
 
@@ -160,7 +154,7 @@ L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effec
 
 Comme les deux expériences ont été vues avant la conversion, elles sont toutes deux « créditées » pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour les rapports [!DNL Target], comme vous ne placez pas une activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus réussie, le fait que toutes les activités vues par l’utilisateur aient obtenu du crédit n’a pas d’importance. Vous comparez les résultats de deux éléments au sein d’une seule activité. Il n’est pas possible pour un utilisateur de voir différentes expériences dans la même activité, vous n’avez donc pas à vous soucier de la contamination croisée du crédit de commande.
 
-Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=fr)) dans le *Guide d’administration d’Analytics*.
+Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) dans le *Guide d’administration d’Analytics*.
 
 +++
 
@@ -232,7 +226,7 @@ Voici quelques points à garder à l’esprit lors de l’affichage de rapports 
 Pour afficher les impressions d’activité dans [!DNL Analysis Workspace] :
 
 1. Dans l’interface utilisateur de [!DNL Target], cliquez sur **[!UICONTROL View in Analytics]**.
-1. Ajoutez la colonne **[!UICONTROL Activity Impressions]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr){target=_blank}.
+1. Ajoutez la colonne **[!UICONTROL Activity Impressions]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
 1. Dans la colonne **[!UICONTROL Activity Impressions]**, cliquez sur l’icône [!UICONTROL Gear] .
 1. Cliquez sur **[!UICONTROL Use non-default attribution model]**.
 1. Sélectionnez **[!UICONTROL Same Touch Model]** > **[!UICONTROL Apply]**.

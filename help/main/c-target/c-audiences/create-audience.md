@@ -5,12 +5,9 @@ title: Comment Créer Des Audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 525
@@ -72,7 +69,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent [!DNL Chrome] 
 
    Par exemple, l’audience suivante cible les visiteurs de l’Utah à l’aide du système d’exploitation [!DNL Macintosh].
 
-   ![&#x200B; Audience Utah/Macintosh &#x200B;](assets/adience-builder.png)
+   ![ Audience Utah/Macintosh ](assets/adience-builder.png)
 
 1. (Conditionnel) Continuez à ajouter et à définir les attributs souhaités.
 

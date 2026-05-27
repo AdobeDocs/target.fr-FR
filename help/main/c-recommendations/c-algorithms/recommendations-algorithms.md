@@ -2,22 +2,14 @@
 keywords: algorithmes de recommandations;entraînement de modèles;diffusion de modèles;diffusion de contenu;basé sur les éléments;basé sur l’utilisateur;basé sur la popularité;basé sur le panier;critères personnalisés
 description: Découvrez les algorithmes utilisés dans  [!DNL Target Recommendations], y compris l’entraînement de modèles et la diffusion de modèles.
 title: Où puis-je en savoir plus sur la science derrière les algorithmes de recommandations de Target ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2850
@@ -77,7 +69,7 @@ Le flux logique de l’implémentation réelle de l’algorithme est illustré d
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -101,7 +93,7 @@ Bien que les aspects de diffusion de modèles et de diffusion de contenu des alg
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : comme décrit précédemment, cet algorithme est basé uniquement sur les données de catalogue (ingérées par les [!DNL Target] via un [flux de catalogue), l’API Entities ou à partir de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+* **Données d’entrée** : comme décrit précédemment, cet algorithme est basé uniquement sur les données de catalogue (ingérées par les [!DNL Target] via un [flux de catalogue), l’API Entities ou à partir de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -139,7 +131,7 @@ La logique des étapes d’entraînement et de notation du modèle est illustré
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : est identique aux méthodes de filtrage collaboratif (CF) élément par élément. Les algorithmes [!UICONTROL Both Recommended For You] et basés sur le panier utilisent des données comportementales, sous la forme d’affichages et d’achats des utilisateurs collectés lors de l’[implémentation de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : est identique aux méthodes de filtrage collaboratif (CF) élément par élément. Les algorithmes [!UICONTROL Both Recommended For You] et basés sur le panier utilisent des données comportementales, sous la forme d’affichages et d’achats des utilisateurs collectés lors de l’[implémentation de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 
