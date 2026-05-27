@@ -1,13 +1,13 @@
 ---
 keywords: clé de recommandation;logique de recommandation;catégorie actuelle;attribut personnalisé;dernier article acheté;dernier article consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier article consulté;dernier achat;dernier consulté;le plus consulté;favori;récemment consulté
-description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement du visiteur pour afficher des résultats pertinents dans les activités Adobe [!DNL Target] Recommendations.
+description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement du visiteur pour afficher des résultats pertinents dans les activités  [!DNL Target] Recommendations.
 title: Comment baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '3845'
+source-wordcount: '3892'
 ht-degree: 33%
 
 ---
@@ -295,7 +295,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés de fil
 
 Le type d’algorithme Critères personnalisés vous permet de faire des recommandations basées sur un fichier personnalisé que vous téléchargez.
 
-La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x>* ou profile.attributs *x*.
+La recommandation est déterminée par un élément stocké dans le profil d’un visiteur, à l’aide des attributs user.*x* ou profile.*x*.
 
 Si cette option est sélectionnée, la valeur `entity.id` doit être présente dans l’attribut de profil.
 
@@ -324,7 +324,7 @@ Les clés de recommandation suivantes sont disponibles à partir de la liste dé
 
 La recommandation est déterminée par l’article que le visiteur consulte actuellement.
 
-Les recommandations présentent d’autres articles susceptibles d’intéresser les visiteurs qui consultent l’article spécifié.
+Les recommandations présentent d’autres articles susceptibles d’intéresser les personnes qui consultent l’article spécifié.
 
 Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transmise comme un paramètre à la mbox d’affichage.
 

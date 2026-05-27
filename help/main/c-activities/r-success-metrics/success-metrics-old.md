@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage;succès;mesure de conversion;mesure de score de page;mesure pages vues;mesures de chiffre d’affaires;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès;paramètres avancés;dépendance;dépendant;Incrémenter le décompte et maintenir l’utilisateur dans l’activité;Incrémenter le décompte, Libérer l’utilisateur et Autoriser la reprise;incrémenter le décompte, Libérer l’utilisateur et Interdire la reprise
-description: Découvrez les mesures de succès dans Adobe [!DNL Target] qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
+description: Découvrez les mesures de succès dans  [!DNL Target] qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
 title: Que Sont Les Mesures De Succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 42%
+source-wordcount: '1200'
+ht-degree: 43%
 
 ---
 
@@ -53,7 +53,7 @@ Les mesures de succès que vous choisissez pour votre activité sont disponibles
 
 Certaines mesures, telles que [!UICONTROL Custom Scoring] et [!UICONTROL Revenue Per Visitor], nécessitent une implémentation personnalisée qui transmet des informations telles que les totaux des commandes et les ID de commande.
 
-## Paramètres avancés  {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
+## Paramètres avancés {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression.
 
