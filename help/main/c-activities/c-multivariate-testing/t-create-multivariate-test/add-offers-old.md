@@ -6,8 +6,8 @@ feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '484'
+ht-degree: 60%
 
 ---
 
@@ -60,7 +60,7 @@ Chaque offre Texte/HTML devient une expérience distincte à cet emplacement.
 * N’incluez pas plus d’emplacements que nécessaire pour le test. Chaque expérience que vous incluez dans le test augmente de manière significative le volume de trafic et le temps requis pour obtenir des résultats acceptables. Par exemple, en présence d’éléments de page comportant trois offres chacun, vous obtenez neuf combinaisons possibles (3x3). Trois éléments, dont deux contiennent trois offres possibles et un deux offres, fournissent 18 options (3x3x2). Les nombres augmentent substantiellement avec chaque élément et offre supplémentaires.
 * Lors de la création de tests multivariés, vous pouvez exclure plus de 10 % des expériences du test, à condition que vous reconnaissiez l’avertissement selon lequel vous devez utiliser les rapports hors ligne pour l’analyse.
 * Tirez parti des fonctionnalités d’aperçu pour éviter des combinaisons non souhaitables de contenu. Par exemple, vous pourriez avoir deux images qui offrent des remises différentes sur le même élément ou service. L’affichage de ces images sur la même page n’est pas logique et est susceptible de prêter à confusion.
-* Utilisez l’[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) pour vous assurer que votre test est conçu en fonction du trafic reçu par votre page. Assurez-vous que l’estimateur de trafic donne le feu vert à la configuration de test afin d’obtenir les résultats souhaités.
+* Utilisez l’[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) pour vous assurer que le test est conçu pour le volume de trafic que votre page reçoit. Assurez-vous que l’estimateur de trafic donne le feu vert à la configuration de test afin d’obtenir les résultats souhaités.
 * Vous devez avoir au moins trois éléments à tester. Si vous en avez moins, exécutez une série de tests A/B.
 * Les alternatives de chaque élément doivent être sensiblement différentes les unes des autres.
 * Bien que cela ne soit pas requis, la bonne pratique consiste à ce que chaque élément ait le même nombre d’alternatives.
