@@ -19,7 +19,7 @@ Vous pouvez avoir deux pages complètement différentes à tester au lieu de mod
 
 >[!NOTE]
 >
-> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le Compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
+> * Les offres de redirection peuvent être créées sur la page [!UICONTROL Offers] > [!UICONTROL Code Offers] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres de redirection dans le Compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
 >
 >* Vous ne pouvez pas utiliser d’offres de redirection dans les mbox ajax (`mboxUpdate`).
 >
@@ -41,7 +41,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
-   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 
@@ -81,7 +81,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
 
-   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 

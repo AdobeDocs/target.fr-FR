@@ -178,7 +178,7 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL  Hue-rotate]
+*[!UICONTROL &#x200B; Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
