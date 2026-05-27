@@ -5,8 +5,8 @@ hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 2%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Cette page décrit la séquence complète des activités impliquées dans une version coordonnée gérée par un gestionnaire de versions.
 
-## &#x200B;1. Définir des indicateurs de fonctionnalité par application {#define-flags}
+## &#x200B;1. Définition des indicateurs de fonctionnalité par application {#define-flags}
 
 Chaque équipe produit affecte un **Propriétaire de version de produit** qui se connecte à la console Indicateurs et crée des indicateurs de fonctionnalité pour les applications dont il est propriétaire. L’équipe produit implémente ensuite la logique conditionnelle dans son code, en plaçant les fonctionnalités derrière ces indicateurs.
 
-## &#x200B;2. Créer la version {#create-release}
+## &#x200B;2. Création de la version {#create-release}
 
 La création d’une nouvelle version nécessite une demande d’assistance. Celle-ci n’est pas entièrement en libre-service. Contactez le support des indicateurs pour que la version soit créée. Indiquez le nom de la version, l’équipe propriétaire, l’environnement cible, l’objectif, les applications participantes et la durée prévue.
 

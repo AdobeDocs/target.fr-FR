@@ -1,14 +1,14 @@
 ---
 keywords: conception de recommandations, créer une conception, copier une conception
-description: Découvrez comment créer une conception Adobe [!DNL Target] Recommendations à l’aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
+description: Découvrez comment créer une conception  [!DNL Target] Recommendations à l’aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 21%
+source-wordcount: '1012'
+ht-degree: 24%
 
 ---
 
@@ -61,11 +61,11 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    Les conceptions de recommandations utilisent le langage de conception open-source [!DNL Velocity]. Vous trouverez des informations sur [!DNL Velocity] à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions autres qu’HTML sont destinées aux environnements non web où le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
-   >Le nombre maximal d’entités pouvant être référencées dans une conception, que ce soit en dur ou au moyen de boucles, est de 99.
+   >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 
@@ -163,7 +163,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
    | Paramètre | Valeur |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur /help/target/products.html#recsSettings > Jeton API Recommendations > Code client). |
+   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur #recsSettings > Jeton API Recommendations > Code client). |
    | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des Recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
    | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
    | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
