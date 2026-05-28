@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 3dc08e77ad2b737e19c2a099028fc0a69dc5a266
+source-git-commit: 74f3658c059fce7534f974d25fa5536ff3d52129
 workflow-type: tm+mt
-source-wordcount: 68506
+source-wordcount: 68339
 ht-degree: 50%
 
 ---
@@ -89,14 +89,6 @@ Pour plus d’informations, voir [[!DNL Adobe Target] Serveur MCP](../c-integrat
 +++
 
 ## [!DNL Target Standard/Premium] 26.5.1 (7 mai 2026)
-
-**Intégrations**
-
-+++Afficher les détails
-
-* Gestion des **[!DNL Adobe Target]dans Experimentation Accelerator.** Ajout de la prise en charge de l’affectation d’espaces de travail [!DNL Target] aux sandbox Experimentation Accelerator afin que les équipes puissent afficher les expériences de [!DNL Adobe Target] dans Experimentation Accelerator à un seul endroit. [En savoir plus](../c-integrating-target-with-mac/experimentation-accelerator.md)
-
-+++
 
 **Activités**
 
@@ -663,7 +655,7 @@ Cette version comprend les améliorations et correctifs suivants.
 
 +++Localisation
 
-* **Correction d’une incohérence terminologique dans la traduction chinoise simplifiée de « Vue détaillée complète ».**
+* **Correction d’une incohérence terminologique dans la traduction chinoise simplifiée de la « Vue complète des détails »**
 Auparavant, le terme « Détails » était incorrectement traduit par « 详情 » dans le paramètre régional Chinois simplifié (zh_CN), enfreignant les directives terminologiques établies. Ce paramètre a été corrigé en « 详细信息 » pour assurer la cohérence avec la base terminologique. (TGT-53741)
 
 +++
@@ -681,7 +673,7 @@ Auparavant, le terme « Détails » était incorrectement traduit par « 详情 
 
 * **La génération d’offres ad hoc dans les activités A[!UICONTROL utomated Personalization] a entraîné des incohérences dans les rapports.** L’utilisation de la fonctionnalité Générer des offres ad hoc dans les activités [!UICONTROL Automated Personalization] (AP) entraînait des rapports inexacts. Plus précisément, les identifiants d’offre ont été réutilisés entre les emplacements, ce qui a entraîné l’attribution incorrecte ou le remplacement des données de rapport. Les offres ad hoc sont désormais générées avec des identifiants distincts par emplacement, ce qui garantit un suivi et un reporting précis sur toutes les expériences configurées. (TGT-53757)
 * **Échec du chargement des rapports d’activité en raison d’une erreur JavaScript.** Les clients ont rencontré un message « Un problème est survenu » lors de l’accès à l’onglet [!UICONTROL Reports] pour certaines activités. L&#39;erreur est due à une exception JavaScript : impossible de lire les propriétés de l&#39;objet undefined (lecture de &#39;indexOf&#39;), déclenchées lors de l&#39;appel `getAnalyticsReportSummary` de GraphQL. Les rapports se chargent désormais correctement et la gestion des erreurs a été améliorée afin d’éviter des échecs similaires dans le workflow de création d’activité mis à jour. (TGT-53797)
-* **Rapports bloqués après interaction avec la barre de défilement.** Le fait de cliquer sur la barre de défilement dans l’onglet [!UICONTROL Reports] a provoqué le blocage de la page, accompagné d’une erreur JavaScript :
+* **Rapports bloqués après avoir interagi avec la barre de défilement.** Cliquer sur la barre de défilement dans l’onglet [!UICONTROL Reports] a provoqué le blocage de la page, accompagné d’une erreur JavaScript :
   Les rapports `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` se chargent et défilent désormais correctement sans déclencher d’erreurs ou de blocages. (TGT-53828)
 * **Les rapports n’affichaient pas la mesure principale.** La mesure principale, configurée en tant que mesure de conversion à l’aide d’une mbox, était absente des rapports d’activité. La recherche par nom de mesure ou de mbox n’a donné aucun résultat, ce qui empêche de voir les données de performances clés. Les mesures de Principal s’affichent désormais correctement dans l’onglet [!UICONTROL Reports], ce qui permet d’assurer un suivi et une analyse précis des performances de la campagne. (TGT-53773)
 * **L’onglet [!UICONTROL Reports] de l’interface utilisateur mise à jour s’est bloqué lors de l’interaction avec la barre de défilement horizontale.** La vue [!UICONTROL Reports] s’est bloquée par intermittence avec une erreur « Un problème est survenu » lors de l’utilisation de la barre de défilement horizontale pour accéder aux mesures non visibles. La barre de défilement fonctionne désormais de manière fiable, ce qui permet aux clients d’afficher et d’analyser toutes les mesures sans avoir à recourir à des solutions telles que le zoom arrière ou l’utilisation de la touche Maj-Scroll. (TGT-53824)
@@ -1465,7 +1457,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 * Correction d’un problème en raison duquel la copie d’une activité existante et la modification de la source de création de rapports en [!DNL Adobe Analytics] (A4T) entraînaient une erreur « Entrée utilisateur non valide ». L’erreur a été déclenchée lorsque certaines actions de mesures incompatibles avec les rapports [!DNL Analytics], telles que `restart_same_experience`, `restart_random_experience` et `restart_new_experience`, ont été conservées dans l’activité d’origine. (TGT-52900)
 * Correction d’un problème qui empêchait les clients de créer ou d’enregistrer une activité lors de la sélection de [!DNL Adobe Analytics] (A4T) comme source de création de rapports à l’étape [!UICONTROL Goals & Settings]. Le problème s’est produit spécifiquement lors de la sélection d’une mesure [!UICONTROL Custom Event] (par exemple, « Événement personnalisé 16 »), ce qui a entraîné l’erreur suivante : « Entrée utilisateur non valide ». (TGT-52910)
-* Correction d’un problème en raison duquel le fait de cliquer sur le lien « [!UICONTROL View in Analytics] » redirigeait les utilisateurs vers la page d’accueil plutôt que vers le tableau de bord [!DNL Analytics] prévu. (TGT-53092 et TGT-53093)
+* Correction d’un problème en raison duquel le fait de cliquer sur le lien « [!UICONTROL View in Analytics] » redirigeait les utilisateurs vers la page d’accueil plutôt que vers le tableau de bord [!DNL Analytics] prévu. (TGT-53092 ET TGT-53093)
   <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
 * Correction d’un problème lors de l’affichage d’une activité [!DNL Recommendations] dans l’interface utilisateur de [!UICONTROL Overview] mise à jour. Le chargement de la section [!UICONTROL Goals & Settings] échouait lorsque [!DNL Adobe Analytics] (A4T) était sélectionné comme source de création de rapports. Le message d’erreur suivant s’affichait : « Un problème est survenu. Nous ne pouvons pas traiter votre demande. Si le problème persiste, contactez l’assistance clientèle Adobe. » (TGT-52999)
 
@@ -5624,8 +5616,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
  <tbody> 
   <tr> 
    <td colname="col1"> Création et modification des scripts de profil </td> 
-   <td colname="col2"> <p>Les scripts de profil exécutent des « captages » d’attribut de profil pour chaque requête de mbox. Quand une requête de mbox est reçue, Target exécute tous les scripts de profil pertinents, détermine quelle activité doit s’exécuter et affiche le contenu adapté à cette activité et à cette expérience avant d’effectuer le suivi du succès de cette activité. Cela permet de suivre les informations relatives à la visite, comme le lieu, l’heure et le nombre de fois où un visiteur a accédé à votre site, ses achats précédents, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site. </p> <p>Voir <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Attributs de profil </a>. 
-     <!--(Copy help from Classic)--> </p> </td> 
+   <td colname="col2"> <p>Les scripts de profil exécutent des « captages » d’attribut de profil pour chaque requête de mbox. Quand une requête de mbox est reçue, Target exécute tous les scripts de profil pertinents, détermine quelle activité doit s’exécuter et affiche le contenu adapté à cette activité et à cette expérience avant d’effectuer le suivi du succès de cette activité. Cela permet de suivre les informations relatives à la visite, comme le lieu, l’heure et le nombre de fois où un visiteur a accédé à votre site, ses achats précédents, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site. </p> <p>Voir <a href="/help/main/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local">Attributs du profil</a>. <!--(Copy help from Classic)--> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalle de confiance pour les mesures binaires </td> 
