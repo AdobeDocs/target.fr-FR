@@ -26,7 +26,7 @@ Cette page explique comment cloner, configurer et exécuter votre propre instanc
 
 >[!AVAILABILITY]
 >
->Le déploiement auto-hébergé est destiné aux développeurs et aux utilisateurs avancés qui ont besoin d’un contrôle total sur l’exécution du serveur MCP [!DNL Adobe Target]. Pour la plupart des utilisateurs, le point d’entrée hébergé (`https://targetmcp.adobe.io/mcp`) est recommandé. Voir [&#x200B; Utilisation de clients MCP &#x200B;](target-mcp.md).
+>Le déploiement auto-hébergé est destiné aux développeurs et aux utilisateurs avancés qui ont besoin d’un contrôle total sur l’exécution du serveur MCP [!DNL Adobe Target]. Pour la plupart des utilisateurs, le point d’entrée hébergé (`https://targetmcp.adobe.io/mcp`) est recommandé. Voir [ Utilisation de clients MCP ](target-mcp.md).
 
 
 
@@ -41,7 +41,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
   curl -LsSf https://astral.sh/uv/install.sh | sh
   ```
 
-* Licence [!DNL Adobe Target] active avec accès à Adobe Experience Cloud
+* Une licence [!DNL Adobe Target] active avec accès à Adobe Experience Cloud
 * **Informations d’identification d’usine** (utilisateurs internes d’Adobe uniquement) - requises pour installer des dépendances internes
 
 ## Installation {#self-hosted-install}

@@ -5,19 +5,13 @@ title: Je dois créer ma première activité dans Target. Par où commencer ?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 71%
+source-wordcount: 1742
+ht-degree: 70%
 
 ---
 
@@ -29,7 +23,7 @@ Cependant, lors de votre première activité, il est essentiel d’établir une 
 
 ## Piste 1 : test A/B sur l’ensemble du trafic des visiteurs
 
-Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
+Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [ Affectation automatique ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
 
 Exemple : une société du secteur des médias teste son texte actuel pour une offre d’abonnement cadeau sur la page d’accueil de son site web ou mobile afin de déterminer quelle variation incite le plus de visiteurs à acheter un abonnement cadeau. Si elle sélectionne Affectation automatique, l’activité déplace plus de trafic vers la variante gagnante au cours de l’exécution du test. Si ce n’est pas le cas, il vous faudra activer manuellement l’expérience gagnante une fois le test terminé.
 
@@ -61,7 +55,7 @@ Lorsque vous proposez votre idée de test, rappelez-vous que vous devez être en
 
 ## Planification de votre activité à l’aide du planificateur d’activités
 
-Nous avons inclus le planificateur d’activités [&#128279;](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et réutiliser à l’infini. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
+Nous avons inclus le planificateur d’activités [](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et réutiliser à l’infini. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
 
 Vous devez remplir chaque zone du planificateur pour que l’activité s’exécute efficacement. Utilisez cet outil lorsque vous réfléchissez, avec d’autres personnes, à des idées concernant les activités de test et de personnalisation.
 
@@ -101,7 +95,7 @@ Si votre activité nécessite l’aide d’un concepteur, d’un développeur we
 
 Un certain nombre de visiteurs doit être placé dans la population testée pour tirer une conclusion statistiquement significative du test. Réfléchissez : si seulement deux personnes participent à votre test, pouvez-vous vous fier aux résultats ?
 
-[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous permet de déterminer la durée d’exécution d’un test en fonction du degré de confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL Learn More] dans cette zone pour ouvrir et utiliser le calculateur.
+[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous permet de déterminer la durée d’exécution d’un test en fonction du degré de confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL  En savoir plus ] dans cette zone pour ouvrir et utiliser le calculateur.
 
 ### Quelle est l’importance de cette activité ?
 
@@ -117,4 +111,4 @@ Les résultats de votre activité fournissent souvent des informations sur les p
 
 ## Ouvrir [!DNL Target], créer et lancer votre activité
 
-Vous avez rempli votre planificateur d&#39;activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL Visual Experience Composer].
+Vous avez rempli votre planificateur d&#39;activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL compositeur d’expérience visuelle].

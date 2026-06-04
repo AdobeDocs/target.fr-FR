@@ -1,32 +1,24 @@
 ---
 keywords: compositeur d’expérience visuelle;bonne utilisation du compositeur d’expérience visuelle;limites du compositeur d’expérience visuelle;avertissements concernant le compositeur d’expérience visuelle;bonnes pratiques pour vec;vec
-description: Découvrez les bonnes pratiques pour que vos expériences fonctionnent comme prévu lors de l’utilisation du [!UICONTROL Visual Experience Composer] (VEC).
-title: Quelles sont [!UICONTROL Visual Experience Composer] bonnes pratiques et les limites ?
+description: Découvrez les bonnes pratiques pour que vos expériences fonctionnent comme prévu lors de l’utilisation du [!UICONTROL compositeur d’expérience visuelle] (VEC).
+title: Que sont les [!UICONTROL compositeur d’expérience visuelle] les bonnes pratiques et les limites ?
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
 TQID: https://experienceleague.adobe.com/upZDSyuS9VqUmYskNXrlYazhwRHmZGBpSR-cR-qliRs
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2462
+source-wordcount: 2552
 ht-degree: 49%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] des bonnes pratiques et des limites
+# [!UICONTROL Compositeur d’expérience visuelle] bonnes pratiques et limites
 
-Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
+Pour vous assurer que vos expériences fonctionnent comme prévu, suivez les bonnes pratiques lors de l’utilisation du [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC). Tenez compte des conseils clés et des limites afin d’optimiser les performances et d’éviter les problèmes courants.
 
 ## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -35,23 +27,23 @@ Voici les bonnes pratiques à appliquer lors de l’utilisation du compositeur d
 ### Placez la référence at.js en haut de la section `<head>` de votre page.
 
 +++Afficher les détails
-Si vous utilisez également le [!UICONTROL Visitor API Service] , placez le script de l’API visiteur au-dessus d’at.js.
+Si vous utilisez également le [!UICONTROL service d’API visiteur], placez le script de l’API visiteur au-dessus d’at.js.
 
 +++
 
-### Vous pouvez activer le [!UICONTROL Enhanced Experience Composer] au niveau du compte (activé pour toutes les activités créées dans le compte) ou au niveau de chaque activité.
+### Vous pouvez activer le [!UICONTROL compositeur d’expérience avancé] au niveau du compte (il est alors activé pour toutes les activités créées dans le compte) ou au niveau des activités individuelles.
 
 +++Afficher les détails
-Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau du compte, cliquez sur [!UICONTROL [!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]], puis activez le bouton d’activation de la [!UICONTROL Enable Enhanced Experience Composer].
+Pour activer le [!UICONTROL compositeur d’expérience avancé] au niveau du compte, cliquez sur [!UICONTROL [!UICONTROL Administration] > [!UICONTROL compositeur d’expérience visuelle]], puis activez le [!UICONTROL activer le compositeur d’expérience avancé].
 
-Pour activer le [!UICONTROL Enhanced Experience Composer] au niveau de l’activité lors de la création d’une activité dans le [!UICONTROL Visual Experience Composer], cliquez sur [!UICONTROL Configure > [!UICONTROL Page Delivery]], puis activez le bouton [!UICONTROL Enable Enhanced Experience Composer] sur Activé.
+Pour activer le [!UICONTROL compositeur d’expérience avancé] au niveau de l’activité lors de la création d’une activité dans le [!UICONTROL compositeur d’expérience visuelle], cliquez sur [!UICONTROL Configurer > [!UICONTROL Diffusion de page]], puis activez le [!UICONTROL activer le compositeur d’expérience avancé].
 
 +++
 
-### Vous pouvez placer sur la liste autorisée certaines adresses IP si le [!UICONTROL Enhanced Experience Composer] ne se charge pas sur des pages sécurisées de votre site.
+### Vous pouvez placer sur la liste autorisée certaines adresses IP si le [!UICONTROL Enhanced Experience Composer] ne se charge pas sur les pages sécurisées de votre site.
 
 +++Afficher les détails
-Les problèmes de chargement de l’[!UICONTROL Enhanced Experience Composer] peuvent être résolus en GRANT les adresses IP suivantes. Ces adresses IP sont destinées aux serveurs [!DNL Adobe] utilisés pour le proxy [!UICONTROL Enhanced Experience Composer]. Elles ne sont requises que pour la modification des activités. Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
+Les problèmes de chargement du [!UICONTROL Enhanced Experience Composer] peuvent être résolus en contrôlant les adresses IP suivantes. Ces adresses IP concernent les serveurs [!DNL Adobe] utilisés pour le proxy [!UICONTROL Enhanced Experience Composer]. Elles ne sont requises que pour la modification des activités. Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
 
 Pour plus d’informations, voir [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) dans *Résolution des problèmes liés au Enhanced Experience Composer*.
 
@@ -62,7 +54,7 @@ Pour plus d’informations, voir [L’EEC ne charge pas d’URL d’assurance qu
 +++Détails
 Tout élément se trouvant immédiatement dans l’élément de corps doit avoir un ID unique. Si de nouveaux éléments sont injectés dans le corps et que le code se déplace, au moins les éléments parents sont dotés d’un moyen plus facile pour les reconnaître.
 
-[!DNL Target] ne nécessite pas d’identifiants, mais leur utilisation accroît la fiabilité des expériences créées avec le compositeur d’expérience. [!DNL Target] utilise des sélecteurs CSS pour modifier le contenu lors de la diffusion de l’expérience. Lorsque vous modifiez une expérience, le [!UICONTROL Visual Experience Composer] ancre le sélecteur à l’ancêtre le plus proche avec un attribut d’ID non nul sur l’élément HTML en cours de modification. En conséquence, il n’est pas conseillé d’utiliser un mécanisme, notamment les bibliothèques JavaScript, qui définit ou modifie les attributs d’identifiant HTML. Bien que ces identifiants puissent être disponibles pour le compositeur d’expérience [!DNL Target] pour la création d’activités, si JavaScript modifie les identifiants, l’identifiant utilisé lors de la création de l’expérience peut ne pas être disponible lors de l’exécution de l’expérience. Si un identifiant n’est pas disponible, le sélecteur ancré à l’identifiant échoue.
+[!DNL Target] ne nécessite pas d’identifiants, mais leur utilisation accroît la fiabilité des expériences créées avec le compositeur d’expérience. [!DNL Target] utilise des sélecteurs CSS pour modifier le contenu lors de la diffusion de l’expérience. Lorsque vous modifiez une expérience, le [!UICONTROL compositeur d’expérience visuelle] ancre le sélecteur à l’ancêtre le plus proche avec un attribut d’ID non nul sur l’élément HTML en cours de modification. En conséquence, il n’est pas conseillé d’utiliser un mécanisme, notamment les bibliothèques JavaScript, qui définit ou modifie les attributs d’identifiant HTML. Bien que ces identifiants puissent être disponibles pour le compositeur d’expérience [!DNL Target] pour la création d’activités, si JavaScript modifie les identifiants, l’identifiant utilisé lors de la création de l’expérience peut ne pas être disponible lors de l’exécution de l’expérience. Si un identifiant n’est pas disponible, le sélecteur ancré à l’identifiant échoue.
 
 +++
 
@@ -112,7 +104,7 @@ OU
 ### Éviter les éléments de niveau bloc dans un élément inséré.
 
 +++Détails
-Les éléments au niveau du bloc ne doivent pas être utilisés dans les éléments intégrés, tels que l’ancrage, l’étendue, etc. Cela entraîne une perte de hauteur et de largeur des éléments intégrés, de sorte que l’outil de recouvrement de la [!UICONTROL Visual Experience Composer] risque de ne pas fonctionner comme prévu.
+Les éléments au niveau du bloc ne doivent pas être utilisés dans les éléments intégrés, tels que l’ancrage, l’étendue, etc. Cela entraîne une perte de hauteur et de largeur des éléments intégrés, de sorte que l’outil de recouvrement du [!UICONTROL compositeur d’expérience visuelle] peut ne pas fonctionner comme prévu.
 
 +++
 
@@ -135,7 +127,7 @@ Chaque modification crée un élément dans le compositeur d’expérience visue
 
 En d’autres termes, si vous ajoutez un élément avec du texte, puis, dans une action distincte, vous modifiez cet élément avec un texte différent, l’éditeur de code affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez alors l’élément d’origine, le texte modifié ne sera pas en mesure de trouver l’élément qui a été modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
-Voir [Sélecteurs d’éléments utilisés dans le [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Voir [Sélecteurs d’éléments utilisés dans le [!UICONTROL compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
 +++
 
@@ -252,9 +244,9 @@ Désactivez les techniques de suppression d’iframe sur votre site web et véri
 
 ## Avertissements {#section_A0436B7B85BA467FA9DE13A9A40E6A6E}
 
-Tenez compte des avertissements suivants lors de l’utilisation de l’[!UICONTROL Visual Experience Composer] pour concevoir votre activité.
+Tenez compte des avertissements suivants lors de l’utilisation du [!UICONTROL compositeur d’expérience visuelle] pour concevoir votre activité.
 
-### La fonction [!UICONTROL Move] ne prend pas en charge z-index.
+### La fonction [!UICONTROL Déplacer] ne prend pas en charge z-index.
 
 +++Détails
 En raison de l’absence de fonctionnalité d’index z, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
@@ -304,7 +296,7 @@ La balise div externe ne doit pas être sélectionnée dans une expérience, car
 ### Les adresses IP du proxy peuvent être bloquées dans l’environnement des clients.
 
 +++Détails
-Si vous utilisez [!UICONTROL Enhanced Experienced Composer] sur un site non actif, tel qu’un environnement d’évaluation, vous pouvez voir des délais d’expiration et des erreurs d’accès refusé si votre site bloque les RIP.
+Si vous utilisez le [!UICONTROL compositeur d’expérience amélioré] sur un site non actif, tel qu’un environnement d’évaluation, des délais d’expiration et des erreurs d’accès refusé peuvent s’afficher si votre site bloque les RIP.
 
 +++
 
@@ -342,7 +334,7 @@ Un élément ne peut pas être déplacé en dehors d’un conteneur qui est suiv
 
 +++
 
-### Vous ne pouvez pas sélectionner l’élément [!UICONTROL Button] pour réorganiser.
+### Vous ne pouvez pas sélectionner l’élément [!UICONTROL Button] pour le réorganiser.
 
 +++Détails
 Les éléments [!UICONTROL Button] ne peuvent pas être sélectionnés directement pour la réorganisation. Pour activer la réorganisation, placez les boutons dans un conteneur plus grand.
@@ -352,7 +344,7 @@ Les éléments [!UICONTROL Button] ne peuvent pas être sélectionnés directeme
 ### Seules les offres de permutation sont disponibles sur les mbox.
 
 +++Détails
-Les actions telles que [!UICONTROL Edit Class] et [!UICONTROL Rearrange] ne sont pas autorisées dans une mbox.
+Les actions telles que [!UICONTROL Modifier la classe] et [!UICONTROL Réorganiser] ne sont pas autorisées dans une mbox.
 
 +++
 
@@ -363,12 +355,12 @@ Si un élément a été déplacé vers un autre emplacement et que vous sélecti
 
 +++
 
-### L’action [!UICONTROL Change Image] ne fonctionne pas sur une image d’un carrousel.
+### L’action [!UICONTROL Modifier l’image] ne fonctionne pas sur une image d’un carrousel.
 
 +++Détails
-Si, par exemple, votre page contient un carrousel avec six images et que vous souhaitez permuter une image avec la deuxième image du carrousel, l’action [!UICONTROL Change Image] ne fonctionne pas.
+Si, par exemple, votre page contient un carrousel avec six images et que vous souhaitez permuter une image avec la deuxième image du carrousel, l’action [!UICONTROL Modifier l’image] ne fonctionne pas.
 
-La solution consiste à sélectionner le conteneur parent et à utiliser l’action [!UICONTROL Edit HTML] pour modifier l’HTML du carrousel afin de mettre à jour la source d’image de l’image souhaitée.
+La solution consiste à sélectionner le conteneur parent et à utiliser l’action [!UICONTROL Modifier HTML] pour modifier l’HTML du carrousel afin de mettre à jour la source d’image de l’image souhaitée.
 
 +++
 
@@ -379,7 +371,7 @@ Si vous permutez une image dans un élément de mbox, puis tentez de redimension
 
 +++
 
-### Après avoir permuté une image, vous ne pouvez pas sélectionner l’action [!UICONTROL Edit].
+### Après avoir permuté une image, vous ne pouvez pas sélectionner l’action [!UICONTROL  Modifier ].
 
 +++Détails
 Une fois que vous avez permuté l’image, vous ne pouvez pas modifier l’URL de Scene7.
@@ -436,7 +428,7 @@ Le script est exécuté dans la portée de `target.js` après le chargement de l
 
 +++
 
-### L’insertion d’une image à partir de la bibliothèque [!UICONTROL Content] (Scene7) et la modification de l’HTML rompent l’URL de l’image.
+### L’insertion d’une image à partir de la bibliothèque [!UICONTROL Content] (Scene7) et la modification de l’HTML rompt l’URL de l’image.
 
 +++Détails
 Ajoutez un élément d’ancre à l’intérieur de l’élément div « customHeaderMessage » avec du texte de remplissage :
@@ -447,7 +439,7 @@ Ajoutez un élément d’ancre à l’intérieur de l’élément div « custom
 </a>
 ```
 
-Sélectionnez cette balise div à l’aide de l’action [!UICONTROL Insert Element] pour insérer une image comme sœur de cette balise div de texte factice.
+Sélectionnez cette balise div à l’aide de l’action [!UICONTROL Insérer un élément] pour insérer une image en tant que sœur de cette balise div de texte factice.
 
 Après l’insertion de l’image, vous obtenez ceci :
 
@@ -472,6 +464,6 @@ En raison des limitations d’IE8 lors de la gestion du contenu du script, `targ
 ### Le suivi des clics est uniquement pris en charge sur la page sur laquelle les expériences sont créées ou sur la page de redirection.
 
 +++Détails
-Bien que [!UICONTROL Browse] mode soit disponible pour le suivi des clics dans le VEC, [!UICONTROL Browse] mode ne peut pas être utilisé pour ajouter le suivi des clics sur une page.
+Bien que le mode [!UICONTROL Parcourir] soit disponible pour le suivi des clics dans le VEC, le mode [!UICONTROL Parcourir] ne peut pas être utilisé pour ajouter le suivi des clics sur une page.
 
 +++

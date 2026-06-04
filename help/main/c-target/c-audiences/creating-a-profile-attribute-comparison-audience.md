@@ -5,18 +5,13 @@ title: Puis-je comparer deux attributs de profil à utiliser dans les audiences 
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 TQID: https://experienceleague.adobe.com/ri17ME4xHa-HoBjcwOg4fnG7QwIoy2r9Pa3-tB-ECJ8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 428
-ht-degree: 52%
+source-wordcount: 444
+ht-degree: 55%
 
 ---
 
@@ -26,11 +21,11 @@ Définissez une audience dans [!DNL Adobe Target] de comparer deux attributs de 
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement pour la catégorie [[!UICONTROL Visitor Profile]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+>Cette fonctionnalité est disponible uniquement pour la catégorie [[!UICONTROL Profil du visiteur]](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Aperçu {#section_303CBC78194D49A2A004945D425441E1}
 
-Les audiences sont définies par des règles qui déterminent qui est inclus ou exclu d’une activité [!DNL Target]. Une définition d’audience peut inclure de multiples règles, et chaque règle peut inclure des paramètres multiples. Si l’une des règles que vous incluez utilise la catégorie [!UICONTROL Visitor Profile] , vous pouvez définir une règle en fonction de la valeur spécifique d’un attribut de profil du visiteur ou comparer la valeur de cet attribut à un autre attribut de profil du visiteur.
+Les audiences sont définies par des règles qui déterminent qui est inclus ou exclu d’une activité [!DNL Target]. Une définition d’audience peut inclure de multiples règles, et chaque règle peut inclure des paramètres multiples. Si l’une des règles que vous incluez utilise la catégorie [!UICONTROL Profil du visiteur], vous pouvez définir une règle en fonction de la valeur spécifique d’un attribut de profil du visiteur ou comparer la valeur de cet attribut à un autre attribut de profil du visiteur.
 
 Supposons, par exemple, que vous travailliez pour une entreprise de meubles et que vous ayez chargé deux scores de propension des clients dans [!DNL Target] :
 
@@ -43,10 +38,10 @@ Pour plus d’informations, voir [Méthodes pour obtenir des données dans Targe
 
 ## Création d’une audience de comparaison d’attributs de profil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser et déposez **[!UICONTROL Visitor Profile]** dans le volet du Créateur d’audiences.
-1. Dans la liste déroulante **[!UICONTROL Visitor Profile]** , choisissez un attribut :
+1. Faites glisser et déposez **[!UICONTROL Profil du visiteur]** dans le volet du créateur d’audiences.
+1. Dans la liste déroulante **[!UICONTROL Profil de visiteur]**, choisissez un attribut :
 
    ![Score de propension 1](assets/propensity_score_1.png)
 
@@ -54,7 +49,7 @@ Pour plus d’informations, voir [Méthodes pour obtenir des données dans Targe
 
    ![Score de propension 2](assets/propensity_score_2.png)
 
-1. Dans la liste déroulante **[!UICONTROL Choose Comparison Type]** , choisissez **[!UICONTROL Attribute]**.
+1. Dans la liste déroulante **[!UICONTROL Choisir un type de comparaison]**, choisissez **[!UICONTROL Attribut]**.
 
    Le type de comparaison « valeur statique » permet de comparer l’attribut de profil du visiteur à des valeurs spécifiques.
 
@@ -68,10 +63,10 @@ Pour plus d’informations, voir [Méthodes pour obtenir des données dans Targe
 
    ![image propension_score_4](assets/propensity_score_4.png)
 
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 ## Vidéo de formation ![Badge d’aperçu](/help/main/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Pour plus d’informations et obtenir un scénario dans lequel vous pourriez utiliser cette fonction, regardez la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/328089?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)

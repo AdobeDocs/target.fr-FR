@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '483'
 ht-degree: 8%
 
 ---
@@ -63,8 +63,8 @@ Lorsqu’un attribut d’entité, un attribut de profil ou un paramètre mbox es
 
 Les opérateurs suivants peuvent être utilisés avec les attributs d’entité à plusieurs valeurs, de profil et de mbox :
 
-* [!UICONTROL is contained in list]
-* [!UICONTROL is not contained in list]
+* [!UICONTROL est contenu dans la liste]
+* [!UICONTROL n’est pas contenu dans la liste]
 
 ## Utilisation d’attributs à plusieurs valeurs dans les règles d’inclusion
 

@@ -5,16 +5,13 @@ title: Comment Créer Des Audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 TQID: https://experienceleague.adobe.com/-t5UqbGCl2EwCyScCq1B8X9bWxQQYWSd0e7RBoUoYQg
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 525
-ht-degree: 51%
+source-wordcount: 538
+ht-degree: 50%
 
 ---
 
@@ -46,11 +43,11 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent [!DNL Chrome] 
 
    ![image audience_list](assets/audiences_list.png)
 
-1. Dans la liste [!UICONTROL Audiences], cliquez sur **[!UICONTROL Create Audience]**.
+1. Dans la liste [!UICONTROL  Audiences ], cliquez sur **[!UICONTROL Créer une audience]**.
 
    Ou
 
-   Pour copier une audience existante, à partir de la liste [!UICONTROL Audiences], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallListVert.svg) ) de l’audience à copier, puis cliquez sur **[!UICONTROL Duplicate]**. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
+   Pour copier une audience existante, dans la liste [!UICONTROL Audiences], cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallListVert.svg) ) de l’audience à copier, puis cliquez sur **[!UICONTROL Dupliquer]**. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 1. Saisissez un nom d’audience unique et descriptif, ainsi qu’une description facultative.
 
@@ -62,7 +59,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent [!DNL Chrome] 
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. Faites glisser et déposez les attributs de votre choix de la liste de **[!UICONTROL Attributes]** à gauche vers le volet du créateur d’audiences.
+1. Faites glisser et déposez les attributs de votre choix depuis la liste **[!UICONTROL Attributs]** à gauche vers le volet du créateur d’audiences.
 
    ![Attributs glisser-déposer](assets/drag-attribute.png)
 
@@ -72,13 +69,13 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent [!DNL Chrome] 
 
    Par exemple, l’audience suivante cible les visiteurs de l’Utah à l’aide du système d’exploitation [!DNL Macintosh].
 
-   ![&#x200B; Audience Utah/Macintosh &#x200B;](assets/adience-builder.png)
+   ![ Audience Utah/Macintosh ](assets/adience-builder.png)
 
 1. (Conditionnel) Continuez à ajouter et à définir les attributs souhaités.
 
-   Pour créer un autre conteneur, cliquez sur **[!UICONTROL Add container]** ou faites simplement glisser un autre attribut dans le volet du Créateur d’audience. Vous pouvez ensuite ajuster l’opérateur (ET ou OU) à l’aide de la liste déroulante.
+   Pour créer un autre conteneur, cliquez sur **[!UICONTROL Ajouter un conteneur]** ou faites simplement glisser un autre attribut dans le volet du Créateur d’audience. Vous pouvez ensuite ajuster l’opérateur (ET ou OU) à l’aide de la liste déroulante.
 
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
    Les audiences nouvellement créées s’affichent dans la liste après un délai de traitement de quelques secondes. Si l’audience ne s’affiche pas immédiatement dans la liste, recherchez-la ou actualisez la liste.
 

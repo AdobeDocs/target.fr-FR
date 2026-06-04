@@ -5,24 +5,19 @@ title: Comment résoudre les problèmes du compositeur d’expérience visuelle 
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 TQID: https://experienceleague.adobe.com/Dlh0ovXPkgDgeMvcWi2GChACuDmYWKuFRH7Kx4VPrYw
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 244
-ht-degree: 67%
+source-wordcount: 250
+ht-degree: 66%
 
 ---
 
 # Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
 
-Dans certaines conditions, des problèmes d&#39;affichage se produisent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Adobe Target] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE).
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) et le [!UICONTROL Compositeur d’expérience avancé] (EEC) sous certaines conditions.
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Il s’agit d’un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 

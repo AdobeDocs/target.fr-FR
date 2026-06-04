@@ -5,15 +5,12 @@ title: Quelles modifications puis-je apporter à ma page ?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 TQID: https://experienceleague.adobe.com/sOgNlejLNcnSwKf46-AHRXTLkM5Y6laB7QMLu5oYBUU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2226
-ht-degree: 72%
+source-wordcount: 2263
+ht-degree: 82%
 
 ---
 
@@ -21,11 +18,11 @@ ht-degree: 72%
 
 Informations sur la page [!UICONTROL Modifications] dans [!DNL Adobe Target] qui vous permettent d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 
-La page [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et en [sélectionnant une action](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous apportez apparaît comme une action ou un élément distinct dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
+La page [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et en [sélectionnant une action](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
 
 ## Présentation des modifications {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-La page [!UICONTROL Modifications] affiche toutes les modifications qui ont été apportées à votre page dans le compositeur d’expérience visuelle. Chaque modification que vous apportez apparaît comme une action ou un élément distinct dans la liste [!UICONTROL Modifications].
+La page [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le VEC. Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications].
 
 ![image codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
@@ -37,7 +34,7 @@ Utilisez la page Modifications pour :
 
   ![image codeeditor_viewchange](assets/codeeditor_viewchange.png)
 
-* Modifier une action existante. Pointez sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Edit]** .
+* Modifier une action existante. Passez le curseur de la souris sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
@@ -45,17 +42,17 @@ Utilisez la page Modifications pour :
 
   ![image codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
-* Supprimer une action existante. Pointez sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Delete]** .
+* Supprimer une action existante. Passez le curseur de la souris sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Supprimer]**.
 
   ![image codeditor_delete](assets/codeditor_delete.png)
 
-* Ajouter une nouvelle modification. Cliquez sur **[!UICONTROL Add Modification]** ou sur l’icône +, puis spécifiez vos modifications comme décrit ci-dessous.
+* Ajouter une nouvelle modification. Cliquez sur **[!UICONTROL Ajouter une modification]** ou sur l’icône +, puis spécifiez vos modifications comme décrit ci-dessous.
 
   ![codeeditor_new image](assets/codeeditor_new.png)
 
   Notez qu’après la création d’une modification, Target affiche une icône + en haut du panneau Modifications au lieu du bouton Ajouter une modification au bas du panneau.
 
-* Ancrez le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Cliquez sur l’icône [!UICONTROL Dock] pour basculer entre les deux paramètres.
+* Ancrez le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Cliquez sur l’icône d’[!UICONTROL ancrage] pour passer d’un paramètre à l’autre.
 
   ![image codeditor_dock](assets/codeditor_dock.png)
 
@@ -65,7 +62,7 @@ Utilisez la page Modifications pour :
 
 ## Ajouter des modifications {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. Pour afficher la page de [!UICONTROL Modifications] d’une expérience sélectionnée, dans le compositeur d’expérience visuelle, cliquez sur l’icône **[!UICONTROL Modifications]** &lt;/>.
+1. Pour afficher la page [!UICONTROL Modifications] d’une expérience sélectionnée, dans le VEC, cliquez sur l’icône &lt;/> **[!UICONTROL Modifications]**.
 
    ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
@@ -73,36 +70,36 @@ Utilisez la page Modifications pour :
    >
    >Pour ouvrir le panneau Modifications dans le Compositeur d’expérience basé sur les formulaires, créez ou modifiez une offre HTML. Pour plus d’informations, voir [Compositeur d’expérience basé sur un formulaire](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
-   La page [!UICONTROL Modifications] s’ouvre et divise l’écran entre le mode visuel à gauche et le panneau Modifications à droite. Cliquez sur l’icône [!UICONTROL Dock] pour ancrer le panneau Modifications verticalement le long du côté de l’interface utilisateur de Target ou horizontalement en bas. Notez que l’expérience A dans l’illustration suivante ne comporte aucune modification précédente.
+   La page [!UICONTROL Modifications] s’ouvre, divisant l’écran entre le mode visuel à gauche et le panneau Modifications à droite. Cliquez sur l’icône d’[!UICONTROL ancrage] pour ancrer le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Notez que l’expérience A dans l’illustration suivante ne comporte aucune modification précédente.
 
    ![image codeeditor_page](assets/codeeditor_page.png)
 
-   L’expérience B affiche les modifications précédentes dans le panneau [!UICONTROL Modifications] à droite.
+   L’expérience B affiche les modifications précédentes dans le panneau [!UICONTROL Modifications] sur la droite.
 
    ![image codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 1. Pour ajouter une modification :
 
-   * Si aucune modification précédente n’a été apportée à l’expérience, cliquez sur le bouton **[!UICONTROL Add Modification]** en bas du panneau [!UICONTROL Modifications] sur le côté droit.
-   * S’il existe des modifications précédentes pour l’expérience, cliquez sur l’icône + en haut du panneau [!UICONTROL Modifications] sur le côté droit.
+   * Si aucune modification précédente de l’expérience n’a été effectuée, cliquez sur le bouton **[!UICONTROL Ajouter une modification]** au bas du panneau [!UICONTROL Modifications] sur le côté droit.
+   * S’il existe des modifications précédentes pour l’expérience, cliquez sur l’icône + en haut du panneau [!UICONTROL Modifications] sur le côté droit.
 
    Le panneau Modifications s’affiche :
 
    ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
-1. Dans la liste déroulante **[!UICONTROL Modifications Type]** , choisissez le type souhaité :
+1. Dans la liste déroulante **[!UICONTROL Type de modification]**, sélectionnez le type souhaité :
 
    | Type de modification | Détails |
    |--- |--- |
    | Sélecteur CSS | Dans la zone Sélecteur d’élément CSS, spécifiez l’élément CSS souhaité que vous souhaitez modifier, sélectionnez un type d’action (Définir contenu ou Définit attribut), puis renseignez les informations requises et le contenu souhaité. |
    | Mbox | Spécifiez le nom de la mbox et le contenu souhaité.<p>**Remarque** : les mbox ne sont plus prises en charge dans le VEC dans les pages qui utilisent at.js 2.*x*.<p>Pour pallier ce problème :<ul><li>Si vous utilisez at.js 2.*x*, ajoutez une modification au sélecteur CSS au lieu d’une modification de mbox et ajoutez le contenu sur le sélecteur utilisé par votre mbox. </li><li>Utiliser des activités basées sur des formulaires (fonctionne avec les fichiers mbox *at.js 1.* x et at.js 2.*x*).</li><li>Utilisez at.js 1.*x* dans le VEC.</li></ul> |
-   | Code personnalisé | Spécifiez un nom facultatif, activez ou désactivez la case à cocher [!UICONTROL Add Code in the `<HEAD>` la section] selon vos besoins, puis ajoutez votre code personnalisé.<p>Si vous sélectionnez [!UICONTROL Add Code in the `<HEAD>` section &#x200B;], le code personnalisé est ajouté à la section `<head>` et son exécution n’attend pas les événements de chargement de corps ou de page. Ajoutez uniquement les éléments `<script>` et `<style>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p> Si vous désélectionnez [!UICONTROL Add Code in the `<HEAD>` section] le code personnalisé s’exécute immédiatement après la balise `<body>`. Entourez tout le code dans une seule balise `<div>` pour préserver la structure DOM. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p>Si HTML for `<BODY>` contient `<SCRIPT>` et `<DIV>`, `<DIV>` est ajouté à `<BODY>` et `<SCRIPT>` est exécuté dans `<HEAD>`. En outre, `<SCRIPT>` qui charge un fichier externe est ajouté à `<HEAD>`.<p>**Remarque** : les scripts sont exécutés de manière asynchrone. Cela signifie que vous ne pouvez pas, par exemple, utiliser `document.write` ou des méthodes de script similaires.<p>Le code personnalisé offre une interface non visuelle pour afficher, modifier ou ajouter de nouvelles actions dans le VEC, le compositeur d’expérience d’après les formulaires et l’éditeur d’offres HTML. Le panneau fournit une vue de code d’une expérience pour vous aider à créer des expériences plus complexes, à optimiser les expériences existantes et à résoudre les problèmes.<p>Le code personnalisé est destiné aux utilisateurs avancés à l’aise avec HTML, JavaScript et CSS. L’affichage du code peut vous aider à ajuster les modifications ou à corriger les problèmes de sélecteur. Vous pouvez également l’utiliser pour ajouter un nouveau code personnalisé et des actions. Vous pouvez ajouter plusieurs codes personnalisés et si vous le souhaitez nommer chaque code personnalisé.<p>**Remarque** : le code personnalisé est actuellement disponible pour les activités A/B et de ciblage d’expérience (XT) uniquement. Le code personnalisé est désactivé pour les superpositions et si une offre de redirection est appliquée.<p>Le code personnalisé prend en charge les cas d’utilisation suivants :<ul><li>Ajout de code JavaScript, HTML ou CSS personnalisé à exécuter dans la partie supérieure de la page</li><li>Affichage ou modification du code généré par VEC après l’apport de modifications</li><li>Définition du contenu HTML pour un sélecteur (sélecteurs CSS uniquement)</li><li>Définition d’un attribut sur un élément HTML</li><li>Ajout du contenu d’offre à diffuser dans une mbox régionale</li><li>Permutation sur DOM-ready, à l’aide de jQuery</li><li>Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)</li><li>Permutation avec DOM-polling via le module externe « elementOnLoad »</li><li>Redirection personnalisée</li></ul>Le code personnalisé fournit :<ul><li>Des numéros de ligne pour une utilisation plus conviviale.</li><li>Un surlignage de la syntaxe pour vous aider à éviter une syntaxe incorrecte pour les offres HTML.</li><li>La possibilité de créer plusieurs codes personnalisés et de fournir un nom facultatif pour chacun d’eux. La création de plusieurs codes personnalisés facilite le débogage futur. Par exemple, au lieu de créer un seul code personnalisé pour accomplir plusieurs modifications, vous pouvez créer un code personnalisé distinct pour chaque modification avec un nom explicite. Si vous disposez de codes personnalisés distincts, vos modifications sont plus modulaires et faciles à gérer. Notez que l’exécution de plusieurs codes personnalisés dans une activité n’est pas garantie dans la séquence dans laquelle ils ont été créés.</li></ul>Le panneau Modifications divise l’écran entre le mode visuel et le mode de code. Les deux modes restent synchronisés. Chaque modification apportée visuellement comporte une ligne correspondante dans l’affichage du code. De même, chaque modification validée dans l’affichage du code apparaît dans l’expérience visuelle. Le fait de cliquer sur une ligne dans l’affichage du code sélectionne l’élément correspondant sur la page visuelle.<p>Le code personnalisé prend en charge HTML, les scripts et les styles. Vous pouvez ajouter ou modifier tout code HTML ou script valide. |
+   | Code personnalisé | Spécifiez un nom facultatif, activez ou désactivez la case à cocher [!UICONTROL Ajouter du code dans la section `<HEAD>`] selon vos besoins, puis ajoutez votre code personnalisé.<p>Si vous sélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé est ajouté à la section `<head>` et son exécution n’attend pas les événements de chargement de corps ou de page. Ajoutez uniquement les éléments `<script>` et `<style>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p> Si vous désélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé s’exécute immédiatement après la balise `<body>`. Entourez tout le code dans une seule balise `<div>` pour préserver la structure DOM. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p>Si HTML for `<BODY>` contient `<SCRIPT>` et `<DIV>`, `<DIV>` est ajouté à `<BODY>` et `<SCRIPT>` est exécuté dans `<HEAD>`. En outre, `<SCRIPT>` qui charge un fichier externe est ajouté à `<HEAD>`.<p>**Remarque** : les scripts sont exécutés de manière asynchrone. Cela signifie que vous ne pouvez pas, par exemple, utiliser `document.write` ou des méthodes de script similaires.<p>Le code personnalisé offre une interface non visuelle pour afficher, modifier ou ajouter de nouvelles actions dans le VEC, le compositeur d’expérience d’après les formulaires et l’éditeur d’offres HTML. Le panneau fournit une vue de code d’une expérience pour vous aider à créer des expériences plus complexes, à optimiser les expériences existantes et à résoudre les problèmes.<p>Le code personnalisé est destiné aux utilisateurs avancés à l’aise avec HTML, JavaScript et CSS. L’affichage du code peut vous aider à ajuster les modifications ou à corriger les problèmes de sélecteur. Vous pouvez également l’utiliser pour ajouter un nouveau code personnalisé et des actions. Vous pouvez ajouter plusieurs codes personnalisés et si vous le souhaitez nommer chaque code personnalisé.<p>**Remarque** : le code personnalisé est actuellement disponible pour les activités A/B et de ciblage d’expérience (XT) uniquement. Le code personnalisé est désactivé pour les superpositions et si une offre de redirection est appliquée.<p>Le code personnalisé prend en charge les cas d’utilisation suivants :<ul><li>Ajout de code JavaScript, HTML ou CSS personnalisé à exécuter dans la partie supérieure de la page</li><li>Affichage ou modification du code généré par VEC après l’apport de modifications</li><li>Définition du contenu HTML pour un sélecteur (sélecteurs CSS uniquement)</li><li>Définition d’un attribut sur un élément HTML</li><li>Ajout du contenu d’offre à diffuser dans une mbox régionale</li><li>Permutation sur DOM-ready, à l’aide de jQuery</li><li>Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)</li><li>Permutation avec DOM-polling via le module externe « elementOnLoad »</li><li>Redirection personnalisée</li></ul>Le code personnalisé fournit :<ul><li>Des numéros de ligne pour une utilisation plus conviviale.</li><li>Un surlignage de la syntaxe pour vous aider à éviter une syntaxe incorrecte pour les offres HTML.</li><li>La possibilité de créer plusieurs codes personnalisés et de fournir un nom facultatif pour chacun d’eux. La création de plusieurs codes personnalisés facilite le débogage futur. Par exemple, au lieu de créer un seul code personnalisé pour accomplir plusieurs modifications, vous pouvez créer un code personnalisé distinct pour chaque modification avec un nom explicite. Si vous disposez de codes personnalisés distincts, vos modifications sont plus modulaires et faciles à gérer. Notez que l’exécution de plusieurs codes personnalisés dans une activité n’est pas garantie dans la séquence dans laquelle ils ont été créés.</li></ul>Le panneau Modifications divise l’écran entre le mode visuel et le mode de code. Les deux modes restent synchronisés. Chaque modification apportée visuellement comporte une ligne correspondante dans l’affichage du code. De même, chaque modification validée dans l’affichage du code apparaît dans l’expérience visuelle. Le fait de cliquer sur une ligne dans l’affichage du code sélectionne l’élément correspondant sur la page visuelle.<p>Le code personnalisé prend en charge HTML, les scripts et les styles. Vous pouvez ajouter ou modifier tout code HTML ou script valide. |
 
 1. Ajoutez d’autres modifications si nécessaire.
 
 ## Cas d’utilisation du code personnalisé {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-Le panneau **[!UICONTROL Custom Code]** contient le code qui est exécuté au début du chargement de la page.
+Le panneau **[!UICONTROL Code personnalisé]** contient du code exécuté au début du chargement de la page.
 
 Vous pouvez exécuter le code JavaScript dans la balise `<head>`. L’exécution du code n’attend pas que la balise `<body>` soit présente dans le DOM.
 
@@ -112,7 +109,7 @@ Le panneau Code personnalisé est généralement utilisé pour ajouter JavaScrip
 
 ![image codeeditor_custom](assets/codeeditor_custom.png)
 
-Utilisez l’onglet **[!UICONTROL Custom Code]** pour :
+Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 * Utiliser l’inline ou le lien JavaScript vers un fichier JavaScript
 

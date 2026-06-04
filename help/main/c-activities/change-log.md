@@ -5,27 +5,23 @@ title: Comment puis-je voir un journal des modifications d’activités ?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 TQID: https://experienceleague.adobe.com/YmadzVwbj4Hy1bk3Q7a0hp9oZ7-lSgl12ImQaEsiDwU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 180
+source-wordcount: 190
 ht-degree: 12%
 
 ---
 
 # Journal des modifications d’activité
 
-Le [!UICONTROL Change Log] [!DNL Adobe Target] enregistre les actions d’activité, y compris les modifications apportées, les personnes qui les ont effectuées et le moment où elles se sont produites. La page [!UICONTROL Change Log] est renseignée pour les informations en temps réel.
+Le [!DNL Adobe Target] [!UICONTROL Journal des modifications] enregistre les actions d&#39;activité, y compris les modifications apportées, l&#39;auteur des modifications et le moment où elles se sont produites. La page [!UICONTROL Journal des modifications] est renseignée pour des informations en temps réel.
 
-Pour accéder à la page [!UICONTROL Change Log] :
+Pour accéder à la page [!UICONTROL Journal des modifications] :
 
-1. Cliquez sur **[!UICONTROL Activities]** > cliquez sur l’activité souhaitée dans la liste.
-1. Cliquez sur **[!UICONTROL Change Log]** dans le rail de gauche.
+1. Cliquez sur **[!UICONTROL Activités]** > sur l’activité souhaitée dans la liste.
+1. Cliquez sur **[!UICONTROL Journal des modifications]** dans le rail de gauche.
 
 L’action effectuée, la date à laquelle l’action a été effectuée et l’utilisateur ou l’utilisatrice qui a effectué l’action sont répertoriés chaque fois qu’une activité est créée, mise à jour, activée ou désactivée. Les modifications apportées aux cibles et offres personnalisées utilisées dans l’activité sont également répertoriées.
 

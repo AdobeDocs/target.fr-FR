@@ -5,17 +5,13 @@ title: Puis-je inclure la même expérience sur des pages similaires ?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 TQID: https://experienceleague.adobe.com/zk7U6g7gk7XkpWsEFQbwuCm7xbpIb1lCaZefxjn-39g
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 24%
+source-wordcount: 564
+ht-degree: 23%
 
 ---
 
@@ -40,33 +36,33 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
 
 1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Pour spécifier les pages où l’expérience s’affiche, dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur l’icône [!UICONTROL Configure] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. Pour spécifier les pages où l’expérience s’affiche, dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Cliquez sur **[!UICONTROL Add Rule]**, puis spécifiez les critères des pages auxquelles vous souhaitez ajouter l’expérience.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]**, puis spécifiez les critères des pages auxquelles vous souhaitez ajouter l’expérience.
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
-   * [!UICONTROL URL] (Pour plus d’informations sur la manière dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-   * [!UICONTROL Domain]
-   * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment] (cible la partie d’une URL qui suit le symbole #.)
-   * [!UICONTROL Query]
-   * [!UICONTROL Custom]
+   * [!UICONTROL URL] (pour plus d’informations sur la façon dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL Domaine]
+   * [!UICONTROL Chemin]
+   * [!UICONTROL Fragment de hachage (#)] (ciblez la partie d’une URL qui suit le symbole #.)
+   * [!UICONTROL Requête]
+   * [!UICONTROL Personnalisé]
 
 1. Sélectionnez un opérateur.
 
    L’opérateur indique comment les éléments après l’opérateur sont associés à la plage de pages. Les opérateurs disponibles sont les suivants :
 
-   * [!UICONTROL Contains]
-   * [!UICONTROL Does not contain]
-   * [!UICONTROL Is (case sensitive)]
-   * [!UICONTROL Is not]
-   * [!UICONTROL Starts with]
-   * [!UICONTROL Ends with]
+   * [!UICONTROL Contient]
+   * [!UICONTROL Ne contient pas]
+   * [!UICONTROL Est (sensible à la casse)]
+   * [!UICONTROL n’est pas]
+   * [!UICONTROL Commence par]
+   * [!UICONTROL Se termine par]
 
 1. Saisissez les chaînes qui définissent l’emplacement d’ajout de l’expérience, par exemple le domaine ou les chaînes contenues dans le nom de la page.
 
-   Par exemple, si vous sélectionnez **[!UICONTROL Domain]** et **[!UICONTROL Is (case sensitive)]**, saisissez le domaine dans lequel vous souhaitez que l’expérience soit ajoutée à toutes les pages.
+   Par exemple, si vous sélectionnez **[!UICONTROL Domaine]** et **[!UICONTROL Est (sensible à la casse)]**, saisissez le domaine dans lequel vous souhaitez que l’expérience soit ajoutée à toutes les pages.
 
    Vous pouvez inclure plusieurs éléments.
 
@@ -74,7 +70,7 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
    >
    >Plusieurs éléments utilisent la logique OR, ce qui signifie que tout élément unique de la liste rend la condition vraie.
 
-1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Add Rule]** et en répétant la procédure des étapes précédentes.
+1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter une règle]** et en répétant la procédure des étapes précédentes.
 
    Plusieurs critères sont associés avec la logique ET. [!DNL Target] ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
 
@@ -96,8 +92,8 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 
 1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Pour spécifier le domaine dans lequel l’expérience s’affiche, dans le [!UICONTROL Visual Experience Composer], cliquez sur l’icône [!UICONTROL Configure] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. Pour spécifier le domaine dans lequel l’expérience s’affiche, dans le [!UICONTROL compositeur d’expérience visuelle] cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Cliquez sur **[!UICONTROL Add Rule]** > **[!UICONTROL Domain]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Domaine]**.
 
-1. Dans la liste déroulante **[!UICONTROL Choose evaluator]** , sélectionnez **[!UICONTROL Contains]**, puis spécifiez le domaine.
+1. Dans la liste déroulante **[!UICONTROL Choisir l’évaluateur]**, sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.

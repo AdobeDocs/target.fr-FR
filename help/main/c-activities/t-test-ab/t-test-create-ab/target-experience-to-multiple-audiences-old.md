@@ -6,14 +6,14 @@ feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 53%
+source-wordcount: '608'
+ht-degree: 51%
 
 ---
 
 # Audiences d’expériences multiples dans un test A/B
 
-Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans des activités A/B [!DNL Adobe Target]. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL Visual Experience Composer] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
+Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans des activités A/B [!DNL Adobe Target]. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
 
 Les visiteurs peuvent basculer entre les audiences d’expérience à mesure que leur profil change. Les visiteurs ne sont pas bloqués dans la même expérience pendant toute la durée de vie de l’activité.
 
@@ -33,11 +33,11 @@ Dans ce cas, vous avez besoin de versions de l’expérience spécifiques à une
 
    Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
 
-1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audiences]** > **[!UICONTROL Audiences multiples]**.
 
    ![Option Audiences multiples](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. Cliquez sur **[!UICONTROL Add Audience]**, puis sélectionnez la première audience à cibler. Reproduisez cette procédure pour chaque audience.
+1. Cliquez sur **[!UICONTROL Ajouter une audience]**, puis sélectionnez la première audience à cibler. Reproduisez cette procédure pour chaque audience.
 
    ![image exp-versions](assets/exp-versions.png)
 

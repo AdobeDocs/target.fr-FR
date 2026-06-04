@@ -5,16 +5,12 @@ title: Comment créer une activité qui utilise A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 652
+source-wordcount: 662
 ht-degree: 28%
 
 ---
@@ -29,7 +25,7 @@ Avant de configurer une activité qui utilise [!DNL Analytics] comme source de c
 
 La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme source de création de rapports est similaire à la configuration d’une activité [!DNL Target] normale, à quelques différences importantes près. Par exemple, vous ne pouvez pas sélectionner un segment pour le compte rendu des performances lors de la création de l’activité, car tous les segments disponibles dans [!DNL Analytics] peuvent être appliqués lors de l’affichage d’un rapport.
 
-1. Cliquez sur **[!UICONTROL Create Activity]**.
+1. Cliquez sur **[!UICONTROL Créer l’activité]**.
 
    >[!NOTE]
    >
@@ -39,9 +35,9 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
 1. Sélectionnez le type d’activité et commencez à configurer l’activité.
 
-   Pour plus d’informations sur la création d’une activité de [!UICONTROL Auto-Allocate] ou de [!UICONTROL Auto-Target], consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+   Si vous souhaitez créer une activité [!UICONTROL Affectation automatique] ou [!UICONTROL Ciblage automatique], consultez Prise en charge d’[A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) pour plus d’informations.
 
-1. Lorsque vous accédez à la partie **[!UICONTROL Settings]** du flux de création d’activités, choisissez **[!UICONTROL Adobe Analytics]** et spécifiez votre société.
+1. Lorsque vous accédez à la partie **[!UICONTROL Paramètres]** du flux de création d’activités, choisissez **[!UICONTROL Adobe Analytics]** et indiquez votre société.
 1. Sélectionnez une suite de rapports.
 
    Vous pouvez choisir n’importe quelle suite de rapports disponible dans [!DNL Analytics]. La suite de rapports définit l’emplacement où les données collectées sont disponibles. Les suites de rapports virtuelles ne sont pas incluses dans la liste des suites de rapports.
@@ -79,8 +75,8 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
    >
    >Lors de la configuration d’une activité après avoir configuré [!DNL Analytics] comme source de création de rapports, il n’existe aucune option permettant de configurer des audiences pour la création de rapports. [!DNL Analytics] segments sont disponibles dans le rapport Activités [!DNL Target].
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## A4T et les activités d’affectation automatique et de ciblage automatique
 
-Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).

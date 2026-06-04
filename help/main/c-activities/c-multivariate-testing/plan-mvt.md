@@ -1,24 +1,22 @@
 ---
 keywords: test multivarié;mvt;plan mvt;plan de test multivarié
-description: Découvrez comment planifier un [!UICONTROL Multivariate Test] in [!DNL Adobe Target] to afin de créer un test réussi.
-title: Comment planifier une [!UICONTROL Multivariate Test] ?
+description: Découvrez comment planifier un [!UICONTROL test multivarié] in [!DNL Adobe Target] to afin de créer un test réussi.
+title: Comment planifier un [!UICONTROL test multivarié] ?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 TQID: https://experienceleague.adobe.com/Fg9jOrPlkLxpbJdG-AKoWHD3YvIGEJPu7Os-RdfXvQA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 287
-ht-degree: 64%
+source-wordcount: 295
+ht-degree: 63%
 
 ---
 
-# Planifier une [!UICONTROL Multivariate Test]
+# Planification d’un [!UICONTROL test multivarié]
 
-[!UICONTROL Multivariate Tests] activités de test multivarié (MVT) dans [!DNL Adobe Target] nécessitent une certaine planification avant de pouvoir créer un test réussi.
+Les activités [!UICONTROL Tests multivariés] (MVT) dans [!DNL Adobe Target] nécessitent une planification avant de pouvoir créer un test réussi.
 
 MVT nécessite suffisamment de trafic pour générer des résultats utiles. Avant de configurer votre test, vous devez connaître le volume de trafic que vous obtenez généralement, y compris le nombre d’impressions et de conversions. Ces informations permettent de réduire les risques de conception d’un test dont les exigences excèdent le trafic sur votre site.
 
@@ -37,4 +35,4 @@ Cette vidéo explique comment planifier et créer un test multivarié à l’aid
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

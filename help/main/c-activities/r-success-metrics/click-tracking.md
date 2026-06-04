@@ -5,18 +5,13 @@ title: Qu’est-ce que le suivi des clics ?
 feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 TQID: https://experienceleague.adobe.com/Nk1MANDrtYMHmUQfcJi-gT-HoW1j--sikurxSloM2LU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 75%
+source-wordcount: 903
+ht-degree: 76%
 
 ---
 
@@ -30,36 +25,36 @@ ht-degree: 75%
 
 ## Configuration du suivi des clics {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Lorsque vous définissez vos objectifs sur la page [!UICONTROL Goals & Settings] de votre activité , sélectionnez la mesure de succès **[!UICONTROL Conversion]**.
-1. Pour l’action, sélectionnez **[!UICONTROL Clicked an element]**, puis cliquez sur **[!UICONTROL Select elements]**.
+1. Lorsque vous définissez vos objectifs sur la page [!UICONTROL Objectifs et paramètres] pour votre activité, sélectionnez la mesure de succès **[!UICONTROL Conversion]**.
+1. Pour l’action, sélectionnez **[!UICONTROL A cliqué sur un élément]**, puis cliquez sur **[!UICONTROL Sélectionner un élément]**.
 
-   Votre page s’ouvre dans le [!UICONTROL Visual Experience Composer] (VEC).
+   La page s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC).
 
 1. Sélectionnez l’élément pour lequel vous souhaitez effectuer le suivi.
 
    Pour des conseils sur la sélection des éléments, voir *Points à prendre en compte*.
 
-1. Cliquez sur **[!UICONTROL Done]** dans la partie supérieure de l’écran pour enregistrer vos sélections.
+1. Cliquez sur **[!UICONTROL Terminé]** dans la partie supérieure de l’écran pour enregistrer vos sélections.
 
 Lorsqu’un participant à une activité clique sur un élément sélectionné, le clic est comptabilisé comme une conversion.
 
 ## Panneau Éléments sélectionnés {#selected-elements}
 
-Pour les activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Multivariate Test] (MVT), un panneau [!UICONTROL Selected Elements] répertorie les éléments sélectionnés pour le suivi des clics sur le côté gauche.
+Pour les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Test multivarié] (MVT), un panneau [!UICONTROL Éléments sélectionnés] répertorie les éléments sélectionnés pour le suivi des clics sur le côté gauche.
 
 ![Panneau Éléments sélectionnés](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Plusieurs actions peuvent être appliquées lorsque vous cliquez sur un élément dans le panneau [!UICONTROL Tracked Components]. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
+Plusieurs actions peuvent être appliquées lorsque vous cliquez sur un élément dans le panneau [!UICONTROL Composants suivis]. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
 
 | Action | Description |
 | --- | --- |
-| [!UICONTROL Tracked actions] | Affiche l’action de l’élément. |
-| [!UICONTROL CSS selector] | Permet de modifier le sélecteur CSS. |
+| [!UICONTROL  Actions suivies ] | Affiche l’action de l’élément. |
+| [!UICONTROL  Sélecteur CSS ] | Permet de modifier le sélecteur CSS. |
 | [!DNL Delete] | Supprime l’élément. |
 
 ### Ajoute un élément
 
-Si vous connaissez déjà le chemin d’accès DOM vers le sélecteur, vous pouvez l’ajouter manuellement en cliquant sur l’icône [!UICONTROL Add Component] dans la partie supérieure du panneau.
+Si vous connaissez déjà le chemin d’accès DOM vers le sélecteur, vous pouvez l’ajouter manuellement en cliquant sur l’icône [!UICONTROL Ajouter un composant] dans la partie supérieure du panneau.
 
 ## Considérations {#considerations}
 
@@ -116,7 +111,7 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 Cette vidéo comporte des informations sur la création de mesures de suivi des clics.
 
 * Comprendre les mesures d’« objectif »
-* Comprendre et créer des mesures [!UICONTROL Conversion], [!UICONTROL Revenue] et [!UICONTROL Engagement]
+* comprendre et créer des mesures [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement] ;
 * Créer une mesure de suivi des clics
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

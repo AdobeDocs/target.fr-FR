@@ -1,17 +1,17 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de déterminer si vous disposez d’un trafic suffisant pour que votre activité  [!DNL Adobe Target] [!UICONTROL Multivariate Test] réussisse.
-title: Quelle quantité de trafic est nécessaire pour une activité [!UICONTROL Multivariate Test] (MVT) ?
+description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de déterminer si vous disposez d’un trafic suffisant pour que votre activité  [!DNL Adobe Target] [!UICONTROL  test multivarié ] réussisse.
+title: Quelle quantité de trafic est nécessaire pour une activité [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 53%
+source-wordcount: '512'
+ht-degree: 51%
 
 ---
 
-# Estimation du trafic requis pour la réussite d’une activité [!UICONTROL Multivariate Test]
+# Estimation du trafic requis pour la réussite d’une activité de [!UICONTROL test multivarié]
 
 Un test multivarié comparant plusieurs expériences, il est important de connaître le volume de trafic requis pour fournir des résultats significatifs. L’estimateur de trafic utilise des statistiques relatives à votre page ainsi que le nombre d’expériences en cours de test afin d’estimer le volume de trafic et la durée du test requis pour assurer le succès de ce dernier.
 
@@ -25,18 +25,18 @@ Le test utilise la correction de Bonferroni pour effectuer des corrections pour 
 
 L’estimateur de trafic fournit également des commentaires qui vous permettent de savoir si votre volume de trafic est suffisant pour que le test que vous avez conçu réussisse.
 
-1. Dans la [!UICONTROL Visual Experience Composer], cliquez sur l’icône **[!UICONTROL Traffic]** .
+1. Dans le [!UICONTROL Compositeur d’expérience visuelle], cliquez sur l’icône **[!UICONTROL Trafic]**.
 
-   L’estimateur de trafic s’ouvre. Vous pouvez de nouveau cliquer sur l’icône **[!UICONTROL Traffic]** pour masquer l’estimateur de trafic.
+   L’estimateur de trafic s’ouvre. Cliquez à nouveau sur l’icône **[!UICONTROL Trafic]** pour masquer l’estimateur de trafic.
 
    ![image estimatorempty](assets/estimatorempty.png)
 
 1. Inscrivez le taux de conversion type, l’estimation du nombre de visiteurs par jour et la durée du test.
 
-   * **[!UICONTROL Number of Content Combinations]** : calculé automatiquement en fonction du nombre d’expériences créées dans le cadre de votre activité après chaque exclusion.
-   * **[!UICONTROL Typical Conversion Rate]** : le taux de conversion est exprimé en pourcentage, en fonction de votre estimation ou des données antérieures de votre système d’analyse.
-   * **[!UICONTROL Estimated Visitors Per Day]** : il s’agit du nombre de visiteurs et visiteuses susceptibles d’afficher cette page en fonction des critères de ciblage. Cela peut être basé sur vos données d’analyse.
-   * **[!UICONTROL Test Duration]** : nombre de jours pendant lesquels l’activité doit s’exécuter.
+   * **[!UICONTROL Nombre de combinaisons de contenu]** : calculé automatiquement en fonction du nombre d’expériences créées dans le cadre de votre activité après toute exclusion.
+   * **[!UICONTROL Taux de conversion standard]** : le taux de conversion est exprimé en pourcentage, en fonction de votre estimation ou des données antérieures de votre système d’analyse.
+   * **[!UICONTROL Estimation de visiteurs par jour]** : il s’agit du nombre de visiteurs et visiteuses susceptibles d’afficher cette page en fonction des critères de ciblage. Cela peut être basé sur vos données d’analyse.
+   * **[!UICONTROL Durée du test]** : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
 
    L’estimateur de trafic utilise ces statistiques pour déterminer les ajustements requis pour exécuter un test réussi.
 

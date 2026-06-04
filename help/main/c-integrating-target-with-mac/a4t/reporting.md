@@ -5,18 +5,13 @@ title: Comment utiliser les rapports dans A4T ?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1269
-ht-degree: 38%
+source-wordcount: 1316
+ht-degree: 41%
 
 ---
 
@@ -34,7 +29,7 @@ Les rapports [!DNL Analytics] et [!DNL Target] mesurent les visiteurs et visiteu
 
 Chaque fois qu’un visiteur voit le contenu de l’activité sur la page, [!DNL Target] appelle directement le [!DNL Analytics] serveur à serveur, y compris l’activité et l’expérience qu’il a vues. [!DNL Target] appelle également [!DNL Analytics] chaque fois que la conversion est effectuée. [!DNL Analytics] ajoute la conversion sous la forme d’un nouvel événement [!DNL Analytics] spécifique nommé « Conversion d’activité », qui est suivi avec d’autres données collectées par [!DNL Analytics].
 
-Lorsque l’opération [!UICONTROL Select] est utilisée et que vous effectuez un tri sur *Participants*, seules les expériences ayant reçu des participants au cours de la période sélectionnée s’affichent dans les rapports.
+Lorsque l’opération [!UICONTROL Sélectionner] est utilisée et que vous effectuez un tri sur *Participants*, seules les expériences ayant reçu des participants au cours de la période sélectionnée s’affichent dans les rapports.
 
 >[!NOTE]
 >
@@ -47,21 +42,21 @@ Dans [!DNL Analytics], plusieurs dimensions et mesures sont disponibles une fois
 ### Dimensions
 
 * [!UICONTROL Analytics for Target] - Identifiant parent transmis par l’intégration. Le format de cette dimension est `Activity ID:Experience ID:3rd ID`. Les dimensions ci-dessous sont des classifications de cette dimension.
-* [!UICONTROL Target Activities]
-* [!UICONTROL Target Experiences]
-* [!UICONTROL Target Activity] > [!UICONTROL Experience]
-* [!UICONTROL 3rd ID] - peut être ignoré
+* [!UICONTROL Activités Target]
+* [!UICONTROL Expériences Target]
+* [!UICONTROL Activité Target] > [!UICONTROL Expérience]
+* [!UICONTROL 3e ID] - peut être ignoré
 
 ### Mesures
 
-* [!UICONTROL Activity Impressions] - Correspond au numéro de [!UICONTROL Entrants] dans le rapport [!DNL Target].
-* [!UICONTROL Activity Conversions] - Correspond au numéro de [!UICONTROL Custom Conversions] dans le rapport [!DNL Target].
+* [!UICONTROL Impressions d’activité] - Correspond au nombre [!UICONTROL Participants] dans le rapport [!DNL Target].
+* [!UICONTROL Conversions d’activité] - Correspond au numéro [!UICONTROL Conversions personnalisées] du rapport [!DNL Target].
 
 Dans [!DNL Analysis Workspace], utilisez le panneau [!UICONTROL Analytics for Target] pour analyser en toute confiance vos activités et expériences [!DNL Target]. Pour plus d’informations, consultez [Panneau Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=fr) dans le *Guide des outils d’Analytics*.
 
 >[!IMPORTANT]
 >
->Si le rapport de [!UICONTROL Target Activities] dans [!DNL Analytics] répertorie « non spécifié » au lieu de répertorier vos activités, une mise à jour est requise sur le compte configuré. Contactez l’assistance à la clientèle pour résoudre ce problème.
+>Si votre rapport [!UICONTROL Activités Target] dans [!DNL Analytics] répertorie « non spécifié » au lieu de répertorier vos activités, une mise à jour est requise sur le compte configuré. Contactez l’assistance à la clientèle pour résoudre ce problème.
 
 Pour obtenir des informations détaillées et des exemples, reportez-vous au tutoriel [Analytics et Target : bonnes pratiques relatives à l’analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) fourni par Adobe Experience League.
 
@@ -69,8 +64,8 @@ Pour obtenir des informations détaillées et des exemples, reportez-vous au tut
 
 Lorsque [!DNL Analytics] est utilisé comme source de création de rapports, les rapports dans [!DNL Target] affichent les données collectées à partir de [!DNL Analytics]. Le rapport diffère quelque peu des autres rapports [!DNL Target] :
 
-* La liste [!UICONTROL Audiences] répertorie les audiences disponibles pour votre suite de rapports [!DNL Analytics].
-* La liste [!UICONTROL Metric] affiche toutes les mesures disponibles via [!DNL Analytics].
+* La liste [!UICONTROL Audiences] affiche les audiences disponibles pour votre suite de rapports [!DNL Analytics].
+* La liste [!UICONTROL Mesure] affiche chaque mesure disponible via [!DNL Analytics].
 
   Chaque mesure est disponible, y compris toute mesure personnalisée ou calculée intégrée à [!DNL Analytics].
 
@@ -82,7 +77,7 @@ Cliquez pour afficher le rapport d’[!DNL Analytics] complet directement à par
 
 ## Création de l’activité {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-Lors de la création de l’activité, vous devez spécifier un objectif pour l’activité sur la page de [!UICONTROL Settings]. Cet objectif devient la mesure par défaut du rapport et est systématiquement répertorié en tant que première option dans le sélecteur de mesures. Vous ne pouvez pas sélectionner de segments pour la création de rapports comme vous le feriez pour une activité classique Target. Un test avec [!DNL Analytics] utilise des segments [!DNL Adobe Analytics] plutôt que des audiences [!DNL Target].
+Au cours de la création de l’activité, vous devez indiquer un objectif pour cette dernière dans la page [!UICONTROL Paramètres]. Cet objectif devient la mesure par défaut du rapport et est systématiquement répertorié en tant que première option dans le sélecteur de mesures. Vous ne pouvez pas sélectionner de segments pour la création de rapports comme vous le feriez pour une activité classique Target. Un test avec [!DNL Analytics] utilise des segments [!DNL Adobe Analytics] plutôt que des audiences [!DNL Target].
 
 ## Exécution de calculs hors ligne pour Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -95,10 +90,10 @@ Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vou
 **Pour utiliser la fonction d’exportation de données d’[!DNL Analytics], procédez comme suit :**
 
 1. Connectez-vous à [!DNL Adobe Analytics].
-1. Cliquez sur **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**.
-1. Dans l’onglet **[!UICONTROL Data Warehouse Request]** , renseignez les champs .
+1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]**.
+1. Dans l’onglet **[!UICONTROL Demande de Data Warehouse]**, remplissez les champs.
 
-   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=fr).
+   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Champ | Instructions |
    |--- |--- |
@@ -108,15 +103,15 @@ Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vou
    | Ventilations | Sélectionnez les dimensions souhaitées : la norme est prête à l’emploi, tandis que la personnalisée inclut les eVars et les props. Il est recommandé d’utiliser « Identifiant visiteur » si des informations au niveau de l’identifiant visiteur sont nécessaires, plutôt que « Identifiant visiteur Experience Cloud ».<ul><li>L’identifiant visiteur est l’identifiant final utilisé par Analytics. Il s’agit de l’AID (si le client est hérité) ou du MID (si le client est nouveau ou a effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud).</li><li>L’identifiant visiteur Experience Cloud est défini uniquement pour les nouveaux clients ou ceux qui ont effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud.</li></ul> |
    | Mesures | Sélectionnez les mesures souhaitées. La mesure Standard est prête à l’emploi, alors que la mesure Personnalisée inclut des événements personnalisés. |
    | Aperçu du rapport | Vérifiez les paramètres avant de planifier le rapport.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
-   | Planifier la livraison du rapport | Saisissez une adresse e-mail à laquelle envoyer le fichier, attribuez-lui un nom, puis sélectionnez [!UICONTROL Send Immediately].<br>Remarque : le fichier peut être envoyé par FTP sous [!UICONTROL Advanced Delivery Options]<br>![Planifier la diffusion](/help/main/c-reports/assets/datawarehouse3.png). |
+   | Planifier la livraison du rapport | Saisissez une adresse e-mail à laquelle envoyer le fichier, attribuez-lui un nom, puis sélectionnez [!UICONTROL Envoyer immédiatement].<br>Remarque : le fichier peut être envoyé via FTP sous [!UICONTROL Options de diffusion avancées]<br>![Planifier la diffusion](/help/main/c-reports/assets/datawarehouse3.png). |
 
-1. Cliquez sur **[!UICONTROL Request this Report]**.
+1. Cliquez sur **[!UICONTROL Demander ce rapport]**.
 
-   La livraison du fichier peut prendre jusqu’à 72 heures, selon le volume de données demandé. Vous pouvez vérifier à tout moment l’état d’avancement de votre demande en cliquant sur [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager].
+   La livraison du fichier peut prendre jusqu’à 72 heures, selon le volume de données demandé. Vous pouvez vérifier la progression de la demande à tout moment en cliquant sur [!UICONTROL Outils] > [!UICONTROL Data Warehouse] > [!UICONTROL Gestionnaire de requêtes].
 
-   Si vous souhaitez demander à nouveau les données que vous avez demandées dans le passé, vous pouvez dupliquer une ancienne demande à partir du [!UICONTROL Request Manager], si nécessaire.
+   Si vous souhaitez demander à nouveau les données que vous avez demandées dans le passé, vous pouvez dupliquer une ancienne requête à partir du [!UICONTROL Gestionnaire de requêtes] si nécessaire.
 
 Pour plus d’informations sur [!DNL Data Warehouse], voir les liens suivants dans la documentation d’aide d’[!DNL Analytics] :
 
-* [Créer une requête Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=fr)
-* [Bonnes pratiques relatives à Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=fr)
+* [Créer une requête Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Bonnes pratiques relatives à Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

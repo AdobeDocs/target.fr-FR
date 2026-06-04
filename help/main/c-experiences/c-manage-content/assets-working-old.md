@@ -1,13 +1,13 @@
 ---
 keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
-description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque Adobe [!DNL Target] Offres . Découvrez comment afficher les détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
+description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque  [!DNL Target] Offres . Découvrez comment afficher les détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
 title: Comment utiliser le contenu de la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 32%
+source-wordcount: '771'
+ht-degree: 31%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 32%
 
 Informations sur les tâches que vous pouvez effectuer sur une ressource dans la bibliothèque de contenu d’[!DNL Adobe Target], y compris l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
 
-1. Cliquez sur **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]** ou **[!UICONTROL Image Offers]**.
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]** ou **[!UICONTROL Offres d’image]**.
 
    ![Onglets Offres de code et Offres d’image](/help/main/c-experiences/c-manage-content/assets/offers-both.png)
 
    Pour plus d’informations sur la recherche dans la bibliothèque d’offres et la création de collections dynamiques, voir [Filtre et recherche de contenu](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Facultatif) Passez du [!UICONTROL Card View] au [!UICONTROL List View], puis cliquez sur l’icône [!UICONTROL Card View] ou l’icône [!UICONTROL List View] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL View Settings] pour configurer plus en détail les colonnes lors de l’affichage des [!UICONTROL List View].
+1. (Facultatif) Basculez entre la vue [!UICONTROL Carte] et la vue [!UICONTROL Liste], cliquez sur l’icône [!UICONTROL Vue Carte] ou l’icône [!UICONTROL Vue Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres d’affichage] pour configurer plus en détail les colonnes lors de l’affichage de la [!UICONTROL Vue Liste].
 
-   L’illustration suivante présente les options disponibles lors de l’affichage du [!UICONTROL List View] :
+   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL  Liste ] :
 
    ![Options de la vue Liste](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
@@ -31,25 +31,25 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource dans la
 
 ## Options d’offres de code
 
-Lors de l’affichage de la page [!UICONTROL Code Offers], vous pouvez effectuer les actions suivantes sur un élément en pointant sur une offre ou un dossier, puis en sélectionnant l’icône appropriée.
+Lors de l’affichage de la page [!UICONTROL Code des offres], vous pouvez effectuer les actions suivantes sur un élément en pointant sur une offre ou un dossier, puis en sélectionnant l’icône appropriée.
 
 ![Icônes de survol dans l’onglet Offres de code](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informations** : affichez les informations de l’offre.
 * **Modifier** : modifiez le dossier ou l’offre.
 * **Copier** : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
-* **Déplacer** : cliquez sur l&#39;icône Déplacer , accédez à l&#39;emplacement où vous souhaitez déplacer l&#39;offre ou le dossier, puis cliquez sur l&#39;icône **[!UICONTROL Drop]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers. Cliquez sur [!UICONTROL Clear Selection] pour désélectionner les offres ou les dossiers que vous avez sélectionnés.
+* **Déplacer** : cliquez sur l&#39;icône Déplacer , accédez à l&#39;emplacement où vous souhaitez déplacer l&#39;offre ou le dossier, puis cliquez sur l&#39;icône **[!UICONTROL Déposer]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers. Cliquez sur [!UICONTROL Effacer la sélection] pour désélectionner les offres ou les dossiers que vous avez sélectionnés.
 * **Supprimer** : supprimez l’offre ou le dossier. Voir [Remarques concernant la suppression d’éléments](#delete).
 
 ## Options d’offres d’images
 
-Lors de l’affichage de la page [!UICONTROL Image Offers], vous pouvez effectuer les actions suivantes sur un élément en pointant sur une offre ou un dossier, puis en sélectionnant l’icône appropriée.
+Lors de l’affichage de la page [!UICONTROL Offres d’image], vous pouvez effectuer les actions suivantes sur un élément en pointant sur une offre ou un dossier, puis en sélectionnant l’icône appropriée.
 
-L’illustration suivante présente les icônes de survol lors de l’affichage du [!UICONTROL Card View].
+L’illustration suivante présente les icônes de survol lors de l’affichage du mode [!UICONTROL Carte].
 
 ![Pointez sur les icônes de l’onglet Offres d’image en mode Carte](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-L’illustration suivante présente les icônes de survol lors de l’affichage du [!UICONTROL List View]. Pour afficher les icônes, cliquez sur un élément de la liste.
+L’illustration suivante présente les icônes de survol lors de l’affichage de la vue [!UICONTROL  Liste ]. Pour afficher les icônes, cliquez sur un élément de la liste.
 
 ![Pointez sur les icônes de l’onglet Offres d’image en vue Liste](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
@@ -70,8 +70,8 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
    * Déplacer
 
 * **Télécharger** : téléchargez l’offre d’image ou le dossier et son contenu.
-* **Afficher les propriétés** : affichez les propriétés de l’élément. Veillez à cliquer sur les onglets [!UICONTROL Basic] et [!UICONTROL Advanced] pour afficher toutes les informations disponibles. Cliquez sur l’icône de crayon de la page des propriétés pour modifier les propriétés et ajouter des informations supplémentaires, telles que des informations de métadonnées, l’état de publication et les données de licence.
-* **Autres actions** : afficher des options supplémentaires en cas de [!UICONTROL Card View].
+* **Afficher les propriétés** : affichez les propriétés de l’élément. Veillez à cliquer sur les onglets [!UICONTROL De base] et [!UICONTROL Avancé] pour afficher toutes les informations disponibles. Cliquez sur l’icône de crayon de la page des propriétés pour modifier les propriétés et ajouter des informations supplémentaires, telles que des informations de métadonnées, l’état de publication et les données de licence.
+* **Autres actions** : afficher des options supplémentaires en mode [!UICONTROL Carte].
 * **Modifier** : modifiez le dossier ou l’offre.
 * **Annoter** : ajoutez une note à la ressource. Cliquez sur la ressource, sélectionnez la zone à annoter, puis entrez votre note.
 * **Copier** : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
@@ -86,7 +86,7 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
 
 Cette vidéo fournit des informations sur la gestion du contenu. (4:56)
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 

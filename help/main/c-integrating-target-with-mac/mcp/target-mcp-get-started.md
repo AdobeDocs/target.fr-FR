@@ -35,7 +35,7 @@ Cette page vous explique tout ce dont vous avez besoin pour connecter le serveur
 
 Avant de connecter le serveur MCP [!DNL Adobe Target] à votre client MCP, vérifiez les points suivants :
 
-* Vous disposez d’une licence [!DNL Adobe Target] active (abonnement Adobe Experience Cloud) avec une organisation Adobe Experience Platform.
+* Vous disposez d’une licence [!DNL Adobe Target] active (abonnement Adobe Experience Cloud) auprès d’une organisation Adobe Experience Platform.
 * Vous disposez d&#39;une application compatible avec MCP prise en charge (actuellement Claude Web, Claude Desktop, Claude Code, Cursor ou ChatGPT).
 * Vous disposez d’autorisations [!DNL Adobe Target] configurées dans Adobe Admin Console. Dans le Beta public, les 23 outils disponibles sont en lecture seule. Le rôle **Observateur** ou supérieur est suffisant pour utiliser le serveur MCP.
 
@@ -47,7 +47,7 @@ Avant de connecter le serveur MCP [!DNL Adobe Target] à votre client MCP, véri
 
 >[!NOTE]
 >
->Le serveur MCP [!DNL Adobe Target] utilise OAuth 2.0 pour l’authentification. Lorsque vous utilisez un outil MCP pour la première fois, vous êtes redirigé vers Adobe Experience Cloud pour vous connecter, sélectionner votre organisation et accorder les autorisations demandées. Aucune information d’identification statique n’est requise.
+>Le serveur MCP [!DNL Adobe Target] utilise OAuth 2.0 pour l’authentification. Lorsque vous utilisez un outil MCP pour la première fois, vous êtes redirigé vers Adobe Experience Cloud afin de vous connecter, de sélectionner votre organisation et d’accorder les autorisations demandées. Aucune information d’identification statique n’est requise.
 
 **Pour vous connecter depuis Claude Desktop ou Claude Web:**
 
@@ -92,13 +92,13 @@ Terminez le flux du navigateur OAuth lorsque vous y êtes invité lors de la pre
 
 >[!TIP]
 >
->Si des activités ou des données provenant de la mauvaise organisation apparaissent, déconnectez-vous complètement de Adobe Experience Cloud, reconnectez le serveur MCP et sélectionnez soigneusement l’organisation appropriée pendant la réauthentification.
+>Si des activités ou des données provenant de la mauvaise organisation s’affichent, déconnectez-vous complètement d’Adobe Experience Cloud, reconnectez le serveur MCP et sélectionnez soigneusement l’organisation appropriée pendant la réauthentification.
 
 ## Résolution des problèmes {#mcp-troubleshooting}
 
 +++Le flux OAuth échoue ou ne redirige pas correctement
 
-1. Fermez complètement la session Adobe Experience Cloud.
+1. Déconnectez-vous complètement d’Adobe Experience Cloud.
 1. Effacez les cookies de navigateur pour les domaines adobe.com.
 1. Réessayez le flux d’authentification.
 1. Veillez à sélectionner l’organisation appropriée lorsque vous y êtes invité.
@@ -106,7 +106,7 @@ Terminez le flux du navigateur OAuth lorsque vous y êtes invité lors de la pre
 
 +++Les activités ou les données de la mauvaise organisation s’affichent
 
-1. Fermez complètement la session Adobe Experience Cloud.
+1. Déconnectez-vous complètement d’Adobe Experience Cloud.
 1. Déconnectez et reconnectez le serveur MCP dans les paramètres de votre client.
 1. Sélectionnez l’organisation appropriée avec soin lors de la réauthentification.
 +++

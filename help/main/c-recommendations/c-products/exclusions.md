@@ -5,15 +5,12 @@ title: Comment utiliser les exclusions dans les activités [!UICONTROL Recommend
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 14%
+source-wordcount: 527
+ht-degree: 13%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 14%
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
 
-Les exclusions sont disponibles sur l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité de [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités sur le compte. Il n’existe aucune option pour affecter un groupe d’exclusion lors de la création de l’activité.
+Les exclusions sont disponibles sur l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités du compte. Il n’existe aucune option pour affecter un groupe d’exclusion lors de la création de l’activité.
 
 Voici quelques exemples d’exclusions :
 
@@ -39,21 +36,21 @@ Voici quelques exemples d’exclusions :
 
 ## Créer une exclusion
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
+1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
-   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans le groupe d’hôtes [Recommendations](/help/main/administrating-target/hosts.md) par défaut configuré (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
 
-1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Show Filters]** ( ![icône Afficher les filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’[environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environment]** lors de la création (ou de la mise à jour) d’une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Afficher les filtres]** ( ![Icône Afficher les filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’[environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environnement]** lors de la création (ou de la mise à jour) d’une exclusion pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
-1. Cliquez sur **[!UICONTROL Create Exclusion]**.
+1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 
-1. Saisissez un **[!UICONTROL Name]** d’exclusion et saisissez une description facultative.
+1. Saisissez une exclusion **[!UICONTROL Nom]** et saisissez une description facultative.
 
 1. Utilisez le créateur de règles pour créer les exclusions.
 
-   Sélectionnez un paramètre dans la liste [!UICONTROL Rules], sélectionnez un opérateur, puis saisissez une ou plusieurs valeurs pour identifier les produits. Séparez les diverses valeurs par des virgules.
+   Sélectionnez un paramètre dans la liste [!UICONTROL Règles], sélectionnez un opérateur, puis saisissez une ou plusieurs valeurs pour identifier les produits. Séparez les diverses valeurs par des virgules.
 
-1. Cliquez sur **[!UICONTROL Create]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
 <!--
 ## Create an exclusion using Advanced Search
@@ -71,7 +68,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## Modifier, copier ou supprimer une exclusion
 
-Cliquez sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : [!UICONTROL Edit], [!UICONTROL Copy] ou [!UICONTROL Delete].
+Cliquez sur l’icône Plus d’actions ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de l’exclusion souhaitée dans la liste, puis cliquez sur l’icône appropriée : [!UICONTROL Modifier], [!UICONTROL Copier] ou [!UICONTROL Supprimer].
 
 Vous pouvez copier une exclusion existante pour créer une exclusion en double que vous pouvez ensuite modifier. Cette option vous permet de créer une exclusion similaire avec moins d’effort.
 
@@ -84,4 +81,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une collection
 * Créer une exclusion
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

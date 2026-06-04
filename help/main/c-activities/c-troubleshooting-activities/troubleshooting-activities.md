@@ -5,16 +5,12 @@ title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 TQID: https://experienceleague.adobe.com/L-011t7q6c3aICs0ZrM01m9pZByH86FKGiLG1A7Rl2s
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 847
-ht-degree: 44%
+source-wordcount: 866
+ht-degree: 43%
 
 ---
 
@@ -40,7 +36,7 @@ Assurez-vous que votre activité est terminée et qu’elle a été activée.
 
 ## L’activité n’est pas active.
 
-**Valider :** accédez à l’onglet [!UICONTROL Overview] et vérifiez si le test est marqué comme inactif ou brouillon.
+**Valider :** accédez à l’onglet [!UICONTROL Aperçu] et vérifiez si le test est marqué comme inactif ou brouillon.
 
 **Options :**
 
@@ -58,11 +54,11 @@ Assurez-vous que votre activité est terminée et qu’elle a été activée.
 
 ## La page ne remplit pas les conditions de ciblage de la page.
 
-**Valider :** sur la page [!UICONTROL Overview], déterminez si la page ne fait pas partie des conditions de ciblage.
+**Valider :** sur la page [!UICONTROL Aperçu], déterminez si la page ne fait pas partie des conditions de ciblage.
 
 **Options :**
 
-* Accédez à la [!UICONTROL Visual Experience Composer], cliquez sur URL > Avancé > page actuelle.
+* Accédez au [!UICONTROL compositeur d’expérience visuelle], puis cliquez sur URL > Avancé > page active.
 
 ## Une expérience précédente s’affiche au lieu de la nouvelle expérience.
 
@@ -76,20 +72,20 @@ Assurez-vous que votre activité est terminée et qu’elle a été activée.
 
 ## Vous avez récemment été ajouté à [!DNL Target], mais ne pouvez pas créer d’activités.
 
-**Valider :** Cliquez Sur [!UICONTROL Create Activity]. Si l’option n’est pas disponible, vous ne disposez probablement pas de droits suffisants pour créer une activité.
+**Valider :** Cliquez Sur [!UICONTROL Créer Une Activité]. Si l’option n’est pas disponible, vous ne disposez probablement pas de droits suffisants pour créer une activité.
 
 **Options :**
 
-Après avoir été ajouté en tant qu’utilisateur dans [!DNL Target], vous devez disposer du rôle [!UICONTROL Approver] pour créer des activités.
+Après avoir été ajouté en tant qu’utilisateur dans [!DNL Target], vous devez disposer du rôle [!UICONTROL Approbateur] pour créer des activités.
 
 * Demandez à l’administrateur de votre compte de vous faire approuver.
-* Si vous êtes l’administrateur, attribuez-vous le rôle [!UICONTROL Approver] dans **[!UICONTROL Administration]** > **[!UICONTROL Users]** dans [!DNL Target].
+* Si vous êtes l’administrateur, attribuez-vous le rôle [!UICONTROL Approbateur] dans **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]** dans [!DNL Target].
 
   Voir [Attribution à vous-même du rôle d’approbateur](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## La structure de la page a changé depuis la configuration de l’activité.
 
-**Valider :** accédez à la [!UICONTROL Visual Experience Composer] de l’activité existante. Recherchez un message d’avertissement indiquant que les sélecteurs (ou la structure) ont changé.
+**Valider :** accédez au [!UICONTROL compositeur d’expérience visuelle] de l’activité existante. Recherchez un message d’avertissement indiquant que les sélecteurs (ou la structure) ont changé.
 
 **Options :**
 
@@ -137,7 +133,7 @@ Effectuez l’une des opérations suivantes :
 
 **Remarque :** plusieurs appels de [!DNL Target] ajax avec le même nom mais avec des paramètres différents ne fonctionnent pas sur la même page. Seul le premier appel est effectué.
 
-## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais son statut indique [!UICONTROL Inactive] dans l’interface utilisateur de [!DNL Target].
+## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais son statut affiche [!UICONTROL  Inactive ] dans l’interface utilisateur de [!DNL Target].
 
 Lorsque vous effectuez certaines actions, telles que l’activation d’une activité en dehors de l’interface utilisateur à l’aide de l’API [!DNL Target], la mise à jour peut prendre jusqu’à dix minutes pour se propager vers l’interface utilisateur.
 
@@ -145,4 +141,4 @@ Lorsque vous effectuez certaines actions, telles que l’activation d’une acti
 
 Dans de rares cas, si la mesure de conversion de l’activité permettant de remplir les critères d’une expérience est envoyée dans la même requête que la qualification de l’activité, il se peut que le visiteur ne fasse partie d’aucune expérience une fois la requête envoyée. Dans ce cas, le contenu et l’ID d’expérience capturés par défaut au moyen de jetons seraient -1. [!DNL Adobe] ne recommande pas d’envoyer la qualification et la conversion de l’activité dans la même requête [!DNL Target].
 
-Si vous souhaitez envoyer les deux mesures dans la même requête, vous pouvez utiliser [!UICONTROL Advanced Settings] pour spécifier que le visiteur reste dans la même expérience après la conversion.
+Si vous souhaitez envoyer les deux mesures dans la même requête, vous pouvez utiliser [!UICONTROL Paramètres avancés] pour spécifier que le visiteur reste dans la même expérience après la conversion.

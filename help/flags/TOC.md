@@ -6,14 +6,14 @@ hide: true
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 
 # Flags {#flags}
 
-+ [Aperçu](home.md)
++ [Vue d’ensemble](home.md)
 + Prise en main {#get-started}
    + [Présentation des indicateurs](getting-started/introduction.md)
    + [Pourquoi utiliser des indicateurs ?](getting-started/why-use-flags.md)
@@ -46,7 +46,7 @@ ht-degree: 7%
    + [Créer un groupe de fonctionnalités](guides/feature-flags/create-a-feature-group.md)
    + [Définir un groupe de fonctionnalités à déployer progressivement](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Test A/B avec indicateurs de fonctionnalité](guides/feature-flags/a-b-testing.md)
-   + [Analytics](guides/feature-flags/analytics.md)
+   + [Concepts de base](guides/feature-flags/analytics.md)
 + Critères d’audience {#audience}
    + [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Utilisation du contexte dans les règles d’audience](guides/audience/using-context-in-audience-rules.md)

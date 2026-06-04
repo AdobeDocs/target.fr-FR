@@ -5,7 +5,7 @@ hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Les indicateurs sont l’outil idéal lorsque vous devez contrôler qui voit une
 **Tests sélectifs pendant le développement**
 Testez une fonctionnalité par rapport à votre propre session pendant que d’autres développeurs continuent leur travail sans être affectés. Aucun embranchement de code complexe n’est requis.
 
-**Déploiement par étapes avec commentaires des utilisateurs**
+**Déploiement par étapes avec commentaires de l’utilisateur**
 Commencez par proposer une fonctionnalité à un petit groupe d’utilisateurs. Collectez des commentaires, résolvez les problèmes, puis étendez progressivement l’audience avant une publication complète.
 
 **Déploiement progressif en production**
 Ouvrez une nouvelle fonctionnalité progressivement (1 %, 10 %, 50 %, puis 100 % des utilisateurs). Surveillez les performances et la réponse de l’utilisateur à chaque étape. Si quelque chose ne va pas, éteignez-le immédiatement.
 
-**Gestion de la charge principale**
+**Gestion du chargement principal**
 Déployez progressivement pour éviter les pics de trafic soudains sur les services principaux, plutôt que d’exposer tous les utilisateurs et utilisatrices à une nouvelle fonctionnalité à la fois.
 
 **Versions multi-applications coordonnées**
@@ -34,7 +34,7 @@ Activez une fonctionnalité simultanément dans plusieurs applications et équip
 **Versions différées**
 Déployez le code en production à l’avance, puis activez la fonctionnalité à un moment précis (par exemple, au début d’un événement de lancement de produit) sans changement de code de dernière minute.
 
-**Interrupteur de fermeture**
+Commutateur **Kill**
 Si un problème est détecté après la publication de la version, désactivez instantanément la fonctionnalité sans correctif ni redéploiement.
 
 <!-- -->

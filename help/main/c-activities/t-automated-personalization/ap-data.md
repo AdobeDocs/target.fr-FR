@@ -2,40 +2,31 @@
 keywords: données environnementales;données de session;données géographiques;données géographiques;données d’appareil;données mobiles;attributs;attributs de profil;algorithmes de personnalisation;algorithmes de machine learning;algorithmes de machine learning
 description: Découvrez les données  [!DNL Adobe Target]  et utilisées pour créer ses algorithmes de machine learning.
 title: Quelles données sont collectées pour créer des algorithmes de machine learning ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 TQID: https://experienceleague.adobe.com/eXEeFKovZmtYqcIe0dNda7f0J-nWgfW5mB1Mxv9Zp6U
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1986
+source-wordcount: 2009
 ht-degree: 50%
 
 ---
 
 # Données utilisées par [!DNL Target] algorithmes de machine learning de
 
-[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target] (AT). Lorsqu’un visiteur ou une visiteuse accède à une activité de [!UICONTROL Automated Personalization] ou de [!UICONTROL Auto-Target], un instantané des informations est transmis à un ensemble d’« enregistrements d’identification » (les données de visiteur sur lesquelles les algorithmes de personnalisation s’appuient).
+[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT). Lorsqu’un visiteur accède à une activité de  ou [!UICONTROL ciblage automatique], un instantané des informations est transmis à un ensemble d’« enregistrements d’identification » (les données du visiteur sur lesquelles les algorithmes de personnalisation s’appuient).
 
 Pour en savoir plus sur les algorithmes de personnalisation [!DNL Target], voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
 ## Catégories d’attributs de [!DNL Target] par défaut
 
-Le tableau suivant présente les données collectées par [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] les activités par défaut, sans aucune configuration de [!DNL Target] ou d’autres solutions de [!DNL Adobe]. Le tableau inclut également la convention de nommage utilisée pour indiquer ces attributs dans les [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le téléchargement de données supplémentaires, consultez [Téléchargement de données pour les algorithmes  [!DNL Target]  personnalisation](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+Le tableau suivant présente les données collectées par les activités  et [!UICONTROL Ciblage automatique] par défaut, sans configuration de [!DNL Target] ou d’autres solutions de [!DNL Adobe]. Le tableau inclut également la convention de nommage utilisée pour indiquer ces attributs dans les [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le téléchargement de données supplémentaires, consultez [Téléchargement de données pour les algorithmes  [!DNL Target]  personnalisation](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL Insights] |
+| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL  Insights ] |
 | --- | --- | --- | --- |
 | Paramètres d’environnement | ENV | Informations sur l’environnement d’un utilisateur, notamment le système d’exploitation, le navigateur et l’heure du jour ou du jour de la semaine. | Navigateur - [Nom D’Attribut]<br>Système D’Exploitation - [Valeur] |
 | Géographie | GÉO | Informations sur la zone géographique d’un utilisateur, obtenues via la recherche d’adresses IP. | Géo - [attribut géographique] |
@@ -45,24 +36,24 @@ Le tableau suivant présente les données collectées par [!UICONTROL Automated 
 
 ## Catégories d’attributs de [!DNL Target] personnalisées
 
-Le tableau suivant présente les données fournies par le client collectées par les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target]. Ces données ne sont collectées que si vous les fournissez. Les noms d’attributs et les valeurs d’exemple spécifiques sont spécifiques à votre configuration système.
+Le tableau suivant présente les données fournies par le client collectées par les activités  et [!UICONTROL Ciblage automatique]. Ces données ne sont collectées que si vous les fournissez. Les noms d’attributs et les valeurs d’exemple spécifiques sont spécifiques à votre configuration système.
 
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL Insights] |
+| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL  Insights ] |
 | --- | --- | --- | --- |
 | Paramètres de page | BOX | Paramètres de page personnalisés (« paramètres mbox ») transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [nom du paramètre] |
 | profil [!DNL Target] | PRO | Les attributs de profil personnalisés sont directement chargés vers le profil [!DNL Target] via l’API ou le paramètre de page, ainsi que des scripts de profil [!DNL Target]. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
-| Attributs du client | CRS | Attributs du client chargés dans le profil [!DNL Target] via l’[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=fr){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
+| Attributs du client | CRS | Attributs du client chargés dans le profil [!DNL Target] via l’[[!DNL Adobe Experience Cloud Customer Attributes Service]](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
 | paramètres d’URL | URL | URL et tout paramètre d’URL pour la page actuellement consultée. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
 | URL de référence | RÉF | l’URL de référence et les paramètres d’URL correspondants ; | Personnalisé - [Paramètre d’URL de référence] - [Valeur du paramètre] |
-| [!DNL Adobe Experience Cloud] des audiences partagées | AAM | Toutes les audiences partagées avec des [!DNL Target] d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via l’[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=fr){target=_blank} ). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
+| [!DNL Adobe Experience Cloud] des audiences partagées | AAM | Toutes les audiences partagées avec des [!DNL Target] d’autres solutions [!DNL Adobe Experience Cloud] (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via l’[[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank} ). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
 | [!DNL Adobe Experience Platform Real-time CDP] des audiences | UPS | Audiences de Platform Real-time CDP partagées avec [!DNL Target] via [!UICONTROL Destinations]. |  |
 
 
 ## Blocage des fonctionnalités des algorithmes de machine learning [!DNL Target]
 
-Les fonctionnalités peuvent être bloquées à partir [!DNL Target] algorithmes de machine learning , qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Automated Personalization] ou [!UICONTROL Auto-Target].
+Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], ce qui empêche leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Automated Personalization] ou [!UICONTROL ciblage automatique].
 
-Pour plus d’informations, consultez [Présentation de l’API Modèles (pour en savoir plus)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=fr){target=_blank} dans le Guide du développeur *[!DNL Adobe Target].*.
+Pour plus d’informations, consultez [Présentation de l’API Modèles (pour en savoir plus)](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} dans le Guide du développeur *[!DNL Adobe Target].*.
 
 ## Appareil et données mobiles {#device-mobile}
 

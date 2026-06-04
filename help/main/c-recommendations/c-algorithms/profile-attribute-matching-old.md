@@ -1,14 +1,14 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance d’attributs de profil
-description: Découvrez comment filtrer dynamiquement dans Adobe [!DNL Target] Recommendations en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
+description: Découvrez comment filtrer dynamiquement dans  [!DNL Target] Recommendations en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
 title: Comment filtrer par correspondance d’attributs de profil dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 7%
+source-wordcount: '503'
+ht-degree: 6%
 
 ---
 
@@ -16,24 +16,24 @@ ht-degree: 7%
 
 Filtrez dynamiquement dans [!DNL Adobe Target] [!DNL Recommendations] en comparant des éléments (entités) à une valeur dans le profil de l’utilisateur.
 
-Utilisez [!UICONTROL Profile Attribute Matching] lorsque vous souhaitez afficher des recommandations correspondant à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée.
+Utilisez [!UICONTROL Correspondance des attributs de profil] lorsque vous souhaitez afficher des recommandations correspondant à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée.
 
 >[!NOTE]
 >
 >Le [processus de création et d’utilisation des règles d’inclusion](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) pour les critères et les promotions est similaire, ainsi que les cas d’utilisation et les exemples.
 
-Les scénarios suivants montrent comment utiliser [!UICONTROL Profile Attribute Matching] :
+Les scénarios suivants montrent comment utiliser la [!UICONTROL correspondance d’attributs de profil] :
 
 * Une entreprise qui vend des lunettes stocke la couleur de monture préférée d&#39;un visiteur comme « noyer ». Pour ce visiteur spécifique, les recommandations sont configurées pour renvoyer uniquement les montures de lunettes qui correspondent à la couleur « noyer ».
 * Un paramètre de profil peut être défini pour la taille des vêtements (par exemple, Petit, Medium ou Grand) d’un visiteur ou d’une visiteuse qui navigue sur le site web de votre société. Une recommandation peut être configurée pour correspondre à ce paramètre de profil et renvoyer des produits spécifiques uniquement à la taille de vêtement préférée de l’utilisateur.
 
 ## Exemples de correspondance d’attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL Profile Attribute Matching] vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil du visiteur, comme dans les exemples ci-dessous.
+La [!UICONTROL Correspondance des attributs de profil] vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil du visiteur, comme dans les exemples ci-dessous.
 
 ### Recommandation d’articles de la marque préférée de l’utilisateur
 
-Par exemple, vous pouvez utiliser l’option [!UICONTROL Profile Attribute Matching] pour créer une règle qui recommande des articles uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
+Par exemple, vous pouvez utiliser l’option [!UICONTROL  Correspondance des attributs de profil ] pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
 
 ![Marque préférée](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 

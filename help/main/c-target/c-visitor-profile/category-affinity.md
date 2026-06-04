@@ -5,16 +5,13 @@ title: Qu’Est-Ce Que L’Affinité Catégorielle ?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 TQID: https://experienceleague.adobe.com/B5H-MhD005gmDbRErDOmfifwk-WIsOubWUYpQagRKgU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 56%
+source-wordcount: 880
+ht-degree: 57%
 
 ---
 
@@ -111,15 +108,15 @@ Les sections suivantes contiennent des informations pour vous aider à utiliser 
 
 ### Créer une audience pour utiliser l&#39;affinité catégorielle {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Dans la liste **[!UICONTROL Audiences]**, cliquez sur **[!UICONTROL Create Audience]**.
+1. Dans la liste **[!UICONTROL Audiences]**, cliquez sur **[!UICONTROL Créer une audience]**.
 
    Ou
 
    Pour copier une audience existante, dans la liste Audiences, passez le curseur de la souris sur l’audience souhaitée, puis cliquez sur l’icône Copier. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 1. Saisissez un nom d’audience descriptif.
-1. Cliquez sur **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**.
-1. Dans la liste déroulante **[!UICONTROL Visitor Profile]** , sélectionnez **[!UICONTROL Category Affinity]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Profil du visiteur]**.
+1. Dans la liste déroulante **[!UICONTROL Profil du visiteur]**, sélectionnez **[!UICONTROL Affinité catégorielle]**.
 
    ![Profil du visiteur > Affinité catégorielle](assets/affinity.png)
 
@@ -145,8 +142,8 @@ Les sections suivantes contiennent des informations pour vous aider à utiliser 
    * Est égal
 
 1. Spécifiez chaque nouvelle valeur dans une ligne distincte (par exemple, « chaussures »).
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### Utiliser l&#39;audience d&#39;affinité catégorielle dans une activité {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Vous pouvez utiliser des audiences d’affinité catégorielle dans n’importe quelle activité. Au cours du workflow guidé en trois étapes, à l’étape [!UICONTROL Target], choisissez l’audience souhaitée.
+Vous pouvez utiliser des audiences d’affinité catégorielle dans n’importe quelle activité. Au cours du workflow guidé en trois étapes, à l’étape [!UICONTROL Cible], choisissez l’audience souhaitée.

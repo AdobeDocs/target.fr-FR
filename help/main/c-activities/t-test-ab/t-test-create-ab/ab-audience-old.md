@@ -1,13 +1,13 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité Adobe [!DNL Target] a.
+description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité  [!DNL Target] a.
 title: Comment sélectionner une audience dans une activité a [!DNL Target] A/B ?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 62%
+source-wordcount: '436'
+ht-degree: 66%
 
 ---
 
@@ -19,11 +19,11 @@ L’audience détermine les visiteurs du site qui sont entrés dans votre activi
 >
 >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Dans la boîte de [!UICONTROL Audience], cliquez sur l’icône **[!UICONTROL Edit]** (les points de suspension verticaux), puis sur **[!UICONTROL Replace Audience]**.
+1. Dans la zone [!UICONTROL Audience], cliquez sur l’icône **[!UICONTROL Modifier]** (les points de suspension verticaux), puis sur **[!UICONTROL Remplacer l’audience]**.
 
    ![Option de remplacement d’une audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-   Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient des audiences qui ont été définies précédemment, y compris certaines audiences courantes qui sont préconfigurées dans le cadre de [!DNL Target].
+   Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans [!DNL Target].
 
 1. Sélectionnez ou créez l’audience souhaitée :
 
@@ -32,15 +32,15 @@ L’audience détermine les visiteurs du site qui sont entrés dans votre activi
    * [Créer une nouvelle audience](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
    * [Créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
-   Pour un test A/B sans ciblage d’audience spécifique, choisissez la valeur par défaut, [!UICONTROL All Visitors].
+   Pour un test A/B sans ciblage d’audience spécifique, choisissez la valeur par défaut [!UICONTROL Tous les visiteurs].
 
-   Vous pouvez également modifier ou copier une audience en pointant sur l’audience souhaitée dans la boîte de dialogue de [!UICONTROL Add Audience], comme illustré ci-dessous.
+   Vous pouvez également modifier ou copier une audience en pointant sur l’audience souhaitée dans la boîte de dialogue [!UICONTROL Ajouter une audience], comme illustré ci-dessous.
 
    La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
 
    ![Survol d’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
-   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous [!UICONTROL Custom Parameters], sélectionnez la mbox, puis spécifiez les paramètres souhaités.
+   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous [!UICONTROL Paramètres personnalisés], sélectionnez la mbox, puis spécifiez les paramètres souhaités.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### Workflow d’activité - Ciblage (2:14) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

@@ -5,8 +5,8 @@ hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 1%
 
 ---
 
@@ -30,8 +30,8 @@ Une fois votre demande approuvée, vous recevrez les autorisations associées au
 
 Une fois l’accès accordé :
 
-1. Accédez à [&#128279;](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
-1. Ouvrez **&#x200B;**.
+1. Accédez à [](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
+1. Ouvrez ****.
 1. Sélectionnez **Indicateurs** dans la navigation de Target.
 1. Sélectionnez la sandbox appropriée. Pour plus d’informations, consultez [Sélection de votre sandbox](environments-overview.md).
 

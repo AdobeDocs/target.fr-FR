@@ -6,30 +6,14 @@ feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 TQID: https://experienceleague.adobe.com/Fm2VW0HmAPjf0ZCDawI-s1nPl3c-wjU-evhq-tSAKqA
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: c011fe9c-b94b-4a88-93d8-f2acece55112
-  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
-  - id: faed1c89-faf7-4df1-910d-a88263e03b15
-  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: dfc8a233-f2b5-4811-bf63-b4262aebc5a5id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: c011fe9c-b94b-4a88-93d8-f2acece55112id: c5abb976-5170-45d6-bcac-66d15d10a4d4id: faed1c89-faf7-4df1-910d-a88263e03b15id: fc9c2184-9102-403f-bd6c-0055021e4beaid: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +22,7 @@ ht-degree: 22%
 
 Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques aux [!DNL Adobe Target] sur la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des outils internes ou tiers ou à utiliser pour le débogage.
 
-Les jetons de réponse vous permettent de choisir les variables (dans les paires clé-valeur) à utiliser, puis de les autoriser à être envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec des réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Preview].
+Les jetons de réponse vous permettent de choisir les variables (dans les paires clé-valeur) à utiliser, puis de les autoriser à être envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec des réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Aperçu].
 
 Une différence essentielle entre les plug-ins et les jetons de réponse réside dans le fait que les plug-ins diffusent JavaScript vers la page qui s’exécute lors de la diffusion. Toutefois, les jetons de réponse fournissent un objet qui peut ensuite être lu et sur lequel il est possible d’agir à l’aide d’écouteurs d’événement. L’approche des jetons de réponse est plus sûre et permet un développement et une maintenance plus faciles des intégrations tierces.
 
@@ -50,8 +34,8 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
 
 | SDK Target | Actions suggérées |
 |--- |--- |
-| [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} | Assurez-vous d’utiliser la version 2.6.0 ou ultérieure de Platform Web SDK. Pour plus d’informations sur le téléchargement de la dernière version de Platform Web SDK, consultez [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr){target=_blank} dans le guide *Présentation de Platform Web SDK*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version de Platform Web SDK, consultez [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) dans le guide *Présentation de Platform Web SDK*. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank} | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version d’at.js, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.<br>Nous recommandons aux clients qui utilisent at.js d’utiliser des jetons de réponse et de quitter les modules externes. Certains plug-ins qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolète), mais pas dans at.js, sont diffusés, mais échouent. |
+| [SDK web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} | Assurez-vous d’utiliser la version 2.6.0 ou ultérieure de Platform Web SDK. Pour plus d’informations sur le téléchargement de la dernière version de Platform Web SDK, consultez [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} dans le guide *Présentation de Platform Web SDK*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version de Platform Web SDK, consultez [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) dans le guide *Présentation de Platform Web SDK*. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version d’at.js, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.<br>Nous recommandons aux clients qui utilisent at.js d’utiliser des jetons de réponse et de quitter les modules externes. Certains plug-ins qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolète), mais pas dans at.js, sont diffusés, mais échouent. |
 
 ## Utilisation de jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -59,10 +43,10 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
 
    Pour plus d’informations :
 
-   * **Platform Web SDK** : consultez la section [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) dans le guide *Présentation de Platform Web SDK*.
+   * **Platform Web SDK** : consultez la section [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le guide *Présentation de Platform Web SDK*.
    * **at.js** : consultez la section [Téléchargement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Jetons de réponse]**.
 
 1. Activez les jetons de réponse souhaités, tels que `activity.id` et `offer.id`.
 
@@ -81,7 +65,7 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Détails de l&#39;activité courante.<br> Notez que les valeurs des paramètres d’offre sont évaluées au niveau de l’expérience. |
    | Géo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
-   | Méthode d’affectation du trafic <br>(s’applique uniquement aux activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ». |
+   | Méthode d’affectation du trafic <br>(s’applique uniquement aux activités de [!UICONTROL ciblage automatique] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ». |
    |  | `experience.trafficAllocationType` | Renvoie « contrôle » ou « ciblé ». |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
@@ -90,9 +74,9 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditionnel) Pour utiliser un paramètre de profil comme jeton de réponse, mais comme le paramètre n’a pas été transmis par une requête [!DNL Target] et n’a donc pas été chargé dans l’interface utilisateur de [!DNL Target], vous pouvez utiliser le bouton [!UICONTROL Add Response Token] pour ajouter le profil à l’interface utilisateur.
+1. (Conditionnel) Pour utiliser un paramètre de profil comme jeton de réponse, mais comme le paramètre n’a pas été transmis par une requête [!DNL Target] et n’a donc pas été chargé dans l’interface utilisateur de [!DNL Target], vous pouvez utiliser le bouton [!UICONTROL Ajouter un jeton de réponse] pour ajouter le profil à l’interface utilisateur.
 
-   Cliquez sur **[!UICONTROL Add Response Token]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activate]**.
+   Cliquez sur **[!UICONTROL Ajouter un jeton de réponse]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
 1. Créez une activité.
 
@@ -194,7 +178,7 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 
 **Quel rôle est requis pour activer ou désactiver les jetons de réponse ?**
 
-Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs dotés du rôle [!DNL Target] [!UICONTROL Administrator] .
+Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs dotés du rôle [!DNL Target] [!UICONTROL Administrateur].
 
 **Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.6.0 (ou une version antérieure) ?**
 
@@ -240,7 +224,7 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 Les sections suivantes décrivent comment envoyer des données [!DNL Target] à Google Analytics 4. Les données envoyées par les jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
 
-### ![Badge AEP &#x200B;](/help/main/assets/platform.png) envoi de données à Google Analytics via Platform Web SDK
+### ![Badge AEP ](/help/main/assets/platform.png) envoi de données à Google Analytics via Platform Web SDK
 
 Il est possible d’envoyer des données à Google Analytics via la version 2.6.0 (ou ultérieure) de Platform Web SDK en ajoutant le code suivant dans la page HTML.
 
@@ -444,8 +428,8 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 
 >[!NOTE]
 >
->L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes. Toutefois, les options se trouvent à des emplacements légèrement différents.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes. Toutefois, les options se trouvent à des emplacements légèrement différents.
 >
 >La vidéo mentionne `option.name` et `option.id`, qui ont été remplacées par `offer.name` et `offer.id`, respectivement.
 
->[!VIDEO](https://video.tv.adobe.com/v/33875?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

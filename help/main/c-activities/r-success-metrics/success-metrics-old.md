@@ -6,8 +6,8 @@ feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 43%
+source-wordcount: '1278'
+ht-degree: 40%
 
 ---
 
@@ -21,13 +21,13 @@ Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un a
 
 Dans [!DNL Target], les mesures de succès sont préconfigurées avec les options optimales à des fins de création de rapports et de suivi.
 
-Par défaut, les événements de conversion sont définis sur [!UICONTROL Increment count & keep user in activity]. Les conversions ne sont comptabilisées qu’une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu de l’activité.
+Par défaut, les événements de conversion sont définis sur « [!UICONTROL Incrémenter le décompte et maintenir l’utilisateur en activité] ». Les conversions ne sont comptabilisées qu’une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu de l’activité.
 
-Mesures de revenus définies sur « [!UICONTROL Increment count & keep user in activity] » détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajouteront pas de revenus à RPV/AOV/Sales, et ne seront pas incluses dans l&#39;état [!UICONTROL Order Details].
+Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL  Incrémenter le comptage et maintenir l’utilisateur dans l’activité ] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 >[!NOTE]
 >
->Pour les activités utilisant [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la mesure d’objectif utilisera toujours les paramètres « [!UICONTROL Increment Count & Keep User in Activity] » et « [!UICONTROL On Every Impression] ». Ceci n’est *pas configurable*.
+>Pour les activités utilisant [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la mesure d’objectif utilisera toujours les paramètres « [!UICONTROL Incrémenter le décompte et conserver l’utilisateur dans l’activité] » et « [!UICONTROL À chaque impression] ». Ceci n’est *pas configurable*.
 
 Les mesures de succès suivantes sont disponibles :
 
@@ -45,25 +45,25 @@ Pour les mesures basées sur les engagements (à l’exception des mesures basé
 
 Vous pouvez également créer des mesures de succès personnalisées.
 
-Une fois la mesure de succès sélectionnée, sélectionnez l’action effectuée par un visiteur pour atteindre l’objectif. Par exemple, choisissez une mesure de [!UICONTROL Conversion], définissez-la pour qu’elle soit comptabilisée une fois par visiteur, puis définissez si le succès est atteint lorsqu’un visiteur ou une visiteuse consulte une certaine page (ou un ensemble de pages), consulte une demande de [!DNL Target] spécifique ou clique sur un lien spécifique.
+Une fois la mesure de succès sélectionnée, sélectionnez l’action effectuée par un visiteur pour atteindre l’objectif. Par exemple, choisissez une mesure [!UICONTROL Conversion], définissez-la pour qu’elle soit comptabilisée une fois par visiteur, puis définissez si le succès est atteint lorsqu’un visiteur ou une visiteuse consulte une certaine page (ou un ensemble de pages), consulte une demande de [!DNL Target] spécifique ou clique sur un lien spécifique.
 
-Si cette option est activée, le champ [!UICONTROL Estimated Value of one conversion] (non disponible pour les mesures [!UICONTROL Page Score]) fournit une valeur pour votre objectif, mais pas pour d’autres mesures. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de chiffre d’affaires ([!UICONTROL Revenue per Visitor], [!UICONTROL Average Order Value], [!UICONTROL Total Sales] et [!UICONTROL Orders]), l’estimation utilise [!UICONTROL Revenue per Visitor]. Les données sont de type devise. Voir [Estimation de l’effet élévateur dans les recettes](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
+Si cette option est activée, le champ [!UICONTROL Valeur estimée d’une conversion] (non disponible pour les mesures [!UICONTROL Score de page]) fournit une valeur pour votre objectif, mais pas pour d’autres mesures. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de chiffre d’affaires ([!UICONTROL Chiffre d’affaires par visiteur], [!UICONTROL Valeur moyenne de la commande], [!UICONTROL Total des ventes] et [!UICONTROL Commandes]), l’estimation utilise [!UICONTROL Chiffre d’affaires par visiteur]. Les données sont de type devise. Voir [Estimation de l’effet élévateur dans les recettes](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
 
 Les mesures de succès que vous choisissez pour votre activité sont disponibles dans les paramètres des rapports lorsque vous consultez un rapport pour l’activité.
 
-Certaines mesures, telles que [!UICONTROL Custom Scoring] et [!UICONTROL Revenue Per Visitor], nécessitent une implémentation personnalisée qui transmet des informations telles que les totaux des commandes et les ID de commande.
+Certaines mesures, telles que [!UICONTROL Score personnalisé] et [!UICONTROL Chiffre d’affaires par visiteur] nécessitent une implémentation personnalisée qui transmet des informations telles que les totaux des commandes et les identifiants de commande.
 
 ## Paramètres avancés {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression.
 
-Pour accéder aux options de [!UICONTROL Advanced Settings], cliquez sur le **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**.
+Pour accéder aux options [!UICONTROL Paramètres avancés], cliquez sur le **[!UICONTROL points de suspension verticaux]** > **[!UICONTROL Paramètres avancés]**.
 
 ![Menu Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 >[!NOTE]
 >
->Si vous utilisez [!DNL Adobe Analytics] en tant que source de reporting, les paramètres sont gérés par le serveur [!DNL Analytics]. L’option [!UICONTROL Advanced Settings] n’est pas disponible. Pour plus d’informations, consultez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+>Si vous utilisez [!DNL Adobe Analytics] en tant que source de reporting, les paramètres sont gérés par le serveur [!DNL Analytics]. L’option [!UICONTROL Paramètres avancés] n’est pas disponible. Pour plus d’informations, consultez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ### Ajouter une dépendance
 
@@ -75,7 +75,7 @@ Par exemple, une conversion de test peut être valide uniquement si un visiteur 
 
 La fonctionnalité de dépendance n’est *pas* prise en charge pour les éléments suivants :
 
-* activités [!UICONTROL Recommendations]. Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
+* [!UICONTROL activités Recommendations]. Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
 * Si vous utilisez [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * Le type de mesure « A affiché une page ».
 * Le type de mesure « Clic sur un élément » pour les activités du Compositeur d’expérience visuelle (VEC).
@@ -91,13 +91,13 @@ Utilisez les paramètres avancés pour déterminer ce qu’il se produit une foi
 
 | Une fois que l’utilisateur a rencontré cette mesure d’objectif | Options |
 |--- |--- |
-| [!UICONTROL Increment Count & Keep User in Activity] | Indiquez comment le décompte est incrémenté :<ul><li>Une fois par participant (par défaut)</li><li>À chaque impression (actualisations de page exclues)</li><li>À chaque impression</li></ul> |
-| [!UICONTROL Increment Count, Release user, & Allow Reentry] | Sélectionnez l’expérience que le visiteur voit s’il retourne à l’activité :<ul><li>Même expérience (par défaut)</li><li>Expérience aléatoire</li><li>Expérience non vue</li></ul> |
-| [!UICONTROL Increment Count, Release User, & Bar from Reentry] | Déterminez ce que l’utilisateur voit à la place du contenu de l’activité :<ul><li>Même expérience, sans suivi (par défaut)</li><li>Par défaut/autre contenu d’activité</li></ul> |
+| [!UICONTROL Incrémenter le décompte et laisser l’utilisateur dans l’activité] | Indiquez comment le décompte est incrémenté :<ul><li>Une fois par participant (par défaut)</li><li>À chaque impression (actualisations de page exclues)</li><li>À chaque impression</li></ul> |
+| [!UICONTROL Incrémenter le nombre, libérer l’utilisateur et autoriser une reprise] | Sélectionnez l’expérience que le visiteur voit s’il retourne à l’activité :<ul><li>Même expérience (par défaut)</li><li>Expérience aléatoire</li><li>Expérience non vue</li></ul> |
+| [!UICONTROL Incrémenter le décompte, libérer l’utilisateur et interdire la rentrée] | Déterminez ce que l’utilisateur voit à la place du contenu de l’activité :<ul><li>Même expérience, sans suivi (par défaut)</li><li>Par défaut/autre contenu d’activité</li></ul> |
 
 >[!NOTE]
 >
->Si vous configurez une mesure pour l’une des options de [!UICONTROL Increment Count] (mentionnées ci-dessus), le nombre de mesures est correctement incrémenté d’une seule fois par participant au niveau du visiteur uniquement. Le nombre de mesures est incrémenté une fois par visite pour chaque nouvelle session au niveau des visites.
+>Si vous configurez une mesure pour l’une des options [!UICONTROL Incrémenter le nombre] (mentionnées ci-dessus), la mesure est correctement incrémentée une fois par participant au niveau du visiteur uniquement. Le nombre de mesures est incrémenté une fois par visite pour chaque nouvelle session au niveau des visites.
 
 ### Comment le décompte sera-t-il incrémenté :
 

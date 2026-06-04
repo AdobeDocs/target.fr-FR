@@ -1,32 +1,24 @@
 ---
 keywords: Ciblage;compositeur d’expérience visuelle;liste blanche;liste blanche;;liste autorisée;compositeur d’expérience visuelle amélioré;vec;dépannage du compositeur d’expérience visuelle;dépannage;eec;compositeur d’expérience amélioré;tls;tls 1.2
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) et le [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
-title: Comment résoudre les problèmes liés aux [!UICONTROL Visual Experience Composer] et aux [!UICONTROL Enhanced Experience Composer] ?
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le  [!DNL Target] [!UICONTROL  compositeur d’expérience visuelle ] (VEC) et le [!UICONTROL  compositeur d’expérience amélioré ] (EEC) sous certaines conditions.
+title: Comment résoudre les problèmes liés au [!UICONTROL compositeur d’expérience visuelle] et au [!UICONTROL compositeur d’expérience amélioré] ?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 TQID: https://experienceleague.adobe.com/4v7Qe-Yzjke-GceUSRDO2SMZGkxvrkdsSXQt8TR-bic
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 32%
+source-wordcount: 1271
+ht-degree: 31%
 
 ---
 
-# Résolution des problèmes liés à l’[!UICONTROL Visual Experience Composer] et à l’[!UICONTROL Enhanced Experience Composer] [!DNL Adobe Target]
+# Résolution des problèmes liés au [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] et au [!UICONTROL compositeur d’expérience amélioré]
 
-Des problèmes d&#39;affichage et d&#39;autres problèmes surviennent parfois dans le [!UICONTROL Visual Experience Composer] [!DNL Target] (VEC) et le [!UICONTROL Enhanced Experience Composer] (CEE) sous certaines conditions.
+Des problèmes d’affichage et d’autres problèmes surviennent parfois dans le [!DNL Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) et le [!UICONTROL Compositeur d’expérience avancé] (EEC) sous certaines conditions.
 
 ## Comment les politiques dʼapplication des cookies SameSite de Google Chrome influencent-elles le VEC et l’EEC ? {#samesite}
 
@@ -37,7 +29,7 @@ Tenez compte des modifications ayant un impact sur le compositeur d’expérienc
 >
 >La modification suivante affecte les trois mises à jour décrites ci-dessous :
 >
-> * Le compositeur d’expérience visuelle ne pourra *pas* utiliser le compositeur d’expérience visuelle sans que l’extension [assistant du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) ne soit installée et activée pour les pages protégées par mot de passe de vos sites. Les cookies de connexion à votre site sont considérés comme des cookies tiers et ne sont pas envoyés avec des demandes de connexion dans l’éditeur du compositeur d’expérience visuelle en mode [!UICONTROL Browse]. La seule exception est lorsque les attributs `SameSite=None` et `Secure` sont déjà définis pour les cookies de connexion de votre site.
+> * Le compositeur d’expérience visuelle ne pourra *pas* utiliser le compositeur d’expérience visuelle sans que l’extension [assistant du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) ne soit installée et activée pour les pages protégées par mot de passe de vos sites. Les cookies de connexion à votre site sont considérés comme des cookies tiers et ne sont pas envoyés avec des demandes de connexion dans l’éditeur du compositeur d’expérience visuelle en mode [!UICONTROL Parcourir]. La seule exception est lorsque les attributs `SameSite=None` et `Secure` sont déjà définis pour les cookies de connexion de votre site.
 
 **Chrome 94 (21 septembre 2021)** : avec les modifications imminentes prévues pour la version Chrome 94 (21 septembre 2021), la modification suivante a un impact sur tous les utilisateurs disposant de versions de navigateur Chrome 94+ :
 
@@ -60,12 +52,12 @@ Tenez compte des modifications ayant un impact sur le compositeur d’expérienc
 +++Détails
 Pour déterminer les cookies bloqués en raison des politiques d’application des cookies SameSite, utilisez le [!DNL Developer Tools] dans [!DNL Chrome].
 
-1. Pour accéder au [!DNL Developer Tools], lors de l’affichage du compositeur d’expérience visuelle dans [!DNL Chrome], cliquez sur l’icône **[!UICONTROL ellipsis]** dans le coin supérieur droit de Chrome > **[!UICONTROL More Tools]** > **[!UICONTROL Developer Tools]**.
-1. Cliquez sur l’onglet **[!UICONTROL Network]** > puis recherchez les cookies bloqués.
+1. Pour accéder au [!DNL Developer Tools], lors de l’affichage du compositeur d’expérience visuelle dans [!DNL Chrome], cliquez sur l’icône **[!UICONTROL points de suspension]** dans le coin supérieur droit de Chrome > **[!UICONTROL Plus d’outils]** > **[!UICONTROL Outils de développement]**.
+1. Cliquez sur l’onglet **[!UICONTROL Réseau]** > puis recherchez les cookies bloqués.
 
    >[!NOTE]
    >
-   >Utilisez la case à cocher **[!UICONTROL Has blocked cookies]** pour faciliter la recherche des cookies bloqués.
+   >Utilisez la case à cocher **[!UICONTROL A bloqué les cookies]** pour faciliter la recherche des cookies bloqués.
 
 +++
 
@@ -81,7 +73,7 @@ Pour pallier ce problème, vous pouvez ajouter une page dans l’expérience ave
 ## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_313001039F79446DB28C70D932AF5F58}
 
 +++Détails
-Cette situation peut se produire si l’URL contient un caractère #. Pour résoudre le problème, basculez en mode [!UICONTROL Browse] dans le VEC ou l’EEC, puis revenez en mode [!UICONTROL Compose]. Le compteur doit disparaître et la page doit se charger.
+Cette situation peut se produire si l’URL contient un caractère #. Pour résoudre le problème, basculez en mode [!UICONTROL Parcourir] dans le compositeur d’expérience visuelle ou l’EEC, puis revenez au mode [!UICONTROL Composer]. Le compteur doit disparaître et la page doit se charger.
 
 +++
 
@@ -93,7 +85,7 @@ Si les en-têtes CSP de votre site web bloquent les bibliothèques [!DNL Target]
 
 >[!NOTE]
 >
->En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
+>En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
 
 ![image cps_headers](assets/cps_headers.png)
 
@@ -134,7 +126,7 @@ Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la pa
 ## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Détails
-Ce problème peut être résolu en autorisant la [!UICONTROL Enhanced Experience Composer] (CEE). Cliquez sur **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, puis cochez la case qui active le [!UICONTROL Enhanced Experience Composer]. L’EEC utilise un proxy géré par [!DNL Adobe] pour charger votre page à modifier. Ce proxy permet la modification sur les sites qui démolissent un iFrame ainsi que sur les sites et les pages où vous n’avez pas encore ajouté de code [!DNL Adobe Target]. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites peuvent ne pas charger via l&#39;EEC, auquel cas vous pouvez décocher cette option pour charger l&#39;EEC via un iFrame.
+Ce problème peut être résolu en activant le [!UICONTROL Enhanced Experience Composer] (EEC). Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis cochez la case qui active le [!UICONTROL Compositeur d’expérience améliorée]. L’EEC utilise un proxy géré par [!DNL Adobe] pour charger votre page à modifier. Ce proxy permet la modification sur les sites qui démolissent un iFrame ainsi que sur les sites et les pages où vous n’avez pas encore ajouté de code [!DNL Adobe Target]. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites peuvent ne pas charger via l&#39;EEC, auquel cas vous pouvez décocher cette option pour charger l&#39;EEC via un iFrame.
 
 >[!NOTE]
 >
@@ -149,14 +141,14 @@ Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames 
 
 +++
 
-## Les styles de texte gras et italique avec [!UICONTROL Edit Text]/[!UICONTROL Edit HTML] ou [!UICONTROL Change Text]/[!DNL Change HTML] ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Les styles de texte gras et italique avec [!UICONTROL Modifier le texte]/[!UICONTROL Modifier HTML] ou [!UICONTROL Modifier le texte]/[!DNL Change HTML] ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 +++Détails
-Si vous utilisez **[!UICONTROL Edit Text]/[!UICONTROL Edit HTML]** dans le compositeur d’expérience visuelle pour des activités [!UICONTROL A/B Test] ou [!UICONTROL Experience Targeting] ou **[!UICONTROL Change Text]/[!UICONTROL Change HTML]** pour des activités [!UICONTROL Automated Personalization] ou [!UICONTROL Multivariate Test] afin de mettre le texte en gras ou en italique, il se peut que ces styles ne soient pas appliqués à la page ou que le texte disparaisse de la page dans le compositeur d’expérience visuelle. Cela se produit en raison de la manière dont l’éditeur de texte enrichi applique ces styles qui peuvent interférer avec le balisage du site web.
+Si vous utilisez **[!UICONTROL Modifier le texte]/[!UICONTROL Modifier HTML]** dans le VEC pour les activités [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] ou **[!UICONTROL Modifier le texte]/[!UICONTROL Modifier HTML]** pour les activités [!UICONTROL Automated Personalization] ou [!UICONTROL Test multivarié] pour rendre le texte en gras ou en italique, ces styles peuvent ne pas être appliqués à la page ou le texte disparaît de la page dans le VEC. Cela se produit en raison de la manière dont l’éditeur de texte enrichi applique ces styles qui peuvent interférer avec le balisage du site web.
 
 Si vous rencontrez ce problème :
 
-1. Cliquez sur le bouton **[!UICONTROL HTML]** dans l’éditeur de texte enrichi pour passer en mode d’édition de la source.
+1. Cliquez sur le bouton **[!UICONTROL HTML]** dans l’éditeur de texte enrichi pour entrer dans le mode de modification du code source.
 1. Identifiez les éléments de texte auxquels vous avez appliqué un style.
 
    * Pour le texte en gras, remplacez les éléments `<strong>`&lt; > par `<b>`.

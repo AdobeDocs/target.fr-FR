@@ -5,23 +5,14 @@ title: Où puis-je trouver des réponses aux questions sur le reporting  [!DNL T
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 TQID: https://experienceleague.adobe.com/Gy7-jh5QTTwq8xAkwkQKSkZ0rCnEef92NfnjeAQxnDM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 21%
+source-wordcount: 1324
+ht-degree: 24%
 
 ---
 
@@ -75,9 +66,9 @@ Plusieurs nouveaux visiteurs visitent votre site et sont qualifiés pour une act
 
 Certains visiteurs accèdent à la mesure de conversion, qui a été configurée comme « Incrémenter le décompte et maintenir l’utilisateur dans l’activité ». Supposons que certains de ces utilisateurs accèdent à la mesure de conversion plusieurs fois, la mesure de conversion n’augmente pas. Cependant, compte tenu de cette configuration, certains utilisateurs peuvent accéder à la mesure de conversion, puis revenir à la page d’accueil, se qualifiant à nouveau pour l’activité afin d’enregistrer une nouvelle visite.
 
-## Pourquoi mes rapports [!UICONTROL Experience Targeting] (XT) contiennent-ils des mesures pour les expériences de contrôle ?
+## Pourquoi mes rapports [!UICONTROL Ciblage d’expérience] (XT) contiennent-ils des mesures pour les expériences de contrôle ?
 
-Les activités de ciblage d’expérience doivent toujours comporter une expérience de contrôle. Si vous utilisez une activité XT de la même manière qu’une activité [!UICONTROL A/B Test], ce qui correspond à un scénario assez courant, les données d’expérience de contrôle sont utiles. Vous pouvez ignorer les données de contrôle d’expérience si elles ne sont pas utiles dans vos rapports.
+Les activités de ciblage d’expérience doivent toujours comporter une expérience de contrôle. Si vous utilisez une activité XT de la même manière qu’une activité de test [!UICONTROL A/B], ce qui correspond à un scénario assez courant, les données d’expérience de contrôle sont utiles. Vous pouvez ignorer les données de contrôle d’expérience si elles ne sont pas utiles dans vos rapports.
 
 ## Pourquoi le nombre de visites est-il plus faible dans [!DNL Target] que dans d’autres solutions [!DNL Adobe Experience Cloud] ? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
@@ -101,16 +92,16 @@ Si le contenu d’une activité a été correctement diffusé aux utilisateurs m
 
 Pour modifier l’environnement pour le rapport d’une activité :
 
-1. Cliquez sur **[!UICONTROL Activities]**, sur l’activité souhaitée dans la liste, puis sur l’onglet **[!UICONTROL Reports]** .
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
 
    ![Boîte de dialogue Paramètres A/B](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-1. Dans la liste déroulante **[!UICONTROL Environment]** , sélectionnez **[!UICONTROL Production]**.
+1. Dans la liste déroulante **[!UICONTROL Environnement]**, sélectionnez **[!UICONTROL Production]**.
 
    Les données de rapport peuvent ne pas être disponibles si vous avez sélectionné un environnement de développement.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Pour plus d’informations sur les environnements, voir [Hôtes](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
@@ -118,16 +109,16 @@ Pour plus d’informations sur les environnements, voir [Hôtes](/help/main/admi
 
 Si le contenu d’une activité a été correctement diffusé aux utilisateurs mais que son rapport ne contient aucune donnée, assurez-vous d’utiliser une expérience avec le trafic comme expérience de contrôle.
 
-1. Cliquez sur **[!UICONTROL Activities]**, sur l’activité souhaitée dans la liste, puis sur l’onglet **[!UICONTROL Reports]** .
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité souhaitée dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 1. Cliquez sur l’engrenage pour configurer les paramètres des rapports.
 
-1. Dans la liste déroulante **[!UICONTROL Control]** , sélectionnez une expérience qui reçoit le trafic.
+1. Dans la liste déroulante **[!UICONTROL Contrôle]**, sélectionnez une expérience qui reçoit du trafic.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->Pour plus d’informations sur la mise à jour d’une activité de [!UICONTROL Automated Personalization] (AP) et le remplacement de l’expérience de contrôle par une expérience qui reçoit du trafic, voir [Sélection du contrôle de votre activité d’Automated Personalization ou de ciblage automatique](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+>Pour plus d’informations sur la mise à jour d’une activité  (AP) et la modification de l’expérience de contrôle en une expérience qui reçoit du trafic, consultez [Sélection du contrôle de votre activité Automated Personalization ou de ciblage automatique](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
 
 
 ## Pourquoi la répartition du trafic entre mes expériences est-elle inégale dans mon activité A/B ou MVT ? {#uneven}
@@ -135,7 +126,7 @@ Si le contenu d’une activité a été correctement diffusé aux utilisateurs m
 Par exemple, j’ai défini la répartition du trafic sur 50/50 ou 25/25/25/25, mais je constate une distribution très différente entre les expériences dans les rapports. Il existe plusieurs raisons expliquant l’inégalité du nombre de visiteurs dans les rapports [!DNL Target] :
 
 * Lorsqu’une activité de [!DNL Target] est lancée pour la première fois, la distribution du trafic peut être inégale en raison de l’architecture de nœud de périphérie que [!DNL Target] utilise pour optimiser la diffusion de l’expérience. Il est recommandé de laisser un certain temps à une activité pour collecter davantage de données, ce qui normalisera la distribution. Pour plus d’informations sur [!DNL Adobe Target]’architecture et les nœuds Edge, voir [Fonctionnement d’Adobe Target](/help/main/c-intro/how-target-works.md).
-* Si vous vous trouvez dans [!DNL Target] ou [!DNL Analytics] et que vous utilisez la mesure **[!UICONTROL Visits]**, n’oubliez pas que [!DNL Target] est un système basé sur les visiteurs et que la distribution du trafic pour un test A/B ou MVT est attribuée au niveau des visiteurs. Ainsi, si vous examinez les résultats de l’activité à l’aide de la mesure **[!UICONTROL Visits]**, la répartition du trafic peut sembler inégale, car certains visiteurs peuvent avoir plusieurs visites. Visiteurs est la mesure de normalisation standard lors de l’évaluation des performances des activités.
+* Si vous êtes dans [!DNL Target] ou [!DNL Analytics] et que vous utilisez la mesure **[!UICONTROL Visites]**, n’oubliez pas que [!DNL Target] est un système basé sur les visiteurs et que la distribution du trafic pour un test A/B ou MVT est attribuée au niveau des visiteurs. Ainsi, si vous examinez les résultats des activités à l’aide de la mesure **[!UICONTROL Visites]**, la répartition du trafic peut sembler inégale, car certains visiteurs peuvent avoir plusieurs visites. Visiteurs est la mesure de normalisation standard lors de l’évaluation des performances des activités.
 * La bonne pratique pour les tests A/B et MVT consiste à uniformiser les divisions de trafic. La modification de la répartition du trafic entre les expériences (de 90/10 à 50/50, par exemple) au cours d’un test peut entraîner des disparités entre les visiteurs et visiteuses d’expériences. L’expérience de trafic faible risque de ne jamais « rattraper » le retard.
 * Si vous suivez les bonnes pratiques ci-dessus et que la répartition du trafic ne se normalise pas au fil du temps, vous devez vérifier les points suivants :
 

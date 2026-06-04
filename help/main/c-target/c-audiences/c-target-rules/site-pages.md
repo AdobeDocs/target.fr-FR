@@ -5,17 +5,13 @@ title: Puis-je cibler les visiteurs en fonction des pages du site ?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 TQID: https://experienceleague.adobe.com/ROMKabnbH3yE-W61IQk9CtNpKMg7zA6-qdxu272EVOI
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 822
-ht-degree: 20%
+source-wordcount: 929
+ht-degree: 19%
 
 ---
 
@@ -23,78 +19,78 @@ ht-degree: 20%
 
 Vous pouvez cibler les visiteurs et visiteuses qui utilisent des [!DNL Adobe Target] et visiteuses qui accèdent à une page spécifique de votre site.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser et déposez **[!UICONTROL Site Pages]** dans le volet du Créateur d’audiences.
+1. Faites glisser et déposez **[!UICONTROL Pages du site]** dans le volet du créateur d’audiences.
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
-1. Cliquez sur la liste déroulante **[!UICONTROL Select]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
+1. Cliquez sur la liste déroulante **[!UICONTROL Sélectionner]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
-   Les options et les évaluateurs disponibles dans les listes déroulantes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez [!UICONTROL Current Page] :
+   Les options et les évaluateurs disponibles dans les listes déroulantes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez [!UICONTROL Page actuelle] :
 
    ![Page actuelle](assets/current-page.png)
 
-   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous choisissez [!UICONTROL Select].
+   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous choisissez [!UICONTROL Sélectionner].
 
-   * **[!UICONTROL Current Page]:** page que l’utilisateur consulte.
-
-     Si vous choisissez cette option, les options suivantes sont disponibles dans la deuxième liste déroulante :
-
-      * [!UICONTROL URL] (Pour plus d’informations sur la manière dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
-
-   * **[!UICONTROL Previous Page]:** page que l’utilisateur a consultée avant de cliquer sur la page active. L’utilisateur doit cliquer de la page précédente à la page actuelle pour que la page soit suivie. La page précédente n’est pas suivie si l’utilisateur saisit une nouvelle URL dans le navigateur. Le contenu réel de cette page dépend de la conception de votre site. Par exemple, si la page en cours affiche des informations sur un produit spécifique, la page précédente peut être une page de catégorie sur laquelle le visiteur sélectionne l’élément spécifique. Par exemple, une page affichant plusieurs caméras d’un certain type, ou il peut s’agir de la page d’accueil qui mène à la dernière page.
+   * **[!UICONTROL Page actuelle] :** la page que l’utilisateur consulte.
 
      Si vous choisissez cette option, les options suivantes sont disponibles dans la deuxième liste déroulante :
 
-      * [!UICONTROL URL] (pour plus d’informations sur la manière dont Target évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
+      * [!UICONTROL URL] (pour plus d’informations sur la façon dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine De Niveau Supérieur]
+      * [!UICONTROL Chemin]
+      * [!UICONTROL Fragment de hachage (#)]
 
-   * **[!UICONTROL Landing Page]:** la page de destination est la première page que le visiteur voit lorsqu’il accède à votre site. Par exemple, si le visiteur clique sur un lien Google menant à une page de catégorie, la page de catégorie devient la page d’entrée. Si le lien mène à la page d’accueil, cette dernière est la page d’entrée. La page d’entrée est mémorisée pour toute la session du visiteur. Vous pouvez encore affiner le ciblage au sein du site en fonction de la page d’entrée du visiteur dans cette session.
+   * **[!UICONTROL Page précédente] :** la page sur laquelle l’utilisateur a été affiché avant de cliquer sur la page active. L’utilisateur doit cliquer de la page précédente à la page actuelle pour que la page soit suivie. La page précédente n’est pas suivie si l’utilisateur saisit une nouvelle URL dans le navigateur. Le contenu réel de cette page dépend de la conception de votre site. Par exemple, si la page en cours affiche des informations sur un produit spécifique, la page précédente peut être une page de catégorie sur laquelle le visiteur sélectionne l’élément spécifique. Par exemple, une page affichant plusieurs caméras d’un certain type, ou il peut s’agir de la page d’accueil qui mène à la dernière page.
 
      Si vous choisissez cette option, les options suivantes sont disponibles dans la deuxième liste déroulante :
 
       * [!UICONTROL URL] (pour plus d’informations sur la manière dont Target évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * [!UICONTROL Domain]
-      * [!UICONTROL Query]
-      * [!UICONTROL Subdomain]
-      * [!UICONTROL Top-Level Domain]
-      * [!UICONTROL Path]
-      * [!UICONTROL Hash (#) fragment]
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine De Niveau Supérieur]
+      * [!UICONTROL Chemin]
+
+   * **[!UICONTROL Page de destination] :** la page de destination est la première page que le visiteur voit lorsqu’il accède à votre site. Par exemple, si le visiteur clique sur un lien Google menant à une page de catégorie, la page de catégorie devient la page d’entrée. Si le lien mène à la page d’accueil, cette dernière est la page d’entrée. La page d’entrée est mémorisée pour toute la session du visiteur. Vous pouvez encore affiner le ciblage au sein du site en fonction de la page d’entrée du visiteur dans cette session.
+
+     Si vous choisissez cette option, les options suivantes sont disponibles dans la deuxième liste déroulante :
+
+      * [!UICONTROL URL] (pour plus d’informations sur la manière dont Target évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine De Niveau Supérieur]
+      * [!UICONTROL Chemin]
+      * [!UICONTROL Fragment de hachage (#)]
 
      >[!NOTE]
      >
      >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **[!UICONTROL HTTP Header]:** cette option évalue les informations contenues dans l’en-tête HTTP de la requête [!DNL Target]. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle contenant la condition `Accept-Language: es` pour cibler les visiteurs et visiteuses qui accèdent à la page en espagnol.
+   * **[!UICONTROL En-tête HTTP] :** cette option évalue les informations contenues dans l’en-tête HTTP de la requête [!DNL Target]. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle contenant la condition `Accept-Language: es` pour cibler les visiteurs et visiteuses qui accèdent à la page en espagnol.
 
      Si vous choisissez cette option, les options suivantes sont disponibles dans la deuxième liste déroulante :
 
-      * [!UICONTROL Accept]
+      * [!UICONTROL  Accepter ]
       * [!UICONTROL Accept-Charset]
-      * [!UICONTROL Accept-Encoding]
+      * [!UICONTROL Accepter-Encoder]
       * [!UICONTROL Accept-Language]
-      * [!UICONTROL Authorization]
-      * [!UICONTROL Cache-Control]
-      * [!UICONTROL Connection]
+      * [!UICONTROL Autorisation]
+      * [!UICONTROL Contrôle de cache]
+      * [!UICONTROL Connexion]
       * [!UICONTROL Content-Length]
       * [!UICONTROL Content-MDS]
-      * [!UICONTROL Content-Type]
+      * [!UICONTROL Type de contenu]
       * [!UICONTROL Date]
-      * [!UICONTROL Expect]
-      * [!UICONTROL From]
+      * [!UICONTROL Attendu]
+      * [!UICONTROL De]
       * [!UICONTROL Host]
-      * [!UICONTROL If-Match]
+      * [!UICONTROL Si correspondance]
       * [!UICONTROL If-Modified-Since]
       * [!UICONTROL If-None-Match]
       * [!UICONTROL If-Range]
@@ -102,15 +98,15 @@ Vous pouvez cibler les visiteurs et visiteuses qui utilisent des [!DNL Adobe Tar
       * [!UICONTROL Max-Forwards]
       * [!UICONTROL Pragma]
       * [!UICONTROL Proxy-Authorization]
-      * [!UICONTROL Range]
+      * [!UICONTROL Plage]
       * [!UICONTROL Referrer]
       * [!UICONTROL TE]
-      * [!UICONTROL Upgrade]
+      * [!UICONTROL Mise à niveau]
       * [!UICONTROL User-Agent]
       * [!UICONTROL Via]
-      * [!UICONTROL Warning]
+      * [!UICONTROL Avertissement]
 
-   Si vous choisissez [!UICONTROL Current Page], [!UICONTROL Previous Page] ou [!UICONTROL Landing Page], les options [!UICONTROL Domain] et [!UICONTROL Query] sont disponibles. Tenez compte des points suivants lors du choix de ces options :
+   Si vous choisissez [!UICONTROL Page actuelle], [!UICONTROL Page précédente] ou [!UICONTROL Page de destination], les options [!UICONTROL Domaine] et [!UICONTROL Requête] sont disponibles. Tenez compte des points suivants lors du choix de ces options :
 
    * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domaine égal à facebook.com » n’accepte ni `m.facebook.com` ni `www.facebook.com`. « Le domaine contient facebook.com » accepte toute variante de facebook.com.
    * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
@@ -118,13 +114,13 @@ Vous pouvez cibler les visiteurs et visiteuses qui utilisent des [!DNL Adobe Tar
      `foo.html?e0a72cb2a2c7`
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 Vous pouvez également créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ».
 
 Utilisez un :
 
-* Paramètre de requête si la règle sélectionnée par l’utilisateur est [!UICONTROL Current Page], [!UICONTROL Landing Page] ou [!UICONTROL Previous Page]
+* Paramètre de requête si la règle sélectionnée par l’utilisateur est [!UICONTROL Page actuelle], [!UICONTROL Page de destination] ou [!UICONTROL Page précédente]
 * En-tête si la règle sélectionnée par l’utilisateur est un en-tête HTTP
 
 ## Résolution des problèmes {#ts}

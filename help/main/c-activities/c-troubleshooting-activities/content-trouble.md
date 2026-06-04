@@ -5,23 +5,14 @@ title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 TQID: https://experienceleague.adobe.com/nkaoqcuoqMm67AnEjSg6dCnFDy-jvlwvD1a6YeXTkwk
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +32,7 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Vous devez disposer de l’une des autorisations utilisateur suivantes pour générer un jeton d’authentification :
 
-* Au moins [!UICONTROL Editor] autorisation (ou [!UICONTROL Approver])
+* Autorisation [!UICONTROL Éditeur] minimum (ou [!UICONTROL Approbateur])
 
   Pour plus d’informations concernant les clients [!DNL Target Standard], consultez [Spécifier les rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations concernant les clients [!DNL Target Premium], consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +44,8 @@ Vous devez disposer de l’une des autorisations utilisateur suivantes pour gén
 
 Pour récupérer le jeton d’autorisation :
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Generate New Authentication Token]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
 
    ![Générer un nouveau jeton d’authentification](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -97,7 +88,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
+Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommandations.
 
@@ -167,11 +158,11 @@ at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype no
 
 ## Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
-L’[!UICONTROL Activity URL] détermine la page qui qualifie les visiteurs pour l’activité et effectue le rendu des expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
+L’[!UICONTROL URL de l’activité] détermine la page qui qualifie les visiteurs pour l’activité et effectue le rendu des expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
 
-Par défaut, le [!UICONTROL Visual Experience Composer] (VEC) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
+Par défaut, le [!UICONTROL compositeur d’expérience visuelle] (VEC) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
 
-Pour afficher une autre page après l’ouverture du compositeur d’expérience visuelle, cliquez sur le **[!UICONTROL Configure gear icon]** > sélectionnez **[!UICONTROL Page Delivery]** > puis spécifiez l’URL de votre choix dans le champ [!UICONTROL Activity URL] .
+Pour afficher une autre page après l’ouverture du compositeur d’expérience visuelle, cliquez sur l’icône **[!UICONTROL Configurer l’engrenage]** > sélectionnez **[!UICONTROL Diffusion de page]** > puis spécifiez l’URL de votre choix dans le champ [!UICONTROL URL de l’activité].
 
 ![Configuration de lʼinterface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
 
@@ -197,7 +188,7 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ### Option 3 : au lieu de cibler lʼURL complète, limitez-vous à une portion spécifique de lʼURL.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires spécifient un [!UICONTROL Query] avec [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offres, séparé par un opérateur OR :
+Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires spécifient un [!UICONTROL Requête] avec [!UICONTROL type] > [!UICONTROL est (sensible à la casse)] > type=Summers%20Offres, séparé par un opérateur OR :
 
 ![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
 
@@ -220,12 +211,12 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 ### Ajoutez l’extension ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33872?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### Débogage de base d’Adobe Target ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/37917?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox Trace ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33895?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

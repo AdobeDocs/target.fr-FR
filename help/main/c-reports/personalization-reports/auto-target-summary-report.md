@@ -2,48 +2,43 @@
 keywords: rapports;ciblage automatique;ciblage automatique;AT;rapport
 description: Découvrez comment interpréter le rapport de synthèse de ciblage automatique dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser le rapport de synthèse de ciblage automatique ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 TQID: https://experienceleague.adobe.com/de9ST0undYRSL-BMmwEhvbU7PsfHgYieNAWY-qsQ-Z8
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 628
-ht-degree: 36%
+source-wordcount: 666
+ht-degree: 35%
 
 ---
 
-# [!UICONTROL Auto-Target Summary report]
+# [!UICONTROL Rapport de synthèse de ciblage automatique]
 
-Informations sur la façon d’interpréter les rapports [!UICONTROL Auto-Target Summary] dans [!DNL Adobe Target].
+Informations sur la façon d’interpréter les rapports [!UICONTROL Résumé de ciblage automatique] dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target] est disponible dans le cadre de la solution [!DNL Target Premium]. Il n’est pas inclus dans [!DNL Target Standard] sans licence [Target Premium](/help/main/c-intro/intro.md#premium).
+>Le [!UICONTROL ciblage automatique] est disponible dans le cadre de la solution [!DNL Target Premium]. Il n’est pas inclus dans [!DNL Target Standard] sans licence [Target Premium](/help/main/c-intro/intro.md#premium).
 
-Pour afficher les rapports [!UICONTROL Auto-Target Summary] :
+Pour afficher les rapports [!UICONTROL Résumé du ciblage automatique] :
 
-1. Sur la page [!UICONTROL Activities], cliquez sur l’activité de [!UICONTROL Auto-Target] souhaitée.
+1. Sur la page [!UICONTROL Activités], cliquez sur l’activité [!UICONTROL Ciblage automatique] souhaitée.
 
-   Si vous avez de nombreuses activités, cliquez sur l’icône Filtrer ( ![icône Filtrer](/help/main/assets/icons/Filter.svg) ) pour filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] et [!UICONTROL Activity Source].
+   Si vous avez de nombreuses activités, cliquez sur l’icône Filtrer ( ![icône Filtrer](/help/main/assets/icons/Filter.svg) ) pour filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL Statut], [!UICONTROL Source de création de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesures] et [!UICONTROL Activity Source].
 
-1. Cliquez sur l’onglet **[!UICONTROL Reports]** , puis sur l’icône de votre choix :
+1. Cliquez sur l&#39;onglet **[!UICONTROL Rapports]**, puis sur l&#39;icône souhaitée :
 
-   * **[!UICONTROL Table View]** ( ![Icône Vue Tableau](/help/main/assets/icons/Table.svg) )
-   * **[!UICONTROL Graph View]** ( ![icône Vue graphique](/help/main/assets/icons/GraphTrend.svg) )
-   * **[!UICONTROL Automated Segments]** ( ![Rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) )
-   * ** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ) [!UICONTROL Important Attributes]
+   * **[!UICONTROL Vue Tableau]** ( ![icône Vue Tableau](/help/main/assets/icons/Table.svg) )
+   * **[!UICONTROL Vue Graphique]** ( ![icône Vue Graphique](/help/main/assets/icons/GraphTrend.svg) )
+   * **[!UICONTROL Segments automatisés]** ( ![Rapport Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) )
+   * [!UICONTROL Attributs importants]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) )
 
 ## Vue Tableau
 
-Quelques conseils et considérations lors de l’interprétation de vos rapports [!UICONTROL Auto-Target] :
+Quelques conseils et considérations lors de l’interprétation de vos rapports de [!UICONTROL ciblage automatique] :
 
 * Les différentes lignes du tableau vous aident à comprendre les performances des activités.
 
@@ -56,7 +51,7 @@ Quelques conseils et considérations lors de l’interprétation de vos rapports
    * Dans ce cas, pour augmenter la rapidité de construction des modèles par l’activité pour toutes les expériences, le trafic supplémentaire est envoyé aux expériences associées à des modèles non construits.
    * Pour que la personnalisation commence, il doit y avoir au moins deux expériences avec des modèles créés (coche verte).
 
-* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans [!UICONTROL Auto-Target]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
+* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans le [!UICONTROL  Ciblage automatique ]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
 * Les expériences présentant l’effet élévateur le plus élevé peuvent être interprétées comme ayant la différenciation la plus élevée dans la population. En d’autres termes, l’algorithme a trouvé un segment qui aime le plus cette expérience particulière.
 * Les différentes colonnes du tableau indiquent le nombre de visites, le taux de conversion, l’effet élévateur moyen et le niveau de confiance, ainsi que le degré de confiance. Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
@@ -68,10 +63,10 @@ Utilisez les deux listes déroulantes pour choisir les mesures souhaitées, la m
 
 Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation [!DNL Target] ont répondu aux offres/expériences dans l’activité.
 
-Pour plus d’informations, voir le rapport [&#x200B; Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir le rapport [ Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 
 Ce rapport montre comment, dans différentes activités, les différents attributs sont plus (ou moins) importants pour la manière dont le modèle décide d’effectuer la personnalisation. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
-Pour plus d’informations, consultez le rapport [&#x200B; Attributs importants &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Pour plus d’informations, consultez le rapport [ Attributs importants ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).

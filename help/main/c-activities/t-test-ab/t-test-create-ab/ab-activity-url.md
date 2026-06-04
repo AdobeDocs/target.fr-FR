@@ -1,19 +1,17 @@
 ---
 keywords: url de l’activité;url;url différente
-description: Découvrez comment définir les [!UICONTROL Activity URL] pour définir des pages de test et garantir une conception de test précise.
+description: Découvrez comment définir l’[!UICONTROL URL d’activité] pour définir des pages de test et garantir une conception de test précise.
 title: Quelle est l’URL de l’activité dans une activité A/B ?
 feature: A/B Tests
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
 reason: republish
 TQID: https://experienceleague.adobe.com/arQWsSfBKYtrayq9AI8ejU1T-Uor-oL5j2Sp2JKKXZE
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 32%
+source-wordcount: 305
+ht-degree: 38%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 32%
 
 L’URL de l’activité détermine la page utilisée dans le test et qui s’ouvre lorsque le test est conçu à l’aide de [!DNL Adobe Target].
 
-Lorsque vous y êtes invité au cours de la création de l’activité, spécifiez l’URL d’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Create]**.
+Lorsque vous y êtes invité au cours de la création de l’activité, spécifiez l’URL d’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Créer]**.
 
 >[!NOTE]
 >
@@ -29,13 +27,13 @@ Lorsque vous y êtes invité au cours de la création de l’activité, spécifi
 
 ## Spécification d’une URL différente
 
-Par défaut, le [!UICONTROL Visual Experience Composer] ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
+Par défaut, le [!UICONTROL compositeur d’expérience visuelle] ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
 
-1. (Conditionnel) Pour afficher une autre page après l’ouverture de la [!UICONTROL Visual Experience Composer], sur la page **[!UICONTROL Experiences]**, cliquez sur **[!UICONTROL Configure]** en haut de la page, puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. (Conditionnel) Pour afficher une autre page après l’ouverture du [!UICONTROL compositeur d’expérience visuelle] sur la page **[!UICONTROL Expériences]**, cliquez sur **[!UICONTROL Configurer]** en haut de la page, puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Spécifiez l’URL dans le champ **[!UICONTROL URL]** .
+1. Spécifiez l’URL dans le champ **[!UICONTROL URL]**.
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Add Rule]** pour ajouter d’autres pages ou sections à l’activité.
+1. (Conditionnel) Cliquez sur **[!UICONTROL Ajouter une règle]** pour ajouter d’autres pages ou sections à l’activité.
 
    Les règles supplémentaires peuvent être basées sur les éléments suivants :
 
@@ -49,11 +47,11 @@ Par défaut, le [!UICONTROL Visual Experience Composer] ouvre la page spécifié
 
    D’autres règles peuvent être jointes à l’URL de l’activité avec ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
-1. Cliquez sur **[!UICONTROL Save]** lorsque vous avez terminé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.
 
    Si vous avez saisi une URL pour un site qui n’inclut pas le code JavaScript du [!DNL Target], vous ne pouvez pas sélectionner d’éléments de page.
 
-   Par défaut, le [!UICONTROL Visual Experience Composer] n’autorise pas les modifications apportées aux éléments contenant JavaScript, tels que la rotation des bannières. Vous pouvez désactiver **[!UICONTROL Render using JavaScript]** si vous souhaitez pouvoir modifier ces éléments à l’aide du [!UICONTROL Visual Experience Composer].—>
+   Par défaut, le [!UICONTROL compositeur d’expérience visuelle] n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez désactiver l’option **[!UICONTROL Rendu à l’aide de JavaScript]** si vous souhaitez pouvoir modifier ces éléments à l’aide du [!UICONTROL Compositeur d’expérience visuelle].—>
 
 >[!NOTE]
 >

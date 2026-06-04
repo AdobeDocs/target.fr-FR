@@ -2,24 +2,18 @@
 keywords: optimisation;personnalisation;adobe parcours optimizer;ajo;cas d’utilisation;scénarios;ajouter du contenu;masquer du contenu;ajouter des composants;masquer des composants
 description: Découvrez comment ajouter ou masquer des composants sur votre page web à l’aide de  [!DNL Adobe Journey Optimizer].
 title: Ajoutez ou masquez des composants à votre page web dans  [!DNL Adobe Journey Optimizer]
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true?lang=fr" tooltip="Quelles sont les fonctionnalités Beta dans  [!DNL Adobe Target] ?"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
 TQID: https://experienceleague.adobe.com/sTvR771HCE-lkk9Fg7wXkP2p2ORPYehO23d76hVCOZU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 659
+source-wordcount: 687
 ht-degree: 2%
 
 ---
@@ -48,41 +42,41 @@ Ce cas d’utilisation est conçu pour montrer comment effectuer des tâches fam
 
 >[!NOTE]
 >
->Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], consultez [Utilisation du concepteur web](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*.
+>Les instructions de cette section mettent en évidence les étapes nécessaires pour modifier une image et utiliser les attributs de profil pour personnaliser les messages texte. Pour plus d’informations sur les options disponibles dans le concepteur web [!DNL Journey Optimizer], consultez [Utilisation du concepteur web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*.
 >
 >La vidéo au bas de la page est particulièrement utile.
 
 Pour ajouter des composants ou masquer des composants sur votre page web, procédez comme suit :
 
-1. Dans [!DNL Adobe Journey Optimizer], cliquez sur **Campagnes** dans le rail de gauche pour afficher la page [!UICONTROL Campaigns].
+1. Dans [!DNL Adobe Journey Optimizer], cliquez sur **Campagnes** dans le rail de gauche pour afficher la page [!UICONTROL Campagnes].
 
    ![Page de destination Adobe Journey Optimizer avec l’onglet Campagnes en surbrillance.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
 
-1. Cliquez sur **[!UICONTROL Create Campaign]** dans le coin supérieur droit de la page [!UICONTROL Campaigns].
+1. Cliquez sur **[!UICONTROL Créer une campagne]** dans le coin supérieur droit de la page [!UICONTROL Campagnes].
 
-1. Sélectionnez **[!UICONTROL Scheduled - Marketing]** (valeur par défaut), puis cliquez sur **Créer** pour afficher la page des détails du [!UICONTROL Campaign].
+1. Sélectionnez **[!UICONTROL Planifié - Marketing]** (valeur par défaut), puis cliquez sur **Créer** pour afficher la page de détails [!UICONTROL Campagne].
 
    ![Page de détails de la campagne dans Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. Dans la section **[!UICONTROL Properties]** , saisissez un nom explicite et une description facultative pour la campagne.
+1. Dans la section **[!UICONTROL Propriétés]**, fournissez un nom explicite et une description facultative de la campagne.
 
-1. (Conditionnel) Dans la section **[!UICONTROL Audience]**, cliquez sur **[!UICONTROL Select Audience]** et sélectionnez l’audience souhaitée.
+1. (Conditionnel) Dans la section **[!UICONTROL Audience]**, cliquez sur **[!UICONTROL Sélectionner une audience]** et choisissez l’audience souhaitée.
 
-   Pour ce cas pratique, vous pouvez activer la campagne pour [!UICONTROL All Visitors] (valeur par défaut).
+   Pour ce cas d’utilisation, vous pouvez activer la campagne pour [!UICONTROL Tous les visiteurs] (valeur par défaut).
 
-1. Dans la section **[!UICONTROL Action]** , choisissez **[!UICONTROL Web]** dans la liste déroulante **[!UICONTROL Action]** , puis sélectionnez ou créez une configuration web.
+1. Dans la section **[!UICONTROL Action]**, choisissez **[!UICONTROL Web]** dans la liste déroulante **[!UICONTROL Action]**, puis sélectionnez ou créez une configuration web.
 
    Une configuration web, ou surface de canal, est une configuration définie par un administrateur système. La configuration web contient tous les paramètres techniques pour l’envoi du message, tels que le paramètre d’en-tête, le sous-domaine, les applications mobiles, etc.
 
-   Pour plus d’informations, voir [Configuration des surfaces de canal](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} dans la documentation de Journey Optimizer **.
+   Pour plus d’informations, voir [Configuration des surfaces de canal](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank} dans la documentation de Journey Optimizer **.
 
-1. Dans la section **[!UICONTROL Action]**, cliquez sur **[!UICONTROL Edit Content]** pour ouvrir votre site web dans le concepteur web [!DNL Journey Optimizer].
+1. Dans la section **[!UICONTROL Action]**, cliquez sur **[!UICONTROL Modifier le contenu]** pour ouvrir votre site web dans le concepteur web [!DNL Journey Optimizer].
 
    ![Page de destination du yoga sur le site web de LUMA](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. Pour ajouter un élément masqué, cliquez sur **[!UICONTROL Edit Web Page]** dans le rail de droite.
+1. Pour ajouter un élément masqué, cliquez sur **[!UICONTROL Modifier la page web]** dans le rail de droite.
 
-1. Cliquez sur l’élément à masquer, puis sur le bouton [!UICONTROL Hide] dans le rail de droite.
+1. Cliquez sur l’élément à masquer, puis sur le bouton [!UICONTROL Masquer] dans le rail de droite.
 
    Le rail de droite affiche l’option que vous pouvez exécuter sur l’élément sélectionné. Ces options varient en fonction de l’élément sélectionné.
 
@@ -92,18 +86,18 @@ Pour ajouter des composants ou masquer des composants sur votre page web, procé
 
    ![Flèche arrière](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
-1. Cliquez sur **[!UICONTROL Review to Activate]**, vérifiez que tout se présente comme prévu, puis cliquez sur **Activer**.
+1. Cliquez sur **[!UICONTROL Vérifier pour activer]**, vérifiez que tout se présente comme prévu, puis cliquez sur **Activer**.
 
 ## Afficher les rapports
 
-Cliquez sur le bouton [!UICONTROL Reports] , puis sur la période de reporting souhaitée :
+Cliquez sur le bouton [!UICONTROL Rapports], puis sur la période de création de rapports souhaitée :
 
-* [!UICONTROL View all time report]
-* [!UICONTROL View last 24hrs report]
+* [!UICONTROL Afficher le rapport à toute heure]
+* [!UICONTROL Afficher le rapport des dernières 24 heures]
 
-Pour plus d’informations, consultez [Prise en main de la nouvelle interface de création de rapports](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} dans la documentation de *Journey Optimizer*.
+Pour plus d’informations, consultez [Prise en main de la nouvelle interface de création de rapports](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank} dans la documentation de *Journey Optimizer*.
 
 >[!MORELIKETHIS]
 >
->[Utiliser le concepteur web](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*
->[Créez une campagne &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*
+>[Utiliser le concepteur web](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank} dans la documentation de *Journey Optimizer*
+>[Créer une campagne](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank} dans les *tutoriels Journey Optimizer*

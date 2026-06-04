@@ -6,7 +6,7 @@ exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -33,13 +33,13 @@ L’extension Flags pour le web s’intègre à Adobe Experience Platform Web SD
 
 L’extension Flags pour Android s’intègre à Adobe Experience Platform Mobile SDK.
 
-Consultez le [guide d’intégration de l’extension &#x200B;](../sdk-releases/android/android-extension-integration-guide.md) pour obtenir des instructions de configuration.
+Consultez le [guide d’intégration de l’extension ](../sdk-releases/android/android-extension-integration-guide.md) pour obtenir des instructions de configuration.
 
 ### Extension iOS {#ios-extension}
 
 L’extension Flags pour iOS s’intègre à Adobe Experience Platform Mobile SDK.
 
-Consultez le [guide d’intégration de l’extension &#x200B;](../sdk-releases/ios/ios-extension-integration-guide.md) pour obtenir des instructions de configuration.
+Consultez le [guide d’intégration de l’extension ](../sdk-releases/ios/ios-extension-integration-guide.md) pour obtenir des instructions de configuration.
 
 ## Voir également {#see-also}
 

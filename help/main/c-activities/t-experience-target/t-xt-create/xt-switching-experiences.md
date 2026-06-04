@@ -1,26 +1,23 @@
 ---
 keywords: priorité;création d’expérience;priorité;expérience;audience;expérience;changer d’expérience;compositeur d’expérience visuelle
-description: Découvrez comment les visiteurs peuvent basculer entre les expériences d’une activité  [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) à mesure que leurs profils évoluent.
-title: Les visiteurs peuvent-ils changer d’expérience dans une activité [!UICONTROL Experience Targeting] ?
+description: Découvrez comment les visiteurs peuvent basculer entre les expériences dans une activité  [!DNL Adobe Target] [!UICONTROL  ciblage d’expérience ] (XT) au fur et à mesure de l’évolution de leurs profils.
+title: Les visiteurs peuvent-ils changer d’expérience dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 TQID: https://experienceleague.adobe.com/4bBukCristluFUClhewMcSsNMTPjLjXEqM1QyyropKU
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 723
-ht-degree: 41%
+source-wordcount: 741
+ht-degree: 40%
 
 ---
 
-# Changement d’expérience dans [!UICONTROL Experience Targeting]
+# Changement d’expérience dans [!UICONTROL Ciblage d’expérience]
 
-Avec [!UICONTROL Experience Targeting], vous pouvez contrôler l’expérience que les visiteurs voient évoluer au fur et à mesure de leurs profils.
+Avec le [!UICONTROL ciblage d’expérience], vous pouvez contrôler l’expérience que les visiteurs voient évoluer au fur et à mesure de leurs profils.
 
 La liste suivante présente quelques scénarios dans lesquels les profils des visiteurs peuvent évoluer et que vous souhaiterez peut-être présenter différents contenus en fonction de ces modifications :
 
@@ -31,10 +28,10 @@ La liste suivante présente quelques scénarios dans lesquels les profils des vi
 | Affinité catégorielle | La fonction [affinité catégorielle](/help/main/c-target/c-visitor-profile/category-affinity.md) de [!DNL Target] capture automatiquement la vue des catégories visiteur, puis calcule l’affinité des visiteurs pour la catégorie à des fins de ciblage. Par exemple, les visiteurs et visiteuses qui ont consulté plusieurs articles sur un sujet particulier sur votre site web reçoivent du contenu associé à ce sujet. |
 | Jour de la semaine | Tandis que le week-end approche, vous pouvez présenter aux visiteurs du contenu sur des films, des restaurants ou d’autres formes de divertissement. |
 
-Pour utiliser ces fonctionnalités dans [!DNL Target], il est important de comprendre les informations suivantes lorsque vous travaillez avec des activités [!UICONTROL Experience Targeting] :
+Pour utiliser ces fonctionnalités dans [!DNL Target], il est important de comprendre les informations suivantes lorsque vous utilisez des activités [!UICONTROL Ciblage d’expérience] :
 
 * **La priorité est contrôlée par l’ordre des expériences, de haut en bas.** Si un visiteur se qualifie pour plus de deux audiences, il reçoit le contenu de l’expérience avec la priorité la plus élevée.
-* **Les visiteurs passent d’une expérience à l’autre dans une activité [!UICONTROL Experience Targeting] s’ils commencent à se qualifier pour l’audience d’une expérience à priorité plus élevée.**
+* **Les visiteurs passent d’une expérience à l’autre dans une activité de [!UICONTROL ciblage d’expérience] s’ils commencent à se qualifier pour l’audience d’une expérience à priorité plus élevée.**
 
   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant sa première visite, ce visiteur relevait de l’expérience A (Visiteurs des États-Unis). Après avoir consulté votre site web en Allemagne, ce visiteur est passé à l’expérience B (Visiteurs d’Allemagne).
 
@@ -47,7 +44,7 @@ Pour utiliser ces fonctionnalités dans [!DNL Target], il est important de compr
 
   ![Priorité États-Unis > Allemagne](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-refresh.png)
 
-* **Une expérience ciblée sur « Tous les visiteurs » peut être utilisée comme dernière expérience dans l’activité [!UICONTROL Experience Targeting] pour « attraper » les visiteurs qui ne se qualifient pour aucune autre expérience. Si une expérience ciblée sur « Tous les visiteurs » n’est pas la dernière dans l’ordre, les autres expériences ciblées répertoriées en dessous de cette expérience sont toujours évaluées.**
+* **Une expérience ciblée sur « Tous les visiteurs » peut être utilisée comme dernière expérience dans l’activité [!UICONTROL Ciblage d’expérience] pour « attraper » les visiteurs qui ne se qualifient pour aucune autre expérience. Si une expérience ciblée sur « Tous les visiteurs » n’est pas la dernière dans l’ordre, les autres expériences ciblées répertoriées en dessous de cette expérience sont toujours évaluées.**
 
   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant sa première visite, ce visiteur relevait de l’expérience A (Visiteurs des États-Unis). Après avoir consulté votre site web depuis l’Allemagne, ce visiteur reste dans l’expérience A (visiteurs américains).
 
@@ -57,11 +54,11 @@ Pour utiliser ces fonctionnalités dans [!DNL Target], il est important de compr
 
   ![Priorité États-Unis > Non-États-Unis](/help/main/c-activities/t-experience-target/t-xt-create/assets/not-us.png)
 
-* **Avec une activité de [!UICONTROL Experience Targeting] d’expérience unique, les visiteurs restent dans une expérience même s’ils ne remplissent plus les critères de l’audience qui les a placés dans cette expérience.**
+* **Avec une activité [!UICONTROL Ciblage d’expérience] à expérience unique, les visiteurs et visiteuses restent dans une expérience même s’ils ou elles cessent de se qualifier pour l’audience qui les a placés dans cette expérience.**
 
   Si cela n’est pas souhaitable, vous pouvez créer une autre expérience ciblée sur l’audience inverse (par exemple, « Hors États-Unis » contrairement à « États-Unis »).
 
-  Vous pouvez également créer une activité [!UICONTROL A/B Test] ciblée sur l’audience souhaitée avec une affectation du trafic de 100 %, comme illustré ci-dessous :
+  Une autre option consiste à créer une activité [!UICONTROL  Test A/B ] ciblée sur l’audience souhaitée avec une affectation du trafic de 100 %, comme illustré ci-dessous :
 
   ![Priorité d’une expérience](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-refresh.png)
 

@@ -1,26 +1,24 @@
 ---
 keywords: Ciblage d’expérience;xt;url d’activité;url
-description: Découvrez comment spécifier la [!UICONTROL Activity URL] qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité de [!UICONTROL Experience Targeting] est conçue à l’aide de  [!DNL Adobe Target].
-title: Quel est le [!UICONTROL Activity URL] d’une activité [!UICONTROL Experience Targeting] (XT) ?
+description: Découvrez comment spécifier l’[!UICONTROL URL de l’activité] qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité [!UICONTROL Ciblage d’expérience] est conçue à l’aide de [!DNL Adobe Target].
+title: Qu’est-ce que l’[!UICONTROL URL d’activité] dans une activité de [!UICONTROL ciblage d’expérience] (XT) ?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 268
-ht-degree: 37%
+source-wordcount: 298
+ht-degree: 35%
 
 ---
 
-# URL de l’activité dans les activités [!UICONTROL Experience Targeting] (XT)
+# URL de l’activité dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
 
-L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL Visual Experience Composer] (VEC) ou le [!UICONTROL Form-Based Experience Composer] lors de la conception de l’activité.
+L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL compositeur d’expérience d’après les formulaires] lors de la conception de l’activité.
 
-1. Lorsque vous y êtes invité lors de la [création d’une activité XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), spécifiez l’URL de l’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Create Activity]**.
+1. Lorsque vous y êtes invité lors de la [création d’une activité XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), spécifiez l’URL de l’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Créer une activité]**.
 
    >[!NOTE]
    >
@@ -28,15 +26,15 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
    >
    >Par défaut, le compositeur d’expérience visuelle ou le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
    >
-   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
+   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
 
-1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configure]**, sélectionnez **[!UICONTROL Page Delivery]**, puis spécifiez l’URL dans le champ [!UICONTROL URL] .
+1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configurer]**, sélectionnez **[!UICONTROL Diffusion de page]**, puis spécifiez l’URL dans le champ [!UICONTROL URL].
 
    >[!NOTE]
    >
    >Si vous modifiez l’URL après avoir apporté des modifications à une page pour une ou plusieurs expériences, l’expérience est réinitialisée sur la nouvelle page et les modifications sont perdues.
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Add Rule]** pour ajouter d’autres pages ou sections à l’activité.
+1. (Conditionnel) Cliquez sur **[!UICONTROL Ajouter une règle]** pour ajouter d’autres pages ou sections à l’activité.
 
    Les règles supplémentaires peuvent être basées sur les éléments suivants :
 
@@ -49,4 +47,4 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
 
    Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
-1. Cliquez sur **[!UICONTROL Save]** lorsque vous avez terminé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.

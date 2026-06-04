@@ -5,12 +5,12 @@ hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
 
-# Analytics {#analytics}
+# Concepts de base {#analytics}
 
 Flags fournit des analyses intégrées pour les indicateurs de fonctionnalité, les groupes de fonctionnalités, les groupes de fonctionnalités inter-équipes et les versions. Utilisez le tableau de bord Analytics pour comprendre le nombre d’utilisateurs participant à votre déploiement et la comparaison entre la variante et les populations témoins. Vous pouvez également exporter des données Indicateurs vers votre environnement de création de rapports préféré à des fins d’analyse avec vos autres données Adobe.
 

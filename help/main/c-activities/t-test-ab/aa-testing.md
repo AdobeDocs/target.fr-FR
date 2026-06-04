@@ -5,14 +5,11 @@ title: Qu’est-ce que le test A/A ?
 feature: A/B Tests
 exl-id: 7489f4f5-3655-45f9-a743-651ba1c23c53
 TQID: https://experienceleague.adobe.com/-kLz0mG8LaFqEbB-9M89vJWTFjfypupbcOQ3MjQz-jQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: 949
 ht-degree: 1%
 
 ---
@@ -53,7 +50,7 @@ Pour éviter cela, et comme pour un test A/B normal, vous devez donc décider à
 
 Dans un test A/A, l’objectif serait alors de *pas* voir un résultat statistiquement significatif une fois que votre test aurait atteint la taille d’échantillon souhaitée.
 
-Le [!UICONTROL Adobe Target Sample Size Calculator] est un outil important pour vous aider à déterminer la taille d’échantillon à cibler et la durée d’exécution du test.
+Le [!UICONTROL Calculateur de taille d’échantillon d’] est un outil important pour vous aider à déterminer la taille d’échantillon à cibler et la durée d’exécution du test.
 
 * [Calculateur de taille d’Adobe Target](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)
 
