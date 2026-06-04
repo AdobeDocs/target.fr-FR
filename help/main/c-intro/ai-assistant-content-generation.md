@@ -107,4 +107,4 @@ L’invite et les variations suivantes montrent la puissance de [!DNL AI Assista
 
 ### Créer du contenu à l’aide de l’assistant AI pour la génération de contenu
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434637/?captions=fre_fr&learn=on">https://video.tv.adobe.com/v/3434637/?captions=fre_fr&learn=on)

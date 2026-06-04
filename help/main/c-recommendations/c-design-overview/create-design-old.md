@@ -327,4 +327,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une conception personnalisée
 * comprendre comment référencer des variables d’affichage dans vos conceptions ;
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/34832?captions=fre_fr)

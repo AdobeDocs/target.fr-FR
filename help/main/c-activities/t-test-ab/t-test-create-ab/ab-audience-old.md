@@ -68,7 +68,7 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30143?captions=fre_fr)
 
 ### Workflow d’activité - Ciblage (2:14) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

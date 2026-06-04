@@ -108,7 +108,7 @@ Les modèles  (AP) et [!UICONTROL de ciblage automatique] conservent le comporte
 
 ## Vidéo de formation : utilisation des rapports Personalization Insights ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/328088?captions=fre_fr)
 
 Pour plus d’informations, voir [Utilisation des rapports Personalization Insights dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
