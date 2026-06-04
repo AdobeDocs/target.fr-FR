@@ -94,7 +94,7 @@ Pour plus d’informations, consultez [Comment configurer des rapports A4T dans 
 +++Réponse
 [!DNL Reports & Analytics] applique un modèle d’attribution de même touche aux « impressions d’activité » et aux « conversions d’activité », tandis qu’[!DNL Analysis Workspace] affiche les mesures brutes, qui peuvent sembler exagérées en raison de la persistance de la dimension [!DNL Target].
 
-Pour évaluer les mesures [!UICONTROL Impressions d’activité] et [!UICONTROL Conversions d’activité] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont des modèles d’attribution [!UICONTROL Touche identique] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Modèles d’attribution autres que ceux par défaut], puis en sélectionnant [!UICONTROL Touche identique]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) dans le *Guide des outils Analytics*.
+Pour évaluer les mesures [!UICONTROL Impressions d’activité] et [!UICONTROL Conversions d’activité] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont des modèles d’attribution [!UICONTROL Touche identique] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Modèles d’attribution autres que ceux par défaut], puis en sélectionnant [!UICONTROL Touche identique]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=fr) dans le *Guide des outils Analytics*.
 
 +++
 
@@ -160,7 +160,7 @@ L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effec
 
 Comme les deux expériences ont été vues avant la conversion, elles sont toutes deux « créditées » pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour les rapports [!DNL Target], comme vous ne placez pas une activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus réussie, le fait que toutes les activités vues par l’utilisateur aient obtenu du crédit n’a pas d’importance. Vous comparez les résultats de deux éléments au sein d’une seule activité. Il n’est pas possible pour un utilisateur de voir différentes expériences dans la même activité, vous n’avez donc pas à vous soucier de la contamination croisée du crédit de commande.
 
-Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) dans le *Guide d’administration d’Analytics*.
+Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=fr)) dans le *Guide d’administration d’Analytics*.
 
 +++
 
@@ -232,7 +232,7 @@ Voici quelques points à garder à l’esprit lors de l’affichage de rapports 
 Pour afficher les impressions d’activité dans [!DNL Analysis Workspace] :
 
 1. Dans l’interface utilisateur de [!DNL Target], cliquez sur **[!UICONTROL Afficher dans Analytics]**.
-1. Ajoutez la colonne **[!UICONTROL Impressions d’activité]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
+1. Ajoutez la colonne **[!UICONTROL Impressions d’activité]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr){target=_blank}.
 1. Dans la colonne **[!UICONTROL Impressions d’activité]**, cliquez sur l’icône [!UICONTROL Engrenage].
 1. Cliquez sur **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**.
 1. Sélectionnez **[!UICONTROL Modèle Touche identique]** > **[!UICONTROL Appliquer]**.
