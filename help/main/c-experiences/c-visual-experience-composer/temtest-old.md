@@ -6,8 +6,8 @@ feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 34%
+source-wordcount: '623'
+ht-degree: 32%
 
 ---
 
@@ -32,11 +32,11 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
 
 1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Pour spécifier les pages où l’expérience apparaîtra, dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur l’icône d’engrenage, puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. Pour spécifier les pages où l’expérience apparaîtra, dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) cliquez sur l’icône en forme d’engrenage, puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
    ![Icône Engrenage > Diffusion de page](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
-1. Cliquez sur **[!UICONTROL Add Template Rule]**, puis spécifiez les critères des pages auxquelles vous souhaitez ajouter l’expérience.
+1. Cliquez sur **[!UICONTROL Ajouter une règle de modèle]**, puis spécifiez les critères des pages auxquelles vous souhaitez ajouter l’expérience.
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
@@ -60,7 +60,7 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
 
 1. Saisissez les chaînes qui définissent l’emplacement d’ajout de l’expérience, par exemple le domaine ou les chaînes contenues dans le nom de la page.
 
-   Par exemple, si vous sélectionnez **[!UICONTROL Domain]** et **[!UICONTROL Is (case sensitive)]**, saisissez le domaine dans lequel vous souhaitez que l’expérience soit ajoutée à toutes les pages.
+   Par exemple, si vous sélectionnez **[!UICONTROL Domaine]** et **[!UICONTROL Est (sensible à la casse)]**, saisissez le domaine dans lequel vous souhaitez que l’expérience soit ajoutée à toutes les pages.
 
    Vous pouvez inclure plusieurs éléments.
 
@@ -68,7 +68,7 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
    >
    >Plusieurs éléments utilisent la logique OR, ce qui signifie que tout élément unique de la liste rend la condition vraie.
 
-1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Add Template Rule]** et en répétant la procédure des étapes précédentes.
+1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter une règle de modèle]** et en répétant la procédure des étapes précédentes.
 
    Plusieurs critères sont associés avec la logique ET. [!DNL Target] ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
 
@@ -90,11 +90,11 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 
 1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Pour spécifier le domaine dans lequel l’expérience apparaîtra, dans le compositeur d’expérience visuelle, cliquez sur l’icône en forme d’engrenage, puis sélectionnez **[!UICONTROL Page Delivery]**.
+1. Pour spécifier le domaine dans lequel l’expérience apparaîtra, dans le compositeur d’expérience visuelle, cliquez sur l’icône d’engrenage, puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Cliquez sur **[!UICONTROL Add Template Rule]** > **[!UICONTROL Domain]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle de modèle]** > **[!UICONTROL Domaine]**.
 
-1. Dans la liste déroulante **[!UICONTROL Choose evaluator]** , sélectionnez **[!UICONTROL Contains]**, puis spécifiez le domaine.
+1. Dans la liste déroulante **[!UICONTROL Choisir l’évaluateur]**, sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.
 
    ![Le domaine contient](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 

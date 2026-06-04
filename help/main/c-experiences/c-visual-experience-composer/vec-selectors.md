@@ -13,7 +13,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: 455
 ht-degree: 29%
 
 ---
@@ -24,7 +24,7 @@ Un sélecteur d’éléments est une expression CSS qui peut identifier un ou pl
 
 Vous trouverez des informations de base sur les sélecteurs CSS dans le document [Sélecteurs](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) sur le *[!DNL Mozilla Developer Network]* (MDN).
 
-Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Visual Experience Composer]**, puis choisissez vos sélecteurs CSS préférés.
+Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Compositeur d’expérience visuelle]**, puis choisissez vos sélecteurs CSS préférés.
 
 * **Utiliser les ID d’élément** : à désactiver si le même ID est utilisé pour plusieurs éléments ou si les ID d’élément peuvent changer au chargement de la page.
 * **Utiliser les classes d’éléments** : désactivez cette option si les classes d’éléments sur une page peuvent changer.
@@ -32,7 +32,7 @@ Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élém
 
 >[!NOTE]
 >
->Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] et [!UICONTROL &#x200B; Multivariate Test].
+>Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] et[!UICONTROL &#x200B; Test multivarié].
 
 Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

@@ -15,7 +15,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 476
 ht-degree: 61%
 
 ---
@@ -40,7 +40,7 @@ Pour implémenter un cas d’utilisation A4T multipage de base :
 +++Réponse
 Pour qu’une suite de rapports puisse être sélectionnée lors de la définition d’une activité Analytics, vous avez besoin d’un compte utilisateur Analytics et, également, d’un compte utilisateur Target. Les comptes d’utilisateur doivent être configurés comme décrit dans la documentation. Voir [Exigences d’autorisation des utilisateurs](/help/main/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Une fois que vous êtes membre d’un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target, ainsi qu’à toutes les suites de rapports, l’option de création d’un test A/B à l’aide d’Analytics doit s’afficher sous **[!UICONTROL Create Activity]**.
+Une fois que vous êtes membre d’un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target, ainsi qu’à toutes les suites de rapports, l’option permettant de créer un test A/B à l’aide d’Analytics sous **[!UICONTROL Créer une activité]** s’affiche.
 
 Si des problèmes de mise en service se produisent, vérifiez que A4T a été configuré correctement.
 
@@ -51,7 +51,7 @@ Si des problèmes de mise en service se produisent, vérifiez que A4T a été co
 +++Réponse
 Vérifiez les éléments suivants si l’un de ces problèmes survient :
 
-* Assurez-vous que vos comptes Analytics et Target sont liés dans Experience Cloud.
+* Vérifiez que vos comptes Analytics et Target sont liés dans Experience Cloud.
 * Certains clients utilisent plusieurs connexions d’entreprise Analytics dans la même entreprise Experience Cloud. Si vous utilisez plusieurs connexions, assurez-vous que la dernière société Analytics à laquelle vous vous êtes connecté est celle qui est liée au compte Target pour l’intégration.
 * Si vous êtes connecté à Experience Cloud depuis plusieurs heures, il arrive que la session Analytics expire. Déconnectez-vous puis connectez-vous à nouveau pour réessayer.
 

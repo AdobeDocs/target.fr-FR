@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1761
-ht-degree: 74%
+source-wordcount: 1772
+ht-degree: 73%
 
 ---
 
@@ -131,7 +131,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 * La limite recommandée pour bénéficier de performances optimales consiste à conserver le catalogue à moins d’un million d’articles par environnement et à moins de dix millions d’articles dans tous les environnements.
-* La limite maximale est de dix millions d’articles par environnement et de 100 millions d’articles dans tous les environnements. Si vous avez entre un et dix millions d’éléments par environnement, cela aura une incidence sur les performances de l’interface utilisateur [!UICONTROL Catalog Search]. Toutefois, [!DNL Target Recommendations] continue de générer et de fournir des recommandations.
+* La limite maximale est de dix millions d’articles par environnement et de 100 millions d’articles dans tous les environnements. Si vous avez entre un et dix millions d’articles par environnement, cela aura une incidence sur les performances de l’interface utilisateur [!UICONTROL Recherche catalogue]. Toutefois, [!DNL Target Recommendations] continue de générer et de fournir des recommandations.
 
 ### Attributs d’entité personnalisés
 
@@ -170,7 +170,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Expériences par activité
 
-* **Limite** : 2 000 expériences par [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) et activité [!UICONTROL Auto-Target].
+* **Limite** : 2 000 expériences par activité [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivarié] (MVT) et [!UICONTROL Ciblage automatique].
 
   30 000 expériences par activité d’Automated Personalization (AP).
 

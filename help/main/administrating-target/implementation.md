@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 181
-ht-degree: 30%
+source-wordcount: 184
+ht-degree: 29%
 
 ---
 
@@ -35,6 +35,6 @@ Pour plus d’informations, consultez les différentes rubriques sous [Implémen
 >
 >Les balises dans [!DNL Adobe Experience Platform] constituent la méthode privilégiée pour implémenter [!DNL Target]. Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Pour plus d’informations, voir [Implémentation [!DNL Target] utilisation [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}.
 
-1. Pour accéder à la page [!UICONTROL Implementation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Pour accéder à la page [!UICONTROL Implémentation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
 1. Pour plus d’informations sur les paramètres de cette page, voir [&#x200B; Implémentation de Target sans gestionnaire de balises &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.

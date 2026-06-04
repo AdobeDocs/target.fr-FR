@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;ap;audiences;ensemble;forêt aléatoire;bandit manchot;échantillonnage de thompson;ml;machine learning
-description: Découvrez comment utiliser des activités [!UICONTROL Automated Personalization] (AP) dans qui utilisent le machine learning avancé  [!DNL Adobe Target]  faire correspondre différentes variations d’offre pour chaque visiteur.
-title: Qu’est-ce qu’une activité [!UICONTROL Automated Personalization] (AP) ?
+description: Découvrez comment utiliser les activités  (AP) dans qui utilisent le machine learning avancé pour faire correspondre différentes variations d [!DNL Adobe Target] offre pour chaque visiteur.
+title: Qu’est-ce qu’une activité  (AP) ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
@@ -24,26 +24,26 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 31%
+source-wordcount: 1051
+ht-degree: 30%
 
 ---
 
 # [!UICONTROL Automated Personalization] (AP)
 
-Les activités [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] combinent des offres ou des messages et utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur en fonction de son profil client individuel afin de personnaliser le contenu et d’améliorer son expérience.
+Les activités  (AP) dans [!DNL Adobe Target] combinent des offres ou des messages et utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur en fonction de son profil client individuel afin de personnaliser le contenu et d’améliorer la performance.
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] est disponible dans le cadre de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/main/c-intro/intro.md#premium).
+> est disponible dans le cadre de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/main/c-intro/intro.md#premium).
 
-De même qu’[!UICONTROL Auto-Target], [!UICONTROL Automated Personalization] utilise un [algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), une méthode d’ensemble de science des données de premier plan, comme principal algorithme de personnalisation pour déterminer la meilleure expérience à montrer à un visiteur. [!UICONTROL Automated Personalization] peut s’avérer utile lors de la phase de découverte des tests. Elle permet également à l’apprentissage automatique de déterminer le contenu le plus efficace lors du ciblage de différents visiteurs. Avec le temps, l’algorithme apprend à effectuer des prédictions plus efficaces et affiche le contenu le plus à même de satisfaire vos objectifs.
+De la même manière que le [!UICONTROL ciblage automatique], [!UICONTROL Automated Personalization] utilise un algorithme [Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md), une méthode d’ensemble de science des données de premier plan, comme principal algorithme de personnalisation pour déterminer la meilleure expérience à montrer à un visiteur.  peut s’avérer utile lors de la phase de découverte des tests. Elle permet également à l’apprentissage automatique de déterminer le contenu le plus efficace lors du ciblage de différents visiteurs. Avec le temps, l’algorithme apprend à effectuer des prédictions plus efficaces et affiche le contenu le plus à même de satisfaire vos objectifs.
 
-Pour plus d’informations sur les différences entre [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target], consultez [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB).
+Pour plus d’informations sur les différences entre  et [!UICONTROL Ciblage automatique], consultez [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB).
 
-Les marketeurs implémentent un fichier sur leur site, ce qui leur permet de pointer et de cliquer sur n’importe quel contenu, puis de créer et sélectionner visuellement des options de contenu supplémentaires pour cette zone à l’aide du [!UICONTROL Visual Experience Composer] (VEC). Ensuite, l’algorithme détermine automatiquement quel élément de contenu diffuser pour chaque visiteur individuel en fonction de toutes les données de comportement détenues par le système sur le visiteur, offrant ainsi une expérience personnalisée. Comme [!UICONTROL Automated Personalization] peut s’adapter aux changements de comportement des visiteurs et des visiteuses, il peut être exécuté sans date de fin définie pour fournir un effet élévateur et une personnalisation continus. Ce mode est parfois appelé « toujours activé ». Ainsi, le spécialiste du marketing n’a pas besoin d’exécuter un test et d’analyser les résultats avant de diffuser le meilleur contenu sans réaliser l’effet élévateur de l’optimisation (l’ordre des opérations standard pour mettre en œuvre le résultat d’une activité A/B standard).
+Les marketeurs implémentent un fichier sur leur site, ce qui leur permet de pointer et de cliquer sur n’importe quel contenu, puis de créer et sélectionner visuellement des options de contenu supplémentaires pour cette zone à l’aide du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Ensuite, l’algorithme détermine automatiquement quel élément de contenu diffuser pour chaque visiteur individuel en fonction de toutes les données de comportement détenues par le système sur le visiteur, offrant ainsi une expérience personnalisée. Comme  peut s’adapter aux changements de comportement des visiteurs, il peut être exécuté sans date de fin définie pour fournir un effet élévateur et une personnalisation continus. Ce mode est parfois appelé « toujours activé ». Ainsi, le spécialiste du marketing n’a pas besoin d’exécuter un test et d’analyser les résultats avant de diffuser le meilleur contenu sans réaliser l’effet élévateur de l’optimisation (l’ordre des opérations standard pour mettre en œuvre le résultat d’une activité A/B standard).
 
-Les termes suivants sont utiles pour aborder le [!UICONTROL Automated Personalization] :
+Les termes suivants sont utiles pour aborder  :
 
 | Terme | Définition |
 |---|---|
@@ -51,9 +51,9 @@ Les termes suivants sont utiles pour aborder le [!UICONTROL Automated Personaliz
 | Forêt aléatoire | Une approche de machine learning de pointe. En termes de science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. |
 | Échantillonnage de Thompson | L’objectif de l’échantillonnage de Thompson est de déterminer quelle expérience est la meilleure globalement (non personnalisée), tout en réduisant le « coût » de la recherche de cette expérience. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
-Tenez compte des détails suivants lors de l’utilisation de [!UICONTROL Automated Personalization] :
+Tenez compte des détails suivants lors de l’utilisation de  :
 
-## [!UICONTROL Automated Personalization] utilise un algorithme Forêt aléatoire pour personnaliser
+## utilise un algorithme Forêt aléatoire pour personnaliser
 
 Random Forest est une approche d&#39;apprentissage automatique de premier plan. En termes de science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans [!DNL Target], Random Forest est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou le revenu le plus élevé par visite) pour chaque visiteur spécifique. Par exemple, les visiteurs qui utilisent Chrome, qui sont des membres fidèles Gold et qui accèdent à votre site le mardi peuvent être plus susceptibles de convertir avec l’expérience A. Les visiteurs New Yorkais peuvent être plus susceptibles de convertir avec l’expérience B. Pour plus d’informations sur Forêt aléatoire dans [!DNL Target], voir [Algorithme de forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
@@ -71,11 +71,11 @@ Random Forest est une approche d&#39;apprentissage automatique de premier plan. 
 
 ## Le modèle optimise en permanence une seule mesure d’objectif
 
-* Cette mesure peut être basée sur la conversion ou sur le chiffre d’affaires (plus précisément, [!UICONTROL Revenue per Visitor]).
+* Cette mesure peut être basée sur la conversion ou sur les recettes (plus précisément, [!UICONTROL Recettes par visiteur]).
 
 ## [!DNL Target] collecte automatiquement des informations sur les visiteurs afin de créer les modèles de personnalisation
 
-* Pour plus d’informations sur les attributs utilisés dans [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization], voir [Collecte de données Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
+* Pour plus d’informations sur les attributs utilisés dans [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization], voir [Collecte de données Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ## [!DNL Target] utilise automatiquement toutes [!DNL Adobe Experience Cloud] audiences partagées pour créer des modèles de personnalisation
 
@@ -83,17 +83,17 @@ Random Forest est une approche d&#39;apprentissage automatique de premier plan. 
 
 ## Les marketeurs peuvent charger des données hors ligne, des scores de propension ou d’autres données personnalisées pour créer des modèles de personnalisation
 
-Les données hors ligne, telles que les informations de gestion de la relation client (CRM) ou les scores de propension à l’attrition des clients, peuvent s’avérer incroyablement précieuses lors de la création de modèles de personnalisation. Il existe plusieurs façons de saisir des données dans [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL Auto-Target] des algorithmes de personnalisation.
+Les données hors ligne, telles que les informations de gestion de la relation client (CRM) ou les scores de propension à l’attrition des clients, peuvent s’avérer incroyablement précieuses lors de la création de modèles de personnalisation. Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation  (AP) et [!UICONTROL Ciblage automatique].
 
 * [Paramètres mbox](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}
 * [Paramètres de profil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}
 * [API côté serveur pour la mise à jour du profil](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=fr){target=_blank}
 
-Pour plus d’informations sur les données automatiquement collectées et utilisées par les algorithmes de personnalisation [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target], voir [Collecte de données Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
+Pour plus d’informations sur les données automatiquement collectées et utilisées par les algorithmes de personnalisation  et [!UICONTROL Ciblage automatique], consultez [Collecte de données Automated Personalization](/help/main/c-activities/t-automated-personalization/ap-data.md).
 
 ## Vidéo de formation : Types d’activités
 
-Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. [!UICONTROL Automated Personalization] est discuté à partir de 5:55.
+Cette vidéo explique les types d’activités disponibles dans [!DNL Target].  est discuté à partir de 5:55.
 
 * Décrire les types d’activités inclus dans [!DNL Adobe Target]
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs

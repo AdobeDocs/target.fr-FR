@@ -18,8 +18,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 665
-ht-degree: 86%
+source-wordcount: 692
+ht-degree: 83%
 
 ---
 
@@ -41,16 +41,16 @@ L’activité [!DNL Recommendations] de [!DNL Target] améliore [!DNL Recommenda
 
 ## Recommandations en tant qu’offre
 
-Vous pouvez inclure des recommandations dans les activités [!UICONTROL A/B Test] (y compris les activités [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target]) et [!UICONTROL Experience Targeting] (XT).
+Vous pouvez inclure des recommandations dans les activités [!UICONTROL Test A/B] (y compris les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) et [!UICONTROL Ciblage d’expérience] (XT).
 
 Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Envoyez automatiquement le trafic vers l’expérience Recommendations la plus performante à l’aide de [!UICONTROL Auto-Allocate].
-* À l’aide de [!UICONTROL Auto-Target], affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil.
+* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;].
+* À l’aide du ciblage automatique [!UICONTROL , affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil].
 
-Pour commencer, créez une activité de [!UICONTROL A/B Test] ou de [!UICONTROL Experience Targeting] à l’aide de l’[!UICONTROL Visual Experience Composer] et utilisez l’action de [!UICONTROL Insert Before], de [!UICONTROL Insert After] ou de [!UICONTROL Replace With] pour ajouter des recommandations à une expérience.
+Pour commencer, créez une activité [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] à l’aide du [!UICONTROL compositeur d’expérience visuelle] et utilisez l’action [!UICONTROL Insérer avant], [!UICONTROL Insérer après] ou [!UICONTROL Remplacer par] pour ajouter des recommandations à une expérience.
 
 Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 

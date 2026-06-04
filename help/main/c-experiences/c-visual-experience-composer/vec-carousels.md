@@ -11,14 +11,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 58%
+source-wordcount: 152
+ht-degree: 71%
 
 ---
 
 # Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle
 
-Cette rubrique explique comment créer un carrousel qui peut être modifié dans le [!UICONTROL Visual Experience Composer] d’[!DNL Adobe Target] (VEC).
+Cette rubrique explique comment créer un carrousel modifiable dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC).
 
 Lorsque vous utilisez la procédure suivante, [!DNL Target] considère toujours que la diapositive sélectionnée est associée au « sélecteur » de la diapositive appropriée, et même si celle-ci est modifiée dans le compositeur d’expérience visuelle au bout de quelques secondes.
 
@@ -38,7 +38,7 @@ Lorsque vous utilisez la procédure suivante, [!DNL Target] considère toujours 
 
    >[!NOTE]
    >
-   >L’option [!UICONTROL Render Using JavaScript] n’est actuellement pas prise en charge si elle est utilisée avec du code personnalisé dans le compositeur d’expérience visuelle.
+   >L’option [!UICONTROL Rendu avec JavaScript] n’est actuellement pas prise en charge si elle est utilisée avec un code personnalisé dans le compositeur d’expérience visuelle.
 
 1. Mettez à jour uniquement les balises className afin de masquer les autres et d’afficher les suivantes avec le retardateur/l’animation.
 

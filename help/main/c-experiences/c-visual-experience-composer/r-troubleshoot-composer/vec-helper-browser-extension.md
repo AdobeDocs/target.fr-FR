@@ -1,7 +1,7 @@
 ---
 keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
-description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Visual Experience Composer] (VEC). L’extension de navigateur Assistant du VEC vous permet de charger des sites web de manière fiable dans le VEC.
-title: Comment utiliser l’extension d’assistance [!UICONTROL Visual Experience Composer] (VEC) ?
+description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). L’extension de navigateur Assistant du VEC vous permet de charger des sites web de manière fiable dans le VEC.
+title: Comment utiliser l’extension d’assistance [!UICONTROL Compositeur d’expérience visuelle] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q
@@ -20,14 +20,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 55%
+source-wordcount: 1111
+ht-degree: 51%
 
 ---
 
-# Extension d’assistance [!UICONTROL Visual Experience Composer]
+# Extension d’assistance [!UICONTROL Compositeur d’expérience visuelle]
 
-L’extension de navigateur d’assistance [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) pour [!DNL Google Chrome] vous permet de charger des sites web de manière fiable dans le VEC pour créer rapidement des expériences web et une assurance qualité.
+L’extension de navigateur d’assistance [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour [!DNL Google Chrome] vous permet de charger des sites web de manière fiable dans le VEC pour créer rapidement des expériences web et une assurance qualité.
 
 Le navigateur Assistant du compositeur d’expérience visuelle est une extension [!DNL Chrome]. Cette extension n’est pas nécessaire lors de l’utilisation de [!DNL Mozilla Firefox].
 
@@ -71,12 +71,12 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 ## Obtenir et installer l’extension d’assistance du compositeur d’expérience visuelle
 
 1. Accédez à l’extension de navigateur [Adobe Target VEC Helper dans la boutique en ligne Chrome](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca).
-1. Cliquez sur **[!UICONTROL Add to Chrome > Add Extension]**.
+1. Cliquez sur **[!UICONTROL Ajouter à Chrome > Ajouter une extension]**.
 1. Ouvrez le VEC dans [!DNL Target].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension du navigateur d’assistance de VEC (![icône de l’assistant de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) dans la barre d’outils du navigateur Chrome lorsque vous êtes en mode VEC ou en [mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md).
-1. (Conditionnel) Faites glisser le bouton **[!UICONTROL Inject Target Libraries]** vers la position « activé » si la page web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target].
+1. (Conditionnel) Faites glisser le bouton **[!UICONTROL Injecter les bibliothèques cibles]** sur la position « activé » si la page web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target].
 
-   L’illustration suivante présente l’assistant VEC avec le paramètre [!UICONTROL Inject Target Libraries] activé :
+   L’illustration suivante présente l’assistant VEC avec le paramètre [!UICONTROL Injecter les bibliothèques cibles] activé :
 
    ![Assistant de VEC 1](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
@@ -84,7 +84,7 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 
    ![Assistant de VEC 2](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Conditionnel) Faites glisser le bouton (bascule) **[!UICONTROL Cookies]** sur la position « activé » pour ajouter automatiquement le correctif de navigateur d’attribut `SameSite=None`.
+1. (Conditionnel) Faites glisser le bouton (bascule) **[!UICONTROL Cookies]** vers la position « activé » pour ajouter automatiquement le correctif de navigateur d’attribut `SameSite=None`.
 
    ![Basculement des cookies dans l’extension d’assistance du VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -92,11 +92,11 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 
 ## Remarques
 
-* L’indicateur [!UICONTROL Inject Target libraries] dans l’extension est DÉSACTIVÉ par défaut. Vous pouvez activer cet balise si vous souhaitez utiliser le VEC sur un site qui n’a pas encore été mis en œuvre pour [!DNL Target].
+* L’indicateur [!UICONTROL Injecter des bibliothèques cibles] dans l’extension est DÉSACTIVÉ par défaut. Vous pouvez activer cet balise si vous souhaitez utiliser le VEC sur un site qui n’a pas encore été mis en œuvre pour [!DNL Target].
 
   Cet indicateur correspond à un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Ainsi, par exemple, si vous définissez cet indicateur sur « activé » et que vous ouvrez un site web déjà implémenté avec at.js, vous recevez un message vous informant qu’at.js est déjà chargé. Adobe s’attend à ce que la plupart des clients aient déjà mis en œuvre at.js sur leurs pages et utilisent le paramètre par défaut « désactivé ».
 
-* L’extension charge la dernière version d’at.js disponible à partir du [!DNL Target UI] dans [!UICONTROL Administration > Implementation].
+* L’extension charge la dernière version d’at.js disponible dans le [!DNL Target UI] dans [!UICONTROL Administration > Implémentation].
 * Lorsque vous utilisez l’extension pour injecter at.js en [mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md), un autre onglet Chrome doit être ouvert. Cet onglet Chrome doit être authentifié dans la même [!DNL Adobe Experience Cloud] organisation que celle dans laquelle vous avez créé l’activité.
 * Les messages suivants vous permettent de rester informé :
 

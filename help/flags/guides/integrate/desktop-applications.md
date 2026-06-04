@@ -18,7 +18,7 @@ Les applications de bureau s’intègrent aux indicateurs via SDK. Contactez vot
 >
 >La documentation de Desktop SDK est en cours de préparation et sera bientôt disponible.
 
-## ID d’application {#app-id}
+## ID de l&#39;application {#app-id}
 
 Les clients de bureau peuvent utiliser un **code de produit et version du produit** comme identifiant de l’application.
 

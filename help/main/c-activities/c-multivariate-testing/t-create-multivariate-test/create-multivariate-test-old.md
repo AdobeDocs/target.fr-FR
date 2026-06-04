@@ -1,25 +1,25 @@
 ---
 keywords: mvt;test multivarié;créer un test multivarié;création de test multivarié;créer un mvt;création de mvt;comment mvt;comment test multivarié
-description: Découvrez comment utiliser le [!UICONTROL Visual Experience Composer] (VEC) dans  [!DNL Adobe Target]  créer un [!UICONTROL Multivariate Test] (MVT).
-title: Comment créer un [!UICONTROL Multivariate Test] ?
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans  [!DNL Adobe Target]  pour créer un [!UICONTROL test multivarié] (MVT).
+title: Comment créer un [!UICONTROL test multivarié] ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 56%
+source-wordcount: '542'
+ht-degree: 52%
 
 ---
 
 # Création d’un test multivarié
 
-Le [!UICONTROL Visual Experience Composer] (VEC) d’[!DNL Adobe Target] facilite la création d’un [!UICONTROL Multivariate Test] et la modification de parties de la page dans [!DNL Target].
+Le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] facilite la création d’un [!UICONTROL test multivarié] et la modification de parties de la page dans [!DNL Target].
 
 L’éditeur [!DNL Target] de pointer-cliquer vous permet de sélectionner n’importe quel emplacement et d’ajouter plusieurs offres.
 
-Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’autres termes, le test s’exécute sur une URL spécifique, avec des expériences que vous concevez pour cette page.
+Le [!UICONTROL test multivarié] (MVT) prend un rapport page par page. En d’autres termes, le test s’exécute sur une URL spécifique, avec des expériences que vous concevez pour cette page.
 
-1. Cliquez sur **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
+1. Cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Test multivarié]**.
 
    ![Création d’un test multivarié](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -27,11 +27,11 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
    >
    >Pour plus d’informations sur les différents types d’activité disponibles dans [!DNL Target] et leurs différences, voir [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Reportez-vous à la section [Types d’activité Target](/help/main/c-activities/target-activities-guide.md) pour déterminer les types d’activité qui conviennent le mieux à vos besoins.
 
-1. (Conditionnel) Choisissez le type de diffusion : [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] ou [!UICONTROL Other/API].
+1. (Conditionnel) Choisissez le type de diffusion : [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL E-mail] ou [!UICONTROL Autre/API].
 
 1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium), [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Spécifiez l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Next]**.
+1. [Spécifiez l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
 
    Si un message s’affiche vous demandant d’activer votre navigateur pour le contenu mixte, suivez les instructions du message. Après avoir activé votre navigateur pour le contenu mixte, recommencez à l’étape 1.
 
-   La [!UICONTROL Visual Experience Composer] s’ouvre.
+   Le [!UICONTROL compositeur d’expérience visuelle] s’ouvre.
 
 1. Entrez le nom de l’activité.
 
@@ -79,11 +79,11 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
    * Image
    * Texte
 
-1. Cliquez sur **[!UICONTROL Preview]** pour [prévisualiser vos expériences](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. Cliquez sur **[!UICONTROL Aperçu]** pour [prévisualiser vos expériences](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![Aperçu des expériences](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   Vous pouvez afficher chaque expérience et exclure toute expérience que vous ne souhaitez pas inclure dans votre test. Pour exclure une ou plusieurs expériences, cochez les cases souhaitées, puis cliquez sur **[!UICONTROL Exclude]** .
+   Vous pouvez afficher chaque expérience et exclure toute expérience que vous ne souhaitez pas inclure dans votre test. Pour exclure une ou plusieurs expériences, cochez les cases souhaitées, puis cliquez sur **[!UICONTROL Exclure]** .
 
    ![Exclusion d’expériences](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -99,7 +99,7 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
 
    ![image estimator2](assets/estimator2.png)
 
-1. Cliquez sur **[!UICONTROL Next]** pour accéder à la page [!UICONTROL Targeting].
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder à la page [!UICONTROL Ciblage].
 
 1. Sélectionnez l’audience et le pourcentage des visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -111,11 +111,11 @@ Le [!UICONTROL Multivariate Test] (MVT) prend un rapport page-première. En d’
    >
    >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Consultez le résumé du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Next]**.
+1. [Consultez le résumé du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. [Spécifiez les objectifs et paramètres](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) pour le test.
 
-1. Cliquez sur **[!UICONTROL Save and Close]** pour créer l’activité.
+1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour créer l’activité.
 
 ## Vidéo de formation : Création de tests multivariés (9:25) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

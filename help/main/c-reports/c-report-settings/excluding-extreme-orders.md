@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 317
-ht-degree: 64%
+source-wordcount: 332
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez exclure des valeurs extrêmes de l’impact sur les rapports dans [!
 
 >[!NOTE]
 >
->L’indicateur [!UICONTROL Exclude Extreme Values] s’applique uniquement aux activités avec les types de mesures [!UICONTROL Revenue] et [!UICONTROL Engagement].
+>L’indicateur [!UICONTROL Exclure les valeurs extrêmes] s’applique uniquement aux activités avec les types de mesures [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement].
 
 Les valeurs extrêmes sont automatiquement signalées, en fonction des règles décrites ci-dessous. Vous pouvez choisir d’afficher ou d’exclure les valeurs extrêmes de vos rapports. Les valeurs extrêmes d’une activité sont exclues une fois que celle-ci a été exécutée pendant une heure ou après 15 commandes, selon le critère qui survient en premier.
 
@@ -30,12 +30,12 @@ Une valeur est considérée comme extrême lorsqu’elle présente un écart de 
 
 Par exemple, le filtre des valeurs extrêmes est souvent utile lors de l’utilisation des recettes par visiteur (RPV). RPV associe le taux de conversion et la valeur de commande moyenne et, souvent, révèle la volatilité de ces mesures. Si vous utilisez RPV et déterminez que les commandes ne semblent pas être distribuées normalement, vous pouvez voir plus de résultats normaux si vous appliquez le filtre des commandes extrêmes.
 
-Lorsqu’une valeur est désignée comme extrême, sa valeur est remplacée par la valeur de commande moyenne de l’expérience pour le dernier mois, extrêmes exclus. L’ordre est également marqué comme extrême dans le rapport [!UICONTROL Order Details] et dans le téléchargement CSV pour les résultats quotidiens.
+Lorsqu’une valeur est désignée comme extrême, sa valeur est remplacée par la valeur de commande moyenne de l’expérience pour le dernier mois, extrêmes exclus. L’ordre est également marqué comme extrême dans le rapport [!UICONTROL Détails de la commande] et dans le téléchargement CSV pour les résultats quotidiens.
 
 **Pour exclure les valeurs extrêmes de vos rapports, procédez comme suit :**
 
-1. Ouvrez une activité qui comprend des types de mesures [!UICONTROL Revenue] ou [!UICONTROL Engagement], puis cliquez sur l’onglet **[!UICONTROL Reports]** .
-1. Cliquez sur l’icône Paramètres de rapport ( ![icône Paramètres de rapport](/help/main/assets/icons/Setting.svg) ) pour afficher la boîte de dialogue **[!UICONTROL Settings]**.
+1. Ouvrez une activité qui comprend des types de mesures [!UICONTROL Revenu] ou [!UICONTROL Engagement], puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
+1. Cliquez sur l’icône Paramètres de rapport ( ![icône Paramètres de rapport](/help/main/assets/icons/Setting.svg) ) pour afficher la boîte de dialogue **[!UICONTROL Paramètres]**.
 
-1. Faites glisser le bouton bascule **[!UICONTROL Exclude Extreme Values]** vers la position « activé » ou « désactivé », selon vos besoins.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Faites glisser le bouton (bascule) **[!UICONTROL Exclure les valeurs extrêmes]** vers la position « activé » ou « désactivé », selon vos besoins.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.

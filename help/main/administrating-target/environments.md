@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 658
+source-wordcount: 709
 ht-degree: 46%
 
 ---
@@ -30,25 +30,25 @@ ht-degree: 46%
 
 Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 
-Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Par exemple, dix hôtes peuvent être groupés dans deux ou trois environnements. Les environnements prédéfinis comprennent [!UICONTROL Production], [!UICONTROL Staging] et [!UICONTROL Development]. Si vous le souhaitez, vous pouvez ajouter de nouveaux environnements et renommer vos environnements.
+Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Par exemple, dix hôtes peuvent être groupés dans deux ou trois environnements. Les environnements prédéfinis comprennent [!UICONTROL Production], [!UICONTROL Évaluation] et [!UICONTROL Développement]. Si vous le souhaitez, vous pouvez ajouter de nouveaux environnements et renommer vos environnements.
 
 Un environnement, l’environnement par défaut, est prénommé [!UICONTROL Production]. Il n’est pas possible de supprimer cet environnement, même si vous le renommez. [!DNL Target] considère que c’est là que vous diffuserez les activités et tests finaux et approuvés.
 
-Lorsqu’une demande de [!DNL Target] est reçue de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans l’environnement [!UICONTROL Production]. Les paramètres de l’environnement [!UICONTROL Production] ne peuvent pas être modifiés. Par conséquent, les sites inconnus ou nouveaux ne pourront afficher que le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
+Lorsqu’une requête [!DNL Target] est reçue de nouveaux sites web ou domaines, ces nouveaux domaines apparaissent toujours dans l’environnement [!UICONTROL de production]. Les paramètres de l’environnement [!UICONTROL de production] ne peuvent pas être modifiés. Par conséquent, les sites inconnus ou nouveaux ne pourront afficher que le contenu actif et prêt. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
 {{permissions-update}}
 
-Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environments]**.
+Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environnements]**.
 
 ## Ajout d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dans la liste [!UICONTROL Environments], cliquez sur **[!UICONTROL Add Environment]**.
+1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur **[!UICONTROL Ajouter un environnement]**.
 1. Attribuez un nom explicite à l’environnement.
-1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Active Activities] ou [!UICONTROL Active and Inactive Activities].
+1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 
-   Si vous spécifiez [!UICONTROL Active and Inactive Activities], les hôtes de cet environnement affichent également les activités inactives.
+   Si vous spécifiez [!UICONTROL Activités actives et inactives], les hôtes de cet environnement affichent également les activités inactives.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Définir l’environnement par défaut pour le reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
@@ -58,7 +58,7 @@ Si vous utilisez [!UICONTROL Production] par défaut, tous les hôtes inconnus s
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la liste [!UICONTROL Environments], cliquez sur l’icône Étoile .
+1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur l’icône en forme d’étoile
 
 >[!NOTE]
 >
@@ -68,20 +68,20 @@ Procédez comme suit pour définir l’environnement par défaut pour la créati
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Dans la liste [!UICONTROL Environment], cliquez sur l’icône **[!UICONTROL Edit]** .
+1. Dans la liste [!UICONTROL Environnement], cliquez sur l’icône **[!UICONTROL Modifier]**.
 1. Modifiez le nom de l’environnement.
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Suppression d’un environnement {#section_737F8869612047868D03FC755B1223D3}
 
 Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
-1. Dans la liste [!UICONTROL Environment], cliquez sur l’icône **[!UICONTROL Delete]** .
-1. Cliquez sur **[!UICONTROL Delete]** pour confirmer la suppression.
+1. Dans la liste [!UICONTROL Environnement], cliquez sur l’icône **[!UICONTROL Supprimer]**.
+1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
 >[!NOTE]
 >
->Vous ne pouvez pas supprimer l’environnement [!UICONTROL Production], mais vous pouvez le renommer.
+>Vous ne pouvez pas supprimer l’environnement [!UICONTROL de production], mais vous pouvez le renommer.
 
 ## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."} Recommendations : filtrer les collections et exclusions par environnement (groupe d’hôtes)
 
@@ -89,7 +89,7 @@ Vous pouvez prévisualiser le contenu des collections et des exclusions de recom
 
 {{premium-note}}
 
-Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différentes utilisations. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements [!UICONTROL Development] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d&#39;hôtes pour prévisualiser les résultats à l&#39;aide du filtre Environnement.) Par défaut, les nouveaux éléments ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
+Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différentes utilisations. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements [!UICONTROL Développement] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d&#39;hôtes pour prévisualiser les résultats à l&#39;aide du filtre Environnement.) Par défaut, les nouveaux éléments ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
 
 >[!NOTE]
 >
@@ -101,10 +101,10 @@ Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe
 >[!NOTE]
 >Après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.
 
-Le filtre [!UICONTROL Environment] est disponible aux emplacements suivants de l’interface utilisateur de Target :
+Le filtre [!UICONTROL Environnement] est disponible aux emplacements suivants dans l’interface utilisateur de Target :
 
-* Recherche catalogue ([!UICONTROL Recommendations > Catalog Search])
-* Boîte de dialogue Créer une collection ([!UICONTROL Recommendations > Collections > Create New])
-* Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommendations > Collections > Edit])
-* Boîte de dialogue Créer une exclusion ([!UICONTROL Recommendations > Exclusions > Create New])
-* Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommendations > Exclusions > Edit])
+* Recherche catalogue ([!UICONTROL Recommendations > Recherche catalogue])
+* Boîte de dialogue Créer une collection ([!UICONTROL Recommendations > Collections > Créer nouvelle])
+* Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommendations > Collections > Modifier])
+* Boîte de dialogue Créer une exclusion ([!UICONTROL Recommendations > Exclusions > Créer nouvelle])
+* Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommendations > Exclusions > Modifier])

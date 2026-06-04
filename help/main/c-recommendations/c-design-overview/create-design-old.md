@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 24%
+source-wordcount: '1061'
+ht-degree: 27%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
-Vous pouvez créer une conception [!UICONTROL Recommendations] à l’aide d’une conception par défaut ou d’une conception personnalisée. L’écran **[!UICONTROL Recommendations > Designs]** affiche à la fois les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
+Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommendations > Conceptions]** affiche les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
 
 Tenez compte des informations suivantes lorsque vous utilisez des conceptions :
 
@@ -41,55 +41,55 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
 ### Créer une conception basée sur une conception par défaut
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** pour afficher la bibliothèque de [!UICONTROL Designs].
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
 
    ![&#x200B; Bibliothèque de conceptions &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copy]**.
+1. Placez le pointeur de la souris sur la carte de la conception à créer, puis cliquez sur l’icône **[!UICONTROL Copier]**.
 
    ![Image Card_CopyDesign](assets/Card_CopyDesign.png)
 
-   La boîte de dialogue [!UICONTROL Create Design] s’affiche.
+   La boîte de dialogue [!UICONTROL Créer une conception] s’affiche.
 
    ![image createDesign](assets/createDesign.png)
 
-1. Dans le panneau **[!UICONTROL Information]**, ajoutez un **[!UICONTROL Content Name]** et une image d’aperçu facultative à afficher sur la carte de conception.
+1. Dans le panneau **[!UICONTROL Informations]**, ajoutez un **[!UICONTROL Nom du contenu]** et une image d’aperçu facultative à afficher sur la carte de conception.
 
-   Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » s’affichent dans le champ **[!UICONTROL Content Name]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
+   Lorsque vous utilisez une conception par défaut, le nom de la conception et la mention « Copier » apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
 
-1. (Conditionnel) Modifiez le **[!UICONTROL Code]** de conception selon vos besoins.
+1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
    Les conceptions de recommandations utilisent le langage de conception open-source [!DNL Velocity]. Vous trouverez des informations sur [!DNL Velocity] à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton [!UICONTROL HTML Design] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception &#x200B;] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
    >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### Créer une conception personnalisée
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]** pour afficher la bibliothèque de [!UICONTROL Designs].
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
 
-1. Cliquez sur **[!UICONTROL Create Design]**.
+1. Cliquez sur **[!UICONTROL Créer une conception]**.
 
-   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copy]. Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
+   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copier]. Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
 
-1. Ajoutez un **[!UICONTROL Content Name]** et une image d’aperçu facultative.
+1. Ajoutez un **[!UICONTROL Nom du contenu]** et une image d’aperçu facultative.
 
-1. (Conditionnel) Modifiez le **[!UICONTROL Code]** de conception selon vos besoins.
+1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
    Pour plus d’informations, reportez-vous aux informations de l’étape 4 ci-dessus.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Modifier, copier ou supprimer une conception
 
 N&#39;oubliez pas que vous ne pouvez pas modifier ni copier une conception par défaut ; vous ne pouvez copier que les conceptions par défaut.
 
-Pointez sur la conception souhaitée dans la bibliothèque [!UICONTROL Design], puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+Pointez sur la conception souhaitée dans la bibliothèque [!UICONTROL Conception], puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
 
 ![Icônes de survol d’une conception](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
@@ -101,7 +101,7 @@ Sachez que les conceptions sont disponibles sur l’ensemble du compte. Tenez co
 
 L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’éditeur basé sur les formulaires.
 
-1. Créez une conception à partir de la bibliothèque de conception ou dans le processus basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Visual Experience Composer] (VEC), vous ne pouvez rien créer d’autre qu’une conception HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
+1. Créez une conception à partir de la bibliothèque de conception ou dans le processus basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Compositeur d’expérience visuelle] (VEC), vous ne pouvez rien créer d’autre qu’une conception HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
 
 1. Assurez-vous que l’option « Conception HTML » est désactivée :
 
@@ -138,16 +138,16 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
 1. Configurez une activité de [!DNL Recommendations] basée sur les formulaires qui utilise cette conception.
 
-   1. Accédez à la page **[!UICONTROL Activities]**.
-   1. Cliquez sur **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
-   1. Sous **[!UICONTROL Choose Experience Composer]**, sélectionnez **[!UICONTROL Form]**, puis cliquez sur **[!UICONTROL Next]**.
+   1. Accédez à la page **[!UICONTROL Activités]**.
+   1. Cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Recommandations]**.
+   1. Sous **[!UICONTROL Choisir le compositeur d’expérience]**, sélectionnez **[!UICONTROL Formulaire]**, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Sous Emplacement, saisissez le texte : « Sample_Recs_Response ».
-   1. Sous **[!UICONTROL Default Content]**, cliquez sur la flèche vers le bas, puis sur **[!UICONTROL Add Recommendation]**.
+   1. Sous **[!UICONTROL Contenu par défaut]**, cliquez sur la flèche vers le bas, puis sur **[!UICONTROL Ajouter une recommandation]**.
    1. Choisissez un type de page. Celui-ci détermine le filtrage initial de l’écran suivant.
-   1. Sélectionnez une carte Critères, puis cliquez sur **[!UICONTROL Next]**.
-   1. Sélectionnez la conception créée à l’étape précédente, puis cliquez sur **[!UICONTROL Next]**.
+   1. Sélectionnez une carte de critères, puis cliquez sur **[!UICONTROL Suivant]**.
+   1. Sélectionnez la conception créée à l’étape précédente, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Terminez le processus de configuration.
-   1. Cliquez sur la flèche de droite en regard de **[!UICONTROL Inactive]**, puis sélectionnez **[!UICONTROL Activate]**.
+   1. Cliquez sur la flèche droite en regard de **[!UICONTROL Inactif]**, puis sélectionnez **[!UICONTROL Activer]**.
 
 1. Une fois votre activité configurée et activée, vous pouvez configurer un exemple de requête pour récupérer la réponse JSON vierge.
 

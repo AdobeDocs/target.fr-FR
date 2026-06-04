@@ -1,6 +1,6 @@
 ---
 keywords: forêt aléatoire;arborescence de décision;ap;Automated Personalization
-description: Découvrez comment utilise l [!DNL Adobe Target] algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Target].
+description: Découvrez comment utilise l [!DNL Adobe Target] algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique].
 title: Comment utilise [!DNL Target] t-on l’algorithme Forêt aléatoire ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
@@ -13,18 +13,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1458
 ht-degree: 40%
 
 ---
 
 # Algorithme Forêt aléatoire
 
-Le principal algorithme de personnalisation utilisé dans les activités (AP) et [!DNL Auto-Target] est Random Forest. Des méthodes d&#39;ensemble, telles que Random Forest, utilisent de multiples algorithmes d&#39;apprentissage pour obtenir de meilleures performances prédictives que celles qui pourraient être obtenues à partir de n&#39;importe lequel des algorithmes d&#39;apprentissage constitutifs. L’algorithme Forêt aléatoire dans [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target] est une méthode de classification ou de régression qui fonctionne en construisant une multitude d’arbres de décision lors de l’entraînement.
+Le principal algorithme de personnalisation utilisé dans les activités (AP) et [!DNL Auto-Target] est Random Forest. Des méthodes d&#39;ensemble, telles que Random Forest, utilisent de multiples algorithmes d&#39;apprentissage pour obtenir de meilleures performances prédictives que celles qui pourraient être obtenues à partir de n&#39;importe lequel des algorithmes d&#39;apprentissage constitutifs. L’algorithme Forêt aléatoire dans  et [!UICONTROL Ciblage automatique] est une méthode de classification ou de régression qui fonctionne en construisant une multitude d’arbres de décision lors de l’entraînement.
 
 Lorsqu’on pense aux statistiques, on imagine généralement un modèle de régression unique utilisé pour prédire un résultat. Cependant, les dernières recherches en science des données suggèrent que les « méthodes d’ensemble », où plusieurs modèles sont créés à partir du même ensemble de données avant d’être combinés suivant une logique intelligente, offrent de meilleurs résultats qu’une méthode basée sur un modèle unique.
 
-L’algorithme Forêt aléatoire est l’algorithme de personnalisation sous-jacent clé utilisé dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Auto-Target]. Random Forest combine des centaines d&#39;arbres de décision pour arriver à une meilleure prédiction qu&#39;un seul arbre pourrait faire seul.
+L’algorithme Forêt aléatoire est l’algorithme de personnalisation sous-jacent clé utilisé dans les activités  et [!UICONTROL Ciblage automatique]. Random Forest combine des centaines d&#39;arbres de décision pour arriver à une meilleure prédiction qu&#39;un seul arbre pourrait faire seul.
 
 ## Qu’est-ce qu’un arbre de décision ? {#section_7F5865D8064447F4856FED426243FDAC}
 
@@ -57,7 +57,7 @@ Les arbres de décision peuvent offrir un outil statistique extrêmement puissan
 
 ### Comment les modèles sont créés
 
-Le diagramme suivant résume la création de modèles pour les activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] :
+Le diagramme suivant résume la création de modèles pour les activités [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] :
 
 ![image random_forest_flow](assets/random_forest_flow.png){width="650" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Le diagramme suivant résume la création de modèles pour les activités [!UICO
 1. [!DNL Target] vérifie si le modèle atteint un score de qualité seuil
 1. [!DNL Target] envoie le modèle en production pour personnaliser le trafic futur
 
-[!DNL Target] utilise les données qu’il collecte automatiquement et les données personnalisées que vous lui fournissez pour créer ses algorithmes de personnalisation. Ces modèles identifient la meilleure expérience ou offre à présenter aux visiteurs. En règle générale, un modèle est créé par expérience (si une activité [!UICONTROL Auto-Target]) ou par offre (si une activité [!UICONTROL Automated Personalization]). [!DNL Target] affiche ensuite l’expérience ou l’offre qui génère la mesure de succès prédite la plus élevée (par exemple, le taux de conversion). Ces modèles doivent être optimisés au moyen de visites aléatoires avant de pouvoir être utilisés pour la prédiction. C’est pourquoi lorsqu’une activité démarre, même les visiteurs appartenant au groupe personnalisé sont dirigés aléatoirement vers des expériences ou des offres différentes jusqu’à ce que les algorithmes de personnalisation soient prêts.
+[!DNL Target] utilise les données qu’il collecte automatiquement et les données personnalisées que vous lui fournissez pour créer ses algorithmes de personnalisation. Ces modèles identifient la meilleure expérience ou offre à présenter aux visiteurs. En règle générale, un modèle est créé par expérience (s’il s’agit d’une activité de [!UICONTROL ciblage automatique]) ou par offre (s’il s’agit d’une activité [!UICONTROL Automated Personalization]). [!DNL Target] affiche ensuite l’expérience ou l’offre qui génère la mesure de succès prédite la plus élevée (par exemple, le taux de conversion). Ces modèles doivent être optimisés au moyen de visites aléatoires avant de pouvoir être utilisés pour la prédiction. C’est pourquoi lorsqu’une activité démarre, même les visiteurs appartenant au groupe personnalisé sont dirigés aléatoirement vers des expériences ou des offres différentes jusqu’à ce que les algorithmes de personnalisation soient prêts.
 
 Chaque modèle doit être validé pour s’assurer qu’il permet de prédire le comportement des visiteurs et visiteuses avant son utilisation dans votre activité. Les modèles sont validés en fonction de leur aire sous la courbe (AUC). En raison du besoin de validation, l’heure exacte à laquelle un modèle commence à diffuser des expériences personnalisées dépend des détails des données. En pratique, et en raison des impératifs de planification du trafic, le nombre minimal de conversions n’est généralement pas suffisant pour valider chaque modèle.
 

@@ -1,21 +1,21 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Découvrez comment utiliser l’option Rediriger vers l’URL dans Adobe [!DNL Target] lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
+description: Découvrez comment utiliser l’option Rediriger vers l’URL dans  [!DNL Target] lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
 title: Puis-je rediriger une page vers une autre URL ?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '482'
+ht-degree: 82%
 
 ---
 
 # Redirection vers une URL
 
-Utilisez l’option [!UICONTROL Redirect to URL] dans [!DNL Adobe Target] lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
+Utilisez l’option [!UICONTROL Rediriger vers l’URL] dans [!DNL Adobe Target] lorsque vous souhaitez envoyer le visiteur vers une autre page plutôt que d’afficher le contenu sur la même page.
 
-Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A à la page B. Configurez une campagne de test A/B avec deux expériences : l’une pointant vers la page A par défaut, et l’autre redirigeant vers la page B. Dans le menu Action d’expérience , situé en cliquant sur le libellé de lettre de l’expérience, choisissez **[!UICONTROL Redirect to URL]** et spécifiez l’URL de la page B. L’offre est configurée pour rediriger le visiteur vers une autre page.
+Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A et la page B. Configurez une campagne de test A/B avec deux expériences : une pointant vers la page par défaut A et l’autre effectuant une redirection vers la page B. Dans le menu Action d’expérience, localisé en cliquant sur l’étiquette de lettre de l’expérience, sélectionnez **[!UICONTROL Rediriger vers l’URL]** et indiquez l’URL de la page B. L’offre est configurée pour rediriger le visiteur vers une page différente.
 
 L’offre de redirection exécute un code JavaScript pour rediriger le navigateur. Il utilise la méthode `window.location.replace();`, de sorte que la page à partir de laquelle le visiteur est redirigé ne soit pas stockée dans l’historique du navigateur. Le visiteur peut ainsi toujours utiliser le bouton permettant de retourner à la page précédente dans le navigateur.
 

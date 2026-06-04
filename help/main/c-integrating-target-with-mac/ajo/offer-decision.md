@@ -19,7 +19,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 951
+source-wordcount: 1017
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 Utilisez des [!DNL Adobe Target] avec les décisions d’offre [!DNL Adobe Journey Optimizer] pour déterminer et diffuser la meilleure offre pour vos visiteurs sur le web et les appareils mobiles.
 
-Ajoutez des décisions d’offre créées en [!DNL Adobe Journey Optimizer] à des activités [!DNL Target] ([!UICONTROL A/B Test] manuelle ou [!UICONTROL Experience Targeting]) à l’aide du [!UICONTROL Visual Experience Composer] (VEC) ou de l’[!UICONTROL Form-Based Composer] pour tester et diffuser des offres personnalisées aux visiteurs sur vos canaux entrants optimisés par [!DNL Target].
+Ajoutez les décisions d’offre créées dans [!DNL Adobe Journey Optimizer] aux activités [!DNL Target] (test A/B manuel  ou [!UICONTROL ciblage d’expérience]) à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC) ou du [!UICONTROL compositeur basé sur les formulaires] pour tester et diffuser des offres personnalisées à vos visiteurs sur vos canaux entrants optimisés par [!DNL Target].
 
 Pour plus d’informations sur les [!DNL Adobe Journey Optimizer] et les décisions d’offre, consultez les rubriques suivantes de la documentation *[!DNL Journey Optimizer]* :
 
@@ -44,7 +44,7 @@ Pour utiliser les décisions d’offre dans [!DNL Target], vous avez besoin des 
 
   Cette fonctionnalité n’est pas disponible lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) ou [!DNL Adobe Experience Platform] et le module complémentaire de service d’application [!UICONTROL Offer Decisioning].
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer Decisioning) ou [!DNL Adobe Experience Platform] et le module complémentaire de service applicatif [!UICONTROL Offer Decisioning].
 
 ## Exemples de cas d’utilisation
 
@@ -59,7 +59,7 @@ En tant que spécialiste marketing pour une ligue sportive, vous souhaitez perso
 
 Par exemple, vous souhaitez offrir une expérience personnalisée pour chacune des régions suivantes : Dortmund, Francfort et Bochum, ainsi que pour les utilisateurs qui sont des fans implicites et explicites de ces équipes. En tant que mesures, vous souhaitez examiner les visites et les clics sur le site de marchandisage.
 
-Vous souhaitez concevoir une activité [!UICONTROL A/B Test] (répartition 50/50) entre l’expérience par défaut et l’expérience personnalisée (qui comprend une décision d’offre avec des offres pour chaque région et équipe). Vous souhaitez utiliser cette activité pour déterminer la conversion et l’effet élévateur pour l’expérience personnalisée par rapport au contrôle.
+Vous souhaitez concevoir une activité de [!UICONTROL Test A/B] (répartition 50/50) entre l’expérience par défaut et l’expérience personnalisée (qui comprend une décision d’offre avec des offres pour chaque région et équipe). Vous souhaitez utiliser cette activité pour déterminer la conversion et l’effet élévateur pour l’expérience personnalisée par rapport au contrôle.
 
 ### Plateformes de streaming de jeux
 
@@ -69,37 +69,37 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre héroïque de 
 
 ## Créez une expérience qui utilise une décision d’offre :
 
-1. Lors de la modification ou de la création d’une [!UICONTROL A/B Test] manuelle ou d’une activité de [!UICONTROL Experience Targeting] (XT) dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur un élément de page pour afficher le menu [options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Lors de la modification ou de la création d’une activité manuelle [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT) dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC), cliquez sur un élément de page pour afficher le menu [options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    ![Menu Options du compositeur d’expérience visuelle](assets/options-menu1.png)
 
    >[!NOTE]
    >
-   >Vous pouvez également créer une expérience qui utilise des [!UICONTROL Offer Decisions] dans le [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md).
+   >Vous pouvez également créer une expérience qui utilise [!UICONTROL Décisions d’offre] dans le [[!UICONTROL Compositeur d’expérience d’après les formulaires]](/help/main/c-experiences/form-experience-composer.md).
 
-1. Cliquez sur **[!UICONTROL Replace Content]**, puis sur **[!UICONTROL Offer Decision]**.
+1. Cliquez sur **[!UICONTROL Remplacer le contenu]**, puis sur **[!UICONTROL Décision d&#39;offre]**.
 
-   L’option [!UICONTROL Offer Decision] est disponible lors de la modification ou de la création d’activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles ou [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités. Les options disponibles dans le menu varient en fonction de l’élément sélectionné.
+   L’option [!UICONTROL Décision d’offre] est disponible lors de la modification ou de la création d’activités [test A/B [!UICONTROL manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités. Les options disponibles dans le menu varient en fonction de l’élément sélectionné.
 
    ![Menu Options du compositeur d’expérience visuelle](assets/options-menu.png)
 
-1. Dans le rail de **[!UICONTROL Add Offer Decision]** situé sur le côté droit du compositeur d’expérience visuelle, sélectionnez le sandbox souhaité, puis cliquez sur Sélectionner la décision d’offre.emplacement.
+1. Dans le rail **[!UICONTROL Ajouter une décision d’offre]** sur le côté droit du compositeur d’expérience visuelle, sélectionnez le sandbox souhaité, puis cliquez sur Sélectionner la décision d’offre.l’emplacement.
 
    Un [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=fr){target=_blank} dans le [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement d’évaluation. Un [emplacement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=fr){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit.
 
    ![Listes déroulantes Sandbox et Emplacements de la boîte de dialogue Ajouter une décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
-1. Sélectionnez l’emplacement et la décision d’offres de votre choix, puis cliquez sur **[!UICONTROL Add]**.
+1. Sélectionnez l’emplacement et la décision d’offres de votre choix, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Boîte de dialogue Sélectionner la décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   Votre site web s’affiche dans le compositeur d’expérience visuelle où vous pouvez voir la décision d’offre nouvellement créée dans le rail [!UICONTROL Modifications]. Vous pouvez cliquer sur une offre sous [!UICONTROL Offer Preview] au bas du rail de [!UICONTROL Offer Decision] pour examiner la décision d’offre.
+   Votre site web s’affiche dans le compositeur d’expérience visuelle où vous pouvez voir la décision d’offre nouvellement créée dans le rail [!UICONTROL Modifications]. Vous pouvez cliquer sur une offre sous [!UICONTROL Prévisualisation de l’offre] au bas du rail [!UICONTROL Décision d’offre] pour examiner la décision d’offre.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
    ![Prévisualisation de l’offre](assets/offer-preview2.png)
 
-1. Terminez la création de l’activité en suivant les étapes [!UICONTROL Targeting] et [!UICONTROL Goals & Settings] du workflow en trois parties.
+1. Terminez la création de l’activité en suivant les étapes [!UICONTROL Ciblage] et [!UICONTROL Objectifs et paramètres] du workflow en trois parties.
 
    >[!IMPORTANT]
    >
@@ -111,9 +111,9 @@ Tenez compte des informations suivantes lorsque vous utilisez des décisions d�
 
 * L’intégration d’Offer Decisioning fonctionne pour les implémentations [!DNL Target] basées sur le [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}. Cette fonctionnalité n’est pas disponible lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 
-* L’intégration [!DNL Target]/[!DNL Adobe Journey Optimizer] prend uniquement en charge les activités [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) manuelles et [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Cette fonctionnalité n’est pas disponible pour les autres types d’activités.
+* L’intégration [!DNL Target]/[!DNL Adobe Journey Optimizer] prend uniquement en charge les activités [[!UICONTROL &#x200B; test A/B manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Cette fonctionnalité n’est pas disponible pour les autres types d’activités.
 
-* Vous ne pouvez pas utiliser [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si vous utilisez des décisions d’offre dans une activité . Choisissez [!DNL Target] comme source de création de rapports sur la page [!UICONTROL Goals and Settings] lors de la configuration de l’activité si vous utilisez les décisions d’offre dans l’activité.
+* Vous ne pouvez pas utiliser [[!UICONTROL Analytics comme source de création de rapports]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si vous utilisez des décisions d’offre dans une activité. Choisissez [!DNL Target] comme source de création de rapports sur la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;] lors de la configuration de l’activité si vous utilisez les décisions d’offre dans l’activité.
 
 * Les offres avec le type de contenu texte/html ne prennent pas en charge la diffusion de contenu deliveryURL. L’URL de diffusion est prise en charge par le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement lorsque le client est chargé de récupérer et de composer explicitement le contenu.
 

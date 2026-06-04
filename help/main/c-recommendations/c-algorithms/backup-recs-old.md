@@ -1,14 +1,14 @@
 ---
 keywords: recommandation, sauvegarde, sauvegarde
-description: Découvrez comment utiliser les recommandations de sauvegarde dans Adobe [!DNL Target] Recommendations. Les recommandations ne comportant pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
+description: Découvrez comment utiliser les recommandations de sauvegarde dans  [!DNL Target] Recommendations. Les recommandations ne comportant pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
 title: Comment utiliser une recommandation de sauvegarde dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '551'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandatio
 
 >[!NOTE]
 >
->Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris un tableau qui explique les résultats que vous observerez lorsque vous utiliserez les options [!UICONTROL Partial Design Rendering] et [!UICONTROL Show Backup Recommendations] ensemble ou séparément.
+>Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation conjointe ou séparée des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Afficher les recommandations de sauvegarde].
 
 La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 

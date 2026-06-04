@@ -1,7 +1,7 @@
 ---
 keywords: résumé
-description: Affichez le résumé d’une activité [!UICONTROL Multivariate Test] (MVT) qui fournit un aperçu visuel de votre activité dans  [!DNL Adobe Target].
-title: Comment puis-je afficher le résumé d’une activité [!UICONTROL Multivariate Test] (MVT) ?
+description: Affichez le résumé d’une activité [!UICONTROL Test multivarié] (MVT) qui fournit une vue d’ensemble visuelle de votre activité dans  [!DNL Adobe Target].
+title: Comment puis-je afficher le résumé d’une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 TQID: https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM
@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 101
-ht-degree: 34%
+source-wordcount: 116
+ht-degree: 30%
 
 ---
 
-# Résumé du test ([!UICONTROL Multivariate Test])
+# Résumé du test ([!UICONTROL test multivarié])
 
-La page [!UICONTROL Targeting] fournit un aperçu visuel de votre [!UICONTROL Multivariate Test] [!DNL Adobe Target].
+La page [!UICONTROL Ciblage] offre un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL Test multivarié].
 
 ![Boîte de dialogue de synthèse du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
@@ -32,4 +32,4 @@ Le résumé du test affiche :
 * Algorithme : le seul algorithme disponible est [!UICONTROL Full Factorial]. Le nom de l’algorithme est fourni dans un but informatif afin que vous sachiez quel est l’algorithme utilisé.
 * Le nombre d’expériences incluses et exclues.
 
-Cliquez sur **[!UICONTROL Next]** lorsque la configuration de test vous convient. La page [!UICONTROL Goals and Settings] s’ouvre.
+Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de la configuration de test. La page [!UICONTROL Objectifs et paramètres] s’ouvre.

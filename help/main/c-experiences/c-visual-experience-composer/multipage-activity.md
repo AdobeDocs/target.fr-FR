@@ -12,8 +12,8 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 342
-ht-degree: 57%
+source-wordcount: 353
+ht-degree: 56%
 
 ---
 
@@ -33,13 +33,13 @@ Vous pouvez spécifier les règles de modèle pour chaque page dans un test mult
 
 Pour ajouter des pages à un test :
 
-1. Cliquez sur l’icône **[!UICONTROL Configure]** ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ).
-1. Cliquez sur **[!UICONTROL Add Additional Pages]**.
+1. Cliquez sur l’icône **[!UICONTROL Configurer]** ( ![Icône Configurer](/help/main/assets/icons/Setting.svg) ).
+1. Cliquez sur **[!UICONTROL Ajouter des pages supplémentaires]**.
 
-   Un volet de [!UICONTROL Pages] s’affiche à gauche de l’écran.
+   Un volet [!UICONTROL Pages] s’affiche à gauche de l’écran.
 
 1. Spécifiez vos pages et définissez la page par défaut.
 
-   Cliquez sur **[!UICONTROL Add Page]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) pour ajouter une page supplémentaire, spécifiez le nom de la page et l’URL, puis cliquez sur **[!UICONTROL Save]**.
+   Cliquez sur **[!UICONTROL Ajouter une page]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) pour ajouter une page supplémentaire, spécifiez le nom de la page et l’URL, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Utilisez le [!UICONTROL Visual Experience Composer] pour concevoir l’apparence de l’offre sur chaque page.
+1. Utilisez le [!UICONTROL compositeur d’expérience visuelle] pour concevoir l’apparence de l’offre sur chaque page.

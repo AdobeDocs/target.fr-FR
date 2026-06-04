@@ -1,21 +1,21 @@
 ---
 keywords: Ciblage d’expérience;xt;url d’activité;url
-description: Découvrez comment spécifier la [!UICONTROL Activity URL] qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité de [!UICONTROL Experience Targeting] est conçue à l’aide de  [!DNL Adobe Target].
-title: Quel est le [!UICONTROL Activity URL] d’une activité [!UICONTROL Experience Targeting] (XT) ?
+description: Découvrez comment spécifier l’[!UICONTROL URL de l’activité] qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité [!UICONTROL Ciblage d’expérience] est conçue à l’aide de [!DNL Adobe Target].
+title: Qu’est-ce que l’[!UICONTROL URL d’activité] dans une activité de [!UICONTROL ciblage d’expérience] (XT) ?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '303'
+ht-degree: 36%
 
 ---
 
-# URL de l’activité dans les activités [!UICONTROL Experience Targeting] (XT)
+# URL de l’activité dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
 
-L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL Visual Experience Composer] (VEC) ou le [!UICONTROL Form-Based Experience Composer] lors de la conception de l’activité.
+L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL compositeur d’expérience d’après les formulaires] lors de la conception de l’activité.
 
-1. Lorsque vous y êtes invité lors de la [création d’une activité XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), spécifiez l’URL de l’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Create Activity]**.
+1. Lorsque vous y êtes invité lors de la [création d’une activité XT](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md), spécifiez l’URL de l’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Créer une activité]**.
 
    >[!NOTE]
    >
@@ -25,7 +25,7 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
    >
    >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
 
-1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configure]**, sélectionnez **[!UICONTROL Page Delivery]**, puis spécifiez l’URL dans le champ [!UICONTROL URL] .
+1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configurer]**, sélectionnez **[!UICONTROL Diffusion de page]**, puis spécifiez l’URL dans le champ [!UICONTROL URL].
 
    ![Boîte de dialogue Diffusion de page](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
 
@@ -33,7 +33,7 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
    >
    >Si vous modifiez l’URL après avoir apporté des modifications à une page pour une ou plusieurs expériences, l’expérience est réinitialisée sur la nouvelle page et les modifications sont perdues.
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Add Template Rule]** pour ajouter d’autres pages ou sections à l’activité.
+1. (Conditionnel) Cliquez sur **[!UICONTROL Ajouter une règle de modèle]** pour ajouter d’autres pages ou sections à l’activité.
 
    Les règles supplémentaires peuvent être basées sur les éléments suivants :
 
@@ -46,4 +46,4 @@ L’[!UICONTROL Activity URL] détermine la page utilisée dans une activité [!
 
    Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
-1. Cliquez sur **[!UICONTROL Save]** lorsque vous avez terminé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.

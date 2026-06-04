@@ -1,13 +1,13 @@
 ---
 keywords: Target;rapports;paramètres de rapport;environnement;effet élévateur;limite de l’effet élévateur;variance;confiance;contrôle
-description: Découvrez comment interpréter les rapports Adobe [!DNL Target] qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites de l’effet élévateur et le niveau de confiance de vos activités.
+description: Découvrez comment interpréter les rapports  [!DNL Target] qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites de l’effet élévateur et le niveau de confiance de vos activités.
 title: Comment puis-je afficher l’effet élévateur moyen, les limites de l’effet élévateur et l’intervalle de confiance ?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 60%
+source-wordcount: '913'
+ht-degree: 59%
 
 ---
 
@@ -17,11 +17,11 @@ Les rapports comprennent plusieurs points de données et représentations de vis
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement lors de l’affichage de rapports en mode [!UICONTROL Table]. Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Cette fonctionnalité est disponible uniquement lors de l’affichage de rapports en mode [!UICONTROL Tableau]. Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interprétation des données {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-L’illustration suivante présente [!UICONTROL Lift Bounds and Confidence Level] informations :
+L’illustration suivante présente les informations [!UICONTROL limites de l’effet élévateur et niveau de confiance] :
 
 ![Rapport élévateur moyen et degré de confiance](/help/main/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
@@ -116,4 +116,4 @@ Les limites de l’effet élévateur pour l’expérience B seraient alors :
 Dans certains cas, [!DNL Target] n’affiche pas les limites de l’effet élévateur :
 
 * Quelle que soit l’activité, lorsque le nombre total de visites ou de visiteurs est inférieur à 30.
-* Pour les activités [!UICONTROL Auto-Allocate], aucune limite d’effet élévateur ne s’affiche tant qu’une expérience n’a pas atteint un degré de confiance de 60 %.
+* Pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;], aucune limite d’effet élévateur ne s’affiche tant qu’une expérience n’a pas atteint un degré de confiance de 60 %.

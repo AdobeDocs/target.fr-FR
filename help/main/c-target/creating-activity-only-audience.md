@@ -14,27 +14,27 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 31%
+source-wordcount: 477
+ht-degree: 30%
 
 ---
 
 # Création d’une audience d’activité unique
 
-Créez des audiences d’activité uniquement à partir du workflow guidé en trois étapes [!DNL Adobe Target] lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits au sein de la même activité, mais ne sont pas stockées dans le [!UICONTROL Audiences Library] pour être utilisées dans d’autres activités.
+Créez des audiences d’activité uniquement à partir du workflow guidé en trois étapes [!DNL Adobe Target] lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits au sein de la même activité, mais ne sont pas stockées dans la [!UICONTROL bibliothèque d’audiences] pour une utilisation dans d’autres activités.
 
 Les audiences d’activité uniques présentent les avantages suivants :
 
-* Vous pouvez utiliser des audiences d’activité uniquement pour créer une audience que vous ne souhaitez utiliser qu’une seule fois et que vous ne souhaitez pas stocker dans le [!UICONTROL Audiences Library]. Les audiences d’activité uniquement permettent d’éviter que le [!UICONTROL Audiences Library] ne soit encombré d’audiences que vous ne souhaitez plus jamais utiliser.
-* Les audiences d’activité uniquement ne sont pas visibles dans le [!UICONTROL Audiences Library]. Comme ces audiences ne sont pas visibles dans la bibliothèque , elles sont protégées des modifications indésirables par d’autres membres de votre organisation.
+* Vous pouvez utiliser des audiences d’activité uniquement pour créer une audience que vous ne souhaitez utiliser qu’une seule fois et que vous ne souhaitez pas stocker dans la [!UICONTROL bibliothèque d’audiences]. Les audiences d’activité uniquement permettent d’éviter que la [!UICONTROL bibliothèque d’audiences] ne soit encombrée d’audiences que vous ne souhaitez plus jamais utiliser.
+* Les audiences d’activité uniquement ne sont pas visibles dans la [!UICONTROL bibliothèque d’audiences]. Comme ces audiences ne sont pas visibles dans la bibliothèque , elles sont protégées des modifications indésirables par d’autres membres de votre organisation.
 
-1. Lors de la création d’une [activité](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Targeting]**, cliquez sur les trois points de suspension verticaux, puis sur **[!UICONTROL Replace Audience]**.
+1. Lors de la création d’une [activité](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Ciblage]**, cliquez sur les trois ellipses verticales, puis sur **[!UICONTROL Remplacer l’audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
-1. Cliquez sur **[!UICONTROL Create Audience]**.
+1. Cliquez sur **[!UICONTROL Créer une audience]**.
 
-1. Cliquez sur **[!UICONTROL This activity only]**.
+1. Cliquez sur **[!UICONTROL Cette activité uniquement]**.
 
    ![image activity-only-aud](assets/activity-only-aud.png)
 
@@ -43,16 +43,16 @@ Les audiences d’activité uniques présentent les avantages suivants :
 
    Les règles permettent de limiter votre audience à un sous-ensemble de visiteurs de votre site. Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
 
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 ## Considérations
 
 Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des audiences d’activité uniques :
 
-* Vous pouvez créer des audiences d’activité uniquement dans le [!UICONTROL Visual Experience Composer] (VEC) ou dans le [!UICONTROL Form-Based Experience Composer]. Cette fonctionnalité remplace les règles d’affinement dans les versions précédentes d’[!DNL Target].
-* Vous pouvez créer une activité à stocker dans le [!UICONTROL Audience Library] pour la réutiliser dans d’autres activités ou créer une audience d’activité unique. Une fois l’audience enregistrée, vous ne pouvez plus modifier le type d’audience.
+* Vous pouvez créer des audiences d’activité uniquement dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou dans le [!UICONTROL compositeur d’expérience d’après les formulaires]. Cette fonctionnalité remplace les règles d’affinement dans les versions précédentes d’[!DNL Target].
+* Vous pouvez créer une activité à stocker dans la [!UICONTROL bibliothèque d’audiences] pour la réutiliser dans d’autres activités, ou créer une audience d’activité unique. Une fois l’audience enregistrée, vous ne pouvez plus modifier le type d’audience.
 * Les perfectionnements pour les activités existantes sont transférés vers les audiences d’activité uniques.
-* Les audiences d’activité uniquement ont un statut [!UICONTROL Used] ou [!UICONTROL Unused]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
+* Les audiences d’activité uniquement ont le statut [!UICONTROL Utilisé] ou [!UICONTROL Inutilisé]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
 * Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle accessible depuis le sélecteur d’audiences, sans ouvrir l’audience.
 * Vous pouvez [combiner plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniquement.
 * Les audiences d’activité uniquement ne prennent pas en charge les règles d’exclusion.

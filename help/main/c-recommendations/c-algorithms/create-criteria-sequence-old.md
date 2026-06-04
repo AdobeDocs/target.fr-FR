@@ -1,24 +1,24 @@
 ---
 keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandations;séquence;nombre limite d’éléments renvoyés;contrôle au niveau de l’emplacement;emplacement
-description: Découvrez comment définir des séquences de cinq critères maximum afin d’exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités Adobe [!DNL Target] Recommendations.
+description: Découvrez comment définir des séquences de cinq critères maximum afin d’exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités  [!DNL Target] Recommendations.
 title: Comment créer des séquences de critères dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 24%
+source-wordcount: '866'
+ht-degree: 30%
 
 ---
 
 # Création d’une séquence de critères
 
-Utilisez des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités [!UICONTROL Recommendations]. Vous pouvez également limiter le nombre d’éléments renvoyés (parfois appelé « contrôle au niveau de l’emplacement »).
+Utilisez des séquences de cinq critères au maximum afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de [!UICONTROL Recommandations]. Vous pouvez également limiter le nombre d’éléments renvoyés (parfois appelé « contrôle au niveau de l’emplacement »).
 
 >[!NOTE]
 >
->Les séquences de critères ne peuvent pas être utilisées avec [!UICONTROL Recommendations] activités créées avant la version d’octobre 2016 de [!DNL Target Premium].
+>Les séquences de critères ne peuvent pas être utilisées avec les activités [!UICONTROL Recommendations] créées avant la version d’octobre [!DNL Target Premium].
 
 Pour créer une séquence de critères, vous devez d’abord créer les critères que vous souhaitez inclure dans la séquence. Voir [Créer des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) pour plus d’informations.
 
@@ -33,41 +33,41 @@ Les séquences de critères peuvent varier dans l’ordre en fonction du type de
 
 ## Création d’une séquence de critères
 
-Vous créez des séquences de critères à partir de l’écran de [!UICONTROL Create Criteria Sequence].
+Créez des séquences de critères à partir de l’écran [!UICONTROL Créer une séquence de critères].
 
-Il existe plusieurs façons d’accéder à l’écran [!UICONTROL Create Criteria Sequence]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
+Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* Sur l’écran **[!UICONTROL Recommendations]** > Bibliothèque **[!UICONTROL Criteria]**, cliquez sur **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!UICONTROL Recommendations].
-* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran Sélectionner les critères , cliquez sur **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. Vous aurez la possibilité d’enregistrer votre nouvelle séquence de critères pour l’utiliser avec d’autres activités [!UICONTROL Recommendations].
-* Lorsque vous modifiez une activité de [!UICONTROL Recommendations], cliquez dans une zone de [!UICONTROL Recommendations Location] de votre page, puis sélectionnez **[!UICONTROL Change Criteria]**. Sur l’écran [!UICONTROL Select Criteria], cliquez sur **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!UICONTROL Recommendations].
+* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
+* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran de sélection des critères, cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Lorsque vous modifiez une activité [!UICONTROL Recommendations], cliquez dans une zone [!UICONTROL Emplacement Recommendations] de votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
 
-Les étapes suivantes supposent que vous accédez à l’écran de [!UICONTROL Create Criteria Sequence] en utilisant la première méthode : **[!UICONTROL Recommendations]** > écran de bibliothèque **[!UICONTROL Criteria]**.
+Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer une séquence de critères] en utilisant la première méthode : l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**.
+1. Cliquez sur **[!UICONTROL Créer un critère]** > **[!UICONTROL Créer une séquence de critères]**.
 
    ![Image CreateCriteriaSequence](assets/CreateCriteriaSequence.png)
 
 1. Renseignez les informations de la section [Informations de base](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Dans la section **[!UICONTROL Criteria Sequence]**, cliquez sur **[!UICONTROL Add Criteria]**.
+1. Dans la section **[!UICONTROL Séquence de critères]**, cliquez sur **[!UICONTROL Ajouter des critères]**.
 
    L’ordre séquentiel définit l’ordre dans lequel une conception est remplie. Si le critère 1 ne contient pas suffisamment de recommandations pour remplir votre conception, les emplacements restants seront remplis avec le critère 2, etc.
 
    ![Ajouter des critères](/help/main/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Sur l’écran [!UICONTROL Select Criteria], sélectionnez un critère, puis cliquez sur **[!UICONTROL Add]**.
+1. Sur l’écran [!UICONTROL Sélectionner les critères], sélectionnez un critère, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    Vous pouvez utiliser la zone de recherche et les listes déroulantes de filtres pour trouver les critères souhaités.
 
    ![Sélection de critères](/help/main/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Facultatif) Faites glisser le bouton **[!UICONTROL Limit the number of items returned]** sur la position « activé », puis spécifiez le nombre d’éléments (entre 1 et 50).
+1. (Facultatif) Faites glisser le **[!UICONTROL Limiter le nombre d’éléments renvoyés]** activez la position « activé », puis spécifiez le nombre d’éléments (entre 1 et 50).
 
    ![Limiter le nombre d’éléments renvoyés par le bouton (bascule)](/help/main/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Pour mieux comprendre la valeur de l’option [!UICONTROL Limit the number of items returned] (parfois appelée « contrôle au niveau de l’emplacement »), tenez compte des cas d’utilisation suivants :
+   Pour mieux comprendre la valeur de l’option [!UICONTROL Limiter le nombre d’éléments renvoyés] (parfois appelée « contrôle au niveau de l’emplacement »), tenez compte des cas d’utilisation suivants :
 
    * **Cas d’utilisation 1** : vous souhaitez disposer de plusieurs types d’éléments dans une seule barre d’état de recommandations. Par exemple, vous souhaitez afficher un mélange de vêtements d’extérieur (vestes) et de hauts (chemises, t-shirts). Pour ce faire, utilisez une collection pour l’activité qui inclut tous les types de produits potentiels que vous souhaitez dans les emplacements de votre conception. Ensuite, configurez vos premiers critères avec un filtre statique qui limite les critères pour n’inclure que les vêtements d’extérieur, et configurez vos seconds critères avec un filtre statique qui limite les critères pour n’inclure que les dessus. Enfin, ajoutez les deux critères à une séquence de critères et limitez les premiers critères à 2 emplacements.
 
@@ -81,7 +81,7 @@ Les étapes suivantes supposent que vous accédez à l’écran de [!UICONTROL C
 
 1. Activez les options [Sauvegarder le contenu](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    La séquence de critères apparaît dans la liste des critères.
 
@@ -95,4 +95,4 @@ Cette vidéo traite des sujets suivants :
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/29401?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29401?captions=fre_fr&quality=12)

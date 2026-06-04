@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50db5431370825e46cb1bcb68c9a3ad27ce25079
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 60%
+source-wordcount: 459
+ht-degree: 58%
 
 ---
 
@@ -33,11 +33,11 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 ## [!DNL Target Standard/Premium] 26.5.3 (21 mai 2026)
 
-**[!UICONTROL What's new]page**
+**[!UICONTROL Nouveautés] page**
 
 +++Afficher les détails
 
-* **Nouvelle page [!UICONTROL What's new].** Ajout d’une nouvelle page **[!UICONTROL What's new]** dans l’interface utilisateur de [!DNL Adobe Target] pour vous aider à découvrir les dernières fonctionnalités, améliorations et mises à jour sans quitter le produit. (TGT-55137)
+* **Nouveau [!UICONTROL Nouveautés] page.** Ajout d’une nouvelle page **[!UICONTROL Nouveautés]** dans l’interface utilisateur [!DNL Adobe Target] pour vous aider à découvrir les dernières fonctionnalités, améliorations et mises à jour sans quitter le produit. (TGT-55137)
 
 +++
 
@@ -45,7 +45,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 +++Afficher les détails
 
-* **Mauvaise expérience sélectionnée lors de la modification du ciblage dans les activités [!UICONTROL Automated Personalization].** Correction d’un problème en raison duquel une expérience incorrecte pouvait être sélectionnée lors de la modification de l’étape **[!UICONTROL Targeting]** dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-55176)
+* **Mauvaise expérience sélectionnée lors de la modification du ciblage dans les activités [!UICONTROL Automated Personalization].** Correction d’un problème en raison duquel une expérience incorrecte pouvait être sélectionnée lors de la modification de l’étape **[!UICONTROL Ciblage]** dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-55176)
 
 * **Date antérieure de fermeture d’une activité planifiée.** Correction d’un problème qui empêchait de sélectionner une date antérieure pour fermer une activité planifiée. (TGT-55163)
 
@@ -67,7 +67,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 [!BADGE Important]{type=Informative}
 
-Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour détaillées et une documentation via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
+Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour et une documentation détaillées via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
 
 ### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
 
@@ -88,7 +88,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour D’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

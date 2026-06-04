@@ -1,12 +1,12 @@
 ---
-title: Services Web
+title: Services web
 description: Découvrez comment intégrer des indicateurs dans un service web principal à l’aide de Java ou de Node.js SDK.
 hide: true
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 10%
+source-wordcount: '81'
+ht-degree: 11%
 
 ---
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 131
+source-wordcount: 133
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Découvrez comment configurer les paramètres de [!DNL Adobe Target Recommendati
 
 {{permissions-update}}
 
-Pour accéder aux options des paramètres de [!DNL Recommendations], ouvrez [!DNL Target] dans le [!DNL Adobe Experience Cloud], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Recommendations].
+Pour accéder aux options des paramètres de [!DNL Recommendations], ouvrez [!DNL Target] dans le [!DNL Adobe Experience Cloud], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Recommandations].
 
 Vous pouvez configurer les paramètres suivants :
 

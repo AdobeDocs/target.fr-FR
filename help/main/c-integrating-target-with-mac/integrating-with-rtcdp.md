@@ -22,8 +22,8 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 74%
+source-wordcount: 1173
+ht-degree: 71%
 
 ---
 
@@ -38,7 +38,7 @@ Pour plus d’informations sur RTCDP, consultez la présentation de [Real-Time C
 Les principales fonctionnalités sont les suivantes :
 
 * Intégration directe de [!DNL Target] à Real-Time CDP/[!DNL Adobe Experience Platform] sur Edge (suppression de la dépendance aux [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] de la gouvernance et de l’application des politiques
+* [!UICONTROL Carte des destinations Target Edge] avec gouvernance et application des politiques
 * Segments Real-time CDP et attributs de profil partagés
 
 ## Scénarios d’implémentation
@@ -58,7 +58,7 @@ Les sections suivantes indiquent le type de cas d’utilisation de la personnali
 | <ul><li>[!DNL RTCDP] (tout SKU) et [!DNL Target]</li></ul> | <ul><li>Personnalisation de la prochaine session</li><li>Personnalisation de la même page via Edge</li><li>Application de la gouvernance lors du partage de segments</li></ul> |
 | <ul><li>[!DNL RTCDP] (tout SKU), [!DNL AAM] et [!DNL Target]</li></ul> | <ul><li>Personnalisation de la prochaine session</li><ul><li>Segments [!DNL AAM]</li><li>Segments tiers via [!DNL AAM]</li></ul><li>Personnalisation de la même page via Edge</li><ul><li>Segments [!DNL RTCDP]</li><li>Application de la gouvernance lors du partage de segments</li></ul> |
 
-### Combinaison d’implémentation [!UICONTROL at.js] et [!DNL Platform Web SDK]
+### Combinaison de l’implémentation d’[!UICONTROL at.js] et de [!DNL Platform Web SDK]
 
 | Solutions | Cas d’utilisation activé |
 | --- | --- |
@@ -72,7 +72,7 @@ Le tableau suivant indique le temps d’évaluation des segments pour les évén
 | Scénario | Segment Edge (évaluation en millisecondes) | Segment de streaming (évaluation en minutes) | Évaluation de segments par lots |
 | --- | --- | --- | --- |
 | Événements/données des SDK [!DNL Adobe Experience Platform] | Oui | Oui | S.O. |
-| Événements de [!UICONTROL at.js] | Non | Oui | S.O. |
+| Événements d’[!UICONTROL at.js] | Non | Oui | S.O. |
 | Événements des SDK [!DNL Target Mobile] | Non | Oui | S.O. |
 | Événements des téléchargements par lots | Non | Non | Oui |
 | Événements des données hors ligne (flux) | Non | Oui | Oui |
@@ -96,22 +96,22 @@ Les attributs de profil Real-Time CDP peuvent être transmis à [!DNL Target] p
 
 Tenez compte des points suivants :
 
-* Les attributs d’une offre donnée doivent provenir du même sandbox [!UICONTROL Experience Platform]. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents sandbox [!UICONTROL Experience Platform].)
-* Les attributs d’une offre donnée peuvent provenir de différentes sources, à savoir du profil [!DNL Target] et du profil [!UICONTROL Experience Platform]. (En d’autres termes, vous pouvez combiner des attributs provenant de l’[!DNL Target] ou du profil [!UICONTROL Experience Platform].)
-* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut à [!UICONTROL Real-Time CDP Profile Attributes], au cas où l’attribut n’a pas de valeur explicite. Par exemple, si une politique de consentement ou de gouvernance bloque l’utilisation de l’attribut dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
+* Les attributs d’une offre donnée doivent provenir du même sandbox . (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents sandbox .)
+* Les attributs d’une offre donnée peuvent provenir de différentes sources, à savoir du profil [!DNL Target] et du profil [!UICONTROL Experience Platform]. (En d’autres termes, vous pouvez combiner des attributs provenant de [!DNL Target] ou du profil [!UICONTROL Experience Platform].)
+* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour [!UICONTROL Attributs de profil &#x200B;] au cas où l’attribut n’a pas de valeur explicite. Par exemple, si une politique de consentement ou de gouvernance bloque l’utilisation de l’attribut dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
 * [!DNL Target] prend uniquement en charge le type de données « chaîne » pour [!DNL Adobe Experience Platform] attributs de profil à utiliser dans les offres. Les attributs de type « Map » et « Array » ne sont pas encore pris en charge.
 
 ### Exemple de cas d’utilisation JSON
 
-En tant que personne travaillant dans le marketing en ligne, vous souhaitez que le profil AEP/unifié transmette les valeurs d’attribut à [!DNL Target] pour fournir une personnalisation en temps réel. En utilisant [!UICONTROL Real-Time CDP Profile Attributes], vous pouvez afficher la valeur de l’attribut [!UICONTROL Experience Platform] dans une offre [!DNL Target] à l’aide du remplacement de jeton. Vous pouvez, par exemple, personnaliser votre offre en fonction de la couleur préférée d’un client ou d’une cliente à l’aide de `${aep.profile.favoriteColor}`, ou de son niveau de fidélité et de la valeur de ses points de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
+En tant que personne travaillant dans le marketing en ligne, vous souhaitez que le profil AEP/unifié transmette les valeurs d’attribut à [!DNL Target] pour fournir une personnalisation en temps réel. En utilisant les [!UICONTROL attributs de profil &#x200B;], vous pouvez afficher la valeur de l’attribut [!UICONTROL Experience Platform] dans une offre [!DNL Target] à l’aide du remplacement de jeton. Vous pouvez, par exemple, personnaliser votre offre en fonction de la couleur préférée d’un client ou d’une cliente à l’aide de `${aep.profile.favoriteColor}`, ou de son niveau de fidélité et de la valeur de ses points de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
 
 Pour créer une offre JSON afin de partager des attributs de profil AEP/unifié avec [!DNL Target], procédez comme suit :
 
-1. Lors de la [création d’une offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dans la liste **[!UICONTROL Select a source]**, sélectionnez **[!UICONTROL Adobe Experience Platform]**.
-1. Dans la liste **[!UICONTROL Select a profile sandbox name]**, sélectionnez le sandbox de votre choix.
-1. Dans la liste **[!UICONTROL Select a profile attribute]**, sélectionnez les attributs souhaités.
-1. (Facultatif) Dans la liste **[!UICONTROL Insert a default value]**, sélectionnez les valeurs souhaitées.
-1. Cliquez sur **[!UICONTROL Add]**.
+1. Lors de la [création d’une offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), dans la liste **[!UICONTROL Sélectionner une source]**, sélectionnez **[!UICONTROL Adobe Experience Platform]**.
+1. Dans la liste **[!UICONTROL Sélectionner un nom de sandbox de profil]**, sélectionnez la sandbox de votre choix.
+1. Dans la liste **[!UICONTROL Sélectionner un attribut de profil]**, sélectionnez les attributs souhaités.
+1. (Facultatif) Dans la liste **[!UICONTROL Insérer une valeur par défaut]**, sélectionnez les valeurs souhaitées.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
 
 L’illustration suivante montre l’ajout des deux attributs de profil `loyalty.tier` et `loyalty.points` à l’offre JSON.
 

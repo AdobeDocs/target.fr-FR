@@ -27,8 +27,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2806
-ht-degree: 51%
+source-wordcount: 2871
+ht-degree: 50%
 
 ---
 
@@ -38,7 +38,7 @@ Explorez les réponses aux questions fréquentes sur l’utilisation des fonctio
 
 ## Informations générales {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Où puis-je trouver des informations sur l’interface utilisateur et le [!UICONTROL Visual Experience Composer] (VEC) [!DNL Target] mis à jour ?**
+**Où puis-je trouver des informations sur l’interface utilisateur de [!DNL Target] mise à jour et le [!UICONTROL compositeur d’expérience visuelle] (VEC) ?**
 
 +++Afficher les détails
 
@@ -147,7 +147,7 @@ Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décomp
 **J’ai créé plusieurs objectifs dans mon activité. Puis-je créer une chaîne d’objectifs sous forme d’entonnoir pour les besoins de génération de rapports et d’analyse ? Par exemple, je souhaite prendre en compte l’objectif B lorsque l’utilisateur a atteint l’objectif A afin de pouvoir effectuer le suivi des nombres pour un funnel particulier.**
 
 +++Afficher les détails
-[!DNL Target] dispose d’un moyen fiable d’y parvenir avec notre fonctionnalité [!UICONTROL Metrics Dependency]. Il vous suffit d’[ajouter des dépendances aux autres mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Vous disposez d’options telles que « Atteint » et « Non atteint », ainsi que de la possibilité de combiner les mesures de plusieurs manières afin de créer n’importe quelle combinaison souhaitée.
+[!DNL Target] dispose d’un moyen efficace d’y parvenir avec notre fonctionnalité [!UICONTROL Dépendance aux mesures]. Il vous suffit d’[ajouter des dépendances aux autres mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Vous disposez d’options telles que « Atteint » et « Non atteint », ainsi que de la possibilité de combiner les mesures de plusieurs manières afin de créer n’importe quelle combinaison souhaitée.
 
 +++
 
@@ -156,32 +156,32 @@ Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décomp
 +++Afficher les détails
 C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) entrent en ligne de compte.
 
-Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. Est-ce [!UICONTROL Revenue], [!UICONTROL Conversion] ou [!UICONTROL Engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
+Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. S’agit-il de [!UICONTROL chiffre d’affaires], [!UICONTROL conversion] ou [!UICONTROL engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 
-Cela est rendu possible par le paramètre [!UICONTROL Primary Goal] à l’étape 3 du workflow guidé en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
+Cela est rendu possible par le paramètre [!UICONTROL Objectif de Principal &#x200B;] à l’étape 3 du workflow en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
 
 +++
 
 **Puis-je planifier une activité qui débute et se termine à un moment précis ?**
 
 +++Afficher les détails
-Utilisez la fonction [&#x200B; Planification à l’étape [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow d’activité en trois parties en spécifiant les dates de début et de fin.
+Utilisez la fonction [&#x200B; Planification de l’étape [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow en trois parties en spécifiant les dates de début et de fin.
 
-N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état [!UICONTROL Ended].
+N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe en état [!UICONTROL Terminé].
 
 +++
 
-**Puis-je apporter une modification à l’étape [!UICONTROL Targeting] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
+**Puis-je apporter une modification à l’étape [!UICONTROL Ciblage] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Vous pouvez le faire facilement en [accédant directement à l’étape de votre choix à partir de la page [!UICONTROL Activity Overview] &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) , puis en quittant cette étape à l’aide de l’option [!UICONTROL Save and Close] .
+Pour ce faire, vous pouvez facilement [directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) puis en quittant cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
 
 +++
 
 **Puis-je rester sur une étape particulière, continuer à modifier l’activité (le texte de l’offre ou le code personnalisé, par exemple), puis exécuter la vérification QA sous un autre onglet ?**
 
 +++Afficher les détails
-C&#39;est possible. Il vous suffit [d’utiliser l’option [!UICONTROL Save] disponible pour apporter des modifications incrémentielles sans quitter l’étape](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+C&#39;est possible. Il vous suffit d’[utiliser l’option [!UICONTROL Enregistrer] disponible pour apporter des modifications incrémentielles sans quitter l’étape](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 +++
 
@@ -202,18 +202,18 @@ Utilisez la puissance des [activités d’après les formulaires](/help/main/c-e
 **Puis-je définir un ordre de priorité entre plusieurs activités ?**
 
 +++Afficher les détails
-Utilisez le paramètre [!UICONTROL Priority] disponible à l’étape 3 du workflow guidé en trois parties [!DNL Target] (page Objectifs et paramètres) pour [définir la priorité des activités](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
+Utilisez le paramètre [!UICONTROL Priorité] disponible à l’étape 3 du workflow guidé en trois parties [!DNL Target] (page Objectifs et paramètres) pour [définir la priorité des activités](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Il existe deux options :
 
 * Option par défaut, avec trois niveaux (faible, moyen ou élevé)
-* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour Personnalisé, activez la fonction [!UICONTROL Fine-Grained Priorities] ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour les options personnalisées, activez la fonction [!UICONTROL Priorités affinées] ([!UICONTROL Administration] > [!UICONTROL Compositeur d’expérience visuelle]).
 
 +++
 
 ## Audiences {#section_FA6314777ABC46D8B198D6F388051460}
 
-**Puis-je créer un segment d’audience dans une activité spécifique à cette activité ? Je ne pense pas qu&#39;une telle audience devrait être créée dans le [!UICONTROL Audience Library] parce qu&#39;il n&#39;y a pas de facteur de réutilisation.**
+**Puis-je créer un segment d’audience dans une activité spécifique à cette activité ? Je ne pense pas qu’une telle audience doive être créée dans la [!UICONTROL Bibliothèque d’audiences] car il n’y a pas de facteur de réutilisation.**
 
 +++Afficher les détails
 Commencez par utiliser notre [fonction de création d’une audience Activité uniquement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) pour définir des audiences de niveau local par rapport à l’activité.
@@ -268,7 +268,7 @@ Consultez les [Règles de modèle](/help/main/c-experiences/c-visual-experience-
 
 +++
 
-**Je suis fatigué du message « Autoriser votre navigateur à charger des scripts » lorsque je tente de charger ma page dans le [!UICONTROL Visual Experience Composer] (VEC). Comment puis-je éviter cela ?**
+**Je suis fatigué du message « Autoriser votre navigateur à charger des scripts » lorsque je tente de charger ma page dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). Comment puis-je éviter cela ?**
 
 +++Afficher les détails
 En effet, votre site comporte du contenu mixte : il récupère à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
@@ -277,14 +277,14 @@ En attendant, suivez les instructions de la section [Activation du contenu mixte
 
 +++
 
-**Puis-je essayer le [!UICONTROL Visual Experience Composer] (VEC) sur mon site même si la bibliothèque at.js [!DNL Target] n’a pas encore été déployée ?**
+**Puis-je essayer le [!UICONTROL compositeur d’expérience visuelle] (VEC) sur mon site même si la bibliothèque at.js [!DNL Target] n’a pas encore été déployée ?**
 
 +++Afficher les détails
 Essayez de charger la page avec le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
 
 +++
 
-**Pourquoi mon site ne se charge-t-il pas dans le [!UICONTROL Visual Experience Composer] (VEC) ?**
+**Pourquoi mon site ne se charge-t-il pas dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ?**
 
 +++Afficher les détails
 Essayez les [informations de dépannage](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) décrites dans notre page d’aide. Contactez l’[assistance technique d’Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) si aucune de ces méthodes ne fonctionne.
@@ -305,7 +305,7 @@ Testez la fonction [Fenêtres d’affichage mobiles](/help/main/c-experiences/c-
 **J’exploite plusieurs domaines. L’un des domaines nécessite l’activation du [!UICONTROL Enhanced Experience Composer], tandis que d’autres nécessitent sa désactivation. Comment faire ?**
 
 +++Afficher les détails
-Vous pouvez toujours utiliser l’option [Enhanced Experience Composer au niveau de l’activité](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut ([!UICONTROL Administration] > [!UICONTROL Visual Experience Composer]).
+Vous pouvez toujours utiliser l’option [Enhanced Experience Composer au niveau de l’activité](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut ([!UICONTROL Administration] > [!UICONTROL Compositeur d’expérience visuelle]).
 
 +++
 
@@ -323,7 +323,7 @@ Vous pouvez facilement y parvenir avec notre [fonctionnalité Versions d’expé
 
 +++
 
-**Comment puis-je voir quelles modifications j’ai apportées à [!UICONTROL Visual Experience Composer] (VEC) ?**
+**Comment puis-je voir les modifications que j’ai apportées au [!UICONTROL Compositeur d’expérience visuelle] (VEC) ?**
 
 +++Afficher les détails
 Vos modifications sont toujours affichées dans l’[éditeur de code](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) L’onglet [!UICONTROL Modifications] affiche le sélecteur CSS ou la mbox que vous avez appliqué à votre offre.
@@ -339,10 +339,10 @@ L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](
 
 +++
 
-**Pourquoi ne puis-je pas aller au-delà de la page de connexion dans le [!UICONTROL Visual Experience Composer] (VEC) ou accéder à une page enfouie profondément dans pour laquelle je ne dispose pas d’une URL spécifique ?**
+**Pourquoi ne puis-je pas aller au-delà de la page de connexion dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou accéder à une page profondément enfouie dans pour laquelle je ne dispose pas d’une URL spécifique ?**
 
 +++Afficher les détails
-Utilisez les fonctionnalités [!UICONTROL Compose] et [!UICONTROL Browse] pour accéder à la page de votre choix et commencer à créer votre expérience.
+Utilisez les fonctionnalités [!UICONTROL Composer] et [!UICONTROL Parcourir] pour naviguer vers la page de votre choix et commencer à créer votre expérience.
 
 ![Boutons bascule Conception et navigation](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -386,7 +386,7 @@ Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities
 
 +++
 
-**Puis-je utiliser le pouvoir de décision de [!UICONTROL Target] pour recevoir une expérience/offre qui peut être utilisée dans les applications monopages (SPA) ou les intégrations côté serveur ?**
+**Puis-je utiliser le pouvoir de prise de décision de [!UICONTROL Target] pour recevoir une expérience/offre qui peut être utilisée dans les applications monopages (SPA) ou les intégrations côté serveur ?**
 
 +++Afficher les détails
 Utilisez la puissance des [activités d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) avec les [offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) pour atteindre votre objectif.
@@ -409,9 +409,9 @@ Consultez les aspects suivants du produit :
 **Puis-je répartir très précisément la génération de rapports entre plusieurs segments d’utilisateurs ?**
 
 +++Afficher les détails
-C’est là qu’intervient la fonction [Audiences pour le reporting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible sur la page [!UICONTROL Goals & Settings] à l’étape 3 du workflow en trois parties d’une activité guidée.
+C’est là qu’intervient la fonction [Audiences pour le reporting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible sur la page [!UICONTROL Objectifs et paramètres] à l’étape 3 du workflow en trois parties d’une activité guidée.
 
-Vous avez la possibilité d’ajouter 50 segments de ce type, ainsi que le point d’application ([!UICONTROL Activity Entry] ou une mesure spécifique), afin de disposer d’un moyen puissant de découper et de découper.
+Vous avez la possibilité d’ajouter 50 de ces segments ainsi que le point d’application ([!UICONTROL &#x200B; Entrée d’activité &#x200B;] ou une mesure spécifique) afin d’avoir un moyen puissant de découper et de découper.
 
 Notez que [!DNL Target] collecte les données à cet égard à partir du moment où vous ajoutez ces audiences. Par conséquent, si vous manquez d’ajouter des segments avant d’exécuter le test, vous n’avez pas de chance.
 
@@ -427,11 +427,11 @@ C’est là que [Analytics for Target (A4T)](/help/main/c-integrating-target-wit
 **Puis-je effectuer des calculs de génération de rapports hors ligne ?**
 
 +++Afficher les détails
-Utilisez les options [Exporter les rapports au format CSV et Télécharger les détails de la commande au format CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) de la page [!UICONTROL Reports] pour télécharger les données de rapports souhaitées.
+Utilisez les options [Exporter les rapports au format CSV et Télécharger les détails de la commande au format CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) de la page [!UICONTROL Rapports] pour télécharger les données de rapports souhaitées.
 
 +++
 
-**Puis-je modifier l’expérience de contrôle pour l’évaluation des rapports ou modifier la méthodologie de comptage de [!UICONTROL Visitors] à [!UICONTROL Visits] ?**
+**Puis-je modifier l’expérience de contrôle pour l’évaluation des rapports ou modifier la méthodologie de comptage de [!UICONTROL Visiteurs] à [!UICONTROL Visites] ?**
 
 +++Afficher les détails
 Effectuez ces modifications à l’aide de l’engrenage [Paramètres) de la page des rapports](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.

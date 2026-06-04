@@ -11,8 +11,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 49%
 
 ---
 
@@ -24,25 +24,25 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Cliquez sur le **[!UICONTROL App icon]** dans la barre de navigation, puis sur **[!UICONTROL Target]**.
+1. Cliquez sur l’icône **[!UICONTROL App]** dans la barre de navigation, puis sur **[!UICONTROL Target]**.
 
    Vous pouvez également cliquer sur le panneau [!DNL Target] dans la fenêtre principale pour accéder à [!DNL Target] (ou à toute autre solution [!DNL Adobe Experience Cloud] à laquelle vous avez accès).
 
    ![Icône de l’application](/help/main/c-intro/assets/appmenu-new.png)
 
-1. (Facultatif) Pour définir l’organisation par défaut lors de la connexion à l’[!DNL Experience Cloud], cliquez sur **[!UICONTROL Preferences]** sous l’avatar de profil, puis définissez votre organisation par défaut.
+1. (Facultatif) Pour définir l’organisation par défaut lors de la connexion à l’[!DNL Experience Cloud], cliquez sur **[!UICONTROL Préférences]** sous l’avatar de profil, puis définissez votre organisation par défaut.
 
    ![Page de destination](/help/main/c-intro/assets/pagepref-new.png)
 
 ## Modification de la langue par défaut de l’interface utilisateur de [!DNL Target] {#language}
 
-1. Après vous être connecté à l’[!DNL Adobe Experience Cloud] ou au [!DNL Target], cliquez sur l’avatar de profil, puis sur **[!UICONTROL Preferences]**.
+1. Après vous être connecté à l’[!DNL Adobe Experience Cloud] ou au [!DNL Target], cliquez sur l’avatar de profil, puis sur **[!UICONTROL Préférences]**.
 
-1. Cliquez sur **[!UICONTROL Adobe Account]** pour accéder à votre profil [!DNL Adobe].
+1. Cliquez sur **[!UICONTROL Compte]** pour accéder à votre profil [!DNL Adobe].
 
    ![Compte Adobe](/help/main/c-intro/assets/adobe-account.png)
 
-1. Dans la section **[!UICONTROL Preferred languages]** de la page [!UICONTROL Account], **[!UICONTROL Add]**.
+1. Dans la section **[!UICONTROL Langues préférées]** de la page [!UICONTROL Compte], **[!UICONTROL Ajouter]**.
 
    Le texte indique qu’il s’agit de la langue que vous [!DNL Adobe] utiliser lorsqu’Adobe vous contacte. Il s’agit également du langage utilisé dans l’interface utilisateur pour [!DNL Target] et d’autres solutions [!DNL Adobe Experience Cloud]. Vous pouvez choisir plusieurs langues.
 
@@ -61,7 +61,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
    * Chinois traditionnel
    * Coréen
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Déconnectez-vous d’[!DNL Adobe Experience Cloud] ou de [!DNL Target], puis connectez-vous de nouveau afin que vos modifications soient prises en compte.
 

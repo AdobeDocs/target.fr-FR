@@ -16,7 +16,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 804
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ L’utilisation de [!DNL Adobe Analytics] comme source de données comportementa
 
 L’utilisation de [!DNL Analytics] comme source de données comportementales peut constituer une source riche d’informations sur le comportement des utilisateurs et utilisatrices. Ces informations peuvent inclure des données provenant d’une source ou d’un flux tiers partagé uniquement avec [!DNL Analytics].
 
-Lors de la [création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) dans [!DNL Recommendations], deux boutons radio permettent de choisir la source de données à utiliser : [!UICONTROL mboxes] ou [!UICONTROL Analytics]. Pour créer un critère, cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]. Pour plus d’informations, voir [Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+Lors de la [création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) dans [!DNL Recommendations], deux boutons radio permettent de choisir la source de données à utiliser : [!UICONTROL mbox] ou [!UICONTROL Analytics]. Pour créer un critère, cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Critères] > [!UICONTROL Créer des critères] > [!UICONTROL Créer des critères]. Pour plus d’informations, voir [Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
 
 >[!NOTE]
 >
@@ -68,24 +68,24 @@ Il est maintenant temps de mapper ces variables du côté [!DNL Target] pour fou
 
 ## Implémentation dans [!DNL Target]
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Recommendations]**, puis sur l&#39;onglet **[!UICONTROL Feeds]** .
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Recommendations]**, puis sur l’onglet **[!UICONTROL Flux]**.
 
-1. Cliquez sur **[!UICONTROL Create Feed]**.
+1. Cliquez sur **[!UICONTROL Créer un flux]**.
 
-1. Sélectionnez **[!UICONTROL Analytics Classifications]**, puis spécifiez la suite de rapports.
+1. Sélectionnez **[!UICONTROL Classifications Analytics]**, puis spécifiez la suite de rapports.
 
-1. Cliquez sur **[!UICONTROL Next]** pour accéder aux paramètres de **[!UICONTROL Schedule]**, puis sélectionnez une période de fréquence pour le flux :
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder aux paramètres **[!UICONTROL Planification]**, puis sélectionnez une période de fréquence pour le flux :
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 weeks]
-   * [!UICONTROL Never]
+   * [!UICONTROL Quotidien]
+   * [!UICONTROL hebdomadaire]
+   * [!UICONTROL Toutes les 2 semaines]
+   * [!UICONTROL Jamais]
 
    Vous pouvez également sélectionner l’heure du jour à laquelle le flux doit être traité.
 
-1. Cliquez sur **[!UICONTROL Next]** pour accéder aux paramètres de **[!UICONTROL Mapping]**, puis mappez les en-têtes des colonnes de champs aux noms de champs de [!UICONTROL Recommendations] appropriés.
+1. Cliquez sur **[!UICONTROL Suivant]** pour accéder aux paramètres **[!UICONTROL Mappage]**, puis mappez les en-têtes des colonnes de champs aux noms de champs [!UICONTROL Recommendations] appropriés.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Questions fréquentes
 

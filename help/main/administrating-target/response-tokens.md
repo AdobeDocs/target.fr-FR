@@ -29,7 +29,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1749
+source-wordcount: 1767
 ht-degree: 22%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 22%
 
 Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques aux [!DNL Adobe Target] sur la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des outils internes ou tiers ou à utiliser pour le débogage.
 
-Les jetons de réponse vous permettent de choisir les variables (dans les paires clé-valeur) à utiliser, puis de les autoriser à être envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec des réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Preview].
+Les jetons de réponse vous permettent de choisir les variables (dans les paires clé-valeur) à utiliser, puis de les autoriser à être envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec des réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Aperçu].
 
 Une différence essentielle entre les plug-ins et les jetons de réponse réside dans le fait que les plug-ins diffusent JavaScript vers la page qui s’exécute lors de la diffusion. Toutefois, les jetons de réponse fournissent un objet qui peut ensuite être lu et sur lequel il est possible d’agir à l’aide d’écouteurs d’événement. L’approche des jetons de réponse est plus sûre et permet un développement et une maintenance plus faciles des intégrations tierces.
 
@@ -62,7 +62,7 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    * **Platform Web SDK** : consultez la section [Installation de SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) dans le guide *Présentation de Platform Web SDK*.
    * **at.js** : consultez la section [Téléchargement d’at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Jetons de réponse]**.
 
 1. Activez les jetons de réponse souhaités, tels que `activity.id` et `offer.id`.
 
@@ -81,7 +81,7 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Détails de l&#39;activité courante.<br> Notez que les valeurs des paramètres d’offre sont évaluées au niveau de l’expérience. |
    | Géo | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md). |
-   | Méthode d’affectation du trafic <br>(s’applique uniquement aux activités [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ». |
+   | Méthode d’affectation du trafic <br>(s’applique uniquement aux activités de [!UICONTROL ciblage automatique] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ». |
    |  | `experience.trafficAllocationType` | Renvoie « contrôle » ou « ciblé ». |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
@@ -90,9 +90,9 @@ Une différence essentielle entre les plug-ins et les jetons de réponse réside
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditionnel) Pour utiliser un paramètre de profil comme jeton de réponse, mais comme le paramètre n’a pas été transmis par une requête [!DNL Target] et n’a donc pas été chargé dans l’interface utilisateur de [!DNL Target], vous pouvez utiliser le bouton [!UICONTROL Add Response Token] pour ajouter le profil à l’interface utilisateur.
+1. (Conditionnel) Pour utiliser un paramètre de profil comme jeton de réponse, mais comme le paramètre n’a pas été transmis par une requête [!DNL Target] et n’a donc pas été chargé dans l’interface utilisateur de [!DNL Target], vous pouvez utiliser le bouton [!UICONTROL Ajouter un jeton de réponse] pour ajouter le profil à l’interface utilisateur.
 
-   Cliquez sur **[!UICONTROL Add Response Token]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activate]**.
+   Cliquez sur **[!UICONTROL Ajouter un jeton de réponse]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
 1. Créez une activité.
 
@@ -194,7 +194,7 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 
 **Quel rôle est requis pour activer ou désactiver les jetons de réponse ?**
 
-Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs dotés du rôle [!DNL Target] [!UICONTROL Administrator] .
+Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs dotés du rôle [!DNL Target] [!UICONTROL Administrateur].
 
 **Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.6.0 (ou une version antérieure) ?**
 
@@ -444,7 +444,7 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 
 >[!NOTE]
 >
->L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes. Toutefois, les options se trouvent à des emplacements légèrement différents.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes. Toutefois, les options se trouvent à des emplacements légèrement différents.
 >
 >La vidéo mentionne `option.name` et `option.id`, qui ont été remplacées par `offer.name` et `offer.id`, respectivement.
 

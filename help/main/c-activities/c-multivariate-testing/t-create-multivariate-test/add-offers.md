@@ -1,7 +1,7 @@
 ---
 keywords: mvt;test multivarié;offres;combinaisons
-description: Découvrez comment utiliser le [!UICONTROL Visual Experience Composer] (VEC) d’Adobe  [!DNL Target]  créer les offres que vous souhaitez inclure dans votre [!UICONTROL Multivariate Test] (MVT).
-title: Comment créer des combinaisons dans un [!UICONTROL Multivariate Test] (MVT) ?
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’Adobe [!DNL Target] pour créer les offres à inclure dans votre [!UICONTROL test multivarié] (MVT).
+title: Comment créer des combinaisons dans un [!UICONTROL &#x200B; test multivarié &#x200B;] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 TQID: https://experienceleague.adobe.com/3vxuP07ZViE1etmmvBdYVHIOrtZqRZfL3nE5RMHo9rU
@@ -12,20 +12,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 58%
+source-wordcount: 498
+ht-degree: 55%
 
 ---
 
 # Création de combinaisons
 
-Utilisez le [!UICONTROL Visual Experience Composer] (VEC) de [!DNL Adobe Target] pour créer les offres à inclure dans votre [!UICONTROL Multivariate Test] (MVT).
+Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer les offres à inclure dans votre [!UICONTROL test multivarié] (MVT).
 
 Pour plus d’informations sur l’utilisation du VEC pour créer et modifier des offres, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
->Vous pouvez cliquer sur **[!UICONTROL Expand Selection]** lors de la sélection d’objets sur la page pour sélectionner l’élément parent en plus de l’élément sélectionné à l’origine. Lorsque vous sélectionnez un élément parent, tous les enfants de cet élément sont automatiquement sélectionnés. Vous pouvez étendre plusieurs fois la sélection.
+>Vous pouvez cliquer sur **[!UICONTROL Développer la sélection]** lors de la sélection d’objets sur la page pour sélectionner l’élément parent en plus de l’élément sélectionné à l’origine. Lorsque vous sélectionnez un élément parent, tous les enfants de cet élément sont automatiquement sélectionnés. Vous pouvez étendre plusieurs fois la sélection.
 >
 >Vous pouvez également utiliser le [chemin DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) pour parcourir les éléments.
 
@@ -33,9 +33,9 @@ Pour plus d’informations sur l’utilisation du VEC pour créer et modifier de
 
 Testez plusieurs offres d’images au sein d’un emplacement afin de déterminer l’image la plus réussie.
 
-1. Cliquez sur une image de votre page, puis sélectionnez **[!UICONTROL Change Image Offer]**.
+1. Cliquez sur une image de votre page, puis sélectionnez **[!UICONTROL Modifier l’offre d’image]**.
 
-1. Dans la boîte de dialogue [!UICONTROL Image Offer], sélectionnez toutes les images à inclure dans le test, puis cliquez sur **[!UICONTROL Add]**.
+1. Dans la boîte de dialogue [!UICONTROL Offre Image], sélectionnez toutes les images à inclure dans le test, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 Chaque image devient une expérience distincte à cet emplacement.
 
@@ -43,13 +43,13 @@ Chaque image devient une expérience distincte à cet emplacement.
 
 Testez plusieurs offres HTML dans un emplacement afin de déterminer l’offre qui remporte le plus de succès.
 
-1. Cliquez sur une offre HTML sur votre page, puis sur **[!UICONTROL Change HTML Offer]**.
+1. Cliquez sur une offre HTML sur votre page, puis sur **[!UICONTROL Modifier l’offre HTML]**.
 
-1. Cliquez sur **[!UICONTROL Create Offer]**, sur **[!UICONTROL HTML Offer]**, attribuez un nom à l’offre, saisissez ou collez le code de l’offre HTML, puis cliquez sur **[!UICONTROL Create]**.
+1. Cliquez sur **[!UICONTROL Créer une offre]**, cliquez sur **[!UICONTROL Offre HTML]**, nommez l&#39;offre, saisissez ou collez le code de l&#39;offre HTML, puis cliquez sur **[!UICONTROL Créer]**.
 
    Répétez cette opération pour toute offre HTML supplémentaire que vous souhaitez inclure.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Chaque offre HTML devient une expérience distincte à cet emplacement.
 

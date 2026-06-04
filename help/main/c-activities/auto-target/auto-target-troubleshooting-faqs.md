@@ -1,7 +1,7 @@
 ---
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage;trafic
-description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL Auto-Target].
-title: Comment Puis-Je Résoudre Les Problèmes Liés Aux Activités [!UICONTROL Auto-Target] ?
+description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL &#x200B; ciblage automatique &#x200B;].
+title: Comment Résoudre Les Problèmes Liés Aux Activités De [!UICONTROL Ciblage Automatique] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
@@ -16,27 +16,27 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1874
-ht-degree: 32%
+source-wordcount: 1982
+ht-degree: 30%
 
 ---
 
-# Questions fréquentes et résolution des problèmes [!UICONTROL Auto-Target]
+# Questions fréquentes et dépannage concernant le [!UICONTROL ciblage automatique]
 
-Dépannage et questions fréquentes (FAQ) sur les activités [!UICONTROL Auto-Target] dans [!DNL Adobe Target].
+Dépannage et questions fréquentes (FAQ) sur les activités de [!UICONTROL ciblage automatique] dans [!DNL Adobe Target].
 
-## [!UICONTROL Auto-Target] Questions Fréquentes {#section_5C120A2B11D14D9BAF767BBAB50FED23}
+## [!UICONTROL Ciblage automatique] Questions fréquentes {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activités [!UICONTROL Auto-Target] :
+Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activités de [!UICONTROL ciblage automatique] :
 
-### Quelles sont les bonnes pratiques pour configurer une activité [!UICONTROL Auto-Target] ?
+### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
 +++Réponse
-* Décidez si la valeur commerciale d’une mesure de succès [!UICONTROL Revenue per Visit] (RPV) vaut les exigences de trafic supplémentaires. Le RPV nécessite généralement au moins 1 000 conversions par expérience pour qu’une activité soit plus performante qu’une conversion.
+* Décidez si la valeur commerciale d’une mesure de succès [!UICONTROL Chiffre d’affaires par visite] (RPV) vaut les exigences de trafic supplémentaires. Le RPV nécessite généralement au moins 1 000 conversions par expérience pour qu’une activité soit plus performante qu’une conversion.
 * Décidez l’affectation ente l’expérience de contrôle et l’expérience personnalisée avant de débuter l’activité d’après vos objectifs.
-* Déterminez si vous disposez d’un trafic suffisant vers la page sur laquelle s’exécute votre activité [!UICONTROL Auto-Target] pour que les modèles de personnalisation soient créés dans un délai raisonnable.
+* Déterminez si vous disposez d’un trafic suffisant vers la page sur laquelle s’exécute votre activité de [!UICONTROL ciblage automatique] pour que les modèles de personnalisation soient créés dans un délai raisonnable.
 * Si vous testez l’algorithme de personnalisation, vous ne devez pas modifier les expériences ni ajouter ou supprimer des attributs de profil lorsque l’activité est active.
-* Envisagez d’effectuer une activité A/B entre les offres et les emplacements que vous prévoyez d’utiliser dans votre activité [!UICONTROL Auto-Target] afin de vous assurer que les emplacements et les offres ont un impact sur l’objectif d’optimisation. Si une activité A/B ne parvient pas à démontrer une différence significative, [!UICONTROL Auto-Target] ne parvient probablement pas non plus à générer une courbe d’élévation.
+* Envisagez d’effectuer une activité A/B entre les offres et les emplacements que vous prévoyez d’utiliser dans votre activité de [!UICONTROL ciblage automatique] afin de vous assurer que les emplacements et les offres ont un impact sur l’objectif d’optimisation. Si une activité A/B ne parvient pas à démontrer une différence significative, le [!UICONTROL ciblage automatique] ne parvient probablement pas non plus à générer un effet élévateur.
 
   Si un test A/B ne montre aucune différence statistiquement significative entre des expériences, il est probable que les offres considérées ne sont pas suffisamment différentes les unes des autres, que les emplacements sélectionnés n’influencent pas la mesure de succès, ou que l’objectif d’optimisation soit trop distant dans l’entonnoir de conversion pour être affecté par les offres que vous avez choisies.
 
@@ -44,7 +44,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activit�
 
 +++
 
-### Recommandez-[!UICONTROL Adobe] d’utiliser [!UICONTROL Auto Target] avec une répartition de 90 % en contrôle et de 10 % en ciblé jusqu’à ce que les modèles soient créés ?
+### Recommandez-vous à  d’utiliser [!UICONTROL Ciblage automatique] avec une répartition de 90 % en contrôle et de 10 % en ciblé jusqu’à ce que les modèles soient créés ?
 
 +++Réponse 
 La répartition optimale de l’affectation du trafic dépend de vos objectifs.
@@ -61,17 +61,17 @@ No, check marks for model generation show only the models built to date. There's
 
 +++
 
-### Si un visiteur ne voit **pas** l’activité [!UICONTROL Auto-Target] et effectue une conversion, celle-ci est-elle prise en compte dans mon activité ?
+### Si un visiteur ne voit **pas** l’activité de [!UICONTROL ciblage automatique] et effectue une conversion, celle-ci est-elle prise en compte dans mon activité ?
 
 +++Réponse
-Non, seuls les visiteurs éligibles ayant visualisé l’activité [!UICONTROL Auto-Target] sont comptabilisés dans les rapports.
+Non, seuls les visiteurs éligibles ayant visualisé l’activité de [!UICONTROL ciblage automatique] sont comptabilisés dans les rapports.
 
 +++
 
-### Pourquoi mon activité [!UICONTROL Auto-Target] ne semble-t-elle générer aucun effet élévateur ?
+### Pourquoi mon activité de [!UICONTROL ciblage automatique] ne semble-t-elle générer aucun effet élévateur ?
 
 +++Réponse
-Quatre facteurs sont requis pour qu’une activité [!UICONTROL Auto-Target] génère une effet élévateur :
+Quatre facteurs sont requis pour qu’une activité de [!UICONTROL ciblage automatique] génère un effet élévateur :
 
 * Les offres doivent être suffisamment différentes pour influencer les visiteurs.
 * Les offres doivent être situées à un emplacement qui fait la différence par rapport à l’objectif d’optimisation.
@@ -84,26 +84,26 @@ Si le résultat du test A/B révèle un effet élévateur statistiquement signif
 
 +++
 
-### Quand dois-je arrêter mon activité [!UICONTROL Auto-Target] ?
+### Quand dois-je arrêter mon activité de [!UICONTROL ciblage automatique] ?
 
 +++Réponse
-[!UICONTROL Auto-Target] peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’est pas nécessaire d’arrêter votre activité [!UICONTROL Auto-Target].
+Le [!UICONTROL ciblage automatique] peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’est pas nécessaire d’arrêter votre activité de [!UICONTROL ciblage automatique].
 
-Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL Auto-Target], la bonne pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les associent pas à d’anciens résultats portant sur des contenus différents.
+Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL ciblage automatique], la bonne pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les associent pas à d’anciens résultats portant sur des contenus différents.
 
 +++
 
 ### Combien de temps dois-je attendre la compilation des modèles ? {#how-long}
 
 +++Réponse
-Le temps nécessaire aux modèles pour créer votre activité [!UICONTROL Auto-Target] dépend généralement du trafic sur les emplacements d’activité sélectionnés et des taux de conversion associés à la mesure de succès de votre activité.
+Le temps nécessaire aux modèles pour créer votre activité de [!UICONTROL ciblage automatique] dépend généralement du trafic sur les emplacements d’activité sélectionnés et des taux de conversion associés à la mesure de succès de votre activité.
 
-[!UICONTROL Auto-Target] ne tente pas de créer un modèle personnalisé pour une expérience donnée tant qu’il n’y a pas au moins 50 conversions pour cette expérience. En outre, si la qualité du modèle créé est insuffisante (comme déterminé par l’évaluation hors ligne sur des données de « test » retenues, à l’aide d’[une mesure appelée AUC](https://fr.wikipedia.org/wiki/Courbe_ROC)), le modèle n’est pas utilisé pour diffuser le trafic de manière personnalisée.
+Le [!UICONTROL ciblage automatique] ne tente pas de créer un modèle personnalisé pour une expérience donnée tant qu’il n’y a pas au moins 50 conversions pour cette expérience. En outre, si la qualité du modèle créé est insuffisante (comme déterminé par l’évaluation hors ligne sur des données de « test » retenues, à l’aide d’[une mesure appelée AUC](https://fr.wikipedia.org/wiki/Courbe_ROC)), le modèle n’est pas utilisé pour diffuser le trafic de manière personnalisée.
 
-Quelques points supplémentaires à garder à l’esprit lors de la création du modèle de [!UICONTROL Auto-Target] :
+Quelques points supplémentaires à garder à l’esprit lors de la création du modèle de [!UICONTROL ciblage automatique] :
 
-* Une fois qu’une activité est active, [!UICONTROL Auto-Target] prend en compte jusqu’aux 45 derniers jours de données diffusées de manière aléatoire lors de la tentative de création de modèles. Par exemple, le trafic de contrôle, ainsi que certaines données supplémentaires diffusées de manière aléatoire et retenues par l’algorithme.
-* Lorsque [!UICONTROL Revenue per Visit] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-chiffre d’affaires par rapport au taux de conversion.
+* Une fois qu’une activité est active, le [!UICONTROL ciblage automatique] prend en compte les 45 derniers jours de données diffusées de manière aléatoire lors de la tentative de création de modèles. Par exemple, le trafic de contrôle, ainsi que certaines données supplémentaires diffusées de manière aléatoire et retenues par l’algorithme.
+* Lorsque [!UICONTROL &#x200B; Revenu par visite &#x200B;] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-revenu comparé au taux de conversion.
 * Comme les modèles sont créés sur la base de chaque expérience, le remplacement d’une expérience par une autre expérience signifie que vous devez collecter suffisamment de trafic (au moins 50 conversions) pour la nouvelle expérience avant de pouvoir recréer des modèles personnalisés.
 
 +++
@@ -115,10 +115,10 @@ Non, il doit exister au moins deux modèles créés au sein de votre activité p
 
 +++
 
-### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL Auto-Target] ?
+### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ?
 
 +++Réponse
-Vous pouvez commencer à consulter les résultats de votre test [!UICONTROL Auto-Target] dès qu’au moins deux expériences ont été créées à partir des modèles (coche verte) pour l’expérience sur laquelle les modèles sont créés.
+Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL ciblage automatique] dès qu’au moins deux expériences ont été créées à partir des modèles (coche verte) pour l’expérience sur laquelle les modèles sont créés.
 
 +++
 
@@ -133,41 +133,41 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 +++
 
-### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL Auto-Target] ? {#change-metric}
+### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ? {#change-metric}
 
 +++Réponse
 Adobe ne recommande pas de modifier la mesure d’objectif au cours d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. Adobe ne garantit pas ce qui se produit si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
+Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
 
 +++
 
-### Puis-je utiliser l’option [!UICONTROL Reset Report Data] lors de l’exécution d’une activité [!UICONTROL Auto-Target] ?
+### Puis-je utiliser l’option [!UICONTROL Réinitialiser les données du rapport] lors de l’exécution d’une activité de [!UICONTROL ciblage automatique] ?
 
 +++Réponse
-Il n’est pas recommandé d’utiliser l’option [!UICONTROL Reset Report Data] pour les activités [!UICONTROL Auto-Target]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle de [!UICONTROL Auto-Target]. Au lieu d’utiliser l’option [!UICONTROL Reset Report Data] pour les activités [!UICONTROL Auto-Target], créez une activité et désactivez l’activité d’origine.
+Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités de [!UICONTROL ciblage automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle de [!UICONTROL ciblage automatique]. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités de [!UICONTROL ciblage automatique], créez une activité et désactivez l’activité d’origine.
 
-Ces orientations s’appliquent également aux activités de [!UICONTROL Auto-Allocate] et de [!UICONTROL Automated Personalization].
+Ces conseils s’appliquent également aux activités [!UICONTROL Affectation automatique] et [!UICONTROL Automated Personalization].
 
 +++
 
-### Que se passe-t-il si je supprime une expérience unique d’une activité [!UICONTROL Auto-Target] ?
+### Que se passe-t-il si je supprime une expérience unique d’une activité de [!UICONTROL ciblage automatique] ?
 
 +++Réponse
 [!DNL Target] crée un modèle par expérience. La suppression d’une expérience signifie donc que crée [!DNL Target] un modèle de moins et que cela n’affecte pas les modèles des autres expériences.
 
-Supposons, par exemple, que vous ayez une activité [!UICONTROL Auto-Target] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans que cela n’affecte les modèles des sept expériences restantes.
+Supposons, par exemple, que vous ayez une activité de [!UICONTROL ciblage automatique] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans que cela n’affecte les modèles des sept expériences restantes.
 
 +++
 
-## Résolution des problèmes [!UICONTROL Auto-Target] {#section_23995AB813F24525AF294D20A20875C8}
+## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
-Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation de [!UICONTROL Auto-Target] et quelques solutions suggérées.
+Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation du [!UICONTROL ciblage automatique] ainsi que quelques solutions suggérées.
 
-### Mon activité [!UICONTROL Auto-Target] prend trop de temps pour créer des modèles.
+### Mon activité de [!UICONTROL ciblage automatique] prend trop de temps pour créer des modèles.
 
 +++Suggestions de dépannage
-Plusieurs modifications de configuration de l’activité peuvent réduire le temps prévu pour créer des modèles, notamment le nombre d’expériences dans votre activité [!UICONTROL Auto-Target], le trafic sur votre site et votre mesure de succès sélectionnée.
+Plusieurs modifications de configuration de l’activité peuvent réduire le temps prévu pour créer des modèles, notamment le nombre d’expériences dans votre activité de [!UICONTROL ciblage automatique], le trafic sur votre site et votre mesure de succès sélectionnée.
 
 **Solution :** passez en revue la configuration de votre activité et vérifiez si vous êtes prêt à apporter des modifications pour accélérer la création des modèles.
 
@@ -178,17 +178,17 @@ Plusieurs modifications de configuration de l’activité peuvent réduire le te
 
 +++
 
-### Mon activité [!UICONTROL Auto-Target] ne génère aucun effet élévateur.
+### Mon activité de [!UICONTROL ciblage automatique] ne génère aucun effet élévateur.
 
 +++Suggestions de dépannage
-Quatre facteurs sont requis pour qu’une activité [!UICONTROL Auto-Target] génère une effet élévateur :
+Quatre facteurs sont requis pour qu’une activité de [!UICONTROL ciblage automatique] génère un effet élévateur :
 
 * Les offres doivent être suffisamment différentes pour influencer les visiteurs.
 * Les offres doivent être situées à un emplacement qui fait la différence par rapport à l’objectif d’optimisation.
 * Le trafic et la « puissance » statistique de l’activité doivent être suffisants dans le test pour permettre de détecter l’effet élévateur.
 * L’algorithme de personnalisation doit fonctionner correctement.
 
-**Solution :** tout d’abord, assurez-vous que votre activité personnalise le trafic. Si des modèles ne sont pas créés pour toutes les expériences, votre activité de [!UICONTROL Auto-Target] continue de servir de manière aléatoire une partie significative des visites afin de tenter de créer tous les modèles le plus rapidement possible. Si les modèles ne sont pas créés, [!UICONTROL Auto-Target] ne personnalise pas le trafic.
+**Solution :** tout d’abord, assurez-vous que votre activité personnalise le trafic. Si des modèles ne sont pas créés pour toutes les expériences, votre activité de [!UICONTROL ciblage automatique] diffuse toujours de manière aléatoire une partie significative des visites afin de tenter de créer tous les modèles le plus rapidement possible. Si les modèles ne sont pas créés, le [!UICONTROL ciblage automatique] ne personnalise pas le trafic.
 
 Ensuite, assurez-vous que les offres et les emplacements des activités font réellement la différence sur les taux de réponse globaux à l’aide d’un test A/B simple et non personnalisé. Assurez-vous de calculer les tailles d’échantillon à l’avance, de manière à garantir que la puissance est suffisante pour détecter un effet élévateur raisonnable et d’exécuter le test A/B pendant une durée déterminée sans l’arrêter ni y apporter de modifications. Si les résultats d’un test A/B montrent une augmentation statistiquement significative sur une ou plusieurs expériences, il est probable qu’une activité personnalisée fonctionne. Personalization peut fonctionner même s’il n’existe aucune différence dans les taux de réponse globaux des expériences. En règle générale, le problème provient du fait que les offres et les emplacements n’ont pas un impact suffisamment important sur l’objectif d’optimisation pour être détectés avec une signification statistique.
 
@@ -199,7 +199,7 @@ Ensuite, assurez-vous que les offres et les emplacements des activités font ré
 +++Suggestions de dépannage
 Ce comportement est attendu.
 
-Dans une activité [!UICONTROL Auto-Target], une fois qu’une mesure de conversion (objectif d’optimisation ou objectif post) est convertie, l’utilisateur est libéré de l’expérience et l’activité est redémarrée.
+Dans une activité de [!UICONTROL ciblage automatique], une fois qu’une mesure de conversion (qu’il s’agisse d’un objectif d’optimisation ou d’un objectif post) est convertie, l’utilisateur est libéré de l’expérience et l’activité est redémarrée.
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 dépend de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis convertit A1, A1 n’est toujours pas converti, car lorsque C1 est converti, le visiteur est libéré.
 

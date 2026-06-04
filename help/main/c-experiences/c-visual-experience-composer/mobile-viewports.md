@@ -12,8 +12,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1361
-ht-degree: 94%
+source-wordcount: 1379
+ht-degree: 93%
 
 ---
 
@@ -103,14 +103,14 @@ Si votre site n’est pas réactif, utilisez le compositeur web mobile pour affi
 
 Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponibles lors de la création de vos expériences.
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]**.
-1. Dans la section **[!UICONTROL Mobile viewports configuration]**, cliquez sur **[!UICONTROL Add]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**.
+1. Dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Ajout de la fenêtre d’affichage](/help/main/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
    Ou
 
-   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage puis cliquez sur l’icône [!UICONTROL Edit] (crayon).
+   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage puis cliquez sur l’icône [!UICONTROL Modifier] (crayon).
 
 1. Saisissez un nom pour la fenêtre d’affichage mobile.
 
@@ -132,7 +132,7 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 
    Si vous utilisez le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation, [!DNL Target] émule cet appareil lorsque vous affichez la page. Par exemple, si l’apparence est différente sur Android et sur iOS pour votre site réactif, [!DNL Target] reproduit ce comportement.
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
@@ -143,11 +143,11 @@ Configurez les fenêtres d’affichage mobiles que vous voulez rendre disponible
 Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] pour créer des expériences réactives pour les écrans mobiles.
 
 1. Créez l’[activité souhaitée](/help/main/c-activities/activities.md).
-1. Dans le [!UICONTROL Visual Experience Composer] (VEC), cliquez sur l’icône d’engrenage **[!UICONTROL Settings]**, puis sélectionnez **[!UICONTROL Add Mobile Viewports]**.
+1. Dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur l’icône d’engrenage **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter des fenêtres d’affichage mobiles]**.
 
    ![Option Ajouter des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Devices]**, puis activez chaque appareil auquel ajouter une fenêtre d’affichage mobile.
+1. Cliquez sur l’icône **[!UICONTROL Appareils]**, puis activez chaque appareil auquel ajouter une fenêtre d’affichage mobile.
 
    ![Activation des fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/assets/mobileviewports.png)
 

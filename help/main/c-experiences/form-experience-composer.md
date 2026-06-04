@@ -14,37 +14,37 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 34%
+source-wordcount: 988
+ht-degree: 35%
 
 ---
 
 # Compositeur d’expérience d’après les formulaires
 
-Le [!UICONTROL Form-Based Experience Composer] [!DNL Adobe Target] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans des activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations] lorsque le [!UICONTROL Visual Experience Composer] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
+Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience], [!UICONTROL Automated Personalization] et [!UICONTROL Recommandations] lorsque le [!UICONTROL compositeur d’expérience visuelle] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
 
 Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune expérience. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, [!UICONTROL Target] génère automatiquement les expériences.
 
-1. Cliquez sur **[!UICONTROL Create Activity]**, puis sélectionnez le type d’activité à créer.
+1. Cliquez sur **[!UICONTROL Créer une activité]**, puis sélectionnez le type d’activité à créer.
 
-   Le [!UICONTROL Form-Based Experience Composer] est disponible pour les activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] et [!UICONTROL Recommendations].
+   Le [!UICONTROL compositeur d’expérience d’après les formulaires] est disponible pour les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience], [!UICONTROL Automated Personalization] et [!UICONTROL Recommandations].
 
-1. Sélectionnez **[!UICONTROL Form]** dans la boîte de dialogue [!UICONTROL Create Activity].
+1. Sélectionnez **[!UICONTROL Formulaire]** dans la boîte de dialogue [!UICONTROL Créer une activité].
 
-1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium) dans la liste déroulante **[!UICONTROL Choose Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium), dans la liste déroulante **[!UICONTROL Choisir Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L’option [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
+   L’option [[!UICONTROL &#x200B; Choisir un lieu de travail &#x200B;]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
 
 1. Choisissez une propriété.
 
-1. Cliquez sur **[!UICONTROL Create]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
-   La [!UICONTROL Form-Based Experience Composer] s’ouvre.
+   Le [!UICONTROL compositeur d’expérience d’après les formulaires] s’ouvre.
 
-   Cet écran est différent si vous créez une activité [!UICONTROL Recommendations]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
+   Cet écran est différent si vous créez une activité [!UICONTROL &#x200B; Recommendations &#x200B;]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
 1. &#x200B;
-   1. Cliquez sur l’icône **[!UICONTROL Rename]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Rename]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Save]**.
+   1. Cliquez sur l’icône **[!UICONTROL Renommer]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Renommer]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
 
@@ -72,17 +72,17 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
 1. Sélectionnez un emplacement.
 
-   Lorsque vous cliquez dans la zone de [!UICONTROL Select Location], une liste des emplacements disponibles s&#39;affiche. Sélectionnez un de ces emplacements.
+   Lorsque vous cliquez dans la zone [!UICONTROL Sélectionner l’emplacement], une liste d’emplacements disponibles s’affiche. Sélectionnez un de ces emplacements.
 
-   Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés dans la liste des emplacements disponibles. La prochaine fois que vous tenterez de sélectionner un emplacement saisi manuellement, il sera disponible dans la liste déroulante [!UICONTROL Select Location] pour cette activité.
+   Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés dans la liste des emplacements disponibles. La prochaine fois que vous tenterez de sélectionner un emplacement saisi manuellement, il sera disponible dans la liste déroulante [!UICONTROL Sélectionner l’emplacement] pour cette activité.
 
    >[!NOTE]
    >
    >La création d’un emplacement saisi manuellement lors de la création de l’activité ne crée pas automatiquement de nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé en cas d’appel de diffusion de contenu. Une fois l’emplacement créé, il pourra être utilisé dans d’autres activités, pour créer des audiences, etc. à partir de la liste déroulante des emplacements disponibles.
 
-1. Cliquez sur **[!UICONTROL Add Audience Refinements]**, choisissez une ou plusieurs [audiences](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour cette activité, puis cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Ajouter des ajustements d’audience]**, choisissez un ou plusieurs [audiences](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour cette activité, puis cliquez sur **[!UICONTROL Terminé]**.
 
-   Dans la [!UICONTROL Form-based Experience Composer], les améliorations ont été remplacées par des fonctionnalités d’audience complètes. Les perfectionnements apportés aux activités existantes ont été migrés vers des [audiences d’activité uniquement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Dans le [!UICONTROL compositeur d’expérience d’après les formulaires], les améliorations ont été remplacées par une fonctionnalité d’audience complète. Les perfectionnements apportés aux activités existantes ont été migrés vers des [audiences d’activité uniquement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Sélectionnez le type de contenu que vous souhaitez voir à cet emplacement.
 
@@ -94,9 +94,9 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    Vous pouvez également ajouter un lien à une image (clic publicitaire, destination, entrée, etc.)
 
-   1. Cliquez sur [!UICONTROL Change Image Offer].
-   1. Sélectionnez l’image souhaitée, puis cliquez sur [!UICONTROL Edit Links].
-   1. Indiquez l’URL ou la page de votre site souhaitée, puis cliquez sur [!UICONTROL Update].
+   1. Cliquez sur [!UICONTROL Modifier l’offre d’image].
+   1. Sélectionnez l’image souhaitée, puis cliquez sur [!UICONTROL Modifier les liens].
+   1. Précisez l’URL ou la page de votre site souhaitée, puis cliquez sur [!UICONTROL Mettre à jour].
 
    **Modifier l’offre JSON :** choisissez une offre json.
 
@@ -108,36 +108,36 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Créer une offre HTML :**
 
-   1. Cliquez sur [!UICONTROL Offers], puis sélectionnez l’onglet [!UICONTROL Code Offers] .
-   1. Cliquez sur [!UICONTROL Create] > [!UICONTROL HTML Offer].
+   1. Cliquez sur [!UICONTROL Offres], puis sélectionnez l’onglet [!UICONTROL Offres (code)].
+   1. Cliquez sur [!UICONTROL Créer] > [!UICONTROL Offre HTML].
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code HTML dans la zone Code.
-   1. Cliquez sur [!UICONTROL Save].
+   1. Cliquez sur [!UICONTROL Enregistrer].
 
    **Création d’offres JSON :**
 
-   1. Cliquez sur [!UICONTROL Offers], puis sélectionnez l’onglet [!UICONTROL Code Offers] .
-   1. Cliquez sur [!UICONTROL Create] > [!UICONTROL JSON Offer].
+   1. Cliquez sur [!UICONTROL Offres], puis sélectionnez l’onglet [!UICONTROL Offres (code)].
+   1. Cliquez sur [!UICONTROL Créer] > [!UICONTROL Offre JSON].
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code JSON dans la zone Code.
-   1. Cliquez sur [!UICONTROL Save].
+   1. Cliquez sur [!UICONTROL Enregistrer].
 
    **Ajouter une recommandation :**
 
-   Pour une activité Recommendations , la liste déroulante Contenu propose l’option [!UICONTROL Add Recommendation] . Cliquez sur **[!UICONTROL Add Recommendation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Pour une activité Recommendations , la liste déroulante Contenu propose l’option [!UICONTROL Ajouter une recommandation]. Cliquez sur **[!UICONTROL Ajouter une recommandation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
 
-   Sur la page [!UICONTROL Targeting] du workflow guidé en trois étapes [!DNL Target] :
+   Sur la page [!UICONTROL Ciblage] du workflow guidé en trois étapes [!DNL Target] :
 
    **Ajouter une décision d’offre :**
 
-   Ajoutez une offre créée dans [!DNL Adobe Journey Optimizer] (AJO) à une activité [!DNL Adobe Target] pour présenter la meilleure offre et la meilleure expérience dynamique aux visiteurs de votre site web ou mobile à l’aide de la fonction Offer Decisioning. Cette option est disponible uniquement pour les activités de [!UICONTROL A/B Test] et de [!UICONTROL Experience Targeting] manuels (XT).
+   Ajoutez une offre créée dans [!DNL Adobe Journey Optimizer] (AJO) à une activité [!DNL Adobe Target] pour présenter la meilleure offre et la meilleure expérience dynamique aux visiteurs de votre site web ou mobile à l’aide de la fonction Offer Decisioning. Cette option est disponible uniquement pour les activités manuelles [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT).
 
    Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md).
 
-1. (Facultatif, pour les activités [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] et [!UICONTROL Experience Targeting]) Pour répéter ce processus pour d’autres emplacements, cliquez sur **[!UICONTROL Add Location]** et configurez l’emplacement et le contenu.
-1. Cliquez sur **[!UICONTROL Next]**, puis effectuez les étapes de création de l’activité comme d’habitude pour votre type d’activité.
+1. (Facultatif, pour les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage d’expérience]) Pour répéter ce processus pour d’autres emplacements, cliquez sur **[!UICONTROL Ajouter un emplacement]** et configurez l’emplacement et le contenu.
+1. Cliquez sur **[!UICONTROL Suivant]** puis effectuez les étapes de création de l’activité comme d’habitude pour votre type d’activité.
 
 * [Création d’un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Création d’une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)

@@ -12,12 +12,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 346
+source-wordcount: 350
 ht-degree: 10%
 
 ---
 
-# [!UICONTROL Parameter Matching]
+# [!UICONTROL Correspondance de paramètres]
 
 Filtrez de manière dynamique en comparant des éléments (entités) à une valeur dans la requête (API ou mbox).
 
@@ -37,7 +37,7 @@ Par exemple, recommandez uniquement le contenu correspondant au paramètre de pa
 
 ## Exemples de correspondance de paramètres
 
-[!UICONTROL Parameter Matching] vous permet de recommander du contenu correspondant aux paramètres de la page ou aux paramètres du visiteur, tels que les dimensions de l’appareil ou la géolocalisation, comme dans l’exemple suivant :
+La [!UICONTROL Correspondance de paramètres] vous permet de recommander du contenu correspondant aux paramètres de la page ou aux paramètres du visiteur, tels que les dimensions de l’appareil ou la géolocalisation, comme dans l’exemple suivant :
 
 [!DNL Recommendations] pouvez correspondre aux valeurs de paramètre envoyées dans l’appel [!DNL Target]. Dans ce cas, [!DNL Target] détecte qu’un visiteur utilise un appareil mobile, en fonction des paramètres de hauteur et de largeur d’écran envoyés dans l’appel [!DNL Target], et recommande uniquement les éléments qui sont des appareils mobiles.
 

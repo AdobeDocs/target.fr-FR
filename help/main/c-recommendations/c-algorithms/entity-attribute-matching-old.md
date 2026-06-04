@@ -1,13 +1,13 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance des attributs d’entité
-description: Découvrez comment filtrer dynamiquement dans Adobe [!DNL Target] Recommendations en comparant un groupe d’éléments potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
+description: Découvrez comment filtrer dynamiquement dans  [!DNL Target] Recommendations en comparant un groupe d’éléments potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
 title: Comment filtrer par correspondance d’attributs d’entité dans les activités Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Pour que cela fonctionne, vous devez diffuser le `entity.brand` dans la mbox sur
 
 ## Exemples de correspondance d’attributs d’entité
 
-[!UICONTROL Entity Attribute Matching] vous permet de recommander uniquement les éléments qui correspondent, par exemple :
+La [!UICONTROL Correspondance des attributs d’entité] vous permet de recommander uniquement les éléments qui correspondent, par exemple :
 
 * Attribut de l’élément que l’utilisateur consulte actuellement
 * Élément que l’utilisateur a consulté le plus récemment

@@ -7,7 +7,7 @@ role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 source-git-commit: 974746e25724abf0e5edd3884331ec0975e5352e
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 11%
 
 ---
@@ -28,4 +28,4 @@ Pour accéder aux éléments de menu [!UICONTROL Administration], cliquez sur **
 * [Jetons de réponse](/help/main/administrating-target/response-tokens.md)
 * [Utilisateurs et utilisatrices](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Menu Administration Adobe Target](/help/main/administrating-target/assets/administration.png)
+![Menu Administration &#x200B;](/help/main/administrating-target/assets/administration.png)

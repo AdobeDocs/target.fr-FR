@@ -15,14 +15,14 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 3150
+source-wordcount: 3184
 ht-degree: 47%
 
 ---
 
 # Quelle doit être la durée d’exécution d’un test A/B ?
 
-Une activité [!UICONTROL A/B Test] réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs et visiteuses (taille de l’échantillon) pour améliorer votre taux de conversion. Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités [!UICONTROL Auto-Allocate] et le Calculateur de taille d’échantillon [!UICONTROL Adobe Target] pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
+Une activité [!UICONTROL Test A/B] réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion. Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] et le Calculateur de taille d’échantillon [!UICONTROL Adobe Target] pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
 
 Il est tentant d&#39;arrêter une activité si l&#39;une des offres est plus performante ou moins performante que les autres dans les premiers jours de l&#39;activité. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que l’activité collecte davantage de points de données.
 
@@ -34,21 +34,21 @@ Il est tentant d&#39;arrêter une activité si l&#39;une des offres est plus per
 
 ## Affectation automatique {#auto-allocate}
 
-Une activité [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL Auto-Allocate] réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
+Une activité [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL &#x200B; Affectation automatique &#x200B;] réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
 Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
-La solution est [!UICONTROL Auto-Allocate]. [!UICONTROL Auto-Allocate] réduit ce coût et la charge de travail pour déterminer une expérience gagnante. [!UICONTROL Auto-Allocate] surveille les performances de la mesure d’objectif de toutes les expériences et envoie proportionnellement plus de nouveaux entrants vers les expériences hautement performantes. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez voir les bénéfices de l’activité sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
+La solution est [!UICONTROL &#x200B; Affectation automatique &#x200B;]. L’[!UICONTROL affectation automatique] réduit ce coût et cette surcharge pour déterminer une expérience gagnante. [!UICONTROL &#x200B; Affectation automatique &#x200B;] surveille les performances de la mesure d’objectif de toutes les expériences et envoie proportionnellement plus de nouveaux entrants vers les expériences hautement performantes. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez voir les bénéfices de l’activité sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
 
-[!UICONTROL Auto-Allocate] oriente progressivement les visiteurs vers des expériences gagnantes au lieu d’attendre la fin d’une activité pour déterminer une expérience gagnante. Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
+L’[!UICONTROL &#x200B; Affectation automatique &#x200B;] déplace progressivement les visiteurs vers des expériences gagnantes, au lieu d’exiger que vous attendiez la fin d’une activité pour déterminer une expérience gagnante. Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
 
-Lors de l’utilisation de [!UICONTROL Auto-Allocate], [!DNL Target] affiche un badge en haut de la page de l’activité indiquant « Aucun gagnant pour le moment » jusqu’à ce que l’activité atteigne le nombre minimum de conversions avec un degré de confiance suffisant. [!DNL Target] déclare ensuite l’expérience gagnante en affichant un badge en haut de la page de l’activité.
+Lors de l’utilisation de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;], [!DNL Target] affiche un badge en haut de la page de l’activité indiquant « Aucun gagnant pour le moment » jusqu’à ce que l’activité atteigne le nombre minimum de conversions avec un degré de confiance suffisant. [!DNL Target] déclare ensuite l’expérience gagnante en affichant un badge en haut de la page de l’activité.
 
 Pour plus d’informations, voir [&#x200B; Aperçu de l’affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe [!DNL Target] Calculateur de taille d’échantillon {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Si vous choisissez d’utiliser une activité de [!UICONTROL A/B Test] manuelle plutôt que [!UICONTROL Auto-Allocate], le Calculateur de taille d’échantillon [!DNL Target] vous aide à déterminer la taille d’échantillon nécessaire à la réussite du test. Un test A/B manuel est un test à horizon fixe, le calculateur est donc utile. L’utilisation du calculateur pour une activité [!UICONTROL Auto-Allocate] est facultative, car [!UICONTROL Auto-Allocate] déclare une activité gagnante pour vous. Le calculateur vous donne une estimation approximative de la taille de l’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
+Si vous choisissez d’utiliser une activité manuelle [!UICONTROL Test A/B] plutôt que [!UICONTROL Affectation automatique], le Calculateur de taille d’échantillon [!DNL Target] vous aide à déterminer la taille d’échantillon nécessaire à la réussite du test. Un test A/B manuel est un test à horizon fixe, le calculateur est donc utile. L’utilisation du calculateur pour une activité [!UICONTROL Affectation automatique] est facultative, car [!UICONTROL Affectation automatique] déclare une activité gagnante pour vous. Le calculateur vous donne une estimation approximative de la taille de l’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
 Avant de configurer votre test A/B, accédez au [!DNL Adobe Target] [Calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr).
 
@@ -154,7 +154,7 @@ A nouveau, il est recommandé que la durée requise soit systématiquement arron
 
 Lorsque vous utilisez le chiffre d’affaires par visite (RPV) comme mesure, une source supplémentaire d’écart est ajoutée, car RPV est le produit du chiffre d’affaires par commande et du taux de conversion (RPV = Chiffre d’affaires / #visitors = (Chiffre d’affaires par commande &#42; #orders) / # visiteurs = Chiffre d’affaires par commande &#42; (#visitors &#42; CTR) / #visitors = Chiffre d’affaires par commande &#42; CTR), chacun avec son propre écart. La variance du taux de conversion peut être estimée directement à l&#39;aide d&#39;un modèle mathématique, mais la variance des revenus par commande est spécifique à l&#39;activité. Par conséquent, utilisez la connaissance de cet écart des activités passées ou exécutez le test A/B pendant quelques jours pour estimer l&#39;écart des revenus. L’écart est calculé à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs figurant dans le fichier de téléchargement CSV. Une fois ceci établi, utilisez la feuille de calcul pour calculer le temps nécessaire pour terminer le test.
 
-Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez la calculatrice, un onglet intitulé [!UICONTROL RPV Metric] s’affiche. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
+Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet intitulé [!UICONTROL Mesure RPV] s’affiche. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
 
 * Nombre de visiteurs de l’offre de contrôle
 * Recettes totales pour l’offre de contrôle
@@ -173,6 +173,6 @@ Chaque fois que vous comparez deux offres, la probabilité d’obtenir un faux p
 
 ## Conclusion {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-En utilisant une activité [!UICONTROL Auto-Allocate], [!DNL Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre. [!UICONTROL Auto-Allocate] facilite la réalisation de vos objectifs de conversion tout en supprimant les suppositions.
+En utilisant une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;], [!DNL Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre. L’[!UICONTROL affectation automatique] facilite l’atteinte de vos objectifs de conversion tout en supprimant le travail d’estimation.
 
 En utilisant le calculateur de taille d’échantillon (lien fourni ci-dessus) introduit dans cet article et en permettant au test de s’exécuter pendant la durée suggérée par celui-ci, vous pouvez vous assurer que vous effectuez toujours des tests A/B de haute qualité qui respectent les taux de faux positifs et de faux négatifs que vous avez déterminés comme adéquats pour le test spécifique. Vous garantissez ainsi que vos tests sont cohérents et en mesure de détecter de manière fiable l’effet élévateur que vous recherchez.

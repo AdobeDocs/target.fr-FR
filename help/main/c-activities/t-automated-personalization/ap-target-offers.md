@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;offres;cible;audience;règles de ciblage;ciblage
-description: Découvrez comment cibler des offres individuelles sur des audiences spécifiques à l’aide d’activités [!UICONTROL Automated Personalization] (AP).
-title: Comment Cibler [!UICONTROL Automated Personalization] Offres ?
+description: Découvrez comment cibler des offres individuelles sur des audiences spécifiques à l’aide d’activités  (AP).
+title: Comment Cibler Les Offres  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -17,16 +17,16 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 19%
+source-wordcount: 409
+ht-degree: 18%
 
 ---
 
-# Offres Target [!UICONTROL Automated Personalization]
+# Cibler [!UICONTROL les offres &#x200B;]
 
 Dans une activité [!DNL Adobe Target] [!DNL Automated Personalization] (AP), vous pouvez cibler des offres vers des audiences spécifiques.
 
-Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons l’exemple d’une activité [!UICONTROL Automated Personalization] comportant trois offres. L’offre 1 comporte une règle de ciblage qui limite son exposition à l’audience A. Deux visiteurs ont vu cette activité.
+Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons l’exemple d’une activité  qui comporte trois offres. L’offre 1 comporte une règle de ciblage qui limite son exposition à l’audience A. Deux visiteurs ont vu cette activité.
 
 | | Visiteur 1 | Visiteur 2 |
 |--- |--- |--- |
@@ -40,25 +40,25 @@ Dans ce scénario, le visiteur 1 voit l’offre 1 (car ce visiteur se qualifie c
 ## Paramétrage des règles de ciblage
 
 1. Créez ou modifiez une activité [&#128279;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenant les offres que vous souhaitez cibler.
-1. Après avoir configuré les offres de l’activité dans la [!UICONTROL Visual Experience Composer], cliquez sur l’icône **[!UICONTROL Manage Content]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
+1. Une fois les offres de l’activité configurées dans le [!UICONTROL compositeur d’expérience visuelle], cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
 
-   La boîte de dialogue [!UICONTROL Manage Content] s’affiche.
+   La boîte de dialogue [!UICONTROL Gérer le contenu] s’affiche.
 
-1. Cliquez sur l’onglet **[!UICONTROL Offers]** .
+1. Cliquez sur l’onglet **[!UICONTROL Offres]**.
 
 1. Sélectionnez les offres souhaitées, puis choisissez les audiences que vous souhaitez qualifier pour voir cette offre.
 
-   Pour configurer le ciblage d’une seule offre, cliquez sur l’icône Plus d’informations ( ![icône Plus d’informations](/help/main/assets/icons/MoreSmallList.svg) ) en regard de l’offre souhaitée, puis cliquez sur **[!UICONTROL Target Audience]** pour afficher la boîte de dialogue [!UICONTROL Add Audiences].
+   Pour configurer le ciblage d’une seule offre, cliquez sur l’icône Plus d’informations ( ![icône Plus d’informations](/help/main/assets/icons/MoreSmallList.svg) ) en regard de l’offre souhaitée, puis cliquez sur **[!UICONTROL Cibler l’audience]** pour afficher la boîte de dialogue [!UICONTROL Ajouter des audiences].
 
-   Pour configurer le ciblage de plusieurs offres, cochez les cases des offres souhaitées, puis cliquez sur le lien **[!UICONTROL Target Audience]** qui s’affiche en bas de la liste.
+   Pour configurer le ciblage de plusieurs offres, cochez les cases des offres souhaitées, puis cliquez sur le lien **[!UICONTROL Audience cible]** qui s’affiche en bas de la liste.
 
-1. Dans la boîte de dialogue [!UICONTROL Add Audiences], sélectionnez les audiences souhaitées pour les offres, puis cliquez sur **[!UICONTROL Assign Audience]** pour revenir à la boîte de dialogue [!UICONTROL Manage Content].
+1. Dans la boîte de dialogue [!UICONTROL Ajouter des audiences], sélectionnez les audiences souhaitées pour les offres, puis cliquez sur **[!UICONTROL Attribuer une audience]** pour revenir à la boîte de dialogue [!UICONTROL Gérer le contenu].
 
    >[!NOTE]
    >
    >Outre la sélection d’une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées à la demande plutôt que de créer une nouvelle audience. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 >[!NOTE]
 >

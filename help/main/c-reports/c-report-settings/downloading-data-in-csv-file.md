@@ -15,8 +15,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 653
-ht-degree: 34%
+source-wordcount: 737
+ht-degree: 35%
 
 ---
 
@@ -26,19 +26,19 @@ Téléchargez des données au format .csv pour les importer rapidement dans des 
 
 Pour télécharger les données dans un fichier CSV, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Activities]**, puis sélectionnez l’activité souhaitée dans la liste.
+1. Cliquez sur **[!UICONTROL Activités]**, puis sélectionnez l’activité souhaitée dans la liste.
 
-   Si vous avez de nombreuses activités, cliquez sur l’icône Filtrer ( ![icône Filtrer](/help/main/assets/icons/Filter.svg) ) pour filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] et [!UICONTROL Activity Source].
+   Si vous avez de nombreuses activités, cliquez sur l’icône Filtrer ( ![icône Filtrer](/help/main/assets/icons/Filter.svg) ) pour filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL Statut], [!UICONTROL Source de création de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesures] et [!UICONTROL Activity Source].
 
-1. Cliquez sur l’onglet **[!UICONTROL Reports]** .
-1. Cliquez sur l’icône **[!UICONTROL Download]** ( ![icône Télécharger](/help/main/assets/icons/Download.svg) ), puis sélectionnez un type de rapport à télécharger pour analyse dans Excel et d’autres outils.
+1. Cliquez sur l’onglet **[!UICONTROL Rapports]**.
+1. Cliquez sur l’icône **[!UICONTROL Télécharger]** ( ![icône Télécharger](/help/main/assets/icons/Download.svg) ), puis sélectionnez un type de rapport à télécharger pour analyse dans Excel et d’autres outils.
 
-   * [!UICONTROL Export Reports to CSV]
-   * [!UICONTROL Export Order Details to CSV]
+   * [!UICONTROL Exporter les rapports au format CSV]
+   * [!UICONTROL Exportation des détails des commandes au format CSV]
 
-## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Exportation du rapport au format CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-Le rapport [!UICONTROL Success Metrics] vous présente des informations sur vos mesures de succès et sur les mesures suivantes, qui ne sont pas disponibles dans l’interface utilisateur de [!DNL Target] :
+Le rapport [!UICONTROL Mesures de succès] vous présente des informations sur vos mesures de succès et les mesures suivantes qui ne sont pas disponibles dans l’interface utilisateur de [!DNL Target] :
 
 * Temps moyen avant conversion en heures, afin que vous sachiez en combien de temps le visiteur moyen parvient au point de conversion.
 * Somme des recettes, quadratique, pour le calcul de fiabilité statistique hors ligne.
@@ -49,14 +49,14 @@ Les données sont enregistrées jusqu’au terme de l’activité.
 >
 >Le rapport CSV inclut uniquement des données brutes et n’inclut pas de mesures calculées telles que les recettes par visiteur, l’effet élévateur ou le degré de confiance utilisé pour les tests A/B. Pour calculer ces mesures calculées, téléchargez le fichier Excel [!DNL Target] [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) pour saisir la valeur de l’activité, ou consultez [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## [!UICONTROL Export Order Details to CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Exportation des détails des commandes au format CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Le rapport [!UICONTROL Order Details] affiche des informations sur vos commandes, notamment :
+L’état [!UICONTROL Détails de la commande] vous donne des informations sur vos commandes, notamment :
 
 * Date et heure de la commande
 * Montant de la commande (si vous avez inséré une mbox Passer une commande)
 
-  Le rapport [!UICONTROL Order Details] ne fonctionne que si vous avez des commandes.
+  L&#39;état [!UICONTROL Détails de la commande] ne fonctionne que si vous avez des commandes.
 
 * Indicateur de commande (commandes en double ou extrêmes)
 
@@ -68,29 +68,29 @@ Le rapport [!UICONTROL Order Details] affiche des informations sur vos commandes
 
 * Expérience
 
-  Dans le rapport [!UICONTROL Order Details] pour les activités [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT) et [!UICONTROL Multivariate Test] (MVT), la colonne [!UICONTROL Experience] contient les `localId` d’expérience. Il s’agit de la valeur de sortie de `$campaign.recipe.id` dans les jetons de l’offre.
+  Dans le rapport [!UICONTROL Détails de l’ordre] pour les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience] (XT) et [!UICONTROL Test multivarié] (MVT), la colonne [!UICONTROL Expérience] contient le `localId` d’expérience. Il s’agit de la valeur de sortie de `$campaign.recipe.id` dans les jetons de l’offre.
 
-  Il n’existe pas de colonne [!UICONTROL Experience] pour les activités [!UICONTROL Automated Personalization] (AP). La colonne [!UICONTROL Algorithm Name] actuelle a été remplacée par la terminologie « Contrôle » ou « Ciblé », comme indiqué ailleurs dans [!DNL Target].
+  Il n’existe pas de colonne [!UICONTROL Expérience] pour les activités d’[!UICONTROL Automated Personalization]. La colonne actuelle [!UICONTROL Nom de l’algorithme] a été remplacée par la terminologie « Contrôle » ou « Ciblé », comme indiqué ailleurs dans [!DNL Target].
 
-  Il n’y a pas eu d’impact sur les activités [!UICONTROL Recommendations].
+  Cela n’a aucun impact sur les activités de [!UICONTROL Recommandations].
 
 >[!NOTE]
 >
 >* Le rapport de commande comprend quatre semaines de données pour l’environnement par défaut (groupe d’hôtes) et deux semaines de données pour tous les autres environnements qui ne sont pas des environnements par défaut.
->* Mesures de revenus définies sur « [!UICONTROL Increment count and keep the user in the activity] » détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas le chiffre d&#39;affaires au RPV/AOV/Ventes et ne sont pas incluses dans l&#39;état [!UICONTROL Order Details].
+>* Mesures de revenus définies sur « [!UICONTROL &#x200B; Incrémenter le comptage et maintenir l’utilisateur dans l’activité »] détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas le chiffre d&#39;affaires au RPV/AOV/Ventes et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 ## Bonnes pratiques
 
 * Pour enregistrer un enregistrement de commande, le paramètre `orderTotal` doit être transmis.
-* Les valeurs transmises par le biais du paramètre mbox `ProductPurchasedId` sont répertoriées dans le rapport [!UICONTROL Order Details].
+* Les valeurs transmises par le biais du paramètre mbox `ProductPurchasedId` sont répertoriées dans le rapport [!UICONTROL Détails de la commande].
 * Il est recommandé d’inclure un `orderID` et un `orderTotal`. Ainsi, les commandes en double seront automatiquement ignorées.
 
 ## Avertissements {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-Les informations suivantes s’appliquent à l’option [!UICONTROL Download] :
+Les informations suivantes s’appliquent à l’option [!UICONTROL Télécharger] :
 
-* Vous pouvez télécharger les deux rapports pour les activités [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], [!UICONTROL Experience Targeting] et [!UICONTROL Multivariate]. Vous ne pouvez pas télécharger le rapport [!UICONTROL Success Metrics] pour les activités [!UICONTROL Recommendations].
-* L’option [!UICONTROL Download] n’est pas disponible pour les activités [!UICONTROL A/B Test] et [!UICONTROL Experience Targeting] créées avant [!DNL Target] version 15.7.1 (juillet 2015).
+* Vous pouvez télécharger les deux rapports pour les activités [!UICONTROL &#x200B; Test A/B &#x200B;], [!UICONTROL Automated Personalization], [!UICONTROL Ciblage d’expérience] et [!UICONTROL Multivarié]. Vous ne pouvez pas télécharger le rapport [!UICONTROL &#x200B; Mesures de succès &#x200B;] pour les activités [!UICONTROL Recommendations].
+* L’option [!UICONTROL Télécharger] n’est pas disponible pour les activités [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] créées avant [!DNL Target] version 15.7.1 (juillet 2015).
 * Les expériences auxquelles aucune donnée n’est associée ne sont pas enregistrées dans le rapport téléchargé.
 * Les audiences appliquées dans l’interface utilisateur de création de rapports de [!DNL Target] ne sont pas transférées vers le rapport de téléchargement.
 * Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toutes les autres mesures utilisées. La source de vérité est toujours le rapport affiché dans l’interface utilisateur de [!DNL Target].

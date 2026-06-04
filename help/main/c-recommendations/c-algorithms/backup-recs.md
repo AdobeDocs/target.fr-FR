@@ -15,8 +15,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 69%
+source-wordcount: 533
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandatio
 
 >[!NOTE]
 >
->Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris un tableau qui explique les résultats que vous observerez lorsque vous utiliserez les options [!UICONTROL Partial Design Rendering] et [!UICONTROL Show Backup Recommendations] ensemble ou séparément.
+>Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation conjointe ou séparée des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Afficher les recommandations de sauvegarde].
 
 La fonction de recommandation de sauvegarde utilise toujours les éléments les plus consultés sur le site pour remplir les emplacements restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 

@@ -19,8 +19,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1455
-ht-degree: 51%
+source-wordcount: 1472
+ht-degree: 50%
 
 ---
 
@@ -49,10 +49,10 @@ Oui, A4T via Platform Web SDK prend en charge les [offres de redirection](/help/
 
 +++
 
-### Le [!UICONTROL Visual Experience Composer] (compositeur d’expérience visuelle) et le [!UICONTROL Form-Based Experience Composer] sont-ils pris en charge ?
+### Le [!UICONTROL compositeur d’expérience visuelle] (VEC) et le [!UICONTROL compositeur d’expérience d’après les formulaires] sont-ils pris en charge ?
 
 +++Réponse
-Oui, le [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et le [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md) sont pris en charge si vous utilisez des offres de redirection intégrées.
+Oui, le [[!UICONTROL compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et le [[!UICONTROL compositeur d’expérience d’après les formulaires]](/help/main/c-experiences/form-experience-composer.md) sont pris en charge si vous utilisez des offres de redirection intégrées.
 
 +++
 

@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1362'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Informations destinées à vous aider à minimiser les effets d’un nombre de v
 >* Adobe Analytics : appMeasurement.js version 2.1.
 >* Adobe Target : at.js version 0.9.6 ou ultérieure (à l’exception de la version 1.1.0 si vous utilisez les offres de redirection avec A4T).
 
-## Qu’est-ce qui a changé ?  {#section_9CCF45F5D66D48EBA88F3A178B27D986}
+## Qu’est-ce qui a changé ? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
 Lorsqu’[!DNL Adobe Analytics] est utilisé pour mesurer les activités [!DNL Target] (sous le nom A4T), [!DNL Analytics] collecte des données supplémentaires qui ne sont pas disponibles lorsqu’il n’y a pas d’activité [!DNL Target] sur la page. L’activité [!DNL Target] déclenche un appel en haut de la page, tandis qu’[!DNL Analytics] déclenche généralement ses appels de collecte de données au bas de la page. Dans l’implémentation d’A4T actuelle, Adobe a inclus ces données supplémentaires chaque fois qu’une activité [!DNL Target] était active. À l’avenir, Adobe incluera ces données supplémentaires uniquement en cas de déclenchement des balises [!DNL Target] et [!DNL Analytics].
 
@@ -34,7 +34,7 @@ Lorsqu’[!DNL Adobe Analytics] est utilisé pour mesurer les activités [!DNL T
 
 Adobe se targue de la précision et de la qualité des données. Lorsque la balise [!DNL Target] se déclenche, mais pas la balise [!DNL Analytics], Analytics enregistre « données partielles » (parfois appelées « accès désassemblés »). Sans activité [!DNL Target], ces accès désassemblés ne seraient pas capturés par [!DNL Analytics]. Si l’inclusion des données partielles dans les rapports [!DNL Analytics] fournit des informations supplémentaires, elle crée également des incohérences par rapport aux données historiques des périodes où aucune activité [!DNL Target] n’était active. Cette situation peut être source de problèmes pour les utilisateurs d’[!DNL Analytics] qui analysent les tendances qui se dégagent au fil du temps. Afin d’assurer la cohérence des données dans [!DNL Analytics], l’Adobe exclut toutes les données partielles.
 
-## Qu’est-ce qui contribue aux données partielles ?  {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
+## Qu’est-ce qui contribue aux données partielles ? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
 Adobe a rencontré des clients qui enregistraient des taux élevés de données partielles dans [!DNL Analytics]. Un taux élevé de données partielles peut résulter d’une implémentation incorrecte, mais il existe également des causes légitimes.
 
@@ -59,7 +59,7 @@ Pour réduire la collecte de données partielles, nous vous recommandons de pass
 
 ## Comment puis-je voir de combien de données partielles je dispose ? {#section_89B663E2824A4805AB934153508A0F4B}
 
-Ces informations ne sont pas directement disponibles dans [!DNL Analytics], mais vous pouvez contacter l’Assistance clientèle d’Adobe pour obtenir un rapport de données partielles. Ce rapport est destiné à faciliter le débogage.
+Ces informations ne sont pas directement disponibles dans [!DNL Analytics], mais vous pouvez contacter l’Assistance clientèle d’Adobe pour récupérer un rapport de données partielles. Ce rapport est destiné à faciliter le débogage.
 
 ## Comment puis-je afficher les tendances historiques sans les données partielles ? {#section_4C9DED560FAD4428B362DDA2064897C3}
 

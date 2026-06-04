@@ -16,16 +16,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 67%
+source-wordcount: 485
+ht-degree: 80%
 
 ---
 
 # Redirection vers une URL
 
-Utilisez l’option [!UICONTROL Redirect to URL] dans [!DNL Adobe Target] lorsque vous souhaitez envoyer le visiteur sur une autre page plutôt que d’afficher le contenu sur la même page.
+Utilisez l’option [!UICONTROL Rediriger vers l’URL] dans [!DNL Adobe Target] lorsque vous souhaitez envoyer le visiteur vers une autre page plutôt que d’afficher le contenu sur la même page.
 
-Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A à la page B. Configurez une campagne de test A/B avec deux expériences : l’une pointant vers la page A par défaut, et l’autre redirigeant vers la page B. Dans le menu Action d’expérience , situé en cliquant sur le libellé de lettre de l’expérience, choisissez **[!UICONTROL Redirect to URL]** et spécifiez l’URL de la page B. L’offre est configurée pour rediriger le visiteur vers une autre page.
+Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A et la page B. Configurez une campagne de test A/B avec deux expériences : une pointant vers la page par défaut A et l’autre effectuant une redirection vers la page B. Dans le menu Action d’expérience, localisé en cliquant sur l’étiquette de lettre de l’expérience, sélectionnez **[!UICONTROL Rediriger vers l’URL]** et indiquez l’URL de la page B. L’offre est configurée pour rediriger le visiteur vers une page différente.
 
 L’offre de redirection exécute un code JavaScript pour rediriger le navigateur. Il utilise la méthode `window.location.replace();`, de sorte que la page à partir de laquelle le visiteur est redirigé ne soit pas stockée dans l’historique du navigateur. Le visiteur peut ainsi toujours utiliser le bouton permettant de retourner à la page précédente dans le navigateur.
 
@@ -41,8 +41,8 @@ Les offres de redirection ont quelques limites :
 Pour créer une offre de redirection :
 
 1. Créez une expérience.
-1. Dans le cadre de [!UICONTROL Experiences], cliquez sur l’icône **[!UICONTROL More Actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) pour obtenir l’expérience souhaitée.
-1. Cliquez sur **[!UICONTROL Redirect to URL]**.
+1. Dans le cadre [!UICONTROL Expériences], cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) pour l’expérience souhaitée.
+1. Cliquez sur **[!UICONTROL Rediriger vers l’URL]**.
 1. Dans la boîte de dialogue Rediriger vers l’URL , saisissez l’URL.
 1. Si vous le souhaitez, sélectionnez l’option permettant d’inclure les paramètres de requête actuels.
 

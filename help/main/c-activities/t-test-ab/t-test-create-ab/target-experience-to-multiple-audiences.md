@@ -13,14 +13,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 602
+source-wordcount: 612
 ht-degree: 51%
 
 ---
 
 # Audiences d’expériences multiples dans un test A/B
 
-Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans des activités A/B [!DNL Adobe Target]. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL Visual Experience Composer] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
+Vous pouvez cibler des versions d’une même expérience sur différentes audiences dans des activités A/B [!DNL Adobe Target]. Vous pouvez configurer plusieurs audiences pour une expérience dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou dans le compositeur d’expérience d’après les formulaires.
 
 Les visiteurs peuvent basculer entre les audiences d’expérience à mesure que leur profil change. Les visiteurs ne sont pas bloqués dans la même expérience pendant toute la durée de vie de l’activité.
 
@@ -40,9 +40,9 @@ Dans ce cas, vous avez besoin de versions de l’expérience spécifiques à une
 
    Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
 
-1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**.
+1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audiences multiples]**.
 
-1. Cliquez sur l’icône **[!UICONTROL Add Audience]** ( ![icône Ajouter](/help/main/assets/icons/Add.svg) ) dans le volet [!UICONTROL Experience Audiences], puis sélectionnez la première audience à cibler. Reproduisez cette procédure pour chaque audience.
+1. Cliquez sur l’icône **[!UICONTROL Ajouter une audience]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) dans le volet [!UICONTROL Audiences d’expérience], puis sélectionnez la première audience que vous souhaitez cibler. Reproduisez cette procédure pour chaque audience.
 
    Si l’audience n’existe pas encore, cliquez sur [Créer une audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
 

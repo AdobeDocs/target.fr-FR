@@ -1,14 +1,14 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;statique;filtre statique
-description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques pour filtrer à l’aide des règles d’inclusion dans Adobe [!DNL Target] Recommendations.
+description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques pour filtrer à l’aide des règles d’inclusion dans  [!DNL Target] Recommendations.
 title: Comment Filtrer Par Valeurs Statiques Dans Les Activités Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 45%
+source-wordcount: '250'
+ht-degree: 42%
 
 ---
 

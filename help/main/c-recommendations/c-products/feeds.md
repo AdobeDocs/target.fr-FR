@@ -1,7 +1,7 @@
 ---
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format  [!DNL Google Product Search]  flux et  [!DNL Analytics]  classifications de produits.
-title: Comment utiliser [!UICONTROL Feeds] dans  [!DNL Target Recommendations] ?
+title: Comment utiliser [!UICONTROL Flux] dans  [!DNL Target Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -15,7 +15,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2643
+source-wordcount: 2725
 ht-degree: 36%
 
 ---
@@ -41,22 +41,22 @@ Ces éléments de données sur chaque élément peuvent ensuite être utilisés 
 
 Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si [!DNL Target] collecte des données à l’aide d’un flux d’entités et d’une mbox, les données les plus récentes l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
-La liste [!UICONTROL Feeds] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**) fournit des informations sur les flux que vous avez créés.
+La liste [!UICONTROL Flux] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
-La page [!UICONTROL Feeds] contient les colonnes suivantes :
+La page [!UICONTROL Flux] contient les colonnes suivantes :
 
 * **Nom** : nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec le nouveau nom, il est actualisé.
 * **État** : [état](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) actuel du flux.
 * **Type** : les types incluent [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) et [classifications Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
 * **Éléments** : affiche le nombre d’éléments dans le flux.
-* **Planning** : affiche le planning de mise à jour du flux : [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] ou [!UICONTROL Never].
+* **Planning** : affiche le planning de mise à jour du flux : [!UICONTROL Quotidien], [!UICONTROL Hebdomadaire], [!DNL Every 2 Weeks] ou [!UICONTROL Jamais].
 * **Dernière mise à jour** : affiche la date et l’heure de la dernière mise à jour du flux et le nom de la personne qui l’a mis à jour.
 
-Cliquez sur l’icône [!UICONTROL Customize Table] ( ![icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ) pour sélectionner ou désélectionner les colonnes à afficher.
+Cliquez sur l’icône [!UICONTROL Personnaliser le tableau] ( ![Icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ) pour sélectionner ou désélectionner les colonnes à afficher.
 
-Cliquez sur l’icône [!UICONTROL Information] ( ![icône Infos](/help/main/assets/icons/InfoOutline.svg) ) pour afficher une vignette indiquant la date du dernier chargement et l’URL du flux.
+Cliquez sur l’icône [!UICONTROL Informations] ( icône ![Informations](/help/main/assets/icons/InfoOutline.svg) ) pour afficher une vignette indiquant la date du dernier chargement et l’URL du flux.
 
-Cliquez sur l’icône [!UICONTROL More Actions] ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) pour accéder aux actions suivantes : [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] et [!UICONTROL Delete].
+Cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) pour accéder aux actions suivantes : [!UICONTROL Désactiver], [!DNL Edit], [!UICONTROL Copier] et [!UICONTROL Supprimer].
 
 >[!IMPORTANT]
 >
@@ -229,24 +229,24 @@ La classification de produit [!DNL Adobe Analytics] est la seule classification 
 > Tenez compte des restrictions suivantes :
 >
 >* Les mises à jour des attributs d’entité exigent un délai supplémentaire de 24 heures.
->* [!DNL Target] ne prend en charge que les [!UICONTROL Product Classifications]. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le `entity.id` [!DNL Recommendations]. Les classifications de [!DNL Analytics] personnalisées peuvent être conçues à l’aide de [!UICONTROL Adobe Consulting Services]. Contactez votre gestionnaire de compte pour toute question.
+>* [!DNL Target] prend uniquement en charge les [!UICONTROL classifications de produits]. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le `entity.id` [!DNL Recommendations]. Les classifications de [!DNL Analytics] personnalisées peuvent être conçues à l’aide de [!UICONTROL Adobe Consulting Services]. Contactez votre gestionnaire de compte pour toute question.
 
 ## Création d’un flux {#steps}
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]** > **[!UICONTROL Créer un flux]**.
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un **[!UICONTROL Source Type]**.
+1. Sélectionnez un type de Source **&#x200B;**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Google Product Feed]
-   * [!UICONTROL Analytics Classifications]
+   * [!UICONTROL Flux de produit &#x200B;]
+   * [!UICONTROL Classifications Analytics]
 
-   Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Google Product Feed], voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
+   Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Google Product Feed]**, indiquez l’emplacement où le flux est accessible.
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produit Google]**, indiquez l’emplacement où le flux est accessible.
 
    * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Vous pouvez utiliser le protocole FTP avec SSL (FTPS) pour des chargements plus sécurisés.
 
@@ -259,30 +259,30 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
    * **URL** : si vous sélectionnez [!UICONTROL URL], spécifiez l’URL.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Analytics Classifications]**, choisissez la suite de rapports dans la liste déroulante.
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Classifications Analytics]**, choisissez la suite de rapports dans la liste déroulante.
 
-1. Cliquez sur la flèche **[!UICONTROL Next]** pour afficher les options [!UICONTROL Schedule].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options [!UICONTROL Planifier].
 
 1. Choisissez une option de mise à jour :
 
-   * [!UICONTROL Daily]
-   * [!UICONTROL Weekly]
-   * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never] : ne planifiez pas de mise à jour. Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
+   * [!UICONTROL Quotidien]
+   * [!UICONTROL hebdomadaire]
+   * [!UICONTROL Toutes Les 2 Semaines]
+   * [!UICONTROL Jamais] : ne planifiez pas de mise à jour. Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
 
 1. Indiquez l’heure à laquelle vous souhaitez que votre flux s’exécute.
 
    Cette option se base sur le fuseau horaire utilisé par votre navigateur. Si vous voulez utiliser l’heure d’un fuseau horaire différent, vous devez calculer cette heure selon votre fuseau horaire.
 
-1. Cliquez sur la flèche **[!UICONTROL Next]** pour afficher les options de [!UICONTROL Mapping], puis indiquez comment vous souhaitez mapper vos données aux définitions de [!DNL Target].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options [!UICONTROL Mappage], puis spécifiez la manière dont vous souhaitez mapper vos données aux définitions de [!DNL Target].
 
 1. (Facultatif) Si vous souhaitez que les flux appartiennent à un environnement (un groupe d’hôtes), sélectionnez le groupe d’hôtes en question.
 
    Par défaut, le flux appartient à tous les groupes d’hôtes. Cela garantit que les éléments du flux sont disponibles dans tous les environnements. Pour plus d’informations, voir [Hôtes](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
-1. Cliquez sur **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement. Le flux est ensuite mis à jour en fonction des paramètres que vous avez définis. Il faut un certain temps pour que l&#39;information soit disponible. Le flux doit tout d’abord être synchronisé, puis traité et indexé pour pouvoir être publié et rendu disponible. Le statut actuel apparaît sous [Statut du flux](/help/main/c-recommendations/c-products/feeds.md#status) dans la liste des [!UICONTROL Feeds]. Vous pouvez fermer [!DNL Target] avant que le processus soit terminé et ce dernier se poursuit.
+Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement. Le flux est ensuite mis à jour en fonction des paramètres que vous avez définis. Il faut un certain temps pour que l&#39;information soit disponible. Le flux doit tout d’abord être synchronisé, puis traité et indexé pour pouvoir être publié et rendu disponible. Le statut actuel apparaît sous [Statut du flux](/help/main/c-recommendations/c-products/feeds.md#status) dans la liste [!UICONTROL Flux]. Vous pouvez fermer [!DNL Target] avant que le processus soit terminé et ce dernier se poursuit.
 
 Lorsque l’indexation est en cours, les produits et les en-têtes du flux apparaissent avant que les valeurs individuelles aient été indexées. Vous pouvez ainsi rechercher et afficher des produits afin de créer des collections, des exclusions, des conceptions et des activités avant la fin de l’indexation.
 
@@ -298,19 +298,19 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL Syncing] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
-| [!UICONTROL Sync Failed] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
-| [!UICONTROL No Feed Run] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
+| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
+| [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] se prépare à télécharger le fichier de flux. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target] télécharge le fichier de flux. |
-| [!UICONTROL Importing Items] | [!DNL Target] importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à l’*heure* | [!DNL Target] a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations diffusées. Si les modifications attendues ne s’affichent pas, réessayez et actualisez la page contenant les recommandations.<br>Notes :<ul><li>Si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément vient d’être ajouté ou si des modifications sont apportées à des attributs, un élément n’est *plus* exclu des recommandations. Il n’est reflété que lors de la prochaine mise à jour de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque ce statut s’affiche, les mises à jour peuvent ne pas encore être reflétées dans l’interface utilisateur de [!UICONTROL Catalog Search]. Un statut distinct est répertorié dans [!UICONTROL Catalog Search] indiquant la dernière fois que le catalogue consultable a été mis à jour.</li></ul> |
+| [!UICONTROL En attente de téléchargement] | [!DNL Target] se prépare à télécharger le fichier de flux. |
+| [!UICONTROL Téléchargement du fichier de flux] | [!DNL Target] télécharge le fichier de flux. |
+| [!UICONTROL Importation d’éléments] | [!DNL Target] importe des éléments à partir du fichier de flux. |
+| Flux importé avec succès à l’*heure* | [!DNL Target] a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations diffusées. Si les modifications attendues ne s’affichent pas, réessayez et actualisez la page contenant les recommandations.<br>Notes :<ul><li>Si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément vient d’être ajouté ou si des modifications sont apportées à des attributs, un élément n’est *plus* exclu des recommandations. Il n’est reflété que lors de la prochaine mise à jour de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque ce statut s’affiche, les mises à jour peuvent ne pas encore être reflétées dans l’interface utilisateur de la [!UICONTROL Recherche catalogue]. Un statut distinct est répertorié dans [!UICONTROL Recherche catalogue] indiquant la dernière fois que le catalogue consultable a été mis à jour.</li></ul> |
 | Échec de l’importation partielle | Auparavant, lorsque toutes les lignes n’étaient pas chargées, le flux était toujours marqué comme réussi. Cela crée une fausse impression que toutes les lignes ont été chargées lorsque le flux s’affiche avec succès.<P>Voici un scénario expliquant pourquoi vous pouvez rencontrer une importation de flux partielle :<ul><li>Vous avez chargé un fichier de flux pour l’environnement de production, par exemple 100 lignes.</li><li>Le flux a exécuté et chargé 80 de ces lignes et en a ignoré 20 en raison d’une mise en forme incorrecte, d’un champ contenant plus de caractères, etc.</li><li>Le flux a été marqué comme réussi dans l’interface utilisateur, ce qui vous donne l’impression que les 100 lignes ont toutes été chargées.</li><li>Vous attendez certains de ces 20 produits dans la livraison d&#39;une activité, mais ce n&#39;est pas le cas.</li><li> Vous êtes perplexe à ce stade, car vous avez chargé le flux qui contient les détails du produit en question. Vous ne le voyez pas sur le serveur principal lorsque vous effectuez une requête via l’API d’entité, qui vous indique qu’il ne se trouve pas sur le serveur principal.</li></ul>Pour supprimer cette confusion, le message est amélioré pour indiquer exactement ce qui s’est passé avec le flux. Au lieu de le marquer comme une réussite, il est maintenant marqué comme un échec d’importation partiel. |
-| [!UICONTROL Failed to Index] | L’opération d’index a échoué. Essayez à nouveau. |
-| [!UICONTROL Server Not Found] | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
+| [!UICONTROL Échec de l’indexation] | L’opération d’index a échoué. Essayez à nouveau. |
+| [!UICONTROL Serveur Introuvable] | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
-Pour mettre à jour un flux (par exemple, pour apporter des modifications à votre configuration de flux ou fichier de flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Save]**.
+Pour mettre à jour un flux (par exemple, pour apporter des modifications à la configuration ou au fichier du flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!IMPORTANT]
 >
@@ -318,7 +318,7 @@ Pour mettre à jour un flux (par exemple, pour apporter des modifications à vot
 
 ### Indicateurs de l’état du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-Les indicateurs de statut des flux suivants s’affichent dans la colonne [!UICONTROL Status] :
+Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UICONTROL État] :
 
 | Indicateur d’état | Description |
 |--- |--- |

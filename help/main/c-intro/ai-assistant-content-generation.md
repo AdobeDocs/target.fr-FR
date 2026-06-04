@@ -16,7 +16,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: 825
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Stimulez l’engagement et les conversions en [!DNL Adobe Target] avec [!DNL AI 
 
 Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
-1. Dans [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), cliquez sur l’icône **[!UICONTROL Show Content Assistant]** ( ![Afficher l’icône de l’assistant de contenu](/help/main/assets/icons/MagicWand.svg) ) dans le rail droit de l’interface utilisateur du VEC.
+1. Dans [[!DNL Target] [!UICONTROL Compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) (VEC), cliquez sur l’icône **[!UICONTROL Afficher l’assistant de contenu]** ( ![Afficher l’icône de l’assistant de contenu](/help/main/assets/icons/MagicWand.svg) ) dans le rail droit de l’interface utilisateur du VEC.
 
    ![Icône Afficher l’assistant de contenu](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
@@ -48,17 +48,17 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
 1. (Facultatif) Cliquez sur l’**icône Plein écran** ( ![icône Plein écran](/help/main/assets/icons/FullScreen.svg) ) pour développer l’[!DNL AI Assistant].
 
-1. Dans la zone de **[!UICONTROL Prompt]**, décrivez le texte que vous souhaitez générer.
+1. Dans la zone **[!UICONTROL Invite]**, décrivez le texte que vous souhaitez générer.
 
    Par exemple, pour une vente de vacances saisonnières, vous pouvez saisir « Rédiger un texte héroïque attrayant faisant la publicité d’une vente de vacances d’été à durée limitée ».
 
    Consultez [Exemples de variations](#variations) ci-dessous pour découvrir comment [!DNL AI Assistant] transforme une simple invite en une copie publicitaire plus longue et captivante pour une aventure à New York passionnante.
 
-1. Cliquez sur l’icône **[!UICONTROL Text Settings]** pour spécifier le ton et la stratégie de communication de votre texte.
+1. Cliquez sur l’icône **[!UICONTROL Paramètres de texte]** pour spécifier le ton et la stratégie de communication de votre texte.
 
    * **Stratégie de communication** : choisissez le style de communication le plus adapté à votre texte généré.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO] (peur de manquer), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] et [!UICONTROL Education & Insights].
+     Les options sont les suivantes : [!UICONTROL Aucune], [!UICONTROL Urgente], [!UICONTROL FOMO] (peur de manquer), [!UICONTROL Preuve sociale], [!UICONTROL Rareté], [!UICONTROL Incentive], [!UICONTROL Exclusivité], [!UICONTROL Informative] et [!UICONTROL Education &amp; Insights] .
 
    * **Langues** : sélectionnez la langue souhaitée pour votre texte.
 
@@ -66,29 +66,29 @@ Pour générer du texte attrayant à l’aide de [!DNL AI Assistant] :
 
    * **Ton** : le ton de votre texte doit résonner auprès de votre audience. Que vous souhaitiez donner une impression informative, passionnante, ludique ou persuasive, [!DNL AI Assistant] pouvez adapter le message en conséquence.
 
-     Les options incluent : [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive] et [!UICONTROL &#x200B; Story Telling] [!UICONTROL Conversational].
+     Les options sont les suivantes : [!UICONTROL Aucune], [!UICONTROL Professionnel], [!UICONTROL Empathique], [!UICONTROL Humoristique], [!UICONTROL Excitante], [!UICONTROL Inspirationnelle], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] et [!UICONTROL Conversational] .
 
 1. Utilisez le curseur pour sélectionner la durée pendant laquelle vous souhaitez que le texte soit long, de plus court à plus long.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Brand Assets]** pour charger ou activer des ressources de marque pour obtenir un contexte de contenu supplémentaire pendant la génération.
+1. (Facultatif) Cliquez sur **[!UICONTROL Brand Assets]** pour charger ou activer des ressources de marque pour un contexte de contenu supplémentaire pendant la génération.
 
-1. Cliquez sur **[!UICONTROL Generate]** pour créer une liste de variations de texte.
+1. Cliquez sur **[!UICONTROL Générer]** pour créer une liste de variations de texte.
 
    ![Variantes de texte de l’assistant AI](/help/main/c-intro/assets/ai-variations-text.png)
 
-1. Cliquez sur **[!UICONTROL Apply]** pour sélectionner la variation de texte souhaitée.
+1. Cliquez sur **[!UICONTROL Appliquer]** pour sélectionner la variation de texte souhaitée.
 
-   Vous pouvez également cliquer sur **[!UICONTROL Preview]** pour afficher différentes variations. Cliquez sur la variation souhaitée, puis sur **[!UICONTROL Select]**.
+   Vous pouvez également cliquer sur **[!UICONTROL Aperçu]** pour afficher différentes variations. Cliquez sur la variation souhaitée, puis sur **[!UICONTROL Sélectionner]**.
 
    ![Assistant AI avec texte généré](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (Conditionnel) Cliquez sur l’icône [!UICONTROL Undo] ( ![Icône Annuler](/help/main/assets/icons/Undo.svg) ) pour inverser les modifications.
+1. (Conditionnel) Cliquez sur l’icône [!UICONTROL Annuler] ( ![Icône Annuler](/help/main/assets/icons/Undo.svg) ) pour inverser les modifications.
 
 1. (Facultatif) Faites part de vos commentaires au [!DNL AI Assistant].
 
    * Cliquez sur l’icône Pouces vers le haut ( ![Pouces vers le haut](/help/main/assets/icons/ThumbUp.svg) ) pour [!DNL AI Assistant] indiquer que vous aimez la variation.
    * Cliquez sur l’icône Thumbs down ( ![icône Thumbs down](/help/main/assets/icons/ThumbDown.svg) ) pour [!DNL AI Assistant] indiquer que vous n’aimez pas la variation.
-   * Cliquez sur l’icône [!UICONTROL Report Results] ( ![icône de rapport de résultats](/help/main/assets/icons/Flag.svg) ) pour signaler un problème au [!DNL AI Assistant].
+   * Cliquez sur l’icône [!UICONTROL Résultats du rapport] ( ![Icône de résultats du rapport](/help/main/assets/icons/Flag.svg) ) pour signaler un problème au [!DNL AI Assistant].
 
 ## Exemples de variations {#variations}
 
@@ -96,12 +96,12 @@ Changer le texte du héros n&#39;est que le début. Avec [!DNL AI Assistant] dan
 
 L’invite et les variations suivantes montrent la puissance de [!DNL AI Assistant].
 
-**[!UICONTROL Prompt]** : Rédigez une annonce attrayante pour un voyage de trois jours à New York pour visiter les meilleures destinations.
-**[!UICONTROL Text Settings]** : FOMO, anglais, persuasif, longueur du Medium.
+**[!UICONTROL Invite]** : Rédigez une annonce attrayante pour un voyage de trois jours à New York pour visiter les principales destinations.
+**[!UICONTROL Paramètres de texte]** : FOMO, anglais, persuasif, longueur du Medium.
 * **[!UICONTROL Variation 1]** : Découvrez la magie de New York avec notre voyage exclusif de trois jours ! Plongez dans des sites emblématiques tels que Times Square, Central Park et la Statue de la Liberté. Rejoignez d&#39;innombrables autres personnes qui ont déjà expérimenté le frisson et la beauté de la ville qui ne dort jamais. Ne manquez pas les souvenirs inoubliables. Réservez votre aventure dès aujourd&#39;hui et faites partie de l&#39;excitation ! Places limitées disponibles !
 * **[!UICONTROL Variation 2]** : Découvrez la magie de New York avec notre escapade exclusive de trois jours ! Visitez des sites emblématiques comme Times Square et Central Park et plongez-vous dans des restaurants et des divertissements de classe mondiale. Ne manquez pas cette aventure inoubliable. Les places sont limitées, et tout le monde est ravi de vivre des expériences incroyables. Réservez dès maintenant et faites partie de l&#39;excitation qui séduit les voyageurs du monde entier !
 * **[!UICONTROL Variation 3]** : Embarquez pour une escapade passionnante de trois jours à New York, où des monuments emblématiques vous attendent ! Découvrez l&#39;ambiance électrique de Times Square, savourez les délices culinaires de Manhattan et capturez des vues à couper le souffle depuis l&#39;Empire State Building. Agissez maintenant et rejoignez les innombrables aventuriers qui vivent leur rêve. Ne manquez pas de créer des souvenirs inoubliables dans la ville qui ne dort jamais. Places limitées disponibles. Réservez votre aventure dès aujourd’hui !
-* **[!UICONTROL Variation 4]** : Réservez votre aventure de trois jours à New York et vivez la magie de la ville comme jamais auparavant ! Des sites emblématiques aux joyaux cachés, chaque coin du Big Apple recèle quelque chose d&#39;passionnant. Ne manquez pas les moments inoubliables que d&#39;autres aiment déjà. Fais partie du buzz. Gardez votre place dès aujourd&#39;hui et créez des souvenirs qui dureront toute une vie. Dépêchez-vous, les places se remplissent rapidement !
+* **[!UICONTROL Variation 4]** : Réservez dès maintenant votre aventure de trois jours à New York et vivez la magie de la ville comme jamais auparavant ! Des sites emblématiques aux joyaux cachés, chaque coin du Big Apple recèle quelque chose d&#39;passionnant. Ne manquez pas les moments inoubliables que d&#39;autres aiment déjà. Fais partie du buzz. Gardez votre place dès aujourd&#39;hui et créez des souvenirs qui dureront toute une vie. Dépêchez-vous, les places se remplissent rapidement !
 
 ## Vidéos de formation
 

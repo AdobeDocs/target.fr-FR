@@ -21,15 +21,15 @@ Les indicateurs dans Adobe Target permettent aux équipes produit d’expédier 
 
 ## Ce que vous pouvez faire
 
-**Contrôlez qui voit les nouvelles fonctionnalités.** Target est disponible pour des utilisateurs, des organisations, des régions ou des attributs personnalisés spécifiques. Commencez par un petit groupe, validez l’expérience, puis développez - le tout à partir de la console, sans modification de code.
+**Contrôlez qui voit les nouvelles fonctionnalités.** Target est destiné à des utilisateurs, des organisations, des régions ou des attributs personnalisés spécifiques. Commencez par un petit groupe, validez l’expérience, puis développez - le tout à partir de la console, sans modification de code.
 
-**Exécutez des expériences A/B.** Diffusez différentes variantes à différents segments de votre audience et mesurez celui qui fonctionne le mieux. Utilisez les résultats pour prendre des décisions éclairées sur les produits avant une mise à jour complète.
+**Exécuter des expériences A/B.** Proposez différentes variantes à différents segments de votre audience et mesurez celui qui fonctionne le mieux. Utilisez les résultats pour prendre des décisions éclairées sur les produits avant une mise à jour complète.
 
-**Réduisez les risques de publication.** Diviser les modifications importantes en déploiements contrôlés plus petits. Si un bogue ou un problème de performances apparaît, désactivez uniquement la fonctionnalité concernée ; le reste de votre application reste stable.
+**Réduction des risques de publication.** Divisez les modifications importantes en déploiements contrôlés plus petits. Si un bogue ou un problème de performances apparaît, désactivez uniquement la fonctionnalité concernée ; le reste de votre application reste stable.
 
-**Coordination entre les applications.** groupes de fonctionnalités vous permettent de gérer plusieurs indicateurs de fonctionnalité ensemble, partageant une audience de déploiement commune entre les applications.
+**Coordination entre les applications.** Les groupes de fonctionnalités vous permettent de gérer plusieurs indicateurs de fonctionnalité ensemble, partageant une audience de déploiement commune entre les applications.
 
-**Exportez vos données.** Exportez les données des indicateurs vers l’environnement de création de rapports de votre choix pour l’analyse et la mesure avec vos autres données Adobe.
+**Exporter vos données.** Exportez les données des indicateurs vers l’environnement de création de rapports de votre choix pour l’analyse et la mesure avec vos autres données Adobe.
 
 ## Intégrer votre premier indicateur
 

@@ -14,8 +14,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 183
-ht-degree: 32%
+source-wordcount: 206
+ht-degree: 33%
 
 ---
 
@@ -23,24 +23,24 @@ ht-degree: 32%
 
 Utilisez des [!DNL Adobe Target] pour cibler les utilisateurs en fonction de règles de ciblage préconfigurées.
 
-Les audiences préconfigurées de la catégorie [!UICONTROL Target Library] sont des audiences héritées et existent dans d’autres catégories. Pour plus d’informations et de bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Les audiences préconfigurées de la catégorie [!UICONTROL Bibliothèque cible] sont des audiences héritées et existent dans d’autres catégories. Pour plus d’informations et de bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser et déposez **[!UICONTROL Target Library]** dans le volet du Créateur d’audiences.
+1. Effectuez un glisser-déposer de la bibliothèque **[!UICONTROL Target]** dans le volet du créateur d’audiences.
 
    ![Bibliothèque Target](assets/target_library.png)
 
-1. Cliquez sur **[!UICONTROL Select]**, puis sélectionnez une règle de ciblage préconfigurée.
+1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez une règle de ciblage préconfigurée.
 
-   Les règles de ciblage préconfigurées incluent [!UICONTROL Windows Operating System], [!UICONTROL Tablet Device], [!UICONTROL Safari Browser], [!UICONTROL Returning Visitors], [!UICONTROL Referred from Google], etc.
+   Les règles de ciblage préconfigurées incluent [!UICONTROL Système d’exploitation Windows], [!UICONTROL Tablette], [!UICONTROL Navigateur Safari], [!UICONTROL Visiteurs récurrents], [!UICONTROL Référencé depuis Google], etc.
 
-   L’audience prédéfinie « [!UICONTROL Tablet Device] » est déjà qualifiée lorsque l’agent utilisateur contient l’une des chaînes suivantes (dont certaines sont des numéros de modèle d’appareils). Vous ne devez pas créer de règles de ciblage personnalisées pour ces appareils.
+   L’audience prédéfinie « [!UICONTROL Tablet Device] » se qualifie déjà lorsque l’agent utilisateur contient l’une des chaînes suivantes (dont certaines sont des numéros de modèle d’appareils). Vous ne devez pas créer de règles de ciblage personnalisées pour ces appareils.
 
    Kindle, Silk, iPad, Tablette Sony, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 et Tablet PC.
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 ## Vidéo de formation : Création d’audiences
 

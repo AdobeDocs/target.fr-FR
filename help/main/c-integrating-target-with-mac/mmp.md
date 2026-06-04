@@ -24,7 +24,7 @@ ht-degree: 13%
 
 [!DNL Adobe Experience Cloud audiences] permettent aux applications [!DNL Experience Cloud] de communiquer et de partager des informations sur les visiteurs du site web, afin que les mêmes données puissent être utilisées par chaque application.
 
-Découvrez les [audiences &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) (bibliothèque d’audiences) dans le *Guide d’interface et d’administration d’Experience Cloud*.
+Apprenez-en plus sur les [&#x200B; audiences Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) (bibliothèque d’audiences) dans le *Guide d’interface et d’administration Experience Cloud*.
 
 ## Vidéo : Intégrer [!DNL Target] à [!DNL Experience Cloud Audiences] (10:48)
 

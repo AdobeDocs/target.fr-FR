@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 497
-ht-degree: 40%
+source-wordcount: 507
+ht-degree: 39%
 
 ---
 
@@ -26,20 +26,20 @@ Pour plus d’informations, voir [&#x200B; Transmettre des paramètres à une mb
 
 Lors de la création d’une audience personnalisée basée sur un paramètre mbox, `mboxParameter` ne vous demande plus le `mboxName`. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Glissez-déposez **[!UICONTROL Custom]** dans le Créateur d’audience.
+1. Effectuez un glisser-déposer **[!UICONTROL Personnalisé]** dans le Créateur d’audience.
 
    Pour sélectionner le paramètre désiré :
 
    * Lors de la création d’une audience, sélectionnez un nom de paramètre dans la liste, commencez à saisir les premiers caractères du nom de paramètre souhaité ou saisissez-en le nom complet.
-   * Si vous vous souvenez du nom de la mbox, mais pas du nom du paramètre, utilisez la liste déroulante [!UICONTROL Filter by] pour filtrer une mbox connue en transmettant le paramètre souhaité.
+   * Si vous vous souvenez du nom de la mbox, mais pas du nom du paramètre, utilisez la liste déroulante [!UICONTROL Filtrer par] pour filtrer par mbox connue transmettant le paramètre souhaité.
 
    Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le paramètre. L’audience fonctionne en fonction du paramètre sur toutes les mbox qui transmettent ce paramètre.
 
    >[!NOTE]
    >
-   >La mbox que vous sélectionnez dans la liste déroulante [!UICONTROL Filter By] n’est pas enregistrée lors de la création de l’activité. Cette option permet de filtrer les paramètres en fonction de la mbox sélectionnée.
+   >La mbox sélectionnée dans la liste déroulante [!UICONTROL Filtrer par] n’est pas enregistrée lors de la création de l’activité. Cette option permet de filtrer les paramètres en fonction de la mbox sélectionnée.
 
    Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
 
@@ -65,9 +65,9 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
 1. Entrez chaque valeur sur une nouvelle ligne.
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
-La vignette pop-up [définition des détails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de l’audience affiche le nom du paramètre dans la section **[!UICONTROL Rules]**. Il n’y a aucune référence à la mbox utilisée pour le filtrage.
+La vignette pop-up [définition des détails](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) de l’audience affiche le nom du paramètre dans la section **[!UICONTROL Règles]**. Il n’y a aucune référence à la mbox utilisée pour le filtrage.
 
 >[!NOTE]
 >

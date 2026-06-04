@@ -13,8 +13,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 240
-ht-degree: 53%
+source-wordcount: 267
+ht-degree: 51%
 
 ---
 
@@ -26,27 +26,27 @@ Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherch
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. &#x200B;
    1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser et déposez **[!UICONTROL Traffic Sources]** dans le volet du Créateur d’audiences.
+1. Faites glisser et déposez **[!UICONTROL Sources de trafic]** dans le volet du créateur d’audiences.
 
    ![image target_traffic_source](assets/target_traffic_source.png)
 
-1. Cliquez sur **[!UICONTROL Select]**, puis sélectionnez l’une des options suivantes :
+1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-   * **[!UICONTROL From Baidu]**
-   * **[!UICONTROL From Bing]**
-   * **[!UICONTROL From Google]**
-   * **[!UICONTROL From Yahoo]**
-   * **[!UICONTROL Referring Landing Page: URL]**
-   * **[!UICONTROL Referring Landing Page: Domain]**
-   * **[!UICONTROL Referring Landing Page: Query]**
+   * **[!UICONTROL De Baidu]**
+   * **[!UICONTROL De Bing]**
+   * **[!UICONTROL Depuis Google]**
+   * **[!UICONTROL De Yahoo]**
+   * **[!UICONTROL Page de destination de référence : URL]**
+   * **[!UICONTROL Page De Destination De Référence : Domaine]**
+   * **[!UICONTROL Page de destination de référence : requête]**
 
    Selon votre sélection, vous devrez peut-être fournir des informations supplémentaires (évaluateur et/ou valeurs).
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page de destination spécifique.
 

@@ -17,7 +17,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 795
 ht-degree: 22%
 
 ---
@@ -28,7 +28,7 @@ Configurez les paramètres généraux à utiliser dans les rapports [!DNL Adobe 
 
 {{permissions-update}}
 
-Pour accéder à la page de configuration des [!UICONTROL Reporting], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
+Pour accéder à la page de configuration [!UICONTROL Reporting], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 Vous pouvez définir les paramètres suivants sur cette page :
 
@@ -53,26 +53,26 @@ Sélectionnez la source de création de rapports pour vos activités, [!DNL Targ
 
 Tenez compte des informations suivantes pour le choix de votre source de création de rapports :
 
-* **[!DNL Adobe Target]** : si la source de création de rapports est définie sur **[!DNL Target]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Analytics] ou [!DNL Customer Journey Analytics] comme source de création de rapports. Vous devez remplacer la source de création de rapports par **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Analytics]** : si la source de création de rapports est définie sur **[!DNL Analytics]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Target] ou [!DNL Customer Journey Analytics] comme source de création de rapports. Vous devez remplacer la source de création de rapports par **[!UICONTROL Select per activity]**.
-* **[!DNL Adobe Customer Journey Analytics]** : si la source de création de rapports est définie sur **[!DNL Customer Journey Analytics]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Target] ou [!DNL Analytics] comme source de création de rapports. Vous devez remplacer la source de création de rapports par **[!UICONTROL Select per activity]**.
-* **Sélectionner par activité** : si la source de création de rapports est définie pour **[!UICONTROL Select per activity]** ici, vous pouvez créer et activer des activités prises en charge par la source de création de rapports sélectionnée.
+* **[!DNL Adobe Target]** : si la source de création de rapports est définie sur **[!DNL Target]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Analytics] ou [!DNL Customer Journey Analytics] comme source de création de rapports. Vous devez modifier la source de création de rapports en **[!UICONTROL Sélectionner par activité]**.
+* **[!DNL Adobe Analytics]** : si la source de création de rapports est définie sur **[!DNL Analytics]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Target] ou [!DNL Customer Journey Analytics] comme source de création de rapports. Vous devez modifier la source de création de rapports en **[!UICONTROL Sélectionner par activité]**.
+* **[!DNL Adobe Customer Journey Analytics]** : si la source de création de rapports est définie sur **[!DNL Customer Journey Analytics]** ici, vous n’êtes pas autorisé à créer ou activer une activité qui utilise [!DNL Target] ou [!DNL Analytics] comme source de création de rapports. Vous devez modifier la source de création de rapports en **[!UICONTROL Sélectionner par activité]**.
+* **Sélectionner par activité** : si la source de rapports est définie sur **[!UICONTROL Sélectionner par activité]** ici, vous pouvez créer et activer des activités prises en charge par la source de rapports sélectionnée.
 
 Lorsque vous déterminez votre source de création de rapports, tenez compte des informations suivantes :
 
 * **[!DNL Analytics]** : pour obtenir une matrice des activités prises en charge à l’aide de [!DNL Analytics] comme source de création de rapports (A4T), voir [Types d’activités pris en charge](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) dans *Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)*.
 
-  La création et l’activation d’activités [!UICONTROL Automated Personalization] (AP) sont autorisées, quelle que soit la source de création de rapports sélectionnée. Les activités [!UICONTROL Automated Personalization] ne sont pas prises en charge lorsque vous choisissez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+  La création et l’activation d’activités  (AP) sont autorisées, quelle que soit la source de création de rapports sélectionnée. Les activités  ne sont pas prises en charge lorsque vous choisissez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
   Même si vous spécifiez [!DNL Analytics] comme source de création de rapports, [!DNL Target] est utilisé comme source de création de rapports pour les activités [!DNL Automated Personalization].
 
 * **[!DNL Customer Journey Analytics]** : pour obtenir une matrice des activités prises en charge à l’aide des rapports [!DNL Target] dans [!DNL Customer Journey Analytics], consultez [Types d’activité pris en charge](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) dans les rapports *[!DNL Target]dans[!DNL Adobe Customer Journey Analytics]*.
 
-  La création et l’activation d’activités [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] et [!UICONTROL Auto-Target] sont autorisées, quelle que soit la source de création de rapports sélectionnée. Ces activités ne sont pas prises en charge lorsque vous choisissez [Adobe Customer Journey Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La création et l’activation des activités  (AP), [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] sont autorisées quelle que soit la source de création de rapports sélectionnée. Ces activités ne sont pas prises en charge lorsque vous choisissez [Adobe Customer Journey Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
 
   Même si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports, [!DNL Target] est utilisé comme source de création de rapports pour les activités [!DNL Automated Personalization].
 
-  Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités [!UICONTROL Auto-Allocate] ou [!UICONTROL Auto-Target], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
+  Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités [!UICONTROL Affectation automatique] ou [!UICONTROL Ciblage automatique], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
 
 ## Fuseau horaire pour la création de rapports
 

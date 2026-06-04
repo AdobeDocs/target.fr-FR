@@ -1,7 +1,7 @@
 ---
 keywords: multivarié;mvt;mesures;mesures définies;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité  [!DNL Adobe Target] [!UICONTROL Multivariate Test] pour déterminer le moment où une visite est réussie, telles que [!UICONTROL Conversion], [!UICONTROL Revenue] et [!UICONTROL Engagement].
-title: Comment définir les mesures d’objectif dans une activité [!UICONTROL Multivariate Test] (MVT) ?
+description: Découvrez comment spécifier des mesures dans une activité  [!DNL Adobe Target] [!UICONTROL Test multivarié] pour déterminer le moment où une visite est réussie, comme [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement].
+title: Comment définir les mesures d’objectif dans une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 TQID: https://experienceleague.adobe.com/iJntBcXy4QNgEq0SnzLpqMX6S5HQ6kBy4PMoQivlVxw
@@ -13,14 +13,14 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 325
-ht-degree: 61%
+source-wordcount: 353
+ht-degree: 56%
 
 ---
 
-# Définition de mesures pour une activité [!UICONTROL Multivariate Test]
+# Définition de mesures pour une activité [!UICONTROL test multivarié]
 
-Utilisez les mesures d’un [!UICONTROL Multivariate Test] [!DNL Adobe Target] pour déterminer le moment où une visite est réussie.
+Utilisez les mesures dans un [!DNL Adobe Target] [!UICONTROL test multivarié] pour déterminer le moment où une visite est réussie.
 
 Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -29,10 +29,10 @@ Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de
 
    ![Définition de la liste des mesures](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
-   La page [!UICONTROL Select Metrics] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
+   La page [!UICONTROL Sélectionner des mesures] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 
-   * [!UICONTROL Conversion]
-   * [!UICONTROL Revenue]
+   * [!UICONTROL &#x200B; Conversion &#x200B;]
+   * [!UICONTROL Recettes]
    * [!UICONTROL Engagement]
 
    Vous pouvez utiliser n’importe quelle mesure de succès préconfigurée ou en créer une personnalisée. Vous pouvez également marquer une mesure de succès comme mesure principale. Par défaut, les rapports et les cartes Experience Cloud présentent la mesure principale, si elle est définie.
@@ -41,14 +41,14 @@ Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de
 
    Les paramètres disponibles dépendent de la mesure de succès que vous utilisez.
 
-   Si cette option est activée, le champ [!UICONTROL Estimated Value of the Conversion] (non disponible pour les mesures [!UICONTROL Page Score]) fournit une valeur pour votre objectif. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
+   Si cette option est activée, le champ [!UICONTROL Valeur estimée de la conversion] (non disponible pour les mesures [!UICONTROL Score de page]) fournit une valeur pour votre objectif. Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
 
    La configuration adéquate des mesures de succès est essentielle pour obtenir les données attendues.
 
    Pour en savoir plus, voir [Mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
 1. (Facultatif) Ajoutez des mesures supplémentaires.
-1. Cliquez sur **[!UICONTROL Save and Close]** lorsque vous avez terminé de définir vos mesures.
+1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** lorsque vous avez terminé de définir vos mesures.
 
 Lorsque vous nommez ou renommez une mesure, les caractères suivants ne sont pas autorisés :
 
@@ -68,7 +68,7 @@ Lorsque vous nommez ou renommez une mesure, les caractères suivants ne sont pas
 Cette vidéo comporte des informations sur l’utilisation des mesures de succès.
 
 * Comprendre les mesures d’« objectif »
-* Comprendre et créer des mesures [!UICONTROL Conversion], [!UICONTROL Revenue] et [!UICONTROL Engagement]
+* comprendre et créer des mesures [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement] ;
 * Créer une mesure de suivi des clics
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 85%
+source-wordcount: 536
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ Utilisez [!DNL Adobe Target] pour estimer l’effet élévateur de chiffre d’a
 
 >[!NOTE]
 >
->L’effet élévateur estimé n’est pas disponible pour les activités [!UICONTROL Experience Targeting] (XT) pour le moment.
+>L’effet élévateur estimé n’est pas disponible pour les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT) pour le moment.
 
 La fonctionnalité d’effet élévateur estimé est désactivée par défaut. Elle peut être activée dans les préférences du compte. Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 

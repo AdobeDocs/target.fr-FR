@@ -5,7 +5,7 @@ hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
 source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -19,10 +19,10 @@ Le déploiement progressif met progressivement en production une nouvelle foncti
 **Filet de sécurité**
 En commençant par diffuser à une petite audience, vous pouvez suivre les commentaires et surveiller le comportement en production avant le développement. Si des problèmes apparaissent, l’impact est limité et la fonctionnalité peut être désactivée immédiatement, sans changement de code ni redéploiement.
 
-**Gestion de la charge principale**
+**Gestion du chargement principal**
 L’ouverture d’une fonctionnalité à tous les utilisateurs et utilisatrices simultanément peut provoquer des pics soudains de charge du serveur. Un déploiement progressif répartit l’augmentation du trafic au fil du temps, ce qui permet à l’infrastructure de se dimensionner en douceur.
 
-**Commentaires en temps réel**
+**Réaction en temps réel**
 Chaque phase du déploiement fait apparaître les commentaires des utilisateurs réels. Les équipes peuvent agir sur ces commentaires (affiner l’expérience, corriger les cas de périphérie ou ajuster le message) avant la phase suivante.
 
 ## Fonctionnement {#how-it-works}

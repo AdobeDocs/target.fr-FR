@@ -12,7 +12,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 543
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Pour que ce processus fonctionne, vous devez diffuser les `entity.brand` dans la
 
 ## Exemples de correspondance d’attributs d’entité
 
-[!UICONTROL Entity Attribute Matching] vous permet de recommander uniquement les éléments qui correspondent, par exemple :
+La [!UICONTROL Correspondance des attributs d’entité] vous permet de recommander uniquement les éléments qui correspondent, par exemple :
 
 * Attribut de l’élément que l’utilisateur consulte actuellement
 * Élément que l’utilisateur a consulté le plus récemment

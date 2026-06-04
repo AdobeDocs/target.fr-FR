@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 83
-ht-degree: 65%
+source-wordcount: 84
+ht-degree: 64%
 
 ---
 
@@ -27,4 +27,4 @@ Informations concernant la résolution des problèmes liés à la gestion des ut
 
 ## J’ai invité une personne à rejoindre Target, mais son nom n’apparaît pas dans la liste des utilisateurs (Administration > Utilisateurs). {#section_13A1A9697BA44537BA569C81CF136160}
 
-Le nouvel utilisateur apparaîtra sur la page [!UICONTROL Users] uniquement lorsqu’il se sera connecté à l’aide de son compte Adobe Experience Cloud et aura accédé à [!DNL Target Standard/Premium].
+Le nouvel utilisateur apparaîtra sur la page [!UICONTROL Utilisateurs] uniquement lorsqu’il se sera connecté à l’aide de son compte Adobe Experience Cloud et aura accédé à [!DNL Target Standard/Premium].

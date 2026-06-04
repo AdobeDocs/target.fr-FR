@@ -13,8 +13,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 606
-ht-degree: 10%
+source-wordcount: 642
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ Bien que cela soit pris en charge lorsque vous utilisez [!DNL Target] comme sour
 ## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux paramètres avancés ?
 
 +++Réponse
-Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL Increment Count & Keep User in Activity] » et « [!UICONTROL On Every Impression] ». Ces paramètres ne sont *pas configurables*
+Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL &#x200B; Incrémenter le décompte et conserver l’utilisateur dans l’activité &#x200B;] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
 
 Pour plus d’informations, reportez-vous à la rubrique « Lorsque je configure mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -59,14 +59,14 @@ Lorsqu’une activité est créée, [!DNL Target] envoie un fichier de classific
 ## Pourquoi ne puis-je pas sélectionner Analytics comme source de création de rapports lorsque je crée une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Réponse
-Vous pouvez modifier vos options de [!UICONTROL Reporting Settings] dans [!UICONTROL Administration].
+Vous pouvez modifier vos options [!UICONTROL &#x200B; Paramètres de création de rapports &#x200B;] dans [!UICONTROL Administration].
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**.
-1. Dans la liste déroulante **[!UICONTROL Experience Cloud solution used for reporting]**, cliquez sur **[!UICONTROL Select per Activity]**.
+1. Dans la liste déroulante **[!UICONTROL Solution Experience Cloud utilisée pour la création de rapports]**, cliquez sur **[!UICONTROL Sélection par activité]**.
 
 ![sélectionner une image par activité](assets/select-per-activity.png)
 
-La liste déroulante **[!UICONTROL Reporting Source]** est activée dans l’écran **[!UICONTROL Goal & Settings]** pour créer et modifier des activités.
+La liste déroulante **[!UICONTROL Source des rapports]** est activée dans l’écran **[!UICONTROL Objectif et paramètres]** afin de créer et modifier des activités.
 
 Pour toujours utiliser [!DNL Analytics] comme source de création de rapports, sélectionnez **[!UICONTROL Adobe Analytics]** dans la liste déroulante de [!UICONTROL Administration].
 
@@ -86,9 +86,9 @@ Si les pourcentages ne sont pas ajustés en milieu d’activité, un visiteur qu
 
 +++
 
-## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL Auto-Allocate] ? {#binomial}
+## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] ? {#binomial}
 
 +++Réponse
-Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL Auto-Allocate]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
+Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
 
 +++

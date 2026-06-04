@@ -13,16 +13,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 72%
+source-wordcount: 331
+ht-degree: 71%
 
 ---
 
-# Rapport [!UICONTROL Experience Performance] (MVT)
+# Rapport [!UICONTROL Performances d’expérience] (MVT)
 
-Le rapport [!UICONTROL Experience Performance] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
+Le rapport [!UICONTROL &#x200B; Performances d’expérience &#x200B;] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
 
-Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Preview]** pour ouvrir l’expérience dans un onglet de navigateur.
+Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]** pour ouvrir l’expérience dans un onglet du navigateur.
 
 La partie supérieure du rapport présente la mesure, les dates de début et de fin et l’audience utilisées dans le rapport. Vous pouvez modifier n’importe lequel de ces facteurs.
 

@@ -16,8 +16,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 446
-ht-degree: 32%
+source-wordcount: 473
+ht-degree: 30%
 
 ---
 
@@ -35,22 +35,22 @@ Vous recevrez un e-mail d’invitation une fois que l’administrateur système 
 
 ## Acceptation de l’invitation {#task_24FE66659E634B24AB61DB8497772E17}
 
-Après avoir reçu l’invitation à rejoindre le [!DNL Adobe Experience Cloud], acceptez l’invitation, connectez-vous et acceptez le [!UICONTROL End User License Agreement] (CLUF).
+Après avoir reçu l’invitation à rejoindre le [!DNL Adobe Experience Cloud], acceptez l’invitation, connectez-vous et acceptez le [!UICONTROL &#x200B; Contrat de licence de l’utilisateur final &#x200B;] (CLUF).
 
 1. Acceptez l’invitation à rejoindre [!DNL Adobe Experience Cloud].
 1. Si vous ne possédez pas déjà un Adobe ID, vous êtes invité à en créer un.
 
    Si vous disposez d’une Adobe ID, votre Adobe ID est reconnue et vous êtes invité à vous connecter.
-1. Acceptez la [!UICONTROL Terms of Use].
-1. Passez en revue le résumé de ce que vous avez fait jusqu’à présent, puis cliquez sur **[!UICONTROL Continue to Experience Cloud]**.
-1. Connectez-vous à l’[!DNL Adobe Experience Cloud] et cliquez sur **[!UICONTROL Link Account]**.
+1. Acceptez les [!UICONTROL conditions d’utilisation].
+1. Passez en revue le résumé des actions effectuées jusqu’à présent, puis cliquez sur **[!UICONTROL Continuer vers Experience Cloud]**.
+1. Connectez-vous à l’[!DNL Adobe Experience Cloud] et cliquez sur **[!UICONTROL Lier le compte]**.
 
    >[!NOTE]
    >
    >Si vous ne liez pas votre compte, vous ne pourrez pas accéder à [!DNL Target].
 
    Tous les produits [!UICONTROL Experience Cloud] apparaissent sur la page de liaison. Cliquez sur `Link Target` et saisissez vos nom d’utilisateur et mot de passe [!DNL Target] pour accéder à [!DNL Target].
-1. Cliquez sur **[!UICONTROL Continue to Experience Cloud]**.
+1. Cliquez sur **[!UICONTROL Continuer vers Experience Cloud]**.
 
    À ce stade, aucun groupe n’est configuré pour que vous puissiez le lier.
 1. Si vous le souhaitez, visionnez la vidéo qui vous présente [!DNL Adobe Experience Cloud].
@@ -59,7 +59,7 @@ Après avoir reçu l’invitation à rejoindre le [!DNL Adobe Experience Cloud],
 
 ## Attribution à vous-même du rôle d’approbateur {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-Après avoir accepté l’invitation à rejoindre l’[!DNL Adobe Experience Cloud] et vous être connecté, vérifiez que [!DNL Target] a été ajouté à votre compte [!DNL Experience Cloud], puis attribuez-vous le rôle [!UICONTROL Approver] pour [!DNL Target].
+Après avoir accepté l’invitation à rejoindre l’[!DNL Adobe Experience Cloud] et vous être connecté, vérifiez que [!DNL Target] a été ajouté à votre compte [!DNL Experience Cloud], puis attribuez-vous le rôle [!UICONTROL Approbateur] pour [!DNL Target].
 
 Si votre organisation dispose d’une licence [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905), voir [Spécification des rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*.
 
@@ -67,10 +67,10 @@ Si votre organisation dispose d’une licence [Target Premium](/help/main/c-int
 
 L’étape suivante doit consister à configurer les utilisateurs dans [!DNL Target Standard] et [!DNL Target Premium]. Pour plus d’informations, voir [Gestion des utilisateurs](/help/main/administrating-target/c-user-management/user-management.md).
 
-## Autorisations requises pour la modification des paramètres de [!UICONTROL Administration] {#admin-permissions}
+## Autorisations requises pour la modification des paramètres [!UICONTROL &#x200B; Administration &#x200B;] {#admin-permissions}
 
-**Avant le 22 avril 2025** : les utilisateurs disposant de droits d’[!UICONTROL Approvers] dans le [!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la [[!UICONTROL Administration] page &#x200B;](/help/main/administrating-target/administrating-target.md) page de [!DNL Target], quel que soit leur rôle de [!DNL Target].
+**Avant le 22 avril 2025** : les utilisateurs disposant des droits [!UICONTROL Approbateurs] dans l’[!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la page [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) de l’[!DNL Target], quel que soit leur rôle [!DNL Target].
 
-**À compter du 22 avril 2025** : seuls les administrateurs [!UICONTROL Product] et [!UICONTROL Solutions] pourront mettre à jour les paramètres des sections [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md), quels que soient leurs rôles dans les espaces de travail [!DNL Target]. Les utilisateurs ne disposant pas de cette autorisation auront un accès en lecture seule aux sections [!UICONTROL Administration].
+**À compter du 22 avril 2025** : seuls les administrateurs [!UICONTROL Produit] et [!UICONTROL Solutions] pourront mettre à jour les paramètres des sections [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md), quel que soit leur rôle dans [!DNL Target] espaces de travail. Les utilisateurs ne disposant pas de cette autorisation auront un accès en lecture seule aux sections [!UICONTROL Administration].
 
 Cette mise à jour améliore le contrôle organisationnel sur les configurations d’instance de [!DNL Target], empêchant les mises à jour accidentelles qui pourraient affecter la diffusion des activités entre différentes équipes de test et de personnalisation.

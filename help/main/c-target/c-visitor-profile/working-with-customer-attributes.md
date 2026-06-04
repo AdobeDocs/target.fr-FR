@@ -19,8 +19,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 29%
+source-wordcount: 1617
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ Les données intégrées à [!DNL Experience Cloud] sont accessibles par tous le
 
 Tenez compte des informations suivantes dans votre travail avec les attributs et les [!DNL Target] du client :
 
-* Vous devez respecter certaines conditions préalables avant de pouvoir utiliser la fonctionnalité [!UICONTROL Customer Attributes] dans le service [!DNL People]. Pour plus d’informations, voir « Conditions préalables pour le chargement des attributs du client » dans [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr#section_BD38693AFBF34926BA28E964963B4EA0) dans le guide *Interface et administration d’Experience Cloud*.
+* Vous devez respecter certaines conditions préalables avant de pouvoir utiliser la fonctionnalité [!UICONTROL Attributs du client] dans le service [!DNL People]. Pour plus d’informations, voir « Conditions préalables pour le chargement des attributs du client » dans [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr#section_BD38693AFBF34926BA28E964963B4EA0) dans le guide *Interface et administration d’Experience Cloud*.
 * Gardez à l’esprit les limites relatives aux chargements de fichiers, comme indiqué dans la section [Fichiers et sources de données des attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=fr) du guide *Interface et administration d’Experience Cloud*. Bonne pratique :
 
    * Chargez uniquement des fichiers volumineux (dans les [limites spécifiées](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=fr)). Les fichiers volumineux uniques sont préférés à plusieurs fichiers plus petits.
@@ -56,11 +56,11 @@ Tenez compte des informations suivantes dans votre travail avec les attributs et
 
 ## Accéder aux attributs du client dans le service Personnes
 
-1. Dans [!DNL Experience Cloud], cliquez sur l’icône de menu ( ![icône de menu](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ), puis sur **[!UICONTROL People]**.
+1. Dans [!DNL Experience Cloud], cliquez sur l’icône de menu ( ![icône de menu](/help/main/c-target/c-visitor-profile/assets/menu-icon.png) ), puis sur **[!UICONTROL Personnes]**.
 
    ![Personnes](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. Cliquez sur **[!UICONTROL Customer Attributes]**.
+1. Cliquez sur **[!UICONTROL Attributs du client]**.
 
    ![Onglet Attributs du client](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -94,8 +94,8 @@ Vous trouverez des instructions détaillées pour effectuer chacune des tâches 
 
    Votre fichier de données doit être conforme aux exigences de chargement de fichier et ne doit pas dépasser 100 Mo. Si votre fichier est trop volumineux ou que vous disposez de données qui doivent être chargées de manière récurrente, vous pouvez utiliser le FTP pour vos fichiers à la place.
 
-   * **HTTPS :** faites glisser et déposez le fichier de données .csv ou cliquez sur **[!UICONTROL Browse]** pour effectuer un chargement à partir de votre système de fichiers.
-   * **FTP :** cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=fr). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Indiquez le mot de passe, puis cliquez sur **[!UICONTROL Done]**.
+   * **HTTPS :** faites glisser et déposez le fichier de données .csv ou cliquez sur **[!UICONTROL Parcourir]** pour effectuer un chargement à partir de votre système de fichiers.
+   * **FTP :** cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=fr). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Indiquez le mot de passe, puis cliquez sur **[!UICONTROL Terminé]**.
 
    Transférez maintenant le fichier CSV/ZIP/GZIP vers le serveur FTP. Une fois ce transfert de fichier réussi, créez un fichier portant le même nom et une extension `.fin`. Transférez ce fichier vide vers le serveur. Cela indique la fin du transfert et le [!DNL Experience Cloud] commence à traiter le fichier de données.
 
@@ -103,7 +103,7 @@ Vous trouverez des instructions détaillées pour effectuer chacune des tâches 
 
    Le processus de validation permet de mapper les noms d’affichage et les descriptions aux attributs transférés (chaînes, nombres entiers, numéros, etc.). Mappez chaque attribut à son type de données, à son nom d’affichage et à sa description appropriés.
 
-   Cliquez sur **[!UICONTROL Save]** une fois la validation du schéma terminée. La durée de transfert du fichier varie en fonction de sa taille.
+   Cliquez sur **[!UICONTROL Enregistrer]** une fois la validation du schéma terminée. La durée de transfert du fichier varie en fonction de sa taille.
 
    ![Validation du schéma](/help/main/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
@@ -111,7 +111,7 @@ Vous trouverez des instructions détaillées pour effectuer chacune des tâches 
 
 1. Configurez les abonnements et activez la source d’attributs.
 
-   Cliquez sur **[!UICONTROL Add Subscription]**, puis sélectionnez la solution pour abonner ces attributs. [Configurer les abonnements](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=fr) configure le flux de données entre le [!DNL Experience Cloud] et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
+   Cliquez sur **[!UICONTROL Ajouter un abonnement]**, puis sélectionnez la solution pour abonner ces attributs. [Configurer les abonnements](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=fr) configure le flux de données entre le [!DNL Experience Cloud] et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
 
    ![Configurer la solution](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -129,7 +129,7 @@ Vous pouvez utiliser les attributs du client dans [!DNL Target] comme suit :
 
 ### Créer des audiences de ciblage
 
-Dans [!DNL Target], vous pouvez sélectionner un attribut du client dans la section [!UICONTROL Visitor Profile] lors de la création d’une audience. Tous les attributs client comportent le préfixe &lt; data_source_name > dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client dans la section [!UICONTROL Profil du visiteur] lors de la création d’une audience. Tous les attributs client comportent le préfixe &lt; data_source_name > dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![audience cible](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 

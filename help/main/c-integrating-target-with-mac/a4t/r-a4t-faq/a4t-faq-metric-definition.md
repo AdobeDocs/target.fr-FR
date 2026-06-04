@@ -12,8 +12,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 36%
+source-wordcount: 367
+ht-degree: 35%
 
 ---
 
@@ -31,11 +31,11 @@ L’expiration par défaut pour l’activité est de 90 jours après la derniè
 ## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options des Paramètres avancés ? {#adv-settings}
 
 +++Réponse
-Les options [!UICONTROL Advanced Settings] ne sont pas disponibles pour les activités qui utilisent [!DNL Analytics] comme source de création de rapports (A4T).
+Les options [!UICONTROL Paramètres avancés] ne sont pas disponibles pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T).
 
-Pour les activités qui utilisent A4T, la mesure d’objectif utilise toujours les paramètres « [!UICONTROL Increment Count & Keep User in Activity] » et « [!UICONTROL On Every Impression] ». Ces paramètres ne sont *pas configurables*
+Pour les activités qui utilisent A4T, la mesure d’objectif utilise toujours les paramètres « [!UICONTROL Incrémenter le décompte et conserver l’utilisateur dans l’activité] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
 
-Pour les activités hors A4T, vous pouvez utiliser les options [Paramètres avancés](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) pour gérer la manière dont vous mesurez la réussite. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression. Pour accéder aux options de [!UICONTROL Advanced Settings] d’une activité hors A4T, cliquez sur les points de suspension verticaux > [!UICONTROL Advanced Settings], comme illustré ci-dessous :
+Pour les activités hors A4T, vous pouvez utiliser les options [Paramètres avancés](/help/main/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) pour gérer la manière dont vous mesurez la réussite. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression. Pour accéder aux options [!UICONTROL Paramètres avancés] dans une activité autre qu’A4T, cliquez sur les points de suspension verticaux > [!UICONTROL Paramètres avancés], comme illustré ci-dessous :
 
 ![Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 

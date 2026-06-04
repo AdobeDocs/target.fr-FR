@@ -1,5 +1,5 @@
 ---
-keywords: serveur de suivi Analytics;A4T;débogueur Adobe Experience Cloud;débogueur Adobe Experience Platform;source de rapports;outils de développement
+keywords: serveur de suivi analytics;A4T;débogueur Adobe Experience Cloud;débogueur Adobe Experience Platform;source de création de rapports;outils de développement
 description: Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for  [!DNL Target] (A4T) si vous utilisez une ancienne version d’at.js.
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
@@ -17,8 +17,8 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 15%
+source-wordcount: 708
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Si vous utilisez une ancienne version d’at.js, vous devez spécifier un serveu
 
 >[!NOTE]
 >
->Vous n’avez pas besoin de spécifier de serveur de suivi lors de la création de l’activité si vous utilisez la version 0.9.1 d’at.js (ou ultérieure). La bibliothèque at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Lors de la création de l&#39;activité, vous pouvez laisser le champ [!UICONTROL Tracking Server] vide sur la page [!UICONTROL Goals & Settings].
+>Vous n’avez pas besoin de spécifier de serveur de suivi lors de la création de l’activité si vous utilisez la version 0.9.1 d’at.js (ou ultérieure). La bibliothèque at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 >
 >L’équipe [!DNL Target] prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. Pour plus d’informations, voir [Informations détaillées sur les versions du fichier at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=fr){target=_blank}.
 
@@ -46,7 +46,7 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée p
 
    ![Image Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
-   Le serveur de suivi [!DNL Analytics] se trouve dans la section [!UICONTROL Hostname] du débogueur.
+   Le serveur de suivi [!DNL Analytics] se trouve dans la section [!UICONTROL nom d’hôte] du débogueur.
 
    * **Serveur de suivi propriétaire** : si le nom d’hôte de la requête correspond au domaine sur lequel vous vous trouvez, il s’agit d’un serveur de suivi propriétaire. Par exemple, si vous êtes sur `adobe.com`, `adobe.com` est le serveur de suivi propriétaire.
    * **Serveur de suivi tiers** : un serveur de suivi tiers est généralement `[company].sc.omtrdc.net` où la société correspond au nom de votre société, mais se termine toujours par `sc.omtrdc.net`.
@@ -54,11 +54,11 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée p
 
 1. Copiez en entier le contenu du champ.
 
-1. Dans la section **[!UICONTROL Reporting Settings]** de l’écran de **[!UICONTROL Goal & Settings]** de votre activité, collez les informations du serveur de tracking dans le champ **[!UICONTROL Tracking Server]** .
+1. Dans la section **[!UICONTROL Paramètres de reporting]** de l’écran **[!UICONTROL Objectif et paramètres]** de votre activité, collez les informations du serveur de tracking dans le champ **[!UICONTROL Serveur de tracking]**.
 
    >[!NOTE]
    >
-   >Sélectionnez les [!UICONTROL Analytics as the Reporting Source] de votre activité pour que le champ [!UICONTROL Tracking Server] soit disponible.
+   >Sélectionnez [!UICONTROL Analytics comme Source de création de rapports] pour que le champ [!UICONTROL Serveur de suivi] soit disponible.
 
 ## Obtenez le serveur de suivi [!DNL Analytics] à l’aide des outils de développement de votre navigateur
 
@@ -68,7 +68,7 @@ Les outils de développement doivent être affichés sur une page où l’activi
 
    ![Outils de développement &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Network]** .
+1. Cliquez sur l’onglet **[!UICONTROL Réseau]**.
 
 1. Filtrez les `/ss,` d’affichage des requêtes [!DNL Analytics].
 
@@ -82,8 +82,8 @@ Les outils de développement doivent être affichés sur une page où l’activi
 
 1. Copiez en entier le contenu du champ.
 
-1. Dans la section **[!UICONTROL Reporting Settings]** de l’écran de **[!UICONTROL Goal & Settings]** de votre activité, collez les informations du serveur de tracking dans le champ **[!UICONTROL Tracking Server]** .
+1. Dans la section **[!UICONTROL Paramètres de reporting]** de l’écran **[!UICONTROL Objectif et paramètres]** de votre activité, collez les informations du serveur de tracking dans le champ **[!UICONTROL Serveur de tracking]**.
 
    >[!NOTE]
    >
-   >Sélectionnez les [!UICONTROL Analytics as the Reporting Source] de votre activité pour que le champ [!UICONTROL Tracking Server] soit disponible.
+   >Sélectionnez [!UICONTROL Analytics comme Source de création de rapports] pour que le champ [!UICONTROL Serveur de suivi] soit disponible.

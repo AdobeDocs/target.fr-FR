@@ -17,8 +17,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 2481
-ht-degree: 90%
+source-wordcount: 2520
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Lorsqu’un visiteur parcourt votre site web ou revient pour une nouvelle sessio
 
 Pour configurer les attributs de profil :
 
-1. Cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]**
+1. Cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Scripts de profil.]**
 
    ![Onglet Scripts de profil](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. Cliquez sur **[!UICONTROL Create Script]**.
+1. Cliquez sur **[!UICONTROL Créer un script]**.
 
    ![Boîte de dialogue Créer un script de profil](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -57,13 +57,13 @@ Les scripts de profil sont différents des paramètres de profil. Les paramètre
 
 ## Création de scripts de profil {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-Les scripts de profil sont disponibles sous l’onglet [!UICONTROL Audiences] de l’interface [!DNL Target] .
+Les scripts de profil sont disponibles sous l’onglet [!UICONTROL Audiences] dans l’interface [!DNL Target].
 
-Pour ajouter un script de profil, cliquez sur l’onglet **[!UICONTROL Profile Scripts]**, **[!UICONTROL Create Script]**, puis écrivez votre script.
+Pour ajouter un script de profil, cliquez sur l’onglet **[!UICONTROL Scripts de profil]** **[!UICONTROL Créer un script]**, puis écrivez votre script.
 
 Ou
 
-Pour copier un script de profil existant, à partir de la liste [!UICONTROL Profile Scripts], cliquez sur l’icône représentant des points de suspension pour sélectionner le script souhaité, puis cliquez sur **[!UICONTROL Duplicate]**.
+Pour copier un script de profil existant, à partir de la liste [!UICONTROL Scripts de profil], cliquez sur l’icône représentant des points de suspension pour sélectionner le script souhaité, puis cliquez sur **[!UICONTROL Dupliquer]**.
 
 Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
@@ -96,21 +96,21 @@ Gardez à l’esprit les informations suivantes :
 
 Vous pouvez afficher des cartes pop-up d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
 
-Par exemple, la carte d’informations de script de profil suivante est accessible en cliquant sur l’icône [!UICONTROL Info] du script de profil souhaité dans la liste ([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
+Par exemple, la carte d’informations de script de profil suivante est accessible en cliquant sur l’icône [!UICONTROL Info] pour le script de profil souhaité disponible dans la liste ([!UICONTROL Audiences] > [!UICONTROL Scripts de profil]).
 
-L’onglet [!UICONTROL Script Info] contient les informations suivantes : nom, description et code de script.
+L’onglet [!UICONTROL Informations du script] contient les informations suivantes : nom, description et code de script.
 
 ![Carte d’informations du script de profil](assets/profile_script_info_card.png)
 
-Cliquez sur **[!UICONTROL View full details]** pour afficher les audiences et les activités qui font référence au script de profil sélectionné.
+Cliquez sur **[!UICONTROL Afficher tous les détails]** pour afficher les audiences et les activités qui font référence au script de profil sélectionné.
 
 ![Carte d’informations du script de profil > Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->L’onglet [!UICONTROL Script Usage] n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
+>L’onglet [!UICONTROL &#x200B; Utilisation du script &#x200B;] n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
 >
-> * L’activité est à l’état [!UICONTROL Draft].
+> * L’activité est à l’état [!UICONTROL Brouillon].
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
 
 ## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -167,7 +167,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Ajouter des scripts de profil comme jetons de réponse aux scripts de profil de débogage :**
 
-  Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Response Tokens]**, puis activez le script de profil à déboguer.
+  Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**, cliquez sur **[!UICONTROL Jetons de réponse]**, puis activez le script de profil à déboguer.
 
   Chaque fois que vous chargez une page comportant [!DNL Target]pour votre site, une partie de la réponse de [!DNL Target] contient votre valeur pour le script de profil donné, comme indiqué ci-dessous :
 
@@ -175,7 +175,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Utiliser l’outil de débogage mboxTrace pour déboguer les scripts de profil.**
 
-  Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** dans la section [!UICONTROL Debugger tools] .
+  Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Générer un jeton d’autorisation]** dans la section [!UICONTROL Outils de débogage].
 
   Vous ajoutez ensuite ces deux paramètres à l’URL de votre page après le « ? » : `mboxTrace=window&authorization=YOURTOKEN`.
 

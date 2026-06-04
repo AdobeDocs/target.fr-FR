@@ -19,7 +19,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: 701
 ht-degree: 79%
 
 ---
@@ -34,7 +34,7 @@ Nous avons compilé une liste organisée d’informations utiles pour vous aider
 
 ## Liens des ressources
 
-* **Configuration d’Adobe Target** : informations vous permettant d’administrer [!DNL Adobe Target], notamment les paramètres de configuration du [!UICONTROL Visual Experience Composer] (VEC), les rapports, la configuration du [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse et les utilisateurs. Consultez [Aperçu de l’administration dans Target](/help/main/administrating-target/administrating-target.md).
+* **Configuration d’Adobe Target** : informations vous permettant d’administrer [!DNL Adobe Target], y compris les paramètres de configuration du [!UICONTROL compositeur d’expérience visuelle] (VEC), les rapports, la configuration [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse et les utilisateurs. Consultez [Aperçu de l’administration dans Target](/help/main/administrating-target/administrating-target.md).
 * **Documentation du produit Adobe Target** : tout ce que vous devez savoir sur Adobe Target. Consultez la [documentation du produit Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=fr).
 * **Documentation du SDK et de l’API Adobe Target** : découvrez comment implémenter [!DNL Target] sur les applications côté client et côté serveur, les applications mobiles, IoT, etc. Découvrez également comment échanger vos données [!DNL Target] avec des solutions tierces. Consultez [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md).
 * **Guide des activités d’Adobe Target** : présentation des différentes activités que vous pouvez utiliser dans [!DNL Target]. Consultez [Types d’activités de Target](/help/main/c-activities/target-activities-guide.md).

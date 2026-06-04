@@ -20,8 +20,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 86%
+source-wordcount: 1689
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Vous devez disposer de l’une des autorisations utilisateur suivantes pour générer un jeton d’authentification :
 
-* Au moins [!UICONTROL Editor] autorisation (ou [!UICONTROL Approver])
+* Autorisation [!UICONTROL Éditeur] minimum (ou [!UICONTROL Approbateur])
 
   Pour plus d’informations concernant les clients [!DNL Target Standard], consultez [Spécifier les rôles et autorisations](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations concernant les clients [!DNL Target Premium], consultez [Configuration des autorisations d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -53,8 +53,8 @@ Vous devez disposer de l’une des autorisations utilisateur suivantes pour gén
 
 Pour récupérer le jeton d’autorisation :
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
-1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Generate New Authentication Token]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
 
    ![Générer un nouveau jeton d’authentification](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -97,7 +97,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Enter]** pour revenir au mode d’affichage normal.
+Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez terminé d’afficher les détails de mboxTrace, ajoutez des `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommandations.
 
@@ -167,11 +167,11 @@ at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype no
 
 ## Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
-L’[!UICONTROL Activity URL] détermine la page qui qualifie les visiteurs pour l’activité et effectue le rendu des expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
+L’[!UICONTROL URL de l’activité] détermine la page qui qualifie les visiteurs pour l’activité et effectue le rendu des expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
 
-Par défaut, le [!UICONTROL Visual Experience Composer] (VEC) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
+Par défaut, le [!UICONTROL compositeur d’expérience visuelle] (VEC) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
 
-Pour afficher une autre page après l’ouverture du compositeur d’expérience visuelle, cliquez sur le **[!UICONTROL Configure gear icon]** > sélectionnez **[!UICONTROL Page Delivery]** > puis spécifiez l’URL de votre choix dans le champ [!UICONTROL Activity URL] .
+Pour afficher une autre page après l’ouverture du compositeur d’expérience visuelle, cliquez sur l’icône **[!UICONTROL Configurer l’engrenage]** > sélectionnez **[!UICONTROL Diffusion de page]** > puis spécifiez l’URL de votre choix dans le champ [!UICONTROL URL de l’activité].
 
 ![Configuration de lʼinterface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
 
@@ -197,7 +197,7 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 
 ### Option 3 : au lieu de cibler lʼURL complète, limitez-vous à une portion spécifique de lʼURL.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires spécifient un [!UICONTROL Query] avec [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offres, séparé par un opérateur OR :
+Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires spécifient un [!UICONTROL Requête] avec [!UICONTROL type] > [!UICONTROL est (sensible à la casse)] > type=Summers%20Offres, séparé par un opérateur OR :
 
 ![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
 

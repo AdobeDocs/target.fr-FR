@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 73%
+source-wordcount: '1380'
+ht-degree: 75%
 
 ---
 
 # Compositeur d’expérience visuelle (VEC)
 
-Informations sur l’utilisation du [!UICONTROL Visual Experience Composer] (VEC) dans [!DNL Adobe Target].
+Informations sur l’utilisation du [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target].
 
 Le compositeur d’expérience visuelle est une interface utilisateur de WYSIWYG qui vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre) ou d’une page Web mobile.
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
-Dans l’onglet **[!UICONTROL Administration]** de Target > **[!UICONTROL Visual Experience Composer]** , vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
+Dans l’onglet Cible **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
 
 ![Paramètres d’URL de VEC par défaut](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -27,7 +27,7 @@ Cette URL détermine votre point de départ lors de l’ouverture de VEC. Si vou
 
 >[!NOTE]
 >
->Certains navigateurs tels que Firefox peuvent empêcher l’affichage d’une page dans VEC si celle-ci comporte du contenu mixte (une page non sécurisée d’un site sécurisé, par exemple). Si votre page ne s’affiche pas, cliquez sur l’icône en regard de l’URL dans la barre d’adresse du navigateur, puis cliquez sur **[!UICONTROL Disable protection on this page]**. Ce problème n’a aucun impact sur l’affichage de vos pages pour les visiteurs du site.
+>Certains navigateurs tels que Firefox peuvent empêcher l’affichage d’une page dans VEC si celle-ci comporte du contenu mixte (une page non sécurisée d’un site sécurisé, par exemple). Si votre page ne s’affiche pas, cliquez sur l’icône en regard de l’URL dans la barre d’adresse du navigateur et cliquez sur **[!UICONTROL Désactiver la protection sur cette page]**. Ce problème n’a aucun impact sur l’affichage de vos pages pour les visiteurs du site.
 
 Le contenu dans un iframe sur la page ne peut pas être modifié dans VEC. Pour modifier du contenu dans un iframe, assurez-vous que le document iframe est activé pour Target, puis chargez cette URL d’iframe dans VEC.
 
@@ -41,17 +41,17 @@ Lorsque vous déplacez votre pointeur dans la page, une zone contextuelle le sui
 
 ![Mise en surbrillance de VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-Cliquez sur l’icône **[!UICONTROL Overlays]** pour modifier l’affichage de la mise en surbrillance. Par exemple, vous pouvez choisir de mettre uniquement en surbrillance les images, les liens, les mbox régionales, les modifications ou JavaScript. Vous pouvez modifier la couleur du surlignage. Vous pouvez également spécifier une couleur de surbrillance et un type de remplissage à utiliser pour différents types d’éléments.
+Cliquez sur l’icône **[!UICONTROL Recouvrements]** pour modifier l’affichage de la mise en surbrillance. Par exemple, vous pouvez choisir de mettre uniquement en surbrillance les images, les liens, les mbox régionales, les modifications ou JavaScript. Vous pouvez modifier la couleur du surlignage. Vous pouvez également spécifier une couleur de surbrillance et un type de remplissage à utiliser pour différents types d’éléments.
 
 ![Modification des paramètres de Recouvrement](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Cliquez sur un élément en surbrillance pour accéder à un menu d’options disponibles pour ce type d’élément. Par exemple, vous pouvez cliquer sur une image et sélectionner **[!UICONTROL Edit > Text/HTML]** pour modifier le texte, ou cliquer sur un bouton et modifier la couleur d’arrière-plan. Vous pouvez utiliser les boutons situés dans la partie supérieure gauche de la page pour activer ou désactiver les recouvrements.
+Cliquez sur un élément en surbrillance pour accéder à un menu d’options disponibles pour ce type d’élément. Par exemple, vous pouvez cliquer sur une image et sélectionner **[!UICONTROL Modifier > Texte/HTML]** pour modifier le texte, ou cliquer sur un bouton et modifier la couleur d’arrière-plan. Vous pouvez utiliser les boutons situés dans la partie supérieure gauche de la page pour activer ou désactiver les recouvrements.
 
-Vous pouvez également cliquer sur **[!UICONTROL Browse]**, puis accéder à une page disponible sur la page principale, telle qu’une page d’expédition ou un panier, et tester les modifications sur cette page. Vous pouvez également accéder aux éléments de la page qui sont disponibles lorsque vous passez le curseur tels que les menus des fenêtres déroulantes et les mini-paniers. Lorsque vous avez terminé de naviguer vers la page, cliquez sur **[!UICONTROL Compose]** pour modifier l’expérience. Par exemple, vous souhaitez peut-être modifier la conception d’une liste déroulante de panier d’achat ou d’un carrousel d’images.
+Vous pouvez également cliquer sur **[!UICONTROL Parcourir]**, puis accéder à une page qui est disponible depuis la page principale, telle la page d’expédition ou le panier d’achat, et tester les modifications sur cette page. Vous pouvez également accéder aux éléments de la page qui sont disponibles lorsque vous passez le curseur tels que les menus des fenêtres déroulantes et les mini-paniers. Lorsque vous avez terminé de parcourir la page, cliquez sur **[!UICONTROL Composer]** pour modifier l’expérience. Par exemple, vous souhaitez peut-être modifier la conception d’une liste déroulante de panier d’achat ou d’un carrousel d’images.
 
 >[!NOTE]
 >
->Si un état de survol dépend de JavaScript, assurez-vous que **[!UICONTROL Disable JavaScript]** n’est pas sélectionné. JavaScript doit être activé pour modifier des éléments JavaScript.
+>Si un état de survol dépend de JavaScript, assurez-vous que l’option **[!UICONTROL Désactiver JavaScript]** n’est pas sélectionnée. JavaScript doit être activé pour modifier des éléments JavaScript.
 
 Pour obtenir des informations sur les options disponibles dans le compositeur d’expérience visuelle, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
@@ -70,7 +70,7 @@ Raisons pour lesquelles vous pouvez accéder à une page ou la modifier pendant 
 * Vous souhaitez copier du code personnalisé existant dans une page qui n’est plus accessible
 * Vous savez qu’une page ne se charge pas dans VEC, mais vous souhaitez effectuer des modifications simples.
 
-Lors du chargement de la page (ou après l’échec du chargement), le panneau [!UICONTROL Experiences], le panneau [!UICONTROL Modifications] et les paramètres en haut de l’expérience (Recouvrements, Modifications, Configuration, etc.) sont tous accessibles.
+Lors du chargement de la page (ou après l’échec du chargement), le panneau [!UICONTROL Expériences], le panneau [!UICONTROL Modifications] et les paramètres en haut de l’expérience (Recouvrements, Modifications, Configuration, etc.) sont tous accessibles.
 
 L’illustration suivante montre que vous pouvez insérer du code personnalisé ou effectuer d’autres actions pendant le chargement de la page :
 
@@ -90,17 +90,17 @@ Voici quelques raisons pour lesquelles vous souhaitez annuler le chargement des 
 * Vous souhaitez ajouter d’autres règles de test de modèle aux critères de diffusion de page
 * Vous souhaitez remplacer le basculement de compositeur d’expérience amélioré global (EEC) lors du chargement d’une page via EEC ou iframe-only peut varier d’une page à l’autre.
 
-Après avoir annulé le chargement des pages dans VEC, vous pouvez basculer entre les expériences de l’activité sans attendre le chargement de la page. Pour afficher à nouveau la page dans le compositeur d’expérience visuelle, vous devez cliquer sur le bouton **[!UICONTROL Reload]** .
+Après avoir annulé le chargement des pages dans VEC, vous pouvez basculer entre les expériences de l’activité sans attendre le chargement de la page. Pour afficher à nouveau la page dans le VEC, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.
 
 >[!IMPORTANT]
 >
 >Gardez à l’esprit que lorsque le code personnalisé ou toute modification est effectué, vous devez vous assurer que le codage ou les modifications sont effectués correctement en choisissant d’annuler le chargement dans VEC. Assurez-vous d’effectuer un contrôle qualité adéquat pour vous assurer que votre code personnalisé et toute autre modification sont diffusés comme prévu.
 
-Pour annuler le chargement d’une page dans le VEC, cliquez sur le bouton **[!UICONTROL Cancel Loading]** pendant le chargement de la page. La page ne se charge pas dans VEC pour cette activité durant la session de modification en cours.
+Pour annuler le chargement d’une page dans le VEC, cliquez sur le bouton **[!UICONTROL Annuler le chargement]** pendant le chargement de la page. La page ne se charge pas dans VEC pour cette activité durant la session de modification en cours.
 
 ![Bouton Annuler le chargement](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-Pour continuer à gérer les expériences dans l’activité en cours ou ajouter de nouvelles modifications, vous devez cliquer sur le bouton **[!UICONTROL Reload]** .
+Pour continuer à gérer les expériences dans l’activité en cours ou ajouter de nouvelles modifications, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.
 
 ![Bouton Recharger](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 

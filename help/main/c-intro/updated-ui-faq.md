@@ -21,14 +21,14 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 2013
 ht-degree: 1%
 
 ---
 
 # FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
-Nouveauté de 2025, l’interface utilisateur [!DNL Adobe Target] repensée offre une expérience plus épurée et plus intuitive pour tous les utilisateurs et utilisatrices. Ce FAQ couvre les mises à jour clés de l’interface utilisateur [!DNL Target] et du [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, l’emplacement des fonctionnalités et la suppression du bouton (bascule) temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, il vous offre une transition en douceur et des workflows plus intelligents.
+Nouveauté de 2025, l’interface utilisateur [!DNL Adobe Target] repensée offre une expérience plus épurée et plus intuitive pour tous les utilisateurs et utilisatrices. Ce FAQ couvre les mises à jour clés de l’interface utilisateur [!DNL Target] et du [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications de navigation, l’emplacement des fonctionnalités et la suppression du bouton (bascule) temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, il vous offre une transition en douceur et des workflows plus intelligents.
 
 ## La chronologie de l’obsolescence du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
 
@@ -71,12 +71,12 @@ Les informations suivantes décrivent les limites que vous devez connaître lors
 
 ### Plus de ressources pour en savoir plus sur l’interface utilisateur mise à jour
 
-* [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) : cette FAQ aborde les questions courantes sur la nouvelle interface utilisateur [!DNL Target] et le nouveau [!UICONTROL Visual Experience Composer] (VEC), y compris les modifications de navigation, les emplacements de fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
-* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour [!UICONTROL Activities], [!UICONTROL Recommendations] et le [!UICONTROL Visual Experience Composer] (VEC).
-* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
+* [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) : cette FAQ aborde les questions courantes sur la nouvelle interface utilisateur [!DNL Target] et le [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications apportées à la navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
+* [[!DNL Target Standard/Premium] Notes de mise à jour de la version 25.2.1 (17 février 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2) : fournit un résumé des principales modifications apportées à l’interface utilisateur de [!DNL Target] pour [!UICONTROL Activités], [!UICONTROL Recommandations] et le [!UICONTROL Compositeur d’expérience visuelle] (VEC).
+* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur dans [!DNL Target] pour la bibliothèque [!UICONTROL Offres].
 * [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
-* [[!UICONTROL Visual Experience Composer] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
-* [[!UICONTROL Visual Experience Composer] options &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
+* [[!UICONTROL Compositeur d’expérience visuelle] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Compositeur d’expérience visuelle] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 
 +++
 
@@ -85,20 +85,20 @@ Les informations suivantes décrivent les limites que vous devez connaître lors
 +++Détails
 Les ressources suivantes fournissent des informations pour en savoir plus sur l’interface utilisateur de [!DNL Target] mise à jour :
 
-* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur des [!DNL Target] pour le [!UICONTROL Offers Library].
+* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur dans [!DNL Target] pour la bibliothèque [!UICONTROL Offres].
 
 * [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 
-* [[!UICONTROL Visual Experience Composer] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit un [!UICONTROL Visual Experience Composer] mis à jour (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Compositeur d’expérience visuelle] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
 
-* [[!UICONTROL Visual Experience Composer] options &#x200B;](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
+* [[!UICONTROL Compositeur d’expérience visuelle] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 
 +++
 
-## L’interface utilisateur mise à jour est-elle disponible pour tous les clients, [!UICONTROL Standard] et [!UICONTROL Premium] actuels de [!DNL Target] ?
+## L’interface utilisateur mise à jour est-elle disponible pour tous les clients [!DNL Target] actuels, [!UICONTROL Standard] et [!UICONTROL Premium] ?
 
 +++Détails
-L’interface utilisateur mise à jour est disponible pour tous [!DNL Target] clients, [!UICONTROL Standard] et [!UICONTROL Premium]. Aucune licence ou SKU mise à niveau n’est requise.
+L’interface utilisateur mise à jour est disponible pour tous les clients [!DNL Target], [!UICONTROL Standard] et [!UICONTROL Premium]. Aucune licence ou SKU mise à niveau n’est requise.
 
 Pour plus d’informations sur le déploiement et l’obsolescence du bouton (bascule) de la version temporaire de l’interface utilisateur, voir [&#x200B; Mises à jour sensibles à l’heure que vous devez connaître &#x200B;](/help/main/r-release-notes/release-notes.md#time-sensitive).
 
@@ -138,11 +138,11 @@ Pour plus d’informations, voir [Mises à jour urgentes à connaître](/help/ma
 ## Comment le VEC mis à jour gère-t-il les options de réorganisation, de redimensionnement, de déplacement, de masquage et de suppression et en quoi ces options diffèrent-elles du VEC hérité ? {#options}
 
 +++Détails
-**[!UICONTROL Rearrange*]* : dans le VEC hérité, l’option de réorganisation utilisait une superposition pour permettre aux utilisateurs de repositionner un élément dans son groupe frère. Le mouvement se limitait à modifier l’ordre entre les éléments frères.
+**[!UICONTROL Redisposer*]* : dans le VEC hérité, l’option de réorganisation utilisait une superposition pour permettre aux utilisateurs de repositionner un élément dans son groupe frère. Le mouvement se limitait à modifier l’ordre entre les éléments frères.
 
 Dans le compositeur d’expérience visuelle mis à jour, cette fonctionnalité est rationalisée grâce à des actions Avancer et Reculer. Ces commandes permettent d&#39;ajuster la position d&#39;un élément dans la mise en page, horizontalement et verticalement, en le déplaçant vers l&#39;avant ou vers l&#39;arrière dans l&#39;ordre d&#39;empilement.
 
-**Redimensionner** : la fonction [!UICONTROL Resize] se trouve dans le panneau [!UICONTROL Properties] sous la section [!UICONTROL Size]. Les utilisateurs peuvent ajuster directement la largeur et la hauteur d’un élément. Les paramètres avancés sont les suivants :
+**Redimensionner** : la fonction [!UICONTROL Redimensionner] se trouve dans le panneau [!UICONTROL Propriétés] sous la section [!UICONTROL Taille]. Les utilisateurs peuvent ajuster directement la largeur et la hauteur d’un élément. Les paramètres avancés sont les suivants :
 
 * Commandes Largeur et Hauteur min./Max.
 * Paramètres de comportement de débordement.
@@ -150,48 +150,48 @@ Dans le compositeur d’expérience visuelle mis à jour, cette fonctionnalité 
 
 Ces outils permettent de contrôler précisément les dimensions des éléments et le comportement de la disposition.
 
-**Déplacer** : l’option [!UICONTROL Move] se trouve dans le panneau [!UICONTROL Properties] sous la section [!UICONTROL Position] . Cette option permet aux utilisateurs d’effectuer les opérations suivantes :
+**Déplacer** : l’option [!UICONTROL Déplacer] se trouve dans le panneau [!UICONTROL Propriétés] sous la section [!UICONTROL Position]. Cette option permet aux utilisateurs d’effectuer les opérations suivantes :
 
 * Définissez la position de l’élément (par exemple, absolue, relative, fixe)
 * Définir l’index z pour le calque
 * Choisir un type de positionnement
 
-Le rail de [!UICONTROL Properties] mis à jour prend également en charge les styles intégrés personnalisés, ce qui offre une certaine flexibilité lorsque les options prédéfinies ne répondent pas aux besoins de mise en page.
+Le rail [!UICONTROL Propriétés] mis à jour prend également en charge les styles intégrés personnalisés, offrant ainsi une certaine flexibilité lorsque les options prédéfinies ne répondent pas aux besoins de mise en page.
 
-**[!UICONTROL Hide]** : la fonction [!UICONTROL Hide] se trouve dans le panneau [!UICONTROL Properties]. Après avoir sélectionné un élément, cliquez sur [!UICONTROL Hide Element] pour le supprimer de la vue sans le supprimer. Cela s’avère utile pour gérer la visibilité lors de la conception ou de la prévisualisation.
+**[!UICONTROL Masquer]** : la fonction [!UICONTROL Masquer] se trouve dans le panneau [!UICONTROL Propriétés]. Après avoir sélectionné un élément, cliquez sur [!UICONTROL Masquer l’élément] pour le supprimer de la vue sans le supprimer. Cela s’avère utile pour gérer la visibilité lors de la conception ou de la prévisualisation.
 
-**[!UICONTROL Remove]** : la fonction [!UICONTROL Remove] est accessible via le panneau [!UICONTROL Properties]. Après avoir sélectionné un élément, cliquez sur Supprimer l’élément pour le supprimer de la page. Cette action supprime définitivement l’élément de la mise en page.
+**[!UICONTROL Supprimer]** : la fonction [!UICONTROL Supprimer] est accessible via le panneau [!UICONTROL Propriétés]. Après avoir sélectionné un élément, cliquez sur Supprimer l’élément pour le supprimer de la page. Cette action supprime définitivement l’élément de la mise en page.
 
 +++
 
-## Puis-je réduire les rails [!UICONTROL Components], [!UICONTROL Modifications] et [!UICONTROL Properties] afin de pouvoir agrandir le panneau [!UICONTROL Design] ? {#collapse}
+## Puis-je réduire les rails [!UICONTROL Composants], [!UICONTROL Modifications] et [!UICONTROL Propriétés] afin de pouvoir agrandir le panneau [!UICONTROL Conception] ? {#collapse}
 
 +++Détails
 
-Oui, vous pouvez réduire ces rails pour vous permettre de développer la zone de travail [!UICONTROL Design] afin de faciliter la modification. Procédez comme suit :
+Oui, vous pouvez réduire ces rails pour vous permettre de développer la zone de travail [!UICONTROL Conception] afin de faciliter la modification. Procédez comme suit :
 
 >[!NOTE]
 >
->L’icône [!UICONTROL Show Components] ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ) et l’icône [!UICONTROL Show Modifications] ( ![rail Afficher les modifications](/help/main/assets/icons/History.svg) ) servent de bascule pour afficher les options appropriées.
+>L’icône [!UICONTROL Afficher les composants] ( ![Afficher l’icône des composants](/help/main/assets/icons/Add.svg) ) et l’icône [!UICONTROL Afficher les modifications] ( ![Afficher le rail des modifications](/help/main/assets/icons/History.svg) ) agissent comme des bascules pour afficher les options appropriées.
 
-**Réduire le rail de [!UICONTROL Components]**
+**Réduire le rail [!UICONTROL Composants]**
 
-Pour réduire le rail de [!UICONTROL Components] et agrandir la zone de travail de [!UICONTROL Design], alors que le rail de [!UICONTROL Components] est ouvert, cliquez sur l’icône ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ).
+Pour réduire le rail [!UICONTROL Composants] et agrandir la zone de travail [!UICONTROL Conception] alors que le rail [!UICONTROL Composants] est ouvert, cliquez sur l’icône ( ![icône Afficher les composants](/help/main/assets/icons/Add.svg) ).
 
-**Réduire le rail de [!UICONTROL Modifications]**
+**Réduire le rail [!UICONTROL Modifications]**
 
-Pour réduire le rail de [!UICONTROL Modifications] et agrandir la zone de travail de [!UICONTROL Design], alors que le rail de [!UICONTROL Modifications] est ouvert, cliquez sur l’icône [!UICONTROL Show Modifications] ( ![Afficher le rail des modifications](/help/main/assets/icons/History.svg) ).
+Pour réduire le rail [!UICONTROL Modifications] et agrandir la zone de travail [!UICONTROL Conception] alors que le rail [!UICONTROL Modifications] est ouvert, cliquez sur l’icône [!UICONTROL Afficher les modifications] ( ![Afficher le rail des modifications](/help/main/assets/icons/History.svg) ).
 
-**Réduire le rail de [!UICONTROL Properties]**
+**Réduire le rail [!UICONTROL Propriétés]**
 
-Pour réduire le rail de [!UICONTROL Properties] et agrandir la zone de travail de [!UICONTROL Design], cliquez sur l’icône [!UICONTROL Show/Hide Properties] ( ![icône Propriétés](/help/main/assets/icons/Propertie.svg) ) à droite du rail pour réduire ou afficher le rail de [!UICONTROL Properties].
+Pour réduire le rail [!UICONTROL Propriétés] et agrandir la zone de travail [!UICONTROL Conception], cliquez sur l’icône [!UICONTROL Afficher/masquer les propriétés] ( ![Icône Propriétés](/help/main/assets/icons/Propertie.svg) ) à droite du rail afin de réduire ou d’afficher le rail [!UICONTROL Propriétés].
 
 +++
 
-## Les états [!UICONTROL Save as Draft] et [!UICONTROL Syncing] sont-ils toujours disponibles ?
+## Les états [!UICONTROL Enregistrer en tant que brouillon] et [!UICONTROL Synchronisation] sont-ils toujours disponibles ?
 
 +++Détails
-Avec les dernières mises à jour de l’interface utilisateur, les états [!UICONTROL Save as Draft] et [!UICONTROL Syncing] ne sont plus disponibles. Pour plus d’informations, voir Statuts sous [Appliquer des filtres à la liste Activités](/help/main/c-activities/activities.md#filters) dans *[!UICONTROL Activities overview]*.
+Avec les dernières mises à jour de l’interface utilisateur, les états [!UICONTROL Enregistrer en tant que brouillon] et [!UICONTROL Synchronisation] ne sont plus disponibles. Pour plus d’informations, voir Statuts sous [Appliquer des filtres à la liste des activités](/help/main/c-activities/activities.md#filters) dans *[!UICONTROL Présentation des activités]*.
 
 +++
 
@@ -205,14 +205,14 @@ Les activités créées ou modifiées dans l’interface utilisateur mise à jou
 ## Quelles sont les différences entre la création d’offres dans l’interface utilisateur héritée et celle mise à jour ? Des attributs supplémentaires sont-ils requis ?
 
 +++Détails
-L’interface utilisateur de [!UICONTROL Offer Library] nécessite des définitions d’attribut cohérentes pour toutes les offres. Lors de la création d’une offre d’activité uniquement (ad hoc), les utilisateurs doivent également spécifier un nom d’offre. Ces informations s’affichent dans le [!UICONTROL Form-based Experience Composer], ce qui facilite l’identification des offres sans consulter le code ou le contenu.
+L’interface utilisateur [!UICONTROL Bibliothèque des offres] nécessite des définitions d’attribut cohérentes pour toutes les offres. Lors de la création d’une offre d’activité uniquement (ad hoc), les utilisateurs doivent également spécifier un nom d’offre. Ces informations s’affichent dans le [!UICONTROL Compositeur d’expérience d’après les formulaires], ce qui facilite l’identification des offres sans passer en revue le code ou le contenu.
 
 +++
 
 ## Qu’est-il advenu des liens de prévisualisation des offres dans l’interface utilisateur mise à jour ?
 
 +++Détails
-[!UICONTROL Experience Fragment] liens d’aperçu sont disponibles dans la fenêtre contextuelle [!UICONTROL Quick Info], qui s’affiche lorsque vous cliquez sur l’icône d’informations ( ![icône Infos](/help/main/assets/icons/InfoOutline.svg) ) correspondant au fragment sélectionné.
+[!UICONTROL Fragment d’expérience] les liens d’aperçu sont disponibles dans la fenêtre contextuelle [!UICONTROL Informations rapides] qui s’affiche lorsque vous cliquez sur l’icône d’information ( ![icône d’information](/help/main/assets/icons/InfoOutline.svg) ) correspondant au fragment sélectionné.
 
 +++
 
@@ -231,14 +231,14 @@ Pour plus d’informations, consultez [Extension Assistant d’édition visuelle
 Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur la liste autorisée, consultez les articles suivants :
 
 * **Enhanced Experience Composer (EEC)** : consultez la section [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) dans *Résolution des problèmes liés au Enhanced Experience Composer*
-* **[!UICONTROL Recommendations]** : voir [&#x200B; adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+* **[!UICONTROL Recommendations]** : consultez la section [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++
 
 ## L’environnement est-il réinitialisé à l’évaluation par défaut dans la nouvelle interface utilisateur de Recommendations ?
 
 +++Détails
-Les environnements utilisent désormais par défaut le dernier utilisé par le client. Pour changer d’environnement, utilisez le sélecteur de [!UICONTROL Environment] dans le coin supérieur droit de l’interface utilisateur de [!UICONTROL Catalog Search].
+Les environnements utilisent désormais par défaut le dernier utilisé par le client. Pour changer d’environnement, utilisez le sélecteur [!UICONTROL Environnement] dans le coin supérieur droit de l’interface utilisateur [!UICONTROL Recherche catalogue].
 
 ![&#x200B; Commutateur d’environnement &#x200B;](/help/main/c-intro/assets/environmnent.png)
 

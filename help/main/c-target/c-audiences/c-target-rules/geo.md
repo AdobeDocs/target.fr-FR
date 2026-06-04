@@ -16,7 +16,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
-source-wordcount: 1059
+source-wordcount: 1078
 ht-degree: 40%
 
 ---
@@ -29,28 +29,28 @@ Les paramètres de géolocalisation vous permettent de cibler des activités et 
 
 ## Création d’une audience avec ciblage géographique {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser et déposez **[!UICONTROL Geo]** dans le volet du Créateur d’audiences.
+1. Effectuez un glisser-déposer de **[!UICONTROL Géo]** dans le volet du créateur d’audiences.
 
-1. Cliquez sur **[!UICONTROL Select]**, puis sélectionnez l’une des options suivantes :
+1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-   * [!UICONTROL Country/Region]
-   * [!UICONTROL State]
-   * [!UICONTROL City]
-   * [!UICONTROL Zip Code]
-   * [!UICONTROL Longitude]
-   * [!UICONTROL Latitude]
-   * [!UICONTROL DMA]
-   * [!UICONTROL Mobile Carrier]
+   * [!UICONTROL Pays/zone géographique]
+   * [!UICONTROL État]
+   * [!UICONTROL Ville]
+   * [!UICONTROL &#x200B; Code postal &#x200B;]
+   * [!UICONTROL &#x200B; Longitude &#x200B;]
+   * [!UICONTROL &#x200B; Latitude &#x200B;]
+   * [!UICONTROL &#x200B; DMA &#x200B;]
+   * [!UICONTROL Opérateur mobile]
 
    Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.
 
-   Par [!UICONTROL Mobile Carrier], [!DNL Target] utilise les données d’enregistrement des adresses IP (à qui appartient le bloc d’adresses IP) pour déterminer l’opérateur mobile approprié à l’aide de [Mobile Country Codes (MCC) et Mobile Network Codes (MNC)](https://www.mcc-mnc.com).
+   Pour [!UICONTROL Opérateur mobile], [!DNL Target] utilise les données d’enregistrement des adresses IP (à qui appartient le bloc d’adresses IP) pour déterminer l’opérateur mobile approprié à l’aide des [Codes de pays mobiles (MCC) et Codes de réseau mobile (MNC)](https://www.mcc-mnc.com).
 
 1. Spécifiez un opérateur et la valeur appropriée.
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Done]**.
+1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 
 L’illustration suivante présente une audience qui cible les utilisateurs et utilisatrices accédant à l’activité à partir d’une latitude supérieure à 44° et d’une longitude inférieure à 22°.
 

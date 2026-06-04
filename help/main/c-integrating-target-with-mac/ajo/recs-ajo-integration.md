@@ -18,7 +18,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
-source-wordcount: 633
+source-wordcount: 637
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Ces cas d’utilisation ne sont que quelques-uns des cas d’utilisation possibl
 
   Après une période spécifiée, une action personnalisée dans [!DNL Journey Optimizer] appelle [!DNL Target Recommendations] pour déterminer les éléments consultés par chaque visiteur, à l’aide du [!DNL Adobe Experience Cloud Identifier] de chaque visiteur (EDID), du profil de [!DNL Target] du visiteur et d’un algorithme [basé sur l’utilisateur](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). [!DNL Adobe Journey Optimizer] envoie ensuite à chaque membre de l’audience qualifiée un e-mail personnalisé avec des images et des liens vers les éléments consultés de chaque visiteur pour lui permettre de revenir et de procéder à un achat.
 
-  Dans ce scénario, le [!UICONTROL Experience Cloud Visitor ID] (ECID) et le contenu du profil [!DNL Target] de chaque visiteur sont utilisés pour générer la recommandation en fonction de l’algorithme récemment consulté.
+  Dans ce scénario, l’[!UICONTROL identifiant visiteur Experience Cloud] (ECID) et le contenu du profil [!DNL Target] de chaque visiteur sont utilisés pour générer la recommandation en fonction de l’algorithme récemment consulté.
 
   Supposons, par exemple, qu’un visiteur visite un site web de vente au détail et consulte plusieurs montres. Le profil [!DNL Target] de ce visiteur est mis à jour avec une liste des montres consultées. À l’aide de l’ECID et du profil de [!DNL Target] du visiteur, [!DNL Target] envoie la recommandation à [!DNL Journey Optimizer]. [!DNL Journey Optimizer] envoie ensuite un e-mail contenant des images et des liens vers les montres que ce visiteur a consultées, à l’aide de l’algorithme récemment consulté. Un autre visiteur reçoit un e-mail personnalisé contenant des images et des liens vers les éléments qu’il a consultés. Chaque e-mail est personnalisé pour chaque visiteur.
 
