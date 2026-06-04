@@ -1,13 +1,16 @@
 ---
 keywords: recherche catalogue;catalogue;recherche;exclusion;collection;filtre;recommandations
-description: Découvrez comment utiliser la  [!DNL Recommendations] [!UICONTROL  Recherche catalogue ] pour localiser des produits ou du contenu, supprimer des éléments de votre catalogue, etc.
-title: Comment utiliser la recherche  [!DNL Recommendations] [!UICONTROL  catalogue ] ?
+description: Découvrez comment utiliser la  [!DNL Recommendations] [!UICONTROL &#x200B; Recherche catalogue &#x200B;] pour localiser des produits ou du contenu, supprimer des éléments de votre catalogue, etc.
+title: Comment utiliser la recherche  [!DNL Recommendations] [!UICONTROL &#x200B; catalogue &#x200B;] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 552
@@ -139,7 +142,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modifier les colonnes
 
-Vous pouvez modifier les colonnes actives de la page [!UICONTROL  Recherche catalogue ].
+Vous pouvez modifier les colonnes actives de la page [!UICONTROL &#x200B; Recherche catalogue &#x200B;].
 
 1. Cliquez sur l’icône **[!UICONTROL Personnaliser le tableau]** ( ![Icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ).
 

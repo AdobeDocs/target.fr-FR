@@ -5,9 +5,15 @@ title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
 TQID: https://experienceleague.adobe.com/nILXQc8jdwte7CL1S0v7NDmyeh72N8yeI-gwBP2wz8g
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 826
@@ -21,7 +27,7 @@ Les audiences dans [!DNL Adobe Target] déterminent qui peut voir le contenu et 
 
 Les audiences sont utilisées partout où le ciblage est disponible. Lors du ciblage d’une activité, vous disposez des options suivantes :
 
-* Sélectionnez une audience réutilisable dans la liste [!UICONTROL  Audiences ]
+* Sélectionnez une audience réutilisable dans la liste [!UICONTROL &#x200B; Audiences &#x200B;]
 * [Créer une audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) et la cibler
 * [Combiner plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc
 
@@ -38,7 +44,7 @@ Il existe deux types d’audiences dans [!DNL Target] :
 
 Pour accéder à la liste des [!UICONTROL audiences], cliquez sur **[!UICONTROL Audiences]** dans la barre de menu supérieure :
 
-![[!UICONTROL Liste ] audiences](assets/audiences_list.png)
+![[!UICONTROL Liste &#x200B;] audiences](assets/audiences_list.png)
 
 La liste [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser dans vos activités. Utilisez la liste [!UICONTROL Audiences] pour créer, modifier, dupliquer, copier ou combiner des audiences. La liste affiche également la source dans laquelle l’audience a été créée :
 

@@ -49,7 +49,7 @@ Le degré de confiance d’une expérience ou d’une offre affichée est une pr
 
 ## Comprendre comment l’intervalle de confiance de l’effet élévateur est déterminé {#pdf}
 
-Téléchargez le fichier PDF [ Intervalle de confiance pour l’effet élévateur ](/help/main/assets/confidence_interval_lift.pdf) pour plus d’informations.
+Téléchargez le fichier PDF [&#x200B; Intervalle de confiance pour l’effet élévateur &#x200B;](/help/main/assets/confidence_interval_lift.pdf) pour plus d’informations.
 
 ## Comment les limites de l’effet élévateur sont-elles calculées ? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -116,4 +116,4 @@ Les limites de l’effet élévateur pour l’expérience B seraient alors :
 Dans certains cas, [!DNL Target] n’affiche pas les limites de l’effet élévateur :
 
 * Quelle que soit l’activité, lorsque le nombre total de visites ou de visiteurs est inférieur à 30.
-* Pour les activités [!UICONTROL  Affectation automatique ], aucune limite d’effet élévateur ne s’affiche tant qu’une expérience n’a pas atteint un degré de confiance de 60 %.
+* Pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;], aucune limite d’effet élévateur ne s’affiche tant qu’une expérience n’a pas atteint un degré de confiance de 60 %.

@@ -28,7 +28,7 @@ Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offre
 
 1. (Facultatif) Basculez entre la vue [!UICONTROL Carte] et la vue [!UICONTROL Liste], cliquez sur l’icône [!UICONTROL Vue Carte] ou l’icône [!UICONTROL Vue Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres d’affichage] pour configurer plus en détail les colonnes lors de l’affichage de la [!UICONTROL Vue Liste].
 
-   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL  Liste ] :
+   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL &#x200B; Liste &#x200B;] :
 
    ![Options de la vue Liste](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 

@@ -71,7 +71,7 @@ Utilisez les URL d’aperçu d’expérience pour partager des expériences avec
 
 * L’aperçu peut être utilisé pour les activités enregistrées tant que la page n’a pas été modifiée.
 * L’URL de prévisualisation de l’expérience est disponible, que l’activité soit active ou inactive.
-* Vous ne pouvez pas prévisualiser une expérience dont le statut est [!UICONTROL  Brouillon ].
+* Vous ne pouvez pas prévisualiser une expérience dont le statut est [!UICONTROL &#x200B; Brouillon &#x200B;].
 * L’affichage des URL d’aperçu d’expérience n’a aucune incidence sur les rapports.
 
 **Résolution des problèmes liés aux URL d’aperçu d’expérience**

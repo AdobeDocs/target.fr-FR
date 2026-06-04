@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 709
@@ -78,7 +80,7 @@ Options ![[!UICONTROL Promotion avant] et [!UICONTROL Promotion arrière] dans [
    | Type de promotion | Tri par défaut | Tri de sauvegarde | Option de filtrage dynamique |
    | --- | --- | --- | --- |
    | [!UICONTROL Liste des éléments] | Commande saisie dans l’interface utilisateur/l’API Target | Aléatoire (si sélectionné via l’interface utilisateur/l’API) | Non |
-   | [!UICONTROL  Promouvoir par attribut ] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
+   | [!UICONTROL &#x200B; Promouvoir par attribut &#x200B;] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
    | [!UICONTROL Promouvoir une collection] | `entity.value` (ordre décroissant) | Aucune randomisation | Non |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

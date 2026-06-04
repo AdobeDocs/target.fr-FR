@@ -1,7 +1,7 @@
 ---
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
-description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de [!UICONTROL ] (AP) ou de [!UICONTROL ciblage automatique] dans  [!DNL Adobe Target].
-title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité [!UICONTROL ] ?
+description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de  (AP) ou de [!UICONTROL ciblage automatique] dans  [!DNL Adobe Target].
+title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # Sélectionnez le contrôle de votre activité  ou [!UICONTROL Ciblage automatique]
 
-Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Cette fonctionnalité vous permet d’acheminer le trafic de contrôle vers les expériences spécifiques, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers ce contrôle.
 
@@ -29,13 +29,13 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 
 ## Définition d’une expérience spécifique comme contrôle
 
-1. Lors de la création ou de la modification d’une activité [ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
+1. Lors de la création ou de la modification d’une activité [&#x200B; &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
 1. Sur la page [!UICONTROL Ciblage] (étape 2 du workflow en trois parties), sélectionnez l’expérience souhaitée comme contrôle.
 1. Spécifiez l’affectation de trafic souhaitée pour l’expérience de contrôle et les autres expériences.
 
    Pour un contrôle d’expérience spécifique, 10 à 30 % sont conseillés.
 
-1. Passez à la page [!UICONTROL  Objectifs et paramètres ].
+1. Passez à la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;].
 
 ## Limites et considérations connues
 

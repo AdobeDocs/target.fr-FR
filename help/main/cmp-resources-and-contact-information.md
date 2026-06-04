@@ -5,10 +5,18 @@ title: Où puis-je trouver des informations sur les ressources et les contacts p
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 TQID: https://experienceleague.adobe.com/wwItoNoGUkLkNZED9frN7e5FE7O-iozDzMd2ekDdgfM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1326
@@ -22,9 +30,9 @@ Informations sur les ressources supplémentaires pouvant vous en apprendre plus 
 
 ## [!UICONTROL Forum de la communauté Target] {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
-Découvrez la [!UICONTROL Communauté ] : votre hub pour obtenir des informations et collaborer.
+Découvrez la [!UICONTROL Communauté &#x200B;] : votre hub pour obtenir des informations et collaborer.
 
-Le [!UICONTROL Forum de la communauté ]est votre destination de prédilection pour tout ce qui n’en [!DNL Adobe Targe] pas. Que vous débutiez ou que vous soyez un praticien chevronné, la communauté offre de précieuses possibilités pour :
+Le [!UICONTROL Forum de la communauté &#x200B;]est votre destination de prédilection pour tout ce qui n’en [!DNL Adobe Targe] pas. Que vous débutiez ou que vous soyez un praticien chevronné, la communauté offre de précieuses possibilités pour :
 
 * **Explorer [!DNL Target] fonctionnalités** : découvrez les bonnes pratiques et de nouvelles façons d’utiliser [!DNL Target].
 * **Connecter et collaborer** : collaborez avec des pairs et des experts en [!DNL Adobe] pour partager des informations et résoudre des défis ensemble.

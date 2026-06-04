@@ -1,6 +1,6 @@
 ---
 keywords: priorité;création d’expérience;priorité;expérience;audience;expérience;changer d’expérience;compositeur d’expérience visuelle
-description: Découvrez comment les visiteurs peuvent basculer entre les expériences dans une activité  [!DNL Adobe Target] [!UICONTROL  ciblage d’expérience ] (XT) au fur et à mesure de l’évolution de leurs profils.
+description: Découvrez comment les visiteurs peuvent basculer entre les expériences dans une activité  [!DNL Adobe Target] [!UICONTROL &#x200B; ciblage d’expérience &#x200B;] (XT) au fur et à mesure de l’évolution de leurs profils.
 title: Les visiteurs peuvent-ils changer d’expérience dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
@@ -54,7 +54,7 @@ Pour utiliser ces fonctionnalités dans [!DNL Target], il est important de compr
 
   Si cela n’est pas souhaitable, vous pouvez créer une autre expérience ciblée sur l’audience inverse (par exemple, « Hors États-Unis » contrairement à « États-Unis »).
 
-  Une autre option consiste à créer une activité [!UICONTROL  Test A/B ] ciblée sur l’audience souhaitée avec une affectation du trafic de 100 %, comme illustré ci-dessous :
+  Une autre option consiste à créer une activité [!UICONTROL &#x200B; Test A/B &#x200B;] ciblée sur l’audience souhaitée avec une affectation du trafic de 100 %, comme illustré ci-dessous :
 
   ![Priorité d’une expérience](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_one_experience-new.png)
 

@@ -23,7 +23,7 @@ Dans [!DNL Target], les mesures de succès sont préconfigurées avec les option
 
 Par défaut, les événements de conversion sont définis sur « [!UICONTROL Incrémenter le décompte et maintenir l’utilisateur en activité] ». Les conversions ne sont comptabilisées qu’une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu de l’activité.
 
-Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL  Incrémenter le comptage et maintenir l’utilisateur dans l’activité ] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
+Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL &#x200B; Incrémenter le comptage et maintenir l’utilisateur dans l’activité &#x200B;] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 >[!NOTE]
 >

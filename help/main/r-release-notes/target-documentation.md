@@ -5,9 +5,13 @@ title: Où trouver de la documentation et des ressources pour  [!DNL Adobe Targe
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 TQID: https://experienceleague.adobe.com/68ZfYI2cTljrtoOwDja1bb3ZdZYMi-zOSPB7NgL3EbA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 511
@@ -26,7 +30,7 @@ Les guides et ressources suivants sont disponibles pour [!DNL Target] :
 | [Guide du professionnel d’](/help/main/target-home.md)<br>(Ce guide) | Informations d’aperçu, étapes et copies d’écran axées sur l’interaction avec [!DNL Target] via l’interface utilisateur. Ce guide décrit toutes les actions et options disponibles, y compris les pièges à éviter. Il s’agit de la ressource la plus détaillée pour travailler avec l’interface utilisateur de [!DNL Target]. |
 | [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr) | Vidéos et tutoriels pour vous aider à découvrir les nombreux composants de [!DNL Target]. |
 | [Communauté Adobe Experience League Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) | Apprenez-en plus sur ce que [!DNL Target] a à offrir, entrez en contact avec vos pairs et [!DNL Adobe] des experts, et votez ou proposez une idée pour une prochaine version de [!DNL Target]. |
-| [Guide du développeur ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} | Les informations sur le site des développeurs d’Adobe Target vous aident à implémenter [!DNL Target] sur les applications côté client et côté serveur, les applications mobiles, IoT, etc. Vous pouvez également exporter vos données [!DNL Target] vers des solutions tierces. |
+| [Guide du développeur &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} | Les informations sur le site des développeurs d’Adobe Target vous aident à implémenter [!DNL Target] sur les applications côté client et côté serveur, les applications mobiles, IoT, etc. Vous pouvez également exporter vos données [!DNL Target] vers des solutions tierces. |
 | [API Target Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html?lang=fr){target=_blank} | Informations sur les API [!UICONTROL Recommendations] qui vous permettent d’interagir par programmation avec [!DNL Target] serveurs de recommandations . Ces API peuvent être intégrées à une plage de piles d’applications pour exécuter des fonctions que vous exécuteriez normalement via l’interface utilisateur de [!DNL Target]. |
 | [API de diffusion côté serveur](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank} | Informations sur les ressources qui composent l’API de diffusion Adobe Target. |
 | [SDK côté serveur Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=fr){target=_blank} | Explique comment déployer [!DNL Target] côté serveur à l’aide de SDK. |

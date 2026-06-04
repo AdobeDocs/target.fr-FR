@@ -5,8 +5,11 @@ title: Où puis-je consulter le statut de  [!DNL Target]  et d’autres produits
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 TQID: https://experienceleague.adobe.com/FVxxay-rE3sqbBriUJcqsXsc4WkzsGPQHha0G0Fxt2A
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 319
@@ -16,11 +19,11 @@ ht-degree: 79%
 
 # Mises à jour d’état du système et notifications proactives
 
-Utilisez la page [!UICONTROL Statut du système ] et des notifications proactives pour vous tenir au courant du statut des produits [!DNL Adobe] et des solutions [!DNL Adobe Experience Cloud]. Les notifications proactives vous alertent sur les événements panne et de maintenance.
+Utilisez la page [!UICONTROL Statut du système &#x200B;] et des notifications proactives pour vous tenir au courant du statut des produits [!DNL Adobe] et des solutions [!DNL Adobe Experience Cloud]. Les notifications proactives vous alertent sur les événements panne et de maintenance.
 
 ## Mises à jour d’état du système
 
-Utilisez la page [!UICONTROL État du système ] pour afficher l’état de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [!UICONTROL État du système &#x200B;] pour afficher l’état de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 >[!NOTE]
 >

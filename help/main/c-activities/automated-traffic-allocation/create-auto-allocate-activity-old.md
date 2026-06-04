@@ -17,7 +17,7 @@ Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL A
 
 Outre l’activité [!UICONTROL Affectation automatique] [!UICONTROL Test A/B] (abordée dans cet article), [!DNL Target] fournit deux types supplémentaires d’activités [!UICONTROL Test A/B] : [!UICONTROL Manuel (par défaut)] et [!UICONTROL Ciblage automatique]. Voir [Types d’activités de test A/B](/help/main/c-activities/t-test-ab/test-ab.md#types) dans la présentation des tests A/B **.
 
-Pour créer une activité [!UICONTROL  Affectation automatique ] :
+Pour créer une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] :
 
 1. Dans la liste **[!UICONTROL Activités]**, cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Test A/B]**.
 
@@ -74,7 +74,7 @@ Pour créer une activité [!UICONTROL  Affectation automatique ] :
 
 1. Dans la zone [!UICONTROL Audience], cliquez sur l’icône de modification (les points de suspension verticaux), cliquez sur **[!UICONTROL Remplacer l’audience]**, puis [sélectionnez l’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour votre activité.
 
-   Par défaut, l’audience est définie sur [!UICONTROL  Tous les visiteurs ].
+   Par défaut, l’audience est définie sur [!UICONTROL &#x200B; Tous les visiteurs &#x200B;].
 
 1. Sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -94,7 +94,7 @@ Pour créer une activité [!UICONTROL  Affectation automatique ] :
 
    * **[!UICONTROL Affectation automatique à la meilleure expérience]** : la plupart des participants à une activité sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances.
 
-   * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** : [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en proposant l’expérience la plus personnalisée aux visiteurs selon leur profil client individuel et le comportement antérieur de visiteurs similaires. Pour plus d’informations, voir [ Ciblage automatique ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+   * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** : [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en proposant l’expérience la plus personnalisée aux visiteurs selon leur profil client individuel et le comportement antérieur de visiteurs similaires. Pour plus d’informations, voir [&#x200B; Ciblage automatique &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
    Vous pouvez également cliquer sur **[!UICONTROL Ajouter]** pour ajouter une autre expérience à l’activité.
 

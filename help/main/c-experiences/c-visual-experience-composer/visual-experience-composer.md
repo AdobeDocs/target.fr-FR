@@ -5,9 +5,13 @@ title: Comment utiliser le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 TQID: https://experienceleague.adobe.com/X4nfYuOtD3TVusnVIIEZhXwUdCZ-dMvbZeJlrkmI9Hs
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 1175
@@ -91,7 +95,7 @@ Voici quelques raisons pour lesquelles vous souhaitez annuler le chargement des 
 * Vous souhaitez insérer ou modifier du code personnalisé
 * Vous avez saisi par erreur une URL erronée pour la page
 * Vous souhaitez activer ou désactiver JavaScript avant de charger la page dans VEC
-* Vous souhaitez ajouter d’autres règles de test de modèle aux critères [!UICONTROL  Diffusion de page ]
+* Vous souhaitez ajouter d’autres règles de test de modèle aux critères [!UICONTROL &#x200B; Diffusion de page &#x200B;]
 * Vous souhaitez remplacer le bouton global [!UICONTROL Enhanced Experience Composer] (EEC) lors du chargement d’une page via EEC ou iframe-only
 
 Si vous annulez le chargement de la page dans le VEC, vous pouvez basculer entre les expériences de l’activité sans attendre que la page se charge. Pour afficher à nouveau la page dans le VEC, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.

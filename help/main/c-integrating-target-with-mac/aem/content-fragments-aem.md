@@ -1,13 +1,20 @@
 ---
 keywords: experience;json;aem;adobe experience manager;exporter vers adobe target;fragments de contenu;fragments;CF;cf,découplé;personnalisation;expérimentation
-description: Découvrez comment utiliser  [!DNL Adobe Experience Manager] [!UICONTROL  fragments de contenu ] dans  [!DNL Adobe Target]  activités.
+description: Découvrez comment utiliser  [!DNL Adobe Experience Manager] [!UICONTROL &#x200B; fragments de contenu &#x200B;] dans  [!DNL Adobe Target]  activités.
 title: Comment utiliser  [!DNL Adobe Experience Manager] (AEM) [!UICONTROL fragments de contenu] ?
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 TQID: https://experienceleague.adobe.com/tb500kFSZoR3czs10Gs3EIOWEX2ybnd7tSWwDmWSMWQ
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 775
@@ -43,7 +50,7 @@ Pour en savoir plus sur AEM [!UICONTROL Fragments de contenu] et [!UICONTROL Fra
 
 ## Conditions {#requirements}
 
-Vous devez utiliser [[!DNL AEM] ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
+Vous devez utiliser [[!DNL AEM] &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=fr){target=_blank}. Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
 Contactez l’[Assistance clientèle d’Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle autorise l’intégration et vous fournisse les détails d’authentification.
 
@@ -59,9 +66,9 @@ Après avoir effectué les tâches précédentes, le [!UICONTROL fragment de con
 
 [!DNL Target] recherche actuellement des [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
 
-Le [!UICONTROL  fragment de contenu ] est importé dans [!DNL Target] en tant qu’offre JSON. La version [!UICONTROL principale] Fragment de contenu, reste en [!DNL AEM]. Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+Le [!UICONTROL &#x200B; fragment de contenu &#x200B;] est importé dans [!DNL Target] en tant qu’offre JSON. La version [!UICONTROL principale] Fragment de contenu, reste en [!DNL AEM]. Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 
-Vous pouvez filtrer et rechercher par [!UICONTROL fragments d’expérience ], [!UICONTROL fragments d’expérience JSON] et [!UICONTROL fragments de contenu] pour vous aider à distinguer les différents types d’offres exportés vers [!DNL Target].
+Vous pouvez filtrer et rechercher par [!UICONTROL fragments d’expérience &#x200B;], [!UICONTROL fragments d’expérience JSON] et [!UICONTROL fragments de contenu] pour vous aider à distinguer les différents types d’offres exportés vers [!DNL Target].
 
 ![Filtrer par types de fragments de contenu : HTML ou JSON dans l’interface utilisateur de Target](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
@@ -91,6 +98,6 @@ Vous pouvez utiliser [!UICONTROL fragments de contenu] dans des activités [!DNL
 ## Informations supplémentaires
 
 * [!DNL Target] recherche actuellement des [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
-* Le [!UICONTROL  fragment de contenu ] est importé dans [!DNL Target] en tant qu’offre JSON. La version [!UICONTROL principale] Fragment de contenu, reste en [!DNL AEM]. Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+* Le [!UICONTROL &#x200B; fragment de contenu &#x200B;] est importé dans [!DNL Target] en tant qu’offre JSON. La version [!UICONTROL principale] Fragment de contenu, reste en [!DNL AEM]. Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 * Vous ne pouvez pas créer de [!UICONTROL fragments de contenu] à l’aide de [!DNL Adobe I/O]. Créez des [!UICONTROL fragments de contenu] à l’aide d’AEM, comme expliqué ci-dessus.
 * Si vous mettez à jour votre [!UICONTROL fragment de contenu] dans AEM, le [!UICONTROL fragment de contenu] doit à nouveau être publié et exporté vers [!DNL Target] afin que [!DNL Target] puissiez utiliser les dernières modifications.

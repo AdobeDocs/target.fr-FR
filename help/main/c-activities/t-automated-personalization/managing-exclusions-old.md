@@ -1,7 +1,7 @@
 ---
 keywords: dédupliquer;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;groupe d’exclusion;
-description: Gérez les exclusions dans les activités  [!DNL Adobe Target] [!UICONTROL ] (AP). Créez des groupes d’exclusion et excluez les offres en double, les expériences spécifiques et le contenu par défaut.
-title: Comment gérer les exclusions dans les activités [!UICONTROL ] ?
+description: Gérez les exclusions dans les activités  [!DNL Adobe Target]  (AP). Créez des groupes d’exclusion et excluez les offres en double, les expériences spécifiques et le contenu par défaut.
+title: Comment gérer les exclusions dans les activités  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -31,7 +31,7 @@ Vous pouvez également limiter quelles audiences peuvent voir des offres spécif
 
    ![Lien Gérer le contenu](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Dans la boîte de dialogue [!UICONTROL  Gérer le contenu ], cliquez sur **[!UICONTROL Groupes d’exclusion]**.
+1. Dans la boîte de dialogue [!UICONTROL &#x200B; Gérer le contenu &#x200B;], cliquez sur **[!UICONTROL Groupes d’exclusion]**.
 
    ![Gérer le contenu > Boîte de dialogue Groupes d’exclusion](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 

@@ -5,8 +5,10 @@ title: Quelles sont les bonnes pratiques pour une activité de [!UICONTROL test 
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
 TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 625
@@ -49,7 +51,7 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
 ## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Utilisez fréquemment le rapport [ Contribution des emplacements ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
+* Utilisez fréquemment le rapport [&#x200B; Contribution des emplacements &#x200B;](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
 * Dans le [rapport Performance de l’expérience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l’aide des filtres [!UICONTROL Meilleur 5] et [!UICONTROL Pire 5].
 
   Le filtre [!UICONTROL Tous] rend difficile l’extraction des informations souhaitées. En outre, toutes les expériences ne peuvent pas s’afficher dans le graphique. Utilisez le filtre [!UICONTROL Tout] si vous souhaitez examiner une expérience spécifique qui ne fait pas partie des cinq meilleures ou pires.

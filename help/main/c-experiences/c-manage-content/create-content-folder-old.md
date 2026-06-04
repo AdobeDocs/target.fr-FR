@@ -29,7 +29,7 @@ Le processus de création de dossiers pour les offres de code et les offres d’
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## Dossiers d’offres d’images
 
@@ -51,8 +51,8 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 
 1. (Facultatif) Cochez la case **[!UICONTROL Réorganisable dans la vue Liste]**.
 
-   Indique que vous et d’autres personnes pouvez réorganiser la position du dossier dans la vue [!UICONTROL  Liste].
+   Indique que vous et d’autres personnes pouvez réorganiser la position du dossier dans la vue [!UICONTROL &#x200B; Liste].
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).

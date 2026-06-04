@@ -28,4 +28,4 @@ Pour accéder aux éléments de menu [!UICONTROL Administration], cliquez sur **
 * [Jetons de réponse](/help/main/administrating-target/response-tokens.md)
 * [Utilisateurs et utilisatrices](/help/main/administrating-target/c-user-management/user-management.md)
 
-![Menu Administration ](/help/main/administrating-target/assets/administration.png)
+![Menu Administration &#x200B;](/help/main/administrating-target/assets/administration.png)

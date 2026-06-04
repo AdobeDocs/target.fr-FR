@@ -27,7 +27,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
 
    ![image offer_filter](assets/offers_filter.png)
 
-1. (Facultatif) Cliquez sur la liste déroulante **** pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
+1. (Facultatif) Cliquez sur la liste déroulante **&#x200B;**&#x200B;pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
 
 1. (Facultatif) Effectuez des tâches supplémentaires en pointant sur l’offre ou le dossier de votre choix sur l’onglet [!UICONTROL Offres de code], puis en cliquant sur l’icône de votre choix.
 
@@ -43,7 +43,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
 
    Selon vos autorisations, il se peut que vous ne voyiez pas d’icônes pour toutes les options. Par exemple, un utilisateur disposant des autorisations [!UICONTROL Observateur] ne dispose pas des droits d’utilisation de l’option [!UICONTROL Copier].
 
-   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 1. (Facultatif) Effectuez des tâches supplémentaires en pointant sur l’offre d’image ou le dossier de votre choix sur l’onglet [!UICONTROL Offres d’image], puis en cliquant sur l’icône de votre choix.
 
@@ -58,7 +58,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
    * Annoter
    * Copier
 
-   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
    >[!NOTE]
    >

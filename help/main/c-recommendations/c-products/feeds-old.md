@@ -121,7 +121,7 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -232,10 +232,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    ![Boîte de dialogue Créer un flux](assets/CreateFeed.png)
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source ****.
+1. Sélectionnez un type de Source **&#x200B;**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit ]
+   * [!UICONTROL Flux de produit &#x200B;]
    * [!UICONTROL Classifications Analytics]
 
    Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
@@ -296,7 +296,7 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL  Synchronisation ] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
 | [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
 | [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |

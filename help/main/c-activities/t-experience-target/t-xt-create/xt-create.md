@@ -5,9 +5,14 @@ title: Comment créer une activité [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 TQID: https://experienceleague.adobe.com/RKSF7zTO3lb4hs1VaJuTUR9v8AnOlCjHkp-whqBIcKo
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 443
@@ -47,7 +52,7 @@ Pour plus d’informations sur [!UICONTROL le ciblage d’expérience], un scén
 
 1. (Conditionnel) Si vous êtes un client [!DNL Target Premium], [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L’option [!UICONTROL  Choisir un lieu de travail ] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
+   L’option [!UICONTROL &#x200B; Choisir un lieu de travail &#x200B;] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
 
 1. Indiquez votre [URL d’activité](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) puis cliquez sur **[!UICONTROL Créer]**.
 

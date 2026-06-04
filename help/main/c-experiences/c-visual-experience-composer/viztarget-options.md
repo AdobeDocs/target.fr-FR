@@ -1,13 +1,18 @@
 ---
 keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer l’élément;élargir la sélection;naviguer sur le lien;naviguer;lien;annuler;lien;annuler;rétablir;annuler;annuler;annuler;annuler;annuler les événements personnalisés;événements personnalisés;événements personnalisés;composants web
-description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL  Compositeur d’expérience visuelle ] (VEC).
+description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL &#x200B; Compositeur d’expérience visuelle &#x200B;] (VEC).
 title: Comment utiliser les options du [!UICONTROL compositeur d’expérience visuelle] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 TQID: https://experienceleague.adobe.com/pC9GSE2Uf3f-WCG72O6gUxVwgYY18y6frQ0VCk-jvpA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
 workflow-type: tm+mt
 source-wordcount: 2249
@@ -25,7 +30,7 @@ La version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introd
 
 >[!IMPORTANT]
 >
->La mise à jour du [!UICONTROL compositeur d’édition visuelle] nécessite l’extension [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible sur [!DNL Chrome Web Store].
+>La mise à jour du [!UICONTROL compositeur d’édition visuelle] nécessite l’extension [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible sur [!DNL Chrome Web Store].
 
 Le compositeur d’expérience visuelle s’affiche lorsque vous créez ou modifiez une activité existante.
 
@@ -99,18 +104,18 @@ Pour ajouter un nouveau composant à une expérience :
 
    Les composants disponibles sont regroupés dans des conteneurs logiques :
 
-   * [!UICONTROL  De Base ]
+   * [!UICONTROL &#x200B; De Base &#x200B;]
       * [!UICONTROL Diviseur]
-      * 
+      * &#x200B;
       * [!UICONTROL Image]
    * [!UICONTROL Texte]
       * [!UICONTROL En-tête]
       * [!UICONTROL Paragraphe]
       * [!UICONTROL Lien]
-   * [!UICONTROL  Dynamique ]
+   * [!UICONTROL &#x200B; Dynamique &#x200B;]
       * [[!UICONTROL Recommandation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
-      * [[!UICONTROL  Fragment d’expérience ]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
-      * [[!UICONTROL Offre ]](/help/main/c-experiences/c-manage-content/manage-content.md)
+      * [[!UICONTROL &#x200B; Fragment d’expérience &#x200B;]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL Offre &#x200B;]](/help/main/c-experiences/c-manage-content/manage-content.md)
 
 1. Faites glisser le composant sur un élément de page existant dans la zone de travail [!UICONTROL Conception].
 1. Choisissez de remplacer l’élément sélectionné ou d’insérer le composant avant ou après l’élément sélectionné.
@@ -129,13 +134,13 @@ Pour ouvrir le rail [!UICONTROL Modifications], cliquez sur l’icône [!UICONTR
 
 Le rail [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC) et vous permet d’apporter des modifications supplémentaires (comme le sélecteur CSS, la mbox et le code personnalisé).
 
-Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) dans l’en-tête du rail pour ajouter une modification, supprimer toutes les modifications ou supprimer toutes les modifications non valides. Cliquez sur [!UICONTROL  Sélectionner ] pour effectuer des opérations en bloc : [!UICONTROL Appliquer à toutes les pages] ou [!UICONTROL Supprimer].
+Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) dans l’en-tête du rail pour ajouter une modification, supprimer toutes les modifications ou supprimer toutes les modifications non valides. Cliquez sur [!UICONTROL &#x200B; Sélectionner &#x200B;] pour effectuer des opérations en bloc : [!UICONTROL Appliquer à toutes les pages] ou [!UICONTROL Supprimer].
 
 Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) en regard de chaque modification pour afficher ses informations, supprimer la modification ou appliquer la modification à d’autres vues.
 
 ### [!UICONTROL Conception] zone de travail
 
-La zone de travail [!UICONTROL Conception] vous permet de sélectionner des fenêtres d’affichage, notamment celles adaptées à l’écran, [!UICONTROL Bureau], [!UICONTROL Tablette], [!UICONTROL Paysage mobile] et [!UICONTROL Portrait mobile]. Par défaut, la zone de travail s’affiche sur la page à l’écran avec les fenêtres d’affichage définies dans la section [ Administration ](/help/main/administrating-target/visual-experience-composer-set-up.md).
+La zone de travail [!UICONTROL Conception] vous permet de sélectionner des fenêtres d’affichage, notamment celles adaptées à l’écran, [!UICONTROL Bureau], [!UICONTROL Tablette], [!UICONTROL Paysage mobile] et [!UICONTROL Portrait mobile]. Par défaut, la zone de travail s’affiche sur la page à l’écran avec les fenêtres d’affichage définies dans la section [&#x200B; Administration &#x200B;](/help/main/administrating-target/visual-experience-composer-set-up.md).
 
 ![Options de fenêtre d’affichage](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
 
@@ -291,9 +296,9 @@ La fonction Chemin d’accès DOM est également disponible lorsque vous défini
 
 * Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur dans [!DNL Target] pour la bibliothèque [!UICONTROL Offres].
 
-* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+* [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 
-* [[!UICONTROL Compositeur d’expérience visuelle] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Compositeur d’expérience visuelle] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
 
 * [[!UICONTROL Compositeur d’expérience visuelle] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 

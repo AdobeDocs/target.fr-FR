@@ -5,8 +5,10 @@ title: Qu’est-ce que l’[!UICONTROL URL d’activité] dans une activité de 
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 TQID: https://experienceleague.adobe.com/igvyk-2atEe7JdYuFj3IXlXyE1CzVkLuwv50DSmSxuY
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 298
@@ -14,7 +16,7 @@ ht-degree: 35%
 
 ---
 
-# URL de l’activité dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
+# URL de l’activité dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
 
 L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL compositeur d’expérience d’après les formulaires] lors de la conception de l’activité.
 

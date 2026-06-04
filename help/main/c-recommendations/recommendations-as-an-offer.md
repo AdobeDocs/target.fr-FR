@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 TQID: https://experienceleague.adobe.com/ZMOb5RdY6bES331INSM7VF-w4be-5Xmjqon0YvfuNG4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 571
@@ -23,7 +25,7 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL  Affectation automatique ].
+* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;].
 * À l’aide du ciblage automatique [!UICONTROL , affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil].
 
 Pour commencer, créez une activité [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] à l’aide du [!UICONTROL compositeur d’expérience visuelle] et utilisez l’action [!UICONTROL Insérer avant], [!UICONTROL Insérer après] ou [!UICONTROL Remplacer par] pour ajouter des recommandations à une expérience.
@@ -66,7 +68,7 @@ Pour commencer, créez une activité [!UICONTROL Test A/B] ou [!UICONTROL Ciblag
 Vous pouvez modifier la configuration d’une offre de deux manières :
 
 * Utilisation du menu [!UICONTROL Modifier]
-* Utilisation du panneau [!UICONTROL  Modifications ]
+* Utilisation du panneau [!UICONTROL &#x200B; Modifications &#x200B;]
 
 ### Modifier une offre de recommandations à l’aide du menu Modifier
 
@@ -97,7 +99,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 Il existe deux façons de supprimer une offre de recommandations :
 
 * Utilisation du menu [!UICONTROL Modifier]
-* Utilisation du panneau [!UICONTROL  Modifications ]
+* Utilisation du panneau [!UICONTROL &#x200B; Modifications &#x200B;]
 
 ### Supprimer une offre de recommandations dans le menu Édition
 
@@ -107,7 +109,7 @@ Il existe deux façons de supprimer une offre de recommandations :
 
 ### Supprimer une offre de recommandations à l’aide du panneau Modifications
 
-1. Cliquez sur l’icône [!UICONTROL  Modifications] **( &lt;/> )** pour afficher le volet [ Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Cliquez sur l’icône [!UICONTROL &#x200B; Modifications] **( &lt;/> )** pour afficher le volet [&#x200B; Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Pointez sur l’action souhaitée, puis cliquez sur l’icône [!UICONTROL Supprimer].
 
    ![Icône Supprimer](/help/main/c-recommendations/assets/recs-offer-delete.png)

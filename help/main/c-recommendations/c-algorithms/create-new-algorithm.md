@@ -6,9 +6,15 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2889
@@ -110,7 +116,7 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL  Afficher les recommandations de sauvegarde ], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL &#x200B; Afficher les recommandations de sauvegarde &#x200B;], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous observerez lors de l’utilisation des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] :
 
@@ -129,13 +135,13 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    Pour plus d’informations, voir [Spécifier les règles d’inclusion](#inclusion) ci-dessous.
 
-## Source de données][!UICONTROL  {#data-source}
+## Source de données {#data-source}
 
-1. Sélectionnez le Source de données comportementales ]**souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**[!UICONTROL 
+1. Sélectionnez le Source de données comportementales **souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**
 
    >[!NOTE]
    >
-   >La section Source des données comportementales] s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).[!UICONTROL 
+   >La section Source des données comportementales s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
    ![Section Source des données comportementales](assets/data-source.png)
 

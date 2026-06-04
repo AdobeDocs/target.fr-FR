@@ -23,7 +23,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource dans la
 
 1. (Facultatif) Basculez entre la vue [!UICONTROL Carte] et la vue [!UICONTROL Liste], cliquez sur l’icône [!UICONTROL Vue Carte] ou l’icône [!UICONTROL Vue Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres d’affichage] pour configurer plus en détail les colonnes lors de l’affichage de la [!UICONTROL Vue Liste].
 
-   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL  Liste ] :
+   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL &#x200B; Liste &#x200B;] :
 
    ![Options de la vue Liste](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 
@@ -49,7 +49,7 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
 
 ![Pointez sur les icônes de l’onglet Offres d’image en mode Carte](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-L’illustration suivante présente les icônes de survol lors de l’affichage de la vue [!UICONTROL  Liste ]. Pour afficher les icônes, cliquez sur un élément de la liste.
+L’illustration suivante présente les icônes de survol lors de l’affichage de la vue [!UICONTROL &#x200B; Liste &#x200B;]. Pour afficher les icônes, cliquez sur un élément de la liste.
 
 ![Pointez sur les icônes de l’onglet Offres d’image en vue Liste](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 

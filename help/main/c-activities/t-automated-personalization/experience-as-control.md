@@ -1,15 +1,21 @@
 ---
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
-description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de [!UICONTROL ] (AP) ou de [!UICONTROL ciblage automatique] dans  [!DNL Adobe Target].
-title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité [!UICONTROL ] ?
+description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de  (AP) ou de [!UICONTROL ciblage automatique] dans  [!DNL Adobe Target].
+title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
 TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 840
@@ -19,7 +25,7 @@ ht-degree: 36%
 
 # Sélectionnez le contrôle de votre activité  ou [!UICONTROL Ciblage automatique]
 
-Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Cette fonctionnalité vous permet d’acheminer le trafic de contrôle vers les expériences spécifiques, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers ce contrôle.
 
@@ -33,7 +39,7 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 
 ## Définition d’une expérience spécifique comme contrôle
 
-1. Lors de la création ou de la modification d’une activité [ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
+1. Lors de la création ou de la modification d’une activité [&#x200B; &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
 1. Sur la page [!UICONTROL Ciblage] (étape 2 du workflow en trois parties), cliquez sur l’expérience de contrôle pour afficher les options [!UICONTROL Contrôle] dans le volet de droite.
 
    ![Panneau de contrôle](/help/main/c-activities/t-automated-personalization/assets/control.png)
@@ -46,7 +52,7 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 
    Pour un contrôle d’expérience spécifique, 10 à 30 % sont conseillés.
 
-1. Passez à la page [!UICONTROL  Objectifs et paramètres ].
+1. Passez à la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;].
 
 ## Limites et considérations connues
 

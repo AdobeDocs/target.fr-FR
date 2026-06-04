@@ -33,7 +33,7 @@ La [!UICONTROL Correspondance des attributs de profil] vous permet de recommande
 
 ### Recommandation d’articles de la marque préférée de l’utilisateur
 
-Par exemple, vous pouvez utiliser l’option [!UICONTROL  Correspondance des attributs de profil ] pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
+Par exemple, vous pouvez utiliser l’option [!UICONTROL &#x200B; Correspondance des attributs de profil &#x200B;] pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
 
 ![Marque préférée](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
 

@@ -92,13 +92,13 @@ Les autres options de configuration de l’algorithme varient en fonction de l�
 
 Pour plus d’informations sur le choix d’une [!UICONTROL clé de recommandation], voir [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
-## Source de données][!UICONTROL  {#data-source}
+## Source de données {#data-source}
 
-1. Sélectionnez le Source de données comportementales ]**souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**[!UICONTROL 
+1. Sélectionnez le Source de données comportementales **souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**
 
    >[!NOTE]
    >
-   >La section Source des données comportementales] s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).[!UICONTROL 
+   >La section Source des données comportementales s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
    ![Section Source des données comportementales](assets/data-source.png)
 
@@ -152,7 +152,7 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL  Afficher les recommandations de sauvegarde ], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL &#x200B; Afficher les recommandations de sauvegarde &#x200B;], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous observerez lors de l’utilisation des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] :
 

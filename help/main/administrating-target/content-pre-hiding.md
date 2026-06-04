@@ -31,7 +31,7 @@ Voici comment fonctionne le pré-masquage du contenu, depuis le compte par défa
 
 1. [!DNL Target] crée un ensemble de règles à partir des activités en direct [!UICONTROL compositeur d’expérience visuelle] et [!UICONTROL compositeur d’expérience amélioré]. L’ensemble de règles répertorie les sélecteurs et les régions que la diffusion peut modifier.
 
-   Notez que les activités [!UICONTROL  Compositeur basé sur les formulaires ] ne sont pas prises en charge.
+   Notez que les activités [!UICONTROL &#x200B; Compositeur basé sur les formulaires &#x200B;] ne sont pas prises en charge.
 
 1. La bibliothèque récupère cet ensemble de règles à partir du réseau CDN Adobe et prémasque les éléments correspondants uniquement pendant que le contenu personnalisé est toujours en cours de chargement.
 
@@ -55,7 +55,7 @@ Le pré-masquage du contenu est désactivé pour votre instance jusqu’à ce qu
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Les paramètres de gestion du scintillement seront alors appliqués à votre instance.
 
-1. Une fois activé, cliquez sur **[!UICONTROL Télécharger]**, puis ajoutez le fichier au `<head>` de la page afin qu’il se charge avant le [!DNL at.js] ou la [!DNL Web SDK]. Pour obtenir des instructions d’implémentation complètes, voir SDK de masquage préalable du contenu](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).[
+1. Une fois activé, cliquez sur **[!UICONTROL Télécharger]**, puis ajoutez le fichier au `<head>` de la page afin qu’il se charge avant le [!DNL at.js] ou la [!DNL Web SDK]. Pour obtenir des instructions d’implémentation complètes, voir SDK de masquage préalable du contenu[&#128279;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).
 
    ![](assets/content-pre-hiding-2.png)
 

@@ -5,8 +5,11 @@ title: Explorer la gestion de contenu dans la bibliothèque [!UICONTROL Offres]
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 794
@@ -16,7 +19,7 @@ ht-degree: 11%
 
 # Utilisation du contenu de la bibliothèque [!UICONTROL Ressources]
 
-Découvrez les tâches que vous pouvez effectuer sur les ressources dans la [!UICONTROL bibliothèque de contenu Adobe Target]]. [!UICONTROL Les tâches incluent l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
+Découvrez les tâches que vous pouvez effectuer sur les ressources dans la [!UICONTROL bibliothèque de contenu Adobe Target]. Les tâches incluent l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
 
 ## Accès à la bibliothèque des offres
 
@@ -32,14 +35,14 @@ Découvrez les tâches que vous pouvez effectuer sur les ressources dans la [!UI
 
 Lors de l’affichage de la page [!UICONTROL Code des offres], vous pouvez effectuer les actions suivantes sur un élément en cliquant sur l’icône [!UICONTROL Quick Info] ( ![icône Quick Info](/help/main/assets/icons/InfoOutline.svg) ) ou sur l’icône [!UICONTROL Autres actions] ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté d’une offre ou d’un dossier, puis en sélectionnant l’icône appropriée.
 
-* **Informations** : cliquez sur l’icône **[!UICONTROL Informations rapides] ( ![icône Informations rapides](/help/main/assets/icons/InfoOutline.svg) ) pour afficher les informations de l’offre, y compris [!UICONTROL Identifiant de l’offre], [!UICONTROL Type**, ]Dernière modification (date, heure et nom du modificateur). Cliquez sur [!UICONTROL Afficher tous les détails] pour afficher des informations supplémentaires, notamment les attributs de l’offre et l’utilisation de l’activité (nom de l’activité, statut, espace de travail, date et heure de modification).
+* **Informations** : cliquez sur l’icône **[!UICONTROL Informations rapides] ( ![icône Informations rapides](/help/main/assets/icons/InfoOutline.svg) ) pour afficher les informations de l’offre, y compris [!UICONTROL Identifiant de l’offre], [!UICONTROL Type**, &#x200B;]Dernière modification (date, heure et nom du modificateur). Cliquez sur [!UICONTROL Afficher tous les détails] pour afficher des informations supplémentaires, notamment les attributs de l’offre et l’utilisation de l’activité (nom de l’activité, statut, espace de travail, date et heure de modification).
 * **[!UICONTROL Modifier]** : cliquez sur l’icône **[!UICONTROL Autres actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Modifier]** pour modifier le dossier ou l’offre.
 * **[!UICONTROL Copier]** : cliquez sur l&#39;icône **[!UICONTROL Plus d&#39;actions]** ( ![Icône Plus d&#39;actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copier]** pour copier l&#39;offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
 * **[!UICONTROL Supprimer]** : cliquez sur l’icône **[!UICONTROL Autres actions]** ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Supprimer]** pour supprimer l’offre ou le dossier.
 
-  Pour plus d’informations](#delete) voir [ Considérations relatives à la suppression d’éléments .
+  Pour plus d’informations[&#128279;](#delete) voir  Considérations relatives à la suppression d’éléments .
 
-* **[!UICONTROL Déplacer]** : cliquez sur l’icône **[!UICONTROL Autres actions] ( ![Icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) >**[!UICONTROL  Déplacer ]**, accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur****Déplacer**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
+* **[!UICONTROL Déplacer]** : cliquez sur l’icône **[!UICONTROL Autres actions] ( ![Icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) >**&#x200B;[!UICONTROL &#x200B; Déplacer &#x200B;]&#x200B;**, accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur**&#x200B;**Déplacer**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
 
 ## Options [!UICONTROL Offres d’image]
 
@@ -61,7 +64,7 @@ Lors de l’affichage de la page [!UICONTROL Offres d’image], vous pouvez effe
    * [!UICONTROL Annoter] : ajoutez une note à la ressource. Cliquez sur la ressource, sélectionnez la zone à annoter, puis entrez votre note.
    * [!UICONTROL Copier] : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
    * [!UICONTROL Déplacer] : cliquez sur l&#39;icône [!UICONTROL Déplacer], accédez à l&#39;emplacement où vous souhaitez déplacer l&#39;offre ou le dossier, puis cliquez sur **[!UICONTROL Déplacer]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
-   * [!UICONTROL Supprimer] : supprimez l’offre. Pour plus d’informations](#delete) consultez la section [ Remarques concernant la suppression d’éléments ci-dessous.
+   * [!UICONTROL Supprimer] : supprimez l’offre. Pour plus d’informations[&#128279;](#delete) consultez la section  Remarques concernant la suppression d’éléments ci-dessous.
 
 ## Remarques concernant la suppression d’éléments {#delete}
 

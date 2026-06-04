@@ -6,8 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 833
@@ -41,7 +43,7 @@ Créez des séquences de critères à partir de l’écran [!UICONTROL Créer un
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
 * Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
-* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer votre nouvelle séquence de critères pour l’utiliser avec d’autres activités [!UICONTROL  Recommendations ].
+* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer votre nouvelle séquence de critères pour l’utiliser avec d’autres activités [!UICONTROL &#x200B; Recommendations &#x200B;].
 * Lorsque vous modifiez une activité [!UICONTROL Recommendations], cliquez dans une zone [!UICONTROL Emplacement Recommendations] de votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer vos nouveaux critères pour les utiliser avec d’autres activités [!UICONTROL Recommendations].
 
 Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer une séquence de critères] en utilisant la première méthode : l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.

@@ -1,12 +1,15 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de déterminer si vous disposez d’un trafic suffisant pour que votre activité  [!DNL Adobe Target] [!UICONTROL  test multivarié ] réussisse.
+description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de déterminer si vous disposez d’un trafic suffisant pour que votre activité  [!DNL Adobe Target] [!UICONTROL &#x200B; test multivarié &#x200B;] réussisse.
 title: Quelle quantité de trafic est nécessaire pour une activité [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 TQID: https://experienceleague.adobe.com/XHBXV7Jtvp87ve4NTd-016E2dFkHTbPu-8-nY8GE-VM
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 530
@@ -32,7 +35,7 @@ L’[!UICONTROL Estimateur de trafic] fournit également des commentaires qui vo
 
    L’[!UICONTROL Estimateur de trafic] s’ouvre.
 
-   ![ Interface utilisateur de l’estimateur de trafic ](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
+   ![&#x200B; Interface utilisateur de l’estimateur de trafic &#x200B;](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-est.png)
 
    Vous pouvez de nouveau cliquer sur l’icône pour masquer l’[!UICONTROL Estimateur de trafic].
 

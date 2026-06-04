@@ -6,9 +6,13 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 2725
@@ -125,7 +129,7 @@ Si vous disposez d’un [!DNL Google Product Feed] existant, vous pouvez l’uti
 >
 >Il n’est pas nécessaire d’utiliser les données [!DNL Google]. [!DNL Recommendations] utilise le même format que [!DNL Google]. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Cependant, vous devez conserver les noms d’attributs prédéfinis [!DNL Google] lors de la configuration du fichier.
 
-La plupart des détaillants chargent des produits sur [!DNL Google]. Ainsi, lorsqu’un visiteur utilise la recherche de produits [!DNL Google], ses produits s’affichent. [!DNL Recommendations] suit exactement la spécification [!DNL Google] pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Vous pouvez rechercher les résultats dans les [[!DNL Google] pages d’achat](https://www.google.com/prdhp).
+La plupart des détaillants chargent des produits sur [!DNL Google]. Ainsi, lorsqu’un visiteur utilise la recherche de produits [!DNL Google], ses produits s’affichent. [!DNL Recommendations] suit exactement la spécification [!DNL Google] pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Vous pouvez rechercher les résultats dans les [[!DNL Google] pages d’achat](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -234,10 +238,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]** > **[!UICONTROL Créer un flux]**.
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source ****.
+1. Sélectionnez un type de Source **&#x200B;**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit ]
+   * [!UICONTROL Flux de produit &#x200B;]
    * [!UICONTROL Classifications Analytics]
 
    Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
@@ -294,7 +298,7 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL  Synchronisation ] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
 | [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
 | [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |

@@ -6,8 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
 workflow-type: tm+mt
 source-wordcount: 3578
@@ -25,7 +28,7 @@ Oui, les objets [!UICONTROL Recommendations] ([!UICONTROL Critères], [!UICONTRO
 
 ## Puis-je gérer des offres visuelles créées par l’interface utilisateur de [!DNL Target] à l’aide des API [!DNL Target] ?
 
-Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL  Activités ], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
+Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL &#x200B; Activités &#x200B;], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
 
 ## Pourquoi la [!UICONTROL recherche catalogue] n’affiche-t-elle pas les bons résultats lorsque j’effectue une recherche sur un attribut personnalisé avec une valeur numérique ?
 

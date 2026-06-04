@@ -45,7 +45,7 @@ Pour plus d’informations sur [!UICONTROL le ciblage d’expérience], un scén
 
 1. (Conditionnel) Si vous êtes un client [!DNL Target Premium], [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L’option [!UICONTROL  Choisir un lieu de travail ] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
+   L’option [!UICONTROL &#x200B; Choisir un lieu de travail &#x200B;] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
 
 1. Indiquez votre [URL d’activité](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) puis cliquez sur **[!UICONTROL Créer]**.
 

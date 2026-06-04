@@ -5,8 +5,12 @@ title: Où puis-je trouver des questions fréquentes sur les paramètres d’act
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 642
@@ -38,7 +42,7 @@ Bien que cela soit pris en charge lorsque vous utilisez [!DNL Target] comme sour
 ## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux paramètres avancés ?
 
 +++Réponse
-Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL  Incrémenter le décompte et conserver l’utilisateur dans l’activité ] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
+Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL &#x200B; Incrémenter le décompte et conserver l’utilisateur dans l’activité &#x200B;] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
 
 Pour plus d’informations, reportez-vous à la rubrique « Lorsque je configure mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
@@ -55,7 +59,7 @@ Lorsqu’une activité est créée, [!DNL Target] envoie un fichier de classific
 ## Pourquoi ne puis-je pas sélectionner Analytics comme source de création de rapports lorsque je crée une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Réponse
-Vous pouvez modifier vos options [!UICONTROL  Paramètres de création de rapports ] dans [!UICONTROL Administration].
+Vous pouvez modifier vos options [!UICONTROL &#x200B; Paramètres de création de rapports &#x200B;] dans [!UICONTROL Administration].
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**.
 1. Dans la liste déroulante **[!UICONTROL Solution Experience Cloud utilisée pour la création de rapports]**, cliquez sur **[!UICONTROL Sélection par activité]**.
@@ -82,9 +86,9 @@ Si les pourcentages ne sont pas ajustés en milieu d’activité, un visiteur qu
 
 +++
 
-## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL  Affectation automatique ] ? {#binomial}
+## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] ? {#binomial}
 
 +++Réponse
-Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL  Affectation automatique ]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
+Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
 
 +++

@@ -6,9 +6,14 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 TQID: https://experienceleague.adobe.com/1ksd0-jtTMia-wqAfr6SxPqGVgd9t17dKSEyYrfYp1U
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 1078
@@ -33,10 +38,10 @@ Les paramètres de géolocalisation vous permettent de cibler des activités et 
    * [!UICONTROL Pays/zone géographique]
    * [!UICONTROL État]
    * [!UICONTROL Ville]
-   * [!UICONTROL  Code postal ]
-   * [!UICONTROL  Longitude ]
-   * [!UICONTROL  Latitude ]
-   * [!UICONTROL  DMA ]
+   * [!UICONTROL &#x200B; Code postal &#x200B;]
+   * [!UICONTROL &#x200B; Longitude &#x200B;]
+   * [!UICONTROL &#x200B; Latitude &#x200B;]
+   * [!UICONTROL &#x200B; DMA &#x200B;]
    * [!UICONTROL Opérateur mobile]
 
    Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.

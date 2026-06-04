@@ -43,7 +43,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
 
-   ![ Bibliothèque de conceptions ](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
+   ![&#x200B; Bibliothèque de conceptions &#x200B;](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. Placez le pointeur de la souris sur la carte de la conception à créer, puis cliquez sur l’icône **[!UICONTROL Copier]**.
 
@@ -61,7 +61,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
    Les conceptions de recommandations utilisent le langage de conception open-source [!DNL Velocity]. Vous trouverez des informations sur [!DNL Velocity] à l’adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception ] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception &#x200B;] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >

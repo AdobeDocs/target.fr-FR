@@ -54,7 +54,7 @@ La logique de recommandation basée sur le panier est similaire à l’algorithm
 
 Les algorithmes suivants sont disponibles avec le type d’algorithme [!UICONTROL Basé sur le panier] :
 
-### [!UICONTROL Les personnes qui ont consulté ceci ont consulté ces ]
+### [!UICONTROL Les personnes qui ont consulté ceci ont consulté ces &#x200B;]
 
 Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté.
 

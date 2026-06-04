@@ -5,10 +5,17 @@ title: Comment résoudre les problèmes d’intégration d’Analytics et de  [!
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 TQID: https://experienceleague.adobe.com/R-gDENE45OcDN1OmptsqpH3iMF9f2pllHJbJl2Vmk2o
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 965
@@ -46,13 +53,13 @@ Si vous ventilez la ligne « non spécifié » par la dimension « Analytics 
 
 ## Les rapports d’activité A4T comprennent une ligne avec de nombreux événements « non spécifiés ». {#added_unspecified_events}
 
-Votre rapport peut contenir une ligne d’événements « [!UICONTROL  Non spécifiés ], selon la mesure que vous utilisez pour afficher vos données.
+Votre rapport peut contenir une ligne d’événements « [!UICONTROL &#x200B; Non spécifiés &#x200B;], selon la mesure que vous utilisez pour afficher vos données.
 
-En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique au [!DNL Target] (par exemple, [!UICONTROL  Pages vues], [!UICONTROL  Visites], [!UICONTROL  Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL  « Non spécifié »] comprend tous les [!UICONTROL Pages vues], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
+En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique au [!DNL Target] (par exemple, [!UICONTROL &#x200B; Pages vues], [!UICONTROL &#x200B; Visites], [!UICONTROL &#x200B; Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL &#x200B; « Non spécifié »] comprend tous les [!UICONTROL Pages vues], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
 
 Cette ligne ne contient aucune information relative à [!DNL Target] (par exemple, aucun visiteur, aucune visite ou impression). Pour plus d’informations, consultez la section [« Non spécifié », « Aucun », « Autre » et « Inconnu » dans les rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=fr) dans les *notes techniques d’Analytics*.
 
-Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, cette ligne [!UICONTROL  « Non spécifié »] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
+Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, cette ligne [!UICONTROL &#x200B; « Non spécifié »] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
 
 ## L’effet élévateur estimé dans les recettes ne présente pas les données appropriées. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 

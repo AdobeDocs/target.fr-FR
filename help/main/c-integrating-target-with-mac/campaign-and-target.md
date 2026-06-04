@@ -5,9 +5,13 @@ title: Comment intégrer  [!DNL Target]  Adobe Campaign ?
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 TQID: https://experienceleague.adobe.com/RMW9ijj8UqzrDr1-PKwwfw5aWfH4YmtSi1HR7rLDSZ4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
 workflow-type: tm+mt
 source-wordcount: 379
@@ -53,9 +57,9 @@ Avant d’utiliser [!DNL Adobe Campaign] pour configurer vos offres par e-mail c
 
 * Plusieurs offres de redirection [!DNL Target]
 
-  Voir [ Création d’une offre de redirection ](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+  Voir [&#x200B; Création d’une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 
-* Une activité [!DNL Target] avec une expérience pour chaque offre et la [ mesure de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md) souhaitée.
+* Une activité [!DNL Target] avec une expérience pour chaque offre et la [&#x200B; mesure de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) souhaitée.
 
   Voir [Redirection vers une URL](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
