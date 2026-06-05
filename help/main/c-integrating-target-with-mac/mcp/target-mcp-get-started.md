@@ -8,9 +8,9 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: d5d7a57ce6a3188f02e680c24849d773cb53457a
+source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ Avant de connecter le serveur MCP [!DNL Adobe Target] à votre client MCP, véri
 
 * Vous disposez d’une licence [!DNL Adobe Target] active (abonnement Adobe Experience Cloud) auprès d’une organisation Adobe Experience Platform.
 * Vous disposez d&#39;une application compatible avec MCP prise en charge (actuellement Claude Web, Claude Desktop, Claude Code, Cursor ou ChatGPT).
-* Vous disposez d’autorisations [!DNL Adobe Target] configurées dans Adobe Admin Console. Dans le Beta public, les 23 outils disponibles sont en lecture seule. Le rôle **Observateur** ou supérieur est suffisant pour utiliser le serveur MCP.
-
->[!NOTE]
->
->Les outils d’écriture (création, mise à jour, activation, désactivation) ne sont pas exposés via le catalogue public MCP dans Public Beta. Les privilèges des rôles Éditeur et Approbateur ne déverrouillent pas d’outils supplémentaires pour le moment. L’accès en écriture sera disponible dans une version ultérieure.
+* Vous disposez d’autorisations [!DNL Adobe Target] configurées dans Adobe Admin Console. Le rôle requis dépend des opérations que vous souhaitez effectuer :
+   * **Observateur** rôle ou supérieur : accès à tous les outils en lecture seule (inspection, rapport, audit)
+   * **Éditeur** rôle ou supérieur : accès aux outils de lecture et d’écriture (création, mise à jour)
+   * **Approbateur** rôle : accès à tous les outils, y compris l&#39;activation et la désactivation
 
 ## Connexion du serveur MCP [!DNL Adobe Target] {#mcp-connect}
 
@@ -113,7 +112,7 @@ Terminez le flux du navigateur OAuth lorsque vous y êtes invité lors de la pre
 
 +++Un outil renvoie un message d’erreur
 
-1. Vérifiez que vous disposez d’un rôle **Observateur** ou supérieur dans [!DNL Adobe Target] (voir [Conditions préalables](#mcp-prerequisites)).
+1. Vérifiez que vous disposez du rôle requis dans [!DNL Adobe Target] pour l’opération que vous tentez d’effectuer (voir [Conditions préalables](#mcp-prerequisites)). Les outils en lecture seule nécessitent un niveau Observateur ou supérieur ; les outils d’écriture nécessitent un niveau Éditeur ou supérieur ; l’activation et la désactivation nécessitent un approbateur.
 1. Vérifiez que les ressources référencées (activités, offres, audiences) existent dans votre organisation.
 1. Vérifiez que les identifiants d’activité et d’autres identifiants sont corrects.
 +++
