@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
-source-wordcount: 2889
+source-wordcount: 2900
 ht-degree: 45%
 
 ---
@@ -75,6 +75,11 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    Ensemble, les types de page et verticaux du secteur vous aident à classer les critères enregistrés, ce qui facilite la réutilisation des critères pour d’autres activités [!DNL Recommendations].
 
 ## [!UICONTROL Algorithme de recommandations] {#rec-algo}
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Attribut de profil"
+>abstract="Vous pouvez créer un attribut de profil à l’aide de scripts de profil."
 
 1. Sélectionnez un **[!UICONTROL type d’algorithme]** et **[!UICONTROL algorithme]** :
 
