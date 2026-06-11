@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 41%
+source-wordcount: 467
+ht-degree: 57%
 
 ---
 
@@ -31,51 +31,17 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.1 (4 juin 2026)
-
-**Activités**
-
-+++Afficher les détails
-
-* **URL d’activité incomplète dans [!UICONTROL Présentation de l’activité].** Correction d’un problème en raison duquel le [!UICONTROL Aperçu de l’activité] n’affichait pas l’URL complète d’une activité. (TGT-54029)
-
-* **Format de date non localisé dans les rapports d’activité.** Correction d’un problème en raison duquel le format de date n’était pas localisé dans l’onglet **[!UICONTROL Rapports]** lorsque vous choisissiez une option **X derniers jours** dans la liste déroulante **[!UICONTROL Période prédéfinie]**. (TGT-51637)
-
-* **Impossible d’enregistrer l’activité basée sur un formulaire avec certains caractères GB18030 dans [!UICONTROL Location].** Correction d’un problème en raison duquel vous ne pouviez pas enregistrer une activité basée sur des formulaires lorsque le champ **[!UICONTROL Emplacement]** contenait des caractères GB18030 spécifiques. (TGT-46980)
-
-+++
-
-**[!UICONTROL Audiences]**
-
-+++Afficher les détails
-
-* **Calendrier non localisé dans le flux Créer une audience pour le chinois simplifié et traditionnel.** Correction d’un problème en raison duquel le calendrier dans les champs **[!UICONTROL Début]** et **[!UICONTROL Fin]** des attributs **[!UICONTROL Période]** n’était pas localisé dans les paramètres régionaux Chinois simplifié (CHS) et Chinois traditionnel (CHT) pendant le flux Créer une audience. (TGT-50619)
-
-+++
-
-**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
-
-+++Afficher les détails
-
-* **Infobulles non localisées dans le créateur d’activités mis à jour.** Correction de problèmes de localisation en raison desquels les infobulles d’informations **[!UICONTROL Améliorations]** et **[!UICONTROL Contenu]** n’étaient pas localisées dans le créateur d’activités [!UICONTROL Compositeur d’expérience visuelle] mis à jour. (TGT-53721)
-
-* **Non localisé [!UICONTROL Tous les visiteurs] dans [!UICONTROL Audiences d’expérience].** Correction d’un problème en raison duquel la chaîne **[!UICONTROL Tous les visiteurs]** dans **[!UICONTROL Audiences d’expérience]** dans le rail de gauche n’était pas localisée dans le [!UICONTROL Compositeur d’expérience visuelle]. (TGT-50086)
-
-+++
-
-**[!UICONTROL Rapports]**
-
-+++Afficher les détails
-
-* **Format de date non localisé dans la fenêtre [!UICONTROL Créer un paramètre prédéfini].** Correction d’un problème en raison duquel le format de date dans le champ **[!UICONTROL Période]** de la fenêtre **[!UICONTROL Créer un paramètre prédéfini]** n’était pas localisé. (TGT-49239)
-
-+++
+## [!DNL Target Standard/Premium] 26.6.3 (11 juin 2026)
 
 **Localisation**
 
 +++Afficher les détails
 
-* **GB18030 caractères affichés dans plusieurs zones.** Correction de problèmes en raison desquels certains caractères de zone d’utilisation privée s’affichaient incorrectement en tant que lettres dans les **[!UICONTROL Audience]** IU, **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]**, configuration de fenêtre d’affichage mobile et notifications toast. (TGT-49622, TGT-49623, TGT-49624 ET TGT-49625)
+* **Premier jour non localisé de la semaine dans les modèles de calendrier d’audience lors de la création de l’activité.** Correction d’un problème en raison duquel le premier jour de la semaine n’était pas localisé dans le calendrier dans les modaux **[!UICONTROL Créer]**, **[!UICONTROL Modifier]** et **[!UICONTROL Dupliquer l’audience]** lors de la création de l’activité. (TGT-50510)
+
+* **Format de pourcentage non localisé dans les rapports d’aperçu d’activité.** Correction d’un problème en raison duquel le format de pourcentage n’était pas localisé dans un tableau sur l’onglet **[!UICONTROL Rapports]** de la page **[!UICONTROL Aperçu de l’activité]**. (TGT-50094)
+
+* **Format numérique non localisé dans la boîte de dialogue [!UICONTROL Créer des critères].** Correction d’un problème où le format numérique n’était pas localisé dans la boîte de dialogue **[!UICONTROL Créer des critères]** de **[!UICONTROL Recommendations]**. (TGT-52250)
 
 +++
 
@@ -116,7 +82,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour D’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 

@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 391653c7a45a48c311c6a6cff358bd077f8c47b7
+source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
 workflow-type: tm+mt
-source-wordcount: 70482
+source-wordcount: 70774
 ht-degree: 49%
 
 ---
@@ -57,6 +57,54 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.6.1 (4 juin 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **URL d’activité incomplète dans [!UICONTROL Présentation de l’activité].** Correction d’un problème en raison duquel le [!UICONTROL Aperçu de l’activité] n’affichait pas l’URL complète d’une activité. (TGT-54029)
+
+* **Format de date non localisé dans les rapports d’activité.** Correction d’un problème en raison duquel le format de date n’était pas localisé dans l’onglet **[!UICONTROL Rapports]** lorsque vous choisissiez une option **X derniers jours** dans la liste déroulante **[!UICONTROL Période prédéfinie]**. (TGT-51637)
+
+* **Impossible d’enregistrer l’activité basée sur un formulaire avec certains caractères GB18030 dans [!UICONTROL Location].** Correction d’un problème en raison duquel vous ne pouviez pas enregistrer une activité basée sur des formulaires lorsque le champ **[!UICONTROL Emplacement]** contenait des caractères GB18030 spécifiques. (TGT-46980)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++Afficher les détails
+
+* **Calendrier non localisé dans le flux Créer une audience pour le chinois simplifié et traditionnel.** Correction d’un problème en raison duquel le calendrier dans les champs **[!UICONTROL Début]** et **[!UICONTROL Fin]** des attributs **[!UICONTROL Période]** n’était pas localisé dans les paramètres régionaux Chinois simplifié (CHS) et Chinois traditionnel (CHT) pendant le flux Créer une audience. (TGT-50619)
+
++++
+
+**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
+
++++Afficher les détails
+
+* **Infobulles non localisées dans le créateur d’activités mis à jour.** Correction de problèmes de localisation en raison desquels les infobulles d’informations **[!UICONTROL Améliorations]** et **[!UICONTROL Contenu]** n’étaient pas localisées dans le créateur d’activités [!UICONTROL Compositeur d’expérience visuelle] mis à jour. (TGT-53721)
+
+* **Non localisé [!UICONTROL Tous les visiteurs] dans [!UICONTROL Audiences d’expérience].** Correction d’un problème en raison duquel la chaîne **[!UICONTROL Tous les visiteurs]** dans **[!UICONTROL Audiences d’expérience]** dans le rail de gauche n’était pas localisée dans le [!UICONTROL Compositeur d’expérience visuelle]. (TGT-50086)
+
++++
+
+**[!UICONTROL Rapports]**
+
++++Afficher les détails
+
+* **Format de date non localisé dans la fenêtre [!UICONTROL Créer un paramètre prédéfini].** Correction d’un problème en raison duquel le format de date dans le champ **[!UICONTROL Période]** de la fenêtre **[!UICONTROL Créer un paramètre prédéfini]** n’était pas localisé. (TGT-49239)
+
++++
+
+**Localisation**
+
++++Afficher les détails
+
+* **GB18030 caractères affichés dans plusieurs zones.** Correction de problèmes en raison desquels certains caractères de zone d’utilisation privée s’affichaient incorrectement en tant que lettres dans les **[!UICONTROL Audience]** IU, **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]**, configuration de fenêtre d’affichage mobile et notifications toast. (TGT-49622, TGT-49623, TGT-49624 ET TGT-49625)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.5.2 (14 mai 2026)
 
@@ -915,7 +963,7 @@ Cette version comprend les mises à jour et correctifs suivants :
 * **La recherche avancée dans l’interface utilisateur [!UICONTROL Recherche de catalogue de produits] mise à jour n’a pas fourni de suggestions** : les clients qui utilisaient la fonctionnalité de recherche avancée dans l’interface utilisateur [!UICONTROL Recherche de catalogue de produits] mise à jour devaient saisir des valeurs exactes avec une orthographe correcte, car aucune suggestion ne s’affichait. Ce problème rendait difficile la localisation efficace des produits. Les suggestions s’affichent désormais comme prévu lors de la saisie de la recherche avancée. (TGT-52008)
 * **Certains approbateurs n’ont pas pu afficher les produits dans [!UICONTROL Recherche de catalogue de produits]** : les clients disposant des autorisations [!UICONTROL Approbateur] n’ont pas pu afficher les produits dans [!UICONTROL Recherche de catalogue de produits], malgré l’accès d’autres utilisateurs avec des rôles identiques. Ce problème était dû à une incohérence des autorisations affectant la visibilité du catalogue. Tous les approbateurs peuvent désormais afficher les produits dans la section [!UICONTROL Recommendations] comme prévu. (TGT-53617)
 
-+++
++++ 
 
 **[!UICONTROL Rapports]**
 
@@ -3179,7 +3227,7 @@ Le problème suivant a été corrigé dans la version 1.0.1 :
 
 | Fonction/amélioration | Description |
 | --- | --- |
-| SDK Node.js version 1.0 | Le SDK Node.js Target vous permet de déployer Target côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement Target à d’autres solutions Experience Cloud, telles que Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js ajoute les bonnes pratiques et réduit la complexité de l’intégration à Adobe Target via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique commerciale. Voici quelques fonctionnalités intéressantes que nous introduisons dans la dernière version :<ul><li>Prise en charge de la récupération préalable et des notifications qui vous permet d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de Target sur vos pages web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 n’effectue plus d’appels au serveur supplémentaires pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le VEC via le SDK Node.js grâce à la nouvelle API de diffusion.</li><li>Open source pour que vos développeurs puissent contribuer au SDK Node.js.</li></ul> |
+| SDK Node.js version 1.0 | Le SDK Node.js de Target vous permet de déployer Target côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement Target à d’autres solutions Experience Cloud, telles qu’Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js ajoute les bonnes pratiques et réduit la complexité de l’intégration à Adobe Target via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique commerciale. Voici quelques fonctionnalités intéressantes que nous introduisons dans la dernière version :<ul><li>Prise en charge de la récupération préalable et des notifications qui vous permet d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de Target sur vos pages web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 n’effectue plus d’appels au serveur supplémentaires pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le VEC via le SDK Node.js grâce à la nouvelle API de diffusion.</li><li>Open source pour que vos développeurs puissent contribuer au SDK Node.js.</li></ul> |
 | API de diffusion | Un point d’entrée d’API de diffusion entièrement nouveau (/v1/delivery) est disponible en production. Les principales fonctionnalités sont les suivantes :<ul><li>Un point d’entrée afin de récupérer des expériences pour une ou plusieurs mbox</li><li>Récupération des activités créées par VEC via l’API</li><li>Prise en charge d’un tout nouvel objet nommé Affichages utilisé pour les applications monopages et les applications mobiles</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 septembre 2019)
