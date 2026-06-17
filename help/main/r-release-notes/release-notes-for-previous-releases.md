@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
 workflow-type: tm+mt
-source-wordcount: 70774
+source-wordcount: 70881
 ht-degree: 49%
 
 ---
@@ -57,6 +57,20 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.6.3 (11 juin 2026)
+
+**Localisation**
+
++++Afficher les détails
+
+* **Premier jour non localisé de la semaine dans les modèles de calendrier d’audience lors de la création de l’activité.** Correction d’un problème en raison duquel le premier jour de la semaine n’était pas localisé dans le calendrier dans les modaux **[!UICONTROL Créer]**, **[!UICONTROL Modifier]** et **[!UICONTROL Dupliquer l’audience]** lors de la création de l’activité. (TGT-50510)
+
+* **Format de pourcentage non localisé dans les rapports d’aperçu d’activité.** Correction d’un problème en raison duquel le format de pourcentage n’était pas localisé dans un tableau sur l’onglet **[!UICONTROL Rapports]** de la page **[!UICONTROL Aperçu de l’activité]**. (TGT-50094)
+
+* **Format numérique non localisé dans la boîte de dialogue [!UICONTROL Créer des critères].** Correction d’un problème où le format numérique n’était pas localisé dans la boîte de dialogue **[!UICONTROL Créer des critères]** de **[!UICONTROL Recommendations]**. (TGT-52250)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.1 (4 juin 2026)
 
@@ -4267,7 +4281,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lot mobile et prérécupération </p> </td> 
-   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir Prérécupération <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=fr" format="dita" scope="local"> contenu des offres </a>. </p> </td> 
+   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir Prérécupération <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> contenu des offres </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activités </p> </td> 

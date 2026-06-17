@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9104d531d8ae561460210a96fb1f4d9946ea2ab6
+source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 57%
+source-wordcount: 546
+ht-degree: 49%
 
 ---
 
@@ -31,17 +31,35 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.3 (11 juin 2026)
+## [!DNL Target Standard/Premium] 26.6.4 (16 juin 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **[!UICONTROL Enregistrer et fermer] dans l’interface utilisateur [!DNL Target] mise à jour.** Restauration de l’option **[!UICONTROL Enregistrer et fermer]** dans l’interface utilisateur de [!DNL Target] mise à jour. (TGT-55152)
+
+* **URL d’assurance qualité dans l’interface utilisateur de [!DNL Target] mise à jour.** Correction d’un problème en raison duquel les URL d’assurance qualité ne fonctionnaient pas correctement dans l’interface utilisateur de [!DNL Target] mise à jour. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
 
 **Localisation**
 
 +++Afficher les détails
 
-* **Premier jour non localisé de la semaine dans les modèles de calendrier d’audience lors de la création de l’activité.** Correction d’un problème en raison duquel le premier jour de la semaine n’était pas localisé dans le calendrier dans les modaux **[!UICONTROL Créer]**, **[!UICONTROL Modifier]** et **[!UICONTROL Dupliquer l’audience]** lors de la création de l’activité. (TGT-50510)
+* **Format de pourcentage non localisé dans les rapports graphiques d’aperçu d’activité.** Correction d’un problème en raison duquel le format de pourcentage n’était pas localisé dans le graphique dans **[!UICONTROL vue graphique]** dans l’onglet **[!UICONTROL Rapports]** de la page **[!UICONTROL Aperçu de l’activité]**. (TGT-50100)
 
-* **Format de pourcentage non localisé dans les rapports d’aperçu d’activité.** Correction d’un problème en raison duquel le format de pourcentage n’était pas localisé dans un tableau sur l’onglet **[!UICONTROL Rapports]** de la page **[!UICONTROL Aperçu de l’activité]**. (TGT-50094)
+* **Caractères japonais dans l’URL de l’activité.** Correction d’un problème en raison duquel les caractères japonais dans l’URL de l’activité étaient endommagés sur la page **[!UICONTROL Aperçu de l’activité]** et dans la liste des activités après l’enregistrement d’une activité. (TGT-53459)
 
-* **Format numérique non localisé dans la boîte de dialogue [!UICONTROL Créer des critères].** Correction d’un problème où le format numérique n’était pas localisé dans la boîte de dialogue **[!UICONTROL Créer des critères]** de **[!UICONTROL Recommendations]**. (TGT-52250)
+* **Horodatage non localisé dans le nom d’activité par défaut.** Correction d’un problème où la date et l’heure n’étaient pas localisées dans le titre de l’activité lorsque vous conserviez le nom d’activité par défaut lors de la création de l’activité. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommandations]**
+
++++Afficher les détails
+
+* **Caractères multi-octet dans l’URL après la création de flux.** Correction d’un problème en raison duquel les caractères multi-octet s’affichaient corrompus dans l’URL après la création des flux. (TGT-54793)
 
 +++
 
@@ -82,7 +100,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour D’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
