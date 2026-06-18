@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d27429b3a9db223c7aca394c98e67969db399db1
+source-git-commit: 3fc6930bcff97685e6f3f6dab1a32db05fbfed8a
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 49%
+source-wordcount: 612
+ht-degree: 44%
 
 ---
 
@@ -30,6 +30,24 @@ ht-degree: 49%
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 juin 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **Erreur lorsqu’une activité utilise des audiences supprimées à la source.** Correction d’un problème en raison duquel une erreur s’affichait indiquant qu’une activité utilise une ou plusieurs audiences qui avaient été supprimées à la source. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++Afficher les détails
+
+* **Rapports A4T non visibles.** Correction d’un problème en raison duquel les rapports [!UICONTROL Analytics for Target] (A4T) ne s’affichaient pas. (TGT-55432)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.6.4 (16 juin 2026)
 
