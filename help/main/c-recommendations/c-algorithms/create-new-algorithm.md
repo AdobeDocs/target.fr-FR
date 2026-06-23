@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
 workflow-type: tm+mt
 source-wordcount: 2900
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -74,7 +74,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    Ensemble, les types de page et verticaux du secteur vous aident à classer les critères enregistrés, ce qui facilite la réutilisation des critères pour d’autres activités [!DNL Recommendations].
 
-## [!UICONTROL Algorithme de recommandations] {#rec-algo}
+## [!UICONTROL Algorithme de recommandation] {#rec-algo}
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
