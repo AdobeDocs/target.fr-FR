@@ -22,10 +22,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+source-git-commit: 28043bff2987da0280091df9c935a4644309b1c0
 workflow-type: tm+mt
-source-wordcount: 1488
-ht-degree: 35%
+source-wordcount: 1580
+ht-degree: 33%
 
 ---
 
@@ -158,6 +158,12 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics]. Une vue d
    * [!UICONTROL ID de l’activité]
 
    ![Options Noms et ID dans Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. Pour vous assurer que [!DNL Customer Journey Analytics] attribue des mesures à l’expérience [!DNL Target] correcte sur le parcours des visiteurs, configurez la persistance pour les dimensions [!UICONTROL Nom de l’activité] et [!UICONTROL ID de l’activité].
+
+   Sans la persistance configurée, [!DNL Customer Journey Analytics] lie uniquement les mesures qui se produisent sur le même événement que l’expérience [!DNL Target]. Par exemple, si un visiteur voit une expérience Target sur la page d’accueil, la mesure des recettes de ce visiteur provenant d’un achat effectué sur une page ultérieure n’est pas attribuée à l’activité Target.
+
+   Pour plus d’informations sur la persistance, consultez la [documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
 
 1. Pour utiliser [!DNL Target] dimensions dans le panneau [!UICONTROL Expérimentation], configurez les libellés de contexte suivants :
 
