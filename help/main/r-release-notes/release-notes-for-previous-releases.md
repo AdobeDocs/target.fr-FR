@@ -39,9 +39,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 73ba5f706fc160c2cec1be31502edf5b05b0636d
+source-git-commit: 7c0425e7e8b3fd71f87b36da74af16d64da32bfa
 workflow-type: tm+mt
-source-wordcount: 70881
+source-wordcount: 71133
 ht-degree: 49%
 
 ---
@@ -57,6 +57,68 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2026
+
+## [!DNL Target Standard/Premium] 26.6.5 (17 juin 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **Erreur lorsqu’une activité utilise des audiences supprimées à la source.** Correction d’un problème en raison duquel une erreur s’affichait indiquant qu’une activité utilise une ou plusieurs audiences qui avaient été supprimées à la source. (TGT-55272)
+
++++
+
+**[!UICONTROL Analytics for Target] (A4T)**
+
++++Afficher les détails
+
+* **Rapports A4T non visibles.** Correction d’un problème en raison duquel les rapports [!UICONTROL Analytics for Target] (A4T) ne s’affichaient pas. (TGT-55432)
+
++++ 
+
+## [!DNL Target Standard/Premium] 26.6.4 (16 juin 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **[!UICONTROL Enregistrer et fermer] dans l’interface utilisateur [!DNL Target] mise à jour.** Restauration de l’option **[!UICONTROL Enregistrer et fermer]** dans l’interface utilisateur de [!DNL Target] mise à jour. (TGT-55152)
+
+* **URL d’assurance qualité dans l’interface utilisateur de [!DNL Target] mise à jour.** Correction d’un problème en raison duquel les URL d’assurance qualité ne fonctionnaient pas correctement dans l’interface utilisateur de [!DNL Target] mise à jour. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
+
++++
+
+**Localisation**
+
++++Afficher les détails
+
+* **Format de pourcentage non localisé dans les rapports graphiques d’aperçu d’activité.** Correction d’un problème en raison duquel le format de pourcentage n’était pas localisé dans le graphique dans **[!UICONTROL vue graphique]** dans l’onglet **[!UICONTROL Rapports]** de la page **[!UICONTROL Aperçu de l’activité]**. (TGT-50100)
+
+* **Caractères japonais dans l’URL de l’activité.** Correction d’un problème en raison duquel les caractères japonais dans l’URL de l’activité étaient endommagés sur la page **[!UICONTROL Aperçu de l’activité]** et dans la liste des activités après l’enregistrement d’une activité. (TGT-53459)
+
+* **Horodatage non localisé dans le nom d’activité par défaut.** Correction d’un problème où la date et l’heure n’étaient pas localisées dans le titre de l’activité lorsque vous conserviez le nom d’activité par défaut lors de la création de l’activité. (TGT-53273)
+
++++
+
+**[!UICONTROL Recommandations]**
+
++++Afficher les détails
+
+* **Caractères multi-octet dans l’URL après la création de flux.** Correction d’un problème en raison duquel les caractères multi-octet s’affichaient corrompus dans l’URL après la création des flux. (TGT-54793)
+
++++
+
+<!--
+* **Blank page or CORS errors with Enhanced Experience Composer.** Fixed an issue where the [!UICONTROL Visual Experience Composer] could fail to load when Enhanced Experience Composer (EEC) was enabled. (TGT-54576)
+
+**[!UICONTROL Visual Experience Composer] (VEC)**
+
++++See details
+
+* **Click tracking for Experience B.** Fixed an issue where click tracking was not saved for **[!UICONTROL Experience B]** in the [!UICONTROL Visual Experience Composer]. (TGT-54843)
+
++++
+-->
 
 ## [!DNL Target Standard/Premium] 26.6.3 (11 juin 2026)
 
