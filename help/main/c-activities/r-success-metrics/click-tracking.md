@@ -13,10 +13,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 69d580451d5d25ec6642fd2035a5537c9096541c
 workflow-type: tm+mt
-source-wordcount: 903
-ht-degree: 76%
+source-wordcount: 942
+ht-degree: 73%
 
 ---
 
@@ -110,6 +110,8 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 * Utilisez les audiences s’il est nécessaire de restreindre la portée des mesures de suivi des clics.
 
 * Plusieurs activités peuvent définir une mesure de suivi des clics pour le même sélecteur. Si tel est le cas, lorsqu’un visiteur remplit les conditions de l’une de ces activités et clique sur ce sélecteur, la mesure de suivi des clics augmente pour toutes les activités associées pour lesquelles les conditions sont également remplies.
+
+* Pour les activités de  (AP) et de ciblage automatique sur les applications d’une seule page (SPA), vous pouvez sélectionner des éléments pour le suivi des clics qui appartiennent à une vue d’[!DNL Target] spécifique. Pour plus d’informations sur les vues, voir [Vues Adobe Target et applications d’une seule page](/help/main/c-experiences/spa-visual-experience-composer.md).
 
 ## Vidéo de formation {#section_36607204DAE146E3B8E2C609D244EDB1}
 
