@@ -22,10 +22,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f2220f2f01c0bddc96dd7720ff207e1256c13b55
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: 2566
-ht-degree: 31%
+source-wordcount: 2647
+ht-degree: 30%
 
 ---
 
@@ -34,6 +34,13 @@ ht-degree: 31%
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
 ## Mises à jour
+
+### [!DNL Target Standard/Premium] 26.6.5 (17 juin 2026)
+
+| Date | Rubrique | Modifications |
+|--- |--- |--- |
+| 18 Juin | [[!DNL Adobe Target] Référence des outils du serveur MCP](/help/main/c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) | Mise à jour pour refléter la consolidation des outils d’activité : remplacement de six outils par type (`get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`) et de quatre outils de rapport par type par quatre outils unifiés (`get_activity`, `update_activity`, `get_activity_performance_report`, `get_activity_orders_report`). Mise à jour de `list_target_activities` et `update_activity_schedule` pour répertorier les six types d’activités pris en charge. Ajout d’une note de portée expliquant que `update_activity` prend en charge les activités de test A/B, de ciblage d’expérience et d’Automated Personalization ; les activités d’affectation automatique, de test multivarié et de recommandations sont en lecture seule. |
+|  | Notes de mise à jour (actuelles) [[!DNL Target] &#x200B;](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour sur la consolidation de l’outil de consolidation de l’activité du serveur MCP [!DNL Adobe Target]. |
 
 ### [!DNL Target Standard/Premium] 26.5.1 (7 mai 2026)
 
