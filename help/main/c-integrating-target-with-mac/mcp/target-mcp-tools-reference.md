@@ -8,10 +8,10 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Version bêta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
 workflow-type: tm+mt
-source-wordcount: '3195'
-ht-degree: 13%
+source-wordcount: '3046'
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,21 @@ Pour obtenir des instructions de configuration complètes, voir [Prise en main](
 
 ## Outils d’activité {#tools-activities}
 
+>[!NOTE]
+>
+>Les opérations de lecture et d’écriture ont une portée différente. `get_activity` récupère les activités de tous les types (test A/B, ciblage d’expérience, Automated Personalization, affectation automatique, test multivarié, recommandations). `update_activity` prend en charge les tests A/B, le ciblage d’expérience et Automated Personalization. Les activités d’affectation automatique, de test multivarié et de recommandations sont en lecture seule via le serveur MCP.
+
+| Fonction | Test A/B | Ciblage d’expérience | Automated Personalization | Affectation automatique | Test multivarié | Recommandations |
+|---|---|---|---|---|---|---|
+| `get_activity` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `list_target_activities` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_performance_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `get_activity_orders_report` | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| `update_activity` | ✓ | ✓ | ✓ | — | — | — |
+| Modifications du cycle de vie (état, priorité, nom, planning) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Modifications des variantes et du trafic | ✓ | ✓ | ✓ | — | — | — |
+| Créer | ✓ | ✓ | — | — | — | — |
+
 +++Liste des activités
 
 **Outil :** `list_target_activities`
@@ -57,7 +72,7 @@ Récupère une liste paginée d’activités. Tous les filtres sont appliqués c
 | `offset` | Entier | Non | Nombre d’activités à ignorer pour la pagination |
 | `sort_by` | string | Non | Champ par lequel trier. Préfixe avec `-` pour l’ordre décroissant (par exemple, `-modifiedAt`). Options : `id`, `name`, `state`, `priority`, `startsAt`, `endsAt`, `lifetimeStart`, `lifetimeEnd`, `createdAt`, `createdBy`, `modifiedAt`, `modifiedBy`, `type`, `thirdPartyId` |
 | `state` | string | Non | Filtrer par état d’activité : `approved` (actif/actif), `deactivated` (inactif), `paused`, `saved` (brouillon) |
-| `activity_type` | string | Non | Filtrer par type : `ab` (test A/B), `xt` (ciblage d’expérience), `abt` (Automated Personalization) |
+| `activity_type` | string | Non | Filtrer par type : `ab` (test A/B), `xt` (ciblage d’expérience), `abt` (Automated Personalization), `auto_allocate` (affectation automatique), `mvt` (test multivarié), `recs` (recommandations) |
 | `name_contains` | string | Non | Filtrer les activités dont le nom contient cette chaîne (non-respect de la casse) |
 | `starts_after` | string | Non | Date ISO 8601 — activités commençant après cette date |
 | `starts_before` | string | Non | Date ISO 8601 — activités commençant avant cette date |
@@ -78,55 +93,21 @@ Récupère une liste paginée d’activités. Tous les filtres sont appliqués c
 
 +++
 
-+++Obtenir une activité A/B
++++Obtenir une activité
 
-**Outil :** `get_ab_activity`
+**Outil :** `get_activity`
 
-Obtenez des informations détaillées sur une activité A/B.
+Obtenez des informations détaillées sur une activité de n’importe quel type.
 
-Récupère la configuration complète d’un test A/B spécifique, y compris les expériences, les emplacements, les mesures et les règles de ciblage.
+Récupère la configuration complète d’une activité spécifique en détectant automatiquement le type d’activité. Prend en charge les activités de test A/B, de ciblage d’expérience, d’Automated Personalization, d’affectation automatique, de test multivarié et de recommandations.
 
 | Paramètre | Type | Requis | Description |
 |---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité A/B |
+| `activity_id` | Entier | Oui | Identifiant unique de l’activité |
 
 **Renvoie :** les détails complets de l’activité, y compris les métadonnées (nom, état, priorité, dates), les expériences, les emplacements et les offres, les objectifs et mesures, ainsi que les règles de ciblage.
 
-**Exemple d’invite :** « Obtenir des détails sur les 12345 d’activité A/B ».
-
-+++
-
-+++Obtention d’une activité de ciblage d’expérience
-
-**Outil :** `get_xt_activity`
-
-Obtenez des informations détaillées sur une activité de ciblage d’expérience (XT).
-
-Récupère la configuration complète d’une activité XT spécifique, y compris les mappages audience-expérience, les emplacements et les mesures.
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité XT |
-
-**Retours :** détails complets de l’activité, y compris les métadonnées, les expériences avec les mappages d’audience, les emplacements et les offres, ainsi que les objectifs et les mesures.
-
-**Exemple d’invite :** « Obtention de détails sur les 12345 d’activité de ciblage d’expérience ».
-
-+++
-
-+++Obtenir une activité Automated Personalization
-
-**Outil :** `get_abt_activity`
-
-Obtenez des informations détaillées sur une activité Automated Personalization (AP).
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité AP |
-
-**Renvoie :** les détails complets de l’activité, y compris les métadonnées, les expériences, les emplacements et les paramètres algorithmiques.
-
-**Exemple d’invite :** « Obtenir des détails sur les 12345 d’activité d’Auto-Personalization ».
+**Exemple d’invite :** « Obtenir des détails sur les 12345 d’activité ».
 
 +++
 
@@ -183,13 +164,13 @@ Crée une activité XT qui diffuse différentes expériences à différentes aud
 
 +++
 
-+++Mettre à jour une activité A/B
++++Mettre à jour une activité
 
-**Outil :** `update_ab_activity`
+**Outil :** `update_activity`
 
-Mettez à jour une activité A/B existante.
+Mettez à jour un test A/B, un ciblage d’expérience ou une activité Automated Personalization existants.
 
-Utilise un modèle de lecture-modification-écriture : récupère l’état actuel, fusionne vos modifications, valide et envoie la mise à jour.
+Utilise un modèle de lecture-modification-écriture : récupère l’état actuel, fusionne vos modifications, valide et envoie la mise à jour. Prend en charge les activités de test A/B, de ciblage d’expérience et d’Automated Personalization. Les activités d’affectation automatique, de test multivarié et de recommandations sont en lecture seule. Les paramètres `goal`, `audience_ids` et `additional_metrics` structurés sont pris en charge uniquement pour les tests A/B et le ciblage d’expérience ; les activités Automated Personalization acceptent les mises à jour de fusion de champs simples.
 
 | Paramètre | Type | Requis | Description |
 |---|---|---|---|
@@ -199,44 +180,6 @@ Utilise un modèle de lecture-modification-écriture : récupère l’état actu
 **Renvoie :** objet Activity mis à jour.
 
 **Exemple d’invite :** « Mettez à jour les 12345 d’activité pour modifier l’affectation du trafic sur 70/30. »
-
-+++
-
-+++Mise à jour d’une activité de ciblage d’expérience
-
-**Outil :** `update_xt_activity`
-
-Mettez à jour une activité de ciblage d’expérience existante.
-
-Utilise un modèle de lecture-modification-écriture.
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité XT à mettre à jour |
-| `activity` | objet | Oui | Champs à mettre à jour |
-
-**Renvoie :** objet Activity mis à jour.
-
-**Exemple d’invite :** « Mettez à jour les 12345 d’activité XT pour ajouter une nouvelle expérience pour les visiteurs mobiles ».
-
-+++
-
-+++Mise à jour d’une activité Automated Personalization
-
-**Outil :** `update_abt_activity`
-
-Mettre à jour une activité Automated Personalization existante
-
-Utilise un modèle de lecture-modification-écriture.
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité AP à mettre à jour |
-| `activity` | objet | Oui | Champs à mettre à jour |
-
-**Renvoie :** objet Activity mis à jour.
-
-**Exemple d’invite :** « Mettez à jour le 12345 d’activité Personalization automatique pour modifier l’objectif d’optimisation. »
 
 +++
 
@@ -251,7 +194,6 @@ Met à jour le planning d’une activité sans modifier les autres paramètres.
 | Paramètre | Type | Requis | Description |
 |---|---|---|---|
 | `activity_id` | Entier | Oui | Identifiant unique de l’activité |
-| `activity_type` | string | Oui | Type d’activité : `ab`, `xt` ou `abt` |
 | `starts_at` | string | Non | Nouvelle date de début (ISO 8601) |
 | `ends_at` | string | Non | Nouvelle date de fin (ISO 8601) |
 
@@ -624,73 +566,41 @@ Aucun paramètre requis.
 
 ## Outils de reporting {#tools-reporting}
 
-+++Obtenir un rapport de performances A/B
++++Obtention d’un rapport de performances d’activité
 
-**Outil :** `get_ab_performance_report`
+**Outil :** `get_activity_performance_report`
 
-Obtenez un rapport de performances pour une activité A/B.
+Obtenez un rapport de performances pour une activité de n’importe quel type.
 
-Récupère les taux de conversion, l’effet élévateur et les niveaux de confiance.
+Récupère les taux de conversion, l’effet élévateur et les niveaux de confiance. Prend en charge les activités de test A/B, de ciblage d’expérience, d’Automated Personalization, d’affectation automatique, de test multivarié et de recommandations.
 
 | Paramètre | Type | Requis | Description |
 |---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité A/B |
+| `activity_id` | Entier | Oui | Identifiant unique de l’activité |
 | `report_interval` | string | Non | Période du rapport (par exemple, `last7days`, `last30days` ou une période personnalisée) |
 
 **Retours :** mesures au niveau de l’expérience (visiteurs, conversions, taux de conversion), calculs de l’effet élévateur, niveaux de confiance statistiques et mesures de recettes (si elles sont configurées).
 
-**Exemple d’invite :** « Afficher le rapport de performances des 12345 de test A/B au cours des 30 derniers jours ».
+**Exemple d’invite :** « Affichez-moi le rapport de performances des 12345 d’activité au cours des 30 derniers jours ».
 
 +++
 
-+++Obtenir un rapport sur les commandes A/B
++++Obtenir un rapport sur les ordres d&#39;activité
 
-**Outil :** `get_ab_orders_report`
+**Outil :** `get_activity_orders_report`
 
-Obtenez un état des commandes/revenus pour une activité A/B.
+Obtenez un état des commandes/revenus pour une activité de n’importe quel type.
+
+Prend en charge les activités de test A/B, de ciblage d’expérience, d’Automated Personalization, d’affectation automatique, de test multivarié et de recommandations.
 
 | Paramètre | Type | Requis | Description |
 |---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité A/B |
+| `activity_id` | Entier | Oui | Identifiant unique de l’activité |
 | `report_interval` | string | Non | Période du rapport |
 
 **Retours : nombre de commandes** chiffre d’affaires et valeur de commande moyenne par expérience.
 
 **Exemple d’invite :** « Obtenir l’état des commandes pour les 12345 d’activité ».
-
-+++
-
-+++Obtention d’un rapport de performances de ciblage d’expérience
-
-**Outil :** `get_xt_performance_report`
-
-Obtenez un rapport de performances pour une activité de ciblage d’expérience.
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité XT |
-| `report_interval` | string | Non | Période du rapport |
-
-**Renvoie :** mesures de performances au niveau de l’expérience.
-
-**Exemple d’invite :** « Afficher les performances de mon 54321 d’activité de ciblage d’expérience ».
-
-+++
-
-+++Obtention d&#39;un rapport sur les ordres de ciblage d&#39;expérience
-
-**Outil :** `get_xt_orders_report`
-
-Obtenez un rapport commandes/revenus pour une activité de ciblage d’expérience.
-
-| Paramètre | Type | Requis | Description |
-|---|---|---|---|
-| `activity_id` | Entier | Oui | Identifiant unique de l’activité XT |
-| `report_interval` | string | Non | Période du rapport |
-
-**Retours :** Classer les mesures par expérience.
-
-**Exemple d’invite :** « Obtenir les données de commande pour les 54321 d’activité XT ».
 
 +++
 
@@ -849,17 +759,18 @@ Aucun paramètre requis.
 
 | Catégorie | Nombre | de recherche |
 |---|---|---|
-| Activité | 17 | `list_target_activities`, `get_ab_activity`, `get_xt_activity`, `get_abt_activity`, `create_ab_activity`, `create_xt_activity`, `update_ab_activity`, `update_xt_activity`, `update_abt_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
+| Activité | 13 | `list_target_activities`, `get_activity`, `create_ab_activity`, `create_xt_activity`, `update_activity`, `update_activity_schedule`, `update_activity_state`, `update_activity_name`, `update_activity_priority`, `add_activity_variant`, `update_traffic_split`, `update_variant_offer`, `remove_activity_variant` |
 | Offre | 5 | `list_target_offers`, `get_target_offer`, `create_target_offer`, `create_target_json_offer`, `update_target_offer` |
-| Audience | 3 | `list_target_audiences`, `get_target_audience`, `create_target_audience` |
+| Audience | 4 | `list_target_audiences`, `get_target_audience`, `create_target_audience`, `update_target_audience` |
 | Mbox | 3 | `list_target_mboxes`, `get_target_mbox`, `list_target_mbox_profile_attributes` |
 | Propriété | 1 | `list_target_properties` |
-| Création de rapports | 6 | `get_ab_performance_report`, `get_ab_orders_report`, `get_xt_performance_report`, `get_xt_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
+| Création de rapports | 4 | `get_activity_performance_report`, `get_activity_orders_report`, `get_activity_report_by_name`, `get_a4t_report` |
 | Prévisualiser | 1 | `preview_activity` |
 | Jeton de réponse | 2 | `list_target_response_tokens`, `create_target_response_token` |
 | Révision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
+| AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Modèle | 1 | `list_target_templates` |
-| **Total** | **41** | |
+| **Total** | **38** | |
 
 ## Ressources connexes {#tools-related}
 
