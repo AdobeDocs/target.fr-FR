@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 327891a5a9112dfacfca1c049adaef54b218676e
+source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 37%
+source-wordcount: 465
+ht-degree: 58%
 
 ---
 
@@ -31,62 +31,31 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.6.8 (24 juin 2026)
+## [!DNL Target Standard/Premium] 26.7.1 (9 juillet 2026)
 
 **Activités**
 
 +++Afficher les détails
 
-* **Filtre Source pour les ressources créées par API et MCP.** Correction d’un problème en raison duquel le filtrage par [!UICONTROL API &#x200B;] ou [!UICONTROL MCP Adobe Target] ne fonctionnait pas sur les pages de liste des activités, audiences et offres. (TGT-55236)
+* **Affichage de la source incohérent sur les pages [!UICONTROL Activités], [!UICONTROL Audiences] et [!UICONTROL Offres].** Correction d’un problème en raison duquel la source s’affichait de manière incohérente sur les pages [!UICONTROL Activités], [!UICONTROL Audiences] et [!UICONTROL Offres]. (TGT-55247)
+
+* **Modifications de la source d’activité lors de la modification via l’interface utilisateur.** Correction d’un problème en raison duquel la modification d’une activité par le biais de l’interface utilisateur modifiait la source de l’activité originale. (TGT-55248)
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**Audiences**
 
 +++Afficher les détails
 
-* **Rapports A4T non visibles.** Correction d’un problème en raison duquel les rapports [!UICONTROL Analytics for Target] (A4T) ne s’affichaient pas. (TGT-55432)
+* **Espace de travail par défaut incorrect lors de la modification d’une audience.** Correction d’un problème en raison duquel l’espace de travail par défaut était incorrect après la modification d’une audience. (TGT-55510)
 
 +++
 
-**[!DNL Adobe Target]le serveur MCP**
+**Création de rapports**
 
 +++Afficher les détails
 
-* **Outils d’activité consolidés.** Les outils d’activité du serveur MCP [!DNL Adobe Target] ont été consolidés afin de réduire la surcharge de sélection d’outils et d’étendre la couverture de lecture et de rapport à tous les types d’activité. Six outils par type ont été remplacés par quatre outils unifiés :
-
-   * `get_activity` remplace `get_ab_activity`, `get_xt_activity` et `get_abt_activity`. Récupère les détails complets de l’activité pour tous les types : test A/B, ciblage d’expérience, Automated Personalization, affectation automatique, test multivarié (MVT) et recommandations. Le type d’activité est automatiquement détecté à partir de l’identifiant.
-   * `update_activity` remplace `update_ab_activity`, `update_xt_activity` et `update_abt_activity`. Prend en charge les activités de test A/B, de ciblage d’expérience et d’Automated Personalization. Les activités d’affectation automatique, de test multivarié et de recommandations sont en lecture seule.
-   * `get_activity_performance_report` remplace `get_ab_performance_report` et `get_xt_performance_report`. Récupère les mesures de conversion, d’effet élévateur et de confiance pour tous les types d’activité.
-   * `get_activity_orders_report` remplace `get_ab_orders_report` et `get_xt_orders_report`. Récupère les mesures de commande et de chiffre d’affaires pour tous les types d’activité.
-
-  Pour plus d’informations, voir [[!DNL Adobe Target] Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
-
-+++
-
-## [!DNL Target Standard/Premium] 26.6.4 (16 juin 2026)
-
-**Activités**
-
-+++Afficher les détails
-
-* **[!UICONTROL Enregistrer et fermer] dans l’interface utilisateur [!DNL Target] mise à jour.** Restauration de l’option **[!UICONTROL Enregistrer et fermer]** dans l’interface utilisateur de [!DNL Target] mise à jour. (TGT-55152)
-
-* **URL d’assurance qualité dans l’interface utilisateur de [!DNL Target] mise à jour.** Correction d’un problème en raison duquel les URL d’assurance qualité ne fonctionnaient pas correctement dans l’interface utilisateur de [!DNL Target] mise à jour. ([TGT-55110](https://jira.corp.adobe.com/browse/TGT-55110))
-
-+++
-
-**Localisation**
-
-+++Afficher les détails
-
-* **Chaînes non localisées dans la fenêtre modale [!UICONTROL Créer une offre JSON].** Correction d’un problème où les chaînes de la fenêtre modale [!UICONTROL Créer une offre JSON], y compris [!UICONTROL Nom] et [!UICONTROL Workspace], n’étaient pas localisées lors de la création de l’activité. (TGT-50084)
-
-* **Message toast non localisé dans une activité [!UICONTROL Recommendations].** Correction d’un problème en raison duquel un message toast non localisé s’affichait lors de l’ajout de recommandations dans une activité [!UICONTROL Recommendations] basée sur des formulaires. (TGT-50463)
-
-* **Chaîne non localisée dans les boîtes de dialogue [!UICONTROL Collections] et [!UICONTROL Exclusions].** Correction d’un problème en raison duquel la chaîne « Payload d’élément » n’était pas localisée dans les boîtes de dialogue [!UICONTROL Collections] et [!UICONTROL Exclusions] dans [!UICONTROL Recommendations]. (TGT-51542)
-
-* **Chaîne « Approver » non localisée dans l’onglet [!UICONTROL Audiences].** Correction d’un problème en raison duquel la chaîne « Approver » n’était pas localisée dans la colonne  de la page [!UICONTROL Bibliothèque d’audiences]. (TGT-51751)
+* **Échec du téléchargement des fichiers CSV pour les rapports de mai.** Correction d’un problème en raison duquel le téléchargement d’un rapport CSV pour le mois de mai échouait. (TGT-55524)
 
 +++
 
@@ -115,7 +84,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 |--- |--- |
 | [Modifications de la documentation](/help/main/r-release-notes/doc-change.md) | Obtenez des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans les notes de mise à jour. |
 | [Notes de mise à jour pour les versions antérieures](/help/main/r-release-notes/release-notes-for-previous-releases.md). | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium. |
-| [Notes De Mise À Jour De &#x200B;](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
+| [Notes De Mise À Jour D’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr){target=_blank} | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud. |
 
 ## Informations en version préliminaire {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
