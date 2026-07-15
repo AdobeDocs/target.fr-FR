@@ -1,30 +1,29 @@
 ---
 title: Applications mobiles
-description: Découvrez comment intégrer des indicateurs dans une application mobile à l’aide de Mobile SDK.
+description: Découvrez comment intégrer des indicateurs dans une application mobile à l’aide des extensions AEP Mobile SDK pour Android et iOS.
 hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 # Applications mobiles {#mobile-applications}
 
-Les applications mobiles s’intègrent aux indicateurs via le SDK mobile.
+Les applications mobiles s’intègrent aux indicateurs via les extensions AEP Mobile SDK pour Android et iOS.
 
->[!NOTE]
->
->La documentation de Mobile SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
+## Guides d’intégration {#integration-guides}
 
-## Étapes d’intégration {#integration-steps}
+Suivez le guide correspondant à votre plateforme :
 
-Pour une présentation complète du processus d’intégration, voir [Étapes d’intégration](integration-steps.md).
+* [Guide d’intégration de l’extension Android](../sdk-releases/android/android-extension-integration-guide.md)
+* [Guide d’intégration de l’extension iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
 
 ## Voir également {#see-also}
 
-* [Étapes d’intégration](integration-steps.md)
 * [Guide de démarrage](startup-guide.md)
+* [SDK](sdks.md)
 
 <!-- -->

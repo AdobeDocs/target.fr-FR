@@ -3,9 +3,9 @@ title: Guide d’intégration de l’extension Experience Rollout pour Android
 description: Découvrez comment intégrer l’extension Experience Rollout à Adobe Experience Platform Mobile SDK sur Android.
 hide: true
 exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '1127'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ Ce guide décrit comment intégrer l’extension Experience Rollout à Adobe Exp
 
 Avant de mettre en œuvre l’extension Déploiement d’expérience , vérifiez que vous disposez des éléments suivants :
 
-* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
+* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
 * Extension Experience Rollout installée et configurée dans votre propriété mobile
 * Un identifiant d’organisation Adobe Experience Cloud
 * SDK minimale : API 21 (Android 5.0 Lollipop)
@@ -40,7 +40,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
 1. Sélectionnez l’onglet **Balises** et choisissez votre propriété mobile.
 1. Accédez à **Extensions** > **Catalogue**.
 1. Recherchez **Extension du déploiement d’expérience** et sélectionnez **Installer**.
@@ -53,13 +53,17 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | ID du jeu de données | Identifiant du jeu de données Adobe Experience Platform pour les données d’événement Analytics |
 
 1. Sélectionnez **Enregistrer**.
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
 1. Dans votre propriété mobile, accédez à **Environnements**.
 1. Sélectionnez l’icône en forme de boîte sous la colonne **Installer** pour votre environnement.
 1. Dans la boîte de dialogue **Instructions d’installation mobile**, copiez le **ID du fichier d’environnement**.
+
+>[!IMPORTANT]
+>
+>Dans l’environnement **staging**, faites précéder l’ID du fichier d’environnement de `staging/`, c’est-à-dire utilisez `staging/<environmentId>`. En **production**, utilisez directement l’identifiant du fichier d’environnement.
 
 ## Ajout de l’extension Experience Rollout à votre application {#add-to-app}
 
@@ -107,7 +111,7 @@ dependencies {
 
 >[!IMPORTANT]
 >
->Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques. Voir [&#x200B; Gestion des dépendances Gradle &#x200B;](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
+>Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques. Voir [ Gestion des dépendances Gradle ](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
 
 ### Ajout d’autorisations {#add-permissions}
 
@@ -188,7 +192,7 @@ Enregistrez votre classe `Application` dans `AndroidManifest.xml` :
 
 | Méthode | Requis | Description |
 |---|---|---|
-| `withIdentity(namespace, id)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
+| `withIdentity(namespace, id)` | Non | Premier argument : espace de noms d’identité (voir [Espaces de noms d’identité ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Deuxième argument : valeur de l&#39;identité. Incluez-le lorsque vous souhaitez que cet espace de noms et cet identifiant soient représentés dans Analytics pour cette évaluation. S’il n’est pas fourni, Analytics utilise ECID par défaut. Cela n’est pas utilisé pour prendre des décisions d’activation de fonctionnalités. |
 | `withAttributes(map)` | Non | `Map<String, List<String>>`. Clé est le nom de l’attribut de contexte utilisé par vos règles de déploiement (par exemple, `locale`, `platform`, `appVersion`, `deviceType`). Valeur est la liste des valeurs d’attribut candidates pour cette clé pour l’utilisateur/la session en cours (par exemple `["en_US"]` ou `["phone"]`). |
 
 **Kotlin**
@@ -237,11 +241,20 @@ FeatureEvaluationContext ctx = FeatureEvaluationContext.builder()
 | `appVersion` | Version de l’application | `["3.0.0"]` |
 | `deviceType` | Type de périphérique | `["phone"]`, `["tablet"]` |
 
+## Concepts clés pour l’évaluation des fonctionnalités {#key-concepts}
+
+Gardez les points suivants à l’esprit lors de l’implémentation de Feature Gates dans votre application :
+
+* **Transmettez des valeurs d’attribut, et non des libellés d’affichage.** Les valeurs d’attribut de contexte sont **sensibles à la casse**. Transmettez la valeur brute envoyée par votre application ou site web (par exemple, `"en_US"` ou `"ANDROID"`), et non le libellé affiché dans la console.
+* **Évaluation au niveau de la fonctionnalité (indicateur).** Même lorsqu’un indicateur appartient à un groupe de fonctionnalités, appelez toujours l’API avec la **clé de fonctionnalité individuelle**. Il n’y a pas d’évaluation au niveau du groupe. La réponse renvoie la variante dans laquelle l’utilisateur est tombé.
+* **L’identité n’a pas besoin d’être liée à un profil.** L’évaluation se produit au moment de l’exécution. L’événement d’évaluation est envoyé à Customer Journey Analytics que l’identité soit ou non liée à un profil connu.
+* **Chaque nouvel indicateur nécessite une modification de code.** Ajoutez un point de contrôle pour chaque clé de drapeau dans votre code. Utilisez `isFeatureEnabled()` pour vérifier un état on/off booléen ou `getFeature()` pour récupérer la payload complète de la fonctionnalité, y compris la variante.
+
 ## Référence d’API {#api-reference}
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un rappel. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context).
+`isFeatureEnabled` indique si la fonction Déploiement d’expérience est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, un `FeatureEvaluationContext` (attributs de ciblage facultatifs et identité facultative pour Analytics) et un rappel. Voir [ Contexte d’évaluation ](#evaluation-context).
 
 **Signature**
 
@@ -269,7 +282,7 @@ Rollout.isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `callback` | AdobeCallback&lt;Boolean> | Appelée avec `true` si la fonctionnalité est activée, `false` dans le cas contraire. Vous pouvez également transmettre des `AdobeCallbackWithError<Boolean>` pour gérer les `fail(...)`. |
 
 **Exemples**
@@ -347,7 +360,7 @@ Rollout.getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans le déploiement d’expérience |
-| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Ajoutez des attributs de ciblage et une identité facultative pour les analyses, au besoin ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | Appelée avec la payload de la fonctionnalité évaluée ; peut être `null` lorsque la fonctionnalité est introuvable. Vous pouvez également transmettre des `AdobeCallbackWithError<FeatureEvaluationResult>` pour gérer les `fail(...)`. |
 
 **Réponse**
@@ -447,7 +460,7 @@ Renvoie la chaîne de version de l’extension Experience Rollout.
 Rollout.extensionVersion(): String
 ```
 
-**Exemple &#x200B;**
+**Exemple **
 
 *Kotlin*
 

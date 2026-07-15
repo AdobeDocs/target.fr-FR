@@ -3,10 +3,10 @@ title: Test A/B avec indicateurs de fonctionnalité
 description: Découvrez comment exécuter des tests A/B à l’aide de groupes de fonctionnalités dans la section Indicateurs en configurant plusieurs variantes pour un ensemble d’indicateurs de fonctionnalités.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de f
 
 ## Conditions préalables {#prerequisites}
 
-* Vous avez accès à la console ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
+* Vous avez accès à la console ; voir [ Connexion à la console ](../console/log-in-to-the-console.md)
 * Vous appartenez à une équipe et votre application est intégrée
 * Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
 * Vous avez créé les indicateurs de fonctionnalité à tester. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
@@ -24,10 +24,14 @@ Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de f
 ## Étape 1 : créer un groupe de fonctionnalités avec plusieurs variantes {#create}
 
 1. Accédez à **Tests de fonctionnalités > Groupes de fonctionnalités** et sélectionnez **Nouveau groupe de fonctionnalités**.
-2. Dans **Détails de base**, fournissez un titre, une clé et une description.
-3. Définissez un **déploiement en pourcentage** pour définir la proportion de votre audience qui participe au test.
-4. Définissez **Variantes** sur une valeur supérieure à un (par exemple, deux variantes pour un test A/B classique).
-5. Voir [Définir un groupe d’attributs à déployer progressivement](set-feature-group-gradual-rollout.md) pour comprendre comment le pourcentage d’exposition est réparti entre les variantes.
+1. Dans **Détails de base**, fournissez un titre, une clé et une description.
+1. Définissez un **déploiement en pourcentage** pour définir la proportion de votre audience qui participe au test.
+1. Définissez **Variantes** sur une valeur supérieure à un (par exemple, deux variantes pour un test A/B classique). Vous pouvez définir jusqu’à 3 variantes **plus une population témoin**.
+1. Voir [Définir un groupe d’attributs à déployer progressivement](set-feature-group-gradual-rollout.md) pour comprendre comment le pourcentage d’exposition est réparti entre les variantes.
+
+>[!NOTE]
+>
+>L’exposition est répartie **également** entre les variantes, par exemple 50/50 pour deux variantes. Les divisions personnalisées telles que 60/40 ne sont pas prises en charge. Un indicateur de fonctionnalité unique peut être ajouté à **plusieurs variantes**. L’audience est définie **une fois par groupe de fonctionnalités**, et non par variante.
 
 ## Étape 2 : définir l’audience {#audience}
 
@@ -53,6 +57,6 @@ Enregistrez les paramètres du groupe de fonctionnalités. Lorsque vous êtes pr
 
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
 * [Définir un groupe de fonctionnalités à déployer progressivement](set-feature-group-gradual-rollout.md)
-* [Analytics](analytics.md)
+* [Création de rapports](analytics.md)
 
 <!-- -->

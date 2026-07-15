@@ -3,10 +3,10 @@ title: Étapes d’intégration
 description: Suivez les étapes d’intégration de votre type d’application pour connecter Flags à votre service web, application web ou mobile ou application de bureau à l’aide des SDK disponibles.
 hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 4%
+source-wordcount: '167'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,20 @@ Les services principaux s’intègrent à l’aide d’un SDK côté serveur. Co
 >
 >La documentation du SDK côté serveur est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
-## Applications web et mobiles {#web-mobile}
+## Applications mobiles {#mobile}
 
-Les applications web et mobiles s’intègrent respectivement via le web SDK et le mobile SDK.
+Les applications mobiles s&#39;intègrent via les extensions AEP Mobile SDK :
+
+* [Guide d’intégration de l’extension Android](../sdk-releases/android/android-extension-integration-guide.md)
+* [Guide d’intégration de l’extension iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
+
+## Applications Web {#web}
+
+La prise en charge des applications web sera bientôt disponible.
 
 >[!NOTE]
 >
->La documentation de Web SDK et de Mobile SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
+>La documentation de Web SDK est en cours de préparation et sera bientôt disponible. Contactez votre représentant Adobe pour obtenir des conseils sur l’accès anticipé.
 
 ## Applications de bureau {#desktop}
 

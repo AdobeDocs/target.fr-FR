@@ -3,9 +3,9 @@ title: Intégration d’indicateurs dans l’application
 description: Découvrez comment intégrer des indicateurs à votre application, qu’il s’agisse d’un service web, d’une propriété web, d’une application mobile ou d’une application de bureau.
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ Sélectionnez le guide correspondant à votre type d’application :
 ## Types d’applications en un coup d’œil {#overview}
 
 | Type d’application | Intégration recommandée |
-|---|---|
+| --- | --- |
 | **Service web/serveur principal** | SDK Java SDK ou Node.js |
 | **Application web** | Web SDK (bientôt disponible) |
-| **Application mobile** | Mobile SDK (bientôt disponible) |
+| **Application mobile** | AEP Mobile SDK — consultez les guides [Android](../sdk-releases/android/android-extension-integration-guide.md) et [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) |
 | **Application de bureau** | SDK (bientôt disponible) |
 
 <!-- -->
