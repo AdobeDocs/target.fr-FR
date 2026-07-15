@@ -3,9 +3,9 @@ title: Créer un groupe de fonctionnalités
 description: Découvrez comment créer un groupe de fonctionnalités dans les indicateurs afin de gérer plusieurs indicateurs de fonctionnalités dans les applications de votre équipe en une seule entité.
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,12 @@ Attribuez les indicateurs de fonctionnalité qui seront contrôlés par ce group
 >[!IMPORTANT]
 >
 >Un indicateur de fonctionnalité ne peut être diffusé que par une méthode, soit directement en tant qu&#39;indicateur de fonctionnalité, soit par l&#39;intermédiaire d&#39;un groupe de fonctionnalités, soit par l&#39;intermédiaire d&#39;une version. Lorsque vous ajoutez un indicateur de fonctionnalité à un groupe de fonctionnalités, toute audience ou pourcentage de déploiement défini sur l’indicateur est supprimé. Les indicateurs de fonctionnalité déjà affectés à une autre version ou à un autre groupe de fonctionnalités n&#39;apparaissent pas dans la liste.
+
+>[!IMPORTANT]
+>
+>Lorsque vous **supprimez** un indicateur de fonctionnalité d&#39;un groupe de fonctionnalités, l&#39;indicateur retourne à un état **désactivé** et son audience n&#39;est **pas** restaurée — traitez-le comme un nouvel indicateur. Un indicateur **désactivé** au sein d’un groupe est toujours évalué sur `false`. L&#39;activation d&#39;un groupe de fonctionnalités n&#39;active **pas** ses indicateurs membres ; elle active explicitement chaque indicateur.
+>
+>Les groupes de fonctionnalités sont une **couche de gestion**. Au moment de l’exécution, vous évaluez toujours au niveau de la **fonctionnalité (indicateur)**, jamais au niveau du groupe ; la réponse inclut la variante dans laquelle l’utilisateur est tombé.
 
 ## Étape 5 : Planifier (facultatif) {#schedule}
 

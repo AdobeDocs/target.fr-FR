@@ -2,10 +2,10 @@
 title: Guide d’intégration de l’extension Experience Rollout pour iOS
 description: Découvrez comment intégrer l’extension Experience Rollout à Adobe Experience Platform Mobile SDK sur iOS.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 7%
+source-wordcount: '1116'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,10 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 1. Dans votre propriété mobile, accédez à **Environnements**.
 1. Sélectionnez l’icône en forme de boîte sous la colonne **Installer** pour votre environnement.
 1. Dans la boîte de dialogue **Instructions d’installation mobile**, copiez le **ID du fichier d’environnement**.
+
+>[!IMPORTANT]
+>
+>Dans l’environnement **staging**, faites précéder l’ID du fichier d’environnement de `staging/`, c’est-à-dire utilisez `staging/<environmentId>`. En **production**, utilisez directement l’identifiant du fichier d’environnement.
 
 ## Ajout de l’extension Experience Rollout à votre application {#add-to-app}
 
@@ -231,6 +235,15 @@ AEPFeatureEvaluationContext *ctx = [[[AEPFeatureEvaluationContextBuilder builder
 | `platform` | Identifiant de plateforme | `["IOS"]` |
 | `appVersion` | Version de l’application | `["3.0.0"]` |
 | `deviceType` | Type de périphérique | `["phone"]`, `["tablet"]` |
+
+## Concepts clés pour l’évaluation des fonctionnalités {#key-concepts}
+
+Gardez les points suivants à l’esprit lors de l’implémentation de Feature Gates dans votre application :
+
+* **Transmettez des valeurs d’attribut, et non des libellés d’affichage.** Les valeurs d’attribut de contexte sont **sensibles à la casse**. Transmettez la valeur brute envoyée par votre application ou site web (par exemple, `"en_US"` ou `"IOS"`), et non le libellé affiché dans la console.
+* **Évaluation au niveau de la fonctionnalité (indicateur).** Même lorsqu’un indicateur appartient à un groupe de fonctionnalités, appelez toujours l’API avec la **clé de fonctionnalité individuelle**. Il n’y a pas d’évaluation au niveau du groupe. La réponse renvoie la variante dans laquelle l’utilisateur est tombé.
+* **L’identité n’a pas besoin d’être liée à un profil.** L’évaluation se produit au moment de l’exécution. L’événement d’évaluation est envoyé à Customer Journey Analytics que l’identité soit ou non liée à un profil connu.
+* **Chaque nouvel indicateur nécessite une modification de code.** Ajoutez un point de contrôle pour chaque clé de drapeau dans votre code. Utilisez `isFeatureEnabled()` pour vérifier un état on/off booléen ou `getFeature()` pour récupérer la payload complète de la fonctionnalité, y compris la variante.
 
 ## Référence d’API {#api-reference}
 

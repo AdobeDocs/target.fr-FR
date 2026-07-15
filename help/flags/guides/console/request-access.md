@@ -3,10 +3,10 @@ title: Demander l’accès
 description: Découvrez comment demander l’accès à une équipe Flags dans Adobe Target et les rôles disponibles pour les nouveaux membres.
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,14 @@ Vous recevrez une confirmation une fois la demande soumise. Vous pouvez surveill
 
 ## Rôles disponibles {#roles}
 
-Le rôle qui vous est affecté détermine les actions que vous pouvez effectuer dans la console. Contactez l’administrateur ou l’administratrice de votre équipe si vous ne savez pas quel rôle demander.
+Le rôle qui vous est affecté détermine les actions que vous pouvez effectuer dans la console. Contactez votre administrateur si vous ne savez pas quel rôle demander.
+
+| Rôle | Description |
+| --- | --- |
+| **Admin** | Accès complet à la console. Peuvent gérer des applications et des membres de l’équipe, et approuver ou rejeter des demandes d’accès. |
+| **Administrateur de fonctionnalités** | Peut approuver ou rejeter des demandes d’accès et gérer des indicateurs de fonctionnalités et des groupes de fonctionnalités. |
+| **Propriétaire de la version de produit** | Possibilité de créer et de gérer des indicateurs de fonctionnalités et des groupes de fonctionnalités, et de publier des fonctionnalités pour des utilisateurs externes. |
+| **Développeur** | Accès en sandbox pour les tests privés. ne peut s’exposer à des fonctionnalités qu’à elle-même en ajoutant son propre identifiant utilisateur à une audience. Impossible de libérer des fonctionnalités pour des utilisateurs externes. |
 
 ## Une fois l’accès accordé {#after-access}
 

@@ -3,10 +3,10 @@ title: Définir un groupe de fonctionnalités à déployer progressivement
 description: Découvrez comment configurer le déploiement progressif en fonction d’un pourcentage pour un groupe de fonctionnalités dans Indicateurs.
 hide: true
 exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ Le pourcentage de déploiement d’un groupe de fonctionnalités est configuré 
 
 ## Fonctionnement {#how-it-works}
 
-Lorsque vous définissez un pourcentage de déploiement, par exemple 60 %, ce pourcentage de l’audience définie est exposé au groupe de fonctionnalités. Les 40 % restants sont placés dans la **population témoin**, qui reçoit le comportement par défaut.
+Lorsque vous définissez un pourcentage de déploiement, par exemple 60 %, ce pourcentage de l’audience définie est exposé au groupe de fonctionnalités. Le pourcentage de déploiement est **obligatoire** et est défini par défaut sur **100 %** (le groupe de fonctionnalités est diffusé à l’ensemble de l’audience correspondante). Vous pouvez l’ajuster par incréments de **1 %**. Le pourcentage restant est placé dans la **population témoin**, qui reçoit le comportement par défaut.
 
 Si vous avez configuré plusieurs variantes (pour les tests A/B), le pourcentage d’exposition est réparti de manière égale entre les variantes. Par exemple, une exposition de 60 % avec trois variants donne 20 % par variante, dont 40 % dans le groupe témoin.
 

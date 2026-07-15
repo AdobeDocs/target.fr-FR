@@ -3,17 +3,17 @@ audience: user
 user-guide-title: Flags
 user-guide-description: Découvrez comment utiliser les indicateurs dans Adobe Target pour gérer les indicateurs de fonctionnalité, les déploiements contrôlés et les versions ciblées dans vos applications.
 hide: true
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '169'
+ht-degree: 9%
 
 ---
 
 
 # Flags {#flags}
 
-+ [Vue d’ensemble](home.md)
++ [Aperçu](home.md)
 + Prise en main {#get-started}
    + [Présentation des indicateurs](getting-started/introduction.md)
    + [Pourquoi utiliser des indicateurs ?](getting-started/why-use-flags.md)
@@ -25,7 +25,7 @@ ht-degree: 8%
    + [Déploiement graduel](concepts/gradual-rollout.md)
 + Prise en main de la console {#console}
    + [Se connecter aux indicateurs](guides/console/log-in-to-the-console.md)
-   + [Sélectionnez votre sandbox](guides/console/environments-overview.md)
+   + [Présentation des environnements](guides/console/environments-overview.md)
    + [Demander l’accès](guides/console/request-access.md)
 + Applications {#applications}
    + [Gestion des applications](guides/applications/manage-applications.md)
@@ -46,7 +46,7 @@ ht-degree: 8%
    + [Créer un groupe de fonctionnalités](guides/feature-flags/create-a-feature-group.md)
    + [Définir un groupe de fonctionnalités à déployer progressivement](guides/feature-flags/set-feature-group-gradual-rollout.md)
    + [Test A/B avec indicateurs de fonctionnalité](guides/feature-flags/a-b-testing.md)
-   + [Concepts de base](guides/feature-flags/analytics.md)
+   + [Création de rapports](guides/feature-flags/analytics.md)
 + Critères d’audience {#audience}
    + [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](guides/audience/audience-in-feature-flags-and-feature-groups.md)
    + [Utilisation du contexte dans les règles d’audience](guides/audience/using-context-in-audience-rules.md)

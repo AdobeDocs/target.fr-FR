@@ -1,16 +1,16 @@
 ---
-title: Sélectionnez votre sandbox
+title: Présentation des environnements
 description: Découvrez comment sélectionner le sandbox Adobe Experience Platform approprié lors de l’utilisation d’indicateurs.
 hide: true
 exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 2%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
-# Sélectionnez votre sandbox {#sandbox}
+# Présentation des environnements {#environments-overview}
 
 Les indicateurs sont créés sur Adobe Experience Platform. Avant d’utiliser les indicateurs de fonctionnalité, sélectionnez la sandbox qui correspond à votre environnement actuel, comme vous le feriez dans toute autre application Adobe Experience Platform.
 

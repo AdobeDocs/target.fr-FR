@@ -3,9 +3,9 @@ title: Intégration de votre application
 description: Découvrez comment intégrer une nouvelle application aux indicateurs afin de pouvoir commencer à créer et gérer des indicateurs de fonctionnalités.
 hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,11 @@ Vous devez disposer du rôle **Admin** pour ajouter une nouvelle application. Co
 
 ## Ajouter une nouvelle application {#add-application}
 
-1. Connectez-vous à la console Indicateurs et accédez à **Déploiement d’expérience > Applications**.
+1. Connectez-vous à la console Indicateurs et accédez à **Indicateurs > Applications**.
 
    >[!NOTE]
    >
-   >Si le bouton **Nouvelle application** n’est pas visible, vérifiez que vous disposez du rôle **Administrateur Floodgate**.
+   >Si le bouton **Nouvelle application** n’est pas visible, vérifiez que vous disposez du rôle **Admin**.
 
 2. Sélectionnez **Nouvelle application**.
 
@@ -28,10 +28,13 @@ Vous devez disposer du rôle **Admin** pour ajouter une nouvelle application. Co
 
 4. Fournissez les informations suivantes :
 
+   Les champs marqués d’un * sont obligatoires.
+
    | Champ | Description |
-   |---|---|
-   | **ID de l’application** | Identifiant unique utilisé lors de l’appel des indicateurs à partir de votre code. Utilisez l’identifiant client de votre application. |
-   | **TTL** | Intervalle d’interrogation (en secondes) pour l’actualisation du cache par application. S’applique uniquement aux SDK côté serveur. |
+   | --- | --- |
+   | **Nom de l’application** * | Nom d’affichage de l’application. |
+   | **ID de l’application** * | Identifiant unique utilisé lors de l’appel des indicateurs à partir de votre code. Utilisez l’identifiant client de votre application. |
+   | **Intervalle d’interrogation** | Intervalle d’interrogation (en secondes) pour l’actualisation du cache par application. S’applique uniquement aux SDK côté serveur. |
 
 5. Sélectionnez **Ajouter**. Votre application est maintenant enregistrée et prête pour la configuration des indicateurs de fonctionnalité.
 
