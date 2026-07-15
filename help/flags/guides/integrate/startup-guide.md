@@ -50,8 +50,8 @@ Suivez les [étapes d’intégration](integration-steps.md) pour votre type d’
 
 Si vous intégrez par le biais d’une approche basée sur les balises (web ou mobile), configurez votre propriété de balise avant d’initialiser le SDK :
 
-1. Dans [Collecte de données ](https://experience.adobe.com/#/data-collection), ouvrez votre propriété mobile ou web.
-1. Installez l’extension ****, puis l’extension **Déploiement d’Experience** (dans cet ordre).
+1. Dans [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection), ouvrez votre propriété mobile ou web.
+1. Installez l’extension **&#x200B;**, puis l’extension **Déploiement d’Experience** (dans cet ordre).
 1. Sélectionnez votre **flux de données** (doit inclure le jeu de données Customer Journey Analytics) et votre domaine Edge.
 1. Publiez la configuration via **Développement → Évaluation → Production**.
 1. Copiez le **ID du fichier d’environnement** de l’onglet **Environnements** — vous l’utiliserez pour initialiser le SDK.
