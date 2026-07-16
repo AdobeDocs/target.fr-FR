@@ -7,21 +7,14 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 062337cc6563f52ce505cc3085cc2af5ec4457b6
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 65b4878ba8858b105cbebe536b55a9e1775478d3
 workflow-type: tm+mt
-source-wordcount: 465
-ht-degree: 58%
+source-wordcount: 573
+ht-degree: 47%
 
 ---
 
@@ -30,6 +23,34 @@ ht-degree: 58%
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.7.2 (16 juillet 2026)
+
+**Activités**
+
++++Afficher les détails
+
+* **Informations d’objectif incorrectes sur la page [!UICONTROL Aperçu de l’activité].** Correction d’un problème en raison duquel la page [!UICONTROL Aperçu de l’activité] pour les activités [!DNL Automated Personalization] affichait des objectifs supplémentaires au lieu de l’objectif d’optimisation. (TGT-55553)
+
+* **Écran ne répondant pas lors de la navigation dans les pages en mode [!UICONTROL Parcourir].** Correction d’un problème en raison duquel l’écran ne répondait plus lors de la navigation entre les pages en mode [!UICONTROL Parcourir]. (TGT-55565)
+
++++
+
+**Page d’accueil**
+
++++Afficher les détails
+
+* **Modification de l’interface utilisateur pour [!UICONTROL Meilleures performances] et [!UICONTROL Enregistrements].** Mise à jour de l’interface utilisateur pour les utilisateurs les plus performants et enregistrement de l’expérience. (TGT-54975)
+
++++
+
+**Audiences**
+
++++Afficher les détails
+
+* **Chaînes non localisées dans la boîte de dialogue [!UICONTROL Créer un script de profil].** Correction d’un problème où les chaînes de la boîte de dialogue [!UICONTROL Créer un script de profil] n’étaient pas localisées. (TGT-51527)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.7.1 (9 juillet 2026)
 
