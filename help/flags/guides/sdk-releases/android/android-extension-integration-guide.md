@@ -51,7 +51,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | ID d’application | Identifiant unique de votre application dans Flags |
 
 1. Sélectionnez **Enregistrer**.
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
