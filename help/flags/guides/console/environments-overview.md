@@ -18,7 +18,7 @@ Les indicateurs sont créés sur Adobe Experience Platform. Avant d’utiliser l
 
 Utilisez le sélecteur de sandbox dans la barre de navigation supérieure de la console Indicateurs pour sélectionner le sandbox approprié avant de créer ou de modifier des indicateurs de fonctionnalité.
 
-![ Sélecteur de sandbox dans la console Indicateurs ](assets/sandbox-selection.png)
+![&#x200B; Sélecteur de sandbox dans la console Indicateurs &#x200B;](assets/sandbox-selection.png)
 
 ## Voir également {#see-also}
 
