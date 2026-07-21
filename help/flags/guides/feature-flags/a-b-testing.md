@@ -3,10 +3,10 @@ title: Test A/B avec indicateurs de fonctionnalité
 description: Découvrez comment exécuter des tests A/B à l’aide de groupes de fonctionnalités dans la section Indicateurs en configurant plusieurs variantes pour un ensemble d’indicateurs de fonctionnalités.
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de f
 
 * Vous avez accès à la console ; voir [&#x200B; Connexion à la console &#x200B;](../console/log-in-to-the-console.md)
 * Vous appartenez à une équipe et votre application est intégrée
-* Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
+* Vous disposez du rôle **Propriétaire de la version de produit**
 * Vous avez créé les indicateurs de fonctionnalité à tester. Voir [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
 
 ## Étape 1 : créer un groupe de fonctionnalités avec plusieurs variantes {#create}
@@ -37,10 +37,6 @@ Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de f
 
 Dans l’onglet **Audience**, ajoutez des critères d’audience et sélectionnez les applications à inclure. Les groupes de fonctionnalités peuvent couvrir plusieurs applications au sein d&#39;une même équipe.
 
->[!NOTE]
->
->Pour cibler des utilisateurs externes dans un test A/B, vous devez disposer du rôle **Propriétaire de la version de produit**. Le rôle de développeur est mis en sandbox et limité à des tests privés.
-
 ## Étape 3 : ajout de fonctionnalités par variante {#features}
 
 Sous l’onglet **Fonctions**, chaque variante a son propre onglet. Ajoutez les indicateurs de fonctionnalité appropriés à chaque variante pour définir les différentes expériences à comparer.
@@ -57,6 +53,6 @@ Enregistrez les paramètres du groupe de fonctionnalités. Lorsque vous êtes pr
 
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)
 * [Définir un groupe de fonctionnalités à déployer progressivement](set-feature-group-gradual-rollout.md)
-* [Création de rapports](analytics.md)
+* [Création de rapports](reporting.md)
 
 <!-- -->

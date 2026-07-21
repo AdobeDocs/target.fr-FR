@@ -3,10 +3,10 @@ title: Créer votre premier indicateur de fonctionnalité
 description: Découvrez comment créer un indicateur de fonctionnalité dans les indicateurs, définir une audience et la tester avant de la déployer sur les utilisateurs.
 hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 045bd3321fd4041fe7f723ce300a400102ed7274
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +18,15 @@ Avant de créer un indicateur de fonctionnalité, effectuez les opérations suiv
 
 * Vous avez accès à la console Indicateurs — voir [Connexion à la console](../console/log-in-to-the-console.md)
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
-* Vous disposez du rôle **Développeur** ou **Propriétaire de la version de produit**
+* Vous disposez du rôle **Propriétaire de la version de produit**
 
 ## Étape 1 : créer l’indicateur de fonctionnalité {#create}
 
 Pour créer un indicateur de fonctionnalité, procédez comme suit dans la console :
 
-1. Connectez-vous à la console Indicateurs et accédez à **Fonctionnalités et versions > Indicateurs de fonctionnalité**.
+1. Connectez-vous à la **console Flags**, accédez au panneau de gauche, puis sélectionnez **Indicateurs de fonctionnalité**.
 1. Sélectionnez votre application dans la liste déroulante **Application**.
-1. Sélectionnez **Nouvelle fonctionnalité**.
+1. Sélectionnez **Nouveaux indicateurs de fonctionnalité**.
 1. Renseignez les champs du formulaire :
 
    | Champ | Description |
@@ -35,6 +35,7 @@ Pour créer un indicateur de fonctionnalité, procédez comme suit dans la conso
    | **Clé** * | Identifiant utilisé dans votre code pour évaluer l’indicateur . Impossible de modifier après la création. |
    | **Description** | Description facultative à des fins de documentation. |
    | **Métadonnées** | Facultatif. Jusqu’à 1 024 caractères. Utilisez ce champ pour toutes les métadonnées supplémentaires à associer à l’indicateur. |
+   | **Balises** | Balises facultatives à des fins de documentation. |
    | **Identité** * | Identité en fonction de laquelle l’indicateur est évalué (par exemple, ECID). Il s’agit de l’identité transmise dans la requête de fonctionnalité. |
    | **Pourcentage de déploiement** | Pourcentage de l’audience définie qui bénéficie de cette fonctionnalité. La valeur par défaut est 100 %. Voir [Définir une fonctionnalité à déployer progressivement](set-feature-gradual-rollout.md). |
 
@@ -52,22 +53,6 @@ Pour créer un indicateur de fonctionnalité, procédez comme suit dans la conso
 Les critères d’audience contrôlent quels utilisateurs voient la fonctionnalité. Vous pouvez cibler les utilisateurs avec des **attributs de contexte** — valeurs que votre site web ou application envoie dans la demande de fonctionnalité (par exemple, `locale` ou `platform`). Les combiner avec **AND**, **OR** et **NOT**. Voir [Utilisation du contexte dans les règles d’audience](../audience/using-context-in-audience-rules.md).
 
 Pour ajouter des critères d’audience, accédez à l’onglet **Audience** lors de la création ou de la modification d’un indicateur de fonctionnalité.
-
->[!NOTE]
->
->Le rôle **Développeur** est en sandbox. Les développeurs ne peuvent s’exposer à une fonctionnalité qu’en ajoutant leur propre ID utilisateur sous **Audience > Profil > ID utilisateur**. Pour exposer une fonctionnalité à des utilisateurs externes, vous devez disposer du rôle **Propriétaire de la version du produit**.
-
-## Étape 3 : calculer la taille de l’audience {#audience-size}
-
-Après avoir ajouté des critères d’audience, sélectionnez **Calculer** dans la barre inférieure pour obtenir une estimation du nombre d’utilisateurs qui remplissent les critères de la fonctionnalité. Cela permet de valider le ciblage avant la mise en ligne.
-
-## Étape 4 : Planifier (facultatif) {#schedule}
-
-Vous pouvez planifier l&#39;activation d&#39;un indicateur de fonctionnalité à une date et une heure futures à l&#39;aide de l&#39;option **Planifier** dans les paramètres d&#39;indicateur de fonctionnalité.
-
-## FAQ : Je ne peux pas ajouter d’indicateur de fonctionnalité en tant que développeur {#faq}
-
-Le rôle **Développeur** est en sandbox. Les développeurs peuvent tester les fonctionnalités de manière privée en ajoutant leur identifiant utilisateur à l’audience. Ils ne peuvent pas exposer de fonctionnalités à des utilisateurs externes. Utilisez le rôle **Propriétaire de la version du produit** pour publier des fonctionnalités pour des utilisateurs externes. Contactez votre administrateur pour mettre à jour votre rôle.
 
 ## Voir également {#see-also}
 

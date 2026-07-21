@@ -3,9 +3,9 @@ title: Guide de démarrage
 description: 'Pour intégrer votre application à des indicateurs, procédez comme suit : de la demande d’accès à la création de votre premier indicateur de fonctionnalité.'
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 35fa45d2a5374dcc47a02bb737f28f24847d7fc6
+source-git-commit: 9a4e16418c93fa163d821409a0eecb251f2a9929
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '352'
 ht-degree: 1%
 
 ---
@@ -27,31 +27,25 @@ Avant l’intégration, préparez les éléments suivants :
 | Exigence | Détails |
 |---|---|
 | **ID de l’application** | Identifiant client unique utilisé lors de l’appel des API Flags. Utilisez l’identifiant client existant de votre application, le cas échéant. |
-| **Clients côté serveur** | En cas d’intégration à un SDK côté serveur, vous avez besoin d’un identifiant client d’administration disposant des autorisations appropriées. |
-| **Clients de bureau** | Un code de produit et une version de produit peuvent être utilisés à la place d’un identifiant client. |
 
-## Étape 3 : obtenir vos informations d’identification {#step-3-credentials}
+## Étape 3 : obtenir votre identifiant de fichier d’environnement {#step-3-credentials}
 
-Les informations d’identification dont vous avez besoin dépendent de votre chemin d’intégration :
+L’identifiant de fichier d’environnement dont vous avez besoin dépend de votre chemin d’intégration :
 
 * **Web et mobile (basé sur les balises) :** utilisez le **identifiant de fichier d’environnement** de la propriété de balise publiée. Voir Étape 4a pour savoir comment obtenir ceci.
-* **SDK côté serveur :** demandez un **identifiant client de jeton de service** et demandez à la prise en charge des indicateurs de le placer sur la liste autorisée avant de pouvoir effectuer des appels API à partir de SDK.
-* **Ordinateur de bureau :** un code de produit et une version de produit peuvent être utilisés à la place d’un identifiant client.
 
 ## Étape 4 : Intégration à l’aide d’un SDK {#step-4-integrate}
 
-Suivez les [étapes d’intégration](integration-steps.md) pour votre type d’application. Choisissez le chemin d’accès qui correspond à votre pile :
+Suivez le guide d’intégration correspondant à votre type d’application. Choisissez le chemin d’accès qui correspond à votre pile :
 
-* **Services web** → Java SDK ou Node.js SDK
-* **Applications web et mobiles** → AEP Mobile SDK — consultez les guides [Android](../sdk-releases/android/android-extension-integration-guide.md) et [iOS](../sdk-releases/ios/ios-extension-integration-guide.md)
-* **Applications de bureau** → SDK (bientôt disponible)
+* **Applications web et mobiles** — consultez les guides [Android](../sdk-releases/android/android-extension-integration-guide.md), [iOS](../sdk-releases/ios/ios-extension-integration-guide.md) et [Web](../sdk-releases/web/web-extension-integration-guide.md) dans la section du guide d’intégration
 
 ## Étape 4a : Configurer la collecte de données et publier votre configuration {#step-4a-data-collection}
 
 Si vous intégrez par le biais d’une approche basée sur les balises (web ou mobile), configurez votre propriété de balise avant d’initialiser le SDK :
 
 1. Dans [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection), ouvrez votre propriété mobile ou web.
-1. Installez l’extension **&#x200B;**, puis l’extension **Déploiement d’Experience** (dans cet ordre).
+1. Installez l’extension **&#x200B;**, puis l’extension **Flags** (dans cet ordre).
 1. Sélectionnez votre **flux de données** (doit inclure le jeu de données Customer Journey Analytics) et votre domaine Edge.
 1. Publiez la configuration via **Développement → Évaluation → Production**.
 1. Copiez le **ID du fichier d’environnement** de l’onglet **Environnements** — vous l’utiliserez pour initialiser le SDK.
@@ -69,7 +63,6 @@ Une fois l’intégration terminée, créez votre premier indicateur de fonction
 ## Voir également {#see-also}
 
 * [Intégration d’indicateurs dans l’application](integrating-in-your-app.md)
-* [Étapes d’intégration](integration-steps.md)
 * [SDK](sdks.md)
 
 <!-- -->

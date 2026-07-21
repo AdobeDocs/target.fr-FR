@@ -3,9 +3,9 @@ title: Présentation des indicateurs
 description: Découvrez comment Flags dans Adobe Target fournit un système de version contrôlée pour déployer progressivement les fonctionnalités vers les audiences ciblées.
 hide: true
 exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ Flags est une plateforme de gestion des fonctionnalités qui fournit :
 
 * **Indicateurs de fonctionnalité** — Activez ou désactivez n’importe quelle fonctionnalité au moment de l’exécution pour une audience ciblée, sans redéployer le code.
 
-* **Ciblage des audiences** — Contrôlez qui voit une fonctionnalité à l’aide des données de profil utilisateur, des règles basées sur un pourcentage, de l’adresse e-mail, du domaine de messagerie, de l’adresse IP ou des attributs contextuels.
+* **Ciblage des audiences** — Contrôlez qui voit une fonctionnalité à l’aide d’attributs contextuels.
 
 * **Groupes de fonctionnalités** : regroupez plusieurs indicateurs de fonctionnalités associés dans les applications et gérez-les comme une seule unité, afin de garantir une expérience cohérente pour la même audience.
-
-* **Versions** — Coordonnez les déploiements importants entre les équipes en regroupant les indicateurs de fonctionnalité de plusieurs équipes et applications en un seul événement de version.
 
 * **Déploiements graduels** - Déployez progressivement les fonctionnalités pour réduire les risques, recueillir des commentaires et gérer la charge du serveur principal.
 
