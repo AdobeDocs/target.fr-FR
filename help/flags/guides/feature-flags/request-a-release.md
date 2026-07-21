@@ -3,9 +3,9 @@ title: Demander une version
 description: Découvrez comment demander une nouvelle version coordonnée dans Flags et quelles informations fournir.
 hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 3%
 
 ## Conditions préalables {#prerequisites}
 
-* Vous disposez du rôle **Gestionnaire de versions** — voir <!-- broken link[User roles](../teams/user-roles.md) -->
+* Vous disposez du rôle **Gestionnaire de versions**
 * Votre application est intégrée : consultez la section [Intégration de votre application](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Avant de demander une version, passez en revue les <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Un groupe de fonctionnalités multi-équipes peut répondre à vos besoins avec moins de frais généraux. Il est en libre-service et prend en charge un ciblage d’audience plus riche.
+>Avant de demander une version, déterminez si un groupe de fonctionnalités multi-équipes répond à vos besoins avec moins de frais généraux : il est en libre-service et prend en charge un ciblage d’audience plus riche.
 
 ## Soumettre une demande d’assistance {#submit}
 

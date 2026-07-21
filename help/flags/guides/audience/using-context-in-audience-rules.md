@@ -1,59 +1,38 @@
 ---
 title: Utilisation du contexte dans les règles d’audience
-description: Découvrez comment utiliser des variables contextuelles dans les règles d’audience pour les indicateurs de fonctionnalités et les groupes de fonctionnalités dans les indicateurs.
+description: Découvrez comment utiliser les attributs contextuels dans les règles d’audience pour les indicateurs de fonctionnalités et les groupes de fonctionnalités dans les indicateurs.
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # Utilisation du contexte dans les règles d’audience {#context-in-audience-rules}
 
-Les variables contextuelles sont des valeurs fournies par l’application cliente au moment de l’exécution. Ils vous permettent de cibler les utilisateurs en fonction d’informations dynamiques au niveau de la session, telles que la langue active de l’utilisateur, le type d’appareil ou l’état de l’application.
+Les attributs contextuels sont des valeurs fournies par l’application cliente au moment de l’exécution. Ils vous permettent de cibler les utilisateurs en fonction d’informations dynamiques au niveau de la session, telles que la langue active de l’utilisateur, le type d’appareil ou l’état de l’application.
 
-Les variables contextuelles sont pertinentes pour les clients web et mobiles.
+Les attributs de contexte sont pertinents pour les clients web et mobiles.
 
-## Fonctionnement des variables contextuelles {#how-context-works}
+## Fonctionnement des attributs de contexte {#how-context-attributes-work}
 
-Votre application transmet des variables contextuelles aux indicateurs lors de l’évaluation d’un indicateur de fonctionnalité. Vous définissez des règles dans la console pour vérifier ces valeurs, et la plateforme les utilise au moment de l’évaluation pour déterminer si l’utilisateur est admissible.
+Votre application transmet des attributs de contexte aux indicateurs lors de l&#39;évaluation d&#39;un indicateur de fonctionnalité. Vous définissez des règles dans la console pour vérifier ces valeurs, et la plateforme les utilise au moment de l’évaluation pour déterminer si l’utilisateur est admissible.
 
-## Types de variables contextuelles {#variable-types}
+## Ajout d’un attribut de contexte {#adding-context-attribute}
 
-### Type prédéfini (liste) {#predefined-type}
-
-Variable contextuelle avec un ensemble fixe de valeurs autorisées, comme une liste de langues ou de pays.
-
-Opérateurs disponibles : **Est**, **N’est pas égal à**, **Existe**, **Dans**
-
-### Type entier {#integer-type}
-
-Variable contextuelle contenant une valeur numérique.
-
-Opérateurs disponibles : **supérieur à**, **supérieur ou égal à**, **est**, **inférieur à**, **inférieur ou égal à**
-
-### Type de chaîne {#string-type}
-
-Variable contextuelle qui contient une valeur de texte de forme libre.
-
-Opérateurs disponibles : **Est**, **Est différent de**
-
-## Ajouter une variable contextuelle {#adding-context-variable}
-
-Pour ajouter une variable contextuelle à une règle d’audience :
+Pour ajouter un attribut de contexte à une règle d’audience :
 
 1. Ouvrez l&#39;indicateur de fonctionnalité ou le groupe de fonctionnalités dans la console.
 2. Accédez à l’onglet **Audience**.
 3. Sous **Contexte**, ajoutez une nouvelle condition.
-4. Sélectionnez la variable contextuelle, l’opérateur et la valeur.
+4. Sélectionnez l’attribut de contexte, l’opérateur et la valeur.
 
-Si la variable de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer une en libre-service à partir de la section de gestion des variables de contexte de la console.
+Si l’attribut de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer un, voir [ Création de vos attributs de contexte ](creating-your-context-attributes.md).
 
 ## Voir également {#see-also}
 
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](audience-in-feature-flags-and-feature-groups.md)
-* [Ajouter des règles de pourcentage dans les critères d’audience](adding-percentage-rules.md)
 
 <!-- -->

@@ -3,9 +3,9 @@ title: Importer les indicateurs de fonctionnalité
 description: Découvrez comment importer des indicateurs de fonctionnalité d’un sandbox dans un autre dans Indicateurs pour éviter de recréer manuellement des configurations d’indicateur.
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ Indicateurs vous permet d’importer des indicateurs de fonctionnalité d’un s
 
 ## Étape 1 : accéder au sandbox de destination et à l’application {#step-1}
 
-Connectez-vous à la console pour le sandbox **destination**, c’est-à-dire le sandbox dans lequel vous souhaitez importer des indicateurs *dans*. Sélectionnez l’application dans laquelle vous souhaitez importer des indicateurs dans la liste déroulante Application de la page Indicateurs de fonctionnalités.
+Connectez-vous à la console pour le sandbox **destination**, c’est-à-dire le sandbox dans lequel vous souhaitez importer des indicateurs. Cliquez sur **Importer des indicateurs de fonctionnalité**, puis sélectionnez l’application dans laquelle vous souhaitez importer des indicateurs dans la liste déroulante de l’application.
+
+![Bouton Importer des indicateurs de fonctionnalité sur la page Indicateurs de fonctionnalité](assets/import-feature-flags.png)
 
 >[!IMPORTANT]
 >

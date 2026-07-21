@@ -3,9 +3,9 @@ title: Pourquoi utiliser des indicateurs ?
 description: Découvrez les principaux cas d’utilisation des indicateurs dans Adobe Target, des tests de fonctionnalités sélectifs aux versions multi-applications coordonnées.
 hide: true
 exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Ouvrez une nouvelle fonctionnalité progressivement (1 %, 10 %, 50 %, puis 100 %
 Déployez progressivement pour éviter les pics de trafic soudains sur les services principaux, plutôt que d’exposer tous les utilisateurs et utilisatrices à une nouvelle fonctionnalité à la fois.
 
 **Versions multi-applications coordonnées**
-Activez une fonctionnalité simultanément dans plusieurs applications et équipes pour un ensemble spécifique d’utilisateurs. Les indicateurs assurent la cohérence sur toute la surface de libération.
+Activez une fonctionnalité simultanément dans plusieurs applications pour un ensemble spécifique d’utilisateurs. Les indicateurs assurent la cohérence sur toute la surface de libération.
 
 **Versions différées**
 Déployez le code en production à l’avance, puis activez la fonctionnalité à un moment précis (par exemple, au début d’un événement de lancement de produit) sans changement de code de dernière minute.
