@@ -2,23 +2,17 @@
 keywords: critères;algorithme;secteur vertical;type de page;clé de recommandation;logique;plage de données;intervalle de recherche en amont;source de données de comportement;conception partielle;recommandations de sauvegarde;règles d’inclusion;pondération d’attribut;catégorie actuelle;attribut personnalisé;dernier élément acheté;dernier élément consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier élément consulté;dernier achat;le plus consulté;favori;récemment consulté
 description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités afin  [!DNL Recommendations] ’afficher les recommandations les plus appropriées pour votre activité.
 title: Comment créer des [!UICONTROL critères] dans  [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -88,7 +82,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    | Type d’algorithme | Quand utiliser/algorithmes disponibles |
    | --- | --- |
    | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur. <ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté] </li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
-   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
+   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL  Les plus consultés par attribut de profil ]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
    | [!UICONTROL Basé sur un élément] | Faites des recommandations basées sur la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. <ul><li>[!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]</li><li>[!UICONTROL Les personnes qui ont consulté ceci ont acheté cela]</li><li>[!UICONTROL Les personnes qui ont acheté ceci ont acheté cela]</li><li>[!UICONTROL Éléments avec des attributs similaires]</li></ul> |
    | [!UICONTROL Basé sur l’utilisateur] | Faites des recommandations basées sur le comportement de l’utilisateur.<ul><li>[!UICONTROL Éléments récemment consultés]</li><li>[!UICONTROL Recommandé]</li></ul> |
    | [!UICONTROL Critères personnalisés] | Faites des recommandations basées sur un fichier personnalisé que vous téléchargez.<ul><li>Algorithme personnalisé</li></ul> |
@@ -100,6 +94,8 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 1. Sélectionnez, le cas échéant, un **Attribut d’élément** et **Attribut de profil à faire correspondre**, une **Clé de recommandation**, **Clé de filtrage** et/ou **Mesure Analytics** pour configurer l’algorithme.
 
 Les autres options de configuration de l’algorithme varient en fonction de l’algorithme sélectionné. Pour terminer la configuration de l’algorithme, sélectionnez une [!UICONTROL Clé de recommandation], [!UICONTROL Clé de filtrage], [!UICONTROL Base de co-occurrence], [!UICONTROL Mesure Analytics] et/ou [!UICONTROL Attribut d’élément] et [!UICONTROL Attribut de profil à faire correspondre].
+
+Lorsque vous sélectionnez [!UICONTROL Les plus consultés par attribut de profil] ou [!UICONTROL Meilleurs vendeurs par attribut de profil], sélectionnez un **[!UICONTROL attribut de profil]** pour regrouper les données d’interaction. Les attributs de profil proviennent d’un script de profil qui capture les caractéristiques d’un visiteur, telles que la région ou le pays, et le nom du script doit comporter le préfixe `recsAttribute` pour être stocké sous la forme `user.recsAttribute<Name>`, par exemple, `user.recsAttributeRegion`. Au moment de la diffusion, [!DNL Target] fournit à chaque visiteur la liste avec classement correspondant à sa propre valeur pour cet attribut.
 
 Pour plus d’informations sur le choix d’une [!UICONTROL clé de recommandation], voir [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
@@ -121,7 +117,7 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL &#x200B; Afficher les recommandations de sauvegarde &#x200B;], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL  Afficher les recommandations de sauvegarde ], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous observerez lors de l’utilisation des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] :
 
@@ -140,13 +136,13 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    Pour plus d’informations, voir [Spécifier les règles d’inclusion](#inclusion) ci-dessous.
 
-## Source de données {#data-source}
+## Source de données][!UICONTROL  {#data-source}
 
-1. Sélectionnez le Source de données comportementales **souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**
+1. Sélectionnez le Source de données comportementales ]**souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**[!UICONTROL 
 
    >[!NOTE]
    >
-   >La section Source des données comportementales s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+   >La section Source des données comportementales] s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).[!UICONTROL 
 
    ![Section Source des données comportementales](assets/data-source.png)
 
