@@ -15,10 +15,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 6c2f1426564d1d242ec4473b1b7c155bf1be5cf5
+source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
-source-wordcount: 2900
-ht-degree: 46%
+source-wordcount: 2984
+ht-degree: 44%
 
 ---
 
@@ -88,7 +88,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    | Type d’algorithme | Quand utiliser/algorithmes disponibles |
    | --- | --- |
    | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur. <ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté] </li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
-   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
+   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
    | [!UICONTROL Basé sur un élément] | Faites des recommandations basées sur la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. <ul><li>[!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]</li><li>[!UICONTROL Les personnes qui ont consulté ceci ont acheté cela]</li><li>[!UICONTROL Les personnes qui ont acheté ceci ont acheté cela]</li><li>[!UICONTROL Éléments avec des attributs similaires]</li></ul> |
    | [!UICONTROL Basé sur l’utilisateur] | Faites des recommandations basées sur le comportement de l’utilisateur.<ul><li>[!UICONTROL Éléments récemment consultés]</li><li>[!UICONTROL Recommandé]</li></ul> |
    | [!UICONTROL Critères personnalisés] | Faites des recommandations basées sur un fichier personnalisé que vous téléchargez.<ul><li>Algorithme personnalisé</li></ul> |
@@ -100,6 +100,8 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 1. Sélectionnez, le cas échéant, un **Attribut d’élément** et **Attribut de profil à faire correspondre**, une **Clé de recommandation**, **Clé de filtrage** et/ou **Mesure Analytics** pour configurer l’algorithme.
 
 Les autres options de configuration de l’algorithme varient en fonction de l’algorithme sélectionné. Pour terminer la configuration de l’algorithme, sélectionnez une [!UICONTROL Clé de recommandation], [!UICONTROL Clé de filtrage], [!UICONTROL Base de co-occurrence], [!UICONTROL Mesure Analytics] et/ou [!UICONTROL Attribut d’élément] et [!UICONTROL Attribut de profil à faire correspondre].
+
+Lorsque vous sélectionnez [!UICONTROL Les plus consultés par attribut de profil] ou [!UICONTROL Meilleurs vendeurs par attribut de profil], sélectionnez un **[!UICONTROL attribut de profil]** pour regrouper les données d’interaction. Les attributs de profil proviennent d’un script de profil qui capture les caractéristiques d’un visiteur, telles que la région ou le pays, et le nom du script doit comporter le préfixe `recsAttribute` pour être stocké sous la forme `user.recsAttribute<Name>`, par exemple, `user.recsAttributeRegion`. Au moment de la diffusion, [!DNL Target] fournit à chaque visiteur la liste avec classement correspondant à sa propre valeur pour cet attribut.
 
 Pour plus d’informations sur le choix d’une [!UICONTROL clé de recommandation], voir [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
