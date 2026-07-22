@@ -1,12 +1,13 @@
 ---
 title: Création de rapports
 description: Découvrez comment afficher les rapports d’indicateur de fonctionnalité dans Indicateurs à l’aide de Customer Journey Analytics.
+badge: label="Version bêta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,7 @@ Flags diffuse les rapports via **Customer Journey Analytics (CJA)**. Un onglet *
 
 Avant d’afficher des rapports, vérifiez les points suivants :
 
-1. La création de rapports est configurée pour votre application. Voir [Configurer la création de rapports avec Customer Journey Analytics](#setup).
+1. La création de rapports est configurée pour votre application. Voir [Configuration de CJA pour la création de rapports relative aux indicateurs de fonctionnalité](set-up-cja-reporting.md).
 1. Votre indicateur de fonction ou votre groupe de fonctions est actif et a accumulé des données.
 
 ## Affichage d’un rapport {#view-report}
@@ -66,28 +67,9 @@ Consultez la [documentation du panneau Expérimentation](https://experienceleagu
 
 ![Résultats de l’expérience affichant l’effet élévateur, le degré de confiance et le taux de conversion par variante](assets/experimentation.png)
 
-### Analyse dans CJA (facultatif) {#analyze-in-cja}
-
-Une fois le rapport chargé, un bouton **Analyser dans CJA** s’affiche en haut à droite de l’onglet Rapport. En le sélectionnant, vous ouvrez la même page entière de rapport dans Customer Journey Analytics dans un nouvel onglet du navigateur, où vous disposez de l’ensemble complet d’outils CJA pour une analyse ad hoc plus approfondie.
-
-![Rapport Aperçu des indicateurs ouvert dans l’espace de travail Customer Journey Analytics](assets/cja-workspace.png)
-
->[!IMPORTANT]
->
->Le rapport s’ouvre en tant que projet temporaire non enregistré. Si vous le personnalisez dans CJA (ajout de mesures, modification de panneaux, ajustement des filtres, etc.) et souhaitez conserver ces modifications, enregistrez-le à l’aide de **Projet > Enregistrer en tant que modèle**. Sinon, vos modifications seront perdues lorsque vous fermerez le rapport.
-
-![Menu Projet avec Enregistrer en tant que modèle mis en surbrillance](assets/save-as-template.png)
-
-## Configuration de la création de rapports avec Customer Journey Analytics {#setup}
-
-La création de rapports nécessite un jeu de données Customer Journey Analytics connecté à votre application Flags. Contactez le support des indicateurs ou votre représentant Adobe pour activer le reporting pour votre application.
-
->[!NOTE]
->
->L’identité transmise dans la demande de fonctionnalité n’a pas besoin d’être liée à un profil. L’évaluation se produit au moment de l’exécution et l’événement est envoyé à Customer Journey Analytics.
-
 ## Voir également {#see-also}
 
+* [Configuration de CJA pour le reporting des indicateurs de fonctionnalité](set-up-cja-reporting.md)
 * [Créer votre premier indicateur de fonctionnalité](create-your-first-feature-flag.md)
 * [Test A/B avec indicateurs de fonctionnalité](a-b-testing.md)
 * [Créer un groupe de fonctionnalités](create-a-feature-group.md)

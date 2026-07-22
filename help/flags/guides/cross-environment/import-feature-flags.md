@@ -1,11 +1,12 @@
 ---
 title: Importer les indicateurs de fonctionnalité
 description: Découvrez comment importer des indicateurs de fonctionnalité d’un sandbox dans un autre dans Indicateurs pour éviter de recréer manuellement des configurations d’indicateur.
+badge: label="Version bêta" type="Informative"
 hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

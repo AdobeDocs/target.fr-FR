@@ -1,11 +1,12 @@
 ---
 title: Créer un groupe de fonctionnalités
 description: Découvrez comment créer un groupe de fonctionnalités dans les indicateurs afin de gérer plusieurs indicateurs de fonctionnalités dans les applications de votre équipe en une seule entité.
+badge: label="Version bêta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: eeba7af62ab101e687852ce993a001832ce4a83b
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Configurez les paramètres généraux du groupe de fonctionnalités :
 
 1. Fournissez un titre, une clé, une description et, éventuellement, une balise .
 2. Définissez un **pourcentage de déploiement** pour le groupe de fonctionnalités.
-3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [&#x200B; Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
+3. Si vous souhaitez exécuter un test A/B, sélectionnez plusieurs variantes. Sinon, laissez-la sur une variante. [ Pour plus d’informations](a-b-testing.md) voir Tests A/B avec indicateurs de fonctionnalité .
 
 ## Étape 3 : Audience {#audience}
 

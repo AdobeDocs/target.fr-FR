@@ -1,11 +1,12 @@
 ---
 title: Indicateurs de fonctionnalité pour activer et désactiver des fonctionnalités
 description: Découvrez comment les indicateurs de fonctionnalité dans les indicateurs vous permettent de contrôler la disponibilité des fonctionnalités, de gérer les dépendances et de réduire les risques de déploiement.
+badge: label="Version bêta" type="Informative"
 hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fea4d9e87ad8417de9d820ee3556796fba112dc1
+source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
