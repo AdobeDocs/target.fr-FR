@@ -44,7 +44,7 @@ Les différents algorithmes de recommandations se prêtent à un placement sur d
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « [!UICONTROL Recommandé pour vous] » et aux algorithmes basés sur les articles « [!UICONTROL Personnes qui ont consulté ceci] acheté cela » et « [!UICONTROL Personnes qui ont acheté cela] acheté cela ».
 
@@ -186,7 +186,7 @@ Recommande les éléments les plus consultés, regroupés par attribut de profil
 
 Cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation.
 
-En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeRegion` qui base les recommandations sur la région du visiteur peut ressembler à ceci :
 
@@ -201,7 +201,7 @@ Une fois le script créé et activé, l’entrée [!UICONTROL Region] correspond
 
 Recommande les articles les plus vendus regroupés par attribut de profil d&#39;un visiteur plutôt que par informations d&#39;article, comme le font [!UICONTROL Meilleurs vendeurs par catégorie] et [!UICONTROL Meilleurs vendeurs par attribut d&#39;article]. [!DNL Target] conserve une liste des meilleurs vendeurs distincte par valeur d’attribut et, au moment de la livraison, affiche à chaque visiteur la liste correspondant à sa propre valeur stockée.
 
-Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeLoyaltyTier` qui base les recommandations sur le niveau de fidélité du visiteur peut ressembler à ceci :
 
