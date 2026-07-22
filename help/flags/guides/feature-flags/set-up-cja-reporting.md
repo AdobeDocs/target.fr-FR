@@ -49,10 +49,10 @@ Tenez compte des informations suivantes avant d’utiliser l’intégration Cust
 Si vous avez déjà configuré une connexion, vous pouvez utiliser votre connexion existante et passer à l’étape 3 ci-dessous. La connexion permet à Customer Journey Analytics de commencer à extraire les données du jeu de données pour la création de rapports.
 
 1. Dans Customer Journey Analytics, sur la page **Connexions**, sélectionnez **Créer une connexion**.
-1. Configurez vos [paramètres de connexion et de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview) avec les informations appropriées.
+1. Configurez vos [paramètres de connexion et de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/overview) avec les informations appropriées.
 1. Ajoutez le jeu de données d’événement ExD utilisé lors de la configuration du flux de données.
 1. Ajoutez le jeu de données à utiliser comme événements de conversion, puis sélectionnez **Suivant**.
-1. Configurez les [paramètres de chacun des jeux de données sélectionnés](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) un par un, dans la boîte de dialogue **Ajouter des jeux de données**.
+1. Configurez les [paramètres de chacun des jeux de données sélectionnés](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-connections/create-connection#dataset-settings) un par un, dans la boîte de dialogue **Ajouter des jeux de données**.
 
 ![Boîte de dialogue Ajouter des jeux de données avant d’ajouter des jeux de données](assets/cja-connection-new-add-datasets-empty.png)
 
@@ -64,7 +64,7 @@ Si vous avez déjà configuré une connexion, vous pouvez utiliser votre connexi
 
 Configurez une vue de données dans Customer Journey Analytics. Une vue de données garantit que les données de votre connexion peuvent être utilisées correctement.
 
-1. Configurez votre vue de données et assurez-vous qu’elle pointe vers la connexion que vous avez créée ci-dessus. Pour plus d’informations, voir [Création ou modification d’une vue de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) dans le *Guide d’Adobe Customer Journey Analytics*.
+1. Configurez votre vue de données et assurez-vous qu’elle pointe vers la connexion que vous avez créée ci-dessus. Pour plus d’informations, voir [Création ou modification d’une vue de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/create-dataview) dans le *Guide d’Adobe Customer Journey Analytics*.
 1. Accédez à **Gestion des données** > **Vues de données**.
 1. Sélectionnez **Créer une vue de données** et choisissez la connexion CJA Flags.
 1. Saisissez un nom de vue de données et un ID externe stable.
@@ -93,7 +93,7 @@ Configurez les dimensions et les mesures afin qu’une exposition puisse recevoi
 
 1. Ajoutez le champ de conversion requis, tel que `commerce.purchases.value`, sous Mesures.
 1. Donnez un nom clair à la mesure, par exemple **Valeur des achats**.
-1. Activez l’attribution et sélectionnez le modèle requis par l’analyse : Dernière touche, Première touche, Participation ou Même touche. Voir [Composants d’attribution](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/attribution/models) pour plus d’informations sur les modèles d’attribution, les conteneurs et les intervalles de recherche en amont.
+1. Activez l’attribution et sélectionnez le modèle requis par l’analyse : Dernière touche, Première touche, Participation ou Même touche. Voir [Composants d’attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/attribution/models) pour plus d’informations sur les modèles d’attribution, les conteneurs et les intervalles de recherche en amont.
 1. Sélectionnez un conteneur et un intervalle de recherche en amont correspondant à la stratégie de l’expérience. Un conteneur Personne avec recherche en amont basée sur une visite ou une session est un point de départ courant, mais validez-le pour votre cas d’utilisation.
 1. Enregistrez la vue de données.
 
