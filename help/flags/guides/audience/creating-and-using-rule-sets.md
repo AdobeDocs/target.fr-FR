@@ -58,7 +58,7 @@ Ouvrez l’indicateur de fonctionnalité ou le groupe de fonctionnalités dans l
 
 Ouvrez la liste déroulante **Sélectionner un jeu de règles**. Choisissez le jeu de règles parmi **Mon jeu de règles** ou **Mon jeu de règles d’équipe**.
 
-![La liste déroulante Sélectionner un jeu de règles s’ouvre dans l’onglet Audience ](assets/rule-set-select-in-audience.png)
+![La liste déroulante Sélectionner un jeu de règles s’ouvre dans l’onglet Audience &#x200B;](assets/rule-set-select-in-audience.png)
 
 ### Étape 3 : vérifier les critères importés {#step-3-review}
 

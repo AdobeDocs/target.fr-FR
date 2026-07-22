@@ -13,7 +13,7 @@ ht-degree: 5%
 
 # Configuration de CJA pour le reporting des indicateurs de fonctionnalité {#set-up-cja-reporting}
 
-L’intégration entre Flags et Adobe Customer Journey Analytics (CJA) fournit un moyen unifié de mesurer l’impact commercial des variantes d’indicateur de fonctionnalité. Appliquez les mesures de succès CJA aux rapports Flags à tout moment et tirez parti des fonctionnalités de Customer Journey Analytics, telles que le panneau [ Expérimentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation), pour évaluer les performances de l’expérience et comprendre comment les variantes de fonctionnalités influencent le comportement des clients.
+L’intégration entre Flags et Adobe Customer Journey Analytics (CJA) fournit un moyen unifié de mesurer l’impact commercial des variantes d’indicateur de fonctionnalité. Appliquez les mesures de succès CJA aux rapports Flags à tout moment et tirez parti des fonctionnalités de Customer Journey Analytics, telles que le panneau [&#x200B; Expérimentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation), pour évaluer les performances de l’expérience et comprendre comment les variantes de fonctionnalités influencent le comportement des clients.
 
 ## Considérations {#considerations}
 
@@ -58,7 +58,7 @@ Si vous avez déjà configuré une connexion, vous pouvez utiliser votre connexi
 
 ![Sélection des indicateurs et des jeux de données de commerce à ajouter à la connexion](assets/cja-connection-select-datasets-flags-commerce.png)
 
-![ Boîte de dialogue Paramètres des jeux de données affichant la configuration du mappage d’identités](assets/cja-connection-dataset-settings-identity-map.png)
+![&#x200B; Boîte de dialogue Paramètres des jeux de données affichant la configuration du mappage d’identités](assets/cja-connection-dataset-settings-identity-map.png)
 
 ## Configurer la vue de données {#set-up-data-view}
 

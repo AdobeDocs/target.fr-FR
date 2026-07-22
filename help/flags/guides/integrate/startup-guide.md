@@ -45,9 +45,9 @@ Suivez le guide d’intégration correspondant à votre type d’application. Ch
 
 Si vous intégrez par le biais d’une approche basée sur les balises (web ou mobile), configurez votre propriété de balise avant d’initialiser le SDK :
 
-1. Dans [Collecte de données ](https://experience.adobe.com/#/data-collection), créez une propriété [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) si vous n’en avez pas déjà une, ou utilisez une propriété de balise existante.
-1. Ouvrez la propriété de balise web ou mobile et accédez à [ Extensions ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
-1. Installez et configurez l’extension ****. Installez ensuite l’extension **Flags**.
+1. Dans [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection), créez une propriété [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) si vous n’en avez pas déjà une, ou utilisez une propriété de balise existante.
+1. Ouvrez la propriété de balise web ou mobile et accédez à [&#x200B; Extensions &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
+1. Installez et configurez l’extension **&#x200B;**. Installez ensuite l’extension **Flags**.
 1. Sélectionnez le **flux de données** (il doit inclure le jeu de données Customer Journey Analytics) et configurez le domaine Edge.
 1. Publiez la configuration via **Développement → Évaluation → Production**.
 1. Copiez le **ID du fichier d’environnement** de l’onglet **Environnements** — vous l’utiliserez pour initialiser le SDK.

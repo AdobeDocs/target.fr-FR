@@ -30,7 +30,7 @@ Pour ajouter un attribut de contexte à une règle d’audience :
 3. Sous **Contexte**, ajoutez une nouvelle condition.
 4. Sélectionnez l’attribut de contexte, l’opérateur et la valeur.
 
-Si l’attribut de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer un, voir [ Création de vos attributs de contexte ](creating-your-context-attributes.md).
+Si l’attribut de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer un, voir [&#x200B; Création de vos attributs de contexte &#x200B;](creating-your-context-attributes.md).
 
 ## Voir également {#see-also}
 

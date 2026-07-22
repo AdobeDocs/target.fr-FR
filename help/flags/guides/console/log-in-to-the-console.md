@@ -25,10 +25,10 @@ Une fois votre demande approuvée, vous recevrez les autorisations associées au
 
 Une fois l’accès accordé :
 
-1. Accédez à [](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
-1. Ouvrez ****.
+1. Accédez à [&#128279;](https://experience.adobe.com/) et connectez-vous avec les informations d’identification de votre organisation.
+1. Ouvrez **&#x200B;**.
 1. Sélectionnez **Indicateurs** dans la navigation de Target.
-1. Sélectionnez la sandbox appropriée. Voir [ Présentation des environnements](environments-overview.md) pour plus d’informations.
+1. Sélectionnez la sandbox appropriée. Voir [&#x200B; Présentation des environnements](environments-overview.md) pour plus d’informations.
 
 ## Premières étapes après l’accès aux indicateurs {#first-steps}
 
