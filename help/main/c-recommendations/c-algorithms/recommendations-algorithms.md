@@ -7,9 +7,17 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
 TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ce
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
 workflow-type: tm+mt
 source-wordcount: 3045
@@ -121,7 +129,7 @@ Les algorithmes incluent :
 * Recommandations basées sur le panier
 * [!UICONTROL Recommandé]
 
-Les ajouts les plus récents à la suite [!DNL Target] d’algorithmes de recommandations sont [!UICONTROL  Recommandé pour vous ] et une série d’algorithmes de recommandations basés sur le panier. Les deux types d’algorithmes utilisent des techniques de filtrage collaboratif pour former des recommandations individuelles basées sur des éléments. Ensuite, au moment du service, plusieurs éléments de l’historique de navigation de l’utilisateur (par exemple, [!UICONTROL Recommandé pour vous]) ou du panier actuel de l’utilisateur (pour les recommandations basées sur le panier) sont utilisés pour récupérer ces recommandations basées sur les éléments, qui sont ensuite fusionnées pour former la liste finale de recommandations. Notez qu’il existe de nombreuses versions d’algorithmes de recommandation personnalisés. Le choix d’un algorithme à plusieurs clés signifie que des recommandations sont immédiatement disponibles après qu’un visiteur a accédé à un historique de navigation et que les recommandations peuvent être mises à jour pour répondre au comportement le plus récent du visiteur.
+Les ajouts les plus récents à la suite [!DNL Target] d’algorithmes de recommandations sont [!UICONTROL &#x200B; Recommandé pour vous &#x200B;] et une série d’algorithmes de recommandations basés sur le panier. Les deux types d’algorithmes utilisent des techniques de filtrage collaboratif pour former des recommandations individuelles basées sur des éléments. Ensuite, au moment du service, plusieurs éléments de l’historique de navigation de l’utilisateur (par exemple, [!UICONTROL Recommandé pour vous]) ou du panier actuel de l’utilisateur (pour les recommandations basées sur le panier) sont utilisés pour récupérer ces recommandations basées sur les éléments, qui sont ensuite fusionnées pour former la liste finale de recommandations. Notez qu’il existe de nombreuses versions d’algorithmes de recommandation personnalisés. Le choix d’un algorithme à plusieurs clés signifie que des recommandations sont immédiatement disponibles après qu’un visiteur a accédé à un historique de navigation et que les recommandations peuvent être mises à jour pour répondre au comportement le plus récent du visiteur.
 
 Ces algorithmes s’appuient sur les techniques de filtrage collaboratif fondamentales décrites dans la section recommandations basées sur les éléments , mais incorporent également l’optimisation des hyperparamètres pour déterminer la mesure de similarité optimale entre les éléments. L&#39;algorithme effectue une division chronologique des données comportementales pour chaque utilisateur, et entraîne des modèles de recommandation sur les données antérieures tout en essayant de prédire les articles qu&#39;un utilisateur consulte ou achète ultérieurement. La mesure de similarité qui produit la [précision moyenne moyenne] optimale (https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) est ensuite choisie.
 
@@ -163,7 +171,7 @@ Les algorithmes incluent :
 * [!UICONTROL Les plus consultés sur le site]
 * [!UICONTROL Les plus consultés par catégorie]
 * [!UICONTROL Éléments les plus consultés par attribut d’élément]
-* [!UICONTROL  Les plus consultés par attribut de profil ]
+* [!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]
 * [!UICONTROL Meilleurs vendeurs sur le site]
 * [!UICONTROL Meilleurs vendeurs par catégorie]
 * [!UICONTROL Meilleurs vendeurs par attribut d&#39;article]
