@@ -15,9 +15,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4405
+source-wordcount: 4434
 ht-degree: 25%
 
 ---
@@ -181,6 +181,11 @@ Cet algorithme vous permet de sélectionner l’attribut d’élément sur leque
 Vous pouvez ensuite sélectionner les attributs de profil stockés dans le profil du visiteur à faire correspondre, par exemple « Marque préférée », « Dernier élément ajouté au panier » ou « Programme le plus consulté ».
 
 ### [!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]
+
+>[!CONTEXTUALHELP]
+>id="target_recommendations_profile_attribute"
+>title="Attribut de profil"
+>abstract="Vous pouvez créer un attribut de profil à l’aide de scripts de profil. Une fois qu’un script de profil est créé et activé, son attribut de profil correspondant peut être utilisé avec cet algorithme."
 
 Recommande les éléments les plus consultés, regroupés par attribut de profil du visiteur, plutôt que par informations d’élément, comme le font [!UICONTROL Les plus consultés par catégorie] et [!UICONTROL Les plus consultés par attribut d’élément]. [!DNL Target] conserve une liste de classement distincte par valeur d’attribut et, au moment de la diffusion, affiche à chaque visiteur la liste correspondant à sa propre valeur stockée.
 
