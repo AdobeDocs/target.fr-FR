@@ -7,10 +7,17 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 TQID: https://experienceleague.adobe.com/-Unx6cVsw3wch2LJgPtvBYPe-10rdpiJ4v9F7tMSP08
-product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2:
+  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c74d8b09fba181fcded2f982d99a03f1e7f3a07a
 workflow-type: tm+mt
 source-wordcount: 927
@@ -50,7 +57,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 * **La version mobile ne se charge pas correctement.** Correction d’un problème en raison duquel le [!UICONTROL compositeur d’expérience visuelle] ne permettait pas d’actualiser la vue, ce qui empêchait son chargement correct. (TGT-54408)
 
-* **Les actions de modification ne fonctionnent pas lorsqu’elles sont modifiées ou supprimées.** Correction d’un problème en raison duquel la modification ou la suppression d’une modification de la vue [!UICONTROL  Modifier l’expérience ] ne fonctionnait pas. (TGT-55250)
+* **Les actions de modification ne fonctionnent pas lorsqu’elles sont modifiées ou supprimées.** Correction d’un problème en raison duquel la modification ou la suppression d’une modification de la vue [!UICONTROL &#x200B; Modifier l’expérience &#x200B;] ne fonctionnait pas. (TGT-55250)
 
 * **Le mode de navigation ne répond pas après le chargement de l’activité.** Correction d’un problème en raison duquel le mode [!UICONTROL Parcourir] ne réagissait plus pour les expériences contenant une modification, empêchant la navigation et la création ultérieures. (TGT-55306)
 
@@ -64,7 +71,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 +++Afficher les détails
 
-* **L’assistant de génération de contenu a été renommé [!UICONTROL Generate content].** La fonctionnalité de génération de contenu « Assistant IA » a été renommée [!UICONTROL  Générer du contenu ] sur [!DNL Target] surfaces de l’interface utilisateur. (TGT-55689)
+* **L’assistant de génération de contenu a été renommé [!UICONTROL Generate content].** La fonctionnalité de génération de contenu « Assistant IA » a été renommée [!UICONTROL &#x200B; Générer du contenu &#x200B;] sur [!DNL Target] surfaces de l’interface utilisateur. (TGT-55689)
 
 +++
 
