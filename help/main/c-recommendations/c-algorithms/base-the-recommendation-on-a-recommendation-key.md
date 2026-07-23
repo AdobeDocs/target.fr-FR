@@ -6,15 +6,9 @@ feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
 source-wordcount: 4434
@@ -31,7 +25,7 @@ Chaque type d’algorithme fournit différents algorithmes appropriés à son ty
 | Type d’algorithme | Quand utiliser/algorithmes disponibles |
 | --- | --- |
 | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur.<ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté]</li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
-| [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
+| [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL  Les plus consultés par attribut de profil ]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
 | [!UICONTROL Basé sur un élément] | Faites des recommandations basées sur la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. <ul><li>[!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]</li><li>[!UICONTROL Les personnes qui ont consulté ceci ont acheté cela]</li><li>[!UICONTROL Les personnes qui ont acheté ceci ont acheté cela]</li><li>[!UICONTROL Éléments avec des attributs similaires]</li></ul> |
 | [!UICONTROL Basé sur l’utilisateur] | Faites des recommandations basées sur le comportement de l’utilisateur. <ul><li>[!UICONTROL Éléments récemment consultés]</li><li>[!UICONTROL Recommandé]</li></ul> |
 | [!UICONTROL Critères personnalisés] | Faites des recommandations basées sur un fichier personnalisé que vous téléchargez. <ul><li>Algorithme personnalisé</li></ul> |
@@ -44,7 +38,7 @@ Les différents algorithmes de recommandations se prêtent à un placement sur d
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « [!UICONTROL Recommandé pour vous] » et aux algorithmes basés sur les articles « [!UICONTROL Personnes qui ont consulté ceci] acheté cela » et « [!UICONTROL Personnes qui ont acheté cela] acheté cela ».
 
@@ -180,7 +174,7 @@ Cet algorithme vous permet de sélectionner l’attribut d’élément sur leque
 
 Vous pouvez ensuite sélectionner les attributs de profil stockés dans le profil du visiteur à faire correspondre, par exemple « Marque préférée », « Dernier élément ajouté au panier » ou « Programme le plus consulté ».
 
-### [!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]
+### [!UICONTROL  Les plus consultés par attribut de profil ]
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
@@ -191,7 +185,7 @@ Recommande les éléments les plus consultés, regroupés par attribut de profil
 
 Cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation.
 
-En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
+En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeRegion` qui base les recommandations sur la région du visiteur peut ressembler à ceci :
 
@@ -206,7 +200,7 @@ Une fois le script créé et activé, l’entrée [!UICONTROL Region] correspond
 
 Recommande les articles les plus vendus regroupés par attribut de profil d&#39;un visiteur plutôt que par informations d&#39;article, comme le font [!UICONTROL Meilleurs vendeurs par catégorie] et [!UICONTROL Meilleurs vendeurs par attribut d&#39;article]. [!DNL Target] conserve une liste des meilleurs vendeurs distincte par valeur d’attribut et, au moment de la livraison, affiche à chaque visiteur la liste correspondant à sa propre valeur stockée.
 
-Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeLoyaltyTier` qui base les recommandations sur le niveau de fidélité du visiteur peut ressembler à ceci :
 
@@ -414,13 +408,13 @@ Si votre attribut de profil personnalisé ne correspond pas directement à un ID
 
 1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Marque préférée »).
 
-1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;]).
+1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL  Meilleurs vendeurs ]).
 
    L’option [!UICONTROL Regrouper par valeur unique de] s’affiche.
 
 1. Sélectionnez l’attribut d’entité correspondant à la clé que vous avez choisie. Dans ce cas, « [!UICONTROL Marque préférée] » correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
+   [!DNL Recommendations] génère désormais une liste « [!UICONTROL  Meilleurs vendeurs ] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL  Meilleurs vendeurs ] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
 
 ### [!UICONTROL Dernier article consulté] {#last-viewed}
 
