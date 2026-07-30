@@ -10,30 +10,34 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 2%
+source-wordcount: 1506
+ht-degree: 1%
 
 ---
 
 # Calculs statistiques dans les tests A/B
 
-Cet article documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Des définitions sont fournies pour [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion], [!UICONTROL Effet élévateur], [!UICONTROL Intervalle de confiance pour l’effet élévateur] et [!UICONTROL Confiance].
+Cet article documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Des définitions sont fournies pour les mesures de décision **[!UICONTROL Taux de conversion]**, **[!UICONTROL Intervalle de confiance du taux de conversion]**, **[!UICONTROL Effet élévateur]**, **[!UICONTROL Intervalle de confiance pour l’effet élévateur]**, **[!UICONTROL Confiance]** et **[!UICONTROL Bayesian]**.
 
->[!NOTE]
->
->Les informations de cet article remplacent le fichier PDF *Calculs Adobe Target pour les tests A/B* auparavant disponible en téléchargement sur ce site.
+Une activité **[!UICONTROL Test A/B]** (manuel) prend en charge deux méthodologies statistiques, sélectionnées par activité dans [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) :
+
+* [Test en t de Welch](#welchs-t-test) : méthodologie fréquentiste qui signale un pourcentage et un intervalle de confiance **[!UICONTROL Confiance]**, basés sur un test d’hypothèse à taille d’échantillon fixe. Utilisé pour les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]**.
+
+* [bayésien](#bayesian-statistics) : indique les résultats sous forme de probabilités, telles que **[!UICONTROL Chance de contrôler le temps]** et d’intervalles crédibles, calculés à partir de la loi a posteriori complète de la mesure d’objectif de chaque expérience. Ce paramètre est uniquement disponible pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**.
+
+## test en t de Welch
+
+### Performances moyennes
+
+La section suivante explique les calculs utilisés dans l’illustration suivante.
 
 ![Rapport cible présentant les [!UICONTROL taux de conversion], [!UICONTROL effet élévateur moyen et intervalle de confiance] et [!UICONTROL degré de confiance] d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
-## Performances moyennes
+#### Taux de conversion et recettes par visiteur (RPV)
 
-La section suivante explique les calculs utilisés dans l’illustration précédente.
-
-### Taux de conversion et recettes par visiteur (RPV)
-
-L’illustration suivante présente [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion] et le nombre de [!UICONTROL Conversions] dans un rapport [!DNL Target]. Par exemple, la première ligne indique que pour l’expérience A : le [!UICONTROL taux de conversion] est de 25,81 % avec un [!UICONTROL intervalle de confiance] de ± 7,7 % et 32 conversions ont été enregistrées. Étant donné que 124 visiteurs ont vu l’expérience, cela équivaut à 32/124 = 25,81 %.
+L’illustration suivante présente **[!UICONTROL Taux de conversion]**, **[!UICONTROL Intervalle de confiance du taux de conversion]** et le nombre de **[!UICONTROL Conversions]** dans un rapport [!DNL Target]. Par exemple, la première ligne indique que pour l’expérience A : le **[!UICONTROL taux de conversion]** est de 25,81 % avec un **[!UICONTROL intervalle de confiance]** de ± 7,7 % et 32 conversions ont été enregistrées. Étant donné que 124 visiteurs ont vu l’expérience, cela équivaut à 32/124 = 25,81 %.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
@@ -47,17 +51,17 @@ Ici,
 
 * La somme des unités *i* dépend du choix de la méthode de comptage.
 
-   * Si la méthode de comptage *[!UICONTROL Visiteurs]* est utilisée, chaque unité est un visiteur unique défini comme un participant unique à l’activité pendant toute la durée de vie de l’activité.
-   * Si la méthode de comptage *[!UICONTROL Visites]* est utilisée, chaque unité est une visite unique définie comme un participant unique à une expérience au cours d’une session de [!DNL Target] (avec un `sessionId` unique). Lorsque l’`sessionId` change ou que le visiteur atteint l’étape de conversion, une nouvelle visite est comptabilisée.
-   * Si la méthodologie de comptage utilise la méthode *[!UICONTROL Impressions d’activité]*, chaque unité est une impression unique définie comme chaque fois qu’un visiteur charge une page de l’activité.
+  * Si la méthode de comptage **[!UICONTROL Visiteurs]** est utilisée, chaque unité est un visiteur unique défini comme un participant unique à l’activité pendant toute la durée de vie de l’activité.
+  * Si la méthode de comptage **[!UICONTROL Visites]** est utilisée, chaque unité est une visite unique définie comme un participant unique à une expérience au cours d’une session de [!DNL Target] (avec un `sessionId` unique). Lorsque l’`sessionId` change ou que le visiteur atteint l’étape de conversion, une nouvelle visite est comptabilisée.
+  * Si la méthodologie de comptage utilise la méthode **[!UICONTROL Impressions d’activité]**, chaque unité est une impression unique définie comme chaque fois qu’un visiteur charge une page de l’activité.
 
-## [!UICONTROL Intervalle de confiance de la moyenne]/[!UICONTROL Taux de conversion]
+### [!UICONTROL Intervalle de confiance de la moyenne]/[!UICONTROL Taux de conversion]
 
 L’intervalle de confiance du taux de conversion est intuitivement défini comme une plage de taux de conversion possibles cohérente avec les données sous-jacentes.
 
 Lors de l’exécution d’expériences, le taux de conversion d’une expérience donnée est une *estimation* du taux de conversion « réel ». Pour quantifier l’incertitude de cette estimation, [!DNL Target] utilise un intervalle de confiance. [!DNL Target] signale toujours un intervalle de confiance de 95 %, ce qui signifie qu’à la fin, 95 % des intervalles de confiance calculés incluent le taux de conversion réel de l’expérience.
 
-Un nombre « Confiance » est également signalé en regard de l’expérience actuellement en tête ou gagnante. Ce chiffre est signalé uniquement jusqu’à ce que le [!UICONTROL degré de confiance] de l’expérience principale atteigne au moins 60 %. Si deux expériences sont présentes dans l’activité, ce nombre représente le niveau de confiance selon lequel l’expérience fonctionne mieux que l’autre expérience. Si l’activité comporte plus de deux expériences, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’expérience « de contrôle » définie. Si l’expérience « Contrôle » gagne, aucun chiffre « Confiance » n’est signalé.
+Un nombre « Confiance » est également signalé en regard de l’expérience actuellement en tête ou gagnante. Ce chiffre est signalé uniquement jusqu’à ce que le **[!UICONTROL degré de confiance]** de l’expérience principale atteigne au moins 60 %. Si deux expériences sont présentes dans l’activité, ce nombre représente le niveau de confiance selon lequel l’expérience fonctionne mieux que l’autre expérience. Si l’activité comporte plus de deux expériences, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’expérience « de contrôle » définie. Si l’expérience « Contrôle » gagne, aucun chiffre « Confiance » n’est signalé.
 
 Un intervalle de confiance à 95 % du taux de conversion *μ<sub>ν</sub>* est défini comme la plage de valeurs :
 
@@ -75,9 +79,9 @@ Lorsque la campagne est une campagne de taux de conversion (c’est-à-dire que 
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
-## Effet élévateur
+### Effet élévateur
 
-L’illustration suivante présente [!UICONTROL Effet élévateur] et [!UICONTROL intervalle de confiance de l’effet élévateur] dans un rapport [!DNL Target]. Le nombre représente la moyenne de la plage des limites de l’effet élévateur, et la flèche indique si l’effet élévateur est positif ou négatif. La flèche s’affiche en gris jusqu’à ce que le degré de confiance atteigne 95 %. Une fois que le degré de confiance a dépassé le seuil, la flèche est verte ou rouge en fonction d’une courbe d’élévation positive ou négative.
+L’illustration suivante présente **[!UICONTROL Effet élévateur]** et **[!UICONTROL intervalle de confiance de l’effet élévateur]** dans un rapport [!DNL Target]. Le nombre représente la moyenne de la plage des limites de l’effet élévateur, et la flèche indique si l’effet élévateur est positif ou négatif. La flèche s’affiche en gris jusqu’à ce que le degré de confiance atteigne 95 %. Une fois que le degré de confiance a dépassé le seuil, la flèche est verte ou rouge en fonction d’une courbe d’élévation positive ou négative.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -93,9 +97,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 Si le taux de conversion de l’expérience de contrôle *ν<sub>0</sub>* est de 0, il n’y a pas d’effet élévateur.
 
-## [!DNL Confidence Interval of Lift]
+### [!DNL Confidence Interval of Lift]
 
-Le graphique à boîtes de la colonne [!UICONTROL Effet élévateur moyen et intervalle de confiance] représente la valeur moyenne et 95 % [!UICONTROL intervalle de confiance de l’effet élévateur]. L’indicateur est gris lorsqu’il y a chevauchement de l’intervalle de confiance d’une expérience donnée de non-contrôle avec l’intervalle de confiance de l’expérience de contrôle. Le graphique à boîtes est vert ou rouge lorsque la plage de l’intervalle de confiance de l’expérience donnée est supérieure ou inférieure à l’intervalle de confiance de l’expérience de contrôle.
+Le graphique à boîtes de la colonne **[!UICONTROL Effet élévateur moyen et intervalle de confiance]** représente la valeur moyenne et 95 % **[!UICONTROL intervalle de confiance de l’effet élévateur]**. L’indicateur est gris lorsqu’il y a chevauchement de l’intervalle de confiance d’une expérience donnée de non-contrôle avec l’intervalle de confiance de l’expérience de contrôle. Le graphique à boîtes est vert ou rouge lorsque la plage de l’intervalle de confiance de l’expérience donnée est supérieure ou inférieure à l’intervalle de confiance de l’expérience de contrôle.
 
 L’erreur standard de l’effet élévateur entre une expérience *ν* et l’expérience de contrôle *ν<sub>0</sub>* est définie comme suit :
 
@@ -107,7 +111,7 @@ Alors l’intervalle de confiance à 95 % de l’effet élévateur est :
 
 Ce calcul utilise la méthode « Delta », et est décrit [plus en détail dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
-## [!UICONTROL Confiance &#x200B;]
+### [!UICONTROL Confiance &#x200B;]
 
 La dernière colonne indique le degré de confiance dans un rapport [!DNL Target]. Le degré de confiance d’une expérience est une probabilité (exprimée en pourcentage) d’obtenir un résultat aussi extrême que celui observé, en admettant que l’hypothèse nulle soit vraie. En termes de p-values, le degré de confiance affiché est *1 - p-value*. Intuitivement, un degré de confiance plus élevé signifie qu’il est moins probable que l’expérience de contrôle et de non-contrôle ait des taux de conversion égaux.
 
@@ -142,6 +146,32 @@ Ensuite, la valeur p peut être calculée à partir de la zone dans les extrémi
 Enfin, le degré de confiance signalé dans [!DNL Target] est défini comme suit :
 
 <p style="text-align:center;"><img width="20%" src="img/confidence.png"></p>
+
+## statistiques bayésiennes
+
+Au lieu de calculer une valeur de p à partir d’une loi approximative, le rapport d’une activité **[!UICONTROL bayésienne]** exprime les résultats sous la forme de probabilités, calculées à partir de la loi a posteriori complète de la mesure d’objectif de chaque expérience. Cela permet de surveiller en toute sécurité un rapport **[!UICONTROL bayésien]**, car il n&#39;y a pas de pénalité statistique pour vérifier les résultats avant qu&#39;une taille d&#39;échantillon fixe ne soit atteinte, et il peut converger plus rapidement sur des échantillons plus petits que le test en t de **[!UICONTROL Welch]**.
+
+La méthodologie **[!UICONTROL bayésienne]** permet également aux spécialistes du marketing d’alimenter une hypothèse basée sur leur expérience passée et les résultats de la variante de contrôle.
+
+La méthodologie **[!UICONTROL bayésienne]** n’est disponible que pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**, les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]** utilisent toujours **[!UICONTROL test en t de Welch]**. Pour plus d’informations sur la sélection d’une méthodologie, voir [&#x200B; Objectifs et paramètres &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+
+### Effet élévateur moyen et intervalle crédible
+
+<p style="text-align:center;"><img width="35%" src="img/bayesian_1.png"></p>
+
+L’effet élévateur moyen et l’intervalle crédible mesurent ensemble l’amélioration des performances et son incertitude dans une activité **[!UICONTROL bayésienne]**. L’effet élévateur moyen est le pourcentage moyen de changement entre un traitement et le témoin, tandis que l’intervalle de crédibilité définit la plage dans laquelle l’effet élévateur réel se situe à une probabilité spécifiée.
+
+### [!UICONTROL Chance de battre le contrôle]
+
+<p style="text-align:center;"><img width="35%" src="img/bayesian_2.png"></p>
+
+**[!UICONTROL Probabilité de battre le contrôle]** indique la probabilité que la mesure d’objectif d’une expérience surpasse l’expérience **[!UICONTROL Contrôle]**, par exemple, « 92 % de chances que B bat A ». Il s’agit de la mesure de décision principale d’une activité **[!UICONTROL bayésienne]** : une expérience de challenger est un candidat pour remplacer **[!UICONTROL Contrôle]** lorsque sa **[!UICONTROL Chance de battre le contrôle]** atteint le seuil de décision de l’activité.
+
+<!--
+### [!UICONTROL Probability to be Best]
+
+[!UICONTROL Probability to be Best] is the probability that an experience is the single best of all experiences in the activity. Use this decision metric to pick which winner to ship in a test with more than one challenger experience.
+-->
 
 ## Exécution de calculs hors ligne
 
