@@ -6,19 +6,13 @@ feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 22%
+source-wordcount: 823
+ht-degree: 21%
 
 ---
 
@@ -68,11 +62,11 @@ Lorsque vous déterminez votre source de création de rapports, tenez compte des
 
 * **[!DNL Customer Journey Analytics]** : pour obtenir une matrice des activités prises en charge à l’aide des rapports [!DNL Target] dans [!DNL Customer Journey Analytics], consultez [Types d’activité pris en charge](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) dans les rapports *[!DNL Target]dans[!DNL Adobe Customer Journey Analytics]*.
 
-  La création et l’activation des activités  (AP), [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] sont autorisées quelle que soit la source de création de rapports sélectionnée. Ces activités ne sont pas prises en charge lorsque vous choisissez [Adobe Customer Journey Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+  La création et l’activation d’activités  (AP) et [!UICONTROL Ciblage automatique] sont autorisées, quelle que soit la source de création de rapports sélectionnée au niveau du compte. Ces types d&#39;activités ne sont pas pris en charge lorsque vous choisissez [Adobe Customer Journey Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour une activité.
 
-  Même si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports, [!DNL Target] est utilisé comme source de création de rapports pour les activités [!DNL Automated Personalization].
+  Même si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports au niveau du compte, [!DNL Target] est utilisé comme source de création de rapports pour les activités [!DNL Automated Personalization].
 
-  Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités [!UICONTROL Affectation automatique] ou [!UICONTROL Ciblage automatique], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
+  Les activités [!UICONTROL  Affectation automatique ] peuvent utiliser [!DNL Customer Journey Analytics] comme source de création de rapports. Voir [Création d’une activité qui utilise [!DNL Customer Journey Analytics] comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) dans *[!DNL Target]de rapports dans[!DNL Adobe Customer Journey Analytics]*. Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités de [!UICONTROL ciblage automatique], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
 
 ## Fuseau horaire pour la création de rapports
 
