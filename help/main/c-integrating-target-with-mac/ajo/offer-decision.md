@@ -4,22 +4,15 @@ description: Découvrez comment ajouter une décision d’offre créée dans  [!
 title: Comment Utiliser Les Décisions D’Offre ?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+badge: label="Hérité" type="Informative"
 TQID: https://experienceleague.adobe.com/xEae4As4rNbPv-an3Iu8PCMzxftSAmN4iu0PEq6VDFQ
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-  - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 7ececdaa52eb07e65f62723a09961f1471921e1a
 workflow-type: tm+mt
-source-wordcount: 1017
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -32,9 +25,9 @@ Ajoutez les décisions d’offre créées dans [!DNL Adobe Journey Optimizer] au
 
 Pour plus d’informations sur les [!DNL Adobe Journey Optimizer] et les décisions d’offre, consultez les rubriques suivantes de la documentation *[!DNL Journey Optimizer]* :
 
-* [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=fr)
+* [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
-* [À Propos De La Gestion Des Décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=fr)
+* [À Propos De La Gestion Des Décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html)
 
 ## Conditions préalables
 
@@ -85,7 +78,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre héroïque de 
 
 1. Dans le rail **[!UICONTROL Ajouter une décision d’offre]** sur le côté droit du compositeur d’expérience visuelle, sélectionnez le sandbox souhaité, puis cliquez sur Sélectionner la décision d’offre.l’emplacement.
 
-   Un [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=fr){target=_blank} dans le [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement d’évaluation. Un [emplacement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=fr){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit.
+   Un [sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank} dans le [!DNL Adobe Experience Platform] vous permet de partitionner votre instance en environnements virtuels. Par exemple, vous pouvez avoir un environnement de production et un environnement d’évaluation. Un [emplacement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank} dans [!DNL Adobe Journey Optimizer] permet de s’assurer que le contenu d’offre approprié s’affiche au bon endroit.
 
    ![Listes déroulantes Sandbox et Emplacements de la boîte de dialogue Ajouter une décision d’offre](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -111,9 +104,9 @@ Tenez compte des informations suivantes lorsque vous utilisez des décisions d�
 
 * L’intégration d’Offer Decisioning fonctionne pour les implémentations [!DNL Target] basées sur le [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}. Cette fonctionnalité n’est pas disponible lors de l’implémentation de [!DNL Target] avec at.js ou d’autres SDK [!DNL Target].
 
-* L’intégration [!DNL Target]/[!DNL Adobe Journey Optimizer] prend uniquement en charge les activités [[!UICONTROL &#x200B; test A/B manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Cette fonctionnalité n’est pas disponible pour les autres types d’activités.
+* L’intégration [!DNL Target]/[!DNL Adobe Journey Optimizer] prend uniquement en charge les activités [[!UICONTROL  test A/B manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT). Cette fonctionnalité n’est pas disponible pour les autres types d’activités.
 
-* Vous ne pouvez pas utiliser [[!UICONTROL Analytics comme source de création de rapports]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si vous utilisez des décisions d’offre dans une activité. Choisissez [!DNL Target] comme source de création de rapports sur la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;] lors de la configuration de l’activité si vous utilisez les décisions d’offre dans l’activité.
+* Vous ne pouvez pas utiliser [[!UICONTROL Analytics comme source de création de rapports]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) si vous utilisez des décisions d’offre dans une activité. Choisissez [!DNL Target] comme source de création de rapports sur la page [!UICONTROL  Objectifs et paramètres ] lors de la configuration de l’activité si vous utilisez les décisions d’offre dans l’activité.
 
 * Les offres avec le type de contenu texte/html ne prennent pas en charge la diffusion de contenu deliveryURL. L’URL de diffusion est prise en charge par le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) uniquement lorsque le client est chargé de récupérer et de composer explicitement le contenu.
 
