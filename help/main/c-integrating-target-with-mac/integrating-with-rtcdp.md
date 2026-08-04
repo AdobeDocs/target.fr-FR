@@ -138,31 +138,31 @@ Découvrez comment personnaliser l’accès suivant avec [!DNL Real-Time Custome
 
 Pour plus d’informations, consultez [Personnalisation de l’accès suivant avec Real-Time CDP et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=fr){target=_blank} dans le guide *Tutoriels Platform*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342977?captions=fre_fr&quality=12&learn=on)
 
 ### Vidéo : configurer la destination [!DNL Adobe Target] dans [!DNL Real-Time Customer Data Platform]
 
 Découvrez comment configurer la destination [!DNL Adobe Target] dans [!DNL Real-Time Customer Data Platform] pour commencer à envoyer des segments et des attributs de profil à partir de [!DNL Real-Time CDP] vers [!DNL Target].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449795/?captions=fre_fr&learn=on)
 
 ### Vidéo : activer les segments et les attributs de profil
 
 Découvrez comment activer les segments et les attributs de profil à partir de [!DNL Adobe Real-Time Customer Data Platform] vers [!DNL Adobe Target] pour afficher du contenu personnalisé en temps réel sur vos sites web, applications mobiles et autres propriétés numériques.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447357/?captions=fre_fr&learn=on)
 
 ### Vidéo : utiliser les segments [!DNL Real-Time CDP] dans [!DNL Target]
 
 Découvrez comment utiliser les segments [!DNL Real-Time Customer Data Platform] dans [!DNL Adobe Target] pour offrir des expériences personnalisées sur votre site web et vos applications mobiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446829/?captions=fre_fr&learn=on)
 
 ### Vidéo : utiliser les attributs de profil [!DNL Real-Time CDP] dans [!DNL Adobe Target]
 
 Découvrez comment utiliser les attributs de profil [!DNL Adobe Real-Time Customer Data Platform] dans [!DNL Adobe Target] pour offrir des expériences personnalisées sur votre site web et vos applications mobiles.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451895/?captions=fre_fr&learn=on)
 
 ### Blog et vidéo [!DNL Adobe Target] : personnalisation améliorée de la même page
 
