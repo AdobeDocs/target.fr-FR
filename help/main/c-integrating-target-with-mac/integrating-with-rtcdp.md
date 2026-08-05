@@ -138,7 +138,7 @@ Découvrez comment personnaliser l’accès suivant avec [!DNL Real-Time Custome
 
 Pour plus d’informations, consultez [Personnalisation de l’accès suivant avec Real-Time CDP et Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=fr){target=_blank} dans le guide *Tutoriels Platform*.
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342977?captions=fre_fr&quality=12&learn=on)
 
 ### Vidéo : configurer la destination [!DNL Adobe Target] dans [!DNL Real-Time Customer Data Platform]
 
