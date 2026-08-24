@@ -35,7 +35,7 @@ Pour plus d’informations sur RTCDP, consultez la présentation de [Real-Time C
 
 >[!NOTE]
 >
->Cet article se concentre sur l’intégration [!DNL Target]/RTCDP. Depuis août 2026, la destination **&#x200B;**&#x200B;sous-jacente dans le catalogue des destinations Experience Platform est également disponible pour les organisations dont les [!DNL Adobe Journey Optimizer] ne disposent pas de Real-Time CDP. Voir [Droit](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html#entitlement){target=_blank} dans le guide *Connexion Adobe Target* pour plus d’informations sur les fonctionnalités disponibles pour chaque type de droit.
+>Cet article se concentre sur l’intégration [!DNL Target]/RTCDP. Depuis août 2026, la destination **&#x200B;**&#x200B;sous-jacente dans le catalogue des destinations Experience Platform est également disponible pour les organisations dont les [!DNL Adobe Journey Optimizer] ne disposent pas de Real-Time CDP. Voir [Droit](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr#entitlement){target=_blank} dans le guide *Connexion Adobe Target* pour plus d’informations sur les fonctionnalités disponibles pour chaque type de droit.
 
 ## Fonctionnalités principales
 
@@ -129,7 +129,7 @@ Pour plus d’informations, voir les rubriques suivantes :
 * [Configurer des destinations de personnalisation pour la personnalisation de la même page et de la page suivante](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*.
 * [Connexion &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=fr){target=_blank} dans le guide *Présentation des destinations*
 * [Attributs de mappage](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=fr#map-attributes){target=_blank} dans le guide *Présentation des destinations* .
-* [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank} dans le guide *Vue d’ensemble des destinations*.
+* [Activer les audiences vers des destinations de personnalisation Edge](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html?lang=fr){target=_blank} dans le guide *Vue d’ensemble des destinations*.
 * [Personnalisation de la même page et de la page suivante via les destinations  [!DNL Adobe Target]  et Custom Personalization](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=fr#same-next-page-personalization){target=_blank} sous « Questions fréquentes » dans le guide *Vue d’ensemble des destinations*.
 
 ## Vidéos et articles de blog {#videos-blogs}
