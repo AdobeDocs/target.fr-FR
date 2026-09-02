@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51f1eb085a253559ccd58407f5b508e5b094b297
+source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 411
+ht-degree: 65%
 
 ---
 
@@ -31,43 +31,13 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.8.3 (13 août 2026)
+## [!DNL Target Standard/Premium] 26.9.1 (1er septembre 2026)
 
-**Activités et audiences**
-
-+++Afficher les détails
-
-* **Modification activée pour les activités et audiences créées par API/MCP.** Les activités et les audiences créées via l’API [!DNL Adobe Target] Admin et [!DNL Target] MCP peuvent désormais être modifiées dans l’interface utilisateur de [!DNL Target].
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.2 (11 août 2026)
-
-**Audiences**
+**[!UICONTROL Audience]**
 
 +++Afficher les détails
 
-* **Impossible de copier et d’enregistrer une modification de code personnalisé dans une activité à l’aide d’une audience d’activité uniquement.** Correction d’un problème en raison duquel la copie d’une activité qui utilisait une audience d’activité unique ne pouvait pas être enregistrée avec un message d’erreur « ID d’audience non valides » après l’ajout d’une modification de code personnalisé. (TGT-55785)
-
-+++
-
-**Localisation**
-
-+++Afficher les détails
-
-* **Caractères multi-octet corrompus dans l’URL de l’activité.** Correction d’un problème en raison duquel les caractères multi-octet dans l’URL de l’activité semblaient corrompus dans le [!UICONTROL compositeur d’expérience visuelle] et dans l’onglet **[!UICONTROL Collisions]**. (TGT-55708)
-
-* **Message d’erreur non localisé à l’ouverture d’une conception supprimée.** Correction d’un problème en raison duquel le message d’erreur **[!UICONTROL La ressource demandée est introuvable]** n’était pas localisé lorsque vous tentez d’ouvrir une conception qui a été supprimée par un autre utilisateur. (TGT-50902)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.8.1 (4 août 2026)
-
-**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
-
-+++Afficher les détails
-
-* **Icônes tronquées dans le panneau [!UICONTROL Audiences d’expérience].** Correction d’un problème en raison duquel les icônes **[!UICONTROL Ajouter]** et développer/réduire étaient masquées ou tronquées dans le panneau **[!UICONTROL Audiences d’expérience]** lors de la création de l’activité. (TGT-55372)
+* **L’enregistrement d’une activité en cours de copie avec une audience d’activité unique échoue**. Lorsqu’une activité A/B utilise une règle d’audience d’activité seule (étendue localement) et une modification du code personnalisé, sa copie et son enregistrement échouent avec un message d’erreur « ID d’audience non valides ». (TGT-55785)
 
 +++
 
