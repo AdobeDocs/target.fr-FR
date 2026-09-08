@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+source-git-commit: 35d7254f67314c1c89050379b0a7850a8db8b5e9
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 65%
+source-wordcount: 495
+ht-degree: 54%
 
 ---
 
@@ -30,6 +30,25 @@ ht-degree: 65%
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.2 (8 septembre 2026)
+
+
+**[!UICONTROL Recommandations]**
+
++++Afficher les détails
+
+* **[!DNL New]’interface utilisateur code incorrectement les URL de flux**. Lors de la création d’un flux de recommandations à partir d’une URL dans la nouvelle interface [!DNL Target], l’URL du flux était codée de manière incorrecte, ce qui entraînait l’échec de la création du flux avec une erreur inconnue. (TGT-56084)
+
++++
+
+**[!UICONTROL Création de rapports]**
+
++++Afficher les détails
+
+* **Le rapport Segments automatisés n’affiche pas systématiquement les valeurs d’attribut**. Le rapport Segments automatisés affiche de manière incohérente les valeurs d’attribut et les plages pour les activités [!DNL Automated Personalization] et [!DNL Auto-Target]. Certains segments automatisés n’affichaient que le nom de l’attribut au lieu de la valeur ou de la plage associée. (TGT-55855)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.1 (1er septembre 2026)
 
