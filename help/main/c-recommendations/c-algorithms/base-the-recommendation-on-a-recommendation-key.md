@@ -418,13 +418,13 @@ Si votre attribut de profil personnalisé ne correspond pas directement à un ID
 
 1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Marque préférée »).
 
-1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL  Meilleurs vendeurs ]).
+1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;]).
 
    L’option [!UICONTROL Regrouper par valeur unique de] s’affiche.
 
 1. Sélectionnez l’attribut d’entité correspondant à la clé que vous avez choisie. Dans ce cas, « [!UICONTROL Marque préférée] » correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste « [!UICONTROL  Meilleurs vendeurs ] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL  Meilleurs vendeurs ] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
+   [!DNL Recommendations] génère désormais une liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
 
 ### [!UICONTROL Dernier article consulté] {#last-viewed}
 
