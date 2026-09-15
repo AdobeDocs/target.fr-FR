@@ -8,20 +8,24 @@ exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 TQID: https://experienceleague.adobe.com/1gI3rMMf9s5ogc4BvBz4fMUqxed1Nqad0XoaR8SlU58
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: f741cd1f80d85c1a16088e6892b916567b3cd37f
 workflow-type: tm+mt
-source-wordcount: 4434
+source-wordcount: '4434'
 ht-degree: 25%
-
 ---
-
 # Baser la recommandation sur une clé de recommandation
 
 Les recommandations basées sur des algorithmes utilisent le contexte de comportement des visiteurs pour afficher des résultats pertinents dans [!DNL Adobe Target] activités [!DNL Recommendations].
@@ -31,7 +35,7 @@ Chaque type d’algorithme fournit différents algorithmes appropriés à son ty
 | Type d’algorithme | Quand utiliser/algorithmes disponibles |
 | --- | --- |
 | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur.<ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté]</li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
-| [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
+| [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Les plus consultés par attribut de profil]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
 | [!UICONTROL Basé sur un élément] | Faites des recommandations basées sur la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. <ul><li>[!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]</li><li>[!UICONTROL Les personnes qui ont consulté ceci ont acheté cela]</li><li>[!UICONTROL Les personnes qui ont acheté ceci ont acheté cela]</li><li>[!UICONTROL Éléments avec des attributs similaires]</li></ul> |
 | [!UICONTROL Basé sur l’utilisateur] | Faites des recommandations basées sur le comportement de l’utilisateur. <ul><li>[!UICONTROL Éléments récemment consultés]</li><li>[!UICONTROL Recommandé]</li></ul> |
 | [!UICONTROL Critères personnalisés] | Faites des recommandations basées sur un fichier personnalisé que vous téléchargez. <ul><li>Algorithme personnalisé</li></ul> |
@@ -180,7 +184,7 @@ Cet algorithme vous permet de sélectionner l’attribut d’élément sur leque
 
 Vous pouvez ensuite sélectionner les attributs de profil stockés dans le profil du visiteur à faire correspondre, par exemple « Marque préférée », « Dernier élément ajouté au panier » ou « Programme le plus consulté ».
 
-### [!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]
+### [!UICONTROL Les plus consultés par attribut de profil]
 
 >[!CONTEXTUALHELP]
 >id="target_recommendations_profile_attribute"
