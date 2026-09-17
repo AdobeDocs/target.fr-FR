@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;Recommandations;Target Premium;Automated Personalization;ciblage automatique;ciblage auto;autorisations;qu’est-ce qu’Adobe Target
-description: Découvrez les principes de base d’ [!DNL Target] Standard et Adobe [!DNL Target] Premium. [!DNL Target] Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
+description: Découvrez les principes de base d’Adobe [!DNL Target] Standard et d’Adobe [!DNL Target] Premium.[!DNL Target] Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
 landing-page-description: Personnalisez l’expérience client afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 short-description: Personnalisez l’expérience client afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 title: Qu’est-ce que Target ?
@@ -9,22 +9,28 @@ exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 TQID: https://experienceleague.adobe.com/Mr8fwY1FNfJShSezC50YX1QeBagmuovUySsQUO8jPqo
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer profiles
+source-git-commit: 9a55efe5570867a822e4f6c0494a505e456bd536
 workflow-type: tm+mt
-source-wordcount: 995
-ht-degree: 50%
-
+source-wordcount: '1644'
+ht-degree: 33%
 ---
-
 # Présentation de [!DNL Target]
 
 [!DNL Adobe Target], qui fait partie de la [!DNL Adobe Experience Cloud], propose des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
@@ -123,3 +129,93 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
 >[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_ab_daily_traffic"
+>title="Trafic quotidien"
+>abstract="Nombre d’utilisateurs participant à votre expérience chaque jour. Si vous ne connaissez pas votre trafic quotidien, choisissez \« Volume de trafic\ » ci-dessus et le calculateur le résoudra à l’aide de vos autres entrées."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_setup"
+>title="Configurer le test"
+>abstract="Ces champs définissent votre test A/B, ce que vous prévoyez de voir et le degré de confiance que vous devez avoir dans les résultats. Le champ lié à ce que vous avez sélectionné ci-dessus sera résolu automatiquement pour . Renseignez le reste avec vos valeurs attendues."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_number_experiences"
+>title="Nombre d’expériences"
+>abstract="Nombre de variantes dans votre expérience, contrôle compris. Un test A/B comporte 2 bras. Cinq variantes plus un contrôle égale 6. Plus d&#39;armes nécessitent proportionnellement plus de trafic pour maintenir la puissance statistique."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_duration"
+>title="Durée du test A/B"
+>abstract="Nombre de jours d’exécution de l’expérience. Des durées plus longues donnent à votre expérience plus de temps pour collecter des données, ce qui vous permet de détecter de manière fiable des effets plus petits. Des durées plus courtes nécessitent des effets plus importants ou davantage de trafic quotidien pour obtenir un résultat fiable."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_minimum_detectable_effect"
+>title="Effet Minimal Détectable"
+>abstract="La plus petite amélioration qui vaille la peine d’être détectée est la modification minimale de votre mesure sur laquelle vous agiriez. Il s’agit de la taille de l’effet élévateur en points de pourcentage, et non du pourcentage de changement par rapport à votre ligne de base. Par exemple, si votre ligne de base est de 5 % et qu’un effet élévateur de 1 point de pourcentage est important, saisissez 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_expected_improvement"
+>title="Amélioration attendue"
+>abstract="Amélioration attendue de l’expérience."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_variance"
+>title="Variance"
+>abstract="Quelle est la répartition des valeurs de votre mesure, et non sa moyenne ? Une mesure telle qu’un taux de clics (principalement des 0 et des 1) présente un faible écart, tandis qu’une mesure telle que le chiffre d’affaires par utilisateur (quelques personnes qui dépensent beaucoup, beaucoup de faibles) peut présenter un écart beaucoup plus élevé. Si vous n’êtes pas sûr, laissez la valeur par défaut de 1."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_confidence_level"
+>title="Niveau de confiance"
+>abstract="Le degré de confiance dont vous avez besoin pour être sûr qu’un résultat n’est pas simplement une chance aléatoire avant de l’appeler réel, le seuil de signification statistique. Un niveau de confiance de 95 % signifie qu’il y a au plus 5 % de chances qu’un résultat faux positif soit obtenu. Des valeurs plus élevées réduisent le nombre de faux positifs, mais requièrent davantage de données."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_statistical_power"
+>title="Puissance statistique"
+>abstract="La probabilité de détecter un effet s’il existe réellement, la sensibilité de l’expérience. 80% de puissance signifie qu&#39;il y a 80% de chances de détecter un effet réel. Une puissance plus élevée réduit les faux négatifs, mais nécessite plus de trafic ou une exécution plus longue."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_traffic_mode"
+>title="Mode de trafic"
+>abstract="Comment les utilisateurs rejoignent votre expérience. Continu : les utilisateurs saisissent une valeur quotidienne pendant la durée de l’expérience. Le trafic se déplace automatiquement vers des variantes plus performantes au fur et à mesure des résultats."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_metric_type"
+>title="Type de mesure"
+>abstract="Quel type de mesure mesurez-vous ? Pourcentage : utilisez-le pour les résultats binaires tels que les clics ou les conversions, où chaque utilisateur fait ou ne fait pas quelque chose. Nombre : utilisez-le pour des mesures telles que le chiffre d’affaires ou les pages vues, où la valeur peut varier considérablement d’un utilisateur à l’autre."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_auto_daily_traffic"
+>title="Trafic quotidien"
+>abstract="Nombre d’utilisateurs participant à votre expérience chaque jour. Utilisé pour des expériences continues s’étendant sur plusieurs jours, avec un trafic automatiquement réorienté vers des variantes plus performantes au fur et à mesure des résultats."
+
+>[!CONTEXTUALHELP]
+>id="target_sample_size_baseline_metric_rate"
+>title="Taux de mesure de référence"
+>abstract="Votre performance actuelle avant le début de l’expérience, moyenne du bras de contrôle. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs cliquent sur Acheter aujourd’hui, saisissez un pourcentage de 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Mesure principale"
+>abstract="La mesure principale est automatiquement extraite des paramètres de création de rapports. Pour apporter des modifications, modifiez la mesure d’objectif sous Objectifs et paramètres."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothèse"
+>abstract="L’hypothèse est une instruction que vous définissez et qui explique le résultat attendu de l’expérience. Incluez une description de ce qui est modifié et où, puis indiquez quelle mesure vous prévoyez de modifier et comment."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_insights"
+>title="Statistiques"
+>abstract="Les informations d’expérience sont les enseignements tirés par l’IA lorsque les données d’expérience ont atteint une signification statistique."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunités"
+>abstract="Les opportunités d’expérience sont des idées de traitement suggérées par l’IA basées sur des modèles que l’IA trouve dans vos captures d’écran et résultats d’expérience."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Détails du traitement"
+>abstract="Les détails du traitement affichent des images de ce à quoi ressemble un traitement lorsqu’un utilisateur y est qualifié. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
