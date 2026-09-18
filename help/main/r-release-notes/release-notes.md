@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 965473d15c55d4a728ace2f67a5dd0b16a4ef55b
+source-git-commit: 6774b85f9515dd093d4e54492be54f7be3e92073
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 47%
+source-wordcount: '635'
+ht-degree: 42%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.4 (17 septembre 2026)
+
+**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
+
++++Afficher les détails
+
+* Contrôle **[!UICONTROL Insérer avant] inaccessible pour les [!DNL Experience Fragments] sur l’élément de page le plus haut**. Dans le compositeur d’expérience visuelle, la sélection de l’élément le plus haut sur une page a fait défiler la page vers le haut, ce qui a provoqué le rendu du contrôle **[!UICONTROL Insérer avant]** au-dessus de la fenêtre visible, à un endroit où il n’a pas pu être sélectionné. (TGT-55829)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.3 (16 septembre 2026)
 
