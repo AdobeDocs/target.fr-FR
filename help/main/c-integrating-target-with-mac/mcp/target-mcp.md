@@ -8,13 +8,11 @@ topic: Experimentation, Personalization, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 40e87a3a70d51ccda99f046609ba9633719ea540
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1039'
 ht-degree: 0%
-
 ---
-
 # Serveur MCP [!DNL Adobe Target] {#target-mcp}
 
 L’intégration MCP [!DNL Adobe Target] vous permet d’inspecter, d’analyser et de gérer des tests A/B et des activités de personnalisation directement depuis votre assistant d’IA. Transformez les données d’expérimentation et de personnalisation de [!DNL Target] en workflows en langage clair : auditez votre portfolio d’expériences, examinez les rapports de performances, explorez les audiences et les offres, créez des activités et effectuez des mises à jour sans parcourir l’interface utilisateur ni écrire d’appels d’API.
@@ -48,10 +46,10 @@ Le serveur MCP [!DNL Adobe Target] permet d’accéder en lecture et en écritur
 * **Explorer les activités** - Répertorier, inspecter et analyser les activités A/B et XT.
 * **Créer et mettre à jour des activités** - Créez de nouvelles activités A/B et de ciblage d’expérience, mettez à jour les configurations, gérez les divisions de trafic, ajoutez ou supprimez des variantes et contrôlez l’état de l’activité (activer, mettre en pause, désactiver).
 * **Explorer et gérer les audiences et les offres** - Répertoriez, inspectez, créez et mettez à jour des audiences, des offres HTML et des offres JSON.
-<!-- * **Explore Recommendations criteria** - List and inspect criteria and cart-based algorithms. -->
+* **Gérer les recommandations** - Répertoriez, inspectez, créez et mettez à jour des critères, des collections, des conceptions, des promotions et des exclusions, et recherchez dans le catalogue de produits. Nécessite un droit Target Premium.
 * **Implémentation d’audit** - Examinez les paramètres at.js, les jetons de réponse et l’historique des révisions par entité.
 
-Le serveur MCP [!DNL Adobe Target] propose 41 outils répartis sur 10 catégories, depuis la création d’activités et de rapports jusqu’à la gestion de l’audience et les aperçus d’assurance qualité. Pour consulter la référence complète des paramètres, voir [Référence des outils du serveur MCP](target-mcp-tools-reference.md).
+Le serveur MCP [!DNL Adobe Target] propose 62 outils répartis dans 11 catégories, de la création d’activités et de rapports à la gestion de l’audience, en passant par les aperçus d’assurance qualité et la configuration de Recommendations. Pour consulter la référence complète des paramètres, voir [Référence des outils du serveur MCP](target-mcp-tools-reference.md).
 
 Pour découvrir ce que vous pouvez faire avec le serveur MCP [!DNL Adobe Target], y compris les procédures pas à pas d’invites, consultez [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md).
 
@@ -66,7 +64,7 @@ Le serveur MCP [!DNL Adobe Target] est actuellement disponible pour **Claude Web
 
 +++À quels objets de [!DNL Adobe Target] puis-je accéder via MCP ?
 
-Vous pouvez accéder aux activités (A/B, XT, AP), aux audiences, aux offres, aux propriétés, aux mbox, aux jetons de réponse, à la configuration d’at.js, aux rapports A4T et à l’historique de révision des entités, et les gérer. Le serveur MCP expose 41 outils couvrant les opérations de lecture et d’écriture.
+Vous pouvez accéder aux activités (A/B, XT, AP), aux audiences, aux offres, aux propriétés, aux mbox, aux jetons de réponse, à la configuration d’at.js, aux rapports A4T, à l’historique des révisions d’entité et à la configuration de Recommendations (critères, collections, conceptions, promotions, exclusions et recherche de catalogue), et les gérer. Le serveur MCP expose 62 outils couvrant les opérations de lecture et d’écriture. Les outils de recommandations nécessitent un droit Target Premium et ne sont pas disponibles sur les comptes non Premium.
 +++
 
 +++Le serveur MCP peut-il créer ou modifier des activités ?
