@@ -757,7 +757,7 @@ Aucun paramètre requis.
 
 >[!NOTE]
 >
->* Les outils de recommandations nécessitent un client compatible avec Recommendations avec ****. Sur les comptes non Premium, ces outils ne sont pas affichés dans la liste d’outils du client et l’API sous-jacente renvoie une erreur 403.
+>* Les outils de recommandations nécessitent un client compatible avec Recommendations avec **&#x200B;**. Sur les comptes non Premium, ces outils ne sont pas affichés dans la liste d’outils du client et l’API sous-jacente renvoie une erreur 403.
 >* Ces outils prennent en charge les opérations de liste, d’obtention, de création et de mise à jour pour les critères, collections, conceptions, promotions et exclusions. Les opérations de suppression ne sont pas exposées via le serveur MCP.
 
 +++Critères
