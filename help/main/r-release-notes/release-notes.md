@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
+source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 36%
+source-wordcount: '816'
+ht-degree: 34%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
@@ -37,6 +37,27 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 septembre 2026)
+
+### Fonctionnalité
+
+<table>
+<thead>
+<tr>
+<th><strong>Prémasquage du contenu</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le pré-masquage du contenu permet de réduire le scintillement de la page en masquant uniquement les sections que la personnalisation Adobe Target est sur le point de modifier, offrant ainsi une expérience plus fluide lors du chargement du contenu. Cette approche évite de masquer la page entière et permet de minimiser l’effort d’implémentation lorsque de nouvelles activités sont lancées.</p>
+<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
+<p>Pour plus d’informations, consultez la <a href="../administrating-target/content-pre-hiding.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations
 
 **[!UICONTROL Analytics for Target]**
 
@@ -109,7 +130,7 @@ Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
 
 Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
 
-Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
+Cette fonctionnalité nécessite un client compatible avec Recommendations avec **** ; elle n’est pas disponible sur les comptes non Premium.
 
 Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
