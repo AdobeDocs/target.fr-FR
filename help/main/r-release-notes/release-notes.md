@@ -130,7 +130,7 @@ Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
 
 Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
 
-Cette fonctionnalité nécessite un client compatible avec Recommendations avec **** ; elle n’est pas disponible sur les comptes non Premium.
+Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
 
 Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
