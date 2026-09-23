@@ -5,16 +5,14 @@ title: Référence sur les outils du serveur MCP Adobe Target
 description: Référence complète des paramètres pour tous les outils exposés par le serveur MCP Adobe Target, y compris les opérations de lecture et d’écriture.
 feature: Integrations
 topic: Experimentation, Personalization, Artificial Intelligence
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 role: Developer, User
 level: Intermediate, Experienced
-source-git-commit: aa7a47b00b86a47c97996b667ee0d73db52650aa
+source-git-commit: 4b154f401cc9d31d99c169bf08781bcaa7ef5c8f
 workflow-type: tm+mt
-source-wordcount: '3046'
+source-wordcount: '3804'
 ht-degree: 14%
-
 ---
-
 # Référence des outils du serveur [!DNL Adobe Target] MCP {#target-mcp-tools-reference}
 
 >[!AVAILABILITY]
@@ -755,6 +753,143 @@ Aucun paramètre requis.
 
 +++
 
+## Outils de recommandations {#tools-recommendations}
+
+>[!NOTE]
+>
+>* Les outils de recommandations nécessitent un client compatible avec Recommendations avec **&#x200B;**. Sur les comptes non Premium, ces outils ne sont pas affichés dans la liste d’outils du client et l’API sous-jacente renvoie une erreur 403.
+>* Ces outils prennent en charge les opérations de liste, d’obtention, de création et de mise à jour pour les critères, collections, conceptions, promotions et exclusions. Les opérations de suppression ne sont pas exposées via le serveur MCP.
+
++++Critères
+
+**Outils :** `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`
+
+Les critères sont des règles qui déterminent quels éléments recommander, en fonction d’un ensemble prédéterminé de comportements de visiteur. Les critères sont regroupés en 9 familles typées : `category`, `custom`, `item`, `cart`, `popularity`, `profileattribute`, `recent`, `sequence`, `userhistory`.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `criteria_id` | Entier | Pour get/update | Identifiant unique du critère |
+| `criteria_type` | string | Pour les opérations typées | Une des 9 familles de critères |
+| `limit` / `offset` | Entier | Non | Pagination |
+| `name` | string | Oui (créer) | Nom unique du critère |
+| `criteriaTitle` | string | Non | Afficher le titre utilisé dans la conception via `$criteria.title` |
+| `description` | string | Non | Description des critères |
+| `key` | string | Oui (créer/mettre à jour, la plupart des types) | Clé de recommandation (par exemple, `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED`, `PROFILE_ATTRIBUTE`) |
+| `type` | string | Oui (créer/mettre à jour, la plupart des types) | Logique de recommandation (par exemple, `VIEWED_BOUGHT`, `BOUGHT_CF`, `VIEWED_CF`, `SITE_AFFINITY`, `SIMILARITY`) |
+| `configuration` | objet | Oui (créer/mettre à jour) | Règles d’inclusion, pondération des attributs, filtre de prix et autres paramètres spécifiques à la famille |
+| `daysCount` | string | Variable | Période historique prise en compte (par exemple, `ONE_DAY` à `TWO_MONTHS`) |
+
+`list_target_criteria` et `get_target_criteria` renvoient des métadonnées minimales inter-familles (`id`, `name`, `criteriaTitle`, `criteriaGroup`). Utilisez `list_target_criteria_by_type` / `get_target_criteria_by_type` (ou `create_target_criteria` / `update_target_criteria`) avec un `criteria_type` pour travailler avec la configuration complète spécifique au type. Les exigences des champs diffèrent selon la famille. Consultez la [!DNL Adobe] [Référence de l’API Recommendations](https://developer.adobe.com/target/administer/recommendations-api/){target="_blank"} pour obtenir le schéma complet par type.
+
+**Renvoie :** objet criteria ou liste paginée avec `offset`, `limit`, `total` et `list`.
+
+**Exemple d’invite :** « Répertoriez tous les critères de recommandations configurés dans ce compte et résumez les types d’algorithmes utilisés ».
+
++++
+
++++Collections
+
+**Outils :** `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`
+
+Les collections regroupent les entités de catalogue en fonction de règles correspondantes, à utiliser dans des critères et des promotions.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `collection_id` | Entier | Pour get/update | Identifiant unique de la collection |
+| `limit` / `offset` | Entier | Non | Pagination |
+| `name` | string | Oui | Nom unique de la collection (250 caractères max.) |
+| `description` | string | Non | Description de la collection (1000 caractères max.) |
+| `rules` | tableau | Oui | 1-1 000 règles (`attribute` + opérateur/opérande) qui déterminent l’appartenance au catalogue |
+
+**Renvoie :** objet de collection, y compris les métadonnées `id`, `name`, `description`, `rules` et modifiées en dernier.
+
+**Exemple d’invite :** « De quelles collections dispose-t-on et sur quels attributs de catalogue filtrez-vous ? »
+
++++
+
++++Conceptions
+
+**Outils :** `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`
+
+Les conceptions sont des modèles Velocity ou HTML qui contrôlent le rendu des entités recommandées.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `design_id` | Entier | Pour get/update | Identifiant unique de la conception |
+| `limit` / `offset` | Entier | Non | Pagination |
+| `includeScript` | Booléen | Non | Indique s’il faut inclure le contenu du modèle de conception. |
+| `name` | string | Oui | Nom unique de la conception (250 caractères max.) |
+| `script` | string | Oui | Modèle Velocity référençant au moins un objet entité (65 000 caractères max.) |
+| `type` | string | Non | Type de contenu du script : `HTML`, `JSON` ou `OTHER` (par défaut) |
+
+**Renvoie :** objet de conception, y compris `id`, `name`, `script` et `type`.
+
+**Exemple d’invite :** « Quelles conceptions et collections ai-je configurées pour Recommendations ? »
+
++++
+
++++Promotions
+
+**Outils :** `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`
+
+Les promotions forcent des entités spécifiques à entrer dans les résultats de recommandation, ayant priorité sur les critères et les recommandations de sauvegarde.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `promotion_id` | Entier | Pour get/update | Identifiant unique de la promotion |
+| `limit` / `offset` | Entier | Non | Pagination |
+| `name` | string | Oui | Nom unique de la promotion (250 caractères max.) |
+| `type` | string | Oui | Actuellement, seul `EXTERNAL` est pris en charge |
+| `key` | string | Non | Clé de promotion : `CURRENT`, `LAST_VIEWED`, `LAST_PURCHASED`, `MOST_VIEWED` ou `PROFILE_ATTRIBUTE` |
+| `attribute` | string | Non | Nom de l’attribut de profil, applicable lorsque `key` est `PROFILE_ATTRIBUTE` |
+| `schedule` | objet | Non | Fenêtre temporelle de début/fin pendant laquelle la promotion s&#39;applique |
+| `order` | objet | Non | Paramétrage de l&#39;ordonnancement des entités promues |
+| `configuration` | objet | Non | Référence de collection pour les éléments convertis (utilisée lorsque `rules` est vide) |
+| `rules` | tableau | Non | Règles d&#39;inclusion identifiant les entités à promouvoir |
+
+**Renvoie :** objet promotion.
+
+**Exemple d’invite :** « Créez une promotion externe qui comporte la collection &#39;Backpacking Tents&#39; jusqu’à la fin du mois d’août. »
+
++++
+
++++Exclusions
+
+**Outils :** `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`
+
+Les exclusions suppriment les entités correspondantes des résultats de la recommandation. Les exclusions s’appliquent à l’ensemble du compte, pour tous les critères et activités.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `exclusion_id` | Entier | Pour get/update | Identifiant unique de l’exclusion |
+| `name` | string | Oui | Nom unique de l’exclusion (250 caractères max.) |
+| `description` | string | Non | Description de l&#39;exclusion (1000 caractères max.) |
+| `rule` | objet | Non | Une règle unique (`attribute` + opérateur/opérande) identifiant les entités à exclure |
+
+**Renvoie :** objet d’exclusion.
+
+**Exemple d’invite :** « Des exclusions à l’échelle du compte sont-elles actuellement configurées et sur quoi filtrent-elles ? »
+
++++
+
++++Catalogue
+
+**Outils:** `get_target_entity`, `search_target_catalog`
+
+Outils en lecture seule pour inspecter le catalogue de produits/contenu de Recommendations. Il n’existe aucun outil de création, de mise à jour ou de suppression pour les entités de catalogue via le serveur MCP.
+
+| Paramètre | Type | Requis | Description |
+|---|---|---|---|
+| `catalog_entity_id` | string | Oui (get) | Identifiant de l’entité de catalogue (par exemple, SKU) |
+| `environment_id` | string | Non | Environnement dans lequel rechercher l’entité |
+| `query` | objet | Oui (recherche) | Un bloc `meta` (nécessite `environmentId`, `displayFields` facultative) plus un bloc `query` (`simple` ou `compound`) ; les requêtes simples utilisent `queryFields`, un `operator` (`eq`, `lt`, `gt`, `le`, `ge`) et a `contains` `matchValue` |
+
+**Renvoie :** `get_target_entity` renvoie les attributs de catalogue de l’entité. `search_target_catalog` renvoie des correspondances dans un tableau `entities`. Les noms de champ dans `query` doivent être des attributs de catalogue réels configurés pour le client.
+
+**Exemple d’invite :** « Recherchez dans le catalogue des produits dont l’inventaire est inférieur à 1 000. »
+
++++
+
 ## Résumé des outils {#tools-summary}
 
 | Catégorie | Nombre | de recherche |
@@ -770,7 +905,8 @@ Aucun paramètre requis.
 | Révision | 2 | `get_target_revisions`, `get_target_entity_revisions` |
 | AT.js | 2 | `get_atjs_settings`, `get_atjs_versions` |
 | Modèle | 1 | `list_target_templates` |
-| **Total** | **38** | |
+| Recommandations | 24 | `list_target_criteria`, `get_target_criteria`, `list_target_criteria_by_type`, `get_target_criteria_by_type`, `create_target_criteria`, `update_target_criteria`, `list_target_collections`, `get_target_collection`, `create_target_collection`, `update_target_collection`, `list_target_designs`, `get_target_design`, `create_target_design`, `update_target_design`, `list_target_promotions`, `get_target_promotion`, `create_target_promotion`, `update_target_promotion`, `list_target_exclusions`, `get_target_exclusion`, `create_target_exclusion`, `update_target_exclusion`, `get_target_entity`, `search_target_catalog` |
+| **Total** | **62** | |
 
 ## Ressources connexes {#tools-related}
 

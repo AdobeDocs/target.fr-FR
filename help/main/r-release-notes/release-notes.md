@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 674308a558a90154b171fe9a17d2642120c07923
+source-git-commit: e7d752d7b77f6c167878f1b3679d118c2b44a31f
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 40%
+source-wordcount: '744'
+ht-degree: 36%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
@@ -100,6 +100,18 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 +++Afficher les détails
 
 * **L’enregistrement d’une activité en cours de copie avec une audience d’activité unique échoue**. Lorsqu’une activité A/B utilise une règle d’audience d’activité seule (étendue localement) et une modification du code personnalisé, sa copie et son enregistrement échouent avec un message d’erreur « ID d’audience non valides ». (TGT-55785)
+
++++
+
+Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
+
++++Afficher les détails
+
+Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
+
+Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
+
+Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
 +++
 
