@@ -25,16 +25,26 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8036ca6a8241ab254dcf3451c2feeb2ed9e63d6a
+source-git-commit: 4d083419d76b0287c3c254a0fc382abc7444cc75
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 34%
+source-wordcount: '874'
+ht-degree: 32%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.9.6 (24 septembre 2026)
+
+**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
+
++++Afficher les détails
+
+* **Boucle de redirection sans fin lors de l’accès à une page authentifiée par l’authentification unique via le compositeur d’expérience visuelle**. Lorsqu’une URL de page chargée dans le compositeur d’expérience visuelle était soumise à un flux de redirection SSO/connexion, le compositeur d’expérience visuelle entrait dans une boucle de redirection sans fin et n’atteignait jamais la page prévue. (TGT-56233)
+
++++
 
 ## [!DNL Target Standard/Premium] 26.9.5 (21 septembre 2026)
 
