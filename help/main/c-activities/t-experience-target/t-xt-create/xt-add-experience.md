@@ -111,7 +111,7 @@ Cette vidéo décrit comment booster les tests A/B avec le [!UICONTROL ciblage d
 * Décrire comment diffuser du contenu spécifique à un emplacement auprès d’audiences situées dans différentes zones géographiques
 * Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)
 
 ### Types d’activités (9:03)
 
@@ -121,7 +121,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. L
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
 
 ### Utilisation du [!UICONTROL compositeur d’expérience visuelle]
 
