@@ -57,7 +57,7 @@ Les règles standard de l’interprétation des résultats des tests A/B s’app
 
 Le [!UICONTROL rapport au niveau de l’offre] de l’expérience Forêt aléatoire compare les performances de chaque offre à laquelle est appliqué l’algorithme à la même offre diffusée de manière aléatoire (contrôle). Par conséquent, les offres ne doivent pas être comparées les unes aux autres dans cette vue.
 
-Cliquez sur l’algorithme d’expérience (Forêt aléatoire ou contrôle) pour afficher le rapport [!UICONTROL  Niveau de l’offre ].
+Cliquez sur l’algorithme d’expérience (Forêt aléatoire ou contrôle) pour afficher le rapport [!UICONTROL &#x200B; Niveau de l’offre &#x200B;].
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Les offres peuvent être affichées dans des [groupes de rapports](/help/main/c-
 
 Cliquez sur l’icône [!UICONTROL Segments automatisés]. Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
-Pour plus d’informations, voir [ Rapport Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir [&#x200B; Rapport Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 

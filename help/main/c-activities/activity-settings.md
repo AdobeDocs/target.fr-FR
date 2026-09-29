@@ -29,7 +29,7 @@ ht-degree: 79%
 ---
 # Paramètres d’activité
 
-Utilisez les [!UICONTROL  Paramètres d’activité ] dans [!DNL Adobe Target] pour gérer l’objectif, la priorité et la durée de vos activités.
+Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL Adobe Target] pour gérer l’objectif, la priorité et la durée de vos activités.
 
 1. Saisissez des remarques sur l’objectif de l’activité.
 

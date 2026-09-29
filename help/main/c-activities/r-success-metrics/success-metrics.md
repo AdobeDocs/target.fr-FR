@@ -58,7 +58,7 @@ Les mesures de succès suivantes peuvent être configurées dans la section [!UI
 
 | Mesure de succès | Approche de mesure | Définition |
 |--- |--- |--- |
-| [!UICONTROL  Conversion ] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
+| [!UICONTROL &#x200B; Conversion &#x200B;] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
 | [!UICONTROL Recettes] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>Pour plus d’informations sur les modifications de l’interface utilisateur [!DNL Target] mise à jour en ce qui concerne les mesures de succès des recettes, voir [Modifications de l’interface utilisateur  [!DNL Target]  mises à jour](#changes) ci-dessous. |
 | [!UICONTROL Engagement] | Basée sur les engagements | Engagement généré par la visite. Vous pouvez choisir parmi les mesures d’engagement suivantes :<UL><li>Pages vues : chaque visite unique est comptabilisée comme une conversion.</li><li>[!UICONTROL Score personnalisé] : score agrégé basé sur la valeur affectée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la demande de [!DNL Target] d’affichage de l’activité.</li>[!DNL Time on Site] : durée de la visite (en secondes) entre le moment où le visiteur voit la première demande d’affichage de l’activité [!DNL Target] le chargement de la page finale avec une demande dans la session.</UL> |
 
@@ -84,7 +84,7 @@ Pour accéder aux options [!UICONTROL Paramètres avancés], cliquez sur l’ic�
 
 ![Menu Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif ] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté ] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif ](#what-happens) ?
+Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif &#x200B;] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté &#x200B;] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif &#x200B;](#what-happens) ?
 
 >[!NOTE]
 >
@@ -144,6 +144,6 @@ La version [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/re
 
 Dans l’interface [!DNL Target] mise à jour, la liste déroulante [!UICONTROL Vue par défaut pour les rapports] a été supprimée. Ce champ était redondant, car il enregistrait auparavant la vue de création de rapports par défaut sous [!DNL Overview] > [!UICONTROL Rapports] dans l’interface utilisateur héritée.
 
-Grâce à l’interface utilisateur mise à jour, la mesure de création de rapports par défaut est désormais toujours définie sur [!UICONTROL  Revenu par visiteur (RPV)]. Vous pouvez toujours personnaliser la vue de la section [!UICONTROL Rapports] pour afficher les mesures les plus pertinentes pour votre analyse.
+Grâce à l’interface utilisateur mise à jour, la mesure de création de rapports par défaut est désormais toujours définie sur [!UICONTROL &#x200B; Revenu par visiteur (RPV)]. Vous pouvez toujours personnaliser la vue de la section [!UICONTROL Rapports] pour afficher les mesures les plus pertinentes pour votre analyse.
 
 Cette modification n’affecte pas les mesures de diffusion. Cette modification affecte uniquement le filtre par défaut affiché dans la vue de création de rapports. Comme la RPV est la mesure la plus couramment utilisée par les clients, cette valeur par défaut a été sélectionnée pour rationaliser les workflows de création de rapports. Vous pouvez passer à d’autres mesures à tout moment dans la section [!UICONTROL Rapports].

@@ -62,7 +62,7 @@ Quelques conseils et considérations lors de l’interprétation de vos rapports
   * Dans ce cas, pour augmenter la rapidité de construction des modèles par l’activité pour toutes les expériences, le trafic supplémentaire est envoyé aux expériences associées à des modèles non construits.
   * Pour que la personnalisation commence, il doit y avoir au moins deux expériences avec des modèles créés (coche verte).
 
-* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans le [!UICONTROL  Ciblage automatique ]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
+* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans le [!UICONTROL &#x200B; Ciblage automatique &#x200B;]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
 * Les expériences présentant l’effet élévateur le plus élevé peuvent être interprétées comme ayant la différenciation la plus élevée dans la population. En d’autres termes, l’algorithme a trouvé un segment qui aime le plus cette expérience particulière.
 * Les différentes colonnes du tableau indiquent le nombre de visites, le taux de conversion, l’effet élévateur moyen et le niveau de confiance, ainsi que le degré de confiance. Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
@@ -74,10 +74,10 @@ Utilisez les deux listes déroulantes pour choisir les mesures souhaitées, la m
 
 Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation [!DNL Target] ont répondu aux offres/expériences dans l’activité.
 
-Pour plus d’informations, voir le rapport [ Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir le rapport [&#x200B; Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 
 Ce rapport montre comment, dans différentes activités, les différents attributs sont plus (ou moins) importants pour la manière dont le modèle décide d’effectuer la personnalisation. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
-Pour plus d’informations, consultez le rapport [ Attributs importants ](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Pour plus d’informations, consultez le rapport [&#x200B; Attributs importants &#x200B;](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).

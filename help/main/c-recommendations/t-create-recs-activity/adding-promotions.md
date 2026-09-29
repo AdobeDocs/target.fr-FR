@@ -86,7 +86,7 @@ Options ![[!UICONTROL Promotion avant] et [!UICONTROL Promotion arrière] dans [
    | Type de promotion | Tri par défaut | Tri de sauvegarde | Option de filtrage dynamique |
    | --- | --- | --- | --- |
    | [!UICONTROL Liste des éléments] | Commande saisie dans l’interface utilisateur/l’API Target | Aléatoire (si sélectionné via l’interface utilisateur/l’API) | Non |
-   | [!UICONTROL  Promouvoir par attribut ] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
+   | [!UICONTROL &#x200B; Promouvoir par attribut &#x200B;] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
    | [!UICONTROL Promouvoir une collection] | `entity.value` (ordre décroissant) | Aucune randomisation | Non |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

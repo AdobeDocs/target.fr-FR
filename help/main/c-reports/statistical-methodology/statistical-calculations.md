@@ -115,7 +115,7 @@ Alors l’intervalle de confiance à 95 % de l’effet élévateur est :
 
 Ce calcul utilise la méthode « Delta », et est décrit [plus en détail dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
-### [!UICONTROL Confiance ]
+### [!UICONTROL Confiance &#x200B;]
 
 La dernière colonne indique le degré de confiance dans un rapport [!DNL Target]. Le degré de confiance d’une expérience est une probabilité (exprimée en pourcentage) d’obtenir un résultat aussi extrême que celui observé, en admettant que l’hypothèse nulle soit vraie. En termes de p-values, le degré de confiance affiché est *1 - p-value*. Intuitivement, un degré de confiance plus élevé signifie qu’il est moins probable que l’expérience de contrôle et de non-contrôle ait des taux de conversion égaux.
 
@@ -157,7 +157,7 @@ Au lieu de calculer une valeur de p à partir d’une loi approximative, le rapp
 
 La méthodologie **[!UICONTROL bayésienne]** permet également aux spécialistes du marketing d’alimenter une hypothèse basée sur leur expérience passée et les résultats de la variante de contrôle.
 
-La méthodologie **[!UICONTROL bayésienne]** n’est disponible que pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**, les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]** utilisent toujours **[!UICONTROL test en t de Welch]**. Pour plus d’informations sur la sélection d’une méthodologie, voir [ Objectifs et paramètres ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+La méthodologie **[!UICONTROL bayésienne]** n’est disponible que pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**, les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]** utilisent toujours **[!UICONTROL test en t de Welch]**. Pour plus d’informations sur la sélection d’une méthodologie, voir [&#x200B; Objectifs et paramètres &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
 
 ### Effet élévateur moyen et intervalle crédible
 

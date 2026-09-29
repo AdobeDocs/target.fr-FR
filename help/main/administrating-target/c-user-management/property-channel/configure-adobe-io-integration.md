@@ -64,7 +64,7 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
 
 **Pour accorder aux espaces de travail l’accès aux intégrations Adobe I/O et affecter des rôles :**
 
-1. Ouvrez le **[](https://adminconsole.adobe.com)**.
+1. Ouvrez le **[&#128279;](https://adminconsole.adobe.com)**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Produits]**, puis sélectionnez le nom du produit souhaité.
 

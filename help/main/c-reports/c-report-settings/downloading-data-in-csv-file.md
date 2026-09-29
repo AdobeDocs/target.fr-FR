@@ -82,7 +82,7 @@ L’état [!UICONTROL Détails de la commande] vous donne des informations sur v
 >[!NOTE]
 >
 >* Le rapport de commande comprend quatre semaines de données pour l’environnement par défaut (groupe d’hôtes) et deux semaines de données pour tous les autres environnements qui ne sont pas des environnements par défaut.
->* Mesures de revenus définies sur « [!UICONTROL  Incrémenter le comptage et maintenir l’utilisateur dans l’activité »] détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas le chiffre d&#39;affaires au RPV/AOV/Ventes et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
+>* Mesures de revenus définies sur « [!UICONTROL &#x200B; Incrémenter le comptage et maintenir l’utilisateur dans l’activité »] détails de commande de journal uniquement pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas le chiffre d&#39;affaires au RPV/AOV/Ventes et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 ## Bonnes pratiques
 
@@ -94,7 +94,7 @@ L’état [!UICONTROL Détails de la commande] vous donne des informations sur v
 
 Les informations suivantes s’appliquent à l’option [!UICONTROL Télécharger] :
 
-* Vous pouvez télécharger les deux rapports pour les activités [!UICONTROL  Test A/B ], [!UICONTROL Automated Personalization], [!UICONTROL Ciblage d’expérience] et [!UICONTROL Multivarié]. Vous ne pouvez pas télécharger le rapport [!UICONTROL  Mesures de succès ] pour les activités [!UICONTROL Recommendations].
+* Vous pouvez télécharger les deux rapports pour les activités [!UICONTROL &#x200B; Test A/B &#x200B;], [!UICONTROL Automated Personalization], [!UICONTROL Ciblage d’expérience] et [!UICONTROL Multivarié]. Vous ne pouvez pas télécharger le rapport [!UICONTROL &#x200B; Mesures de succès &#x200B;] pour les activités [!UICONTROL Recommendations].
 * L’option [!UICONTROL Télécharger] n’est pas disponible pour les activités [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] créées avant [!DNL Target] version 15.7.1 (juillet 2015).
 * Les expériences auxquelles aucune donnée n’est associée ne sont pas enregistrées dans le rapport téléchargé.
 * Les audiences appliquées dans l’interface utilisateur de création de rapports de [!DNL Target] ne sont pas transférées vers le rapport de téléchargement.

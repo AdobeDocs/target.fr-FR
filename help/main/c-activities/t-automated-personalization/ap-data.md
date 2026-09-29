@@ -47,7 +47,7 @@ Pour en savoir plus sur les algorithmes de personnalisation [!DNL Target], voir 
 
 Le tableau suivant présente les données collectées par les activités  et [!UICONTROL Ciblage automatique] par défaut, sans configuration de [!DNL Target] ou d’autres solutions de [!DNL Adobe]. Le tableau inclut également la convention de nommage utilisée pour indiquer ces attributs dans les [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le téléchargement de données supplémentaires, consultez [Téléchargement de données pour les algorithmes  [!DNL Target]  personnalisation](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL  Insights ] |
+| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL &#x200B; Insights &#x200B;] |
 | --- | --- | --- | --- |
 | Paramètres d’environnement | ENV | Informations sur l’environnement d’un utilisateur, notamment le système d’exploitation, le navigateur et l’heure du jour ou du jour de la semaine. | Navigateur - [Nom D’Attribut]<br>Système D’Exploitation - [Valeur] |
 | Géographie | GÉO | Informations sur la zone géographique d’un utilisateur, obtenues via la recherche d’adresses IP. | Géo - [attribut géographique] |
@@ -59,7 +59,7 @@ Le tableau suivant présente les données collectées par les activités  et [!U
 
 Le tableau suivant présente les données fournies par le client collectées par les activités  et [!UICONTROL Ciblage automatique]. Ces données ne sont collectées que si vous les fournissez. Les noms d’attributs et les valeurs d’exemple spécifiques sont spécifiques à votre configuration système.
 
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL  Insights ] |
+| Catégorie de données | Préfixe système | Description | Nom d’affichage dans les rapports [!UICONTROL &#x200B; Insights &#x200B;] |
 | --- | --- | --- | --- |
 | Paramètres de page | BOX | Paramètres de page personnalisés (« paramètres mbox ») transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [nom du paramètre] |
 | profil [!DNL Target] | PRO | Les attributs de profil personnalisés sont directement chargés vers le profil [!DNL Target] via l’API ou le paramètre de page, ainsi que des scripts de profil [!DNL Target]. | Personnalisé - Profil du visiteur - [nom de l’attribut] |

@@ -99,7 +99,7 @@ Voici quelques raisons pour lesquelles vous souhaitez annuler le chargement des 
 * Vous souhaitez insérer ou modifier du code personnalisé
 * Vous avez saisi par erreur une URL erronée pour la page
 * Vous souhaitez activer ou désactiver JavaScript avant de charger la page dans VEC
-* Vous souhaitez ajouter d’autres règles de test de modèle aux critères [!UICONTROL  Diffusion de page ]
+* Vous souhaitez ajouter d’autres règles de test de modèle aux critères [!UICONTROL &#x200B; Diffusion de page &#x200B;]
 * Vous souhaitez remplacer le bouton global [!UICONTROL Enhanced Experience Composer] (EEC) lors du chargement d’une page via EEC ou iframe-only
 
 Si vous annulez le chargement de la page dans le VEC, vous pouvez basculer entre les expériences de l’activité sans attendre que la page se charge. Pour afficher à nouveau la page dans le VEC, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.

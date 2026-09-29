@@ -40,7 +40,7 @@ Pour les activités standard [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’ex
 activityID:experienceID:targettype|event
 ```
 
-Pour les activités [!UICONTROL  Affectation automatique ] et [!UICONTROL  Ciblage automatique ], le format de la chaîne TNT est le suivant :
+Pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] et [!UICONTROL &#x200B; Ciblage automatique &#x200B;], le format de la chaîne TNT est le suivant :
 
 ```
 activityId:experienceId:targettype:algorithmId|event

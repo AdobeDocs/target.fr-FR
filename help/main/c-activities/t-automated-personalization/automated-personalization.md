@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;ap;audiences;ensemble;forêt aléatoire;bandit manchot;échantillonnage de thompson;ml;machine learning
-description: Découvrez comment utiliser les activités [!UICONTROL ] (AP) dans les [!DNL Adobe Target] qui utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
-title: Qu’est-ce qu’une activité [!UICONTROL ] (AP) ?
+description: Découvrez comment utiliser les activités  (AP) dans les [!DNL Adobe Target] qui utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
+title: Qu’est-ce qu’une activité  (AP) ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
@@ -67,7 +67,7 @@ Les termes suivants sont utiles pour aborder  :
 
 Tenez compte des détails suivants lors de l’utilisation de  :
 
-##  utilise un algorithme Forêt aléatoire pour personnaliser
+## utilise un algorithme Forêt aléatoire pour personnaliser
 
 Random Forest est une approche d&#39;apprentissage automatique de premier plan. En termes de science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans [!DNL Target], Random Forest est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou le revenu le plus élevé par visite) pour chaque visiteur spécifique. Par exemple, les visiteurs qui utilisent Chrome, qui sont des membres fidèles Gold et qui accèdent à votre site le mardi peuvent être plus susceptibles de convertir avec l’expérience A. Les visiteurs New Yorkais peuvent être plus susceptibles de convertir avec l’expérience B. Pour plus d’informations sur Forêt aléatoire dans [!DNL Target], voir [Algorithme de forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 

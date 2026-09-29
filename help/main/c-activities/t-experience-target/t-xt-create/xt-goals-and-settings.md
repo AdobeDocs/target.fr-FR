@@ -44,7 +44,7 @@ Les paramètres disponibles varient selon que vous utilisez [!DNL Target] ou [!D
 
 Les méthodes suivantes sont disponibles :
 
-### [!UICONTROL Objectif ]
+### [!UICONTROL Objectif &#x200B;]
 
 Saisissez une intention facultative. L’intention peut être toute information qui vous aide et aide les membres de l’équipe à identifier la campagne.
 

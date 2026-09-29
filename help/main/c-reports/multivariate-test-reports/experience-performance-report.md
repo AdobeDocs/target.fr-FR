@@ -25,7 +25,7 @@ ht-degree: 74%
 ---
 # Rapport [!UICONTROL Performances d’expérience] (MVT)
 
-Le rapport [!UICONTROL  Performances d’expérience ] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
+Le rapport [!UICONTROL &#x200B; Performances d’expérience &#x200B;] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
 
 Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]** pour ouvrir l’expérience dans un onglet du navigateur.
 

@@ -37,7 +37,7 @@ L’URL de l’activité détermine la page utilisée dans le [!UICONTROL test m
 
    Les règles supplémentaires peuvent être basées sur les éléments suivants :
 
-   * [!UICONTROL  URL]
+   * [!UICONTROL &#x200B; URL]
    * [!UICONTROL Domaine]
    * [!UICONTROL Chemin]
    * [!UICONTROL Fragment de hachage (#)]

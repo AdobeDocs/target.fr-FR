@@ -149,7 +149,7 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## Modifier les colonnes
 
-Vous pouvez modifier les colonnes actives de la page [!UICONTROL  Recherche catalogue ].
+Vous pouvez modifier les colonnes actives de la page [!UICONTROL &#x200B; Recherche catalogue &#x200B;].
 
 1. Cliquez sur l’icône **[!UICONTROL Personnaliser le tableau]** ( ![Icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ).
 

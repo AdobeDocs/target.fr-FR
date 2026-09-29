@@ -36,7 +36,7 @@ ht-degree: 17%
 
 Plusieurs étapes sont nécessaires lors de l’implémentation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T). Le processus varie selon que vous implémentez A4T avec le [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) ou avec at.js.
 
-## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
+## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site si vous envisagez d’utiliser le SDK Web Platform :
 
@@ -61,7 +61,7 @@ Pour commencer à diffuser des expériences [!DNL Target] et appliquer des [!DNL
 Dans l’interface utilisateur de [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis choisissez **[!UICONTROL Sélectionner par activité]** ou **[!UICONTROL Adobe Analytics]**.
 
 * **[!UICONTROL Sélectionner par activité]** permet de choisir entre [!DNL Target] et [!DNL Analytics] lors de la création de chaque activité.
-* **** définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
+* **&#x200B;**&#x200B;définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
 
 ## ![badge at.js](/help/main/assets/atjs.png) Étapes d’implémentation d’at.js{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -85,7 +85,7 @@ Voir [Mise en œuvre du service Experience Cloud ID pour Target](https://experie
 
 Implémentez ou migrez vers la version requise d’appMeasurement.js. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
+Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
 
 Pour une migration, voir [Migration vers AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) dans le *Guide de mise en œuvre d’Analytics*.
 
@@ -216,6 +216,6 @@ Adobe vous recommande de supprimer l’intégration précédente pour simplifier
 Dans [!DNL Target], cliquez sur **[!UICONTROL Administration > Rapports]** et choisissez **[!UICONTROL Sélectionner par activité]** ou **[!UICONTROL Adobe Analytics]** pour activer les options.
 
 * **[!UICONTROL Sélectionner par activité]** permet de choisir entre [!DNL Target] et [!DNL Analytics] lors de la création de chaque activité.
-* **** définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
+* **&#x200B;**&#x200B;définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
 
 

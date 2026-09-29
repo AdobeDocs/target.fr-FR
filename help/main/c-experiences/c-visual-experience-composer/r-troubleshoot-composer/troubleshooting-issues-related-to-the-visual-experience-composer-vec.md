@@ -68,7 +68,7 @@ Si ni le [!UICONTROL compositeur d’expérience visuelle] ni le [!UICONTROL com
 
 >[!NOTE]
 >
->Outre les informations suivantes, vous pouvez utiliser l’extension [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) par [!DNL Google Chrome].
+>Outre les informations suivantes, vous pouvez utiliser l’extension [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) par [!DNL Google Chrome].
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Si ni le [!UICONTROL compositeur d’expérience visuelle] ni le [!UICONTROL com
 >
 >* Activez la règle lorsque vous effectuez une modification dans le compositeur d’expérience visuelle et désactivez la règle lorsque vous ne l’utilisez pas.
 >
->Pour l’extension [!UICONTROL  Modifier l’en-tête de réponse ] ([!DNL Firefox]), comme vous ne pouvez pas ajouter de règle d’URL, vous devez effectuer les opérations suivantes :
+>Pour l’extension [!UICONTROL &#x200B; Modifier l’en-tête de réponse &#x200B;] ([!DNL Firefox]), comme vous ne pouvez pas ajouter de règle d’URL, vous devez effectuer les opérations suivantes :
 >
 >* Activez la règle lorsque vous effectuez une modification dans le compositeur d’expérience visuelle et désactivez la règle lorsque vous ne l’utilisez pas.
 
@@ -120,12 +120,12 @@ Si ni le [!UICONTROL compositeur d’expérience visuelle] ni le [!UICONTROL com
 1. Dans vos extensions [!DNL Firefox], sélectionnez l’extension Modifier les en-têtes de réponse .
 1. Cliquez sur **[!UICONTROL Preferences]**.
 1. Sélectionnez **[!UICONTROL Filtrer]** dans le menu déroulant [!UICONTROL Action].
-1. Dans le champ [!UICONTROL  Nom de l’en-tête ], saisissez : **[!UICONTROL X-Frame-Options]**.
+1. Dans le champ [!UICONTROL &#x200B; Nom de l’en-tête &#x200B;], saisissez : **[!UICONTROL X-Frame-Options]**.
 1. Répétez les étapes 4 et 5 pour ajouter un filtre doté de **[!UICONTROL x-frame-options]**.
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 1. Cliquez sur **[!UICONTROL Start]**.
 
-![Extension Firefox ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
+![Extension Firefox &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
 Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent maintenant se charger dans le [!UICONTROL compositeur d’expérience visuelle], même si le [!UICONTROL compositeur d’expérience amélioré] est désactivé.
 
@@ -134,7 +134,7 @@ Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent m
 ## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement) {#does-not-load}
 
 +++Détails
-* La meilleure compatibilité avec le VEC est assurée par la version la plus récente de l’extension : [[!DNL Adobe Experience Cloud] [!UICONTROL  Visual Editing Helper extension ]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+* La meilleure compatibilité avec le VEC est assurée par la version la plus récente de l’extension : [[!DNL Adobe Experience Cloud] [!UICONTROL &#x200B; Visual Editing Helper extension &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
   Pour vérifier si vous utilisez la dernière version, accédez à [!UICONTROL Extensions] > [!UICONTROL Gérer les extensions] puis cliquez sur [!UICONTROL Détails].
 
@@ -166,7 +166,7 @@ Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent m
 
 +++
 
-## Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode [!UICONTROL  Parcourir ]. (Compositeur d’expérience visuelle uniquement) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode [!UICONTROL &#x200B; Parcourir &#x200B;]. (Compositeur d’expérience visuelle uniquement) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 +++Détails
 Lors de l’utilisation du mode [!UICONTROL Parcourir], si vous accédez à une URL pour laquelle aucune bibliothèque [!DNL Target] n’est implémentée ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=fr){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}) ou qui contient un en-tête frame-buster, le compositeur d’expérience visuelle semble endommagé. En raison de problèmes de sécurité du navigateur, [!DNL Target] ne pouvez pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du compositeur d’expérience visuelle n’est pas mise à jour de manière cohérente si la page se charge.

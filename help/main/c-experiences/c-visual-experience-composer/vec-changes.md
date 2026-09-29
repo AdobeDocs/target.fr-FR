@@ -25,7 +25,7 @@ La version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introd
 
 >[!IMPORTANT]
 >
->La mise à jour du [!UICONTROL compositeur d’édition visuelle] nécessite l’extension [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible dans l’[!DNL Chrome Web Store].
+>La mise à jour du [!UICONTROL compositeur d’édition visuelle] nécessite l’extension [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible dans l’[!DNL Chrome Web Store].
 
 Le compositeur d’expérience visuelle s’affiche lorsque vous créez ou modifiez une activité existante.
 
@@ -41,7 +41,7 @@ Comme dans la version précédente, le rail [!UICONTROL Expériences] reste sur 
 
 ![Rail Expériences](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
 
-Vous pouvez créer, renommer ou supprimer des expériences à l’aide du rail [!UICONTROL  Expériences ]. Cliquez sur l’icône **[!UICONTROL Ajouter]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) pour ajouter une nouvelle expérience. Cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) pour dupliquer, supprimer ou rediriger une expérience.
+Vous pouvez créer, renommer ou supprimer des expériences à l’aide du rail [!UICONTROL &#x200B; Expériences &#x200B;]. Cliquez sur l’icône **[!UICONTROL Ajouter]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) pour ajouter une nouvelle expérience. Cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) pour dupliquer, supprimer ou rediriger une expérience.
 
 ### Rail [!UICONTROL Composants] (nouveau)
 
@@ -71,7 +71,7 @@ Pour ouvrir le rail [!UICONTROL Modifications], cliquez sur l’icône [!UICONTR
 
 Le rail [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle et vous permet d’effectuer des modifications supplémentaires (comme le sélecteur CSS, la mbox et le code personnalisé).
 
-Cliquez sur l’icône [!UICONTROL Plus d’options] ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) pour ajouter une modification, supprimer toutes les modifications ou supprimer toutes les modifications non valides. Cliquez sur [!UICONTROL  Sélectionner ] pour effectuer des opérations en bloc : [!UICONTROL Appliquer à toutes les pages] ou [!UICONTROL Supprimer].
+Cliquez sur l’icône [!UICONTROL Plus d’options] ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) pour ajouter une modification, supprimer toutes les modifications ou supprimer toutes les modifications non valides. Cliquez sur [!UICONTROL &#x200B; Sélectionner &#x200B;] pour effectuer des opérations en bloc : [!UICONTROL Appliquer à toutes les pages] ou [!UICONTROL Supprimer].
 
 Pour afficher à nouveau le rail [!UICONTROL Modifications], cliquez sur l’icône [!UICONTROL Masquer les modifications] ( ![Afficher le rail Modifications](/help/main/assets/icons/History.svg) ) dans le rail [!UICONTROL Modifications].
 
@@ -135,9 +135,9 @@ L’illustration suivante présente les modifications de haut niveau de l’inte
 
 * Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur dans [!DNL Target] pour la bibliothèque [!UICONTROL Offres].
 
-* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+* [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 
-* [[!UICONTROL Compositeur d’expérience visuelle] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2025) introduit un [!UICONTROL Compositeur d’expérience visuelle] (VEC) mis à jour. Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+* [[!UICONTROL Compositeur d’expérience visuelle] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2025) introduit un [!UICONTROL Compositeur d’expérience visuelle] (VEC) mis à jour. Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
 
 * [[!UICONTROL Compositeur d’expérience visuelle] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 

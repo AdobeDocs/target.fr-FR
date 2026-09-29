@@ -33,7 +33,7 @@ ht-degree: 48%
 
 Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une activité [!UICONTROL Recommendations] dans [!DNL Adobe Target].
 
-Les sections suivantes décrivent les paramètres disponibles pour une activité [!UICONTROL  Recommendations ].
+Les sections suivantes décrivent les paramètres disponibles pour une activité [!UICONTROL &#x200B; Recommendations &#x200B;].
 
 ## Nom
 

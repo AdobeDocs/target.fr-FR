@@ -122,7 +122,7 @@ Par défaut, les rapports présentent les résultats pour tous les visiteurs qua
 
 ### Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL  Test multivarié ].
+Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL &#x200B; Test multivarié &#x200B;].
 
 ![Menu Paramètres avancés](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 

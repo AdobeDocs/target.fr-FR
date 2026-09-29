@@ -60,7 +60,7 @@ Les points clés sont les suivants :
 
 * **Bibliothèques JavaScript** : découvrez les bibliothèques JavaScript [!DNL Target] : [!DNL Adobe Experience Platform Web SDK] et at.js.
 * **Stratégies d’utilisation des appels au serveur** : découvrez comment [!DNL Target] compte divers appels au serveur, y compris les points d’entrée, la mbox unique, la mbox par lots, les appels d’exécution, de prérécupération et de notification.
-* **** : découvrez comment [!DNL Target] interagit avec le [!DNL Adobe Experience Platform Edge Network].
+* **&#x200B;**&#x200B;: découvrez comment [!DNL Target] interagit avec le [!DNL Adobe Experience Platform Edge Network].
 * **Expérience utilisateur protégée** : découvrez comment [!DNL Adobe] garantit la disponibilité et les performances de son infrastructure de ciblage.
 * **Directives SEO** : suivez les bonnes pratiques pour aligner les activités [!DNL Target] sur les directives SEO.
 * **Trafic de robots** : découvrez comment Target gère le trafic de robots pour éviter de biaiser les tests et les algorithmes de personnalisation.
@@ -69,7 +69,7 @@ Les points clés sont les suivants :
 
 Target s’intègre aux sites web à l’aide de [!DNL Experience Platform Web SDK] ou d’at.js :
 
-* **[Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
+* **[Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}** : cette bibliothèque d’implémentation pour [!DNL Target] réduit les temps de chargement des pages pour les implémentations web et offre de meilleures options pour les applications d’une seule page. Mise à jour fréquente avec de nouvelles fonctionnalités, [!DNL Adobe] recommande à tous les utilisateurs d’[at.js d’effectuer la mise à jour vers la dernière version](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
@@ -106,7 +106,7 @@ Pour plus d’informations, consultez [Création d’un test A/B](/help/main/c-
 
 [!UICONTROL Affectation automatique] identifie l’expérience gagnante parmi plusieurs options. Il réaffecte ensuite automatiquement davantage de trafic au gagnant, ce qui augmente les conversions à mesure que le test continue à s’exécuter et à apprendre.
 
-Voir [[!UICONTROL  Affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) pour plus d’informations.
+Voir [[!UICONTROL &#x200B; Affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) pour plus d’informations.
 
 ### [!UICONTROL Ciblage automatique] (AT)
 
@@ -227,7 +227,7 @@ Aucune modification n’est apportée à la page si le navigateur du visiteur ne
 
 * [!DNL Adobe] procède aux benchmarks de performances en fonction des normes de l’industrie, garanties par le [!UICONTROL contrat de niveau de service d’Adobe].
 * Le réseau Edge garantit la diffusion opportune des données.
-*  utilise une approche à plusieurs niveaux pour sécuriser ses applications, offrant ainsi aux clients le plus haut niveau de disponibilité et de fiabilité.
+* utilise une approche à plusieurs niveaux pour sécuriser ses applications, offrant ainsi aux clients le plus haut niveau de disponibilité et de fiabilité.
 * [!DNL Target] Consulting aide à l’implémentation et propose une assistance produit continue.
 
 ## Tests adaptés à l’optimisation du moteur de recherche (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}

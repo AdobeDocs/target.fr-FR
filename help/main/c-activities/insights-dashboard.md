@@ -1,6 +1,6 @@
 ---
 keywords: activités;activité;tableau de bord insights
-description: Le tableau de bord [!UICONTROL ] donne une vue d’ensemble de la manière dont votre entreprise utilise le [!DNL Target] au fil du temps, en faisant apparaître en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
+description: Le tableau de bord  donne une vue d’ensemble de la manière dont votre entreprise utilise le [!DNL Target] au fil du temps, en faisant apparaître en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
 title: Tableau de bord des informations Adobe Target
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
@@ -31,9 +31,9 @@ Pour des résultats détaillés, l’effet élévateur ou les performances stati
 
 ![](assets/insights-1.png)
 
-## 
+## &#x200B;
 
-La bannière de votre tableau de bord permet d’accéder directement à ****, un point d’entrée léger vers des outils qui rationalisent les workflows d’expérimentation et simplifient la configuration, l’analyse et la prise de décision des expériences.
+La bannière de votre tableau de bord permet d’accéder directement à **&#x200B;**, un point d’entrée léger vers des outils qui rationalisent les workflows d’expérimentation et simplifient la configuration, l’analyse et la prise de décision des expériences.
 
 ## Sélection de la période
 

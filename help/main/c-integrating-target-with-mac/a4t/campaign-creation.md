@@ -87,4 +87,4 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
 ## A4T et les activités d’affectation automatique et de ciblage automatique
 
-Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).

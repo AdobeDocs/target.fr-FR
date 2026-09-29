@@ -110,7 +110,7 @@ Utilisez le [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB
 **Comment savoir à quel moment arrêter une activité ?**
 
 +++Afficher les détails
-L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [ pièges courants et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
+L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [&#x200B; pièges courants et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 
 +++
 
@@ -124,7 +124,7 @@ Voir [rapports pour déterminer l’expérience gagnante](/help/main/c-activitie
 **Puis-je exécuter une activité avec un niveau de personnalisation faisant partie intégrante de l’activité ?**
 
 +++Afficher les détails
-Consultez le type d’activité [ Ciblage automatique ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Consultez le type d’activité [&#x200B; Ciblage automatique &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 +++
 
@@ -176,14 +176,14 @@ C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-
 
 Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. S’agit-il de [!UICONTROL chiffre d’affaires], [!UICONTROL conversion] ou [!UICONTROL engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 
-Cela est rendu possible par le paramètre [!UICONTROL Objectif de Principal ] à l’étape 3 du workflow en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
+Cela est rendu possible par le paramètre [!UICONTROL Objectif de Principal &#x200B;] à l’étape 3 du workflow en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
 
 +++
 
 **Puis-je planifier une activité qui débute et se termine à un moment précis ?**
 
 +++Afficher les détails
-Utilisez la fonction [ Planification de l’étape [!UICONTROL  Objectifs et paramètres ]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow en trois parties en spécifiant les dates de début et de fin.
+Utilisez la fonction [&#x200B; Planification de l’étape [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow en trois parties en spécifiant les dates de début et de fin.
 
 N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe en état [!UICONTROL Terminé].
 
@@ -429,7 +429,7 @@ Consultez les aspects suivants du produit :
 +++Afficher les détails
 C’est là qu’intervient la fonction [Audiences pour le reporting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible sur la page [!UICONTROL Objectifs et paramètres] à l’étape 3 du workflow en trois parties d’une activité guidée.
 
-Vous avez la possibilité d’ajouter 50 de ces segments ainsi que le point d’application ([!UICONTROL  Entrée d’activité ] ou une mesure spécifique) afin d’avoir un moyen puissant de découper et de découper.
+Vous avez la possibilité d’ajouter 50 de ces segments ainsi que le point d’application ([!UICONTROL &#x200B; Entrée d’activité &#x200B;] ou une mesure spécifique) afin d’avoir un moyen puissant de découper et de découper.
 
 Notez que [!DNL Target] collecte les données à cet égard à partir du moment où vous ajoutez ces audiences. Par conséquent, si vous manquez d’ajouter des segments avant d’exécuter le test, vous n’avez pas de chance.
 
@@ -477,7 +477,7 @@ Nous disposons également d’une solution pour cela, grâce à la [fonctionnali
 **Comment puis-je connaître le statut de disponibilité de [!DNL Target] ?**
 
 +++Afficher les détails
-Utilisez la page [Statut du système ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [Statut du système &#x200B;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 +++
 

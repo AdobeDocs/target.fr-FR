@@ -24,11 +24,11 @@ workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 52%
 ---
-# Définition de mesures dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
+# Définition de mesures dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
 
 Utilisez les mesures dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT) pour déterminer le moment où une visite est réussie.
 
-Pour plus d’informations sur les mesures de succès, voir [ Mesures de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Indiquez l’objectif de l’activité.
 1. Sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
@@ -37,7 +37,7 @@ Pour plus d’informations sur les mesures de succès, voir [ Mesures de succès
 
    La page [!UICONTROL Sélectionner des mesures] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 
-   * [!UICONTROL  Conversion ]
+   * [!UICONTROL &#x200B; Conversion &#x200B;]
    * [!UICONTROL Recettes]
    * [!UICONTROL Engagement]
 

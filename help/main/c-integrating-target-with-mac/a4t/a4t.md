@@ -54,7 +54,7 @@ Les trois principaux avantages offerts par l’utilisation des données d’[!DN
 
 Si vous utilisez [!DNL Analytics] comme source des rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur [!DNL Analytics].
 
-Toutes les mesures [!DNL Analytics], y compris les mesures calculées, sont disponibles dans [!DNL Target] et dans le rapport [!UICONTROL Activités Target] dans [!DNL Analytics], à une exception près. Les mesures calculées pour [!UICONTROL  Effet élévateur et degré de confiance ] ne sont pas prises en charge. De même, tout segment disponible dans [!DNL Analytics] peut être appliqué aux deux solutions. Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a débuté ou même une fois que celle-ci est terminée.
+Toutes les mesures [!DNL Analytics], y compris les mesures calculées, sont disponibles dans [!DNL Target] et dans le rapport [!UICONTROL Activités Target] dans [!DNL Analytics], à une exception près. Les mesures calculées pour [!UICONTROL &#x200B; Effet élévateur et degré de confiance &#x200B;] ne sont pas prises en charge. De même, tout segment disponible dans [!DNL Analytics] peut être appliqué aux deux solutions. Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a débuté ou même une fois que celle-ci est terminée.
 
 Chaque mesure est incluse, y compris toute mesure personnalisée ou calculée intégrée à [!DNL Analytics].
 
@@ -75,7 +75,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics f
 
 ## Implémenter A4T
 
-Pour plus d’informations sur l’implémentation d’A4T avec at.js et [!DNL Adobe Experience Platform Web SDK], consultez la page [Implémentation d’Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Pour plus d’informations sur l’implémentation d’A4T avec at.js et [!DNL Adobe Experience Platform Web SDK], consultez la page [Implémentation d’Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -149,7 +149,7 @@ Cette vidéo est un enregistrement de « [Office Hours](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* Implémentation d’[Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) : contient des informations d’implémentation pour at.js et le SDK Web Platform.
+>* Implémentation d’[Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) : contient des informations d’implémentation pour at.js et le SDK Web Platform.
 >* [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Qu’est-ce que SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) : contient des informations générales sur le SDK Web Platform.
 >* [Présentation de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr) : contient des informations spécifiques à [!DNL Target] et au [!DNL Platform Web SDK].

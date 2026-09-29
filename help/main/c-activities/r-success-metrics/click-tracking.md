@@ -61,8 +61,8 @@ Plusieurs actions peuvent être appliquées lorsque vous cliquez sur un élémen
 
 | Action | Description |
 | --- | --- |
-| [!UICONTROL  Actions suivies ] | Affiche l’action de l’élément. |
-| [!UICONTROL  Sélecteur CSS ] | Permet de modifier le sélecteur CSS. |
+| [!UICONTROL &#x200B; Actions suivies &#x200B;] | Affiche l’action de l’élément. |
+| [!UICONTROL &#x200B; Sélecteur CSS &#x200B;] | Permet de modifier le sélecteur CSS. |
 | [!DNL Delete] | Supprime l’élément. |
 
 ### Ajoute un élément

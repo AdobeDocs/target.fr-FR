@@ -1,7 +1,7 @@
 ---
 keywords: Tests multivariés;dépannage;dépannage;mvt
-description: Explorez les défis potentiels auxquels vous pourriez être confronté lors de l’utilisation des activités [!UICONTROL  Test multivarié ] (MVT) dans [!DNL Adobe Target], ainsi que les solutions suggérées.
-title: Comment résoudre les problèmes liés à un [!UICONTROL  test multivarié ] ?
+description: Explorez les défis potentiels auxquels vous pourriez être confronté lors de l’utilisation des activités [!UICONTROL &#x200B; Test multivarié &#x200B;] (MVT) dans [!DNL Adobe Target], ainsi que les solutions suggérées.
+title: Comment résoudre les problèmes liés à un [!UICONTROL &#x200B; test multivarié &#x200B;] ?
 feature: Multivariate Tests
 exl-id: 93bb8446-06af-4466-9824-7099c1080059
 TQID: 'https://experienceleague.adobe.com/O9lmC1PmICPCOxcMDYVcSdpRoM-bqwKR-79deFIG2mg'

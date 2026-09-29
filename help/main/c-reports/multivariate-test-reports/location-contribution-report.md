@@ -21,23 +21,23 @@ workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 35%
 ---
-# Rapport [!UICONTROL  Contribution des emplacements ] (MVT)
+# Rapport [!UICONTROL &#x200B; Contribution des emplacements &#x200B;] (MVT)
 
-Le rapport [!UICONTROL  Contribution de l’emplacement ] présente les performances de chaque élément et de chaque offre.
+Le rapport [!UICONTROL &#x200B; Contribution de l’emplacement &#x200B;] présente les performances de chaque élément et de chaque offre.
 
 La partie supérieure du rapport présente la mesure, les dates de début et de fin et l’audience utilisées dans le rapport. Vous pouvez modifier n’importe lequel de ces facteurs.
 
 >[!NOTE]
 >
->Gardez à l’esprit les informations suivantes lorsque vous utilisez le rapport [!UICONTROL  Contribution de l’emplacement ] :
+>Gardez à l’esprit les informations suivantes lorsque vous utilisez le rapport [!UICONTROL &#x200B; Contribution de l’emplacement &#x200B;] :
 >
 >* Les sélecteurs d’audience et de mesures ne sont disponibles que si [!DNL Analytics] est utilisé comme source de création de rapports (A4T).
 >
 >* Les données du rapport [!UICONTROL Contribution de l’emplacement] sont récupérées à partir du serveur principal [!DNL Target], même si l’activité est configurée pour utiliser [!UICONTROL Analytics comme source de création de rapports] (A4T).
 >
->* Les données du rapport [!UICONTROL  Contribution de l’emplacement ] sont récupérées pour l’environnement de « production », même si un autre environnement par défaut est défini au niveau du compte [!DNL Target].
+>* Les données du rapport [!UICONTROL &#x200B; Contribution de l’emplacement &#x200B;] sont récupérées pour l’environnement de « production », même si un autre environnement par défaut est défini au niveau du compte [!DNL Target].
 
-Le rapport [!UICONTROL  Contribution de l’emplacement ] comprend deux tableaux.
+Le rapport [!UICONTROL &#x200B; Contribution de l’emplacement &#x200B;] comprend deux tableaux.
 
 Le premier tableau présente l’influence relative de chaque élément. Ce tableau indique les éléments pour lesquels vous avez ajouté des offres qui génèrent le plus de conversions.
 

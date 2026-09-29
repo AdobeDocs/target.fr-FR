@@ -142,7 +142,7 @@ Effectuez l’une des opérations suivantes :
 
 **Remarque :** plusieurs appels de [!DNL Target] ajax avec le même nom mais avec des paramètres différents ne fonctionnent pas sur la même page. Seul le premier appel est effectué.
 
-## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais son statut affiche [!UICONTROL  Inactive ] dans l’interface utilisateur de [!DNL Target].
+## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais son statut affiche [!UICONTROL &#x200B; Inactive &#x200B;] dans l’interface utilisateur de [!DNL Target].
 
 Lorsque vous effectuez certaines actions, telles que l’activation d’une activité en dehors de l’interface utilisateur à l’aide de l’API [!DNL Target], la mise à jour peut prendre jusqu’à dix minutes pour se propager vers l’interface utilisateur.
 

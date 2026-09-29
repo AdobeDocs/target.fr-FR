@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Gestion des utilisateurs et des produits Exper
 
 Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à cette suite de rapports et accorder l’accès au groupe de [!DNL Web Services Access] .
 
-1. Dans ****, cliquez sur un profil de produit [!DNL Analytics], puis sur l&#39;onglet **[!UICONTROL Autorisations]**.
+1. Dans **&#x200B;**, cliquez sur un profil de produit [!DNL Analytics], puis sur l&#39;onglet **[!UICONTROL Autorisations]**.
 
    Vous pouvez ensuite voir à quelles suites de rapports le profil a accès.
 
@@ -66,7 +66,7 @@ Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à 
 
    L’illustration suivante est un exemple de profil de produit qui a accès à toutes les suites de rapports :
 
-   ![Onglet Autorisations ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Onglet Autorisations &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configurez l’accès au groupe [!UICONTROL Accès aux services web].
 

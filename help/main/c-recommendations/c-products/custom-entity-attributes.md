@@ -138,7 +138,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Consultez la [documentation de l’API ](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur l’utilisation des API Delivery et Save entities.
+Consultez la [documentation de l’API &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour plus d’informations sur l’utilisation des API Delivery et Save entities.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 

@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;offres;cible;audience;règles de ciblage;ciblage
-description: Découvrez comment cibler des offres individuelles sur des audiences spécifiques à l’aide d’activités [!UICONTROL ] (AP).
-title: Comment Cibler Les Offres [!UICONTROL ] ?
+description: Découvrez comment cibler des offres individuelles sur des audiences spécifiques à l’aide d’activités  (AP).
+title: Comment Cibler Les Offres  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -30,7 +30,7 @@ workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 18%
 ---
-# Cibler [!UICONTROL les offres ]
+# Cibler [!UICONTROL les offres &#x200B;]
 
 Dans une activité [!DNL Adobe Target] [!DNL Automated Personalization] (AP), vous pouvez cibler des offres vers des audiences spécifiques.
 
@@ -47,7 +47,7 @@ Dans ce scénario, le visiteur 1 voit l’offre 1 (car ce visiteur se qualifie c
 
 ## Paramétrage des règles de ciblage
 
-1. Créez ou modifiez une activité [](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenant les offres que vous souhaitez cibler.
+1. Créez ou modifiez une activité [&#128279;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) contenant les offres que vous souhaitez cibler.
 1. Une fois les offres de l’activité configurées dans le [!UICONTROL compositeur d’expérience visuelle], cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
 
    La boîte de dialogue [!UICONTROL Gérer le contenu] s’affiche.

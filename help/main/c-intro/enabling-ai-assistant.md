@@ -1,6 +1,6 @@
 ---
 keywords: assistant ia;assistant intelligence artificielle
-description: Découvrez comment activer le [!DNL AI Assistant] dans [!DNL  Adobe Target].
+description: Découvrez comment activer le [!DNL AI Assistant] dans [!DNL &#x200B; Adobe Target].
 title: Comment activer le [!DNL AI Assistant] dans [!DNL Target] ?
 feature: Overview
 exl-id: 6897059c-65e2-4e21-b4b5-bef0a04fa6b6
@@ -49,7 +49,7 @@ Pour utiliser la fonctionnalité [!UICONTROL Assistant IA] dans [!UICONTROL Targ
 
    Un pop-up d’autorisations s’affiche.
 
-   ![ Paramètres de l’assistant AI ](/help/main/c-intro/assets/ai-pop-up2.png)
+   ![&#x200B; Paramètres de l’assistant AI &#x200B;](/help/main/c-intro/assets/ai-pop-up2.png)
 
 1. Utilisez le bouton pour activer ou désactiver l’autorisation **[!UICONTROL Assistant d’IA dédiée à Target]** pour cet utilisateur.
 

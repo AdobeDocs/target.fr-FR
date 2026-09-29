@@ -54,7 +54,7 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 **Remarque :** Cette option n’est pas disponible pour les éléments avec des images d’arrière-plan.
 
-### [!UICONTROL  Styles ] {#styles}
+### [!UICONTROL &#x200B; Styles &#x200B;] {#styles}
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
@@ -98,11 +98,11 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   * [!UICONTROL Taille de police]
   * [!UICONTROL Épaisseur de la police]
-  * [!UICONTROL  Style de police ]
+  * [!UICONTROL &#x200B; Style de police &#x200B;]
   * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
-  * [!UICONTROL  Espacement des mots ]
+  * [!UICONTROL &#x200B; Espacement des mots &#x200B;]
   * [!UICONTROL Hauteur de la ligne]
-  * [!UICONTROL  Alignement du texte ]
+  * [!UICONTROL &#x200B; Alignement du texte &#x200B;]
 
 * **[!UICONTROL Marge]**
 
@@ -135,7 +135,7 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, tiret, plein ou double)
   * [!UICONTROL Couleur de bordure] (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-  * [!UICONTROL  Largeur de la bordure ] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
+  * [!UICONTROL &#x200B; Largeur de la bordure &#x200B;] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
 
   La bordure prend en charge les échelles de largeur à partir de 0.
 
@@ -176,13 +176,13 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
   Faites glisser le curseur pour chaque option de filtre ou indiquez le pourcentage souhaité :
 
   * [!UICONTROL Sépia]
-  * [!UICONTROL  Contraste ]
-  * [!UICONTROL  Luminosité ]
+  * [!UICONTROL &#x200B; Contraste &#x200B;]
+  * [!UICONTROL &#x200B; Luminosité &#x200B;]
   * [!UICONTROL Niveaux de gris]
-  * [!UICONTROL Flou ]
-  * [!UICONTROL  Opacité ]
+  * [!UICONTROL Flou &#x200B;]
+  * [!UICONTROL &#x200B; Opacité &#x200B;]
   * [!UICONTROL Inverser]
-    *[!UICONTROL  Teinte-rotation]
+    *[!UICONTROL &#x200B; Teinte-rotation]
   * [!UICONTROL Saturation]
 
 * **[!UICONTROL Éditeur CSS]**
@@ -243,7 +243,7 @@ Le comportement de l’élément inséré dépend de la structure de votre page,
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL  Fragment d’expérience ]
+### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -275,7 +275,7 @@ Le comportement de l’élément inséré dépend de la structure de votre page,
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL  Fragment d’expérience ]
+### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -309,7 +309,7 @@ La fonction Recommandations prend en charge le remplacement par des balises DIV,
 
 **Remarque :** La permutation d’images requiert un compte Adobe Scene7 Publishing System.
 
-### [!UICONTROL Offre ]
+### [!UICONTROL Offre &#x200B;]
 
 Sélectionnez une autre offre dans la [!UICONTROL Bibliothèque de contenu].
 
@@ -321,7 +321,7 @@ Une offre HTML peut atteindre 256 Ko.
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL  Fragment d’expérience ]
+### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -343,7 +343,7 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 **Remarque :** Il n’est pas possible de redimensionner les éléments insérés.
 
-### [!UICONTROL  Déplacer ] {#move}
+### [!UICONTROL &#x200B; Déplacer &#x200B;] {#move}
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : prise en charge pour s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 

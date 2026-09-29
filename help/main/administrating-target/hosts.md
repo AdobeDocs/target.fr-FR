@@ -119,9 +119,9 @@ Si une requête [!DNL Target] est effectuée sur un hôte non autorisé, l’app
 
 Il arrive parfois que les domaines d’autres sites s’affichent dans vos environnements. Un domaine apparaît dans la liste si le domaine appelle at.js. Si, par exemple, un utilisateur copie l’une de vos pages web sur son serveur, ce domaine est répertorié dans votre environnement. Les domaines de robots, sites de traduction ou disques durs locaux peuvent également s’afficher.
 
-Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. Si aucun environnement n’est transmis, l’hôte de l’appel est défini par défaut sur [!UICONTROL  Production ].
+Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. Si aucun environnement n’est transmis, l’hôte de l’appel est défini par défaut sur [!UICONTROL &#x200B; Production &#x200B;].
 
-Vous pouvez également créer une qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer de requêtes [!DNL Target] à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL  L’hôte ne contient pas ].
+Vous pouvez également créer une qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer de requêtes [!DNL Target] à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL &#x200B; L’hôte ne contient pas &#x200B;].
 
 >[!NOTE]
 >

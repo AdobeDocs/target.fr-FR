@@ -30,7 +30,7 @@ ht-degree: 24%
 
 Utilisez des offres distantes pour héberger du contenu en dehors de [!DNL Adobe Target], ce qui [!DNL Target] permet de référencer et de diffuser ce contenu sur les sites web des utilisateurs et utilisatrices. Ce contenu peut se trouver dans un système de gestion de contenu (CMS) ou un autre système pour des raisons de facilité d’utilisation ou de sécurité.
 
-Les offres distantes peuvent être créées sur la page [!UICONTROL Offres] > [!UICONTROL Offres de code] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
+Les offres distantes peuvent être créées sur la page [!UICONTROL Offres] > [!UICONTROL Offres de code] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). Le contenu est injecté dans les emplacements de requête [!DNL Target]. Ces emplacements ne sont donc probablement pas appropriés pour une requête de [!DNL Target] globale.
 
 Voici quelques exemples d’offres distantes :
 
@@ -76,7 +76,7 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
    Un nom explicite permet, à vous et aux autres personnes, de trouver rapidement l’offre dans la bibliothèque [!UICONTROL Offres].
 
-1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [&#128279;](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez le type d’URL de redirection.
 
@@ -97,7 +97,7 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
    Un nom explicite aide les utilisateurs et vous-même à trouver rapidement l’offre dans la bibliothèque [!UICONTROL Ressources].
 
-1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
+1. (Conditionnel) Si vous disposez d’un compte [&#128279;](/help/main/c-intro/intro.md#premium), sélectionnez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC).
 
 1. Spécifiez le type d’URL de redirection.
 

@@ -28,7 +28,7 @@ Créez des dossiers dans la bibliothèque [!DNL Adobe Target] [!UICONTROL Offre]
 
 Le processus de création de dossiers pour les offres de code et les offres d’image diffère légèrement. Pour plus d’informations, reportez-vous aux sections suivantes.
 
-## Dossiers [!UICONTROL  Code Offer ]
+## Dossiers [!UICONTROL &#x200B; Code Offer &#x200B;]
 
 1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]**.
 
@@ -36,11 +36,11 @@ Le processus de création de dossiers pour les offres de code et les offres d’
 
 1. Attribuez un nom explicite au dossier.
 
-1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium) et que vous utilisez [espaces de travail](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), sélectionnez un espace de travail.
+1. (Conditionnel) Si vous disposez d’un compte [&#128279;](/help/main/c-intro/intro.md#premium) et que vous utilisez [espaces de travail](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), sélectionnez un espace de travail.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## Dossiers [!UICONTROL Offre d’image]
 
@@ -64,4 +64,4 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 >
 >Les offres d’image ne font pas partie du modèle [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).

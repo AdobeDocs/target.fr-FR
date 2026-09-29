@@ -54,11 +54,11 @@ Sélectionnez l’organisation souhaitée dans la liste déroulante [!UICONTROL 
 
 ![Liste déroulante Organisation](/help/main/c-intro/assets/organizations.png)
 
-### [!UICONTROL Commentaires ]
+### [!UICONTROL Commentaires &#x200B;]
 
 (Sous condition) Si vous faites partie d’un programme [!DNL Target] Beta officiel, l’icône [!UICONTROL Beta Feedback] s’affichera peut-être.
 
-![Icône Commentaires ](/help/main/c-intro/assets/beta-feedback.png)
+![Icône Commentaires &#x200B;](/help/main/c-intro/assets/beta-feedback.png)
 
 Fournissez une description pour vos commentaires, incluez les fichiers ou les captures d’écran applicables et tout autre détail supplémentaire, si nécessaire, puis cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -66,7 +66,7 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 (Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
@@ -134,16 +134,16 @@ Vous pouvez également définir un rappel pour recevoir une nouvelle notificatio
 
 Les annonces proactives vous avertissent des événements de panne et de maintenance.
 
-Vous trouverez des informations plus détaillées sur la page [](https://status.adobe.com/fr).
+Vous trouverez des informations plus détaillées sur la page [&#128279;](https://status.adobe.com/fr).
 
 ### Configuration des notifications et des annonces
 
 Pour modifier vos préférences de notifications :
 
-1. Cliquez sur l’icône [!UICONTROL  Modifier les préférences ] ( ![icône Modifier les préférences](/help/main/assets/icons/Setting.svg) ), puis sur **[!UICONTROL Notifications]** dans le rail de gauche.
+1. Cliquez sur l’icône [!UICONTROL &#x200B; Modifier les préférences &#x200B;] ( ![icône Modifier les préférences](/help/main/assets/icons/Setting.svg) ), puis sur **[!UICONTROL Notifications]** dans le rail de gauche.
 1. Sous **[!UICONTROL Target]**, sélectionnez le mode de notification souhaité :
 
-   * [!UICONTROL  In-app ]
+   * [!UICONTROL &#x200B; In-app &#x200B;]
    * [!UICONTROL Courriel]
    * [!DNL Slack]
 
@@ -160,7 +160,7 @@ Pour modifier vos préférences de notifications :
 1. Sélectionnez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification :
 
    * [!UICONTROL Ne pas envoyer d’e-mails]
-   * [!UICONTROL Notifications instantanées ]
+   * [!UICONTROL Notifications instantanées &#x200B;]
    * [!UICONTROL Envoi quotidien]
    * [!UICONTROL Envoi hebdomadaire]
 
@@ -216,7 +216,7 @@ Consultez [Recommendations](/help/main/c-recommendations/recommendations.md) pou
 
 ## Administration
 
-Cliquez sur l’onglet **[!UICONTROL Administration]** pour accéder aux pages [!UICONTROL  Administration ].
+Cliquez sur l’onglet **[!UICONTROL Administration]** pour accéder aux pages [!UICONTROL &#x200B; Administration &#x200B;].
 
 Les pages [!UICONTROL Administration] vous permettent d’administrer des [!DNL Target], y compris les paramètres de configuration du [!UICONTROL compositeur d’expérience visuelle] (VEC), les rapports, la configuration [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse, les utilisateurs et les recommandations.
 

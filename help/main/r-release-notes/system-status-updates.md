@@ -26,11 +26,11 @@ ht-degree: 70%
 ---
 # Mises à jour d’état du système et notifications proactives
 
-Utilisez la page [!UICONTROL Statut du système ] et des notifications proactives pour vous tenir au courant du statut des produits [!DNL Adobe] et des solutions [!DNL Adobe Experience Cloud]. Les notifications proactives vous alertent sur les événements panne et de maintenance.
+Utilisez la page [!UICONTROL Statut du système &#x200B;] et des notifications proactives pour vous tenir au courant du statut des produits [!DNL Adobe] et des solutions [!DNL Adobe Experience Cloud]. Les notifications proactives vous alertent sur les événements panne et de maintenance.
 
 ## Mises à jour d’état du système
 
-Utilisez la page [!UICONTROL État du système ] pour afficher l’état de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [!UICONTROL État du système &#x200B;] pour afficher l’état de [!DNL Target] et d’autres produits [!DNL Adobe] et solutions [!DNL Adobe Experience Cloud]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 >[!NOTE]
 >

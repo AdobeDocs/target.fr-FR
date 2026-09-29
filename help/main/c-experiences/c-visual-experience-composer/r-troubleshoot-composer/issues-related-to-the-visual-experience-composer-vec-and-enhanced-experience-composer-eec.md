@@ -101,7 +101,7 @@ Si les en-têtes CSP de votre site web bloquent les bibliothèques [!DNL Target]
 
 >[!NOTE]
 >
->En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
+>En plus des informations suivantes, vous pouvez utiliser l’extension de navigateur Assistant du compositeur d’expérience visuelle [&#128279;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) par [!DNL Google Chrome].
 
 ![image cps_headers](assets/cps_headers.png)
 

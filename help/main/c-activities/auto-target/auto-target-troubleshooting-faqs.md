@@ -1,6 +1,6 @@
 ---
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage;trafic
-description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL  ciblage automatique ].
+description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL &#x200B; ciblage automatique &#x200B;].
 title: Comment Résoudre Les Problèmes Liés Aux Activités De [!UICONTROL Ciblage Automatique] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
@@ -113,7 +113,7 @@ Le [!UICONTROL ciblage automatique] ne tente pas de créer un modèle personnali
 Quelques points supplémentaires à garder à l’esprit lors de la création du modèle de [!UICONTROL ciblage automatique] :
 
 * Une fois qu’une activité est active, le [!UICONTROL ciblage automatique] prend en compte les 45 derniers jours de données diffusées de manière aléatoire lors de la tentative de création de modèles. Par exemple, le trafic de contrôle, ainsi que certaines données supplémentaires diffusées de manière aléatoire et retenues par l’algorithme.
-* Lorsque [!UICONTROL  Revenu par visite ] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-revenu comparé au taux de conversion.
+* Lorsque [!UICONTROL &#x200B; Revenu par visite &#x200B;] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-revenu comparé au taux de conversion.
 * Comme les modèles sont créés sur la base de chaque expérience, le remplacement d’une expérience par une autre expérience signifie que vous devez collecter suffisamment de trafic (au moins 50 conversions) pour la nouvelle expérience avant de pouvoir recréer des modèles personnalisés.
 
 +++
@@ -125,7 +125,7 @@ Non, il doit exister au moins deux modèles créés au sein de votre activité p
 
 +++
 
-### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL  Ciblage automatique ] ?
+### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ?
 
 +++Réponse
 Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL ciblage automatique] dès qu’au moins deux expériences ont été créées à partir des modèles (coche verte) pour l’expérience sur laquelle les modèles sont créés.
@@ -143,7 +143,7 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 +++
 
-### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL  Ciblage automatique ] ? {#change-metric}
+### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ? {#change-metric}
 
 +++Réponse
 Adobe ne recommande pas de modifier la mesure d’objectif au cours d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. Adobe ne garantit pas ce qui se produit si vous modifiez la mesure d’objectif dans une activité après son exécution.

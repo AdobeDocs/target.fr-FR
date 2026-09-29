@@ -44,4 +44,4 @@ Pour plus d’informations, consultez les différentes rubriques sous [Implémen
 
 1. Pour accéder à la page [!UICONTROL Implémentation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
-1. Pour plus d’informations sur les paramètres de cette page, voir [ Implémentation de Target sans gestionnaire de balises ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+1. Pour plus d’informations sur les paramètres de cette page, voir [&#x200B; Implémentation de Target sans gestionnaire de balises &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.

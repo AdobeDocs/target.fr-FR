@@ -72,7 +72,7 @@ Les outils de développement doivent être affichés sur une page où l’activi
 
 1. À partir de la page sur laquelle vous créez votre activité, ouvrez les outils de développement du navigateur (dans Google Chrome, cliquez sur les trois ellipses verticales dans le coin supérieur droit > Plus d’outils > Outils de développement).
 
-   ![Outils de développement ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Outils de développement &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Réseau]**.
 

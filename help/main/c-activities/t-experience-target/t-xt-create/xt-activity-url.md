@@ -22,7 +22,7 @@ workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 35%
 ---
-# URL de l’activité dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
+# URL de l’activité dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
 
 L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL compositeur d’expérience d’après les formulaires] lors de la conception de l’activité.
 
