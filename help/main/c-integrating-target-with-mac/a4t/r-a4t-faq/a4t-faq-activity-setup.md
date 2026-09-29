@@ -1,23 +1,28 @@
 ---
 keywords: faq;questions fréquentes;analytics pour target;a4T;configuration des activités
-description: Trouvez des réponses aux questions sur la configuration des activités lors de l’utilisation d’Analytics for [!DNL Target] (A4T). A4T vous permet d’utiliser la création de rapports Analytics pour les activités  [!DNL Target] .
+description: Trouvez des réponses aux questions sur la configuration des activités lors de l’utilisation d’Analytics for [!DNL Target] (A4T). A4T vous permet d’utiliser la création de rapports Analytics pour les activités [!DNL Target].
 title: Où puis-je trouver des questions fréquentes sur les paramètres d’activité avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-TQID: https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8
+TQID: 'https://experienceleague.adobe.com/y4pSMxqYoXPMyrkG7ZW9XuJP-R2iVaH2OqhcXn02Vs8'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '643'
 ht-degree: 14%
-
 ---
-
 # FAQ sur le paramétrage des activités - A4T
 
 Cette rubrique contient les réponses aux questions fréquentes sur la configuration des activités et l’utilisation de [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T).

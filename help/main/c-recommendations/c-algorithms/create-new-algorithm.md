@@ -1,27 +1,36 @@
 ---
 keywords: critères;algorithme;secteur vertical;type de page;clé de recommandation;logique;plage de données;intervalle de recherche en amont;source de données de comportement;conception partielle;recommandations de sauvegarde;règles d’inclusion;pondération d’attribut;catégorie actuelle;attribut personnalisé;dernier élément acheté;dernier élément consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier élément consulté;dernier achat;le plus consulté;favori;récemment consulté
-description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités afin  [!DNL Recommendations] ’afficher les recommandations les plus appropriées pour votre activité.
-title: Comment créer des [!UICONTROL critères] dans  [!DNL Recommendations] ?
+description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités [!DNL Recommendations] afin d’afficher les recommandations les plus appropriées pour votre activité.
+title: Comment créer des [!UICONTROL critères] dans [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-TQID: https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM
+TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2984
+source-wordcount: '2985'
 ht-degree: 44%
-
 ---
-
 # Création de critères
 
 Les critères dans  [!UICONTROL Recommendations] contrôlent le contenu de vos activités [!UICONTROL Recommendations]. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité. Ces critères utilisent les actions du visiteur ou de la visiteuse pour déterminer le contenu ou les produits à afficher.
@@ -88,7 +97,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    | Type d’algorithme | Quand utiliser/algorithmes disponibles |
    | --- | --- |
    | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur. <ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté] </li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
-   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
+   | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Les plus consultés par attribut de profil]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
    | [!UICONTROL Basé sur un élément] | Faites des recommandations basées sur la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. <ul><li>[!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]</li><li>[!UICONTROL Les personnes qui ont consulté ceci ont acheté cela]</li><li>[!UICONTROL Les personnes qui ont acheté ceci ont acheté cela]</li><li>[!UICONTROL Éléments avec des attributs similaires]</li></ul> |
    | [!UICONTROL Basé sur l’utilisateur] | Faites des recommandations basées sur le comportement de l’utilisateur.<ul><li>[!UICONTROL Éléments récemment consultés]</li><li>[!UICONTROL Recommandé]</li></ul> |
    | [!UICONTROL Critères personnalisés] | Faites des recommandations basées sur un fichier personnalisé que vous téléchargez.<ul><li>Algorithme personnalisé</li></ul> |

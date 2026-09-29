@@ -1,17 +1,24 @@
 ---
 keywords: clé de recommandation;logique de recommandation;catégorie actuelle;attribut personnalisé;dernier article acheté;dernier article consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier article consulté;dernier achat;dernier consulté;le plus consulté;favori;récemment consulté
-description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement du visiteur pour afficher des résultats pertinents dans les activités  [!DNL Target] Recommendations.
+description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement du visiteur pour afficher des résultats pertinents dans les activités de recommandations de [!DNL Target] Adobe.
 title: Comment baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '4021'
-ht-degree: 32%
-
+source-wordcount: '4075'
+ht-degree: 31%
 ---
-
 # Baser la recommandation sur une clé de recommandation
 
 Les recommandations basées sur des algorithmes utilisent le contexte de comportement des visiteurs pour afficher des résultats pertinents dans [!DNL Adobe Target] activités [!DNL Recommendations].

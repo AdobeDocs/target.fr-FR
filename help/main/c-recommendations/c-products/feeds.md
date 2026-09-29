@@ -1,25 +1,32 @@
 ---
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
-description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format  [!DNL Google Product Search]  flux et  [!DNL Analytics]  classifications de produits.
-title: Comment utiliser [!UICONTROL Flux] dans  [!DNL Target Recommendations] ?
+description: Découvrez comment les flux importent des entités dans [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Analytics].
+title: Comment utiliser [!UICONTROL Flux] dans [!DNL Target Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-TQID: https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go
+TQID: 'https://experienceleague.adobe.com/lXXX8XEXGtt1DDMI63Ck4AbCGDjzkxs60oW2nEnc0Go'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2725
+source-wordcount: '2734'
 ht-degree: 36%
-
 ---
-
 # Flux
 
 Utilisez des flux pour importer des entités dans [!DNL Adobe Target] [!DNL Recommendations]. Les entités peuvent être envoyées à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Adobe Analytics].
@@ -39,7 +46,7 @@ Ces éléments de données sur chaque élément peuvent ensuite être utilisés 
 * Trier les éléments dans différentes collections
 * Appliquer des exclusions aux recommandations
 
-Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si [!DNL Target] collecte des données à l’aide d’un flux d’entités et d’une mbox, les données les plus récentes l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
+Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si [!DNL Target] collecte des données à l’aide d’un flux d’entités et d’une mbox, les données les plus récentes l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans le cas rare où les données du flux d’entités et les données mbox arrivent en même temps, les données mbox sont utilisées.
 
 La liste [!UICONTROL Flux] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
@@ -252,10 +259,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
      Paramètres du serveur FTP pris en charge :
 
-      * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
-      * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
-      * SFTP n’est pas pris en charge.
-      * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
+     * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
+     * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
+     * SFTP n’est pas pris en charge.
+     * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
 
    * **URL** : si vous sélectionnez [!UICONTROL URL], spécifiez l’URL.
 
@@ -331,15 +338,15 @@ Prenons les exemples suivants :
 
 **Exemple 1 :**
 
-* Premier jour : processus quotidiens d&#39;alimentation à 9 :00 HNP.
-* Jour deux : il est 15 :30 et le flux n&#39;a pas fonctionné depuis hier à 9:00h.
+* Premier jour : processus quotidiens d’alimentation à 9 h (heure du Pacifique).
+* 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
 **Exemple 2 :**
 
-* 1er janvier : processus mensuels d&#39;alimentation à 9 :00 HNP.
-* 3 février : il est 10:00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
+* 1er janvier : processus mensuels d&#39;alimentation à 9 h (heure du Pacifique)
+* 3 février : il est 10h00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ un jour et une heure. Même si cela représente seulement (31+(1/25))/30 = 1,03 % du paramètre de fréquence, le délai d’un jour maximum a été dépassé.
 

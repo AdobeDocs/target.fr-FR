@@ -1,23 +1,31 @@
 ---
 keywords: AB;A/B;AB...n;erreurs;écueils;erreur;écueil;pertinence;gagnant;différence statistique;statistique;puissance statistique;affectation du trafic;affectation;
-description: Découvrez comment éviter les écueils et les erreurs les plus courants que font les entreprises lors de l’exécution de tests A/B dans [!DNL Adobe Target] et d’autres solutions de test.
+description: Découvrez comment éviter les écueils et les erreurs les plus courants que font les entreprises lors de l’exécution de tests A/B dans [!DNL Adobe Target] et d’autres solutions de test.
 title: Comment éviter les erreurs courantes des tests A/B ?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-TQID: https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ
+TQID: 'https://experienceleague.adobe.com/w5ICZthuuhm1Czd2-xKv6Ud4CZR9rhSKNPCBgchB-QQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3983
-ht-degree: 100%
-
+source-wordcount: '3984'
+ht-degree: 99%
 ---
-
 # Dix écueils courants des tests A/B et comment les éviter
 
 Les tests A/B dans [!DNL Adobe Target] constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing digital. Ils permettent aux spécialistes marketing de proposer à leur clientèle et aux visiteurs et visiteuses des contenus optimisés et ciblés. Cet article décrit dix des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.

@@ -1,26 +1,35 @@
 ---
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
-description: Commençons par votre première activité dans Adobe  [!DNL Target]  afin d’obtenir un retour sur investissement.
+description: Commençons par votre première activité dans Adobe [!DNL Target] afin que vous puissiez obtenir un retour sur investissement.
 title: Je dois créer ma première activité dans Target. Par où commencer ?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-TQID: https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M
+TQID: 'https://experienceleague.adobe.com/q9wWzcT6SV-CjcPBnxGmf4Nqwh8hIFBclxBo5O8nQ-M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1742
-ht-degree: 70%
-
+source-wordcount: '1743'
+ht-degree: 69%
 ---
-
 # Chapitre 7 : Création et exécution de votre première activité [!DNL Target]
 
 Vous êtes donc prêt à commencer votre première activité en [!DNL Target] ? Excellent. Commençons par imaginer une activité pour votre site web, site mobile ou application mobile qui ne soit pas trop complexe, mais qui puisse vous offrir un RSI rapide, pour vous donner un avant-goût du potentiel de [!DNL Target] à tester et à personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.

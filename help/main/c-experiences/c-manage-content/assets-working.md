@@ -4,19 +4,26 @@ description: Organisation et optimisation de vos offres de code et d’image dan
 title: Explorer la gestion de contenu dans la bibliothèque [!UICONTROL Offres]
 feature: Experiences and Offers
 exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
-TQID: https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko
+TQID: 'https://experienceleague.adobe.com/xETbt9jN1zca-gyeKLFVxPvcYEQVBJn-N1zoimiDJko'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 11%
-
 ---
-
 # Utilisation du contenu de la bibliothèque [!UICONTROL Ressources]
 
 Découvrez les tâches que vous pouvez effectuer sur les ressources dans la [!UICONTROL bibliothèque de contenu Adobe Target]. Les tâches incluent l’annotation, la copie, la suppression, le téléchargement, la modification, le partage et l’affichage des propriétés.
@@ -50,21 +57,21 @@ Lors de l’affichage de la page [!UICONTROL Offres d’image], vous pouvez effe
 
 * **Dossiers** : sélectionnez un ou plusieurs dossiers sur lesquels effectuer les actions suivantes :
 
-   * Télécharger : téléchargez le dossier et son contenu.
-   * Copier : permet de copier le dossier et son contenu.
-   * Déplacer : cliquez sur l’icône **[!UICONTROL Déplacer]**, conservez le même nom pour le dossier ou renommez-le ; cliquez sur **[!UICONTROL Sélectionner la destination]** pour sélectionner l’emplacement vers lequel vous souhaitez déplacer le dossier, puis cliquez sur **[!UICONTROL Déplacer]**.
-   * Supprimer (voir [Remarques concernant la suppression d’éléments](#delete)).
+  * Télécharger : téléchargez le dossier et son contenu.
+  * Copier : permet de copier le dossier et son contenu.
+  * Déplacer : cliquez sur l’icône **[!UICONTROL Déplacer]**, conservez le même nom pour le dossier ou renommez-le ; cliquez sur **[!UICONTROL Sélectionner la destination]** pour sélectionner l’emplacement vers lequel vous souhaitez déplacer le dossier, puis cliquez sur **[!UICONTROL Déplacer]**.
+  * Supprimer (voir [Remarques concernant la suppression d’éléments](#delete)).
 
 * **Offres** : sélectionnez une ou plusieurs offres d’image sur lesquelles effectuer les actions suivantes :
 
-   * [!UICONTROL Partager] : partagez l’offre d’image avec des personnes ou des groupes de votre entreprise.
-   * [!UICONTROL Télécharger] : téléchargez l’offre d’image ou le dossier et son contenu.
-   * [!UICONTROL Afficher les propriétés] : affichez les propriétés de l’élément. Veillez à cliquer sur les onglets [!UICONTROL De base] et [!UICONTROL Avancé] pour afficher toutes les informations disponibles. Vous pouvez modifier les propriétés et ajouter plus d’informations. telles que des informations de métadonnées, l’état de publication et les données de licence.
-   * [!UICONTROL Modifier] : modifiez le dossier ou l’offre.
-   * [!UICONTROL Annoter] : ajoutez une note à la ressource. Cliquez sur la ressource, sélectionnez la zone à annoter, puis entrez votre note.
-   * [!UICONTROL Copier] : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
-   * [!UICONTROL Déplacer] : cliquez sur l&#39;icône [!UICONTROL Déplacer], accédez à l&#39;emplacement où vous souhaitez déplacer l&#39;offre ou le dossier, puis cliquez sur **[!UICONTROL Déplacer]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
-   * [!UICONTROL Supprimer] : supprimez l’offre. Pour plus d’informations[&#128279;](#delete) consultez la section  Remarques concernant la suppression d’éléments ci-dessous.
+  * [!UICONTROL Partager] : partagez l’offre d’image avec des personnes ou des groupes de votre entreprise.
+  * [!UICONTROL Télécharger] : téléchargez l’offre d’image ou le dossier et son contenu.
+  * [!UICONTROL Afficher les propriétés] : affichez les propriétés de l’élément. Veillez à cliquer sur les onglets [!UICONTROL De base] et [!UICONTROL Avancé] pour afficher toutes les informations disponibles. Vous pouvez modifier les propriétés et ajouter plus d’informations. telles que des informations de métadonnées, l’état de publication et les données de licence.
+  * [!UICONTROL Modifier] : modifiez le dossier ou l’offre.
+  * [!UICONTROL Annoter] : ajoutez une note à la ressource. Cliquez sur la ressource, sélectionnez la zone à annoter, puis entrez votre note.
+  * [!UICONTROL Copier] : copiez l’offre. La copie et la modification de l’offre permettent de créer facilement une offre similaire.
+  * [!UICONTROL Déplacer] : cliquez sur l&#39;icône [!UICONTROL Déplacer], accédez à l&#39;emplacement où vous souhaitez déplacer l&#39;offre ou le dossier, puis cliquez sur **[!UICONTROL Déplacer]**. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers.
+  * [!UICONTROL Supprimer] : supprimez l’offre. Pour plus d’informations[&#128279;](#delete) consultez la section  Remarques concernant la suppression d’éléments ci-dessous.
 
 ## Remarques concernant la suppression d’éléments {#delete}
 

@@ -4,18 +4,24 @@ description: Découvrez comment rechercher des offres de code et d’image dans 
 title: Comment rechercher du contenu dans la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-TQID: https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw
+TQID: 'https://experienceleague.adobe.com/xtTQAyp8W-kfGyICiennKS-122Ltte2bZr-i0o7nkYw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: '281'
 ht-degree: 0%
-
 ---
-
 # Recherche et filtrage de contenu
 
 Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target].
@@ -41,10 +47,10 @@ Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offre
    Vous pouvez filtrer par :
 
    * **[!UICONTROL Type de fichier]** :
-      * [!UICONTROL Images]
-      * [!UICONTROL Documents]
-      * [!UICONTROL Multimédia]
-      * [!UICONTROL Archives]
+     * [!UICONTROL Images]
+     * [!UICONTROL Documents]
+     * [!UICONTROL Multimédia]
+     * [!UICONTROL Archives]
    * **[!UICONTROL Taille du fichier]** : utilisez le curseur pour sélectionner la taille de fichier souhaitée : [!UICONTROL La plus petite], [!UICONTROL Petite], [!UICONTROL Medium], [!UICONTROL Grande] ou [!UICONTROL La plus grande].
    * **[!UICONTROL Dernière modification]** : utilisez le curseur pour sélectionner la période : [!UICONTROL Récent], [!UICONTROL Heure], [!UICONTROL Jour], [!UICONTROL Semaine], [!UICONTROL Mois], [!UICONTROL Année] ou [!UICONTROL All Assets].
    * **[!UICONTROL Statut d’approbation]** : [!UICONTROL Approuvé] ou [!UICONTROL Rejeté]

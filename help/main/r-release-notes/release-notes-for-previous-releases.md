@@ -4,48 +4,80 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-TQID: https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw
+TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
+  - id: c5abb976-5170-45d6-bcac-66d15d10a4d4
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+    internal-label: Content and assets
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: df2b7986e9c1371a0aa570b0429f4adec0890eb5
+    internal-label: Customer profiles
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 72534
+source-wordcount: '72534'
 ht-degree: 48%
-
 ---
-
 # Notes de mise à jour pour les versions antérieures
 
 Notes de mise à jour pour les versions antérieures dʼ[!DNL Adobe Target], comprenant des notes de mise à jour de [!DNL Target Standard/Premium], la plateforme [!DNL Target] et la bibliothèque JavaScript [!DNL Target] (at.js).
@@ -4927,7 +4959,7 @@ Dans cette version de [!DNL Target], des correctifs ont été apportés au serve
    <td colname="col2"> <p> <span class="filepath"> at.js</span> version 0.9.6 est désormais disponible. Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local">Téléchargement d’at.js</a>. </p> <p>Les améliorations et corrections suivantes sont incluses dans la version 0.9.6 d’<span class="filepath">at.js</span> : </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Prise en charge de l’offre de redirection pour A4T. Après avoir téléchargé et installé la version 0.9.6 d’<span class="filepath">at.js</span>, vous pouvez utiliser les offres de redirection dans les activités qui utilisent <span class="keyword">Adobe Analytics</span> comme source de création de rapports pour <span class="keyword">Target</span> (A4T). Outre la version 0.9.6 d’<span class="filepath">at.js</span>, d’autres exigences doivent être respectées pour pouvoir utiliser les offres de redirection et A4T dans la mise en œuvre. Pour en savoir plus et obtenir d’autres informations importantes, voir <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">FAQ sur les offres de redirection (A4T)</a>. </p> </li> 
-      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Avant la version 0.9.6 d’<span class="filepath">at.js</span>, lorsque l’API visiteur était présente sur la page et que le paramètre <span class="codeph">visitorApiTimeout</span> était trop agressif, Target ne pouvait pas s’exécuter quand aucune donnée ECID n’était envoyée dans la demande <span class="keyword">Target</span>. Il pouvait en résulter certains problèmes, par exemple des accès désassemblés dans <span class="keyword">Analytics</span> lors de l’utilisation d’A4T. </p> <p>Ce comportement a été modifié dans <span class="filepath">at.js</span> 0.9.6 : même si <span class="codeph">visitorApiTimeout</span> est défini à 1 ms, par exemple, Target tente de collecter le SDID, les données des serveurs de suivi et les identifiants client et les envoie dans la demande Target. </p> </li> 
+      <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>Avant la version 0.9.6 d’<span class="filepath">at.js</span>, lorsque l’API visiteur était présente sur la page et que le paramètre <span class="codeph">visitorApiTimeout</span> était trop agressif, Target ne pouvait pas s’exécuter quand aucune donnée ECID n’était envoyée dans la demande <span class="keyword">Target</span>. Il pouvait en résulter certains problèmes, par exemple des hits désassemblés dans <span class="keyword">Analytics</span> lors de l’utilisation d’A4T. </p> <p>Ce comportement a été modifié dans <span class="filepath">at.js</span> 0.9.6 : même si <span class="codeph">visitorApiTimeout</span> est défini à 1 ms, par exemple, Target tente de collecter le SDID, les données des serveurs de suivi et les identifiants client et les envoie dans la demande Target. </p> </li> 
       <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p>Ajout du paramètre <span class="codeph">selectorsPollingTimeout</span>. Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p>Le format de la réponse de <span class="codeph">getOffer()</span> a été modifié. Pour plus d’informations, voir <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local">adobe.target.getOffer(options).</a> </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>Ajout de la journalisation de la console pour les déclarations <span class="codeph">&lt;!DOCTYPE&gt;</span> non prises en charge. </p> </li> 
@@ -6080,7 +6112,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Automated Personalization : suivi des mesures après l’atteinte de l’objectif </td> 
-   <td colname="col2"> <p> Antérieurement, Target redémarrait une expérience lorsque le visiteur atteignait l’objectif de modélisation. Désormais, les visiteurs peuvent être maintenus dans l’activité à des fins de suivi après avoir atteint l’objectif de modélisation. </p> <p> Par exemple, souvent, une activité d’Automated Personalization est utilisée pour améliorer les taux de clics et elle est définie comme l’objectif de modélisation. Néanmoins, il est important de voir dans quelle mesure l’augmentation des taux de clics mène à une conversion finale. De ce fait, le suivi par l’intermédiaire de la conversion finale est essentiel. </p> Voir <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
+   <td colname="col2"> <p> Auparavant, Target redémarrait une expérience lorsque le visiteur atteignait l’objectif de modélisation. Désormais, les visiteurs peuvent être maintenus dans l’activité à des fins de suivi après avoir atteint l’objectif de modélisation. </p> <p> Par exemple, souvent, une activité d’Automated Personalization est utilisée pour améliorer les taux de clics et elle est définie comme l’objectif de modélisation. Néanmoins, il est important de voir dans quelle mesure l’augmentation des taux de clics mène à une conversion finale. De ce fait, le suivi par l’intermédiaire de la conversion finale est essentiel. </p> Voir <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a>. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,26 +1,32 @@
 ---
 keywords: assurance qualité;côté serveur;côté serveur;aperçu;liens d’aperçu
-description: Découvrez comment utiliser les URL  [!DNL Target] QA avec diffusion côté serveur pour exécuter facilement un contrôle qualité d’activité de bout en bout avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+description: Découvrez comment utiliser les URL d’assurance qualité Adobe [!DNL Target] avec diffusion côté serveur pour exécuter facilement une assurance qualité de bout en bout des activités, avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Utiliser Puis-je effectuer un contrôle qualité d’activité avec la diffusion côté serveur ?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
-TQID: https://experienceleague.adobe.com/zZJmFqpXtAigTiEWMZhRqXBJqvG3ANLussSPE3-NoDA
+TQID: 'https://experienceleague.adobe.com/zZJmFqpXtAigTiEWMZhRqXBJqvG3ANLussSPE3-NoDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '409'
 ht-degree: 47%
-
 ---
-
 # Utilisation de l’AQ d’activité avec diffusion côté serveur
 
 Utilisez les URL d’assurance qualité avec diffusion côté serveur dans [!DNL Adobe Target] pour exécuter facilement une assurance qualité de bout en bout de l’activité, avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité actives.
@@ -68,7 +74,7 @@ Le tableau suivant décrit les détails d’une requête côté serveur :
 
 | Paramètre | Type | Valeur par défaut | Description |
 |--- |--- |--- |--- |
-| token | Jeton chiffré | Aucun.<br>Il ne peut pas être vide. | Une entité chiffrée qui contient la liste des identifiants d’activité qui peuvent être exécutés dans les règles d’AQ d’activité.<br>Validation : doit être un jeton chiffré appartenant au client spécifié dans la requête de [!DNL Target]. L’ensemble des activités spécifiées dans le jeton doit appartenir au client. |
+| jeton | Jeton chiffré | Aucun.<br>Il ne peut pas être vide. | Une entité chiffrée qui contient la liste des identifiants d’activité qui peuvent être exécutés dans les règles d’AQ d’activité.<br>Validation : doit être un jeton chiffré appartenant au client spécifié dans la requête de [!DNL Target]. L’ensemble des activités spécifiées dans le jeton doit appartenir au client. |
 | bypassEntryAudience | Booléen | False | Indique si les objectifs d’étape d’entrée pour les activités d’AQ doivent être évalués ou s’ils doivent être considérés comme correspondants. |
 | listedActivitiesOnly | Booléen | False | Indique si les activités d’AQ doivent être exécutées seules ou si elles doivent être évaluées en tant qu’activités actives pour l’environnement actif. |
 | evaluateAsTrueAudienceIds | Liste des ID | Liste vide. | Liste des identifiants d’audience qui doivent toujours être évalués comme vrais dans la portée de la requête [!DNL Target]. |

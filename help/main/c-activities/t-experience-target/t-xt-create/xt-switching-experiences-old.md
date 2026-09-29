@@ -1,16 +1,23 @@
 ---
 keywords: priorité;création d’expérience;priorité;expérience;audience;expérience;changer d’expérience;compositeur d’expérience visuelle
-description: Découvrez comment les visiteurs peuvent basculer entre les expériences dans une activité  [!DNL Adobe Target] [!UICONTROL &#x200B; ciblage d’expérience &#x200B;] (XT) au fur et à mesure de l’évolution de leurs profils.
+description: Découvrez comment les visiteurs peuvent basculer entre les expériences dans une activité [!DNL Adobe Target] [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT) au fur et à mesure de l’évolution de leurs profils.
 title: Les visiteurs peuvent-ils changer d’expérience dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '742'
 ht-degree: 40%
-
 ---
-
 # Changement d’expérience dans [!UICONTROL Ciblage d’expérience]
 
 Avec le [!UICONTROL ciblage d’expérience], vous pouvez contrôler l’expérience que les visiteurs voient évoluer au fur et à mesure de leurs profils.

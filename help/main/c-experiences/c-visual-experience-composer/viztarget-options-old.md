@@ -1,16 +1,20 @@
 ---
 keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer l’élément;élargir la sélection;naviguer sur le lien;naviguer;lien;annuler;lien;annuler;rétablir;annuler;annuler;annuler;annuler;annuler les événements personnalisés;événements personnalisés;événements personnalisés;composants web
-description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL &#x200B; Compositeur d’expérience visuelle &#x200B;] (VEC).
+description: Explorez les options disponibles dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC).
 title: Comment utiliser les options du [!UICONTROL compositeur d’expérience visuelle] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Options du compositeur d’expérience visuelle
 
 Lorsque vous cliquez sur un élément de page dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
@@ -74,15 +78,15 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Modification de la couleur et de l’image d’arrière-plan.
 
-   * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * Image (sélectionnez une image dans le sélecteur d’images)
-   * Source de l’image (spécification d’une URL externe)
-   * Pièce jointe
-      * Cliquez sur la liste déroulante supérieure pour sélectionner scroll (défilement), fixed (fixe) ou local
-      * Cliquez sur la liste déroulante inférieure pour sélectionner repeat (répétition), repeat-x (répétition-x), repeat-y (répétition-y), no-repeat (pas de répétition), space (espace) ou round (rond).
-   * Clip
-      * Cliquez sur la liste déroulante supérieure pour sélectionner border-box(zone de bordure), padding-box (zone de remplissage), content-box (zone de contenu) ou text (texte).
-      * Cliquez sur la liste déroulante inférieure pour sélectionner auto audio (audio automatique) ou audio
+  * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
+  * Image (sélectionnez une image dans le sélecteur d’images)
+  * Source de l’image (spécification d’une URL externe)
+  * Pièce jointe
+    * Cliquez sur la liste déroulante supérieure pour sélectionner scroll (défilement), fixed (fixe) ou local
+    * Cliquez sur la liste déroulante inférieure pour sélectionner repeat (répétition), repeat-x (répétition-x), repeat-y (répétition-y), no-repeat (pas de répétition), space (espace) ou round (rond).
+  * Clip
+    * Cliquez sur la liste déroulante supérieure pour sélectionner border-box(zone de bordure), padding-box (zone de remplissage), content-box (zone de contenu) ou text (texte).
+    * Cliquez sur la liste déroulante inférieure pour sélectionner auto audio (audio automatique) ou audio
 
 * **[!UICONTROL Typographie]**
 
@@ -92,13 +96,13 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Vous pouvez modifier les styles de typographie suivants :
 
-   * [!UICONTROL Taille de police]
-   * [!UICONTROL Épaisseur de la police]
-   * [!UICONTROL &#x200B; Style de police &#x200B;]
-   * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
-   * [!UICONTROL &#x200B; Espacement des mots &#x200B;]
-   * [!UICONTROL Hauteur de la ligne]
-   * [!UICONTROL &#x200B; Alignement du texte &#x200B;]
+  * [!UICONTROL Taille de police]
+  * [!UICONTROL Épaisseur de la police]
+  * [!UICONTROL &#x200B; Style de police &#x200B;]
+  * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
+  * [!UICONTROL &#x200B; Espacement des mots &#x200B;]
+  * [!UICONTROL Hauteur de la ligne]
+  * [!UICONTROL &#x200B; Alignement du texte &#x200B;]
 
 * **[!UICONTROL Marge]**
 
@@ -106,8 +110,8 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur l’icône déroulante pour chaque marge pour choisir parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour définir la marge ou spécifiez le nombre de pixels pour chaque marge)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour définir la marge ou spécifiez le nombre de pixels pour chaque marge)
 
   La marge prend en charge les valeurs positives et négatives.
 
@@ -129,9 +133,9 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Vous pouvez modifier les styles suivants pour chaque bordure (en haut, à droite, en bas et à gauche) :
 
-   * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, tiret, plein ou double)
-   * [!UICONTROL Couleur de bordure] (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * [!UICONTROL &#x200B; Largeur de la bordure &#x200B;] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
+  * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, tiret, plein ou double)
+  * [!UICONTROL Couleur de bordure] (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
+  * [!UICONTROL &#x200B; Largeur de la bordure &#x200B;] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
 
   La bordure prend en charge les échelles de largeur à partir de 0.
 
@@ -143,16 +147,16 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur la liste déroulante [!UICONTROL Statique] pour effectuer un choix parmi les options de position suivantes :
 
-   * [!UICONTROL Statique]
-   * [!UICONTROL Relatif]
-   * [!UICONTROL Absolu]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Fixe]
+  * [!UICONTROL Statique]
+  * [!UICONTROL Relatif]
+  * [!UICONTROL Absolu]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Fixe]
 
   Cliquez sur l’icône déroulante pour chaque position pour choisir parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour positionner l’élément ou indiquez le nombre de pixels à déplacer pour l’élément)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour positionner l’élément ou indiquez le nombre de pixels à déplacer pour l’élément)
 
   La position prend en charge les valeurs positives et négatives.
 
@@ -164,22 +168,22 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur l’icône déroulante en regard de [!UICONTROL Largeur] et [!UICONTROL Hauteur] pour effectuer votre choix parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour dimensionner l’élément ou indiquez le nombre de pixels pour chaque dimension)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour dimensionner l’élément ou indiquez le nombre de pixels pour chaque dimension)
 
 * **[!UICONTROL Filtrer]**
 
   Faites glisser le curseur pour chaque option de filtre ou indiquez le pourcentage souhaité :
 
-   * [!UICONTROL Sépia]
-   * [!UICONTROL &#x200B; Contraste &#x200B;]
-   * [!UICONTROL &#x200B; Luminosité &#x200B;]
-   * [!UICONTROL Niveaux de gris]
-   * [!UICONTROL Flou &#x200B;]
-   * [!UICONTROL &#x200B; Opacité &#x200B;]
-   * [!UICONTROL Inverser]
-*[!UICONTROL &#x200B; Teinte-rotation]
-   * [!UICONTROL Saturation]
+  * [!UICONTROL Sépia]
+  * [!UICONTROL &#x200B; Contraste &#x200B;]
+  * [!UICONTROL &#x200B; Luminosité &#x200B;]
+  * [!UICONTROL Niveaux de gris]
+  * [!UICONTROL Flou &#x200B;]
+  * [!UICONTROL &#x200B; Opacité &#x200B;]
+  * [!UICONTROL Inverser]
+    *[!UICONTROL &#x200B; Teinte-rotation]
+  * [!UICONTROL Saturation]
 
 * **[!UICONTROL Éditeur CSS]**
 
@@ -388,16 +392,16 @@ La plupart des actions du compositeur d’expérience visuelle sont prises en ch
 Les actions suivantes ne sont pas disponibles sur les éléments personnalisés :
 
 * [!UICONTROL Modifier]
-   * [!UICONTROL Texte/HTML]
-   * [!UICONTROL Lien]
-   * [!UICONTROL Modifier Source]
+  * [!UICONTROL Texte/HTML]
+  * [!UICONTROL Lien]
+  * [!UICONTROL Modifier Source]
 
 * [!UICONTROL Remplacer le contenu]
 
 L’action suivante n’est pas disponible dans les éléments personnalisés :
 
 * [!UICONTROL Disposition]
-   * [!UICONTROL Réorganiser]
+  * [!UICONTROL Réorganiser]
 
 ## Navigation dans les éléments à l’aide du chemin d’accès DOM {#dom-path}
 

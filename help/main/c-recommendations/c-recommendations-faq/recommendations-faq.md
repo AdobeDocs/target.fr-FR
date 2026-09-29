@@ -1,23 +1,30 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Consultez une liste de questions fréquentes sur les activités  [!DNL Target Recommendations] .
-title: Où puis-je trouver des questions/réponses sur  [!DNL Recommendations] ?
+description: Consultez une liste de questions fréquentes sur les activités [!DNL Target Recommendations].
+title: Où puis-je trouver des questions/réponses sur [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-TQID: https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA
+TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3578
+source-wordcount: '3579'
 ht-degree: 80%
-
 ---
-
 # Forum aux questions (FAQ) de Recommandations
 
 Liste des questions fréquentes (FAQ) relatives aux activités d’[!DNL Adobe Target] [!DNL Recommendations].
@@ -73,9 +80,9 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 * La prise en compte d’une modification des paramètres de promotion sur le site peut prendre jusqu’à cinq heures.
 * Dans le cas des autres paramètres de critères, il se peut que la modification ne soit pas prise en compte avant la prochaine exécution de l’algorithme :
 
-   * Certains paramètres de critère (par exemple, « ajout d’une règle d’inclusion dynamique ») sont immédiatement pris en compte.
-   * D’autres paramètres (par exemple, « suppression d’une règle d’inclusion dynamique », changement de l’intervalle de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
-   * L’exécution des algorithmes est déclenchée par ces modifications, mais cette opération peut prendre jusqu’à 24 heures. Les algorithmes s’exécutent également selon un planning défini toutes les 12-24 heures.
+  * Certains paramètres de critère (par exemple, « ajout d’une règle d’inclusion dynamique ») sont immédiatement pris en compte.
+  * D’autres paramètres (par exemple, « suppression d’une règle d’inclusion dynamique », changement de l’intervalle de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
+  * L’exécution des algorithmes est déclenchée par ces modifications, mais cette opération peut prendre jusqu’à 24 heures. Les algorithmes s’exécutent également selon un planning défini toutes les 12-24 heures.
 
 ## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que* l’utilisateur reçoit ?
 

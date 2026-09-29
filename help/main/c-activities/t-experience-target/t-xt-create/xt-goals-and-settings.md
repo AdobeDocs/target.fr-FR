@@ -1,26 +1,35 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres du ciblage d’expérience;objectifs et paramètres xt;ciblage d’expérience;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectifs;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur rencontrera cette mesure d’objectif;remarques
-description: Découvrez comment utiliser la page [!UICONTROL Objectifs et paramètres] dans  [!DNL Adobe Target]  pour spécifier des informations sur les objectifs d’une activité [!UICONTROL Ciblage d’expérience] (XT).
+description: Découvrez comment utiliser la page [!UICONTROL Objectifs et paramètres] dans [!DNL Adobe Target] pour spécifier des informations sur les objectifs d’une activité [!UICONTROL Ciblage d’expérience] (XT).
 title: Comment spécifier des [!UICONTROL objectifs et paramètres] dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
-TQID: https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0
+TQID: 'https://experienceleague.adobe.com/vlpJSJ4Z6mxQI-D8UyUPEXHVWKfR54l89uoxULd2oD0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 42%
-
+source-wordcount: '1288'
+ht-degree: 43%
 ---
-
 # Objectifs et paramètres des activités [!UICONTROL Ciblage d’expérience] (XT)
 
 La page [!UICONTROL Objectifs et paramètres] vous permet de saisir des informations sur les objectifs du test :
@@ -62,7 +71,7 @@ Pour les activités créées dans les versions précédentes d’[!DNL Target], 
 
 ### [!UICONTROL Durée]
 
-L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut se terminer lorsqu’elle est désactivée ou vous pouvez définir une date et une heure de fin. Le sélecteur d’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut se terminer lorsqu’elle est désactivée ou vous pouvez définir une date et une heure de fin. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
 ## [!UICONTROL Paramètres de création de rapports] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -165,7 +174,7 @@ Trois options sont disponibles :
 
 Reportez-vous à [Mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) pour plus d’informations sur les paramètres avancés.
 
-## Vidéo de formation : Paramètres des activités (3:02)
+## Vidéo de formation : Paramètres de l’activité (3:02)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 

@@ -1,28 +1,38 @@
 ---
 keywords: Recommendations;algorithmes de recommandations;activité Recommendations;Recommendations Classic
-description: Consultez les informations pour vous aider à comprendre les différences entre l’ancienne version Recommandations Classic et les activités Recommendations dans [!DNL Target] Premium.
-title: Quelle est la différence entre Recommandations Classic et les activités Recommandations dans [!DNL Target] Premium ?
+description: Consultez les informations pour vous aider à comprendre les différences entre l’ancienne version Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium.
+title: Quelle est la différence entre Recommendations Classic et Recommendations dans [!DNL Target] Premium ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-TQID: https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM
+TQID: 'https://experienceleague.adobe.com/EoTkyY0kOwRKT52WIwOuTCoUziIJOnNtTo6llsTNpsM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 692
-ht-degree: 83%
-
+source-wordcount: '694'
+ht-degree: 79%
 ---
-
 # Différences entre Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium
 
 Informations pour vous aider à faire votre choix entre Recommandations Classic et les activités Recommandations dans Target Premium.

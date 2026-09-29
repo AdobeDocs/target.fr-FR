@@ -1,23 +1,30 @@
 ---
 keywords: forêt aléatoire;arborescence de décision;ap;Automated Personalization
-description: Découvrez comment utilise l [!DNL Adobe Target] algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique].
-title: Comment utilise [!DNL Target] t-on l’algorithme Forêt aléatoire ?
+description: Découvrez comment [!DNL Adobe Target] utilise l’algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique].
+title: Comment utilise-[!DNL Target] l’algorithme Forêt aléatoire ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-TQID: https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M
+TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1458
+source-wordcount: '1460'
 ht-degree: 40%
-
 ---
-
 # Algorithme Forêt aléatoire
 
 Le principal algorithme de personnalisation utilisé dans les activités (AP) et [!DNL Auto-Target] est Random Forest. Des méthodes d&#39;ensemble, telles que Random Forest, utilisent de multiples algorithmes d&#39;apprentissage pour obtenir de meilleures performances prédictives que celles qui pourraient être obtenues à partir de n&#39;importe lequel des algorithmes d&#39;apprentissage constitutifs. L’algorithme Forêt aléatoire dans  et [!UICONTROL Ciblage automatique] est une méthode de classification ou de régression qui fonctionne en construisant une multitude d’arbres de décision lors de l’entraînement.

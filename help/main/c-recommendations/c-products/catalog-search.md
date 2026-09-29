@@ -1,23 +1,30 @@
 ---
 keywords: recherche catalogue;catalogue;recherche;exclusion;collection;filtre;recommandations
-description: Découvrez comment utiliser la  [!DNL Recommendations] [!UICONTROL &#x200B; Recherche catalogue &#x200B;] pour localiser des produits ou du contenu, supprimer des éléments de votre catalogue, etc.
-title: Comment utiliser la recherche  [!DNL Recommendations] [!UICONTROL &#x200B; catalogue &#x200B;] ?
+description: Découvrez comment utiliser la [!DNL Recommendations] [!UICONTROL Recherche catalogue] pour localiser des produits ou du contenu, supprimer des éléments de votre catalogue, etc.
+title: Comment utiliser la [!DNL Recommendations] [!UICONTROL recherche catalogue] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-TQID: https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic
+TQID: 'https://experienceleague.adobe.com/en3hkFsDjEE86Tc-3vPSiZFy0K47SftZMN6RW0INNic'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 552
-ht-degree: 21%
-
+source-wordcount: '554'
+ht-degree: 20%
 ---
-
 # [!UICONTROL Recherche catalogue]
 
 La page [!UICONTROL Recherche catalogue] de [!DNL Adobe Recommendations] vous aide à localiser les produits ou le contenu de votre catalogue. La tâche la plus simple que vous pouvez effectuer sur cette page consiste à rechercher un élément. En outre, vous pouvez modifier l’environnement, filtrer les facettes, modifier les colonnes du tableau, ajouter de nouvelles facettes de recherche, etc.

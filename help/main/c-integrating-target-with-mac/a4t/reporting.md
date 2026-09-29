@@ -1,25 +1,30 @@
 ---
 keywords: analytics for target;a4t;analytics comme source des rapports;analytics
-description: Découvrez comment utiliser Analytics for  [!DNL Target] (A4T). A4T permet d’accéder aux rapports Analytics pour  [!DNL Target]  activités qui utilisent les mesures Analytics et les segments d’audience.
+description: Découvrez comment utiliser Analytics for [!DNL Target] (A4T). A4T permet d’accéder aux rapports Analytics pour les activités [!DNL Target] qui utilisent les mesures Analytics et les segments d’audience.
 title: Comment utiliser les rapports dans A4T ?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-TQID: https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY
+TQID: 'https://experienceleague.adobe.com/oYF9-9IHLmdxfWV-k3FLYd26rkXgOE9CddNTldF9TSY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1316
+source-wordcount: '1317'
 ht-degree: 41%
-
 ---
-
 # Rapports A4T
 
 L’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T) vous donne accès aux rapports [!DNL Analytics] pour vos activités [!DNL Target].
@@ -88,7 +93,7 @@ Au cours de la création de l’activité, vous devez indiquer un objectif pour 
 
 Vous pouvez effectuer des calculs hors ligne pour les intervalles de confiance et de confiance pour A4T à l’aide du fichier Excel [!DNL Target] [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx), mais il nécessite une étape avec des exportations de données dans [!DNL Analytics].
 
-Pour A4T, nous utilisons un calcul [test t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour les variables continues (plutôt que pour les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces accès supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test t de Welch, la « somme des carrés » est nécessaire pour calculer la variance, qui est utilisée dans le dénominateur de la statistique t. [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explique les détails des formules mathématiques utilisées. La somme des carrés peut être extraite de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
+Pour A4T, nous utilisons un calcul [test t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour les variables continues (plutôt que pour les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces hits supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test t de Welch, la « somme des carrés » est nécessaire pour calculer la variance, qui est utilisée dans le dénominateur de la statistique t. [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explique les détails des formules mathématiques utilisées. La somme des carrés peut être extraite de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
 
 Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vous exporterez un échantillon du nombre total de pages vues par visiteur pour une période spécifiée, peut-être deux jours (quelques milliers de points de données sont tout ce dont vous avez besoin). Vous calculez ensuite chaque valeur au carré et faites la sommes des totaux (l’ordre des opérations est critique ici). Cette valeur de « somme des carrés » est ensuite utilisée dans le calculateur de confiance complet. Utilisez la section « recettes » de cette feuille de calcul pour ces valeurs.
 

@@ -4,24 +4,34 @@ description: Découvrez comment utiliser une activité [!UICONTROL Affectation a
 title: Qu’est-ce qu’une activité [!UICONTROL Affectation automatique] ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-TQID: https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc
+TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3756
+source-wordcount: '3760'
 ht-degree: 34%
-
 ---
-
 # Présentation de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;]
 
 Une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
@@ -134,9 +144,9 @@ Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les perf
 
   Par exemple :
 
-   * « Dieu merci, c&#39;est vendredi » entraîne des conversions plus élevées le vendredi.
-   * « Démarrez votre lundi » a une conversion plus élevée le lundi.
-   * « Préparez-vous pour un hiver sur la côte Est » offre une conversion plus élevée dans les endroits de la côte Est ou touchés par l&#39;hiver.
+  * « Dieu merci, c&#39;est vendredi » entraîne des conversions plus élevées le vendredi.
+  * « Démarrez votre lundi » a une conversion plus élevée le lundi.
+  * « Préparez-vous pour un hiver sur la côte Est » offre une conversion plus élevée dans les endroits de la côte Est ou touchés par l&#39;hiver.
 
   L’utilisation d’expériences avec une pertinence contextuelle variable peut fausser les résultats d’un test [!UICONTROL Affectation automatique] plus que d’un test A/B, car le test A/B analyse les résultats sur une plus longue période.
 
@@ -252,7 +262,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. La section [!UICONTROL &#x200B; Affectation automatique] est abordée à partir de 4 :45.
+Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. La [!UICONTROL Affectation automatique] est abordée à partir de 4 h 45.
 
 * Création d’une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic

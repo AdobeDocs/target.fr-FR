@@ -1,30 +1,35 @@
 ---
 keywords: Ciblage d’expérience, Test de page de destination
-description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser les sélecteurs d’éléments dans le compositeur  [!DNL Target] ’expérience visuelle (VEC) d’Adobe.
+description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser les sélecteurs d’éléments dans le compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target].
 title: Puis-je utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-TQID: https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg
+TQID: 'https://experienceleague.adobe.com/sqvUyLFddt7HPHH62jwpOZmwTIMSg-hyLIUr8w-x7vg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '456'
 ht-degree: 29%
-
 ---
-
 # Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
 
 Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
 
 Vous trouverez des informations de base sur les sélecteurs CSS dans le document [Sélecteurs](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) sur le *[!DNL Mozilla Developer Network]* (MDN).
 
-Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Compositeur d’expérience visuelle]**, puis choisissez vos sélecteurs CSS préférés.
+Vous pouvez définir s’il faut utiliser des classes d’éléments ou des ID d’éléments dans les préférences de votre compte. Cliquez sur **[!UICONTROL Administration > Compositeur d’expérience visuelle]**, puis choisissez vos sélecteurs CSS préférés.
 
 * **Utiliser les ID d’élément** : à désactiver si le même ID est utilisé pour plusieurs éléments ou si les ID d’élément peuvent changer au chargement de la page.
 * **Utiliser les classes d’éléments** : désactivez cette option si les classes d’éléments sur une page peuvent changer.

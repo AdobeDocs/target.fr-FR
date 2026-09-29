@@ -1,26 +1,32 @@
 ---
 keywords: Objectif et paramètres;objectif;priorité;durée
-description: Découvrez comment utiliser les paramètres d’activité dans Adobe  [!DNL Target]  gérer l’objectif, la priorité et la durée de vos activités.
+description: Découvrez comment utiliser les paramètres d’activité dans Adobe [!DNL Target] pour gérer l’objectif, la priorité et la durée de vos activités.
 title: Comment Spécifier Les Paramètres D’Activité ?
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
-TQID: https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o
+TQID: 'https://experienceleague.adobe.com/tCKQJJOfsU1XkeHwFHNF33XP4tYvxlE0Hv01u0CBr7o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 77%
-
+source-wordcount: '434'
+ht-degree: 79%
 ---
-
 # Paramètres d’activité
 
 Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL Adobe Target] pour gérer l’objectif, la priorité et la durée de vos activités.
@@ -51,7 +57,7 @@ Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL
 
 1. Définissez la durée de l’activité.
 
-   Vous pouvez activer et désactiver manuellement l’activité ou spécifier une date et une heure pour la diffusion de l’activité. Le contrôle de l’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+   Vous pouvez activer et désactiver manuellement l’activité ou spécifier une date et une heure pour la diffusion de l’activité. La commande de l’heure utilise une horloge de 24 heures (00:00 correspond à minuit). Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
    >[!NOTE]
    >

@@ -1,27 +1,33 @@
 ---
 keywords: serveur de suivi analytics;A4T;débogueur Adobe Experience Cloud;débogueur Adobe Experience Platform;source de création de rapports;outils de développement
-description: Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for  [!DNL Target] (A4T) si vous utilisez une ancienne version d’at.js.
+description: Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for [!DNL Target] (A4T) si vous utilisez une ancienne version d’at.js.
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-TQID: https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc
+TQID: 'https://experienceleague.adobe.com/mJM5kZPQfnWodzwQ3qDKxu1e1Oq2Y53fA2LpSB4SVSc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 708
+source-wordcount: '708'
 ht-degree: 17%
-
 ---
-
 # Utiliser un serveur de tracking [!DNL Analytics]
 
 Si vous utilisez une ancienne version d’at.js, vous devez spécifier un serveur de suivi [!DNL Analytics] pour les activités qui utilisent [!DNL Adobe Analytics] for [!DNL Adobe Target] (A4T).

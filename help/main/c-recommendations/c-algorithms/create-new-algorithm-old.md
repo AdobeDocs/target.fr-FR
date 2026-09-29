@@ -5,13 +5,20 @@ title: Comment créer des critères dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2934'
 ht-degree: 48%
-
 ---
-
 # Création de critères
 
 Les critères dans  [!UICONTROL Recommendations] contrôlent le contenu de vos activités [!UICONTROL Recommendations]. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité. Ces critères utilisent les actions du visiteur ou de la visiteuse pour déterminer le contenu ou les produits à afficher.
@@ -68,7 +75,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    Le secteur industriel vertical et les types de page sont utilisés pour classer les critères enregistrés, ce qui facilite la réutilisation des critères pour d’autres activités [!DNL Recommendations].
 
-## [!UICONTROL Algorithme de recommandations] {#rec-algo}
+## [!UICONTROL Algorithme de recommandation] {#rec-algo}
 
 1. Sélectionnez un **[!UICONTROL type d’algorithme]** et **[!UICONTROL algorithme]** :
 
@@ -267,7 +274,7 @@ Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
 Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
 
-## Vidéo de formation : créer des critères dans Recommendations (12:33) ![Badge de tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : créer des critères dans Recommendations (12:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 

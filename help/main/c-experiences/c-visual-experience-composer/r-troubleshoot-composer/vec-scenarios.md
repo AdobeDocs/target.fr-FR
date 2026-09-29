@@ -4,18 +4,21 @@ description: Explorez les scénarios courants qui montrent comment les modificat
 title: Quels Sont Les Scénarios Courants De Modification D’Une Page ?
 feature: Visual Experience Composer (VEC)
 exl-id: 7a05fbf9-3427-436e-a54f-4f1dd16d885a
-TQID: https://experienceleague.adobe.com/BI2SnUU5ilCf0auld15q1rpCrnLoPEwbe1fZO6G1quc
+TQID: 'https://experienceleague.adobe.com/BI2SnUU5ilCf0auld15q1rpCrnLoPEwbe1fZO6G1quc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 532
+source-wordcount: '532'
 ht-degree: 90%
-
 ---
-
 # Scénarios de modification d’une page
 
 Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité d’Adobe Target à afficher une expérience.

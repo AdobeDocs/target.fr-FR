@@ -1,16 +1,23 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres A/B;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectif;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur aura atteint cette mesure d’objectif;remarques
 description: Découvrez comment utiliser la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;] pour spécifier des informations sur les objectifs d’une activité A/B.
-title: Comment spécifier les objectifs et les paramètres dans une activité a [!DNL Target] A/B ?
+title: Comment spécifier les objectifs et les paramètres dans une activité A/B [!DNL Target] ?
 feature: A/B Tests
 exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 37%
-
+source-wordcount: '1416'
+ht-degree: 38%
 ---
-
 # Objectifs et paramètres
 
 La page [!UICONTROL Objectifs et paramètres] de [!DNL Adobe Target] vous permet de spécifier des informations sur les objectifs de l’activité.
@@ -25,7 +32,7 @@ La section [!UICONTROL Paramètres d’activité] de la page [!UICONTROL Objecti
 |--- |--- |
 | [!UICONTROL Objectif &#x200B;] | Saisissez une intention facultative. L’objectif peut être toute information qui vous aide, vous et les membres de votre équipe, à identifier l’activité. |
 | [!UICONTROL Priorité] | Selon vos paramètres, l’interface utilisateur [!DNL Target] et les options de [!UICONTROL Priorité] varient. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevé], ou activer des priorités affinées de 0 à 999.<P>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<P>Si cette option n’est pas activée dans [!UICONTROL Administration] (valeur par défaut), spécifiez une priorité : [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevée].<P>Pour activer [priorités affinées](/help/main/administrating-target/reporting.md), cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option [!UICONTROL Activer les priorités affinées] à la position « Activé ». <P>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 : 0 = [!UICONTROL Faible] et 999 = [!UICONTROL Élevée]. <P>Pour les activités créées dans les versions précédentes d’[!DNL Target], la priorité [!UICONTROL Faible] est convertie en 0, la priorité [!UICONTROL Medium] est convertie en 5 et la priorité [!UICONTROL Élevée] est convertie en 10. Vous pouvez ajuster ces valeurs si besoin.<P>Remarque : avant de pouvoir désactiver cette option après l’utilisation de priorités affinées, toutes les priorités doivent être définies sur 0, 5 et 10. |
-| Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
+| Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
 
 ## [!UICONTROL Paramètres de création de rapports] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -68,7 +75,7 @@ La section [!UICONTROL Autres métadonnées] de la page [!UICONTROL Objectifs et
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres d’activité (3:02) ![Badge de tutoriel](/help/main/assets/tutorial.png)
+### Paramètres des activités (3:02) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -82,7 +89,7 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo présente la façon dont les paramètres d’activité s’intègrent dans le workflow guidé en trois étapes lors de la création d’une activité. Les objectifs et les paramètres sont discutés à partir de 5 :30.
+Cette vidéo présente la façon dont les paramètres d’activité s’intègrent dans le workflow guidé en trois étapes lors de la création d’une activité. Les objectifs et les paramètres sont abordés à partir de 05:30.
 
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic

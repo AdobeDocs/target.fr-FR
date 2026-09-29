@@ -1,23 +1,31 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;statut;critères;algorithme
-description: Découvrez comment prévisualiser votre activité  [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
+description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-TQID: https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18
+TQID: 'https://experienceleague.adobe.com/21swhpZie0QN09m0LB7VwVO-9U6GWxQ0kbthPlnns18'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+    internal-label: Behavioral data
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1535
+source-wordcount: '1536'
 ht-degree: 13%
-
 ---
-
 # Prévisualisation et lancement de votre activité Recommandations
 
 Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT) contenant [Offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualiser vos recommandations afin de vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.
@@ -110,13 +118,13 @@ Le fichier de téléchargement CSV reflète de manière cohérente les résultat
 
 * **Pour les algorithmes basés sur la popularité (non basés sur une clé), le fichier comprend :**
 
-   * Une ligne de recommandations de sauvegarde précédée d’un * (astérisque)
-   * Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
+  * Une ligne de recommandations de sauvegarde précédée d’un * (astérisque)
+  * Une ligne distincte répertoriant les recommandations en fonction des paramètres de l’algorithme
 
 * **Pour les algorithmes basés sur des clés, le fichier comprend :**
 
-   * Une ligne de sauvegarde similaire aux algorithmes basés sur la popularité
-   * Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
+  * Une ligne de sauvegarde similaire aux algorithmes basés sur la popularité
+  * Plusieurs lignes au format clé-valeur, où la première entrée est l’ID de produit de la clé, suivie d’ID de produit séparés par des virgules représentant les candidats à une recommandation
 
 ## Activation de votre activité Recommendations
 

@@ -1,26 +1,32 @@
 ---
 keywords: Ciblage;compositeur d’expérience avancé;compositeur d’expérience visuelle;dépannage compositeur d’expérience avancé;résolution des problèmes
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le  [!DNL Adobe Target] [!UICONTROL &#x200B; Enhanced Experience Composer &#x200B;] (EEC) sous certaines conditions.
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
 title: Comment résoudre les problèmes liés au [!UICONTROL Enhanced Experience Composer] ?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-TQID: https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg
+TQID: 'https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Security
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: '510'
 ht-degree: 29%
-
 ---
-
 # Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]
 
 Des problèmes d’affichage peuvent parfois se produire dans le [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.

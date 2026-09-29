@@ -1,16 +1,17 @@
 ---
 title: Intégration d’indicateurs dans l’application
 description: Découvrez comment intégrer des indicateurs à votre application, qu’il s’agisse d’un service web, d’une propriété web, d’une application mobile ou d’une application de bureau.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 # Intégration d’indicateurs dans l’application {#integrate}
 
 Cette section fournit des instructions d’intégration pour tous les clients Flags, organisés par type d’application.

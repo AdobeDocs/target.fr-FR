@@ -1,16 +1,20 @@
 ---
 keywords: activités;activité;tableau de bord insights
-description: Le tableau de bord  donne une vue d’ensemble de la manière dont votre organisation utilise au fil du temps, l’adoption de l’affichage [!DNL Target] surface, le volume d’activités et l’utilisation de l’expérimentation en un coup d’œil.
+description: Le tableau de bord  donne une vue d’ensemble de la manière dont votre entreprise utilise le [!DNL Target] au fil du temps, en faisant apparaître en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
 title: Tableau de bord des informations Adobe Target
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
-source-git-commit: 346b54882d4082f14bbc16ede350758a362ee418
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 1%
-
 ---
-
 # Tableau de bord des informations Adobe Target
 
 Le tableau de bord  donne une vue d’ensemble de la manière dont votre organisation utilise le [!DNL Adobe Target] au fil du temps. Cela permet aux équipes de comprendre en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.

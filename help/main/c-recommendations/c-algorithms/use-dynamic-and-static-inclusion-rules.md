@@ -1,23 +1,29 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
-description: Découvrez comment créer des règles d’inclusion dans  [!DNL Target]  Recommendations pour les critères et les promotions.
+description: Découvrez comment créer des règles d’inclusion dans [!DNL Target] Recommendations pour les critères et les promotions.
 title: Comment utiliser les règles d’inclusion dynamiques et statiques dans Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-TQID: https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ
+TQID: 'https://experienceleague.adobe.com/PM9h863-uQWm3wrU7OVWfmnqQgyUGmF7QFpTUaAZuCQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2258
+source-wordcount: '2259'
 ht-degree: 14%
-
 ---
-
 # Utilisation de règles d’inclusion dynamiques et statiques
 
 Créez des règles d’inclusion pour les critères et les promotions dans [!DNL Adobe Target] et ajoutez des règles de filtrage dynamiques ou statiques pour obtenir de meilleurs résultats pour vos recommandations.
@@ -76,7 +82,7 @@ L’option suivante est disponible pour le filtrage par valeur :
 | --- | --- |
 | [[!UICONTROL Filtre statique]](/help/main/c-recommendations/c-algorithms/static-value.md) | Saisissez manuellement une ou plusieurs valeurs statiques à filtrer. |
 
-## Opérateurs disponibles {#operators}
+## Opérateurs et opératrices disponibles {#operators}
 
 Les critères dynamiques et les promotions sont beaucoup plus puissants que les critères statiques et les promotions et produisent de meilleurs résultats et un meilleur engagement.
 

@@ -1,31 +1,43 @@
 ---
 keywords: interface utilisateur de target;interface utilisateur;iu;questions fréquentes;faq
-description: Questions et réponses sur l [!DNL Target]interface utilisateur de mise à jour d’.
-title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur  [!DNL Target]  mise à jour ?
+description: Questions et réponses sur l’interface utilisateur de [!DNL Target]t mise à jour.
+title: Où puis-je trouver des questions fréquentes sur l’interface utilisateur de [!DNL Target] mise à jour ?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-TQID: https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0
+TQID: 'https://experienceleague.adobe.com/yMMNq7GL-lvpzJL9nw9mPm8QHmp0A0hgDK3spB1Z2r0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2013
+source-wordcount: '2015'
 ht-degree: 1%
-
 ---
-
 # FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
 Nouveauté de 2025, l’interface utilisateur [!DNL Adobe Target] repensée offre une expérience plus épurée et plus intuitive pour tous les utilisateurs et utilisatrices. Ce FAQ couvre les mises à jour clés de l’interface utilisateur [!DNL Target] et du [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications de navigation, l’emplacement des fonctionnalités et la suppression du bouton (bascule) temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, il vous offre une transition en douceur et des workflows plus intelligents.
@@ -47,8 +59,8 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 * **30 juin 2025** : l’[updated [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md) est devenue l’expérience par défaut pour toutes les organisations IMS qui ont activé le bouton (bascule) de version de l’interface utilisateur.
 
-   * Les clients qui consultent actuellement l’interface utilisateur héritée, par défaut, voient désormais l’interface utilisateur mise à jour lors de la connexion.
-   * Le bouton (bascule) de version de l’interface utilisateur reste disponible jusqu’à la fin juillet, ce qui permet aux utilisateurs et utilisatrices de revenir en arrière si nécessaire.
+  * Les clients qui consultent actuellement l’interface utilisateur héritée, par défaut, voient désormais l’interface utilisateur mise à jour lors de la connexion.
+  * Le bouton (bascule) de version de l’interface utilisateur reste disponible jusqu’à la fin juillet, ce qui permet aux utilisateurs et utilisatrices de revenir en arrière si nécessaire.
 
   >[!IMPORTANT]
   >
@@ -56,8 +68,8 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 * **du 15 au 30 juillet 2025** : le bouton (bascule) de version de l’interface utilisateur sera désactivé définitivement par phases. Les organisations IMS affectées ne peuvent plus revenir à l’interface utilisateur héritée.
 
-   * Les exceptions sont examinées au cas par cas.
-   * Les délais d’abandon du bouton (bascule) ne sont accordés que brièvement (quelques jours) pendant que les problèmes de blocage sont résolus.
+  * Les exceptions sont examinées au cas par cas.
+  * Les délais d’abandon du bouton (bascule) ne sont accordés que brièvement (quelques jours) pendant que les problèmes de blocage sont résolus.
 
 Contactez l’[Assistance clientèle d’](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md) si vous avez des inquiétudes ou si vous prévoyez des problèmes au cours de cette transition.
 

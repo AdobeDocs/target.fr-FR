@@ -1,16 +1,23 @@
 ---
 keywords: créer une affectation automatique;test A/B;activité d’affectation automatique;nouvelle activité a/b;affectation automatique;affectation automatique à la meilleure expérience;affecter;affectation automatique
-description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans  [!DNL Adobe Target]  pour créer une activité de test A/B d’[!UICONTROL affectation automatique].
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer une activité de test A/B d’[!UICONTROL affectation automatique].
 title: Comment créer une activité [!UICONTROL Affectation automatique] ?
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 39%
-
 ---
-
 # Création d’une activité [!UICONTROL Affectation automatique]
 
 Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre activité [!UICONTROL Affectation automatique] [!UICONTROL Test A/B] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].

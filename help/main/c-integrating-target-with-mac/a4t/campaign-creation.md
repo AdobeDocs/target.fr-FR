@@ -1,24 +1,28 @@
 ---
 keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
-description: Découvrez comment configurer une activité dans  [!DNL Target] qui utilise Adobe Analytics comme source de création de rapports (A4T).
+description: Découvrez comment configurer une activité dans Adobe [!DNL Target] qui utilise Adobe Analytics comme source de création de rapports (A4T).
 title: Comment créer une activité qui utilise A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
-TQID: https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI
+TQID: 'https://experienceleague.adobe.com/7fdf22c0HzpPYQbKgGjHEy23oJQsjQTJpfqy93mG1kI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '663'
 ht-degree: 28%
-
 ---
-
 # Création d’une activité utilisant Analytics en tant que source de rapports
 
 Vous pouvez configurer une activité dans [!DNL Adobe Target] pour utiliser [!DNL Adobe Analytics] comme source de création de rapports (A4T).

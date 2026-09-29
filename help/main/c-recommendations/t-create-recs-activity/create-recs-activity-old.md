@@ -1,17 +1,24 @@
 ---
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
-description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience visuelle (VEC) d’Adobe pour créer une activité Recommendations directement sur une page compatible avec  [!DNL Target].
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target] pour créer une activité Recommendations directement sur une page compatible avec les [!DNL Target].
 title: Comment créer une activité Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 59%
-
 ---
-
 # Création d’une activité de recommandations
 
 Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
@@ -162,7 +169,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * activer l’activité ;
    * modifier l’activité ;
-   * Partager l’activité sur votre flux Experience Cloud
+   * Partager l’activité dans votre flux Experience Cloud
    * AQ de l’activité
    * afficher vos URL d’expérience ;
    * télécharger des données ;

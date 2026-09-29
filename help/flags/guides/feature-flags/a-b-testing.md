@@ -1,16 +1,17 @@
 ---
 title: Test A/B avec indicateurs de fonctionnalité
 description: Découvrez comment exécuter des tests A/B à l’aide de groupes de fonctionnalités dans la section Indicateurs en configurant plusieurs variantes pour un ensemble d’indicateurs de fonctionnalités.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
-
 ---
-
 # Test A/B avec indicateurs de fonctionnalité {#a-b-testing}
 
 Les tests A/B dans les indicateurs sont effectués à l’aide de **groupes de fonctionnalités**. En configurant plusieurs variantes dans un groupe de fonctionnalités, vous pouvez diffuser différentes versions d’une fonctionnalité à différents sous-ensembles de votre audience et comparer les résultats.

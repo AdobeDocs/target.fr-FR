@@ -1,25 +1,30 @@
 ---
 keywords: écarts de données;analytics;différences;écart;a4t;analytics pour target;analytics en tant que source de reporting;incohérences;incohérence
-description: Découvrez les écarts de données attendus entre Adobe et Analytics lorsque vous n [!DNL Target] utilisez pas Analytics for [!DNL Target] (A4T), ce qui élimine complètement les écarts de données.
+description: Découvrez les écarts de données attendus entre Adobe [!DNL Target] et Analytics lorsque vous n’utilisez pas Analytics for [!DNL Target] (A4T), ce qui élimine complètement les écarts de données.
 title: Quelle est la variance des données attendue entre Analytics et A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-TQID: https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg
+TQID: 'https://experienceleague.adobe.com/ElzOVANCbFvKaQX5D9-gyhWTjAA1rRU1BZZj-tkpdQg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: '732'
 ht-degree: 45%
-
 ---
-
 # Écarts de données attendus entre Adobe [!DNL Target] et Adobe Analytics lors de l’utilisation ou de la non-utilisation d’A4T
 
 Informations sur les écarts de données attendus entre [!DNL Target] et Adobe [!DNL Analytics] lorsque vous *utilisez* ou *non* Analytics en tant que source de reporting (A4T). A4T réduit considérablement les écarts de données.
@@ -30,9 +35,9 @@ Avec A4T, les comptes rendus Analytics et Target des performances d’activités
 
 Voici quelques scénarios dans lesquels vous pouvez rencontrer la variance attendue des données :
 
-* A4T permet qu’un accès Target (haut de la page) se produise, mais empêche qu’un accès Analytics (bas de la page) ne se produise. Supposons, par exemple, qu’un visiteur charge la page, mais ferme le navigateur avant le déclenchement de l’appel Analytics. Dans ces cas, A4T exclut l’accès à Target des données. Autoriser les accès à Target (toujours en haut de la page) à compter comme accès Analytics en l’absence d’appel Analytics réel crée des incohérences avec les données définies dans Analytics (inflation des visiteurs, etc.).
+* A4T permet qu’un hit Target (haut de la page) se produise, mais empêche qu’un hit Analytics (bas de la page) ne se produise. Supposons, par exemple, qu’un visiteur charge la page, mais ferme le navigateur avant le déclenchement de l’appel Analytics. Dans ces cas, A4T exclut l’accès à Target des données. Autoriser les accès à Target (toujours en haut de la page) à compter comme accès Analytics en l’absence d’appel Analytics réel crée des incohérences avec les données définies dans Analytics (inflation des visiteurs, etc.).
 
-  Si un test de redirection est configuré dans Target pour répartir le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur peut ne pas être divisé de manière égale. Si vous constatez une répartition inégale, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page de destination plus souvent que les autres groupes. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
+  Si un test de redirection est configuré dans Target pour répartir le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur peut ne pas être divisé de manière égale. Si vous constatez une répartition inégale, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page de destination plus souvent que les autres groupes. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion du hit Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
 
   Adobe espère résoudre ce problème à l’avenir, car les équipes d’Adobe travaillent sur A4T sur Adobe Experience Platform. Les équipes d’Adobe déterminent comment gérer ces différents événements se produisant à différents moments sur la page.
 

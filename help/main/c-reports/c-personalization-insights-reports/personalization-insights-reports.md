@@ -5,27 +5,36 @@ title: Comment utiliser les rapports Personalization Insights ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Rapports Personalization Insights]
 
 Deux rapports spécialisés sont disponibles pour les utilisateurs des activités  (AP) et [!UICONTROL Ciblage automatique] (AT) : les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
@@ -38,23 +47,23 @@ Tenez compte des points suivants lors de l’utilisation des rapports [!UICONTRO
 
 * Les rapports [!UICONTROL Personalization Insights] sont disponibles uniquement pour les activités AP et AT configurées comme suit :
 
-   * Rapports [!DNL Target] > [!UICONTROL Conversion]
+  * Rapports [!DNL Target] > [!UICONTROL Conversion]
 
-     Par exemple :
+    Par exemple :
 
-     ![Rapports Target > Conversion](/help/main/c-reports/assets/conversion.png)
+    ![Rapports Target > Conversion](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] des rapports > [!DNL Conversion]
+  * [!DNL Analytics] des rapports > [!DNL Conversion]
 
-     Par exemple :
+    Par exemple :
 
-     ![Rapports Analytics > Conversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Rapports Analytics > Conversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics] rapports > [!UICONTROL Utiliser une mesure Analytics] > [!UICONTROL Maximiser le taux de conversion des visites]
+  * [!DNL Analytics] rapports > [!UICONTROL Utiliser une mesure Analytics] > [!UICONTROL Maximiser le taux de conversion des visites]
 
-     Par exemple :
+    Par exemple :
 
-     ![Utiliser une mesure Analytics > Maximiser le taux de conversion des visites](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![Utiliser une mesure Analytics > Maximiser le taux de conversion des visites](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
 

@@ -1,16 +1,23 @@
 ---
 keywords: créer une expérience;création d’une expérience;priorité;audience;expérience;compositeur d’expérience visuelle
-description: Découvrez comment utiliser le  [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer et modifier des expériences sur votre page dans une activité de [!UICONTROL ciblage d’expérience] (XT).
+description: Découvrez comment utiliser le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour créer et modifier des expériences sur votre page dans une activité [!UICONTROL Ciblage d’expérience] (XT).
 title: Comment créer des expériences dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '965'
 ht-degree: 32%
-
 ---
-
 # Créer une expérience dans des activités [!UICONTROL Ciblage d’expérience] (XT)
 
 Le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] fournit une interface visuelle permettant de modifier les expériences de votre page dans une activité de [!UICONTROL ciblage d’expérience] (XT).
@@ -116,7 +123,7 @@ Cette vidéo décrit comment booster les tests A/B avec le [!UICONTROL ciblage d
 
 ### Types d’activités (9:03)
 
-Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. La section [!UICONTROL Ciblage d’expérience] est abordée à partir de 5 :15.
+Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. Le [!UICONTROL ciblage d’expérience] est abordé à partir de 17 h 15.
 
 * Décrire les types d’activités inclus dans [!DNL Adobe Target]
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
@@ -131,4 +138,4 @@ Cette vidéo fournit des informations sur l’utilisation des options [!UICONTRO
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/29229?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

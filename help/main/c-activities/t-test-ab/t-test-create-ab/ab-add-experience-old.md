@@ -1,16 +1,23 @@
 ---
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
 description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target].
-title: Comment ajouter des expériences dans une activité a [!DNL Target] B ?
+title: Comment ajouter des expériences dans une activité A/B [!DNL Target] ?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 41%
-
 ---
-
 # Ajout d’une expérience
 
 Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface visuelle pour ajouter et modifier des expériences sur votre page.
@@ -99,9 +106,9 @@ Vous pouvez copier une expérience dans un test [!UICONTROL A/B] afin d’y appo
 
 ## Vidéo de formation : Utilisation du [!UICONTROL compositeur d’expérience visuelle]
 
-La vidéo ci-dessous fournit des informations sur l’utilisation des options du [!UICONTROL compositeur d’expérience visuelle]. (7:17)
+La vidéo ci-dessous fournit des informations sur l’utilisation des options du [!UICONTROL compositeur d’expérience visuelle]. (07:17)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/29229?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

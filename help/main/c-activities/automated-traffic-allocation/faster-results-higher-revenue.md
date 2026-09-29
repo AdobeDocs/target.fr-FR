@@ -1,21 +1,27 @@
 ---
 keywords: affectation automatique du trafic;ciblage;affectation automatique;affectation automatique
-description: Découvrez comment une activité [!UICONTROL Affectation automatique] dans  [!DNL Adobe Target]  identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant.
+description: Découvrez comment une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant.
 title: Les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] peuvent-elles obtenir des résultats plus rapides et un chiffre d’affaires plus élevé ?
 feature: Auto-Allocate
 exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
-TQID: https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk
+TQID: 'https://experienceleague.adobe.com/aSxZ0Zp3cm0x-fVBXHWW4OiXd3Riz-tuhBiw0f8m4lk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f2d0aafb-18af-41a0-a32e-2788eafacc2b
+    internal-label: Auto-allocate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '561'
 ht-degree: 0%
-
 ---
-
 # L’[!UICONTROL &#x200B; Affectation automatique] vous donne des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel
 
 Avec une activité A/B manuelle, vous risquez de perdre des conversions, car vous ne pouvez pas diffuser l’expérience gagnante à l’ensemble de votre audience tant que l’activité n’est pas terminée. Votre distribution du trafic reste fixe même après avoir reconnu que certaines expériences sont plus performantes que d’autres, et l’activité doit exécuter l’intégralité de son cours avant que vous puissiez agir sur une expérience gagnante.

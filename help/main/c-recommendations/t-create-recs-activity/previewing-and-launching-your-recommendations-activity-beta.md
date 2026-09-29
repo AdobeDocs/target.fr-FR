@@ -1,17 +1,24 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;statut;critères;algorithme
-description: Découvrez comment prévisualiser votre activité  [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
+description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # Prévisualisation et lancement de votre activité Recommandations
 
 Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT) contenant [Offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualiser vos recommandations afin de vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.

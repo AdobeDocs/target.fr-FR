@@ -5,13 +5,20 @@ title: Comment utiliser les URL d’aperçu d’expérience dans les activités 
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 48%
-
 ---
-
 # Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
 
 Des URL d’aperçu d’expérience peuvent être générées pour [!DNL Target] activités [!UICONTROL Automated Personalization] afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit active à des fins d’aperçu et d’assurance qualité. Les URL de prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.

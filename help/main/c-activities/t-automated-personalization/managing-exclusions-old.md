@@ -1,18 +1,27 @@
 ---
 keywords: dédupliquer;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;groupe d’exclusion;
-description: Gérez les exclusions dans les activités  [!DNL Adobe Target]  (AP). Créez des groupes d’exclusion et excluez les offres en double, les expériences spécifiques et le contenu par défaut.
+description: Gérez les exclusions dans [!DNL Adobe Target] activités [!UICONTROL Automated Personalization] (AP). Créez des groupes d’exclusion et excluez les offres en double, les expériences spécifiques et le contenu par défaut.
 title: Comment gérer les exclusions dans les activités  ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 47%
-
 ---
-
 # Gestion des exclusions
 
 Gérez les exclusions en créant des groupes d’exclusions, en excluant les offres en double, en excluant les expériences spécifiques et en excluant le contenu par défaut dans les activités  (AP) de [!DNL Adobe Target].

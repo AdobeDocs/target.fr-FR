@@ -1,25 +1,32 @@
 ---
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
-description: Découvrez comment utiliser le  [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une  [!DNL Recommendations] .
-title: Comment créer une activité  [!DNL Recommendations]  ?
+description: Découvrez comment utiliser le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations].
+title: Comment créer une activité [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-TQID: https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA
+TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Troubleshooting
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1302
+source-wordcount: '1306'
 ht-degree: 53%
-
 ---
-
 # Création d’une activité [!DNL Recommendations]
 
 Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page compatible avec les [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
@@ -170,7 +177,7 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
    * activer l’activité ;
    * modifier l’activité ;
-   * Partager l’activité sur votre flux Experience Cloud
+   * Partager l’activité dans votre flux Experience Cloud
    * AQ de l’activité
    * afficher vos URL d’expérience ;
    * télécharger des données ;

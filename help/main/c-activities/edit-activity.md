@@ -4,20 +4,23 @@ description: Découvrez les différentes manières de modifier une activité exi
 title: Comment modifier une activité ?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-TQID: https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA
+TQID: 'https://experienceleague.adobe.com/joqYeCK6Zy6Xz27eRKodA4M1kfPMi-AJu84wNXsGgQA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
+    internal-label: Activities
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1049
+source-wordcount: '1049'
 ht-degree: 21%
-
 ---
-
 # Modification d’une activité
 
 Découvrez comment modifier les activités existantes dans [!DNL Adobe Target]. Cet article couvre les différentes méthodes disponibles dans l’interface [!DNL Target] pour modifier les activités. Que vous mettiez à jour des expériences, ajustiez des règles de ciblage ou configuriez des objectifs, [!DNL Target] vous assure que vos modifications sont enregistrées en toute sécurité avant l’activation.
@@ -70,33 +73,33 @@ Tenez compte des informations suivantes lors de l’utilisation de la fonctionna
 
 * Si vous copiez une activité dans le même espace de travail ou depuis l’espace de travail par défaut vers un espace de travail autre que celui par défaut, l’Assistant Activité s’ouvre automatiquement. Dans les copies entre espaces de travail, il se peut que vous deviez uniquement mettre à jour les propriétés de l’activité.
 * Lorsqu’une activité est copiée d’un espace de travail non par défaut vers un autre espace de travail (par défaut ou non), l’Assistant Activité s’ouvre et une saisie manuelle est nécessaire pour terminer la configuration :
-   * **[!UICONTROL Propriétés]** : les propriétés peuvent différer selon les espaces de travail. Cette situation peut déclencher un avertissement :
+  * **[!UICONTROL Propriétés]** : les propriétés peuvent différer selon les espaces de travail. Cette situation peut déclencher un avertissement :
 
-      * Dans le [!UICONTROL Compositeur d’expérience d’après les formulaires], des avertissements s’affichent directement dans l’interface utilisateur pour une visibilité immédiate.
+    * Dans le [!UICONTROL Compositeur d’expérience d’après les formulaires], des avertissements s’affichent directement dans l’interface utilisateur pour une visibilité immédiate.
 
-        ![Avertissement relatif à l’espace de travail basé sur les formulaires](/help/main/c-activities/assets/form-based-warning.png)
+      ![Avertissement relatif à l’espace de travail basé sur les formulaires](/help/main/c-activities/assets/form-based-warning.png)
 
-      * Dans le compositeur d’expérience visuelle, des avertissements s’affichent lorsque vous cliquez sur [!UICONTROL Configurer] > [!UICONTROL Propriétés].
+    * Dans le compositeur d’expérience visuelle, des avertissements s’affichent lorsque vous cliquez sur [!UICONTROL Configurer] > [!UICONTROL Propriétés].
 
-        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+      ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
 
-        Pour résoudre ce problème, cliquez sur [!UICONTROL Ajouter/Supprimer] afin que seules les propriétés disponibles dans l’espace de travail de destination soient affichées pour la sélection.
+      Pour résoudre ce problème, cliquez sur [!UICONTROL Ajouter/Supprimer] afin que seules les propriétés disponibles dans l’espace de travail de destination soient affichées pour la sélection.
 
-   * **Audiences et offres** : lors de la copie d’une activité dans un nouvel espace de travail, toutes les audiences et offres [!DNL Target] ou ad hoc associées de l’espace de travail d’origine sont dupliquées à l’aide du format : `<Entity Name> Copy <Date>` pour les audiences [!DNL Target] et pour les `<Entity Name>` d’offres ad hoc.
+  * **Audiences et offres** : lors de la copie d’une activité dans un nouvel espace de travail, toutes les audiences et offres [!DNL Target] ou ad hoc associées de l’espace de travail d’origine sont dupliquées à l’aide du format : `<Entity Name> Copy <Date>` pour les audiences [!DNL Target] et pour les `<Entity Name>` d’offres ad hoc.
 
-     Détails du comportement :
+    Détails du comportement :
 
-      * Les audiences et les offres copiées n’apparaissent pas dans les listes [!UICONTROL Audiences] et [!UICONTROL Offres] tant que l’activité n’a pas été enregistrée et rouverte.
-      * Ces entités ne peuvent pas être modifiées immédiatement après la copie. Il se peut que les clients voient du contenu vide dans le VEC pour ces éléments au cours de la session de modification initiale.
-      * Si nécessaire, les clients peuvent remplacer les audiences ou les offres copiées par d’autres à partir de l’espace de travail de destination.
+    * Les audiences et les offres copiées n’apparaissent pas dans les listes [!UICONTROL Audiences] et [!UICONTROL Offres] tant que l’activité n’a pas été enregistrée et rouverte.
+    * Ces entités ne peuvent pas être modifiées immédiatement après la copie. Il se peut que les clients voient du contenu vide dans le VEC pour ces éléments au cours de la session de modification initiale.
+    * Si nécessaire, les clients peuvent remplacer les audiences ou les offres copiées par d’autres à partir de l’espace de travail de destination.
 
-     Ce processus garantit une duplication plus fluide des activités entre les espaces de travail tout en conservant une certaine flexibilité pour la personnalisation.
+    Ce processus garantit une duplication plus fluide des activités entre les espaces de travail tout en conservant une certaine flexibilité pour la personnalisation.
 
-     Lors de la copie d’une activité, les audiences non ciblées et les offres qui ne sont pas enregistrées dans l’espace de travail actuel ou l’espace de travail par défaut doivent être remplacées manuellement.
+    Lors de la copie d’une activité, les audiences non ciblées et les offres qui ne sont pas enregistrées dans l’espace de travail actuel ou l’espace de travail par défaut doivent être remplacées manuellement.
 
-     Le remplacement manuel de ces audiences et offres non cibles garantit que seules des entités accessibles valides sont utilisées dans l’activité copiée et empêche les erreurs lors de la modification ou de la diffusion.
+    Le remplacement manuel de ces audiences et offres non cibles garantit que seules des entités accessibles valides sont utilisées dans l’activité copiée et empêche les erreurs lors de la modification ou de la diffusion.
 
-     ![Message d&#39;avertissement](/help/main/c-activities/assets/copy.png)
+    ![Message d&#39;avertissement](/help/main/c-activities/assets/copy.png)
 
 >[!NOTE]
 >

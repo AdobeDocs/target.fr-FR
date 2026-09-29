@@ -1,16 +1,17 @@
 ---
 title: Configuration de CJA pour le reporting des indicateurs de fonctionnalité
 description: Configurez le flux de données, la connexion et la vue de données requis pour afficher les rapports d’indicateur de fonctionnalité et de groupe de fonctionnalités via Customer Journey Analytics.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 57bd1106-2b3d-4e03-882a-acfef1c0df66
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
-
 ---
-
 # Configuration de CJA pour le reporting des indicateurs de fonctionnalité {#set-up-cja-reporting}
 
 L’intégration entre Flags et Adobe Customer Journey Analytics (CJA) fournit un moyen unifié de mesurer l’impact commercial des variantes d’indicateur de fonctionnalité. Appliquez les mesures de succès CJA aux rapports Flags à tout moment et tirez parti des fonctionnalités de Customer Journey Analytics, telles que le panneau [&#x200B; Expérimentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation), pour évaluer les performances de l’expérience et comprendre comment les variantes de fonctionnalités influencent le comportement des clients.

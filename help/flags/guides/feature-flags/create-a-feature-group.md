@@ -1,16 +1,17 @@
 ---
 title: Créer un groupe de fonctionnalités
 description: Découvrez comment créer un groupe de fonctionnalités dans les indicateurs afin de gérer plusieurs indicateurs de fonctionnalités dans les applications de votre équipe en une seule entité.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
-
 ---
-
 # Créer un groupe de fonctionnalités {#create-feature-group}
 
 ## Conditions préalables {#prerequisites}

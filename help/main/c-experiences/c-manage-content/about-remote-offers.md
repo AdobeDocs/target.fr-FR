@@ -1,23 +1,31 @@
 ---
 keywords: offre distante;contenu mis en cache;contenu dynamique;type d’url
-description: Découvrez comment exploiter les offres distantes dans  [!DNL Target]  héberger du contenu externe à partir d’un CMS ou d’autres systèmes.
+description: Découvrez comment exploiter les offres distantes dans [!DNL Target] pour héberger du contenu externe à partir d’un CMS ou d’autres systèmes.
 title: Comment Créer Des Offres À Distance ?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-TQID: https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I
+TQID: 'https://experienceleague.adobe.com/maKcis5ROOKMcc3-axxGv1qJIQzC6o-Qc-Cjl8clQ1I'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1146'
 ht-degree: 24%
-
 ---
-
 # Créer des offres distantes
 
 Utilisez des offres distantes pour héberger du contenu en dehors de [!DNL Adobe Target], ce qui [!DNL Target] permet de référencer et de diffuser ce contenu sur les sites web des utilisateurs et utilisatrices. Ce contenu peut se trouver dans un système de gestion de contenu (CMS) ou un autre système pour des raisons de facilité d’utilisation ou de sécurité.
@@ -41,14 +49,14 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
 * Les offres distantes sont prises en charge dans :
 
-   * Activités A/B
-   * Activités de ciblage d’expérience (XT)
-   * Workflows basés sur des formulaires
+  * Activités A/B
+  * Activités de ciblage d’expérience (XT)
+  * Workflows basés sur des formulaires
 
 * Les offres distantes ne sont pas prises en charge dans :
 
-   * [Fonctionnalités Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), ciblage automatique et Recommendations)
-   * Multivariate Testing (MVT), en raison de la dépendance au VEC (compositeur d’expérience visuelle), qui ne prend pas en charge les offres distantes.
+  * [Fonctionnalités Premium](/help/main/c-intro/intro.md#premium) (Automated Personalization (AP), ciblage automatique et Recommendations)
+  * Multivariate Testing (MVT), en raison de la dépendance au VEC (compositeur d’expérience visuelle), qui ne prend pas en charge les offres distantes.
 
 * Si votre offre réside dans le même domaine que les requêtes [!DNL Target], l’utilisation de l’option [!UICONTROL Mis en cache] vous permet d’utiliser des URL relatives pour décrire l’emplacement de votre offre.
 

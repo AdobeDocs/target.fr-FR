@@ -1,16 +1,17 @@
 ---
 title: Définir une fonctionnalité à déployer progressivement
 description: Découvrez comment configurer un déploiement progressif en fonction d’un pourcentage pour un indicateur de fonctionnalité dans Indicateurs.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 3%
-
 ---
-
 # Définir une fonctionnalité à déployer progressivement {#gradual-rollout-feature}
 
 Le pourcentage de déploiement d’un indicateur de fonctionnalité est configuré dans l’onglet **Détails de base**. Vous pouvez ajuster cette valeur à la hausse ou à la baisse à tout moment au fur et à mesure du déploiement.
