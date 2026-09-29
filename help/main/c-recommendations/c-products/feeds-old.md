@@ -1,17 +1,24 @@
 ---
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
-description: Découvrez comment les flux importent des entités dans  [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux de recherche de produit Google et  [!DNL Analytics]  classifications de produits.
-title: Comment utiliser [!UICONTROL Flux] dans  [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez comment les flux importent des entités dans [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux de recherche de produit Google et de classifications de produit [!DNL Analytics].
+title: Comment utiliser [!UICONTROL Flux] dans [!DNL Target Recommendations] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2572'
+source-wordcount: '2580'
 ht-degree: 45%
-
 ---
-
 # Flux
 
 Utilisez des flux pour importer des entités dans [!DNL Adobe Target] [!DNL Recommendations]. Les entités peuvent être envoyées à l’aide de fichiers CSV, du format de flux de recherche de produit Google et de classifications de produit [!DNL Adobe Analytics].
@@ -31,7 +38,7 @@ Ces éléments de données sur chaque élément peuvent ensuite être utilisés 
 * Trier les éléments dans différentes collections
 * Appliquer des exclusions aux recommandations
 
-Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
+Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans le cas rare où les données du flux d’entités et les données mbox arrivent en même temps, les données mbox sont utilisées.
 
 La liste [!UICONTROL Flux] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
@@ -121,7 +128,7 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -212,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
+La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
@@ -232,10 +239,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    ![Boîte de dialogue Créer un flux](assets/CreateFeed.png)
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source **&#x200B;**.
+1. Sélectionnez un type de Source ****.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit &#x200B;]
+   * [!UICONTROL Flux de produit ]
    * [!UICONTROL Classifications Analytics]
 
    Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
@@ -246,10 +253,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
      Paramètres du serveur FTP pris en charge :
 
-      * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
-      * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
-      * SFTP n’est pas pris en charge.
-      * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
+     * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
+     * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
+     * SFTP n’est pas pris en charge.
+     * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
 
    * **URL** : si vous sélectionnez [!UICONTROL URL], spécifiez l’URL.
 
@@ -296,7 +303,7 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL  Synchronisation ] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
 | [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
 | [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
@@ -328,15 +335,15 @@ Prenons les exemples suivants :
 
 **Exemple 1 :**
 
-* Premier jour : processus quotidiens d&#39;alimentation à 9 :00 HNP.
-* Jour deux : il est 15 :30 et le flux n&#39;a pas fonctionné depuis hier à 9:00h.
+* Premier jour : processus quotidiens d’alimentation à 9 h (heure du Pacifique).
+* 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
 **Exemple 2 :**
 
-* 1er janvier : processus mensuels d&#39;alimentation à 9 :00 HNP.
-* 3 février : il est 10:00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
+* 1er janvier : processus mensuels d&#39;alimentation à 9 h (heure du Pacifique)
+* 3 février : il est 10h00 et le flux n&#39;a pas fonctionné depuis un mois, un jour et une heure auparavant.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ un jour et une heure. Même si cela représente seulement (31+(1/25))/30 = 1,03 % du paramètre de fréquence, le délai d’un jour maximum a été dépassé.
 
@@ -351,7 +358,7 @@ Cette vidéo traite des sujets suivants :
 * Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/33898?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Créer un flux (6:44) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -360,4 +367,4 @@ Cette vidéo traite des sujets suivants :
 * Configurer un flux
 * Déterminer le type de flux à utiliser
 
->[!VIDEO](https://video.tv.adobe.com/v/33897?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

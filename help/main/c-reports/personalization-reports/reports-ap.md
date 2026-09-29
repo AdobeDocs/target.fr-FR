@@ -2,24 +2,30 @@
 keywords: Ciblage;rapports AP;rapports automated personalization;rapport de niveau activité;rapport de niveau offre;rapport des détails de l’offre;questions fréquentes
 description: Découvrez comment interpréter le rapport de synthèse Automated Personalization dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser les rapports récapitulatifs d’Automated Personalization ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-TQID: https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw
+TQID: 'https://experienceleague.adobe.com/Gj9Jo0NHnSxGE4BpvFbd0SudYjbkP4yrV3GFHWHNPjw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 21%
-
 ---
-
 # Rapports de synthèse d’Automated Personalization
 
 Des rapports de synthèse spécialisés sont disponibles pour les utilisateurs des activités  dans [!DNL Adobe Target].
@@ -51,7 +57,7 @@ Les règles standard de l’interprétation des résultats des tests A/B s’app
 
 Le [!UICONTROL rapport au niveau de l’offre] de l’expérience Forêt aléatoire compare les performances de chaque offre à laquelle est appliqué l’algorithme à la même offre diffusée de manière aléatoire (contrôle). Par conséquent, les offres ne doivent pas être comparées les unes aux autres dans cette vue.
 
-Cliquez sur l’algorithme d’expérience (Forêt aléatoire ou contrôle) pour afficher le rapport [!UICONTROL &#x200B; Niveau de l’offre &#x200B;].
+Cliquez sur l’algorithme d’expérience (Forêt aléatoire ou contrôle) pour afficher le rapport [!UICONTROL  Niveau de l’offre ].
 
 >[!NOTE]
 >
@@ -63,7 +69,7 @@ Les offres peuvent être affichées dans des [groupes de rapports](/help/main/c-
 
 Cliquez sur l’icône [!UICONTROL Segments automatisés]. Ce rapport montre comment différents visiteurs réagissent différemment aux offres/expériences dans votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
-Pour plus d’informations, voir [&#x200B; Rapport Segments automatisés &#x200B;](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir [ Rapport Segments automatisés ](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 

@@ -4,25 +4,34 @@ description: Découvrez comment créer des offres JSON à utiliser dans le [!UIC
 title: Comment créer des offres JSON ?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-TQID: https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU
+TQID: 'https://experienceleague.adobe.com/BI7N44iK4Ce2xOiz1vgh4O9efGZFAvK83RsL1368ItU'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '506'
 ht-degree: 23%
-
 ---
-
 # Création d’offres JSON
 
 Créez des offres JSON dans la [!UICONTROL bibliothèque des offres] en [!DNL Adobe Target] pour les utiliser dans le [!UICONTROL compositeur d’expérience d’après les formulaires].
@@ -35,7 +44,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 
 * Actuellement, les offres JSON sont disponibles uniquement pour les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage d’expérience] (XT).
 * Les offres JSON ne peuvent être utilisées que dans les [activités basées sur des formulaires](/help/main/c-experiences/form-experience-composer.md).
-* Les offres JSON peuvent être récupérées directement lorsque vous utilisez les [API côté serveur et SDK Node.js, Java, .NET et Python mobiles](https://experienceleague.adobe.com/fr/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
+* Les offres JSON peuvent être récupérées directement lorsque vous utilisez les [API côté serveur et SDK Node.js, Java, .NET et Python mobiles](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}.
 * Dans le navigateur, les offres JSON peuvent uniquement être récupérées via at.js 1.2.3 (ou version ultérieure) et à l’aide de [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank} en filtrant les actions à l’aide de l’action `setJson` .
 * Les offres JSON sont diffusées sous forme d’objets JSON natifs plutôt que de chaînes. Les consommateurs de ces objets ne doivent plus traiter ces objets en tant que chaînes et les convertir en objets JSON.
 * Contrairement aux autres offres (par exemple, les offres HTML), les offres JSON ne sont pas appliquées automatiquement parce qu’il s’agit d’offres non visuelles. Les développeurs doivent écrire du code pour obtenir explicitement l’offre à l’aide de [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}.
@@ -45,7 +54,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]**.
 1. Cliquez sur **[!UICONTROL Créer une offre]** > **[!UICONTROL Offre JSON]**.
 1. Saisissez le nom de l’offre.
-1. (Conditionnel) Si vous disposez d’un compte [[!DNL Target] Premium](/help/main/c-intro/intro.md#premium), choisissez l’espace de travail [&#x200B; souhaité](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (Conditionnel) Si vous disposez d’un compte [[!DNL Target] Premium](/help/main/c-intro/intro.md#premium), choisissez l’espace de travail [ souhaité](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
 1. (Conditionnel) Sélectionnez les attributs de profil souhaités.
 1. Saisissez ou copiez votre code JSON dans la zone **[!UICONTROL Code]**.
 1. Cliquez sur **[!UICONTROL Créer]**.

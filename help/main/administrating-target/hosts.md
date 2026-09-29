@@ -5,30 +5,41 @@ title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-TQID: https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo
+TQID: 'https://experienceleague.adobe.com/xgqNVseu3l-0JjsJuUp74zkyYDAs3klz1YllL64vHWo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 21%
-
 ---
-
 # Hôtes
 
 Organisez vos sites et environnements de pré-production pour une gestion facile et des rapports séparés en [!DNL Adobe Target].
@@ -50,8 +61,8 @@ Pour reconnaître un hôte et l’ajouter à la liste [!UICONTROL Hosts], les co
 * Au moins une requête [!DNL Target] doit exister sur l’hôte
 * Une page sur l’hôte doit contenir les éléments suivants :
 
-   * Une référence at.js précise
-   * Une requête [!DNL Target] ou une requête [!DNL Target] globale générée automatiquement
+  * Une référence at.js précise
+  * Une requête [!DNL Target] ou une requête [!DNL Target] globale générée automatiquement
 
 * La page contenant la demande de [!DNL Target] doit être consultée dans un navigateur
 
@@ -102,15 +113,15 @@ Si une requête [!DNL Target] est effectuée sur un hôte non autorisé, l’app
 
 >[!IMPORTANT]
 >
->**Bonnes pratiques de sécurité** : si vous utilisez la fonctionnalité ubox de [!DNL Target], cette contrôle également la liste des domaines vers lesquels vos [redirecteurs](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=fr){target=_blank} peuvent naviguer. Veillez à ajouter tous les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre implémentation. Si la place sur la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger contre les redirections malveillantes potentielles.
+>**Bonnes pratiques de sécurité** : si vous utilisez la fonctionnalité ubox de [!DNL Target], cette contrôle également la liste des domaines vers lesquels vos [redirecteurs](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank} peuvent naviguer. Veillez à ajouter tous les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre implémentation. Si la place sur la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger contre les redirections malveillantes potentielles.
 >
 >La liste autorisée prévaut sur les environnements. Effacez tous les hôtes avant d’utiliser la fonction de place sur la liste autorisée, puis seuls les hôtes autorisés par la liste autorisée apparaissent dans votre liste d’hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
 Il arrive parfois que les domaines d’autres sites s’affichent dans vos environnements. Un domaine apparaît dans la liste si le domaine appelle at.js. Si, par exemple, un utilisateur copie l’une de vos pages web sur son serveur, ce domaine est répertorié dans votre environnement. Les domaines de robots, sites de traduction ou disques durs locaux peuvent également s’afficher.
 
-Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. Si aucun environnement n’est transmis, l’hôte de l’appel est défini par défaut sur [!UICONTROL &#x200B; Production &#x200B;].
+Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. Si aucun environnement n’est transmis, l’hôte de l’appel est défini par défaut sur [!UICONTROL  Production ].
 
-Vous pouvez également créer une qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer de requêtes [!DNL Target] à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL &#x200B; L’hôte ne contient pas &#x200B;].
+Vous pouvez également créer une qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer de requêtes [!DNL Target] à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL  L’hôte ne contient pas ].
 
 >[!NOTE]
 >

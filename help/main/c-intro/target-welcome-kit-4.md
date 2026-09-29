@@ -1,33 +1,47 @@
 ---
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
-description: Lisez les conseils de notre panel d’experts sur l’utilisation d’Adobe  [!DNL Target]  dans le cadre de vos efforts de test et de personnalisation.
+description: Lisez les conseils de notre panel d’experts sur l’utilisation d’Adobe [!DNL Target] dans le cadre de vos efforts de test et de personnalisation.
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-TQID: https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0
+TQID: 'https://experienceleague.adobe.com/c7wWYsy-0l8BCAlmPxtqthYjD1R6CiCsHEBrTYCjOR0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Audience segmentation
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 73%
-
+source-wordcount: '2961'
+ht-degree: 72%
 ---
-
 # Chapitre 4 : Conseils d’utilisation de Target
 
 Notre travail avec de nombreux utilisateurs [!DNL Target] nous a permis découvrir des moyens d’optimiser la valeur de votre solution [!DNL Target]. Nous les avons résumés dans les nombreux conseils que nous avons inclus dans ce chapitre. Conservez cette liste, même si vous n’êtes pas prêt à mettre toutes ces idées en application immédiatement. Plus vous utiliserez la solution, plus votre programme évoluera et plus vous comprendrez comment ces conseils peuvent vous aider à obtenir de meilleurs résultats avec [!DNL Target].

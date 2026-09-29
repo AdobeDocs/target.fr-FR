@@ -1,21 +1,28 @@
 ---
 keywords: Ciblage;succès;mesure de conversion;mesure de score de page;mesure pages vues;mesures de chiffre d’affaires;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès;paramètres avancés;dépendance;dépendant;Incrémenter le décompte et maintenir l’utilisateur dans l’activité;Incrémenter le décompte, Libérer l’utilisateur et Autoriser la reprise;incrémenter le décompte, Libérer l’utilisateur et Interdire la reprise
-description: Découvrez les mesures de succès dans  [!DNL Target] qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
+description: Découvrez les mesures de succès dans Adobe [!DNL Target] qui vous aident à déterminer le succès d’une activité. Les mesures de succès comprennent la conversion, le chiffre d’affaires, les pages vues, la notation personnalisée et le temps passé sur le site.
 title: Que Sont Les Mesures De Succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
+    internal-label: Success metrics
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1279'
 ht-degree: 40%
-
 ---
-
 # Mesures de succès
 
 Dans [!DNL Adobe Target], les mesures de succès sont des paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui vous permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité [!DNL Target].
 
-Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels d’achat, mais aussi avec l’engagement des visiteurs et visiteuses ou des clientes et clients.
+Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux funnels d’achat, mais aussi avec l’engagement des visiteurs et visiteuses ou des clientes et clients.
 
 ## Aperçu
 
@@ -23,7 +30,7 @@ Dans [!DNL Target], les mesures de succès sont préconfigurées avec les option
 
 Par défaut, les événements de conversion sont définis sur « [!UICONTROL Incrémenter le décompte et maintenir l’utilisateur en activité] ». Les conversions ne sont comptabilisées qu’une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu de l’activité.
 
-Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL &#x200B; Incrémenter le comptage et maintenir l’utilisateur dans l’activité &#x200B;] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
+Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL  Incrémenter le comptage et maintenir l’utilisateur dans l’activité ] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 >[!NOTE]
 >

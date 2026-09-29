@@ -1,17 +1,24 @@
 ---
 keywords: estimateur de trafic;automated personalization;ap;estimer le trafic
-description: Utilisez l’ [!DNL Adobe Target] [!UICONTROL Estimateur de trafic] pour déterminer si vous disposez d’un trafic suffisant pour que votre activité [!UICONTROL Automated Personalization] réussisse.
-title: Quelle quantité de trafic est nécessaire pour réussir une activité  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Utilisez l’[!DNL Adobe Target] [!UICONTROL Estimateur de trafic] pour déterminer si vous disposez d’un trafic suffisant pour que votre activité [!UICONTROL Automated Personalization] réussisse.
+title: Quelle quantité de trafic est nécessaire pour réussir une activité [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '782'
 ht-degree: 9%
-
 ---
-
 # Estimation du trafic requis pour réussir un test
 
 L’[!DNL Adobe Target] [!UICONTROL Estimateur de trafic] fournit des commentaires qui vous permettent de savoir si vous disposez d’un trafic suffisant pour que votre activité [!UICONTROL Automated Personalization] (AP) réussisse.
@@ -30,7 +37,7 @@ N’oubliez pas que [!DNL Target] diffuse les expériences de manière aléatoir
 
    L’[!UICONTROL Estimateur de trafic] s’ouvre. Cliquez à nouveau sur **[!UICONTROL Trafic]** pour masquer l’[!UICONTROL Estimateur de trafic].
 
-   ![&#x200B; Interface utilisateur de l’estimateur de trafic &#x200B;](assets/ap_est.png)
+   ![ Interface utilisateur de l’estimateur de trafic ](assets/ap_est.png)
 
 1. Spécifiez le taux de conversion type (ou le taux de conversion attendu de cette activité), les impressions d’activité estimées par jour et la durée du test.
 

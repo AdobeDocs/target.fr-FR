@@ -1,16 +1,23 @@
 ---
 keywords: bibliothèque de contenu;ressources;rechercher;filtrer
-description: Découvrez comment rechercher des offres de code et d’image dans la bibliothèque  [!DNL Target] Offres .
+description: Découvrez comment rechercher des offres de code et d’image dans la bibliothèque d’offres [!DNL Target] d’Adobe.
 title: Comment rechercher du contenu dans la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '265'
 ht-degree: 12%
-
 ---
-
 # Recherche et filtrage de contenu
 
 Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target].
@@ -28,7 +35,7 @@ Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offre
 
 1. (Facultatif) Basculez entre la vue [!UICONTROL Carte] et la vue [!UICONTROL Liste], cliquez sur l’icône [!UICONTROL Vue Carte] ou l’icône [!UICONTROL Vue Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres d’affichage] pour configurer plus en détail les colonnes lors de l’affichage de la [!UICONTROL Vue Liste].
 
-   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL &#x200B; Liste &#x200B;] :
+   L’illustration suivante présente les options disponibles lors de l’affichage de la vue [!UICONTROL  Liste ] :
 
    ![Options de la vue Liste](/help/main/c-experiences/c-manage-content/assets/view-settings-options.png)
 

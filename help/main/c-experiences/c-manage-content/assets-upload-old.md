@@ -4,13 +4,20 @@ description: Découvrez comment télécharger des images à utiliser comme offre
 title: Comment télécharger du contenu vers la bibliothèque des offres ?
 feature: Experiences and Offers
 exl-id: c0fb26ca-4b98-4558-81c6-d84cf6841903
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 17%
-
 ---
-
 # Téléchargement de contenu
 
 Vous pouvez charger des images vers la liste [!UICONTROL Offres d’image] dans [!DNL Adobe Target] à utiliser comme offres d’image dans les activités . Vous pouvez également supprimer des offres d’image lorsqu’elles ne sont plus nécessaires dans les activités .
@@ -39,7 +46,7 @@ Dans la vue [!UICONTROL Liste], cliquez sur l’image miniature située sur le c
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 

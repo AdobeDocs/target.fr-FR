@@ -1,17 +1,24 @@
 ---
 keywords: Automated Personalization;ap;prévisualisation;exclure l’expérience
-description: Découvrez comment prévisualiser chaque expérience dans une activité  (AP) dans à l [!DNL Adobe Target] aide du [!UICONTROL compositeur d’expérience visuelle] (VEC).
-title: Comment puis-je prévisualiser les expériences  dans le VEC ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez comment prévisualiser chaque expérience dans une activité [!UICONTROL ] (AP) dans [!DNL Adobe Target] à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC).
+title: Comment puis-je prévisualiser les expériences [!UICONTROL ] dans le VEC ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 12%
-
 ---
-
 # Prévisualiser des expériences dans des activités  dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC)
 
 Comme [!DNL Adobe Target] activités [!UICONTROL Automated Personalization] (AP) comparent plusieurs offres sur une page, il est utile de prévisualiser la page avec chaque expérience.

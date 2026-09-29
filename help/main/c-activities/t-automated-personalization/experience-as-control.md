@@ -1,31 +1,42 @@
 ---
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
-description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de  (AP) ou de [!UICONTROL ciblage automatique] dans  [!DNL Adobe Target].
-title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez comment sélectionner une expérience à utiliser comme contrôle lors de la création d’une activité de [!UICONTROL ] (AP) ou de [!UICONTROL ciblage automatique] dans [!DNL Adobe Target].
+title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-TQID: https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA
+TQID: 'https://experienceleague.adobe.com/a-lIVDWxeAi-VCp7-lLD-zaClCDCKJGfa25XMKF0vZA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 840
+source-wordcount: '840'
 ht-degree: 36%
-
 ---
-
 # Sélectionnez le contrôle de votre activité  ou [!UICONTROL Ciblage automatique]
 
-Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité de [](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [[!UICONTROL ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Cette fonctionnalité vous permet d’acheminer le trafic de contrôle vers les expériences spécifiques, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers ce contrôle.
 
@@ -39,7 +50,7 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 
 ## Définition d’une expérience spécifique comme contrôle
 
-1. Lors de la création ou de la modification d’une activité [&#x200B; &#x200B;](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
+1. Lors de la création ou de la modification d’une activité [ ](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) ou [[!UICONTROL Ciblage automatique]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md), configurez les expériences selon vos besoins.
 1. Sur la page [!UICONTROL Ciblage] (étape 2 du workflow en trois parties), cliquez sur l’expérience de contrôle pour afficher les options [!UICONTROL Contrôle] dans le volet de droite.
 
    ![Panneau de contrôle](/help/main/c-activities/t-automated-personalization/assets/control.png)
@@ -52,7 +63,7 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 
    Pour un contrôle d’expérience spécifique, 10 à 30 % sont conseillés.
 
-1. Passez à la page [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;].
+1. Passez à la page [!UICONTROL  Objectifs et paramètres ].
 
 ## Limites et considérations connues
 
@@ -66,6 +77,6 @@ Gardez les points suivants à l’esprit lors de l’utilisation d’une expéri
 * Étant donné que le trafic de contrôle est dirigé vers une seule expérience ou un seul ensemble d’offres lorsque vous sélectionnez l’expérience comme contrôle (par rapport à aléatoire, où le montant du trafic de contrôle est fractionné en fonction du nombre d’expériences ou d’offres dans votre activité), il n’est généralement pas nécessaire d’utiliser autant de trafic pour effectuer un flux vers le contrôle. 10 % est un bon point de départ.
 * Si vous effectuez l’une des activités suivantes pour une activité en direct avec une expérience spécifique comme contrôle, le contrôle est automatiquement réinitialisé sur des expériences diffusées de manière aléatoire (au lieu de l’expérience spécifique précédemment sélectionnée) :
 
-   * Suppression d’une expérience
-   * Supprimer un emplacement ou une offre ( uniquement)
-   * Exclure une expérience manuellement, par le biais de la suppression des offres en double ou d’un groupe d’exclusion ( uniquement)
+  * Suppression d’une expérience
+  * Supprimer un emplacement ou une offre ( uniquement)
+  * Exclure une expérience manuellement, par le biais de la suppression des offres en double ou d’un groupe d’exclusion ( uniquement)

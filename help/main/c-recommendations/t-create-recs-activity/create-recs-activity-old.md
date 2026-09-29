@@ -1,17 +1,24 @@
 ---
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
-description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience visuelle (VEC) d’Adobe pour créer une activité Recommendations directement sur une page compatible avec  [!DNL Target].
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target] pour créer une activité Recommendations directement sur une page compatible avec les [!DNL Target].
 title: Comment créer une activité Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 59%
-
 ---
-
 # Création d’une activité de recommandations
 
 Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
@@ -30,7 +37,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >L’option [[!UICONTROL [Choisir le lieu de travail]]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) de l’illustration précédente est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
+   >L’option [!UICONTROL [Choisir le lieu de travail]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) de l’illustration précédente est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
 
 1. (Conditionnel) Si vous êtes client [Target Premium](/help/main/c-intro/intro.md#premium), choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -77,7 +84,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -162,7 +169,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * activer l’activité ;
    * modifier l’activité ;
-   * Partager l’activité sur votre flux Experience Cloud
+   * Partager l’activité dans votre flux Experience Cloud
    * AQ de l’activité
    * afficher vos URL d’expérience ;
    * télécharger des données ;
@@ -178,4 +185,4 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 ## Vidéo de formation : créer une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

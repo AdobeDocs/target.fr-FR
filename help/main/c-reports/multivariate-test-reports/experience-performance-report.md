@@ -1,26 +1,31 @@
 ---
 keywords: test multivarié, mvt, rapport de performance de l’expérience
-description: Découvrez comment utiliser le rapport Performances d’expérience pour les activités  [!DNL Target] de ciblage d’expérience, qui présente les performances de chaque expérience de l’activité.
+description: Découvrez comment utiliser le rapport Performances d’expérience pour les activités Adobe [!DNL Target] de ciblage d’expérience, qui présente les performances de chaque expérience de l’activité.
 title: Comment utiliser le rapport de performance d’expérience pour les tests multivariés ?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-TQID: https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg
+TQID: 'https://experienceleague.adobe.com/H9FsCRlv9l2tdooTn2KWjTRP84XR6lthSJZd59KtBbg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 331
-ht-degree: 71%
-
+source-wordcount: '333'
+ht-degree: 74%
 ---
-
 # Rapport [!UICONTROL Performances d’expérience] (MVT)
 
-Le rapport [!UICONTROL &#x200B; Performances d’expérience &#x200B;] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
+Le rapport [!UICONTROL  Performances d’expérience ] montre les performances de chaque expérience dans l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
 
 Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]** pour ouvrir l’expérience dans un onglet du navigateur.
 
@@ -42,6 +47,6 @@ Sous le graphique, un tableau indique le nombre de participants qui ont vu chaqu
 
 ## Vidéo de formation : créer un test MVT ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit à partir de la :20.
+Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit dans la vidéo à partir de 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

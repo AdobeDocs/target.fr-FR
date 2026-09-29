@@ -1,31 +1,39 @@
 ---
 keywords: environnement;dépannage;bonnes pratiques;ubox;redirections;redirection;liste blanche;liste bloquée;
-description: Découvrez comment utiliser les environnements dans Adobe  [!DNL Target]  organiser vos sites et vos environnements de pré-production pour une gestion facile et des rapports séparés.
+description: Découvrez comment utiliser les environnements dans Adobe [!DNL Target] pour organiser vos sites et vos environnements de pré-production afin de faciliter la gestion et la création de rapports séparés.
 title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-TQID: https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0
+TQID: 'https://experienceleague.adobe.com/ve3zhtylLWwRv890FaptsA9shmINkioM6-Yrq-nmmm0'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 46%
-
 ---
-
 # Environnements
 
 Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
@@ -42,7 +50,7 @@ Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **
 
 ## Ajout d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur **[!UICONTROL Ajouter un environnement]**.
+1. Dans la liste [!UICONTROL  Environnements ], cliquez sur **[!UICONTROL Ajouter un environnement]**.
 1. Attribuez un nom explicite à l’environnement.
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 
@@ -58,13 +66,13 @@ Si vous utilisez [!UICONTROL Production] par défaut, tous les hôtes inconnus s
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur l’icône en forme d’étoile
+1. Dans la liste [!UICONTROL  Environnements ], cliquez sur l’icône en forme d’étoile
 
 >[!NOTE]
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
 >
->Si vous spécifiez un environnement [par défaut dans un flux  [!DNL Adobe Experience Platform]  données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
+>Si vous spécifiez un environnement [par défaut dans un flux  [!DNL Adobe Experience Platform]  données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, ce paramètre remplace le paramètre dans [!DNL Target].
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

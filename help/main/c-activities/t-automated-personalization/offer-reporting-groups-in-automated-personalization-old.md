@@ -1,17 +1,21 @@
 ---
 keywords: automated personalization;offre;reporting;groupe;groupe de rapports;ap
-description: Découvrez comment utiliser les groupes de génération de rapports d’offre dans les activités  [!DNL Adobe Target] .
-title: Puis-je utiliser les groupes de génération de rapports d’offres dans les activités  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez comment utiliser les groupes de génération de rapports d’offre dans [!DNL Adobe Target] activités [!UICONTROL Automated Personalization].
+title: Puis-je utiliser les groupes de génération de rapports d’offres dans les activités [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '891'
 ht-degree: 25%
-
 ---
-
 # Offrir des groupes de génération de rapports dans 
 
 Informations sur l’utilisation des groupes de génération de rapports dans [!DNL Adobe Target] activités [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).

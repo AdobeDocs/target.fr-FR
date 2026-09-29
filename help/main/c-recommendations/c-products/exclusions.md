@@ -1,22 +1,29 @@
 ---
 keywords: exclusions
-description: Découvrez comment créer des exclusions dans  [!DNL Target Recommendations]  empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+description: Découvrez comment créer des exclusions dans [!DNL Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
 title: Comment utiliser les exclusions dans les activités [!UICONTROL Recommendations] ?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-TQID: https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o
+TQID: 'https://experienceleague.adobe.com/6-PWkqq5eXAwyLcGGbSqSZmFdJa85yU3x7FPNEt8-2o'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 527
+source-wordcount: '529'
 ht-degree: 13%
-
 ---
-
 # Exclusions
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
@@ -41,7 +48,7 @@ Voici quelques exemples d’exclusions :
 
 1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
-   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
 
 1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Afficher les filtres]** ( ![Icône Afficher les filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’[environnement](/help/main/administrating-target/environments.md) souhaité dans la liste déroulante **[!UICONTROL Environnement]** lors de la création (ou de la mise à jour) d’une exclusion pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
@@ -84,4 +91,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une collection
 * Créer une exclusion
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

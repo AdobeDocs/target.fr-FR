@@ -1,17 +1,24 @@
 ---
 keywords: Créer un ciblage automatique;test A/B;activité de ciblage automatique;nouvelle activité a/b;ciblage automatique;ciblage automatique pour les expériences personnalisées;personnalisé;optimisation
-description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans  [!DNL Adobe Target]  pour créer une activité de test A/B de [!UICONTROL ciblage automatique].
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) [!DNL Adobe Target] créer une activité de test A/B de [!UICONTROL ciblage automatique].
 title: Comment créer une activité de [!UICONTROL ciblage automatique] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 39%
-
+source-wordcount: '904'
+ht-degree: 38%
 ---
-
 # Création d’une activité de [!UICONTROL ciblage automatique]
 
 Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre activité [!UICONTROL ciblage automatique] [!UICONTROL test A/B] directement sur une page [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
@@ -77,7 +84,7 @@ Pour créer une activité de [!UICONTROL ciblage automatique] :
 
 1. Dans la zone [!UICONTROL Audience], cliquez sur l’icône de modification (les points de suspension verticaux), cliquez sur **[!UICONTROL Remplacer l’audience]**, puis [sélectionnez l’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour votre activité.
 
-   Par défaut, l’audience est définie sur [!UICONTROL &#x200B; Tous les visiteurs &#x200B;].
+   Par défaut, l’audience est définie sur [!UICONTROL  Tous les visiteurs ].
 
 1. Sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -95,7 +102,7 @@ Pour créer une activité de [!UICONTROL ciblage automatique] :
 
    * **[!UICONTROL Manuel (par défaut)]** : indiquez le pourcentage de participants qui doivent voir chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %. Pour plus d’informations, voir [Création d’un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Affectation automatique à la meilleure expérience]** : la plupart des personnes participant à l’activité sont automatiquement redirigées vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, voir [&#x200B; Aperçu de l’affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Affectation automatique à la meilleure expérience]** : la plupart des personnes participant à l’activité sont automatiquement redirigées vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, voir [ Aperçu de l’affectation automatique ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
    * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** : [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en proposant l’expérience la plus personnalisée aux visiteurs selon leur profil client individuel et le comportement antérieur de visiteurs similaires.
 
@@ -120,4 +127,4 @@ Cette vidéo explique comment créer un test A/B à l’aide du processus assist
 * Créez une activité [!UICONTROL Test A/B] dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

@@ -1,26 +1,32 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres;multivarié;mvt
-description: Découvrez comment utiliser la page [!UICONTROL Objectifs et paramètres] dans  [!DNL Adobe Target]  pour spécifier des informations sur les objectifs d’une activité [!UICONTROL Test multivarié] (MVT).
+description: Découvrez comment utiliser la page [!UICONTROL Objectifs et paramètres] dans [!DNL Adobe Target] pour spécifier des informations sur les objectifs d’une activité [!UICONTROL Test multivarié] (MVT).
 title: Comment spécifier des objectifs et des paramètres dans une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-TQID: https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE
+TQID: 'https://experienceleague.adobe.com/FKRQnliVYaVby-SiFunkRWX7iFMi76JAP3D3TKUdMXE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 39%
-
+source-wordcount: '1266'
+ht-degree: 41%
 ---
-
 # Objectifs et paramètres ([!UICONTROL test multivarié])
 
 La page [!UICONTROL Objectifs et paramètres] de [!DNL Adobe Target] vous permet de saisir des informations sur les objectifs de vos activités [!UICONTROL Test multivarié] (MVT).
@@ -64,7 +70,7 @@ Pour les activités créées dans les versions précédentes d’[!DNL Target], 
 
 ### Durée
 
-L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heure utilise une horloge de 24 heures, 00:00 correspondant à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
 ## Paramètres de création de rapports {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -116,7 +122,7 @@ Par défaut, les rapports présentent les résultats pour tous les visiteurs qua
 
 ### Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL &#x200B; Test multivarié &#x200B;].
+Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL  Test multivarié ].
 
 ![Menu Paramètres avancés](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
@@ -183,9 +189,9 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 ### Création de tests multivariés (9:25)
 
-Cette vidéo explique comment créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL Target]. Les objectifs et les paramètres sont discutés à partir de 7 :00.
+Cette vidéo explique comment créer un test multivarié à l’aide du workflow guidé en trois étapes [!DNL Target]. Les objectifs et les paramètres sont abordés à partir de 7:00.
 
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

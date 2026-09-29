@@ -1,16 +1,17 @@
 ---
 title: Demander l’accès
 description: Découvrez comment demander l’accès à une équipe Flags dans Adobe Target et les rôles disponibles pour les nouveaux membres.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # Demander l’accès {#request-access}
 
 L’accès aux indicateurs est géré au niveau de l’équipe. Pour utiliser les indicateurs, vous devez être ajouté à une équipe avec le rôle approprié.

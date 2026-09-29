@@ -4,21 +4,25 @@ description: Trouvez des réponses aux questions fréquentes sur l’ancienne in
 title: Où puis-je trouver des questions fréquentes sur l’intégration de SiteCatalyst à Test&Target ?
 feature: Analytics for Target (A4T)
 exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
-TQID: https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc
+TQID: 'https://experienceleague.adobe.com/mOxSRfT-QHQctFWFfIECidu639ybfGfGWPmFTf6jGLc'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: '169'
 ht-degree: 39%
-
 ---
-
 # FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target - A4T
 
 Cette rubrique contient les réponses aux questions fréquentes sur l’ancienne intégration de SiteCatalyst à Test&amp;Target et l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T).

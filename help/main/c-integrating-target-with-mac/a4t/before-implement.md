@@ -1,34 +1,47 @@
 ---
 keywords: Recommandations
-description: Découvrez les exigences d’implémentation d’Analytics for  [!DNL Target] (A4T) et les éléments à prendre en compte avant d’implémenter cette intégration.
+description: Découvrez les exigences d’implémentation d’Analytics for [!DNL Target] (A4T) et les éléments à prendre en compte avant d’implémenter cette intégration.
 title: Que Dois-Je Savoir Avant De Mettre En Œuvre A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-TQID: https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k
+TQID: 'https://experienceleague.adobe.com/KtHxPpwI1XiyK-Wz8BegBgsBfdPpcW8f9v08jCgVv0k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Data collection
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: '1034'
 ht-degree: 26%
-
 ---
-
 # Avant d’implémenter Analytics for Target (A4T) avec at.js
 
 Plusieurs modifications se produisent dans votre processus de collecte de données lors de l’activation d’[!DNL Adobe Analytics] en tant que source de création de rapports pour [!DNL Adobe Target] (A4T).
@@ -37,13 +50,13 @@ Avant de décider d’utiliser cette intégration, consultez les sections suivan
 
 >[!NOTE]
 >
->Cet article s’applique uniquement aux implémentations d’at.js. Pour plus d’informations sur l’implémentation d’[!UICONTROL Analytics for Target] (A4T) avec le [!DNL Adobe Experience Platform Web SDK], consultez la section [Connexion à Adobe Analytics for Target (A4T) dans Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=fr){target=_blank}.
+>Cet article s’applique uniquement aux implémentations d’at.js. Pour plus d’informations sur l’implémentation d’[!UICONTROL Analytics for Target] (A4T) avec le [!DNL Adobe Experience Platform Web SDK], consultez la section [Connexion à Adobe Analytics for Target (A4T) dans Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}.
 
 ## Exigences d’implémentation {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
 >[!IMPORTANT]
 >
->Avant de commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez le Formulaire de configuration des intégrations Marketing Cloud [&#128279;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} pour demander à être configuré.
+>Avant de commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez le Formulaire de configuration des intégrations Marketing Cloud [](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} pour demander à être configuré.
 
 Cette intégration A4T nécessite l’implémentation des versions de bibliothèque suivantes (ou plus récentes), selon que vous souhaitez utiliser ou non les offres de redirection avec A4T.
 
@@ -92,7 +105,7 @@ Une fois cette intégration activée, vous constaterez 5 à 10 minutes de latenc
 
 Cette augmentation se reflète dans tous les services et outils [!DNL Analytics], y compris les rapports en direct et en temps réel, et s’applique dans les scénarios suivants :
 
-* Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
+* Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les hits avec un ID supplémentaire sont retardés.
 * Pour les données actuelles sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
 L’augmentation de la latence commence après la mise en œuvre du service d’identification des visiteurs [!DNL Experience Cloud], même si vous n’avez pas entièrement mis en œuvre cette intégration.
@@ -101,7 +114,7 @@ L’augmentation de la latence commence après la mise en œuvre du service d’
 
 Tous les appels [!DNL Target] utilisés par une activité A4T pour diffuser du contenu ou enregistrer la mesure d’objectif doivent avoir un accès [!DNL Analytics] correspondant qui partage l’ID supplémentaire pour que A4T fonctionne correctement.
 
-Les accès contenant des données provenant de [!DNL Analytics] et [!DNL Target] un ID de données supplémentaire. Cet identifiant apparaît dans [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) comme paramètre de `sdid`. Par exemple :`sdid=2F3C18E511F618CC-45F83E994AEE93A0` Cet ID est généré chaque fois que les critères suivants sont respectés :
+Les accès contenant des données provenant de [!DNL Analytics] et [!DNL Target] un ID de données supplémentaire. Cet identifiant apparaît dans [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) comme paramètre de `sdid`. Par exemple :`sdid=2F3C18E511F618CC-45F83E994AEE93A0` Cet ID est généré chaque fois que les critères suivants sont respectés :
 
 * Le service d’identification des visiteurs est implémenté.
 
@@ -115,7 +128,7 @@ Dans certains cas, vous souhaiterez peut-être mieux contrôler quand et comment
 
 ## Audiences partagées
 
-Lors du remplissage du formulaire de configuration des intégrations Marketing Cloud [&#128279;](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenez compte des informations importantes suivantes concernant l’option [!UICONTROL Audiences partagées] répertoriée sous « [!UICONTROL Pour quelles fonctionnalités demandez-vous une configuration &#x200B;] ? »
+Lors du remplissage du formulaire de configuration des intégrations Marketing Cloud [](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tenez compte des informations importantes suivantes concernant l’option [!UICONTROL Audiences partagées] répertoriée sous « [!UICONTROL Pour quelles fonctionnalités demandez-vous une configuration ] ? »
 
 ![Formulaire de demande](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

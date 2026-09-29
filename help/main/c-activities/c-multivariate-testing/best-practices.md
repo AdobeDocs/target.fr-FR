@@ -1,21 +1,24 @@
 ---
 keywords: mvt;test multivarié;bonnes pratiques de test multivarié;bonnes pratiques mvt;combinaisons mvt;rapports mvt
-description: Découvrez comment améliorer les performances, éviter les problèmes et corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution d’activités de [!UICONTROL test multivarié] dans  [!DNL Adobe Target].
+description: Découvrez comment améliorer les performances, éviter les problèmes et corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution d’activités de [!UICONTROL test multivarié] dans [!DNL Adobe Target].
 title: Quelles sont les bonnes pratiques pour une activité de [!UICONTROL test multivarié] ?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-TQID: https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k
+TQID: 'https://experienceleague.adobe.com/nQEf5GZ8-zVZakygPtMAYWk-xoJPdcycFbzCNKTqJ-k'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '625'
 ht-degree: 55%
-
 ---
-
 # Bonnes pratiques relatives au [!UICONTROL test multivarié]
 
 Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution d’activités [!UICONTROL Test multivarié] (MVT) dans [!DNL Adobe Target].
@@ -51,7 +54,7 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
 ## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Utilisez fréquemment le rapport [&#x200B; Contribution des emplacements &#x200B;](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
+* Utilisez fréquemment le rapport [ Contribution des emplacements ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
 * Dans le [rapport Performance de l’expérience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l’aide des filtres [!UICONTROL Meilleur 5] et [!UICONTROL Pire 5].
 
   Le filtre [!UICONTROL Tous] rend difficile l’extraction des informations souhaitées. En outre, toutes les expériences ne peuvent pas s’afficher dans le graphique. Utilisez le filtre [!UICONTROL Tout] si vous souhaitez examiner une expérience spécifique qui ne fait pas partie des cinq meilleures ou pires.
@@ -62,11 +65,11 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
   Les actions spécifiques qui réinitialisent les noms d’expérience et les rapports incluent :
 
-   * Ajout d’un nouvel emplacement
-   * Suppression d’un emplacement
-   * Ajout de nouvelles offres ou suppression d’offres à partir d’un emplacement existant
-   * Modification d’offres de texte enrichi
-   * Modification d’offres de couleur d’arrière-plan
+  * Ajout d’un nouvel emplacement
+  * Suppression d’un emplacement
+  * Ajout de nouvelles offres ou suppression d’offres à partir d’un emplacement existant
+  * Modification d’offres de texte enrichi
+  * Modification d’offres de couleur d’arrière-plan
 
 * En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 

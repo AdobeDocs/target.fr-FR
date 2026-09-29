@@ -1,16 +1,20 @@
 ---
 keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options d’expérience;modifier le texte;modifier le html;modifier le texte/html;modifier la couleur d’arrière-plan;insérer un élément;modifier le lien;lien du compositeur d’expérience visuelle;modifier la classe css;modifier la classe css;permuter l’offre;permuter l’image;permuter l’image;supprimer l’élément;supprimer l’élément;masquer l’élément;réorganiser;déplacer l’élément;redimensionner l’élément;redimensionner l’élément;développer l’élément;élargir la sélection;naviguer sur le lien;naviguer;lien;annuler;lien;annuler;rétablir;annuler;annuler;annuler;annuler;annuler les événements personnalisés;événements personnalisés;événements personnalisés;composants web
-description: Explorez les options disponibles dans le  [!DNL Adobe Target] [!UICONTROL &#x200B; Compositeur d’expérience visuelle &#x200B;] (VEC).
+description: Explorez les options disponibles dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC).
 title: Comment utiliser les options du [!UICONTROL compositeur d’expérience visuelle] (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3014'
 ht-degree: 55%
-
 ---
-
 # Options du compositeur d’expérience visuelle
 
 Lorsque vous cliquez sur un élément de page dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
@@ -50,7 +54,7 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 **Remarque :** Cette option n’est pas disponible pour les éléments avec des images d’arrière-plan.
 
-### [!UICONTROL &#x200B; Styles &#x200B;] {#styles}
+### [!UICONTROL  Styles ] {#styles}
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
@@ -74,15 +78,15 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Modification de la couleur et de l’image d’arrière-plan.
 
-   * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * Image (sélectionnez une image dans le sélecteur d’images)
-   * Source de l’image (spécification d’une URL externe)
-   * Pièce jointe
-      * Cliquez sur la liste déroulante supérieure pour sélectionner scroll (défilement), fixed (fixe) ou local
-      * Cliquez sur la liste déroulante inférieure pour sélectionner repeat (répétition), repeat-x (répétition-x), repeat-y (répétition-y), no-repeat (pas de répétition), space (espace) ou round (rond).
-   * Clip
-      * Cliquez sur la liste déroulante supérieure pour sélectionner border-box(zone de bordure), padding-box (zone de remplissage), content-box (zone de contenu) ou text (texte).
-      * Cliquez sur la liste déroulante inférieure pour sélectionner auto audio (audio automatique) ou audio
+  * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
+  * Image (sélectionnez une image dans le sélecteur d’images)
+  * Source de l’image (spécification d’une URL externe)
+  * Pièce jointe
+    * Cliquez sur la liste déroulante supérieure pour sélectionner scroll (défilement), fixed (fixe) ou local
+    * Cliquez sur la liste déroulante inférieure pour sélectionner repeat (répétition), repeat-x (répétition-x), repeat-y (répétition-y), no-repeat (pas de répétition), space (espace) ou round (rond).
+  * Clip
+    * Cliquez sur la liste déroulante supérieure pour sélectionner border-box(zone de bordure), padding-box (zone de remplissage), content-box (zone de contenu) ou text (texte).
+    * Cliquez sur la liste déroulante inférieure pour sélectionner auto audio (audio automatique) ou audio
 
 * **[!UICONTROL Typographie]**
 
@@ -92,13 +96,13 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Vous pouvez modifier les styles de typographie suivants :
 
-   * [!UICONTROL Taille de police]
-   * [!UICONTROL Épaisseur de la police]
-   * [!UICONTROL &#x200B; Style de police &#x200B;]
-   * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
-   * [!UICONTROL &#x200B; Espacement des mots &#x200B;]
-   * [!UICONTROL Hauteur de la ligne]
-   * [!UICONTROL &#x200B; Alignement du texte &#x200B;]
+  * [!UICONTROL Taille de police]
+  * [!UICONTROL Épaisseur de la police]
+  * [!UICONTROL  Style de police ]
+  * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
+  * [!UICONTROL  Espacement des mots ]
+  * [!UICONTROL Hauteur de la ligne]
+  * [!UICONTROL  Alignement du texte ]
 
 * **[!UICONTROL Marge]**
 
@@ -106,8 +110,8 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur l’icône déroulante pour chaque marge pour choisir parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour définir la marge ou spécifiez le nombre de pixels pour chaque marge)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour définir la marge ou spécifiez le nombre de pixels pour chaque marge)
 
   La marge prend en charge les valeurs positives et négatives.
 
@@ -129,9 +133,9 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Vous pouvez modifier les styles suivants pour chaque bordure (en haut, à droite, en bas et à gauche) :
 
-   * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, tiret, plein ou double)
-   * [!UICONTROL Couleur de bordure] (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * [!UICONTROL &#x200B; Largeur de la bordure &#x200B;] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
+  * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, tiret, plein ou double)
+  * [!UICONTROL Couleur de bordure] (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
+  * [!UICONTROL  Largeur de la bordure ] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
 
   La bordure prend en charge les échelles de largeur à partir de 0.
 
@@ -143,16 +147,16 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur la liste déroulante [!UICONTROL Statique] pour effectuer un choix parmi les options de position suivantes :
 
-   * [!UICONTROL Statique]
-   * [!UICONTROL Relatif]
-   * [!UICONTROL Absolu]
-   * [!UICONTROL Sticky]
-   * [!UICONTROL Fixe]
+  * [!UICONTROL Statique]
+  * [!UICONTROL Relatif]
+  * [!UICONTROL Absolu]
+  * [!UICONTROL Sticky]
+  * [!UICONTROL Fixe]
 
   Cliquez sur l’icône déroulante pour chaque position pour choisir parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour positionner l’élément ou indiquez le nombre de pixels à déplacer pour l’élément)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour positionner l’élément ou indiquez le nombre de pixels à déplacer pour l’élément)
 
   La position prend en charge les valeurs positives et négatives.
 
@@ -164,22 +168,22 @@ Des points bleus sur le panneau principal et en regard de chaque option sur les 
 
   Cliquez sur l’icône déroulante en regard de [!UICONTROL Largeur] et [!UICONTROL Hauteur] pour effectuer votre choix parmi les options suivantes :
 
-   * [!UICONTROL Auto]
-   * [!UICONTROL Valeur] (faites glisser le curseur pour dimensionner l’élément ou indiquez le nombre de pixels pour chaque dimension)
+  * [!UICONTROL Auto]
+  * [!UICONTROL Valeur] (faites glisser le curseur pour dimensionner l’élément ou indiquez le nombre de pixels pour chaque dimension)
 
 * **[!UICONTROL Filtrer]**
 
   Faites glisser le curseur pour chaque option de filtre ou indiquez le pourcentage souhaité :
 
-   * [!UICONTROL Sépia]
-   * [!UICONTROL &#x200B; Contraste &#x200B;]
-   * [!UICONTROL &#x200B; Luminosité &#x200B;]
-   * [!UICONTROL Niveaux de gris]
-   * [!UICONTROL Flou &#x200B;]
-   * [!UICONTROL &#x200B; Opacité &#x200B;]
-   * [!UICONTROL Inverser]
-*[!UICONTROL &#x200B; Teinte-rotation]
-   * [!UICONTROL Saturation]
+  * [!UICONTROL Sépia]
+  * [!UICONTROL  Contraste ]
+  * [!UICONTROL  Luminosité ]
+  * [!UICONTROL Niveaux de gris]
+  * [!UICONTROL Flou ]
+  * [!UICONTROL  Opacité ]
+  * [!UICONTROL Inverser]
+    *[!UICONTROL  Teinte-rotation]
+  * [!UICONTROL Saturation]
 
 * **[!UICONTROL Éditeur CSS]**
 
@@ -217,7 +221,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Décision d’offre]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [Test A/B [!UICONTROL manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -239,7 +243,7 @@ Le comportement de l’élément inséré dépend de la structure de votre page,
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
+### [!UICONTROL  Fragment d’expérience ]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -249,7 +253,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Décision d’offre]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [Test A/B [!UICONTROL manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -271,7 +275,7 @@ Le comportement de l’élément inséré dépend de la structure de votre page,
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
+### [!UICONTROL  Fragment d’expérience ]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -281,7 +285,7 @@ Les options disponibles sont les suivantes :
 
 ### [!UICONTROL Décision d’offre]
 
-Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=fr){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
+Ajoutez une [offre créée dans [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} pour présenter la meilleure offre et la meilleure expérience à vos clients à l’aide de la fonction Offer Decisioning.
 
 **Remarque :** cette option est disponible lors de la modification ou de la création d’activités [Test A/B [!UICONTROL manuel]](/help/main/c-activities/t-test-ab/test-ab.md#types) ou [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette option n’est pas disponible pour les autres types d’activités.
 
@@ -305,7 +309,7 @@ La fonction Recommandations prend en charge le remplacement par des balises DIV,
 
 **Remarque :** La permutation d’images requiert un compte Adobe Scene7 Publishing System.
 
-### [!UICONTROL Offre &#x200B;]
+### [!UICONTROL Offre ]
 
 Sélectionnez une autre offre dans la [!UICONTROL Bibliothèque de contenu].
 
@@ -317,7 +321,7 @@ Une offre HTML peut atteindre 256 Ko.
 
 Incluez des recommandations dans le test A/B (y compris l’Affectation automatique et le Ciblage automatique) et les activités de Ciblage d’expérience (XT). Pour plus d’informations, voir [Recommandations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
-### [!UICONTROL &#x200B; Fragment d’expérience &#x200B;]
+### [!UICONTROL  Fragment d’expérience ]
 
 Insérez des fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans les activités [!DNL Target] pour faciliter l’optimisation ou la personnalisation. Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
@@ -339,7 +343,7 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 **Remarque :** Il n’est pas possible de redimensionner les éléments insérés.
 
-### [!UICONTROL &#x200B; Déplacer &#x200B;] {#move}
+### [!UICONTROL  Déplacer ] {#move}
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : prise en charge pour s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 
@@ -371,7 +375,7 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 ## Considérations {#considerations}
 
-* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank} pour obtenir des informations supplémentaires.
+* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} pour obtenir des informations supplémentaires.
 
 ## Prise en charge des éléments personnalisés {#custom}
 
@@ -388,16 +392,16 @@ La plupart des actions du compositeur d’expérience visuelle sont prises en ch
 Les actions suivantes ne sont pas disponibles sur les éléments personnalisés :
 
 * [!UICONTROL Modifier]
-   * [!UICONTROL Texte/HTML]
-   * [!UICONTROL Lien]
-   * [!UICONTROL Modifier Source]
+  * [!UICONTROL Texte/HTML]
+  * [!UICONTROL Lien]
+  * [!UICONTROL Modifier Source]
 
 * [!UICONTROL Remplacer le contenu]
 
 L’action suivante n’est pas disponible dans les éléments personnalisés :
 
 * [!UICONTROL Disposition]
-   * [!UICONTROL Réorganiser]
+  * [!UICONTROL Réorganiser]
 
 ## Navigation dans les éléments à l’aide du chemin d’accès DOM {#dom-path}
 

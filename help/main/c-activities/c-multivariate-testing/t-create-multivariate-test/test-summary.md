@@ -1,23 +1,26 @@
 ---
 keywords: résumé
-description: Affichez le résumé d’une activité [!UICONTROL Test multivarié] (MVT) qui fournit une vue d’ensemble visuelle de votre activité dans  [!DNL Adobe Target].
+description: Affichez le résumé d’une activité [!UICONTROL Test multivarié] (MVT) qui fournit un aperçu visuel de votre activité dans [!DNL Adobe Target].
 title: Comment puis-je afficher le résumé d’une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
-TQID: https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM
+TQID: 'https://experienceleague.adobe.com/qPe34s7dkRzaGLO-ZUhiTxu3Dz5NUpVk7nBRLQBz7ZM'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 116
+source-wordcount: '116'
 ht-degree: 30%
-
 ---
-
 # Résumé du test ([!UICONTROL test multivarié])
 
 La page [!UICONTROL Ciblage] offre un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL Test multivarié].

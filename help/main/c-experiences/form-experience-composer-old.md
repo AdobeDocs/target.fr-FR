@@ -1,16 +1,23 @@
 ---
 keywords: compositeur d’expérience d’après les formulaires, compositeur basé sur les formulaires, ajustements
-description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience d’après les formulaires d’Adobe pour créer des expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
+description: Découvrez comment utiliser le compositeur d’expérience d’après les formulaires [!DNL Target] d’Adobe pour la création d’expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
 title: Comment utiliser le compositeur d’expérience d’après les formulaires ?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: c3941678-bb9e-4bea-bdba-ce89c7d01eba
+    internal-label: Activity tools
+subfeature_v2:
+  - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
+    internal-label: Form based Experience Composer
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 39%
-
 ---
-
 # Compositeur d’expérience d’après les formulaires
 
 Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience], [!UICONTROL Automated Personalization] et [!UICONTROL Recommandations] lorsque le [!UICONTROL compositeur d’expérience visuelle] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
@@ -31,7 +38,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    ![image location_raffinements](assets/location_refinements.png)
 
-   Cet écran est différent si vous créez une activité [!UICONTROL &#x200B; Recommendations &#x200B;]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
+   Cet écran est différent si vous créez une activité [!UICONTROL  Recommendations ]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
 1. Nommez l’activité en cliquant sur « [!UICONTROL Activité sans titre] ».
 1. Sélectionnez un emplacement.
@@ -68,7 +75,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Modifier l’offre JSON :** choisissez une offre json.
 
-   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [&#x200B; Fragment d’expérience &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [ Fragment d’expérience ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
    **Modifier l’offre de redirection :** sélectionnez une offre de redirection. Pour plus d’informations, voir [Création d’offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 

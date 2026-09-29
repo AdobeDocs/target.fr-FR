@@ -1,21 +1,25 @@
 ---
 keywords: multivarié;mvt;mesures;mesures définies;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité  [!DNL Adobe Target] [!UICONTROL Test multivarié] pour déterminer le moment où une visite est réussie, comme [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement].
+description: Découvrez comment spécifier des mesures dans une activité [!DNL Adobe Target] [!UICONTROL Test multivarié] pour déterminer le moment où une visite est réussie, comme [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement].
 title: Comment définir les mesures d’objectif dans une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 57%
-
+source-wordcount: '353'
+ht-degree: 56%
 ---
-
 # Définition de mesures pour une activité [!UICONTROL test multivarié]
 
 Utilisez les mesures dans un [!DNL Adobe Target] [!UICONTROL test multivarié] pour déterminer le moment où une visite est réussie.
 
-Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [ Mesures de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Indiquez l’objectif de l’activité.
 1. Sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
@@ -24,7 +28,7 @@ Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de
 
    La page [!UICONTROL Sélectionner des mesures] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 
-   * [!UICONTROL &#x200B; Conversion &#x200B;]
+   * [!UICONTROL  Conversion ]
    * [!UICONTROL Recettes]
    * [!UICONTROL Engagement]
 

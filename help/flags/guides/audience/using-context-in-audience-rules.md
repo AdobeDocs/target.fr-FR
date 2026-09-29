@@ -1,16 +1,17 @@
 ---
 title: Utilisation du contexte dans les règles d’audience
 description: Découvrez comment utiliser les attributs contextuels dans les règles d’audience pour les indicateurs de fonctionnalités et les groupes de fonctionnalités dans les indicateurs.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
-
 ---
-
 # Utilisation du contexte dans les règles d’audience {#context-in-audience-rules}
 
 Les attributs contextuels sont des valeurs fournies par l’application cliente au moment de l’exécution. Ils vous permettent de cibler les utilisateurs en fonction d’informations dynamiques au niveau de la session, telles que la langue active de l’utilisateur, le type d’appareil ou l’état de l’application.
@@ -30,7 +31,7 @@ Pour ajouter un attribut de contexte à une règle d’audience :
 3. Sous **Contexte**, ajoutez une nouvelle condition.
 4. Sélectionnez l’attribut de contexte, l’opérateur et la valeur.
 
-Si l’attribut de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer un, voir [&#x200B; Création de vos attributs de contexte &#x200B;](creating-your-context-attributes.md).
+Si l’attribut de contexte dont vous avez besoin n’apparaît pas dans la liste, vous pouvez en créer un, voir [ Création de vos attributs de contexte ](creating-your-context-attributes.md).
 
 ## Voir également {#see-also}
 

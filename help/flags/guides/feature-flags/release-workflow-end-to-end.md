@@ -1,16 +1,17 @@
 ---
 title: Workflow de publication complet
 description: Découvrez le workflow de bout en bout pour gérer une version coordonnée dans les indicateurs, de la définition des indicateurs de fonctionnalité à la mise en ligne.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 2%
-
 ---
-
 # Workflow de publication complet {#release-workflow}
 
 Cette page décrit la séquence complète des activités impliquées dans une version coordonnée gérée par un gestionnaire de versions.

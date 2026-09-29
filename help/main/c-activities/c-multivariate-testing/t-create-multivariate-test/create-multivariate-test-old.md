@@ -1,16 +1,20 @@
 ---
 keywords: mvt;test multivarié;créer un test multivarié;création de test multivarié;créer un mvt;création de mvt;comment mvt;comment test multivarié
-description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans  [!DNL Adobe Target]  pour créer un [!UICONTROL test multivarié] (MVT).
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) [!DNL Adobe Target] créer un [!UICONTROL test multivarié] (MVT).
 title: Comment créer un [!UICONTROL test multivarié] ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 52%
-
 ---
-
 # Création d’un test multivarié
 
 Le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] facilite la création d’un [!UICONTROL test multivarié] et la modification de parties de la page dans [!DNL Target].
@@ -29,7 +33,7 @@ Le [!UICONTROL test multivarié] (MVT) prend un rapport page par page. En d’au
 
 1. (Conditionnel) Choisissez le type de diffusion : [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL E-mail] ou [!UICONTROL Autre/API].
 
-1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium), [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium), [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [Spécifiez l’URL](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -124,4 +128,4 @@ Cette vidéo explique comment planifier et créer un test multivarié à l’aid
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

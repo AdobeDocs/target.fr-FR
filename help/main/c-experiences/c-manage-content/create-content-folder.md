@@ -4,25 +4,31 @@ description: Comment créer des dossiers dans la bibliothèque [!UICONTROL Offre
 title: Découvrez comment créer des dossiers dans la bibliothèque [!UICONTROL Offres] pour contenir des offres de code et d’image, ainsi que d’autres dossiers.
 feature: Experiences and Offers
 exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
-TQID: https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY
+TQID: 'https://experienceleague.adobe.com/Z-iggfiOB-GEAhHr-J-IpK6qD9T-TGoASkVwcVMP3oY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: '291'
 ht-degree: 6%
-
 ---
-
 # Création de dossiers d’offres
 
 Créez des dossiers dans la bibliothèque [!DNL Adobe Target] [!UICONTROL Offre] pour contenir des offres de code et des offres d’image. Vous pouvez également créer des dossiers pour créer une structure de sous-dossiers.
 
 Le processus de création de dossiers pour les offres de code et les offres d’image diffère légèrement. Pour plus d’informations, reportez-vous aux sections suivantes.
 
-## Dossiers [!UICONTROL &#x200B; Code Offer &#x200B;]
+## Dossiers [!UICONTROL  Code Offer ]
 
 1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]**.
 
@@ -30,11 +36,11 @@ Le processus de création de dossiers pour les offres de code et les offres d’
 
 1. Attribuez un nom explicite au dossier.
 
-1. (Conditionnel) Si vous disposez d’un compte [&#128279;](/help/main/c-intro/intro.md#premium) et que vous utilisez [espaces de travail](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), sélectionnez un espace de travail.
+1. (Conditionnel) Si vous disposez d’un compte [](/help/main/c-intro/intro.md#premium) et que vous utilisez [espaces de travail](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC), sélectionnez un espace de travail.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 ## Dossiers [!UICONTROL Offre d’image]
 
@@ -58,4 +64,4 @@ Pour plus d’informations sur les tâches que vous pouvez effectuer sur les off
 >
 >Les offres d’image ne font pas partie du modèle [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utiliser du contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).

@@ -1,16 +1,23 @@
 ---
 keywords: exclusions
-description: Découvrez comment créer des exclusions dans  [!DNL Target] Recommendations pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+description: Découvrez comment créer des exclusions dans Adobe [!DNL Target] Recommendations pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
 title: Comment utiliser les exclusions dans les activités Recommendations ?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '630'
 ht-degree: 30%
-
 ---
-
 # Exclusions
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
@@ -37,7 +44,7 @@ Voici quelques exemples d’exclusions :
 
    ![image exclusions_list](assets/exclusions_list.png)
 
-   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste [!UICONTROL Exclusions] correspond au nombre de produits correspondant aux règles de cette exclusion dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 
@@ -82,4 +89,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une collection
 * Créer une exclusion
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

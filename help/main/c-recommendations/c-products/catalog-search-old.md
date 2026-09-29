@@ -2,16 +2,23 @@
 keywords: recherche catalogue;catalogue;recherche;exclusion;collection;filtre
 description: Découvrez comment utiliser la recherche catalogue Recommendations pour localiser des produits ou du contenu, créer des collections ou des exclusions, supprimer des éléments de votre catalogue, etc.
 title: Comment utiliser la recherche catalogue Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 20%
-
 ---
-
 # Recherche catalogue
 
 La page [!UICONTROL Recherche catalogue] de [!DNL Adobe Recommendations] vous aide à localiser les produits ou le contenu de votre catalogue. La tâche la plus simple que vous pouvez effectuer sur cette page consiste à rechercher un élément. En outre, vous pouvez modifier l’environnement, enregistrer les résultats de la recherche dans des collections ou des exclusions, ajouter des facettes de filtre, et modifier des colonnes du tableau, ajouter de nouvelles facettes de recherche, etc.
@@ -89,7 +96,7 @@ Vous pouvez utiliser [!UICONTROL Recherche avancée] pour affiner davantage vos 
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Enregistrer sous]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
-   ![Options Enregistrer en tant que &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Options Enregistrer en tant que ](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    Pour plus d’informations, consultez [Création d’une collection ou d’une exclusion basée sur la recherche avancée](#save-as) ci-dessous.
 
@@ -99,7 +106,7 @@ Vous pouvez afficher les détails d’un élément individuel, notamment son ide
 
 1. Cliquez sur un élément dans les résultats de la recherche pour en afficher les détails.
 
-   ![&#x200B; Détails du produit &#x200B;](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
+   ![ Détails du produit ](/help/main/c-recommendations/c-products/assets/bike-results-5.png)
 
 ## Supprimer un élément du catalogue
 
@@ -125,7 +132,7 @@ Vous pouvez créer des [collections](/help/main/c-recommendations/c-products/col
 
 1. Cliquez sur **[!UICONTROL Enregistrer sous]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
-   ![Options Enregistrer en tant que &#x200B;](/help/main/c-recommendations/c-products/assets/save-as.png)
+   ![Options Enregistrer en tant que ](/help/main/c-recommendations/c-products/assets/save-as.png)
 
    >[!IMPORTANT]
    >

@@ -2,17 +2,24 @@
 keywords: Recommandations;offre
 description: Découvrez comment utiliser Adobe Recommandations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
 title: Comment utiliser Recommandations en tant qu’offre dans d’autres types d’activités ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f6034e83564a9a386e21e4e57279c66cc3c94537
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 42%
-
 ---
-
 # Recommandations en tant qu’offre
 
 Vous pouvez désormais inclure des recommandations dans les activités [!UICONTROL Test A/B] (y compris les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) et [!UICONTROL Ciblage d’expérience] (XT).
@@ -21,7 +28,7 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement le placement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;].
+* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL  Affectation automatique ].
 * À l’aide du ciblage automatique [!UICONTROL , affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de leur profil].
 
 Pour commencer, créez une activité [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] à l’aide du [!UICONTROL Compositeur d’expérience visuelle] et utilisez l’action [!UICONTROL Recommander] pour ajouter des recommandations à une expérience.

@@ -1,22 +1,26 @@
 ---
 keywords: réactif;fenêtres d’affichage mobiles;fenêtre d’affichage;appareils;mobile;conception web réactive;rwd
-description: Les fenêtres d’affichage mobiles vous aident à visualiser la manière dont les activités Adobe  [!DNL Target]  apparaissent sur des écrans de différentes tailles. Trouver une liste des tailles et des résolutions de fenêtre d’affichage des appareils les plus populaires.
+description: Les fenêtres d’affichage mobiles vous permettent de voir à quoi ressemblent vos activités Adobe [!DNL Target] sur Screens, quelle que soit leur taille. Trouver une liste des tailles et des résolutions de fenêtre d’affichage des appareils les plus populaires.
 title: Comment utiliser les fenêtres d’affichage mobiles pour les expériences réactives ?
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-TQID: https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw
+TQID: 'https://experienceleague.adobe.com/uBJtaoaCh28mRGwc-SlK-XhU6sOIK3RaT58-ZXxSsHw'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1379
-ht-degree: 93%
-
+source-wordcount: '1382'
+ht-degree: 92%
 ---
-
 # Fenêtres d’affichage mobiles pour les expériences réactives
 
 Les fenêtres d’affichage mobiles vous permettent de prévisualiser vos activités [!DNL Adobe Target] sur des écrans de différentes tailles.
@@ -180,10 +184,10 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Préférences du compte dans Adobe Target ![Badge de présentation](/help/main/assets/overview.png)
 
-Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de la :40 4.
+Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de la minute 4:40.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

@@ -1,16 +1,17 @@
 ---
 title: Guide de démarrage
 description: 'Pour intégrer votre application à des indicateurs, procédez comme suit : de la demande d’accès à la création de votre premier indicateur de fonctionnalité.'
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 339de89fff7bb14eb8146d42482b30c86feeedef
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
-
 ---
-
 # Guide de démarrage {#startup-guide}
 
 Pour intégrer des indicateurs à votre application, procédez comme suit.
@@ -45,9 +46,9 @@ Suivez le guide d’intégration correspondant à votre type d’application. Ch
 
 Si vous intégrez par le biais d’une approche basée sur les balises (web ou mobile), configurez votre propriété de balise avant d’initialiser le SDK :
 
-1. Dans [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection), créez une propriété [tag](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/get-started/quick-start) si vous n’en avez pas déjà une, ou utilisez une propriété de balise existante.
-1. Ouvrez la propriété de balise web ou mobile et accédez à [&#x200B; Extensions &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/ui/extensions/overview).
-1. Installez et configurez l’extension **&#x200B;**. Installez ensuite l’extension **Flags**.
+1. Dans [Collecte de données ](https://experience.adobe.com/#/data-collection), créez une propriété [tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start) si vous n’en avez pas déjà une, ou utilisez une propriété de balise existante.
+1. Ouvrez la propriété de balise web ou mobile et accédez à [ Extensions ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview).
+1. Installez et configurez l’extension ****. Installez ensuite l’extension **Flags**.
 1. Sélectionnez le **flux de données** (il doit inclure le jeu de données Customer Journey Analytics) et configurez le domaine Edge.
 1. Publiez la configuration via **Développement → Évaluation → Production**.
 1. Copiez le **ID du fichier d’environnement** de l’onglet **Environnements** — vous l’utiliserez pour initialiser le SDK.

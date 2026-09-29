@@ -1,17 +1,24 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;statut;critères;algorithme
-description: Découvrez comment prévisualiser votre activité  [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
+description: Découvrez comment prévisualiser votre activité Adobe [!DNL Target] Recommendations afin de vous assurer que les résultats sont disponibles avant le lancement de l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 1be09adbab3db2c0cf4447b8abba06ca26cf5571
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1445'
 ht-degree: 14%
-
 ---
-
 # Prévisualisation et lancement de votre activité Recommandations
 
 Après avoir créé votre activité [!UICONTROL Recommendations], [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience] (XT) contenant [Offres Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualiser vos recommandations afin de vous assurer que les résultats sont disponibles avant de lancer l’activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualiser vos recommandations.
@@ -26,8 +33,8 @@ Vous pouvez vérifier si l’algorithme a terminé son exécution dans le diagra
 
 Les résultats du statut sont les suivants, comme illustré ci-dessous :
 
-* [!UICONTROL Résultats prêts &#x200B;] : indique que l’algorithme a renvoyé des résultats
-* [!UICONTROL Résultats non prêts &#x200B;] : indique que l’algorithme n’a pas fini de s’exécuter.
+* [!UICONTROL Résultats prêts ] : indique que l’algorithme a renvoyé des résultats
+* [!UICONTROL Résultats non prêts ] : indique que l’algorithme n’a pas fini de s’exécuter.
 * [!UICONTROL Échec du flux] : indique que le fichier de flux des critères personnalisés n’a pas pu être récupéré.
 
 ![Boîte de dialogue Résultats](/help/main/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
@@ -88,7 +95,7 @@ Un fichier CSV est téléchargé. Ouvrez-le pour afficher les éléments recomma
 
 De gauche à droite se trouve une liste des éléments recommandés, dans ce cas les plus consultés. Les recommandations sont séparées par environnement. Dans ce cas, seul l’environnement de production dispose de recommandations.
 
-Si un astérisque (*) est la première valeur d’une ligne, il indique [&#x200B; éléments de sauvegarde &#x200B;](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
+Si un astérisque (*) est la première valeur d’une ligne, il indique [ éléments de sauvegarde ](/help/main/c-recommendations/c-algorithms/backup-recs.md). Les éléments de sauvegarde s&#39;affichent si tous les emplacements d&#39;une conception ne peuvent pas être remplis par les éléments recommandés de l&#39;algorithme (critères).
 
 Pour d’autres types d’algorithme basés sur une valeur de clé, tels que [!UICONTROL Personnes qui ont consulté ceci, qui ont consulté cela], les valeurs de clé (c’est-à-dire les éléments « Ceci ») sont répertoriées dans la colonne la plus à gauche et les éléments recommandés (c’est-à-dire les éléments « Que ») sont répertoriés de gauche à droite dans les colonnes Recommendations_X.
 
@@ -96,7 +103,7 @@ Notez que pour les activités avec des jeux de résultats très volumineux, l’
 
 >[!NOTE]
 >
->Les téléchargements de résultats ne sont pas disponibles pour les activités contenant un algorithme [!UICONTROL &#x200B; Recommandations basées sur l’utilisateur &#x200B;]. Les téléchargements de résultats ne sont pas disponibles pour les critères utilisant la logique de recommandation [!UICONTROL Éléments récemment consultés].
+>Les téléchargements de résultats ne sont pas disponibles pour les activités contenant un algorithme [!UICONTROL  Recommandations basées sur l’utilisateur ]. Les téléchargements de résultats ne sont pas disponibles pour les critères utilisant la logique de recommandation [!UICONTROL Éléments récemment consultés].
 
 ## Activation de votre activité Recommendations
 
@@ -104,13 +111,13 @@ Dans l&#39;onglet [!UICONTROL Présentation de l&#39;activité], cliquez sur la 
 
 Si votre activité [!UICONTROL Recommendations] est actuellement à l’état [!UICONTROL Inactive], la liste déroulante est intitulée [!UICONTROL Inactive].
 
-Au bout de quelques secondes à quelques minutes, le statut passe à [!UICONTROL &#x200B; Actif &#x200B;].
+Au bout de quelques secondes à quelques minutes, le statut passe à [!UICONTROL  Actif ].
 
 Vous pouvez également désactiver ou archiver l’activité à l’aide de la même liste déroulante.
 
 ## Éviter les perturbations lors de la modification des paramètres de Recommendations
 
-La modification des collections de [!DNL Recommendations], des critères, des promotions ou des paramètres de conception dans une activité active peut entraîner l’invalidation des résultats de l’algorithme et le changement de l’état d’un algorithme en [!UICONTROL &#x200B; Résultats non prêts &#x200B;].
+La modification des collections de [!DNL Recommendations], des critères, des promotions ou des paramètres de conception dans une activité active peut entraîner l’invalidation des résultats de l’algorithme et le changement de l’état d’un algorithme en [!UICONTROL  Résultats non prêts ].
 
 Pour éviter de perturber une activité active, nous vous recommandons d’adopter l’approche suivante lors de la modification d’une activité active :
 

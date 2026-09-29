@@ -1,17 +1,24 @@
 ---
 keywords: collection, ciblage
-description: Découvrez comment utiliser des collections de produits ou d’éléments dans  [!DNL Target Recommendations].
+description: Découvrez comment utiliser des collections de produits ou d’éléments dans [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 42%
-
+source-wordcount: '898'
+ht-degree: 41%
 ---
-
 # Collections
 
 Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments qui doivent en faire partie.
@@ -46,13 +53,13 @@ Créez une collection pour organiser les produits ou le contenu à afficher dans
 
    ![Icônes de survol : modifier, copier et supprimer](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « Nombre d’éléments » signalé pour chaque collection dans la vue de liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   Le « Nombre d’éléments » signalé pour chaque collection dans la vue de liste [!UICONTROL Collections] correspond au nombre de produits correspondant aux règles de cette collection dans les recommandations par défaut configurées [groupe d’hôtes](/help/main/administrating-target/hosts.md) (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
 1. (Conditionnel) Sélectionnez un environnement à partir du filtre **[!UICONTROL Environnement]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
-   ![Création d’une collection &#x200B;](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![Création d’une collection ](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
 1. Saisissez un **[!UICONTROL Nom]** pour la collection.
 
@@ -109,4 +116,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une collection
 * Créer une exclusion
 
->[!VIDEO](https://video.tv.adobe.com/v/29332?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

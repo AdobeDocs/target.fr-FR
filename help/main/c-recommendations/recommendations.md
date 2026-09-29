@@ -1,27 +1,36 @@
 ---
 keywords: Recommendations;critères des recommandations;algorithmes de recommandations;activité Recommendations;critères;ciblage des recommandations
-description: Découvrez les activités Recommandations dans Adobe [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser votre clientèle selon l’activité précédente de l’utilisateur ou de l’utilisatrice, ou d’autres algorithmes.
-title: Qu’est-ce qu’ [!DNL Target]  Recommandations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
+title: Qu’est-ce qu’[!DNL Target] Recommendations ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-TQID: https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA
+TQID: 'https://experienceleague.adobe.com/gR3x6ABhdZNZ4lKvBHpJ-edRj7ZdCKBklMITXaLUhTA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 16fb7a1902ea76cab56a93fa141a32a3c6bc4467
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 866
-ht-degree: 94%
-
+source-wordcount: '869'
+ht-degree: 91%
 ---
-
 # Recommandations
 
 Les activités de [!DNL Adobe Target Recommendations] affichent automatiquement les produits, les services ou le contenu susceptibles d’intéresser vos visiteurs selon l’activité précédente de l’utilisateur, ses préférences ou d’autres critères. [!DNL Target Recommendations] aident à diriger les visiteurs vers des éléments qu’ils ne connaîtraient pas autrement. [!DNL Recommendations] vous permet de fournir à vos visiteurs un contenu pertinent au bon moment et au bon endroit.
@@ -74,13 +83,13 @@ Avant de commencer à utiliser [!DNL Recommendations], il est utile de vous fami
 
 ## Vidéo de formation : Types d’activités ![Badge d’aperçu](/help/main/assets/overview.png)
 
-Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] discussion commence à 7:20.
+Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] discussion commence à 19 h 20.
 
 * Décrire les types d’activités inclus dans [!DNL Adobe Target]
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 <!--
 ## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}

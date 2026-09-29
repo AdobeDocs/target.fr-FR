@@ -5,24 +5,31 @@ title: Quelles sont les exigences d’autorisation des utilisateurs requises pou
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-TQID: https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ
+TQID: 'https://experienceleague.adobe.com/SGNIoARqe3yN4WvKF4JPIp0t0JCMiSgj--zrjt-ZXJQ'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '308'
 ht-degree: 31%
-
 ---
-
 # Exigences d’autorisation des utilisateurs
 
 Informations sur les exigences du compte d’utilisateur pour créer une activité basée sur [!DNL Adobe Analytics] dans [!DNL Adobe Target] (A4T).
@@ -39,19 +46,19 @@ Effectuez les tâches suivantes dans l’[!DNL Adobe Experience Cloud] [Admin Co
 
 Vos comptes d’utilisateur [!DNL Analytics] et [!DNL Target] doivent être liés à votre Adobe ID.
 
-Pour plus d’informations, voir [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr).
+Pour plus d’informations, voir [Liaison d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configuration de l’appartenance au groupe Experience Cloud
 
 Vous devez être membre d’un ou plusieurs groupes [!DNL Experience Cloud] ayant accès à [!DNL Analytics] et [!DNL Target].
 
-Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+Pour plus d’informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à cette suite de rapports et accorder l’accès au groupe de [!DNL Web Services Access] .
 
-1. Dans **&#x200B;**, cliquez sur un profil de produit [!DNL Analytics], puis sur l&#39;onglet **[!UICONTROL Autorisations]**.
+1. Dans ****, cliquez sur un profil de produit [!DNL Analytics], puis sur l&#39;onglet **[!UICONTROL Autorisations]**.
 
    Vous pouvez ensuite voir à quelles suites de rapports le profil a accès.
 
@@ -59,7 +66,7 @@ Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à 
 
    L’illustration suivante est un exemple de profil de produit qui a accès à toutes les suites de rapports :
 
-   ![Onglet Autorisations &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Onglet Autorisations ](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configurez l’accès au groupe [!UICONTROL Accès aux services web].
 

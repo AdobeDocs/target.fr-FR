@@ -4,28 +4,37 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-TQID: https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus
+TQID: 'https://experienceleague.adobe.com/wUWUT-FvVIAo52PDaBMfmT7vxv8VOR71hSGhxFvylus'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f7501c88-b36a-590b-9cc4-dea607bda94b
+    internal-label: Visual Experience Composer (VEC)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 57%
-
 ---
-
-# Extension [!UICONTROL &#x200B; Visual Editing Helper &#x200B;]
+# Extension [!UICONTROL  Visual Editing Helper ]
 
 L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] pour [!DNL Google Chrome] vous permet de charger des sites web de manière fiable dans le [!UICONTROL compositeur d’expérience visuelle] [!UICONTROL Adobe Target] (VEC) afin de créer rapidement des expériences web et une assurance qualité.
 
@@ -52,7 +61,7 @@ L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 
 L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] pour résout les problèmes de chargement du site pour lesquels les clients se fient désormais au [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou à des extensions tierces, telles que Requestly.
 
-## Avantages de l’utilisation de l’extension [!UICONTROL &#x200B; Visual Editing Helper &#x200B;]
+## Avantages de l’utilisation de l’extension [!UICONTROL  Visual Editing Helper ]
 
 * Tous les en-têtes qui démolissent un iframe, comme `X-Frame-Options` et `Content-Security-Policy`, sont implicitement supprimés du site web. Il n’est pas nécessaire de créer des règles complexes avec Requestly.
 * Si une page Web ne contient pas encore la bibliothèque at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
@@ -63,7 +72,7 @@ L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
-## Procurez-vous et installez l’extension de navigateur [!UICONTROL &#x200B; Visual Editing Helper &#x200B;].
+## Procurez-vous et installez l’extension de navigateur [!UICONTROL  Visual Editing Helper ].
 
 1. Accédez à l’extension de navigateur [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Cliquez sur **[!UICONTROL Ajouter à Chrome]** > **[!UICONTROL Ajouter une extension]**.
@@ -80,8 +89,8 @@ L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 * Lorsque vous utilisez l’extension pour injecter at.js en [mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md), un autre onglet Chrome doit être ouvert. Cet onglet Chrome doit être authentifié dans la même organisation [!DNL Adobe Experience Cloud] que celle dans laquelle vous avez créé l’activité.
 * Les messages suivants vous permettent de rester informé :
 
-   * Si vous tentez de charger un site web à l’aide du VEC et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [!UICONTROL Visual Editing Helper].
-   * Si at.js n’est pas encore implémenté sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
+  * Si vous tentez de charger un site web à l’aide du VEC et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [!UICONTROL Visual Editing Helper].
+  * Si at.js n’est pas encore implémenté sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
 * Si vous essayez d’utiliser la nouvelle extension, revenez à l’[ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et que [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
 
 ## Questions fréquentes

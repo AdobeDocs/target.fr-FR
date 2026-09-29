@@ -1,32 +1,44 @@
 ---
 keywords: limite de caractères;paramètres mbox;api de diffusion par lots;paramètres de profil;limites;profils intégrés;maximum;limite;contrainte;caractère;bonne pratique;orderid;orderTotal;mbox3rdPartyID;catégorie;categoryID;dépannage
 description: Affichez une liste des limites de caractères et d’autres limites qui affectent les activités et autres éléments dans [!DNL Adobe Target].
-title: Quelles sont les différentes limites de caractère, de taille et autres en  [!DNL Adobe Target] ?
+title: Quelles sont les différentes limites de caractère, de taille et autres en [!DNL Adobe Target] ?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-TQID: https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4
+TQID: 'https://experienceleague.adobe.com/C9NXf7sgqNPwX-vH5VmU-GhJApj-tHzQcf7t7w-P8i4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: b1d5cd6a-4ed3-43f6-9a52-2721acea1129
+    internal-label: Troubleshooting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1772
+source-wordcount: '1772'
 ht-degree: 73%
-
 ---
-
 # Limites
 
 Limites de caractères et autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et autres éléments dans [!DNL Adobe Target].
@@ -81,17 +93,17 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
   Si un client dépasse les 100 requêtes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les requêtes suivantes sont bloquées pour cette session utilisateur. Deux requêtes ou plus sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées d’une même session de manière séquentielle.
 
-   * **Comportement d’erreur** :
+  * **Comportement d’erreur** :
 
-      * API de diffusion et mbox par lots v2 :
-         * Code d’erreur : HTTP 420 Too Many Requests
-         * Message d’erreur : « Trop de requêtes avec le même ID de session »
+    * API de diffusion et mbox par lots v2 :
+      * Code d’erreur : HTTP 420 Too Many Requests
+      * Message d’erreur : « Trop de requêtes avec le même ID de session »
 
-      * API mbox héritée :
-         * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
+    * API mbox héritée :
+      * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
 
-      * at.js:
-         * Contenu par défaut affiché
+    * at.js:
+      * Contenu par défaut affiché
 
 * **Limite** : 50 mbox par demande de mbox par lot de diffusion de contenu [!DNL Target].
 
@@ -139,8 +151,8 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 * **Limite de caractères** : la longueur maximale de caractères dépend de la langue.
 
-   * 15 000 caractères (une seule valeur, deux et deux langues)
-   * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
+  * 15 000 caractères (une seule valeur, deux et deux langues)
+  * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
 
   La longueur maximale des attributs personnalisés d’entité à valeur unique est de 15 000 caractères (pour les langues codées UTF-8 à un et deux octets, telles que l’anglais et les autres langues en alphabet latin) ou de 10 000 caractères (pour les langues codées UTF-8 à trois octets, telles que le chinois, le japonais et le coréen).
 
@@ -212,9 +224,9 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
   Pour les appels mbox standard :
 
-   * Paramètres mbox : 500 paramètres par mbox.
-   * Paramètres de profil : 500 paramètres de profil par mbox.
-   * Autres paramètres (URL, URL de référence, etc.) : 50 par mbox pour chaque autre type de paramètre.
+  * Paramètres mbox : 500 paramètres par mbox.
+  * Paramètres de profil : 500 paramètres de profil par mbox.
+  * Autres paramètres (URL, URL de référence, etc.) : 50 par mbox pour chaque autre type de paramètre.
 
   Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur web.
 
@@ -228,25 +240,25 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
   **mbox par lot v2** :
 
-   * Paramètres mbox : 100
-   * Longueur maximale du nom du paramètre mbox : 128
-   * La valeur du paramètre mbox ne peut pas être nulle.
-   * Valeur du paramètre mbox : 5 000
-   * Paramètres de profil : 50
-   * Longueur maximale du nom du paramètre de profil : 128
-   * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 256
+  * Paramètres mbox : 100
+  * Longueur maximale du nom du paramètre mbox : 128
+  * La valeur du paramètre mbox ne peut pas être nulle.
+  * Valeur du paramètre mbox : 5 000
+  * Paramètres de profil : 50
+  * Longueur maximale du nom du paramètre de profil : 128
+  * La valeur du paramètre de profil ne peut pas être nulle.
+  * Longueur maximale de la valeur du paramètre de profil : 256
 
   **Point d’entrée de l’API de diffusion** :
 
-   * Paramètres mbox : 100
-   * Longueur maximale du nom du paramètre mbox : 128
-   * La valeur du paramètre mbox ne peut pas être nulle.
-   * Valeur du paramètre mbox : 5 000
-   * Paramètres de profil : 50
-   * Longueur maximale du nom du paramètre de profil : 128
-   * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 256
+  * Paramètres mbox : 100
+  * Longueur maximale du nom du paramètre mbox : 128
+  * La valeur du paramètre mbox ne peut pas être nulle.
+  * Valeur du paramètre mbox : 5 000
+  * Paramètres de profil : 50
+  * Longueur maximale du nom du paramètre de profil : 128
+  * La valeur du paramètre de profil ne peut pas être nulle.
+  * Longueur maximale de la valeur du paramètre de profil : 256
 
 ### URL de requête mbox
 

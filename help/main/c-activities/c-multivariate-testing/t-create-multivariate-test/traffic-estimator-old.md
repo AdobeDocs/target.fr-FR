@@ -1,16 +1,20 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de déterminer si vous disposez d’un trafic suffisant pour que votre activité  [!DNL Adobe Target] [!UICONTROL &#x200B; test multivarié &#x200B;] réussisse.
+description: Découvrez comment utiliser l’estimateur de trafic qui vous permet de savoir si vous disposez d’un trafic suffisant pour que votre activité [!DNL Adobe Target] [!UICONTROL test multivarié] réussisse.
 title: Quelle quantité de trafic est nécessaire pour une activité [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: b934e7cf-c07f-5a64-924b-3c9da8413e3d
+    internal-label: Multivariate Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 51%
-
 ---
-
 # Estimation du trafic requis pour la réussite d’une activité de [!UICONTROL test multivarié]
 
 Un test multivarié comparant plusieurs expériences, il est important de connaître le volume de trafic requis pour fournir des résultats significatifs. L’estimateur de trafic utilise des statistiques relatives à votre page ainsi que le nombre d’expériences en cours de test afin d’estimer le volume de trafic et la durée du test requis pour assurer le succès de ce dernier.

@@ -1,34 +1,42 @@
 ---
 keywords: A4T;Adobe Analytics;activité basée sur Analytics;suite de rapports Analytics;suite de rapports;intégration d’Analytics Target;configurer la suite de rapports;at.js;atjs;sdk web adobe experience platform;sdk web aep;sdk web platform
 description: Suivez les étapes requises pour implémenter Analytics for [!DNL Target] (A4T) dans vos solutions Adobe [!DNL Target] et Adobe Analytics.
-title: Comment mettre en œuvre Analytics for  [!DNL Target] (A4T) ?
+title: Comment mettre en œuvre Analytics for [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-TQID: https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA
+TQID: 'https://experienceleague.adobe.com/1e51ngQ1R8qogTPpEQ-mNo601s7zq2DGgKi62VhnfYA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: '1195'
 ht-degree: 17%
-
 ---
-
 # Implémentation d’Analytics for [!DNL Target]
 
 Plusieurs étapes sont nécessaires lors de l’implémentation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T). Le processus varie selon que vous implémentez A4T avec le [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) ou avec at.js.
 
-## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
+## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) Étapes d’implémentation pour une implémentation de Adobe Experience Platform Web SDK {#platform}
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site si vous envisagez d’utiliser le SDK Web Platform :
 
@@ -46,14 +54,14 @@ Créez une configuration Edge à l’aide de [!DNL Adobe Experience Platform] à
 
 ### Étape 4 : installer et configurer Platform Web SDK
 
-Pour commencer à diffuser des expériences [!DNL Target] et appliquer des [!DNL Analytics] à des fins de suivi et d’analyse, [Installez](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) et [configurez](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) le SDK web Platform sur les pages de votre site.
+Pour commencer à diffuser des expériences [!DNL Target] et appliquer des [!DNL Analytics] à des fins de suivi et d’analyse, [Installez](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) et [configurez](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) le SDK web Platform sur les pages de votre site.
 
 ### Étape 5 : activer les options d’utilisation d’A4T
 
 Dans l’interface utilisateur de [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis choisissez **[!UICONTROL Sélectionner par activité]** ou **[!UICONTROL Adobe Analytics]**.
 
 * **[!UICONTROL Sélectionner par activité]** permet de choisir entre [!DNL Target] et [!DNL Analytics] lors de la création de chaque activité.
-* **&#x200B;**&#x200B;définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
+* **** définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
 
 ## ![badge at.js](/help/main/assets/atjs.png) Étapes d’implémentation d’at.js{#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -71,15 +79,15 @@ Les exigences du compte d’utilisateur doivent être remplies avant de pouvoir 
 
 Le service d’identification des visiteurs vous permet d’identifier les utilisateurs dans les solutions [!DNL Adobe Experience Cloud]. Implémentez ou migrez vers la version requise de l’identifiant visiteur Experience Cloud. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Voir [Mise en œuvre du service Experience Cloud ID pour Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=fr) dans la documentation du *service d’identification des visiteurs Experience Cloud*.
+Voir [Mise en œuvre du service Experience Cloud ID pour Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) dans la documentation du *service d’identification des visiteurs Experience Cloud*.
 
 ### Étape 4 : mise à jour d’AppMeasurement pour JavaScript ou s_code
 
 Implémentez ou migrez vers la version requise d’appMeasurement.js. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/main/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [&#128279;](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=fr) dans le *Guide d’implémentation d’Analytics*.
+Pour connaître les nouvelles mises en œuvre, consultez la présentation de l’implémentation de JavaScript [](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation d’Analytics*.
 
-Pour une migration, voir [Migration vers AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html?lang=fr) dans le *Guide de mise en œuvre d’Analytics*.
+Pour une migration, voir [Migration vers AppMeasurement for JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) dans le *Guide de mise en œuvre d’Analytics*.
 
 ### Étape 5 : télécharger et mettre à jour at.js
 
@@ -129,7 +137,7 @@ Cette configuration a un effet global, ce qui signifie que chaque appel effectu�
 }
 ```
 
-La payload peut ensuite être transmise à Analytics via l’[API Data Insertion](https://helpx.adobe.com/fr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et de ciblage automatique , vous devez également transférer l’ID de session. Pour plus d’informations, consultez [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=fr){target=_blank} dans le guide des *SDK Adobe Target*.
+La payload peut ensuite être transmise à Analytics via l’[API Data Insertion](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et de ciblage automatique , vous devez également transférer l’ID de session. Pour plus d’informations, consultez [Rapports Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} dans le guide des *SDK Adobe Target*.
 
 Si aucun paramètre global n’est souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js [getOffers()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} en transmettant **analyticsLogging: « client_side »**. La payload d’analyse est renvoyée pour cet appel uniquement et le serveur principal [!DNL Target] ne transfère pas la payload vers [!DNL Analytics]. En suivant cette approche, chaque requête de [!DNL Target] at.js renvoie la payload par défaut, mais uniquement lorsque cela est souhaité et spécifié.
 
@@ -187,7 +195,7 @@ La réponse ressemble à ce qui suit :
 }
 ```
 
-La payload peut ensuite être transmise à [!DNL Analytics] via l’API [Data Insertion](https://helpx.adobe.com/fr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La payload peut ensuite être transmise à [!DNL Analytics] via l’API [Data Insertion](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ### Étape 8 : validation de l’implémentation {#step8}
 
@@ -208,6 +216,6 @@ Adobe vous recommande de supprimer l’intégration précédente pour simplifier
 Dans [!DNL Target], cliquez sur **[!UICONTROL Administration > Rapports]** et choisissez **[!UICONTROL Sélectionner par activité]** ou **[!UICONTROL Adobe Analytics]** pour activer les options.
 
 * **[!UICONTROL Sélectionner par activité]** permet de choisir entre [!DNL Target] et [!DNL Analytics] lors de la création de chaque activité.
-* **&#x200B;**&#x200B;définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
+* **** définit [!DNL Analytics] comme source de création de rapports pour toutes les activités que vous créez.
 
 

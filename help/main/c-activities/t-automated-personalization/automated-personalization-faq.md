@@ -1,29 +1,40 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;FAQ;automated personalization;contrôle;expérience par défaut;bonnes pratiques
-description: Explorez une liste de questions fréquentes (FAQ) sur les activités  (AP) dans [!UICONTROL Adobe Target].
-title: Comment puis-je trouver des questions fréquentes sur les activités  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Explorez une liste de questions fréquentes (FAQ) sur les activités [!UICONTROL ] (AP) dans [!UICONTROL Adobe Target].
+title: Comment puis-je trouver des questions fréquentes sur les activités [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-TQID: https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo
+TQID: 'https://experienceleague.adobe.com/cYdFwvkJDlfGYdcxql9iWGwNiTed4Lb2kC7JdN7xgdo'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
+    internal-label: Automated personalization
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c467f629596b37c334276d6f095f19b639a8518d
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: '2303'
 ht-degree: 17%
-
 ---
-
 # FAQ sur Automated Personalization
 
 Consultez les FAQ et les réponses suivantes lorsque vous utilisez des activités  dans [!DNL Adobe Target].
@@ -32,7 +43,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous utilisez des activité
 
 +++Afficher les détails
 
-Vous pouvez sélectionner une expérience à utiliser comme contrôle lors de la création d’une activité de [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
+Vous pouvez sélectionner une expérience à utiliser comme contrôle lors de la création d’une activité de [](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers cette expérience.
 
@@ -54,35 +65,35 @@ Il n’existe pas d’option clé en main permettant de comparer  à une expéri
 
 * Prêtez une attention particulière à la *forme de l’activité* (nombre d’emplacements × nombre d’offres), et pas seulement au nombre total d’expériences. Les combinaisons cartésiennes d’emplacements et d’offres optimisent davantage les performances au moment de la création que le nombre brut d’expériences.
 * Pour des performances et une gérabilité optimales, limitez les activités  et [!UICONTROL Ciblage automatique] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Les configurations plus volumineuses ne sont pas recommandées, elles peuvent entraîner un chargement ou une modification lents dans le [!UICONTROL compositeur d’expérience visuelle] et peuvent être limitées dans l’interface utilisateur de [!DNL Target]. Dans l’interface utilisateur actuelle, [!DNL Target] affiche des avertissements intégrés ou empêche l’enregistrement de l’activité lorsque la configuration dépasse les seuils pris en charge.
-* Si vous souhaitez personnaliser une page à faible trafic ou apporter des modifications structurelles à l’expérience que vous personnalisez, pensez à utiliser une activité de [!UICONTROL ciblage automatique] à la place de [!UICONTROL Automated Personalization]. Voir [&#x200B; Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+* Si vous souhaitez personnaliser une page à faible trafic ou apporter des modifications structurelles à l’expérience que vous personnalisez, pensez à utiliser une activité de [!UICONTROL ciblage automatique] à la place de [!UICONTROL Automated Personalization]. Voir [ Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 * Envisagez d’effectuer une activité de [!UICONTROL Test A/B] entre les offres et les emplacements que vous prévoyez d’utiliser dans votre activité [!UICONTROL Automated Personalization] afin de vous assurer que l’emplacement et les offres ont un impact sur l’objectif d’optimisation. Si une activité [!UICONTROL Test A/B] ne parvient pas à démontrer une différence significative, [!UICONTROL Automated Personalization] ne parvient probablement pas non plus à générer l’effet élévateur.
 
-   * Si un test A/B...N ne montre aucune différence statistiquement significative entre les expériences, une ou plusieurs des situations suivantes sont probablement responsables :
+  * Si un test A/B...N ne montre aucune différence statistiquement significative entre les expériences, une ou plusieurs des situations suivantes sont probablement responsables :
 
-      * Les offres ne sont probablement pas suffisamment différentes les unes des autres.
-      * Les emplacements que vous avez sélectionnés n’ont aucune incidence sur la mesure de succès.
-      * L’objectif d’optimisation se trouve trop loin dans le funnel de conversion pour être affecté par les offres sélectionnées.
+    * Les offres ne sont probablement pas suffisamment différentes les unes des autres.
+    * Les emplacements que vous avez sélectionnés n’ont aucune incidence sur la mesure de succès.
+    * L’objectif d’optimisation se trouve trop loin dans le funnel de conversion pour être affecté par les offres sélectionnées.
 
 * Veillez à utiliser l’[Estimateur de trafic](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) afin de vous faire une idée du temps nécessaire aux modèles de personnalisation pour intégrer votre activité [!UICONTROL Automated Personalization].
 * Décidez de l’allocation entre le contrôle et le ciblé avant de commencer l’activité, en fonction de vos objectifs.
 
   Vous devez prendre en compte trois scénarios en fonction de l’objectif de votre activité et du type de contrôle que vous avez sélectionné :
 
-   * **Expériences aléatoires comme objectif de contrôle et d’activité est de tester l’efficacité de l’algorithme de personnalisation** : si votre objectif est d’évaluer l’algorithme de personnalisation, vous souhaitez obtenir une image plus précise de l’effet élévateur. Il est également probable que vous souhaitiez comparer le taux de conversion de vos expériences ou offres si vous avez simplement effectué un [!UICONTROL Test A/B] (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
-   * **« Expériences aléatoires » comme contrôle et objectif de votre activité afin d’optimiser le trafic personnalisé** : si vous maîtrisez l’algorithme et souhaitez personnaliser la quantité maximale de trafic, une affectation de 10 % à 30 % au contrôle est recommandée. Le compromis ici est la précision que vous voyez dans vos informations d&#39;ascenseur. Les intervalles de confiance de votre trafic de contrôle sont plus grands, car ils reçoivent moins de trafic.
-   * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic n’est pas réparti sur toutes les offres ou expériences de l’activité.
+  * **Expériences aléatoires comme objectif de contrôle et d’activité est de tester l’efficacité de l’algorithme de personnalisation** : si votre objectif est d’évaluer l’algorithme de personnalisation, vous souhaitez obtenir une image plus précise de l’effet élévateur. Il est également probable que vous souhaitiez comparer le taux de conversion de vos expériences ou offres si vous avez simplement effectué un [!UICONTROL Test A/B] (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
+  * **« Expériences aléatoires » comme contrôle et objectif de votre activité afin d’optimiser le trafic personnalisé** : si vous maîtrisez l’algorithme et souhaitez personnaliser la quantité maximale de trafic, une affectation de 10 % à 30 % au contrôle est recommandée. Le compromis ici est la précision que vous voyez dans vos informations d&#39;ascenseur. Les intervalles de confiance de votre trafic de contrôle sont plus grands, car ils reçoivent moins de trafic.
+  * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic n’est pas réparti sur toutes les offres ou expériences de l’activité.
 
 * Les règles de ciblage doivent être appliquées avec autant de parcimonie que possible, car elles peuvent interférer avec la capacité d’optimisation du modèle.
 * Les groupes de génération de rapports peuvent limiter le succès de votre activité . Utilisez les groupes de génération de rapports uniquement dans des conditions spécifiques :
 
-   * Utilisez les groupes de génération de rapports uniquement si les conditions suivantes sont remplies :
+  * Utilisez les groupes de génération de rapports uniquement si les conditions suivantes sont remplies :
 
-      * Vous prévoyez de remplacer ou d’ajouter de nouvelles offres pendant l’exécution de l’activité.
-      * Les offres du groupe de génération de rapports s’adressent aux mêmes visiteurs.
-      * Les offres de ce groupe déclarant ont à peu près le même taux de réponse global.
+    * Vous prévoyez de remplacer ou d’ajouter de nouvelles offres pendant l’exécution de l’activité.
+    * Les offres du groupe de génération de rapports s’adressent aux mêmes visiteurs.
+    * Les offres de ce groupe déclarant ont à peu près le même taux de réponse global.
 
-   * Il n’existe aucune personnalisation entre les offres d’un groupe de génération de rapports. Les offres sont toutes traitées de la même manière par le modèle de personnalisation.
-   * Ne placez jamais toutes les offres d’une activité dans un seul groupe de génération de rapports. De cette manière, toutes les offres sont diffusées de manière aléatoire et uniforme à tous les visiteurs de l’activité.
+  * Il n’existe aucune personnalisation entre les offres d’un groupe de génération de rapports. Les offres sont toutes traitées de la même manière par le modèle de personnalisation.
+  * Ne placez jamais toutes les offres d’une activité dans un seul groupe de génération de rapports. De cette manière, toutes les offres sont diffusées de manière aléatoire et uniforme à tous les visiteurs de l’activité.
 
 +++
 
@@ -206,7 +217,7 @@ Cette recommandation s’applique aux activités [!UICONTROL Affectation automat
 
 +++Afficher les détails
 
-[!DNL Adobe] ne recommande pas d’utiliser l’option [!UICONTROL &#x200B; Réinitialiser les données du rapport &#x200B;] pour les activités [!UICONTROL Automated Personalization]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle . Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Automated Personalization], créez une activité et désactivez l’activité d’origine. Ces conseils s’appliquent également aux activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] et [!UICONTROL &#x200B; Ciblage automatique &#x200B;].
+[!DNL Adobe] ne recommande pas d’utiliser l’option [!UICONTROL  Réinitialiser les données du rapport ] pour les activités [!UICONTROL Automated Personalization]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle . Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Automated Personalization], créez une activité et désactivez l’activité d’origine. Ces conseils s’appliquent également aux activités [!UICONTROL  Affectation automatique ] et [!UICONTROL  Ciblage automatique ].
 
 +++
 

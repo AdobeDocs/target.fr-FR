@@ -1,30 +1,41 @@
 ---
 keywords: algorithmes de recommandations;entraînement de modèles;diffusion de modèles;diffusion de contenu;basé sur les éléments;basé sur l’utilisateur;basé sur la popularité;basé sur le panier;critères personnalisés
-description: Découvrez les algorithmes utilisés dans  [!DNL Target Recommendations], y compris l’entraînement de modèles et la diffusion de modèles.
+description: Découvrez les algorithmes utilisés dans [!DNL Target Recommendations], y compris l’entraînement de modèles et la diffusion de modèles.
 title: Où puis-je en savoir plus sur la science derrière les algorithmes de recommandations de Target ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-TQID: https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4
+TQID: 'https://experienceleague.adobe.com/goYsorjFUweT4Aw0XvzQSeiqON7orDcLntZaJliqGl4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 220c828fc77e9022a3884de04b78ae5d107e4c7d
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 3045
+source-wordcount: '3045'
 ht-degree: 0%
-
 ---
-
 # La science derrière les algorithmes de recommandations de Target
 
 Description détaillée des algorithmes utilisés dans [!DNL Adobe Target Recommendations], y compris les détails logiques et mathématiques de la formation des modèles et du processus de diffusion des modèles.
@@ -77,7 +88,7 @@ Le flux logique de l’implémentation réelle de l’algorithme est illustré d
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -101,7 +112,7 @@ Bien que les aspects de diffusion de modèles et de diffusion de contenu des alg
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : comme décrit précédemment, cet algorithme est basé uniquement sur les données de catalogue (ingérées par les [!DNL Target] via un [flux de catalogue), l’API Entities ou à partir de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+* **Données d’entrée** : comme décrit précédemment, cet algorithme est basé uniquement sur les données de catalogue (ingérées par les [!DNL Target] via un [flux de catalogue), l’API Entities ou à partir de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -129,7 +140,7 @@ Les algorithmes incluent :
 * Recommandations basées sur le panier
 * [!UICONTROL Recommandé]
 
-Les ajouts les plus récents à la suite [!DNL Target] d’algorithmes de recommandations sont [!UICONTROL &#x200B; Recommandé pour vous &#x200B;] et une série d’algorithmes de recommandations basés sur le panier. Les deux types d’algorithmes utilisent des techniques de filtrage collaboratif pour former des recommandations individuelles basées sur des éléments. Ensuite, au moment du service, plusieurs éléments de l’historique de navigation de l’utilisateur (par exemple, [!UICONTROL Recommandé pour vous]) ou du panier actuel de l’utilisateur (pour les recommandations basées sur le panier) sont utilisés pour récupérer ces recommandations basées sur les éléments, qui sont ensuite fusionnées pour former la liste finale de recommandations. Notez qu’il existe de nombreuses versions d’algorithmes de recommandation personnalisés. Le choix d’un algorithme à plusieurs clés signifie que des recommandations sont immédiatement disponibles après qu’un visiteur a accédé à un historique de navigation et que les recommandations peuvent être mises à jour pour répondre au comportement le plus récent du visiteur.
+Les ajouts les plus récents à la suite [!DNL Target] d’algorithmes de recommandations sont [!UICONTROL  Recommandé pour vous ] et une série d’algorithmes de recommandations basés sur le panier. Les deux types d’algorithmes utilisent des techniques de filtrage collaboratif pour former des recommandations individuelles basées sur des éléments. Ensuite, au moment du service, plusieurs éléments de l’historique de navigation de l’utilisateur (par exemple, [!UICONTROL Recommandé pour vous]) ou du panier actuel de l’utilisateur (pour les recommandations basées sur le panier) sont utilisés pour récupérer ces recommandations basées sur les éléments, qui sont ensuite fusionnées pour former la liste finale de recommandations. Notez qu’il existe de nombreuses versions d’algorithmes de recommandation personnalisés. Le choix d’un algorithme à plusieurs clés signifie que des recommandations sont immédiatement disponibles après qu’un visiteur a accédé à un historique de navigation et que les recommandations peuvent être mises à jour pour répondre au comportement le plus récent du visiteur.
 
 Ces algorithmes s’appuient sur les techniques de filtrage collaboratif fondamentales décrites dans la section recommandations basées sur les éléments , mais incorporent également l’optimisation des hyperparamètres pour déterminer la mesure de similarité optimale entre les éléments. L&#39;algorithme effectue une division chronologique des données comportementales pour chaque utilisateur, et entraîne des modèles de recommandation sur les données antérieures tout en essayant de prédire les articles qu&#39;un utilisateur consulte ou achète ultérieurement. La mesure de similarité qui produit la [précision moyenne moyenne] optimale (https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)) est ensuite choisie.
 
@@ -139,7 +150,7 @@ La logique des étapes d’entraînement et de notation du modèle est illustré
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée** : est identique aux méthodes de filtrage collaboratif (CF) élément par élément. [!UICONTROL Recommandé pour vous] et les algorithmes basés sur le panier utilisent des données comportementales, sous la forme d’achats et d’affichages des utilisateurs collectés lors de l’[implémentation de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir d’[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : est identique aux méthodes de filtrage collaboratif (CF) élément par élément. [!UICONTROL Recommandé pour vous] et les algorithmes basés sur le panier utilisent des données comportementales, sous la forme d’achats et d’affichages des utilisateurs collectés lors de l’[implémentation de Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir d’[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -171,7 +182,7 @@ Les algorithmes incluent :
 * [!UICONTROL Les plus consultés sur le site]
 * [!UICONTROL Les plus consultés par catégorie]
 * [!UICONTROL Éléments les plus consultés par attribut d’élément]
-* [!UICONTROL &#x200B; Les plus consultés par attribut de profil &#x200B;]
+* [!UICONTROL Les plus consultés par attribut de profil]
 * [!UICONTROL Meilleurs vendeurs sur le site]
 * [!UICONTROL Meilleurs vendeurs par catégorie]
 * [!UICONTROL Meilleurs vendeurs par attribut d&#39;article]

@@ -1,24 +1,32 @@
 ---
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de diffusion;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;e-mail au moment de la génération
-description: Découvrez comment intégrer la messagerie électronique dans l’API Delivery Adobe [!DNL Target Recommendations], including using the [!DNL Target] , les modèles Rawbox et les modèles en téléchargement uniquement.
+description: Découvrez comment intégrer la messagerie à Adobe [!DNL Target Recommendations], notamment en utilisant l’API de diffusion [!DNL Target], les modèles rawbox et les modèles de téléchargement uniquement.
 title: Comment intégrer Recommandations aux e-mails ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-TQID: https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE
+TQID: 'https://experienceleague.adobe.com/ZyeOl6ysM03a0mMiNgHuicOLPfgpXnrdqXJE1gHRRvE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1768
-ht-degree: 86%
-
+source-wordcount: '1772'
+ht-degree: 85%
 ---
-
 # Intégration de [!DNL Recommendations] dans la messagerie électronique
 
 [!DNL Adobe Target] prend en charge la personnalisation au moment de l’envoi des recommandations dans les e-mails.
@@ -114,9 +122,9 @@ Le système de messagerie que vous utilisez doit pouvoir gérer les scénarios s
 
 * L’application de messagerie doit rechercher le texte et être capable de gérer l’erreur. Le fournisseur de services de messagerie électronique peut gérer ce cas de plusieurs façons :
 
-   * Émettre immédiatement un autre appel de serveur (recommandé, éventuellement avec un compteur de tentatives)
-   * Ignorer ce message électronique et passer au suivant
-   * Mettre cet e-mail en file d’attente et réexécuter les e-mails en échec sous la forme d’un lot à la fin de la première exécution
+  * Émettre immédiatement un autre appel de serveur (recommandé, éventuellement avec un compteur de tentatives)
+  * Ignorer ce message électronique et passer au suivant
+  * Mettre cet e-mail en file d’attente et réexécuter les e-mails en échec sous la forme d’un lot à la fin de la première exécution
 
 ### Exemple d’URL de requête
 

@@ -1,15 +1,16 @@
 ---
 title: Extension Flags pour le guide d’intégration d’iOS
 description: Découvrez comment intégrer l’extension Flags à Adobe Experience Platform Mobile SDK sur iOS.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 5%
-
+source-wordcount: '1046'
+ht-degree: 6%
 ---
-
 # Extension Flags pour iOS {#ios-extension-integration-guide}
 
 Ce guide décrit comment intégrer l’extension Flags à Adobe Experience Platform Mobile SDK sur iOS.
@@ -18,7 +19,7 @@ Ce guide décrit comment intégrer l’extension Flags à Adobe Experience Platf
 
 Avant d’implémenter l’extension Flags, vérifiez que vous disposez des éléments suivants :
 
-* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
+* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
 * Extension Flags installée et configurée dans votre propriété mobile
 * Un identifiant d’organisation Adobe Experience Cloud
 * Cible de déploiement minimale : iOS 12.0
@@ -40,7 +41,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
 1. Sélectionnez l’onglet **Balises** et choisissez votre propriété mobile.
 1. Accédez à **Extensions** > **Catalogue**.
 1. Recherchez **Extension Flags** et sélectionnez **Installer**.
@@ -51,7 +52,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
    | ID d’application | Identifiant unique de votre application dans Flags |
 
 1. Sélectionnez **Enregistrer**.
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
@@ -291,7 +292,7 @@ AEPIdentityMap *identityMap = [[AEPIdentityMap alloc] init];
 
 ### isFeatureEnabled {#is-feature-enabled}
 
-`isFeatureEnabled` indique si la fonction Indicateurs est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, une `FeatureEvaluationContext` (attributs de ciblage facultatifs) et une fermeture complète. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context).
+`isFeatureEnabled` indique si la fonction Indicateurs est activée ou désactivée pour le contexte donné. Transmettez des `featureKey`, une `FeatureEvaluationContext` (attributs de ciblage facultatifs) et une fermeture complète. Voir [ Contexte d’évaluation ](#evaluation-context).
 
 **Signature**
 
@@ -318,7 +319,7 @@ static func isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans Flags |
-| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `completion` | `(Bool) -> Void` | Appelé avec `true` si la fonctionnalité est activée, `false` dans le cas contraire. |
 
 **Exemples**
@@ -385,7 +386,7 @@ static func getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans Flags |
-| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
 | `completion` | `(FeatureEvaluationResult?) -> Void` | Appelé avec la payload de la fonctionnalité évaluée ; `nil` lorsque la fonctionnalité est introuvable. |
 
 **Réponse**
@@ -462,7 +463,7 @@ static var extensionVersion: String
 + (nonnull NSString *)flagExtensionVersion;
 ```
 
-**Exemple &#x200B;**
+**Exemple **
 
 *Swift*
 

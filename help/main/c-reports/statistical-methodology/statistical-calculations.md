@@ -1,22 +1,26 @@
 ---
 keywords: rapports;méthodologie statistique;calculs statistiques;statistiques;moyenne;taux de conversion;chiffre d’affaires par visiteur;rpv;intervalle de confiance;effet élévateur;test de richesse;calculs hors ligne
-description: Découvrez les calculs statistiques utilisés dans les activités manuelles [!UICONTROL Test A/B] dans  [!DNL Adobe Target].
+description: Découvrez les calculs statistiques utilisés dans les activités manuelles [!UICONTROL Test A/B] dans [!DNL Adobe Target].
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans les activités de test [!UICONTROL A/B] ?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-TQID: https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4
+TQID: 'https://experienceleague.adobe.com/LEFFg6KjhxYM0jMRGOPcHwLzZ07SOBh-Faf3JK3Pfn4'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 224dafac8d5d0ba17baa4ee998ca7dd89b73b898
+    internal-label: Personalization
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: '1506'
 ht-degree: 1%
-
 ---
-
 # Calculs statistiques dans les tests A/B
 
 Cet article documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Des définitions sont fournies pour les mesures de décision **[!UICONTROL Taux de conversion]**, **[!UICONTROL Intervalle de confiance du taux de conversion]**, **[!UICONTROL Effet élévateur]**, **[!UICONTROL Intervalle de confiance pour l’effet élévateur]**, **[!UICONTROL Confiance]** et **[!UICONTROL Bayesian]**.
@@ -111,7 +115,7 @@ Alors l’intervalle de confiance à 95 % de l’effet élévateur est :
 
 Ce calcul utilise la méthode « Delta », et est décrit [plus en détail dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
-### [!UICONTROL Confiance &#x200B;]
+### [!UICONTROL Confiance ]
 
 La dernière colonne indique le degré de confiance dans un rapport [!DNL Target]. Le degré de confiance d’une expérience est une probabilité (exprimée en pourcentage) d’obtenir un résultat aussi extrême que celui observé, en admettant que l’hypothèse nulle soit vraie. En termes de p-values, le degré de confiance affiché est *1 - p-value*. Intuitivement, un degré de confiance plus élevé signifie qu’il est moins probable que l’expérience de contrôle et de non-contrôle ait des taux de conversion égaux.
 
@@ -153,7 +157,7 @@ Au lieu de calculer une valeur de p à partir d’une loi approximative, le rapp
 
 La méthodologie **[!UICONTROL bayésienne]** permet également aux spécialistes du marketing d’alimenter une hypothèse basée sur leur expérience passée et les résultats de la variante de contrôle.
 
-La méthodologie **[!UICONTROL bayésienne]** n’est disponible que pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**, les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]** utilisent toujours **[!UICONTROL test en t de Welch]**. Pour plus d’informations sur la sélection d’une méthodologie, voir [&#x200B; Objectifs et paramètres &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
+La méthodologie **[!UICONTROL bayésienne]** n’est disponible que pour les activités dont la mesure d’objectif principale est **[!UICONTROL Conversion]**, les activités ayant un objectif principal **[!UICONTROL Chiffre d’affaires]** ou **[!UICONTROL Engagement]** utilisent toujours **[!UICONTROL test en t de Welch]**. Pour plus d’informations sur la sélection d’une méthodologie, voir [ Objectifs et paramètres ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF).
 
 ### Effet élévateur moyen et intervalle crédible
 

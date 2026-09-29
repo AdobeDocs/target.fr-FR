@@ -1,16 +1,23 @@
 ---
 keywords: Ciblage d’expérience;xt;créer
-description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans  [!DNL Adobe Target]  pour créer une activité [!UICONTROL ciblage d’expérience] (XT).
+description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer une activité de [!UICONTROL ciblage d’expérience] (XT).
 title: Comment créer une activité [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 35%
-
 ---
-
 # Créer une activité [!UICONTROL Ciblage d’expérience] (XT)
 
 Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!UICONTROL ciblage d’expérience] (XT) sur une page compatible avec les [!DNL Target] et pour modifier des parties de la page dans [!DNL Adobe Target].
@@ -45,7 +52,7 @@ Pour plus d’informations sur [!UICONTROL le ciblage d’expérience], un scén
 
 1. (Conditionnel) Si vous êtes un client [!DNL Target Premium], [choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L’option [!UICONTROL &#x200B; Choisir un lieu de travail &#x200B;] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
+   L’option [!UICONTROL  Choisir un lieu de travail ] est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md). Si votre entreprise dispose d’une licence [!DNL Target Standard], si vous ne voyez pas cette option.
 
 1. Indiquez votre [URL d’activité](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90) puis cliquez sur **[!UICONTROL Créer]**.
 

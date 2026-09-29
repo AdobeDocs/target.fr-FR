@@ -2,30 +2,39 @@
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
 description: Découvrez comment utiliser les rapports spécialisés pour les activités Automated Personalization (AP) et de ciblage automatique (AT) - Segments automatisés et attributs importants.
 title: Comment utiliser les rapports Personalization Insights ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-TQID: https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI
+TQID: 'https://experienceleague.adobe.com/qDaIhyfV-m3oHJArqg8TKMAe-k5QwjEUjGzhZrPSTEI'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
+  - id: e8a43148-398f-56c7-9433-6564f96999c2
+    internal-label: Reports
 subfeature_v2:
   - id: fff07a91-d479-45f4-ae95-9762e79b1b7c
+    internal-label: Shared audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Insights
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1023
+source-wordcount: '1023'
 ht-degree: 29%
-
 ---
-
 # [!UICONTROL Rapports Personalization Insights]
 
 Deux rapports spécialisés sont disponibles pour les utilisateurs des activités  (AP) et [!UICONTROL Ciblage automatique] (AT) : les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
@@ -34,39 +43,39 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 
 Tenez compte des points suivants lors de l’utilisation des rapports [!UICONTROL Personalization Insights] :
 
-* Les activités AP et AT sont disponibles dans le cadre de la [[!DNL Target Premium]  solution &#x200B;](/help/main/c-intro/intro.md#premium). Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
+* Les activités AP et AT sont disponibles dans le cadre de la [[!DNL Target Premium]  solution ](/help/main/c-intro/intro.md#premium). Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
 
 * Les rapports [!UICONTROL Personalization Insights] sont disponibles uniquement pour les activités AP et AT configurées comme suit :
 
-   * Rapports [!DNL Target] > [!UICONTROL Conversion]
+  * Rapports [!DNL Target] > [!UICONTROL Conversion]
 
-     Par exemple :
+    Par exemple :
 
-     ![Rapports Target > Conversion](/help/main/c-reports/assets/conversion.png)
+    ![Rapports Target > Conversion](/help/main/c-reports/assets/conversion.png)
 
-   * [!DNL Analytics] des rapports > [!DNL Conversion]
+  * [!DNL Analytics] des rapports > [!DNL Conversion]
 
-     Par exemple :
+    Par exemple :
 
-     ![Rapports Analytics > Conversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
+    ![Rapports Analytics > Conversion](/help/main/c-reports/assets/analytics-reporting-conversion.png)
 
-   * [!DNL Analytics] rapports > [!UICONTROL Utiliser une mesure Analytics] > [!UICONTROL Maximiser le taux de conversion des visites]
+  * [!DNL Analytics] rapports > [!UICONTROL Utiliser une mesure Analytics] > [!UICONTROL Maximiser le taux de conversion des visites]
 
-     Par exemple :
+    Par exemple :
 
-     ![Utiliser une mesure Analytics > Maximiser le taux de conversion des visites](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
+    ![Utiliser une mesure Analytics > Maximiser le taux de conversion des visites](/help/main/c-reports/assets/maximize-visit-conversion-rate.png)
 
 * Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
 
-* Les rapports [!UICONTROL Personalization Insights] ne sont disponibles que si l’[!UICONTROL Objectif de Principal &#x200B;] est sélectionné dans la liste déroulante [!UICONTROL Mesure du rapport].
+* Les rapports [!UICONTROL Personalization Insights] ne sont disponibles que si l’[!UICONTROL Objectif de Principal ] est sélectionné dans la liste déroulante [!UICONTROL Mesure du rapport].
 
 * Les rapports [!UICONTROL Personalization Insights] sont pris en charge uniquement dans l&#39;environnement [par défaut](/help/main/administrating-target/hosts.md).
 
-* Les rapports [!UICONTROL Personalization Insights] sont générés uniquement pour les activités dont le statut est [!UICONTROL &#x200B; Actif] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+* Les rapports [!UICONTROL Personalization Insights] sont générés uniquement pour les activités dont le statut est [!UICONTROL  Actif] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 ## Présentation de la création de rapports Personalization Insights {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L’objectif des rapports [!UICONTROL Personalization Insights] est de fournir plus d’informations sur la manière dont les modèles de personnalisation [!UICONTROL Target] derrière vos activités AP et AT personnalisent le trafic des visiteurs. L’algorithme [&#x200B; Forêt aléatoire &#x200B;](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
+L’objectif des rapports [!UICONTROL Personalization Insights] est de fournir plus d’informations sur la manière dont les modèles de personnalisation [!UICONTROL Target] derrière vos activités AP et AT personnalisent le trafic des visiteurs. L’algorithme [ Forêt aléatoire ](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
 
 Comme l’objectif des rapports [!UICONTROL Personalization Insights] est de comprendre comment les modèles de personnalisation [!DNL Target] ont décidé d’envoyer quel visiteur à quel(s) élément(s) de contenu, les rapports [!UICONTROL Personalization Insights] ne reflètent qu’un sous-segment de tout le trafic généré par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports [!UICONTROL Informations sur la personnalisation] ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
 
@@ -108,12 +117,12 @@ Les modèles  (AP) et [!UICONTROL de ciblage automatique] conservent le comporte
 
 ## Vidéo de formation : utilisation des rapports Personalization Insights ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/328088?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Pour plus d’informations, voir [Utilisation des rapports Personalization Insights dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
 ## Blogs Adobe
 
 * Partie 1 : [Sortir du mystère de la magie du Personalization piloté par l’IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Partie 2 : [&#x200B; Aperçu derrière le rideau de l’IA pour Personalization dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Partie 2 : [ Aperçu derrière le rideau de l’IA pour Personalization dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * Partie 3 : [MAGIX — la solution au problème de la boîte noire du Personalization piloté par l&#39;IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)

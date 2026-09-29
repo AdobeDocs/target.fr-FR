@@ -1,16 +1,17 @@
 ---
 title: Création de rapports
 description: Découvrez comment afficher les rapports d’indicateur de fonctionnalité dans Indicateurs à l’aide de Customer Journey Analytics.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
-
 ---
-
 # Création de rapports {#reporting}
 
 Flags diffuse les rapports via **Customer Journey Analytics (CJA)**. Un onglet **Rapport** est disponible sur chaque indicateur de fonctionnalité et sur la page des détails des groupes de fonctionnalités. Il vous permet d’afficher un rapport CJA dont la portée est limitée à cet indicateur ou à ce groupe spécifique, incorporé directement dans la page.

@@ -1,27 +1,34 @@
 ---
 keywords: rapport;rapports;reporting;solution experience cloud;fuseau horaire;fuseau horaire;devise;exclure les adresses IP;effet élévateur estimé dans le chiffre d’affaires;effet élévateur dans le chiffre d’affaires;priorités affinées;affiné
-description: Utilisez  [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics]  comme source de création de rapports, spécifiez le fuseau horaire et le format de devise par défaut, ajoutez des adresses IP à exclure des rapports, etc.
-title: Comment configurer les rapports dans  [!DNL Target] ?
+description: Utilisez [!DNL Target], [!DNL Adobe Analytics] ou [!DNL Adobe Customer Journey Analytics] comme source de création de rapports, spécifiez le fuseau horaire et le format de devise par défaut, ajoutez des adresses IP à exclure des rapports, etc.
+title: Comment configurer les rapports dans [!DNL Target] ?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-TQID: https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY
+TQID: 'https://experienceleague.adobe.com/Vdi1o6bvCbgrhWUrJfCOyxqN3JkhEe3Rd9J-3NmLVyY'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 283e20be405890a7f53ca95d370e3eef5820f437
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 823
+source-wordcount: '825'
 ht-degree: 21%
-
 ---
-
 # Configuration des rapports dans [!DNL Target]
 
 Configurez les paramètres généraux à utiliser dans les rapports [!DNL Adobe Target] qui s’appliquent à l’ensemble de votre compte [!DNL Target].
@@ -72,7 +79,7 @@ Lorsque vous déterminez votre source de création de rapports, tenez compte des
 
   Même si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports au niveau du compte, [!DNL Target] est utilisé comme source de création de rapports pour les activités [!DNL Automated Personalization].
 
-  Les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] peuvent utiliser [!DNL Customer Journey Analytics] comme source de création de rapports. Voir [Création d’une activité qui utilise [!DNL Customer Journey Analytics] comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) dans *[!DNL Target]de rapports dans[!DNL Adobe Customer Journey Analytics]*. Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités de [!UICONTROL ciblage automatique], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
+  Les activités [!UICONTROL  Affectation automatique ] peuvent utiliser [!DNL Customer Journey Analytics] comme source de création de rapports. Voir [Création d’une activité qui utilise [!DNL Customer Journey Analytics] comme source de création de rapports](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#create-an-activity-that-uses-customer-journey-analytics-as-the-reporting-source) dans *[!DNL Target]de rapports dans[!DNL Adobe Customer Journey Analytics]*. Si vous spécifiez [!DNL Customer Journey Analytics] comme source de création de rapports pour les activités de [!UICONTROL ciblage automatique], [!DNL Target] ou [!DNL Analytics] peuvent être utilisés comme source de création de rapports.
 
 ## Fuseau horaire pour la création de rapports
 

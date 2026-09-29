@@ -1,22 +1,28 @@
 ---
 keywords: promotions;promotions frontales;promotions dorsales;type de promotions;liste d’éléments;promouvoir par attribut;promouvoir une collection
-description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions  [!DNL Target] Recommendations. Vous pouvez ajouter des promotions statiques et dynamiques.
+description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions Adobe [!DNL Target] Recommendations. Vous pouvez ajouter des promotions statiques et dynamiques.
 title: Comment ajouter des promotions dans les conceptions Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-TQID: https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E
+TQID: 'https://experienceleague.adobe.com/tAfKOzwjnUJgypDh-4LdVukNlTVwMS4UkvcNmCaCV0E'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '710'
 ht-degree: 41%
-
 ---
-
 # Ajout de promotions
 
 Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions de [!DNL Adobe Target Recommendations]. Vous pouvez ajouter des promotions statiques et dynamiques.
@@ -80,7 +86,7 @@ Options ![[!UICONTROL Promotion avant] et [!UICONTROL Promotion arrière] dans [
    | Type de promotion | Tri par défaut | Tri de sauvegarde | Option de filtrage dynamique |
    | --- | --- | --- | --- |
    | [!UICONTROL Liste des éléments] | Commande saisie dans l’interface utilisateur/l’API Target | Aléatoire (si sélectionné via l’interface utilisateur/l’API) | Non |
-   | [!UICONTROL &#x200B; Promouvoir par attribut &#x200B;] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
+   | [!UICONTROL  Promouvoir par attribut ] | `entity.value` (ordre décroissant) | Aucune randomisation | Oui |
    | [!UICONTROL Promouvoir une collection] | `entity.value` (ordre décroissant) | Aucune randomisation | Non |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

@@ -1,16 +1,23 @@
 ---
 keywords: tests de modèle;modèle;même expérience sur des pages similaires;test de modèles
-description: Découvrez comment utiliser le compositeur  [!DNL Target] ’expérience visuelle (VEC) d’Adobe pour inclure la même expérience sur plusieurs pages structurées de manière similaire ou contenant les mêmes éléments de modèle.
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target] pour inclure la même expérience sur plusieurs pages structurées de manière similaire ou contenant les mêmes éléments de modèle.
 title: Puis-je inclure la même expérience sur des pages similaires ?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 32%
-
 ---
-
 # Inclure la même expérience sur des pages similaires
 
 Utilisez un modèle de page dans [!DNL Adobe Target] pour fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, pour tester des variations dans des éléments de page à structure similaire ou sur l’ensemble de votre domaine.
@@ -98,7 +105,7 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 
    ![Le domaine contient](/help/main/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Vidéo de formation : Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge de tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : Compositeur d’expérience visuelle (2 de 2) (7:29) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
@@ -107,4 +114,4 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

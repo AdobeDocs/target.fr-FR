@@ -1,30 +1,42 @@
 ---
 keywords: recommandations;intro;introduction;webinaire;démo
-description: Découvrez les activités Recommandations dans Adobe [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser votre clientèle selon l’activité précédente de l’utilisateur ou de l’utilisatrice, ou d’autres algorithmes.
+description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
 title: Que sont les activités Recommandations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-TQID: https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks
+TQID: 'https://experienceleague.adobe.com/6jmXI9CsdCnyyQrQXKzq5WF8OQPQSCbE2Zb8AnpUvks'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+    internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Machine learning
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 83%
-
+source-wordcount: '2111'
+ht-degree: 82%
 ---
-
 # Présentation des recommandations
 
 Le texte de cet article provient du webinaire *Présentation de Recommandations*, que vous pouvez visualiser intégralement ci-dessous.
@@ -94,7 +106,7 @@ La création de votre implémentation de recommandations comprend trois grandes 
 
 Lorsque vous commencez à utiliser [!DNL Recommendations], vous transmettez des informations sur chaque article à recommander. [!DNL Target] propose plusieurs options d’intégration pour créer votre catalogue.
 
-![Illustration montrant comment apprendre votre contexte et vos produits à Target &#x200B;](/help/main/c-recommendations/assets/intro-7.png)
+![Illustration montrant comment apprendre votre contexte et vos produits à Target ](/help/main/c-recommendations/assets/intro-7.png)
 
 La méthode la plus simple et la plus souvent utilisée consiste à envoyer un fichier CSV tous les jours ou toutes les semaines depuis votre système de gestion des informations sur les produits ou de votre système de gestion de contenu. Vous pouvez également transmettre des informations sur la couche de données depuis votre page à l’aide de la bibliothèque JavaScript [!DNL Adobe Target], utiliser nos API pour transmettre des informations directement depuis votre système source ou tirer parti de notre intégration [!DNL Adobe Analytics] si vous transmettez déjà des données de catalogue à [!DNL Analytics].
 
@@ -206,4 +218,4 @@ Par exemple, dans le contexte du contenu, vous pouvez exclure les films que le v
 
 ## Démonstration
 
-Une fois que vous avez effectué les tâches illustrées dans l’entonnoir de recommandation décrit ci-dessus, vous obtenez votre recommandation finale. Pour regarder une démonstration intégrée au produit dans [!DNL Target], la démonstration commence à la 21e :00 du *webinaire sur les bases d’Adobe Target*, dont les liens figurent ci-dessous.
+Une fois que vous avez effectué les tâches illustrées dans l’entonnoir de recommandation décrit ci-dessus, vous obtenez votre recommandation finale. Pour regarder une démonstration intégrée au produit dans [!DNL Target], la démonstration commence à 21 h dans le *webinaire sur les bases d’Adobe Target*, dont les liens figurent ci-dessous.

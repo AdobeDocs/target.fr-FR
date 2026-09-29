@@ -1,37 +1,55 @@
 ---
 keywords: Target Standard;faq;questions fréquentes;aide mémoire;aide-mémoire
-description: Explorez une liste des questions fréquentes sur l’utilisation des fonctionnalités d’ [!DNL Target], ainsi que des informations et des liens d’accès à des informations supplémentaires.
+description: Explorez une liste de questions fréquentes sur l’utilisation des fonctionnalités de [!DNL Target], ainsi que des informations et des liens d’accès à des informations supplémentaires.
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-TQID: https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg
+TQID: 'https://experienceleague.adobe.com/ZLjNWdMjyDhOM4i7SzNGKZ5izqeusWmDLLNWG1HBaFg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 2871
+source-wordcount: '2871'
 ht-degree: 50%
-
 ---
-
 # FAQ relative à l’optimisation et la personnalisation de Target
 
 Explorez les réponses aux questions fréquentes sur l’utilisation des fonctionnalités [!DNL Adobe Target]. Découvrez comment optimiser vos expériences, personnaliser les expériences et accéder à des ressources utiles avec des liens directs pour obtenir des informations plus précises.
@@ -69,14 +87,14 @@ Restez à jour avec les mises à jour de [!DNL Target].
 **Existe-t-[!DNL Adobe] une communauté/un forum dans lequel je peux trouver des réponses et plus d’informations sur les [!DNL Target] ?**
 
 +++Afficher les détails
-Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
+Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
 
 +++
 
 **Quels navigateurs [!DNL Target] prend-il en charge ?**
 
 +++Afficher les détails
-Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
+Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
 
 +++
 
@@ -92,7 +110,7 @@ Utilisez le [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB
 **Comment savoir à quel moment arrêter une activité ?**
 
 +++Afficher les détails
-L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [&#x200B; pièges courants et comment les éviter &#x200B;](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
+L’arrêt prématuré d’activités peut déboucher sur des conclusions erronées. Gardez à l’esprit [ pièges courants et comment les éviter ](/help/main/c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Référez-vous également à [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md)
 
 +++
 
@@ -106,7 +124,7 @@ Voir [rapports pour déterminer l’expérience gagnante](/help/main/c-activitie
 **Puis-je exécuter une activité avec un niveau de personnalisation faisant partie intégrante de l’activité ?**
 
 +++Afficher les détails
-Consultez le type d’activité [&#x200B; Ciblage automatique &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+Consultez le type d’activité [ Ciblage automatique ](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 +++
 
@@ -158,14 +176,14 @@ C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-
 
 Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. S’agit-il de [!UICONTROL chiffre d’affaires], [!UICONTROL conversion] ou [!UICONTROL engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 
-Cela est rendu possible par le paramètre [!UICONTROL Objectif de Principal &#x200B;] à l’étape 3 du workflow en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
+Cela est rendu possible par le paramètre [!UICONTROL Objectif de Principal ] à l’étape 3 du workflow en trois parties. Vous pouvez également ajouter des objectifs supplémentaires, ce qui peut vous aider à créer de meilleurs rapports.
 
 +++
 
 **Puis-je planifier une activité qui débute et se termine à un moment précis ?**
 
 +++Afficher les détails
-Utilisez la fonction [&#x200B; Planification de l’étape [!UICONTROL &#x200B; Objectifs et paramètres &#x200B;]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow en trois parties en spécifiant les dates de début et de fin.
+Utilisez la fonction [ Planification de l’étape [!UICONTROL  Objectifs et paramètres ]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du workflow en trois parties en spécifiant les dates de début et de fin.
 
 N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe en état [!UICONTROL Terminé].
 
@@ -254,7 +272,7 @@ Utilisez les contrôles d’affectation en pourcentage disponibles à l’étape
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -401,7 +419,7 @@ Utilisez la puissance des [activités d’après les formulaires](/help/main/c-e
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -411,7 +429,7 @@ Consultez les aspects suivants du produit :
 +++Afficher les détails
 C’est là qu’intervient la fonction [Audiences pour le reporting](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponible sur la page [!UICONTROL Objectifs et paramètres] à l’étape 3 du workflow en trois parties d’une activité guidée.
 
-Vous avez la possibilité d’ajouter 50 de ces segments ainsi que le point d’application ([!UICONTROL &#x200B; Entrée d’activité &#x200B;] ou une mesure spécifique) afin d’avoir un moyen puissant de découper et de découper.
+Vous avez la possibilité d’ajouter 50 de ces segments ainsi que le point d’application ([!UICONTROL  Entrée d’activité ] ou une mesure spécifique) afin d’avoir un moyen puissant de découper et de découper.
 
 Notez que [!DNL Target] collecte les données à cet égard à partir du moment où vous ajoutez ces audiences. Par conséquent, si vous manquez d’ajouter des segments avant d’exécuter le test, vous n’avez pas de chance.
 
@@ -459,7 +477,7 @@ Nous disposons également d’une solution pour cela, grâce à la [fonctionnali
 **Comment puis-je connaître le statut de disponibilité de [!DNL Target] ?**
 
 +++Afficher les détails
-Utilisez la page [Statut du système &#x200B;](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+Utilisez la page [Statut du système ](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) pour afficher le statut des produits [!DNL Adobe] et des solutions [!DNL Experience Cloud], y compris les [!DNL Target]. Cette page vous aide à déterminer si les problèmes rencontrés sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
 
 +++
 

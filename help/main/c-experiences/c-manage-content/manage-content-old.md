@@ -4,13 +4,20 @@ description: Découvrez comment gérer les offres de code et d’images à l’a
 title: Comment gérer les offres de code et d’image ?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 16%
-
 ---
-
 # Offres
 
 Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gérer le contenu de votre offre de code et de votre offre d’image.
@@ -27,7 +34,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
 
    ![image offer_filter](assets/offers_filter.png)
 
-1. (Facultatif) Cliquez sur la liste déroulante **&#x200B;**&#x200B;pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
+1. (Facultatif) Cliquez sur la liste déroulante **** pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
 
 1. (Facultatif) Effectuez des tâches supplémentaires en pointant sur l’offre ou le dossier de votre choix sur l’onglet [!UICONTROL Offres de code], puis en cliquant sur l’icône de votre choix.
 
@@ -43,7 +50,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
 
    Selon vos autorisations, il se peut que vous ne voyiez pas d’icônes pour toutes les options. Par exemple, un utilisateur disposant des autorisations [!UICONTROL Observateur] ne dispose pas des droits d’utilisation de l’option [!UICONTROL Copier].
 
-   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 1. (Facultatif) Effectuez des tâches supplémentaires en pointant sur l’offre d’image ou le dossier de votre choix sur l’onglet [!UICONTROL Offres d’image], puis en cliquant sur l’icône de votre choix.
 
@@ -58,7 +65,7 @@ Utilisez la bibliothèque [!UICONTROL Offres] dans [!DNL Adobe Target] pour gér
    * Annoter
    * Copier
 
-   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+   Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
    >[!NOTE]
    >
@@ -92,7 +99,7 @@ La fonctionnalité Détails de l’offre ne s’applique pas aux offres d’imag
 
 This video includes information about managing offers.
 
-* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=fr) and the Target Content Library 
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
 * Custom HTML Offers 
 * Custom HTML Offer in the [!UICONTROL Visual Experience Composer]
 

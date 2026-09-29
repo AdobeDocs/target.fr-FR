@@ -1,16 +1,23 @@
 ---
 keywords: Créer A/B;test A/B;activité A/B;nouvelle activité a/b;créer une activité a/b
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) d’Adobe  [!DNL Target]  créer votre activité de test A/B directement sur une page compatible avec a [!DNL Target].
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) dans Adobe [!DNL Target] pour créer votre activité de test A/B directement sur une page compatible avec les [!DNL Target].
 title: Comment créer un test A/B ?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ab2570eb-4844-49aa-8334-e91a345525e5
+    internal-label: A/B Tests
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 36%
-
 ---
-
 # Création d’un test A/B
 
 Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre activité de [!UICONTROL test A/B] directement sur une page compatible [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
@@ -43,7 +50,7 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium), dans la liste déroulante **[!UICONTROL Choisir Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium), dans la liste déroulante **[!UICONTROL Choisir Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
    L’option [[!UICONTROL Choisir le lieu de travail]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) dans l’illustration précédente est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
 
@@ -95,7 +102,7 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
 1. Dans la zone **[!UICONTROL Audience]**, cliquez sur l’icône de modification (les points de suspension verticaux), cliquez sur **[!UICONTROL Remplacer l’audience]**, puis [sélectionnez l’audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour votre activité.
 
-   Par défaut, l’audience est définie sur [!UICONTROL &#x200B; Tous les visiteurs &#x200B;].
+   Par défaut, l’audience est définie sur [!UICONTROL  Tous les visiteurs ].
 
 1. Sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -111,7 +118,7 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
    * **[!UICONTROL Manuel (par défaut)]** : indiquez le pourcentage de participants qui doivent voir chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %.
 
-   * **[!UICONTROL Affectation automatique à la meilleure expérience]** : la plupart des participants à une activité sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez la présentation de l’[[!UICONTROL affectation automatique] &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Affectation automatique à la meilleure expérience]** : la plupart des participants à une activité sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez la présentation de l’[[!UICONTROL affectation automatique] ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
    * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** : [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en proposant l’expérience la plus personnalisée aux visiteurs selon leur profil client individuel et le comportement antérieur de visiteurs similaires. Pour plus d’informations, voir [Présentation du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
@@ -125,11 +132,11 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
 Après avoir créé l’activité, l’onglet [!UICONTROL Aperçu] affiche des informations sur l’activité, y compris un diagramme de votre activité.
 
-## Vidéo de formation : Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : Création de tests A/B (8:36) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de [!DNL Target].
 
 * Créez une activité [!UICONTROL Test A/B] dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

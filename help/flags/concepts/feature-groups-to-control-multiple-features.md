@@ -1,16 +1,17 @@
 ---
 title: Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités
 description: Découvrez comment les groupes de fonctionnalités dans les indicateurs vous permettent de regrouper et de gérer les indicateurs de fonctionnalités associés dans les applications en une seule unité.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # Groupes de fonctionnalités pour contrôler plusieurs fonctionnalités {#feature-groups}
 
 Un indicateur [fonctionnalité](what-is-a-feature-flag.md) contrôle une seule fonctionnalité. Lorsque vous devez gérer plusieurs indicateurs de fonctionnalité associés ensemble (et vous assurer qu’ils atteignent la même audience), vous utilisez un **groupe de fonctionnalités**.

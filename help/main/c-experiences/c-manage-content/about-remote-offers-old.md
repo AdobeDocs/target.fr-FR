@@ -1,23 +1,30 @@
 ---
 keywords: offre à distance;matrice de sélection d’offres à distance;contenu mis en cache;contenu dynamique;type d’url
-description: Découvrez comment utiliser les offres distantes dans Adobe  [!DNL Target]  héberger du contenu externe (contenu dans un CMS ou autre système). Découvrez pourquoi utiliser des offres à distance.
+description: Découvrez comment utiliser des offres distantes dans Adobe [!DNL Target] pour héberger du contenu externe (contenu dans un CMS ou autre système). Découvrez pourquoi utiliser des offres à distance.
 title: Comment Créer Des Offres À Distance ?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1106'
 ht-degree: 38%
-
 ---
-
 # Créer des offres distantes
 
 Utilisez les offres distantes pour héberger hors de [!DNL Adobe Target] du contenu que référence [!DNL Target] et diffuse sur les sites web des utilisateurs. Ce contenu peut se trouver dans un système de gestion de contenu (CMS) ou dans un autre système, pour des raisons de facilité d’utilisation ou de sécurité.
 
 >[!NOTE]
 >
->Les offres distantes peuvent être créées sur la page [!UICONTROL Offres] > [!UICONTROL Offres de code] ou dans le compositeur d’expérience Forms [&#128279;](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
+>Les offres distantes peuvent être créées sur la page [!UICONTROL Offres] > [!UICONTROL Offres de code] ou dans le compositeur d’expérience Forms [](/help/main/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer ni appliquer d’offres distantes dans le compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target]. Il est donc peu probable qu’ils soient appropriés pour une requête de [!DNL Target] globale.
 >
 >[!DNL Target Classic] a inclus des fonctionnalités similaires : [!UICONTROL Offre sur votre site] et [!UICONTROL Offre en dehors de Test&amp;Target].
 

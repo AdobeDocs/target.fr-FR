@@ -1,27 +1,37 @@
 ---
 keywords: interface utilisateur de target;interface utilisateur;iu;annonces;événements;notifications
-description: Familiarisez-vous avec l’interface utilisateur et trouvez des liens vers des informations plus détaillées pour tirer le meilleur parti de  [!DNL Target].
-title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
+description: Familiarisez-vous avec l’interface utilisateur et trouvez des liens vers des informations plus détaillées pour tirer le meilleur parti de [!DNL Target].
+title: Comment utiliser l’interface utilisateur de [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-TQID: https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg
+TQID: 'https://experienceleague.adobe.com/oO4N94r8-ZP3Et-P0b-31zl3apkEhqlJLJUUOQmFGAg'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1442
+source-wordcount: '1443'
 ht-degree: 23%
-
 ---
-
 # Présentation de l’interface utilisateur de [!DNL Target]
 
 L’interface utilisateur suit un format logique et convivial pour vous aider à tirer le meilleur parti d’[!DNL Adobe Target]. Le bref aperçu suivant vous permet de vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
@@ -44,11 +54,11 @@ Sélectionnez l’organisation souhaitée dans la liste déroulante [!UICONTROL 
 
 ![Liste déroulante Organisation](/help/main/c-intro/assets/organizations.png)
 
-### [!UICONTROL Commentaires &#x200B;]
+### [!UICONTROL Commentaires ]
 
 (Sous condition) Si vous faites partie d’un programme [!DNL Target] Beta officiel, l’icône [!UICONTROL Beta Feedback] s’affichera peut-être.
 
-![Icône Commentaires &#x200B;](/help/main/c-intro/assets/beta-feedback.png)
+![Icône Commentaires ](/help/main/c-intro/assets/beta-feedback.png)
 
 Fournissez une description pour vos commentaires, incluez les fichiers ou les captures d’écran applicables et tout autre détail supplémentaire, si nécessaire, puis cliquez sur **[!UICONTROL Envoyer]**.
 
@@ -56,7 +66,7 @@ Fournissez une description pour vos commentaires, incluez les fichiers ou les ca
 
 (Conditionnel) Si votre organisation vous a accordé les droits d’utilisation de [!DNL AI Assistant], cliquez sur l’icône [!DNL AI Assistant].
 
-Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [&#128279;](/help/main/c-intro/ai-assistant.md).
+Pour plus d’informations, consultez la présentation de l’assistant d’IA de Adobe Experience Platform [](/help/main/c-intro/ai-assistant.md).
 
 ### Aide
 
@@ -92,9 +102,9 @@ Les notifications d’événement [!DNL Target] incluent les éléments suivants
 
   Les notifications sont formatées comme suit :
 
-   * `Activity {target.activity.name} has been activated`
+  * `Activity {target.activity.name} has been activated`
 
-   * `Activity {target.activity.name} has been deactivated`
+  * `Activity {target.activity.name} has been deactivated`
 
 * **Scripts de profil** : notifications lorsqu’un script de profil est activé ou désactivé, manuellement ou par [!DNL Target].
 
@@ -102,8 +112,8 @@ Les notifications d’événement [!DNL Target] incluent les éléments suivants
 
   Les notifications sont formatées comme suit :
 
-   * `Profile Script {target.profileScript.name} has been activated`
-   * `Profile Script {target.profileScript.name} has been deactivated`
+  * `Profile Script {target.profileScript.name} has been activated`
+  * `Profile Script {target.profileScript.name} has been deactivated`
 
 * **Flux de recommandations** : notifications lorsqu’un flux de [!DNL Recommendations] est activé ou désactivé, manuellement ou par [!DNL Target]. Des notifications sont également envoyées lorsqu’un flux de [!DNL Recommendations] échoue.
 
@@ -111,10 +121,10 @@ Les notifications d’événement [!DNL Target] incluent les éléments suivants
 
   Les notifications sont formatées comme suit :
 
-   * `Feed  {target.feed.name} has been activated`
-   * `Feed {target.feed.name} has been deactivated`
-   * `Feed {target.feed.name} has failed`
-   * `Feed {target.feed.name} has failed to import from source`
+  * `Feed  {target.feed.name} has been activated`
+  * `Feed {target.feed.name} has been deactivated`
+  * `Feed {target.feed.name} has failed`
+  * `Feed {target.feed.name} has failed to import from source`
 
 Vous pouvez marquer des notifications individuelles comme lues en pointant sur la notification souhaitée, puis en cliquant sur l’icône [!UICONTROL Marquer comme lu] ( ![Marquer comme lu](/help/main/assets/icons/CheckmarkCircle.svg) ). Vous pouvez marquer toutes les notifications comme lues ou les afficher en cliquant sur [!UICONTROL Marquer comme lues] ou [!UICONTROL Afficher tout] au bas du panneau.
 
@@ -124,16 +134,16 @@ Vous pouvez également définir un rappel pour recevoir une nouvelle notificatio
 
 Les annonces proactives vous avertissent des événements de panne et de maintenance.
 
-Vous trouverez des informations plus détaillées sur la page [&#128279;](https://status.adobe.com/fr).
+Vous trouverez des informations plus détaillées sur la page [](https://status.adobe.com/fr).
 
 ### Configuration des notifications et des annonces
 
 Pour modifier vos préférences de notifications :
 
-1. Cliquez sur l’icône [!UICONTROL &#x200B; Modifier les préférences &#x200B;] ( ![icône Modifier les préférences](/help/main/assets/icons/Setting.svg) ), puis sur **[!UICONTROL Notifications]** dans le rail de gauche.
+1. Cliquez sur l’icône [!UICONTROL  Modifier les préférences ] ( ![icône Modifier les préférences](/help/main/assets/icons/Setting.svg) ), puis sur **[!UICONTROL Notifications]** dans le rail de gauche.
 1. Sous **[!UICONTROL Target]**, sélectionnez le mode de notification souhaité :
 
-   * [!UICONTROL &#x200B; In-app &#x200B;]
+   * [!UICONTROL  In-app ]
    * [!UICONTROL Courriel]
    * [!DNL Slack]
 
@@ -150,7 +160,7 @@ Pour modifier vos préférences de notifications :
 1. Sélectionnez la fréquence à laquelle vous souhaitez recevoir les e-mails de notification :
 
    * [!UICONTROL Ne pas envoyer d’e-mails]
-   * [!UICONTROL Notifications instantanées &#x200B;]
+   * [!UICONTROL Notifications instantanées ]
    * [!UICONTROL Envoi quotidien]
    * [!UICONTROL Envoi hebdomadaire]
 
@@ -188,7 +198,7 @@ Voir [Création d’audiences](/help/main/c-target/c-audiences/create-audience.m
 
 Cliquez sur l’onglet **[!UICONTROL Offres]** pour afficher la liste [!UICONTROL Offres] dans laquelle vous pouvez créer des expériences et des offres et gérer les expériences et offres existantes.
 
-Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un tunnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
+Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un funnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
 Consultez [Offres](/help/main/c-experiences/c-manage-content/manage-content.md) pour obtenir des informations détaillées sur les types d’offres dans [!DNL Target] et pour en savoir plus sur l’interface utilisateur de la liste [!UICONTROL Offre].
 
@@ -206,7 +216,7 @@ Consultez [Recommendations](/help/main/c-recommendations/recommendations.md) pou
 
 ## Administration
 
-Cliquez sur l’onglet **[!UICONTROL Administration]** pour accéder aux pages [!UICONTROL &#x200B; Administration &#x200B;].
+Cliquez sur l’onglet **[!UICONTROL Administration]** pour accéder aux pages [!UICONTROL  Administration ].
 
 Les pages [!UICONTROL Administration] vous permettent d’administrer des [!DNL Target], y compris les paramètres de configuration du [!UICONTROL compositeur d’expérience visuelle] (VEC), les rapports, la configuration [!DNL Scene7], l’implémentation, les hôtes, les environnements, les jetons de réponse, les utilisateurs et les recommandations.
 

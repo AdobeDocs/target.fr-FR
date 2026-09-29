@@ -1,27 +1,34 @@
 ---
 keywords: ciblage d’expérience;xt;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité de  [!DNL Adobe Target] [!UICONTROL ciblage d’expérience] pour déterminer le moment où une visite est réussie, comme [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] ou [!UICONTROL Engagement].
+description: Découvrez comment spécifier des mesures dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] pour déterminer le moment où une visite est réussie, comme [!UICONTROL Conversion], [!UICONTROL Revenu] ou [!UICONTROL Engagement].
 title: Comment définir les mesures d’objectif dans une activité de [!UICONTROL ciblage d’expérience] ?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
-TQID: https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA
+TQID: 'https://experienceleague.adobe.com/DRFhQ7plSdYqXdzodxFe8h22fSz9xZs9ATt5Ri2s6AA'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 351
+source-wordcount: '353'
 ht-degree: 52%
-
 ---
-
-# Définition de mesures dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
+# Définition de mesures dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
 
 Utilisez les mesures dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT) pour déterminer le moment où une visite est réussie.
 
-Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de succès &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [ Mesures de succès ](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Indiquez l’objectif de l’activité.
 1. Sélectionnez une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
@@ -30,7 +37,7 @@ Pour plus d’informations sur les mesures de succès, voir [&#x200B; Mesures de
 
    La page [!UICONTROL Sélectionner des mesures] répertorie les mesures de succès que vous pouvez choisir pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 
-   * [!UICONTROL &#x200B; Conversion &#x200B;]
+   * [!UICONTROL  Conversion ]
    * [!UICONTROL Recettes]
    * [!UICONTROL Engagement]
 

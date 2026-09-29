@@ -4,14 +4,21 @@ description: Découvrez comment spécifier l’[!UICONTROL URL de l’activité]
 title: Qu’est-ce que l’[!UICONTROL URL d’activité] dans une activité de [!UICONTROL ciblage d’expérience] (XT) ?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: b6f5758b-84f7-4943-8b05-1297a046943c
+    internal-label: Experience target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
-
 ---
-
-# URL de l’activité dans les activités [!UICONTROL &#x200B; Ciblage d’expérience &#x200B;] (XT)
+# URL de l’activité dans les activités [!UICONTROL  Ciblage d’expérience ] (XT)
 
 L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT). Il s’agit de la page qui s’ouvre dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL compositeur d’expérience d’après les formulaires] lors de la conception de l’activité.
 
@@ -23,7 +30,7 @@ L’[!UICONTROL URL de l’activité] détermine la page utilisée dans une acti
    >
    >Par défaut, le compositeur d’expérience visuelle ou le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) ouvre la page spécifiée dans vos [paramètres du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
    >
-   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=fr){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
+   >Si vous spécifiez une URL pour un site qui n’inclut pas de bibliothèque JavaScript [[!DNL Target] at.js ou  [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}, vous ne pouvez pas sélectionner d’éléments de page.
 
 1. (Conditionnel) Pour afficher une autre page après l’ouverture du VEC, cliquez sur **[!UICONTROL Configurer]**, sélectionnez **[!UICONTROL Diffusion de page]**, puis spécifiez l’URL dans le champ [!UICONTROL URL].
 

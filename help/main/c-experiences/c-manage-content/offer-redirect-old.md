@@ -1,16 +1,23 @@
 ---
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-description: Découvrez comment créer des offres de redirection dans Adobe pour qu [!DNL Target] un navigateur redirige vers une nouvelle page.
+description: Découvrez comment créer des offres de redirection dans Adobe [!DNL Target] de provoquer la redirection d’un navigateur vers une nouvelle page.
 title: Comment Créer Des Offres De Redirection ?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
+subfeature_v2:
+  - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
+    internal-label: Experiences and offers
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1211'
 ht-degree: 44%
-
 ---
-
 # Création d’offres de redirection
 
 Les offres de redirection dans [!DNL Adobe Target] entraînent la redirection par un navigateur vers une nouvelle page.
@@ -41,7 +48,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Rediriger l’offre]**.
 
-   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 
@@ -81,7 +88,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Rediriger l’offre]**.
 
-   ![&#x200B; Boîte de dialogue Créer une offre de redirection &#x200B;](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
+   ![ Boîte de dialogue Créer une offre de redirection ](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
 
 1. Attribuez un nom explicite à l’offre.
 

@@ -1,22 +1,28 @@
 ---
 keywords: conception de recommandations, créer une conception, copier une conception
-description: Découvrez comment créer une conception à l [!DNL Target Recommendations] aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
+description: Découvrez comment créer une conception [!DNL Target Recommendations] à l’aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
 title: Comment créer une conception dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-TQID: https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk
+TQID: 'https://experienceleague.adobe.com/GLWcKaQGl6TmL9i7LYUiYepg6SkAjBtL-78-zlaWCTk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
+subfeature_v2:
+  - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
+    internal-label: Recommendations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 1065
+source-wordcount: '1067'
 ht-degree: 25%
-
 ---
-
 # Création d’une conception
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
@@ -59,9 +65,9 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
 1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [&#128279;](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception &#x200B;] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception ] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
@@ -325,4 +331,4 @@ Cette vidéo traite des sujets suivants :
 * Créer une conception personnalisée
 * comprendre comment référencer des variables d’affichage dans vos conceptions ;
 
->[!VIDEO](https://video.tv.adobe.com/v/34832?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

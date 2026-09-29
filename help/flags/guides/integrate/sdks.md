@@ -1,16 +1,17 @@
 ---
 title: SDK
 description: Découvrez l’architecture de SDK dans Flags et les extensions AEP Web SDK et AEP Mobile SDK disponibles.
-badge: label="Version bêta" type="Informative"
+badge: label="Beta" type="Informative"
 hide: true
 exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
-source-git-commit: 8fffd619232b2cae2f5dd0aa1e0a55183c4be698
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 2%
-
 ---
-
 # SDK {#sdks}
 
 Flags fournit des SDK pour intégrer des indicateurs de fonctionnalité dans vos applications. Les indicateurs sont déployés via AEP Web SDK et AEP Mobile SDK.
@@ -38,13 +39,13 @@ L’extension Flags pour le web s’intègre à Adobe Experience Platform Web SD
 
 L’extension Flags pour Android s’intègre à Adobe Experience Platform Mobile SDK.
 
-Consultez le [guide d’intégration de l’extension &#x200B;](../sdk-releases/android/android-extension-integration-guide.md) pour obtenir des instructions de configuration.
+Consultez le [guide d’intégration de l’extension ](../sdk-releases/android/android-extension-integration-guide.md) pour obtenir des instructions de configuration.
 
 ### Extension iOS {#ios-extension}
 
 L’extension Flags pour iOS s’intègre à Adobe Experience Platform Mobile SDK.
 
-Consultez le [guide d’intégration de l’extension &#x200B;](../sdk-releases/ios/ios-extension-integration-guide.md) pour obtenir des instructions de configuration.
+Consultez le [guide d’intégration de l’extension ](../sdk-releases/ios/ios-extension-integration-guide.md) pour obtenir des instructions de configuration.
 
 ## Voir également {#see-also}
 

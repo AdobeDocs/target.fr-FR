@@ -1,41 +1,47 @@
 ---
 keywords: Administration, rôle d’approbateur, approbateur
-description: Effectuez les premières tâches que les  [!DNL Adobe Target]  doivent effectuer après avoir reçu l’invitation par e-mail à  [!DNL Adobe Experience Cloud].
-title: Où Puis-Je Commencer À Administrer  [!DNL Target] ?
+description: Effectuez les premières tâches que [!DNL Adobe Target] administrateurs doivent effectuer après avoir reçu l’invitation par e-mail envoyée au [!DNL Adobe Experience Cloud].
+title: Par Où Commencer À Administrer [!DNL Target] ?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-TQID: https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk
+TQID: 'https://experienceleague.adobe.com/GfadY-knTwzXCB-n1AZ9u3PtoAyJokn1OXu3elRhgXk'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
+feature_v2:
+  - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
-source-wordcount: 473
-ht-degree: 30%
-
+source-wordcount: '474'
+ht-degree: 29%
 ---
-
 # Premières étapes de l’administrateur
 
 Cet article décrit les premières étapes que [!DNL Adobe Target] administrateurs doivent suivre après avoir reçu l’invitation par e-mail envoyée au [!DNL Adobe Experience Cloud].
 
 ## Être invité à [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs profils de produit spécifiques au rôle (groupes d’utilisateurs). Ces deux tâches sont effectuées dans [&#128279;](https://adminconsole.adobe.com).
+Un administrateur système dans l’[!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à rejoindre l’application. L’administrateur système doit ensuite vous ajouter à un ou plusieurs profils de produit spécifiques au rôle (groupes d’utilisateurs). Ces deux tâches sont effectuées dans [](https://adminconsole.adobe.com).
 
-Pour plus d’informations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/fr/enterprise/using/users.html).
+Pour plus d’informations, voir [Gestion des groupes d’utilisateurs](https://helpx.adobe.com/enterprise/using/users.html).
 
 Vous recevrez un e-mail d’invitation une fois que l’administrateur système aura effectué ces étapes.
 
 ## Acceptation de l’invitation {#task_24FE66659E634B24AB61DB8497772E17}
 
-Après avoir reçu l’invitation à rejoindre le [!DNL Adobe Experience Cloud], acceptez l’invitation, connectez-vous et acceptez le [!UICONTROL &#x200B; Contrat de licence de l’utilisateur final &#x200B;] (CLUF).
+Après avoir reçu l’invitation à rejoindre le [!DNL Adobe Experience Cloud], acceptez l’invitation, connectez-vous et acceptez le [!UICONTROL  Contrat de licence de l’utilisateur final ] (CLUF).
 
 1. Acceptez l’invitation à rejoindre [!DNL Adobe Experience Cloud].
 1. Si vous ne possédez pas déjà un Adobe ID, vous êtes invité à en créer un.
@@ -67,7 +73,7 @@ Si votre organisation dispose d’une licence [Target Premium](/help/main/c-int
 
 L’étape suivante doit consister à configurer les utilisateurs dans [!DNL Target Standard] et [!DNL Target Premium]. Pour plus d’informations, voir [Gestion des utilisateurs](/help/main/administrating-target/c-user-management/user-management.md).
 
-## Autorisations requises pour la modification des paramètres [!UICONTROL &#x200B; Administration &#x200B;] {#admin-permissions}
+## Autorisations requises pour la modification des paramètres [!UICONTROL  Administration ] {#admin-permissions}
 
 **Avant le 22 avril 2025** : les utilisateurs disposant des droits [!UICONTROL Approbateurs] dans l’[!DNL Adobe Admin Console] peuvent modifier tous les paramètres de la page [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) de l’[!DNL Target], quel que soit leur rôle [!DNL Target].
 
