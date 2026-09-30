@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
 workflow-type: tm+mt
 source-wordcount: '1644'
-ht-degree: 33%
+ht-degree: 70%
 ---
 # Présentation de [!DNL Target]
 
@@ -42,17 +42,17 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Trafic quotidien"
->abstract="Nombre d’utilisateurs participant à votre expérience chaque jour. Si vous ne connaissez pas votre trafic quotidien, choisissez \« Volume de trafic\ » ci-dessus et le calculateur le résoudra à l’aide de vos autres entrées."
+>abstract="Nombre d’utilisateurs et d’utilisatrices participant à votre expérience chaque jour. Si vous ne connaissez pas votre trafic quotidien, choisissez \« Volume de trafic\ » ci-dessus et le calculateur le résoudra à l’aide de vos autres entrées."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup"
 >title="Configurer le test"
->abstract="Ces champs définissent votre test A/B, ce que vous prévoyez de voir et le degré de confiance que vous devez avoir dans les résultats. Le champ lié à ce que vous avez sélectionné ci-dessus sera résolu automatiquement pour . Renseignez le reste avec vos valeurs attendues."
+>abstract="Ces champs définissent votre test A/B, ce que vous prévoyez de voir et le degré de confiance que vous devez avoir dans les résultats. Le champ lié à ce que vous avez sélectionné ci-dessus sera renseigné automatiquement. Renseignez le reste avec vos valeurs attendues."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
 >title="Nombre d’expériences"
->abstract="Nombre de variantes dans votre expérience, contrôle compris. Un test A/B comporte 2 bras. Cinq variantes plus un contrôle égale 6. Plus d&#39;armes nécessitent proportionnellement plus de trafic pour maintenir la puissance statistique."
+>abstract="Nombre de variantes dans votre expérience, contrôle compris. Un test A/B comporte 2 variantes. Cinq variantes plus un contrôle égale 6. Plus de variantes nécessitent proportionnellement plus de trafic pour maintenir la puissance statistique."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_duration"
@@ -61,8 +61,8 @@ ht-degree: 33%
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_minimum_detectable_effect"
->title="Effet Minimal Détectable"
->abstract="La plus petite amélioration qui vaille la peine d’être détectée est la modification minimale de votre mesure sur laquelle vous agiriez. Il s’agit de la taille de l’effet élévateur en points de pourcentage, et non du pourcentage de changement par rapport à votre ligne de base. Par exemple, si votre ligne de base est de 5 % et qu’un effet élévateur de 1 point de pourcentage est important, saisissez 1."
+>title="Effet détectable minimal"
+>abstract="La plus petite amélioration qui vaille la peine d’être détectée, c’est-à-dire la modification minimale de votre mesure sur laquelle vous agiriez. Il s’agit de la taille de l’effet élévateur en points de pourcentage, et non du changement en pourcentage par rapport à votre ligne de base. Par exemple, si votre ligne de base est de 5 % et qu’un effet élévateur de 1 point de pourcentage est important, saisissez 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_expected_improvement"
@@ -72,37 +72,37 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variance"
->abstract="Quelle est la répartition des valeurs de votre mesure, et non sa moyenne ? Une mesure telle qu’un taux de clics (principalement des 0 et des 1) présente un faible écart, tandis qu’une mesure telle que le chiffre d’affaires par utilisateur (quelques personnes qui dépensent beaucoup, beaucoup de faibles) peut présenter un écart beaucoup plus élevé. Si vous n’êtes pas sûr, laissez la valeur par défaut de 1."
+>abstract="Dispersion des valeurs de votre mesure, et non leur moyenne. Une mesure telle qu’un CTR (principalement des 0 et des 1) présente une faible variance, tandis qu’une mesure telle que le chiffre d’affaires par utilisateur ou utilisatrice (quelques personnes qui dépensent beaucoup et beaucoup d’autres qui dépensent peu) peut présenter une variance beaucoup plus élevée. Si vous ne savez pas, laissez la valeur par défaut de 1."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
->title="Niveau de confiance"
->abstract="Le degré de confiance dont vous avez besoin pour être sûr qu’un résultat n’est pas simplement une chance aléatoire avant de l’appeler réel, le seuil de signification statistique. Un niveau de confiance de 95 % signifie qu’il y a au plus 5 % de chances qu’un résultat faux positif soit obtenu. Des valeurs plus élevées réduisent le nombre de faux positifs, mais requièrent davantage de données."
+>title="Degré de confiance"
+>abstract="Degré de confiance dont vous avez besoin pour affirmer qu’un résultat n’est pas le fruit du hasard avant de le considérer comme réel : seuil de signification statistique. Un degré de confiance de 95 % signifie qu’il y a au maximum 5 % de chances d’obtenir un faux positif. Des valeurs plus élevées réduisent le nombre de faux positifs, mais requièrent davantage de données."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Puissance statistique"
->abstract="La probabilité de détecter un effet s’il existe réellement, la sensibilité de l’expérience. 80% de puissance signifie qu&#39;il y a 80% de chances de détecter un effet réel. Une puissance plus élevée réduit les faux négatifs, mais nécessite plus de trafic ou une exécution plus longue."
+>abstract="Probabilité de détecter un effet s’il existe réellement, c’est-à-dire la sensibilité de l’expérience. Une puissance de 80 % signifie qu’il y a 80 % de chances de détecter un effet réel. Une puissance plus élevée réduit les faux négatifs, mais nécessite plus de trafic ou une exécution plus longue."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_traffic_mode"
 >title="Mode de trafic"
->abstract="Comment les utilisateurs rejoignent votre expérience. Continu : les utilisateurs saisissent une valeur quotidienne pendant la durée de l’expérience. Le trafic se déplace automatiquement vers des variantes plus performantes au fur et à mesure des résultats."
+>abstract="Comment les utilisateurs et utilisatrices rejoignent votre expérience. Continu : les utilisateurs et utilisatrices la rejoignent quotidiennement pendant la durée de l’expérience. Le trafic est automatiquement redirigé vers les variantes les plus performantes au fur et à mesure des résultats."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Type de mesure"
->abstract="Quel type de mesure mesurez-vous ? Pourcentage : utilisez-le pour les résultats binaires tels que les clics ou les conversions, où chaque utilisateur fait ou ne fait pas quelque chose. Nombre : utilisez-le pour des mesures telles que le chiffre d’affaires ou les pages vues, où la valeur peut varier considérablement d’un utilisateur à l’autre."
+>abstract="Type de mesure que vous mesurez. Pourcentage : utilisez-le pour les résultats binaires tels que les clics ou les conversions, où chaque personne fait ou ne fait pas quelque chose. Nombre : utilisez-le pour des mesures telles que le chiffre d’affaires ou les pages vues, où la valeur peut varier considérablement d’une personne à l’autre."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_auto_daily_traffic"
 >title="Trafic quotidien"
->abstract="Nombre d’utilisateurs participant à votre expérience chaque jour. Utilisé pour des expériences continues s’étendant sur plusieurs jours, avec un trafic automatiquement réorienté vers des variantes plus performantes au fur et à mesure des résultats."
+>abstract="Nombre d’utilisateurs et d’utilisatrices participant à votre expérience chaque jour. Utilisé pour des expériences continues s’étendant sur plusieurs jours, avec un trafic automatiquement réorienté vers des variantes plus performantes au fur et à mesure des résultats."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_metric_rate"
 >title="Taux de mesure de référence"
->abstract="Votre performance actuelle avant le début de l’expérience, moyenne du bras de contrôle. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs cliquent sur Acheter aujourd’hui, saisissez un pourcentage de 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
+>abstract="Votre performance actuelle avant le début de l’expérience, soit la moyenne du groupe témoin. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs et visiteuses cliquent sur S’abonner, saisissez 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -117,7 +117,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Statistiques"
->abstract="Les informations d’expérience sont les enseignements tirés par l’IA lorsque les données d’expérience ont atteint une signification statistique."
+>abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_opportunities"
@@ -127,7 +127,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Détails du traitement"
->abstract="Les détails du traitement affichent des images de ce à quoi ressemble un traitement lorsqu’un utilisateur y est qualifié. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
+>abstract="Les détails du traitement montrent à quoi ressemble celui-ci lorsqu’un utilisateur ou une utilisatrice y est éligible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
 
 [!DNL Adobe Target], qui fait partie de la [!DNL Adobe Experience Cloud], propose des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
 

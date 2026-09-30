@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
 workflow-type: tm+mt
 source-wordcount: '3949'
 ht-degree: 56%
@@ -213,11 +213,11 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
 1. Lancez des activités AB ou XT via le VEC.
 
-   Lorsque `adobe.target.triggerView()` est implémenté sur votre application à page unique, avec les noms de Vue transmis en tant que paramètres, le VEC peut détecter ces vues et permettre aux utilisateurs de créer des actions et des modifications pour leurs activités AB ou de ciblage d’expérience.
+Lorsque `adobe.target.triggerView()` est implémenté sur votre application à page unique, avec les noms de Vue transmis en tant que paramètres, le VEC peut détecter ces vues et permettre aux utilisateurs de créer des actions et des modifications pour leurs activités AB ou de ciblage d’expérience.
 
-   >[!NOTE]
-   >
-   >Le VEC pour les applications monopages est en fait le même VEC que celui que vous utilisez sur les pages Web ordinaires, mais certaines fonctionnalités supplémentaires sont disponibles lorsque vous ouvrez une application à page unique avec l’implémentation de `triggerView()`.
+>[!NOTE]
+>
+>Le VEC pour les applications monopages est en fait le même VEC que celui que vous utilisez sur les pages Web ordinaires, mais certaines fonctionnalités supplémentaires sont disponibles lorsque vous ouvrez une application à page unique avec l’implémentation de `triggerView()`.
 
 Le panneau [Modifications](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) et les actions du VEC offrent deux améliorations majeures au niveau du VEC qui permettent à celui-ci de fonctionner correctement avec les applications monopages.
 
