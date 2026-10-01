@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: d56bda63de533f7a1d0fb4f7297242a58064403f
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1322'
 ht-degree: 83%
 ---
 
@@ -123,6 +123,7 @@ ht-degree: 83%
 + Activités {#activities}
   + [Présentation des activités](c-activities/activities.md)
   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
+  + [Exemple de calculateur de taille](c-activities/sample-size-calculator.md)
   + [Types d’activités de Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
     + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +195,7 @@ ht-degree: 83%
     + [Suivi des clics](c-activities/r-success-metrics/click-tracking.md)
     + [Score de capture](c-activities/r-success-metrics/capture-score.md)
   + [Journal des modifications d’activité](c-activities/change-log.md)
+  + [Informations sur l’IA](c-activities/ai-insights.md)
   + Résolution des problèmes liés aux activités {#troubleshoot-activities}
     + [Résolution des problèmes d’activités](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Résolution des problèmes liés à la diffusion de contenu](c-activities/c-troubleshooting-activities/content-trouble.md)
@@ -345,4 +347,4 @@ ht-degree: 83%
   + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
   + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)

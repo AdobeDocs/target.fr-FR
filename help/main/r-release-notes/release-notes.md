@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 340fe2c3fadde03a6a592a16d687c483099dfd88
+source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 30%
+source-wordcount: '1062'
+ht-degree: 28%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
@@ -41,6 +41,46 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
 ## [!DNL Target Standard/Premium] 26.9.7 (28 septembre 2026)
+
+### Fonctionnalités
+
+<table>
+<thead>
+<tr>
+<th><strong>Calculateur de taille d’échantillon</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le calculateur de taille d’échantillon vous permet de planifier des expériences avant le lancement en estimant le trafic requis, la durée du test, le nombre d’expériences ou l’effet minimal que vous pouvez détecter de manière fiable. Disponible à partir du menu Activités , il utilise vos entrées pour vous aider à déterminer les ressources et le temps d’exécution nécessaires à votre test.</p>
+<p>La fonctionnalité de calcul de taille d’échantillon est actuellement disponible en version bêta.</p>
+<p>Pour plus d’informations, consultez la <a href="../c-activities/sample-size-calculator.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Informations sur l’IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Les informations d’IA fournissent des apprentissages d’expérience générés par l’IA et des opportunités d’optimisation pour les activités de test A/B avec affectation manuelle du trafic. Une fois qu’une expérience atteint une signification statistique, les informations mettent en évidence les attributs de l’expérience gagnante qui ont probablement contribué à ses performances. Les opportunités suggérées comprennent de nouvelles idées d’expérience, des hypothèses et des conseils d’implémentation pour améliorer les taux de conversion.</p>
+<p>La fonctionnalité d’informations sur l’IA est actuellement disponible en version bêta.</p>
+<p>Pour plus d’informations, consultez la <a href="../c-activities/ai-insights.md">documentation détaillée</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Améliorations
+
+
 
 **[!UICONTROL Recommandations]**
 
@@ -155,7 +195,7 @@ Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
 
 Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
 
-Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
+Cette fonctionnalité nécessite un client compatible avec Recommendations avec **** ; elle n’est pas disponible sur les comptes non Premium.
 
 Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
