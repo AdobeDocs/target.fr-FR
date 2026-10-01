@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les informations et les opportunités d
 title: Informations sur l’IA dans la présentation de l’activité
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 31%
+source-wordcount: '763'
+ht-degree: 27%
 ---
 # Informations sur l’IA
 
@@ -24,7 +24,7 @@ Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présent
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Statistiques"
->abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
+>abstract="Les informations sont des résultats générés par l’IA qui sont disponibles lorsque votre expérience atteint une signification statistique."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Une fois la configuration terminée, votre activité est prête à générer des
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Statistiques"
->abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
+>abstract="Les informations d’expérience sont des apprentissages générés par l’IA qui sont disponibles lorsque l’expérience atteint une signification statistique."
 
 Les informations d’expérience sont des apprentissages générés par l’IA provenant de cette expérience. Ces informations sont disponibles une fois que l’expérience a atteint sa signification statistique et fournissent un contexte sur ce qui a contribué à son succès. Ils mettent en évidence les attributs clés présents dans l’expérience gagnante qui sont distincts du contrôle et ont probablement influencé le résultat.
 
