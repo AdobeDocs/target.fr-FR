@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les informations et les opportunités d
 title: Informations sur l’IA dans la présentation de l’activité
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 643b30757e9212388dcb6921580f86feb0704338
+source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 18%
 ---
 # Informations sur l’IA
 
@@ -20,6 +20,11 @@ ht-degree: 16%
 Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présentation des activités]** permet d’accéder aux informations et aux opportunités d’optimisation. Utilisez cet onglet pour passer en revue les enseignements tirés des expériences, comparer des traitements et identifier les modifications susceptibles d’améliorer les taux de conversion.
 
 ## Configuration pour les informations et les opportunités de l’IA
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights"
+>title="Statistiques"
+>abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -69,10 +74,10 @@ La mesure principale est automatiquement extraite des paramètres de création d
 
 Une fois la configuration terminée, votre activité est prête à générer des opportunités. Les informations sont disponibles une fois que l’expérience dispose de données suffisantes pour la validation statistique et que les détails requis de l’expérience ont été confirmés.
 
-## Statistiques
+## Statistiques {#insights}
 
 >[!CONTEXTUALHELP]
->id="target_ai_insights"
+>id="target_ai_insights_insights"
 >title="Statistiques"
 >abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
 
