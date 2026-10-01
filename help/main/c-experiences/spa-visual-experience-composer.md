@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: de649ea8b193a832eb55d398c7443a95675abb44
+source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
 workflow-type: tm+mt
-source-wordcount: '3949'
+source-wordcount: '3955'
 ht-degree: 56%
 ---
 # Compositeur d’expérience visuelle pour application d’une seule page
@@ -90,128 +90,134 @@ Il se peut que les responsables marketing souhaitent à présent exécuter un te
 
 À présent que nous avons examiné le concept d’Adobe Target Views, nous pouvons l’exploiter dans Target pour permettre aux spécialistes du marketing d’exécuter des tests AB et XT sur les applications monopages via le compositeur d’expérience visuelle. Une configuration développeur unique sera nécessaire. Passons en revue les étapes à suivre pour configurer cette opération.
 
-1. Installez at.js 2.x.
++++ Installez at.js 2.x.
 
-   Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des SPA. Les versions précédentes d’at.js et ne prennent pas en charge les vues Adobe Target et le VEC pour SPA.
+Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des SPA. Les versions précédentes d’at.js et ne prennent pas en charge les vues Adobe Target et le VEC pour SPA.
 
-   ![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
+![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé à l’aide de balises dans [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
+Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé à l’aide de balises dans [&#128279;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Toutefois, les extensions d’Adobe Target ne sont actuellement pas à jour et ne sont pas prises en charge.
 
-1. Implémentez la nouvelle fonction d’at.js 2.x : [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sur vos sites.
++++
 
-   Après avoir défini les vues de la SPA dans laquelle vous souhaitez exécuter un test A/B ou XT, implémentez la fonction `triggerView()` d’at.js 2.x avec les vues transmises en tant que paramètre. Cela permet aux spécialistes du marketing d’utiliser le compositeur d’expérience visuelle pour concevoir et exécuter les tests A/B et XT pour ces vues définies. Si la fonction `triggerView()` n’est pas définie pour ces affichages, le VEC ne détectera pas les affichages. Les spécialistes en marketing ne peuvent donc pas utiliser le VEC pour concevoir et exécuter des tests A/B et XT.
++++ Implémentez la nouvelle fonction d’at.js 2.x
 
-   **`adobe.target.triggerView(viewName, options)`**
+Implémentez la nouvelle fonction d’at.js 2.x [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} sur vos sites.
 
-   | Paramètre | Type | Obligatoire ? | Validation | Description |
-   | --- | --- | --- | --- | --- |
-   | viewName | Chaîne | Oui | &#x200B;1. Pas d’espaces de fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « maison » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom d’affichage s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
-   | Options | Objet | Non |  |  |
-   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsqu’elles sont `page=true`, les notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsqu’elles sont `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+Après avoir défini les vues de la SPA dans laquelle vous souhaitez exécuter un test A/B ou XT, implémentez la fonction `triggerView()` d’at.js 2.x avec les vues transmises en tant que paramètre. Cela permet aux spécialistes du marketing d’utiliser le compositeur d’expérience visuelle pour concevoir et exécuter les tests A/B et XT pour ces vues définies. Si la fonction `triggerView()` n’est pas définie pour ces affichages, le VEC ne détectera pas les affichages. Les spécialistes en marketing ne peuvent donc pas utiliser le VEC pour concevoir et exécuter des tests A/B et XT.
 
-   Passons maintenant en revue quelques exemples de cas d’utilisation sur la manière d’appeler la fonction `triggerView()` dans React pour notre hypothétique SPA d’e-commerce :
+**`adobe.target.triggerView(viewName, options)`**
 
-   **Lien : [Site d’accueil](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
+| Paramètre | Type | Obligatoire ? | Validation | Description |
+| --- | --- | --- | --- | --- |
+| viewName | Chaîne | Oui | &#x200B;1. Pas d’espaces de fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « maison » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom d’affichage s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
+| Options | Objet | Non |  |  |
+| options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsqu’elles sont `page=true`, les notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsqu’elles sont `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
-   ![home-react-1](/help/main/c-experiences/assets/react1.png)
+Passons maintenant en revue quelques exemples de cas d’utilisation sur la manière d’appeler la fonction `triggerView()` dans React pour notre hypothétique SPA d’e-commerce :
 
-   En tant que marketeurs, si vous souhaitez exécuter des tests AB sur tout le site d’accueil, vous voudrez peut être nommer la vue pouvant être extraite de l’URL : « accueil ».
+**Lien : [Site d’accueil](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
-   ```javascript
-   function targetView() {
-     var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
-   
-     viewName = viewName || 'home'; // view name cannot be empty
-   
-     // Sanitize viewName to get rid of any trailing symbols derived from URL
-     if (viewName.startsWith('#') || viewName.startsWith('/')) {
-       viewName = viewName.substr(1);
-     }
-   
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   // react router v4
-   const history = syncHistoryWithStore(createBrowserHistory(), store);
-   history.listen(targetView);
-   
-   // react router v3
-   <Router history={hashHistory} onUpdate={targetView} >
-   ```
+![home-react-1](/help/main/c-experiences/assets/react1.png)
 
-   **Lien : [Site Produits](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
+En tant que marketeurs, si vous souhaitez exécuter des tests AB sur tout le site d’accueil, vous voudrez peut être nommer la vue pouvant être extraite de l’URL : « accueil ».
 
-   Maintenant, regardons un exemple qui est un peu plus compliqué. Supposons que, en tant que marketeurs, nous voulions personnaliser la deuxième ligne des produits en modifiant la couleur de l&#39;étiquette de prix en rouge après qu&#39;un utilisateur ait cliqué sur le bouton Charger plus.
+```javascript
+function targetView() {
+  var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
 
-   ![produits React](/help/main/c-experiences/assets/react4.png)
+  viewName = viewName || 'home'; // view name cannot be empty
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Products extends Component {
-     render() {
-       return (
-         <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
-       );
-     }
-   
-     handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component's state
-       this.setState({page: page});
-       targetView('PRODUCTS-PAGE-' + page);
-     }
-   }
-   ```
+  // Sanitize viewName to get rid of any trailing symbols derived from URL
+  if (viewName.startsWith('#') || viewName.startsWith('/')) {
+    viewName = viewName.substr(1);
+  }
 
-   **Lien : [Extraction](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
 
-   ![passage en caisse React](/help/main/c-experiences/assets/react6.png)
+// react router v4
+const history = syncHistoryWithStore(createBrowserHistory(), store);
+history.listen(targetView);
 
-   Si les spécialistes marketing souhaitent personnaliser le contenu du site selon la préférence de livraison sélectionnée, une Vue peut être créée pour chaque préférence de livraison. Dans ce cas, lorsque vous sélectionnez Livraison normale, la Vue peut être nommée « Livraison normale ». Si l’option Livraison express est sélectionnée, la Vue peut être nommée « Livraison express ».
+// react router v3
+<Router history={hashHistory} onUpdate={targetView} >
+```
 
-   Il se peut que les responsables marketing souhaitent à présent exécuter un test AB pour déterminer si le fait de changer la couleur du bleu au rouge permet d’augmenter les conversions lorsque la livraison express est sélectionnée, au lieu de conserver la couleur du bouton bleu pour les deux options de livraison.
+**Lien : [Site Produits](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)**
 
-   ```javascript
-   function targetView(viewName) {
-     // Validate if the Target Libraries are available on your website
-     if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
-       adobe.target.triggerView(viewName);
-     }
-   }
-   
-   class Checkout extends Component {
-     render() {
-       return (
-         <div onChange={this.onDeliveryPreferenceChanged}>
-           <label>
-             <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
-             <span> Normal Delivery (7-10 business days)</span>
-           </label>
-   
-           <label>
-             <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
-             <span> Express Delivery* (2-3 business days)</span>
-           </label>
-         </div>
-       );
-     }
-     onDeliveryPreferenceChanged(evt) {
-       var selectedPreferenceValue = evt.target.value;
-       targetView(selectedPreferenceValue);
-     }
-   }
-   ```
+Maintenant, regardons un exemple qui est un peu plus compliqué. Supposons que, en tant que marketeurs, nous voulions personnaliser la deuxième ligne des produits en modifiant la couleur de l&#39;étiquette de prix en rouge après qu&#39;un utilisateur ait cliqué sur le bouton Charger plus.
 
-1. Lancez des activités AB ou XT via le VEC.
+![produits React](/help/main/c-experiences/assets/react4.png)
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Products extends Component {
+  render() {
+    return (
+      <button type="button" onClick={this.handleLoadMoreClicked}>Load more</button>
+    );
+  }
+
+  handleLoadMoreClicked() {
+    var page = this.state.page + 1; // assuming page number is derived from component's state
+    this.setState({page: page});
+    targetView('PRODUCTS-PAGE-' + page);
+  }
+}
+```
+
+**Lien : [Extraction](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/checkout)**
+
+![passage en caisse React](/help/main/c-experiences/assets/react6.png)
+
+Si les spécialistes marketing souhaitent personnaliser le contenu du site selon la préférence de livraison sélectionnée, une Vue peut être créée pour chaque préférence de livraison. Dans ce cas, lorsque vous sélectionnez Livraison normale, la Vue peut être nommée « Livraison normale ». Si l’option Livraison express est sélectionnée, la Vue peut être nommée « Livraison express ».
+
+Il se peut que les responsables marketing souhaitent à présent exécuter un test AB pour déterminer si le fait de changer la couleur du bleu au rouge permet d’augmenter les conversions lorsque la livraison express est sélectionnée, au lieu de conserver la couleur du bouton bleu pour les deux options de livraison.
+
+```javascript
+function targetView(viewName) {
+  // Validate if the Target Libraries are available on your website
+  if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
+    adobe.target.triggerView(viewName);
+  }
+}
+
+class Checkout extends Component {
+  render() {
+    return (
+      <div onChange={this.onDeliveryPreferenceChanged}>
+        <label>
+          <input type="radio" id="normal" name="deliveryPreference" value={"Normal Delivery"} defaultChecked={true}/>
+          <span> Normal Delivery (7-10 business days)</span>
+        </label>
+
+        <label>
+          <input type="radio" id="express" name="deliveryPreference" value={"Express Delivery"}/>
+          <span> Express Delivery* (2-3 business days)</span>
+        </label>
+      </div>
+    );
+  }
+  onDeliveryPreferenceChanged(evt) {
+    var selectedPreferenceValue = evt.target.value;
+    targetView(selectedPreferenceValue);
+  }
+}
+```
+
++++
+
++++ Lancez des activités AB ou XT via le VEC.
 
 Lorsque `adobe.target.triggerView()` est implémenté sur votre application à page unique, avec les noms de Vue transmis en tant que paramètres, le VEC peut détecter ces vues et permettre aux utilisateurs de créer des actions et des modifications pour leurs activités AB ou de ciblage d’expérience.
 
@@ -284,6 +290,8 @@ Enfin, comme mentionné précédemment, les vues peuvent être définies à un n
 >[!NOTE]
 >
 >La vue PASSAGE EN CAISSE-EXPRESS n’apparaîtra pas dans le panneau de modification tant que vous n’avez pas cliqué sur le bouton radio Livraison express. Cela est dû au fait que `triggerView()` la fonction est déclenchée lorsque le bouton radio Livraison express est sélectionné et que cette fonction n’est disponible que lorsque le compositeur d’expérience visuelle sait qu’une vue s’affiche dans le panneau de modification.
+
++++
 
 ## Exploration approfondie d’at.js et des applications à page unique
 

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Présentation de [!DNL Target]
 
@@ -104,30 +104,6 @@ ht-degree: 70%
 >title="Taux de mesure de référence"
 >abstract="Votre performance actuelle avant le début de l’expérience, soit la moyenne du groupe témoin. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs et visiteuses cliquent sur S’abonner, saisissez 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Mesure principale"
->abstract="La mesure principale est automatiquement extraite des paramètres de création de rapports. Pour apporter des modifications, modifiez la mesure d’objectif sous Objectifs et paramètres."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothèse"
->abstract="L’hypothèse est une instruction que vous définissez et qui explique le résultat attendu de l’expérience. Incluez une description de ce qui est modifié et où, puis indiquez quelle mesure vous prévoyez de modifier et comment."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_insights"
->title="Statistiques"
->abstract="Les informations sur les expériences sont les enseignements trouvés par l’IA lorsque les données des expériences ont atteint leur signification statistique."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunités"
->abstract="Les opportunités d’expérience sont des idées de traitement suggérées par l’IA basées sur des modèles que l’IA trouve dans vos captures d’écran et résultats d’expérience."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Détails du traitement"
->abstract="Les détails du traitement montrent à quoi ressemble celui-ci lorsqu’un utilisateur ou une utilisatrice y est éligible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
 
 [!DNL Adobe Target], qui fait partie de la [!DNL Adobe Experience Cloud], propose des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
 

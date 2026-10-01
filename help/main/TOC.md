@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 57fda375b52d514f7af207a6bf4bbdaf18b815ea
+source-git-commit: b8d259ffb03092740b50fe317f181f4b7c91e8d5
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1327'
 ht-degree: 83%
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 83%
     + [Activer l’assistant AI](/help/main/c-intro/enabling-ai-assistant.md)
     + [Utiliser l’assistant d’IA pour acquérir des connaissances sur les produits](/help/main/c-intro/ai-assistant-product-knowledge.md)
     + {hide-from-toc}[Utiliser l’assistant AI pour la génération de contenu](/help/main/c-intro/ai-assistant-content-generation.md)
+  + [Compétences des collègues pour Adobe Target](c-intro/coworker-skills.md)
   + Kit de bienvenue Adobe Target {#welcome}
     + [Aperçu du kit de bienvenue Target](/help/main/c-intro/target-welcome-kit.md)
     + [Chapitre 1 : Introduction](/help/main/c-intro/target-welcome-kit-1.md)
@@ -123,6 +124,7 @@ ht-degree: 83%
 + Activités {#activities}
   + [Présentation des activités](c-activities/activities.md)
   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
+  + [Exemple de calculateur de taille](c-activities/sample-size-calculator.md)
   + [Types d’activités de Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
     + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
@@ -194,6 +196,7 @@ ht-degree: 83%
     + [Suivi des clics](c-activities/r-success-metrics/click-tracking.md)
     + [Score de capture](c-activities/r-success-metrics/capture-score.md)
   + [Journal des modifications d’activité](c-activities/change-log.md)
+  + [Informations sur l’IA](c-activities/ai-insights.md)
   + Résolution des problèmes liés aux activités {#troubleshoot-activities}
     + [Résolution des problèmes d’activités](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Résolution des problèmes liés à la diffusion de contenu](c-activities/c-troubleshooting-activities/content-trouble.md)
