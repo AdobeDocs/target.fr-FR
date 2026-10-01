@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fb81a52b8e3c6301b63f5a98ce7d4873cf66d6ac
+source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 28%
+source-wordcount: '1112'
+ht-degree: 26%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
@@ -40,7 +40,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.9.7 (28 septembre 2026)
+## [!DNL Target Standard/Premium] 26.9.8 (30 septembre 2026)
 
 ### Fonctionnalités
 
@@ -80,6 +80,15 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 ### Améliorations
 
+**[!UICONTROL Administration]**
+
++++ Afficher les détails
+
+* **Impossible d’accorder des autorisations AI aux utilisateurs**. Les utilisateurs disposant d’un accès d’administrateur de produit et d’administrateur système ne pouvaient pas accorder d’autorisations d’IA à d’autres utilisateurs. Toute tentative d’activation de l’autorisation AI entraînait une erreur `Unauthorized`, même lorsque l’IA était activée pour l’organisation. (TGT-56261)
+
++++
+
+## [!DNL Target Standard/Premium] 26.9.7 (28 septembre 2026)
 
 
 **[!UICONTROL Recommandations]**
@@ -195,7 +204,7 @@ Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
 
 Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
 
-Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
+Cette fonctionnalité nécessite un client compatible avec Recommendations avec **** ; elle n’est pas disponible sur les comptes non Premium.
 
 Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
 
