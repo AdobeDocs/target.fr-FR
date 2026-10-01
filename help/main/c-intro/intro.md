@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 70%
+source-wordcount: '1510'
+ht-degree: 68%
 ---
 # Présentation de [!DNL Target]
 
@@ -104,25 +104,6 @@ ht-degree: 70%
 >title="Taux de mesure de référence"
 >abstract="Votre performance actuelle avant le début de l’expérience, soit la moyenne du groupe témoin. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs et visiteuses cliquent sur S’abonner, saisissez 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
 
->[!CONTEXTUALHELP]
->id="target_ai_insights_primary_metric"
->title="Mesure principale"
->abstract="La mesure principale est automatiquement extraite des paramètres de création de rapports. Pour apporter des modifications, modifiez la mesure d’objectif sous Objectifs et paramètres."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_hypothesis"
->title="Hypothèse"
->abstract="L’hypothèse est une instruction que vous définissez et qui explique le résultat attendu de l’expérience. Incluez une description de ce qui est modifié et où, puis indiquez quelle mesure vous prévoyez de modifier et comment."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_opportunities"
->title="Opportunités"
->abstract="Les opportunités d’expérience sont des idées de traitement suggérées par l’IA basées sur des modèles que l’IA trouve dans vos captures d’écran et résultats d’expérience."
-
->[!CONTEXTUALHELP]
->id="target_ai_insights_treatment_details"
->title="Détails du traitement"
->abstract="Les détails du traitement montrent à quoi ressemble celui-ci lorsqu’un utilisateur ou une utilisatrice y est éligible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
 
 [!DNL Adobe Target], qui fait partie de la [!DNL Adobe Experience Cloud], propose des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
 
@@ -136,7 +117,7 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE Premium &#x200B;]{type=Positive}
+[!BADGE Premium ]{type=Positive}
 
 [!DNL Target Premium] est une offre avancée qui nécessite une licence pour ajouter des fonctionnalités premium à [!DNL Target Standard]. Tous les articles [!DNL Target Premium] des guides de [!DNL Target] incluent le badge [!UICONTROL Premium] en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge [!UICONTROL Premium] et accéder à cette section.
 
@@ -144,7 +125,7 @@ Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce
 
 ### [!UICONTROL Automated Personalization]
 
-[&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilise des algorithmes de machine learning avancés pour offrir des expériences personnalisées et améliorer les taux de conversion des interactions numériques.
+[](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilise des algorithmes de machine learning avancés pour offrir des expériences personnalisées et améliorer les taux de conversion des interactions numériques.
 
 AP enregistre l’activité des visiteurs, créant des profils pour cibler le contenu sur des visiteurs similaires. AP suit les réponses au contenu pour les individus et la population, en utilisant une modélisation sophistiquée pour cibler automatiquement chaque visiteur en fonction de tout ce qui est connu à son sujet.
 
@@ -180,7 +161,7 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;].
+* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL  Affectation automatique ].
 * À l’aide du ciblage automatique [!UICONTROL , affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de profils individuels].
 
 ### Autorisations des utilisateurs d’Enterprise
@@ -189,7 +170,7 @@ La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/ad
 
 ## Fonctionnalités de Beta {#beta}
 
-{type=Informative}
+[!BADGE ]{type=Informative}
 
 L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaires. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions d’[!DNL Target Standard/Premium] et annoncées dans les notes de mise à jour.
 
@@ -219,6 +200,6 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

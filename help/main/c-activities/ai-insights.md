@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les informations et les opportunités d
 title: Informations sur l’IA dans la présentation de l’activité
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: bf39456558115ef589b2dff4a5de0711ee5963aa
+source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 18%
+source-wordcount: '766'
+ht-degree: 31%
 ---
 # Informations sur l’IA
 
@@ -40,6 +40,26 @@ Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présent
 >id="target_ai_insights_treatment_details"
 >title="Détails de l’expérience"
 >abstract="Les détails de l’expérience affichent des images de ce à quoi ressemble une expérience lorsqu’un utilisateur ou une utilisatrice y est admissible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_primary_metric"
+>title="Mesure principale"
+>abstract="La mesure principale est automatiquement extraite des paramètres de création de rapports. Pour apporter des modifications, modifiez la mesure d’objectif sous Objectifs et paramètres."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_hypothesis"
+>title="Hypothèse"
+>abstract="L’hypothèse est une instruction que vous définissez et qui explique le résultat attendu de l’expérience. Incluez une description de ce qui est modifié et où, puis indiquez quelle mesure vous prévoyez de modifier et comment."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_opportunities"
+>title="Opportunités"
+>abstract="Les opportunités d’expérience sont des idées de traitement suggérées par l’IA basées sur des modèles que l’IA trouve dans vos captures d’écran et résultats d’expérience."
+
+>[!CONTEXTUALHELP]
+>id="target_ai_insights_treatment_details"
+>title="Détails du traitement"
+>abstract="Les détails du traitement montrent à quoi ressemble celui-ci lorsqu’un utilisateur ou une utilisatrice y est éligible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
 
 Avant de pouvoir accéder aux informations et aux opportunités générées par l’IA, vous devez d’abord configurer votre activité en confirmant les captures d’écran des mesures, hypothèses et expériences principales.
 
