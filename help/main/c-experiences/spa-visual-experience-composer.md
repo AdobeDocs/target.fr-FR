@@ -393,7 +393,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Oui |
 | [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Oui |
-| [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | Oui |
+| [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr){target=_blank} | Oui |
 | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Oui |
 
 ## Fonctionnalités prises en charge {#supported-features}
@@ -416,7 +416,7 @@ Pour accéder aux options [!UICONTROL Diffusion de page] dans le workflow en tro
 
 ![Boîte de dialogue Options de diffusion de page](/help/main/c-experiences/assets/page-delivery.png)
 
-Par exemple, comme défini par les paramètres [!UICONTROL Diffusion de page] ci-dessus, une activité Target est qualifiée et exécutée lorsqu’un visiteur accède directement à `https://www.adobe.com` *ou* lorsqu’un visiteur accède à une URL qui contient des `https://www.adobe.com/products`. Cela fonctionne parfaitement pour toute application multi-page dans laquelle chaque interaction avec la page appelle un rechargement de page, pour lequel at.js récupère les activités qui remplissent les critères de l’URL à laquelle l’utilisateur accède.
+Par exemple, comme défini par les paramètres [!UICONTROL Diffusion de page] ci-dessus, une activité Target est qualifiée et exécutée lorsqu’un visiteur accède directement à `https://www.adobe.com` *ou* lorsqu’un visiteur accède à une URL qui contient des `https://www.adobe.com/fr/products`. Cela fonctionne parfaitement pour toute application multi-page dans laquelle chaque interaction avec la page appelle un rechargement de page, pour lequel at.js récupère les activités qui remplissent les critères de l’URL à laquelle l’utilisateur accède.
 
 Toutefois, comme les SPA fonctionnent différemment, les paramètres [!UICONTROL Diffusion de page] doivent être configurés de manière à permettre l’application de toutes les actions aux vues, comme défini dans l’activité du VEC SPA.
 
