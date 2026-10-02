@@ -6,7 +6,7 @@ feature: Overview
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: cc4c6b77fa6c600723813b939ba1e5323836ebcc
+source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 2%
@@ -49,166 +49,166 @@ Les compétences suivantes sont disponibles sous le plug-in **Target** :
 
   Permet la découverte, le contrôle et le comptage des entités Target en lecture seule, y compris les activités, les audiences, les offres et la configuration associée.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Répertorier mes activités actives. »
-  * « Combien d’activités sont en cours d’exécution ? »
-  * « Montrez-moi les audiences et les offres utilisées par cette activité. »
+* « Répertorier mes activités actives. »
+* « Combien d’activités sont en cours d’exécution ? »
+* « Montrez-moi les audiences et les offres utilisées par cette activité. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Verdict relatif à l’activité Target**
 
   Détermine si une activité est prête à être expédiée, si elle doit attendre davantage de données, si elle doit s’arrêter ou si elle doit être corrigée. Pour cela, vous utilisez des calculs d’importance et des contrôles de configuration.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Dois-je expédier ce test ? »
-  * « Cette activité est-elle prête à s’arrêter ? »
-  * « La configuration d’activité actuelle rencontre-t-elle des problèmes ? »
+* « Dois-je expédier ce test ? »
+* « Cette activité est-elle prête à s’arrêter ? »
+* « La configuration d’activité actuelle rencontre-t-elle des problèmes ? »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Conception de Target**
 
   Crée et configure des activités et des offres, génère des URL d’assurance qualité et crée ou optimise du contenu d’offre.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Créez un test A/B pour la page d’accueil. »
-  * « Créez une offre pour l’expérience des visiteurs récurrents. »
-  * « Générez une URL d’assurance qualité pour cette activité. »
+* « Créez un test A/B pour la page d’accueil. »
+* « Créez une offre pour l’expérience des visiteurs récurrents. »
+* « Générez une URL d’assurance qualité pour cette activité. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **compositeur d’expérience visuelle Target**
 
   Crée et modifie les activités du compositeur d’expérience visuelle et leurs audiences de diffusion de pages.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Créez un test A/B du compositeur d’expérience visuelle pour la page d’accueil. »
-  * « Modifiez le titre de héros dans mon activité VEC. »
-  * « Créez une audience de diffusion de page pour cette activité du compositeur d’expérience visuelle. »
+* « Créez un test A/B du compositeur d’expérience visuelle pour la page d’accueil. »
+* « Modifiez le titre de héros dans mon activité VEC. »
+* « Créez une audience de diffusion de page pour cette activité du compositeur d’expérience visuelle. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Configuration de Target**
 
   Les guides terminent la création de l’activité A/B, ciblage d’expérience ou compositeur d’expérience visuelle, y compris les conditions préalables, la planification, l’assurance qualité et l’activation.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+    *Exemple d’invites :*
+    
+    * « Aidez-moi à créer mon premier test. »
+    * « De quoi ai-je besoin avant de créer une activité de ciblage d’expérience ? »
+    * « Découvrez-moi comment planifier, contrôler la qualité et activer cette activité. »
 
-  * « Aidez-moi à créer mon premier test. »
-  * « De quoi ai-je besoin avant de créer une activité de ciblage d’expérience ? »
-  * « Expliquez-moi comment planifier, contrôler la qualité et activer cette activité. »
-
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Intelligence Target**
 
   Audits Ciblez les programmes sur les risques, les collisions, les erreurs de configuration, les problèmes d’hygiène et les gains rapides.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Contrôler mes activités Target. »
-  * « Rechercher les collisions ou les risques de configuration dans mes activités. »
-  * « Quels gains rapides peuvent améliorer l’hygiène de mon programme Target ? »
+* « Contrôler mes activités Target. »
+* « Rechercher les collisions ou les risques de configuration dans mes activités. »
+* « Quels gains rapides peuvent améliorer l’hygiène de mon programme Target ? »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Stratège Target**
 
   Analyse les données historiques de Target pour identifier les modèles gagnants et recommande des tests futurs.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Que dois-je tester ensuite en fonction des résultats passés ? »
-  * « Quels modèles apparaissent dans mes tests les plus performants ? »
-  * « Recommandez un test de suivi en fonction des résultats de cette activité. »
+* « Que dois-je tester ensuite en fonction des résultats passés ? »
+* « Quels modèles apparaissent dans mes tests les plus performants ? »
+* « Recommandez un test de suivi en fonction des résultats de cette activité. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Calculateur de test Target**
 
   Planifie la taille de l’échantillon A/B/n, la durée et l’effet élévateur détectable pour les mesures de conversion et de chiffre d’affaires, avec la correction de Bonferroni pour plusieurs comparaisons.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « De quelle taille d’échantillon ai-je besoin ? »
-  * « Pendant combien de temps dois-je exécuter ce test A/B pour détecter une augmentation de 5 % ? »
-  * « Quel effet élévateur détectable puis-je mesurer avec ce trafic ? »
+* « De quelle taille d’échantillon ai-je besoin ? »
+* « Pendant combien de temps dois-je exécuter ce test A/B pour détecter une augmentation de 5 % ? »
+* « Quel effet élévateur détectable puis-je mesurer avec ce trafic ? »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Rapport Portfolio Target**
 
   Fournit des cumuls de performances en lecture seule et à l’échelle du programme, ainsi qu’une analyse des tendances et de l’élan des activités.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Quels sont mes tests les plus performants et les moins performants ? »
-  * « Afficher les tendances de performances dans mes activités. »
-  * « Quelles activités ont gagné ou perdu de leur élan récemment ? »
+* « Quels sont mes tests les plus performants et les moins performants ? »
+* « Afficher les tendances de performances dans mes activités. »
+* « Quelles activités ont gagné ou perdu de leur élan récemment ? »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Compositeur d’audience cible**
 
   Crée ou modifie des audiences natives pour Target à partir de descriptions en langage naturel ou de règles explicites.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Créez une audience pour les visiteurs mobiles récurrents. »
-  * « Modifiez cette audience pour inclure les visiteurs provenant de la recherche organique. »
-  * « Créez une audience cible pour les visiteurs qui ont consulté la page de tarification. »
+* « Créez une audience pour les visiteurs mobiles récurrents. »
+* « Modifiez cette audience pour inclure les visiteurs provenant de la recherche organique. »
+* « Créez une audience cible pour les visiteurs qui ont consulté la page de tarification. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Recommandations Target**
 
   Gère et fonctionne avec les activités et configurations de Target Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Créez une activité Recommendations. »
-  * « Afficher mes activités et configurations Recommendations. »
-  * « Mettez à jour les paramètres de cette activité Recommendations. »
+* « Créez une activité Recommendations. »
+* « Afficher mes activités et configurations Recommendations. »
+* « Mettez à jour les paramètres de cette activité Recommendations. »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
 
 * **Diagnostic des recommandations Target**
 
   Diagnostique les problèmes de diffusion, de configuration, de catalogue et de flux de Recommendations.
 
-  >[!BEGINSHADEBOX]
+>[!BEGINSHADEBOX]
 
-  *Exemples d’invites :*
+*Exemples d’invites :*
 
-  * « Pourquoi mes recommandations n’apparaissent-elles pas ? »
-  * « Diagnostiquez la configuration des flux et du catalogue pour cette activité Recommendations. »
-  * « Des problèmes de diffusion ou de configuration affectent-ils mes recommandations ? »
+* « Pourquoi mes recommandations n’apparaissent-elles pas ? »
+* « Diagnostiquez la configuration des flux et du catalogue pour cette activité Recommendations. »
+* « Des problèmes de diffusion ou de configuration affectent-ils mes recommandations ? »
 
-  >[!ENDSHADEBOX]
+>[!ENDSHADEBOX]
