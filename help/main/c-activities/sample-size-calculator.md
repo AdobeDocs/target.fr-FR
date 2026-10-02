@@ -157,7 +157,7 @@ Estimez les entrées de planification pour une activité A/B qui repose sur des 
 
    * **[!UICONTROL Variance]** : répartition des valeurs de mesure. Un taux de clic publicitaire présente généralement un faible écart, le chiffre d’affaires par utilisateur peut être beaucoup plus élevé. Si vous n’êtes pas sûr, laissez la valeur par défaut à 1.
 
-     Découvrez comment calculer une **[!UICONTROL Variance]** dans la documentation [Analytics](https://experienceleague.adobe.com/fr/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Découvrez comment calculer une **[!UICONTROL Variance]** dans la documentation [Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
