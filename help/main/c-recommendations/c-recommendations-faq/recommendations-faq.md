@@ -2,7 +2,7 @@
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
 description: Consultez une liste de questions fréquentes sur les activités [!DNL Target Recommendations].
 title: Où puis-je trouver des questions/réponses sur [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -20,9 +20,9 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '3579'
+source-wordcount: '3560'
 ht-degree: 80%
 ---
 # Forum aux questions (FAQ) de Recommandations
@@ -35,7 +35,7 @@ Oui, les objets [!UICONTROL Recommendations] ([!UICONTROL Critères], [!UICONTRO
 
 ## Puis-je gérer des offres visuelles créées par l’interface utilisateur de [!DNL Target] à l’aide des API [!DNL Target] ?
 
-Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL &#x200B; Activités &#x200B;], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
+Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL  Activités ], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
 
 ## Pourquoi la [!UICONTROL recherche catalogue] n’affiche-t-elle pas les bons résultats lorsque j’effectue une recherche sur un attribut personnalisé avec une valeur numérique ?
 
@@ -116,7 +116,7 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] propose un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] propose un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
@@ -310,5 +310,4 @@ Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Re
 * Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommandations JSON, elle est renvoyée avec le type HTML.
 * Les entités expirent correctement après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités ayant expiré ne sont pas supprimées de l’index de recherche de catalogue après expiration. Les entités supprimées via un flux ou une API ne sont pas non plus actuellement supprimées de l’index de recherche catalogue. (IRI-857)
 * Les offres Recommandations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommandations. (TGT-33426)
-* Les activités Recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface d’utilisation, mais ne peuvent être modifiées qu’au moyen de l’API.
 * L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)

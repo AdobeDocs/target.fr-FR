@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '974'
 ht-degree: 7%
 ---
 # Offres
@@ -30,7 +30,7 @@ Pour afficher la bibliothèque [!UICONTROL Offres], cliquez sur l’onglet **[!U
 
 ![Page Offres](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-La bibliothèque [!UICONTROL Offres] contient des offres qui ont été configurées via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et des API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
+La bibliothèque [!UICONTROL Offres] contient des offres qui ont été configurées via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et des API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic]. Les offres créées via l’API [!DNL Adobe Target] ou le serveur MCP [!DNL Adobe Target] peuvent également être modifiées dans l’interface utilisateur de [!DNL Target].
 
 La bibliothèque [!UICONTROL Offres] donne un aperçu de toutes les offres de code et d’image et vous permet d’effectuer les actions suivantes :
 
@@ -41,12 +41,12 @@ La bibliothèque [!UICONTROL Offres] donne un aperçu de toutes les offres de co
 | Icône [!UICONTROL Afficher les filtres]<P>![Icône Afficher les filtres](/help/main/assets/icons/Filter.svg) | Cliquez sur l’icône **[!UICONTROL Afficher les filtres]** pour filtrer les offres par [!UICONTROL Type], [!UICONTROL Source] et [!UICONTROL Type AEM].<P>Pour plus d’informations, voir [Appliquer des filtres à la liste Offres](#filters) ci-dessous. |
 | Champs de recherche | Utilisez les champs **[!UICONTROL Rechercher dans]** pour rechercher rapidement une offre ou pour réduire le nombre d’offres affichées dans la bibliothèque [!UICONTROL Offres]. Vous pouvez effectuer une recherche par [!UICONTROL Nom de l’offre], [!UICONTROL Chemins AEM] ou [!UICONTROL Balises AEM]. Les options de recherche sont persistantes au niveau de la session. |
 | [!UICONTROL Créer un dossier] | Cliquez sur **[!UICONTROL Créer un dossier]** pour créer des dossiers dans la bibliothèque [!UICONTROL Offre] afin de contenir les offres de code, les offres d’image, ainsi que d’autres dossiers pour créer une structure de sous-dossiers.<P>Pour plus d’informations, voir [Création de dossiers d’offres](/help/main/c-experiences/c-manage-content/create-content-folder.md). |
-| [!UICONTROL [!UICONTROL Création d’une offre]] | Cliquez sur **[!UICONTROL Créer une offre]** pour créer une offre.<P>Pour plus d&#39;informations sur la création des différents types d&#39;offres, voir : <ul><li>Offre HTML</li><li>[&#x200B; Offre JSON &#x200B;](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| Cases à cocher des opérations en bloc<P>![&#x200B; Icône Opérations en bloc &#x200B;](/help/main/assets/icons/Rectangle.svg) | Cliquez sur les cases à cocher [!UICONTROL &#x200B; Opérations en bloc &#x200B;] pour effectuer des opérations en bloc sur toutes les offres ou sur les offres sélectionnées.<P>Pour obtenir la liste des actions disponibles (en fonction de vos autorisations et du statut de l’offre), consultez [Exécution d’actions rapides](#quick-actions) ci-dessous. |
+| [!UICONTROL [!UICONTROL Création d’une offre]] | Cliquez sur **[!UICONTROL Créer une offre]** pour créer une offre.<P>Pour plus d&#39;informations sur la création des différents types d&#39;offres, voir : <ul><li>Offre HTML</li><li>[ Offre JSON ](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
+| Cases à cocher des opérations en bloc<P>![ Icône Opérations en bloc ](/help/main/assets/icons/Rectangle.svg) | Cliquez sur les cases à cocher [!UICONTROL  Opérations en bloc ] pour effectuer des opérations en bloc sur toutes les offres ou sur les offres sélectionnées.<P>Pour obtenir la liste des actions disponibles (en fonction de vos autorisations et du statut de l’offre), consultez [Exécution d’actions rapides](#quick-actions) ci-dessous. |
 | [!UICONTROL Nom] | Le nom de chaque offre.<P>Cliquez sur l’icône **[!UICONTROL Quick Info]** ( ![icône Quick Info](/help/main/assets/icons/InfoOutline.svg) ) en regard de chaque nom d’offre pour afficher plus d’informations sur cette offre dans une carte pop-up, y compris l’identifiant de l’offre, le type, la date de la dernière modification de l’offre et par qui, etc.<p>Cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) en regard de chaque nom d’offre pour ouvrir un menu qui vous permet d’effectuer des actions rapides sur une activité. Les actions suivantes sont disponibles (en fonction de vos autorisations et du statut de l&#39;offre) : [!UICONTROL Modifier], [!UICONTROL Copier], [!UICONTROL Supprimer] et [!UICONTROL Déplacer]. Pour plus d’informations sur chaque action, consultez [Exécution d’actions rapides](#quick-actions) ci-dessous.<P>Cliquez sur l’en-tête du tableau pour trier la liste par ordre alphabétique croissant ou décroissant par nom. |
-| [!UICONTROL Type] | Le type d’offre : [!UICONTROL Offres &#x200B;], [[!UICONTROL Offres de redirection]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Offres distantes]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) et [[!UICONTROL Offres JSON]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
+| [!UICONTROL Type] | Le type d’offre : [!UICONTROL Offres ], [[!UICONTROL Offres de redirection]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Offres distantes]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) et [[!UICONTROL Offres JSON]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 |  | Indique l’emplacement de création de l’offre : [!DNL Adobe Target], [!DNL Adobe Target Classic] et [!DNL Adobe Experience Manager]. |
-| [!UICONTROL Dernière mise à jour &#x200B;] | Affiche la date et l&#39;heure de la dernière modification de l&#39;offre et la personne qui les a effectuées.<P>Cliquez sur l’en-tête du tableau pour trier la liste par ordre croissant ou décroissant de date. |
+| [!UICONTROL Dernière mise à jour ] | Affiche la date et l&#39;heure de la dernière modification de l&#39;offre et la personne qui les a effectuées.<P>Cliquez sur l’en-tête du tableau pour trier la liste par ordre croissant ou décroissant de date. |
 
 ## Application de filtres à la bibliothèque des offres {#filters}
 
@@ -58,7 +58,7 @@ L&#39;icône **[!UICONTROL Afficher les filtres]** permet de filtrer les offres 
 
 * **[!UICONTROL Source]** : [!DNL Adobe Target], [!DNL Adobe Target Classic] et [!DNL Adobe Experience Manager].
 
-* **Type AEM** : [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) et [Fragments d’expérience](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Pour plus d’informations sur les différents types de fragments, consultez la présentation sur les fragments d’expérience et les fragments de contenu d’AEM [&#128279;](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+* **Type AEM** : [Fragments de contenu](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) et [Fragments d’expérience](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). Pour plus d’informations sur les différents types de fragments, consultez la présentation sur les fragments d’expérience et les fragments de contenu d’AEM [](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
 
 Les filtres sont persistants au niveau de la session.
 
@@ -68,13 +68,13 @@ Vous pouvez effectuer les actions rapides suivantes en cliquant sur l’icône a
 
 ### Infos rapides
 
-Cliquez sur l’icône **[!UICONTROL Quick Info]** ( ![icône Quick Info](/help/main/assets/icons/InfoOutline.svg) ) en regard de chaque nom d’offre pour afficher plus d’informations sur cette offre dans une carte pop-up, y compris l’identifiant de l’offre, le type, la date de la dernière modification de l’offre et par qui, etc. Les options disponibles dépendent du type d’offre : [!UICONTROL Offre &#x200B;], [[!UICONTROL Offre JSON]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Offre de redirection]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Offre distante]](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
+Cliquez sur l’icône **[!UICONTROL Quick Info]** ( ![icône Quick Info](/help/main/assets/icons/InfoOutline.svg) ) en regard de chaque nom d’offre pour afficher plus d’informations sur cette offre dans une carte pop-up, y compris l’identifiant de l’offre, le type, la date de la dernière modification de l’offre et par qui, etc. Les options disponibles dépendent du type d’offre : [!UICONTROL Offre ], [[!UICONTROL Offre JSON]](/help/main/c-experiences/c-manage-content/create-json-offer.md), [[!UICONTROL Offre de redirection]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Offre distante]](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ### Autres actions
 
 Les actions disponibles pour [!UICONTROL Offres de code] et [!UICONTROL Offres d’image] diffèrent légèrement. Les sections suivantes comprennent davantage d’informations :
 
-#### Options [!UICONTROL &#x200B; Code Offer &#x200B;]
+#### Options [!UICONTROL  Code Offer ]
 
 Cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![Icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) en regard de chaque nom d’offre pour ouvrir un menu qui vous permet d’effectuer des actions rapides sur une activité.
 
@@ -87,11 +87,11 @@ Les actions suivantes sont disponibles (en fonction de vos autorisations et du s
 
 Selon vos autorisations, il se peut que vous ne voyiez pas d’icônes pour toutes les options. Par exemple, un utilisateur disposant des autorisations [!UICONTROL Observateur] ne dispose pas des droits d’utilisation de l’option [!UICONTROL Copier].
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 #### Options [!UICONTROL Offre Image]
 
-Effectuez des tâches supplémentaires en pointant sur l’offre d’image ou le dossier de votre choix sur l’onglet [!UICONTROL &#x200B; Offres d’image &#x200B;], puis en cliquant sur l’icône de votre choix.
+Effectuez des tâches supplémentaires en pointant sur l’offre d’image ou le dossier de votre choix sur l’onglet [!UICONTROL  Offres d’image ], puis en cliquant sur l’icône de votre choix.
 
 Les options incluent :
 
@@ -100,10 +100,10 @@ Les options incluent :
 * [!UICONTROL Afficher les propriétés]
 * [!UICONTROL Autres actions]
 * [!UICONTROL Modifier]
-* [!UICONTROL Annoter &#x200B;]
+* [!UICONTROL Annoter ]
 * [!UICONTROL Copier]
 
-Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [&#x200B; Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
+Pour plus d’informations sur les tâches que vous pouvez effectuer sur les offres et les dossiers, voir [ Utilisation de contenu dans la bibliothèque de ressources](/help/main/c-experiences/c-manage-content/assets-working.md).
 
 >[!NOTE]
 >
