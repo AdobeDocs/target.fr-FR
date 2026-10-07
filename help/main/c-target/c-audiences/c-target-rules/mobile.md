@@ -1,27 +1,31 @@
 ---
 keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
-description: Découvrez comment créer des audiences dans pour cibler  [!DNL Adobe Target]  appareils mobiles.
+description: Découvrez comment créer des audiences dans [!DNL Adobe Target] pour cibler les appareils mobiles.
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 TQID: https://experienceleague.adobe.com/oCyCtd21XayR3G4ClrQwyqcrgyxS4nmUONE-iIwavOY
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 subfeature_v2:
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 39%
-
+source-wordcount: '828'
+ht-degree: 33%
 ---
-
 # Mobile
 
 Créez des audiences dans [!DNL Adobe Target] de cibler les appareils mobiles en fonction de paramètres tels que l’appareil mobile, le type d’appareil, le fabricant de l’appareil, les dimensions de l’écran, etc.
@@ -89,6 +93,14 @@ La mise à jour d’iOS 12.2 (ou version ultérieure) n’affecte pas l’identi
 ### Ciblage des appareils exécutant Safari 14.0.2 (ou version ultérieure)
 
 Lors de l’utilisation de règles mobiles pour cibler des appareils exécutant Safari version 14.0.2 (ou ultérieure) sur macOS, en raison d’un problème connu impliquant les user agents d’Apple et DeviceAtlas, [!DNL Target] identifie incorrectement Safari sur les appareils Mac et iPad. Cette question sera abordée à l&#39;avenir.
+
+### Scripts personnalisés qui remplacent l’agent utilisateur {#custom-scripts-overwrite-user-agent}
+
+Étant donné que le ciblage des appareils mobiles repose sur la chaîne Agent-utilisateur, tout script personnalisé de votre page qui modifie le `navigator.userAgent` avant qu’[!DNL Target] ne le lise peut entraîner l’échec du ciblage des appareils.
+
+Si votre site web dispose d’un script personnalisé qui écoute tous les événements au lieu de l’événement spécifique dont il a besoin, il peut involontairement intercepter un événement [!DNL Web SDK] et le remplacer `navigator.userAgent`. Par conséquent, [!DNL Target] reçoit des informations incorrectes sur l’appareil au lieu de l’appareil réel du visiteur et l’expérience attendue n’est pas délivrée.
+
+Si le ciblage des appareils mobiles ne se comporte pas comme prévu, vérifiez si des scripts personnalisés ou des écouteurs d’événement sur la page modifient les `navigator.userAgent` et définissez ces écouteurs de la manière la plus étroite possible afin qu’ils n’interceptent pas involontairement des événements [!DNL Target] ou Web SDK.
 
 ## Vidéo de formation : Création d’audiences
 

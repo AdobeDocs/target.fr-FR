@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2682'
 ht-degree: 25%
 ---
 # Présentation des activités
@@ -120,7 +120,7 @@ Les actions suivantes sont disponibles (en fonction de vos autorisations et du s
 
 | Action | Description |
 | --- | --- |
-| [!UICONTROL Modifier] | Permet de modifier une activité. Toute activité peut être modifiée, y compris les activités créées via l’API [!DNL Adobe Target] ou le serveur MCP [!DNL Adobe Target].<P>Pour plus d’informations sur les différentes manières de modifier les activités, voir [Modifier une activité ou enregistrer en tant que brouillon](/help/main/c-activities/edit-activity.md). |
+| [!UICONTROL Modifier] | Permet de modifier une activité. Toute activité peut être modifiée, y compris les activités créées via l’API [!DNL Adobe Target] ou le serveur MCP [!DNL Adobe Target]. Une fois qu’une activité créée par l’API est modifiée dans l’interface utilisateur, elle est traitée comme une activité modifiée par l’interface utilisateur. Les actions précédemment restreintes, y compris [!UICONTROL Copie] et [!UICONTROL Suppression], deviennent disponibles, sous réserve de vos autorisations et du statut de l’activité.<P>Pour plus d’informations sur les différentes manières de modifier les activités, voir [Modifier une activité ou enregistrer en tant que brouillon](/help/main/c-activities/edit-activity.md). |
 | [!UICONTROL Désactiver] | Permet d’arrêter une activité activée ou programmée. Une activité désactivée peut être réactivée ou archivée.<P>Si vous désactivez ou archivez une activité et que vous la réactivez plus tard, un visiteur fera encore partie de cette activité après la réactivation s’il s’y trouvait avant qu’elle ne soit désactivée ou archivée. Toute mesure de conversion enregistrée pendant la période entre les deux événements ne sera pas attribuée à cette activité. |
 | [!UICONTROL Activer] | Démarrez une activité inactive ou une activité prête à être activée. |
 | [!UICONTROL Archiver] | Envoie l’activité vers l’archive. Par défaut, les activités archivées n’apparaissent plus dans la liste [!UICONTROL Activités]. Modifiez le filtre de la liste [!UICONTROL Activités] afin d’inclure les activités archivées pour les afficher. Vous pouvez activer une activité archivée pour l’utiliser à nouveau.<P>Si vous désactivez ou archivez une activité, puis la réactivez ultérieurement, un visiteur continuera à faire partie de cette activité après la réactivation s’il se trouvait dans cette activité avant que celle-ci ne soit désactivée ou archivée. Toute mesure de conversion enregistrée pendant la période entre les deux événements ne sera pas attribuée à cette activité. |

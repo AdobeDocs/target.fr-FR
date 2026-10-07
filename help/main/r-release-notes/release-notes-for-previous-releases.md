@@ -73,9 +73,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7dc5040aaa3efc4e65ed19a53e4401b152e7661e
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '72418'
+source-wordcount: '72456'
 ht-degree: 48%
 ---
 # Notes de mise à jour pour les versions antérieures
@@ -112,11 +112,11 @@ Les notes de mise à jour sont répertoriées dans l’ordre décroissant de leu
 
 ## [!DNL Target Standard/Premium] 26.8.3 (13 août 2026)
 
-**Activités et audiences**
+**Activités, offres et audiences**
 
 +++Afficher les détails
 
-* **Modification activée pour les activités et audiences créées par API/MCP.** Les activités et les audiences créées via l’API [!DNL Adobe Target] Admin et [!DNL Target] MCP peuvent désormais être modifiées dans l’interface utilisateur de [!DNL Target].
+* **Modification activée pour les activités, offres et audiences créées par API/MCP.** Les activités, offres et audiences créées via l’API [!DNL Adobe Target] Admin et [!DNL Target] MCP peuvent désormais être modifiées dans l’interface utilisateur de [!DNL Target]. Une fois qu’une activité créée par l’API est modifiée dans l’interface utilisateur, elle est traitée comme une activité modifiée par l’interface utilisateur. Les actions précédemment restreintes, y compris [!UICONTROL Copie] et [!UICONTROL Suppression], deviennent disponibles, sous réserve de vos autorisations et du statut de l’activité. (TGT-55116)
 
 +++
 

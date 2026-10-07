@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '974'
 ht-degree: 7%
 ---
 # Offres
@@ -30,7 +30,7 @@ Pour afficher la bibliothèque [!UICONTROL Offres], cliquez sur l’onglet **[!U
 
 ![Page Offres](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-La bibliothèque [!UICONTROL Offres] contient des offres qui ont été configurées via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et des API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
+La bibliothèque [!UICONTROL Offres] contient des offres qui ont été configurées via [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et des API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic]. Les offres créées via l’API [!DNL Adobe Target] ou le serveur MCP [!DNL Adobe Target] peuvent également être modifiées dans l’interface utilisateur de [!DNL Target].
 
 La bibliothèque [!UICONTROL Offres] donne un aperçu de toutes les offres de code et d’image et vous permet d’effectuer les actions suivantes :
 
