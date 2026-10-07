@@ -42,7 +42,7 @@ ht-degree: 22%
 ---
 # [!DNL Target] de rapports dans [!DNL Adobe Customer Journey Analytics]
 
-L’intégration entre [](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
+L’intégration entre [&#128279;](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
 
 Les principaux avantages de l’utilisation de [!DNL Customer Journey Analytics] comme source de création de rapports pour [!DNL Target] sont les suivants :
 
@@ -170,8 +170,8 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics] qui pointe
 
 1. Pour afficher correctement vos données [!DNL Target] dans [!DNL Customer Journey Analytics], ajoutez les champs suivants de votre jeu de données de recherche en tant que dimensions (y compris [!UICONTROL Experience ID] et [!UICONTROL ID d’activité]) :
 
-   * [!UICONTROL  Nom de l’expérience ]
-   * [!UICONTROL  Experience ID ]
+   * [!UICONTROL &#x200B; Nom de l’expérience &#x200B;]
+   * [!UICONTROL &#x200B; Experience ID &#x200B;]
    * [!UICONTROL Nom de l’activité]
    * [!UICONTROL ID de l’activité]
 
@@ -181,11 +181,11 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics] qui pointe
 
    Sans la persistance configurée, [!DNL Customer Journey Analytics] lie uniquement les mesures qui se produisent sur le même événement que l’expérience [!DNL Target]. Par exemple, si un visiteur voit une expérience Target sur la page d’accueil, la mesure des recettes de ce visiteur provenant d’un achat effectué sur une page ultérieure n’est pas attribuée à l’activité Target.
 
-   Pour plus d’informations sur la persistance, consultez la [documentation ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
+   Pour plus d’informations sur la persistance, consultez la [documentation &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
 
 1. Pour utiliser [!DNL Target] dimensions dans le panneau [!UICONTROL Expérimentation], configurez les libellés de contexte suivants :
 
-   * Pour [!UICONTROL  Nom de l’activité ], utilisez « Expérience d’expérimentation ».
+   * Pour [!UICONTROL &#x200B; Nom de l’activité &#x200B;], utilisez « Expérience d’expérimentation ».
    * [!UICONTROL Nom de l’expérience], utilisez « Variante d’expérience ».
 
    ![Libellés de contexte dans le panneau Expérimentation](/help/main/c-integrating-target-with-mac/cja/assets/context-labels.png){width="600" zoomable="yes"}
@@ -196,7 +196,7 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics] qui pointe
 
 Une fois l’activité activée et la configuration de la connexion et des vues de données terminée, les données de rapport sont disponibles dans [!DNL Customer Journey Analytics]. Dans l’onglet **[!UICONTROL Rapports]** de l’activité dans [!DNL Target], utilisez **[!UICONTROL Afficher dans Customer Journey Analytics]** pour ouvrir les [!DNL Customer Journey Analytics] à analyser. Actuellement, ce lien vous redirige vers la page de destination d’accueil [!DNL Customer Journey Analytics].
 
-![Lien de création de rapports ](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
+![Lien de création de rapports &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
 >[!NOTE]
 >
@@ -220,4 +220,4 @@ Une fois l’activité activée et la configuration de la connexion et des vues 
 
    Le panneau [!UICONTROL Expérimentation] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les performances de vos expériences. Pour plus d’informations, voir [[!UICONTROL Sortie de panneau]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} sous *Panneau Expérimentation* dans le guide de *[!DNL Customer Journey Analytics]*.
 
-   ![ Expérimentation ](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+   ![&#x200B; Expérimentation &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
