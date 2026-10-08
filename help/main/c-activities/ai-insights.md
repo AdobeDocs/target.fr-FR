@@ -7,7 +7,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
 workflow-type: tm+mt
 source-wordcount: '763'
-ht-degree: 27%
+ht-degree: 36%
 ---
 # Informations sur l’IA
 
@@ -19,12 +19,12 @@ ht-degree: 27%
 
 Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présentation des activités]** permet d’accéder aux informations et aux opportunités d’optimisation. Utilisez cet onglet pour passer en revue les enseignements tirés des expériences, comparer des traitements et identifier les modifications susceptibles d’améliorer les taux de conversion.
 
-## Configuration pour les informations et les opportunités de l’IA
+## Configuration pour les insights et les opportunités de l’IA
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights"
 >title="Statistiques"
->abstract="Les informations sont des résultats générés par l’IA qui sont disponibles lorsque votre expérience atteint une signification statistique."
+>abstract="Les insights sont des résultats générés par l’IA qui sont disponibles lorsque votre expérience atteint une signification statistique."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -39,7 +39,7 @@ Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présent
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_treatment_details"
 >title="Détails de l’expérience"
->abstract="Les détails de l’expérience affichent des images de ce à quoi ressemble une expérience lorsqu’un utilisateur ou une utilisatrice y est admissible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
+>abstract="Les détails de l’expérience montrent à quoi ressemble celle-ci lorsqu’un utilisateur ou une utilisatrice y est éligible. Vous pouvez consulter ces images pour toutes les expériences. Certaines expériences peuvent vous demander de confirmer l’image ou de la remplacer si nécessaire."
 
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_primary_metric"
@@ -99,7 +99,7 @@ Une fois la configuration terminée, votre activité est prête à générer des
 >[!CONTEXTUALHELP]
 >id="target_ai_insights_insights"
 >title="Statistiques"
->abstract="Les informations d’expérience sont des apprentissages générés par l’IA qui sont disponibles lorsque l’expérience atteint une signification statistique."
+>abstract="Les insights d’expérience sont des apprentissages générés par l’IA qui sont disponibles lorsque l’expérience atteint une signification statistique."
 
 Les informations d’expérience sont des apprentissages générés par l’IA provenant de cette expérience. Ces informations sont disponibles une fois que l’expérience a atteint sa signification statistique et fournissent un contexte sur ce qui a contribué à son succès. Ils mettent en évidence les attributs clés présents dans l’expérience gagnante qui sont distincts du contrôle et ont probablement influencé le résultat.
 
