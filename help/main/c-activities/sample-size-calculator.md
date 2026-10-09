@@ -1,35 +1,35 @@
 ---
 keywords: calculateur de taille d’échantillon;A/B;Affectation automatique;signification statistique;volume de trafic
 description: Utilisez le Calculateur de taille d’échantillon d’Adobe Target pour estimer la durée de l’expérience, le volume de trafic ou l’effet détectable minimal.
-title: Exemple de calculateur de taille
+title: Calculateur de taille d’échantillon
 feature: Activities
 badge: label="Beta" type="Informative"
 source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 14%
+ht-degree: 38%
 ---
-# Exemple de calculateur de taille
+# Calculateur de taille d’échantillon
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
 >title="Trafic quotidien"
->abstract="Nombre d’utilisateurs participant à l’expérience chaque jour. Si vous ne connaissez pas cette valeur, sélectionnez Volume du trafic ci-dessus. Le calculateur la résoudra à l’aide des autres entrées."
+>abstract="Nombre d’utilisateurs et d’utilisatrices participant à l’expérience chaque jour. Si vous ne connaissez pas cette valeur, sélectionnez Volume du trafic ci-dessus. Le calculateur la résoudra à l’aide des autres entrées."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_confidence_level"
 >title="Degré de confiance"
->abstract="Vous devez être certain qu’un résultat n’est pas dû au hasard avant de le qualifier de significatif. Un degré de confiance de 95 % signifie qu’il y a au maximum 5 % de chances d’obtenir un faux positif. Des valeurs plus élevées réduisent le nombre de faux positifs, mais elles nécessitent également plus de données."
+>abstract="Vous devez avoir la certitude qu’un résultat n’est pas dû au hasard avant de le qualifier de significatif. Un degré de confiance de 95 % signifie qu’il y a au maximum 5 % de chances d’obtenir un faux positif. Des valeurs plus élevées réduisent le nombre de faux positifs, mais requièrent également davantage de données."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_statistical_power"
 >title="Puissance statistique"
->abstract="Probabilité de détecter un effet réel s’il existe. Un niveau de puissance de 80 % signifie qu&#39;il y a 80 % de chances de détecter un effet réel. Une puissance plus élevée réduit les faux négatifs, mais nécessite plus de trafic ou une exécution plus longue."
+>abstract="Probabilité de détecter un effet réel s’il existe. Un niveau de puissance de 80 % signifie qu’il y a 80 % de chances de détecter un effet réel. Une puissance plus élevée réduit les faux négatifs, mais nécessite plus de trafic ou une exécution plus longue."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_setup_cja"
 >title="Configurer le test"
->abstract="Ces champs définissent l’expérience, le résultat attendu et le seuil de confiance du résultat. Le champ lié à la valeur que vous avez sélectionnée ci-dessus est résolu automatiquement ; renseignez les champs restants avec les valeurs attendues."
+>abstract="Ces champs définissent l’expérience, le résultat attendu et le seuil de confiance du résultat. Le champ lié à la valeur que vous avez sélectionnée ci-dessus est résolu automatiquement. Renseignez les champs restants avec les valeurs attendues."
 
 
 >[!AVAILABILITY]
@@ -46,28 +46,28 @@ Pour accéder au **[!UICONTROL Calculateur de taille d’échantillon]**, accéd
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_bonferroni"
->title="correction de Bonferroni"
->abstract="Ajuste le niveau de confiance pour tenir compte de la comparaison simultanée de plusieurs offres par rapport au contrôle. Cela n’a d’importance que lorsque le nombre d’offres est supérieur à deux. Elle correspond à la même correction que celle utilisée dans l’outil Calculateur de cible public d’Adobe."
+>title="Correction de Bonferroni"
+>abstract="Ajuste le degré de confiance pour tenir compte de la comparaison simultanée de plusieurs offres par rapport au contrôle. Cela n’a d’importance que lorsque le nombre d’offres est supérieur à deux. Elle correspond à la même correction que celle utilisée dans l’outil Calculateur de cible public d’Adobe."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_metric_type"
 >title="Type de mesure"
->abstract="Type de mesure que vous mesurez. Utilisez un pourcentage pour les résultats binaires, tels que les clics ou les conversions, où chaque utilisateur effectue ou n’effectue pas l’action. Utilisez Nombre pour des mesures telles que le chiffre d’affaires ou les pages vues, où les valeurs peuvent varier considérablement d’un utilisateur à l’autre."
+>abstract="Type de mesure que vous mesurez. Utilisez un pourcentage pour les résultats binaires, tels que les clics ou les conversions, où chaque utilisateur ou utilisatrice effectue ou non l’action. Utilisez Nombre pour des mesures telles que le chiffre d’affaires ou les pages vues, où la valeur peut varier considérablement d’une personne à l’autre."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_offers"
 >title="Nombre d’offres"
->abstract="Nombre d’expériences dans l’expérience, y compris le contrôle. Plus de deux offres appliquent automatiquement une correction Bonferroni (lorsqu’elle est activée) pour maintenir le niveau de confiance global précis à travers toutes les comparaisons."
+>abstract="Nombre d’expériences dans l’expérience, y compris le contrôle. Plus de deux offres appliquent automatiquement une correction de Bonferroni (lorsqu’elle est activée) pour maintenir le degré de confiance global précis à travers toutes les comparaisons."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_lift"
 >title="Effet élévateur"
->abstract="Amélioration relative par rapport à la ligne de base que vous souhaitez détecter. Saisissez-le en tant que pourcentage de la ligne de base. Par exemple, une augmentation de 5 % sur un taux de conversion de base de 11,8 % vise un taux de conversion de 12,39 %."
+>abstract="Amélioration relative par rapport à la valeur de référence que vous souhaitez détecter. Saisissez-le en tant que pourcentage de la valeur de référence. Par exemple, une augmentation de 5 % sur un taux de conversion de référence de 11,8 % vise un taux de conversion de 12,39 %."
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_baseline_conversion_rate"
 >title="Taux de conversion de ligne de base"
->abstract="Votre taux de conversion actuel avant le début de l’expérience, qui est la moyenne du bras de contrôle. Cette valeur est toujours requise. Pour les mesures en pourcentage, saisissez un pourcentage tel que 5 pour 5 %. Pour les mesures de comptage, saisissez la valeur décimale brute."
+>abstract="Votre taux de conversion actuel avant le début de l’expérience, soit la moyenne du groupe témoin. Cette valeur est toujours requise. Pour les mesures en pourcentage, saisissez un pourcentage tel que 5 pour 5 %. Pour les mesures de comptage, saisissez la valeur décimale brute."
 
 Estimez les entrées requises pour planifier et exécuter un test A/B. Ces valeurs vous aident à décider du volume de trafic dont vous avez besoin, de la durée d’exécution du test et de la taille de l’effet que vous pouvez détecter de manière réaliste.
 
@@ -108,7 +108,7 @@ Le panneau **[!UICONTROL Résultat]** affiche l’estimation une fois que vous a
 
 Le calculateur fournit une estimation pour la planification d’une expérience. Utilisez le résultat avec votre conception d’expérience, le trafic attendu, les performances de base et les exigences statistiques pour décider de la durée d’exécution de l’activité.
 
-## A/B (CJA/Adobe Analytics)
+## A/B (CJA/Adobe Analytics)
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_number_experiences"
@@ -128,7 +128,7 @@ Le calculateur fournit une estimation pour la planification d’une expérience.
 >[!CONTEXTUALHELP]
 >id="target_sample_size_variance"
 >title="Variance"
->abstract="La répartition des valeurs de votre mesure, et non la valeur moyenne. Une mesure telle que le taux de clics (principalement les 0 et les 1) présente généralement un faible écart, tandis qu’une mesure telle que le chiffre d’affaires par utilisateur peut présenter un écart beaucoup plus élevé. Si vous n’êtes pas sûr, laissez la valeur par défaut à 1."
+>abstract="Répartition des valeurs de votre mesure, et non la valeur moyenne. Une mesure telle qu’un CTR (principalement des 0 et des 1) présente généralement une faible variance, tandis qu’une mesure telle que le chiffre d’affaires par utilisateur ou utilisatrice peut présenter une variance beaucoup plus élevée. Si vous ne savez pas, laissez la valeur par défaut de 1."
 
 Estimez les entrées de planification pour une activité A/B qui repose sur des données Adobe Analytics ou Customer Journey Analytics. Il vous permet de définir la taille de l’expérience, l’effet élévateur attendu et la durée du test avant de lancer l’activité.
 
@@ -155,7 +155,7 @@ Estimez les entrées de planification pour une activité A/B qui repose sur des 
 
    * **[!UICONTROL Amélioration attendue]** : amélioration attendue de l’expérience.
 
-   * **[!UICONTROL Variance]** : répartition des valeurs de mesure. Un taux de clic publicitaire présente généralement un faible écart, le chiffre d’affaires par utilisateur peut être beaucoup plus élevé. Si vous n’êtes pas sûr, laissez la valeur par défaut à 1.
+   * **[!UICONTROL Variance]** : répartition des valeurs de mesure. Un taux de clic publicitaire présente généralement un faible écart, le chiffre d’affaires par utilisateur peut être beaucoup plus élevé. Si vous ne savez pas, laissez la valeur par défaut de 1.
 
      Découvrez comment calculer une **[!UICONTROL Variance]** dans la documentation [Analytics](https://experienceleague.adobe.com/fr/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
