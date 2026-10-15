@@ -213,7 +213,7 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 
 **expérience**
 
-Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un funnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
+Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page web entière ou un ensemble de pages qui peut éventuellement former un funnel d’achat ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
 **ciblage d’expérience**
 
