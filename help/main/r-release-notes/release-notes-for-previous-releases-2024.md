@@ -57,7 +57,7 @@ Le [!DNL Platform Web SDK] prend en charge deux types d’implémentation pour l
 
   Ce type d’implémentation est la nouvelle approche d’implémentation [appel fractionné](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank} recommandée par [!DNL Adobe]. Avec cette approche, la nouvelle optimisation n’a aucune incidence sur les rapports [!DNL Analytics] ou A4T.
 
-Si vous avez des questions, contactez l’[Assistance clientèle ](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
+Si vous avez des questions, contactez l’[Assistance clientèle &#x200B;](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C). (KB-2179)
 
 ### at.js version 2.11.6 (29 septembre 2024)
 
@@ -67,7 +67,7 @@ Pour plus d’informations sur les versions d’at.js, voir [informations détai
 
 ### Création de rapports [!DNL Target] dans [!DNL Adobe Customer Journey Analytics] (8 mai 2024)
 
-L’intégration entre [](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
+L’intégration entre [&#128279;](https://experienceleague.adobe.com/fr/docs/customer-journey-analytics){target=_blank} et [!DNL Target] fournit de puissants outils d’analyse et de gain de temps pour votre programme d’optimisation.
 
 Les principaux avantages de l’utilisation de [!DNL Customer Journey Analytics] comme source de création de rapports pour [!DNL Target] sont les suivants :
 
@@ -88,7 +88,7 @@ L’extension héritée Assistant du compositeur d’expérience visuelle [!DNL 
 |--- |--- |
 | [!UICONTROL Browser:iPad] et [!UICONTROL Browser:iPhone] mis à jour dans [Browser attributes](/help/main/c-target/c-audiences/c-target-rules/browser.md) utilisé lors de la création d’audiences. | [!DNL Adobe Target] vous permet de [cibler n’importe quel attribut de catégorie](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), y compris les personnes qui utilisent un [navigateur ou des options de navigateur](/help/main/c-target/c-audiences/c-target-rules/browser.md) spécifiques lorsqu’elles consultent votre page.<P>À partir de la version Standard/Premium 24.3.1 de [!DNL Target] (4-6 mars 2024), les audiences intégrées créées à l’aide de l’interface d’utilisation de Target, telles que `Browser:iPad` et `Browser:iPhone`, seront mises à jour afin d’effectuer un ciblage correct pour [!DNL iPad] et [!DNL iPhone] avec `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` et `profile.mobile.isTablet`.<P>Cette mise à jour ne nécessite aucune action du côté de la clientèle.<p><B>Important</b> : pour que la clientèle effectue un ciblage correct de [!DNL iPad] et [!DNL iPhone] dans les scripts de profil (et les segments JavaScript), les modifications manuelles doivent être effectuées par la clientèle avant le **30 avril 2024**. Pour obtenir des exemples d’autres paramètres qui doivent être modifiés manuellement, consultez [Mises à jour pour [!DNL iPad] et [!DNL iPhone] dans [!UICONTROL Navigateur] les attributs d’audience](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
 
-### Extension [!UICONTROL  Visual Editing Helper ] (14 mars 2024)
+### Extension [!UICONTROL &#x200B; Visual Editing Helper &#x200B;] (14 mars 2024)
 
 Cette version comprend les améliorations et correctifs suivants pour l’extension [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) pour [!DNL Google Chrome] :
 
@@ -111,6 +111,6 @@ Cette version comprend les améliorations et correctifs suivants :
 * Les activités [!UICONTROL Analytics for Target] (A4T) avec les mesures d’objectif de chiffre d’affaires n’affichaient pas « Chiffre d’affaires » comme nom de colonne et la mesure de chiffre d’affaires ne s’affichait pas au format ($) dans les rapports. Il s’agissait d’un problème d’ordre cosmétique qui a été corrigé. (TGT-46995)
 * Correction d’un problème en raison duquel les périodes des rapports ne fonctionnaient pas correctement. (TGT-47396)
 * Correction d’un problème en raison duquel le statut incorrect s’affichait sur la page [!UICONTROL Toutes les activités] une fois que les clients et clientes activaient ou désactivaient une activité à l’aide de l’icône [!UICONTROL Plus d’actions]. (TGT-47367)
-* Correction d’un problème en raison duquel le rapport [!UICONTROL  Attributs importants ] ne s’affichait pas pour un seul client. (TGT-47272)
+* Correction d’un problème en raison duquel le rapport [!UICONTROL &#x200B; Attributs importants &#x200B;] ne s’affichait pas pour un seul client. (TGT-47272)
 * Correction d’un problème en raison duquel le message « Payload non valide » s’affichait lorsqu’un seul client ou une seule cliente tentait d’activer l’option « Authentification obligatoire ». (TGT-47195)
 * Mise à jour de plusieurs chaînes localisées dans l’interface utilisateur de [!DNL Target].
