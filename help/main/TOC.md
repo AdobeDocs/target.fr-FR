@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 4b90f47050b63c7e1e6ac5019d45a7b99b3a33b8
+source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1307'
 ht-degree: 84%
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 84%
   + [Aperçu de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
   + [Mises à jour d’état du système et notifications proactives](r-release-notes/system-status-updates.md)
   + [Modifications de la documentation](r-release-notes/doc-change.md)
-  + [Notes de mise à jour pour les versions antérieures](r-release-notes/release-notes-for-previous-releases.md)
+  + Notes de mise à jour pour les versions antérieures {#previous-rn}
+    + [2026](r-release-notes/release-notes-for-previous-releases.md)
+    + [2025](r-release-notes/release-notes-for-previous-releases-2025.md)
+    + [2024](r-release-notes/release-notes-for-previous-releases-2024.md)
 + Introduction {#introduction}
   + [Présentation de Target](c-intro/intro.md)
   + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
@@ -119,7 +122,7 @@ ht-degree: 84%
 + Activités {#activities}
   + [Présentation des activités](c-activities/activities.md)
   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
-  + [Exemple de calculateur de taille](c-activities/sample-size-calculator.md)
+  + [Calculateur de taille d’échantillon](c-activities/sample-size-calculator.md)
   + [Types d’activités de Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
     + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)

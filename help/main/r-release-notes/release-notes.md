@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6d899d12b0a9d9afe261a6f4e3c3dab209c21b6
+source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 26%
+source-wordcount: '462'
+ht-degree: 58%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
@@ -40,173 +40,21 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.9.8 (30 septembre 2026)
-
-### Fonctionnalités
-
-<table>
-<thead>
-<tr>
-<th><strong>Calculateur de taille d’échantillon</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le calculateur de taille d’échantillon vous permet de planifier des expériences avant le lancement en estimant le trafic requis, la durée du test, le nombre d’expériences ou l’effet minimal que vous pouvez détecter de manière fiable. Disponible à partir du menu Activités , il utilise vos entrées pour vous aider à déterminer les ressources et le temps d’exécution nécessaires à votre test.</p>
-<p>La fonctionnalité de calcul de taille d’échantillon est actuellement disponible en version bêta.</p>
-<p>Pour plus d’informations, consultez la <a href="../c-activities/sample-size-calculator.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Informations sur l’IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Les informations d’IA fournissent des apprentissages d’expérience générés par l’IA et des opportunités d’optimisation pour les activités de test A/B avec affectation manuelle du trafic. Une fois qu’une expérience atteint une signification statistique, les informations mettent en évidence les attributs de l’expérience gagnante qui ont probablement contribué à ses performances. Les opportunités suggérées comprennent de nouvelles idées d’expérience, des hypothèses et des conseils d’implémentation pour améliorer les taux de conversion.</p>
-<p>La fonctionnalité d’informations sur l’IA est actuellement disponible en version bêta.</p>
-<p>Pour plus d’informations, consultez la <a href="../c-activities/ai-insights.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Améliorations
-
-**[!UICONTROL Administration]**
-
-+++ Afficher les détails
-
-* **Impossible d’accorder des autorisations AI aux utilisateurs**. Les utilisateurs disposant d’un accès d’administrateur de produit et d’administrateur système ne pouvaient pas accorder d’autorisations d’IA à d’autres utilisateurs. Toute tentative d’activation de l’autorisation AI entraînait une erreur `Unauthorized`, même lorsque l’IA était activée pour l’organisation. (TGT-56261)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.7 (28 septembre 2026)
-
-
-**[!UICONTROL Recommandations]**
-
-+++ Afficher les détails
-
-* **’erreur « Entrée utilisateur non valide » dans le compositeur d’expérience visuelle**. Lors de la modification d’une activité Recommendations dans le compositeur d’expérience visuelle, une erreur « Entrée utilisateur non valide » s’est produite lors de la tentative d’enregistrement et de fermeture de l’activité.
-
-+++
-
-
-## [!DNL Target Standard/Premium] 26.9.6 (24 septembre 2026)
-
-**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
-
-+++Afficher les détails
-
-* **Boucle de redirection sans fin lors de l’accès à une page authentifiée par l’authentification unique via le compositeur d’expérience visuelle**. Lorsqu’une URL de page chargée dans le compositeur d’expérience visuelle était soumise à un flux de redirection SSO/connexion, le compositeur d’expérience visuelle entrait dans une boucle de redirection sans fin et n’atteignait jamais la page prévue. (TGT-56233)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.5 (21 septembre 2026)
-
-### Fonctionnalité
-
-<table>
-<thead>
-<tr>
-<th><strong>Prémasquage du contenu</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le pré-masquage du contenu permet de réduire le scintillement de la page en masquant uniquement les sections que la personnalisation Adobe Target est sur le point de modifier, offrant ainsi une expérience plus fluide lors du chargement du contenu. Cette approche évite de masquer la page entière et permet de minimiser l’effort d’implémentation lorsque de nouvelles activités sont lancées.</p>
-<p>Publiée précédemment en disponibilité limitée, cette fonctionnalité est désormais disponible dans tous les environnements (disponibilité générale).</p>
-<p>Pour plus d’informations, consultez la <a href="../administrating-target/content-pre-hiding.md">documentation détaillée</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Améliorations
+## [!DNL Target Standard/Premium] 26.10.1 (13 octobre 2026)
 
 **[!UICONTROL Analytics for Target]**
 
 +++Afficher les détails
 
-* **Lien de rapport A4T non généré dans [!DNL Target]’interface utilisateur**. Pour les activités [!DNL A4T], le lien du rapport n’a pas été généré dans la section **[!UICONTROL Rapports]**, même si les données du rapport sous-jacent étaient visibles dans les deux interfaces utilisateur [!DNL Target] et [!DNL Adobe Analytics]. (TGT-56247)
+* **La création de rapports A4T échoue avec une erreur « Un problème est survenu »**. Correction d’un problème en raison duquel les activités [!DNL A4T] utilisant une suite de rapports nouvellement ajoutée affichaient une erreur « Un problème est survenu » dans le rapport [!DNL Target] au lieu des résultats. Cliquer sur **[!UICONTROL Afficher dans Analytics]** affichait également un message « Suite de rapports incompatible » avec des informations de classification de [!DNL Analytics for Target] manquantes. (TGT-56389)
 
 +++
-
-## [!DNL Target Standard/Premium] 26.9.4 (17 septembre 2026)
 
 **[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
 
 +++Afficher les détails
 
-* Contrôle **[!UICONTROL Insérer avant] inaccessible pour les [!DNL Experience Fragments] sur l’élément de page le plus haut**. Dans le compositeur d’expérience visuelle, la sélection de l’élément le plus haut sur une page a fait défiler la page vers le haut, ce qui a provoqué le rendu du contrôle **[!UICONTROL Insérer avant]** au-dessus de la fenêtre visible, à un endroit où il n’a pas pu être sélectionné. (TGT-55829)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.3 (16 septembre 2026)
-
-**[!UICONTROL Création de rapports]**
-
-+++Afficher les détails
-
-* **Valeurs [!UICONTROL Lift] et [!UICONTROL Confiance] manquantes dans certains [!DNL A4T Auto-Target] rapports**. Pour les activités [!DNL A4T Auto-Target] utilisant l’objectif d’optimisation **[!UICONTROL Maximiser le taux de conversion des visites]**, la mesure de rapport **[!UICONTROL Ma mesure de Principal]** par défaut n’a pas été résolue correctement, laissant **[!UICONTROL Effet élévateur]** et **[!UICONTROL Degré de confiance]** vides. (TGT-56137)
-
-+++
-
-**[!UICONTROL Analytics for Target]**
-
-+++Afficher les détails
-
-* Le champ **[!UICONTROL Reporting Source] est désormais en lecture seule pour les activités en direct sans accès [!DNL Analytics]**. Auparavant, lorsque le propriétaire d’une activité active n’avait pas accès à [!DNL Adobe Analytics], le champ **[!UICONTROL Source de création de rapports]** et son champ associé restaient modifiables. (TGT-56089)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.2 (8 septembre 2026)
-
-
-**[!UICONTROL Recommandations]**
-
-+++Afficher les détails
-
-* **[!DNL New]’interface utilisateur code incorrectement les URL de flux**. Lors de la création d’un flux de recommandations à partir d’une URL dans la nouvelle interface [!DNL Target], l’URL du flux était codée de manière incorrecte, ce qui entraînait l’échec de la création du flux avec une erreur inconnue. (TGT-56084)
-
-+++
-
-**[!UICONTROL Création de rapports]**
-
-+++Afficher les détails
-
-* **Le rapport Segments automatisés n’affiche pas systématiquement les valeurs d’attribut**. Le rapport Segments automatisés affiche de manière incohérente les valeurs d’attribut et les plages pour les activités [!DNL Automated Personalization] et [!DNL Auto-Target]. Certains segments automatisés n’affichaient que le nom de l’attribut au lieu de la valeur ou de la plage associée. (TGT-55855)
-
-+++
-
-## [!DNL Target Standard/Premium] 26.9.1 (1er septembre 2026)
-
-**[!UICONTROL Audience]**
-
-+++Afficher les détails
-
-* **L’enregistrement d’une activité en cours de copie avec une audience d’activité unique échoue**. Lorsqu’une activité A/B utilise une règle d’audience d’activité seule (étendue localement) et une modification du code personnalisé, sa copie et son enregistrement échouent avec un message d’erreur « ID d’audience non valides ». (TGT-55785)
-
-+++
-
-Serveur MCP **[!DNL Adobe Target]- Outils de recommandations (Beta publique)**
-
-+++Afficher les détails
-
-Le serveur MCP [!DNL Adobe Target] expose désormais des outils de recommandations. Vous pouvez ainsi répertorier, inspecter, créer et mettre à jour des critères, des collections, des conceptions, des promotions et des exclusions, et rechercher le catalogue de produits directement depuis votre assistant d’IA.
-
-Cette fonctionnalité nécessite un client compatible avec Recommendations avec **&#x200B;**&#x200B;; elle n’est pas disponible sur les comptes non Premium.
-
-Pour plus d’informations, voir [Référence des outils de serveur MCP](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md).
+* HTML brute affichée à la place du nom de l’offre pour les [!DNL Experience Fragments] diffusés via une mbox **.** Correction d’un problème en raison duquel le panneau **[!UICONTROL Modifications]** affichait l’HTML/le code brut au lieu du nom de l’offre lorsqu’une [!DNL Experience Fragment] était diffusée via une mbox. (TGT-56241)
 
 +++
 
