@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 06cdc2613d49e3c71c2d29c6ee1307d39215ac84
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '645'
 ht-degree: 42%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
@@ -71,7 +71,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 +++Afficher les détails
 
 * **Ajout de la prise en charge de Safari à[!DNL Adobe Target]**. [!DNL Target] est désormais pris en charge dans le navigateur [!DNL Safari]. Notez que le compositeur d’expérience visuelle et le [!DNL Enhanced Experience Composer] ne sont pas pris en charge dans [!DNL Safari]. Par conséquent, un recouvrement apparaît désormais dans le [!DNL VEC] pour informer les utilisateurs qu’ils doivent passer à [!DNL Chrome] pour utiliser l’éditeur. (TGT-55853)
-
+  [En savoir plus](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
