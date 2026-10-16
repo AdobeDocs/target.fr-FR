@@ -76,7 +76,7 @@ Vous pouvez également activer le [!UICONTROL compositeur d’expérience avanc�
 
 ### Chargement du contenu mixte
 
-Activez le contenu mixte lors de l’ouverture d’un site web à l’aide du [!UICONTROL  Enhanced Experience Composer ] (EEC). L’activation de cette option évite la surcharge supplémentaire liée au chargement de ressources statiques via des serveurs proxy [!DNL Target].
+Activez le contenu mixte lors de l’ouverture d’un site web à l’aide du [!UICONTROL &#x200B; Enhanced Experience Composer &#x200B;] (EEC). L’activation de cette option évite la surcharge supplémentaire liée au chargement de ressources statiques via des serveurs proxy [!DNL Target].
 
 Cette option s’avère utile si, par exemple :
 

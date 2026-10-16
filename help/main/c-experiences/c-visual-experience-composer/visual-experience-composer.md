@@ -51,7 +51,7 @@ Utilisez les onglets du rail [!UICONTROL Expériences] pour afficher la manière
 
 Par exemple, lors du test de la position du lien Accueil dans votre barre de navigation, nommez l’expérience dans laquelle il apparaît en premier « Lien d’accueil en premier ».
 
-![ Renommer une expérience dans le rail Expériences ](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
+![&#x200B; Renommer une expérience dans le rail Expériences &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
 ### Sélection et modification d’éléments {#select-and-modify-elements}
 
