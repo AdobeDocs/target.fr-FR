@@ -134,7 +134,7 @@ Le type de flux [!DNL Google Product Search] utilise le format [!DNL Google] plu
 >
 >Vous n’avez pas besoin d’envoyer vos données à [!DNL Google]. Vous pouvez importer vos propres données et planifier des mises à jour, à condition que le fichier utilise les noms d’attributs [!DNL Google] prédéfinis.
 
-[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Spécifiez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
+[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Spécifiez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
 
 >[!NOTE]
 >
@@ -242,10 +242,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]** > **[!UICONTROL Créer un flux]**.
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source ****.
+1. Sélectionnez un type de Source **&#x200B;**.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit ]
+   * [!UICONTROL Flux de produit &#x200B;]
    * [!UICONTROL Classifications Analytics]
 
    Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
@@ -318,7 +318,7 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL  Synchronisation ] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
 | [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
 | [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
