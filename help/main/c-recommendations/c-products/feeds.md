@@ -1,5 +1,5 @@
 ---
-keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
+keywords: flux de recommandations;flux;SAINT;ftp;sftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Analytics].
 title: Comment utiliser [!UICONTROL Flux] dans [!DNL Target Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 36%
+source-wordcount: '2785'
+ht-degree: 31%
 ---
 # Flux
 
@@ -128,31 +128,28 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-Le type de flux [!DNL Google Product Search] utilise le format [!DNL Google]. Ce format est différent du format de chargement CSV propriétaire [!DNL Adobe].
-
-Si vous disposez d’un [!DNL Google Product Feed] existant, vous pouvez l’utiliser comme fichier d’importation.
+Le type de flux [!DNL Google Product Search] utilise le format [!DNL Google] plutôt que le format CSV propriétaire [!DNL Adobe]. Vous pouvez réutiliser un [!DNL Google Product Feed] existant pour importer des données de produit dans [!DNL Recommendations].
 
 >[!NOTE]
 >
->Il n’est pas nécessaire d’utiliser les données [!DNL Google]. [!DNL Recommendations] utilise le même format que [!DNL Google]. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Cependant, vous devez conserver les noms d’attributs prédéfinis [!DNL Google] lors de la configuration du fichier.
+>Vous n’avez pas besoin d’envoyer vos données à [!DNL Google]. Vous pouvez importer vos propres données et planifier des mises à jour, à condition que le fichier utilise les noms d’attributs [!DNL Google] prédéfinis.
 
-La plupart des détaillants chargent des produits sur [!DNL Google]. Ainsi, lorsqu’un visiteur utilise la recherche de produits [!DNL Google], ses produits s’affichent. [!DNL Recommendations] suit exactement la spécification [!DNL Google] pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Vous pouvez rechercher les résultats dans les [[!DNL Google] pages d’achat](https://www.google.com/prdhp).
+[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Spécifiez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
 
 >[!NOTE]
 >
->La méthode POST doit être autorisée sur le serveur hébergeant le contenu du flux [!DNL Google].
+>Le serveur hébergeant le flux [!DNL Google] doit autoriser la méthode POST.
 
-Comme [!DNL Recommendations] utilisateurs configurent déjà des flux .xml ou .txt à envoyer aux [!DNL Google] via une URL ou un FTP, les flux d’entités acceptent ces données de produit et les utilisent pour créer le catalogue de recommandations. Indiquez où ce flux existe et où le serveur de Recommandations récupère les données.
+Gardez à l’esprit les exigences et restrictions suivantes :
 
-Si vous utilisez [!DNL Google Product Search] pour le chargement du flux d’entités, une mbox de page produit doit toujours figurer sur la page si vous souhaitez y afficher des recommandations ou effectuer le suivi des consultations de produit pour la diffusion de l’algorithme en fonction des vues.
+* Une mbox de page produit est toujours nécessaire pour afficher des recommandations sur cette page ou effectuer le suivi des consultations de produits pour les algorithmes basés sur les vues.
+* Les flux [!DNL Google] ne prennent pas en charge les valeurs multiples pour un attribut personnalisé.
 
-Les flux [!DNL Google] ne prennent pas en charge les valeurs multiples pour un attribut personnalisé.
+Le flux s’exécute lorsque vous l’enregistrez et l’activez, puis quotidiennement une heure plus tard que l’heure d’exécution initiale.
 
-Le flux s’exécute au moment de l’enregistrement et de l’activation. Il s’exécute au moment où vous enregistrez le flux, puis tous les jours une heure plus tard.
+L’exemple suivant illustre un flux [!DNL Google Product Search] au format .xml :
 
-Voici un exemple de code pour un fichier .xml de flux [!DNL Google Product Search] :
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 <feed xmlns="https://www.w3.org/2005/Atom" xmlns:ns2="https://base.google.com/ns/1.0" xmlns:ns3="https://base.google.com/cns/1.0"> 
     <title>Product Feed</title> 
@@ -257,12 +254,28 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
    * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Vous pouvez utiliser le protocole FTP avec SSL (FTPS) pour des chargements plus sécurisés.
 
-     Paramètres du serveur FTP pris en charge :
+     +++ Paramètres du serveur FTP pris en charge
 
      * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
      * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
-     * SFTP n’est pas pris en charge.
      * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
+
+   +++
+
+   * **SFTP** : saisissez le nom d’hôte de votre serveur SFTP ou son adresse IP, son port (par défaut : 22), son nom d’utilisateur, son répertoire et son nom de fichier. Pour l’authentification, fournissez un mot de passe, une clé privée SSH, ou les deux.
+
+     +++ Paramètres et limitations du serveur SFTP pris en charge
+
+     * L&#39;authentification utilise un mot de passe, une clé privée SSH ou les deux. Au moins un est requis.
+     * Le client génère et est propriétaire de la paire de clés. Installez la clé publique dans le fichier `authorized_keys` de l’utilisateur SFTP, puis collez la clé privée dans Target en tant que texte PEM. Les types de clés acceptés sont RSA25519 Ed et ECDSA, au format PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`) ou OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`).
+     * Les clés privées protégées par une phrase secrète ne sont pas prises en charge, un flux ne peut pas être enregistré avec une clé privée.
+     * Target stocke la clé privée chiffrée et ne l’affiche plus. Pour le faire pivoter, modifiez le flux et saisissez la nouvelle clé.
+     * Entrez un nom d’hôte ou une adresse IP nu, sans préfixe, port ou chemin d’accès `sftp://`. Utilisez le champ Port pour un port autre que le port par défaut.
+     * La clé d’hôte du serveur est acceptée lors de la première connexion. Aucun échange d’empreintes digitales avec Adobe n’est nécessaire.
+     * Le protocole SFTP est disponible dans l’interface de Target et l’API Recommendations, mais pas dans l’interface d’administration Recommendations Classic héritée. Adobe n’héberge pas de point d’entrée SFTP, utilisez un serveur hébergé par le client.
+     * Le serveur SFTP doit être accessible à partir d’Internet et autoriser les connexions entrantes à partir des adresses de téléchargement Adobe Target. La liste des adresses IP de production doit être confirmée par l’ingénierie avant la publication de cette mise à jour.
+
+   +++
 
    * **URL** : si vous sélectionnez [!UICONTROL URL], spécifiez l’URL.
 
@@ -289,11 +302,11 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement. Le flux est ensuite mis à jour en fonction des paramètres que vous avez définis. Il faut un certain temps pour que l&#39;information soit disponible. Le flux doit tout d’abord être synchronisé, puis traité et indexé pour pouvoir être publié et rendu disponible. Le statut actuel apparaît sous [Statut du flux](/help/main/c-recommendations/c-products/feeds.md#status) dans la liste [!UICONTROL Flux]. Vous pouvez fermer [!DNL Target] avant que le processus soit terminé et ce dernier se poursuit.
+Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement, puis est mis à jour en fonction de vos paramètres. Le flux doit se synchroniser, être traité et indexer avant que ses données ne soient disponibles. Vérifiez la progression du [statut du flux](/help/main/c-recommendations/c-products/feeds.md#status) dans la liste [!UICONTROL Flux]. Le traitement se poursuit même si vous fermez [!DNL Target].
 
-Lorsque l’indexation est en cours, les produits et les en-têtes du flux apparaissent avant que les valeurs individuelles aient été indexées. Vous pouvez ainsi rechercher et afficher des produits afin de créer des collections, des exclusions, des conceptions et des activités avant la fin de l’indexation.
+Pendant l’indexation, les produits et les en-têtes de flux apparaissent avant les valeurs individuelles. Vous pouvez donc rechercher des produits et créer des collections, des exclusions, des conceptions et des activités avant la fin de l’indexation.
 
-Lorsque l’état indique « Succès », cela signifie que le fichier a été trouvé et analysé correctement. Les informations ne sont pas disponibles pour une utilisation dans les [!DNL Recommendations] tant que le fichier n’a pas été indexé, ce qui peut prendre du temps, selon la taille du fichier. Si le processus échoue, cela signifie que le fichier n’a pas été trouvé. Par exemple, vous avez utilisé une URL incorrecte, vos informations FTP étaient incorrectes ou une erreur d’analyse s’est produite.
+Le statut « Succès » signifie que le fichier a été trouvé et analysé correctement. Ses données ne sont disponibles dans [!DNL Recommendations] qu’après l’indexation, qui prend du temps en fonction de la taille du fichier. Les échecs peuvent provenir d’une URL ou d’informations FTP incorrecte, d’un fichier manquant ou d’une erreur d’analyse.
 
 ## États de flux et indicateurs {#concept_E475986720D1400999868B3DFD14A7A0}
 
@@ -315,7 +328,7 @@ Un flux peut avoir les états suivants :
 | Flux importé avec succès à l’*heure* | [!DNL Target] a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations diffusées. Si les modifications attendues ne s’affichent pas, réessayez et actualisez la page contenant les recommandations.<br>Notes :<ul><li>Si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément vient d’être ajouté ou si des modifications sont apportées à des attributs, un élément n’est *plus* exclu des recommandations. Il n’est reflété que lors de la prochaine mise à jour de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque ce statut s’affiche, les mises à jour peuvent ne pas encore être reflétées dans l’interface utilisateur de la [!UICONTROL Recherche catalogue]. Un statut distinct est répertorié dans [!UICONTROL Recherche catalogue] indiquant la dernière fois que le catalogue consultable a été mis à jour.</li></ul> |
 | Échec de l’importation partielle | Auparavant, lorsque toutes les lignes n’étaient pas chargées, le flux était toujours marqué comme réussi. Cela crée une fausse impression que toutes les lignes ont été chargées lorsque le flux s’affiche avec succès.<P>Voici un scénario expliquant pourquoi vous pouvez rencontrer une importation de flux partielle :<ul><li>Vous avez chargé un fichier de flux pour l’environnement de production, par exemple 100 lignes.</li><li>Le flux a exécuté et chargé 80 de ces lignes et en a ignoré 20 en raison d’une mise en forme incorrecte, d’un champ contenant plus de caractères, etc.</li><li>Le flux a été marqué comme réussi dans l’interface utilisateur, ce qui vous donne l’impression que les 100 lignes ont toutes été chargées.</li><li>Vous attendez certains de ces 20 produits dans la livraison d&#39;une activité, mais ce n&#39;est pas le cas.</li><li> Vous êtes perplexe à ce stade, car vous avez chargé le flux qui contient les détails du produit en question. Vous ne le voyez pas sur le serveur principal lorsque vous effectuez une requête via l’API d’entité, qui vous indique qu’il ne se trouve pas sur le serveur principal.</li></ul>Pour supprimer cette confusion, le message est amélioré pour indiquer exactement ce qui s’est passé avec le flux. Au lieu de le marquer comme une réussite, il est maintenant marqué comme un échec d’importation partiel. |
 | [!UICONTROL Échec de l’indexation] | L’opération d’index a échoué. Essayez à nouveau. |
-| [!UICONTROL Serveur Introuvable] | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
+| [!UICONTROL Serveur Introuvable] | Les emplacements FTP, SFTP ou URL ne sont pas valides ou sont inaccessibles. |
 
 Pour mettre à jour un flux (par exemple, pour apporter des modifications à la configuration ou au fichier du flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

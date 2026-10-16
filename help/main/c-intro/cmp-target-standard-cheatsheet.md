@@ -45,9 +45,9 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '2871'
+source-wordcount: '2913'
 ht-degree: 50%
 ---
 # FAQ relative à l’optimisation et la personnalisation de Target
@@ -95,6 +95,8 @@ Communiquez avec d’autres professionnels de la [!DNL Target] dans le [forum de
 
 +++Afficher les détails
 Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau et les appareils.
+
+[!DNL Safari] est pris en charge pour l’interface [!DNL Target]. Vous pouvez créer des activités basées sur des formulaires dans [!DNL Safari] et utiliser toutes les fonctionnalités, à l’exception du [!UICONTROL compositeur d’expérience visuelle] (VEC) et du [!UICONTROL compositeur d’expérience amélioré] (EEC), qui ne sont pas pris en charge dans [!DNL Safari]. Pour modifier des expériences dans le VEC ou l’EEC, utilisez [!DNL Google Chrome].
 
 +++
 

@@ -29,16 +29,51 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c44e8949e5e6f14af6790a72a2adbcf02c0a944
+source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 58%
+source-wordcount: '645'
+ht-degree: 42%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
 Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 26.10.2 (15 octobre 2026)
+
+**[!UICONTROL Activités]**
+
++++Afficher les détails
+
+* **Paramètres d’objectif incorrects affichés dans la Présentation de l’activité**. Correction d’un problème en raison duquel les paramètres d’objectif affichés sur la page **[!UICONTROL Aperçu]** d’une activité étaient incorrects. Par exemple, `https://` a été ajouté à l’URL de la page et la condition **[!UICONTROL URL contains]** n’a pas été affichée, même si la configuration de l’objectif réel était correcte. (TGT-56326)
+
++++
+
+**[!UICONTROL Recommandations]**
+
++++Afficher les détails
+
+* **Recommandations de sauvegarde affichées après la mise à jour d’une promotion dans une activité dynamique**. Correction d’un problème en raison duquel la modification d’une promotion dans une activité Live [!DNL Recommendations] entraînait la création par les [!DNL Target] de nouvelles promotions et de nouvelles unités de recommandation même si leur définition n’avait pas changé. (TGT-56369)
+
++++
+
+**[!UICONTROL Rapports]**
+
++++Afficher les détails
+
+* **Préréglages de création de rapports supprimés après deux semaines**. Correction d’un problème en raison duquel les paramètres prédéfinis de création de rapports enregistrés pour une activité étaient automatiquement supprimés après environ deux semaines. (TGT-56374)
+
++++
+
+**[!UICONTROL Compositeur d’expérience visuelle] (VEC)**
+
++++Afficher les détails
+
+* **Ajout de la prise en charge de Safari à[!DNL Adobe Target]**. [!DNL Target] est désormais pris en charge dans le navigateur [!DNL Safari]. Notez que le compositeur d’expérience visuelle et le [!DNL Enhanced Experience Composer] ne sont pas pris en charge dans [!DNL Safari]. Par conséquent, un recouvrement apparaît désormais dans le [!DNL VEC] pour informer les utilisateurs qu’ils doivent passer à [!DNL Chrome] pour utiliser l’éditeur. (TGT-55853)
+  [En savoir plus](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
++++
+
 
 ## [!DNL Target Standard/Premium] 26.10.1 (13 octobre 2026)
 

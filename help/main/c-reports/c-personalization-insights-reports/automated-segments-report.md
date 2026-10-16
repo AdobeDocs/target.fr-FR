@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3070e58c48964878a916718fa4a9931fc4d85a61
+source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
 workflow-type: tm+mt
-source-wordcount: '2219'
-ht-degree: 62%
+source-wordcount: '2340'
+ht-degree: 58%
 ---
 # Rapport [!UICONTROL Segments automatisés]
 
@@ -139,6 +139,11 @@ Pour en savoir plus sur l’algorithme de personnalisation de forêt aléatoire,
 **Qu’est-ce qui décide de l’ordre des segments automatisés ?**
 
 Un score est calculé pour chaque segment, en fonction de sa taille et de la différence de son comportement par rapport au contenu de votre activité. La combinaison de ces entrées détermine l’ordre des segments automatisés, de sorte que les segments plus grands présentant des différences plus importantes dans leur réponse face au différent contenu apparaissent plus en haut de la liste des segments.
+
+**Pourquoi toutes les cartes d’une expérience AP à plusieurs cartes affichent-elles le même taux de conversion lors de l’utilisation de « Toute carte ayant fait l’objet d’un clic » ?**
+
+Dans , l’optimisation et le compte rendu des performances sont évalués au niveau de l’expérience, et non au niveau de la carte ou du composant individuel. La mesure de succès [!UICONTROL N’importe quelle carte cliquée] enregistre une conversion lorsqu’un visiteur clique sur au moins une carte de l’expérience.
+Puisque le clic est attribué à l’expérience dans son ensemble, toutes les cartes de cette expérience peuvent afficher les mêmes nombres de conversions et taux de conversion dans les rapports, y compris [!UICONTROL Segments automatisés]. Ce comportement est prévu et reflète la manière dont  optimise les combinaisons de contenu plutôt que les cartes individuelles.
 
 **Pourquoi seules certaines de mes offres/expériences apparaissent dans le rapport Segments automatisés ?**
 

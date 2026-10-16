@@ -18,96 +18,101 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 140a7287246905d47bf02a84348627017a619386
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 47%
+source-wordcount: '889'
+ht-degree: 0%
 ---
 # [!UICONTROL Compositeur d’expérience visuelle] (VEC)
 
-Le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] est un éditeur WYSIWYG qui permet aux clients de créer et de tester des expériences personnalisées directement sur leurs sites web ou pages web mobiles sans avoir à modifier de code.
+Le [!UICONTROL compositeur d’expérience visuelle] (VEC) d’[!DNL Adobe Target] est un éditeur WYSIWYG qui permet de créer et de tester des expériences personnalisées directement sur des sites web et des pages web mobiles sans modifier le code.
 
->[!NOTE]
->
->La version [!DNL Target Standard/Premium] 25.2.1 (17 février 2025) incluait une version mise à jour du compositeur d’expérience visuelle. Pour plus d’informations sur les différences entre le VEC mis à jour et la version précédente, consultez [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md). Pour obtenir un aperçu des différentes options du VEC mis à jour, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Créez des expériences et des offres pour les activités de [!DNL Target] en faisant glisser et en déposant des éléments, en permutant le contenu et en modifiant les mises en page. Le compositeur fournit également des options de modification d’HTML et de JavaScript.
 
-Le compositeur d’expérience visuelle vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités [!DNL Target] en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page web (ou d’une offre) ou d’une page web mobile.
+## Configuration requise du navigateur {#browser-requirements}
 
-Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
+[!DNL Safari] est pris en charge pour l’interface [!DNL Adobe Target]. Vous pouvez créer des activités basées sur des formulaires dans [!DNL Safari] et utiliser toutes les fonctionnalités, à l’exception du VEC et du [!UICONTROL Enhanced Experience Composer] (EEC). Si vous ouvrez le compositeur d’expérience visuelle dans [!DNL Safari], un recouvrement vous invite à passer à [!DNL Google Chrome] pour modifier les expériences.
 
-Dans l’onglet [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, vous pouvez saisir l’URL par défaut [!UICONTROL Compositeur d’expérience visuelle].
+Les navigateurs tels que [!DNL Firefox] peuvent empêcher l’affichage dans le compositeur d’expérience visuelle des pages contenant du contenu mixte, par exemple une page non sécurisée au sein d’un site sécurisé. Si une page ne s’affiche pas, cliquez sur l’icône en regard de l’URL dans la barre d’adresse du navigateur, puis cliquez sur **[!UICONTROL Désactiver la protection sur cette page]**. Ce problème n’affecte pas l’affichage des pages pour les visiteurs du site.
 
-Cette URL détermine votre point de départ lors de l’ouverture de VEC. Si vous ne saisissez pas d’URL par défaut, vous commencez avec une page vierge lorsque vous ouvrez l’éditeur, puis vous pouvez spécifier une URL.
+## Ouvrir le compositeur d’expérience visuelle {#open-the-vec}
+
+Pour définir la page qui s’ouvre par défaut dans le VEC, saisissez une URL par défaut [!UICONTROL Compositeur d’expérience visuelle] dans l’onglet [!DNL Target] **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**.
+
+Si vous ne définissez pas d’URL par défaut, le VEC s’ouvre avec une page vierge dans laquelle vous pouvez spécifier une URL.
 
 ![Mise en surbrillance de VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-refresh.png)
 
->[!NOTE]
->
->Certains navigateurs, tels que [!DNL Firefox], peuvent bloquer l’affichage d’une page dans le compositeur d’expérience visuelle si la page contient du contenu mixte (par exemple, une page non sécurisée dans un site sécurisé). Si votre page ne s’affiche pas, cliquez sur l’icône en regard de l’URL dans la barre d’adresse du navigateur et cliquez sur **[!UICONTROL Désactiver la protection sur cette page]**. Ce problème n’a aucun impact sur l’affichage de vos pages pour les visiteurs du site.
+## Modifier des expériences {#edit-experiences}
 
-Le contenu dans un iframe sur la page ne peut pas être modifié dans VEC. Pour modifier le contenu dans un iframe, vérifiez que le document iframe est compatible avec le [!DNL Target], puis chargez cette URL iframe dans le VEC.
+### Afficher et nommer les expériences {#view-and-name-experiences}
 
-Vous pouvez utiliser les onglets du rail [!UICONTROL Expériences] pour afficher votre page telle qu’elle apparaîtrait à différentes audiences ou avec différentes expériences. Vous pouvez attribuer un nom à chaque expérience. Par exemple, si vous testez l’emplacement du lien Accueil dans votre barre de navigation, vous pouvez nommer une expérience dans laquelle le lien Accueil apparaît en premier. Par exemple, « Lien d’accueil » pour faciliter l’identification des expériences dans la liste.
+Utilisez les onglets du rail [!UICONTROL Expériences] pour afficher la manière dont votre page s’affiche pour différentes audiences ou avec différentes expériences. Attribuez un nom explicite à chaque expérience pour en faciliter l’identification dans la liste.
 
->[!NOTE]
->
->Les modifications apportées à la structure d’une page qui affectent les emplacements utilisés dans une activité créée sur cette page peuvent entraîner des problèmes d’édition d’expérience. Si un emplacement a été modifié en dehors du compositeur d’expérience visuelle, [!DNL Target] ne pourrez peut-être pas trouver l’emplacement où le contenu a été modifié.
+Par exemple, lors du test de la position du lien Accueil dans votre barre de navigation, nommez l’expérience dans laquelle il apparaît en premier « Lien d’accueil en premier ».
 
-Lorsque vous déplacez votre pointeur dans la page, une zone contextuelle le suit, mettant en surbrillance les éléments de la page.
+![&#x200B; Renommer une expérience dans le rail Expériences &#x200B;](/help/main/c-experiences/c-visual-experience-composer/assets/rename_exp.png)
 
-<!--
-Click the **[!UICONTROL Overlays]** icon to change the way the highlight displays. For example, you can choose to highlight only images, links, regional mboxes, modifications, or JavaScript. You can change the color of the highlight. You can also specify a highlight color and type of fill used to highlight different element types.
+### Sélection et modification d’éléments {#select-and-modify-elements}
 
-![Change Overlay settings](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
--->
+Déplacez le curseur sur la page pour mettre en surbrillance des éléments individuels avec une zone contextuelle.
 
-Cliquez sur un élément en surbrillance pour accéder à un menu d’options disponibles pour ce type d’élément. Par exemple, vous pouvez cliquer sur une image et sélectionner **[!UICONTROL Modifier l’image]** pour remplacer l’image. Ou cliquez sur un bouton et modifiez la couleur du texte.
+Cliquez sur un élément en surbrillance pour afficher les options d’édition de ce type d’élément. Par exemple, sélectionnez une image et cliquez sur **[!UICONTROL Modifier la source de l’image]** pour la remplacer, ou sélectionnez un bouton pour modifier la couleur de son texte.
 
-Vous pouvez également cliquer sur **[!UICONTROL Parcourir]**, puis accéder à une page qui est disponible depuis la page principale, telle la page d’expédition ou le panier d’achat, et tester les modifications sur cette page. Vous pouvez également accéder aux éléments de la page qui sont disponibles lorsque vous passez le curseur tels que les menus des fenêtres déroulantes et les mini-paniers. Lorsque vous avez terminé d’accéder à la page, cliquez sur **[!UICONTROL Conception]** pour modifier l’expérience. Par exemple, vous souhaitez peut-être modifier la conception d’une liste déroulante de panier d’achat ou d’un carrousel d’images.
+![Options d&#39;édition pour un élément sélectionné](/help/main/c-experiences/c-visual-experience-composer/assets/properties-exp.png)
 
->[!NOTE]
->
->Si un état de survol dépend de JavaScript, assurez-vous que l’option **[!UICONTROL Désactiver JavaScript]** n’est pas sélectionnée. JavaScript doit être activé pour modifier des éléments JavaScript.
+Vous ne pouvez pas modifier le contenu dans un iframe incorporé dans la page. Pour modifier ce contenu, assurez-vous que le document iframe est compatible avec le [!DNL Target], puis chargez l’URL iframe directement dans le VEC.
 
-Pour obtenir des informations sur les options disponibles dans le compositeur d’expérience visuelle, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Les modifications apportées à la structure de la page en dehors du compositeur d’expérience visuelle peuvent affecter les emplacements utilisés par une activité. Si ces emplacements changent, [!DNL Target] ne pourrez peut-être pas trouver les éléments que vous avez modifiés, ce qui peut entraîner des problèmes lors de la modification d’expériences.
 
-Vous pouvez effectuer certaines modifications sur une page pendant le chargement de la page (ou même si la page ne parvient pas à se charger complètement), ou vous pouvez annuler le chargement des pages dans VEC. Pour obtenir plus d’informations, voir :
+### Parcourir et concevoir {#browse-and-design}
 
-* [Modifiez une page pendant ou après son chargement](#loading)
-* [Annulation du chargement d’une page dans le VEC](#cancel-loading)
+Cliquez sur **[!UICONTROL Parcourir]** pour accéder à une page accessible à partir de la page active, telle qu’une page d’expédition ou un panier, et y tester les modifications.
 
-## Modifiez une page pendant ou après son chargement {#loading}
+![Mode de navigation dans le compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/assets/browse_exp.png)
 
-Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans VEC, ou même si la page ne parvient pas à se charger complètement (par exemple, si un code personnalisé n’est plus fonctionnel).
+En mode de navigation, vous pouvez également accéder aux éléments qui apparaissent au survol, tels que les menus déroulants et les mini-paniers. Lorsque vous atteignez la page ou l’élément à modifier, cliquez sur **[!UICONTROL Conception]** pour modifier l’expérience.
 
-Raisons pour lesquelles vous pouvez accéder à une page ou la modifier pendant qu’elle est chargée dans VEC ou bien si elle ne parvient pas à se charger complètement :
+Si un état de survol dépend de JavaScript, assurez-vous que l’option **[!UICONTROL Désactiver JavaScript]** n’est pas sélectionnée. JavaScript doit être activé pour modifier les éléments qui en dépendent.
 
-* Vous souhaitez apporter une modification simple à une page, par exemple pour ajouter du code personnalisé ou modifier le nom d’une expérience
-* Vous souhaitez copier du code personnalisé existant dans une page qui n’est plus accessible
-* Vous savez qu’une page ne se charge pas dans VEC, mais vous souhaitez effectuer des modifications simples.
+Pour plus d’informations sur les options de modification disponibles, voir [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
-Lors du chargement de la page (ou après l’échec du chargement), les options [!UICONTROL Expériences] rail, [!UICONTROL Composants] rail et [!UICONTROL Configurer] sont accessibles.
+## Gérer le chargement des pages {#manage-page-loading}
 
-## Annulation du chargement d’une page dans le VEC {#cancel-loading}
+Certaines options de modification restent disponibles lors du chargement d’une page ou après son échec. Vous pouvez également annuler le chargement de la page pour accéder à ces options sans attendre.
 
-Vous pouvez annuler le chargement d’une page dans VEC pour déverrouiller la modification de l’activité sans attendre le chargement de la page. Cette fonctionnalité permet d’économiser du temps et d’effectuer des modifications ou d’insérer du code personnalisé plus efficacement sans attendre le chargement de la page dans VEC.
+### Modifiez une page pendant ou après son chargement {#loading}
 
-Voici quelques raisons pour lesquelles vous souhaitez annuler le chargement des pages dans VEC :
+Vous pouvez apporter certaines modifications avant qu’une page ne finisse de se charger dans le VEC ou après son échec, par exemple, parce que le code personnalisé ne fonctionne plus.
 
-* Vous souhaitez apporter des modifications mineures aux modifications existantes
-* Vous souhaitez supprimer une ou plusieurs modifications existantes
-* Vous souhaitez insérer ou modifier du code personnalisé
-* Vous avez saisi par erreur une URL erronée pour la page
-* Vous souhaitez activer ou désactiver JavaScript avant de charger la page dans VEC
-* Vous souhaitez ajouter d’autres règles de test de modèle aux critères [!UICONTROL &#x200B; Diffusion de page &#x200B;]
-* Vous souhaitez remplacer le bouton global [!UICONTROL Enhanced Experience Composer] (EEC) lors du chargement d’une page via EEC ou iframe-only
+Utilisez les options de modification disponibles pour :
 
-Si vous annulez le chargement de la page dans le VEC, vous pouvez basculer entre les expériences de l’activité sans attendre que la page se charge. Pour afficher à nouveau la page dans le VEC, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.
+* Apportez des modifications simples, telles que l’ajout de code personnalisé ou le changement de nom d’une expérience
+* Copiez le code personnalisé existant d’une page qui n’est plus accessible.
+* Apportez des modifications simples à une page qui ne peut pas se charger dans le compositeur d’expérience visuelle.
+
+Les options [!UICONTROL Expériences] rail, [!UICONTROL Composants] rail et [!UICONTROL Configurer] restent accessibles pendant ou après le chargement de la page.
+
+### Annulation du chargement d’une page dans le VEC {#cancel-loading}
+
+Annulez le chargement de la page dans le VEC pour modifier l’activité sans attendre que le chargement de la page soit terminé.
+
+L’annulation du chargement de la page est utile lorsque vous devez :
+
+* Apporter des modifications mineures aux modifications existantes
+* Supprimer une ou plusieurs modifications existantes
+* Insertion ou modification de code personnalisé
+* Corriger une URL de page saisie de manière incorrecte
+* Activer ou désactiver JavaScript avant de charger la page dans le compositeur d’expérience visuelle
+* Ajoutez des règles de test de modèle aux critères [!UICONTROL Diffusion de page]
+* Remplacez le bouton global [!UICONTROL Enhanced Experience Composer] (EEC) lors du chargement d’une page via EEC ou en mode iframe uniquement
+
+Après l’annulation du chargement de la page, vous pouvez basculer entre les expériences de l’activité sans attendre que la page se charge. Cliquez sur **[!UICONTROL Recharger]** pour afficher à nouveau la page dans le compositeur d’expérience visuelle.
 
 >[!IMPORTANT]
 >
->Gardez à l’esprit que lorsque le code personnalisé ou toute modification est effectué, vous devez vous assurer que le codage ou les modifications sont effectués correctement en choisissant d’annuler le chargement dans VEC. Assurez-vous d’effectuer un contrôle qualité adéquat pour vous assurer que votre code personnalisé et toute autre modification sont diffusés comme prévu.
+>Si vous modifiez du code personnalisé ou apportez d’autres modifications après l’annulation du chargement de la page, effectuez des tests d’assurance qualité (QA) pour vérifier que vos modifications sont correctement appliquées.
 
-Pour annuler le chargement d’une page dans le VEC, cliquez sur le bouton **[!UICONTROL Annuler le chargement]** pendant le chargement de la page. La page ne se charge pas dans VEC pour cette activité durant la session de modification en cours.
+Pour arrêter le chargement de la page, cliquez sur **[!UICONTROL Annuler le chargement]** pendant le chargement de la page. La page reste déchargée pour cette activité au cours de la session de modification en cours, sauf si vous la rechargez.
 
-Pour continuer à gérer les expériences dans l’activité en cours ou ajouter de nouvelles modifications, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.
+Cliquez sur **[!UICONTROL Recharger]** pour reprendre la gestion des expériences dans l’activité en cours ou ajouter de nouvelles modifications.

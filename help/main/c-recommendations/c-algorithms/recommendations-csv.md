@@ -1,5 +1,5 @@
 ---
-keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
+keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;sftp;charger csv
 description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans les Recommandations de [!DNL Target] Adobe.
 title: Comment télécharger des critères personnalisés dans [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ced3e207fe0a99485fa1fce2a29d2c2855bb2bd4
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 32%
+source-wordcount: '762'
+ht-degree: 27%
 ---
 # Téléchargement de critères personnalisés
 
@@ -57,9 +57,13 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Télécharger le modèle CSV]** pour obtenir un fichier CSV correctement formaté.
 
-   Vous avez le choix entre deux options :
+   Vous disposez de trois options d’emplacement :
 
    * **FTP :** pour charger votre fichier CSV à partir d’un serveur FTP, sélectionnez **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser SSL, qui utilise le protocole FTPS pour transférer votre fichier CSV en toute sécurité.
+
+   * **SFTP :** pour charger votre fichier CSV à partir d’un serveur SFTP, sélectionnez **[!UICONTROL SFTP]**, puis saisissez le nom d’hôte ou l’adresse IP, le port (22 par défaut), le nom d’utilisateur, un mot de passe et/ou la clé privée SSH, le répertoire et le nom de fichier. Pour plus d’informations, voir [Paramètres de serveur SFTP pris en charge](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+
+     SFTP ne modifie pas le format CSV basé sur des critères personnalisés. Utilisez le format `# Key,Recommendation_1,...` . L’utilisation d’un autre format de type de flux entraîne l’échec de l’importation.
 
    * **URL :** pour charger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
 

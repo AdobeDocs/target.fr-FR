@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c3f6f1b0cc044f0daaafb59643b8ffb3e3f8e4
+source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
 workflow-type: tm+mt
-source-wordcount: '1826'
-ht-degree: 22%
+source-wordcount: '1877'
+ht-degree: 21%
 ---
 # [!DNL Target] de rapports dans [!DNL Adobe Customer Journey Analytics]
 
@@ -120,6 +120,8 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Customer Journey 
 
 1. Pour les activités A/B avec fractionnement manuel du trafic ou [!UICONTROL affectation automatique], sélectionnez une **[!UICONTROL vue de données]**. Une vue de données fonctionne comme une suite de rapports [!DNL Analytics] pour les rapports [!DNL Customer Journey Analytics]. Seules les vues de données du sandbox sélectionné auxquelles vous avez accès s’affichent.
 
+   La vue de données est requise pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Elle est facultative pour les activités A/B avec fractionnement manuel du trafic.
+
    ➡️ [En savoir plus sur la vue de données dans la documentation Adobe Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/data-views)
 
 1. Spécifiez la mesure d’objectif. Choisissez l’une des options suivantes :
@@ -127,6 +129,8 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Customer Journey 
    * **[!UICONTROL Conversion]** : sélectionnez l’action que votre audience doit effectuer pour indiquer que l’objectif a été atteint. [En savoir plus sur les mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md).
 
    * **[!UICONTROL Utiliser une mesure Customer Journey Analytics]** : disponible uniquement pour les activités A/B avec fractionnement manuel du trafic ou [!UICONTROL Affectation automatique]. Choisissez une mesure [!DNL Customer Journey Analytics] ou une mesure calculée dans la vue de données sélectionnée. Cette mesure sert de critère d’optimisation. Le modèle s’exécute sur les données de [!DNL Customer Journey Analytics] et actualise les données de performances à la même cadence que celle utilisée pour les rapports [!DNL Customer Journey Analytics].
+
+     La mesure est requise pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Elle est facultative pour les activités A/B avec fractionnement manuel du trafic. Si vous choisissez une mesure, vous devez également sélectionner une vue de données.
 
    ![Utilisation d’une option de mesure de Customer Journey Analytics sous Mesure d’objectif](/help/main/c-integrating-target-with-mac/cja/assets/goal-metric.png)
 
