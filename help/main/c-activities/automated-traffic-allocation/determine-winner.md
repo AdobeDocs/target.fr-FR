@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: cfab6f04bc59cc7480d871f327fde9ce0a2d6e8f
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 20%
+source-wordcount: '1288'
+ht-degree: 19%
 ---
 # Interprétation des rapports [!UICONTROL &#x200B; Affectation automatique &#x200B;]
 
@@ -41,6 +41,8 @@ Lors de l’utilisation de la fonction [!UICONTROL &#x200B; Affectation automati
 Lorsqu’un gagnant définitif est déclaré, [!DNL Target] affiche le badge « Gagnant : expérience *X* ».
 
 ![Badge gagnant](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
+
+Le badge Gagnant s’affiche également dans le pop-up d’informations d’une activité de la liste [!UICONTROL Activités]. Vous pouvez ainsi consulter le statut d’une activité [!UICONTROL Affectation automatique] sans l’ouvrir.
 
 >[!NOTE]
 >
@@ -92,6 +94,6 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
 ### Les badges « Pas de gagnant », « Gagnant » et « étoile » sont-ils disponibles pour les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?
 
-Les badges « Pas encore de gagnant » et « Gagnant » ne sont actuellement pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] à l’aide d’A4T doit être ignoré.
+Les badges « Pas encore de gagnant » et « Gagnant » apparaissent dans le pop-up d’informations sur l’activité dans la liste [!UICONTROL Activités]. Ils n’apparaissent pas dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace] ou lorsque vous affichez le même rapport dans [!DNL Target]. Si un rapport [!DNL Target] pour une activité A4T [!UICONTROL Affectation automatique] affiche un badge « étoile » gagnant, ignorez-le.
 
 Pour plus d’informations à ce sujet et sur les autres limites et notes, consultez [Affectation automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) dans la section Prise en charge d’*A4T pour les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]*.
