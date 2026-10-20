@@ -69,7 +69,7 @@ Définissez le pool de variations de contenu pour lequel  peut effectuer une per
 
    Si votre compte est [configuré avec une URL par défaut](/help/main/administrating-target/visual-experience-composer-set-up.md), cette URL apparaît par défaut. Si nécessaire, vous pouvez remplacer l’URL par défaut par une autre URL.
 
-   [!DNL Target] ne fait pas de distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] correspondent.
+   [!DNL Target] ne fait pas de distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://wwww.adobe.com`] correspondent.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 

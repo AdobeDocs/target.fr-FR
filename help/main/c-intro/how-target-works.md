@@ -250,7 +250,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
 * **Utiliser rel=« canonical »** : il arrive parfois qu’un test A/B nécessite des URL différentes pour les variations. Dans ce cas, toutes les variations doivent inclure une balise rel=« canonical » référençant l’URL d’origine (contrôle). Par exemple, si [!DNL Adobe] teste sa page d’accueil avec différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil doit être placée dans la balise `<head>` de chaque variation :
 
-  `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com/fr" />`
 
 * **Utiliser les redirections 302 (temporaires)** : lorsque des URL distinctes sont utilisées pour les pages de variation dans un test, [!DNL Google] recommande d’utiliser la redirection 302 pour diriger le trafic vers les variations de test. La redirection 302 informe les moteurs de recherche que la redirection est temporaire et active uniquement pendant l’exécution du test.
 

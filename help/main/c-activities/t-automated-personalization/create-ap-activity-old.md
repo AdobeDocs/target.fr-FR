@@ -45,7 +45,7 @@ Le workflow de l’activité  (AP) en [!DNL Target] diffère de celui des autres
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas de distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] correspondent.
+   >[!DNL Target] ne fait pas de distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://wwww.adobe.com`] correspondent.
 
    La page avec l’URL spécifiée s’ouvre dans le VEC.
 
