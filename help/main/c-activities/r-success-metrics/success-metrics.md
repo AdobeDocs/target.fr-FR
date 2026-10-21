@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 20%
+source-wordcount: '1443'
+ht-degree: 21%
 ---
 # [!UICONTROL Mesures de succès]
 
@@ -58,8 +58,8 @@ Les mesures de succès suivantes peuvent être configurées dans la section [!UI
 
 | Mesure de succès | Approche de mesure | Définition |
 |--- |--- |--- |
-| [!UICONTROL &#x200B; Conversion &#x200B;] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
-| [!UICONTROL Recettes] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>Pour plus d’informations sur les modifications de l’interface utilisateur [!DNL Target] mise à jour en ce qui concerne les mesures de succès des recettes, voir [Modifications de l’interface utilisateur  [!DNL Target]  mises à jour](#changes) ci-dessous. |
+| [!UICONTROL  Conversion ] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
+| [!UICONTROL Recettes] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>La vue du chiffre d&#39;affaires (RPV, AOV, Ventes totales ou Commandes) est sélectionnée dans la section [!UICONTROL Rapports] plutôt que lors de la configuration de l&#39;activité. Voir [Basculer entre les vues de rapports de chiffre d’affaires](#revenue-views). |
 | [!UICONTROL Engagement] | Basée sur les engagements | Engagement généré par la visite. Vous pouvez choisir parmi les mesures d’engagement suivantes :<UL><li>Pages vues : chaque visite unique est comptabilisée comme une conversion.</li><li>[!UICONTROL Score personnalisé] : score agrégé basé sur la valeur affectée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la demande de [!DNL Target] d’affichage de l’activité.</li>[!DNL Time on Site] : durée de la visite (en secondes) entre le moment où le visiteur voit la première demande d’affichage de l’activité [!DNL Target] le chargement de la page finale avec une demande dans la session.</UL> |
 
 Pour les mesures basées sur l’engagement (contrairement aux mesures basées sur la conversion et sur les recettes), les visiteurs doivent se requalifier pour l’activité à chaque visite afin d’incrémenter le nombre pour cette session. La mesure associée commence l’incrémentation après la requalification et s’arrête à la fin de la session de chaque visiteur. Une session s’arrête au bout de 30 minutes d’inactivité. Par conséquent, vous ne voyez pas les résultats immédiatement pendant le test. Cependant, tous les résultats de cette session sont disponibles quelques minutes après la fin de la session.
@@ -76,6 +76,25 @@ Les mesures de succès que vous choisissez pour votre activité sont disponibles
 
 Certaines mesures, telles que [!UICONTROL Score personnalisé] et [!UICONTROL Chiffre d’affaires par visiteur] nécessitent une implémentation personnalisée qui transmet des informations, telles que les totaux des commandes et les identifiants de commande.
 
+### Basculer entre les vues de rapports de chiffre d’affaires {#revenue-views}
+
+Les rapports de chiffre d’affaires s’ouvrent par défaut dans la vue [!UICONTROL Chiffre d’affaires par visite]. Aucune sélection n’est donc nécessaire lors de la configuration de l’activité. Vous pouvez basculer vers une autre vue à tout moment pendant que vous examinez les résultats.
+
+Pour basculer entre les vues de rapports de chiffre d’affaires :
+
+1. Ouvrez votre **[!UICONTROL Activité]** et accédez à la section **[!UICONTROL Rapports]**.
+
+1. Cliquez sur ![](assets/Smock_Gears_18_N.png) et sélectionnez la vue de mesure requise :
+
+   * **[!UICONTROL Chiffre d’affaires par visiteur (RPV)]**
+   * **[!UICONTROL Valeur de commande moyenne (AOV)]**
+   * **[!UICONTROL Total des ventes]**
+   * **[!UICONTROL Taux de commande]**
+
+   ![](assets/change-view.png)
+
+[!UICONTROL Revenu par visite (RPV)] reste la vue affichée sauf si une autre option est sélectionnée. Cette sélection affecte uniquement la mesure affichée dans le rapport et n’a aucune incidence sur les mesures de diffusion.
+
 ## Paramètres avancés {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
 Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent l’ajout de dépendances, le choix de conserver l’utilisateur dans l’activité ou de le supprimer, et le comptage de la mesure une fois par participant ou à chaque impression.
@@ -84,7 +103,7 @@ Pour accéder aux options [!UICONTROL Paramètres avancés], cliquez sur l’ic�
 
 ![Menu Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif &#x200B;] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté &#x200B;] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif &#x200B;](#what-happens) ?
+Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif ] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté ] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif ](#what-happens) ?
 
 >[!NOTE]
 >
@@ -135,15 +154,3 @@ Choisissez le comportement souhaité :
 * Les mesures de succès avec l’option avancée « Comment sera incrémenté le décompte ? » définie sur « À chaque impression » ou « À chaque impression (actualisations de page exclues) » ne peuvent pas être utilisées en tant que mesure de succès dont dépend une autre mesure.
 
   Lorsqu’une mesure de succès est définie pour incrémenter à chaque impression, [!DNL Target] comptabilise à nouveau le visiteur à chaque fois qu’il visite cette mesure de succès. [!DNL Target] réinitialise ensuite la mesure de succès « appartenance » sur 0 afin qu’elle puisse être comptabilisée à nouveau à la prochaine impression. Ainsi, si une autre mesure nécessite que cette mesure ait été vue au préalable, [!DNL Target] ne reconnaît jamais que l’utilisateur a vu la première mesure.
-
-## Mise à jour des modifications apportées à l’interface utilisateur de [!DNL Target] {#changes}
-
-La version [[!DNL Target Standard/Premium] 25.2.1](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2), lancée le 17 février 2015, a introduit des interfaces utilisateur [!DNL Target] et [!UICONTROL compositeur d’expérience visuelle] (VEC) mises à jour. Cette section décrit les principales différences entre l’interface utilisateur héritée et mise à jour, en particulier en ce qui concerne la configuration et la gestion des mesures de succès.
-
-### Modifications de l’interface utilisateur liées aux mesures de succès [!UICONTROL chiffre d’affaires]
-
-Dans l’interface [!DNL Target] mise à jour, la liste déroulante [!UICONTROL Vue par défaut pour les rapports] a été supprimée. Ce champ était redondant, car il enregistrait auparavant la vue de création de rapports par défaut sous [!DNL Overview] > [!UICONTROL Rapports] dans l’interface utilisateur héritée.
-
-Grâce à l’interface utilisateur mise à jour, la mesure de création de rapports par défaut est désormais toujours définie sur [!UICONTROL &#x200B; Revenu par visiteur (RPV)]. Vous pouvez toujours personnaliser la vue de la section [!UICONTROL Rapports] pour afficher les mesures les plus pertinentes pour votre analyse.
-
-Cette modification n’affecte pas les mesures de diffusion. Cette modification affecte uniquement le filtre par défaut affiché dans la vue de création de rapports. Comme la RPV est la mesure la plus couramment utilisée par les clients, cette valeur par défaut a été sélectionnée pour rationaliser les workflows de création de rapports. Vous pouvez passer à d’autres mesures à tout moment dans la section [!UICONTROL Rapports].
