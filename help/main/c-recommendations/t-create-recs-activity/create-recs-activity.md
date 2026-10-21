@@ -49,7 +49,7 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] correspondent.
+   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://wwww.adobe.com`] correspondent.
 
    L’URL de l’activité correspond à la page sur laquelle s’affichent les recommandations.
 

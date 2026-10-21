@@ -95,7 +95,7 @@ Non. Le serveur MCP est conçu à la fois pour les professionnels du marketing e
 
 +++Mes données [!DNL Adobe Target] sont-elles envoyées au fournisseur du client MCP ?
 
-Lorsque vous envoyez une invite, le client MCP peut envoyer le contexte approprié (y compris [!DNL Adobe Target] données renvoyées par le serveur MCP) à son modèle pour traitement. Consultez les politiques de confidentialité et de gestion des données de votre fournisseur client MCP avant de vous connecter aux données de production. La gestion des données d’Adobe est régie par la [Politique de confidentialité d’Adobe](https://www.adobe.com/privacy.html) et les [Conditions de protection des données](https://www.adobe.com/go/dpt-ww).
+Lorsque vous envoyez une invite, le client MCP peut envoyer le contexte approprié (y compris [!DNL Adobe Target] données renvoyées par le serveur MCP) à son modèle pour traitement. Consultez les politiques de confidentialité et de gestion des données de votre fournisseur client MCP avant de vous connecter aux données de production. La gestion des données d’Adobe est régie par la [Politique de confidentialité d’Adobe](https://www.adobe.com/fr/privacy.html) et les [Conditions de protection des données](https://www.adobe.com/go/dpt-ww).
 +++
 
 +++Les opérations d’écriture peuvent-elles entraîner des modifications involontaires des activités en direct ?

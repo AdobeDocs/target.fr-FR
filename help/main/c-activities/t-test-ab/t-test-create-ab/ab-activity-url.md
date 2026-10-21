@@ -31,7 +31,7 @@ Lorsque vous y êtes invité au cours de la création de l’activité, spécifi
 
 >[!NOTE]
 >
->[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://www.adobe.com`] correspondent.
+>[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://www.adobe.com/fr`] correspondent.
 
 ## Spécification d’une URL différente
 
