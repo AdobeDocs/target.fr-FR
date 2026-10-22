@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 25%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Fonctionnement de [!DNL Adobe Target]
 
@@ -236,13 +236,7 @@ Aucune modification n’est apportée à la page si le navigateur du visiteur ne
 
 [!DNL Adobe Target] s’aligne sur les directives des moteurs de recherche pour les tests.
 
-Pour plus d’informations, voir les ressources Google suivantes :
-
-* [Test de site web et recherche Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Expériences et habillage](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Les directives sont présentées dans une publication de [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Bien que le billet date de 2012, il reste la déclaration la plus récente de [!DNL Google] sur la question, et les directives sont toujours pertinentes.
+Pour plus d&#39;informations, consultez la documentation de [&#128279;](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Pas de cloaking** : le cloaking consiste à afficher un ensemble de contenus aux utilisateurs et un ensemble différent aux robots des moteurs de recherche en identifiant spécifiquement les robots et en leur fournissant un contenu différent.
 
@@ -266,13 +260,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
   Tenez également compte de l’accessibilité de la page que vous testez. Si la page n’est pas accessible aux moteurs de recherche et n’a jamais été conçue pour être classée dans le référencement organique, ces considérations ne s’appliquent pas. Un bon exemple est une page de destination pour une campagne par e-mail.
 
-Google indique que suivre ces directives « devrait avoir pour vos tests peu voire aucun impact sur votre site dans les résultats de recherche ».
-
-En plus de ces directives, Google présente une directive supplémentaire dans la documentation de leur outil Content Experiments :
-
-* « Vos pages de variation doivent conserver l’esprit du contenu de vos pages originales. Ces variations ne devraient pas changer le sens de la perception générale que vos utilisateurs ont de ce contenu original. »
-
-Google précise à titre d’exemple que « si une page originale d’un site est chargée avec des mots-clés qui ne sont pas associés aux combinaisons présentées aux utilisateurs, nous pouvons supprimer ce site de notre index ».
+Google indique que les variations d’un test n’ont souvent que peu ou pas d’impact sur le fragment de résultat de recherche ou le classement d’une page.
 
  estime qu’il serait difficile de modifier involontairement la signification du contenu original dans les variations de test. Cependant,  recommande de connaître les thèmes des mots-clés sur une page et de conserver ces thèmes. Les modifications apportées au contenu d’une page, en particulier l’ajout ou la suppression de mots-clés pertinents, peuvent donner lieu à des changements de classement pour l’URL dans les recherches organiques. [!DNL Adobe] recommande de consulter votre partenaire SEO dans le cadre de votre protocole de test.
 
