@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: ad017513885fba06841c53b4f3da0d151cf8a351
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 25%
+source-wordcount: '2288'
+ht-degree: 20%
 ---
 # Fonctionnement de [!DNL Adobe Target]
 
@@ -60,7 +60,7 @@ Les points clés sont les suivants :
 
 * **Bibliothèques JavaScript** : découvrez les bibliothèques JavaScript [!DNL Target] : [!DNL Adobe Experience Platform Web SDK] et at.js.
 * **Stratégies d’utilisation des appels au serveur** : découvrez comment [!DNL Target] compte divers appels au serveur, y compris les points d’entrée, la mbox unique, la mbox par lots, les appels d’exécution, de prérécupération et de notification.
-* **&#x200B;**&#x200B;: découvrez comment [!DNL Target] interagit avec le [!DNL Adobe Experience Platform Edge Network].
+* **** : découvrez comment [!DNL Target] interagit avec le [!DNL Adobe Experience Platform Edge Network].
 * **Expérience utilisateur protégée** : découvrez comment [!DNL Adobe] garantit la disponibilité et les performances de son infrastructure de ciblage.
 * **Directives SEO** : suivez les bonnes pratiques pour aligner les activités [!DNL Target] sur les directives SEO.
 * **Trafic de robots** : découvrez comment Target gère le trafic de robots pour éviter de biaiser les tests et les algorithmes de personnalisation.
@@ -69,14 +69,14 @@ Les points clés sont les suivants :
 
 Target s’intègre aux sites web à l’aide de [!DNL Experience Platform Web SDK] ou d’at.js :
 
-* **[Adobe Experience Platform Web SDK &#x200B;](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
+* **[Adobe Experience Platform Web SDK ](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank}** : cette bibliothèque JavaScript côté client permet aux clients [!DNL Adobe Experience Cloud] d’interagir avec divers services via [!DNL Experience Platform Edge Network]. [!DNL Adobe] recommande aux nouveaux clients [!DNL Target] d’implémenter le [!DNL Experience Platform Web SDK] .
 * **[at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/how-to-deployatjs){target=_blank}** : cette bibliothèque d’implémentation pour [!DNL Target] réduit les temps de chargement des pages pour les implémentations web et offre de meilleures options pour les applications d’une seule page. Mise à jour fréquente avec de nouvelles fonctionnalités, [!DNL Adobe] recommande à tous les utilisateurs d’[at.js d’effectuer la mise à jour vers la dernière version](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >La bibliothèque mbox.js est une implémentation héritée de [!DNL Target] et n’est plus prise en charge après le 31 mars 2021. Effectuez la mise à niveau vers [!UICONTROL Experience Platform Web SDK] (recommandé) ou la dernière version d’at.js.
 
-Référencez [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
+Référencez [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
 
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation de [!DNL Experience Platform Web SDK] ou d’at.js :
 
@@ -106,7 +106,7 @@ Pour plus d’informations, consultez [Création d’un test A/B](/help/main/c-
 
 [!UICONTROL Affectation automatique] identifie l’expérience gagnante parmi plusieurs options. Il réaffecte ensuite automatiquement davantage de trafic au gagnant, ce qui augmente les conversions à mesure que le test continue à s’exécuter et à apprendre.
 
-Voir [[!UICONTROL &#x200B; Affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) pour plus d’informations.
+Voir [[!UICONTROL  Affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) pour plus d’informations.
 
 ### [!UICONTROL Ciblage automatique] (AT)
 
@@ -227,7 +227,7 @@ Aucune modification n’est apportée à la page si le navigateur du visiteur ne
 
 * [!DNL Adobe] procède aux benchmarks de performances en fonction des normes de l’industrie, garanties par le [!UICONTROL contrat de niveau de service d’Adobe].
 * Le réseau Edge garantit la diffusion opportune des données.
-* utilise une approche à plusieurs niveaux pour sécuriser ses applications, offrant ainsi aux clients le plus haut niveau de disponibilité et de fiabilité.
+*  utilise une approche à plusieurs niveaux pour sécuriser ses applications, offrant ainsi aux clients le plus haut niveau de disponibilité et de fiabilité.
 * [!DNL Target] Consulting aide à l’implémentation et propose une assistance produit continue.
 
 ## Tests adaptés à l’optimisation du moteur de recherche (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
@@ -236,13 +236,7 @@ Aucune modification n’est apportée à la page si le navigateur du visiteur ne
 
 [!DNL Adobe Target] s’aligne sur les directives des moteurs de recherche pour les tests.
 
-Pour plus d’informations, voir les ressources Google suivantes :
-
-* [Test de site web et recherche Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Expériences et habillage](https://support.google.com/analytics/answer/12979939?hl)
-
-
-Les directives sont présentées dans une publication de [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Bien que le billet date de 2012, il reste la déclaration la plus récente de [!DNL Google] sur la question, et les directives sont toujours pertinentes.
+Pour plus d&#39;informations, consultez la documentation de [](https://developers.google.com/search/docs/crawling-indexing/website-testing).
 
 * **Pas de cloaking** : le cloaking consiste à afficher un ensemble de contenus aux utilisateurs et un ensemble différent aux robots des moteurs de recherche en identifiant spécifiquement les robots et en leur fournissant un contenu différent.
 
@@ -250,7 +244,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
 * **Utiliser rel=« canonical »** : il arrive parfois qu’un test A/B nécessite des URL différentes pour les variations. Dans ce cas, toutes les variations doivent inclure une balise rel=« canonical » référençant l’URL d’origine (contrôle). Par exemple, si [!DNL Adobe] teste sa page d’accueil avec différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil doit être placée dans la balise `<head>` de chaque variation :
 
-  `<link rel="canonical" href="https://www.adobe.com/fr" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Utiliser les redirections 302 (temporaires)** : lorsque des URL distinctes sont utilisées pour les pages de variation dans un test, [!DNL Google] recommande d’utiliser la redirection 302 pour diriger le trafic vers les variations de test. La redirection 302 informe les moteurs de recherche que la redirection est temporaire et active uniquement pendant l’exécution du test.
 
@@ -266,13 +260,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
   Tenez également compte de l’accessibilité de la page que vous testez. Si la page n’est pas accessible aux moteurs de recherche et n’a jamais été conçue pour être classée dans le référencement organique, ces considérations ne s’appliquent pas. Un bon exemple est une page de destination pour une campagne par e-mail.
 
-Google indique que suivre ces directives « devrait avoir pour vos tests peu voire aucun impact sur votre site dans les résultats de recherche ».
-
-En plus de ces directives, Google présente une directive supplémentaire dans la documentation de leur outil Content Experiments :
-
-* « Vos pages de variation doivent conserver l’esprit du contenu de vos pages originales. Ces variations ne devraient pas changer le sens de la perception générale que vos utilisateurs ont de ce contenu original. »
-
-Google précise à titre d’exemple que « si une page originale d’un site est chargée avec des mots-clés qui ne sont pas associés aux combinaisons présentées aux utilisateurs, nous pouvons supprimer ce site de notre index ».
+Google indique que les variations d’un test n’ont souvent que peu ou pas d’impact sur le fragment de résultat de recherche ou le classement d’une page.
 
  estime qu’il serait difficile de modifier involontairement la signification du contenu original dans les variations de test. Cependant,  recommande de connaître les thèmes des mots-clés sur une page et de conserver ces thèmes. Les modifications apportées au contenu d’une page, en particulier l’ajout ou la suppression de mots-clés pertinents, peuvent donner lieu à des changements de classement pour l’URL dans les recherches organiques. [!DNL Adobe] recommande de consulter votre partenaire SEO dans le cadre de votre protocole de test.
 
