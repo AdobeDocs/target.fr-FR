@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Prémasquage du contenu pour les expériences personnalisées
@@ -32,7 +32,7 @@ Voici comment fonctionne le pré-masquage du contenu, depuis le compte par défa
 
 1. [!DNL Target] crée un ensemble de règles à partir des activités en direct [!UICONTROL compositeur d’expérience visuelle] et [!UICONTROL compositeur d’expérience amélioré]. L’ensemble de règles répertorie les sélecteurs et les régions que la diffusion peut modifier.
 
-   Notez que les activités [!UICONTROL &#x200B; Compositeur basé sur les formulaires &#x200B;] ne sont pas prises en charge.
+   Notez que les activités [!UICONTROL  Compositeur basé sur les formulaires ] ne sont pas prises en charge.
 
 1. La bibliothèque récupère cet ensemble de règles à partir du réseau CDN Adobe et prémasque les éléments correspondants uniquement pendant que le contenu personnalisé est toujours en cours de chargement.
 
@@ -56,7 +56,7 @@ Le pré-masquage du contenu est désactivé pour votre instance jusqu’à ce qu
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Les paramètres de gestion du scintillement seront alors appliqués à votre instance.
 
-1. Une fois activé, cliquez sur **[!UICONTROL Télécharger]**, puis ajoutez le fichier au `<head>` de la page afin qu’il se charge avant le [!DNL at.js] ou la [!DNL Web SDK]. Pour obtenir des instructions d’implémentation complètes, voir SDK de masquage préalable du contenu[&#128279;](https://experienceleague.adobe.com/fr/docs/target-dev/developer/client-side/prehide-sdk).
+1. Une fois activé, cliquez sur **[!UICONTROL Télécharger]**, puis ajoutez le fichier au `<head>` de la page afin qu’il se charge avant le [!DNL at.js] ou la [!DNL Web SDK]. Pour obtenir des instructions d’implémentation complètes, voir SDK de masquage préalable du contenu](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/prehide-sdk).[
 
    ![](assets/content-pre-hiding-2.png)
 
@@ -66,7 +66,7 @@ Votre instance utilise désormais les paramètres de masquage préalable du cont
 
 Lorsque le masquage préalable est activé pour votre instance, choisissez si chaque activité l’utilise dans **[!UICONTROL Objectifs et paramètres]**. Les activités pour lesquelles vous activez le pré-masquage sont incluses dans le comportement ciblé lorsqu’elles sont actives.
 
-[!DNL Target] crée ensuite un ensemble léger de règles à partir d’activités en direct créées dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) et le [!UICONTROL compositeur basé sur les formulaires], décrivant les sélecteurs et les zones que la diffusion peut modifier.
+[!DNL Target] crée ensuite un jeu de règles léger à partir d’activités en direct créées dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), décrivant les sélecteurs et les zones que la diffusion peut modifier.
 
 Lorsque vous créez ou modifiez une activité :
 
