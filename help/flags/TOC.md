@@ -7,9 +7,7 @@ source-git-commit: 56c59c705d33c1e9edf336c03c2627654869ef81
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 9%
-
 ---
-
 
 # Flags {#flags}
 
@@ -33,7 +31,7 @@ ht-degree: 9%
   + [Intégration d’indicateurs dans l’application](guides/integrate/integrating-in-your-app.md)
   + [Guide de démarrage](guides/integrate/startup-guide.md)
   + [Applications mobiles](guides/integrate/mobile-applications.md)
-  + [Applications Web](guides/integrate/web-applications.md)
+  + [Applications web](guides/integrate/web-applications.md)
   + [SDK](guides/integrate/sdks.md)
 + Indicateurs de fonctionnalités {#feature-flags}
   + [Fonctionnalités et groupes de fonctionnalités](guides/feature-flags/features-feature-groups-releases.md)
