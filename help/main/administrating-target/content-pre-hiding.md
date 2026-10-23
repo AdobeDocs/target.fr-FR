@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: a12dea5df94b20aecd8bf30da62646d01b0b07fe
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '591'
 ht-degree: 1%
 ---
 # Prémasquage du contenu pour les expériences personnalisées
@@ -66,7 +66,7 @@ Votre instance utilise désormais les paramètres de masquage préalable du cont
 
 Lorsque le masquage préalable est activé pour votre instance, choisissez si chaque activité l’utilise dans **[!UICONTROL Objectifs et paramètres]**. Les activités pour lesquelles vous activez le pré-masquage sont incluses dans le comportement ciblé lorsqu’elles sont actives.
 
-[!DNL Target] crée ensuite un ensemble léger de règles à partir d’activités en direct créées dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) et le [!UICONTROL compositeur basé sur les formulaires], décrivant les sélecteurs et les zones que la diffusion peut modifier.
+[!DNL Target] crée ensuite un jeu de règles léger à partir d’activités en direct créées dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), décrivant les sélecteurs et les zones que la diffusion peut modifier.
 
 Lorsque vous créez ou modifiez une activité :
 
