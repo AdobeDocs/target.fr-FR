@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Behavioral data
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '4434'
-ht-degree: 25%
+source-wordcount: '4442'
+ht-degree: 24%
 ---
 # Baser la recommandation sur une clé de recommandation
 
@@ -37,7 +37,7 @@ Les recommandations basées sur des algorithmes utilisent le contexte de comport
 
 Chaque type d’algorithme fournit différents algorithmes appropriés à son type, comme indiqué dans le tableau suivant :
 
-| Type d’algorithme | Quand utiliser/algorithmes disponibles |
+| Type d&#39;algorithme | Quand utiliser/algorithmes disponibles |
 | --- | --- |
 | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur.<ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté]</li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
 | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Les plus consultés par attribut de profil]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
@@ -53,7 +53,7 @@ Les différents algorithmes de recommandations se prêtent à un placement sur d
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme [!UICONTROL Basé sur le panier] permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « [!UICONTROL Recommandé pour vous] » et aux algorithmes basés sur les articles « [!UICONTROL Personnes qui ont consulté ceci] acheté cela » et « [!UICONTROL Personnes qui ont acheté cela] acheté cela ».
 
@@ -63,11 +63,11 @@ La logique de recommandation basée sur le panier est similaire à l’algorithm
 
 * **[!UICONTROL Session unique]** : en fonction de ce que les autres visiteurs ont fait au cours d’une seule session.
 
-  Il peut être judicieux d’examiner le comportement au sein d’une seule session lorsque l’on a le sentiment que les produits « s’accompagnent » fortement les uns les autres en fonction d’un usage, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou encore, un visiteur achète du beurre d’arachide et peut également avoir besoin de pain et de gelée.
+  Il peut être judicieux d’examiner le comportement au sein d’une seule session lorsque l’on a le sentiment que les produits « vont » fortement les uns avec les autres en fonction d’un usage, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou encore, un visiteur achète du beurre d’arachide et peut également avoir besoin de pain et de gelée.
 
 * **[!UICONTROL Entre les sessions]** : en fonction de ce que les autres visiteurs ont fait sur plusieurs sessions.
 
-  Il peut être logique d’examiner le comportement sur plusieurs sessions lorsque l’on a le sentiment que les produits « vont » fortement les uns avec les autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et pourrait aussi aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au même moment. Ou, un visiteur aime le jeu de société « Noms de code » et peut également aimer le jeu de société « Avalon », même si le visiteur ne peut pas jouer aux deux jeux simultanément.
+  Il peut être logique d’examiner le comportement sur plusieurs sessions lorsque l’on a le sentiment que les produits « vont » fortement les uns avec les autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au même moment. Ou, un visiteur aime le jeu de société « Noms de code » et peut également aimer le jeu de société « Avalon », même si le visiteur ne peut pas jouer aux deux jeux simultanément.
 
 [!DNL Target] émet des recommandations pour chaque visiteur en fonction des éléments de son panier actuel, que vous examiniez le comportement des visiteurs au cours d’une seule session ou de plusieurs sessions.
 
@@ -200,7 +200,7 @@ Recommande les éléments les plus consultés, regroupés par attribut de profil
 
 Cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation.
 
-En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
+En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeRegion` qui base les recommandations sur la région du visiteur peut ressembler à ceci :
 
@@ -215,7 +215,7 @@ Une fois le script créé et activé, l’entrée [!UICONTROL Region] correspond
 
 Recommande les articles les plus vendus regroupés par attribut de profil d&#39;un visiteur plutôt que par informations d&#39;article, comme le font [!UICONTROL Meilleurs vendeurs par catégorie] et [!UICONTROL Meilleurs vendeurs par attribut d&#39;article]. [!DNL Target] conserve une liste des meilleurs vendeurs distincte par valeur d’attribut et, au moment de la livraison, affiche à chaque visiteur la liste correspondant à sa propre valeur stockée.
 
-Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
+Comme pour [!UICONTROL Les plus consultés par l’attribut de profil], cet algorithme dépend d’un script de profil pour renseigner l’attribut, et le nom du script doit commencer par le préfixe `recsAttribute` afin [!DNL Target] le stocke comme `user.recsAttribute<Name>`. Vous pouvez écrire un script pour toute caractéristique de visiteur pertinente à votre cas d’utilisation. En savoir plus sur la définition d’attributs de profil à l’aide de scripts de profil dans [cette page](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, un script nommé `recsAttributeLoyaltyTier` qui base les recommandations sur le niveau de fidélité du visiteur peut ressembler à ceci :
 
@@ -368,7 +368,7 @@ Avec l’ajout de règles d’inclusion sur [!UICONTROL Critères personnalisés
 
 Les cas d’utilisation possibles incluent :
 
-* Vous souhaitez recommander des films à partir d’une liste gérée de façon personnalisée, mais uniquement si le visiteur ne les a pas déjà vus.
+* Vous souhaitez recommander des films à partir d’une liste personnalisée, mais uniquement si le visiteur ne les a pas déjà regardés.
 * Vous souhaitez exécuter un algorithme hors ligne et utiliser les résultats pour alimenter vos recommandations, mais vous devez vous assurer que les articles en rupture de stock ne sont jamais recommandés.
 * Vous souhaitez inclure uniquement les articles extraits de la catégorie préférée de ce visiteur.
 
@@ -419,17 +419,17 @@ Vous pouvez axer les recommandations sur la valeur d’un attribut de profil per
 1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « [!UICONTROL Dernier affichage ajouté à la liste de contrôle] »).
 1. Sélectionnez ensuite votre **[!UICONTROL Logique de recommandation]** (par exemple, « [!UICONTROL Personnes qui ont consulté ceci, qui ont consulté cela] »).
 
-Si votre attribut de profil personnalisé ne correspond pas directement à un ID d’entité unique, il est nécessaire d’expliquer à [!DNL Recommendations] la manière dont vous souhaitez que la correspondance à une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendus de la marque préférée d’un visiteur.
+Si votre attribut de profil personnalisé ne correspond pas directement à un ID d’entité unique, il est nécessaire d’expliquer à [!DNL Recommendations] comment vous souhaitez que la correspondance avec une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendus de la marque préférée d’un visiteur.
 
 1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Marque préférée »).
 
-1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;]).
+1. Sélectionnez ensuite la **[!UICONTROL Logique de recommandation]** à utiliser avec cette clé (par exemple, « [!UICONTROL  Meilleurs vendeurs ]).
 
    L’option [!UICONTROL Regrouper par valeur unique de] s’affiche.
 
 1. Sélectionnez l’attribut d’entité correspondant à la clé que vous avez choisie. Dans ce cas, « [!UICONTROL Marque préférée] » correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL &#x200B; Meilleurs vendeurs &#x200B;] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
+   [!DNL Recommendations] génère désormais une liste « [!UICONTROL  Meilleurs vendeurs ] » pour chaque marque et affiche au visiteur la liste « [!UICONTROL  Meilleurs vendeurs ] » appropriée en fonction de la valeur stockée dans l’attribut de profil [!UICONTROL Marque préférée] du visiteur.
 
 ### [!UICONTROL Dernier article consulté] {#last-viewed}
 

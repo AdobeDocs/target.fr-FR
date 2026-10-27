@@ -2,7 +2,7 @@
 keywords: intégration;rôles; autorisations utilisateur;admin console
 description: Découvrez comment accorder aux intégrations Adobe I/O existantes l’accès à tous les espaces de travail avec le rôle souhaité dans Adobe Target.
 title: Comment accorder à Adobe I/O l’accès aux espaces de travail et affecter des rôles ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 56%
+source-wordcount: '648'
+ht-degree: 50%
 ---
 # Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles
 
@@ -60,11 +60,11 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
 
 >[!NOTE]
 >
->Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. Selon le nombre d’espaces de travail de votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante aux espaces de travail avec le rôle souhaité.
+>Si cette action n’est pas effectuée, après la version [!DNL Target] de septembre 2019, les contrôles d’accès seront activés et vous observerez l’accès à l’espace de travail par défaut uniquement si c’est ainsi que vous êtes actuellement configuré. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. Selon le nombre d’espaces de travail de votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante aux espaces de travail avec le rôle souhaité.
 
 **Pour accorder aux espaces de travail l’accès aux intégrations Adobe I/O et affecter des rôles :**
 
-1. Ouvrez le **[&#128279;](https://adminconsole.adobe.com)**.
+1. Ouvrez le **[](https://adminconsole.adobe.com)**.
 
 1. Cliquez sur l’onglet **[!UICONTROL Produits]**, puis sélectionnez le nom du produit souhaité.
 

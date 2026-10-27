@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 17%
 ---
 # Utiliser un serveur de tracking [!DNL Analytics]
@@ -46,7 +46,7 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée p
 
 1. Ouvrez le [!DNL Adobe Experience Platform Debugger] à partir de la page sur laquelle vous créez votre activité.
 
-   Si vous n’avez pas installé le débogueur, consultez la [présentation d’](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=fr).
+   Si vous n’avez pas installé le débogueur, consultez la [présentation d’](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html).
 
 1. Cliquez sur **[!UICONTROL Analytics]** dans le menu de navigation de gauche.
 
@@ -72,7 +72,7 @@ Les outils de développement doivent être affichés sur une page où l’activi
 
 1. À partir de la page sur laquelle vous créez votre activité, ouvrez les outils de développement du navigateur (dans Google Chrome, cliquez sur les trois ellipses verticales dans le coin supérieur droit > Plus d’outils > Outils de développement).
 
-   ![Outils de développement &#x200B;](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Outils de développement ](/help/main/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Réseau]**.
 

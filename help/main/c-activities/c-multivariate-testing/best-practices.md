@@ -14,10 +14,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 55%
+source-wordcount: '626'
+ht-degree: 54%
 ---
 # Bonnes pratiques relatives au [!UICONTROL test multivarié]
 
@@ -54,7 +54,7 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
 ## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Utilisez fréquemment le rapport [&#x200B; Contribution des emplacements &#x200B;](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
+* Utilisez fréquemment le rapport [ Contribution des emplacements ](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et offre.
 * Dans le [rapport Performance de l’expérience](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l’aide des filtres [!UICONTROL Meilleur 5] et [!UICONTROL Pire 5].
 
   Le filtre [!UICONTROL Tous] rend difficile l’extraction des informations souhaitées. En outre, toutes les expériences ne peuvent pas s’afficher dans le graphique. Utilisez le filtre [!UICONTROL Tout] si vous souhaitez examiner une expérience spécifique qui ne fait pas partie des cinq meilleures ou pires.

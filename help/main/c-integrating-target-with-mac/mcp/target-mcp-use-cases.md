@@ -24,9 +24,9 @@ level_v2:
     internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 0%
 ---
 # Serveur MCP [!DNL Adobe Target] - cas d’utilisation et procédures pas à pas {#target-mcp-use-cases}
@@ -56,7 +56,7 @@ Les exemples suivants montrent comment interagir avec le serveur MCP [!DNL Adobe
 | **Analyse des revenus** | « Obtenez le rapport des commandes et des recettes pour les AT4821 d’activité et résumez quelle expérience génère le plus de recettes par visiteur. » |
 | **Rapports A4T** | « Extrayez le rapport A4T pour mon test d’optimisation du passage en caisse et résumez les données de conversion côté Analytics. » |
 | **Informations sur l’activité** | « Obtenez des informations pour mon test &#39;Summer Sale Banner&#39; — à quoi ressemble la performance et y a-t-il des anomalies ? » |
-| **Gestion des audiences** | « Répertoriez toutes les audiences ciblant les utilisateurs mobiles et montrez-moi à quelles activités ils sont associés. » |
+| **Gestion des audiences** | « Répertoriez toutes les audiences ciblant les utilisateurs mobiles et montrez-moi à quelles activités elles sont associées. » |
 | **QA et prévisualisation** | « Générer des URL d’aperçu d’AQ pour les 12345 d’activité afin que je puisse examiner toutes les variantes avant l’activation. » |
 <!-- | **Recommendations review** | "List all Recommendations criteria configured in this account and summarize the algorithm types in use." | -->
 | **Audit de l’implémentation** | « Quelle version d’at.js est configurée et quels jetons de réponse sont actuellement actifs ? » |

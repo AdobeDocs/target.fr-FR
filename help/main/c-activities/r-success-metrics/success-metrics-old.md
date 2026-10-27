@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: eb2bfbe8-b0f3-4cc3-ae8d-af79179585eb
     internal-label: Success metrics
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 40%
 ---
 # Mesures de succès
@@ -30,7 +30,7 @@ Dans [!DNL Target], les mesures de succès sont préconfigurées avec les option
 
 Par défaut, les événements de conversion sont définis sur « [!UICONTROL Incrémenter le décompte et maintenir l’utilisateur en activité] ». Les conversions ne sont comptabilisées qu’une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu de l’activité.
 
-Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL &#x200B; Incrémenter le comptage et maintenir l’utilisateur dans l’activité &#x200B;] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
+Les mesures de chiffre d’affaires qui sont définies sur « [!UICONTROL  Incrémenter le comptage et maintenir l’utilisateur dans l’activité ] » ne détaillent les commandes de journal que pour la première commande effectuée par le même visiteur. Toutes les commandes suivantes augmentent le nombre de conversions, mais n&#39;ajoutent pas de revenus à RPV/AOV/Sales, et ne sont pas incluses dans l&#39;état [!UICONTROL Détails de la commande].
 
 >[!NOTE]
 >

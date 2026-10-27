@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1289'
 ht-degree: 43%
 ---
 # Objectifs et paramètres des activités [!UICONTROL Ciblage d’expérience] (XT)
@@ -44,7 +44,7 @@ Les paramètres disponibles varient selon que vous utilisez [!DNL Target] ou [!D
 
 Les méthodes suivantes sont disponibles :
 
-### [!UICONTROL Objectif &#x200B;]
+### [!UICONTROL Objectif ]
 
 Saisissez une intention facultative. L’intention peut être toute information qui vous aide et aide les membres de l’équipe à identifier la campagne.
 

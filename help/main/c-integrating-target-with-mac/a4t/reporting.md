@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: '1320'
+ht-degree: 40%
 ---
 # Rapports A4T
 
@@ -81,7 +81,7 @@ Lorsque [!DNL Analytics] est utilisé comme source de création de rapports, les
 
   Toute augmentation est considérée comme positive dans le rapport, même si elle n’est pas souhaitée. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
 
-Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a commencé ou même une fois le test terminé. Il n’est pas nécessaire que vous sachiez exactement au préalable ce que vous voulez mesurer.
+Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a commencé ou même une fois le test terminé. Il n’est pas nécessaire de savoir exactement ce que vous souhaitez mesurer à l’avance.
 
 Cliquez pour afficher le rapport d’[!DNL Analytics] complet directement à partir de la page du rapport d’activité.
 
@@ -95,7 +95,7 @@ Vous pouvez effectuer des calculs hors ligne pour les intervalles de confiance e
 
 Pour A4T, nous utilisons un calcul [test t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour les variables continues (plutôt que pour les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces hits supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test t de Welch, la « somme des carrés » est nécessaire pour calculer la variance, qui est utilisée dans le dénominateur de la statistique t. [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) explique les détails des formules mathématiques utilisées. La somme des carrés peut être extraite de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
 
-Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vous exporterez un échantillon du nombre total de pages vues par visiteur pour une période spécifiée, peut-être deux jours (quelques milliers de points de données sont tout ce dont vous avez besoin). Vous calculez ensuite chaque valeur au carré et faites la sommes des totaux (l’ordre des opérations est critique ici). Cette valeur de « somme des carrés » est ensuite utilisée dans le calculateur de confiance complet. Utilisez la section « recettes » de cette feuille de calcul pour ces valeurs.
+Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vous exportez un échantillon du nombre total de pages vues par visiteur pendant une période spécifiée, peut-être deux jours (quelques milliers de points de données sont tout ce dont vous avez besoin). Vous calculez ensuite chaque valeur au carré et faites la sommes des totaux (l’ordre des opérations est critique ici). Cette valeur de « somme des carrés » est ensuite utilisée dans le calculateur de confiance complet. Utilisez la section « recettes » de cette feuille de calcul pour ces valeurs.
 
 **Pour utiliser la fonction d’exportation de données d’[!DNL Analytics], procédez comme suit :**
 
@@ -103,7 +103,7 @@ Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vou
 1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]**.
 1. Dans l’onglet **[!UICONTROL Demande de Data Warehouse]**, remplissez les champs.
 
-   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=fr).
+   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html).
 
    | Champ | Instructions |
    |--- |--- |
@@ -119,9 +119,9 @@ Par exemple, si vous effectuez une optimisation des pages vues par visiteur, vou
 
    La livraison du fichier peut prendre jusqu’à 72 heures, selon le volume de données demandé. Vous pouvez vérifier la progression de la demande à tout moment en cliquant sur [!UICONTROL Outils] > [!UICONTROL Data Warehouse] > [!UICONTROL Gestionnaire de requêtes].
 
-   Si vous souhaitez demander à nouveau les données que vous avez demandées dans le passé, vous pouvez dupliquer une ancienne requête à partir du [!UICONTROL Gestionnaire de requêtes] si nécessaire.
+   Si vous souhaitez demander à nouveau les données que vous avez demandées dans le passé, vous pouvez dupliquer une ancienne requête à partir du [!UICONTROL Gestionnaire de requêtes], si nécessaire.
 
 Pour plus d’informations sur [!DNL Data Warehouse], voir les liens suivants dans la documentation d’aide d’[!DNL Analytics] :
 
-* [Créer une requête Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=fr)
-* [Bonnes pratiques relatives à Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=fr)
+* [Créer une requête Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Bonnes pratiques relatives à Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

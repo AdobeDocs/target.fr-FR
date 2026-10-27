@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 89%
+source-wordcount: '972'
+ht-degree: 80%
 ---
 # Résolution des problèmes d’intégration d’Analytics et de [!DNL Target] (A4T)
 
@@ -42,7 +42,7 @@ Il existe plusieurs raisons pour lesquelles les données s’affichent comme «�
 
   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
 
-* La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les hits. [!DNL Target] ne peut pas classer les données tant que le premier hit n’a pas eu lieu.
+* La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les accès. [!DNL Target] ne peut pas classer les données tant que le premier hit n’a pas eu lieu.
 
   Assurez-vous que la suite de rapports compte au moins un hit.
 
@@ -54,19 +54,19 @@ Si vous ventilez la ligne « non spécifié » par la dimension « Analytics 
 
 >[!NOTE]
 >
->Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification ait été terminée. N’oubliez pas que le classement des rapports après le premier enregistrement prend généralement entre 24 et 72 heures.
+>Parfois, les données s’affichent correctement dans les rapports, mais redeviennent « non spécifiées » parce qu’une nouvelle activité a été ajoutée sans que la classification soit terminée. N’oubliez pas que le classement des rapports après le premier enregistrement prend généralement entre 24 et 72 heures.
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
 ## Les rapports d’activité A4T comprennent une ligne avec de nombreux événements « non spécifiés ». {#added_unspecified_events}
 
-Votre rapport peut contenir une ligne d’événements « [!UICONTROL &#x200B; Non spécifiés &#x200B;], selon la mesure que vous utilisez pour afficher vos données.
+Votre rapport peut contenir une ligne d’événements « [!UICONTROL  Non spécifiés ], selon la mesure que vous utilisez pour afficher vos données.
 
-En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique au [!DNL Target] (par exemple, [!UICONTROL &#x200B; Pages vues], [!UICONTROL &#x200B; Visites], [!UICONTROL &#x200B; Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL &#x200B; « Non spécifié »] comprend tous les [!UICONTROL Pages vues], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
+En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique au [!DNL Target] (par exemple, [!UICONTROL  Pages vues], [!UICONTROL  Visites], [!UICONTROL  Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL  « Non spécifié »] comprend tous les [!UICONTROL Pages vues], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
 
-Cette ligne ne contient aucune information relative à [!DNL Target] (par exemple, aucun visiteur, aucune visite ou impression). Pour plus d’informations, consultez la section [« Non spécifié », « Aucun », « Autre » et « Inconnu » dans les rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=fr) dans les *notes techniques d’Analytics*.
+Cette ligne ne contient aucune information relative au [!DNL Target] (par exemple, aucun visiteur, aucune visite ou impression). Pour plus d’informations, consultez la section [« Non spécifié », « Aucun », « Autre » et « Inconnu » dans les rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=fr) dans les *notes techniques d’Analytics*.
 
-Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, cette ligne [!UICONTROL &#x200B; « Non spécifié »] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
+Si vous choisissez une mesure spécifique à [!DNL Target] dans le rapport, cette ligne [!UICONTROL  « Non spécifié »] ne s’affiche pas. La seule façon d’éviter de l’avoir dans le rapport consiste à définir un appel à [!DNL Target] à chaque requête envoyée à partir de cette page, ce qui n’est ni courant ni nécessaire.
 
 ## L’effet élévateur estimé dans les recettes ne présente pas les données appropriées. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -100,7 +100,7 @@ La liste des suites de rapports qui apparaît dans [!DNL Target Standard/Premium
 
 Si vous utilisez plusieurs sources de rapports, les suites de rapports doivent aussi être présentes dans la source de rapports par défaut définie dans [!DNL Target]. Si les suites de rapports ne figurent pas dans la source de rapports par défaut, elles ne s’affichent pas.
 
-Si la suite de rapports que vous recherchez ne s’affiche toujours pas, contactez le [service clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’ils l’activent.
+Si la suite de rapports que vous recherchez ne s’affiche toujours pas, contactez le [service clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’elle soit activée.
 
 ## Je ne vois pas autant de données que prévu dans les rapports. {#section_75002584FA63456D8D9086172925DD8D}
 

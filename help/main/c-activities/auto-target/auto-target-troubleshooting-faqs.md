@@ -1,8 +1,8 @@
 ---
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage;trafic
-description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL &#x200B; ciblage automatique &#x200B;].
+description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités de [!UICONTROL  ciblage automatique ].
 title: Comment Résoudre Les Problèmes Liés Aux Activités De [!UICONTROL Ciblage Automatique] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 TQID: 'https://experienceleague.adobe.com/LXOa1Ma0y8VbncCPN1Az33p-GDsd-bW-BDqJjSGbVQU'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # Questions fréquentes et dépannage concernant le [!UICONTROL ciblage automatique]
 
@@ -61,12 +61,12 @@ La répartition optimale de l’affectation du trafic dépend de vos objectifs.
 
 Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à une affectation ciblée de 90 % et à un contrôle de 10 % pendant la durée de vie de l’activité. Si votre objectif est d’exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable pour la durée de vie de l’activité.
 
-Il est recommandé de conserver la répartition de l’affectation du trafic pendant toute la durée de vie de l’activité afin que les visiteurs ne basculent pas entre les expériences ciblées et les expériences de contrôle.
+La bonne pratique consiste à maintenir la répartition de l’affectation du trafic pendant toute la durée de vie de l’activité, de sorte que les visiteurs ne basculent pas entre les expériences ciblées et les expériences de contrôle.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -113,7 +113,7 @@ Le [!UICONTROL ciblage automatique] ne tente pas de créer un modèle personnali
 Quelques points supplémentaires à garder à l’esprit lors de la création du modèle de [!UICONTROL ciblage automatique] :
 
 * Une fois qu’une activité est active, le [!UICONTROL ciblage automatique] prend en compte les 45 derniers jours de données diffusées de manière aléatoire lors de la tentative de création de modèles. Par exemple, le trafic de contrôle, ainsi que certaines données supplémentaires diffusées de manière aléatoire et retenues par l’algorithme.
-* Lorsque [!UICONTROL &#x200B; Revenu par visite &#x200B;] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-revenu comparé au taux de conversion.
+* Lorsque [!UICONTROL  Revenu par visite ] est votre mesure de succès, ces activités nécessitent généralement plus de données pour créer des modèles en raison de l’écart de données plus élevé existant généralement dans le rapport visite-revenu comparé au taux de conversion.
 * Comme les modèles sont créés sur la base de chaque expérience, le remplacement d’une expérience par une autre expérience signifie que vous devez collecter suffisamment de trafic (au moins 50 conversions) pour la nouvelle expérience avant de pouvoir recréer des modèles personnalisés.
 
 +++
@@ -125,7 +125,7 @@ Non, il doit exister au moins deux modèles créés au sein de votre activité p
 
 +++
 
-### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ?
+### Quand puis-je commencer à consulter les résultats de mon activité [!UICONTROL  Ciblage automatique ] ?
 
 +++Réponse
 Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL ciblage automatique] dès qu’au moins deux expériences ont été créées à partir des modèles (coche verte) pour l’expérience sur laquelle les modèles sont créés.
@@ -143,7 +143,7 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 +++
 
-### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL &#x200B; Ciblage automatique &#x200B;] ? {#change-metric}
+### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL  Ciblage automatique ] ? {#change-metric}
 
 +++Réponse
 Adobe ne recommande pas de modifier la mesure d’objectif au cours d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. Adobe ne garantit pas ce qui se produit si vous modifiez la mesure d’objectif dans une activité après son exécution.
@@ -166,13 +166,13 @@ Ces conseils s’appliquent également aux activités [!UICONTROL Affectation au
 +++Réponse
 [!DNL Target] crée un modèle par expérience. La suppression d’une expérience signifie donc que crée [!DNL Target] un modèle de moins et que cela n’affecte pas les modèles des autres expériences.
 
-Supposons, par exemple, que vous ayez une activité de [!UICONTROL ciblage automatique] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans que cela n’affecte les modèles des sept expériences restantes.
+Supposons, par exemple, que vous ayez une activité de [!UICONTROL ciblage automatique] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans affecter les modèles des sept expériences restantes.
 
 +++
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
-Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation du [!UICONTROL ciblage automatique] ainsi que quelques solutions suggérées.
+Parfois, les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation du [!UICONTROL ciblage automatique] ainsi que quelques solutions suggérées.
 
 ### Mon activité de [!UICONTROL ciblage automatique] prend trop de temps pour créer des modèles.
 

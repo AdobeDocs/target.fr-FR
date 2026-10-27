@@ -2,7 +2,7 @@
 keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandations;séquence;nombre limite d’éléments renvoyés;contrôle au niveau de l’emplacement;emplacement
 description: Découvrez comment définir des séquences de cinq critères maximum pour mieux contrôler les éléments qui apparaissent dans vos activités Recommendations.
 title: Comment créer des séquences de critères dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 TQID: 'https://experienceleague.adobe.com/dxO5cKxesTxgzZyfcvydQUlSq4TAgFN0ztT5VIe1WKU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 21%
+source-wordcount: '834'
+ht-degree: 17%
 ---
 # Création d’une séquence de critères
 
@@ -33,7 +33,7 @@ Utilisez des séquences de cinq critères maximum pour mieux contrôler les él�
 
 Pour créer une séquence de critères, vous devez d’abord créer les critères que vous souhaitez inclure dans la séquence. Voir [Créer des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) pour plus d’informations.
 
-En utilisant une séquence de critères, vous pouvez fournir des recommandations ciblées supplémentaires au lieu d’utiliser des recommandations de sauvegarde plus génériques lorsqu’un critère ne renvoie pas suffisamment de résultats pour remplir votre conception. En règle générale, une séquence de critères passe d’un ciblage plus spécifique, qui peut renvoyer moins de résultats, à un ciblage plus général, qui renvoie généralement plus de résultats.
+En utilisant une séquence de critères, vous pouvez fournir des recommandations ciblées supplémentaires, au lieu d’utiliser des recommandations de sauvegarde plus génériques, lorsqu’un critère ne renvoie pas suffisamment de résultats pour remplir votre conception. En règle générale, une séquence de critères passe d’un ciblage plus spécifique, qui peut renvoyer moins de résultats, à un ciblage plus général, qui renvoie généralement plus de résultats.
 
 Les séquences de critères peuvent varier dans l’ordre en fonction du type de page, comme illustré dans les exemples suivants :
 
@@ -49,7 +49,7 @@ Créez des séquences de critères à partir de l’écran [!UICONTROL Créer un
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
 * Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
-* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer votre nouvelle séquence de critères pour l’utiliser avec d’autres activités [!UICONTROL &#x200B; Recommendations &#x200B;].
+* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer votre nouvelle séquence de critères pour l’utiliser avec d’autres activités [!UICONTROL  Recommendations ].
 * Lorsque vous modifiez une activité [!UICONTROL Recommendations], cliquez dans une zone [!UICONTROL Emplacement Recommendations] de votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous avez la possibilité d’enregistrer vos nouveaux critères pour les utiliser avec d’autres activités [!UICONTROL Recommendations].
 
 Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer une séquence de critères] en utilisant la première méthode : l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.

@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 81%
+source-wordcount: '2266'
+ht-degree: 79%
 ---
 # Modifications
 
@@ -205,7 +205,7 @@ Si vous n’avez plus besoin du code personnalisé, laissez ce conteneur vide ma
 
 **N’utilisez pas l’ID d’élément CDQID pour des modifications apportées à la page effectuées dans l’éditeur de code.**
 
-Target applique un nouvel ID d’élément avec la valeur CDQID à tout élément de la page qui est modifié par Target. Cet ID étant appliqué par Target, il ne doit pas être utilisé pour d’autres modifications ou ajustements dans l’éditeur de code.
+Target applique un nouvel ID d’élément avec la valeur « CDQID » à tout élément de la page modifié par Target. Cet ID étant appliqué par Target, il ne doit pas être utilisé pour d’autres modifications ou ajustements dans l’éditeur de code.
 
 **N’effectuez pas d’actions document.write dans les scripts de code personnalisé.**
 
@@ -242,7 +242,7 @@ Par exemple, si vous avez entrepris deux actions :
 
 Chaque modification crée un nouvel élément dans le panneau Modifications. La deuxième action modifiant l’élément 1, si vous supprimez l’élément 1, la deuxième action n’a plus rien à modifier, la modification ne fonctionne donc plus.
 
-En d’autres termes, si vous ajoutez un élément comportant du texte, puis dans une action distincte modifiez cet élément avec un texte différent, le panneau Modification affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez alors l’élément d’origine, le texte modifié ne sera pas en mesure de trouver l’élément qui a été modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
+En d’autres termes, si vous ajoutez un élément comportant du texte, puis dans une action distincte modifiez cet élément avec un texte différent, le panneau Modification affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez ensuite l’élément d’origine, le texte modifié ne pourra pas trouver l’élément modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
 ***Un élément que j’ai créé à l’aide de `document.write` dans un script n’apparaît pas là où je l’attends.***
 

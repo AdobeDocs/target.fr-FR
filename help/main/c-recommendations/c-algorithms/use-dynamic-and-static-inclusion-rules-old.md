@@ -2,7 +2,7 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
 description: Découvrez comment créer des règles d’inclusion dans Adobe [!DNL Target] Recommendations pour les critères et les promotions. Pour obtenir de meilleurs résultats, ajoutez des règles de filtrage plus dynamiques ou statiques.
 title: Comment utiliser les règles d’inclusion dynamiques et statiques dans Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 15%
+source-wordcount: '2113'
+ht-degree: 13%
 ---
 # Utilisation de règles d’inclusion dynamiques et statiques
 
@@ -107,7 +107,7 @@ Pour sélectionner l’action souhaitée, placez le pointeur de la souris sur l�
 
 | Action | Disponible pour | Détails |
 |--- |--- |--- |
-| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
+| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, au lieu de ne renvoyer aucun résultat, vous pouvez simplement ignorer la troisième règle avec les valeurs vides. |
 | [!UICONTROL Aucun résultat affiché pour ce critère]<br>(Critères uniquement) | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs d’entité].<br>Cette action [!DNL Target] désormais les valeurs vides avant d’ajouter cette option : aucun résultat ne sera affiché pour ce critère. |
 | [!UICONTROL Ne pas promouvoir d’éléments<br>(Promotions uniquement)] | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs d’entité].<br>Cette action [!DNL Target] désormais les valeurs vides avant d’ajouter cette option : aucun résultat ne sera affiché pour ce critère. |
 | [!UICONTROL Utiliser une valeur statique] | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |

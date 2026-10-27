@@ -16,23 +16,23 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 35%
+source-wordcount: '369'
+ht-degree: 34%
 ---
 # FAQ sur les définitions de mesures - A4T
 
 Cette rubrique contient les réponses aux questions fréquentes sur les définitions de mesures et l’utilisation de [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T).
 
-## Quelle est l’expiration de l’abonnement à une activité ? Combien de temps après l’entrée des visiteurs dans l’activité leurs actions sont-elles comptabilisées dans l’activité s’ils ne la voient plus ? {#section_41B4958F33534E4B96DEE0C981227A79}
+## Quelle est l’expiration de l’abonnement à une activité ? Combien de temps après l’entrée des visiteurs dans l’activité leurs actions sont-elles comptabilisées dans l’activité s’ils ne la voient pas à nouveau ? {#section_41B4958F33534E4B96DEE0C981227A79}
 
 +++Réponse
 L’expiration par défaut pour l’activité est de 90 jours après la dernière interaction du visiteur avec l’activité. Ce paramètre peut être ajusté par le service clientèle si nécessaire. Cependant, ce paramètre est global pour toutes les activités. Il ne doit donc pas être ajusté pour un seul cas.
 
 +++
 
-## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options des Paramètres avancés ? {#adv-settings}
+## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? {#adv-settings}
 
 +++Réponse
 Les options [!UICONTROL Paramètres avancés] ne sont pas disponibles pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T).

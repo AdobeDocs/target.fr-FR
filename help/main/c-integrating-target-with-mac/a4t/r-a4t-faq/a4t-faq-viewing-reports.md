@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 27%
+source-wordcount: '2716'
+ht-degree: 26%
 ---
 # FAQ sur l’affichage des rapports - A4T
 
@@ -69,9 +69,9 @@ Lorsque vous segmentez pour qu’une activité soit présente dans un accès, vo
 ## Lors de la configuration de mes [!UICONTROL Mesures d’objectif], pourquoi ne puis-je pas accéder à [!UICONTROL Paramètres avancés] ?
 
 +++Réponse
-Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL &#x200B; Incrémenter le décompte et conserver l’utilisateur dans l’activité &#x200B;] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
+Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL  Incrémenter le décompte et conserver l’utilisateur dans l’activité ] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
 
-Pour plus d’informations, reportez-vous à la rubrique « Lorsque je configure mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Pour plus d’informations, voir « Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options des Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
@@ -91,16 +91,16 @@ Tenez compte des points suivants :
 * Les mesures ci-dessus se déclenchent lorsqu’un utilisateur est qualifié pour une activité et que le contenu est renvoyé par [!DNL Target]. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * Les valeurs [!UICONTROL Impressions d’activité] (mesurées par [!DNL Target]) et [!UICONTROL Instances] (mesurées par [!DNL Analytics]) sont égales, sauf s’il existe plusieurs appels de mbox sur la même page au sein de la même activité. Cela entraîne le comptage de plusieurs [!UICONTROL impressions d’activité], mais d’une seule [!UICONTROL instance].
 
-Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique &#x200B;](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
+Pour plus d’informations, consultez [Comment configurer des rapports A4T dans Analysis Workspace pour les activités de ciblage automatique ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=fr) dans *Tutoriels Adobe Target*.
 
 +++
 
-## Pourquoi les « impressions d’activité » et les « conversions d’activité » sont-elles plus élevées dans [!DNL Analysis Workspace] que [!UICONTROL &#x200B; Reports &amp; Analytics &#x200B;] ? {#sametouch}
+## Pourquoi les « impressions d’activité » et les « conversions d’activité » sont-elles plus élevées dans [!DNL Analysis Workspace] que [!UICONTROL  Reports &amp; Analytics ] ? {#sametouch}
 
 +++Réponse
 [!DNL Reports & Analytics] applique un modèle d’attribution de même touche aux « impressions d’activité » et aux « conversions d’activité », tandis qu’[!DNL Analysis Workspace] affiche les mesures brutes, qui peuvent sembler exagérées en raison de la persistance de la dimension [!DNL Target].
 
-Pour évaluer les mesures [!UICONTROL Impressions d’activité] et [!UICONTROL Conversions d’activité] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont des modèles d’attribution [!UICONTROL Touche identique] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Modèles d’attribution autres que ceux par défaut], puis en sélectionnant [!UICONTROL Touche identique]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html?lang=fr) dans le *Guide des outils Analytics*.
+Pour évaluer les mesures [!UICONTROL Impressions d’activité] et [!UICONTROL Conversions d’activité] précises dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont des modèles d’attribution [!UICONTROL Touche identique] appliqués. Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant [!UICONTROL Modèles d’attribution autres que ceux par défaut], puis en sélectionnant [!UICONTROL Touche identique]. Pour en savoir plus sur l’attribution, consultez [Présentation d’Attributes IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) dans le *Guide des outils Analytics*.
 
 +++
 
@@ -114,7 +114,7 @@ Les « conversions d’activité » sont vides si une mesure de [!DNL Analytics]
 ## Pourquoi est-ce que je vois « non spécifié » dans les rapports [!DNL Analytics] ? Qu’est-ce que cela signifie ? {#unspecified}
 
 +++Réponse
-Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si la mention « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Les données des activités prennent généralement de 24 à 72 heures pour apparaître dans les rapports. Bien que les activités n’apparaissent pas dans ce rapport avant ce moment, toutes les données du visiteur liées à ces activités sont capturées et apparaissent lorsque la classification est terminée.
+Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Les données des activités prennent généralement de 24 à 72 heures pour apparaître dans les rapports. Bien que les activités n’apparaissent pas dans ce rapport avant ce moment, toutes les données du visiteur liées à ces activités sont capturées et apparaissent lorsque la classification est terminée.
 
 Après la période de classification, les données apparaissent dans ces rapports environ une heure après avoir été collectées à partir du site Web. Toutes les mesures et valeurs et tous les segments des rapports proviennent de la suite de rapports que vous avez sélectionnée lorsque vous avez configuré l’activité.
 
@@ -143,7 +143,7 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-L’utilisateur ou l’utilisatrice revient le 1er février, consulte cinq pages supplémentaires, ne rencontre plus d’activités Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
+L’utilisateur ou l’utilisatrice revient le 1er février, consulte cinq pages supplémentaires, ne rencontre aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
@@ -164,27 +164,27 @@ L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effec
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
-Comme les deux expériences ont été vues avant la conversion, elles sont toutes deux « créditées » pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour les rapports [!DNL Target], comme vous ne placez pas une activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus réussie, le fait que toutes les activités vues par l’utilisateur aient obtenu du crédit n’a pas d’importance. Vous comparez les résultats de deux éléments au sein d’une seule activité. Il n’est pas possible pour un utilisateur de voir différentes expériences dans la même activité, vous n’avez donc pas à vous soucier de la contamination croisée du crédit de commande.
+Comme les deux expériences ont été vues avant la conversion, elles sont toutes deux « créditées » pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour les rapports [!DNL Target], comme vous ne comparez pas une activité [!DNL Target] à une autre activité pour déterminer laquelle est la plus réussie, le fait que toutes les activités vues par l’utilisateur aient obtenu du crédit n’a pas d’importance. Vous comparez les résultats de deux éléments au sein d’une seule activité. Il n’est pas possible pour un utilisateur ou une utilisatrice de voir différentes expériences dans la même activité, de sorte que vous n’avez pas à vous soucier de la contamination croisée du crédit de commande.
 
-Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html?lang=fr)) dans le *Guide d’administration d’Analytics*.
+Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) dans le *Guide d’administration d’Analytics*.
 
 +++
 
 ## Pourquoi est-ce que je continue à voir des impressions après la désactivation de mon activité ? {#deactivated}
 
 +++Réponse
-Une source d’impressions dans un rapport d’activité A4T après la désactivation peut être le trafic en mode QA. Normalement, Target ne consigne pas les événements pour une activité désactivée, mais Analytics ne peut pas savoir que les impressions proviennent du mode assurance qualité. Lorsque le rapport d’activité de Target est récupéré à partir d’Analytics, il affiche ces impressions. Cela fonctionne comme prévu, car les clients et clientes ont besoin d’un moyen de vérifier les rapports A4T, même si l’activité n’est pas active à l’aide du mode QA.
+Une source d’impressions dans un rapport d’activité A4T après la désactivation peut être le trafic en mode QA. En règle générale, Target ne consigne pas les événements relatifs à une activité désactivée, mais Analytics ne peut pas déterminer si les impressions proviennent du mode AQ. Lorsque le rapport d’activité de Target est récupéré à partir d’Analytics, il affiche ces impressions. Cela fonctionne comme prévu, car les clients et clientes ont besoin d’un moyen de vérifier les rapports A4T, même si l’activité n’est pas active à l’aide du mode QA.
 
 +++
 
 ## Pourquoi [!DNL Analytics] et [!UICONTROL Analytics for Adobe Target] (A4T) calculent-ils les nombres de la mesure [!UICONTROL Visiteurs uniques] différemment ? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++Réponse
-Lorsque vous exécutez un test A/B, qui utilise le test en t de [Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la mesure de confiance) pour choisir le vainqueur d’un test, l’une des hypothèses est qu’il existe un horizon temporel fixe. Le test n&#39;est pas statistiquement valide à moins que vous ne regardiez cette taille d&#39;échantillon fixe.
+Lorsque vous exécutez un test A/B, qui utilise le test en t de [Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la mesure de confiance) pour choisir le vainqueur d’un test, l’une des hypothèses est qu’il existe un horizon temporel fixe. Le test n’est statistiquement valide que si vous observez cette taille d’échantillon fixe.
 
-La mesure [!UICONTROL Visiteurs uniques] est différente en [!DNL Analytics] et en [!DNL Target] uniquement lorsque vous observez une période plus courte que le test réel. Si vous n’avez pas atteint la taille de votre échantillon, le test n’est pas aussi fiable. Pour en savoir plus, voir la rubrique [Comment ne pas exécuter un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (en anglais) sur le [site web d’Evan Miller](https://www.evanmiller.org/index.html).
+La mesure [!UICONTROL Visiteurs uniques] est différente en [!DNL Analytics] et en [!DNL Target] uniquement lorsque vous observez une période plus courte que le test réel. Si vous n’avez pas atteint la taille de l’échantillon, le test n’est pas aussi fiable. Pour en savoir plus, voir la rubrique [Comment ne pas exécuter un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (en anglais) sur le [site web d’Evan Miller](https://www.evanmiller.org/index.html).
 
-La mesure [!UICONTROL &#x200B; Visiteurs uniques &#x200B;] indique le nombre de personnes qui ont été exposées au test et qui ont visité le site au cours de la période spécifiée. Ces personnes font partie du test et devraient être comptées. Pour afficher uniquement le nombre de personnes qui ont été exposées au cours d’une seule semaine, vous pouvez créer un segment de visiteurs qui ont exécuté une impression de l’activité et l’ont appliquée au rapport.
+La mesure [!UICONTROL  Visiteurs uniques ] indique le nombre de personnes qui ont été exposées au test et qui ont visité le site au cours de la période spécifiée. Ces personnes font partie du test et devraient être comptées. Pour afficher uniquement le nombre de personnes qui ont été exposées au cours d’une seule semaine, vous pouvez créer un segment de visiteurs qui ont exécuté une impression de l’activité et l’ont appliquée au rapport.
 
 Vous pouvez réduire la durée pendant laquelle la variable [!DNL Target] persiste jusqu’à une session. Toutefois, cela pose problème pour les tests où l’événement de conversion est moins susceptible de se produire au cours de la même session.
 
@@ -227,7 +227,7 @@ Voici quelques points à garder à l’esprit lors de l’affichage de rapports 
 * En règle générale, il est recommandé que votre créneau de rapport commence à la date de début de l’activité.
 * Si une conversion se produit en dehors de la fenêtre du rapport, elle n’est pas visible dans [!DNL Analytics].
 * Dans la partie « ciblée » du trafic pour les activités de [!UICONTROL ciblage automatique], les visiteurs peuvent voir différentes expériences d’une session à l’autre. Par exemple, si leur profil ou contexte a changé et que les algorithmes de machine learning de [!DNL Target] décident qu’ils sont plus susceptibles de convertir une nouvelle expérience. À mesure que les visiteurs passent d’une expérience à l’autre, le nombre de visites augmente pour chaque expérience vue. Cela diffère des activités de test A/B normales où les expériences sont visibles pour un visiteur à travers les visites.
-* Si un visiteur voit plusieurs expériences au cours des visites, toute conversion est toujours attribuée à la dernière expérience qu’il a vue. Comme mentionné, le nombre de visites incrémente pour chaque expérience que le visiteur a vue. Cela peut réduire artificiellement les taux de conversion par expérience lors de l’affichage d’expériences sous la dimension « [!UICONTROL &#x200B; Ciblés &#x200B;] » dans les rapports [!DNL Adobe Analytics].
+* Si un visiteur voit plusieurs expériences au cours des visites, toute conversion est toujours attribuée à la dernière expérience qu’il a vue. Comme mentionné, le nombre de visites incrémente pour chaque expérience que le visiteur a vue. Cela peut réduire artificiellement les taux de conversion par expérience lors de l’affichage d’expériences sous la dimension « [!UICONTROL  Ciblés ] » dans les rapports [!DNL Adobe Analytics].
 
 +++
 
@@ -238,7 +238,7 @@ Voici quelques points à garder à l’esprit lors de l’affichage de rapports 
 Pour afficher les impressions d’activité dans [!DNL Analysis Workspace] :
 
 1. Dans l’interface utilisateur de [!DNL Target], cliquez sur **[!UICONTROL Afficher dans Analytics]**.
-1. Ajoutez la colonne **[!UICONTROL Impressions d’activité]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr){target=_blank}.
+1. Ajoutez la colonne **[!UICONTROL Impressions d’activité]** au rapport [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank}.
 1. Dans la colonne **[!UICONTROL Impressions d’activité]**, cliquez sur l’icône [!UICONTROL Engrenage].
 1. Cliquez sur **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**.
 1. Sélectionnez **[!UICONTROL Modèle Touche identique]** > **[!UICONTROL Appliquer]**.

@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 44%
 ---
 # Paramètres des rapports
 
@@ -151,11 +151,11 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 >[!NOTE]
 >
->Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
+>Si votre organisation utilise [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
 
 ### Réinitialisation des données du rapport
 
-Cliquez sur [!UICONTROL &#x200B; Réinitialiser les données du rapport &#x200B;]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL approbateur].
+Cliquez sur [!UICONTROL  Réinitialiser les données du rapport ]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL approbateur].
 
 >[!IMPORTANT]
 >
@@ -253,7 +253,7 @@ L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
 Lorsque vous utilisez les options [!UICONTROL méthodologie de comptage], tenez compte des avertissements suivants :
 
-* Pour les activités de [[!UICONTROL ciblage automatique] &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) , il n’existe aucune option permettant de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
+* Pour les activités de [[!UICONTROL ciblage automatique] ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) , il n’existe aucune option permettant de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
 * Pour les activités qui utilisent [Analytics comme source de création de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md), vous ne pouvez pas tracer de manière cumulative Visiteur, Visite ou Impression.
 
 ## Utiliser des graphiques comportant plus de 16 expériences dans l’activité
@@ -266,8 +266,8 @@ Si vous passez la souris sur une des expériences grisées, une nouvelle ligne g
 
 Le graphique affiche les lignes pour les 16 premières expériences (on constate quelques chevauchements qui font croire qu’il y a moins de 16 lignes). Le point coloré du volet Expériences de gauche en regard du nom de chaque expérience indique que la ligne de l’expérience s’affiche dans la couleur correspondante.
 
-Si vous faites défiler le volet Expériences vers le bas, vous remarquerez que le nom des expériences 17 à 26 est grisé, comme illustré ci-dessous :
+Si vous faites défiler l’écran vers le bas dans le volet Expériences , vous remarquerez que les noms des 17e à 26e expériences sont grisés, comme illustré ci-dessous :
 
 Si vous passez la souris sur l’une des expériences grisées, une nouvelle ligne grise correspondant à cette expérience s’affiche temporairement dans le graphique.
 
-Supposons que vous vouliez afficher la ligne pour l’Experience R et que vous ne vouliez pas afficher la ligne pour l’Experience P. Vous pouvez cliquer sur le nom de l’Experience P pour la désélectionner, puis cliquer sur le nom de l’Experience R pour la sélectionner, comme illustré ci-dessous :
+Supposons que vous souhaitiez afficher la ligne de tracé pour l’expérience R et que vous ne souhaitiez pas afficher la ligne pour l’expérience P. Vous pouvez cliquer sur le nom de l’Experience P pour le désélectionner, puis cliquer sur le nom de l’Experience P pour le sélectionner, comme illustré ci-dessous :

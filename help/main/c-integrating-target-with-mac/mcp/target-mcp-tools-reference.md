@@ -24,9 +24,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3805'
 ht-degree: 14%
 ---
 # Référence des outils du serveur [!DNL Adobe Target] MCP {#target-mcp-tools-reference}
@@ -35,7 +35,7 @@ ht-degree: 14%
 >
 >Le serveur MCP [!DNL Adobe Target] est disponible pour tous les clients dans **Public Beta**. Il est actuellement pris en charge dans **Claude Web**, **Claude Desktop**, **Claude Code**, **Cursor** et **ChatGPT**.
 
-Cette page est une référence complète pour tous les outils exposés par le serveur MCP [!DNL Adobe Target]. Pour chaque outil, vous trouverez une description, les détails des paramètres, la valeur renvoyée et un exemple d’invite en langage naturel. Pour obtenir des instructions de configuration et des cas d’utilisation, consultez [Prise en main](target-mcp-get-started.md) et [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md).
+Cette page est une référence complète pour tous les outils exposés par le serveur MCP [!DNL Adobe Target]. Pour chaque outil, vous trouverez une description, les détails du paramètre, la valeur renvoyée et un exemple d’invite en langage naturel. Pour obtenir des instructions de configuration et des cas d’utilisation, consultez [Prise en main](target-mcp-get-started.md) et [Cas d’utilisation et procédures pas à pas](target-mcp-use-cases.md).
 
 >[!IMPORTANT]
 >
@@ -773,7 +773,7 @@ Aucun paramètre requis.
 
 >[!NOTE]
 >
->* Les outils de recommandations nécessitent un client compatible avec Recommendations avec **&#x200B;**. Sur les comptes non Premium, ces outils ne sont pas affichés dans la liste d’outils du client et l’API sous-jacente renvoie une erreur 403.
+>* Les outils de recommandations nécessitent un client compatible avec Recommendations avec ****. Sur les comptes non Premium, ces outils ne sont pas affichés dans la liste d’outils du client et l’API sous-jacente renvoie une erreur 403.
 >* Ces outils prennent en charge les opérations de liste, d’obtention, de création et de mise à jour pour les critères, collections, conceptions, promotions et exclusions. Les opérations de suppression ne sont pas exposées via le serveur MCP.
 
 +++Critères

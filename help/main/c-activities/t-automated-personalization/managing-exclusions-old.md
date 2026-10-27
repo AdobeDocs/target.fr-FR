@@ -1,8 +1,8 @@
 ---
 keywords: dédupliquer;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;groupe d’exclusion;
 description: Gérez les exclusions dans [!DNL Adobe Target] activités [!UICONTROL Automated Personalization] (AP). Créez des groupes d’exclusion et excluez les offres en double, les expériences spécifiques et le contenu par défaut.
-title: Comment gérer les exclusions dans les activités  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+title: Comment gérer les exclusions dans les activités [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1010'
 ht-degree: 47%
 ---
 # Gestion des exclusions
@@ -40,7 +40,7 @@ Vous pouvez également limiter quelles audiences peuvent voir des offres spécif
 
    ![Lien Gérer le contenu](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. Dans la boîte de dialogue [!UICONTROL &#x200B; Gérer le contenu &#x200B;], cliquez sur **[!UICONTROL Groupes d’exclusion]**.
+1. Dans la boîte de dialogue [!UICONTROL  Gérer le contenu ], cliquez sur **[!UICONTROL Groupes d’exclusion]**.
 
    ![Gérer le contenu > Boîte de dialogue Groupes d’exclusion](/help/main/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
@@ -76,7 +76,7 @@ Cliquez sur l’option d’engrenage **[!UICONTROL Configurer]** > **[!UICONTROL
 
 Excluez des expériences spécifiques si vous souhaitez exclure certaines combinaisons d’offres de votre activité .
 
-Certaines combinaisons peuvent ne pas fonctionner ensemble, ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
+Certaines combinaisons peuvent ne pas fonctionner ensemble ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
 
 1. Lors de la [création ou de la modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), cliquez sur **Gérer le contenu** dans la barre d’en-tête.
 

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 27%
 ---
 # AQ d’activité
@@ -48,7 +48,7 @@ Le [!UICONTROL QA d’activité] vous permet de tester entièrement vos activit�
 
   >[!NOTE]
   >
-  >Cette fonctionnalité s’applique aux implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette fonctionnalité s’applique uniquement si le navigateur du visiteur ne bloque pas les cookies tiers.
+  >Cette fonctionnalité s’applique aux implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette fonctionnalité n’est effective que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -64,7 +64,7 @@ Le [!UICONTROL QA d’activité] vous permet de tester entièrement vos activit�
 
      Si ce paramètre est désactivé, tenez compte de ce qui suit :
 
-     * En cas de conflits entre l’activité que vous testez et d’autres activités actives, les [&#x200B; règles de priorité normales &#x200B;](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. En raison de collisions, il est possible que vous ne puissiez pas voir l’activité que vous prévoyez d’AQ.
+     * En cas de conflits entre l’activité que vous testez et d’autres activités actives, les [ règles de priorité normales ](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. En raison de collisions, il est possible que vous ne puissiez pas voir l’activité que vous prévoyez d’AQ.
      * Les mesures s’incrémentent pour les activités vues, mais uniquement dans l’environnement de création de rapports d’AQ.
 
 1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer les modifications.
@@ -74,7 +74,7 @@ Le [!UICONTROL QA d’activité] vous permet de tester entièrement vos activit�
 
    Chaque URL de lien d’activité (pour l’expérience A, l’expérience B, etc.) vous permet de démarrer le parcours utilisateur à partir de l’expérience correspondante. Cliquez sur l’URL générée pour une expérience, puis poursuivez votre navigation normale sur le site pour afficher les expériences sur plusieurs pages (s’il en existe plusieurs). Une seule URL est générée par expérience, même si celle-ci s’étend sur plusieurs pages (tests de modèle ou tests de plusieurs pages).
 
-   Vous pouvez parcourir le site pour afficher les autres pages, car le mode [!UICONTROL AQ d’activité] est contigu. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette situation est uniquement vraie si le navigateur du visiteur ne bloque pas les cookies tiers.
+   Vous pouvez parcourir le site pour afficher les autres pages, car le mode [!UICONTROL AQ d’activité] est contigu. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations at.js 1.*x*, cette situation est uniquement vraie si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur la page **[!UICONTROL Rapports]** de l’activité, cliquez sur l’icône **[!UICONTROL Paramètres]** ( ![icon_gear image](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic en mode QA]** dans la liste déroulante **[!UICONTROL Environnement]**.
 
@@ -94,7 +94,7 @@ Si at.js 1.*x* est déployé sur votre site, vous pouvez non seulement utiliser 
 
 ### [!DNL Adobe Experience Platform Web SDK]
 
-Si le SDK web Platform[&#128279;](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} est déployé sur votre site, vous pouvez forcer manuellement à quitter le site en chargeant une page de votre site avec le paramètre `at_qa_mode` avec une valeur vide. Par exemple :
+Si le SDK web Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank} est déployé sur votre site, vous pouvez forcer manuellement à quitter le site en chargeant une page de votre site avec le paramètre `at_qa_mode` avec une valeur vide. [[!UICONTROL Par exemple :
 
 `https://www.mysite.com/?at_qa_mode=`
 
@@ -106,12 +106,12 @@ Si le SDK web Platform[&#128279;](https://experienceleague.corp.adobe.com/docs/t
 * Le [!UICONTROL QA d’activité] n’affiche pas le contenu des activités archivées ou des activités qui ont dépassé leur date de fin. Si vous désactivez une activité terminée, vous devez enregistrer à nouveau l’activité pour que [!UICONTROL AQ d’activité] fonctionne.
 * Les activités importées dans [!DNL Target Standard/Premium] (à partir de [!DNL Target Classic], par exemple) ne prennent pas en charge les URL d’assurance qualité.
 * Dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Recommandations], le modèle n’est pas affecté par les visites capturées dans [!UICONTROL AQ d’activité].
-* Si vous avez spécifié « URL is » lors de la création de l’activité [&#128279;](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) améliorations apportées aux options de diffusion du compositeur basé sur les formulaires ou [page du compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas, car [!UICONTROL AQ d’activité] ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
-* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL AQ d’activité] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=fr){target=_blank}.
+* Si vous avez spécifié « URL is » lors de la création de l’activité ](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) améliorations apportées aux options de diffusion du compositeur basé sur les formulaires ou [page du compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas, car [!UICONTROL AQ d’activité] ajoute des paramètres d’URL. [Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
+* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL AQ d’activité] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni qui est inclus dans la même activité), les liens d’assurance qualité ne sont pas générés pour les quatre combinaisons (site Experience A/US, site Experience A/UK, site Experience B/US, site Experience B/UK). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Un responsable du contrôle qualité au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu. Cependant, certains clients doivent utiliser des équilibreurs de charge ou des serveurs Web qui tentent à nouveau de coder les paramètres de chaîne de requête.
 
-  En raison de ce double codage, lorsque [!DNL Target] tente de décoder le `at_preview_token`, [!DNL Target] ne parvient pas à extraire la valeur correcte du jeton, ce qui entraîne le dysfonctionnement de l’aperçu.
+  En raison de ce double encodage, lorsque [!DNL Target] tente de décoder le `at_preview_token`, [!DNL Target] ne parvient pas à extraire la valeur correcte du jeton, ce qui entraîne le dysfonctionnement de l’aperçu.
 
   [!DNL Adobe] vous recommande de vous adresser à votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont traités de manière à ce que ces valeurs ne soient en aucun cas transformées.
 
@@ -134,8 +134,8 @@ Si le SDK web Platform[&#128279;](https://experienceleague.corp.adobe.com/docs/t
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr)
 
 Le tableau suivant répertorie les différents types d’activité et indique si le mode [!UICONTROL AQ d’activité] est pris en charge pour chaque bibliothèque :

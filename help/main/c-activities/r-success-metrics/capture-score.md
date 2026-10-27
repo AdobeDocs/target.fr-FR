@@ -17,9 +17,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 44%
 ---
 # Score de capture
@@ -68,6 +68,6 @@ Une bonne pratique consiste à attribuer des valeurs dans la requête [!DNL Targ
 
 Vous pouvez combiner les deux méthodes mais la note résultat peut être plus élevée que prévu. Par exemple, si vous attribuez une valeur de 10 à chacune des trois requêtes [!DNL Target] et aucune note à une quatrième requête, puis transmettez le paramètre d’URL `?mboxPageValue=5`, votre note de page sera de 50, 30 pour les trois requêtes avec des valeurs attribuées, puis 5 pour chacune des quatre requêtes sur la page.
 
-Le compteur commence par la première demande d’affichage, et non par la demande d’entrée. Par exemple, si vous saisissez l’activité sur la page d’accueil qui ne comporte pas de demande d’affichage, puis que vous liez la page du catalogue contenant une demande d’affichage, le compteur commence lorsque vous passez à la page du catalogue.
+Le compteur commence par la première demande d’affichage, et non par la demande d’entrée. Par exemple, si vous saisissez l’activité sur la page d’accueil qui n’a pas de demande d’affichage, puis que vous liez la page du catalogue contenant une demande d’affichage, le compteur commence lorsque vous passez à la page du catalogue.
 
 Vous pouvez également transmettre des valeurs négatives sur certaines pages qui vous coûtent de l’argent ou qu’un visiteur ne devrait pas voir. Les valeurs négatives affectent également la note globale. Cette technique peut être utilisée sur une page que les visiteurs atteignent à partir d’une annonce publicitaire, de telle sorte que vous connaissez le coût par clic. Ou, par exemple, elle peut être utilisée pour une page d’assistance technique ou de contact, à partir de laquelle vous savez que les visiteurs vont appeler ou demander un support.

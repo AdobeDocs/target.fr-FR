@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Chapitre 2 : Principales caractéristiques d’Adobe [!DNL Target]
@@ -95,7 +95,7 @@ Beaucoup d’entre vous souhaitent peut-être utiliser [!DNL Target] pour tester
 
 | Type d’implémentation | Détails |
 | --- | --- |
-| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL compositeur d’expérience visuelle]** (VEC) ou une interface non visuelle, le **[!UICONTROL compositeur d’expérience basé sur les formulaires]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr){target=_blank}. |
+| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL compositeur d’expérience visuelle]** (VEC) ou une interface non visuelle, le **[!UICONTROL compositeur d’expérience basé sur les formulaires]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
 | Côté serveur | Dans ce type d’implémentation [!DNL Target], un appareil client émet une demande d’expérience par l’intermédiaire de votre serveur. Votre serveur envoie cette demande à [!DNL Target]. [!DNL Target] renvoie la réponse à votre serveur et celui-ci décide de l’expérience à fournir à l’appareil client pour qu’il la restitue. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un appareil non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}. |
 | Implémentation hybride | Dans cette implémentation, vous choisissez l’approche d’implémentation qui fonctionne le mieux pour un cas d’utilisation donné. Par exemple, vous pouvez utiliser une implémentation côté client pour tester une offre A/B dans une bannière principale sur la page d’accueil, mais également utiliser une implémentation côté serveur pour déterminer les résultats de la recherche interne à afficher sur un navigateur client, l’expérience à afficher sur un tableau de bord de voiture intelligente ou la réponse vocale à fournir à partir d’un assistant vocal. |
 
@@ -156,12 +156,12 @@ Considérez les idées suivantes avant de passer au chapitre suivant : « Dév
 ### Les opinions peuvent avoir une incidence négative sur vos résultats.
 
 * Les opinions qui peuvent avoir un effet négatif sur votre efficacité. Opinion de la personne la plus payée (HIPPO), attitudes, préjugés. Par exemple, le PDG souhaite réduire la taille de la zone de recherche pour libérer plus de place sur chaque page. Nous devrions faire des tests pour nous assurer que cela ne réduit pas le nombre de recherches.
-* Agissez-vous en fonction de vos opinions ? Je n&#39;aime pas l&#39;aspect de ce test. Le client n’appréciera pas du tout cette expérience. Bien que l’intuition soit utile, les tests A/B ont prouvé à maintes reprises qu’elle n’est pas toujours au point.
+* Agissez-vous en fonction de vos opinions ? Je n&#39;aime pas l&#39;aspect de ce test. Le client n’appréciera pas du tout cette expérience. Bien que l’intuition soit utile, les tests A/B ont prouvé à maintes reprises qu’elle n’est pas toujours parfaite.
 * Ou avez-vous un état d’esprit d’optimisation ? J&#39;ai hâte de voir quelle expérience va gagner. Avons-nous suffisamment d’options à tester ?
 
 ### Les suppositions peuvent également avoir une incidence négative sur les résultats.
 
 * Les suppositions qui peuvent avoir un effet négatif sur votre efficacité. L’effet de meute (c’est comme ça que font nos concurrents). Par exemple : tous nos concurrents utilisent des bannières principales avec des images rotatives, donc c’est ce que nous devons faire aussi.
-* Supposons que nous sachions pourquoi quelque chose fonctionne ou ne fonctionne pas. En supposant qu&#39;on n&#39;ait pas besoin de tester quelque chose. Par exemple : nous avons toujours listé, par défaut, les chambres d’hôtel du prix le plus élevé au prix le plus bas.
+* Supposons que nous sachions pourquoi quelque chose fonctionne ou ne fonctionne pas. Supposons que nous n’ayons pas besoin de tester quelque chose. Par exemple : nous avons toujours listé, par défaut, les chambres d’hôtel du prix le plus élevé au prix le plus bas.
 * Agissez-vous en fonction de vos suppositions ? Nous n’avons pas besoin de tester cela, nous avons vérifié les analyses. (Oui, mais il y a peut-être des informations que l’analyse ne révèle pas.)
 * Ou avez-vous un état d’esprit d’optimisation ? Nous testons tout.

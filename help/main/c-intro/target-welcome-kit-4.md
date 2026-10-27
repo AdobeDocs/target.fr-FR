@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2961'
-ht-degree: 72%
+source-wordcount: '2987'
+ht-degree: 71%
 ---
 # Chapitre 4 : Conseils d’utilisation de Target
 
@@ -160,7 +160,7 @@ Les tests effectués aussi près que possible de la page sur laquelle les visite
 
 ## Conseil 15 : mise à jour constante de vos tests pour apporter des améliorations itératives.
 
-Si votre hypothèse ne se vérifie pas, réfléchissez aux moyens d’améliorer votre test. N’oubliez pas que même si aucune des expériences testées n’a donné de meilleurs résultats, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation du chiffre d’affaires ou des conversions. Si le test a vraiment confirmé votre hypothèse, vous êtes sur la bonne voie pour développer une théorie générale. Mais même lorsque vous obtenez un résultat nettement gagnant, ne vous arrêtez pas là. Les professionnels du marketing commettent trop souvent l’erreur de réaliser un seul test, puis de miser sur les résultats obtenus sans vraiment comprendre la raison de cette réussite. Au contraire, envisagez de reproduire ces résultats pour déterminer la clé de la réussite. Ainsi, les informations obtenues seront plus précises et vous pourrez les utiliser dans vos futures campagnes.
+Si votre hypothèse ne se vérifie pas, réfléchissez aux moyens d’améliorer votre test. N’oubliez pas que même si aucune des expériences testées n’a donné de meilleurs résultats, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a réellement confirmé votre hypothèse, vous êtes sur la bonne voie pour développer une théorie générale. Mais même lorsque vous avez un résultat clairement gagnant, ne vous arrêtez pas là. Les professionnels du marketing commettent trop souvent l’erreur de réaliser un seul test, puis de miser sur les résultats obtenus sans vraiment comprendre la raison de cette réussite. Au contraire, envisagez de reproduire ces résultats pour déterminer la clé de la réussite. Ainsi, les informations obtenues seront plus précises et vous pourrez les utiliser dans vos futures campagnes.
 
 ## Conseil 16 : comparaison des activités de tests et de personnalisation pour obtenir des idées permettant d’améliorer le ciblage.
 
@@ -178,7 +178,7 @@ Les organisations d’optimisation performantes adhèrent au concept des tests e
 
 Par exemple, un client des services de santé Adobe a récemment prouvé l’utilité des tests en démontrant comment une bannière principale, que l’équipe avait considérée comme un coup de maître, avait en réalité eu un impact négatif sur la conversion. Si votre entreprise n’a pas encore entièrement adopté les tests, il est préférable de commencer par des tests plus simples et de moindre envergure, afin de pouvoir apporter des modifications progressives à partir des résultats des tests.
 
-## Conseil 19 : l’annonce du lancement d’un test permet d’éviter toute inquiétude lors de la modification du site.
+## Conseil 19 : informez tout le monde que vous avez lancé un test afin d’éviter toute inquiétude lors de la modification du site.
 
 L’un des avantages de la configuration de vos activités pour l’utilisation des paramètres d’assurance qualité est que vous pouvez partager ces liens avec tous les membres de votre équipe. Vous informez davantage de personnes sur l’activité et vous vous assurez qu’elles ne supposent pas que le site ne fonctionne pas correctement lorsqu’elles accèdent à une variante de test.
 

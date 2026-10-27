@@ -29,12 +29,12 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 57%
+source-wordcount: '838'
+ht-degree: 56%
 ---
-# Extension [!UICONTROL &#x200B; Visual Editing Helper &#x200B;]
+# Extension [!UICONTROL  Visual Editing Helper ]
 
 L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] pour [!DNL Google Chrome] vous permet de charger des sites web de manière fiable dans le [!UICONTROL compositeur d’expérience visuelle] [!UICONTROL Adobe Target] (VEC) afin de créer rapidement des expériences web et une assurance qualité.
 
@@ -61,7 +61,7 @@ L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 
 L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] pour résout les problèmes de chargement du site pour lesquels les clients se fient désormais au [!DNL Target] [Enhanced Experience Composer](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) ou à des extensions tierces, telles que Requestly.
 
-## Avantages de l’utilisation de l’extension [!UICONTROL &#x200B; Visual Editing Helper &#x200B;]
+## Avantages de l’utilisation de l’extension [!UICONTROL  Visual Editing Helper ]
 
 * Tous les en-têtes qui démolissent un iframe, comme `X-Frame-Options` et `Content-Security-Policy`, sont implicitement supprimés du site web. Il n’est pas nécessaire de créer des règles complexes avec Requestly.
 * Si une page Web ne contient pas encore la bibliothèque at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
@@ -72,7 +72,7 @@ L’extension de navigateur [!DNL Adobe Experience Cloud] [!UICONTROL Visual Edi
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
-## Procurez-vous et installez l’extension de navigateur [!UICONTROL &#x200B; Visual Editing Helper &#x200B;].
+## Procurez-vous et installez l’extension de navigateur [!UICONTROL  Visual Editing Helper ].
 
 1. Accédez à l’extension de navigateur [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Cliquez sur **[!UICONTROL Ajouter à Chrome]** > **[!UICONTROL Ajouter une extension]**.

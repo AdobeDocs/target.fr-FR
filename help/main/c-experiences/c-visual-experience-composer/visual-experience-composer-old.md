@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: f7501c88-b36a-590b-9cc4-dea607bda94b
     internal-label: Visual Experience Composer (VEC)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 75%
+ht-degree: 74%
 ---
 # Compositeur d’expérience visuelle (VEC)
 
@@ -33,7 +33,7 @@ Cette URL détermine votre point de départ lors de l’ouverture de VEC. Si vou
 >
 >Certains navigateurs tels que Firefox peuvent empêcher l’affichage d’une page dans VEC si celle-ci comporte du contenu mixte (une page non sécurisée d’un site sécurisé, par exemple). Si votre page ne s’affiche pas, cliquez sur l’icône en regard de l’URL dans la barre d’adresse du navigateur et cliquez sur **[!UICONTROL Désactiver la protection sur cette page]**. Ce problème n’a aucun impact sur l’affichage de vos pages pour les visiteurs du site.
 
-Le contenu dans un iframe sur la page ne peut pas être modifié dans VEC. Pour modifier du contenu dans un iframe, assurez-vous que le document iframe est activé pour Target, puis chargez cette URL d’iframe dans VEC.
+Le contenu d’un iframe sur la page ne peut pas être modifié dans le VEC. Pour modifier du contenu dans un iframe, assurez-vous que le document iframe est activé pour Target, puis chargez cette URL d’iframe dans VEC.
 
 Vous pouvez utiliser les menus déroulants se trouvant dans la partie supérieure de la page pour afficher votre page telle qu’elle apparaîtrait aux différentes audiences ou avec différentes expériences. Vous pouvez attribuer un nom à chaque expérience dans la deuxième liste déroulante. Par exemple, si vous testez l’emplacement du lien Accueil dans la barre de navigation, vous pouvez nommer une expérience pour laquelle le lien Accueil s’affiche tout d’abord comme « lien Accueil » pour faciliter l’identification des expériences dans la liste.
 
@@ -128,7 +128,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Office Hours : Compositeur d’expérience visuelle ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

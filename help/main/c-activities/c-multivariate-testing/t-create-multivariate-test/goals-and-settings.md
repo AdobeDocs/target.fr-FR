@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1267'
 ht-degree: 41%
 ---
 # Objectifs et paramètres ([!UICONTROL test multivarié])
@@ -122,7 +122,7 @@ Par défaut, les rapports présentent les résultats pour tous les visiteurs qua
 
 ### Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL &#x200B; Test multivarié &#x200B;].
+Les paramètres avancés sont disponibles pour les mesures d’objectif [!UICONTROL  Test multivarié ].
 
 ![Menu Paramètres avancés](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
@@ -194,4 +194,4 @@ Cette vidéo explique comment créer un test multivarié à l’aide du workflow
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

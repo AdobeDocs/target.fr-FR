@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ee887007d9793bbe49bbb8f84151473cd626846d
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1444'
 ht-degree: 21%
 ---
 # [!UICONTROL Mesures de succès]
@@ -58,7 +58,7 @@ Les mesures de succès suivantes peuvent être configurées dans la section [!UI
 
 | Mesure de succès | Approche de mesure | Définition |
 |--- |--- |--- |
-| [!UICONTROL &#x200B; Conversion &#x200B;] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
+| [!UICONTROL  Conversion ] | Basée sur les conversions | La conversion survient lorsqu’un visiteur effectue sur votre site une action que vous avez définie, telle que <ul><li>A affiché une page</li><li>A affiché une mbox</li><li>A cliqué sur un élément</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
 | [!UICONTROL Recettes] | Basée sur les conversions | Recettes générées par la visite. Vous ne pouvez choisir qu’une seule mesure de chiffre d’affaires :<ul><li>A affiché une mbox</li></ul>La vue du chiffre d&#39;affaires (RPV, AOV, Ventes totales ou Commandes) est sélectionnée dans la section [!UICONTROL Rapports] plutôt que lors de la configuration de l&#39;activité. Voir [Basculer entre les vues de rapports de chiffre d’affaires](#revenue-views). |
 | [!UICONTROL Engagement] | Basée sur les engagements | Engagement généré par la visite. Vous pouvez choisir parmi les mesures d’engagement suivantes :<UL><li>Pages vues : chaque visite unique est comptabilisée comme une conversion.</li><li>[!UICONTROL Score personnalisé] : score agrégé basé sur la valeur affectée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la demande de [!DNL Target] d’affichage de l’activité.</li>[!DNL Time on Site] : durée de la visite (en secondes) entre le moment où le visiteur voit la première demande d’affichage de l’activité [!DNL Target] le chargement de la page finale avec une demande dans la session.</UL> |
 
@@ -103,7 +103,7 @@ Pour accéder aux options [!UICONTROL Paramètres avancés], cliquez sur l’ic�
 
 ![Menu Paramètres avancés](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
-Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif &#x200B;] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté &#x200B;] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif &#x200B;](#what-happens) ?
+Pour plus d’informations sur les options [!UICONTROL Paramètres avancés] (« [!UICONTROL Que se passera-t-il lorsqu’un utilisateur ou une utilisatrice atteint cet objectif ] » et « [!UICONTROL Comment le nombre sera-t-il incrémenté ] »), consultez [Que se passe-t-il lorsqu’un utilisateur ou une utilisatrice atteint cette mesure d’objectif ](#what-happens) ?
 
 >[!NOTE]
 >

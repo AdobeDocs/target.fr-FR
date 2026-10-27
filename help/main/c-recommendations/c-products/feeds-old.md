@@ -2,7 +2,7 @@
 keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux de recherche de produit Google et de classifications de produit [!DNL Analytics].
 title: Comment utiliser [!UICONTROL Flux] dans [!DNL Target Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 product_v2:
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 45%
+source-wordcount: '2586'
+ht-degree: 43%
 ---
 # Flux
 
@@ -100,7 +100,7 @@ La syntaxe suivante est correcte :
 
 >[!NOTE]
 >
->Vous ne pouvez pas remplacer une valeur existante par une valeur vierge. Transmettez une autre valeur à sa place pour la remplacer. Dans le cas d’un prix de vente, une solution courante consiste à transmettre un « NULL » réel ou un autre message. Vous pouvez alors écrire une règle de modèle afin d’exclure des éléments comportant cette valeur.
+>Vous ne pouvez pas remplacer une valeur existante par une valeur vide. Transmettez une autre valeur à sa place pour la remplacer. Dans le cas d’un prix de vente, une solution courante consiste à transmettre un « NULL » réel ou un autre message. Vous pouvez alors écrire une règle de modèle afin d’exclure des éléments comportant cette valeur.
 
 Le produit est disponible dans l’interface d’administration environ deux heures après le chargement de son entité.
 
@@ -128,7 +128,7 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des revendeurs chargent les produits vers Google. Ainsi, lorsqu’un visiteur utilise la recherche de produits Google, ses produits s’affichent. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [ définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -219,7 +219,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
+La classification de produit [!DNL Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
@@ -239,10 +239,10 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    ![Boîte de dialogue Créer un flux](assets/CreateFeed.png)
 
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source **&#x200B;**.
+1. Sélectionnez un type de Source ****.
 
    * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit &#x200B;]
+   * [!UICONTROL Flux de produit ]
    * [!UICONTROL Classifications Analytics]
 
    Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
@@ -303,7 +303,7 @@ Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
+| [!UICONTROL  Synchronisation ] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
 | [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
 | [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
@@ -327,7 +327,7 @@ Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UI
 | Indicateur d’état | Description |
 |--- |--- |
 | Indicateur d’état vert | Une fois l’indexation du flux terminée, celui-ci est marqué d’un point vert pour indiquer que son état est Succès. |
-| Indicateur d’état jaune | Lorsqu’un index de flux ou un flux est retardé de 25 % par rapport à la fréquence du flux, un point d’état jaune s’affiche. Par exemple, un point jaune s’affiche pour un flux défini pour s’exécuter tous les jours si l’index n’est pas terminé six heures après l’heure planifiée. Remarque : une fois que le statut du flux est « En attente de la file d’attente de l’index », les valeurs nouvellement mises à jour sont disponibles dans la diffusion et le traitement des critères. |
+| Indicateur d’état jaune | Lorsqu’un index de flux ou un flux est retardé de 25 % par rapport à la fréquence du flux, un point d’état jaune s’affiche. Par exemple, un point jaune s’affiche pour qu’un jeu de flux s’exécute tous les jours si l’index ne s’est pas terminé six heures après l’heure planifiée. Remarque : une fois que le statut du flux est « En attente de la file d’attente de l’index », les valeurs nouvellement mises à jour sont disponibles dans la diffusion et le traitement des critères. |
 | Indicateur d’état blanc | Lorsqu’un flux n’est pas planifié, un point d’état blanc indique que le flux n’a pas encore été exécuté. |
 | Indicateur d’état rouge | Si le flux ne parvient pas à charger les données sur le serveur, un indicateur de statut rouge s’affiche. |
 
@@ -336,7 +336,7 @@ Prenons les exemples suivants :
 **Exemple 1 :**
 
 * Premier jour : processus quotidiens d’alimentation à 9 h (heure du Pacifique).
-* 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
+* Jour deux : il est 15h30 et le flux n&#39;a pas fonctionné depuis hier à 9h00.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
@@ -358,7 +358,7 @@ Cette vidéo traite des sujets suivants :
 * Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/33898?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Créer un flux (6:44) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -367,4 +367,4 @@ Cette vidéo traite des sujets suivants :
 * Configurer un flux
 * Déterminer le type de flux à utiliser
 
->[!VIDEO](https://video.tv.adobe.com/v/33897?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

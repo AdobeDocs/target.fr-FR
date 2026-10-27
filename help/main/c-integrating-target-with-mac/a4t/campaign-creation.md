@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 28%
+source-wordcount: '666'
+ht-degree: 24%
 ---
 # Création d’une activité utilisant Analytics en tant que source de rapports
 
@@ -56,7 +56,7 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
      Vérifiez votre société [!DNL Analytics]. Si votre compte [!DNL Adobe Experience Cloud] est lié à plusieurs sociétés [!DNL Analytics], déconnectez-vous d’[!DNL Target] et connectez-vous à [!DNL Analytics] sous la bonne société. Revenez ensuite à [!DNL Target] pour charger les suites de rapports.
 
-   * Vous ne voyez pas les suites de rapports attendues.
+   * Vous ne voyez pas la suite de rapports attendue.
 
      Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si les suites de rapports attendues ne s’affichent pas, essayez d’abord de vous déconnecter puis de vous reconnecter au [!DNL Adobe Experience Cloud] pour réessayer.
 
@@ -75,7 +75,7 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
    >
    >Vous pouvez envoyer une mesure personnalisée basée sur Target à [!DNL Analytics] plutôt que de vous fier uniquement aux données [!DNL Analytics]. Par exemple, vous pouvez surveiller un clic sur une page, qui n’est généralement pas suivie par [!DNL Analytics]. Cette mesure personnalisée est envoyée automatiquement à [!DNL Analytics] à partir du serveur [!DNL Target] et apparaît comme mesure « Conversion [!DNL Target] » dans le sélecteur de mesures de [!DNL Analytics]. La mesure Conversion [!DNL Target] est vide si vous choisissez d’utiliser des mesures [!DNL Analytics].
 
-   La définition d’un objectif ne signifie pas que vous ne pouvez pas utiliser une autre mesure lors de l’évaluation des résultats d’un test. L’objectif est, néanmoins, un rappel de l’une des choses que l’activité permet d’améliorer.
+   Définir un objectif ne signifie pas que vous ne pouvez pas utiliser une autre mesure lors de l’évaluation des résultats de test. L’objectif est, néanmoins, un rappel de l’une des choses que l’activité permet d’améliorer.
 
    Le visiteur reste dans l’activité après avoir atteint l’objectif. Le visiteur continue à voir le contenu de l’activité mais n’est pas comptabilisé comme une nouvelle entrée d’activité.
 
@@ -87,4 +87,4 @@ La création d’une activité [!DNL Target] qui utilise [!DNL Analytics] comme 
 
 ## A4T et les activités d’affectation automatique et de ciblage automatique
 
-Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Pour plus d’informations, consultez Prise en charge d’[ A4T pour les activités d’affectation automatique et de ciblage automatique ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).

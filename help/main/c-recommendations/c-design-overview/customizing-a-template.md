@@ -2,7 +2,7 @@
 keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
 description: Découvrez comment utiliser le langage de conception de [!DNL Velocity] open source pour personnaliser des conceptions de recommandations dans [!DNL Target] Recommendations.
 title: Comment personnaliser une conception à l’aide de Velocity ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 TQID: 'https://experienceleague.adobe.com/cccBRfwqqn-eL2hraSDAoJHPYSCkcA9tVne3OWDXxEU'
@@ -18,10 +18,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 60%
+source-wordcount: '1095'
+ht-degree: 56%
 ---
 # Personnalisation d’une conception à l’aide de [!DNL Velocity]
 
@@ -257,7 +257,7 @@ L’extrait HTML suivant remplace la partie HTML existante dans la conception pa
 
 * S’il existe une cinquième entité, le script insère une balise closing div et ouvre une nouvelle ligne avec `<div class="at-table-row">`.
 * Avec 4 x 2, le nombre maximal de résultats affichés est de huit, mais il peut être personnalisé pour les plus petites ou plus grandes listes en modifiant `$count <=8`.
-* N’oubliez pas que la logique n’équilibrera pas les entités sur plusieurs lignes. Par exemple, s’il y a cinq ou six entités à afficher, elles ne seront pas placées dynamiquement trois en haut et deux en bas (ou trois en haut et trois en bas). La rangée supérieure affichera quatre éléments avant de commencer une seconde ligne.
+* Gardez à l’esprit que la logique n’équilibrera pas les entités sur plusieurs lignes. Par exemple, s’il y a cinq ou six entités à afficher, elles ne deviennent pas dynamiquement trois en haut et deux en bas (ou trois en haut et trois en bas). La rangée supérieure affichera quatre éléments avant de commencer une seconde ligne.
 
 ```
 <div class="at-table">

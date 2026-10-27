@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 21%
+source-wordcount: '498'
+ht-degree: 18%
 ---
 # Utilisation des données [!DNL Adobe Analytics]
 
@@ -47,6 +47,6 @@ Lors de la configuration d’une activité après avoir configuré [!DNL Analyti
 
 Vous devez sélectionner une mesure de succès à utiliser comme objectif pour chaque activité. L’objectif de l’activité est l’activité de conversion qui signale une activité réussie. La bonne pratique consiste à ne jamais exécuter un test sans avoir un objectif d’amélioration d’une manière spécifique. Vous pouvez choisir n’importe quelle mesure [!DNL Analytics] disponible dans le sélecteur de mesures [!DNL Analytics].
 
-La définition d’un objectif ne signifie pas que vous ne pouvez pas utiliser une autre mesure lors de l’évaluation des résultats d’un test. L’objectif est, néanmoins, un rappel de l’une des choses que vous voulez améliorer avec le test.
+Définir un objectif ne signifie pas que vous ne pouvez pas utiliser une autre mesure lors de l’évaluation des résultats de test. L’objectif est, néanmoins, un rappel de l’une des choses que vous voulez améliorer avec le test.
 
 Une fois qu’un visiteur a terminé votre objectif, il n’est plus inclus dans l’activité. Si le visiteur rejoint à nouveau votre activité après avoir terminé une activité, il est comptabilisé comme un nouveau visiteur.

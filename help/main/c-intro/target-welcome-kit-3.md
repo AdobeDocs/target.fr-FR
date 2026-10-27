@@ -29,14 +29,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 88%
 ---
 # Chapitre 3 : Développement de vos idées de test et de personnalisation
 
-Pour votre première activité, vous pouvez tester une opération très simple, comme changer la couleur ou le texte d’un bouton d’appel à l’action. Simplement pour prendre vos marques. À plus long terme, cependant, vous pourrez créer un processus formel et réutilisable pour émettre des idées d’activités de test et de personnalisation qui permettront de faire évoluer votre programme d’optimisation et de personnalisation. Les six étapes suivantes présentent un processus éprouvé pour y parvenir, ainsi que des instructions détaillées pour chaque étape.
+Pour votre première activité, vous pouvez tester une opération très simple, comme changer la couleur ou le texte d’un bouton d’appel à l’action. Simplement pour prendre vos marques. À plus long terme, cependant, vous souhaiterez établir un processus formel et répétable pour émettre des idées d’activités de test et de personnalisation qui permettront de faire évoluer votre programme d’optimisation et de personnalisation. Les six étapes suivantes présentent un processus éprouvé pour y parvenir, ainsi que des instructions détaillées pour chaque étape.
 
 ![Diagramme de l’exécution itérative de la stratégie d’optimisation et de personnalisation](/help/main/c-intro/assets/six-steps.png)
 
@@ -73,7 +73,7 @@ Instructions :
 * Achevez et approuvez les conceptions finales des expériences d’activité.
 * Documentez les exigences de l’activité de [!DNL Target], y compris les critères d’entrée de test, les mesures de rapports et les changements d’expérience.
 
-Utilisez le planificateur d’activités, fourni ultérieurement dans le kit de bienvenue, pour documenter les détails de l’activité, y compris les mesures que vous utiliserez pour évaluer les performances de l’activité, telles que le nombre de clics sur un bouton d’appel à l’action, les lectures de vidéos ou les recettes générées. Veillez à inclure des copies d’écran ou des images des conceptions d’expérience que vous prévoyez de tester ou de personnaliser.
+Utilisez le planificateur d’activités, fourni ultérieurement dans le kit de bienvenue, pour documenter les détails de l’activité, y compris les mesures que vous utiliserez pour mesurer les performances de l’activité, telles que le nombre de clics sur un bouton call to action, les lancements vidéo ou les recettes générées. Veillez à inclure des copies d’écran ou des images des conceptions d’expérience que vous prévoyez de tester ou de personnaliser.
 
 ## Étape 4 : création et exécution
 
@@ -85,7 +85,7 @@ Instructions :
 * Obtenez l’approbation de toutes les parties prenantes requises.
 * Lancez l’activité et examinez les mesures au bout d’une heure, de 24 heures et périodiquement pendant toute la durée de l’activité.
 
-Par exemple, si vous souhaitez cibler les nouveaux visiteurs avec une offre de boîte lumineuse de 10 % de remise sur leur première commande, vous demanderez à vos talents créatifs de s’occuper de la conception et du texte de la boîte lumineuse. Ensuite, vous obtiendrez l’approbation des parties prenantes sur la conception, demanderez aux développeurs d’écrire le code, effectuerez un contrôle qualité dans un environnement d’évaluation et lancerez votre activité. Vous surveillerez ensuite l’activité afin de vous assurer que celle-ci ne provoque aucun impact négatif majeur.
+Par exemple, si vous souhaitez cibler les nouveaux visiteurs avec une offre de boîte lumineuse de 10 % de remise sur leur première commande, vous demanderez à vos talents créatifs de s’occuper de la conception et du texte de la boîte lumineuse. Ensuite, vous obtiendrez l’approbation des parties prenantes sur la conception, demanderez aux développeurs d’écrire le code, effectuerez un contrôle qualité dans un environnement d’évaluation et lancerez votre activité. Vous surveillerez ensuite l’activité pour vous assurer qu’elle ne provoque aucun impact négatif majeur.
 
 ## Étape 5 : analyse
 

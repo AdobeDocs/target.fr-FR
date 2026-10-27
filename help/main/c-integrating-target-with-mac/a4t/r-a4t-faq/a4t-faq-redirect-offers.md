@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 50%
+source-wordcount: '1475'
+ht-degree: 46%
 ---
 # FAQ sur les offres de redirection - A4T
 
@@ -43,7 +43,7 @@ Oui, si votre implémentation utilise [!DNL at.js]. Toutefois, votre implémenta
 
 +++
 
-## ![Badge Adobe Experience Platform Web SDK &#x200B;](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
+## ![Badge Adobe Experience Platform Web SDK ](/help/main/assets/platform.png) le [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
 
 +++Réponse
 Les questions fréquentes suivantes fournissent des informations supplémentaires sur l’utilisation d’A4T et sur les offres de redirection avec l’[!DNL Platform Web SDK] .
@@ -145,7 +145,7 @@ Demandez à votre équipe informatique de placer sur la liste autorisée ces par
 
 +++
 
-## Que puis-je faire si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires s’ajoutent à mes URL ? {#section_9E608D75FF9349FE96C65FEDD7539F45}
+## Que se passe-t-il si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires soient ajoutés à mes URL ? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 +++Réponse
 Utilisez une redirection codée sur mesure si :
@@ -163,7 +163,7 @@ Cependant, il est recommandé de conserver le paramètre `adobe_mc_ref` dans l�
 +++Réponse
 Si vous utilisez A4T et que vous redirigez des offres, Target ajoute les paramètres `adobe_mc_ref` et `adobe_mc_sdid` à l’URL. Ces valeurs sont déjà en codage URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder à nouveau les paramètres de la chaîne de requête.
 
-En raison de ce double codage, lorsque l’API visiteur tente de décoder la valeur `adobe_mc_sdid`, elle ne parvient pas à extraire le SDID et en génère un nouveau. Ce processus entraîne l’envoi de valeurs SDID incorrectes à Target et Analytics et une répartition inégale des redirections s’affiche dans les rapports Analytics.
+En raison de ce double codage, lorsque l’API visiteur tente de décoder la valeur `adobe_mc_sdid`, elle ne peut pas extraire la valeur SDID et générer un nouveau SDID. Ce processus entraîne l’envoi de valeurs SDID incorrectes à Target et Analytics et une répartition inégale des redirections s’affiche dans les rapports Analytics.
 
 Adobe vous recommande de consulter votre équipe informatique pour vous assurer que les `adobe_mc_ref` et les `adobe_mc_sdid` sont traités de manière à ce que ces valeurs ne soient en aucun cas transformées.
 
@@ -183,13 +183,13 @@ Avec [!DNL at.js] version 0.9.6 (ou ultérieure) et [!DNL AppMeasurement.js] 2.1
 ## Puis-je utiliser des offres de redirection/HTML personnalisées ? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 +++Réponse
-Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T). Pour [!DNL Target], les offres HTML sont opaques : [!DNL Target] ne peut pas savoir si un code HTML spécifique contient le code JavaScript qui instancie une redirection.
+Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T). Du point de vue [!DNL Target], les offres d’HTML sont opaques : [!DNL Target] ne pouvez pas savoir qu’un élément particulier d’HTML contient du JavaScript qui instancie une redirection.
 
 +++
 
 ### Puis-je utiliser des offres de redirection personnalisées/HTML avec le [!DNL Platform Web SDK] ?
 
 +++Réponse
-Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent A4T. Du point de vue [!DNL Target], les offres d’HTML sont opaques. [!DNL Target] ne pouvez pas savoir qu’un élément particulier d’HTML contient JavaScript qui instancie une redirection.
+Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent A4T. Du point de vue [!DNL Target], les offres d’HTML sont opaques. [!DNL Target] ne pouvez pas savoir qu’un élément particulier d’HTML contient un JavaScript qui instancie une redirection.
 
 +++

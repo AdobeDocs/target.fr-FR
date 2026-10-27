@@ -1,8 +1,8 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Explorez les défis potentiels que vous pouvez rencontrer lors de l’utilisation d’activités  (AP) dans Adobe Target, ainsi que les solutions suggérées.
-title: Comment résoudre les problèmes liés aux activités  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Explorez les défis potentiels que vous pouvez rencontrer lors de l’utilisation d’activités [!UICONTROL ] (AP) dans Adobe Target, ainsi que les solutions suggérées.
+title: Comment résoudre les problèmes liés aux activités [!UICONTROL ] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 TQID: 'https://experienceleague.adobe.com/1Qevyq-TiutN1dEZnfC1DDmUgXoHIxtBl-3RMPq-m-0'
@@ -24,14 +24,14 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 30%
+source-wordcount: '766'
+ht-degree: 29%
 ---
 # Résolution des problèmes liés à 
 
-Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation de  (AP), ainsi que quelques solutions suggérées.
+Parfois, les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation de  (AP), ainsi que quelques solutions suggérées.
 
 ## Mon activité  prend trop de temps pour créer des modèles. {#section_20028B204DBB4D77A324BA193434AEE2}
 

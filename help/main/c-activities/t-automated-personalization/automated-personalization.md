@@ -1,8 +1,8 @@
 ---
 keywords: automated personalization;ap;audiences;ensemble;forêt aléatoire;bandit manchot;échantillonnage de thompson;ml;machine learning
-description: Découvrez comment utiliser les activités  (AP) dans les [!DNL Adobe Target] qui utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
-title: Qu’est-ce qu’une activité  (AP) ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Découvrez comment utiliser les activités [!UICONTROL ] (AP) dans les [!DNL Adobe Target] qui utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
+title: Qu’est-ce qu’une activité [!UICONTROL ] (AP) ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 30%
+source-wordcount: '1054'
+ht-degree: 27%
 ---
 # [!UICONTROL Automated Personalization] (AP)
 
@@ -67,7 +67,7 @@ Les termes suivants sont utiles pour aborder  :
 
 Tenez compte des détails suivants lors de l’utilisation de  :
 
-## utilise un algorithme Forêt aléatoire pour personnaliser
+##  utilise un algorithme Forêt aléatoire pour personnaliser
 
 Random Forest est une approche d&#39;apprentissage automatique de premier plan. En termes de science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans [!DNL Target], Random Forest est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou le revenu le plus élevé par visite) pour chaque visiteur spécifique. Par exemple, les visiteurs qui utilisent Chrome, qui sont des membres fidèles Gold et qui accèdent à votre site le mardi peuvent être plus susceptibles de convertir avec l’expérience A. Les visiteurs New Yorkais peuvent être plus susceptibles de convertir avec l’expérience B. Pour plus d’informations sur Forêt aléatoire dans [!DNL Target], voir [Algorithme de forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
@@ -81,7 +81,7 @@ Random Forest est une approche d&#39;apprentissage automatique de premier plan. 
 
 * Le bandit à plusieurs bras garantit que le modèle « dépense » toujours une petite fraction du trafic pour continuer à apprendre tout au long de la vie de l’activité et pour éviter la surexploitation des tendances apprises précédemment.
 * Les modèles sous-jacents sont reconstruits toutes les 24 heures à l’aide des dernières données de comportement des visiteurs afin de s’assurer que [!DNL Target] utilise toujours les préférences changeantes des visiteurs.
-* Si l’algorithme ne peut pas déterminer les expériences gagnantes pour les visiteurs individuels, il affiche automatiquement l’expérience globale la plus performante tout en continuant à rechercher des gagnants personnalisés. L’expérience la plus performante est trouvée en utilisant l’[échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Si l’algorithme ne peut pas déterminer les expériences gagnantes pour les visiteurs individuels, il passe automatiquement à l’affichage de l’expérience globale la plus performante, tout en continuant à rechercher des gagnants personnalisés. L’expérience la plus performante est trouvée en utilisant l’[échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ## Le modèle optimise en permanence une seule mesure d’objectif
 
@@ -113,4 +113,4 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target].  
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)

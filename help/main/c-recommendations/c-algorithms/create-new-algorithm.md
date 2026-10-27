@@ -2,7 +2,7 @@
 keywords: critères;algorithme;secteur vertical;type de page;clé de recommandation;logique;plage de données;intervalle de recherche en amont;source de données de comportement;conception partielle;recommandations de sauvegarde;règles d’inclusion;pondération d’attribut;catégorie actuelle;attribut personnalisé;dernier élément acheté;dernier élément consulté;élément le plus consulté;élément le plus consulté;catégorie préférée;popularité;dernier élément consulté;dernier achat;le plus consulté;favori;récemment consulté
 description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités [!DNL Recommendations] afin d’afficher les recommandations les plus appropriées pour votre activité.
 title: Comment créer des [!UICONTROL critères] dans [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 TQID: 'https://experienceleague.adobe.com/r9FWgHWw6NX1CmhqI-7MLoamNFDepeCq1bpiJ8eyISM'
@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 44%
+source-wordcount: '2988'
+ht-degree: 43%
 ---
 # Création de critères
 
@@ -57,7 +57,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 1. Saisissez un **[!UICONTROL Nom du critère]**.
 
-   C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous voulez peut-être appeler votre critère « Produits générant la marge la plus élevée », mais vous ne voulez pas que ce titre soit affiché publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
+   C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous pouvez appeler vos critères « Produits avec la marge la plus élevée », mais vous ne souhaitez pas que ce titre s’affiche publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
 
 1. Saisissez un **[!UICONTROL Titre d’affichage]** accessible au public, qui apparaîtra sur la page pour toutes les recommandations qui utilisent ce critère.
 
@@ -94,7 +94,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    ![section Algorithme recommandé](assets/recommended-algorithm.png)
 
-   | Type d’algorithme | Quand utiliser/algorithmes disponibles |
+   | Type d&#39;algorithme | Quand utiliser/algorithmes disponibles |
    | --- | --- |
    | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur. <ul><li>[!UICONTROL Les personnes qui les ont consultés l’ont également consulté] </li><li>[!UICONTROL Les Personnes Qui Les Ont Consultés Ont Également Acheté]</li><li>[!UICONTROL Les personnes qui ont acheté ces produits ont également acheté]</li></ul> |
    | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. <ul><li>[!UICONTROL Les plus consultés sur le site]</li><li>[!UICONTROL Les plus consultés par catégorie]</li><li>[!UICONTROL Éléments les plus consultés par attribut d’élément]</li><li>[!UICONTROL Les plus consultés par attribut de profil]</li><li>[!UICONTROL Meilleurs vendeurs sur le site]</li><li>[!UICONTROL Meilleurs vendeurs par catégorie]</li><li>[!UICONTROL Meilleurs vendeurs par attribut d&#39;article]</li><li>[!UICONTROL Meilleurs vendeurs par attribut de profil]</li><li>[!UICONTROL En tête par mesure Analytics]</li></ul> |
@@ -132,7 +132,7 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    ![4 x 1 design](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL &#x200B; Afficher les recommandations de sauvegarde &#x200B;], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que votre critère entraîne la recommandation de deux éléments uniquement. Si vous activez l&#39;option [!UICONTROL Rendu de conception partiel], les deux premiers emplacements sont remplis, mais les deux autres restent vides. Cependant, si vous activez l’option [!UICONTROL  Afficher les recommandations de sauvegarde ], les deux premiers emplacements sont remplis en fonction de vos critères spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous observerez lors de l’utilisation des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] :
 
@@ -151,13 +151,13 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    Pour plus d’informations, voir [Spécifier les règles d’inclusion](#inclusion) ci-dessous.
 
-## Source de données {#data-source}
+## Source de données][!UICONTROL  {#data-source}
 
-1. Sélectionnez le Source de données comportementales **souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**
+1. Sélectionnez le Source de données comportementales ]**souhaité : [!UICONTROL Adobe Target] ou [!UICONTROL Analytics].**[!UICONTROL 
 
    >[!NOTE]
    >
-   >La section Source des données comportementales s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+   >La section Source des données comportementales] s’affiche uniquement si votre implémentation utilise [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).[!UICONTROL 
 
    ![Section Source des données comportementales](assets/data-source.png)
 
@@ -177,7 +177,7 @@ Les règles [!UICONTROL Contenu de sauvegarde] déterminent ce qui se passe si l
 
    Si votre site reçoit un volume de trafic important et que les comportements changent fréquemment, sélectionnez une fenêtre de données plus courte. Une fenêtre plus courte permet [!DNL Recommendations] d’être plus réactif aux changements du marché et de votre entreprise. Par exemple, une fenêtre plus courte signifie que [!DNL Recommendations] détectera les changements de comportement des visiteurs lorsque ces derniers commencent des achats saisonniers, tels que les achats de la rentrée ou de la période des fêtes, et recommanderont les articles appropriés à ces saisons.
 
-   Si vous n’avez pas beaucoup de données ou que le comportement des visiteurs ne change pas fréquemment, vous pouvez sélectionner une fenêtre plus longue. Cependant, pour de nombreux sites, une fenêtre plus courte permet d’obtenir des recommandations de meilleure qualité.
+   Si vous ne disposez pas de beaucoup de données ou si le comportement des visiteurs ne change pas fréquemment, vous pouvez sélectionner une fenêtre plus longue. Cependant, pour de nombreux sites, une fenêtre plus courte permet d’obtenir des recommandations de meilleure qualité.
 
    Les périodes de données disponibles sont :
 

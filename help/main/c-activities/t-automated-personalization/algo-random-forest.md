@@ -2,7 +2,7 @@
 keywords: forêt aléatoire;arborescence de décision;ap;Automated Personalization
 description: Découvrez comment [!DNL Adobe Target] utilise l’algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique].
 title: Comment utilise-[!DNL Target] l’algorithme Forêt aléatoire ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 40%
+source-wordcount: '1461'
+ht-degree: 38%
 ---
 # Algorithme Forêt aléatoire
 
@@ -58,7 +58,7 @@ L’exemple se traduit par l’arborescence ci-dessous :
 
 ## Comment les arbres de décision sont-ils utilisés par Random Forest ? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Ils peuvent notamment « surapprendre » des données, avec pour résultat qu’un arbre individuel prédit incorrectement les données futures qui n’ont pas été utilisées pour générer l’arbre initial. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique. Les forêts aléatoires aident à surmonter ce défi de suradaptation. Au plus haut niveau, une forêt aléatoire est une collection d’arbres de décision générés de manière légèrement différente à partir du même ensemble de données, qui « votent » collectivement pour offrir un meilleur modèle qu’un arbre individuel. Les arbres sont construits en sélectionnant de manière aléatoire un sous-ensemble d&#39;enregistrements de visite avec remplacement (connu sous le nom d&#39;ensachage), et en sélectionnant de manière aléatoire un sous-ensemble des attributs, de sorte que la forêt se compose d&#39;arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres qui sont créés dans la forêt aléatoire. L’ajout de cette dose de variance contrôlée permet d’améliorer la valeur prédictive de l’algorithme.
+Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Plus important encore, ils peuvent « adapter » les données de sorte qu’une arborescence individuelle prédise mal les données futures qui n’ont pas été utilisées pour créer l’arborescence initiale. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique. Les forêts aléatoires aident à surmonter ce défi de suradaptation. Au plus haut niveau, une forêt aléatoire est une collection d’arbres de décision générés de manière légèrement différente à partir du même ensemble de données, qui « votent » collectivement pour offrir un meilleur modèle qu’un arbre individuel. Les arbres sont construits en sélectionnant de manière aléatoire un sous-ensemble d&#39;enregistrements de visite avec remplacement (connu sous le nom d&#39;ensachage), et en sélectionnant de manière aléatoire un sous-ensemble des attributs, de sorte que la forêt se compose d&#39;arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres qui sont créés dans la forêt aléatoire. L’ajout de cette dose de variance contrôlée permet d’améliorer la valeur prédictive de l’algorithme.
 
 ## Comment les algorithmes de personnalisation [!DNL Target] utilisent-ils Random Forest ? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 

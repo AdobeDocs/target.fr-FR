@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '646'
+ht-degree: 13%
 ---
 # FAQ sur le paramétrage des activités - A4T
 
@@ -47,24 +47,24 @@ Bien que cela soit pris en charge lorsque vous utilisez [!DNL Target] comme sour
 ## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux paramètres avancés ?
 
 +++Réponse
-Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL &#x200B; Incrémenter le décompte et conserver l’utilisateur dans l’activité &#x200B;] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
+Pour les activités utilisant [!DNL Analytics] comme source de création de rapports (A4T), la mesure d’objectif utilise les paramètres « [!UICONTROL  Incrémenter le décompte et conserver l’utilisateur dans l’activité ] » et « [!UICONTROL À chaque impression] ». Ces paramètres ne sont *pas configurables*
 
-Pour plus d’informations, reportez-vous à la rubrique « Lorsque je configure mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Pour plus d’informations, voir « Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options des Paramètres avancés ? » dans la [FAQ sur les définitions de mesures - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 +++
 
-## Je viens de créer une activité. Pourquoi aucunes données n’y sont-elles importées ? {#section_9F8092BE4225442896F926540292F221}
+## Je viens de créer une activité. Pourquoi est-ce que je ne vois aucune donnée qui entre ? {#section_9F8092BE4225442896F926540292F221}
 
 
 +++Réponse
-Lorsqu’une activité est créée, [!DNL Target] envoie un fichier de classification à [!DNL Analytics]. Bien que le [!DNL Analytics] capture et traite les données, il ne l’affiche pas dans les rapports tant que le fichier de classification n’a pas été mis à jour. Ce processus peut prendre entre 24 et 72 heures. Si, après 72 heures, vous ne voyez pas vos données, [contactez le service clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Si vous savez que vous lancez une activité, vous pouvez également créer l’activité quelques jours à l’avance et envoyer les classifications lorsque l’activité est enregistrée. De cette manière, les données apparaissent dans les rapports dès le lancement. Notez que le traitement des données en [!DNL Analytics] prend entre 45 et 90 minutes.
+Lorsqu’une activité est créée, [!DNL Target] envoie un fichier de classification à [!DNL Analytics]. Bien que le [!DNL Analytics] capture et traite les données, il ne l’affiche pas dans les rapports tant que le fichier de classification n’a pas été mis à jour. Ce processus peut prendre entre 24 et 72 heures. Si, au bout de 72 heures, vous ne voyez pas vos données, [contactez le service clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Si vous savez que vous lancez une activité, vous pouvez également créer l’activité quelques jours à l’avance et envoyer les classifications lorsque l’activité est enregistrée. De cette manière, les données apparaissent dans les rapports dès le lancement. Notez que le traitement des données en [!DNL Analytics] prend entre 45 et 90 minutes.
 
 +++
 
 ## Pourquoi ne puis-je pas sélectionner Analytics comme source de création de rapports lorsque je crée une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++Réponse
-Vous pouvez modifier vos options [!UICONTROL &#x200B; Paramètres de création de rapports &#x200B;] dans [!UICONTROL Administration].
+Vous pouvez modifier vos options [!UICONTROL  Paramètres de création de rapports ] dans [!UICONTROL Administration].
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**.
 1. Dans la liste déroulante **[!UICONTROL Solution Experience Cloud utilisée pour la création de rapports]**, cliquez sur **[!UICONTROL Sélection par activité]**.
@@ -91,9 +91,9 @@ Si les pourcentages ne sont pas ajustés en milieu d’activité, un visiteur qu
 
 +++
 
-## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] ? {#binomial}
+## Puis-je utiliser une mesure de [!DNL Analytics] binomiale avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL  Affectation automatique ] ? {#binomial}
 
 +++Réponse
-Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
+Vous ne pouvez pas utiliser une mesure [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL  Affectation automatique ]. Pour pallier ce problème, vous pouvez définir un événement personnalisé qui atteint le même objectif et l’utiliser comme mesure d’objectif d’optimisation.
 
 +++

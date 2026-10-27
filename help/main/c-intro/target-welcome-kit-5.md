@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 100%
+source-wordcount: '1077'
+ht-degree: 91%
 ---
 # Chapitre 5 : Inspiration pour les activités de test et de personnalisation
 
@@ -60,9 +60,9 @@ Envisagez de fournir des informations contextuelles supplémentaires directement
 
 ## Idée 5 : Réduisez le nombre de contacts nécessaires à la conversion.
 
-Identifiez les objectifs commerciaux et les indicateurs de performances clés que vous tentez d’atteindre grâce à vos efforts mobiles. Concevez ensuite l’expérience mobile pour offrir aux clients le chemin de la moindre résistance pour réaliser ces objectifs. La conversion doit se faire en trois contacts, mais donnez-vous pour objectif de réduire ce nombre à deux contacts si possible.
+Identifiez les objectifs commerciaux et les KPI que vous tentez d’atteindre grâce à vos efforts mobiles. Concevez ensuite l’expérience mobile pour offrir aux clients le chemin de la moindre résistance pour réaliser ces objectifs. La conversion doit se faire en trois contacts, mais donnez-vous pour objectif de réduire ce nombre à deux contacts si possible.
 
-## Idée 6 : Ne conduisez pas les visiteurs dans une impasse.
+## Idée 6 : Ne conduisez pas les visiteurs dans une impasse.
 
 Si des visiteurs qui vous arrivent depuis Google sont envoyés vers un contenu expiré ou en rupture de stock, réengagez-les par des recommandations pour leur donner une autre occasion de faire un achat.
 
@@ -80,7 +80,7 @@ Il suffit peut-être de modifier l’ordre des options parmi lesquelles les clie
 
 ## Idée 8 : Faites la promotion de votre application mobile sur votre site web.
 
-Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou autres appareils, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tombent sur votre application. Au lieu de cela, ayez une bonne stratégie en place pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation de l’application. Si votre site web comporte un lien pour télécharger votre application, essayez de tester l’efficacité d’une page de destination interstitielle qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d’accueil. Configurez un test de redirection qui filtre la moitié du trafic mobile sur la page de votre site actuel et l’autre moitié sur la page de destination interstitielle.
+Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou d’autres appareils, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tombent sur votre application dans l’App Store. Au lieu de cela, ayez une bonne stratégie en place pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation de l’application. Si votre site web comporte un lien pour télécharger votre application, essayez de tester l’efficacité d’une page de destination interstitielle qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d’accueil. Configurez un test de redirection qui filtre la moitié du trafic mobile sur la page de votre site actuel et l’autre moitié sur la page de destination interstitielle.
 
 ## Idée 9 : Utilisez les innovations des applications mobiles.
 
