@@ -128,7 +128,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30142?captions=fre_fr)
 
 ### Office Hours : Compositeur d’expérience visuelle ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
