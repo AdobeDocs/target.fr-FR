@@ -37,7 +37,7 @@ Vous pouvez définir s’il faut utiliser des classes d’éléments ou des ID d
 
 >[!NOTE]
 >
->Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] et[!UICONTROL  Test multivarié].
+>Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] et[!UICONTROL &#x200B; Test multivarié].
 
 Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 

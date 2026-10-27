@@ -93,7 +93,7 @@ Si votre société utilise des requêtes [!DNL Target] autres que la requête [!
 
 >[!NOTE]
 >
->Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevé], ou activer des priorités affinées de 0 à 999. Pour plus d’informations, voir [ Paramètres d’activité ](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevé], ou activer des priorités affinées de 0 à 999. Pour plus d’informations, voir [&#x200B; Paramètres d’activité &#x200B;](/help/main/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 Réponse : offer1
 

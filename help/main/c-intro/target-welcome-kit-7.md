@@ -38,7 +38,7 @@ Cependant, lors de votre première activité, il est essentiel d’établir une 
 
 ## Piste 1 : test A/B sur l’ensemble du trafic des visiteurs
 
-Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [ Affectation automatique ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
+Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
 
 Exemple : une société du secteur des médias teste son texte actuel pour une offre d’abonnement cadeau sur la page d’accueil de son site web ou mobile afin de déterminer quelle variation incite le plus de visiteurs à acheter un abonnement cadeau. Si elle sélectionne Affectation automatique, l’activité déplace plus de trafic vers la variante gagnante au cours de l’exécution du test. Si ce n’est pas le cas, il vous faudra activer manuellement l’expérience gagnante une fois le test terminé.
 
@@ -70,7 +70,7 @@ Lorsque vous proposez votre idée de test, rappelez-vous que vous devez être en
 
 ## Planification de votre activité à l’aide du planificateur d’activités
 
-Nous avons inclus le planificateur d’activités [](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et réutiliser à l’infini. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
+Nous avons inclus le planificateur d’activités [&#128279;](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et réutiliser à l’infini. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
 
 Vous devez remplir chaque zone du planificateur pour que l’activité s’exécute efficacement. Utilisez cet outil lorsque vous réfléchissez, avec d’autres personnes, à des idées concernant les activités de test et de personnalisation.
 
@@ -110,7 +110,7 @@ Si votre activité nécessite l’aide d’un concepteur, d’un développeur we
 
 Un certain nombre de visiteurs doit être placé dans la population testée pour tirer une conclusion statistiquement significative du test. Réfléchissez : si seulement deux personnes participent à votre test, pouvez-vous vous fier aux résultats ?
 
-[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous permet de déterminer la durée d’exécution d’un test en fonction du degré de confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL  En savoir plus ] dans cette zone pour ouvrir et utiliser le calculateur.
+[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous permet de déterminer la durée d’exécution d’un test en fonction du degré de confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL &#x200B; En savoir plus &#x200B;] dans cette zone pour ouvrir et utiliser le calculateur.
 
 ### Quelle est l’importance de cette activité ?
 

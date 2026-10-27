@@ -39,7 +39,7 @@ L’utilisation des [!UICONTROL fragments d’expérience] et [!UICONTROL fragme
 
 [!DNL Target] permet de diffuser des expériences personnalisées à grande échelle en combinant des approches de machine learning basées sur des règles et sur l’intelligence artificielle qui intègrent des variables comportementales, contextuelles et hors ligne.
 
-[!UICONTROL  Fragments d’expérience ] et [!UICONTROL Fragments de contenu] représentent une énorme avancée permettant de relier les créateurs et les gestionnaires de contenu et d’expérience aux professionnels de l’optimisation et de la personnalisation qui génèrent les résultats commerciaux en utilisant [!DNL Target].
+[!UICONTROL &#x200B; Fragments d’expérience &#x200B;] et [!UICONTROL Fragments de contenu] représentent une énorme avancée permettant de relier les créateurs et les gestionnaires de contenu et d’expérience aux professionnels de l’optimisation et de la personnalisation qui génèrent les résultats commerciaux en utilisant [!DNL Target].
 
 ## Considérations
 
@@ -65,4 +65,4 @@ Tenez compte des points suivants lorsque vous utilisez AEM [!UICONTROL Fragments
 
 [!DNL Adobe Experience Manager] [!UICONTROL Fragments d’expérience] et [!UICONTROL Fragments de contenu] peuvent sembler similaires à première vue, mais chaque type joue des rôles clés dans différents cas d’utilisation.
 
-Pour plus d’informations sur les similitudes et les différences des [!UICONTROL Fragments d’expérience] et [!UICONTROL Fragments de contenu], ou encore pour savoir quand et comment utiliser chacun d’eux, consultez les sections [Comprendre [!UICONTROL Fragments de contenu] et [!UICONTROL Fragments d’expérience]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=fr){target=_blank} dans le guide des vidéos et tutoriels AEM Sites [](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=fr){target=_blank}.
+Pour plus d’informations sur les similitudes et les différences des [!UICONTROL Fragments d’expérience] et [!UICONTROL Fragments de contenu], ou encore pour savoir quand et comment utiliser chacun d’eux, consultez les sections [Comprendre [!UICONTROL Fragments de contenu] et [!UICONTROL Fragments d’expérience]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=fr){target=_blank} dans le guide des vidéos et tutoriels AEM Sites [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=fr){target=_blank}.

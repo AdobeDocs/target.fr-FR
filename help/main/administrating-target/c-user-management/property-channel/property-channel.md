@@ -130,7 +130,7 @@ Les rôles et les autorisations déterminent les niveaux d’accès dont dispose
 | Rôle | Description |
 |--- |--- |
 | [!UICONTROL Approbateur] | Peut créer, modifier et activer ou arrêter les activités. |
-| [!UICONTROL Éditeur ] | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+| [!UICONTROL Éditeur &#x200B;] | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | [!UICONTROL Observateur] | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
 | [!UICONTROL Éditeur] | Similaire au rôle [!UICONTROL Observateur] (peut afficher des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle [!UICONTROL Éditeur] dispose de l’autorisation supplémentaire d’activer les activités. |
 
@@ -311,7 +311,7 @@ Oui, vous pouvez déplacer des audiences entre les espaces de travail à l’aid
 
    ![Autres actions > Déplacer](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. Sélectionnez l’espace de travail souhaité dans la liste déroulante ****, puis cliquez sur **[!UICONTROL Déplacer]**.
+1. Sélectionnez l’espace de travail souhaité dans la liste déroulante **&#x200B;**, puis cliquez sur **[!UICONTROL Déplacer]**.
 
    ![Sélectionnez l’audience souhaitée pour passer au nouvel espace de travail](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 

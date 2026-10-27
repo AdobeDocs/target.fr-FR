@@ -35,7 +35,7 @@ Oui, les objets [!UICONTROL Recommendations] ([!UICONTROL Critères], [!UICONTRO
 
 ## Puis-je gérer des offres visuelles créées par l’interface utilisateur de [!DNL Target] à l’aide des API [!DNL Target] ?
 
-Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL  Activités ], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
+Non. Les activités [!DNL Recommendations] avec des offres visuelles créées dans l’interface utilisateur de [!DNL Target] ne sont pas gérables à l’aide des API [!DNL Target]. Bien que ces activités s’affichent dans la liste [!UICONTROL &#x200B; Activités &#x200B;], vous ne pouvez pas les lire ni les mettre à jour (à l’aide de GET/PUT).
 
 ## Pourquoi la [!UICONTROL recherche catalogue] n’affiche-t-elle pas les bons résultats lorsque j’effectue une recherche sur un attribut personnalisé avec une valeur numérique ?
 

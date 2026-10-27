@@ -387,7 +387,7 @@ Si vous permutez une image dans un élément de mbox, puis tentez de redimension
 
 +++
 
-### Après avoir permuté une image, vous ne pouvez pas sélectionner l’action [!UICONTROL  Modifier ].
+### Après avoir permuté une image, vous ne pouvez pas sélectionner l’action [!UICONTROL &#x200B; Modifier &#x200B;].
 
 +++Détails
 Une fois que vous avez permuté l’image, vous ne pouvez pas modifier l’URL de Scene7.

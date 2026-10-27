@@ -151,11 +151,11 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 >[!NOTE]
 >
->Si votre organisation utilise [](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
+>Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
 
 ### Réinitialisation des données du rapport
 
-Cliquez sur [!UICONTROL  Réinitialiser les données du rapport ]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL approbateur].
+Cliquez sur [!UICONTROL &#x200B; Réinitialiser les données du rapport &#x200B;]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL approbateur].
 
 >[!IMPORTANT]
 >
@@ -253,7 +253,7 @@ L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
 Lorsque vous utilisez les options [!UICONTROL méthodologie de comptage], tenez compte des avertissements suivants :
 
-* Pour les activités de [[!UICONTROL ciblage automatique] ](/help/main/c-activities/auto-target/auto-target-to-optimize.md) , il n’existe aucune option permettant de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
+* Pour les activités de [[!UICONTROL ciblage automatique] &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) , il n’existe aucune option permettant de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
 * Pour les activités qui utilisent [Analytics comme source de création de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md), vous ne pouvez pas tracer de manière cumulative Visiteur, Visite ou Impression.
 
 ## Utiliser des graphiques comportant plus de 16 expériences dans l’activité

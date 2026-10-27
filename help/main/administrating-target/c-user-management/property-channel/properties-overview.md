@@ -70,7 +70,7 @@ Pour les tâches effectuées dans le [!DNL Adobe Admin Console for Enterprise], 
 
    Ou
 
-   Accédez à [](https://adminconsole.adobe.com/enterprise/) > Connectez-vous à l’aide de votre Adobe ID, si ce n’est pas déjà fait.
+   Accédez à [&#128279;](https://adminconsole.adobe.com/enterprise/) > Connectez-vous à l’aide de votre Adobe ID, si ce n’est pas déjà fait.
 
 
 1. (Conditionnel) Si vous avez accès à [!DNL Admin Console for Enterprise] pour plusieurs organisations, cliquez sur l’avatar en haut à droite de l’écran ou dans la barre de navigation supérieure, puis sélectionnez l’organisation appropriée.
@@ -118,7 +118,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
 Vous devez transmettre l’identifiant de l’espace de travail pour tirer parti des autorisations d’Enterprise dans les [API Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
 
-1. Dans [](https://adminconsole.adobe.com), cliquez sur l&#39;onglet [!UICONTROL Products], puis cliquez sur le produit dans le menu de gauche pour afficher la liste PLC(workspace).
+1. Dans [&#128279;](https://adminconsole.adobe.com), cliquez sur l&#39;onglet [!UICONTROL Products], puis cliquez sur le produit dans le menu de gauche pour afficher la liste PLC(workspace).
 1. Cliquez sur le PLC de votre choix (espace de travail), puis localisez l’identifiant « profils » dans l’URL, comme illustré ci-dessous.
 
    ![workspaceID](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)

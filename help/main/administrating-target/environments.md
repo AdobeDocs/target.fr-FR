@@ -50,7 +50,7 @@ Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **
 
 ## Ajout d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dans la liste [!UICONTROL  Environnements ], cliquez sur **[!UICONTROL Ajouter un environnement]**.
+1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur **[!UICONTROL Ajouter un environnement]**.
 1. Attribuez un nom explicite à l’environnement.
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 
@@ -66,7 +66,7 @@ Si vous utilisez [!UICONTROL Production] par défaut, tous les hôtes inconnus s
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la liste [!UICONTROL  Environnements ], cliquez sur l’icône en forme d’étoile
+1. Dans la liste [!UICONTROL &#x200B; Environnements &#x200B;], cliquez sur l’icône en forme d’étoile
 
 >[!NOTE]
 >

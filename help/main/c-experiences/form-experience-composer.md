@@ -38,9 +38,9 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
 1. Sélectionnez **[!UICONTROL Formulaire]** dans la boîte de dialogue [!UICONTROL Créer une activité].
 
-1. (Conditionnel) Si vous êtes un client [](/help/main/c-intro/intro.md#premium), dans la liste déroulante **[!UICONTROL Choisir Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes un client [&#128279;](/help/main/c-intro/intro.md#premium), dans la liste déroulante **[!UICONTROL Choisir Workspace]**, choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   L’option [[!UICONTROL  Choisir un lieu de travail ]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
+   L’option [[!UICONTROL &#x200B; Choisir un lieu de travail &#x200B;]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) est une fonctionnalité de [Target Premium](/help/main/c-intro/intro.md) qui peut ne pas s’afficher si votre entreprise dispose d’une licence [!UICONTROL Target Standard].
 
 1. Choisissez une propriété.
 
@@ -48,9 +48,9 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    Le [!UICONTROL compositeur d’expérience d’après les formulaires] s’ouvre.
 
-   Cet écran est différent si vous créez une activité [!UICONTROL  Recommendations ]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
+   Cet écran est différent si vous créez une activité [!UICONTROL &#x200B; Recommendations &#x200B;]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
-1. 
+1. &#x200B;
    1. Cliquez sur l’icône **[!UICONTROL Renommer]** ( ![Icône Renommer](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Renommer]**, attribuez un nom à l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
@@ -107,7 +107,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    **Modifier l’offre JSON :** choisissez une offre json.
 
-   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [ Fragment d’expérience ](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **Modifier le fragment d’expérience :** sélectionnez un fragment d’expérience. Pour plus d’informations, voir [&#x200B; Fragment d’expérience &#x200B;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
    **Modifier l’offre de redirection :** sélectionnez une offre de redirection. Pour plus d’informations, voir [Création d’offres de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md).
 

@@ -65,9 +65,9 @@ Vous pouvez créer une conception basée sur une conception par défaut ou sur u
 
 1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [&#128279;](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception ] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception &#x200B;] vers la position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >

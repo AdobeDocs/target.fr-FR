@@ -113,7 +113,7 @@ Cliquez sur **[!UICONTROL Afficher tous les détails]** pour afficher les audien
 
 >[!NOTE]
 >
->L’onglet [!UICONTROL  Utilisation du script ] n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
+>L’onglet [!UICONTROL &#x200B; Utilisation du script &#x200B;] n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
 >
 > * L’activité est à l’état [!UICONTROL Brouillon].
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
