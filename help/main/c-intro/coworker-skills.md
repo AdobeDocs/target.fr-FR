@@ -25,7 +25,7 @@ Les compétences de collègues aident les utilisateurs d’Adobe Target à utili
 [!DNL Adobe Target] outils MCP et Coworker sont documentés séparément et fournissent différentes fonctionnalités :
 
 * [MCP cible](../c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md) documente les outils individuels exposés par le serveur MCP direct, y compris leurs types d’activités pris en charge, les paramètres, les autorisations et la portée de lecture ou d’écriture.
-* [Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) fournit une couche d’orchestration en langage naturel distincte qui peut combiner les fonctionnalités et appliquer des workflows supplémentaires.
+* [Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview#target-activities-and-audiences) fournit une couche d’orchestration en langage naturel distincte qui peut combiner les fonctionnalités et appliquer des workflows supplémentaires.
 
 Le tableau suivant présente une comparaison de haut niveau des fonctionnalités associées.
 
