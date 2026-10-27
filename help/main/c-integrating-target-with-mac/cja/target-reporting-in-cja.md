@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 525737d4f8973f0b1ff04becd00c361c64b111e2
+source-git-commit: ea519da13a7a2e5dad0ea5303980347489b824df
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1935'
 ht-degree: 21%
 ---
 # [!DNL Target] de rapports dans [!DNL Adobe Customer Journey Analytics]
@@ -198,21 +198,23 @@ Configurez une vue de données dans [!DNL Customer Journey Analytics] qui pointe
 
 ## Créer et afficher des rapports d’activité dans [!DNL Customer Journey Analytics]
 
+>[!BEGINSHADEBOX]
+
+Cette intégration n’est pas identique à [!UICONTROL Adobe Analytics for Target] (A4T).
+
+* L’intégration [!DNL Target]/[!DNL Customer Journey Analytics] n’inclut pas de rapport préconfiguré tel qu’A4T. Les rapports d’activité doivent être créés dans [!DNL Customer Journey Analytics].
+
+* Si [!UICONTROL Utiliser une mesure CJA] lorsque la mesure d’objectif de l’activité est sélectionnée, cette option offre une certaine flexibilité quant au moment où des mesures de succès spécifiques doivent être définies. La mesure de succès est sélectionnée lors de la configuration du panneau [!UICONTROL Expérimentation]. L’effet élévateur et le degré de confiance sont calculés à partir de la mesure CJA sélectionnée.
+
+>[!ENDSHADEBOX]
+
 Une fois l’activité activée et la configuration de la connexion et des vues de données terminée, les données de rapport sont disponibles dans [!DNL Customer Journey Analytics]. Dans l’onglet **[!UICONTROL Rapports]** de l’activité dans [!DNL Target], utilisez **[!UICONTROL Afficher dans Customer Journey Analytics]** pour ouvrir les [!DNL Customer Journey Analytics] à analyser. Actuellement, ce lien vous redirige vers la page de destination d’accueil [!DNL Customer Journey Analytics].
 
 ![Lien de création de rapports &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/report-link.png)
 
->[!NOTE]
->
->Cette intégration n’est pas identique à [!UICONTROL Adobe Analytics for Target] (A4T).
->
->* L’intégration [!DNL Target]/[!DNL Customer Journey Analytics] n’inclut pas de rapport préconfiguré tel qu’A4T. Les rapports d’activité doivent être créés dans [!DNL Customer Journey Analytics].
->
->* Si [!UICONTROL Utiliser une mesure CJA] lorsque la mesure d’objectif de l’activité est sélectionnée, cette option offre une certaine flexibilité quant au moment où des mesures de succès spécifiques doivent être définies. La mesure de succès est sélectionnée lors de la configuration du panneau [!UICONTROL Expérimentation]. L’effet élévateur et le degré de confiance sont calculés à partir de la mesure CJA sélectionnée.
-
 1. Dans [!DNL Customer Journey Analytics], créez un panneau Expérimentation , puis sélectionnez l’activité dans le menu déroulant **[!UICONTROL Expérience]**.
 
-   Pour plus d’informations, voir [Panneau Expérimentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank} sous *Panneau Expérimentation* dans le guide d’*[!DNL Customer Journey Analytics]*.
+   Pour plus d’informations, voir la documentation [Panneau d’expérimentation](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}.
 
    ![Panneau Expérimentation dans Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -225,3 +227,5 @@ Une fois l’activité activée et la configuration de la connexion et des vues 
    Le panneau [!UICONTROL Expérimentation] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les performances de vos expériences. Pour plus d’informations, voir [[!UICONTROL Sortie de panneau]](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank} sous *Panneau Expérimentation* dans le guide de *[!DNL Customer Journey Analytics]*.
 
    ![&#x200B; Expérimentation &#x200B;](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
+
+Si le panneau [!UICONTROL Expérimentation] affiche 0 pour les colonnes de mesure de succès, [!UICONTROL Conversion], [!UICONTROL Effet élévateur] et [!UICONTROL Confiance], la mesure de succès peut ne pas se produire dans le même événement que l’activité de [!DNL Target]. Vérifiez si la [persistance](#set-up-data-views) est activée pour vos dimensions [!DNL Target] et si elle est appropriée à votre cas d’utilisation. Pour plus d’informations, voir [Persistance](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/persistence){target=_blank}.
