@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 140a7287246905d47bf02a84348627017a619386
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2913'
-ht-degree: 50%
+source-wordcount: '2918'
+ht-degree: 48%
 ---
 # FAQ relative à l’optimisation et la personnalisation de Target
 
@@ -329,7 +329,7 @@ Vous pouvez toujours utiliser l’option [Enhanced Experience Composer au niveau
 
 +++
 
-**Pourquoi aucune option n’est-elle visible pour échanger des images ?**
+**Pourquoi n’ai-je pas accès à une option de permutation d’images ?**
 
 +++Afficher les détails
 Contactez Adobe pour [vous assurer que votre compte est configuré pour Scene7](/help/main/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Une fois le provisionnement effectué, vous pourrez permuter aisément les images.
@@ -395,7 +395,7 @@ Nous proposons une [fonction d’URL de redirection](/help/main/c-experiences/c-
 **Pourquoi la diffusion de contenu ne fonctionne-t-elle pas dans mon processus d’AQ ?**
 
 +++Afficher les détails
-Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Voir [Sélecteurs CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
+Il est possible que votre site comporte des identifiants dynamiques, des identifiants en double ou des classes dynamiques sur des éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Voir [Sélecteurs CSS](/help/main/administrating-target/visual-experience-composer-set-up.md#css).
 
 +++
 
@@ -440,7 +440,7 @@ Notez que [!DNL Target] collecte les données à cet égard à partir du moment 
 **Je ne parviens pas à définir des audiences avant l’exécution de l’activité. Je trouve cet aspect du signalement des audiences dans les activités [!DNL Target] restrictif. Que puis-je faire pour faciliter ce processus ?**
 
 +++Afficher les détails
-C’est là que [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) s’avère pratique. Si vous avez [!DNL Adobe Analytics], il vous suffit de choisir la source comme [!DNL Analytics], ce qui élimine cette restriction. Vous pouvez alors exécuter des analyses sur n’importe quelle audience et à n’importe quel stade sans avoir besoin de définir les audiences de génération de rapport au préalable.
+C’est là que [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) s’avère pratique. Si vous avez [!DNL Adobe Analytics], il vous suffit de choisir la source comme [!DNL Analytics], ce qui élimine cette restriction. Vous pouvez désormais effectuer une analyse sur n’importe quelle audience à tout moment et vous n’avez pas besoin de définir les audiences de rapport au préalable.
 
 +++
 

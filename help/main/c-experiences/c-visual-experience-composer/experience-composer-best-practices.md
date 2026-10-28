@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 49%
+source-wordcount: '2560'
+ht-degree: 45%
 ---
 # [!UICONTROL Compositeur d’expérience visuelle] bonnes pratiques et limites
 
@@ -79,7 +79,7 @@ Tout élément se trouvant immédiatement dans l’élément de corps doit avoir
 +++Détails
 Lors de la modification de classes CSS dans le [!DNL Visual Experience Composer], il est utile de rendre les classes faciles à identifier à l’aide de noms de classe descriptifs. Cela permet de garantir que vous modifiez les classes CSS appropriées et que vos pages s’affichent comme prévu.
 
-Ne pas utiliser la propriété CSS `!important` lors du masquage ou de la suppression d’éléments.
+N’utilisez pas la propriété CSS `!important` lors du masquage ou de la suppression d’éléments.
 
 Si la propriété CSS `!important` est présente, les modifications apportées par `target.js` au cours de la diffusion sont remplacées par les règles CSS du site.
 
@@ -124,7 +124,7 @@ Les éléments au niveau du bloc ne doivent pas être utilisés dans les éléme
 
 +++
 
-### Ne pas utiliser la balise de base dans votre site web pour résoudre les URL et les liens.
+### N’utilisez pas la balise de base de votre site web pour résoudre les URL et les liens.
 
 +++Détails
 Le compositeur d’expérience visuelle manipule le site web en arrière-plan, à l’aide d’un serveur proxy qui met à jour les liens. Si vous ajoutez une balise de base, les URL utilisées par le serveur proxy sont à nouveau résolues par le navigateur et apparaissent rompues.
@@ -141,7 +141,7 @@ Par exemple, si vous avez entrepris deux actions :
 
 Chaque modification crée un élément dans le compositeur d’expérience visuelle. La deuxième action modifiant l’élément 1, si vous supprimez l’élément 1, la deuxième action n’a plus rien à modifier, la modification ne fonctionne donc plus.
 
-En d’autres termes, si vous ajoutez un élément avec du texte, puis, dans une action distincte, vous modifiez cet élément avec un texte différent, l’éditeur de code affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez alors l’élément d’origine, le texte modifié ne sera pas en mesure de trouver l’élément qui a été modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
+En d’autres termes, si vous ajoutez un élément avec du texte, puis, dans une action distincte, vous modifiez cet élément avec un texte différent, l’éditeur de code affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez ensuite l’élément d’origine, le texte modifié ne pourra pas trouver l’élément modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
 Voir [Sélecteurs d’éléments utilisés dans le [!UICONTROL compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
@@ -188,7 +188,7 @@ Testez plusieurs fois votre page pour vous assurer que la diffusion fonctionne c
 
 +++
 
-### Ne pas utiliser une balise de base dans votre site web pour résoudre les URL et les liens.
+### N’utilisez pas de balise de base dans votre site web pour résoudre les URL et les liens.
 
 +++Détails
 Lorsque vous utilisez le [!UICONTROL Enhanced Experience Composer], le site web est manipulé en arrière-plan par un serveur proxy qui met à jour toutes les URL de lien pour les faire fonctionner dans le proxy. Si vous ajoutez une balise de base, toutes ces URL sont résolues par le navigateur. Elles apparaissent donc endommagées.
@@ -265,7 +265,7 @@ Tenez compte des avertissements suivants lors de l’utilisation du [!UICONTROL 
 ### La fonction [!UICONTROL Déplacer] ne prend pas en charge z-index.
 
 +++Détails
-En raison de l’absence de fonctionnalité d’index z, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+En l’absence de fonctionnalité z-index, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 +++
 

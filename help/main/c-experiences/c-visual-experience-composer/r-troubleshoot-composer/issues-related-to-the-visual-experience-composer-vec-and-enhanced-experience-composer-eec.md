@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 31%
+source-wordcount: '1274'
+ht-degree: 30%
 ---
 # Résolution des problèmes liés au [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] et au [!UICONTROL compositeur d’expérience amélioré]
 
@@ -139,7 +139,7 @@ Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la pa
 
 +++
 
-## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
+## Je ne peux pas modifier les expériences d’un site qui démolit les iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
 +++Détails
 Ce problème peut être résolu en activant le [!UICONTROL Enhanced Experience Composer] (EEC). Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis cochez la case qui active le [!UICONTROL Compositeur d’expérience améliorée]. L’EEC utilise un proxy géré par [!DNL Adobe] pour charger votre page à modifier. Ce proxy permet la modification sur les sites qui démolissent un iFrame ainsi que sur les sites et les pages où vous n’avez pas encore ajouté de code [!DNL Adobe Target]. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites peuvent ne pas charger via l&#39;EEC, auquel cas vous pouvez décocher cette option pour charger l&#39;EEC via un iFrame.
@@ -150,10 +150,10 @@ Ce problème peut être résolu en activant le [!UICONTROL Enhanced Experience C
 
 +++
 
-## Je souhaite configurer des tests sur des pages dont l’implémentation de la mbox/[!DNL Target] n’est pas encore terminée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Je souhaite configurer des tests sur les pages qui n’ont pas encore été mises en œuvre sous forme de mbox/[!DNL Target]. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 +++Détails
-Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames » ci-dessus.
+Voir « Je ne peux pas modifier les expériences d’un site qui éclate un iFrame » ci-dessus.
 
 +++
 

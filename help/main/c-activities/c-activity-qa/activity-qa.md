@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 27%
 ---
 # AQ d’activité
@@ -48,7 +48,7 @@ Le [!UICONTROL QA d’activité] vous permet de tester entièrement vos activit�
 
   >[!NOTE]
   >
-  >Cette fonctionnalité s’applique aux implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette fonctionnalité s’applique uniquement si le navigateur du visiteur ne bloque pas les cookies tiers.
+  >Cette fonctionnalité s’applique aux implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette fonctionnalité n’est effective que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -74,7 +74,7 @@ Le [!UICONTROL QA d’activité] vous permet de tester entièrement vos activit�
 
    Chaque URL de lien d’activité (pour l’expérience A, l’expérience B, etc.) vous permet de démarrer le parcours utilisateur à partir de l’expérience correspondante. Cliquez sur l’URL générée pour une expérience, puis poursuivez votre navigation normale sur le site pour afficher les expériences sur plusieurs pages (s’il en existe plusieurs). Une seule URL est générée par expérience, même si celle-ci s’étend sur plusieurs pages (tests de modèle ou tests de plusieurs pages).
 
-   Vous pouvez parcourir le site pour afficher les autres pages, car le mode [!UICONTROL AQ d’activité] est contigu. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations d’at.js 1.*x*, cette situation est uniquement vraie si le navigateur du visiteur ne bloque pas les cookies tiers.
+   Vous pouvez parcourir le site pour afficher les autres pages, car le mode [!UICONTROL AQ d’activité] est contigu. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour les implémentations at.js 1.*x*, cette situation est uniquement vraie si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur la page **[!UICONTROL Rapports]** de l’activité, cliquez sur l’icône **[!UICONTROL Paramètres]** ( ![icon_gear image](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic en mode QA]** dans la liste déroulante **[!UICONTROL Environnement]**.
 
@@ -111,7 +111,7 @@ Si le SDK web Platform[&#128279;](https://experienceleague.corp.adobe.com/docs/t
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni qui est inclus dans la même activité), les liens d’assurance qualité ne sont pas générés pour les quatre combinaisons (site Experience A/US, site Experience A/UK, site Experience B/US, site Experience B/UK). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Un responsable du contrôle qualité au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu. Cependant, certains clients doivent utiliser des équilibreurs de charge ou des serveurs Web qui tentent à nouveau de coder les paramètres de chaîne de requête.
 
-  En raison de ce double codage, lorsque [!DNL Target] tente de décoder le `at_preview_token`, [!DNL Target] ne parvient pas à extraire la valeur correcte du jeton, ce qui entraîne le dysfonctionnement de l’aperçu.
+  En raison de ce double encodage, lorsque [!DNL Target] tente de décoder le `at_preview_token`, [!DNL Target] ne parvient pas à extraire la valeur correcte du jeton, ce qui entraîne le dysfonctionnement de l’aperçu.
 
   [!DNL Adobe] vous recommande de vous adresser à votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont traités de manière à ce que ces valeurs ne soient en aucun cas transformées.
 

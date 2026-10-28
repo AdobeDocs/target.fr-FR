@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 30%
+source-wordcount: '1991'
+ht-degree: 28%
 ---
 # Questions fréquentes et dépannage concernant le [!UICONTROL ciblage automatique]
 
@@ -61,12 +61,12 @@ La répartition optimale de l’affectation du trafic dépend de vos objectifs.
 
 Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à une affectation ciblée de 90 % et à un contrôle de 10 % pendant la durée de vie de l’activité. Si votre objectif est d’exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable pour la durée de vie de l’activité.
 
-Il est recommandé de conserver la répartition de l’affectation du trafic pendant toute la durée de vie de l’activité afin que les visiteurs ne basculent pas entre les expériences ciblées et les expériences de contrôle.
+La bonne pratique consiste à maintenir la répartition de l’affectation du trafic pendant toute la durée de vie de l’activité, de sorte que les visiteurs ne basculent pas entre les expériences ciblées et les expériences de contrôle.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
 
-No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+No, check marks for model generation show only the models built to date. There is no way to go back and see when a model was completed.
 -->
 
 +++
@@ -166,13 +166,13 @@ Ces conseils s’appliquent également aux activités [!UICONTROL Affectation au
 +++Réponse
 [!DNL Target] crée un modèle par expérience. La suppression d’une expérience signifie donc que crée [!DNL Target] un modèle de moins et que cela n’affecte pas les modèles des autres expériences.
 
-Supposons, par exemple, que vous ayez une activité de [!UICONTROL ciblage automatique] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans que cela n’affecte les modèles des sept expériences restantes.
+Supposons, par exemple, que vous ayez une activité de [!UICONTROL ciblage automatique] avec huit expériences et que vous ne soyez pas satisfait des performances d’une expérience. Vous pouvez supprimer cette expérience sans affecter les modèles des sept expériences restantes.
 
 +++
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
-Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation du [!UICONTROL ciblage automatique] ainsi que quelques solutions suggérées.
+Parfois, les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez être confronté lors de l’utilisation du [!UICONTROL ciblage automatique] ainsi que quelques solutions suggérées.
 
 ### Mon activité de [!UICONTROL ciblage automatique] prend trop de temps pour créer des modèles.
 

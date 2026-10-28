@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3c6c808c85affddc1e4734727e90472151dff692
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 25%
+source-wordcount: '2685'
+ht-degree: 23%
 ---
 # Présentation des activités
 
@@ -121,9 +121,9 @@ Les actions suivantes sont disponibles (en fonction de vos autorisations et du s
 | Action | Description |
 | --- | --- |
 | [!UICONTROL Modifier] | Permet de modifier une activité. Toute activité peut être modifiée, y compris les activités créées via l’API [!DNL Adobe Target] ou le serveur MCP [!DNL Adobe Target]. Une fois qu’une activité créée par l’API est modifiée dans l’interface utilisateur, elle est traitée comme une activité modifiée par l’interface utilisateur. Les actions précédemment restreintes, y compris [!UICONTROL Copie] et [!UICONTROL Suppression], deviennent disponibles, sous réserve de vos autorisations et du statut de l’activité.<P>Pour plus d’informations sur les différentes manières de modifier les activités, voir [Modifier une activité ou enregistrer en tant que brouillon](/help/main/c-activities/edit-activity.md). |
-| [!UICONTROL Désactiver] | Permet d’arrêter une activité activée ou programmée. Une activité désactivée peut être réactivée ou archivée.<P>Si vous désactivez ou archivez une activité et que vous la réactivez plus tard, un visiteur fera encore partie de cette activité après la réactivation s’il s’y trouvait avant qu’elle ne soit désactivée ou archivée. Toute mesure de conversion enregistrée pendant la période entre les deux événements ne sera pas attribuée à cette activité. |
+| [!UICONTROL Désactiver] | Permet d’arrêter une activité activée ou programmée. Une activité désactivée peut être réactivée ou archivée.<P>Si vous désactivez ou archivez une activité et que vous la réactivez plus tard, un visiteur fera encore partie de cette activité après la réactivation s’il s’y trouvait avant qu’elle ne soit désactivée ou archivée. Les mesures de conversion enregistrées pendant la période entre les deux événements ne seront pas attribuées à cette activité. |
 | [!UICONTROL Activer] | Démarrez une activité inactive ou une activité prête à être activée. |
-| [!UICONTROL Archiver] | Envoie l’activité vers l’archive. Par défaut, les activités archivées n’apparaissent plus dans la liste [!UICONTROL Activités]. Modifiez le filtre de la liste [!UICONTROL Activités] afin d’inclure les activités archivées pour les afficher. Vous pouvez activer une activité archivée pour l’utiliser à nouveau.<P>Si vous désactivez ou archivez une activité, puis la réactivez ultérieurement, un visiteur continuera à faire partie de cette activité après la réactivation s’il se trouvait dans cette activité avant que celle-ci ne soit désactivée ou archivée. Toute mesure de conversion enregistrée pendant la période entre les deux événements ne sera pas attribuée à cette activité. |
+| [!UICONTROL Archiver] | Envoie l’activité vers l’archive. Par défaut, les activités archivées n’apparaissent plus dans la liste [!UICONTROL Activités]. Modifiez le filtre de la liste [!UICONTROL Activités] afin d’inclure les activités archivées pour les afficher. Vous pouvez activer une activité archivée pour l’utiliser à nouveau.<P>Si vous désactivez ou archivez une activité, puis la réactivez ultérieurement, un visiteur continuera à faire partie de cette activité après la réactivation s’il se trouvait dans cette activité avant que celle-ci ne soit désactivée ou archivée. Les mesures de conversion enregistrées pendant la période entre les deux événements ne seront pas attribuées à cette activité. |
 | [!UICONTROL Copier] | Permet de copier une activité. Il est possible de copier n’importe quelle activité. La copie d’une activité permet d’en créer une autre dotée du même nom auquel est ajouté le mot « Copie ». Par exemple, la copie d’un test appelé « Offres de navigateur » porte le nom « Copie Offres de navigateur ».<P>Les offres visuelles sont copiées avec l’activité. Vous pouvez modifier les offres en toute sécurité dans la copie sans que cela ait d’incidence sur l’activité d’origine. La seule exception concerne les offres et les images sauvegardées dans le dossier Contenu/Ressources. |
 | [!UICONTROL Supprimer] | Permet de supprimer un brouillon d’activité ou une activité.<P>**REMARQUE :** les activités supprimées le sont définitivement. Utilisez l’action [!UICONTROL Archiver] à moins que vous ne soyez certain de ne plus jamais avoir besoin de cette activité. Vous pouvez ensuite réactiver l’activité si nécessaire. |
 

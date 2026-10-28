@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 2%
 ---
 # Correspondance des attributs d’entité
@@ -67,7 +67,7 @@ Si vous affichez ensuite une page de produit de la marque B, la valeur `entity.b
 
 ### Intensification des ventes vers un produit plus cher
 
-Supposons que vous soyez un retailer de l&#39;habillement et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et, par conséquent, plus rentables. Vous pouvez utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers appartenant à la même catégorie et à la même marque. Par exemple, un retailer de chaussures de course peut promouvoir des chaussures de course plus coûteuses afin d’augmenter les ventes d’un visiteur qui cherche des chaussures de course, comme dans l’exemple suivant :
+Supposons que vous soyez un retailer de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et, par conséquent, plus rentables. Vous pouvez utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers appartenant à la même catégorie et à la même marque. Par exemple, un retailer de chaussures de course peut promouvoir des chaussures de course plus coûteuses afin d’augmenter les ventes d’un visiteur qui cherche des chaussures de course, comme dans l’exemple suivant :
 
 ![Vente incitative](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 

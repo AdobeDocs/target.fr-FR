@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2259'
-ht-degree: 14%
+source-wordcount: '2260'
+ht-degree: 13%
 ---
 # Utilisation de règles d’inclusion dynamiques et statiques
 
@@ -122,7 +122,7 @@ Pour sélectionner l’action souhaitée, placez le pointeur de la souris sur l�
 
 | Action | Disponible pour | Détails |
 |--- |--- |--- |
-| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres].<P>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
+| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres].<P>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, au lieu de ne renvoyer aucun résultat, vous pouvez simplement ignorer la troisième règle avec les valeurs vides. |
 | [!UICONTROL Aucun résultat affiché pour ce critère]<P>(Critères uniquement) | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs d’entité].<P>Cette action est [!DNL Target] de gérer les valeurs vides avant l&#39;ajout de cette option : aucun résultat n&#39;est affiché pour ce critère. |
 | [!UICONTROL Ne promouvoir aucun élément<P>(Promotions uniquement)] | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Correspondance des attributs d’entité].<P>Cette action est [!DNL Target] de gérer les valeurs vides avant l&#39;ajout de cette option : aucun résultat n&#39;est affiché pour ce critère. |
 | [!UICONTROL Utiliser une valeur statique] | [!UICONTROL Correspondance des attributs d’entité], [!UICONTROL Correspondance des attributs de profil] et [!UICONTROL Correspondance des paramètres] | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |

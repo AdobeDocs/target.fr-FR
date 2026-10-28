@@ -25,14 +25,14 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1754'
 ht-degree: 69%
 ---
 # Chapitre 7 : Création et exécution de votre première activité [!DNL Target]
 
-Vous êtes donc prêt à commencer votre première activité en [!DNL Target] ? Excellent. Commençons par imaginer une activité pour votre site web, site mobile ou application mobile qui ne soit pas trop complexe, mais qui puisse vous offrir un RSI rapide, pour vous donner un avant-goût du potentiel de [!DNL Target] à tester et à personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
+Vous êtes donc prêt à démarrer votre première activité en [!DNL Target] ? Excellent. Commençons par imaginer une activité pour votre site web, site mobile ou application mobile qui ne soit pas trop complexe, mais qui puisse vous offrir un RSI rapide, pour vous donner un avant-goût du potentiel de [!DNL Target] à tester et à personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
 
 Cependant, lors de votre première activité, il est essentiel d’établir une ligne de base pour les mesures commerciales que vous essayez d’améliorer (chiffre d’affaires, clics publicitaires, envois de formulaires, enregistrements terminés, etc.). Dans un test A/B, vous pouvez souvent utiliser l’expérience ou l’offre actuelle comme un « contrôle » et mesurer l’impact d’une variante de cette expérience ou offre par rapport à celle-ci. Cependant, dans la plupart des activités de personnalisation, vous devez idéalement déterminer les performances de l’expérience actuelle avant d’en lancer une version personnalisée. Vous pourrez ainsi mesurer l’impact de la personnalisation.
 
@@ -96,7 +96,7 @@ Dans un test A/B avec une expérience de contrôle et une variante, par exemple,
 
 ### Quelles sont les principales mesures permettant de déterminer l’impact de l’activité ?
 
-Décrivez les mesures commerciales que vous utilisez comme indicateur de la réussite de votre activité. Par exemple, l’augmentation du chiffre d’affaires par visiteur (RPV), le taux de conversion ou la valeur de commande moyenne (AOV). Plus vous pouvez relier l&#39;impact aux résultats financiers de l&#39;entreprise, mieux c&#39;est, donc si vous pouvez relier l&#39;impact au chiffre d&#39;affaires, c&#39;est idéal.
+Décrivez les mesures commerciales que vous utilisez comme indicateur de la réussite de votre activité. Par exemple, l’augmentation du chiffre d’affaires par visiteur (RPV), le taux de conversion ou la valeur de commande moyenne (AOV). Plus vous pouvez relier l’impact aux résultats financiers de l’entreprise, mieux c’est. Par conséquent, l’association de l’impact au chiffre d’affaires est l’idéal.
 
 ### Quelles sont les mesures secondaires permettant de déterminer l’impact de l’activité ?
 
@@ -126,4 +126,4 @@ Les résultats de votre activité fournissent souvent des informations sur les p
 
 ## Ouvrir [!DNL Target], créer et lancer votre activité
 
-Vous avez rempli votre planificateur d&#39;activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL compositeur d’expérience visuelle].
+Vous avez rempli votre planificateur d’activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL compositeur d’expérience visuelle].

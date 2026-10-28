@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 55%
 ---
 # Transmission de données dynamiques dans les offres
@@ -84,7 +84,7 @@ Les valeurs par défaut peuvent également être spécifiées pour les valeurs q
 
 `${user.testAttribute default="All Items!"}`
 
-Lorsque `testAttribute` n’existe pas ou est vide, « Tous les éléments ! » est écrit. Si une valeur d’attribut vide est valide et que vous souhaitez l’écrire plutôt que de présenter la valeur par défaut, utilisez :
+Lorsqu’`testAttribute` n’existe pas ou est vide, « Tous les éléments ! » est écrit. Si une valeur d’attribut vide est valide et que vous souhaitez l’écrire plutôt que de présenter la valeur par défaut, utilisez :
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 

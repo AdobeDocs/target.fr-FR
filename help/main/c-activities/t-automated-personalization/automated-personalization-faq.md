@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2307'
 ht-degree: 17%
 ---
 # FAQ sur Automated Personalization
@@ -81,7 +81,7 @@ Il n’existe pas d’option clé en main permettant de comparer  à une expéri
 
   * **Expériences aléatoires comme objectif de contrôle et d’activité est de tester l’efficacité de l’algorithme de personnalisation** : si votre objectif est d’évaluer l’algorithme de personnalisation, vous souhaitez obtenir une image plus précise de l’effet élévateur. Il est également probable que vous souhaitiez comparer le taux de conversion de vos expériences ou offres si vous avez simplement effectué un [!UICONTROL Test A/B] (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
   * **« Expériences aléatoires » comme contrôle et objectif de votre activité afin d’optimiser le trafic personnalisé** : si vous maîtrisez l’algorithme et souhaitez personnaliser la quantité maximale de trafic, une affectation de 10 % à 30 % au contrôle est recommandée. Le compromis ici est la précision que vous voyez dans vos informations d&#39;ascenseur. Les intervalles de confiance de votre trafic de contrôle sont plus grands, car ils reçoivent moins de trafic.
-  * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic n’est pas réparti sur toutes les offres ou expériences de l’activité.
+  * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic n’est pas réparti sur chaque offre ou expérience de l’activité.
 
 * Les règles de ciblage doivent être appliquées avec autant de parcimonie que possible, car elles peuvent interférer avec la capacité d’optimisation du modèle.
 * Les groupes de génération de rapports peuvent limiter le succès de votre activité . Utilisez les groupes de génération de rapports uniquement dans des conditions spécifiques :

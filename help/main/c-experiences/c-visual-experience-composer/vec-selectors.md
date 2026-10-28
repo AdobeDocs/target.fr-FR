@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 25%
 ---
 # Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
 
@@ -85,7 +85,7 @@ Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utili
 
    Sélecteur : `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (« > » indique l’enfant immédiat.)
 
-   `eq` indique à l’index qu’il y a un élément qui comporte &quot;tagName=UL&quot; et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
+   `eq` indique à l’index qu’il existe un élément avec « tagName=UL » et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
 
 1. Si un élément ne contient pas de classe, [!DNL Target] utilise `tagName` pour l’élément et parcourt l’élément parent jusqu’à ce que l’élément `<HTML>` ou un élément doté d’un ID soit trouvé.
 

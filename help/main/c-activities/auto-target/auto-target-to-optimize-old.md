@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
     internal-label: Auto target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 20%
+source-wordcount: '2104'
+ht-degree: 18%
 ---
 # Présentation du [!UICONTROL ciblage automatique]
 
@@ -127,7 +127,7 @@ Il existe plusieurs scénarios dans lesquels vous pouvez préférer utiliser le 
 
 * Le bandit à plusieurs bras garantit que le modèle « dépense » toujours une petite fraction du trafic pour continuer à apprendre tout au long de la vie de l’apprentissage par activité et pour éviter la surexploitation des tendances apprises précédemment.
 * Les modèles sous-jacents sont reconstruits toutes les 24 heures à l’aide des dernières données de comportement des visiteurs afin de s’assurer que [!DNL Target] exploite toujours les préférences changeantes des visiteurs.
-* Si l’algorithme ne peut pas déterminer les expériences gagnantes pour les individus, il affiche automatiquement l’expérience globale la plus performante tout en continuant à rechercher des gagnants personnalisés. L’expérience la plus performante est trouvée en utilisant l’[échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Si l’algorithme ne peut pas déterminer les expériences gagnantes pour les individus, il passe automatiquement à l’affichage de l’expérience globale la plus performante tout en continuant à rechercher des expériences gagnantes personnalisées. L’expérience la plus performante est trouvée en utilisant l’[échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 ### L’algorithme s’optimise en continu pour une seule mesure d’objectif.
 
@@ -139,7 +139,7 @@ Il existe plusieurs scénarios dans lesquels vous pouvez préférer utiliser le 
 
 ### [!DNL Target] utilise automatiquement toutes [!DNL Adobe Experience Cloud] audiences partagées pour créer des modèles de personnalisation.
 
-* Vous n’avez rien besoin de faire de particulier pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation de [!DNL Experience Cloud Audiences] avec [!DNL Target], voir [Audiences d’Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
+* Vous n’avez rien à faire de spécifique pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation de [!DNL Experience Cloud Audiences] avec [!DNL Target], voir [Audiences d’Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md).
 
 ### Les marketeurs peuvent charger des données hors ligne, des scores de propension ou d’autres données personnalisées pour créer des modèles de personnalisation.
 

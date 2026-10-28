@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 25%
+source-wordcount: '550'
+ht-degree: 21%
 ---
 # FAQ sur l’effet élévateur et le degré de confiance - A4T
 
@@ -48,7 +48,7 @@ Le niveau de confiance est une probabilité, exprimée en pourcentage, qui est �
 
 +++
 
-## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#lift-confidence}
+## Pourquoi ne puis-je pas voir l’effet élévateur et le degré de confiance sur les mesures calculées ? {#lift-confidence}
 
 +++Réponse
 Les mesures calculées ne sont actuellement pas prises en charge dans les fonctions d’effet élévateur et de confiance. Analytics calcule les mesures au niveau des agrégats, plutôt qu’au niveau des visiteurs. Le degré de confiance, en particulier, est un calcul au niveau du visiteur.
@@ -69,7 +69,7 @@ Voici quelques exemples de mesures ou de cas d’utilisation non pris en charge 
 
 +++
 
-## L’effet élévateur et le degré de confiance sont-ils compatibles avec Ad Hoc et Report Builder ? Si cela n’est pas possible en natif, puis-je le faire moi-même ? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## L’effet élévateur et le degré de confiance sont-ils compatibles avec Ad Hoc et Report Builder ? Si ce n&#39;est pas indigène, puis-je le faire moi-même là-dedans ? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 +++Réponse
 L’effet élévateur et le degré de confiance ne sont pas compatibles avec le Report Builder ou ad hoc et vous ne pouvez pas les calculer vous-même pour des variables continues. Il est possible de les calculer manuellement pour les mesures binaires.

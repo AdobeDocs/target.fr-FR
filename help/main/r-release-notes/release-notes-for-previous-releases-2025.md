@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles fonctionnalités sont incluses dans les versions précédentes de 2025 ?
 feature: Release Notes
 TQID: 'https://experienceleague.adobe.com/cjheajZKokzwCNspfQckh6PHh5ecetdj7vZrrq9IqXw'
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '25397'
+source-wordcount: '25402'
 ht-degree: 5%
 ---
 # Notes de mise à jour pour les versions antérieures
@@ -806,7 +806,7 @@ En raison de problèmes récents identifiés, principalement liés à des person
 
 +++Afficher les détails
 
-* Correction d’un problème dans la couche de persistance du serveur principal en raison duquel les options supprimées étaient correctement stockées, mais non accessibles via les points d’entrée de l’API existants. Par conséquent, les applications frontales ne pouvaient pas récupérer de noms significatifs pour les options supprimées, ce qui affectait les vues de rapports historiques. Ce correctif garantit que les données des options supprimées conservées peuvent désormais être correctement affichées dans l’interface utilisateur. (TGT-52973)
+* Correction d’un problème dans la couche de persistance du serveur principal en raison duquel les options supprimées étaient correctement stockées, mais non accessibles via les points d’entrée de l’API existants. Par conséquent, les applications frontales n’ont pas pu récupérer de noms significatifs pour les options supprimées, ce qui a eu un impact sur les vues de rapports historiques. Ce correctif garantit que les données des options supprimées conservées peuvent désormais être correctement affichées dans l’interface utilisateur. (TGT-52973)
 * Mise en œuvre d’un nouveau point d’entrée de migration pour prendre en charge le transfert des options d’activité supprimées des activités basées sur JCR vers [!DNL Target] Central. Cette fonctionnalité permet un suivi et des rapports cohérents entre les systèmes. Cette fonctionnalité garantit que les options supprimées sont préservées et synchronisées sur le serveur frontal et le serveur principal [!DNL Target], ce qui améliore les rapports historiques et l’intégrité des données. (TGT-53217)
 * Ajout d’un nouveau point d’entrée d’API qui permet aux utilisateurs de restaurer des options d’activité supprimées précédemment d’une base de données secondaire. Cette fonctionnalité tire parti de l’infrastructure existante fournie par les classes `RemovedCampaignElements` et `RemovedOptionInfo`, assurant ainsi une réintégration transparente des options supprimées dans les activités actives. (TGT-52903)
 * Correction d’un problème en raison duquel les activités [!DNL Recommendations] contenant des noms de mesures de plus de 25 caractères ne pouvaient pas être ouvertes ni modifiées en raison des limitations de l’API. Ce correctif garantit la compatibilité avec les noms de mesures dépassant la limite de caractères et restaure un accès complet aux activités affectées. (TGT-52839)
@@ -1246,7 +1246,7 @@ We are thrilled to announce the launch of the [!DNL AI Assistant] in [!DNL Adobe
 
 [!DNL AI Assistant] in [!UICONTROL Target] is a conversational tool that you can use to accelerate your workflows with [!DNL Experience Platform] applications and services. Use [!DNL AI Assistant] to boost your overall productivity and amplify your understanding of product knowledge
 
-In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you're setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
+In [!DNL Target], the first phase of [!DNL AI Assistant] provides invaluable product knowledge grounded in [!DNL Experience League] documentation. Whether you are setting up a profile script, troubleshooting errors, or considering an upgrade to the AEP Web SDK, [!DNL AI Assistant] has you covered.
 
 For more information, see [Coworker skills for Adobe Target](/help/main/c-intro/coworker-skills.md).
 -->

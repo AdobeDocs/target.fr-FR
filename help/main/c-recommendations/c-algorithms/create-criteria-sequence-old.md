@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 30%
+source-wordcount: '869'
+ht-degree: 27%
 ---
 # Création d’une séquence de critères
 
@@ -29,7 +29,7 @@ Utilisez des séquences de cinq critères au maximum afin d’exercer un plus gr
 
 Pour créer une séquence de critères, vous devez d’abord créer les critères que vous souhaitez inclure dans la séquence. Voir [Créer des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) pour plus d’informations.
 
-En utilisant une séquence de critères, vous pouvez fournir des recommandations ciblées supplémentaires au lieu d’utiliser des recommandations de sauvegarde plus génériques lorsqu’un critère ne renvoie pas suffisamment de résultats pour remplir votre conception. En règle générale, une séquence de critères passe d’un ciblage plus spécifique, qui peut renvoyer moins de résultats, à un ciblage plus général, qui renvoie généralement plus de résultats.
+En utilisant une séquence de critères, vous pouvez fournir des recommandations ciblées supplémentaires, au lieu d’utiliser des recommandations de sauvegarde plus génériques, lorsqu’un critère ne renvoie pas suffisamment de résultats pour remplir votre conception. En règle générale, une séquence de critères passe d’un ciblage plus spécifique, qui peut renvoyer moins de résultats, à un ciblage plus général, qui renvoie généralement plus de résultats.
 
 Les séquences de critères peuvent varier dans l’ordre en fonction du type de page, comme illustré dans les exemples suivants :
 

@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 47dd2c2489f6805aec15fbfd044725a5698ced49
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 33%
+source-wordcount: '829'
+ht-degree: 31%
 ---
 # Mobile
 
@@ -36,7 +36,7 @@ Le ciblage mobile est fourni par [DeviceAtlas](https://deviceatlas.com/device-da
 
 Les périphériques sont détectés en analysant les chaînes d’agent-utilisateur. Certains fabricants de périphériques, notamment Apple, inhibent cette fonctionnalité en ne fournissant pas suffisamment d’informations dans l’agent-utilisateur.
 
-Par exemple, aux États-Unis, les appareils Apple ne partagent pas de jetons spécifiques aux modèles. Il en résulte qu’il n’est pas possible de détecter des modèles iPhone (tels qu’iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) à l’aide d’une méthode simple basée sur des mots-clés.
+Par exemple, les appareils Apple ne partagent pas de jetons spécifiques au modèle d’appareil dans l’interface utilisateur. Il en résulte qu’il n’est pas possible de détecter des modèles iPhone (tels qu’iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) à l’aide d’une méthode simple basée sur des mots-clés.
 
 Pour résoudre ce problème, [!DNL Target] collecte des données supplémentaires afin de détecter avec précision les iPhone et les autres appareils Apple à l’aide des paramètres suivants :
 

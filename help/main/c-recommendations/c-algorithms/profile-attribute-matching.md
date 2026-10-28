@@ -18,9 +18,9 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 0%
 ---
 # Correspondance des attributs de profil
@@ -55,7 +55,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 ### Correspondance des tâches avec les chercheurs d&#39;emploi
 
-Supposons que vous essayiez de faire correspondre des emplois à des chercheurs d&#39;emploi. Vous souhaitez recommander uniquement les emplois qui se trouvent dans la même ville que le demandeur d&#39;emploi.
+Supposons que vous essayiez de faire correspondre les emplois aux chercheurs d’emploi. Vous souhaitez recommander uniquement les emplois qui se trouvent dans la même ville que le demandeur d&#39;emploi.
 
 Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’une personne à la recherche d’un emploi, du profil du visiteur à une liste d’emplois, comme dans l’exemple suivant :
 

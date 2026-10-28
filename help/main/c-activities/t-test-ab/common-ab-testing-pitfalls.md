@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3984'
-ht-degree: 99%
+source-wordcount: '4003'
+ht-degree: 87%
 ---
 # Dix écueils courants des tests A/B et comment les éviter
 
@@ -32,9 +32,9 @@ Les tests A/B dans [!DNL Adobe Target] constituent la colonne dorsale de la plu
 
 ## Écueil 1 : ignorer les effets du niveau de pertinence {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-Quelle est la probabilité que votre test signale une différence significative du taux de conversion entre deux offres alors qu’il n’y a en réalité aucune différence ? C’est ce que permet de déterminer le *niveau de pertinence* d’un test. Ces résultats trompeurs sont souvent appelés faux positifs et, dans le monde des statistiques, sont appelés erreur de type I (si vous rejetez à tort l’hypothèse nulle qui est, en fait, vraie).
+Quelle est la probabilité que votre test signale une différence significative du taux de conversion entre deux offres alors qu’il n’y a en réalité aucune différence ? C’est ce que le *niveau de signification* d’un test permet de déterminer. Ces résultats trompeurs sont souvent appelés faux positifs et, dans le monde des statistiques, sont appelés erreur de type I (si vous rejetez à tort l’hypothèse nulle qui est, en fait, vraie).
 
-Lorsque vous spécifiez le niveau de pertinence d’un test A/B, vous devez faire un compromis entre accepter qu’une expérience est meilleure que l’autre alors qu’elle ne l’est pas vraiment (erreur de type I ou « faux positif ») et ne voir aucune différence statistique entre les expériences alors qu’il existe une vraie différence (erreur de type II ou « faux négatif »). Le *degré de confiance* est déterminé avant l’exécution du test.
+Lorsque vous spécifiez le niveau de pertinence d’un test A/B, vous effectuez un compromis entre votre tolérance consistant à accepter qu’une expérience est meilleure que l’autre lorsqu’elle ne l’est vraiment pas (erreur de type I ou « faux positif ») et le fait de ne voir aucune différence statistique entre les expériences lorsqu’il existe réellement une différence réelle (erreur de type II ou « faux négatif »). Le *degré de confiance* est déterminé avant l’exécution du test.
 
 L’*intervalle de confiance*, qui est déterminé une fois le test terminé, est affecté par trois facteurs clés :
 
@@ -42,7 +42,7 @@ L’*intervalle de confiance*, qui est déterminé une fois le test terminé, es
 * Niveau de pertinence
 * Écart type sur la population
 
-Dans la mesure où le marketeur a sélectionné le niveau de pertinence avant la conception du test et où l’écart type de population ne peut pas être influencé, le seul facteur « contrôlable » est la taille de l’échantillon. La taille d’échantillon requise pour un intervalle de confiance qui vous convient, ainsi que le temps nécessaire pour l’atteindre, sont des éléments clés qui doivent être déterminés pendant la conception du test.
+Étant donné que le spécialiste du marketing a sélectionné le niveau de pertinence avant la conception du test et que l’écart type de la population ne peut pas être impacté, le seul facteur « contrôlable » est la taille de l’échantillon. La taille d’échantillon requise pour un intervalle de confiance qui vous convient, ainsi que le temps nécessaire pour l’atteindre, sont des éléments clés qui doivent être déterminés pendant la conception du test.
 
 L’approche du *degré de confiance*, un autre terme directement lié, est plus positive. Plutôt que de stipuler la probabilité que vous obteniez un faux positif, comme le fait le niveau de pertinence, le degré de confiance représente la probabilité que votre test ne commette pas cette erreur.
 
@@ -50,7 +50,7 @@ Les niveaux de confiance et de signification sont directement liés car :
 
 100 % - degré de confiance = niveau de pertinence
 
-Dans les tests A/B, les marketeurs appliquent souvent des niveaux de confiance de 95 %. D’après l’équation ci-dessus, cela correspond visiblement à un niveau de pertinence de 5 %. Un test présentant un degré de confiance de 95 % signifie que vous avez 5 % de chance de détecter un effet élévateur statistiquement significatif, même si, en réalité, il n’y a aucune différence entre les offres.
+Dans les tests A/B, les marketeurs appliquent souvent des niveaux de confiance de 95 %. D’après l’équation ci-dessus, cela correspond visiblement à un niveau de pertinence de 5 %. Un test avec un niveau de confiance de 95 % signifie que vous avez 5 % de chances de détecter une augmentation statistiquement significative, même lorsqu’en réalité, il n’y a aucune différence entre les offres.
 
 Comme l’illustre le graphique ci-dessous, plus vous exécutez de tests, plus il est probable qu’au moins un de ces tests génère un faux positif. Si, par exemple, vous exécutez 10 tests avec un degré de confiance de 95 %, il y a environ 40 % de chances que vous détectiez un ou plusieurs faux positifs (étant donné qu’il n’y a aucun effet élévateur réel : Pr(au moins un faux positif) = 1 - Pr(aucun faux positif) = 1 - 0,95^10 = 40 %).
 
@@ -66,11 +66,11 @@ Toutefois, deux situations demandent de s’intéresser de près au niveau de pe
 
   La probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct, ce qui augmente la probabilité d’un faux positif. Cette augmentation peut être encore plus importante si les segments sont corrélés.
 
-  Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Pour éviter ce problème de multiplication des faux positifs liés à la segmentation post-test, envisagez de tester le segment post-test identifié dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
+  Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Au lieu de cela, pour éviter ce problème cumulatif de faux positifs avec la segmentation post-test, une fois que vous avez identifié un segment post-test, envisagez de le tester dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
 
-* **Test de plusieurs offres :** les marketeurs comparent fréquemment plus de deux offres (ou expériences) les unes aux autres. C’est pourquoi certaines solutions de test A/B, appelées A/B/n, sont parfois utilisées, où n correspond au nombre d’offres que vous testez simultanément.
+* **Test de plusieurs offres :** les marketeurs comparent fréquemment plus de deux offres (ou expériences) les unes aux autres. C’est pourquoi des solutions de test A/B appelées tests A/B/n s’affichent parfois, où n correspond au nombre d’offres que vous testez simultanément.
 
-  Il convient de noter que *chaque* offre testée présente un taux de faux positifs égal au niveau de pertinence, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif.
+  Il est important de noter que *chaque offre* testée a un taux de faux positifs égal au niveau de signification, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif.
 
   Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
 
@@ -86,7 +86,7 @@ Les offres A et B ont l’effet élévateur observé le plus élevé durant le
 
 On peut conclure ici que les offres A et B doivent être toutes deux considérées comme des gagnantes du test.
 
-Il n’est généralement pas possible d’exécuter le test suffisamment longtemps pour déterminer la performance relative réelle des alternatives. Souvent, la différence de performance entre les alternatives est trop infime pour avoir un réel impact sur le taux de conversion. Dans de tels cas, vous pouvez interpréter les résultats comme un match nul et faire intervenir d’autres critères, tels que la stratégie ou l’alignement avec d’autres éléments de la page, afin de déterminer quelle offre mettre en œuvre. Avec plusieurs tests, vous devez accepter l’éventualité d’avoir plusieurs gagnants, ce qui, dans certains cas, élargit considérablement les possibilités quant à l’orientation à prendre en matière de développement du site web.
+Il n’est généralement pas possible d’exécuter le test suffisamment longtemps pour identifier les performances relatives réelles des alternatives. En outre, la différence de performance entre les alternatives est souvent trop faible pour avoir un impact substantiel sur le taux de conversion. Dans de tels cas, vous pouvez interpréter les résultats comme un match nul et faire intervenir d’autres critères, tels que la stratégie ou l’alignement avec d’autres éléments de la page, afin de déterminer quelle offre mettre en œuvre. Avec plusieurs tests, vous devez accepter l’éventualité d’avoir plusieurs gagnants, ce qui, dans certains cas, élargit considérablement les possibilités quant à l’orientation à prendre en matière de développement du site web.
 
 Si vous ne souhaitez pas identifier l’offre ayant le taux de conversion le plus élevé, vous comparez alors toutes les offres les unes aux autres. Dans l’exemple ci-dessus, vous avez n = 5 offres - vous devez effectuer n(n-1)/2 comparaisons, soit 5 &#42; (5-1)/2 = 10 comparaisons. Dans ce cas, la correction de Bonferroni exige que le niveau de pertinence du test soit de 5 %/10 = 0,5 %, ce qui correspond à un degré de confiance de 99,5 %. Toutefois, un tel degré de confiance peut exiger que vous exécutiez le test pendant une période exagérément longue.
 
@@ -94,7 +94,7 @@ Si vous ne souhaitez pas identifier l’offre ayant le taux de conversion le plu
 
 L’efficacité statistique vient de la probabilité qu’un test détecte une différence réelle du taux de conversion des offres. En raison de la nature aléatoire (ou stochastique, dans le jargon des statisticiens) des événements de conversion, un test peut ne pas révéler une différence statistiquement significative, même si le taux de conversion de deux offres présente une réelle différence sur le long terme. Hasard ou coïncidence ? On appelle faux négatif ou erreur de type II l’incapacité à détecter une différence réelle du taux de conversion.
 
-Deux facteurs principaux déterminent la robustesse d’un test. Le premier est la taille de l’échantillon, c’est-à-dire le nombre de visiteurs inclus dans le test. Le second est la magnitude de la différence de taux de conversion que vous souhaitez que votre test détecte. C’est peut-être intuitif, mais si vous souhaitez ne détecter que les différences de taux de conversion importantes, il y a une probabilité plus élevée que le test détecte réellement ces différences. De même, plus la différence que vous souhaitez détecter est faible, plus la taille de l’échantillon dont vous aurez besoin est importante et plus il faudra de temps pour l’atteindre.
+Deux facteurs principaux déterminent la robustesse d’un test. Le premier est la taille de l’échantillon, c’est-à-dire le nombre de visiteurs inclus dans le test. Le second est la magnitude de la différence de taux de conversion que vous souhaitez que votre test détecte. C’est peut-être intuitif, mais si vous souhaitez détecter uniquement des différences de taux de conversion importantes, il y a une plus grande probabilité que le test détecte réellement de telles différences. De même, plus la différence que vous souhaitez détecter est faible, plus la taille de l’échantillon dont vous aurez besoin est importante et plus il faudra de temps pour l’atteindre.
 
 Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable de tests. En d’autres termes, ils utilisent une taille d’échantillon trop petite, ce qui signifie qu’ils risquent de ne pas détecter de vrais positifs, même si les taux de conversion présentent une différence substantielle. En fait, si vous sous-estimez continuellement la taille d’échantillon des tests que vous exécutez, le nombre de faux positifs peut être comparable au nombre de vrais positifs, voire le dominer. Il en résulte bien souvent la mise en œuvre de changements neutres sur un site (une perte de temps), voire de changements qui réduisent les taux de conversion.
 
@@ -104,25 +104,25 @@ Afin d’éviter cela, partez du principe qu’un test bien conçu comprend gén
 
 ## Écueil 4 : utiliser des tests unilatéraux {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
-Avec les tests unilatéraux, la différence observée des taux de conversion des offres n’a pas à être très importante pour pouvoir désigner un gagnant à un certain niveau de pertinence. Cette approche peut sembler tentante, puisqu’elle permet de désigner des gagnants plus rapidement et plus souvent qu’avec des tests bilatéraux. Ces tests ne sont toutefois pas sans inconvénient.
+Avec les tests unilatéraux, la différence observée des taux de conversion des offres n’a pas à être très importante pour pouvoir désigner un gagnant à un certain niveau de pertinence. Cette approche peut sembler tentante, puisqu’elle permet de désigner des gagnants plus rapidement et plus souvent qu’avec des tests bilatéraux. Mais comme le veut l&#39;adage, «  il n&#39;y a pas de repas gratuit  », les tests unilatéraux ont un coût.
 
 Lors d’un test unilatéral, vous évaluez si l’offre B est plus performante que l’offre A. L’orientation du test doit être déterminée au préalable – ou « a priori » dans le jargon statistique. En d’autres termes, vous devez choisir d’évaluer si l’offre B est plus performante que l’offre A ou vice versa *avant* de lancer le test. Si toutefois, en observant les résultats du test A/B, vous constatez que l’offre B est plus performante que l’offre A *puis* décidez d’exécuter un test unilatéral afin de déterminer si cette différence est significative sur le plan statistique, vous dérogez aux hypothèses sous-jacentes du test statistique. Cela signifie que vos intervalles de confiance ne sont pas fiables et que le test présente un taux de faux positifs plus élevé que prévu.
 
-Un test unilatéral reviendrait à faire le procès d’une offre devant un juge qui a déjà pris sa décision : Avec un test unilatéral, vous avez déjà décidé quelle était l’offre gagnante et vous cherchez à le prouver, plutôt que de donner à chaque expérience la chance de prouver qu’elle est la gagnante. Utilisez des tests unilatéraux uniquement dans les rares cas où vous cherchez seulement à déterminer si une offre est plus performante que l’autre et non l’inverse. Afin d’éviter les inconvénients d’un test unilatéral, exécutez plutôt une solution de tests A/B (tests bilatéraux), telle qu’[!DNL Adobe Target].
+Un test unilatéral reviendrait à faire le procès d’une offre devant un juge qui a déjà pris sa décision : Dans un test unilatéral, vous avez déjà décidé quelle est l&#39;offre gagnante et vous souhaitez la prouver, plutôt que de donner à chaque expérience une chance égale de se prouver comme gagnante. Utilisez des tests unilatéraux uniquement dans les rares cas où vous cherchez seulement à déterminer si une offre est plus performante que l’autre et non l’inverse. Afin d’éviter les inconvénients d’un test unilatéral, exécutez plutôt une solution de tests A/B (tests bilatéraux), telle qu’[!DNL Adobe Target].
 
 ## Écueil 5 : surveillance des tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
-Les marketeurs surveillent fréquemment les tests A/B jusqu’à ce qu’ils en obtiennent un résultat significatif. Après tout, pourquoi exécuter un test après avoir obtenu un résultat statistiquement significatif ?
+Les marketeurs surveillent fréquemment les tests A/B jusqu’à ce qu’ils en obtiennent un résultat significatif. Après tout, pourquoi effectuer des tests après avoir atteint la signification statistique ?
 
-Ce n’est malheureusement pas aussi simple. Il s’avère en fait que le fait de surveiller les résultats impacte négativement la signification statistique efficace du test, Cela augmente grandement la probabilité d’obtenir des faux positifs et nuit à la fiabilité des intervalles de confiance.
+Malheureusement, ce n&#39;est pas si simple. Il s’avère en fait que le fait de surveiller les résultats impacte négativement la signification statistique efficace du test, Cela augmente grandement la probabilité d’obtenir des faux positifs et nuit à la fiabilité des intervalles de confiance.
 
-Cela peut sembler déroutant. Nous avons l’air d’affirmer que le simple fait d’observer les résultats d’un test à mi-parcours pourrait leur faire perdre leur signification statistique. Ce n’est pas exactement le cas. La raison est illustrée dans l’exemple suivant.
+Cela peut sembler déroutant. Nous avons l’air d’affirmer que le simple fait d’observer les résultats d’un test à mi-parcours pourrait leur faire perdre leur signification statistique. Ce n&#39;est pas exactement ce qui se passe. La raison est illustrée dans l’exemple suivant.
 
 Supposons que vous simuliez 10 000 événements de conversion de deux offres, les deux offres présentant un taux de conversion de 10 %. Les taux de conversion étant identiques, l’effet élévateur des deux offres testées l’une par rapport à l’autre ne devrait présenter aucune différence. Avec un intervalle de confiance de 95 %, le test produit un taux prévu de 5 % de faux positifs au moment de son évaluation après avoir récupéré 10 000 observations. Ainsi, si nous exécutons 100 de ces tests, nous obtenons en moyenne cinq faux positifs (en réalité, tous les positifs dans cet exemple sont faux, les deux offres ayant le même taux de conversion). Si, en revanche, nous évaluons le test dix fois durant son exécution (toutes les 1 000 observations), le taux de faux positifs passe à 16 %. Ainsi, la surveillance du test a plus que triplé le risque de faux positifs. Comment cela s’explique-t-il ?
 
 Pour comprendre pourquoi, vous devez tenir compte des différentes mesures prises lorsqu’un résultat significatif est détecté ou lorsqu’aucun résultat significatif n’est détecté. Si un test statistiquement significatif est détecté, il est interrompu et un gagnant est déclaré. Si, en revanche, le résultat n’est pas statistiquement significatif, nous le laissons se poursuivre. Cette situation favorise considérablement les résultats positifs et fausse donc le niveau de pertinence réel du test.
 
-Pour éviter ce problème, vous devez déterminer une durée de test adéquate avant de lancer le test. Il est normal d’observer les résultats du test durant son exécution afin de s’assurer qu’il a été correctement mis en œuvre. Toutefois, n’en tirez pas de conclusions et n’interrompez pas le test avant que le nombre requis de visiteurs ne soit atteint. Autrement dit, patience !
+Pour éviter ce problème, vous devez déterminer une durée de test adéquate avant de lancer le test. Bien qu’il soit acceptable de regarder les résultats du test pendant celui-ci pour vous assurer que vous l’avez correctement mis en œuvre, ne tirez pas de conclusions et n’arrêtez pas le test avant d’avoir atteint le nombre requis de visiteurs et visiteuses. Autrement dit, patience !
 
 ## Écueil 6 : interrompre les tests de manière prématurée {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
@@ -154,9 +154,9 @@ Autre exemple, si votre test AB est fondé sur une répartition 50/50 du trafic
 
 ## Écueil 8 : ne pas tenir compte des effets de nouveauté {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-D’autres résultats inattendus peuvent se produire si nous ne laissons pas le test s’exécuter suffisamment longtemps. Il ne s’agit pas cette fois d’un problème statistique, mais d’une réaction des visiteurs au changement. Si vous modifiez une section bien établie de votre site web, les visiteurs récurrents peuvent au départ moins interagir avec la nouvelle offre car leurs habitudes sont bousculées. Ainsi, une nouvelle offre supérieure est temporairement moins performante, jusqu’à ce que les visiteurs et visiteuses récurrents s’y habituent. Un faible prix à payer comparé aux gains que produira l’offre supérieure sur le long terme.
+D’autres événements inattendus peuvent se produire si nous n’accordons pas suffisamment de temps à l’exécution d’un test. Cette fois, le problème n’est pas un problème de statistiques ; il s’agit simplement d’une réaction au changement par les visiteurs. Si vous modifiez une section bien établie de votre site web, les visiteurs récurrents peuvent au départ moins interagir avec la nouvelle offre car leurs habitudes sont bousculées. Ainsi, une nouvelle offre supérieure est temporairement moins performante, jusqu’à ce que les visiteurs et visiteuses récurrents s’y habituent. Un faible prix à payer comparé aux gains que produira l’offre supérieure sur le long terme.
 
-Afin de déterminer si une nouvelle offre n’est pas suffisamment performante en raison de l’effet de nouveauté ou simplement parce qu’elle est réellement inférieure, vous pouvez segmenter les visiteurs en nouveaux visiteurs et visiteurs récurrents, puis comparer les taux de conversion. S’il s’agit simplement d’un effet de nouveauté, la nouvelle offre sera gagnante auprès des nouveaux visiteurs et visiteuses. Elle le sera aussi auprès des visiteurs et visiteuses récurrents une fois que ceux-ci s’y seront habitués.
+Pour déterminer si les performances de la nouvelle offre sont inférieures en raison d’un effet de nouveauté ou parce qu’elle est vraiment inférieure, vous pouvez segmenter vos visiteurs en visiteurs nouveaux et récurrents et comparer les taux de conversion. Si ce n’est que l’effet de nouveauté, la nouvelle offre gagne avec de nouveaux visiteurs. Elle le sera aussi auprès des visiteurs et visiteuses récurrents une fois que ceux-ci s’y seront habitués.
 
 L’effet de nouveauté peut aussi avoir l’effet inverse : les visiteurs peuvent réagir positivement à un changement simplement parce qu’elle comprend quelque chose de nouveau. Après un certain temps toutefois, le taux de conversion chute, une fois que l’effet de nouveauté s’estompe ou que le contenu devient moins enthousiasmant. Cet effet est plus difficile à identifier, mais peut être détecté en surveillant attentivement les changements du taux de conversion.
 

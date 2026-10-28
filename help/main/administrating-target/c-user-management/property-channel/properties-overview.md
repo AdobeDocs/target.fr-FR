@@ -9,30 +9,42 @@ exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 TQID: https://experienceleague.adobe.com/hMnPeT5NMMeNPLRdTtgcikwXWxcEjuMtycy1RNBi0Q4
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
   - id: dfc8a233-f2b5-4811-bf63-b4262aebc5a5
+    internal-label: Administration and configuration
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
 subfeature_v2:
   - id: c011fe9c-b94b-4a88-93d8-f2acece55112
+    internal-label: Administration
   - id: cd7b6938-5837-4ee0-9790-5840997133d9
+    internal-label: User management
   - id: cf6b8469-14d0-4c0e-90ee-fb54066a035e
+    internal-label: Roles and permissions
   - id: faed1c89-faf7-4df1-910d-a88263e03b15
+    internal-label: Target UI
   - id: fc9c2184-9102-403f-bd6c-0055021e4bea
+    internal-label: Overview
   - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+    internal-label: at.js
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 54%
-
+source-wordcount: '1513'
+ht-degree: 53%
 ---
-
 # Configuration des autorisations d’Enterprise
 
 Informations sur les tâches requises pour ajouter des utilisateurs à votre implémentation [!DNL Target] ; créer des espaces de travail, des groupes d’utilisateurs et des propriétés ; mettre à jour votre implémentation [!DNL Target] pour inclure le paramètre `at_property` ; et spécifier des rôles et des autorisations.
@@ -92,8 +104,8 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
    * **Nouveaux espaces de travail (profils produit)** : procédez comme suit pour commencer à profiter de la nouvelle fonctionnalité d’autorisations :
 
-      * Créez de nouveaux espaces de travail dans [!DNL Admin Console for Enterprise].
-      * Affectez des propriétés Target aux espaces de travail.
+     * Créez de nouveaux espaces de travail dans [!DNL Admin Console for Enterprise].
+     * Affectez des propriétés Target aux espaces de travail.
 
    Utilisez ces espaces de travail pour répartir l’accès entre différentes équipes par région, unité opérationnelle, section du site ou par toute autre méthode de votre choix. Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent leur être attribués dans chaque espace de travail.
 
@@ -104,7 +116,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
 ### Obtention de l’identifiant de votre espace de travail {#workspace-id}
 
-Vous devez transmettre l’identifiant de l’espace de travail pour exploiter les autorisations d’Enterprise dans les [API Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
+Vous devez transmettre l’identifiant de l’espace de travail pour tirer parti des autorisations d’Enterprise dans les [API Target](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=fr){target=_blank}.
 
 1. Dans [&#128279;](https://adminconsole.adobe.com), cliquez sur l&#39;onglet [!UICONTROL Products], puis cliquez sur le produit dans le menu de gauche pour afficher la liste PLC(workspace).
 1. Cliquez sur le PLC de votre choix (espace de travail), puis localisez l’identifiant « profils » dans l’URL, comme illustré ci-dessous.
@@ -218,15 +230,15 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 >
 >L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations contenues dans les vidéos suivantes sont généralement correctes. Toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
 
-### Configuration d’Adobe Target Workspaces (6:55) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+### Configuration des espaces de travail Adobe Target (6:55) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo explique comment créer des espaces de travail.
 
 * Accès à Adobe Admin Console depuis l’interface Adobe Target (3 manières)
 * Configuration d’un espace de travail dans Adobe Admin Console
 
-   * Ajout d’utilisateurs à des espaces de travail
-   * Ajout de propriétés à des espaces de travail
+  * Ajout d’utilisateurs à des espaces de travail
+  * Ajout de propriétés à des espaces de travail
 
 * Utilisation des espaces de travail par défaut
 
@@ -238,8 +250,8 @@ Cette vidéo explique comment créer des espaces de travail.
 * Comment générer un jeton de propriété à inclure dans la mise en œuvre des propriétés
 * Familiarisez-vous avec les trois méthodes de mise en œuvre :
 
-   * Web
-   * Application mobile
-   * E-mail, décodeur ou appels API
+  * Web
+  * Application mobile
+  * E-mail, décodeur ou appels API
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/)

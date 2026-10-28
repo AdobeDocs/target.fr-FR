@@ -17,9 +17,9 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1010'
 ht-degree: 47%
 ---
 # Gestion des exclusions
@@ -76,7 +76,7 @@ Cliquez sur l’option d’engrenage **[!UICONTROL Configurer]** > **[!UICONTROL
 
 Excluez des expériences spécifiques si vous souhaitez exclure certaines combinaisons d’offres de votre activité .
 
-Certaines combinaisons peuvent ne pas fonctionner ensemble, ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
+Certaines combinaisons peuvent ne pas fonctionner ensemble ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
 
 1. Lors de la [création ou de la modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), cliquez sur **Gérer le contenu** dans la barre d’en-tête.
 

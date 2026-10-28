@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 27%
 ---
 # Résolution des problèmes liés au [!UICONTROL compositeur d’expérience visuelle]
 
@@ -47,14 +47,14 @@ Pour éviter ce problème, assurez-vous de ne pas supprimer ces deux paramètres
 
 +++
 
-## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Ma page ne s’ouvre pas dans l’EEC ou se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 +++Détails
 Plusieurs problèmes peuvent affecter les performances des pages dans les compositeurs d’expérience [!UICONTROL Target]. Les problèmes courants sont les suivants :
 
 * La page ne contient pas de mbox.
 * Votre site utilise le blocage par proxy, ce qui ne permet pas à la page d’être ouverte dans les compositeurs d’expérience.
-* Votre site n’est pas autorisé à être ouvert dans une iFrame.
+* Votre site ne se permet pas d&#39;être ouvert dans un iFrame.
 
 Si des problèmes se produisent dans le [!UICONTROL compositeur d’expérience avancé], essayez de désactiver le [!UICONTROL compositeur d’expérience amélioré] et utilisez le [!UICONTROL compositeur d’expérience visuelle] à la place.
 

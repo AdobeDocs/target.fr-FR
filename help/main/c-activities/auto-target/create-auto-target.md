@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 17%
+source-wordcount: '1063'
+ht-degree: 15%
 ---
 # Création d’une activité de [!UICONTROL ciblage automatique]
 
@@ -95,7 +95,7 @@ Pour créer une activité de [!UICONTROL ciblage automatique] :
 
 1. Créez de nouvelles expériences en modifiant les éléments de la page.
 
-   Le [!UICONTROL compositeur d’expérience visuelle] affiche deux onglets sur le côté gauche après la création d’une activité : [!UICONTROL expérience A] et [!UICONTROL expérience B]. [!UICONTROL expérience A] est l’expérience de contrôle. Vous vous concentrez sur l’onglet [!UICONTROL Expérience B], que vous pouvez modifier selon vos besoins. [!UICONTROL Expérience B] est l’autre expérience que vous pouvez ajouter à votre test. Vous pouvez ajouter plusieurs expériences au test en cliquant sur l’icône [!UICONTROL Ajouter] ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) en haut du volet [!UICONTROL Expériences]. Vous pouvez également supprimer l’Expérience A de l’activité si vous ne souhaitez pas que l’expérience de site par défaut soit une option possible.
+   Le [!UICONTROL compositeur d’expérience visuelle] affiche deux onglets sur le côté gauche après la création d’une activité : [!UICONTROL expérience A] et [!UICONTROL expérience B]. [!UICONTROL expérience A] est l’expérience de contrôle. Vous vous concentrez sur l’onglet [!UICONTROL Expérience B], que vous pouvez modifier selon vos besoins. [!UICONTROL Expérience B] est l’autre expérience que vous pouvez ajouter à votre test. Vous pouvez ajouter plusieurs expériences au test en cliquant sur l’icône [!UICONTROL Ajouter] ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) en haut du volet [!UICONTROL Expériences]. Vous pouvez également supprimer l’expérience A de l’activité si vous ne souhaitez pas inclure une expérience de site par défaut en tant qu’option.
 
    Pour plus d’informations sur l’ajout et la modification d’expériences dans le [!UICONTROL compositeur d’expérience visuelle], voir [Ajouter une expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Pour modifier l’Expérience B, commencez à l’étape 2.
 

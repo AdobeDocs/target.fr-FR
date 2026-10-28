@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 48%
+source-wordcount: '748'
+ht-degree: 41%
 ---
 # Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
 
@@ -38,11 +38,11 @@ Utilisez les URL d’aperçu d’expérience pour partager des expériences avec
 1. Passez en revue et/ou spécifiez vos adresses URL.
 
    * Si vous utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC), l’URL par défaut que vous avez spécifiée pour l’activité est saisie automatiquement et un lien est généré pour chaque expérience de votre activité. Vous pouvez modifier cette URL et en ajouter d’autres si vous le souhaitez.
-   * Si vous utilisez le [!UICONTROL compositeur d’expérience d’après les formulaires], aucune URL par défaut n’est saisie automatiquement. Si vous n’avez pas encore créé d’URL d’aperçu d’expérience, cliquez sur **Ajouter une nouvelle URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
+   * Si vous utilisez le [!UICONTROL compositeur d’expérience d’après les formulaires], aucune URL par défaut n’est saisie automatiquement. Si vous n’avez pas créé d’URL d’aperçu d’expérience auparavant, cliquez sur **Ajouter une nouvelle URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
 
    Vous pouvez ajouter plusieurs URL, ce qui s’avère utile lorsque vous effectuez un test multi-page ou de modèle et que vous souhaitez prévisualiser l’activité de plusieurs pages.
 
-   Une fenêtre modale affiche des liens vers vos expériences sur votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle [!DNL Target]. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
+   Une fenêtre modale affiche des liens vers vos expériences sur votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle [!DNL Target]. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL résultante à partir de la page ne fonctionnera pas, car l’URL contient un paramètre qui affiche correctement la page uniquement lorsque vous accédez à la page à partir du lien dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
 
 1. Cliquez sur **[!UICONTROL Générer tout]**, puis sur chaque expérience pour la prévisualiser.
 
@@ -76,7 +76,7 @@ Utilisez les URL d’aperçu d’expérience pour partager des expériences avec
 
 **Affichage des expériences avec des URL d’aperçu d’expérience**
 
-* L’aperçu peut être utilisé pour les activités enregistrées tant que la page n’a pas été modifiée.
+* L’aperçu fonctionne pour toute activité enregistrée, tant que la page n’a pas été modifiée.
 * L’URL de prévisualisation de l’expérience est disponible, que l’activité soit active ou inactive.
 * Vous ne pouvez pas prévisualiser une expérience dont le statut est [!UICONTROL &#x200B; Brouillon &#x200B;].
 * L’affichage des URL d’aperçu d’expérience n’a aucune incidence sur les rapports.

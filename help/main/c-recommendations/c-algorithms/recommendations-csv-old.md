@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 32%
+source-wordcount: '738'
+ht-degree: 29%
 ---
 # Téléchargement de critères personnalisés
 
@@ -68,7 +68,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 * Les mises à jour de critères personnalisés sont par défaut « cumulatives ». Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n’ont pas de clés spécifiées dans le téléchargement CSV sont toujours disponibles pour diffusion et expirent dans 31 jours à partir du dernier téléchargement dans le cadre du fichier CSV.
 
-  Contactez le service à la clientèle pour permettre au paramètre d’ignorer les résultats existants qui ne sont pas inclus dans le prochain chargement CSV. Si ce paramètre est activé, seules les clés présentes dans le fichier de flux CSV personnalisé sont disponibles pour la diffusion. Ce paramètre s’applique à tous les critères personnalisés.
+  Contactez l’assistance clientèle pour que le paramètre ignore les résultats existants qui ne sont pas inclus dans le prochain chargement de fichier CSV. Si ce paramètre est activé, seules les clés présentes dans le fichier de flux CSV personnalisé sont disponibles pour la diffusion. Ce paramètre s’applique à tous les critères personnalisés.
 
 * Les flux de critères personnalisés sont mis à jour une fois toutes les 24 heures.
 

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2934'
-ht-degree: 48%
+source-wordcount: '2937'
+ht-degree: 47%
 ---
 # Création de critères
 
@@ -47,7 +47,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 1. Saisissez un **[!UICONTROL Nom du critère]**.
 
-   C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous voulez peut-être appeler votre critère « Produits générant la marge la plus élevée », mais vous ne voulez pas que ce titre soit affiché publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
+   C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous pouvez appeler vos critères « Produits avec la marge la plus élevée », mais vous ne souhaitez pas que ce titre s’affiche publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
 
    ![Section Informations de base](assets/basic-information.png)
 
@@ -81,7 +81,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    ![section Algorithme recommandé](assets/recommended-algorithm.png)
 
-   | Type d’algorithme | Quand l’utiliser | Algorithmes disponibles |
+   | Type d&#39;algorithme | Quand l’utiliser | Algorithmes disponibles |
    | --- | --- | --- |
    | [!UICONTROL Basé sur le panier] | Faites des recommandations en fonction du contenu du panier de l’utilisateur. | <ul><li>Les Personnes Qui Ont Consulté Ces/Ces Ont Consulté Ces/Ces</li><li>Les Personnes Qui Les Ont Consultés Les Ont Achetés</li><li>Les Personnes Qui Ont Acheté Ces Éléments Ont Acheté Ceux-Ci</li></ul> |
    | [!UICONTROL Basé sur la popularité] | Faites des recommandations en fonction de la popularité globale d’un élément sur votre site ou en fonction de la popularité des éléments dans la catégorie, la marque, le genre préféré ou le plus consulté d’un utilisateur, etc. | <ul><li>Les plus consultés sur le site</li><li>Les plus consultés par catégorie</li><li>Éléments les plus consultés par attribut d’élément</li><li>Meilleurs vendeurs sur le site</li><li>Meilleurs vendeurs par catégorie</li><li>Meilleurs vendeurs par attribut d&#39;article</li><li>Meilleure mesure par Analytics</li></ul> |
@@ -125,7 +125,7 @@ Pour plus d’informations sur le choix d’une [!UICONTROL clé de recommandati
 
    Si votre site reçoit un volume de trafic important et que les comportements changent fréquemment, sélectionnez une fenêtre de données plus courte. Une fenêtre plus courte permet [!DNL Recommendations] d’être plus réactif aux changements du marché et de votre entreprise. Par exemple, une fenêtre plus courte signifie que [!DNL Recommendations] détectera les changements de comportement des visiteurs lorsque ces derniers commencent des achats saisonniers, tels que les achats de la rentrée ou de la période des fêtes, et recommanderont les articles appropriés à ces saisons.
 
-   Si vous n’avez pas beaucoup de données ou que le comportement des visiteurs ne change pas fréquemment, vous pouvez sélectionner une fenêtre plus longue. Cependant, pour de nombreux sites, une fenêtre plus courte permet d’obtenir des recommandations de meilleure qualité.
+   Si vous ne disposez pas de beaucoup de données ou si le comportement des visiteurs ne change pas fréquemment, vous pouvez sélectionner une fenêtre plus longue. Cependant, pour de nombreux sites, une fenêtre plus courte permet d’obtenir des recommandations de meilleure qualité.
 
    Les périodes de données disponibles sont :
 

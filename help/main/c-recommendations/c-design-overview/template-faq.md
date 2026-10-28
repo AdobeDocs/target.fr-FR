@@ -18,18 +18,18 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 79%
+source-wordcount: '476'
+ht-degree: 69%
 ---
 # Questions fréquentes sur la conception
 
 Liste des questions fréquentes (FAQ) relatives aux conceptions [!DNL Adobe Target] [!DNL Recommendations].
 
-## Le prix de mon article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
+## Le prix de l’article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
 
-Par défaut, les valeurs numériques (comme `entity.value`) renvoyées dans les modèles de conception n’affichent aucun zéro après la virgule. Par exemple, si un article vaut 35,00 $, `entity.value` est égal à 35. 35, et non 35,00 $ s’affiche donc uniquement sur la page.
+Par défaut, les valeurs numériques (telles que `entity.value`) renvoyées dans les modèles de conception n’affichent pas de zéros de fin après la décimale. Par exemple, si un article vaut 35,00 $, `entity.value` est égal à 35. 35, et non 35,00 $ s’affiche donc uniquement sur la page.
 
 Deux solutions permettent de résoudre ce problème:
 
@@ -41,9 +41,9 @@ Deux solutions permettent de résoudre ce problème:
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J&#39;utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J&#39;utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
-L’ID de catégorie ne peut pas s’afficher dans la conception. Plusieurs catégories pouvant être stockées, le système ne sait pas quelle catégorie afficher.
+L’ID de catégorie ne peut pas être affiché dans la conception. Plusieurs catégories pouvant être stockées, le système ne sait pas quelle catégorie afficher.
 
 ## Comment dois-je modifier une conception pour obtenir une mise à jour instantanée ? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 

@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 27%
+source-wordcount: '1065'
+ht-degree: 25%
 ---
 # Création d’une conception
 
@@ -171,9 +171,9 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
    | Paramètre | Valeur |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur #recsSettings > Jeton API Recommendations > Code client). |
-   | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des Recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
+   | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
    | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
-   | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
+   | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez si vous avez sélectionné une propriété (faisant partie des autorisations d’Enterprise) lors de la configuration de votre activité. |
 
 Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
 

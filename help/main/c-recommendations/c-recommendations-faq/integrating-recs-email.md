@@ -22,10 +22,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 85%
+source-wordcount: '1774'
+ht-degree: 82%
 ---
 # Intégration de [!DNL Recommendations] dans la messagerie électronique
 
@@ -97,7 +97,7 @@ Pour plus d’informations, consultez la [documentation relative à l’API de d
 
 ## Méthode 2 : utilisation d’un modèle d’e-mail rawbox {#rawbox}
 
-Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie (ESP). Puisque vous n’utilisez pas de fichier [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
+Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie (ESP). Étant donné que vous n’avez pas le [!DNL Adobe Experience Platform Web SDK] ou le [!DNL at.js] à utiliser dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Une rawbox est identique à une demande de mbox, à ceci près qu’elle concern
 
 Cette approche vous permet de suivre les performances des recommandations dans les e-mails, de les tester normalement avec une recommandation et de continuer le suivi sur le site.
 
-Configurez une activité [!DNL Recommendations] dans [!DNL Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle d’e-mail. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
+Configurez une activité [!DNL Recommendations] dans [!DNL Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement , sélectionnez le nom de la mbox que vous avez choisie d’utiliser dans la requête de rawbox provenant du fournisseur de service de messagerie. Choisissez un modèle d’e-mail. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
 
 Le système de messagerie que vous utilisez doit pouvoir gérer les scénarios suivants :
 
@@ -162,7 +162,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Réponse | Description |
 |--- |--- |
-| //ERROR: | Générée par l’équilibreur de charge quand il ne peut renvoyer aucun contenu. |
+| //ERROR: | Généré par la répartition de charge lorsqu’il ne peut pas renvoyer de contenu |
 | Succès | Le paramètre `mboxNoRedirect` est défini sur « true » (vrai) et le serveur ne renvoie aucune recommandation (c.-à-d. qu’il n’y a aucune correspondance pour la mbox ou que la mémoire cache du serveur n’est pas initialisée). |
 | bad request | Il manque le paramètre `mbox`.<ul><li>Le paramètre `mboxDefault` ou `mboxNoRedirect` n’est pas spécifié.</li><li>Le paramètre de requête `mboxTrace` est spécifié, mais pas `mboxNoRedirect`.</li><li>Le paramètre `mboxTarget` n’est pas spécifié si les noms de mbox se terminent par le suffixe `-clicked`.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non spécifié quand il n’existe aucune correspondance pour la demande et que le paramètre `mboxNoRedirect` n’est pas spécifié. |

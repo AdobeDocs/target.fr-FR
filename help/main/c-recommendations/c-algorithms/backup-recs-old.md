@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 75%
+source-wordcount: '555'
+ht-degree: 71%
 ---
 # Utilisation d’une recommandation de sauvegarde
 
@@ -29,7 +29,7 @@ Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandatio
 >
 >Vous trouverez des informations supplémentaires dans la section [Contenu) de la rubrique Création de critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation conjointe ou séparée des options [!UICONTROL Rendu de conception partiel] et [!UICONTROL Afficher les recommandations de sauvegarde].
 
-La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
+La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré pour afficher cinq éléments recommandés et vous utilisez l’algorithme *Affinités d’achat*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 
 Les recommandations de sauvegarde sont choisies de manière aléatoire à partir des 500 produits les plus consultés sur l’ensemble du site. La période des données pour les recommandations de sauvegarde est d’une semaine.
 

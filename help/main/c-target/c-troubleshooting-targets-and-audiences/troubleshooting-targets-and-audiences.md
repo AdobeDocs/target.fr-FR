@@ -1,25 +1,28 @@
 ---
 keywords: résolution des problèmes;questions fréquentes;FAQ;forum aux questions;cibles;audiences
-description: Consultez les questions fréquentes (FAQ) sur le ciblage d’expérience et les audiences utilisées dans les activités  [!DNL Target] .
+description: Consultez les questions fréquentes (FAQ) sur le ciblage d’expérience et les audiences utilisées dans les activités Adobe [!DNL Target].
 title: Où puis-je trouver des questions/réponses sur les cibles et les audiences ?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 TQID: https://experienceleague.adobe.com/WI8A9wqYpjiCCUABg5cBxJ92WwFLYN7qM-0DeYkrxOk
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Personalization
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 53%
-
+source-wordcount: '1007'
+ht-degree: 49%
 ---
-
 # FAQ sur le ciblage et les audiences
 
 Liste des questions fréquentes sur les audiences et le ciblage des expériences.
@@ -97,7 +100,7 @@ Les noms d’audience dans [!DNL Target] sont uniques. Toutefois, dans [!DNL AAM
 
 Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de PC » (dans [!DNL AAM]) et « Utilisateurs de PC #1 » (dans [!DNL Target]).
 
-## Pourquoi ne puis-je pas renommer une audience ? {#section_54E420556F534D20836E261E253D8B97}
+## Pourquoi ne puis-je pas renommer une audience ? {#section_54E420556F534D20836E261E253D8B97}
 
 Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et « Visiteurs récurrents », par exemple. Les utilisateurs ne peuvent pas renommer ces audiences prédéfinies.
 
@@ -105,9 +108,9 @@ Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et �
 
 [!DNL Target] est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire à l’aide de la méthode d’API [!UICONTROL Mise à jour du profil]. Pour en savoir plus, voir [Mise à jour du profil](https://developers.adobetarget.com/api/#authentication-tokens) dans la documentation des API Adobe Target.
 
-## Pourquoi les visiteurs voient-ils des expériences pour une activité AP alors que cela ne devrait pas être le cas ? {#section_41CECEAE0881446A8D9F3B016857914B}
+## Pourquoi les visiteurs voient-ils des expériences pour une activité AP qu’ils ne devraient pas voir ? {#section_41CECEAE0881446A8D9F3B016857914B}
 
-Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. S’il est souhaitable de procéder à cette évaluation pour chaque visite de page unique, vous devez sélectionner le type d’activité XT (ciblage d’expérience).
+Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. Si vous souhaitez évaluer ce point à chaque visite de page, vous devez passer au type d’activité Ciblage d’expérience (XT) .
 
 ## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas répercutées dans l’interface utilisateur [!DNL Target] ? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 

@@ -13,14 +13,14 @@ feature_v2:
 subfeature_v2:
   - id: b39680ca-97f2-4fca-8fdd-bea7ed8010de
     internal-label: Form based Experience Composer
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 39%
 ---
 # Compositeur d’expérience d’après les formulaires
 
-Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience], [!UICONTROL Automated Personalization] et [!UICONTROL Recommandations] lorsque le [!UICONTROL compositeur d’expérience visuelle] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
+Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui s’avère utile pour créer des expériences à utiliser dans les activités [!UICONTROL Test A/B], [!UICONTROL Ciblage d’expérience], [!UICONTROL Automated Personalization] et [!UICONTROL Recommandations] lorsque le [!UICONTROL compositeur d’expérience visuelle] (VEC) n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires pour créer des expériences et des offres à diffuser dans des e-mails, des kiosques et des assistants vocaux.
 
 Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune expérience. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, [!UICONTROL Target] génère automatiquement les expériences.
 

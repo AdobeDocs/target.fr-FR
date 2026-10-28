@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 29%
+source-wordcount: '514'
+ht-degree: 23%
 ---
 # Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]
 
 Des problèmes d’affichage peuvent parfois se produire dans le [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
 
-## Le compositeur d’expérience avancé ne charge pas une URL AQ interne non accessible sur une adresse IP publique. {#section_D29E96911D5C401889B5EACE267F13CF}
+## L’EEC ne charge pas d’URL d’assurance qualité interne qui ne soit pas accessible sur les adresses IP publiques. {#section_D29E96911D5C401889B5EACE267F13CF}
 
 
 +++Détails
@@ -155,11 +155,11 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
 * **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de la version 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
-  **Solution :** consultez la question suivante (Le [!UICONTROL compositeur d’expérience visuelle amélioré] ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2).
+  **Solution :** la question suivante (Le [!UICONTROL compositeur d’expérience visuelle amélioré] ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2) s’affiche.
 
 +++
 
-## Le compositeur d’expérience avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement) {#section_C5B31E3D32A844F68E5A8153BD17551F}
+## L’EEC ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
 +++Détails
 Il se peut que le message d’erreur décrit ci-dessus dans « Le [!UICONTROL compositeur d’expérience visuelle amélioré] ne se charge pas sur les pages sécurisées de mon site » s’affiche. si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de la version 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.

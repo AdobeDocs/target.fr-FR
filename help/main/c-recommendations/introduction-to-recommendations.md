@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2111'
-ht-degree: 82%
+source-wordcount: '2121'
+ht-degree: 79%
 ---
 # Présentation des recommandations
 
@@ -51,7 +51,7 @@ L’illustration suivante montre une recommandation qui affiche les accessoires 
 
 ![Recommandation montrant les accessoires achetés par d’autres visiteurs avec un nouveau téléphone.](/help/main/c-recommendations/assets/intro-1.png)
 
-Mais ce à quoi nous ne pensons pas toujours, c&#39;est la façon dont les marques axées sur le numérique placent la barre plus haut en ce qui concerne les attentes des clients. Nous nous fions de plus en plus aux recommandations personnalisées pour consommer des médias et du contenu. Que voyez-vous en premier lorsque vous accédez à Netflix, Spotify ou YouTube ? Ces marques commencent l’expérience client avec des recommandations. Dans un monde où les alternatives sont plus nombreuses que jamais, il est essentiel que vous puissiez identifier le contenu le plus pertinent pour votre client au moment de l’interaction.
+Mais ce à quoi nous ne pensons pas toujours, c&#39;est la façon dont les marques axées sur le numérique augmentent la barre des attentes des clients. Nous nous fions de plus en plus aux recommandations personnalisées pour consommer des médias et du contenu. Que voyez-vous en premier lorsque vous accédez à Netflix, Spotify ou YouTube ? Ces marques commencent l’expérience client avec des recommandations. Dans un monde où les alternatives sont plus nombreuses que jamais, il est essentiel que vous puissiez identifier le contenu le plus pertinent pour votre client au moment de l’interaction.
 
 ![Recommandation montrant des marques numériques](/help/main/c-recommendations/assets/intro-2.png)
 
@@ -78,7 +78,7 @@ Quels éléments permettent de créer des recommandations de grande qualité ?
 
 Des recommandations de grande qualité doivent être pertinentes et personnalisées. Vous avez donc besoin de trois éléments pour obtenir la pertinence et la personnalisation :
 
-* Les **contrôles marketeur** pour favoriser la pertinence des articles recommandés. En tant que spécialiste marketing, vous apportez vos précieuses connaissances en matière de contexte et vous savez quels attributs des produits ou contenus sont pertinents pour un modèle de recommandations. Si vous gérez un site de vidéos, vous savez que les utilisateurs peuvent être intéressés à voir des films du même réalisateur, mais ne se soucient probablement pas de voir des films produits par le même studio. [!DNL Target] vous propose des contrôles qui permettent d’améliorer vos algorithmes avec ces connaissances de domaine.
+* Les **contrôles marketeur** pour favoriser la pertinence des articles recommandés. En tant que spécialiste marketing, vous apportez vos précieuses connaissances en matière de contexte et vous savez quels attributs des produits ou contenus sont pertinents pour un modèle de recommandations. Si vous gérez un site de vidéos, vous savez que les utilisateurs peuvent être intéressés par voir des films du même réalisateur, mais qu’ils ne se soucient probablement pas de voir des films produits par le même studio. [!DNL Target] vous propose des contrôles qui permettent d’améliorer vos algorithmes avec ces connaissances de domaine.
 * Des **modèles élaborés** pour comprendre des millions d’articles dans vos catalogues et événements d’interaction. [!DNL Target] dispose de capacités de machine learning élaborées reposant sur une dizaine d’années d’expérience. De plus, Adobe gère des milliards de recommandations par an.
 * Un **contexte utilisateur** pour être sûr que les recommandations sont opportunes et pertinentes pour vos utilisateurs. Vous ne souhaitez pas recommander la vidéo que quelqu’un vient de regarder ou la chemise que quelqu’un vient d’ajouter à son panier. Le profil utilisateur riche de Target peut être utilisé dans Recommendations pour garantir la personnalisation.
 
@@ -128,9 +128,9 @@ Vous devez ensuite ajouter des balises ou utiliser l’implémentation de [!DNL 
 
 ![Illustration montrant comment capturer le comportement des utilisateurs](/help/main/c-recommendations/assets/intro-9.png)
 
-Vous devez veiller à ce que [!DNL Target] connaisse les articles que vos utilisateurs consultent et achètent. Si l’achat n’est pas pertinent dans votre contexte, vous pouvez vouloir effectuer le suivi d’un autre type d’événement de conversion, par exemple le téléchargement d’un PDF, le remplissage d’un questionnaire, l’abonnement à une newsletter, le visionnage d’une vidéo, etc.
+Vous devez veiller à ce que [!DNL Target] connaisse les articles que vos utilisateurs consultent et achètent. Si les achats ne sont pas pertinents dans votre contexte, vous pouvez vouloir effectuer le suivi d’un autre type d’événement de conversion, par exemple le téléchargement d’un PDF, le remplissage d’un questionnaire, l’abonnement à une newsletter, le visionnage d’une vidéo, etc.
 
-Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Sinon, il est plus facile d’effectuer cette configuration à l’aide d’un gestionnaire de balises comme les balises dans [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
+Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Dans le cas contraire, il est plus facile d’effectuer cette configuration à l’aide d’un gestionnaire de balises tel que les balises dans [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=fr){target=_blank}. Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
 
 ### Obtention de recommandations avec le contexte approprié
 
@@ -168,13 +168,13 @@ Les sections suivantes décrivent les différentes parties de cet entonnoir et l
 
 ### Filtres statiques (collections et exclusions)
 
-Les filtres statiques sont des règles largement applicables liées aux attributs de catalogue que vous ne prévoyez pas de changer souvent.
+Les filtres statiques sont des règles applicables en général relatives aux attributs de catalogue que vous ne prévoyez pas de modifier fréquemment.
 
 ![Illustration de collections et d’exclusions](/help/main/c-recommendations/assets/intro-16.png)
 
 Par exemple, dans un contexte de contenu, vous souhaiterez peut-être inclure tous les films dans les recommandations, mais exclure les ceux classés NC-17 aux États-Unis. Dans un contexte de vente au détail, vous pouvez avoir plusieurs marques dans différentes zones géographiques, mais ne vouloir recommander que les produits disponibles aux États-Unis. Vous pourriez également vouloir exclure les produits d’un label privé régional.
 
-Il s’agit d’attributs de catalogue largement applicables que vous souhaitez peut-être utiliser dans plusieurs recommandations et que vous ne prévoyez pas de modifier souvent.
+Il s’agit tous d’attributs de catalogue largement applicables que vous pouvez utiliser dans plusieurs recommandations et que vous ne prévoyez pas de modifier fréquemment.
 
 ### Algorithme (clé et logique de recommandation)
 

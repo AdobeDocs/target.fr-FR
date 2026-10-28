@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '530'
 ht-degree: 13%
 ---
 # Exclusions
@@ -36,7 +36,7 @@ Voici quelques exemples d’exclusions :
 * Le catalogue d’automne et d’hiver est désormais le seul catalogue qui devrait être présent en ligne. Les articles du catalogue d&#39;été ne peuvent plus être achetés.
 * Éléments qu’il pourrait être inapproprié de recommander sur la plupart des pages ou des écrans (produits pour adultes, films NC-17, etc.).
 * Produits avec des champs de métadonnées incomplets (miniature, prix ou autres métadonnées importantes manquantes).
-* Produits qui ne devraient jamais être recommandés (il se peut qu’un SKU existe dans le système pour quelque chose, mais il ne s’agit pas d’un article achetable). Ou peut-être s’agit-il d’un faux SKU permettant à l’équipe d’assurance qualité de simuler un achat sans réellement commander quelque chose, et ainsi de suite).
+* Produits qui ne doivent jamais être recommandés (il se peut qu’un SKU existe dans le système pour quelque chose, mais il ne s’agit pas d’un article achetable). Ou peut-être s’agit-il d’un faux SKU permettant à l’équipe d’assurance qualité de simuler un achat sans réellement commander quelque chose, et ainsi de suite).
 
 >[!IMPORTANT]
 >

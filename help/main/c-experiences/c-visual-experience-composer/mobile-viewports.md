@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 92%
+source-wordcount: '1384'
+ht-degree: 89%
 ---
 # Fenêtres d’affichage mobiles pour les expériences réactives
 
@@ -101,7 +101,7 @@ Si votre site n’est pas réactif, utilisez le compositeur web mobile pour affi
 
 >[!IMPORTANT]
 >
->Vous pouvez modifier une expérience depuis les fenêtres d’affichage mobiles. Toutefois, ces modifications ne s’appliquent pas seulement à la fenêtre d’affichage dans laquelle vous travaillez, mais à toutes les fenêtres d’affichage et à tous les appareils. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de la page pour toutes les tailles d’écran, pas seulement pour l’affichage de bureau. Actuellement, [!DNL Target] ne prend pas en charge les modifications de page spécifiques à la fenêtre d’affichage.
+>Vous pouvez modifier une expérience depuis les fenêtres d’affichage mobiles. Toutefois, ces modifications s’appliquent à toutes les fenêtres d’affichage et à tous les appareils, et pas seulement à la fenêtre d’affichage dans laquelle vous travaillez. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de la page pour toutes les tailles d’écran, pas seulement pour l’affichage de bureau. Actuellement, [!DNL Target] ne prend pas en charge les modifications de page spécifiques à la fenêtre d’affichage.
 
 ## Configuration des fenêtres d’affichage mobiles {#task_B4B161499DC0470584ED922A4D20FCAB}
 

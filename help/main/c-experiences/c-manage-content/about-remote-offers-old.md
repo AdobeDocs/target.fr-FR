@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
     internal-label: Experiences and offers
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1107'
 ht-degree: 38%
 ---
 # Créer des offres distantes
@@ -125,7 +125,7 @@ Vous pouvez cliquer sur **[!UICONTROL Ajouter un paramètre]** pour ajouter une 
 
 Vous devez appliquer les offres distantes à l’aide du [!UICONTROL compositeur d’expérience d’après les formulaires]. Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du compositeur d’expérience visuelle.
 
-Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL Tests A/B], [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommandations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires] pour créer des expériences qui utilisent des offres distantes.
+Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles utile pour créer des expériences à utiliser dans les activités [!UICONTROL Tests A/B], [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommandations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires] pour créer des expériences qui utilisent des offres distantes.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Compositeur d’expérience d’après les formulaires].
 

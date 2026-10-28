@@ -1,24 +1,26 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’audience;activité unique;ad hoc
-description: Découvrez comment créer des audiences d’activité unique dans  [!DNL Target] destinées à une utilisation unique.
+description: Découvrez comment créer des audiences d’activité unique dans les [!DNL Target] Adobe qui sont destinées à une utilisation unique.
 title: Puis-je créer une audience à utiliser une seule fois ?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 TQID: https://experienceleague.adobe.com/IWQT8Lw7uXxY8znUlzOIB-92M2sdjvMj91Ut-gAvZVU
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Customer experience
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 477
+source-wordcount: '479'
 ht-degree: 30%
-
 ---
-
 # Création d’une audience d’activité unique
 
 Créez des audiences d’activité uniquement à partir du workflow guidé en trois étapes [!DNL Adobe Target] lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits au sein de la même activité, mais ne sont pas stockées dans la [!UICONTROL bibliothèque d’audiences] pour une utilisation dans d’autres activités.
@@ -59,5 +61,5 @@ Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des
 
   Vous pouvez utiliser les alternatives suivantes pour utiliser les règles d’exclusion :
 
-   * [Créez et utilisez une audience de bibliothèque](/help/main/c-target/c-audiences/create-audience.md) au lieu d’une audience d’activité uniquement.
-   * [Combiner plusieurs](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (jusqu’à 20) audiences de bibliothèque en une audience d’activité unique. Lors de la combinaison d’audiences, les règles d’inclusion et d’exclusion dans les audiences individuelles de la bibliothèque peuvent être utilisées même lorsque l’audience combinée est enregistrée en tant qu’audience d’activité uniquement.
+  * [Créez et utilisez une audience de bibliothèque](/help/main/c-target/c-audiences/create-audience.md) au lieu d’une audience d’activité uniquement.
+  * [Combiner plusieurs](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (jusqu’à 20) audiences de bibliothèque en une audience d’activité unique. Lors de la combinaison d’audiences, les règles d’inclusion et d’exclusion dans les audiences individuelles de la bibliothèque peuvent être utilisées même lorsque l’audience combinée est enregistrée en tant qu’audience d’activité uniquement.

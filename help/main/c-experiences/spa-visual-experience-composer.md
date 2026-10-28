@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba43f5a3b7008fe051ef099919781f1690a6e2f3
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3955'
-ht-degree: 56%
+source-wordcount: '3960'
+ht-degree: 55%
 ---
 # Compositeur d’expérience visuelle pour application d’une seule page
 
@@ -383,7 +383,7 @@ Oui, at.js 2.x prend en charge A4T pour l’application d’une seule page via l
 | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | Non |
 | [Recommandations](/help/main/c-recommendations/recommendations.md) | Non |
 
-**Si nous avons installé at.js 2.x et implémenté `triggerView()` sur nos sites, comment exécuter les activités A/B de ciblage automatique étant donné que le compositeur d’expérience visuelle pour application d’une seule page ne prend pas en charge le ciblage automatique ?**
+**Si nous avons installé at.js 2.x et implémenté `triggerView()` sur nos sites, comment exécutons-nous les activités A/B de ciblage automatique, car le VEC SPA ne prend pas en charge le ciblage automatique ?**
 
 Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez déplacer toutes vos actions à exécuter lors de l’événement de chargement de page dans le compositeur d’expérience visuelle. Pointez sur chaque action, puis cliquez sur le bouton [!UICONTROL &#x200B; Déplacer vers l’événement de chargement de page &#x200B;]. Ensuite, à l’étape suivante, vous pouvez sélectionner Ciblage automatique pour la méthode d’affectation du trafic.
 

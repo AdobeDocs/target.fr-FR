@@ -29,16 +29,16 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 77%
 ---
 # Chapitre 9 : Prochaines étapes et ressources
 
 Nous avons abordé les principes de base de l’exécution de votre première activité. Nous espérons que l’activité vous a permis, à vous et à votre entreprise, de découvrir l’incroyable potentiel d’optimisation et de personnalisation d’[!DNL Adobe Target] pour la rentabilité de votre entreprise. Ce n’est que le début. Il est temps de réfléchir à ce sur quoi vous allez vous concentrer pour votre deuxième activité ? Pensez à créer une liste de priorités pour les activités que vous souhaitez effectuer. Vous serez surpris de la vitesse à laquelle vous constaterez que chaque activité améliore l’expérience client et contribue au succès commercial.
 
-D’ailleurs, vous disposez de nombreuses possibilités pour en savoir plus sur les tests, la personnalisation et l’utilisation de [!DNL Target]. Consultez la liste des ressources ci-dessous pour commencer à approfondir vos connaissances. Participez à nos webinaires, consultez le blog d’Adobe Target, assistez à l’Adobe Summit et jouez un rôle actif dans la communauté en ligne d’Adobe Target. N&#39;oubliez pas que nous sommes toujours là pour vous aider à lancer votre programme et à le mettre sur la voie du succès. N’hésitez pas à nous contacter à tout moment.
+D’ailleurs, vous disposez de nombreuses possibilités pour en savoir plus sur les tests, la personnalisation et l’utilisation de [!DNL Target]. Consultez la liste des ressources ci-dessous pour commencer à approfondir vos connaissances. Participez à nos webinaires, consultez le blog d’Adobe Target, assistez à l’Adobe Summit et jouez un rôle actif dans la communauté en ligne d’Adobe Target. N&#39;oubliez pas que nous sommes toujours là pour vous aider à lancer votre programme et le mettre sur la voie du succès. N’hésitez pas à nous contacter à tout moment.
 
 Nous avons compilé une liste organisée d’informations utiles pour vous aider à acquérir encore plus de connaissances sur l’optimisation et la personnalisation à l’aide de [!DNL Target].
 

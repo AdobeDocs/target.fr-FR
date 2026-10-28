@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 29%
+source-wordcount: '1024'
+ht-degree: 28%
 ---
 # [!UICONTROL Rapports Personalization Insights]
 
@@ -97,7 +97,7 @@ Il existe deux types d’attribut représentés dans les rapports [!UICONTROL In
 
 | Type de données | Description | Convention de dénomination des types de données |
 |--- |--- |--- |
-| Attributs de profil, y compris scripts de profil, API de mise à jour des profils et attributs de profil internes à la page | Toutes les informations que vous avez décidé d’inclure dans le profil utilisateur de Target.<br>Ces informations peuvent provenir de scripts de profil, d’informations chargées à l’aide de l’API de mise à jour du profil, ou des paramètres de profil in-mbox précédés de « profile ». | `Custom - Profile - [parameter name]` |
+| Attributs de profil, y compris scripts de profil, API de mise à jour des profils et attributs de profil internes à la page | Toute information que vous avez décidé d’inclure dans le profil utilisateur de Target.<br>Ces informations peuvent provenir de scripts de profil, d’informations chargées à l’aide de l’API de mise à jour du profil, ou des paramètres de profil in-mbox précédés de « profile ». | `Custom - Profile - [parameter name]` |
 | Paramètres de page (également appelés « paramètres de mbox ») | Paires nom/valeur transmises directement via le code de page qui ne sont pas stockées dans le profil du visiteur pour une utilisation future. | `Custom - Mbox Parameter - [parameter name]` |
 | Attributs du client | Les attributs du client permettent de télécharger les données des profils de visiteur vers Experience Cloud par FTP. Une fois le chargement effectué, vous pouvez exploiter les données dans Adobe Analytics et Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Audiences partagées (Adobe Audience Manager ou Adobe Analytics) | Audiences créées avec Adobe Audience Manager ou Adobe Analytics et partagées avec Target. | `Custom - Experience Cloud Segment - [segment name]` |

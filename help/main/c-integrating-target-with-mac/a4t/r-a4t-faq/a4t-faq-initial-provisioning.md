@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 61%
+source-wordcount: '479'
+ht-degree: 57%
 ---
 # FAQ sur l&#39;approvisionnement initial - A4T
 
@@ -62,14 +62,14 @@ Vérifiez les éléments suivants si l’un de ces problèmes survient :
 
 +++
 
-## Pourquoi les options Analytics ne s’affichent-elles pas dans Target ? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Pourquoi les options Analytics ne s’affichent-elles pas dans Target ? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 +++Réponse
 Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » Ci-dessus. La cause à l’origine de ce problème est la même.
 
 +++
 
-## Pourquoi les rapports A4T ne sont-ils pas visibles dans Analytics ? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Pourquoi les rapports A4T ne s’affichent-ils pas dans Analytics ? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 +++Réponse
 Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » ci-dessus. La cause à l’origine de ce problème est la même.

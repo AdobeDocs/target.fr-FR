@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3185'
-ht-degree: 47%
+source-wordcount: '3188'
+ht-degree: 45%
 ---
 # Quelle doit être la durée d’exécution d’un test A/B ?
 
@@ -44,7 +44,7 @@ Il est tentant d&#39;arrêter une activité si l&#39;une des offres est plus per
 
 Une activité [&#x200B; Affectation automatique &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) est un type de test A/B qui identifie un gagnant parmi plusieurs expériences. Un test [!UICONTROL &#x200B; Affectation automatique &#x200B;] réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
-Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
+Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon, et l’activité doit suivre son cours complet avant que vous puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
 La solution est [!UICONTROL &#x200B; Affectation automatique &#x200B;]. L’[!UICONTROL affectation automatique] réduit ce coût et cette surcharge pour déterminer une expérience gagnante. [!UICONTROL &#x200B; Affectation automatique &#x200B;] surveille les performances de la mesure d’objectif de toutes les expériences et envoie proportionnellement plus de nouveaux entrants vers les expériences hautement performantes. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez voir les bénéfices de l’activité sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
 
@@ -162,7 +162,7 @@ A nouveau, il est recommandé que la durée requise soit systématiquement arron
 
 Lorsque vous utilisez le chiffre d’affaires par visite (RPV) comme mesure, une source supplémentaire d’écart est ajoutée, car RPV est le produit du chiffre d’affaires par commande et du taux de conversion (RPV = Chiffre d’affaires / #visitors = (Chiffre d’affaires par commande &#42; #orders) / # visiteurs = Chiffre d’affaires par commande &#42; (#visitors &#42; CTR) / #visitors = Chiffre d’affaires par commande &#42; CTR), chacun avec son propre écart. La variance du taux de conversion peut être estimée directement à l&#39;aide d&#39;un modèle mathématique, mais la variance des revenus par commande est spécifique à l&#39;activité. Par conséquent, utilisez la connaissance de cet écart des activités passées ou exécutez le test A/B pendant quelques jours pour estimer l&#39;écart des revenus. L’écart est calculé à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs figurant dans le fichier de téléchargement CSV. Une fois ceci établi, utilisez la feuille de calcul pour calculer le temps nécessaire pour terminer le test.
 
-Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet intitulé [!UICONTROL Mesure RPV] s’affiche. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
+Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet intitulé [!UICONTROL Mesure RPV] s’affiche. Vous aurez besoin des informations suivantes lors de l&#39;utilisation de la version RPV du calculateur :
 
 * Nombre de visiteurs de l’offre de contrôle
 * Recettes totales pour l’offre de contrôle

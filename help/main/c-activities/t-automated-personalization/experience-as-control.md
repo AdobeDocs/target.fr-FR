@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 36%
+source-wordcount: '846'
+ht-degree: 31%
 ---
 # Sélectionnez le contrôle de votre activité  ou [!UICONTROL Ciblage automatique]
 
@@ -70,10 +70,10 @@ Deux options sont disponibles pour votre contrôle dans vos activités  et [!UIC
 Gardez les points suivants à l’esprit lors de l’utilisation d’une expérience spécifique comme contrôle :
 
 * Il n’est pas conseillé de modifier l’expérience de contrôle dans une activité déjà active. La dernière expérience de contrôle sélectionnée est nommée dans les rapports (même si les anciens rapports sont basés sur une autre expérience).
-* Il n’est pas conseillé de supprimer l’expérience de contrôle.
+* La suppression de l’expérience de contrôle n’est pas recommandée.
 * Il est déconseillé d’ajouter de nombreuses nouvelles offres ou expériences à une activité en direct avec une expérience spécifique, car le contrôle n’est pas conseillé.
 * Dans les activités , il n’est pas conseillé de cibler l’expérience de contrôle afin de contraindre davantage les personnes pouvant voir cette expérience.
-* Dans les activités , les informations sur l’effet élévateur et le degré de confiance ne sont *PAS* disponibles dans le rapport au niveau de l’offre si une expérience spécifique est sélectionnée. Les informations d’effet élévateur et de confiance sont disponibles au niveau du trafic global « ciblé » et « de contrôle » pour l’activité . Les informations sur l’effet élévateur et la confiance sont disponibles si « aléatoire » est sélectionné comme contrôle. Cette différence est due au fait que la comparaison du taux de conversion d’une expérience spécifique vers le taux de conversion d’une offre n’est pas logique en raison de la différence d’unités. Les informations disponibles dans une activité de [!UICONTROL ciblage automatique] sont les mêmes, quel que soit le type de contrôle sélectionné.
+* Dans les activités , les informations sur l’effet élévateur et le degré de confiance ne sont *PAS* disponibles dans le rapport au niveau de l’offre si une expérience spécifique est sélectionnée. Les informations d’effet élévateur et de confiance sont disponibles au niveau du trafic global « ciblé » et « de contrôle » pour l’activité . Les informations sur l’effet élévateur et la confiance sont disponibles si « aléatoire » est sélectionné comme contrôle. Cette différence est due au fait que la comparaison du taux de conversion d’une expérience spécifique au taux de conversion d’une offre n’est pas logique en raison de la différence d’unités. Les informations disponibles dans une activité de [!UICONTROL ciblage automatique] sont les mêmes, quel que soit le type de contrôle sélectionné.
 * Étant donné que le trafic de contrôle est dirigé vers une seule expérience ou un seul ensemble d’offres lorsque vous sélectionnez l’expérience comme contrôle (par rapport à aléatoire, où le montant du trafic de contrôle est fractionné en fonction du nombre d’expériences ou d’offres dans votre activité), il n’est généralement pas nécessaire d’utiliser autant de trafic pour effectuer un flux vers le contrôle. 10 % est un bon point de départ.
 * Si vous effectuez l’une des activités suivantes pour une activité en direct avec une expérience spécifique comme contrôle, le contrôle est automatiquement réinitialisé sur des expériences diffusées de manière aléatoire (au lieu de l’expérience spécifique précédemment sélectionnée) :
 

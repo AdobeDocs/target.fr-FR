@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2620'
 ht-degree: 72%
 ---
 # Chapitre 2 : Principales caractéristiques d’Adobe [!DNL Target]
@@ -156,12 +156,12 @@ Considérez les idées suivantes avant de passer au chapitre suivant : « Dév
 ### Les opinions peuvent avoir une incidence négative sur vos résultats.
 
 * Les opinions qui peuvent avoir un effet négatif sur votre efficacité. Opinion de la personne la plus payée (HIPPO), attitudes, préjugés. Par exemple, le PDG souhaite réduire la taille de la zone de recherche pour libérer plus de place sur chaque page. Nous devrions faire des tests pour nous assurer que cela ne réduit pas le nombre de recherches.
-* Agissez-vous en fonction de vos opinions ? Je n&#39;aime pas l&#39;aspect de ce test. Le client n’appréciera pas du tout cette expérience. Bien que l’intuition soit utile, les tests A/B ont prouvé à maintes reprises qu’elle n’est pas toujours au point.
+* Agissez-vous en fonction de vos opinions ? Je n&#39;aime pas l&#39;aspect de ce test. Le client n’appréciera pas du tout cette expérience. Bien que l’intuition soit utile, les tests A/B ont prouvé à maintes reprises qu’elle n’est pas toujours parfaite.
 * Ou avez-vous un état d’esprit d’optimisation ? J&#39;ai hâte de voir quelle expérience va gagner. Avons-nous suffisamment d’options à tester ?
 
 ### Les suppositions peuvent également avoir une incidence négative sur les résultats.
 
 * Les suppositions qui peuvent avoir un effet négatif sur votre efficacité. L’effet de meute (c’est comme ça que font nos concurrents). Par exemple : tous nos concurrents utilisent des bannières principales avec des images rotatives, donc c’est ce que nous devons faire aussi.
-* Supposons que nous sachions pourquoi quelque chose fonctionne ou ne fonctionne pas. En supposant qu&#39;on n&#39;ait pas besoin de tester quelque chose. Par exemple : nous avons toujours listé, par défaut, les chambres d’hôtel du prix le plus élevé au prix le plus bas.
+* Supposons que nous sachions pourquoi quelque chose fonctionne ou ne fonctionne pas. Supposons que nous n’ayons pas besoin de tester quelque chose. Par exemple : nous avons toujours listé, par défaut, les chambres d’hôtel du prix le plus élevé au prix le plus bas.
 * Agissez-vous en fonction de vos suppositions ? Nous n’avons pas besoin de tester cela, nous avons vérifié les analyses. (Oui, mais il y a peut-être des informations que l’analyse ne révèle pas.)
 * Ou avez-vous un état d’esprit d’optimisation ? Nous testons tout.

@@ -1,27 +1,32 @@
 ---
 keywords: script de profil;attributs de script de profil;bonnes pratiques de script de profil;déboguer;débogage;scripts;scripts de profil;attributs;attribut;paramètre
-description: Découvrez les attributs spécifiques au visiteur, stockés dans le profil du visiteur, pour fournir des informations sur ce dernier, qui peuvent être utilisées dans vos activités Adobe  [!DNL Target] .
+description: Découvrez les attributs spécifiques au visiteur, stockés dans le profil du visiteur, pour fournir des informations sur ce dernier, qui peuvent être utilisées dans vos activités Adobe [!DNL Target].
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 TQID: https://experienceleague.adobe.com/jW4BCxf12N2GRN4ZsxNR1xBd0upkEc-FjuTEQ4KvKis
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+    internal-label: Audiences
   - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+    internal-label: Implementation
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+    internal-label: Administration
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: 2520
-ht-degree: 88%
-
+source-wordcount: '2523'
+ht-degree: 86%
 ---
-
 # Attributs de profil
 
 Les attributs de profil dans [!DNL Adobe Target] sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités.
@@ -149,11 +154,11 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 
   Bonne pratique :
 
-   * Veillez à ce que les scripts de profil restent petits et aussi simples que possible.
-   * Évitez les expressions régulières ou utilisez uniquement des expressions régulières simples. Même des expressions simples peuvent nécessiter de nombreuses instructions d’évaluation.
-   * Évitez les approches récursives.
-   * La performance des scripts de profil doit être testée avant qu’ils ne soient ajoutés à [!DNL Target]. Tous les scripts de profil s’exécutent dans chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox est plus longue, ce qui peut avoir un impact sur le trafic et la conversion.
-   * Si les scripts de profil deviennent trop complexes, pensez à utiliser des [jetons de réponse](/help/main/administrating-target/response-tokens.md).
+  * Veillez à ce que les scripts de profil restent petits et aussi simples que possible.
+  * Évitez les expressions régulières ou utilisez uniquement des expressions régulières simples. Même des expressions simples peuvent nécessiter de nombreuses instructions d’évaluation.
+  * Évitez les approches récursives.
+  * La performance des scripts de profil doit être testée avant qu’ils ne soient ajoutés à [!DNL Target]. Tous les scripts de profil s’exécutent dans chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox est plus longue, ce qui peut avoir un impact sur le trafic et la conversion.
+  * Si les scripts de profil deviennent trop complexes, pensez à utiliser des [jetons de réponse](/help/main/administrating-target/response-tokens.md).
 
 * Pour plus d’informations, consultez la documentation sur le moteur JS Rhino.
 
@@ -267,7 +272,7 @@ Les objets et méthodes suivantes peuvent être référencés par des paramètre
 | `user.get('<par_name>')` | Renvoie la valeur de « `user.<par_name>` » définie pour le visiteur actuel ou la visiteuse actuelle ; renvoie la valeur null si aucune valeur n’a été définie. |
 | `user.categoryAffinity` | Renvoie le nom de la meilleure catégorie. |
 | `user.categoryAffinities` | Renvoie un tableau avec les catégories les plus appropriées. |
-| `user.isFirstSession` | Renvoie vrai s’il s’agit de la première session du visiteur. |
+| `user.isFirstSession` | Renvoie « true » s’il s’agit de la première session du visiteur. |
 | `user.browser` | Renvoie l’agent utilisateur dans l’en-tête HTTP. À titre d’exemple, vous pouvez créer une cible d’expression pour cibler les utilisateurs Safari uniquement : `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Opérateurs courants

@@ -10,10 +10,10 @@ product_v2:
 feature_v2:
   - id: 891742a5-242d-5099-966a-ca76c17cd2d2
     internal-label: Analytics for Target (A4T)
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 96%
+source-wordcount: '1366'
+ht-degree: 90%
 ---
 # Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
 
@@ -73,7 +73,7 @@ Les informations suivantes relatives à cette modification incluent des instruct
 
 Dans la plupart des cas, un [!DNL Target] hit est associé à un [!DNL Analytics] hit sur chaque page web. Cet assemblage se produit lorsqu’un paramètre SDID cohérent se trouve à la fois dans un appel [!DNL Target] et [!DNL Analytics] et qu’un appel [!DNL Experience Cloud ID] (MCID) se trouve dans un appel [!DNL Analytics] sur la même page. [!DNL Target] dispose également du MCID, mais si l’appel à [!DNL Target] se produit avant le retour de l’ID du visiteur, le hit reste assemblé en raison du SDID. L’utilisateur peut également rester suffisamment longtemps sur la page pour déclencher un appel à [!DNL Analytics] après qu’un appel à [!DNL Target] ait été déclenché. Ce scénario est idéal.
 
-**Hits de données partielles :** les utilisateurs ne restent parfois pas suffisamment longtemps sur une page pour envoyer un appel à [!DNL Analytics], mais [!DNL Target] dispose d’un MCID correct. De ce fait, les hits enregistrent des données partielles (hits sans affichage de la page [!DNL Analytics]). Si ces utilisateurs reviennent sur votre site et consultent une page comportant du code [!DNL Analytics], ils seront probablement comptés en tant que visiteurs récurrents. Ces hits auraient été perdus si la page ne comportait que du code [!DNL Analytics]. Certains clients ne souhaitent pas récupérer les données de ces hits, car elles exagèrent certaines mesures (visites) et diminuent d’autres mesures (nombre de pages vues par visite, durée par visite, etc.). Vous voyez également des visites sans aucune page vue. Toutefois, il existe de bonnes raisons de conserver ces données.
+**Accès aux données partielles :** les utilisateurs ne restent parfois pas suffisamment longtemps sur une page pour envoyer un appel [!DNL Analytics], mais [!DNL Target] dispose d’un MCID correct. De ce fait, les hits enregistrent des données partielles (hits sans affichage de la page [!DNL Analytics]). Si ces utilisateurs reviennent sur votre site et consultent une page comportant du code [!DNL Analytics], ils seront probablement comptés en tant que visiteurs récurrents. Ces hits auraient été perdus si la page ne comportait que du code [!DNL Analytics]. Certains clients ne souhaitent pas récupérer les données de ces accès, car elles exagèrent certaines mesures (visites) et diminuent d’autres mesures (nombre de pages vues par visite, durée par visite, etc.). Vous voyez également des visites sans aucune page vue. Toutefois, il existe de bonnes raisons de conserver ces données.
 
 Afin de minimiser les hits à données partielles, vous pouvez faire charger votre page plus rapidement, mettre à jour les bibliothèques vers les versions les plus récentes ou créer une [suite de rapports virtuelle](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) qui exclut ces hits. Pour connaître les instructions étape par étape, consultez la page [Créer des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) dans le *Guide des composants d’Analytics*.
 
@@ -94,7 +94,7 @@ Lors de la création de la suite de rapports virtuelle, spécifiez la configurat
 * Et
 * Instances de lien de sortie : N’existe pas
 
-**Hits orphelins :** il arrive parfois que les utilisateurs ne restent pas suffisamment longtemps sur la page pour un appel Analytics et Target n’obtient pas de MCID correct. Ces hits sont ce qu’Adobe définit comme étant des hits « orphelins ». Ils représentent les clients qui reviennent rarement et ils exagèrent le nombre de visites et de visiteurs de manière inappropriée.
+**Accès orphelins :** dans un nombre réduit de situations, les utilisateurs ne restent pas suffisamment longtemps sur la page pour un appel Analytics et Target n’a pas obtenu un MCID correct. Ces hits sont ce qu’Adobe définit comme étant des hits « orphelins ». Ils représentent les clients qui reviennent rarement et ils exagèrent le nombre de visites et de visiteurs de manière inappropriée.
 
 Afin de minimiser ces hits « orphelins », vous pouvez créer une [suite de rapports virtuelle](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) qui exclut ces hits, comme expliqué ci-dessus.
 

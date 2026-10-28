@@ -19,16 +19,16 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 87%
+source-wordcount: '221'
+ht-degree: 61%
 ---
 # Chapitre 8 : Communication des résultats de votre activité
 
 Si vous exécutez une activité et que vous obtenez des résultats incroyables, vous devez les partager avec l’organisation. Vous venez peut-être d’acquérir plus de clients, d’augmenter votre chiffre d’affaires ou de réaliser des économies en réduisant l’activité du centre d’appels ou en augmentant la valeur de commande moyenne. Montrez aux parties prenantes les avantages pour l’entreprise de l’optimisation et de la personnalisation grâce à [!DNL Target].
 
-Pour transmettre ces résultats, il est utile d’aborder la question comme si vous racontiez une histoire. Rendez-la intéressante et expliquez clairement ce qui a été testé ou personnalisé et pour quelles raisons. Indiquez également les résultats obtenus. Utilisez un langage et une terminologie adaptés aux personnes qui examinent les résultats.
+Pour communiquer ces résultats, il est utile d’aborder la question comme si vous racontiez une histoire. Rendez-la intéressante et expliquez clairement ce qui a été testé ou personnalisé et pour quelles raisons. Indiquez également les résultats obtenus. Utilisez un langage et une terminologie adaptés aux personnes qui examinent les résultats.
 
 Nous avons inclus un [modèle de résumé exécutif des résultats](/help/main/assets/executive-summary.zip) dans Microsoft PowerPoint. Ajoutez-y les couleurs et le logo de votre organisation et utilisez-le pour présenter les résultats de votre première activité de test ou de personnalisation. Comme le planificateur d’activités, il est inclus dans le kit de bienvenue sous forme de fichier autonome, mais nous en avons également ajouté une image ici, ainsi qu’un exemple du type d’informations à inclure dans chaque zone du modèle.
 

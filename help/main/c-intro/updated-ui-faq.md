@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2022'
 ht-degree: 1%
 ---
 # FAQ sur la mise à jour de l’interface utilisateur de [!DNL Target]
 
-Nouveauté de 2025, l’interface utilisateur [!DNL Adobe Target] repensée offre une expérience plus épurée et plus intuitive pour tous les utilisateurs et utilisatrices. Ce FAQ couvre les mises à jour clés de l’interface utilisateur [!DNL Target] et du [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications de navigation, l’emplacement des fonctionnalités et la suppression du bouton (bascule) temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, il vous offre une transition en douceur et des workflows plus intelligents.
+Nouveauté de 2025, l’interface utilisateur [!DNL Adobe Target] repensée offre une expérience plus épurée et plus intuitive pour tous les utilisateurs et utilisatrices. Ce FAQ couvre les mises à jour clés de l’interface utilisateur [!DNL Target] et du [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications de navigation, l’emplacement des fonctionnalités et la suppression du bouton (bascule) temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, il constitue votre guide pour une transition en douceur et des workflows plus intelligents.
 
 ## La chronologie de l’obsolescence du bouton (bascule) de la version de l’interface utilisateur Target a-t-elle été mise à jour ?
 
@@ -168,7 +168,7 @@ Ces outils permettent de contrôler précisément les dimensions des éléments 
 * Définir l’index z pour le calque
 * Choisir un type de positionnement
 
-Le rail [!UICONTROL Propriétés] mis à jour prend également en charge les styles intégrés personnalisés, offrant ainsi une certaine flexibilité lorsque les options prédéfinies ne répondent pas aux besoins de mise en page.
+Le rail [!UICONTROL Propriétés] mis à jour prend également en charge les styles intégrés personnalisés, ce qui offre une certaine flexibilité lorsque les options prédéfinies ne répondent pas aux besoins de mise en page.
 
 **[!UICONTROL Masquer]** : la fonction [!UICONTROL Masquer] se trouve dans le panneau [!UICONTROL Propriétés]. Après avoir sélectionné un élément, cliquez sur [!UICONTROL Masquer l’élément] pour le supprimer de la vue sans le supprimer. Cela s’avère utile pour gérer la visibilité lors de la conception ou de la prévisualisation.
 
@@ -210,7 +210,7 @@ Avec les dernières mises à jour de l’interface utilisateur, les états [!UIC
 ## Comment puis-je savoir si une activité a été créée ou modifiée dans l’interface utilisateur héritée ou dans l’interface utilisateur mise à jour ?
 
 +++Détails
-Les activités créées ou modifiées dans l’interface utilisateur mise à jour suivent le même workflow guidé en trois étapes et peuvent inclure des métadonnées ou une mise en forme spécifiques à l’interface utilisateur qui ne sont pas présentes dans les activités créées héritées. Bien qu’il n’existe aucune balise ou libellé visible dans l’interface, des différences de disposition, de structure ou d’options disponibles (comme le ciblage amélioré ou les fonctionnalités de prévisualisation) peuvent indiquer quelle interface utilisateur a été utilisée. Pour une identification détaillée, consultez l’historique des modifications de l’activité ou les journaux d’implémentation.
+Les activités créées ou modifiées dans l’interface utilisateur mise à jour suivent le même workflow guidé en trois étapes et peuvent inclure des métadonnées ou une mise en forme spécifiques à l’interface utilisateur qui ne sont pas présentes dans les activités créées héritées. Bien qu’il n’existe aucune balise ou libellé visible dans l’interface, des différences de disposition, de structure ou d’options disponibles (comme le ciblage amélioré ou les fonctions de prévisualisation) peuvent indiquer quelle interface utilisateur a été utilisée. Pour une identification détaillée, consultez l’historique des modifications de l’activité ou les journaux d’implémentation.
 
 +++
 
@@ -242,7 +242,7 @@ Pour plus d’informations, consultez [Extension Assistant d’édition visuelle
 +++Détails
 Pour plus d’informations sur les adresses IP auxquelles vous pouvez placer sur la liste autorisée, consultez les articles suivants :
 
-* **Enhanced Experience Composer (EEC)** : consultez la section [L’EEC ne charge pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) dans *Résolution des problèmes liés au Enhanced Experience Composer*
+* **Enhanced Experience Composer (EEC)** : consultez la section [L’EEC ne chargera pas d’URL d’assurance qualité interne non accessible sur les adresses IP publiques](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) dans *Résolution des problèmes liés au Enhanced Experience Composer*
 * **[!UICONTROL Recommendations]** : consultez la section [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 +++

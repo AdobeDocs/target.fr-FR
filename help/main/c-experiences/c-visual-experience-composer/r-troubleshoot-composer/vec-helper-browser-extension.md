@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 51%
 ---
 # Extension d’assistance [!UICONTROL Compositeur d’expérience visuelle]
@@ -58,7 +58,7 @@ Un SW est une technologie web qui peut être utilisée pour intercepter les requ
 
 Le SW peut contrôler le caching. Il peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG, AJAX, leur contenu et leurs en-têtes de réponse, y compris les éléments que notre [extension d’assistance du VEC de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options : SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
 
-Malheureusement, les API d’extension Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et traitées par un SW. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la requête de page web a été diffusée à partir d’un cache par un SW, car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
+Malheureusement, les API d’extension Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et traitées par un SW. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la demande de page web a été diffusée à partir d’un cache par un SW, car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
 
 Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application, puis activer la case à cocher « Contourner pour le réseau » sous la section Service Workers.
 

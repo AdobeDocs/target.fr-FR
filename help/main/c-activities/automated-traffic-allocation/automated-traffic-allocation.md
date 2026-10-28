@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '3760'
-ht-degree: 34%
+source-wordcount: '3768'
+ht-degree: 33%
 ---
 # Présentation de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;]
 
@@ -40,7 +40,7 @@ Lors de la [création d’une activité A/B](/help/main/c-activities/t-test-ab/t
 
 ## Le défi {#section_85D5A03637204BACA75E19646162ACFF}
 
-Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
+Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon, et l’activité doit suivre son cours complet avant que vous puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
 ## La solution : [!UICONTROL &#x200B; Affectation automatique &#x200B;] {#section_98388996F0584E15BF3A99C57EEB7629}
 
@@ -98,7 +98,7 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 | ![2e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **2e tour** : durant ce tour, 80 % du trafic est affecté aux expériences A et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience B enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience D pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience B pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences D et B passent au tour suivant. |
 | ![3e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **3e tour** : durant ce tour, 80 % du trafic est affecté aux expériences B et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience D continue d’enregistrer de bonnes performances, de même que l’expérience C.<ul><li>L’algorithme sélectionne l’expérience D pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience C pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences D et C passent au tour suivant. |
 | ![4e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **4e tour** : durant ce tour, 80 % du trafic est affecté aux expériences C et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience C enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience C pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience D pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences C et D passent au tour suivant. |
-| ![Tour n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n*** : Au fur et à mesure que l’activité progresse, une expérience hautement performante commence à émerger et le processus se poursuit jusqu’à ce qu’il y ait une expérience gagnante. Lorsque l’intervalle de confiance de l’expérience présentant le taux de conversion le plus élevé ne chevauche celui d’aucune autre expérience, il est considéré comme le gagnant. Un [badge](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) s&#39;affiche sur la page de l&#39;activité gagnante et dans la liste [!UICONTROL Activité].<ul><li>L’algorithme désigne l’expérience C comme gagnante définitive.</li></ul>À ce stade, l’algorithme distribue 80 % du trafic à l’expérience C, tandis que 20 % du trafic continue à être distribué de manière aléatoire à toutes les expériences (A, B, C et D). Au total, l’expérience C récupère 85 % du trafic. Dans le cas improbable où l’intervalle de confiance du gagnant recommence à chevaucher un autre intervalle, l’algorithme restaure le comportement du tour 4 ci-dessus.<P>**Important** : si vous avez choisi manuellement un gagnant plus tôt dans le processus, il aurait été facile de choisir la mauvaise expérience. C’est pourquoi il est recommandé d’attendre que l’algorithme détermine l’expérience gagnante. |
+| ![Tour n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n*** : Au fur et à mesure que l’activité progresse, une expérience hautement performante commence à émerger et le processus se poursuit jusqu’à ce qu’il y ait une expérience gagnante. Lorsque l’intervalle de confiance de l’expérience présentant le taux de conversion le plus élevé ne chevauche aucun autre intervalle de confiance de l’expérience, il est considéré comme le gagnant. Un [badge](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) s&#39;affiche sur la page de l&#39;activité gagnante et dans la liste [!UICONTROL Activité].<ul><li>L’algorithme désigne l’expérience C comme gagnante définitive.</li></ul>À ce stade, l’algorithme distribue 80 % du trafic à l’expérience C, tandis que 20 % du trafic continue à être distribué de manière aléatoire à toutes les expériences (A, B, C et D). Au total, l’expérience C récupère 85 % du trafic. Dans le cas improbable où l’intervalle de confiance du gagnant recommence à chevaucher un autre intervalle, l’algorithme restaure le comportement du tour 4 ci-dessus.<P>**Important** : si vous avez choisi manuellement un gagnant plus tôt dans le processus, il aurait été facile de choisir la mauvaise expérience. C’est pourquoi il est recommandé d’attendre que l’algorithme détermine l’expérience gagnante. |
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Si les visiteurs récurrents sont distribués de manière aléatoire, leur effet
 
 ### Différencie les utilisateurs hautement performants des utilisateurs peu performants.
 
-L’[!UICONTROL &#x200B; Affectation automatique] permet de faire la distinction entre les expériences hautement performantes (et de trouver une expérience gagnante). Il peut arriver que la différenciation des expériences les moins performantes soit insuffisante.
+L’[!UICONTROL &#x200B; Affectation automatique] permet de faire la distinction entre les expériences hautement performantes (et de trouver une expérience gagnante). Il peut arriver que vous n’ayez pas assez de différenciation entre les expériences peu performantes.
 
 Si vous souhaitez produire une différenciation statistiquement significative entre toutes les expériences, vous pouvez envisager d’utiliser le mode d’affectation manuelle du trafic.
 
@@ -144,7 +144,7 @@ Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les perf
 
   Par exemple :
 
-  * « Dieu merci, c&#39;est vendredi » entraîne des conversions plus élevées le vendredi.
+  * « Dieu merci, c’est vendredi » entraîne des conversions plus élevées le vendredi.
   * « Démarrez votre lundi » a une conversion plus élevée le lundi.
   * « Préparez-vous pour un hiver sur la côte Est » offre une conversion plus élevée dans les endroits de la côte Est ou touchés par l&#39;hiver.
 
@@ -152,7 +152,7 @@ Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les perf
 
 * Expériences avec des délais variables de conversion (probablement à cause de l’urgence du message).
 
-  Par exemple, « Derniers jours des soldes à -30 % » signale au visiteur d’effectuer une conversion aujourd’hui, tandis que « 50 % sur votre premier achat » n’engendre pas le même sentiment d’urgence.
+  Par exemple, « 30 % de la vente se termine aujourd’hui » indique au visiteur de procéder à la conversion dès aujourd’hui, mais « 50 % de réduction sur le premier achat » ne crée pas le même sentiment d’urgence.
 
 ## Questions fréquentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 

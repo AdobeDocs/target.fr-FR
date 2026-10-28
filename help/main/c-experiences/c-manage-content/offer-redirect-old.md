@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ef98a6e0-f26c-4870-9bd4-e6b72e9cc699
     internal-label: Experiences and offers
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1212'
 ht-degree: 44%
 ---
 # Création d’offres de redirection
@@ -120,7 +120,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 Vous devez appliquer les offres de redirection à l’aide du [!UICONTROL compositeur d’expérience d’après les formulaires]. Vous ne pouvez actuellement pas appliquer d’offres de redirection à l’aide du VEC.
 
-Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités [!UICONTROL Tests A/B], [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommandations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires] pour créer des expériences qui utilisent des offres de redirection.
+Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles utile pour créer des expériences à utiliser dans les activités [!UICONTROL Tests A/B], [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Recommandations] lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires] pour créer des expériences qui utilisent des offres de redirection.
 
 1. Créez ou modifiez une activité dans le [!UICONTROL Compositeur d’expérience d’après les formulaires].
 

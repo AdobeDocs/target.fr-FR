@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '326'
 ht-degree: 12%
 ---
 # Chargement de données pour les algorithmes de personnalisation [!DNL Target]
@@ -56,6 +56,6 @@ La liste suivante présente les bonnes pratiques pour le chargement de données 
 * Plus la qualité des données disponibles pour [!DNL Target] les algorithmes de personnalisation est élevée, plus les modèles obtenus dans vos activités [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique] sont de qualité.
 * Limitez l’utilisation d’attributs ou de scripts de profil multiples servant le même objectif.
 * Ne transmettez pas d’ID unique, tel qu’un ID de session si nécessaire.
-* Vérifiez les données que [!DNL Target] collecte automatiquement ( [collecte de données pour les algorithmes Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-data.md)) afin de ne pas envoyer d’informations en double. Par exemple, [!DNL Target] utilise des adresses IP pour déterminer les codes postaux des visiteurs. Il n’est pas nécessaire de transmettre ces informations sous la forme d’une variable distincte.
+* Vérifiez les données que [!DNL Target] collecte automatiquement ( [collecte de données pour les algorithmes Personalization de Target](/help/main/c-activities/t-automated-personalization/ap-data.md)) afin d’éviter d’envoyer des informations en double. Par exemple, [!DNL Target] utilise des adresses IP pour déterminer les codes postaux des visiteurs. Il n’est pas nécessaire de transmettre ces informations sous la forme d’une variable distincte.
 * Ne transmettez pas plusieurs valeurs dans le même attribut ou la même variable. Si plusieurs variables sont concaténées, [!DNL Target] algorithmes de personnalisation traitent chaque chaîne comme une valeur unique, ce qui réduit la valeur des informations à personnaliser.
 * Utilisez une convention de nommage mémorisable et significative pour rendre vos [rapports Personalization Insights](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) plus compréhensibles.

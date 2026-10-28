@@ -1,5 +1,5 @@
 ---
-keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page changée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
+keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page modifiée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
 description: Obtenez des suggestions de résolution de problèmes si votre activité Adobe [!DNL Target] n’apparaît pas sur votre site.
 title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activities
@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 41%
+source-wordcount: '870'
+ht-degree: 36%
 ---
 # Résolution des problèmes liés aux activités
 
@@ -61,7 +61,7 @@ Assurez-vous que votre activité est terminée et qu’elle a été activée.
 * Devenez admissible et essayez à nouveau.
 * Utilisez les liens d’aperçu pour ignorer les conditions de ciblage.
 
-## La page ne remplit pas les conditions de ciblage de la page.
+## La page ne remplit pas les conditions de ciblage de page.
 
 **Valider :** sur la page [!UICONTROL Aperçu], déterminez si la page ne fait pas partie des conditions de ciblage.
 

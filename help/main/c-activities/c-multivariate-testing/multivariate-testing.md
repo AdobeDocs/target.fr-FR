@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 48%
+source-wordcount: '1480'
+ht-degree: 47%
 ---
 # Présentation du [!UICONTROL test multivarié]
 
@@ -41,7 +41,7 @@ En [!DNL Target], chaque combinaison est une expérience. Le [!UICONTROL test mu
 
 En raison du nombre de combinaisons pouvant être générées, un [!UICONTROL test multivarié] nécessite plus de temps et de trafic qu’un test A/B. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, vous devez comprendre la quantité de trafic que votre page reçoit et tester le nombre optimal de combinaisons pendant le temps approprié pour obtenir les résultats requis.
 
-L’[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant d’utiliser l’estimateur de trafic, vous devez être en possession de statistiques fiables présentant le nombre d’impressions et de conversions que votre site reçoit normalement. Examinez les niveaux de trafic par jour. Plus une activité comporte d’expériences, plus elle doit inclure de trafic ou son exécution doit durer. Si le volume de trafic n’est pas élevé, vous devez tester quelques combinaisons, sinon le temps nécessaire pour obtenir des résultats de test significatifs pourrait être trop long pour être utile.
+L’[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant d’utiliser l’estimateur de trafic, vous devez être en possession de statistiques fiables présentant le nombre d’impressions et de conversions que votre site reçoit normalement. Examinez les niveaux de trafic par jour. Plus une activité comporte d’expériences, plus elle doit inclure de trafic ou son exécution doit durer. Si le trafic est faible, vous devez tester quelques combinaisons, sinon le temps nécessaire pour produire des résultats de test significatifs peut être trop long pour être utile.
 
 ## Terminologie MVT {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -67,13 +67,13 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
 
 * Utilisez un test multivarié pour déterminer l’élément qui est le plus important, puis exécutez un test A/B plus ciblé sur cet élément.
 
-  Lorsque le nombre d’expériences différentes dépasse cinq et s’étend sur deux éléments ou plus, il est préférable d’envisager de réaliser un test MVT avant d’exécuter vos tests A/B. Le test MVT indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu les plus utiles pour vous aider à atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner davantage les résultats. Par exemple, vous pouvez tester deux images spécifiques l’une par rapport à l’autre ou comparer le libellé ou les couleurs d’un call to action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
+  Lorsque le nombre d’expériences différentes dépasse cinq et s’étend sur deux éléments ou plus, il est préférable d’envisager un test MVT avant d’exécuter vos tests A/B. Le test MVT indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu les plus utiles pour vous aider à atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner davantage les résultats. Par exemple, vous pouvez tester deux images spécifiques l’une par rapport à l’autre ou comparer le libellé ou les couleurs d’un call to action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
 ## Considérations {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
 * Utilisez un test multivarié lorsque vous avez au moins trois éléments à tester. Si vous en avez moins, exécutez une série de tests A/B.
 * Sélectionnez les éléments de page qui, selon vous, ont le plus d’impact sur les résultats.
-* N’incluez pas un trop grand nombre d’éléments ou d’emplacements dans un test. Plus le nombre est élevé, plus la durée du test est longue.
+* N’incluez pas trop d’éléments ou d’emplacements dans un test. Plus le nombre est élevé, plus la durée du test est longue.
 * Planifiez la conception du test à l’avance. Ne modifiez pas un test une fois qu’il est en ligne et que les données commencent à être collectées et analysées.
 * Les éléments doivent être indépendants les uns des autres.
 

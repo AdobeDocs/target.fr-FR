@@ -16,10 +16,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 49%
+source-wordcount: '351'
+ht-degree: 43%
 ---
 # Collisions d’activités
 
@@ -42,4 +42,4 @@ La liste [!UICONTROL Collisions] affiche chaque scénario [!DNL Target] où la m
 
 La liste affiche le statut et la priorité de chaque collision potentielle, ainsi que d’autres informations. Vous pouvez utiliser le statut et la priorité pour vous aider à déterminer la probabilité qu’une collision se produise. Prenons deux activités qui pourraient entrer en conflit. Si une activité n’est pas active actuellement, une collision ne peut pas se produire. Une collision n’est possible que si l’activité inactive devient active. Si la collision potentielle se produit entre deux activités actives ayant la même priorité et la même audience, une collision se produit. Vous pouvez modifier la priorité ou le statut pour prévenir la collision.
 
-Si les audiences sont différentes, il existe une collision potentielle car il est possible qu’un visiteur spécifique puisse appartenir à plusieurs audiences.
+Si les audiences sont différentes, il existe toujours un risque de collision, car il est possible qu’un visiteur particulier appartienne à plusieurs audiences.

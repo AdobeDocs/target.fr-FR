@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: f6fd44786c6c8903e81598357a2b6985af0e6eb6
+source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
 workflow-type: tm+mt
-source-wordcount: '2340'
-ht-degree: 58%
+source-wordcount: '2351'
+ht-degree: 56%
 ---
 # Rapport [!UICONTROL Segments automatisés]
 
@@ -68,13 +68,13 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
    >[!IMPORTANT]
    >
-   >Le rapport [!UICONTROL Segments automatisés] n’est disponible que 15 jours au moins après l’activation de votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ce rapport ni cliquer sur l’icône [!UICONTROL Segments automatisés]. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité, le rapport [!UICONTROL Segments automatisés] sera disponible.
+   >Le rapport [!UICONTROL Segments automatisés] n’est pas disponible avant au moins 15 jours après l’activation de votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ce rapport ou cliquer sur l’icône [!UICONTROL Segments automatisés]. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité, le rapport [!UICONTROL Segments automatisés] sera disponible.
 
 1. 15 jours après l’activation de l’activité, vous pouvez cliquer sur l’icône **[!UICONTROL Segments automatisés]**.
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au rapport [!UICONTROL Résumé] (rapports de performances), [!UICONTROL Personalization Insights], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour des périodes fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le bouton « Démarrer » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement au rapport [!UICONTROL Résumé] (rapports de performances), [!UICONTROL Personalization Insights], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour des périodes fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    Vous pouvez accéder aux périodes fixes disponibles à partir de la liste déroulante [!UICONTROL Période prédéfinie].
 
@@ -118,7 +118,7 @@ Ce segment automatisé est défini en fonction de deux attributs. Les visiteurs 
 
 Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Informations sur la personnalisation] ne sont pas encore disponibles pour votre activité :
 
-* 15 jours ne se sont pas écoulés depuis l’activation de l’activité. Les rapports Segments automatisés et Attributs importants ne seront disponibles qu’au moins 15 jours après que vous ayez commencé votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants.
+* 15 jours ne se sont pas écoulés depuis l’activation de l’activité. Les rapports Segments automatisés et Attributs importants ne seront pas disponibles avant au moins 15 jours après le début de votre activité. Au cours de cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants .
 * Votre activité n’a pas présenté assez de trafic au cours de la période spécifiée. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité pour construire les modèles de personnalisation, les rapports Segments automatisés et Attributs importants seront disponibles.
 * Votre activité a un objectif d’optimisation des revenus. Actuellement, [!UICONTROL Personalization Insights] est disponible uniquement pour les activités d’objectif d’optimisation de la conversion. Adobe ajoutera la prise en charge des activités d’objectif d’optimisation du chiffre d’affaires dans une version ultérieure.
 
