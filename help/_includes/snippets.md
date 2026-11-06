@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # Extraits
 
@@ -36,4 +36,7 @@ ht-degree: 8%
 >
 >* [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md) : cette FAQ aborde les questions courantes sur la nouvelle interface utilisateur [!DNL Target] et le [!UICONTROL compositeur d’expérience visuelle] (VEC), notamment les modifications apportées à la navigation, l’emplacement des fonctionnalités et l’obsolescence du bouton (bascule) de version temporaire de l’interface utilisateur. Que vous soyez spécialiste du marketing, développeur ou administrateur, cette FAQ vous aide à effectuer une transition en douceur et à tirer le meilleur parti de l’interface utilisateur mise à jour.
 
+## Règles de nom des activités {#activity-name-rules}
+
+Le nom de l’activité ne peut pas commencer par `=`, `+`, `-` ou `@`. Le nom de l’activité ne peut pas non plus contenir les séquences de caractères suivantes : `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` ou `"]`.
 

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 4bdd36a7ca0162f95e5d9efd67899433d970d384
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '961'
 ht-degree: 17%
 ---
 # Créer une activité de test A/B
@@ -68,29 +68,7 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
 1. Pour nommer l’activité, cliquez sur l’icône **[!UICONTROL Modifier]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Activité sans titre] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
-
-   | Caractère | Description |
-   |--- |--- |
-   | `=` | Égal |
-   | `+` | Plus |
-   | `-` | Moins |
-   | `@` | Arobase |
-
-   Le nom de l’activité ne peut pas contenir l’une des séquences de caractères suivantes :
-
-   | Séquence De Caractères | Description |
-   |--- |--- |
-   | ;= | Point-virgule, égal à |
-   | ;+ | Point-virgule plus |
-   | ;- | Point-virgule, moins |
-   | ;@ | Point-virgule, signe At |
-   | ,= | Virgule, est égal à |
-   | ,+ | Virgule, Plus |
-   | ,- | Virgule, Moins |
-   | ,@ | Virgule, Au signe |
-   | `[`&quot; | Crochet ouvert, guillemets doubles |
-   | &quot;`]` | Guillemets doubles, crochet fermant |
+   {{activity-name-rules}}
 
 1. Créez de nouvelles expériences en modifiant les éléments de la page.
 
@@ -108,23 +86,25 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
 1. (Conditionnel) Cliquez sur la commande **[!UICONTROL Tous les visiteurs]** pour sélectionner une autre audience pour l’activité.
 
-   L’audience [!UICONTROL Tous les visiteurs] est définie par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche.
+   L’audience [!UICONTROL Tous les visiteurs] est définie par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche. Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
+
+   +++ Procédure de sélection d’une autre audience
 
    Le cadre de droite s’affiche, ce qui vous permet d’ajouter ou de supprimer une audience et d’attribuer le pourcentage de visiteur ou de visiteuse à l’activité.
 
-   1. Pour modifier l’audience, cliquez sur l’icône **[!UICONTROL Remplacer]** ( ![Icône Remplacer](/help/main/assets/icons/Retweet.svg) ) dans le cadre de droite.
-   1. Dans la boîte de dialogue [!UICONTROL Ajouter une audience], [sélectionnez l’audience souhaitée](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) puis cliquez sur **[!UICONTROL Attribuer l’audience]**.
+   1. Pour modifier l’audience, cliquez sur l’icône **[!UICONTROL Remplacer]** ( ![icône Remplacer](/help/main/assets/icons/Retweet.svg) ) dans le cadre de droite.
+   1. Dans la boîte de dialogue **[!UICONTROL Ajouter une audience]**, [sélectionnez l’audience souhaitée](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) puis cliquez sur **[!UICONTROL Attribuer l’audience]**.
 
-      Vous pouvez cliquer sur **Combiner les audiences** pour [créer une audience qui combine plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
+      Pour créer une audience qui combine plusieurs audiences, cliquez sur **[!UICONTROL Combiner les audiences]**. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
 
-      Si vous devez créer une nouvelle audience qui ne figure pas encore dans la [!UICONTROL Bibliothèque d’audiences], cliquez sur **Créer une audience**. Au cours du workflow [création d’audience](/help/main/c-target/c-audiences/audiences.md) vous pouvez choisir parmi les options suivantes :
+      Pour créer une audience qui ne figure pas encore dans la [!UICONTROL Bibliothèque d’audiences], cliquez sur **[!UICONTROL Créer une audience]**. Dans le [workflow de création d’audience](/help/main/c-target/c-audiences/audiences.md), choisissez l’une des options suivantes :
 
-      * **[!UICONTROL Bibliothèque d’audiences]** : créez une audience à la demande enregistrée dans la [!UICONTROL Bibliothèque d’audiences] qui peut être réutilisée dans d’autres activités.
+      * **[!UICONTROL Bibliothèque d’audiences]** : créez une audience à la demande qui est enregistrée dans la [!UICONTROL Bibliothèque d’audiences] et peut être réutilisée dans d’autres activités.
       * **[!UICONTROL Cette activité uniquement]** : créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans la [!UICONTROL bibliothèque d’audiences] et qui ne peut être utilisée que dans l’activité en cours.
 
    1. Cliquez sur **[!UICONTROL Pourcentage de visiteurs]** dans le cadre de droite, puis choisissez le pourcentage de visiteurs qualifiés qui doivent rejoindre l’activité.
 
-   Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
+   +++
 
 1. Cliquez sur le contrôle **[!UICONTROL Allocation du trafic]**, puis choisissez la méthode d&#39;allocation du trafic souhaitée dans le volet de droite, comme illustré ci-dessous :
 
