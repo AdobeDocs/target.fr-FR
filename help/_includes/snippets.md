@@ -1,8 +1,8 @@
 ---
-source-git-commit: 87c0d2aa67d54dcbc2963be63d2d7ad9c02b6aa9
+source-git-commit: bc72bb770dbfab32fbce7fac9c2aaed1bd61112d
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 5%
+source-wordcount: '267'
+ht-degree: 7%
 ---
 # Extraits
 
@@ -28,9 +28,9 @@ ht-degree: 5%
 >
 >* Notes de mise à jour de la version [[!DNL Target Standard/Premium] 25.1.1 (9 janvier 2025)](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1) : fournit un résumé des principales modifications apportées à l’interface utilisateur dans [!DNL Target] pour la bibliothèque [!UICONTROL Offres].
 >
->* [Présentation de l [!DNL Target] interface utilisateur &#x200B;](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
+>* [Présentation de l [!DNL Target] interface utilisateur ](/help/main/c-intro/understand-the-target-ui.md) : fournit un bref aperçu pour vous familiariser avec les [!DNL Target] et fournit des liens vers des informations plus détaillées et des instructions détaillées.
 >
->* [[!UICONTROL Compositeur d’expérience visuelle] modifications &#x200B;](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
+>* [[!UICONTROL Compositeur d’expérience visuelle] modifications ](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) : la version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2015) introduit une mise à jour du [!UICONTROL Compositeur d’expérience visuelle] (VEC). Cet article explique les différences entre les versions héritées et mises à jour du compositeur d’expérience visuelle.
 >
 >* [[!UICONTROL Compositeur d’expérience visuelle] options](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) : cet article explique l’interface utilisateur du compositeur d’expérience visuelle mise à jour et ses options.
 >
@@ -39,20 +39,4 @@ ht-degree: 5%
 ## Règles de nom des activités {#activity-name-rules}
 
 Le nom de l’activité ne peut pas commencer par `=`, `+`, `-` ou `@`. Le nom de l’activité ne peut pas non plus contenir les séquences de caractères suivantes : `;=`, `;+`, `;-`, `;@`, `,=`, `,+`, `,-`, `,@`, `["` ou `"]`.
-
-## Sélectionner une audience à l’étape Ciblage {#audience-selection-steps}
-
-1. Pour modifier l’audience, cliquez sur l’icône **[!UICONTROL Remplacer]** ( ![icône Remplacer](/help/main/assets/icons/Retweet.svg) ) dans le cadre de droite.
-
-1. Dans la boîte de dialogue **[!UICONTROL Ajouter une audience]**, [sélectionnez l’audience souhaitée](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) puis cliquez sur **[!UICONTROL Attribuer l’audience]**.
-
-   Pour créer une audience qui combine plusieurs audiences, cliquez sur **[!UICONTROL Combiner les audiences]**. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
-
-   Pour créer une audience qui ne figure pas encore dans la [!UICONTROL Bibliothèque d’audiences], cliquez sur **[!UICONTROL Créer une audience]**. Dans le [workflow de création d’audience](/help/main/c-target/c-audiences/audiences.md), choisissez l’une des options suivantes :
-
-   * **[!UICONTROL Bibliothèque d’audiences]** : créez une audience à la demande qui est enregistrée dans la [!UICONTROL Bibliothèque d’audiences] et peut être réutilisée dans d’autres activités.
-   * **[!UICONTROL Cette activité uniquement]** : créez une [audience spécifique à une activité](/help/main/c-target/creating-activity-only-audience.md) qui n’est pas enregistrée dans la [!UICONTROL bibliothèque d’audiences] et qui ne peut être utilisée que dans l’activité en cours.
-
-1. Cliquez sur **[!UICONTROL Pourcentage de visiteurs]** dans le cadre de droite, puis choisissez le pourcentage de visiteurs qualifiés qui doivent rejoindre l’activité.
-
 
