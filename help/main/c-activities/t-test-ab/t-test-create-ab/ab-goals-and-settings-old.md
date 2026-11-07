@@ -85,7 +85,7 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
-(https://video.tv.adobe.com/v/17381?captions=fre-fr)
+(https://video.tv.adobe.com/v/3507945?captions=fre_fr-fr)
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

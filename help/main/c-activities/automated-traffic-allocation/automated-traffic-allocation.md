@@ -258,7 +258,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507591?captions=fre_fr)
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

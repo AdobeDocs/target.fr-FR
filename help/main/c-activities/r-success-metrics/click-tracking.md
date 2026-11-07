@@ -129,4 +129,4 @@ Cette vidéo comporte des informations sur la création de mesures de suivi des 
 * comprendre et créer des mesures [!UICONTROL Conversion], [!UICONTROL Chiffre d’affaires] et [!UICONTROL Engagement] ;
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507817?captions=fre_fr)

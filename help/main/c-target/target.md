@@ -48,4 +48,4 @@ Cette vidéo fournit des informations sur la configuration du ciblage et des aud
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507591?captions=fre_fr)
