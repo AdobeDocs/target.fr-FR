@@ -69,4 +69,4 @@ Cette vidéo comporte des informations sur l’utilisation des mesures de succè
 * Comprendre et créer des mesures de conversion, de recettes et d’engagement
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/3507817?captions=fre_fr)

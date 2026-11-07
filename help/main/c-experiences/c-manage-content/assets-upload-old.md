@@ -50,4 +50,4 @@ Cette vidéo fournit des informations sur la gestion du contenu.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/3507954?captions=fre_fr)

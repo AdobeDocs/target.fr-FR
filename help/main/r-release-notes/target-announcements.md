@@ -76,7 +76,7 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 
 If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=fr){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=fr){target=_blank}."
 
 +++
 -->
@@ -107,7 +107,7 @@ Pourquoi devriez-vous y assister ?
 
   Découvrez comment les algorithmes de recommandation peuvent changer la donne pour les entreprises, tout en stimulant l’engagement et en générant des revenus. Des suggestions de produits personnalisées aux recommandations de contenu, la possibilité de guider les utilisateurs et utilisatrices de manière transparente tout au long de leur parcours contribue directement à déverrouiller une croissance commerciale significative.
 
-  [Écoute l&#39;enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [Écoute l&#39;enregistrement.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=fr#M3685){target=_blank}
 
 * **Déverrouillage de la personnalisation optimisée par l’IA**
 

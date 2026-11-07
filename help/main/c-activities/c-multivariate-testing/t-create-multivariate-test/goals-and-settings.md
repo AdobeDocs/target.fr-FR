@@ -185,7 +185,7 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507945?captions=fre_fr)
 
 ### Création de tests multivariés (9:25)
 

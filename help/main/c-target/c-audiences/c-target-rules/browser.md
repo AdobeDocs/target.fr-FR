@@ -143,7 +143,7 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507772?captions=fre_fr)
 
 ## Mises à jour pour [!DNL iPad] et [!DNL iPhone] dans les attributs d’audience [!UICONTROL navigateur] (30 avril 2024) {#updates}
 

@@ -92,4 +92,4 @@ Cette vidéo comprend des informations sur la création des audiences.
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/3507772?captions=fre_fr)

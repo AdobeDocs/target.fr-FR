@@ -190,4 +190,4 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 
 Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de la minute 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/3507627?captions=fre_fr)

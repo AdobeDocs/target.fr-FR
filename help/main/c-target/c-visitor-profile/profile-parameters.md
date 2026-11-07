@@ -301,4 +301,4 @@ Cette vidéo fournit des informations sur l’utilisation et la création des sc
 * Utilisation du menu Jeton disponible pour accéder aux options disponibles
 * Activation et désactivation des scripts de profil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/3507909?captions=fre_fr)

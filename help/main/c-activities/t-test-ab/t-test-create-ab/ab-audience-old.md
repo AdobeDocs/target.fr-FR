@@ -86,6 +86,6 @@ Cette vidéo comprend des informations sur la configuration des audiences.
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507591?captions=fre_fr)
 
 Pour plus d’informations, voir [Audiences](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
