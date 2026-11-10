@@ -29,7 +29,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
   | [Cycle de vie](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Données de cycle de vie de l’application | Identique à AEPCore |
   | [&#128279;](https://developer.adobe.com/client-sdks/edge/edge-network/) | Communication avec Adobe Experience Platform Edge Network. Nécessite un flux de données. | AEPEdge 5.0.2 |
   | [&#x200B; Identité pour Edge Network &#x200B;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Identity Management pour Edge Network | AEPEdgeIdentity 5.0.0 |
-  | [Indicateurs](https://experienceleague.adobe.com/en/docs/target/flags/home) | Évaluation de l’indicateur de fonctionnalité | Voir [&#x200B; Installation &#x200B;](#installation) |
+  | [Indicateurs](https://experienceleague.adobe.com/fr/docs/target/flags/home) | Évaluation de l’indicateur de fonctionnalité | Voir [&#x200B; Installation &#x200B;](#installation) |
 
 ## Configurer les indicateurs dans la collecte de données {#configure}
 
@@ -52,7 +52,7 @@ Avant de commencer, vérifiez que vous disposez des éléments suivants :
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
 ### Obtention de l’identifiant du fichier d’environnement {#environment-file-id}
 
