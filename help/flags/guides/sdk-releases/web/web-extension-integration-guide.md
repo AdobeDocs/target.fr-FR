@@ -6,9 +6,9 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
+source-git-commit: a25ca0f3ce4c9cf38a871d8193ec43250d61edb9
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1241'
 ht-degree: 7%
 ---
 # Extension Flags pour le Web {#web-extension-integration-guide}
@@ -55,21 +55,25 @@ Assurez-vous que cette extension est installée dans la propriété web de votre
 
    ![](../assets/extension-install.png)
 
-1. Configurez les paramètres d’extension :
+#### Configurer les paramètres d’extension {#configure-extension-settings}
 
-* Identifiant client : un identifiant unique pour votre application dans Flags.
+Lorsque vous installez l’extension Flags, vous accédez à la page de configuration. Configurez les paramètres suivants :
 
-1. Sélectionnez **[!UICONTROL Enregistrer]**.
+| Paramètre | Description | Requis |
+|---|---|---|
+| Id du client | Identifiant unique de votre application dans Flags. | Oui |
 
-1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+#### Publier l’extension {#publish-extension}
 
-   1. Ajoutez l’extension à une bibliothèque.
+Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
 
-   1. Créez dans votre environnement de développement.
+1. Ajoutez l’extension à une bibliothèque.
 
-   1. Validez avec [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr).
+1. Créez dans votre environnement de développement.
 
-   1. Promouvoir l’évaluation et la production.
+1. Validez avec [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr).
+
+1. Promouvoir l’évaluation et la production.
 
 ## Ajout du code intégré aux balises à votre site web {#embed-code}
 
@@ -275,10 +279,10 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Champ | Type | Description |
 |---|---|---|
 | `id` | nombre | Identifiant numérique de la fonction. `-1` pour la sentinelle de contrôle au niveau des fonctionnalités. |
-| `key` | chaîne \| null | Clé de la fonctionnalité. `null` pour la sentinelle de contrôle au niveau des fonctionnalités. |
-| `featureGroupKey` | chaîne \| null | Clé du groupe de fonctionnalités si disponible |
-| `meta` | chaîne \| null | Métadonnées des fonctionnalités, le cas échéant |
-| `analyticsParam` | AnalyticsParam \| null | Détails Analytics pour la fonctionnalité évaluée |
+| `key` | `string \| null` | Clé de la fonctionnalité. `null` pour la sentinelle de contrôle au niveau des fonctionnalités. |
+| `featureGroupKey` | `string \| null` | Clé du groupe de fonctionnalités si disponible |
+| `meta` | `string \| null` | Métadonnées des fonctionnalités, le cas échéant |
+| `analyticsParam` | `AnalyticsParam \| null` | Détails Analytics pour la fonctionnalité évaluée |
 
 *AnalyticsParam*
 
@@ -286,7 +290,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | nombre | Identifiant numérique du groupe de caractéristiques |
 | `featureId` | nombre | Identifiant numérique de la caractéristique |
-| `variantId` | nombre \| nul | Identifiant de la variante (`0` si l’utilisateur se trouve dans la population témoin) |
+| `variantId` | `number \| null` | Identifiant de la variante (`0` si l’utilisateur se trouve dans la population témoin) |
 
 **Comportement de la population témoin**
 
