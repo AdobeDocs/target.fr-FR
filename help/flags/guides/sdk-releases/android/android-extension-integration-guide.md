@@ -20,7 +20,7 @@ Ce guide décrit comment intégrer l’extension Flags à Adobe Experience Platf
 
 Avant d’implémenter l’extension Flags, vérifiez que vous disposez des éléments suivants :
 
-* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
+* Propriété mobile configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
 * Extension Adobe Flags installée et configurée dans votre propriété mobile
 * Un identifiant d’organisation Adobe Experience Cloud
 * Un flux de données Edge Network configuré dans votre propriété mobile pour recevoir les analyses d’exposition
@@ -33,10 +33,10 @@ L’extension Flags nécessite les extensions Adobe Experience Platform suivante
 
 | Extension | Description | Requis |
 |---|---|---|
-| [ Mobile Core ](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Permet la configuration, le traitement des événements et l’initialisation de SDK | Oui |
+| [&#x200B; Mobile Core &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Permet la configuration, le traitement des événements et l’initialisation de SDK | Oui |
 | [Cycle de vie](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Indique quand l’application est déplacée au premier plan ou en arrière-plan. | Oui |
-| [](https://developer.adobe.com/client-sdks/edge/edge-network/) | Envoie les analyses d’exposition à Adobe Experience Platform | Oui |
-| [ Identité pour Edge Network ](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Fournit les identités utilisées pour affecter des utilisateurs à des variantes | Oui |
+| [&#128279;](https://developer.adobe.com/client-sdks/edge/edge-network/) | Envoie les analyses d’exposition à Adobe Experience Platform | Oui |
+| [&#x200B; Identité pour Edge Network &#x200B;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Fournit les identités utilisées pour affecter des utilisateurs à des variantes | Oui |
 
 Assurez-vous que ces extensions sont installées dans votre propriété mobile de collecte de données et incluses dans vos dépendances d’application.
 
@@ -44,7 +44,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
 
 1. Sélectionnez le menu **[!UICONTROL Balises]** et choisissez votre propriété mobile.
 
@@ -84,7 +84,7 @@ Assurez-vous que ces extensions sont installées dans votre propriété mobile d
 >L’extension Flags ne fait pas partie de la nomenclature Mobile SDK. Remplacez `<latest-version>` par la dernière version de Maven Central. Sans version, Gradle ne peut pas résoudre la dépendance.
 >
 ></br>
-&gt;Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques telles que « 3.+ ». Voir [Gestion des dépendances Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
+>&gt;Pour les applications de production, Adobe recommande d’utiliser des numéros de version explicites plutôt que des versions dynamiques telles que « 3.+ ». Voir [Gestion des dépendances Gradle](https://docs.gradle.org/current/userguide/dependency_management.html) pour plus d’informations.
 
 Ajoutez les dépendances suivantes au fichier `build.gradle.kts` (Kotlin) ou `build.gradle` (Groovy) de votre application :
 
@@ -218,7 +218,7 @@ Dans cette configuration, le cycle de vie n’est pas automatiquement suivi. App
 
 ## Contexte d’évaluation {#evaluation-context}
 
-`FeatureEvaluationContext` contient les attributs de ciblage utilisés par vos règles d’indicateur. Vous ne transmettez pas d’identité : l’extension la lit à partir d’Identité pour Edge Network à chaque évaluation. Voir [ Identité personnalisée ](#custom-identity).
+`FeatureEvaluationContext` contient les attributs de ciblage utilisés par vos règles d’indicateur. Vous ne transmettez pas d’identité : l’extension la lit à partir d’Identité pour Edge Network à chaque évaluation. Voir [&#x200B; Identité personnalisée &#x200B;](#custom-identity).
 
 | Méthode | Requis | Description |
 |---|---|---|
@@ -280,7 +280,7 @@ Les noms et valeurs des attributs doivent correspondre à ceux utilisés dans vo
 
 ## Identité personnalisée {#custom-identity}
 
-L’extension Flags utilise l’extension Identity for [](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) pour la résolution d’identité. Un indicateur de fonctionnalité peut être associé à une identité personnalisée, par exemple un identifiant CRM ou un identifiant de fidélité, de sorte que les divisions de variantes et les analyses soient liées à l’identité qui importe pour votre application.
+L’extension Flags utilise l’extension Identity for [&#128279;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) pour la résolution d’identité. Un indicateur de fonctionnalité peut être associé à une identité personnalisée, par exemple un identifiant CRM ou un identifiant de fidélité, de sorte que les divisions de variantes et les analyses soient liées à l’identité qui importe pour votre application.
 
 L’espace de noms d’identité personnalisée doit être sélectionné dans l’interface utilisateur des indicateurs lorsque l’indicateur de fonctionnalité est créé. Pour évaluer un indicateur par rapport à cette identité, la même identité doit être présente dans le `identityMap` d’identité Edge sur l’appareil, à l’aide de l’espace de noms correspondant. Fournissez-le au moment de l’exécution avec l’API Identity for Edge Network `updateIdentities`.
 
@@ -379,7 +379,7 @@ Flag.isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de la fonctionnalité à évaluer |
-| `evaluationContext` | FeatureEvaluationContext | Attributs de ciblage. Utilisez `FeatureEvaluationContext.builder().build()` si vous n’en avez pas. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Attributs de ciblage. Utilisez `FeatureEvaluationContext.builder().build()` si vous n’en avez pas. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;Boolean> | Appelé avec `true` si la fonctionnalité est activée pour l’utilisateur. Appelé avec `false` si la fonctionnalité est introuvable, si les règles de ciblage ne correspondent pas ou si l’utilisateur se trouve dans la population témoin. Transmettez un `AdobeCallbackWithError<Boolean>` pour recevoir également des erreurs. |
 
 **Exemples**
@@ -476,7 +476,7 @@ Flag.getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de la fonctionnalité à évaluer |
-| `evaluationContext` | FeatureEvaluationContext | Attributs de ciblage. Utilisez `FeatureEvaluationContext.builder().build()` si vous n’en avez pas. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Attributs de ciblage. Utilisez `FeatureEvaluationContext.builder().build()` si vous n’en avez pas. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `callback` | AdobeCallback&lt;FeatureEvaluationResult> | Appelé avec la fonctionnalité évaluée ou avec `null` lorsque la fonctionnalité n’est pas diffusée à l’utilisateur ou l’utilisatrice : la clé est inconnue, les critères de ciblage ne sont pas remplis ou l’utilisateur ou l’utilisatrice se trouve dans une cohorte de contrôle. `null` est un résultat normal, pas une erreur. Les expositions de la cohorte témoin sont toujours rapportées à Analytics. Transmettez une `AdobeCallbackWithError<FeatureEvaluationResult>` pour recevoir des `fail(...)` pour les échecs réels tels que les dépassements de délai. |
 
 Traiter un résultat `null` comme « fonctionnalité désactivée » et afficher votre expérience par défaut. Affichez également l’expérience par défaut lors de l’appel de `fail`, qui ne se produit que lors d’échecs réels tels que les dépassements de délai.
@@ -575,7 +575,7 @@ Renvoie la version de l’extension Flags.
 Flag.extensionVersion(): String
 ```
 
-**Exemple **
+**Exemple &#x200B;**
 
 *Kotlin*
 

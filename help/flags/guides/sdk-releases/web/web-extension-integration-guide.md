@@ -19,7 +19,7 @@ Ce guide décrit comment intégrer l’extension Flags à Adobe Experience Platf
 
 Avant d’implémenter l’extension Flags, vérifiez que vous disposez des éléments suivants :
 
-* Propriété web configurée dans la collecte de données Adobe Experience Platform [](https://experience.adobe.com/#/data-collection)
+* Propriété web configurée dans la collecte de données Adobe Experience Platform [&#128279;](https://experience.adobe.com/#/data-collection)
 * Extension Adobe Experience Platform Web SDK installée
 * Un identifiant d’organisation Adobe Experience Cloud
 * Accès aux indicateurs dans votre organisation
@@ -45,7 +45,7 @@ Assurez-vous que cette extension est installée dans la propriété web de votre
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
 
 1. Sélectionnez l’onglet **[!UICONTROL Balises]** et choisissez votre propriété mobile.
 
@@ -67,7 +67,7 @@ Assurez-vous que cette extension est installée dans la propriété web de votre
 
    1. Créez dans votre environnement de développement.
 
-   1. Validez avec [](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
+   1. Validez avec [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html).
 
    1. Promouvoir l’évaluation et la production.
 
@@ -91,7 +91,7 @@ Après avoir publié votre bibliothèque de balises, vous devez ajouter le code 
 
    >[!NOTE]
    >
-   >Chaque environnement possède une URL de code incorporé unique. Consultez la documentation [ Environnements ](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=fr) pour plus d’informations.
+   >Chaque environnement possède une URL de code incorporé unique. Consultez la documentation [&#x200B; Environnements &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=fr) pour plus d’informations.
 
    ![](../assets/extension-install-4.png)
 
@@ -156,7 +156,7 @@ window.flagClientReady
 
 | Propriété | Requis | Description |
 |---|---|---|
-| `identityNamespace` | Oui | Espace de noms d’identité (voir [Espaces de noms d’identité ](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Valeurs courantes : `ECID`, `Email`, `CRMId`. |
+| `identityNamespace` | Oui | Espace de noms d’identité (voir [Espaces de noms d’identité &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/features/namespaces)). Valeurs courantes : `ECID`, `Email`, `CRMId`. |
 | `identityId` | Oui | Valeur d’identité de l’utilisateur actuel. |
 | `attributes` | Non | `Record<string, string[]>`. Clé est le nom de l’attribut de contexte utilisé par vos règles d’indicateur (par exemple, `locale`, `platform`). Valeur correspond à la liste des valeurs d’attribut candidates pour cette clé. |
 
@@ -179,7 +179,7 @@ const context = {
 
 ### Évaluation des fonctionnalités {#is-feature-enabled}
 
-`isFeatureEnabled` indique si la fonction Indicateurs est activée ou désactivée pour le contexte donné. `featureKey` et `FeatureEvaluationContext`. Voir [ Contexte d’évaluation ](#evaluation-context). Utilisez la condition **La fonction est activée** Balises ou appelez `window._flagClient.isFeatureEnabled(...)` à partir de code personnalisé après l’initialisation.
+`isFeatureEnabled` indique si la fonction Indicateurs est activée ou désactivée pour le contexte donné. `featureKey` et `FeatureEvaluationContext`. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). Utilisez la condition **La fonction est activée** Balises ou appelez `window._flagClient.isFeatureEnabled(...)` à partir de code personnalisé après l’initialisation.
 
 **Signature**
 
@@ -192,7 +192,7 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | string | Clé de fonctionnalité à évaluer dans Flags |
-| `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage facultatifs. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage facultatifs. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 
 ## Créer un élément de données Indicateur de fonctionnalité {#create-data-element}
 
@@ -264,7 +264,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | string | Clé de fonctionnalité à évaluer dans Flags |
-| `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 
 **Réponse**
 
@@ -331,7 +331,7 @@ Renvoie la chaîne de version de l’extension Flags.
 _flagClient.extensionVersion(): string
 ```
 
-**Exemple **
+**Exemple &#x200B;**
 
 ```javascript
 const version = _flagClient.extensionVersion();
@@ -359,7 +359,7 @@ L’extension gère les erreurs avec élégance :
 | Identité manquante dans le contexte | L’évaluation renvoie une erreur ; fournissez à la fois `identityNamespace` et `identityId` |
 | Fonction introuvable | `getFeature` renvoie `null` ; `isFeatureEnabled` renvoie `false` |
 
-**Exemple **
+**Exemple &#x200B;**
 
 ```javascript
 try {
@@ -377,7 +377,7 @@ try {
 
 Utilisez le même espace de noms d’identité et le même identifiant dans toutes les évaluations pour un regroupement cohérent dans les déploiements en pourcentage.
 
-**Exemple **
+**Exemple &#x200B;**
 
 ```javascript
 const context = {

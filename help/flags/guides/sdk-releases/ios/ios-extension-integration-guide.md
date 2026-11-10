@@ -20,22 +20,22 @@ Ce guide décrit comment intégrer l’extension Flags à Adobe Experience Platf
 Avant de commencer, vérifiez que vous disposez des éléments suivants :
 
 * iOS 12.0 ou version ultérieure et Swift 5.7 ou version ultérieure
-* Propriété mobile dans la collecte de données [](https://experience.adobe.com/#/data-collection)
+* Propriété mobile dans la collecte de données [&#128279;](https://experience.adobe.com/#/data-collection)
 * Ces extensions sont installées et configurées dans la propriété mobile :
 
   | Extension | Description | Version minimale de SDK |
   |---|---|---|
-  | [ Mobile Core ](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Configuration et traitement des événements | AEPCore 5.8.0 |
+  | [&#x200B; Mobile Core &#x200B;](https://developer.adobe.com/client-sdks/home/base/mobile-core/) | Configuration et traitement des événements | AEPCore 5.8.0 |
   | [Cycle de vie](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/) | Données de cycle de vie de l’application | Identique à AEPCore |
-  | [](https://developer.adobe.com/client-sdks/edge/edge-network/) | Communication avec Adobe Experience Platform Edge Network. Nécessite un flux de données. | AEPEdge 5.0.2 |
-  | [ Identité pour Edge Network ](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Identity Management pour Edge Network | AEPEdgeIdentity 5.0.0 |
-  | [Indicateurs](https://experienceleague.adobe.com/en/docs/target/flags/home) | Évaluation de l’indicateur de fonctionnalité | Voir [ Installation ](#installation) |
+  | [&#128279;](https://developer.adobe.com/client-sdks/edge/edge-network/) | Communication avec Adobe Experience Platform Edge Network. Nécessite un flux de données. | AEPEdge 5.0.2 |
+  | [&#x200B; Identité pour Edge Network &#x200B;](https://developer.adobe.com/client-sdks/edge/identity-for-edge-network/) | Identity Management pour Edge Network | AEPEdgeIdentity 5.0.0 |
+  | [Indicateurs](https://experienceleague.adobe.com/en/docs/target/flags/home) | Évaluation de l’indicateur de fonctionnalité | Voir [&#x200B; Installation &#x200B;](#installation) |
 
 ## Configurer les indicateurs dans la collecte de données {#configure}
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/#/data-collection).
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
 
 1. Sélectionnez le menu **[!UICONTROL Balises]** et choisissez votre propriété mobile.
 
@@ -78,7 +78,7 @@ Dans Xcode :
 
 1. Saisissez l’URL du package : `https://github.com/adobe/aepsdk-flags-ios.git`
 
-1. Pour la règle de version, sélectionnez **Version exacte** et saisissez la dernière version à partir de la page [ versions](https://github.com/adobe/aepsdk-flags-ios/releases).
+1. Pour la règle de version, sélectionnez **Version exacte** et saisissez la dernière version à partir de la page [&#x200B; versions](https://github.com/adobe/aepsdk-flags-ios/releases).
 
 1. Ajoutez la bibliothèque `AEPFlags` à la cible de l’application.
 
@@ -378,7 +378,7 @@ static func isFeatureEnabled(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans Flags |
-| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `completion` | `(Bool) -> Void` | Appelé avec `true` si la fonctionnalité est activée, `false` dans le cas contraire. |
 | `errorCallback` | `((AEPError) -> Void)?` | Facultatif. Appelé uniquement en cas d’échecs réels, tels qu’une clé vide, une configuration manquante, une évaluation ayant échoué ou un délai d’expiration. |
 
@@ -471,7 +471,7 @@ static func getFeature(
 | Paramètre | Type | Description |
 |---|---|---|
 | `featureKey` | Chaîne | Clé de fonctionnalité à évaluer dans Flags |
-| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [ Contexte d’évaluation ](#evaluation-context). |
+| `evaluationContext` | FeatureEvaluationContext | Incluez les attributs de ciblage selon vos besoins ; utilisez `FeatureEvaluationContext.builder().build()` pour un contexte vide. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 | `completion` | `(FeatureEvaluationResult?) -> Void` | Appelé avec la payload de fonctionnalité évaluée. Appelé avec `nil` lorsque la fonctionnalité n’est pas diffusée à l’utilisateur (clé inconnue, ciblage non correspondant ou population témoin). `nil` n&#39;est pas une erreur. |
 | `errorCallback` | `((AEPError) -> Void)?` | Facultatif. Appelé uniquement en cas d’échecs réels, tels qu’une clé vide, une configuration manquante, une évaluation ayant échoué ou un délai d’expiration. Non appelé lorsque la fonctionnalité n’est pas diffusée. |
 
