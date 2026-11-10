@@ -6,10 +6,10 @@ hide: true
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 8%
+source-wordcount: '1229'
+ht-degree: 7%
 ---
 # Extension Flags pour le Web {#web-extension-integration-guide}
 
@@ -45,28 +45,30 @@ Assurez-vous que cette extension est installée dans la propriété web de votre
 
 ### Installation de l’extension {#install-extension}
 
-1. Connectez-vous à [experience.adobe.com](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
-1. Accédez à **Collecte de données** > **Balises**.
-1. Sélectionnez la propriété de balise de votre choix.
-1. Accédez à **Extensions** > **Catalogue**.
-1. Recherchez **Indicateurs** et sélectionnez la carte d’extension.
-1. Sélectionnez **Installer**.
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/#/data-collection).
 
-### Configurer les paramètres d’extension {#configure-settings}
+1. Sélectionnez l’onglet **[!UICONTROL Balises]** et choisissez votre propriété mobile.
 
-Lorsque vous installez l’extension Flags, vous accédez à la page de configuration. Configurez les paramètres suivants :
+1. Accédez à **[!UICONTROL Extensions]** > **[!UICONTROL Catalogue]**.
 
-| Paramètre | Description | Requis |
-|---|---|---|
-| Id du client | Identifiant unique de votre application dans Flags. | Oui |
+1. Recherchez **[!DNL Adobe Flags]** et sélectionnez **[!UICONTROL Installer]**.
 
-### Enregistrer et publier {#save-publish}
+   ![](../assets/extension-install.png)
 
-1. Sélectionnez **Enregistrer** pour enregistrer la configuration de votre extension.
-1. Suivez le flux de publication pour déployer vos modifications :
+1. Configurez les paramètres d’extension :
+
+* Identifiant client : un identifiant unique pour votre application dans Flags.
+
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
+
+1. Suivez le [processus de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/overview) pour mettre à jour votre configuration.
+
    1. Ajoutez l’extension à une bibliothèque.
+
    1. Créez dans votre environnement de développement.
-   1. Effectuez la validation avec Adobe Experience Platform Debugger.
+
+   1. Validez avec [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr).
+
    1. Promouvoir l’évaluation et la production.
 
 ## Ajout du code intégré aux balises à votre site web {#embed-code}
@@ -76,17 +78,28 @@ Après avoir publié votre bibliothèque de balises, vous devez ajouter le code 
 ### Copiez le code intégré {#copy-embed-code}
 
 1. Dans Collecte de données, accédez à votre propriété web.
-1. Sélectionnez **Environnements** dans le volet de navigation de gauche.
-1. Dans la ligne correspondant à votre environnement cible (développement, évaluation ou production), sélectionnez l’icône en forme de boîte sous la colonne **Installer**.
-1. Dans la boîte de dialogue **Instructions d’installation web**, les balises utilisent par défaut le code intégré asynchrone.
-1. Sélectionnez l’icône **Copier** pour copier le code incorporé dans le presse-papiers.
-1. Sélectionnez **Fermer** pour fermer la boîte de dialogue modale.
+
+1. Accédez au menu **[!UICONTROL Environnements]**.
+
+1. Sélectionnez l’icône en forme de boîte dans la colonne **[!UICONTROL Installer]** de l’environnement sélectionné.
+
+   ![](../assets/extension-install-2.png)
+
+1. Dans la boîte de dialogue **[!UICONTROL Instructions d’installation web]**, les balises utilisent par défaut le code intégré asynchrone.
+
+1. Sélectionnez l’icône **[!UICONTROL Copier]** pour copier le code incorporé dans le presse-papiers.
+
+   >[!NOTE]
+   >
+   >Chaque environnement possède une URL de code incorporé unique. Consultez la documentation [&#x200B; Environnements &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=fr) pour plus d’informations.
+
+   ![](../assets/extension-install-4.png)
+
+### Implémenter le code intégré {#implement-embed-code}
 
 >[!NOTE]
 >
->Chaque environnement possède une URL de code incorporé unique. Consultez Environnements pour plus d’informations.
-
-### Implémenter le code intégré {#implement-embed-code}
+>Remplacez l’URL `src` par le code incorporé de la page Environnements . L’URL contient l’identifiant de votre société, l’identifiant de la propriété et l’identifiant de l’environnement (par exemple, `launch-EN123456789abcdef.min.js`).
 
 Ajoutez le code incorporé dans l’élément `<head>` de vos pages HTML. Le code incorporé doit être placé avant les autres scripts qui dépendent de la bibliothèque de balises :
 
@@ -97,17 +110,13 @@ Ajoutez le code incorporé dans l’élément `<head>` de vos pages HTML. Le cod
   <title>My Website</title>
 
   <!-- Adobe Experience Platform Tags embed code -->
-  <script src="https://assets.adobedtm.com/yourcompany/your-property/launchENxxxxxxxxxxx.min.js" async></script>
+  <script src="https://assets.adobedtm.com/your-company/your-property/launch-ENxxxxxxxxxxx.min.js" async></script>
 </head>
 <body>
   <!-- Your page content -->
 </body>
 </html>
 ```
-
->[!NOTE]
->
->Remplacez l’URL `src` par le code incorporé de la page Environnements . L’URL contient l’identifiant de votre société, l’identifiant de la propriété et l’identifiant de l’environnement (par exemple, `launch-EN123456789abcdef.min.js`).
 
 ### Évaluation des indicateurs avec les composants Balises {#tags-components}
 
@@ -168,7 +177,7 @@ const context = {
 
 ## Référence d’API {#api-reference}
 
-### isFeatureEnabled {#is-feature-enabled}
+### Évaluation des fonctionnalités {#is-feature-enabled}
 
 `isFeatureEnabled` indique si la fonction Indicateurs est activée ou désactivée pour le contexte donné. `featureKey` et `FeatureEvaluationContext`. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). Utilisez la condition **La fonction est activée** Balises ou appelez `window._flagClient.isFeatureEnabled(...)` à partir de code personnalisé après l’initialisation.
 
@@ -185,49 +194,52 @@ isFeatureEnabled(featureKey: string, context: FeatureEvaluationContext): boolean
 | `featureKey` | string | Clé de fonctionnalité à évaluer dans Flags |
 | `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage facultatifs. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 
-### Créer un élément de données Indicateur de fonctionnalité {#create-data-element}
+## Créer un élément de données Indicateur de fonctionnalité {#create-data-element}
 
 Utilisez un élément de données lorsque vous avez besoin d’une valeur d’indicateur disponible comme `%Data Element Name%` dans les règles ou le code personnalisé.
 
-**Étapes**
+1. Dans votre propriété, accédez au menu **[!UICONTROL Éléments de données]** et sélectionnez **[!UICONTROL Ajouter un élément de données]**.
 
-1. Dans votre propriété, accédez à **Éléments de données** et sélectionnez **Ajouter un élément de données**.
+   ![](../assets/extension-install-5.png)
+
 1. Sur l’écran **Créer un élément de données**, configurez les champs Balises :
 
-   | Champ | Valeur |
-   |---|---|
-   | Nom | Nom descriptif (par exemple, `checkout flag`) |
-   | Extension | Flags |
-   | Type d’élément de données | Indicateur de fonctionnalité |
+   * **[!UICONTROL Name]** : nom explicite (par exemple `checkout flag`)
+   * **[!UICONTROL Extension]** : Flags
+   * **[!UICONTROL Type d’élément de données]** : indicateur de fonctionnalité
 
 1. Configurez les champs d’extension **Flags** :
 
-   | Champ | Requis | Description |
-   |---|---|---|
-   | Clé de fonctionnalité | Oui | Clé d’indicateur unique (par exemple, `checkout_flag`) |
-   | Type de retour | Oui | **Booléen (true/false)** — activé/désactivé, ou **Objet de fonctionnalité (détails complets)** — payload complète, y compris `meta` |
+   * **[!UICONTROL Clé de fonction]** : clé d’indicateur unique (par exemple, `checkout_flag`), obligatoire.
+   * **[!UICONTROL Type de valeur renvoyée]** : **booléen (true/false)** — activé/désactivé, ou **Objet de fonctionnalité (détails complets)** — payload complète, y compris `meta`, obligatoire.
+
+     | Type de valeur renvoyée | Résout sur |
+     |---|---|
+     | Booléen (true/false) | `true` si activé, `false` dans le cas contraire |
+     | Feature Object (détails complets) | Payload de fonction évaluée lorsque l’indicateur est activé et que le contexte correspond à son audience ; `null` lorsque l’indicateur est désactivé, introuvable ou que le contexte ne correspond pas |
 
 1. Sélectionnez **Enregistrer**.
 
-**Types renvoyés**
-
-| Type de valeur renvoyée | Résout sur |
-|---|---|
-| Booléen (true/false) | `true` si activé, `false` dans le cas contraire |
-| Feature Object (détails complets) | Payload de fonction évaluée complète ou `null` lorsqu’elle ne satisfait pas aux règles |
-
 ### Utiliser l’élément de données {#use-data-element}
 
-Dans une règle : référence par nom, par exemple `%Test Flag%`.
+Dans une règle, référencez par nom, par exemple `%Test Flag%`.
 
-Dans le code personnalisé — utilisez `_satellite.getVar`. Avec les attributs d’exécution, transmettez un mappage d’attributs plat comme deuxième argument à évaluer :
+Dans le code personnalisé, utilisez `_satellite.getVar`. Avec les attributs d’exécution, transmettez un mappage d’attributs plat comme deuxième argument à évaluer :
 
 ```javascript
 var isEnabled = _satellite.getVar('Test Flag', {
   locale: ['en-US'],
   platform: ['web']
 });
+```
 
+**Code personnalisé**
+
+```javascript
+var isEnabled = _satellite.getVar('Test Flag', {
+  locale: ['en-US'],
+  platform: ['web']
+});
 if (isEnabled) {
   // your custom code
 } else {
@@ -239,7 +251,7 @@ if (isEnabled) {
 
 `getFeature` renvoie la payload de la fonctionnalité évaluée lorsque vous avez besoin de métadonnées au-delà de activées/désactivées.
 
-Utilisez un élément de données **Indicateur de fonctionnalité** avec **Type de retour : objet de fonctionnalité (détails complets)** — consultez [Créer un élément de données Indicateur de fonctionnalité](#create-data-element) — ou appelez `window._flagClient.getFeature(...)` à partir d’un code personnalisé après la résolution de l’`flagClientReady`.
+Utilisez un élément de données **Indicateur de fonctionnalité** avec **Type de retour : objet de fonctionnalité (détails complets)**, consultez [Création d’un élément de données Indicateur de fonctionnalité](#create-data-element) ou appelez un `window._flagClient.getFeature(...)` à partir d’un code personnalisé après la résolution de l’`flagClientReady`.
 
 **Signature**
 
@@ -255,6 +267,8 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | `context` | FeatureEvaluationContext | Attributs d’identité (obligatoire) et de ciblage. Voir [&#x200B; Contexte d’évaluation &#x200B;](#evaluation-context). |
 
 **Réponse**
+
+`getFeature` évalue un indicateur uniquement lorsqu’il est activé et que le contexte fourni correspond aux critères d’audience de l’indicateur. Dans ce cas, elle renvoie un objet de résultat ; dans le cas contraire, elle renvoie `null`.
 
 *FeatureResult*
 
@@ -272,7 +286,7 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 |---|---|---|
 | `featureGroupId` | nombre | Identifiant numérique du groupe de caractéristiques |
 | `featureId` | nombre | Identifiant numérique de la caractéristique |
-| `variantId` | nombre \| nul | Identifiant de la variante (`0` pour le contrôle) |
+| `variantId` | nombre \| nul | Identifiant de la variante (`0` si l’utilisateur se trouve dans la population témoin) |
 
 **Comportement de la population témoin**
 
@@ -282,10 +296,16 @@ getFeature(featureKey: string, context: FeatureEvaluationContext): FeatureResult
 | Contrôle au niveau des fonctionnalités | `false` | Sentinelle (`id: -1`, `key: null`) | Oui (`variantId: 0`) | Oui |
 | Non-correspondance des critères / introuvable | `false` | `null` | Non | Non |
 
-**Exemple &#x200B;**
+**Exemples**
+
+*Élément de données Balises*
+
+Référencez votre élément de données (par exemple, `%Test Feature%`) dans une règle et récupérez-le via `_satellite.getVar`.
+
+*Code personnalisé*
 
 ```javascript
-var feature = _flagClient.getFeature('new-testflag', {
+var feature = _flagClient.getFeature('new-test-flag', {
   identityNamespace: 'ECID',
   identityId: visitorEcid,
   attributes: {
@@ -339,6 +359,8 @@ L’extension gère les erreurs avec élégance :
 | Identité manquante dans le contexte | L’évaluation renvoie une erreur ; fournissez à la fois `identityNamespace` et `identityId` |
 | Fonction introuvable | `getFeature` renvoie `null` ; `isFeatureEnabled` renvoie `false` |
 
+**Exemple &#x200B;**
+
 ```javascript
 try {
   const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
@@ -354,6 +376,8 @@ try {
 ### Fournir une identité cohérente {#consistent-identity}
 
 Utilisez le même espace de noms d’identité et le même identifiant dans toutes les évaluations pour un regroupement cohérent dans les déploiements en pourcentage.
+
+**Exemple &#x200B;**
 
 ```javascript
 const context = {
@@ -373,7 +397,7 @@ const isEnabled = _flagClient.isFeatureEnabled('my-feature', context);
 Fournissez toujours un comportement de secours lorsqu’une fonctionnalité est introuvable ou que l’évaluation échoue.
 
 ```javascript
-const feature = _flagClient.getFeature('new-testflag', context);
+const feature = _flagClient.getFeature('new-test-flag', context);
 
 if (feature && feature.meta) {
   // your custom code
@@ -399,4 +423,3 @@ window.flagClientReady.then(function () {
 * [Audience dans les indicateurs de fonctionnalité et les groupes de fonctionnalités](../../audience/audience-in-feature-flags-and-feature-groups.md)
 * [Création de rapports](../../feature-flags/reporting.md)
 
-<!-- -->

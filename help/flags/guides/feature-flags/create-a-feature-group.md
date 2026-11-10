@@ -7,9 +7,9 @@ exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: e4be1b7a5198b667b0d398cb1287c920a0a81471
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 ---
 # Créer un groupe de fonctionnalités {#create-feature-group}
@@ -57,11 +57,11 @@ Attribuez les indicateurs de fonctionnalité qui seront contrôlés par ce group
 
 >[!IMPORTANT]
 >
->Un indicateur de fonctionnalité ne peut être diffusé que par une méthode, soit directement en tant qu&#39;indicateur de fonctionnalité, soit par l&#39;intermédiaire d&#39;un groupe de fonctionnalités, soit par l&#39;intermédiaire d&#39;une version. Lorsque vous ajoutez un indicateur de fonctionnalité à un groupe de fonctionnalités, toute audience ou pourcentage de déploiement défini sur l’indicateur est supprimé. Les indicateurs de fonctionnalité déjà affectés à une autre version ou à un autre groupe de fonctionnalités n&#39;apparaissent pas dans la liste.
+>Un indicateur de fonction ne peut être diffusé que par une seule méthode, soit directement en tant qu&#39;indicateur de fonction, soit par l&#39;intermédiaire d&#39;un groupe de fonctions. Lorsque vous ajoutez un indicateur de fonctionnalité à un groupe de fonctionnalités, toute audience ou pourcentage de déploiement défini sur l’indicateur est supprimé. Les indicateurs de fonctionnalité déjà affectés à un groupe de fonctionnalités n&#39;apparaissent pas dans la liste.
 
 >[!IMPORTANT]
 >
->Lorsque vous **supprimez** un indicateur de fonctionnalité d&#39;un groupe de fonctionnalités, l&#39;indicateur retourne à un état **désactivé** et son audience n&#39;est **pas** restaurée — traitez-le comme un nouvel indicateur. Un indicateur **désactivé** au sein d’un groupe est toujours évalué sur `false`. L&#39;activation d&#39;un groupe de fonctionnalités n&#39;active **pas** ses indicateurs membres ; elle active explicitement chaque indicateur.
+>Lorsque vous **supprimez** un indicateur de fonctionnalité d&#39;un groupe de fonctionnalités, l&#39;indicateur retourne à un état **désactivé** et son audience n&#39;est **pas** restaurée, traitez-le comme un nouvel indicateur. Les utilisateurs seront à nouveau randomisés lorsque l’indicateur sera déployé à nouveau. Un indicateur **désactivé** au sein d’un groupe est toujours évalué sur `false`. L&#39;activation d&#39;un groupe de fonctionnalités n&#39;active **pas** ses indicateurs membres ; elle active explicitement chaque indicateur.
 >
 >Les groupes de fonctionnalités sont une **couche de gestion**. Au moment de l’exécution, vous évaluez toujours au niveau de la **fonctionnalité (indicateur)**, jamais au niveau du groupe ; la réponse inclut la variante dans laquelle l’utilisateur est tombé.
 

@@ -7,10 +7,10 @@ exl-id: ae115120-8da9-465e-a556-c17591ea7054
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 4%
+source-wordcount: '468'
+ht-degree: 3%
 ---
 # Créer votre premier indicateur de fonctionnalité {#create-feature-flag}
 
@@ -33,8 +33,8 @@ Pour créer un indicateur de fonctionnalité, procédez comme suit dans la conso
 
    | Champ | Description |
    | --- | --- |
-   | **Nom** | Libellé d&#39;affichage de l&#39;indicateur de fonctionnalité. Non utilisé dans le code. |
-   | **Clé** * | Identifiant utilisé dans votre code pour évaluer l’indicateur . Impossible de modifier après la création. |
+   | **Nom** | Libellé d&#39;affichage de l&#39;indicateur de fonctionnalité. Non utilisé dans le code. Le **Name** est un libellé affiché uniquement et n&#39;est pas utilisé dans le code ; les deux sont indépendants (le Name n&#39;est pas converti en Key). |
+   | **Clé** * | Identifiant utilisé dans votre code pour évaluer l’indicateur . Impossible de modifier après la création. L’identifiant **Key** est utilisé dans votre code et ne peut pas être modifié après sa création. Les clés **ne peuvent pas contenir d’espaces** et sont **sensibles à la casse**. La saisie d’un espace dans le champ Clé génère l’erreur : _« Valeur non valide pour la clé de la fonction »_ |
    | **Description** | Description facultative à des fins de documentation. |
    | **Métadonnées** | Facultatif. Jusqu’à 1 024 caractères. Utilisez ce champ pour toutes les métadonnées supplémentaires à associer à l’indicateur. |
    | **Balises** | Balises facultatives à des fins de documentation. |
@@ -45,7 +45,9 @@ Pour créer un indicateur de fonctionnalité, procédez comme suit dans la conso
 
 >[!IMPORTANT]
 >
->L’identifiant **Key** est utilisé dans votre code et ne peut pas être modifié après sa création. Les clés **ne peuvent pas contenir d’espaces** et sont **sensibles à la casse**. Le **Name** est un libellé affiché uniquement et n&#39;est pas utilisé dans le code ; les deux sont indépendants (le Name n&#39;est pas converti en Key). La saisie d’un espace dans le champ Clé génère l’erreur : _« Valeur non valide pour la clé de la fonction »_
+>L’identité que vous sélectionnez ici doit correspondre à l’identité que votre application transmet au SDK lorsqu’il récupère les indicateurs de fonctionnalité. Si les deux ne correspondent pas, le SDK ne parvient pas à trouver l’identité attendue et retourne à un identifiant temporaire généré de manière aléatoire pour attribuer une variante. L’évaluation des indicateurs continue de fonctionner, aucune erreur n’est affichée et les utilisateurs reçoivent toujours une variante.
+>
+>Cependant, avec un ID temporaire, un utilisateur peut recevoir une variante différente à chaque redémarrage de l’application, et une même personne ne bénéficie pas d’une variante cohérente sur tous les appareils.
 
 1. Vous pouvez éventuellement ajouter un critère d’audience (voir Étape 2).
 1. Enregistrez les paramètres des indicateurs de fonctionnalité.
