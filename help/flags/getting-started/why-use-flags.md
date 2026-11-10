@@ -7,9 +7,9 @@ exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
     internal-label: Target
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c1fafcfcd7d5d22781abdd10e6eb3c2b84136c2d
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '265'
 ht-degree: 0%
 ---
 # Pourquoi utiliser des indicateurs ? {#why-use}
@@ -37,6 +37,6 @@ Activez une fonctionnalité simultanément dans plusieurs applications pour un e
 Déployez le code en production à l’avance, puis activez la fonctionnalité à un moment précis (par exemple, au début d’un événement de lancement de produit) sans changement de code de dernière minute.
 
 Commutateur **Kill**
-Si un problème est détecté après la publication de la version, désactivez instantanément la fonctionnalité sans correctif ni redéploiement.
+Si un problème est détecté après la publication de la version, désactivez la fonctionnalité sans correctif ni redéploiement. Les modifications prennent effet lors de la prochaine actualisation de l’indicateur (toutes les 5 minutes par défaut).
 
 <!-- -->
