@@ -186,7 +186,7 @@ Pour plus d’informations, consultez l’article de blog suivant : [AEM 6.5 : s
 
 La vidéo suivante vous explique comment configurer et utiliser [!UICONTROL les fragments d’expérience] :
 
->[!VIDEO](https://video.tv.adobe.com/v/22383)
+>[!VIDEO](https://video.tv.adobe.com/v/38081?captions=fre_fr)
 
 >[!NOTE]
 >

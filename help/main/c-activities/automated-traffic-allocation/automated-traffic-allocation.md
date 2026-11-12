@@ -258,7 +258,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/3507591?captions=fre_fr)
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -267,4 +267,4 @@ Cette vidéo explique comment créer un test A/B à l’aide du processus assist
 * Créer une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
