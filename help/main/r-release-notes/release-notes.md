@@ -29,24 +29,35 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ece061af0f50ec45e07b9710d355a9c91731578e
+source-git-commit: b608d181c660201f2c373ec8a1ac6e95be1be96c
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 42%
+source-wordcount: '703'
+ht-degree: 39%
 ---
 # Notes de mise à jour [!DNL Target] (actuelles)
 
-Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de la [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
+Découvrez les dernières fonctionnalités, améliorations et correctifs de [!DNL Adobe Target]. Ces notes de mise à jour couvrent également les mises à jour des API [!DNL Target], des SDK, de [!DNL Adobe Experience Platform Web SDK], d’at.js et d’autres composants de plateforme, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 26.10.2 (15 octobre 2026)
+## [!DNL Target Standard/Premium] 26.11.1 (12 Novembre 2026)
 
 **[!UICONTROL Activités]**
 
 +++Afficher les détails
 
-* **Paramètres d’objectif incorrects affichés dans la Présentation de l’activité**. Correction d’un problème en raison duquel les paramètres d’objectif affichés sur la page **[!UICONTROL Aperçu]** d’une activité étaient incorrects. Par exemple, `https://` a été ajouté à l’URL de la page et la condition **[!UICONTROL URL contains]** n’a pas été affichée, même si la configuration de l’objectif réel était correcte. (TGT-56326)
+* **[!DNL Coworker]points d’entrée ajoutés à la liste des Activités**. Si votre organisation a accès à [!DNL Coworker], la liste [!UICONTROL Activités] comprend désormais un bouton **[!UICONTROL Vérifier mes tests en direct]** et un menu **[!UICONTROL Demander à un collègue]** pour chaque activité. Utilisez-les pour permettre à [!DNL Coworker] de passer en revue vos activités actives ou de répondre aux questions sur une activité spécifique. (TGT-56536)
+  [En savoir plus](../c-activities/activities.md#coworker)
++++
+
+
+## [!DNL Target Standard/Premium] 26.10.2 (15 Octobre 2026)
+
+**[!UICONTROL Activités]**
+
++++Afficher les détails
+
+* **Paramètres d’objectif incorrects affichés dans l’aperçu de l’activité**. Correction d’un problème en raison duquel les paramètres d’objectif affichés dans la page **[!UICONTROL Aperçu]** d’une activité étaient incorrects. Par exemple, `https://` a été ajouté à l’URL de la page et la condition **[!UICONTROL L’URL contient]** n’a pas été affichée, même si la configuration de l’objectif réel était correcte. (TGT-56326)
 
 +++
 
@@ -54,7 +65,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 +++Afficher les détails
 
-* **Recommandations de sauvegarde affichées après la mise à jour d’une promotion dans une activité dynamique**. Correction d’un problème en raison duquel la modification d’une promotion dans une activité Live [!DNL Recommendations] entraînait la création par les [!DNL Target] de nouvelles promotions et de nouvelles unités de recommandation même si leur définition n’avait pas changé. (TGT-56369)
+* **Recommandations de sauvegarde affichées après la mise à jour d’une promotion dans une activité active**. Correction d’un problème en raison duquel la modification d’une promotion dans une activité [!DNL Recommendations] active entraînait la création par [!DNL Target] de nouvelles promotions et unités de recommandation même si leur définition n’avait pas changé. (TGT-56369)
 
 +++
 
@@ -70,18 +81,18 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 +++Afficher les détails
 
-* **Ajout de la prise en charge de Safari à[!DNL Adobe Target]**. [!DNL Target] est désormais pris en charge dans le navigateur [!DNL Safari]. Notez que le compositeur d’expérience visuelle et le [!DNL Enhanced Experience Composer] ne sont pas pris en charge dans [!DNL Safari]. Par conséquent, un recouvrement apparaît désormais dans le [!DNL VEC] pour informer les utilisateurs qu’ils doivent passer à [!DNL Chrome] pour utiliser l’éditeur. (TGT-55853)
+* **Ajout de la prise en charge de Safari à[!DNL Adobe Target]**. [!DNL Target] est désormais pris en charge dans le navigateur [!DNL Safari]. Notez que le compositeur d’expérience visuelle et [!DNL Enhanced Experience Composer] ne sont pas pris en charge dans [!DNL Safari]. Par conséquent, un recouvrement apparaît désormais dans [!DNL VEC] pour informer les utilisateurs qu’ils doivent passer à [!DNL Chrome] pour utiliser l’éditeur. (TGT-55853)
   [En savoir plus](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#browser-requirements)
 +++
 
 
-## [!DNL Target Standard/Premium] 26.10.1 (13 octobre 2026)
+## [!DNL Target Standard/Premium] 26.10.1 (13 Octobre 2026)
 
 **[!UICONTROL Analytics for Target]**
 
 +++Afficher les détails
 
-* **La création de rapports A4T échoue avec une erreur « Un problème est survenu »**. Correction d’un problème en raison duquel les activités [!DNL A4T] utilisant une suite de rapports nouvellement ajoutée affichaient une erreur « Un problème est survenu » dans le rapport [!DNL Target] au lieu des résultats. Cliquer sur **[!UICONTROL Afficher dans Analytics]** affichait également un message « Suite de rapports incompatible » avec des informations de classification de [!DNL Analytics for Target] manquantes. (TGT-56389)
+* La création de rapports **A4T échoue avec une erreur « Un problème est survenu »**. Correction d’un problème en raison duquel les activités [!DNL A4T] utilisant une suite de rapports nouvellement ajoutée affichaient une erreur « Un problème est survenu » dans le rapport [!DNL Target] au lieu des résultats. Cliquer sur **[!UICONTROL Afficher dans Analytics]** affichait également un message « Suite de rapports incompatible » avec des informations de classification [!DNL Analytics for Target] manquantes. (TGT-56389)
 
 +++
 
@@ -89,7 +100,7 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 +++Afficher les détails
 
-* HTML brute affichée à la place du nom de l’offre pour les [!DNL Experience Fragments] diffusés via une mbox **.** Correction d’un problème en raison duquel le panneau **[!UICONTROL Modifications]** affichait l’HTML/le code brut au lieu du nom de l’offre lorsqu’une [!DNL Experience Fragment] était diffusée via une mbox. (TGT-56241)
+* **HTML brute affichée au lieu du nom de l’offre pour [!DNL Experience Fragments] diffusée via une mbox**. Correction d’un problème en raison duquel le panneau **[!UICONTROL Modifications]** affichait l’HTML/code brut au lieu du nom de l’offre lorsqu’un [!DNL Experience Fragment] était diffusé via une mbox. (TGT-56241)
 
 +++
 
@@ -97,9 +108,9 @@ Découvrez les dernières fonctionnalités, améliorations et correctifs d’[!D
 
 [!BADGE Important]{type=Informative}
 
-Pour les mises à jour urgentes relatives à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour et une documentation détaillées via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
+Pour les mises à jour urgentes liées à [!DNL Adobe Target] et à votre implémentation, [!DNL Adobe] fournit des notes de mise à jour et une documentation détaillées via [!UICONTROL Experience League]. Voici quelques points forts importants liés à votre implémentation :
 
-### Obsolescence du bouton (bascule) de version de l’interface utilisateur [!DNL Target]
+### Obsolescence du bouton (bascule) de la version de l’interface utilisateur [!DNL Target]
 
 Pour plus d’informations, voir [[!DNL Target] FAQ sur la mise à jour de l’interface utilisateur](/help/main/c-intro/updated-ui-faq.md).
 

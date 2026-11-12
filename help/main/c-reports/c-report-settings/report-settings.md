@@ -22,14 +22,14 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '1934'
 ht-degree: 44%
 ---
 # Paramètres des rapports
 
-Informations destinées à vous aider à définir les éléments qui doivent apparaître dans votre rapport en [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
+Informations destinées à vous aider à définir les éléments qui doivent apparaître dans votre rapport dans [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 
 Pour afficher un rapport :
 
@@ -40,7 +40,7 @@ Pour afficher un rapport :
 
 ## Paramètre prédéfini Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, périodes, audiences, paramètres avancés, etc.). Tous les utilisateurs d’[!DNL Target] peuvent afficher, modifier et supprimer les différents paramètres prédéfinis, quelle que soit la personne qui les a créés.
+Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, périodes, audiences, paramètres avancés, etc.). Tous les utilisateurs [!DNL Target] peuvent afficher, modifier et supprimer les différents paramètres prédéfinis, quelle que soit la personne qui les a créés.
 
 Vous pouvez également configurer le rapport d’une activité spécifique selon vos souhaits puis enregistrer cette configuration comme votre paramètre prédéfini par défaut/favori. Voici la vue qui s’affiche chaque fois que vous affichez par la suite le rapport de cette activité.
 
@@ -50,14 +50,14 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
    Les paramètres disponibles, notamment les mesures, les périodes, les audiences, les paramètres avancés, etc., sont expliqués ci-dessous.
 
-1. En regard de **[!UICONTROL Paramètre prédéfini de cible]**, cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Enregistrer en tant que nouveau]**.
+1. En regard de **[!UICONTROL Paramètre prédéfini de Target]**, cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Enregistrer en tant que nouveau]**.
 
    La boîte de dialogue [!UICONTROL Créer un paramètre prédéfini] s’affiche.
 
    ![Boîte de dialogue Nouveaux paramètres prédéfinis](/help/main/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Consultez les informations des sections **[!UICONTROL Filtres]** pour vous assurer que le rapport est configuré comme vous le souhaitez, puis spécifiez le **[!UICONTROL Nom du paramètre prédéfini]** (50 caractères maximum).
-1. (Conditionnel) Si vous souhaitez qu’il s’agisse de votre affichage de rapport par défaut/favori, faites glisser le bouton (bascule) **[!UICONTROL Définir comme paramètre prédéfini par défaut]** vers la position Activé .
+1. Consultez les informations dans les sections **[!UICONTROL Filtres]** pour vous assurer que le rapport est configuré comme vous le souhaitez, puis spécifiez le **[!UICONTROL Nom du paramètre prédéfini]** (jusqu’à 50 caractères).
+1. (Conditionnel) Si vous souhaitez qu’il s’agisse de votre vue de rapport par défaut/préférée, faites glisser le bouton (bascule) **[!UICONTROL Définir comme paramètre prédéfini par défaut]** vers la position Activé .
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 ### Sélectionner un autre paramètre prédéfini
@@ -69,16 +69,16 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 1. Sélectionnez le paramètre prédéfini à modifier.
 1. Modifiez la configuration du rapport comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
 
-   Après avoir cliqué sur [!UICONTROL Enregistrer] après modification de la configuration du rapport, un astérisque ( &#42; ) s’affiche après le nom du paramètre prédéfini pour indiquer que celui-ci a été modifié.
+   Après avoir cliqué sur [!UICONTROL Enregistrer] après modification de la configuration du rapport, un astérisque ( &#42; ) s’affiche après le nom du paramètre prédéfini pour indiquer que celui-ci a changé.
 
-1. Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Enregistrer en tant que nouveau]** pour créer un paramètre prédéfini.
+1. Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Enregistrer en tant que nouveau]** pour créer un nouveau paramètre prédéfini.
 
 ### Suppression d’un paramètre prédéfini
 
 1. Sélectionnez le paramètre prédéfini à supprimer.
-1. Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Supprimer]**.
+1. Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’options](/help/main/assets/icons/MoreSmallListVert.svg) ) > **[!UICONTROL Supprimer]**.
 
-1. Cliquez à nouveau sur **[!UICONTROL Supprimer]** pour confirmer la suppression (les préréglages supprimés ne peuvent pas être récupérés).
+1. Cliquez à nouveau sur **[!UICONTROL Supprimer]** pour confirmer votre suppression (les préréglages supprimés ne peuvent pas être récupérés).
 
 ### Gestion des erreurs de préréglage
 
@@ -94,11 +94,11 @@ La liste suivante décrit certaines des situations dans lesquelles un paramètre
 
 ## [!UICONTROL Mesure du rapport] {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** pour sélectionner une [mesure de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) ou plusieurs mesures à afficher dans le graphique et le graphique.
+Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** pour sélectionner une ou plusieurs [mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) différentes à afficher dans le graphique et le graphique.
 
 Par défaut, la mesure principale est définie dans la configuration des mesures de succès lors de la création de l’activité. Si vous modifiez la configuration et que vous réenregistrez l’activité, la mesure principale des rapports est mise à jour.
 
-Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir [Affichage de plusieurs mesures dans un rapport](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir [Afficher plusieurs mesures dans un rapport](/help/main/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## [!UICONTROL Audience] {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -106,11 +106,11 @@ Cliquez sur la liste déroulante **[!UICONTROL Audience]** pour modifier l’aud
 
 Pour plus d’informations, consultez la page [Audiences](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
-## [!UICONTROL Période prédéfinie]
+## [!UICONTROL Plage De Dates Prédéfinie]
 
-Cliquez sur la liste déroulante **[!UICONTROL Période prédéfinie]** pour effectuer un choix parmi des périodes prédéfinies.
+Cliquez sur la liste déroulante **[!UICONTROL Période prédéfinie]** pour effectuer votre choix parmi les périodes prédéfinies.
 
-Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser les plages **[!UICONTROL Début de l&#39;activité]** et **[!UICONTROL Début de l&#39;activité - Fin de l&#39;activité]**.
+Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser les plages **[!UICONTROL Début d’activité]** et **[!UICONTROL Début d’activité - Fin d’activité]**.
 
 Les périodes prédéfinies sont les suivantes : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affiche la plage à partir de la date de début, mais continue une fois que la date de début est antérieure au nombre de jours choisi à mesure que la durée de l&#39;activité augmente.
 
@@ -122,13 +122,13 @@ Les rapports comportent les restrictions de date suivantes :
 
 ## Période {#section_A410A768403C4E01891F95CB357E63ED}
 
-La zone [!UICONTROL Période] affiche la période actuelle du rapport. Cliquez sur l’icône **[!UICONTROL Calendrier]** ( ![icône Calendrier](/help/main/assets/icons/Calendar.svg) ) pour afficher un calendrier qui vous permet de modifier la période du rapport.
+La zone [!UICONTROL Période] affiche la période actuelle du rapport. Cliquez sur l’icône **[!UICONTROL Calendrier]** ( ![icône de calendrier](/help/main/assets/icons/Calendar.svg) ) pour afficher un calendrier qui vous permet de modifier la période du rapport.
 
 ## Paramètres {#section_D99CE462107D45CABE0960F820E1E972}
 
 Pour configurer les paramètres de rapport :
 
-1. Cliquez sur l’icône **[!UICONTROL Paramètres des rapports]** ( ![icône Paramètres des rapports](/help/main/assets/icons/Setting.svg) ) et apportez les modifications souhaitées (comme expliqué ci-dessous).
+1. Cliquez sur l’icône **[!UICONTROL Paramètres des rapports]** ( ![icône Paramètres des rapports](/help/main/assets/icons/Setting.svg) ), apportez les modifications souhaitées (comme expliqué ci-dessous).
 1. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
 Les options varient en fonction du type d’activité sélectionné :
@@ -151,11 +151,11 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 >[!NOTE]
 >
->Si votre organisation utilise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
+>Si votre organisation utilise [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr){target=_blank} (AEP) pour envoyer des données de mesures à [!DNL Target], l’environnement du flux de données AEP doit correspondre à l’environnement dans les paramètres de votre rapport [!DNL Target].
 
 ### Réinitialisation des données du rapport
 
-Cliquez sur [!UICONTROL &#x200B; Réinitialiser les données du rapport &#x200B;]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL approbateur].
+Cliquez Sur [!UICONTROL Réinitialiser Les Données Du Rapport]. Réinitialisez les données de rapport pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité.  Cette option est disponible uniquement pour les personnes disposant des autorisations [!UICONTROL Approbateur].
 
 >[!IMPORTANT]
 >
@@ -163,17 +163,17 @@ Cliquez sur [!UICONTROL &#x200B; Réinitialiser les données du rapport &#x200B;
 
 Exclusion des valeurs extrêmes
 
-Le bouton (bascule) [!UICONTROL Exclure les valeurs extrêmes] s’applique uniquement aux activités avec les types de mesures Chiffre d’affaires et Engagement . Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Le bouton (bascule) [!UICONTROL Exclure les valeurs extrêmes] s’applique uniquement aux activités avec des types de mesures Revenu et Engagement . Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Télécharger {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Cliquez sur l’icône **[!UICONTROL Télécharger]** ( ![icône Télécharger](/help/main/assets/icons/Download.svg) ) pour télécharger les données de rapport dans un format [!DNL .csv] afin de les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données.
+Cliquez sur l’icône **[!UICONTROL Télécharger]** ( ![Icône Télécharger](/help/main/assets/icons/Download.svg) ) pour télécharger les données de rapport au format [!DNL .csv] afin de les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données.
 
 Pour plus d’informations, voir [Téléchargement de données au format CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Actualiser {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Cliquez sur l’icône **[!UICONTROL Actualiser]** ( ![icône Actualiser](/help/main/assets/icons/Refresh.svg) ) pour actualiser la vue tabulaire et graphique d’un rapport sans actualiser la page entière, sa configuration ou sa période.
+Cliquez sur l’icône **[!UICONTROL Actualiser]** ( ![Icône Actualiser](/help/main/assets/icons/Refresh.svg) ) pour actualiser l’affichage tableau et graphique d’un rapport sans actualiser la page entière, sa configuration ou sa période.
 
 ## Plus d’options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -184,34 +184,34 @@ Cliquez sur l’icône **[!UICONTROL Plus d’options]** ( ![Icône Plus d’opt
 Vous pouvez afficher le rapport dans différents formats en fonction du type d’activité. Sélectionnez l’option souhaitée.
 
 * **Vue Tableau** : cliquez sur l’icône **[!UICONTROL Vue Tableau]** ( ![icône Vue Tableau](/help/main/assets/icons/Table.svg) ) pour afficher le rapport sous la forme d’un tableau.
-* **Vue Graphique** : cliquez sur l’icône **[!UICONTROL Vue Graphique]** ( ![icône Vue Graphique](/help/main/assets/icons/GraphTrend.svg) ) pour afficher le rapport sous la forme d’un graphique.
-* **Segments automatisés** : (disponible uniquement pour les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).) Cliquez sur l’icône **[!UICONTROL Segments automatisés] ( ![icône Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) pour afficher le rapport [Segments automatisés](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Vue Graphique** : cliquez sur l’icône **[!UICONTROL Vue Graphique]** ( ![icône Vue Graphique](/help/main/assets/icons/GraphTrend.svg) ) pour afficher le rapport sous forme de graphique.
+* **Segments automatisés** :(disponible uniquement pour les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).) Cliquez sur l’icône **[!UICONTROL Segments automatisés] ( ![Icône Segments automatisés](/help/main/assets/icons/AutomatedSegment.svg) ) pour afficher le [rapport Segments automatisés](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 * **Attributs importants** : (disponible uniquement pour les activités [!DNL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).) Cliquez sur l’icône **[!UICONTROL Attributs importants]** ( ![icône Attributs importants](/help/main/assets/icons/ViewList.svg) ) pour afficher le rapport [Attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
 Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 
-Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+Pour plus d&#39;informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Tenez compte des points suivants :
 
-* Disponible uniquement lors de l’affichage de rapports dans [!UICONTROL Vue Tableau].
+* Disponible uniquement lors de l&#39;affichage de rapports en mode Tableau .
 * Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## Contribution des emplacements {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-Cliquez sur l’icône [[!UICONTROL Contribution de l’emplacement]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![icône Contribution de l’emplacement](/help/main/assets/icons/LocationContribution.svg) ) pour changer le rapport et afficher la contribution par emplacement pour les activités de test multivarié (MVT).
+Cliquez sur l’icône [[!UICONTROL Contribution de l’emplacement]](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) ( ![icône Contribution de l’emplacement](/help/main/assets/icons/LocationContribution.svg) ) pour changer le rapport afin d’afficher la contribution par emplacement pour les activités de test multivarié (MVT).
 
 ## Expériences {#section_3A450DE1FA7E43F0AAB73165EC3D1C34}
 
-Disponible uniquement lors de l’affichage du rapport dans [!UICONTROL vue Graphique].
+Disponible uniquement lors de l&#39;affichage du rapport dans la vue [!UICONTROL Graphique].
 
 Sélectionnez ou désélectionnez des expériences à gauche du tableau pour afficher ou masquer les expériences correspondantes dans le tableau.
 
 ## Moyenne cumulée {#section_59066693158C4433B87D07402C2BC6CD}
 
-Disponible uniquement lors de l’affichage du rapport dans [!UICONTROL vue Graphique].
+Disponible uniquement lors de l&#39;affichage du rapport dans la vue [!UICONTROL Graphique].
 
 « Moyenne glissante » reflète les conversions cumulées (du début de la fenêtre de création de rapports à la date représentée sur le graphique) divisées par les visiteurs cumulés.
 
@@ -226,17 +226,17 @@ Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, ma
 
 ## Méthodologie de calcul {#section_01B0ED5665C74AE1AE97259800190C3E}
 
-Disponible uniquement lors de l’affichage du rapport dans [!UICONTROL vue Graphique].
+Disponible uniquement lors de l&#39;affichage du rapport dans la vue [!UICONTROL Graphique].
 
-Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Notez que cela n’est pas pris en charge pour les activités  (AP).
+Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Notez que cela n’est pas pris en charge pour les activités [!UICONTROL Automated Personalization] (AP).
 
-Pour accéder à l’option [!UICONTROL Méthodologie de comptage], lorsque vous affichez un rapport en mode graphique, cliquez sur le menu déroulant **[!UICONTROL Mon objectif de Principal]** puis sélectionnez la méthodologie de comptage.
+Pour accéder à l&#39;option [!UICONTROL Méthode de comptage], lorsque vous affichez un rapport en mode graphique, cliquez sur la liste déroulante **[!UICONTROL Mon objectif de Principal]**, puis sélectionnez la méthode de comptage.
 
 La méthodologie de calcul sera la même que celle sélectionnée dans la boîte de dialogue [!UICONTROL Paramètres] et décrite ci-dessus.
 
 Par défaut, le graphique est tracé en mode [!UICONTROL Quotidien].
 
-Vous pouvez changer de mode en cliquant sur la liste déroulante [!UICONTROL Quotidien], puis en sélectionnant une option de cumul.
+Vous pouvez changer de mode en cliquant sur la liste déroulante [!UICONTROL Quotidien], puis en sélectionnant une option cumulative.
 
 >[!NOTE]
 >
@@ -246,14 +246,14 @@ Il existe quatre modes pour les activités de [!UICONTROL ciblage automatique] :
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* **[!UICONTROL Test A/B] (y compris [!UICONTROL Affectation automatique] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
+* **[!UICONTROL Test A/B] (y compris [!UICONTROL l’affectation automatique] et [!UICONTROL Automated Personalization])** : ordre de création de l’expérience, par ordre décroissant.
 * **[!UICONTROL Ciblage d’expérience] (XT)** : ordre des expériences dans l’activité.
 * **[!UICONTROL Test multivarié] (MVT)** : Alphabétique par nom d’expérience.
-* **[!UICONTROL Recommendations]** : ordre de création de l’expérience, par ordre décroissant.
+* **[!UICONTROL Recommandations]** : ordre de création de l’expérience, par ordre décroissant.
 
-Lorsque vous utilisez les options [!UICONTROL méthodologie de comptage], tenez compte des avertissements suivants :
+Lorsque vous utilisez les options de la [!UICONTROL méthodologie de comptage], tenez compte des avertissements suivants :
 
-* Pour les activités de [[!UICONTROL ciblage automatique] &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md) , il n’existe aucune option permettant de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
+* Pour les [[!UICONTROL activités de ciblage automatique]](/help/main/c-activities/auto-target/auto-target-to-optimize.md), il n’est pas possible de sélectionner « Visiteurs » comme méthode de comptage. Le [!UICONTROL ciblage automatique] est le seul type d’activité que vous ne pouvez pas tracer pour les visiteurs.
 * Pour les activités qui utilisent [Analytics comme source de création de rapports (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md), vous ne pouvez pas tracer de manière cumulative Visiteur, Visite ou Impression.
 
 ## Utiliser des graphiques comportant plus de 16 expériences dans l’activité

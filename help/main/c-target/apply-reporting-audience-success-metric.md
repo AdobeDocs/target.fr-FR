@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: c87804d95464cc31658be23bc7de051c6e1bc12e
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 43%
@@ -36,7 +36,7 @@ Pour toutes les activités, la liste déroulante [!UICONTROL S’applique à] pe
 
 Imaginons, par exemple, que vous avez créé une activité pour tous les visiteurs qui entrent sur votre page d’accueil et qui accèdent ensuite à la page de conversion, mais que vous voulez également analyser plus en détails les visiteurs qui ont ajouté dans leur panier des produits pour un montant supérieur à 50 USD avant la conversion.
 
-La liste déroulante [!UICONTROL Appliqué à] peut se diviser en trois catégories :
+La liste déroulante [!UICONTROL Appliqué à] fournit potentiellement trois catégories :
 
 * Tout visiteur ou visiteuse de l’activité
 * Seuls les visiteurs qui atteignent une certaine étape de l’activité
@@ -46,7 +46,7 @@ Autrement dit, vous pouvez spécifier qu’un visiteur doit avoir atteint une mb
 
 >[!NOTE]
 >
->[Les mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, vous ne voyez que deux options dans la liste déroulante : [!UICONTROL Entrée de campagne] et [!UICONTROL Conversion].
+>[Les mesures de succès](/help/main/c-activities/r-success-metrics/success-metrics.md#overview) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, vous ne voyez que deux options dans la liste déroulante : [!UICONTROL Entrée de campagne] et [!UICONTROL Conversion].
 
 
 ## Considérations
@@ -55,7 +55,7 @@ Prenez en compte les points suivants lorsque vous appliquez une audience de rapp
 
 * Seules les mesures de succès commençant par celle à laquelle l’audience est appliquée affichent les données de rapports segmentées par l’audience
 * Les mesures de succès précédant celles auxquelles l’audience est appliquée ne seront pas segmentées par l’audience et afficheront toutes les données du visiteur
-* Les mesures sont prises en compte en fonction de leur ordre dans la définition de l’activité, l’objectif de Principal  étant le dernier.
+* Les mesures sont prises en compte en fonction de leur ordre dans la définition de l’activité, l’[!UICONTROL objectif de Principal] étant le dernier.
 
 ## Afficher la segmentation dans les rapports
 

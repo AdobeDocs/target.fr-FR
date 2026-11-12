@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;ap
-description: Découvrez comment créer une activité  (AP) à l’aide du [!UICONTROL compositeur d’expérience visuelle].
-title: Comment créer une activité  ?
+description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) à l’aide du [!UICONTROL compositeur d’expérience visuelle].
+title: Comment créer une activité [!UICONTROL Automated Personalization] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
@@ -30,99 +30,108 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: c86619f0c004279bf4d9b871c84bf2e37ba932b7
 workflow-type: tm+mt
-source-wordcount: '2033'
-ht-degree: 22%
+source-wordcount: '1963'
+ht-degree: 18%
 ---
-# Créer une activité 
+# Création d’une activité [!UICONTROL Automated Personalization] {#create-ap-activity}
 
-Créez une activité  (AP) dans [!DNL Adobe Target] à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC).
+>[!BEGINSHADEBOX]
 
-Le workflow de l’activité  (AP) en [!DNL Target] diffère de celui des autres types d’activités.
+**Sur cette page :** Découvrez comment créer une activité **[!UICONTROL Automated Personalization]** (AP) dans le **[!UICONTROL compositeur d’expérience visuelle]** (VEC). Vous créez vos expériences, définissez le ciblage et une population témoin, puis configurez les objectifs et les paramètres.
 
-Cette procédure suit le workflow guidé en trois étapes du [!UICONTROL compositeur d’expérience visuelle] :
+>[!ENDSHADEBOX]
 
-1. [Étape 1 : création d’expériences](#build-experiences)
-1. [Étape 2 : définition du ciblage](#set-targeting)
-1. [Étape 3 : configurer les objectifs et les paramètres](#configure-goals-and-settings)
+Le workflow de l’activité **[!UICONTROL Automated Personalization]** dans [!DNL Target] diffère du workflow des autres types d’activités. Elle suit le workflow guidé en trois étapes du **[!UICONTROL compositeur d’expérience visuelle]** :
+
+1. [Création d’expériences](#build-experiences)
+1. [Définir le ciblage](#set-targeting)
+1. [Configurer les objectifs et les paramètres](#configure-goals-and-settings)
+
+## Avant de commencer {#before-you-begin}
+
+Pour des performances optimales, maintenez vos activités de **[!UICONTROL ciblage automatique]** et de **[!UICONTROL Automated Personalization]** dans les limites suivantes :
+
+* 4 à 6 emplacements, avec 4 à 6 offres par emplacement.
+* Moins de 5 000 expériences au total pour de meilleurs résultats. La limite stricte est de 30 000 et la même limite s&#39;applique lorsque l&#39;option **[!UICONTROL Interdire les doublons]** est activée.
+
+Le nombre total d’expériences augmente à partir de la combinaison cartésienne d’emplacements et d’offres. Des configurations plus volumineuses peuvent ralentir le chargement ou la modification du **[!UICONTROL compositeur d’expérience visuelle]**.
 
 ## Étape 1 : création d’expériences {#build-experiences}
 
-Définissez le pool de variations de contenu pour lequel  peut effectuer une personnalisation. Plus vos expériences et offres sont riches et distinctes, plus l’algorithme peut faire correspondre le contenu approprié à chaque visiteur.
+Définissez le pool de variations de contenu pour lequel **[!UICONTROL Automated Personalization]** peut personnaliser. Plus vos expériences et offres sont riches et distinctes, plus l’algorithme peut faire correspondre le contenu approprié à chaque visiteur.
 
-1. Dans la liste [!DNL Target] [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Automated Personalization]**.
+### Création de l’activité {#create-activity}
 
-1. Pour utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur **[!UICONTROL Visual]**.
+Démarrez l’activité et ouvrez la page que vous souhaitez personnaliser dans le **[!UICONTROL Compositeur d’expérience visuelle]** (VEC).
 
-   Pour utiliser le [!UICONTROL Compositeur d’expérience d’après les formulaires], sélectionnez [!UICONTROL Formulaire]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) pour plus d’informations.
+1. Dans la liste [!DNL Target] **[!UICONTROL Activités]**, cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Automated Personalization]**.
 
-   >[!NOTE]
-   >
-   >Outre le compositeur d’expérience visuelle et le [!UICONTROL compositeur d’expérience d’après les formulaires], [!DNL Target] propose le [!UICONTROL compositeur d’expérience visuelle d’application d’une seule page]. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/main/c-experiences/experiences.md).
-   >
-   >Pour obtenir des informations de dépannage sur le VEC, voir [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   ![](../assets/ap-activities-2.png)
+
+1. Choisissez votre compositeur d’expérience :
+
+   * Pour utiliser le **[!UICONTROL compositeur d’expérience visuelle]** (VEC), cliquez sur **[!UICONTROL Visual]**.
+
+   * Pour utiliser le **[!UICONTROL compositeur d’expérience d’après les formulaires]**, sélectionnez **[!UICONTROL Formulaire]** à la place. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) pour plus d’informations.
+
+     >[!NOTE]
+     >
+     >Outre le compositeur d’expérience visuelle et le **[!UICONTROL compositeur d’expérience d’après les formulaires]**, [!DNL Target] propose le **[!UICONTROL compositeur d’expérience visuelle d’application d’une seule page]**. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/main/c-experiences/experiences.md). Pour obtenir des informations de dépannage sur le VEC, voir [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+
+     ![](../assets/ap-activities-3.png)
 
 1. (Conditionnel) [Choisissez un espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Dans la zone **[!UICONTROL Saisir l’URL de l’activité]**, spécifiez votre [URL de l’activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md).
+1. Dans la zone **[!UICONTROL Saisir l’URL d’activité]**, spécifiez votre [URL d’activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md). Si votre compte est [configuré avec une URL par défaut](/help/main/administrating-target/visual-experience-composer-set-up.md), cette URL apparaît par défaut. Si nécessaire, vous pouvez remplacer l’URL par défaut par une autre URL.
 
-   Si votre compte est [configuré avec une URL par défaut](/help/main/administrating-target/visual-experience-composer-set-up.md), cette URL apparaît par défaut. Si nécessaire, vous pouvez remplacer l’URL par défaut par une autre URL.
+   Notez que [!DNL Target] ne fait pas de distinction entre les protocoles d&#39;URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://www.adobe.com/fr`] correspondent.
 
-   [!DNL Target] ne fait pas de distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://wwww.adobe.com`] correspondent.
+1. Cliquez ensuite sur **[!UICONTROL Créer]**. La page avec l’URL spécifiée s’ouvre dans le VEC.
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Pour nommer l’activité, cliquez sur l’icône **[!UICONTROL Modifier]** ( ![Icône Modifier](/help/main/assets/icons/Edit.svg) ) et spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-   La page avec l’URL spécifiée s’ouvre dans le VEC.
+   {{activity-name-rules}}
 
-1. Pour nommer l’activité, cliquez sur l’icône **[!UICONTROL Modifier]** ( ![icône Modifier](/help/main/assets/icons/Edit.svg) ) en regard de « [!UICONTROL Activité sans titre] », spécifiez un nom explicite pour l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   ![](../assets/ap-activities-1.png)
 
-   Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
+### Concevoir le contenu {#design-content}
 
-   | Caractère | Description |
-   |--- |--- |
-   | `=` | Égal |
-   | `+` | Plus |
-   | `-` | Moins |
-   | `@` | Arobase |
+Configurez le contenu que l’algorithme peut combiner et excluez les expériences dont vous ne voulez pas.
 
-   Le nom de l’activité ne peut pas contenir l’une des séquences de caractères suivantes :
+1. Modifiez les éléments de la page comme expliqué dans la section [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   | Séquence De Caractères | Description |
-   |--- |--- |
-   | ;= | Point-virgule, égal à |
-   | ;+ | Point-virgule plus |
-   | ;- | Point-virgule, moins |
-   | ;@ | Point-virgule, signe At |
-   | ,= | Virgule, est égal à |
-   | ,+ | Virgule, Plus |
-   | ,- | Virgule, Moins |
-   | ,@ | Virgule, Au signe |
-   | `[`&quot; | Crochet ouvert, guillemets doubles |
-   | &quot;`]` | Guillemets doubles, crochet fermant |
+   * Pour prévisualiser plusieurs images rapidement, sélectionnez plusieurs images à la fois à partir du gestionnaire de ressources. Vous pouvez ensuite afficher la page avec chacune des images configurées pour l’activité.
+   * Pour modifier le texte de vos offres, modifiez l’élément de texte directement sur la page.
 
-1. Modifiez les éléments de la page comme expliqué dans les options du [Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
-
-   Vous pouvez sélectionner plusieurs images à la fois depuis le gestionnaire des ressources. Vous pouvez ainsi visualiser rapidement la page avec chacune des images paramétrées pour l’activité. Vous pouvez également facilement modifier des éléments de texte dans vos offres. Lorsque vous modifiez un élément, des barres s’affichent sur l’élément pour indiquer que vous l’avez modifié.
+   Lorsque vous modifiez un élément, des barres s’affichent sur cet élément pour indiquer que vous l’avez modifié.
 
 1. Cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour configurer les combinaisons disponibles.
 
-   Une boîte de dialogue s’affiche avec deux onglets : [!UICONTROL &#x200B; Expériences &#x200B;] et [!UICONTROL &#x200B; Offres &#x200B;]. L’onglet [!UICONTROL Expériences] répertorie chaque élément de contenu et l’emplacement auquel il est affecté. Pour exclure une ou plusieurs expériences, cochez les cases correspondantes et cliquez sur l’icône [!UICONTROL Exclure]. Pour plus d’options, voir [&#x200B; Gestion des exclusions &#x200B;](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
+   La boîte de dialogue **[!UICONTROL Gérer le contenu]** s’ouvre avec deux onglets : **[!UICONTROL Expériences]** et **[!UICONTROL Offres]**.
 
-   >[!IMPORTANT]
-   >
-   >Pour des performances optimales, limitez les activités  et [!UICONTROL Ciblage automatique] à 4 à 6 emplacements avec 4 à 6 offres par emplacement. Le nombre total d’expériences augmente à partir de la combinaison cartésienne d’emplacements et d’offres. Des configurations plus volumineuses peuvent ralentir le chargement ou la modification dans le [!UICONTROL compositeur d’expérience visuelle]. Conservez un total de moins de 5 000 expériences pour obtenir de meilleurs résultats ; la limite stricte est de 30 000 (la même limite s’applique lorsque l’option [!UICONTROL Interdire les doublons] est activée).
+   ![](../assets/ap-activities-4.png)
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Offres]** pour sélectionner des éléments de contenu et les affecter à des groupes de génération de rapports ou permettre uniquement à certains visiteurs de voir certaines offres avec ciblage.
+1. Dans l’onglet **[!UICONTROL Expériences]**, passez en revue la liste des éléments de contenu et l’emplacement auquel chacun est affecté.
 
-   Pour plus d’informations sur les groupes de génération de rapports, voir [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
+1. (Facultatif) Pour exclure des expériences de l’activité, cochez la case de chaque expérience à exclure, puis cliquez sur l’icône **[!UICONTROL Exclure]**.
+
+   Pour plus d’options, voir [Gestion des exclusions](/help/main/c-activities/t-automated-personalization/managing-exclusions.md).
+
+   ![](../assets/ap-activities-5.png)
+
+1. (Conditionnel) Cliquez sur l’onglet **[!UICONTROL Offres]** pour gérer les offres de l’activité.
+
+   * Pour organiser les offres pour le compte rendu des performances, sélectionnez des éléments de contenu et affectez-les à des groupes de compte rendu des performances. Pour plus d’informations, voir [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
+   * Pour limiter le nombre de personnes qui voient une offre, utilisez le ciblage pour permettre à seulement certains visiteurs de voir cette offre.
 
 <!--
 1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
    ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disallow Duplicates] option.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the **[!UICONTROL Disallow Duplicates]** option.
 
    If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
@@ -133,70 +142,112 @@ Définissez le pool de variations de contenu pour lequel  peut effectuer une per
 
 ## Étape 2 : définition du ciblage {#set-targeting}
 
-Choisissez les visiteurs qui rejoignent l’activité et la proportion de votre trafic exposée. Associez-les à une population témoin afin que [!DNL Target] puissiez mesurer les avantages de la personnalisation de l’effet élévateur.
+Choisissez les visiteurs qui rejoignent l’activité et la proportion de votre trafic exposée. Associez-les à une population témoin afin que [!DNL Target] puisse mesurer les avantages de la personnalisation de l’effet élévateur.
 
-1. Cliquez sur **[!UICONTROL Ciblage]** en haut du [!UICONTROL Compositeur d’expérience visuelle] pour passer à l’étape suivante du workflow guidé en trois étapes.
-
-   L’étape **Ciblage** vous est familière si vous avez utilisé d’autres types d’activités [!DNL Target]. Ici, vous pouvez sélectionner une audience et spécifier le pourcentage de visiteurs et visiteuses qui voient chaque expérience.
-
-1. Le diagramme de flux vous guide tout au long des étapes d’affectation d’une audience et de son pourcentage de trafic, de sélection de la méthode d’affectation du trafic et de spécification de l’affectation du trafic pour chaque expérience de l’activité.
+1. Cliquez sur **[!UICONTROL Ciblage]** en haut du **[!UICONTROL Compositeur d’expérience visuelle]** pour passer à l’étape suivante du workflow guidé en trois étapes.
 
    ![Étape de ciblage du test AP](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
 
-1. (Conditionnel) Cliquez sur la commande **[!UICONTROL Tous les visiteurs]** pour [sélectionner une autre audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour l’activité et définir son pourcentage de visiteur.
+1. (Conditionnel) Cliquez sur le contrôle **[!UICONTROL Tous les visiteurs]** pour [sélectionner une autre audience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour l’activité et définir son pourcentage de visiteur.
 
-   L’audience [!UICONTROL Tous les visiteurs] est définie par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche, par exemple vous pouvez limiter les entrées à 50 % de tous les visiteurs ou 45 % de votre audience « Californiens ».
+   L’audience **[!UICONTROL Tous les visiteurs]** est définie comme audience par défaut. Si vous sélectionnez une autre audience, son nom s’affiche dans le contrôle le plus à gauche. Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
 
-1. Cliquez sur le contrôle **[!UICONTROL Allocation du trafic]** pour effectuer une sélection parmi les options suivantes :
+1. Cliquez sur le contrôle **[!UICONTROL Affectation du trafic]** et choisissez l&#39;une des options suivantes :
 
    ![Options de l’objectif d’affectation du trafic](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
-   * **[!UICONTROL Évaluer l’algorithme Personalization (50/50)] :** si votre objectif est de tester l’algorithme, utilisez une répartition de 50/50 % des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggérée pour une utilisation avec des « expériences aléatoires » comme contrôle.
-   * **[!UICONTROL Maximiser le trafic Personalization (90/10)] :** si votre objectif est de créer une activité « toujours active », placez 10 % des visiteurs dans le contrôle. Cette option permet de s’assurer qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Le compromis ici est qu&#39;en échange de la personnalisation d&#39;une plus grande proportion de votre trafic, vous avez moins de précision dans ce qu&#39;est exactement l&#39;ascenseur. Quel que soit votre objectif, cette option est la répartition recommandée du trafic lors de l’utilisation d’une expérience spécifique comme contrôle.
-   * **[!UICONTROL Affectation personnalisée] :** fractionnez manuellement le pourcentage en fonction de vos besoins.
+   +++Options de l’objectif d’affectation du trafic
 
-1. (Conditionnel) Dans la liste déroulante [!UICONTROL Contrôle], [sélectionnez une expérience spécifique à utiliser comme contrôle](/help/main/c-activities/t-automated-personalization/experience-as-control.md) ou sélectionnez [!UICONTROL Expérience aléatoire].
+   | Option | Quand l’utiliser |
+   |--- |--- |
+   | **[!UICONTROL Évaluer l&#39;algorithme Personalization (50/50)]** | Votre objectif est de tester l’algorithme. Les visiteurs sont répartis 50/50 entre le contrôle et l’algorithme ciblé. Cette division donne l’estimation la plus précise de l’effet élévateur, et il s’agit du moyen le plus rapide et le plus précis de tester si l’algorithme fonctionne mieux qu’aucune personnalisation (par exemple, un contrôle diffusé aléatoirement). Suggérée pour une utilisation avec des « expériences aléatoires » comme contrôle. |
+   | **[!UICONTROL Maximiser Le Trafic Personalization (90/10)]** | Votre objectif est de créer une activité « toujours active ». 10 % des visiteurs accèdent au contrôle, ce qui garantit qu’il y a suffisamment de données pour que les algorithmes continuent à apprendre au fil du temps. Il s’agit de la méthode la plus rapide et la plus précise pour maximiser la quantité de trafic personnalisé lorsque vous êtes moins préoccupé par l’effet élévateur exact. Le compromis est que vous avez moins de précision dans ce que l&#39;ascenseur exact est. Quel que soit votre objectif, cette option est le partage de trafic recommandé lorsque vous utilisez une expérience spécifique comme contrôle. |
+   | **[!UICONTROL Affectation personnalisée]** | Vous souhaitez fractionner le pourcentage manuellement. |
 
-   L’expérience de contrôle présente une comparaison permettant de déterminer l’effet élévateur fourni par le test automatisé.
+   +++
 
-    mesure toujours les performances par rapport à une population témoin. Une règle de bonne pratique consiste à placer au moins 10 % d’entrants dans le groupe témoin. Si votre objectif est de tester si l’algorithme de personnalisation des données qui lui sont fournies fonctionne mieux qu’aucune personnalisation (par exemple, le contrôle diffusé de manière aléatoire), une répartition de 50/50 % du trafic entre le contrôle et l’algorithme de personnalisation est la manière la plus rapide et la plus précise d’atteindre cet objectif. Si vous souhaitez maximiser la quantité de trafic personnalisé et que vous vous souciez moins de comprendre l’effet élévateur exact généré par votre activité, une répartition de 10/90 % du trafic entre le contrôle et l’algorithme de personnalisation est le moyen le plus rapide et le plus précis d’atteindre cet objectif.
+1. (Conditionnel) Dans la liste déroulante **[!UICONTROL Contrôle]**, [sélectionnez une expérience spécifique à utiliser comme contrôle](/help/main/c-activities/t-automated-personalization/experience-as-control.md) ou sélectionnez **[!UICONTROL Expérience aléatoire]**.
+
+   L’expérience de contrôle présente une comparaison permettant de déterminer l’effet élévateur fourni par le test automatisé. **[!UICONTROL Automated Personalization]** mesure toujours les performances par rapport à une population témoin. Une règle de bonne pratique consiste à placer au moins 10 % d’entrants dans le groupe témoin.
 
    >[!NOTE]
    >
-   >Dans les activités , les critères d’entrée (ciblage des URL, règles de modèle et cibles d’audience) sont évalués pour chaque requête. Dans les versions précédentes, les critères d’entrée étaient évalués une seule fois par session.
+   >Dans les activités **[!UICONTROL Automated Personalization]**, les critères d’entrée (ciblage des URL, règles de modèle et cibles d’audience) sont évalués pour chaque requête. Dans les versions précédentes, les critères d’entrée étaient évalués une seule fois par session.
 
 ## Étape 3 : configurer les objectifs et les paramètres {#configure-goals-and-settings}
 
-Dites-[!DNL Target] à quoi ressemble le succès. L’objectif d’optimisation que vous choisissez est la mesure sur laquelle l’algorithme de personnalisation s’entraîne. Choisissez donc le résultat le plus important pour cette activité.
+Dites à [!DNL Target] à quoi ressemble le succès. L’objectif d’optimisation que vous choisissez est la mesure sur laquelle l’algorithme de personnalisation s’entraîne. Choisissez donc le résultat le plus important pour cette activité.
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour afficher la page **[!UICONTROL Objectifs et paramètres]**.
-1. Configurez l’activité avec les paramètres suivants, puis cliquez sur **[!UICONTROL Enregistrer et fermer]**.
+
+1. Configurez l&#39;activité avec les paramètres suivants, puis cliquez sur **[!UICONTROL Enregistrer et fermer]**.
 
    | Paramètre | Description |
    |--- |--- |
-   | [!UICONTROL Nom] | Nommez l’activité. Attribuez à l’activité un nom suffisamment explicite pour que les membres de l’équipe puissent la reconnaître dans la liste [!UICONTROL &#x200B; Activités &#x200B;]. Consultez le tableau ci-dessus pour identifier les caractères qui ne sont pas autorisés dans le nom d’une activité. |
-   | [!UICONTROL Objectif &#x200B;] | (Facultatif) Saisissez l’intention du test. L’intention vous aide à vous souvenir de l’objectif de l’activité. |
-   | [!UICONTROL Priorité] | Selon vos paramètres, l’interface utilisateur [!DNL Target] et les options de [!UICONTROL Priorité] varient. Vous pouvez utiliser les paramètres hérités de [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevé], ou activer des priorités affinées de 0 à 999.<P>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<P>Si cette option n’est pas activée dans [!UICONTROL Administration] > [!UICONTROL Reporting] (par défaut), spécifiez une priorité : [!UICONTROL Faible], [!UICONTROL Medium] ou [!UICONTROL Élevée].<P>Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option [!UICONTROL Activer les priorités affinées] sur la position « Activé ».<P>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :<ul><li>0 = Faible</li><li>999 = Élevé</li></ul>Pour les activités créées dans les versions précédentes d’[!DNL Target Standard/Premium], la priorité [!UICONTROL Faible] est convertie en 0, la priorité [!UICONTROL Medium] est convertie en 5 et la priorité [!UICONTROL Élevée] est convertie en 10. Vous pouvez ajuster ces valeurs si besoin.<P>**Remarque** : avant de pouvoir désactiver cette option après l’utilisation de priorités affinées, toutes les priorités doivent être redéfinies sur 0, 5 et 10. |
-   | [!UICONTROL Durée] | Définissez les dates de début et de fin de l’activité. Vous pouvez sélectionner [!UICONTROL Une fois activé] ou spécifier une date et une heure spécifiques. |
-   | [!UICONTROL &#x200B; Objectif d’optimisation &#x200B;] | Spécifiez l’objectif d’optimisation, qui se compose de deux paramètres :<ul><li>Ce que vous souhaitez mesurer avec l’activité.</li><li>L’action exécutée par un participant à l’activité qui montre que l’objectif a été atteint.</li></ul>Vous pouvez choisir de nommer l’objectif d’optimisation en sélectionnant les trois points à droite de [!UICONTROL Mon objectif de Principal &#x200B;]. Les activités  peuvent mesurer [!UICONTROL Conversion] ou [!UICONTROL Chiffre d’affaires]. La conversion peut être réalisée en affichant une page ou une mbox. Les clics peuvent également être suivis.<P>L’objectif principal devient également la mesure de modélisation utilisée par le système de modélisation pour calculer le succès de l’expérience.<P>Les visiteurs peuvent être maintenus dans l’activité à des fins de suivi après avoir atteint l’objectif de modélisation. Par exemple, une activité  est souvent utilisée pour améliorer les taux de clic, et cela est défini comme objectif de modélisation. Cependant, il est important de voir comment l’augmentation du taux de clics mène à la conversion finale. Le suivi de la conversion finale est donc essentiel.<P>Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.<P>Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre.<P>L’option [!UICONTROL Ajouter une dépendance] permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.<P>Pour ajouter une dépendance :<ol><li>Après avoir ajouté des mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]** dans le menu à trois points situé à droite de [!UICONTROL Objectif supplémentaire].</li><li>Cliquez sur l’option **[!UICONTROL Ajouter une dépendance]** au bas de la section [!UICONTROL Paramètres de création de rapports].</li><li>Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur [!UICONTROL Atteinte] pour passer du paramètre [!UICONTROL Atteinte] au paramètre [!UICONTROL Non atteinte].</li></ol>Vous pouvez modifier ou supprimer des dépendances après leur ajout. |
-   | [!UICONTROL Mesure de conversion] | Par défaut, la mesure de conversion est identique à la mesure d’objectif d’optimisation. Cependant, vous pouvez définir une mesure de conversion distincte en décochant l’option [!UICONTROL &#x200B; Identique à l’objectif d’optimisation &#x200B;]. |
-   | [!UICONTROL Mesures supplémentaires] | Ajoutez les mesures de création de rapports supplémentaires que vous souhaitez utiliser. Vous pouvez ajouter des mesures de conversion ou de recettes.<P>**Remarque** : la mesure [!UICONTROL Engagement] n’est pas prise en charge en tant que mesure supplémentaire. L’interface utilisateur de [!DNL Target] peut vous permettre de sélectionner la mesure [!UICONTROL Engagement], mais les données ne s’affichent pas précisément dans les rapports. |
-   | [!UICONTROL Audiences pour le reporting] | Ajoutez des audiences pour permettre le filtrage par audiences dans les rapports. Par défaut, le rapport affiche les résultats pour tous les visiteurs qualifiés. Ajoutez des audiences pour filtrer les résultats et obtenir des sous-ensembles plus spécifiques de visiteurs.<P>**Remarque** : contrairement aux autres types d’activité, [!UICONTROL Automated Personalization] ne peut pas utiliser [!UICONTROL Adobe Analytics] comme source de création de rapports (A4T). |
-   | [!UICONTROL Remarques] | Saisissez toute information utile pour vous ou pour d’autres membres de l’équipe au sujet de votre activité. Le volet [!UICONTROL Notes] peut être redimensionné. |
+   | **[!UICONTROL Nom]** | Nommez l’activité. Attribuez à l’activité un nom suffisamment explicite pour que les membres de l’équipe puissent la reconnaître dans la liste **[!UICONTROL Activités]**. Suivez les règles de nom d’activité décrites à l’[Étape 1 : création d’expériences](#build-experiences). |
+   | **[!UICONTROL Objectif]** | (Facultatif) Saisissez l’intention du test. L’intention vous aide à vous souvenir de l’objectif de l’activité. |
+   | **[!UICONTROL Priorité]** | Détermine l’activité qui s’affiche lorsque plusieurs activités partagent un emplacement et une audience. Voir [Définir la priorité](#set-priority). |
+   | **[!UICONTROL Durée]** | Définissez les dates de début et de fin de l’activité. Vous pouvez sélectionner **[!UICONTROL Une fois activé]** ou spécifier une date et une heure spécifiques. |
+   | **[!UICONTROL Objectif D’Optimisation]** | Mesure en fonction de laquelle l’algorithme de personnalisation s’entraîne. Voir [Définir l’objectif d’optimisation](#set-optimization-goal). |
+   | **[!UICONTROL Mesure De Conversion]** | Par défaut, la mesure de conversion est identique à la mesure d’objectif d’optimisation. Cependant, vous pouvez définir une mesure de conversion distincte en décochant l’option **[!UICONTROL Identique à l’objectif d’optimisation]**. |
+   | **[!UICONTROL Mesures Supplémentaires]** | Ajoutez les mesures de création de rapports supplémentaires que vous souhaitez utiliser. Vous pouvez ajouter des mesures de conversion ou de recettes.<P>**Remarque** : la mesure **[!UICONTROL Engagement]** n’est pas prise en charge en tant que mesure supplémentaire. L’interface utilisateur [!DNL Target] peut vous permettre de sélectionner la mesure **[!UICONTROL Engagement]**, mais les données ne s’affichent pas précisément dans les rapports. |
+   | **[!UICONTROL Audiences pour la création de rapports]** | Ajoutez des audiences pour permettre le filtrage par audiences dans les rapports. Par défaut, le rapport affiche les résultats pour tous les visiteurs qualifiés. Ajoutez des audiences pour filtrer les résultats et obtenir des sous-ensembles plus spécifiques de visiteurs.<P>**Remarque** : contrairement aux autres types d’activité, **[!UICONTROL Automated Personalization]** ne peut pas utiliser **[!UICONTROL Adobe Analytics]** comme source de création de rapports (A4T). |
+   | **[!UICONTROL Remarques]** | Saisissez toute information utile pour vous ou pour d’autres membres de l’équipe au sujet de votre activité. Le volet **[!UICONTROL Notes]** peut être redimensionné. |
 
-   Lorsque vous nommez ou renommez une mesure, les caractères suivants ne sont pas autorisés :
+   Lorsque vous nommez ou renommez une mesure, les caractères suivants ne sont pas autorisés : `/`, `?`, `#`, `:`, `=`, `+`, `-` et `@`.
 
-   | Caractère | Description |
-   |--- |--- |
-   | / | Barre oblique |
-   | ? | Point d’interrogation |
-   | # | Croisillon |
-   | : | Deux-points |
-   | = | Égal |
-   | + | Plus |
-   | - | Moins |
-   | @ | Arobase |
+### Définir la priorité {#set-priority}
 
-Après avoir cliqué sur **[!UICONTROL Enregistrer et fermer]**, la page [!UICONTROL Aperçu] de l’activité s’affiche. Cliquez sur **Aperçu des expériences** pour prévisualiser vos expériences une fois diffusées. Un pop-up s’affiche, que vous pouvez utiliser pour afficher et partager des liens vers vos expériences AP sur votre site afin d’obtenir un « véritable aperçu » des expériences en dehors du [!UICONTROL Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC). Vous devez partager les liens provenant du message pour partager l’aperçu. Il n’est pas possible de cliquer sur un lien pour copier directement l’URL à partir du navigateur. La copie du lien entraîne la présence dans l’URL d’un paramètre qui affiche correctement la page uniquement lorsque vous accédez à la page à partir du lien du message.
+Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
+
+Selon vos paramètres, l’interface utilisateur [!DNL Target] et les options de **[!UICONTROL Priorité]** varient :
+
+* **Priorités héritées (par défaut) :** Si les priorités affinées ne sont pas activées, spécifiez une priorité de **[!UICONTROL Faible]**, **[!UICONTROL Medium]** ou **[!UICONTROL Élevée]**.
+* **Priorités affinées :** spécifiez une valeur comprise entre 0 et 999, où 0 = Faible et 999 = Élevé. Pour activer cette option, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports]**, puis activez l’option **[!UICONTROL Activer les priorités affinées]** sur la position « Activé ».
+
+Pour les activités créées dans les versions précédentes de [!DNL Target Standard/Premium], la priorité **[!UICONTROL Basse]** est convertie en 0, la priorité **[!UICONTROL Medium]** est convertie en 5 et la priorité **[!UICONTROL Élevée]** est convertie en 10. Vous pouvez ajuster ces valeurs si besoin.
+
+>[!NOTE]
+>
+>Avant de pouvoir désactiver les priorités affinées après les avoir utilisées, toutes les priorités doivent être définies sur 0, 5 et 10.
+
+### Définir l’objectif d’optimisation {#set-optimization-goal}
+
+L’objectif d’optimisation comprend deux paramètres :
+
+* Ce que vous souhaitez mesurer avec l’activité.
+* Action entreprise par un participant à une activité qui montre que l’objectif a été atteint
+
+Vous pouvez choisir de nommer l’objectif d’optimisation en sélectionnant les trois points à droite de **[!UICONTROL Mon objectif de Principal]**. Les activités **[!UICONTROL Automated Personalization]** peuvent mesurer les **[!UICONTROL conversions]** ou les **[!UICONTROL recettes]**. La conversion peut être réalisée en affichant une page ou une mbox. Les clics peuvent également être suivis.
+
+L’objectif principal devient également la mesure de modélisation utilisée par le système de modélisation pour calculer le succès de l’expérience.
+
+Les visiteurs peuvent être maintenus dans l’activité à des fins de suivi après avoir atteint l’objectif de modélisation. Par exemple, une activité **[!UICONTROL Automated Personalization]** est souvent utilisée pour améliorer les taux de clic, et cela est défini comme objectif de modélisation. Cependant, il est important de voir comment l’augmentation du taux de clics mène à la conversion finale. Le suivi de la conversion finale est donc essentiel.
+
+#### Faire dépendre une mesure d’une autre {#add-dependency}
+
+Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. L’option **[!UICONTROL Ajouter une dépendance]** permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
+
+Pour ajouter une dépendance :
+
+1. Après avoir ajouté des mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]** dans le menu à trois points situé à droite de **[!UICONTROL Objectif supplémentaire]**.
+
+1. Cliquez sur l’option **[!UICONTROL Ajouter une dépendance]** au bas de la section **[!UICONTROL Paramètres de rapports]**.
+
+1. Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur **[!UICONTROL Atteinte]** pour passer du paramètre **[!UICONTROL Atteinte]** au paramètre **[!UICONTROL Non atteinte]**.
+
+Vous pouvez modifier ou supprimer des dépendances après leur ajout.
+
+## Prévisualiser vos expériences {#preview-experiences}
+
+Vérifiez l’aspect de vos expériences sur votre site avant de lancer l’activité.
+
+1. Après avoir cliqué sur **[!UICONTROL Enregistrer et fermer]**, la page **[!UICONTROL Aperçu]** de l’activité s’affiche. Cliquez Sur **Aperçu Des Expériences**.
+
+1. Dans la fenêtre pop-up qui s’affiche, affichez et partagez des liens vers vos expériences AP sur votre site. Ces liens vous donnent un « véritable aperçu » des expériences en dehors du **[!UICONTROL compositeur d’expérience visuelle**&#x200B;[!UICONTROL &#x200B; de Target &#x200B;]&#x200B;**]** (VEC).
+
+   >[!NOTE]
+   >
+   >Vous devez partager les liens provenant du message pour partager l’aperçu. Il n’est pas possible de cliquer sur un lien pour copier directement l’URL à partir du navigateur. La copie du lien entraîne la présence dans l’URL d’un paramètre qui affiche correctement la page uniquement lorsque vous accédez à la page à partir du lien du message.
 
 Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).

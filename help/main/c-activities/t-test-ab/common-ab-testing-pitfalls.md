@@ -21,18 +21,39 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 87%
+source-wordcount: '4347'
+ht-degree: 81%
 ---
-# Dix écueils courants des tests A/B et comment les éviter
+# Dix écueils courants des tests A/B et comment les éviter {#common-ab-testing-pitfalls}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez les dix écueils les plus significatifs des tests A/B, tels que l’ignorance du niveau de pertinence, la surveillance des tests ou leur arrêt précoce, et comment éviter chacun d’eux.
+
+>[!ENDSHADEBOX]
 
 Les tests A/B dans [!DNL Adobe Target] constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing digital. Ils permettent aux spécialistes marketing de proposer à leur clientèle et aux visiteurs et visiteuses des contenus optimisés et ciblés. Cet article décrit dix des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 
+Les pièges sont les suivants :
+
+* [Écueil 1 : ignorer les effets du niveau de pertinence](#section_55F5577A13C6470BA1417C2B735C6B1D)
+* [Écueil 2 : déclarer les gagnants de plusieurs tests d’offre sans aucune différence statistiquement significative](#section_FA83977C71DB4F69B3D438AF850EF3B6)
+* [Écueil 3 : ignorer les effets de l’efficacité statistique](#section_0D517079B7D547CCAA75F80981CBE12A)
+* [Écueil 4 : utiliser des tests unilatéraux](#section_8BB136D1DD6341FA9772F4C31E9AA37C)
+* [Écueil 5 : surveillance des tests](#section_EA42F8D5967B439284D863C46706A1BA)
+* [Écueil 6 : interrompre les tests de manière prématurée](#section_DF01A97275E44CA5859D825E0DE2F49F)
+* [Écueil 7 : modifier l’affectation du trafic au cours de la période de test](#allocation)
+* [Écueil 8 : ne pas tenir compte des effets de nouveauté](#section_90F0D24C40294A8F801B1A6D6DEF9003)
+* [Écueil 9 : ne pas tenir compte des différences pendant le délai de réflexion](#section_B166731B5BEE4E578816E351ECDEA992)
+* [Écueil 10 : utiliser des mesures qui ne reflètent pas les objectifs de l’entreprise](#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE)
+
 ## Écueil 1 : ignorer les effets du niveau de pertinence {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
-Quelle est la probabilité que votre test signale une différence significative du taux de conversion entre deux offres alors qu’il n’y a en réalité aucune différence ? C’est ce que le *niveau de signification* d’un test permet de déterminer. Ces résultats trompeurs sont souvent appelés faux positifs et, dans le monde des statistiques, sont appelés erreur de type I (si vous rejetez à tort l’hypothèse nulle qui est, en fait, vraie).
+### Niveau de pertinence et niveau de confiance
+
+Quelle est la probabilité que votre test signale une différence significative du taux de conversion entre deux offres alors qu’il n’y a en réalité aucune différence ? C’est ce que le *niveau de pertinence* d’un test permet de déterminer. Ces résultats trompeurs sont souvent appelés faux positifs et, dans le monde des statistiques, sont appelés erreur de type I (si vous rejetez à tort l’hypothèse nulle qui est, en fait, vraie).
 
 Lorsque vous spécifiez le niveau de pertinence d’un test A/B, vous effectuez un compromis entre votre tolérance consistant à accepter qu’une expérience est meilleure que l’autre lorsqu’elle ne l’est vraiment pas (erreur de type I ou « faux positif ») et le fait de ne voir aucune différence statistique entre les expériences lorsqu’il existe réellement une différence réelle (erreur de type II ou « faux négatif »). Le *degré de confiance* est déterminé avant l’exécution du test.
 
@@ -54,33 +75,39 @@ Dans les tests A/B, les marketeurs appliquent souvent des niveaux de confiance 
 
 Comme l’illustre le graphique ci-dessous, plus vous exécutez de tests, plus il est probable qu’au moins un de ces tests génère un faux positif. Si, par exemple, vous exécutez 10 tests avec un degré de confiance de 95 %, il y a environ 40 % de chances que vous détectiez un ou plusieurs faux positifs (étant donné qu’il n’y a aucun effet élévateur réel : Pr(au moins un faux positif) = 1 - Pr(aucun faux positif) = 1 - 0,95^10 = 40 %).
 
-![image pitfalls1](assets/pitfalls1.png)
+![Graphique à barres de la probabilité d’au moins un faux positif : 5 % pour 1 test, environ 40 % pour 10 tests et environ 64 % pour 20 tests, avec un niveau de confiance de 95 %](assets/pitfalls1.png)
 
 Pour les services marketing, 95 % constitue généralement un compromis raisonnable entre le risque de faux positifs et de faux négatifs.
 
+### Quand prêter une attention particulière
+
 Toutefois, deux situations demandent de s’intéresser de près au niveau de pertinence et à ses implications dans les résultats du test : la segmentation post-test et le test de plusieurs offres.
 
-* **Segmentation post-test :** les marketeurs décortiquent souvent les résultats d’un test A/B terminé en fonction des segments de visiteurs. Les segments courants comprennent le type de navigateur, le type d’appareil, les zones géographiques, l’heure de la journée et les nouveaux visiteurs par rapport aux visiteurs récurrents. Cette pratique, appelée segmentation post-test, permet d’obtenir d’excellentes informations sur les segments de visiteurs. Les spécialistes marketing peuvent alors utiliser ces informations pour créer un contenu différencié mieux ciblé et plus approprié.
+#### Segmentation post-test
 
-  Si le taux de conversion ne présente aucune réelle différence, la probabilité d’un faux positif équivaut au niveau de pertinence chaque fois que vous testez un segment. Comme nous l’avons mentionné, la probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct. Avec un niveau de pertinence de 5 %, vous risquez d’obtenir un faux positif chaque fois que vous examinez 20 segments post-test, en moyenne. Le graphique ci-dessus illustre de quelle façon cette probabilité augmente.
+Les marketeurs découpent souvent les résultats d’un test en fonction des segments de visiteurs une fois le test A/B terminé. Les segments courants comprennent le type de navigateur, le type d’appareil, les zones géographiques, l’heure de la journée et les nouveaux visiteurs par rapport aux visiteurs récurrents. Cette pratique, appelée segmentation post-test, permet d’obtenir d’excellentes informations sur les segments de visiteurs. Les spécialistes marketing peuvent alors utiliser ces informations pour créer un contenu différencié mieux ciblé et plus approprié.
 
-  La probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct, ce qui augmente la probabilité d’un faux positif. Cette augmentation peut être encore plus importante si les segments sont corrélés.
+Si le taux de conversion ne présente aucune réelle différence, la probabilité d’un faux positif équivaut au niveau de pertinence chaque fois que vous testez un segment. Comme nous l’avons mentionné, la probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct. Avec un niveau de pertinence de 5 %, vous risquez d’obtenir un faux positif chaque fois que vous examinez 20 segments post-test, en moyenne. Le graphique ci-dessus illustre de quelle façon cette probabilité augmente.
 
-  Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Au lieu de cela, pour éviter ce problème cumulatif de faux positifs avec la segmentation post-test, une fois que vous avez identifié un segment post-test, envisagez de le tester dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
+La probabilité d’obtenir au moins un faux positif augmente avec chaque nouveau test exécuté. Par essence, chaque segment post-test représente un test distinct, ce qui augmente la probabilité d’un faux positif. Cette augmentation peut être encore plus importante si les segments sont corrélés.
 
-* **Test de plusieurs offres :** les marketeurs comparent fréquemment plus de deux offres (ou expériences) les unes aux autres. C’est pourquoi des solutions de test A/B appelées tests A/B/n s’affichent parfois, où n correspond au nombre d’offres que vous testez simultanément.
+Suffirait-il alors de ne pas procéder à une segmentation post-test ? Non. Les segments post-test sont utiles. Au lieu de cela, pour éviter ce problème cumulatif de faux positifs avec la segmentation post-test, une fois que vous avez identifié un segment post-test, envisagez de le tester dans un nouveau test. Vous pouvez également appliquer la correction Bonferroni, présentée ci-dessous.
 
-  Il est important de noter que *chaque offre* testée a un taux de faux positifs égal au niveau de signification, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif.
+#### Test de plusieurs offres
 
-  Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
+Les spécialistes marketing testent fréquemment plus de deux offres (ou expériences) l’une par rapport à l’autre. C’est pourquoi des solutions de test A/B appelées tests A/B/n s’affichent parfois, où n correspond au nombre d’offres que vous testez simultanément.
 
-  Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
+Il est important de noter que *chaque* offre testée présente un taux de faux positifs égal au niveau de signification, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif.
+
+Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
+
+Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
 
 ## Écueil 2 : déclarer les gagnants de plusieurs tests d’offre sans aucune différence statistiquement significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 En cas de test de plusieurs offres, les marketeurs désignent généralement l’offre ayant l’effet élévateur le plus élevé comme gagnante du test, même s’il n’existe aucune différence statistiquement significative entre le gagnant et l’expérience venant juste après. Cette situation se produit quand la différence entre les alternatives est inférieure à la différence entre les alternatives et l’expérience de contrôle. La figure ci-dessous illustre ce concept ; les marges d’erreur (traits noirs) représentent des intervalles de confiance d’effet élévateur de 95 %. L’effet élévateur réel pour chaque offre par rapport à l’offre de contrôle est 95 % susceptible d’être inclus dans l’intervalle de confiance (la marge représentée par les traits d’erreur).
 
-![image pitfalls2](assets/pitfalls2.png)
+![Graphique à barres de l’effet élévateur des offres A, B et C avec intervalles de confiance : les intervalles de A et B se chevauchent, l’intervalle de C ne se chevauche pas](assets/pitfalls2.png)
 
 Les offres A et B ont l’effet élévateur observé le plus élevé durant le test. Il est peu probable que l’offre C puisse surpasser ces offres dans un test ultérieur, puisque l’intervalle de confiance de C n&#39;approche même pas des intervalles de confiance de A ou B. Toutefois, même si l’offre A présente l’effet élévateur le plus élevé observé durant le test, il est tout à fait possible que l’offre B surpasse l’offre A dans un test ultérieur, puisque les intervalles de confiance se chevauchent.
 
@@ -98,7 +125,7 @@ Deux facteurs principaux déterminent la robustesse d’un test. Le premier est 
 
 Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable de tests. En d’autres termes, ils utilisent une taille d’échantillon trop petite, ce qui signifie qu’ils risquent de ne pas détecter de vrais positifs, même si les taux de conversion présentent une différence substantielle. En fait, si vous sous-estimez continuellement la taille d’échantillon des tests que vous exécutez, le nombre de faux positifs peut être comparable au nombre de vrais positifs, voire le dominer. Il en résulte bien souvent la mise en œuvre de changements neutres sur un site (une perte de temps), voire de changements qui réduisent les taux de conversion.
 
-![image pitfalls3](assets/pitfalls3.png)
+![Tableau des quatre résultats possibles d&#39;un test : vrai positif, faux positif (contrôlé par le niveau de signification), faux négatif (contrôlé par le niveau de puissance) et vrai négatif](assets/pitfalls3.png)
 
 Afin d’éviter cela, partez du principe qu’un test bien conçu comprend généralement un degré de confiance de 95 % et une efficacité statistique de 80 %. Avec un tel test, il est probable à 95 % que vous évitiez un faux positif et à 80 % que vous évitiez un faux négatif.
 
@@ -130,7 +157,7 @@ Il est tentant d’interrompre le test si une offre est beaucoup plus ou beaucou
 
 L’illustration ci-dessous présente cinq offres ayant le même taux de conversion sur le long terme. Le taux de conversion de l’offre B était médiocre pour les 2 000 premiers visiteurs et est revenu à sa valeur réelle après une longue période.
 
-![image pitfalls4](assets/pitfalls4.png)
+![Graphique linéaire de la différence de taux de conversion entre cinq offres alternatives et le contrôle : les différences sont importantes pour les premiers milliers de visiteurs, par exemple moins 8 à moins 9 % pour l’offre B, et convergent vers zéro à mesure que le nombre de visiteurs augmente](assets/pitfalls4.png)
 
 On parle alors de « retour à la moyenne », ce qui peut s’avérer décevant lorsqu’une offre qui était très performante durant les premiers jours du test n’a pas conservé ce niveau de performance sur le long terme. Il peut en outre en résulter une perte de revenus si une offre performante n’est pas mise en œuvre parce qu’elle semblait, par hasard, peu rentable lors des premiers jours du test.
 
@@ -168,7 +195,7 @@ De telles offres, qui incitent les visiteurs à les convertir plus rapidement, s
 
 L’illustration ci-dessous montre deux offres que deux visiteurs distincts voient en même temps un dimanche après-midi. Le délai de réflexion pour l’offre A est court et le visiteur la convertit un peu plus tard dans la journée. Le délai de réflexion de l’offre B, en revanche, est plus long. Le visiteur qui a vu cette offre réfléchit un certain temps, puis la convertit le lundi matin. Si vous interrompez le test le dimanche soir, la conversion associée à l’offre A est prise en compte dans la mesure de conversion de l’offre A, tandis que la conversion associée à l’offre B n’est pas prise en compte dans la mesure de conversion de l’offre B. L’offre B est alors considérablement désavantagée.
 
-![image pitfalls5](assets/pitfalls5.png)
+![Chronologie du dimanche au lundi : l’offre A a une courte période de réflexion et le visiteur convertit le dimanche, l’offre B a une période de réflexion plus longue et le visiteur convertit le lundi](assets/pitfalls5.png)
 
 Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test le temps de passer à la conversion après qu’une nouvelle entrée du test a été arrêtée. Ceci vous permet d’obtenir une comparaison équitable des offres.
 
@@ -176,11 +203,11 @@ Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test 
 
 Les marketeurs peuvent être tentés d’appliquer des mesures de conversion à fort trafic et à faible variance dans l’entonnoir supérieur (le taux de clics, par exemple) afin d’obtenir plus rapidement le nombre de conversions du test. Vous devez toutefois soigneusement déterminer si le taux de clics généré constitue un indicateur adéquat par rapport à l’objectif que vous cherchez à atteindre. Les offres bénéficiant d’un taux de clics élevé peuvent facilement réduire les recettes, Cela peut se produire lorsque les offres attirent des visiteurs et visiteuses ayant une faible propension à acheter ou si l’offre à proprement parler (une offre de rabais, par exemple) génère un revenu plus faible .
 
-![image pitfalls6](assets/pitfalls6.png)
+![Funnel et mesures du taux de clics en haut au profit à vie en bas : trafic plus élevé et variance moindre en haut, plus proche des objectifs commerciaux en bas](assets/pitfalls6.png)
 
 Observez l’offre de sports d’hiver ci-dessous. Elle génère un taux de clics plus élevé que l’offre cyclique, mais étant donné que les visiteurs et visiteuses dépensent en moyenne plus d’argent sur l’offre cyclique, le fait de présenter cette dernière au visiteur génère un revenu plus élevé. Par conséquent, un test A/B ayant pour mesure le taux de clics sélectionnerait une offre qui n’optimise pas le revenu, ce qui est pourtant l’objectif ultime de l’entreprise.
 
-![image pitfalls7](assets/pitfalls7.png)
+![Offre de ski avec un CTR de 20 % et un chiffre d&#39;affaires moyen de 50 $, donc un chiffre d&#39;affaires attendu de 10 $, par rapport à une offre de cyclisme avec un CTR de 10 % et un chiffre d&#39;affaires moyen de 250 $, donc un chiffre d&#39;affaires attendu de 25 $](assets/pitfalls7.png)
 
 Afin d’éviter ce problème, surveillez soigneusement les mesures de votre entreprise afin d’identifier l’impact des offres pour l’entreprise ou, mieux encore, utilisez si possible une mesure mieux adaptée à l’objectif de l’entreprise.
 
