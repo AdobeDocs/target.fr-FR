@@ -1,6 +1,6 @@
 ---
 keywords: activités;activité;tableau de bord insights
-description: Le tableau de bord  donne une vue d’ensemble de la manière dont votre entreprise utilise le [!DNL Target] au fil du temps, en faisant apparaître en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
+description: Le [!UICONTROL tableau de bord Adobe Target] donne une vue d’ensemble de la manière dont votre organisation utilise [!DNL Target] au fil du temps, en faisant apparaître en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
 title: Tableau de bord des informations Adobe Target
 feature: Activities
 exl-id: 042befcd-025b-4592-a6b2-5dc0b952b031
@@ -10,16 +10,22 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '858'
 ht-degree: 1%
 ---
-# Tableau de bord des informations Adobe Target
+# Tableau de bord des informations Adobe Target {#insights-dashboard}
 
-Le tableau de bord  donne une vue d’ensemble de la manière dont votre organisation utilise le [!DNL Adobe Target] au fil du temps. Cela permet aux équipes de comprendre en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
+>[!BEGINSHADEBOX]
 
-Le tableau de bord est conçu à la fois pour les utilisateurs et les parties prenantes qui souhaitent une visibilité rapide sur l’utilisation des [!DNL Target] sans avoir à consulter les rapports d’activité individuels.
+**Sur cette page :** Découvrez comment lire le **[!UICONTROL tableau de bord Adobe Target]** : comment sélectionner une période et ce que montrent les indicateurs clés de performance, la répartition des types d’activités, les mesures des tests A/B et le graphique des activités au fil du temps.
+
+>[!ENDSHADEBOX]
+
+Le tableau de bord **[!UICONTROL Adobe Target]** donne une vue d’ensemble de la manière dont votre organisation utilise [!DNL Adobe Target] au fil du temps. Cela permet aux équipes de comprendre en un coup d’œil l’adoption, le volume d’activités et l’utilisation des expériences.
+
+Le tableau de bord est conçu à la fois pour les utilisateurs et les parties prenantes qui souhaitent une visibilité rapide sur l’utilisation de [!DNL Target] sans avoir à consulter les rapports d’activité individuels.
 
 Lorsque vous consultez ce tableau de bord, tenez compte des points suivants :
 
@@ -31,9 +37,9 @@ Pour des résultats détaillés, l’effet élévateur ou les performances stati
 
 ![](assets/insights-1.png)
 
-## &#x200B;
+## [!UICONTROL Experimentation Accelerator]
 
-La bannière de votre tableau de bord permet d’accéder directement à **&#x200B;**, un point d’entrée léger vers des outils qui rationalisent les workflows d’expérimentation et simplifient la configuration, l’analyse et la prise de décision des expériences.
+La bannière de votre tableau de bord permet d’accéder directement à **[!UICONTROL Experimentation Accelerator]**, un point d’entrée léger vers des outils qui rationalisent les workflows d’expérimentation et simplifient la configuration, l’analyse et la prise de décision des expériences.
 
 ## Sélection de la période
 
@@ -55,7 +61,7 @@ Vous pouvez également exporter un instantané du tableau de bord en sélectionn
 
 ## Mesures
 
-Le tableau de bord organise ses mesures en quatre vues complémentaires, chacune répondant à une question différente sur l’utilisation de vos [!DNL Target] : [KPI](#kpis) donnent un résumé d’un coup d’œil du nombre d’activités, la [répartition des types d’activités](#activity-type-breakdown) indique les fonctionnalités sur lesquelles vous vous appuyez le plus, [mesures de test A/B](#ab-testing-metrics) zoom sur l’utilisation de l’expérimentation et [Activités au fil du temps](#activities-over-time) révèle les tendances sur la période sélectionnée.
+Le tableau de bord organise ses mesures en quatre vues complémentaires, chacune répondant à une question différente sur votre utilisation de [!DNL Target] : [les indicateurs de performance clés](#kpis) fournissent un résumé d’un coup d’œil du nombre d’activités, la [répartition des types d’activités](#activity-type-breakdown) indique les fonctionnalités sur lesquelles vous vous appuyez le plus, [les mesures de test A/B](#ab-testing-metrics) effectuent un zoom avant sur l’utilisation de l’expérimentation et [les activités au fil du temps](#activities-over-time) révèlent des tendances sur la période sélectionnée.
 
 ### KPI
 
@@ -63,23 +69,23 @@ Les cartes d’indicateurs de performance clés en haut de la page résument en 
 
 ![](assets/insights-4.png)
 
-La mesure **Total des activités actives** détaille le nombre d’activités qui étaient actives à tout moment au cours de la période sélectionnée. Une activité est considérée comme active si elle diffusait activement du trafic, même si elle a commencé avant ou s’est terminée après la période sélectionnée. Utilisez cette mesure pour :
+La mesure **[!UICONTROL Total des activités actives]** détaille le nombre d’activités qui étaient actives à tout moment au cours de la période sélectionnée. Une activité est considérée comme active si elle diffusait activement du trafic, même si elle a commencé avant ou s’est terminée après la période sélectionnée. Utilisez cette mesure pour :
 
-* Comprenez à quel point [!DNL Target] a été utilisé de manière active au cours de la période.
+* Comprenez à quel point [!DNL Target] a été utilisé de manière active pendant la période.
 * Évaluez l’échelle globale de vos efforts de personnalisation et de test.
 
-La mesure **Activités actives ou modifiées** représente le nombre total d’activités de votre organisation qui ont été actives, créées ou modifiées au cours de la période sélectionnée. Utilisez cette mesure pour :
+La mesure **[!UICONTROL Activités actives ou modifiées]** représente le nombre total d’activités de votre organisation qui ont été actives, créées ou modifiées au cours de la période sélectionnée. Utilisez cette mesure pour :
 
-* Comprenez la taille globale de votre bibliothèque d’activités [!DNL Target] et le nombre d’activités utilisées.
+* Comprenez la taille globale de votre bibliothèque d’activités [!DNL Target] et le nombre d’activités en cours d’utilisation.
 
 * Suivez la croissance à long terme de vos programmes d’expérimentation et de personnalisation.
 
-La mesure **Activités terminées** représente le nombre d’activités ayant atteint une date d’achèvement ou d’arrêt au cours de la période sélectionnée. Utilisez cette mesure pour :
+La mesure **[!UICONTROL Activités terminées]** représente le nombre d’activités ayant atteint une date d’achèvement ou d’arrêt au cours de la période sélectionnée. Utilisez cette mesure pour :
 
 * Comprenez le nombre d’activités terminées au cours de la période.
 * Suivre le volume d’achèvement au fil du temps.
 
-La mesure **Activités publiées** détaille le nombre d’activités qui ont été publiées au cours de la période sélectionnée. Une activité est considérée comme publiée lorsqu’elle est mise en ligne pour la première fois. Si une activité est activée, arrêtée, puis réactivée, seule la première occurrence est comptabilisée dans cette mesure. Utilisez cette mesure pour :
+La mesure **[!UICONTROL Activités publiées]** détaille le nombre d’activités qui ont été publiées au cours de la période sélectionnée. Une activité est considérée comme publiée lorsqu’elle est mise en ligne pour la première fois. Si une activité est activée, arrêtée, puis réactivée, seule la première occurrence est comptabilisée dans cette mesure. Utilisez cette mesure pour :
 
 * Mesurez le nombre de nouvelles activités qui ont été lancées.
 * Comprenez la vitesse de création et de publication des activités.
@@ -88,31 +94,31 @@ La mesure **Activités publiées** détaille le nombre d’activités qui ont é
 
 ![](assets/insights-5.png)
 
-Le graphique [!UICONTROL Type d’activité] présente la répartition des activités actives par type au cours de la période sélectionnée, notamment :
+Le graphique **[!UICONTROL Type d’activité]** présente la répartition des activités actives par type au cours de la période sélectionnée, notamment :
 
-* [!UICONTROL Test A/B]
-* [!UICONTROL Ciblage d’expérience]
-* [!UICONTROL Recommandations]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Test multivarié]
+* **[!UICONTROL Test A/B]**
+* **[!UICONTROL Ciblage d’expérience]**
+* **[!UICONTROL Recommandations]**
+* **[!UICONTROL Automated Personalization]**
+* **[!UICONTROL Test multivarié]**
 
-Utilisez ce graphique pour identifier les fonctionnalités de [!DNL Target] sur lesquelles votre entreprise repose le plus et pour repérer les opportunités afin d’élargir la combinaison de types d’activités que vous exécutez.
+Utilisez ce graphique pour identifier les [!DNL Target] fonctionnalités sur lesquelles votre organisation repose le plus et pour repérer les opportunités afin d’élargir la combinaison de types d’activités que vous exécutez.
 
 ### Mesures de test A/B
 
 ![](assets/insights-6.png){align="center"}
 
-Cette section décrit l’utilisation spécifique aux activités de test **[!UICONTROL A/B]**.
+Cette section présente l’utilisation spécifiquement liée aux activités de **[!UICONTROL test A/B]**.
 
-La mesure **[!UICONTROL Nombre total d’activités de test A/B actives]** indique le nombre d’activités de test **[!UICONTROL A/B]** qui étaient actives à tout moment au cours de la période sélectionnée.
+La mesure **[!UICONTROL Nombre total d’activités de test A/B actives]** affiche le nombre de **[!UICONTROL activités de test A/B]** qui étaient actives à tout moment au cours de la période sélectionnée.
 
-Le **[!UICONTROL Nombre total de tests A/B publiés]** indique le nombre d’activités **[!UICONTROL Test A/B]** publiées pendant la période sélectionnée.
+Le **[!UICONTROL total des tests A/B publiés]** affiche le nombre de **[!UICONTROL tests A/B]** activités qui ont été publiés pendant la période sélectionnée.
 
 Utilisez ces mesures pour comprendre la fréquence d’utilisation des tests A/B et pour suivre le volume et l’adoption des expériences au fil du temps.
 
-### Activités dans le temps
+### Activités dans le temps {#activities-over-time}
 
 ![](assets/insights-7.png){align="center"}
 
-Le graphique **[!UICONTROL Activités au fil du temps]** suit le nombre d’activités créées, modifiées et publiées sur la période sélectionnée, ce qui facilite la détection des tendances, des pics ou des périodes calmes dans votre programme d’expérimentation.
+Le graphique **[!UICONTROL Activités au fil du temps]** effectue le suivi du nombre d’activités créées, modifiées et publiées sur la période sélectionnée, ce qui facilite la détection des tendances, des pics ou des périodes calmes dans votre programme d’expérimentation.
 

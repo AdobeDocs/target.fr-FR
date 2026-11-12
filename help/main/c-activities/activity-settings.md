@@ -22,14 +22,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 79%
 ---
 # Paramètres d’activité
 
-Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL Adobe Target] pour gérer l’objectif, la priorité et la durée de vos activités.
+Utilisez les [!UICONTROL paramètres d’activité] dans [!DNL Adobe Target] pour gérer l’objectif, la priorité et la durée de vos activités.
 
 1. Saisissez des remarques sur l’objectif de l’activité.
 
@@ -40,7 +40,7 @@ Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL
 
    Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-   Si cette option n’est pas activée dans [!UICONTROL Administration] > [!UICONTROL Rapports] (valeur par défaut), spécifiez une priorité : Faible, Medium ou Élevée.
+   Si cette option n&#39;est pas activée dans [!UICONTROL Administration] > [!UICONTROL Rapports] (par défaut), spécifiez une priorité : Faible, Medium ou Élevée.
 
    Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option [!UICONTROL Activer les priorités affinées] sur la position « Activé ».
 
@@ -65,13 +65,13 @@ Utilisez les [!UICONTROL &#x200B; Paramètres d’activité &#x200B;] dans [!DNL
 
 La page [!UICONTROL Objectif et paramètres] comprend d’autres paramètres qui dépendent du type d’activité en cours de création. Pour plus d’informations sur ces paramètres, reportez-vous au type d’activité :
 
-* [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-* [Ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
-* [Test multivarié](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
+* [Ciblage d’expérience](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
+* [Test multivarié](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)
 * [Recommandations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vidéo de formation : Paramètres des activités ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : paramètres d’activité ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -81,4 +81,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3507945?captions=fre_fr)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

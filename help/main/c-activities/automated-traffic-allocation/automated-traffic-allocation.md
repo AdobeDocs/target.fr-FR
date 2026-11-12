@@ -1,7 +1,7 @@
 ---
 keywords: affectation automatisée du trafic;ciblage;Incrémenter le décompte et maintenir l’utilisateur dans l’activité;affectation du trafic;affectation automatique;affectation automatique
 description: Découvrez comment utiliser une activité [!UICONTROL Affectation automatique] dans [!DNL Adobe Target] qui identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant.
-title: Qu’est-ce qu’une activité [!UICONTROL Affectation automatique] ?
+title: Qu’est-ce qu’une activité d’[!UICONTROL affectation automatique] ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 TQID: 'https://experienceleague.adobe.com/V5ZS2vBGVilH0-4bacB4x7iQi8M6qroLe3R9LNMoVEc'
@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d887712962ad4e3cecd6b3b86ee33a4bcb99f2a8
 workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
 ---
-# Présentation de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;]
+# Aperçu de l’affectation automatique [!UICONTROL 1}]
 
-Une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
+Une activité [!UICONTROL Affectation automatique] dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant pour augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
 Lors de la [création d’une activité A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) à l’aide du workflow guidé en trois étapes, choisissez l’option **[!UICONTROL Affectation automatique à la meilleure expérience]** sur la page **[!UICONTROL Ciblage]** (étape 2).
 
@@ -42,27 +42,27 @@ Lors de la [création d’une activité A/B](/help/main/c-activities/t-test-ab/t
 
 Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon, et l’activité doit suivre son cours complet avant que vous puissiez agir sur un gagnant. Et il y a encore une chance que le gagnant identifié ne soit pas un vrai gagnant.
 
-## La solution : [!UICONTROL &#x200B; Affectation automatique &#x200B;] {#section_98388996F0584E15BF3A99C57EEB7629}
+## La solution : [!UICONTROL Affectation automatique] {#section_98388996F0584E15BF3A99C57EEB7629}
 
-Une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] réduit ce coût et la charge de travail pour déterminer une expérience gagnante. [!UICONTROL &#x200B; Affectation automatique &#x200B;] surveille les performances de la mesure d’objectif de toutes les expériences et envoie proportionnellement plus de nouveaux entrants vers les expériences hautement performantes. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez constater les avantages du test sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
+Une activité [!UICONTROL Affectation automatique] réduit ce coût et la surcharge liée à la détermination d’une expérience gagnante. L’[!UICONTROL Affectation automatique] surveille les performances de la mesure d’objectif de toutes les expériences et envoie proportionnellement plus de nouveaux entrants vers les expériences hautement performantes. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez constater les avantages du test sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
 
-L’[!UICONTROL &#x200B; Affectation automatique &#x200B;] déplace progressivement les visiteurs vers des expériences gagnantes, au lieu d’exiger que vous attendiez la fin d’une activité pour déterminer une expérience gagnante. Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
+L’[!UICONTROL affectation automatique] déplace progressivement les visiteurs vers des expériences gagnantes, au lieu d’exiger que vous attendiez la fin d’une activité pour déterminer un gagnant. Vous bénéficiez de l’effet élévateur plus rapidement, car les participants à l’activité qui auraient été envoyés vers des expériences moins performantes sont dirigés vers des expériences potentiellement gagnantes.
 
-Un test A/B normal en [!DNL Target] montre seulement des comparaisons par paires de challengers avec le contrôle. Par exemple, si une activité possède des expériences : A, B, C et D où A est le contrôle, un test A/B [!DNL Target] normal comparera A par rapport à B, A par rapport à C et A par rapport à D.
+Un test A/B normal dans [!DNL Target] affiche uniquement des comparaisons par paires de concurrents avec le contrôle. Par exemple, si une activité possède des expériences : A, B, C et D où A est le contrôle, un test A/B [!DNL Target] normal comparerait A à B, A à C et A à D.
 
-Dans de tels tests, la plupart des produits, y compris les [!DNL Target], utilisent un [test t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour produire un degré de confiance basé sur la valeur de p. Cette valeur de confiance sert ensuite à déterminer si l’expérience concurrente est suffisamment différente de l’expérience de contrôle. Cependant, [!DNL Target] n’effectue pas automatiquement les comparaisons implicites (B par rapport à C, B par rapport à D et C par rapport à D) qui sont requises pour trouver la « meilleure » expérience. Le marketeur doit dès lors analyser les résultats manuellement pour déterminer la « meilleure » expérience.
+Dans de tels tests, la plupart des produits, y compris [!DNL Target], utilisent un [test t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour produire un degré de confiance basé sur la valeur de p. Cette valeur de confiance sert ensuite à déterminer si l’expérience concurrente est suffisamment différente de l’expérience de contrôle. Cependant, [!DNL Target] n’effectue pas automatiquement les comparaisons implicites (B par rapport à C, B par rapport à D et C par rapport à D) qui sont requises pour trouver la « meilleure » expérience. Le marketeur doit dès lors analyser les résultats manuellement pour déterminer la « meilleure » expérience.
 
-L’[!UICONTROL Affectation automatique] effectue toutes les comparaisons implicites entre les expériences et produit un gagnant « vrai ». La notion d’expérience de « contrôle » disparaît donc totalement du test.
+L’[!UICONTROL affectation automatique] effectue toutes les comparaisons implicites entre les expériences et produit un gagnant « vrai ». La notion d’expérience de « contrôle » disparaît donc totalement du test.
 
-L’[!UICONTROL affectation automatique] affecte intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche celui d’aucune autre expérience. Normalement, ce processus peut produire des faux positifs, mais [!UICONTROL Affectation automatique] utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} qui compense les évaluations répétées. À ce stade, il y a un véritable gagnant. Lorsque l’[!UICONTROL Affectation automatique] s’arrête, à condition qu’il n’y ait aucune dépendance temporelle substantielle aux visiteurs qui arrivent sur la page, il y a au moins 95 % de chances que l’[!UICONTROL Affectation automatique] renvoie une expérience dont la réponse réelle n’est pas inférieure de moins de 1 % (relatif) à la réponse réelle de l’expérience gagnante.
+L’affectation automatique [!UICONTROL 1} affecte intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche celui d’aucune autre expérience. ]Normalement, ce processus peut produire des faux positifs, mais l’[!UICONTROL affectation automatique] utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} qui compense les évaluations répétées. À ce stade, il y a un véritable gagnant. Lorsque l’[!UICONTROL affectation automatique] s’arrête, à condition qu’il n’y ait pas de dépendance temporelle substantielle aux visiteurs qui arrivent à la page, il y a au moins 95 % de chances que l’[!UICONTROL affectation automatique] renvoie une expérience dont la réponse réelle n’est pas inférieure de moins de 1 % (relatif) à la réponse réelle de l’expérience gagnante.
 
-## Quand utiliser les activités [!UICONTROL &#x200B; Affectation automatique &#x200B;] au lieu des activités [!UICONTROL &#x200B; Test A/B &#x200B;] ou [!UICONTROL Automated Personalization &#x200B;] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quand utiliser les activités [!UICONTROL Affectation automatique] par rapport aux activités [!UICONTROL Test A/B] ou [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilisez l’**[!UICONTROL affectation automatique]** quand vous souhaitez optimiser votre activité dès le début et identifier les expériences gagnantes aussi vite que possible. En diffusant plus souvent des expériences hautement performantes, les performances globales de l’activité augmentent.
-* Utilisez un test A/B standard **[A/B Test](/help/main/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** lorsque vous souhaitez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous aide à classer toutes vos expériences, tandis que l’[!UICONTROL &#x200B; Affectation automatique] trouve les meilleures performances, mais ne garantit pas la différenciation entre les moins performantes.
-* Utilisez [&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. L’[!UICONTROL affectation automatique] examine le comportement agrégé des expériences (comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
+* Utilisez un **[test A/B](/help/main/c-activities/t-test-ab/test-ab.md#test-ab)** standard lorsque vous souhaitez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous aide à classer toutes vos expériences, tandis que l’[!UICONTROL Affectation automatique] trouve les meilleures performances, mais ne garantit pas la différenciation entre les moins performantes.
+* Utilisez [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lorsque vous souhaitez des algorithmes d’optimisation de la plus haute complexité, tels que des modèles de machine learning qui créent des prédictions en fonction d’attributs de profil individuels. L’[!UICONTROL affectation automatique] examine le comportement agrégé des expériences (comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
 
-## Principaux avantages de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;] {#section_0913BF06F73C4794862561388BBDDFF0}
+## Principaux avantages de l’[!UICONTROL affectation automatique] {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Préserve la rigueur d’un test A/B
 * Identifie un gagnant statistiquement significatif plus rapidement qu’un test A/B manuel
@@ -70,13 +70,13 @@ L’[!UICONTROL affectation automatique] affecte intelligemment les nouveaux vis
 
 ## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
 
-Les termes suivants sont utiles pour aborder l’[!UICONTROL affectation automatique] :
+Les termes suivants sont utiles lors de la discussion sur l’[!UICONTROL affectation automatique] :
 
 **Bandit à plusieurs bras :** une approche du type [bandit à plusieurs bras](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.
 
 ## Fonctionnement de l’algorithme {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
-La logique globale derrière l’[!UICONTROL affectation automatique] incorpore à la fois les performances mesurées (comme le taux de conversion) et les intervalles de confiance des données cumulées. Contrairement à un test A/B standard où le trafic est réparti de manière égale entre les expériences, l’[!UICONTROL affectation automatique] modifie l’affectation du trafic entre les expériences.
+La logique globale derrière l’[!UICONTROL affectation automatique] incorpore à la fois les performances mesurées (comme le taux de conversion) et les intervalles de confiance des données cumulées. Contrairement à un test A/B standard où le trafic est réparti équitablement entre les expériences, l’[!UICONTROL affectation automatique] modifie l’affectation du trafic entre les expériences.
 
 * 80 % des visiteurs sont affectés à l’aide de la logique intelligente décrite ci-dessous.
 * 20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences afin de s’adapter aux changements de comportement des visiteurs.
@@ -87,24 +87,24 @@ Alors que davantage de visiteurs participent à l’activité, certaines expéri
 
 L’illustration suivante représente les performances possibles de l’algorithme au cours d’un test avec quatre expériences (cliquez pour développer l’illustration) :
 
-![affectation automatique d’image](assets/auto-allocate.png){width="600" zoomable="yes"}
+![affectation automatique de l’image](assets/auto-allocate.png){width="600" zoomable="yes"}
 
 L’illustration montre l’évolution du trafic affecté à chaque expérience sur plusieurs tours pendant la durée de vie de l’activité, jusqu’à ce que l’expérience gagnante puisse être déterminée.
 
 | Arrondi | Description |
 |--- |--- |
-| ![Tour de chauffe](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png){width="200" zoomable="yes"} | **Tour de chauffe (0)** : au cours du tour de chauffe, chaque expérience reçoit une affectation égale du trafic jusqu’à ce que chaque expérience de l’activité atteigne un minimum de 1 000 visiteurs et 50 conversions.<ul><li>Expérience A = 25 %</li><li>Expérience B = 25 %</li><li>Expérience C = 25 %</li><li>Expérience D = 25 %</li></ul>Une fois que chaque expérience reçoit 1 000 visiteurs et 50 conversions, [!DNL Target] démarre l’affectation automatisée du trafic. Toutes les affectations se produisent par tour ; deux expériences sont sélectionnées pour chaque tour.<br>Seules deux expériences passent à l’étape suivante : D et C.<br>En allant de l’avant, les deux expériences se voient attribuer 80 % du trafic de manière égale. Les deux autres expériences continuent à participer, mais ne sont diffusées que dans le cadre de l’affectation aléatoire de 20 % du trafic au fur et à mesure que de nouveaux visiteurs entrent dans l’activité.<br>Toutes les affectations sont mises à jour toutes les heures (indiqué par les tours sur l’axe X ci-dessus). Après chaque tour, les données cumulées sont comparées. |
+| ![Tour de chauffe](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png){width="200" zoomable="yes"} | **Tour de chauffe (0)** : au cours du tour de chauffe, chaque expérience reçoit une affectation égale du trafic jusqu’à ce que chaque expérience de l’activité atteigne un minimum de 1 000 visiteurs et 50 conversions.<ul><li>Expérience A = 25 %</li><li>Expérience B = 25 %</li><li>Expérience C = 25 %</li><li>Expérience D = 25 %</li></ul>Une fois que chaque expérience reçoit 1 000 visiteurs et 50 conversions, [!DNL Target] lance l’affectation automatisée du trafic. Toutes les affectations se produisent par tour ; deux expériences sont sélectionnées pour chaque tour.<br>Seules deux expériences passent à la ronde suivante : D et C.<br>En allant de l’avant, les deux expériences se voient attribuer 80 % du trafic de manière égale. Les deux autres expériences continuent à participer, mais ne sont diffusées que dans le cadre de l’affectation aléatoire de 20 % du trafic au fur et à mesure que de nouveaux visiteurs entrent dans l’activité.<br>Toutes les affectations sont mises à jour toutes les heures (indiqué par les tours sur l’axe X ci-dessus). Après chaque tour, les données cumulées sont comparées. |
 | ![1er tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-1.png){width="200" zoomable="yes"} | **1er tour** : durant ce tour, 80 % du trafic est affecté aux expériences C et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire aux expériences A, B, C et D (5 % à chaque expérience). Au cours de ce tour, l’expérience A enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience D pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience A pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences D et A passent au tour suivant. |
 | ![2e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-2.png){width="200" zoomable="yes"} | **2e tour** : durant ce tour, 80 % du trafic est affecté aux expériences A et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience B enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience D pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience B pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences D et B passent au tour suivant. |
 | ![3e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-3.png){width="200" zoomable="yes"} | **3e tour** : durant ce tour, 80 % du trafic est affecté aux expériences B et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience D continue d’enregistrer de bonnes performances, de même que l’expérience C.<ul><li>L’algorithme sélectionne l’expérience D pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience C pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences D et C passent au tour suivant. |
 | ![4e tour](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-4.png){width="200" zoomable="yes"} | **4e tour** : durant ce tour, 80 % du trafic est affecté aux expériences C et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience C enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience C pour passer à la ronde suivante, car elle présente le taux de conversion le plus élevé (comme indiqué par l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience D pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences C et D passent au tour suivant. |
-| ![Tour n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n*** : Au fur et à mesure que l’activité progresse, une expérience hautement performante commence à émerger et le processus se poursuit jusqu’à ce qu’il y ait une expérience gagnante. Lorsque l’intervalle de confiance de l’expérience présentant le taux de conversion le plus élevé ne chevauche aucun autre intervalle de confiance de l’expérience, il est considéré comme le gagnant. Un [badge](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) s&#39;affiche sur la page de l&#39;activité gagnante et dans la liste [!UICONTROL Activité].<ul><li>L’algorithme désigne l’expérience C comme gagnante définitive.</li></ul>À ce stade, l’algorithme distribue 80 % du trafic à l’expérience C, tandis que 20 % du trafic continue à être distribué de manière aléatoire à toutes les expériences (A, B, C et D). Au total, l’expérience C récupère 85 % du trafic. Dans le cas improbable où l’intervalle de confiance du gagnant recommence à chevaucher un autre intervalle, l’algorithme restaure le comportement du tour 4 ci-dessus.<P>**Important** : si vous avez choisi manuellement un gagnant plus tôt dans le processus, il aurait été facile de choisir la mauvaise expérience. C’est pourquoi il est recommandé d’attendre que l’algorithme détermine l’expérience gagnante. |
+| ![Tour n](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-n.png){width="200" zoomable="yes"} | **Round *n*** : au fur et à mesure que l’activité progresse, une expérience hautement performante commence à émerger et le processus se poursuit jusqu’à ce qu’il y ait une expérience gagnante. Lorsque l’intervalle de confiance de l’expérience présentant le taux de conversion le plus élevé ne chevauche aucun autre intervalle de confiance de l’expérience, il est considéré comme le gagnant. Un badge [s&#39;affiche sur la page de l&#39;activité gagnante](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) et dans la liste [!UICONTROL Activité].<ul><li>L’algorithme désigne l’expérience C comme gagnante définitive.</li></ul>À ce stade, l’algorithme distribue 80 % du trafic à l’expérience C, tandis que 20 % du trafic continue à être distribué de manière aléatoire à toutes les expériences (A, B, C et D). Au total, l’expérience C récupère 85 % du trafic. Dans le cas improbable où l’intervalle de confiance du gagnant recommence à chevaucher un autre intervalle, l’algorithme restaure le comportement du tour 4 ci-dessus.<P>**Important** : si vous avez choisi manuellement un gagnant plus tôt dans le processus, il aurait été facile de choisir la mauvaise expérience. C’est pourquoi il est recommandé d’attendre que l’algorithme détermine l’expérience gagnante. |
 
 >[!NOTE]
 >
 >Si une activité ne comporte que deux expériences, les deux expériences obtiennent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, les deux tiers du trafic sont attribués au gagnant et un tiers au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est alloué au gagnant et 10 % au perdant. [!DNL Target] envoie toujours du trafic vers l’expérience « perdue » pour éviter les faux positifs à la fin (c’est-à-dire conserver une partie de l’exploration).
 
-Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, les opérations suivantes ne sont pas autorisées à partir de l’interface utilisateur Target :
+Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, les opérations suivantes de l’interface utilisateur Tar[!DNL]get ne sont pas autorisées :
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
@@ -112,15 +112,15 @@ Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, l
 
 ## Voir comment fonctionne l’affectation automatique
 
-Pour plus d’informations, voir [&#x200B; L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
+Pour plus d&#39;informations, consultez [L&#39;affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d&#39;affaires plus élevé qu&#39;un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md).
 
 ## Avertissements {#section_5C83F89F85C14FD181930AA420435E1D}
 
-Tenez compte des informations suivantes lorsque vous utilisez l’[!UICONTROL &#x200B; Affectation automatique &#x200B;] :
+Tenez compte des informations suivantes lorsque vous utilisez l’[!UICONTROL affectation automatique] :
 
-### La fonction [!UICONTROL &#x200B; Affectation automatique &#x200B;] fonctionne avec un seul paramètre de mesure avancé : [!UICONTROL &#x200B; Incrémenter le décompte et Maintenir l’utilisateur dans l’activité]
+### La fonctionnalité d’[!UICONTROL affectation automatique] fonctionne avec un seul paramètre de mesure avancé : [!UICONTROL Incrémenter le nombre et maintenir l’utilisateur dans l’activité]
 
-Les paramètres de mesure avancés suivants ne sont pas pris en charge : [!UICONTROL Incrémenter le décompte], [!UICONTROL Libérer l’utilisateur], [!UICONTROL Autoriser la rentrée et incrémenter le décompte] et [!UICONTROL Libérer l’utilisateur et interdire la rentrée].
+Les paramètres de mesure avancés suivants ne sont pas pris en charge : [!UICONTROL Incrémenter le décompte], [!UICONTROL Libérer l’utilisateur], [!UICONTROL Autoriser la reprise et incrémenter le décompte], et [!UICONTROL Libérer l’utilisateur et interdire la reprise].
 
 ### Les visiteurs réguliers peuvent gonfler les taux de conversion de l’expérience.
 
@@ -130,13 +130,13 @@ Si les visiteurs récurrents sont distribués de manière aléatoire, leur effet
 
 ### Différencie les utilisateurs hautement performants des utilisateurs peu performants.
 
-L’[!UICONTROL &#x200B; Affectation automatique] permet de faire la distinction entre les expériences hautement performantes (et de trouver une expérience gagnante). Il peut arriver que vous n’ayez pas assez de différenciation entre les expériences peu performantes.
+L’[!UICONTROL affectation automatique] permet de faire la distinction entre les expériences hautement performantes (et de trouver un gagnant). Il peut arriver que vous n’ayez pas assez de différenciation entre les expériences peu performantes.
 
 Si vous souhaitez produire une différenciation statistiquement significative entre toutes les expériences, vous pouvez envisager d’utiliser le mode d’affectation manuelle du trafic.
 
 ### Les taux de conversion corrélés au temps (ou variables selon le contexte) peuvent fausser les montants alloués.
 
-Certains facteurs qui peuvent être ignorés lors d’un test A/B standard, car ils affectent toutes les expériences de la même manière, ne peuvent pas être ignorés dans une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;]. L’algorithme est sensible aux taux de conversion observés.
+Certains facteurs qui peuvent être ignorés lors d’un test A/B standard, car ils affectent toutes les expériences de la même manière, ne peuvent pas être ignorés dans une activité [!UICONTROL Affectation automatique]. L’algorithme est sensible aux taux de conversion observés.
 
 Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les performances des expériences de manière inégale :
 
@@ -148,7 +148,7 @@ Vous trouverez ci-dessous des exemples de facteurs qui peuvent affecter les perf
   * « Démarrez votre lundi » a une conversion plus élevée le lundi.
   * « Préparez-vous pour un hiver sur la côte Est » offre une conversion plus élevée dans les endroits de la côte Est ou touchés par l&#39;hiver.
 
-  L’utilisation d’expériences avec une pertinence contextuelle variable peut fausser les résultats d’un test [!UICONTROL Affectation automatique] plus que d’un test A/B, car le test A/B analyse les résultats sur une plus longue période.
+  L’utilisation d’expériences avec une pertinence contextuelle variable peut fausser les résultats d’un test d’[!UICONTROL affectation automatique] plus que d’un test A/B, car le test A/B analyse les résultats sur une plus longue période.
 
 * Expériences avec des délais variables de conversion (probablement à cause de l’urgence du message).
 
@@ -160,7 +160,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous utilisez des activité
 
 ### [!UICONTROL Analytics for Target] (A4T) prend-il en charge les activités d’[!UICONTROL affectation automatique] ?
 
-Oui. Pour plus d’informations, consultez Prise en charge d’[&#x200B; A4T pour les activités d’affectation automatique et de ciblage automatique &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Oui. Pour plus d’informations, consultez Prise en charge de [A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ### Les visiteurs récurrents sont-ils automatiquement réaffectés à des expériences hautement performantes ?
 
@@ -186,64 +186,64 @@ Oui. Le bandit à plusieurs bras s’assure qu’au moins 20 % du trafic est r�
 
 Tant que les expériences optimisées sont confrontées à des délais similaires, le comportement est le même que pour une activité avec un cycle de conversion plus rapide. Cependant, il faut plus de temps pour atteindre le seuil de conversion de 50 avant que le processus d’affectation du trafic ne commence.
 
-### En quoi l’[!UICONTROL affectation automatique] diffère-t-elle de [!UICONTROL Automated Personalization] ?
+### En quoi l’[!UICONTROL affectation automatique] est-elle différente d’[!UICONTROL Automated Personalization] ?
 
- utilise les attributs de profil de chaque visiteur pour déterminer la meilleure expérience. Ce faisant, l’activité est optimisée, mais également personnalisée en fonction de cet utilisateur.
+[!UICONTROL Automated Personalization] utilise les attributs de profil de chaque visiteur pour déterminer la meilleure expérience. Ce faisant, l’activité est optimisée, mais également personnalisée en fonction de cet utilisateur.
 
-L’[!UICONTROL &#x200B; Affectation automatique &#x200B;], en revanche, est un test A/B qui produit un gagnant agrégé (l’expérience la plus populaire, mais pas nécessairement l’expérience la plus efficace pour chaque visiteur).
+[!UICONTROL L’affectation automatique], en revanche, est un test A/B qui produit un gagnant agrégé (l’expérience la plus populaire, mais pas nécessairement l’expérience la plus efficace pour chaque visiteur).
 
 ### Les visiteurs récurrents gonflent-ils le taux de conversion de ma mesure de succès ?
 
 Actuellement, la logique favorise les visiteurs qui convertissent rapidement leur expérience ou la visitent plus souvent, car ces visiteurs gonflent temporairement le taux de conversion global de l’expérience à laquelle ils appartiennent. L’algorithme s’ajuste fréquemment, de sorte que l’augmentation du taux de conversion est amplifiée à chaque instantané. Si le site reçoit de nombreux visiteurs et visiteuses récurrents, leurs conversions peuvent potentiellement gonfler le taux de conversion global de l’expérience à laquelle ils appartiennent. Il y a de bonnes chances que les visiteurs récurrents soient distribués de manière aléatoire, auquel cas l’effet global (effet élévateur augmenté) est équilibré. Pour atténuer cet effet, vous pouvez changer la méthode de comptabilisation de la mesure de succès pour ne compter qu’une fois par participant.
 
-### Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;] pour estimer la durée nécessaire à l’activité pour identifier le gagnant ?
+### Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’[!UICONTROL Affectation automatique] pour estimer la durée de l’activité nécessaire à l’identification de l’expérience gagnante ?
 
-Vous pouvez utiliser le [!DNL Adobe Target] existant [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plus d’une mesure de conversion/hypothèse.) Ce calculateur est conçu pour les tests A/B traditionnels à horizon fixe et fournit une estimation uniquement. L’utilisation du calculateur pour une activité [!UICONTROL Affectation automatique] est facultative, car [!UICONTROL Affectation automatique] déclare une activité gagnante pour vous. Il n’est pas nécessaire de choisir un moment précis pour consulter les résultats du test. Les valeurs fournies sont toujours statistiquement valides.
+Vous pouvez utiliser le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) existant pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plus d’une mesure de conversion/hypothèse.) Ce calculateur est conçu pour les tests A/B traditionnels à horizon fixe et fournit une estimation uniquement. L’utilisation du calculateur pour une activité d’[!UICONTROL affectation automatique] est facultative, car l’[!UICONTROL affectation automatique] déclare une activité gagnante pour vous. Il n’est pas nécessaire de choisir un moment précis pour consulter les résultats du test. Les valeurs fournies sont toujours statistiquement valides.
 
-Les expériences de [!DNL Adobe] interne ont permis de trouver les éléments suivants :
+Les expériences internes [!DNL Adobe] ont révélé ce qui suit :
 
-* Lors du test d’exactement deux expériences, [!UICONTROL &#x200B; Affectation automatique &#x200B;] trouve un gagnant plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performance entre les expériences est importante. Cependant, l’[!UICONTROL &#x200B; Affectation automatique &#x200B;] peut nécessiter un temps supplémentaire pour identifier un gagnant lorsque la différence de performance entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
-* Lorsque vous testez plus de deux expériences, la [!UICONTROL &#x200B; Affectation automatique &#x200B;] trouve une expérience gagnante plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une seule expérience dépasse nettement toutes les autres expériences. Lorsque plusieurs expériences « gagnent » toutes les deux par rapport à d’autres, mais sont étroitement liées les unes aux autres, l’[!UICONTROL affectation automatique] peut nécessiter un temps supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe se seraient généralement terminés par la conclusion que les expériences « gagnantes » étaient meilleures que les expériences moins performantes, mais n’auraient pas permis d’identifier laquelle était supérieure.
+* Lors du test d’exactement deux expériences, l’[!UICONTROL affectation automatique] trouve un gagnant plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performance entre les expériences est importante. Cependant, l’[!UICONTROL affectation automatique] peut nécessiter un temps supplémentaire pour identifier un gagnant lorsque la différence de performance entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
+* Lorsque vous testez plus de deux expériences, l’[!UICONTROL affectation automatique] trouve une expérience gagnante plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une seule expérience dépasse nettement toutes les autres expériences. Lorsque plusieurs expériences « gagnent » toutes les deux par rapport à d’autres, mais qu’elles sont étroitement liées, l’[!UICONTROL affectation automatique] peut nécessiter un délai supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe se seraient généralement terminés par la conclusion que les expériences « gagnantes » étaient meilleures que les expériences moins performantes, mais n’auraient pas permis d’identifier laquelle était supérieure.
 
-### Dois-je supprimer une expérience sous-performante d’une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] pour accélérer le processus de détermination d’un gagnant ?
+### Dois-je supprimer une expérience peu performante d’une activité d’[!UICONTROL affectation automatique] afin d’accélérer le processus de détermination d’un gagnant ?
 
-Il n’y a aucune raison de supprimer une expérience peu performante. L’[!UICONTROL affectation automatique] diffuse automatiquement plus souvent les expériences hautement performantes et diffuse moins souvent les expériences sous-performantes. Le fait de laisser une expérience sous-performante dans l’activité n’a pas d’incidence significative sur la vitesse à laquelle déterminer un gagnant.
+Il n’y a aucune raison de supprimer une expérience peu performante. L’[!UICONTROL Affectation automatique] diffuse automatiquement plus souvent les expériences hautement performantes et diffuse moins souvent les expériences sous-performantes. Le fait de laisser une expérience sous-performante dans l’activité n’a pas d’incidence significative sur la vitesse à laquelle déterminer un gagnant.
 
 20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic diffusé vers une expérience peu performante est minimal (20 % divisé par le nombre d’expériences).
 
-### Puis-je modifier la mesure d’objectif au cours d’une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] ? {#change-metric}
+### Puis-je modifier la mesure d’objectif au cours d’une activité d’[!UICONTROL affectation automatique] ? {#change-metric}
 
 [!DNL Adobe] ne recommande pas de modifier la mesure d’objectif au cours d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. [!DNL Adobe] ne garantit pas ce qui se produit si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
+Cette recommandation s’applique aux activités d’[!UICONTROL affectation automatique], de [!UICONTROL ciblage automatique] et d’[!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
 
-### Puis-je modifier la source de création de rapports au cours d’une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] ? {#change-reporting}
+### Puis-je modifier la source de création de rapports au cours d’une activité d’[!UICONTROL affectation automatique] ? {#change-reporting}
 
-[!DNL Adobe] ne recommande pas de modifier la source de création de rapports au cours d’une activité. Bien qu’il soit possible de modifier la source de création de rapports (de [!DNL Target] à A4T ou inversement) au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. [!DNL Adobe] ne garantit pas ce qui se produit si vous modifiez la source de création de rapports dans une activité après son exécution.
+[!DNL Adobe] ne recommande pas de modifier la source de création de rapports au cours d&#39;une activité. Bien qu’il soit possible de modifier la source de création de rapports (de [!DNL Target] à A4T ou l’inverse) au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. [!DNL Adobe] ne garantit pas ce qui se produit si vous modifiez la source de création de rapports dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
+Cette recommandation s’applique aux activités d’[!UICONTROL affectation automatique], de [!UICONTROL ciblage automatique] et d’[!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
 
 ### Puis-je utiliser l’option [!UICONTROL Réinitialiser les données du rapport] lors de l’exécution d’une activité [!UICONTROL Affectation automatique] ?
 
-Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités d’[!UICONTROL Affectation automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL &#x200B; Affectation automatique &#x200B;]. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique], créez une activité et désactivez l’activité d’origine. (Ces conseils s’appliquent également aux activités de [!UICONTROL ciblage automatique] et de [!UICONTROL Automated Personalization].)
+Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités d’[!UICONTROL Affectation automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL Affectation automatique]. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique], créez une activité et désactivez l’activité d’origine. (Ces conseils s’appliquent également aux activités de [!UICONTROL ciblage automatique] et [!UICONTROL Automated Personalization].)
 
 ### Comment l’[!UICONTROL affectation automatique] crée-t-elle des modèles en ce qui concerne les environnements ?
 
-L’option [!UICONTROL &#x200B; Affectation automatique &#x200B;] crée des modèles en fonction du trafic et du comportement de conversion enregistrés uniquement dans l’environnement par défaut. Par défaut, [!UICONTROL Production] est l’environnement par défaut, mais cet environnement peut être modifié dans [!DNL Target] ([Administration > Environnements](/help/main/administrating-target/environments.md)).
+L’affectation automatique [!UICONTROL 1] crée des modèles en fonction du trafic et du comportement de conversion enregistrés dans l’environnement par défaut uniquement. Par défaut, [!UICONTROL Production] est l’environnement par défaut, mais l’environnement par défaut peut être modifié dans [!DNL Target] ([Administration > Environnements](/help/main/administrating-target/environments.md)).
 
-Si un accès se produit dans un autre environnement (autre que l’environnement par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) est enregistré à des fins de création de rapports, mais n’est pas pris en compte dans le modèle [!UICONTROL Affectation automatique].
+Si un accès se produit dans un autre environnement (autre que l’environnement par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) est enregistré à des fins de création de rapports, mais n’est pas pris en compte dans le modèle d’[!UICONTROL affectation automatique].
 
 Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L’environnement sélectionné par défaut pour un rapport est l’environnement par défaut sélectionné à l’échelle du compte. L’environnement par défaut ne peut pas être défini sur une base par activité.
 
-### Une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] peut-elle ajuster l’intervalle de recherche arrière au cours d’un test pour prendre en compte les modifications de tendances au fil du temps ?
+### Une activité [!UICONTROL Affectation automatique] peut-elle ajuster l’intervalle de recherche arrière au cours d’un test pour prendre en compte les modifications de tendances au fil du temps ?
 
 Par exemple, l’activité peut-elle prendre en compte le mois de décembre pour décider comment allouer le trafic, plutôt que d’examiner les données des visiteurs de septembre (lorsque le test a commencé) ?
 
-Non, l[!UICONTROL affectation automatique] prend en compte les performances de l’ensemble de l’activité.
+Non, l’affectation automatique  prend en compte les performances de l’ensemble de l’activité.
 
-### Une activité [!UICONTROL &#x200B; Affectation automatique &#x200B;] présente-t-elle une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?
+### Une activité [!UICONTROL Affectation automatique] présente-t-elle une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?
 
-L’[!UICONTROL affectation automatique] utilise la prise de décision persistante pour les mêmes raisons que les activités [!UICONTROL Test A/B]. L’affectation du trafic fonctionne uniquement pour les nouveaux visiteurs.
+L’[!UICONTROL affectation automatique] utilise la prise de décision persistante pour les mêmes raisons que les activités de [!UICONTROL test A/B] sont persistantes. L’affectation du trafic fonctionne uniquement pour les nouveaux visiteurs.
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
@@ -258,13 +258,13 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/3507591?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. La [!UICONTROL Affectation automatique] est abordée à partir de 4 h 45.
+Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. L’affectation automatique [!UICONTROL 1} est discutée à partir de 4 h 45.]
 
-* Création d’une activité A/B dans [!DNL Adobe Target]
+* Créer une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/29261?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

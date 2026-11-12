@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 53cd01d2406b8a2f8560fe380ebb5044872e6711
+source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1293'
 ht-degree: 84%
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 84%
 
 + [Guide du professionnel d’Adobe Target - Page d’accueil](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
-  + {hide-from-toc}[annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
+  + {hide-from-toc}[Annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
   + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
   + [Notes de mise à jour de Target (version préliminaire)](r-release-notes/target-release-notes.md)
   + [Aperçu de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
@@ -106,9 +106,9 @@ ht-degree: 84%
     + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
     + {hide-from-toc}[Intégrer [!DNL Adobe Target Recommendations] et [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
     + Cas d’utilisation de Adobe Journey Optimizer {#use-cases}
-      + {hide-from-toc}[Principaux cas d’utilisation d’optimisation dans Adobe Journey Optimizer : canaux web et basés sur le code](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+      + {hide-from-toc}[Meilleurs cas d’utilisation d’optimisation dans Adobe Journey Optimizer - canaux web et basés sur le code](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
       + {hide-from-toc}[Modifications de contenu par le biais de tests A/B dans Adobe Journey Optimizer](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-      + {hide-from-toc}[Ajouter ou masquer des composants à une page web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+      + {hide-from-toc}[Ajouter ou masquer des composants sur votre page web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
   + Intégration de Target à Adobe Experience Manager (AEM) {#aem}
     + [Présentation de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -166,24 +166,18 @@ ht-degree: 84%
     + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
     + Création d’une activité de ciblage d’expérience {#create-targeting}
       + [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [URL d’activité](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
       + [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
       + [Changement d’expérience dans le ciblage d’expérience](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-      + [Objectifs et paramètres](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
-      + [Définition de mesures](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
   + Test multivarié {#multivariate-test}
     + [Présentation du test multivarié](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [Bonnes pratiques pour les tests multivariés](c-activities/c-multivariate-testing/best-practices.md)
     + [Planification d’un test multivarié](c-activities/c-multivariate-testing/plan-mvt.md)
     + Création d’un test multivarié {#create-mvt}
       + [Création d’un test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-      + [URL d’activité](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
       + [Création de combinaisons](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [Objectifs et paramètres](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
-      + [Définition de mesures](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
       + [Résolution de problèmes liés aux tests multivariés](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [Activité de recommandations](c-activities/recommendations-activity.md)
   + [Modification d’une activité](c-activities/edit-activity.md)
@@ -346,4 +340,4 @@ ht-degree: 84%
   + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
   + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
