@@ -2,7 +2,7 @@
 keywords: automated personalization;ap
 description: Découvrez comment créer une activité [!UICONTROL Automated Personalization] (AP) à l’aide du [!UICONTROL compositeur d’expérience visuelle].
 title: Comment créer une activité [!UICONTROL Automated Personalization] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 TQID: 'https://experienceleague.adobe.com/5eUFwob4BekIJP4SM2lrSDQam4h1AXIByJjM7-1RNL8'
@@ -86,7 +86,7 @@ Démarrez l’activité et ouvrez la page que vous souhaitez personnaliser dans 
 
 1. Dans la zone **[!UICONTROL Saisir l’URL d’activité]**, spécifiez votre [URL d’activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md). Si votre compte est [configuré avec une URL par défaut](/help/main/administrating-target/visual-experience-composer-set-up.md), cette URL apparaît par défaut. Si nécessaire, vous pouvez remplacer l’URL par défaut par une autre URL.
 
-   Notez que [!DNL Target] ne fait pas de distinction entre les protocoles d&#39;URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://www.adobe.com`] correspondent.
+   Notez que [!DNL Target] ne fait pas de distinction entre les protocoles d&#39;URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://www.adobe.com/fr`] correspondent.
 
 1. Cliquez ensuite sur **[!UICONTROL Créer]**. La page avec l’URL spécifiée s’ouvre dans le VEC.
 
