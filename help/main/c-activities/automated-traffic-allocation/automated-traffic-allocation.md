@@ -32,7 +32,7 @@ workflow-type: tm+mt
 source-wordcount: '3768'
 ht-degree: 33%
 ---
-# Aperçu de l’affectation automatique [!UICONTROL 1}]
+# Aperçu de l’affectation automatique [!UICONTROL 1&rbrace;]
 
 Une activité [!UICONTROL Affectation automatique] dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement davantage de trafic au gagnant pour augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
@@ -54,7 +54,7 @@ Dans de tels tests, la plupart des produits, y compris [!DNL Target], utilisent 
 
 L’[!UICONTROL affectation automatique] effectue toutes les comparaisons implicites entre les expériences et produit un gagnant « vrai ». La notion d’expérience de « contrôle » disparaît donc totalement du test.
 
-L’affectation automatique [!UICONTROL 1} affecte intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche celui d’aucune autre expérience. ]Normalement, ce processus peut produire des faux positifs, mais l’[!UICONTROL affectation automatique] utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} qui compense les évaluations répétées. À ce stade, il y a un véritable gagnant. Lorsque l’[!UICONTROL affectation automatique] s’arrête, à condition qu’il n’y ait pas de dépendance temporelle substantielle aux visiteurs qui arrivent à la page, il y a au moins 95 % de chances que l’[!UICONTROL affectation automatique] renvoie une expérience dont la réponse réelle n’est pas inférieure de moins de 1 % (relatif) à la réponse réelle de l’expérience gagnante.
+L’affectation automatique [!UICONTROL 1&rbrace; affecte intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche celui d’aucune autre expérience. &#x200B;]Normalement, ce processus peut produire des faux positifs, mais l’[!UICONTROL affectation automatique] utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29){target=_blank} qui compense les évaluations répétées. À ce stade, il y a un véritable gagnant. Lorsque l’[!UICONTROL affectation automatique] s’arrête, à condition qu’il n’y ait pas de dépendance temporelle substantielle aux visiteurs qui arrivent à la page, il y a au moins 95 % de chances que l’[!UICONTROL affectation automatique] renvoie une expérience dont la réponse réelle n’est pas inférieure de moins de 1 % (relatif) à la réponse réelle de l’expérience gagnante.
 
 ## Quand utiliser les activités [!UICONTROL Affectation automatique] par rapport aux activités [!UICONTROL Test A/B] ou [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -104,7 +104,7 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 >
 >Si une activité ne comporte que deux expériences, les deux expériences obtiennent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, les deux tiers du trafic sont attribués au gagnant et un tiers au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est alloué au gagnant et 10 % au perdant. [!DNL Target] envoie toujours du trafic vers l’expérience « perdue » pour éviter les faux positifs à la fin (c’est-à-dire conserver une partie de l’exploration).
 
-Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, les opérations suivantes de l’interface utilisateur Tar[!DNL]get ne sont pas autorisées :
+Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, les opérations suivantes de l’interface utilisateur Target ne sont pas autorisées :
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
@@ -262,7 +262,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 
 ### Création de tests A/B (8:36) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. L’affectation automatique [!UICONTROL 1} est discutée à partir de 4 h 45.]
+Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. L’affectation automatique [!UICONTROL 1&rbrace; est discutée à partir de 4 h 45.]
 
 * Créer une activité A/B dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic

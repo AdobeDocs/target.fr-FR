@@ -84,7 +84,7 @@ Restez à jour avec [!DNL Target] versions.
 
 +++
 
-**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**[!DNL Adobe]
+**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**&#x200B;[!DNL Adobe]
 
 +++Afficher les détails
 Communiquez avec d’autres [!DNL Target] utilisateurs et utilisatrices du [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
@@ -194,7 +194,7 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Ciblage] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Pour ce faire, [ accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
+Pour ce faire, [&#x200B; accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
 
 +++
 

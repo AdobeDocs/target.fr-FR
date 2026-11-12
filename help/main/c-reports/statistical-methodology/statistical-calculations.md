@@ -113,7 +113,7 @@ Alors l’intervalle de confiance à 95 % de l’effet élévateur est :
 
 <p style="text-align:center;"><img width="40%" src="img/lift_CI.png"></p>
 
-Ce calcul utilise la méthode « Delta » et est décrit [ plus en détail dans ce document](/help/main/assets/confidence_interval_lift.pdf)
+Ce calcul utilise la méthode « Delta » et est décrit [&#x200B; plus en détail dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
 ### [!UICONTROL Confiance]
 

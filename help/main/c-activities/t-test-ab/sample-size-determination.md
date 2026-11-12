@@ -36,7 +36,7 @@ ht-degree: 43%
 
 >[!ENDSHADEBOX]
 
-Une activité de test A/B **[!UICONTROL 1} réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.]** Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités d’**[!UICONTROL affectation automatique]** et le Calculateur de taille d’échantillon **[!UICONTROL Adobe Target]** pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
+Une activité de test A/B **[!UICONTROL 1&rbrace; réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.]** Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités d’**[!UICONTROL affectation automatique]** et le Calculateur de taille d’échantillon **[!UICONTROL Adobe Target]** pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
 
 ## Pourquoi ne pas arrêter une activité plus tôt {#stop-early}
 
@@ -161,7 +161,7 @@ Le calculateur de taille d’échantillon (lien fourni ci-dessus) vous demande d
 
 Il existe un compromis entre l’effet élévateur minimal qui peut être identifié de manière fiable par le test et le nombre requis de visiteurs. La figure ci-dessous, qui est valide pour un taux de conversion de ligne de base (contrôle) de 5 %, illustre des retours fortement en baisse alors que le nombre de visiteurs a augmenté. L’effet élévateur minimal qui peut être détecté de manière fiable s’améliore fortement lors de l’ajout des premiers visiteurs au test mais il faut un nombre toujours plus grand de visiteurs pour améliorer le test. Cette figure permet de trouver le compromis approprié entre le temps requis pour exécuter le test (tel que déterminé par le nombre requis de visiteurs et le trafic du site) et l’effet élévateur minimal qui peut être détecté de manière fiable par le test.
 
-![Courbe de taille d’échantillon pour un taux de conversion de contrôle de 5 % : 15 % de l’effet élévateur nécessite 12 000 visiteurs, 10 % de l’effet élévateur 26 000 et 5 % de l’effet élévateur 100 000 ](assets/samplesizecontrol.png)
+![Courbe de taille d’échantillon pour un taux de conversion de contrôle de 5 % : 15 % de l’effet élévateur nécessite 12 000 visiteurs, 10 % de l’effet élévateur 26 000 et 5 % de l’effet élévateur 100 000 &#x200B;](assets/samplesizecontrol.png)
 
 +++ Exemple : calculer la durée d’exécution du test
 

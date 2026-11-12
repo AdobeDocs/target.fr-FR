@@ -244,7 +244,7 @@ Vérifiez l’aspect de vos expériences sur votre site avant de lancer l’acti
 
 1. Après avoir cliqué sur **[!UICONTROL Enregistrer et fermer]**, la page **[!UICONTROL Aperçu]** de l’activité s’affiche. Cliquez Sur **Aperçu Des Expériences**.
 
-1. Dans la fenêtre pop-up qui s’affiche, affichez et partagez des liens vers vos expériences AP sur votre site. Ces liens vous donnent un « véritable aperçu » des expériences en dehors du **[!UICONTROL compositeur d’expérience visuelle**[!UICONTROL  de Target ]**]** (VEC).
+1. Dans la fenêtre pop-up qui s’affiche, affichez et partagez des liens vers vos expériences AP sur votre site. Ces liens vous donnent un « véritable aperçu » des expériences en dehors du **[!UICONTROL compositeur d’expérience visuelle**&#x200B;[!UICONTROL &#x200B; de Target &#x200B;]&#x200B;**]** (VEC).
 
    >[!NOTE]
    >
