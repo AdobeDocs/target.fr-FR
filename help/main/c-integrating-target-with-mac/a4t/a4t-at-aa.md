@@ -53,7 +53,7 @@ Vérifiez que vous avez [implémenté A4T pour l’utiliser avec les activités 
 
 Pour démarrer :
 
-1. Lors de la création d’une [activité de test A/B]](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) sur la page **[!UICONTROL Ciblage]**, cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez la méthode d’affectation du trafic souhaitée dans le volet de droite.[!UICONTROL 
+1. Lors de la création d’une [activité de test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) sur la page **[!UICONTROL Ciblage]**, cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez la méthode d’affectation du trafic souhaitée dans le volet de droite.
 
    ![Paramètres de la méthode d&#39;affectation du trafic](/help/main/c-activities/assets/auto-target.png)
 
@@ -149,9 +149,9 @@ Certaines limites et notes s’appliquent à la fois aux activités d’[!UICONT
 ### Affectation automatique {#aa}
 
 * **Fréquence d’entraînement** : [!UICONTROL L’affectation automatique] des modèles continue de s’entraîner toutes les heures, comme d’habitude.
-* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour les [!UICONTROL  activités d’affectation automatique] qui utilisent A4T.
+* **Modèles d’attribution** : [!DNL Target] utilise le modèle d’attribution par défaut [!DNL Adobe Analytics] pour les [!UICONTROL &#x200B; activités d’affectation automatique] qui utilisent A4T.
 * **Confiance** : la formule de confiance utilisée par les activités [!UICONTROL Affectation automatique] est différente de la formule affichée par défaut dans le panneau [!DNL Adobe Analytics] [!UICONTROL A4T]. [Comme décrit ici](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), l’[!UICONTROL affectation automatique] utilise des intervalles de confiance plus conservateurs que les activités de [!UICONTROL test A/B] normales. Ces niveaux de confiance conservateurs compensent les évaluations répétées (aperçus) des données. Par conséquent, le rapport par défaut dans [!DNL Adobe Analytics] affiche des intervalles de confiance plus étroits que ceux utilisés par l’algorithme [!UICONTROL Affectation automatique]. Néanmoins, vous pouvez déterminer quelle expérience est favorisée par les algorithmes en fonction de quelle expérience reçoit le plus de visiteurs uniques.
-* **Statut du gagnant** : actuellement, les badges [ « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Affectation automatique] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par l’[!UICONTROL affectation automatique].
+* **Statut du gagnant** : actuellement, les badges [&#x200B; « Pas encore de gagnant » et « Gagnant »](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) ne sont pas disponibles dans le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas disponibles non plus si le même rapport est affiché dans [!DNL Target]. Le badge « étoile » gagnant affiché dans un rapport [!DNL Target] pour une activité [!UICONTROL Affectation automatique] à l’aide d’A4T doit être ignoré. Ce badge reflète les calculs de confiance standard, et non les calculs utilisés par l’[!UICONTROL affectation automatique].
 
 ### Ciblage automatique {#at}
 

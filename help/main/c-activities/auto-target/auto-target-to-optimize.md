@@ -41,7 +41,7 @@ workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 12%
 ---
-# Aperçu du ciblage automatique [!UICONTROL 1}] {#auto-target-overview}
+# Aperçu du ciblage automatique [!UICONTROL 1&rbrace;] {#auto-target-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Les termes suivants sont utiles pour aborder le **[!UICONTROL ciblage automatiqu
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. En termes de science des données, il s’agit d’une classification d’ensemble, ou méthode de régression, qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans [!DNL Target], la forêt aléatoire est utilisée pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou le chiffre d’affaires le plus élevé par visite) pour chaque visiteur spécifique. |
 | [Échantillonnage De Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’objectif de l’échantillonnage de Thompson est de déterminer quelle expérience est la meilleure globalement (non personnalisée), tout en réduisant le « coût » de la recherche de cette expérience. L’échantillonnage de Thompson sélectionne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. |
 
-## Fonctionnement du ciblage automatique [!UICONTROL 1}] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Fonctionnement du ciblage automatique [!UICONTROL 1&rbrace;] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 Les pages suivantes décrivent les données et algorithmes sous-jacents au **[!UICONTROL ciblage automatique]** et à l’**[!UICONTROL Automated Personalization]** :
 

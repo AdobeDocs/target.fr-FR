@@ -35,7 +35,7 @@ ht-degree: 8%
 
 >[!ENDSHADEBOX]
 
-L’[!DNL Adobe Target]**[!UICONTROL estimateur de trafic]** fournit des commentaires qui vous permettent de savoir si vous disposez d’un trafic suffisant pour que votre activité **[!UICONTROL Automated Personalization]** (AP) réussisse. Les activités AP utilisent plusieurs combinaisons d’offres. Il est donc important de connaître la quantité de trafic requise pour fournir des résultats significatifs. L’**[!UICONTROL estimateur de trafic]** utilise des statistiques sur votre page et le nombre d’expériences testées afin d’estimer la quantité de trafic et la durée de test nécessaires pour que l’activité réussisse.
+L’[!DNL Adobe Target]&#x200B;**[!UICONTROL estimateur de trafic]** fournit des commentaires qui vous permettent de savoir si vous disposez d’un trafic suffisant pour que votre activité **[!UICONTROL Automated Personalization]** (AP) réussisse. Les activités AP utilisent plusieurs combinaisons d’offres. Il est donc important de connaître la quantité de trafic requise pour fournir des résultats significatifs. L’**[!UICONTROL estimateur de trafic]** utilise des statistiques sur votre page et le nombre d’expériences testées afin d’estimer la quantité de trafic et la durée de test nécessaires pour que l’activité réussisse.
 
 L’**[!UICONTROL estimateur de trafic]** détermine s’il y a suffisamment de trafic pour générer des modèles personnalisés en comparant l’estimation des impressions de page et le taux de conversion type des pages. Idéalement, pour une activité réussie, la taille d’échantillon appropriée garantit que le contenu personnalisé est prêt au bout de 50 % de la durée de l’activité ou 14 jours, selon la durée la plus courte. Ce processus laisse suffisamment de temps pour obtenir du contenu personnalisé et apprendre quel contenu diffuser.
 
@@ -59,7 +59,7 @@ Lorsque vous créez une activité **[!UICONTROL Automated Personalization]**, l�
 
 1. Spécifiez le taux de conversion type (ou le taux de conversion attendu de cette activité), les impressions d’activité estimées par jour et la durée du test.
 
-   L’estimateur de trafic **** utilise ces mesures pour déterminer les ajustements nécessaires à l’exécution réussie d’un test.
+   L’estimateur de trafic **&#x200B;**&#x200B;utilise ces mesures pour déterminer les ajustements nécessaires à l’exécution réussie d’un test.
 
    | Mesure | Description |
    | --- | --- |

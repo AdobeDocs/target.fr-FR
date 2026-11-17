@@ -40,7 +40,7 @@ L’**[!UICONTROL affectation automatique]** est la meilleure option si vous sou
 
 **[!UICONTROL L’affectation automatique]** utilise le principe du bandit manchot. Un bandit manchot est un terme familier pour une machine à sous. Considérez l’affectation automatique du trafic comme un ensemble de machines à sous, dans ce cas des variations de test, dont les poignées sont tirées de manière égale au début. Au fil du temps, une ou plusieurs machines, ou variantes de test, peuvent payer plus que d’autres. Lorsque cette situation se produit, un joueur commence naturellement à tirer les poignées des machines qui gagnent plus souvent. En termes d’affectation du trafic, [!DNL Target] offre à davantage de visiteurs l’expérience ou les expériences qui gagnent le plus.
 
-L’illustration suivante présente une activité A/B de deux semaines. Avec l’affectation automatique **[!UICONTROL 1}, à mesure qu’une expérience gagnante se présente, [!DNL Target] détourne une plus grande partie du trafic vers cette expérience gagnante au début du test.]**
+L’illustration suivante présente une activité A/B de deux semaines. Avec l’affectation automatique **[!UICONTROL 1&rbrace;, à mesure qu’une expérience gagnante se présente, [!DNL Target] détourne une plus grande partie du trafic vers cette expérience gagnante au début du test.]**
 
 ![Illustration de l’affectation automatique](/help/main/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
@@ -52,13 +52,13 @@ Plus de visiteurs voient les variations les plus performantes. Lorsqu’une seul
 
 **[!UICONTROL L’affectation automatique]** trouve le gagnant plus rapidement qu’une division A/B manuelle et vous permet d’exploiter immédiatement ce gagnant, en capturant les revenus à la hausse qui auraient été perdus dans une approche traditionnelle ou manuelle. L’**[!UICONTROL affectation automatique]** dirige davantage de trafic vers l’expérience présentant le taux de conversion le plus élevé, afin qu’elle puisse augmenter votre chiffre d’affaires pendant que l’activité s’exécute et apprend.
 
-Dans l’exemple suivant, l’affectation automatique **[!UICONTROL 1} a gagné davantage de chiffre d’affaires au cours du test en poussant plus de trafic (40 %) vers l’expérience D, qui avait le taux de conversion le plus élevé.]**
+Dans l’exemple suivant, l’affectation automatique **[!UICONTROL 1&rbrace; a gagné davantage de chiffre d’affaires au cours du test en poussant plus de trafic (40 %) vers l’expérience D, qui avait le taux de conversion le plus élevé.]**
 
 ![L’affectation automatique fournit une illustration de chiffre d’affaires plus élevé](/help/main/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
 ## Dans quels cas dois-je m’en tenir à l’affectation manuelle du trafic ? {#manual-allocation}
 
-Un test A/B manuel est l’option la plus applicable lorsque vous devez classer les performances de chaque expérience par rapport aux autres. L’affectation automatique **[!UICONTROL 1} trouve et exploite les meilleures performances, mais ne garantit pas la différenciation entre les expériences les moins performantes.]** Utilisez l’affectation manuelle du trafic pour contrôler entièrement la proportion de votre trafic visiteur qui voit chaque variante de test et pour personnaliser les seuils statistiques pertinents pour votre entreprise.
+Un test A/B manuel est l’option la plus applicable lorsque vous devez classer les performances de chaque expérience par rapport aux autres. L’affectation automatique **[!UICONTROL 1&rbrace; trouve et exploite les meilleures performances, mais ne garantit pas la différenciation entre les expériences les moins performantes.]** Utilisez l’affectation manuelle du trafic pour contrôler entièrement la proportion de votre trafic visiteur qui voit chaque variante de test et pour personnaliser les seuils statistiques pertinents pour votre entreprise.
 
 ## Prise en main {#get-started}
 

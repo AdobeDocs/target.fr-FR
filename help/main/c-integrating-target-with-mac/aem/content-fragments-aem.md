@@ -71,7 +71,7 @@ Après avoir effectué les tâches précédentes, le [!UICONTROL fragment de con
 
 [!DNL Target] recherche actuellement [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
 
-Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1} reste dans [!DNL AEM]. ]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1&rbrace; reste dans [!DNL AEM]. &#x200B;]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 
 Vous pouvez filtrer et rechercher par [!UICONTROL fragments d’expérience HTML], [!UICONTROL fragments d’expérience JSON] et [!UICONTROL fragments de contenu] pour vous aider à distinguer les différents types d’offres exportés vers [!DNL Target].
 
@@ -103,6 +103,6 @@ Vous pouvez utiliser [!UICONTROL les fragments de contenu] dans les activités [
 ## Informations supplémentaires
 
 * [!DNL Target] recherche actuellement [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
-* Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1} reste dans [!DNL AEM]. ]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+* Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1&rbrace; reste dans [!DNL AEM]. &#x200B;]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 * Vous ne pouvez pas créer de [!UICONTROL fragments de contenu] à l’aide de [!DNL Adobe I/O]. Créez [!UICONTROL des fragments de contenu] à l’aide d’AEM, comme expliqué ci-dessus.
 * Si vous mettez à jour votre [!UICONTROL fragment de contenu] dans AEM, le [!UICONTROL fragment de contenu] doit être publié et exporté vers [!DNL Target] de nouveau, afin que [!DNL Target] puisse utiliser les dernières modifications.
