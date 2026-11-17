@@ -1,7 +1,7 @@
 ---
 keywords: expérience;compositeur d’expérience visuelle;compositeur d’expérience amélioré;compositeur d’expérience basé sur les formulaires;compositeur de formulaires;compositeur visuel;compositeur d’expérience;contenu mixte;iframe;décomposition d’iframe;iframe-buste;x-frame-options;x-frame options;croisée;origine croisée;problèmes inter-origines;processus d’authentification
 description: 'En savoir plus sur les Compositeurs d’expérience Adobe : le Compositeur d’expérience visuelle (VEC), le Compositeur d’expérience d’après les formulaires et le Compositeur d’expérience visuelle monopage.'
-title: Quels Compositeurs D’Expérience Propose-T-[!DNL Target] ?
+title: Quels Compositeurs D’Expérience [!DNL Target] Propose-T-Il ?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 TQID: 'https://experienceleague.adobe.com/M6qSdXMgnhZjKOwvH6dMI35uetwpnt7oa9GmlrMkMjw'
@@ -23,12 +23,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 69%
 ---
-# Offres et expériences
+# Prise en main des expériences et des offres
 
 Une expérience dans [!DNL Adobe Target] détermine le contenu qui s’affiche lorsque le visiteur répond aux critères d’audience pour une activité.
 

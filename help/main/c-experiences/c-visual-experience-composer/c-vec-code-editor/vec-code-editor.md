@@ -16,14 +16,14 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2269'
 ht-degree: 79%
 ---
-# Modifications
+# Prise en main des modifications
 
-Informations sur la page [!UICONTROL Modifications] dans [!DNL Adobe Target] qui vous permettent d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
+Informations sur la page [!UICONTROL Modifications] dans [!DNL Adobe Target], qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 
 La page [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et en [sélectionnant une action](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
 
@@ -43,7 +43,7 @@ Utilisez la page Modifications pour :
 
 * Modifier une action existante. Passez le curseur de la souris sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
-  ![codeeditor_edit image](assets/codeeditor_edit.png)
+  ![image codeeditor_edit](assets/codeeditor_edit.png)
 
   Effectuez vos modifications.
 
@@ -71,7 +71,7 @@ Utilisez la page Modifications pour :
 
 1. Pour afficher la page [!UICONTROL Modifications] d’une expérience sélectionnée, dans le VEC, cliquez sur l’icône &lt;/> **[!UICONTROL Modifications]**.
 
-   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
+   ![image codeeditor_icon_big](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -99,8 +99,8 @@ Utilisez la page Modifications pour :
    | Type de modification | Détails |
    |--- |--- |
    | Sélecteur CSS | Dans la zone Sélecteur d’élément CSS, spécifiez l’élément CSS souhaité que vous souhaitez modifier, sélectionnez un type d’action (Définir contenu ou Définit attribut), puis renseignez les informations requises et le contenu souhaité. |
-   | Mbox | Spécifiez le nom de la mbox et le contenu souhaité.<p>**Remarque** : les mbox ne sont plus prises en charge dans le VEC dans les pages qui utilisent at.js 2.*x*.<p>Pour pallier ce problème :<ul><li>Si vous utilisez at.js 2.*x*, ajoutez une modification au sélecteur CSS au lieu d’une modification de mbox et ajoutez le contenu sur le sélecteur utilisé par votre mbox. </li><li>Utiliser des activités basées sur des formulaires (fonctionne avec les fichiers mbox *at.js 1.* x et at.js 2.*x*).</li><li>Utilisez at.js 1.*x* dans le VEC.</li></ul> |
-   | Code personnalisé | Spécifiez un nom facultatif, activez ou désactivez la case à cocher [!UICONTROL Ajouter du code dans la section `<HEAD>`] selon vos besoins, puis ajoutez votre code personnalisé.<p>Si vous sélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé est ajouté à la section `<head>` et son exécution n’attend pas les événements de chargement de corps ou de page. Ajoutez uniquement les éléments `<script>` et `<style>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p> Si vous désélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé s’exécute immédiatement après la balise `<body>`. Entourez tout le code dans une seule balise `<div>` pour préserver la structure DOM. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p>Si HTML for `<BODY>` contient `<SCRIPT>` et `<DIV>`, `<DIV>` est ajouté à `<BODY>` et `<SCRIPT>` est exécuté dans `<HEAD>`. En outre, `<SCRIPT>` qui charge un fichier externe est ajouté à `<HEAD>`.<p>**Remarque** : les scripts sont exécutés de manière asynchrone. Cela signifie que vous ne pouvez pas, par exemple, utiliser `document.write` ou des méthodes de script similaires.<p>Le code personnalisé offre une interface non visuelle pour afficher, modifier ou ajouter de nouvelles actions dans le VEC, le compositeur d’expérience d’après les formulaires et l’éditeur d’offres HTML. Le panneau fournit une vue de code d’une expérience pour vous aider à créer des expériences plus complexes, à optimiser les expériences existantes et à résoudre les problèmes.<p>Le code personnalisé est destiné aux utilisateurs avancés à l’aise avec HTML, JavaScript et CSS. L’affichage du code peut vous aider à ajuster les modifications ou à corriger les problèmes de sélecteur. Vous pouvez également l’utiliser pour ajouter un nouveau code personnalisé et des actions. Vous pouvez ajouter plusieurs codes personnalisés et si vous le souhaitez nommer chaque code personnalisé.<p>**Remarque** : le code personnalisé est actuellement disponible pour les activités A/B et de ciblage d’expérience (XT) uniquement. Le code personnalisé est désactivé pour les superpositions et si une offre de redirection est appliquée.<p>Le code personnalisé prend en charge les cas d’utilisation suivants :<ul><li>Ajout de code JavaScript, HTML ou CSS personnalisé à exécuter dans la partie supérieure de la page</li><li>Affichage ou modification du code généré par VEC après l’apport de modifications</li><li>Définition du contenu HTML pour un sélecteur (sélecteurs CSS uniquement)</li><li>Définition d’un attribut sur un élément HTML</li><li>Ajout du contenu d’offre à diffuser dans une mbox régionale</li><li>Permutation sur DOM-ready, à l’aide de jQuery</li><li>Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)</li><li>Permutation avec DOM-polling via le module externe « elementOnLoad »</li><li>Redirection personnalisée</li></ul>Le code personnalisé fournit :<ul><li>Des numéros de ligne pour une utilisation plus conviviale.</li><li>Un surlignage de la syntaxe pour vous aider à éviter une syntaxe incorrecte pour les offres HTML.</li><li>La possibilité de créer plusieurs codes personnalisés et de fournir un nom facultatif pour chacun d’eux. La création de plusieurs codes personnalisés facilite le débogage futur. Par exemple, au lieu de créer un seul code personnalisé pour accomplir plusieurs modifications, vous pouvez créer un code personnalisé distinct pour chaque modification avec un nom explicite. Si vous disposez de codes personnalisés distincts, vos modifications sont plus modulaires et faciles à gérer. Notez que l’exécution de plusieurs codes personnalisés dans une activité n’est pas garantie dans la séquence dans laquelle ils ont été créés.</li></ul>Le panneau Modifications divise l’écran entre le mode visuel et le mode de code. Les deux modes restent synchronisés. Chaque modification apportée visuellement comporte une ligne correspondante dans l’affichage du code. De même, chaque modification validée dans l’affichage du code apparaît dans l’expérience visuelle. Le fait de cliquer sur une ligne dans l’affichage du code sélectionne l’élément correspondant sur la page visuelle.<p>Le code personnalisé prend en charge HTML, les scripts et les styles. Vous pouvez ajouter ou modifier tout code HTML ou script valide. |
+   | Mbox | Spécifiez le nom de la mbox et le contenu souhaité.<p>**Remarque** : les mbox ne sont plus prises en charge dans le VEC dans les pages qui utilisent at.js 2.*x*.<p>Pour pallier ce problème :<ul><li>Si vous utilisez at.js 2.*x*, ajoutez une modification au sélecteur CSS au lieu d’une modification de mbox et ajoutez le contenu sur le sélecteur utilisé par votre mbox. </li><li>Utiliser des activités basées sur des formulaires (fonctionne avec les mbox et at.js 1.*x* et at.js 2.*x*).</li><li>Utilisez at.js 1.*x* dans le VEC.</li></ul> |
+   | Code personnalisé | Spécifiez un nom facultatif, sélectionnez ou désélectionnez la case [!UICONTROL Ajouter du code dans la section `<HEAD>`], selon vos besoins, puis ajoutez votre code personnalisé.<p>Si vous sélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé est ajouté à la section `<head>` et son exécution n’attend pas les événements de chargement de corps ou de page. Ajoutez uniquement les éléments `<script>` et `<style>`. L’ajout de balises `<div>` et d’autres éléments risque d’entraîner l’apparition des éléments `<head>` restants dans la section `<body>`. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p> Si vous désélectionnez [!UICONTROL Ajouter du code dans la section `<HEAD>`], le code personnalisé s’exécute immédiatement après la balise `<body>`. Entourez tout le code dans une seule balise `<div>` pour préserver la structure DOM. Si vous utilisez at.js, toutes les offres sont diffusées de manière asynchrone.<p>Si HTML pour `<BODY>` contient `<SCRIPT>` et `<DIV>`, alors `<DIV>` est ajouté à `<BODY>` et `<SCRIPT>` est exécuté dans `<HEAD>`. En outre, `<SCRIPT>` qui charge un fichier externe est ajouté à `<HEAD>`.<p>**Remarque** : les scripts sont exécutés de manière asynchrone. Cela signifie que vous ne pouvez pas, par exemple, utiliser `document.write` ou des méthodes de script similaires.<p>Le code personnalisé offre une interface non visuelle pour afficher, modifier ou ajouter de nouvelles actions dans le VEC, le compositeur d’expérience d’après les formulaires et l’éditeur d’offres HTML. Le panneau fournit une vue de code d’une expérience pour vous aider à créer des expériences plus complexes, à optimiser les expériences existantes et à résoudre les problèmes.<p>Le code personnalisé est destiné aux utilisateurs avancés à l’aise avec HTML, JavaScript et CSS. L’affichage du code peut vous aider à ajuster les modifications ou à corriger les problèmes de sélecteur. Vous pouvez également l’utiliser pour ajouter un nouveau code personnalisé et des actions. Vous pouvez ajouter plusieurs codes personnalisés et si vous le souhaitez nommer chaque code personnalisé.<p>**Remarque** : le code personnalisé est actuellement disponible pour les activités A/B et de ciblage d’expérience (XT) uniquement. Le code personnalisé est désactivé pour les superpositions et si une offre de redirection est appliquée.<p>Le code personnalisé prend en charge les cas d’utilisation suivants :<ul><li>Ajout de code JavaScript, HTML ou CSS personnalisé à exécuter dans la partie supérieure de la page</li><li>Affichage ou modification du code généré par VEC après l’apport de modifications</li><li>Définition du contenu HTML pour un sélecteur (sélecteurs CSS uniquement)</li><li>Définition d’un attribut sur un élément HTML</li><li>Ajout du contenu d’offre à diffuser dans une mbox régionale</li><li>Permutation sur DOM-ready, à l’aide de jQuery</li><li>Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)</li><li>Permutation avec DOM-polling via le module externe « elementOnLoad »</li><li>Redirection personnalisée</li></ul>Le code personnalisé fournit :<ul><li>Des numéros de ligne pour une utilisation plus conviviale.</li><li>Un surlignage de la syntaxe pour vous aider à éviter une syntaxe incorrecte pour les offres HTML.</li><li>La possibilité de créer plusieurs codes personnalisés et de fournir un nom facultatif pour chacun d’eux. La création de plusieurs codes personnalisés facilite le débogage futur. Par exemple, au lieu de créer un seul code personnalisé pour accomplir plusieurs modifications, vous pouvez créer un code personnalisé distinct pour chaque modification avec un nom explicite. Si vous disposez de codes personnalisés distincts, vos modifications sont plus modulaires et faciles à gérer. Notez que l’exécution de plusieurs codes personnalisés dans une activité n’est pas garantie dans la séquence dans laquelle ils ont été créés.</li></ul>Le panneau Modifications divise l’écran entre le mode visuel et le mode de code. Les deux modes restent synchronisés. Chaque modification apportée visuellement comporte une ligne correspondante dans l’affichage du code. De même, chaque modification validée dans l’affichage du code apparaît dans l’expérience visuelle. Le fait de cliquer sur une ligne dans l’affichage du code sélectionne l’élément correspondant sur la page visuelle.<p>Le code personnalisé prend en charge HTML, les scripts et les styles. Vous pouvez ajouter ou modifier tout code HTML ou script valide. |
 
 1. Ajoutez d’autres modifications si nécessaire.
 
@@ -221,7 +221,7 @@ Si vous utilisez la fonction de code personnalisé pour deux activités qui cibl
 
 ## Dépannage du code personnalisé {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
-**Le code personnalisé n’est pas exécuté lors de l’utilisation de `triggerView`.**
+**Le code personnalisé n&#39;est pas exécuté lors de l&#39;utilisation de `triggerView`.**
 
 Les offres de code personnalisé dans le VEC ne sont pas rendues de nouveau lorsque `triggerView()` est appelé avec `{page: false}` comme option.
 
@@ -231,9 +231,9 @@ Ce message indique que la structure de votre page a changé depuis le dernier en
 
 Les sélecteurs manquants peuvent être obtenus en utilisant le mode de navigation. Il est recommandé de supprimer, puis de recréer chaque expérience afin de vous assurer que votre contenu est conforme à vos attentes, comme indiqué dans le message d’avertissement.
 
-![image code_editor_2](assets/code_editor_2.png)
+![image {code_editor_2}](assets/code_editor_2.png)
 
-***Lorsque je supprime un élément, un avertissement s’affiche indiquant : « La suppression de cette action peut avoir un impact sur les actions suivantes ». Qu’est-ce que cela signifie ?***
+***Lorsque je supprime un élément, un avertissement s’affiche indiquant : « La suppression de cette action peut avoir un impact sur les actions suivantes. » Qu’est-ce que cela signifie ?***
 
 Par exemple, si vous avez entrepris deux actions :
 
@@ -244,11 +244,11 @@ Chaque modification crée un nouvel élément dans le panneau Modifications. La 
 
 En d’autres termes, si vous ajoutez un élément comportant du texte, puis dans une action distincte modifiez cet élément avec un texte différent, le panneau Modification affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez ensuite l’élément d’origine, le texte modifié ne pourra pas trouver l’élément modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
-***Un élément que j’ai créé à l’aide de `document.write` dans un script n’apparaît pas là où je l’attends.***
+***Un élément que j&#39;ai créé à l&#39;aide de `document.write` dans un script n&#39;apparaît pas là où je l&#39;attends.***
 
 Les scripts sont exécutés de manière asynchrone. De ce fait, les actions `document.write` apparaissent souvent au mauvais endroit sur votre page. Adobe ne recommande pas d’utiliser `document.write` dans des scripts créés avec du code personnalisé.
 
-***My JavaScript affiche les erreurs dans le code personnalisé.***
+***Mon JavaScript affiche des erreurs dans le code personnalisé.***
 
 Chaque script JavaScript inséré qui n’est pas un script JavaScript valide affiche des erreurs dans le code personnalisé.
 

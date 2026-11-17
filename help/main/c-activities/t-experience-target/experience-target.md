@@ -1,7 +1,7 @@
 ---
 keywords: Ciblage;ciblage d’expérience;xt;page de destination;campagne de page de destination
-description: Découvrez comment utiliser les activités [!UICONTROL Ciblage d’expérience] (XT) dans [!DNL Adobe Target] pour diffuser du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par les spécialistes marketing.
-title: Qu’est-ce qu’une activité [!UICONTROL Ciblage d’expérience] (XT) ?
+description: Découvrez comment utiliser les activités de [!UICONTROL ciblage d’expérience] (XT) dans [!DNL Adobe Target] pour diffuser du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par les spécialistes marketing.
+title: Qu’Est-Ce Qu’Une Activité De [!UICONTROL Ciblage D’Expérience] (XT) ?
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 TQID: 'https://experienceleague.adobe.com/PCTBCP2tGaNZSIAScWLR84B6an42E-2PJ1Ijm0tHrn4'
@@ -25,37 +25,35 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 38%
+source-wordcount: '417'
+ht-degree: 2%
 ---
-# [!UICONTROL Ciblage d’expérience] (XT)
+# Prise en main du [!UICONTROL ciblage d’expérience] {#get-started-xt}
 
-Le [!UICONTROL ciblage d’expérience] (XT) diffuse du contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables marketing.
+>[!BEGINSHADEBOX]
 
-Le [!UICONTROL ciblage d’expérience], qui inclut le [géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md), présente un atout majeur pour la définition de règles ciblant une expérience ou un contenu spécifique pour une audience particulière. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
+**Sur cette page :** Découvrez le **[!UICONTROL ciblage d’expérience]**, comment il s’intègre dans la personnalisation et comment un scénario cible différentes audiences avec différentes expériences.
 
-Lorsque des visiteurs consultent votre site, le [!UICONTROL ciblage d’expérience] (XT) les évalue pour déterminer s’ils répondent aux critères définis. S’ils répondent aux critères, ils saisissent l’activité et l’expérience conçue pour les audiences qualifiantes s’affiche. Vous pouvez créer des expériences pour plusieurs audiences au sein d’une activité unique.
+>[!ENDSHADEBOX]
 
-Le [!UICONTROL ciblage d’expérience] est une première étape dans le monde de la personnalisation qui commence souvent par des tests A/B. Un spécialiste marketing exécute un test A/B et, en utilisant les audiences avec création de rapports, découvre que différentes expériences trouvent un écho auprès de différentes audiences. Le [!UICONTROL ciblage d’expérience] permet aux professionnels du marketing d’utiliser facilement cette découverte et de passer au ciblage à long terme du contenu pour ces différents segments d’utilisateurs.
+[!UICONTROL Le ciblage d’expérience] (XT) diffuse du contenu à une audience spécifique selon un ensemble de règles et de critères définis par les spécialistes marketing. Il s’avère utile pour définir des règles, notamment le [géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md), qui ciblent une expérience ou un contenu spécifique pour une audience particulière. Plusieurs règles peuvent être définies dans une seule activité afin de fournir différentes variations de contenu à différentes audiences.
 
-## Scénario : Ciblage d’expérience
+Lorsque des visiteurs consultent votre site, le [!UICONTROL ciblage d’expérience] évalue ces visiteurs afin de déterminer s’ils répondent aux critères que vous avez définis. S’ils répondent aux critères, ils saisissent l’activité et l’expérience conçue pour l’audience admissible s’affiche.
 
-Supposons que votre site Web comporte du matériel pour activités de plein air. Vos rapports pour les tests A/B indiquent que vous disposez de trois expériences qui trouvent un écho auprès d’audiences différentes. Pour appliquer cette découverte, vous devez afficher une image de héros différente sur votre page d’accueil pour séduire ces différents publics, en fonction de la position géographique des visiteurs et de leurs passe-temps. Dans ce scénario, vous souhaitez afficher une image de randonnée aux visiteurs du New Jersey et une image de surf aux visiteurs d’Hawaï. Vous avez également une audience qui aime faire du vélo. Vous souhaitez afficher une troisième image principale pour plaire à votre audience de passionnés ce cyclisme.
+[!UICONTROL Le ciblage d’expérience] est une première étape dans le monde de la personnalisation et commence souvent par des tests A/B. Un spécialiste marketing exécute un test A/B et, en utilisant les audiences de création de rapports, découvre que différentes expériences trouvent un écho auprès de différentes audiences. [!UICONTROL Le ciblage d’expérience] permet au marketeur d’utiliser facilement cette découverte et de passer au ciblage à long terme du contenu vers ces différents segments d’audience.
 
-Une activité [!UICONTROL Ciblage d’expérience] vous permet de cibler ces trois audiences avec une image principale différente qui séduit chaque audience. La vidéo ci-dessous, *Des tests A/B au ciblage de l’expérience*, explique comment créer des expériences ciblées sur les deux états et une troisième expérience ciblée sur les passionnés de cyclisme. La vidéo vous montre également comment organiser les trois expériences pour atteindre vos objectifs. Regardez la vidéo, puis continuez avec [Création d’une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
+## Scénario : des tests A/B au ciblage d’expérience {#xt-scenario}
 
-## Vidéos de formation :
+Supposons que votre site Web propose des équipements de plein air. Vos rapports pour les tests A/B indiquent que vous disposez de trois expériences qui trouvent un écho auprès d’audiences différentes. Pour appliquer cette découverte, vous devez afficher une image de héros différente sur votre page d’accueil pour séduire chaque audience, en fonction de l’emplacement ou des passe-temps des visiteurs. Vous souhaitez montrer une image de randonnée aux visiteurs du New Jersey, une image de surf aux visiteurs d’Hawaï et une troisième image à un public qui aime faire du vélo.
 
-Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
+Une activité de [!UICONTROL ciblage d’expérience] vous permet de cibler ces trois audiences avec une image principale différente pour chacune d’elles. La vidéo suivante décrit comment booster les tests A/B avec le [!UICONTROL ciblage d’expérience]. Il montre comment :
 
-### Des tests A/B au [!UICONTROL ciblage d’expérience]
+* Configurez une activité de [!UICONTROL Ciblage d’expérience] à l’aide du workflow guidé en trois étapes.
+* Diffusez du contenu propre à un emplacement aux audiences de différentes zones géographiques, en créant des expériences ciblées sur les deux États et une troisième expérience destinée aux amateurs de vélo.
+* Réorganisez les trois expériences pour vous assurer que le contenu approprié est diffusé à la bonne audience.
 
-Cette vidéo décrit comment booster les tests A/B avec le [!UICONTROL ciblage d’expérience].
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
-* Décrivez le workflow guidé en trois étapes pour configurer une activité [!UICONTROL Ciblage d’expérience]
-* Décrire comment diffuser du contenu spécifique à un emplacement auprès d’audiences situées dans différentes zones géographiques
-* Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
-
->[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)
+Après avoir visionné la vidéo, continuez avec [Créer une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).

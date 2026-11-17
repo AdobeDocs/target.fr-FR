@@ -2,7 +2,7 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage
 description: Découvrez comment une activité de [!UICONTROL ciblage automatique] offre à chaque visiteur l’expérience la plus adaptée en fonction des profils du client et du comportement de visiteurs similaires.
 title: Qu’est-ce qu’une activité de [!UICONTROL ciblage automatique] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 TQID: 'https://experienceleague.adobe.com/uKmfIlOcT-tZgOjuvERXuif-Y5-2Jw3prtPbuBjv1is'
@@ -36,12 +36,12 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 878df20c7fb08c893239135c20f358b5606d0c6f
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2072'
 ht-degree: 12%
 ---
-# Aperçu du ciblage automatique [!UICONTROL 1&rbrace;] {#auto-target-overview}
+# Prise en main du [!UICONTROL ciblage automatique] {#auto-target-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Les termes suivants sont utiles pour aborder le **[!UICONTROL ciblage automatiqu
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. En termes de science des données, il s’agit d’une classification d’ensemble, ou méthode de régression, qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans [!DNL Target], la forêt aléatoire est utilisée pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou le chiffre d’affaires le plus élevé par visite) pour chaque visiteur spécifique. |
 | [Échantillonnage De Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’objectif de l’échantillonnage de Thompson est de déterminer quelle expérience est la meilleure globalement (non personnalisée), tout en réduisant le « coût » de la recherche de cette expérience. L’échantillonnage de Thompson sélectionne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. |
 
-## Fonctionnement du ciblage automatique [!UICONTROL 1&rbrace;] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
+## Fonctionnement du ciblage automatique [!UICONTROL 1}] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
 Les pages suivantes décrivent les données et algorithmes sous-jacents au **[!UICONTROL ciblage automatique]** et à l’**[!UICONTROL Automated Personalization]** :
 

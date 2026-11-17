@@ -1,6 +1,6 @@
 ---
 keywords: résumé
-description: Affichez le résumé d’une activité [!UICONTROL Test multivarié] (MVT) qui fournit un aperçu visuel de votre activité dans [!DNL Adobe Target].
+description: Affichez le résumé d’une activité de [!UICONTROL test multivarié] (MVT) qui fournit un aperçu visuel de votre activité dans [!DNL Adobe Target].
 title: Comment puis-je afficher le résumé d’une activité de [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
@@ -16,23 +16,29 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 30%
+source-wordcount: '162'
+ht-degree: 9%
 ---
-# Résumé du test ([!UICONTROL test multivarié])
+# Résumé du test ([!UICONTROL Test multivarié]) {#mvt-test-summary}
 
-La page [!UICONTROL Ciblage] offre un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL Test multivarié].
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez ce que le résumé du test d’un **[!UICONTROL test multivarié]** affiche, afin de pouvoir passer en revue la configuration avant de continuer.
+
+>[!ENDSHADEBOX]
+
+La page **[!UICONTROL Ciblage]** fournit un aperçu visuel de votre [!DNL Adobe Target] **[!UICONTROL test multivarié]**. En consultant ce résumé, vous pouvez confirmer la configuration du test avant de définir les objectifs et les paramètres.
 
 ![Boîte de dialogue de synthèse du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary-new.png)
 
 Le résumé du test affiche :
 
-* Nom du test
-* URL
-* Audience : cliquez sur l’audience pour sélectionner une autre audience dans la liste des audiences disponibles.
-* Algorithme : le seul algorithme disponible est [!UICONTROL Full Factorial]. Le nom de l’algorithme est fourni dans un but informatif afin que vous sachiez quel est l’algorithme utilisé.
+* Nom du test.
+* URL.
+* L’audience. Cliquez sur l’audience pour sélectionner une autre audience dans la liste des audiences disponibles.
+* L’algorithme. Le seul algorithme disponible est **[!UICONTROL Full Factorial]**. Le nom de l’algorithme est fourni à titre d’information, afin que vous sachiez quel algorithme est utilisé.
 * Le nombre d’expériences incluses et exclues.
 
-Cliquez sur **[!UICONTROL Suivant]** lorsque vous êtes satisfait(e) de la configuration de test. La page [!UICONTROL Objectifs et paramètres] s’ouvre.
+Cliquez sur **[!UICONTROL Suivant]** lorsque la configuration de test vous convient. La page **[!UICONTROL Objectifs et paramètres]** s’ouvre.

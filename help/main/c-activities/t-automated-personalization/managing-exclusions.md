@@ -1,8 +1,8 @@
 ---
 keywords: déduplication;autoriser les doublons;exclure les offres en double;automated personalization;interdire les offres en double;exclure;contenu par défaut;
-description: Gérez les exclusions dans les activités  (AP).
-title: Comment gérer les exclusions dans les activités  ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+description: Gérez les exclusions dans les activités [!UICONTROL Automated Personalization] (AP).
+title: Comment gérer les exclusions dans les activités [!UICONTROL Automated Personalization] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -25,57 +25,67 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 23%
+source-wordcount: '506'
+ht-degree: 4%
 ---
-# Gestion des exclusions
+# Gestion des exclusions {#manage-exclusions}
 
-Contrôlez votre stratégie  (AP) en maîtrisant les exclusions. Que vous préviez les offres en double, affiniez les combinaisons d’expériences ou supprimiez le contenu par défaut, les exclusions vous permettent de proposer des expériences plus propres et plus pertinentes, conformes à vos objectifs et aux attentes de votre audience.
+>[!BEGINSHADEBOX]
 
-## Autoriser ou interdire les offres en double {#concept_4EF78013F80E48EFA024AE0274C9F037}
+**Sur cette page :** Découvrez comment empêcher les offres en double, exclure des expériences spécifiques et exclure le contenu par défaut dans les activités **[!UICONTROL Automated Personalization]**.
+
+>[!ENDSHADEBOX]
+
+Les exclusions contrôlent les offres et expériences qu’une activité **[!UICONTROL Automated Personalization]** (AP) diffuse. Elles empêchent l’affichage simultané de deux offres, suppriment les combinaisons d’offres qui ne fonctionnent pas ensemble et suppriment le contenu par défaut, de sorte que l’activité offre des expériences plus épurées et plus pertinentes qui correspondent à vos objectifs et à votre audience.
+
+## Autoriser ou interdire les offres en double {#allow-duplicate-offers}
+
+<a id="concept_4EF78013F80E48EFA024AE0274C9F037"></a>
 
 Empêcher la duplication des offres de la bibliothèque des offres lorsqu&#39;elles sont utilisées à différents emplacements dans des activités AP.
 
-Vous pouvez par exemple avoir une activité avec six emplacements sur une page comportant 12 offres. Il existe un risque que la même offre soit placée dans un ou plusieurs emplacements de cette activité. Cette fonctionnalité permet d’empêcher l’affichage simultané d’offres en double à différents emplacements d’une même activité.
+Une activité peut avoir, par exemple, six emplacements sur une page contenant 12 offres. Une même offre peut donc être placée à plusieurs emplacements. La désactivation des offres en double empêche l’affichage simultané d’une même offre à différents emplacements d’une même activité.
 
-1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), cliquez sur l’icône **[!UICONTROL Configurer]** ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ) > cliquez sur l’icône **[!UICONTROL Autoriser les offres en double]** pour activer ou désactiver cette fonctionnalité, selon vos besoins.
+1. Lors de la [création ou modification d&#39;une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), cliquez sur l&#39;icône **[!UICONTROL Configurer]** ( ![Icône Configurer](/help/main/assets/icons/Setting.svg) ).
 
-## Exclure des expériences spécifiques {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+1. Cliquez sur **[!UICONTROL Autoriser les offres en double]** pour activer ou désactiver cette fonctionnalité, selon vos besoins.
 
-Excluez des expériences spécifiques si vous souhaitez exclure certaines combinaisons d’offres de votre activité AP.
+   ![Icône Configurer](../assets/exclusion-1.png)
 
-Certaines combinaisons peuvent ne pas fonctionner ensemble ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic pour votre activité.
+## Exclure des expériences spécifiques {#exclude-experiences}
 
-1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), cliquez sur l’icône **Gérer le contenu** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
+<a id="task_C17D36EF58AF4908B17A3D84CA6DE85A"></a>
 
-   La liste [!UICONTROL Expériences] indique chaque expérience générée à partir des permutations de toutes les options de contenu et de lieu.
+Excluez les expériences spécifiques pour supprimer certaines combinaisons d’offres de votre activité AP. Certaines combinaisons peuvent ne pas fonctionner ensemble ou vous pouvez limiter le nombre d’expériences testées afin de réduire les exigences de trafic de l’activité.
 
-1. Excluez d’autres expériences, selon les besoins.
+1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
 
-   Vous pouvez exclure des expériences spécifiques en cliquant sur l’icône [!UICONTROL **Plus d’actions**] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ), puis sur [!UICONTROL **Exclure**].
+   La liste **[!UICONTROL Expériences]** indique chaque expérience générée à partir des permutations de toutes les options de contenu et de lieu.
 
-   Vous pouvez également exclure des expériences par lots en cochant les cases correspondant aux expériences pertinentes, puis en cliquant sur **[!UICONTROL Exclure]**. L’icône [!UICONTROL Exclure] s’affiche lorsqu’une ou plusieurs expériences sont cochées.
+1. Excluez les expériences que vous ne souhaitez pas tester.
+
+   * Pour exclure une seule expérience, cliquez sur l’icône **[!UICONTROL Autres actions]** ( ![Icône Autres actions](/help/main/assets/icons/MoreSmall.svg) ), puis sur **[!UICONTROL Exclure]**.
+   * Pour exclure plusieurs expériences à la fois, cochez la case pour chaque expérience, puis cliquez sur **[!UICONTROL Exclure]**. L’icône **[!UICONTROL Exclure]** s’affiche lorsqu’une ou plusieurs expériences sont sélectionnées.
 
    ![Exclusion d’expériences par lots](/help/main/c-activities/t-automated-personalization/assets/exclude1.png)
 
-   Les expériences sont désormais exclues de l’activité et leur [!UICONTROL Statut] s’affiche comme [!UICONTROL Exclus].
+   Les expériences sont désormais exclues de l’activité, et leur **[!UICONTROL Statut]** indique **[!UICONTROL Exclu]**.
 
-## Exclure le contenu par défaut {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Exclure le contenu par défaut {#exclude-default-content}
 
-Parfois, vous pouvez ne pas vouloir inclure votre contenu par défaut dans votre activité AP. Vous pouvez utiliser cette méthode pour n’avoir qu’une seule offre (différente de votre contenu par défaut) à un emplacement dans le cadre de votre activité.
+<a id="task_DCB4528989DF4C05A3A4729E5891D18F"></a>
 
-L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspect du reste de la page pour l’adapter aux offres que vous testez avec votre activité AP. Supposons par exemple que vous souhaitiez faire correspondre la palette de couleurs des offres que vous testez ; dans ce cas, vous pouvez modifier la couleur d’arrière-plan de votre page et exclure la couleur d’arrière-plan par défaut.
+Excluez le contenu par défaut lorsque vous ne souhaitez pas qu’il fasse partie de votre activité AP, de sorte qu’un emplacement ne contienne qu’une seule offre différente de votre contenu par défaut. Cette approche vous permet également de modifier l’aspect du reste de la page en fonction des offres que vous testez. Par exemple, pour correspondre à la palette de couleurs des offres, vous pouvez modifier la couleur d’arrière-plan de la page et exclure la couleur d’arrière-plan par défaut.
 
-**Pour exclure le contenu par défaut à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC) :**
+1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity), sélectionnez le contenu à remplacer, puis cliquez sur **[!UICONTROL Modifier le texte/HTML]**, **[!UICONTROL Modifier l’offre d’image]** ou **[!UICONTROL Modifier la couleur d’arrière-plan]**. Les options disponibles varient en fonction du type de contenu.
 
-1. Lors de la [création ou modification d’une activité AP](/help/main/c-activities/t-automated-personalization/create-ap-activity.md), sélectionnez le contenu à remplacer et cliquez pour accéder à **[!UICONTROL Modifier le texte/l’HTML]**, **[!UICONTROL Modifier l’offre d’image]** ou **[!UICONTROL Modifier la couleur d’arrière-plan]**. Les options disponibles varient en fonction du type de contenu.
+   ![Modifier les options](../assets/exclusion-1.png)
 
-   ![Modifier les options](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. Créez votre nouveau contenu.
 
-1. Cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![icône Plus d’actions](/help/main/assets/icons/Setting.svg) ), puis sur le bouton (bascule) **Exclure l’offre par défaut/Inclure l’offre par défaut**/ pour exclure ou inclure l’offre par défaut.
+1. Cliquez sur l’icône **[!UICONTROL Plus d’actions]** (![Icône Plus d’actions](/help/main/assets/icons/Setting.svg) ), puis cliquez sur le bouton (bascule) **Exclure l’offre par défaut/Inclure l’offre par défaut** pour exclure ou inclure l’offre par défaut.
 
    <!--
    Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 

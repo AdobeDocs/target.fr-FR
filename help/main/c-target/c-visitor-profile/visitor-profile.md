@@ -20,26 +20,24 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 118
-ht-degree: 36%
-
+source-wordcount: '121'
+ht-degree: 33%
 ---
-
-# Profils de visiteur
+# Prise en main des profils des visiteurs
 
 Les profils des visiteurs dans [!DNL Adobe Target] contiennent des informations sur la manière dont vos visiteurs utilisent vos pages et d’autres emplacements de contenu optimisés.
 
-Si [!DNL Target] est utilisé avec d’autres solutions [!DNL Adobe Experience Cloud], telles que [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] partage les informations sur les visiteurs dans toutes les solutions.
+Si [!DNL Target] est utilisé avec d’autres solutions [!DNL Adobe Experience Cloud], telles que [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] partage les informations sur les visiteurs entre les solutions.
 
-Par défaut, [!DNL Target] informations de profil sont stockées dans un seul cookie propriétaire. Cette configuration peut facilement être modifiée afin d’utiliser également des cookies tiers.
+Par défaut, les informations de profil [!DNL Target] sont stockées dans un seul cookie propriétaire. Cette configuration peut facilement être modifiée afin d’utiliser également des cookies tiers.
 
 Les sections suivantes comprennent davantage d’informations :
 
 - [Durée de vie du profil du visiteur](visitor-profile-lifetime.md)
 - [Attributs de profil](profile-parameters.md)
 - [Affinité catégorielle](category-affinity.md)
-- [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+- [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [Synchronisation des profils en temps réel pour mbox3rdPartyID](3rd-party-id.md)
 - [Glossaire des profils et variables](variables-profiles-parameters-methods.md)

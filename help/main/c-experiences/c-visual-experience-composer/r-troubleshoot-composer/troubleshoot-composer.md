@@ -20,20 +20,20 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 66%
+source-wordcount: '253'
+ht-degree: 61%
 ---
-# Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
+# Commencez à résoudre les problèmes du [!UICONTROL compositeur d’expérience visuelle] et du [!UICONTROL compositeur d’expérience amélioré]
 
-Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) et le [!UICONTROL Compositeur d’expérience avancé] (EEC) sous certaines conditions.
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) et le [!UICONTROL compositeur d’expérience amélioré] (EEC) sous certaines conditions.
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Il s’agit d’un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
 Le compositeur d’expérience avancé est une extension du compositeur d’expérience visuelle qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore la mise en œuvre de Target. Si vous rencontrez des difficultés à ouvrir une page dans le compositeur d’expérience visuelle, essayez dans le compositeur d’expérience avancé.
 
-Pour plus d&#39;informations sur le CEV et le CEE, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Pour plus d’informations sur le compositeur d’expérience visuelle et le compositeur d’expérience visuelle, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Certains problèmes affectent à la fois le compositeur d’expérience visuelle et le compositeur d’expérience avancé, tandis que d’autres n’affectent qu’un seul des deux compositeurs à la fois. Pour plus d’informations, consultez la page correspondante.
 

@@ -1,6 +1,6 @@
 ---
 keywords: multivarié;mvt;prévisualisation;expériences
-description: Découvrez comment prévisualiser chaque expérience dans une activité [!UICONTROL Test multivarié] (MVT) dans [!DNL Adobe Target] à l’aide du [!UICONTROL Compositeur d’expérience visuelle] (VEC).
+description: Découvrez comment prévisualiser chaque expérience dans une activité de [!UICONTROL test multivarié] (MVT) dans [!DNL Adobe Target] à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC).
 title: Comment prévisualiser des expériences pour un [!UICONTROL test multivarié] (MVT) ?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
@@ -16,28 +16,34 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 8%
+source-wordcount: '280'
+ht-degree: 6%
 ---
-# Aperçu d’expériences pour un [!UICONTROL test multivarié]
+# Aperçu d’expériences pour un [!UICONTROL test multivarié] {#preview-mvt-experiences}
 
-Étant donné qu’un [!UICONTROL test multivarié] dans [!DNL Adobe Target] compare plusieurs expériences sur une page, il est utile de prévisualiser la page avec chaque expérience.
+>[!BEGINSHADEBOX]
 
-1. Cliquez sur **[!UICONTROL Aperçu]**, puis sur l’icône **[!UICONTROL Afficher les expériences]** ( ![icône Afficher les expériences](/help/main/assets/icons/WebPages.svg) ) pour afficher la liste de toutes les expériences dans le cadre de gauche.
+**Sur cette page :** Découvrez comment prévisualiser chaque expérience d’un **[!UICONTROL test multivarié]** dans le **[!UICONTROL compositeur d’expérience visuelle]** et comment exclure ou inclure des expériences.
+
+>[!ENDSHADEBOX]
+
+Un **[!UICONTROL test multivarié]** (MVT) dans [!DNL Adobe Target] compare plusieurs expériences sur une page. Il est donc utile de prévisualiser la page avec chaque expérience. La prévisualisation montre comment les offres se combinent dans chaque expérience, de sorte que vous puissiez décider d’exclure une expérience avant que le test ne soit activé.
+
+1. Dans le **[!UICONTROL compositeur d’expérience visuelle]** (VEC), cliquez sur **[!UICONTROL Aperçu]**, puis cliquez sur l’icône **[!UICONTROL Afficher les expériences]** ( ![Icône Afficher les expériences](/help/main/assets/icons/WebPages.svg) ) pour afficher la liste de toutes les expériences dans le cadre de gauche.
+
+   ![Menu Modifier l’offre d’image](../assets/multivariate-5.png)
 
 1. Cliquez sur une expérience spécifique dans la liste pour l’afficher.
 
-1. (Conditionnel) Pour exclure une ou plusieurs expériences de l’activité, cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour afficher la boîte de dialogue [!UICONTROL Gérer le contenu].
+1. (Facultatif) Pour exclure ou inclure des expériences, cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ) pour afficher la boîte de dialogue **[!UICONTROL Gérer le contenu]**.
 
-1. (Conditionnel) Dans la boîte de dialogue [!UICONTROL Gérer le contenu], cliquez sur l’icône **[!UICONTROL Plus d’actions]** ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) à côté de l’expérience à exclure, puis cliquez sur **[!UICONTROL Exclure]**.
+1. Vous pouvez choisir d’exclure une expérience qui affiche des variations en conflit ou une expérience qui n’est pas équilibrée esthétiquement. Effectuez ensuite l’une des opérations suivantes :
 
-   Vous pouvez choisir d’exclure une expérience qui affiche des variations en conflit ou une expérience qui n’est pas équilibrée esthétiquement.
-
-1. (Conditionnel) Pour exclure plusieurs expériences, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur **[!UICONTROL Exclure]**.
-
-1. (Conditionnel) Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur **[!UICONTROL Inclure]**.
+   * Pour exclure une expérience, cliquez sur l’icône **[!UICONTROL Autres actions]** ( ![Icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) en regard de l’expérience, puis cliquez sur **[!UICONTROL Exclure]**.
+   * Pour exclure plusieurs expériences, cochez les cases correspondantes, puis cliquez sur **[!UICONTROL Exclure]**.
+   * Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences, puis cliquez sur **[!UICONTROL Inclure]**.
 
 >[!NOTE]
 >

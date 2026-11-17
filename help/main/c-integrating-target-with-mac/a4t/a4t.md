@@ -1,7 +1,7 @@
 ---
 keywords: a4t;analytics;analytics for target;source de création analytics;adobe analytics comme source de création des rapports pour target;atjs;at.js;sdk web adobe experience platform;sdk web platform;sdk platform
-description: Utilisez [!DNL Analytics] for [!DNL Target] (A4T) pour créer des activités basées sur des mesures de conversion [!DNL Analytics] et des segments d’audience, et utilisez des rapports [!DNL Analytics] pour examiner les résultats.
-title: Qu’est-ce qu’[!DNL Analytics] pour [!DNL Target] (A4T) ?
+description: Utilisez [!DNL Analytics] pour [!DNL Target] (A4T) afin de créer des activités basées sur [!DNL Analytics] mesures de conversion et segments d’audience. Utilisez ensuite les rapports [!DNL Analytics] pour examiner les résultats.
+title: Qu’est-ce que [!DNL Analytics] pour [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 TQID: 'https://experienceleague.adobe.com/KZaqBS6BDJwdXJ3x1ltBoRS6eeCr4POuSp9Bkhqt1-8'
@@ -33,12 +33,12 @@ topic_v2:
     internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 76%
+source-wordcount: '1129'
+ht-degree: 75%
 ---
-# [!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Adobe Target] (A4T)
+# Prise en main d’A4T
 
 [!DNL Adobe Analytics for Target] (A4T) est une intégration intersolutions permettant de créer des activités basées sur les mesures de conversion d’[!DNL Analytics] ainsi que sur les segments d’audience. L’intégration A4T vous permet d’utiliser les rapports d’[!DNL Analytics] pour étudier vos résultats. Si vous utilisez [!DNL Analytics] comme source de création de rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur la collecte de données [!DNL Analytics].
 
@@ -54,7 +54,7 @@ Les trois principaux avantages offerts par l’utilisation des données d’[!DN
 
 Si vous utilisez [!DNL Analytics] comme source des rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur [!DNL Analytics].
 
-Toutes les mesures [!DNL Analytics], y compris les mesures calculées, sont disponibles dans [!DNL Target] et dans le rapport [!UICONTROL Activités Target] dans [!DNL Analytics], à une exception près. Les mesures calculées pour [!UICONTROL &#x200B; Effet élévateur et degré de confiance &#x200B;] ne sont pas prises en charge. De même, tout segment disponible dans [!DNL Analytics] peut être appliqué aux deux solutions. Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a débuté ou même une fois que celle-ci est terminée.
+Toutes les mesures [!DNL Analytics], y compris les mesures calculées, sont disponibles dans [!DNL Target] et le rapport [!UICONTROL Activités Target] dans [!DNL Analytics], à une exception près. Les mesures calculées pour l’[!UICONTROL effet élévateur et degré de confiance] ne sont pas prises en charge. De même, tout segment disponible dans [!DNL Analytics] peut être appliqué aux deux solutions. Vous pouvez appliquer la mesure ou l’audience au rapport dans [!DNL Target] une fois que l’activité a débuté ou même une fois que celle-ci est terminée.
 
 Chaque mesure est incluse, y compris toute mesure personnalisée ou calculée intégrée à [!DNL Analytics].
 
@@ -66,7 +66,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics f
 * La source de création de rapports est définie pour chaque activité. [!DNL Target] continue à collecter les données à utiliser dans la création de rapports et les [!DNL Target] données sont toujours disponibles si vous préférez baser une activité sur les données collectées par [!DNL Target].
 * Utilisez une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données des deux sources pour une même activité.
 * Lorsque vous utilisez A4T, toutes les mesures de succès disponibles pour vos activités sont des mesures [!DNL Analytics]. Cependant, votre mesure d’objectif peut être basée sur un appel de mbox si vous utilisez at.js. Par exemple, vous pouvez utiliser les fonctionnalités de suivi des clics prêtes à l’emploi de Target avec A4T au lieu de devoir implémenter le code de suivi des clics d’[!DNL Analytics].
-* Lorsque vous consultez des rapports relatifs à une activité A4T dans l’interface utilisateur de [!DNL Target], vous consultez des données [!DNL Analytics]. Par exemple, si vous utilisez la mesure [!UICONTROL Visiteur] dans [!DNL Target], vous utilisez la mesure [!DNL Analytics] [!UICONTROL Visiteur], et non la mesure [!DNL Target] [!UICONTROL Visiteurs], qui est désormais appelée [!UICONTROL Entrants]. Cette différence est particulièrement importante pour les mesures de trafic de base ([!UICONTROL Visiteurs], [!UICONTROL Visites], [!UICONTROL Pages vues]) et pour les mesures de conversion.
+* Lorsque vous consultez des rapports relatifs à une activité A4T dans l’interface utilisateur de [!DNL Target], vous consultez des données [!DNL Analytics]. Par exemple, si vous utilisez la mesure [!UICONTROL Visiteur] dans [!DNL Target], vous utilisez la mesure [!DNL Analytics] [!UICONTROL Visiteur], et non la mesure [!DNL Target] [!UICONTROL Visiteurs], qui est désormais appelée [!UICONTROL Participants]. Cette différence est particulièrement importante pour les mesures de trafic de base ([!UICONTROL Visiteurs], [!UICONTROL Visites], [!UICONTROL Pages vues]) et pour les mesures de conversion.
 * Toute activité [!DNL Target] existante continue à utiliser la collecte de données [!DNL Target] et n’est pas affectée par l’activation d’A4T.
 * Une seule mesure basée sur mbox est autorisée lors de l’utilisation d’A4T.
 * L’appel serveur à serveur de [!DNL Target] vers [!DNL Analytics] envoie les informations d’activité et d’expérience à [!DNL Analytics]. Cette intégration ne résulte pas en appels au serveur supplémentaires, que ce soit pour [!DNL Target] ou [!DNL Analytics].
@@ -75,7 +75,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics f
 
 ## Implémenter A4T
 
-Pour plus d’informations sur l’implémentation d’A4T avec at.js et [!DNL Adobe Experience Platform Web SDK], consultez la page [Implémentation d’Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Pour plus d’informations sur l’implémentation d’A4T avec at.js et [!DNL Adobe Experience Platform Web SDK], consultez la page [Implémentation d’Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -96,7 +96,7 @@ Dans la mesure où tous les types d’activité ne prennent pas encore en charge
 
 ## Exemples de rapports A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Pour afficher les rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Activités]**, cliquez sur l’activité souhaitée dans la liste qui utilise [!DNL Analytics] comme source de rapports, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
+Pour afficher des rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Activités]**, cliquez sur l’activité souhaitée dans la liste qui utilise [!DNL Analytics] comme source de rapports, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 
 >[!NOTE]
 >
@@ -104,11 +104,11 @@ Pour afficher les rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Act
 
 Vous pouvez basculer entre la [!UICONTROL Vue Tableau] et la [!UICONTROL Vue Graphique] du rapport en cliquant sur l’icône appropriée en haut à droite du rapport.
 
-L’illustration suivante présente la [!UICONTROL vue Graphique] d’un rapport A4T avec la liste déroulante [!UICONTROL Mesure du rapport] affichant les mesures d’objectifs [!DNL Analytics] disponibles :
+L’illustration suivante présente la [!UICONTROL vue Graphique] d’un rapport A4T avec la liste déroulante [!UICONTROL Mesure du rapport] affichant les [!DNL Analytics] mesures d’objectif disponibles :
 
 ![image a4t_report_graph1](assets/a4t_report_graph1.png)
 
-L’illustration suivante présente la [!UICONTROL vue Graphique] d’un rapport A4T avec la liste déroulante [!UICONTROL Audience] répertoriant les audiences [!DNL Analytics] disponibles :
+L’illustration suivante présente la [!UICONTROL vue Graphique] d’un rapport A4T avec la liste déroulante [!UICONTROL Audience] affichant les [!DNL Analytics] audiences disponibles :
 
 ![image a4t_report_graph2](assets/a4t_report_graph2.png)
 
@@ -126,7 +126,7 @@ Ouvrez le tutoriel [Analytics et Target : bonnes pratiques relatives à l’ana
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cette rubrique.
 
-### Analytics for Adobe Target (A4T) (4:32) ![Badge de présentation](/help/main/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Badge d’aperçu](/help/main/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser [!DNL Analytics] comme source de création de rapports dans [!DNL Target] dans le cadre de l’analyse de votre programme d’optimisation.
 
@@ -134,7 +134,7 @@ Cette vidéo explique de quelle façon utiliser [!DNL Analytics] comme source de
 * Explication du fonctionnement d’A4T
 * Compréhension des conditions préalables requises pour pouvoir utiliser A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/3421725?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
 ### Intégration d’Analytics/d’Adobe Target (A4T) (40:33) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
@@ -149,7 +149,7 @@ Cette vidéo est un enregistrement de « [Office Hours](/help/main/cmp-resource
 
 >[!MORELIKETHIS]
 >
->* Implémentation d’[Analytics for  [!DNL Target] &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) : contient des informations d’implémentation pour at.js et le SDK Web Platform.
+>* Implémentation d’[Analytics for  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) : contient des informations d’implémentation pour at.js et le SDK Web Platform.
 >* [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Qu’est-ce que SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr) : contient des informations générales sur le SDK Web Platform.
 >* [Présentation de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr) : contient des informations spécifiques à [!DNL Target] et au [!DNL Platform Web SDK].

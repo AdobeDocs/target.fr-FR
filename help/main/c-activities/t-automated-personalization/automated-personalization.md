@@ -2,7 +2,7 @@
 keywords: automated personalization;ap;audiences;ensemble;forêt aléatoire;bandit manchot;échantillonnage de thompson;ml;machine learning
 description: Découvrez comment utiliser les activités [!UICONTROL Automated Personalization] (AP) dans [!DNL Adobe Target] qui utilisent le machine learning avancé pour faire correspondre différentes variations d’offre à chaque visiteur.
 title: Qu’est-ce qu’une activité [!UICONTROL Automated Personalization] (AP) ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 TQID: 'https://experienceleague.adobe.com/BBtKgNRTlqNFFoAjr1LQkhHyZeAlXG2h8D7bsndh4kQ'
@@ -38,12 +38,12 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '908'
 ht-degree: 15%
 ---
-# [!UICONTROL Automated Personalization] (AP) {#automated-personalization-overview}
+# Prise en main d’[!UICONTROL Automated Personalization] {#automated-personalization-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -93,4 +93,4 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target]. *
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
