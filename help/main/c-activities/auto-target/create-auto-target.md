@@ -2,7 +2,7 @@
 keywords: Créer un ciblage automatique;test A/B;activité de ciblage automatique;nouvelle activité a/b;ciblage automatique;ciblage automatique pour les expériences personnalisées;personnalisé;optimisation
 description: Découvrez comment utiliser le [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité de test A/B de [!UICONTROL ciblage automatique].
 title: Comment créer une activité de [!UICONTROL ciblage automatique] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 TQID: 'https://experienceleague.adobe.com/qbt-h-4C4uVz6r6xmwKmSeU-RuBdWikmtDQq40dBq9k'
@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 9f1aaf5c0b172b4bbe89266800708881306e4592
+source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 12%
@@ -144,7 +144,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
    | Méthode | Ce qu&#39;il fait |
    |---|---|
    | **[!UICONTROL Manuel (Par Défaut)]** | Indiquez le pourcentage de participants qui doivent voir chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %. |
-   | **[!UICONTROL Affectation automatique à la meilleure expérience]** | La plupart des participants aux activités sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez [**[!UICONTROL Aperçu de l’affectation automatique &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
+   | **[!UICONTROL Affectation automatique à la meilleure expérience]** | La plupart des participants aux activités sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez [**[!UICONTROL Aperçu de l’affectation automatique ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** | [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en offrant l’expérience la plus personnalisée aux visiteurs selon leurs profils clients individuels et les comportements passés de visiteurs similaires. Pour plus d’informations, consultez [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++

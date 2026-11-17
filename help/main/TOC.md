@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 4c4ef48f9849069a6a525d167bc42c933fd0b156
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 83%
 ---
 
 # Guide du spécialiste d’Adobe Target {#using}
@@ -142,7 +142,7 @@ ht-degree: 84%
     + [Aperçu de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [L’affectation automatique surpasse un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + Ciblage automatique {#auto-target}
     + [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target.md)
@@ -340,4 +340,4 @@ ht-degree: 84%
   + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
   + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)

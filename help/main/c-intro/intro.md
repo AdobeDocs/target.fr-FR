@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 88a811c3ae521b94ceb6350ba44aa2d40afda2b6
+source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -105,27 +105,27 @@ ht-degree: 68%
 >abstract="Votre performance actuelle avant le début de l’expérience, soit la moyenne du groupe témoin. Toujours requis. Pour les mesures en pourcentage, saisissez un pourcentage : si 5 % des visiteurs et visiteuses cliquent sur S’abonner, saisissez 5. Pour les mesures de comptage, saisissez la valeur décimale brute."
 
 
-[!DNL Adobe Target], qui fait partie de la [!DNL Adobe Experience Cloud], propose des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
+[!DNL Adobe Target], qui fait partie de [!DNL Adobe Experience Cloud], offre des outils complets pour personnaliser les expériences client sur le web, les sites mobiles, les applications, les médias sociaux et d’autres canaux numériques.
 
-[!DNL Target] permet de maximiser les recettes et peut être mis sous licence en tant que [!DNL Target Standard] ou [!DNL Target Premium].
+[!DNL Target] permet de maximiser le chiffre d’affaires et peut être sous licence en tant que [!DNL Target Standard] ou [!DNL Target Premium].
 
 ## [!UICONTROL Target Standard] {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] est le front-end de [!DNL Adobe Target], permettant la création visuelle et la gestion de tests A/B et d’activités de ciblage basées sur des règles. [!DNL Target] prend en charge l’insertion de code personnalisé dans et en dehors du workflow [[!UICONTROL Compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!DNL Target Standard] offre une stratégie d’implémentation simplifiée pour vos propriétés numériques, avec une seule ligne de code sur chaque page gérant toutes les communications entre votre site et [!DNL Target].
+[!DNL Target Standard] est le front-end de [!DNL Adobe Target], ce qui permet la création et la gestion visuelles de tests A/B et d’activités de ciblage basées sur des règles. [!DNL Target] prend en charge l’insertion de code personnalisé dans et en dehors du workflow du [[!UICONTROL compositeur d’expérience visuelle]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC). [!DNL Target Standard] offre une stratégie d’implémentation simplifiée pour vos propriétés numériques, avec une seule ligne de code sur chaque page gérant toutes les communications entre votre site et [!DNL Target].
 
-Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce qui le rend adapté aux utilisateurs nouveaux et expérimentés. Vous pouvez facilement partager des données, des résultats et collaborer avec les membres de l’équipe à l’aide du [!DNL Adobe Experience Cloud].
+Les bonnes pratiques du secteur sont intégrées dans [!DNL Target Standard], ce qui le rend adapté aux utilisateurs nouveaux et expérimentés. Vous pouvez facilement partager des données, des résultats et collaborer avec les membres de l&#39;équipe à l&#39;aide de [!DNL Adobe Experience Cloud].
 
 ## [!DNL Target Premium] {#premium}
 
-[!BADGE Premium &#x200B;]{type=Positive}
+[!BADGE Premium]{type=Positive}
 
-[!DNL Target Premium] est une offre avancée qui nécessite une licence pour ajouter des fonctionnalités premium à [!DNL Target Standard]. Tous les articles [!DNL Target Premium] des guides de [!DNL Target] incluent le badge [!UICONTROL Premium] en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge [!UICONTROL Premium] et accéder à cette section.
+[!DNL Target Premium] est une offre avancée qui nécessite une licence pour ajouter des fonctionnalités premium à [!DNL Target Standard]. Tous les articles [!DNL Target Premium] des guides [!DNL Target] incluent le badge [!UICONTROL Premium] en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge [!UICONTROL Premium] et accéder à cette section.
 
-**[!DNL Target Premium]comprend les fonctionnalités suivantes**
+**[!DNL Target Premium]comprend les fonctionnalités suivantes :**
 
 ### [!UICONTROL Automated Personalization]
 
-[&#128279;](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) (AP) utilise des algorithmes de machine learning avancés pour offrir des expériences personnalisées et améliorer les taux de conversion des interactions numériques.
+[[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md#automated-personalization-overview) (AP) utilise des algorithmes de machine learning avancés pour offrir des expériences personnalisées et améliorer les taux de conversion des interactions numériques.
 
 AP enregistre l’activité des visiteurs, créant des profils pour cibler le contenu sur des visiteurs similaires. AP suit les réponses au contenu pour les individus et la population, en utilisant une modélisation sophistiquée pour cibler automatiquement chaque visiteur en fonction de tout ce qui est connu à son sujet.
 
@@ -133,7 +133,7 @@ AP est entièrement automatisé, apprend en permanence avec une analyse humaine 
 
 ### [!UICONTROL ciblage automatique]
 
-Le [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) s’appuie sur un machine learning avancé pour identifier les expériences hautement performantes définies par les spécialistes marketing. Il offre ensuite à chaque visiteur l’expérience la plus adaptée en fonction des profils individuels des clients et du comportement des visiteurs précédents présentant des profils similaires. Le [!UICONTROL ciblage automatique] permet de personnaliser le contenu et de générer des conversions.
+Le [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) utilise le machine learning avancé pour identifier les expériences hautement performantes définies par les spécialistes marketing. Il offre ensuite à chaque visiteur l’expérience la plus adaptée en fonction des profils individuels des clients et du comportement des visiteurs précédents présentant des profils similaires. Le [!UICONTROL ciblage automatique] permet de personnaliser le contenu et de générer des conversions.
 
 ### Recommandations
 
@@ -155,24 +155,24 @@ Une recommandation détermine comment un produit est proposé à un client, en f
 
 ### Recommandations en tant qu’offre
 
-[Recommendations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md) vous permet d’inclure des recommandations dans les activités [!UICONTROL Test A/B], [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique] et [!UICONTROL Ciblage d’expérience] (XT).
+[Recommendations en tant qu’offre](/help/main/c-recommendations/recommendations-as-an-offer.md) vous permet d’inclure des recommandations dans les activités de [!UICONTROL test A/B], [!UICONTROL affectation automatique], [!UICONTROL ciblage automatique] et [!UICONTROL ciblage d’expérience] (XT).
 
 Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 * Testez et ciblez le contenu des recommandations et des non-recommandations dans la même activité.
 * Testez facilement l’emplacement des recommandations sur la page, y compris l’ordre de plusieurs recommandations.
-* Envoyez automatiquement le trafic vers l’expérience de recommandations la plus performante à l’aide de l’[!UICONTROL &#x200B; Affectation automatique &#x200B;].
-* À l’aide du ciblage automatique [!UICONTROL , affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de profils individuels].
+* Envoyez automatiquement le trafic vers l’expérience Recommendations la plus performante à l’aide de l’[!UICONTROL affectation automatique].
+* À l’aide du [!UICONTROL ciblage automatique], affectez de manière dynamique les visiteurs à des expériences de recommandations personnalisées en fonction de profils individuels.
 
 ### Autorisations des utilisateurs d’Enterprise
 
-La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) vous permet de créer différents projets (appelés « Profils de produits » dans [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Autorisations des utilisateurs d’Enterprise] vous permettent d’attribuer des autorisations différentes à un utilisateur unique, ce qui détermine ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients sont donc en mesure de restreindre l’accès à leurs utilisateurs pour l’affichage, la modification, l’approbation et la publication. Vous pouvez restreindre les utilisateurs et les utilisatrices en fonction de la zone géographique, de l’environnement (développement/test/production), du canal ou d’autres critères personnalisés.
+La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) vous permet de créer différents projets (appelés « Profils de produits » dans [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Les autorisations des utilisateurs de l&#39;entreprise] vous permettent d&#39;attribuer des autorisations différentes à un seul utilisateur, ce qui détermine ses droits d&#39;accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients sont donc en mesure de restreindre l’accès à leurs utilisateurs pour l’affichage, la modification, l’approbation et la publication. Vous pouvez restreindre les utilisateurs et les utilisatrices en fonction de la zone géographique, de l’environnement (développement/test/production), du canal ou d’autres critères personnalisés.
 
 ## Fonctionnalités de Beta {#beta}
 
-{type=Informative}
+[!BADGE Beta]{type=Informative}
 
-L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaires. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions d’[!DNL Target Standard/Premium] et annoncées dans les notes de mise à jour.
+L’équipe [!DNL Adobe Target] active souvent de nouvelles fonctionnalités pour certains clients à des fins de test et de commentaires. Une fois la période de test terminée, ces fonctionnalités sont activées pour tous les clients dans les prochaines versions de [!DNL Target Standard/Premium] et annoncées dans les notes de mise à jour.
 
 Les articles des guides [!DNL Target] décrivant les fonctionnalités de Beta incluent le badge Beta en haut de chaque page ou en ligne près du texte concerné. Vous pouvez cliquer sur le badge Beta et inclure un lien vers cette section.
 
@@ -186,7 +186,7 @@ Les articles des guides [!DNL Target] décrivant les fonctionnalités de Beta in
 
 Pour plus d’informations, consultez la [documentation sur Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf).
 
-## Experience League : kit de bienvenue Adobe [!DNL Target] {#kit}
+## Experience League : Kit De Bienvenue Adobe [!DNL Target] {#kit}
 
 Créez votre programme d’optimisation et de personnalisation sur [!DNL Adobe Target] avec ce kit de bienvenue. Le kit de bienvenue comprend des informations clés, des outils et des ressources pour vous aider à préparer et à lancer votre première activité [!DNL Target]. Le kit contient des idées pour des gains rapides à court terme et pour des stratégies d’optimisation à long terme.
 
@@ -200,6 +200,6 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 
