@@ -31,7 +31,7 @@ ht-degree: 8%
 
 Un test multivarié compare plusieurs expériences. Il est donc important de connaître la quantité de trafic requise pour fournir des résultats significatifs. L’**[!UICONTROL estimateur de trafic]** utilise des statistiques sur votre page et le nombre d’expériences testées afin d’estimer la quantité de trafic et la durée de test nécessaires pour réussir le test. Il fournit également des commentaires qui vous permettent de savoir si vous disposez d’un trafic suffisant pour le test que vous avez conçu pour réussir.
 
-L’estimateur de trafic **** prédit la taille d’échantillon nécessaire pour garantir les éléments suivants :
+L’estimateur de trafic **&#x200B;**&#x200B;prédit la taille d’échantillon nécessaire pour garantir les éléments suivants :
 
 * **Confiance à 95 %.** Cette statistique signifie que la probabilité de signaler un faux positif en l’absence d’effet élévateur réel est de 5 % (100 % - niveau de confiance).
 * **80 % de puissance statistique.** Cette statistique signifie que le test a une probabilité de 80 % de détecter une portance réelle de 25 % ou plus.

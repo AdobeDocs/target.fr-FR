@@ -61,7 +61,7 @@ La liste [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser 
 
   >[!NOTE]
   >
-  >La source [!DNL Adobe Experience Platform] est disponible pour tous les clients [!DNL Target] qui utilisent le [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}. Les audiences disponibles à partir de [!DNL Adobe Experience Platform] peuvent être utilisées telles quelles ou [ combinées avec des audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
+  >La source [!DNL Adobe Experience Platform] est disponible pour tous les clients [!DNL Target] qui utilisent le [SDK Web Adobe Experience Platform](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}. Les audiences disponibles à partir de [!DNL Adobe Experience Platform] peuvent être utilisées telles quelles ou [&#x200B; combinées avec des audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
   >
   >Les utilisateurs doivent disposer du statut [!UICONTROL Approbateur] ou supérieur dans [!DNL Target] pour configurer les [!DNL Target] [!UICONTROL cartes de destinations] dans AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
   >
@@ -100,7 +100,7 @@ La carte de définition de l’audience affiche le type, la source et les attrib
 
 Les informations d’utilisation des audiences peuvent vous aider à éviter tout impact accidentel sur d’autres activités lors de la modification des audiences. Les informations incluent les [!UICONTROL activités en direct], les [!UICONTROL activités inactives], les [!UICONTROL activités archivées] et les [!UICONTROL activités de synchronisation]. Cette fonctionnalité est disponible pour toutes les audiences (audiences de bibliothèque et [audiences d’activité uniquement](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
-Si une audience est [ combinée avec une autre audience](/help/main/c-target/combining-multiple-audiences.md) et que l’audience combinée est utilisée pour créer une activité, les informations d’utilisation des deux audiences répertorient cette activité nouvellement créée.
+Si une audience est [&#x200B; combinée avec une autre audience](/help/main/c-target/combining-multiple-audiences.md) et que l’audience combinée est utilisée pour créer une activité, les informations d’utilisation des deux audiences répertorient cette activité nouvellement créée.
 
 ![image audience_definition_list_usage](assets/audience_definition_list_usage.png)
 

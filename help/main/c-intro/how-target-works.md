@@ -76,7 +76,7 @@ Target s’intègre aux sites web à l’aide de [!DNL Experience Platform Web S
 >
 >La bibliothèque mbox.js est une implémentation héritée pour [!DNL Target] et n’est plus prise en charge après le 31 mars 2021. Effectuez la mise à niveau vers [!UICONTROL Experience Platform Web SDK] (recommandé) ou la dernière version d’at.js.
 
-Référencez [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser les balises [ dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
+Référencez [!UICONTROL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, ajoutez l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser les balises [&#x200B; dans Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank} pour implémenter [!DNL Target].
 
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation de [!DNL Experience Platform Web SDK] ou d’at.js :
 

@@ -1,6 +1,6 @@
 ---
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
-description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de [!UICONTROL ciblage automatique] dans Automated Personalization] (AP) ou [!UICONTROL ciblage automatique[!DNL Adobe Target].
+description: Découvrez comment sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de [!UICONTROL ciblage automatique] dans Automated Personalization (AP) ou ciblage automatique[!DNL Adobe Target].
 title: Comment puis-je utiliser une expérience spécifique en tant que contrôle dans une activité [!UICONTROL Automated Personalization] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization, Auto-Target
@@ -79,7 +79,7 @@ Gardez les points suivants à l’esprit lorsque vous utilisez une expérience s
 
 La spécification d’une expérience spécifique en tant que contrôle donne au trafic personnalisé une expérience connue à comparer, telle que votre expérience par défaut actuelle, dans les rapports de l’activité.
 
-1. Lors de la création ou de la modification d’une activité [**[!UICONTROL Automated Personalization ]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) ou d’une activité de [**[!UICONTROL ciblage automatique]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configurez les expériences selon vos besoins.
+1. Lors de la création ou de la modification d’une activité [**[!UICONTROL Automated Personalization &#x200B;]**](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#create-ap-activity) ou d’une activité de [**[!UICONTROL ciblage automatique]**](/help/main/c-activities/auto-target/create-auto-target.md#create-auto-target-activity), configurez les expériences selon vos besoins.
 
 1. Sur la page **[!UICONTROL Ciblage]** (étape 2 du workflow en trois parties), cliquez sur l’expérience de contrôle pour afficher les options **[!UICONTROL Contrôle]** dans le volet de droite.
 
