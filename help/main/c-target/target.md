@@ -1,7 +1,7 @@
 ---
 keywords: Ciblage;audiences
-description: Découvrez comment utiliser les audiences dans  [!DNL Adobe Target]  cibler différents contenus et expériences vers des audiences spécifiques afin d’optimiser vos efforts de marketing web.
-title: Comment puis-je utiliser [!UICONTROL Audiences] pour cibler un contenu différent sur des segments spécifiques ?
+description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target] pour cibler un contenu et des expériences différents vers des audiences spécifiques afin d’optimiser vos efforts de marketing web.
+title: Comment utiliser les [!UICONTROL audiences] pour cibler un contenu différent sur des segments spécifiques ?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 TQID: https://experienceleague.adobe.com/SWnY6R7U3OXq9cVN5CHruKswSDX-z6fX51QSmBIfWDw
@@ -16,16 +16,14 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 316
+source-wordcount: '321'
 ht-degree: 38%
-
 ---
+# Commencer avec les audiences
 
-# Audiences
-
-Utilisez les audiences dans [!DNL Adobe Target] pour cibler différents contenus et expériences selon les audiences afin d’optimiser votre marketing web en affichant les messages adéquats aux personnes appropriées et au moment opportun.
+Utilisez les audiences dans [!DNL Adobe Target] pour cibler un contenu et des expériences différents vers des audiences spécifiques afin d&#39;optimiser votre marketing web en affichant les messages appropriés aux personnes appropriées au bon moment.
 
 Une audience est un groupe de participants à une activité similaire qui voient une activité ciblée. Une audience est un groupe de personnes ayant les mêmes caractéristiques, telles que de nouveaux visiteurs, des visiteurs récurrents ou des visiteurs récurrents en provenance de Californie. Si un visiteur est identifié comme faisant partie d’une audience cible, [!DNL Target] détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
 

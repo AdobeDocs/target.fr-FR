@@ -14,14 +14,12 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 50%
-
+source-wordcount: '388'
+ht-degree: 49%
 ---
-
-# Catégories d’audiences
+# Prise en main des catégories pour les audiences
 
 Vous pouvez cibler plusieurs attributs de catégorie à l’aide de [!DNL Adobe Target]. Pour créer des règles de ciblage (ou des groupes) pour chaque attribut, faites glisser et déposez les attributs de votre choix dans le volet du Créateur d’audience.
 
@@ -31,15 +29,15 @@ Lorsqu’une catégorie spécifique est sélectionnée, vous pouvez appliquer un
 
 Une fois une règle créée, cliquez sur **[!UICONTROL Terminé]**. Une synthèse de la règle s’affiche en regard du lien de ciblage pour le niveau ciblé.
 
-Vous pouvez affiner davantage une règle en ajoutant d’autres conditions ou en créant des règles supplémentaires dans d’autres catégories. Par exemple, vous ne pouvez cibler que les utilisateurs Firefox de San Francisco qui accèdent à votre site à partir de Google. Définissez la catégorie [!UICONTROL Géographique] pour cibler les utilisateurs de San Francisco, la catégorie [!UICONTROL Navigateur] pour cibler les utilisateurs à l’aide de Firefox et la catégorie [!UICONTROL Sources de trafic] pour cibler les utilisateurs provenant de [!UICONTROL Depuis Google]. Les règles créées dans les catégories sont combinées avec l’opérateur AND.
+Vous pouvez affiner davantage une règle en ajoutant d’autres conditions ou en créant des règles supplémentaires dans d’autres catégories. Par exemple, vous ne pouvez cibler que les utilisateurs Firefox de San Francisco qui accèdent à votre site à partir de Google. Définissez la catégorie [!UICONTROL Geo] pour cibler les utilisateurs de San Francisco, la catégorie [!UICONTROL Browser] pour cibler les utilisateurs à l’aide de Firefox et la catégorie [!UICONTROL Sources de trafic] pour cibler les utilisateurs provenant de [!UICONTROL De Google]. Les règles créées dans les catégories sont combinées avec l’opérateur AND.
 
 Pour créer des règles de ciblage complexes qui incluent des opérations OU dans plusieurs catégories, créez une cible d’expression.
 
-Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l’ajout d’une audience, effectuez un glisser-déposer **[!UICONTROL Profil du visiteur]**, puis choisissez le paramètre que vous souhaitez utiliser pour cibler votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox.
+Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l’ajout d’une audience, faites glisser et déposez **[!UICONTROL Profil du visiteur]**, puis choisissez le paramètre que vous souhaitez utiliser pour cibler votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox.
 
 Utilisez la zone de recherche pour effectuer des recherches dans votre liste d’[!UICONTROL audiences]. Vous pouvez effectuer une recherche sur une partie du nom de l’audience ou placer une chaîne spécifique entre guillemets.
 
-Vous pouvez trier la liste [!UICONTROL Audience] par nom d’audience ou par la date de sa dernière modification. Pour trier par nom ou date, cliquez sur l’en-tête de la colonne, puis choisissez d’afficher les audiences par ordre croissant ou décroissant.
+Vous pouvez trier la liste [!UICONTROL Audience] par nom d’audience ou par date de sa dernière modification. Pour trier par nom ou date, cliquez sur l’en-tête de la colonne, puis choisissez d’afficher les audiences par ordre croissant ou décroissant.
 
 ## Vidéo de formation : création d’audiences ![Badge de tutoriel](/help/main/assets/tutorial.png)
 

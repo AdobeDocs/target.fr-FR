@@ -3,10 +3,10 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 7799b1855a382df8461a78e5bf4e7d02dbcce751
+source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 84%
+source-wordcount: '1339'
+ht-degree: 71%
 ---
 
 # Guide du spécialiste d’Adobe Target {#using}
@@ -16,7 +16,7 @@ ht-degree: 84%
   + {hide-from-toc}[Annonces et événements Target](/help/main/r-release-notes/target-announcements.md)
   + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
   + [Notes de mise à jour de Target (version préliminaire)](r-release-notes/target-release-notes.md)
-  + [Aperçu de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
+  + [Prise en main de la documentation de Target](/help/main/r-release-notes/target-documentation.md)
   + [Mises à jour d’état du système et notifications proactives](r-release-notes/system-status-updates.md)
   + [Modifications de la documentation](r-release-notes/doc-change.md)
   + Notes de mise à jour pour les versions antérieures {#previous-rn}
@@ -31,7 +31,7 @@ ht-degree: 84%
   + [FAQ sur la mise à jour de l’interface utilisateur de Target](/help/main/c-intro/updated-ui-faq.md)
   + [Compétences des collègues pour Adobe Target](c-intro/coworker-skills.md)
   + Kit de bienvenue Adobe Target {#welcome}
-    + [Aperçu du kit de bienvenue Target](/help/main/c-intro/target-welcome-kit.md)
+    + [Prise en main du kit de bienvenue Target](/help/main/c-intro/target-welcome-kit.md)
     + [Chapitre 1 : Introduction](/help/main/c-intro/target-welcome-kit-1.md)
     + [Chapitre 2 : Principales caractéristiques de Target](/help/main/c-intro/target-welcome-kit-2.md)
     + [Chapitre 3 : Développement de vos idées de test et de personnalisation](/help/main/c-intro/target-welcome-kit-3.md)
@@ -47,7 +47,7 @@ ht-degree: 84%
   + [Vidéos de formation pour Target Standard et Premium](c-intro/target-standard-premium-training-videos.md)
   + [FAQ relative à l’optimisation et la personnalisation de Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administration de Target {#administer}
-  + [Présentation de l’administration de Target](administrating-target/administrating-target.md)
+  + [Prise en main de l’administration de Target](administrating-target/administrating-target.md)
   + [Premières étapes de l’administrateur](administrating-target/start-target.md)
   + [Configuration du compositeur d’expérience visuelle](/help/main/administrating-target/visual-experience-composer-set-up.md)
   + Création de rapports {#reporting}
@@ -63,7 +63,7 @@ ht-degree: 84%
   + Gérer les utilisateurs et les utilisatrices {#manage-users}
     + [Gestion des utilisateurs](administrating-target/c-user-management/user-management.md)
     + Utilisateurs et utilisatrices {#users}
-      + [Présentation des utilisateurs](administrating-target/c-user-management/c-user-management/user-management.md)
+      + [Prise en main des utilisateurs](administrating-target/c-user-management/c-user-management/user-management.md)
       + [Résolution des problèmes liés à la gestion des utilisateurs](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
     + Autorisations des utilisateurs d’Enterprise {#enterprise}
       + [Autorisations des utilisateurs d’Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
@@ -71,7 +71,7 @@ ht-degree: 84%
       + [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
   + [Recommandations](/help/main/administrating-target/recommendations-settings.md)
 + Implémentation de Target {#implement-target}
-  + [Implémentation de la vue d’ensemble de Target](c-implementing-target/implementing-target.md)
+  + [Prise en main de l’implémentation de Target](c-implementing-target/implementing-target.md)
 + Serveur Adobe Target MCP {#mcp}
   + [Aperçu](c-integrating-target-with-mac/mcp/target-mcp.md)
   + [Prise en main](c-integrating-target-with-mac/mcp/target-mcp-get-started.md)
@@ -79,7 +79,7 @@ ht-degree: 84%
   + [Référence des outils du serveur MCP](c-integrating-target-with-mac/mcp/target-mcp-tools-reference.md)
 + Intégration de Target à Experience Cloud {#integrate}
   + Adobe Analytics comme source de création de rapports pour Target (A4T) {#a4t}
-    + [Vue d’ensemble d’A4T](c-integrating-target-with-mac/a4t/a4t.md)
+    + [Prise en main d’A4T](c-integrating-target-with-mac/a4t/a4t.md)
     + [Avant l’implémentation](c-integrating-target-with-mac/a4t/before-implement.md)
     + [Implémentation d’Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
     + [Exigences d’autorisation des utilisateurs](c-integrating-target-with-mac/a4t/account-reqs.md)
@@ -111,21 +111,21 @@ ht-degree: 84%
       + {hide-from-toc}[Ajouter ou masquer des composants sur votre page web](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
   + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
   + Intégration de Target à Adobe Experience Manager (AEM) {#aem}
-    + [Présentation de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+    + [Prise en main de l’intégration de Target à AEM](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
     + Fragments d’expérience et fragments de contenu {#fragments}
-      + [Présentation des fragments d’expérience et des fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+      + [Prise en main des fragments d’expérience et des fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
       + [Fragments d’expérience AEM](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
       + [Fragments de contenu AEM](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
   + [Intégration de Target à Adobe Audience Manager (AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
   + [Intégration à Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
   + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activités {#activities}
-  + [Présentation des activités](c-activities/activities.md)
+  + [Prise en main des activités](c-activities/activities.md)
   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
   + [Calculateur de taille d’échantillon](c-activities/sample-size-calculator.md)
   + [Types d’activités de Target](c-activities/target-activities-guide.md)
   + Test A/B {#abtest}
-    + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
+    + [Prise en main des tests A/B](c-activities/t-test-ab/test-ab.md)
     + [Quelle doit être la durée d’exécution d’un test A/B ?](c-activities/t-test-ab/sample-size-determination.md)
     + [Dix écueils courants des tests A/B et comment les éviter](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
     + [Test A/A](/help/main/c-activities/t-test-ab/aa-testing.md)
@@ -139,17 +139,17 @@ ht-degree: 84%
       + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
       + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
   + Affectation automatique {#auto-allocate}
-    + [Aperçu de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+    + [Prise en main de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
     + [Création d’une activité d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
     + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
-    + [L’affectation automatique peut vous donner des résultats de test plus rapides et un chiffre d’affaires plus élevé qu’un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+    + [L’affectation automatique surpasse un test manuel](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
   + Ciblage automatique {#auto-target}
-    + [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+    + [Prise en main du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
     + [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target.md)
     + [FAQ et dépannage du ciblage automatique](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
     + [Rapports et ciblage automatique](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
   + Automated Personalization {#automated-personalization}
-    + [Présentation d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
+    + [Prise en main d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
     + [Algorithme Forêt aléatoire](c-activities/t-automated-personalization/algo-random-forest.md)
     + [Création d’une activité Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
     + [Chargement de données pour les algorithmes de personnalisation de Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
@@ -159,26 +159,23 @@ ht-degree: 84%
     + [Offres Target Automated Personalization](c-activities/t-automated-personalization/ap-target-offers.md)
     + [Gestion des exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
     + [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-    + [Sélection du contrôle de votre activité de Automated Personalization ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md)
+    + [Sélectionner l’expérience de contrôle](c-activities/t-automated-personalization/experience-as-control.md)
     + [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
     + [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
   + Ciblage d’expérience {#experience-targeting}
-    + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
-    + Création d’une activité de ciblage d’expérience {#create-targeting}
-      + [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md)
-      + [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-      + [Changement d’expérience dans le ciblage d’expérience](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+    + [Prise en main du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
+    + [Créez une activité](c-activities/t-experience-target/t-xt-create/xt-create.md)
+    + [Créez une expérience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+    + [Changement d’expérience dans le ciblage d’expérience](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
   + Test multivarié {#multivariate-test}
-    + [Présentation du test multivarié](c-activities/c-multivariate-testing/multivariate-testing.md)
+    + [Prise en main du test multivarié](c-activities/c-multivariate-testing/multivariate-testing.md)
     + [Bonnes pratiques pour les tests multivariés](c-activities/c-multivariate-testing/best-practices.md)
-    + [Planification d’un test multivarié](c-activities/c-multivariate-testing/plan-mvt.md)
     + Création d’un test multivarié {#create-mvt}
       + [Création d’un test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
       + [Création de combinaisons](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
       + [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-      + [Résolution de problèmes liés aux tests multivariés](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
   + [Activité de recommandations](c-activities/recommendations-activity.md)
   + [Modification d’une activité](c-activities/edit-activity.md)
   + [Priorité](c-activities/priority.md)
@@ -190,19 +187,19 @@ ht-degree: 84%
   + [Journal des modifications d’activité](c-activities/change-log.md)
   + [Informations sur l’IA](c-activities/ai-insights.md)
   + Résolution des problèmes liés aux activités {#troubleshoot-activities}
-    + [Résolution des problèmes d’activités](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
+    + [Prise en main des activités de dépannage](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
     + [Résolution des problèmes liés à la diffusion de contenu](c-activities/c-troubleshooting-activities/content-trouble.md)
   + AQ d’activité {#activity-qa}
-    + [Présentation de l’AQ d’activité](c-activities/c-activity-qa/activity-qa.md)
+    + [Prise en main de l’AQ d’activité](c-activities/c-activity-qa/activity-qa.md)
     + [Signet d’applet de l’AQ d’activité](c-activities/c-activity-qa/activity-qa-bookmark.md)
     + [Utilisation de l’AQ d’activité avec diffusion côté serveur](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + Audiences {#audiences}
-  + [Présentation des audiences](c-target/target.md)
+  + [Commencer avec les audiences](c-target/target.md)
   + Créer des audiences {#create-audiences}
-    + [Présentation de la création d’audiences](c-target/c-audiences/audiences.md)
+    + [Prise en main de la création d’audiences](c-target/c-audiences/audiences.md)
     + [Création d’audiences dans Target](c-target/c-audiences/create-audience.md)
     + Catégories d’audiences {#categories-audiences}
-      + [Présentation des catégories par audience](c-target/c-audiences/c-target-rules/target-rules.md)
+      + [Prise en main des catégories pour les audiences](c-target/c-audiences/c-target-rules/target-rules.md)
       + [Navigateur](c-target/c-audiences/c-target-rules/browser.md)
       + [Paramètres personnalisés](c-target/c-audiences/c-target-rules/custom-parameters.md)
       + [Géo](c-target/c-audiences/c-target-rules/geo.md)
@@ -220,7 +217,7 @@ ht-degree: 84%
   + [Filtres d’audiences pour la création de rapports](c-target/managing-audience-filters.md)
   + [Application d’une audience de rapport à une mesure de succès](c-target/apply-reporting-audience-success-metric.md)
   + Profils de visiteur {#visitor-profiles}
-    + [Présentation des profils du visiteur](c-target/c-visitor-profile/visitor-profile.md)
+    + [Prise en main des profils des visiteurs](c-target/c-visitor-profile/visitor-profile.md)
     + [Durée de vie du profil du visiteur](c-target/c-visitor-profile/visitor-profile-lifetime.md)
     + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
     + [Utilisation des scripts de profil pour le test des activités s’excluant mutuellement](/help/main/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
@@ -231,22 +228,22 @@ ht-degree: 84%
   + FAQ sur le ciblage et les audiences {#faq-audiences}
     + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Offres et expériences {#experiences}
-  + [Présentation des expériences et des offres](c-experiences/experiences.md)
+  + [Prise en main des expériences et des offres](c-experiences/experiences.md)
   + Compositeur d’expérience visuelle (VEC) {#vec}
-    + [Présentation du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+    + [Prise en main du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
     + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
     + [Modifications du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
     + [Inclure la même expérience sur des pages similaires](c-experiences/c-visual-experience-composer/temtest.md)
     + [Activité multi-page](c-experiences/c-visual-experience-composer/multipage-activity.md)
     + [Collisions d’activités](c-experiences/c-visual-experience-composer/activity-collisions.md)
     + Modifications {#modifications}
-      + [Présentation des modifications](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+      + [Prise en main des modifications](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
       + [Modèles d’expérience](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
     + [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/vec-selectors.md)
     + [Fenêtres d’affichage mobiles pour les expériences réactives](c-experiences/c-visual-experience-composer/mobile-viewports.md)
     + [Bonnes pratiques et limites du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
     + Résolution des problèmes du Compositeur d’expérience visuelle {#troubleshoot-composer}
-      + [Résolution des problèmes liés au Compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+      + [Prise en main du dépannage du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
       + [Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [Résolution des problèmes du Compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [Résolution des problèmes du Compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
@@ -259,7 +256,7 @@ ht-degree: 84%
   + [Compositeur d’expérience d’après les formulaires](c-experiences/form-experience-composer.md)
   + [Compositeur d’expérience visuelle pour application d’une seule page](c-experiences/spa-visual-experience-composer.md)
   + Offres {#offers}
-    + [Présentation des offres](c-experiences/c-manage-content/manage-content.md)
+    + [Prise en main des offres](c-experiences/c-manage-content/manage-content.md)
     + [Création d’un dossier d’offres](c-experiences/c-manage-content/create-content-folder.md)
     + [Téléchargement de contenu](c-experiences/c-manage-content/assets-upload.md)
     + [Création d’offres de redirection](c-experiences/c-manage-content/offer-redirect.md)
@@ -270,9 +267,9 @@ ht-degree: 84%
     + [Transmission de données dynamiques dans les offres](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
     + [Expérience AEM et fragments de contenu](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapports {#reports}
-  + [Présentation des rapports](c-reports/reports.md)
+  + [Prise en main des rapports](c-reports/reports.md)
   + Paramètres des rapports {#settings}
-    + [Présentation des paramètres du rapport](c-reports/c-report-settings/report-settings.md)
+    + [Prise en main des paramètres des rapports](c-reports/c-report-settings/report-settings.md)
     + [Affichage de plusieurs mesures dans un rapport](c-reports/c-report-settings/view-multiple-metrics.md)
     + [Exclusion des valeurs extrêmes](c-reports/c-report-settings/excluding-extreme-orders.md)
     + [Téléchargement des données dans un fichier CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
@@ -282,7 +279,7 @@ ht-degree: 84%
     + [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
     + [Rapports de synthèse d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
   + Rapport Personalization Insights {#insights}
-    + [Présentation des rapports des informations de personnalisation](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+    + [Prise en main des rapports Personalization Insights](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
     + [Rapport Segments automatisés](c-reports/c-personalization-insights-reports/automated-segments-report.md)
     + [Rapport Attributs importants](c-reports/c-personalization-insights-reports/important-attributes-report.md)
   + Rapports de test multivarié {#multivariate-test-reports}
@@ -291,11 +288,11 @@ ht-degree: 84%
   + [Rapports Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
   + [FAQ sur la création de rapports](c-reports/reporting-frequently-asked-questions.md)
 + Recommandations {#recommendations}
-  + [Présentation de Recommandations](c-recommendations/recommendations.md)
+  + [Prise en main de Recommendations](c-recommendations/recommendations.md)
   + [Présentation des recommandations](c-recommendations/introduction-to-recommendations.md)
   + [Planifier et implémenter des recommandations](c-recommendations/plan-implement.md)
   + Entités {#entities}
-    + [Présentation des entités](c-recommendations/c-products/products.md)
+    + [Prise en main des entités](c-recommendations/c-products/products.md)
     + [Attributs d’entité](c-recommendations/c-products/entity-attributes.md)
     + [Attributs d’entité personnalisés](c-recommendations/c-products/custom-entity-attributes.md)
     + [Flux](c-recommendations/c-products/feeds.md)
@@ -303,7 +300,7 @@ ht-degree: 84%
     + [Collections](c-recommendations/c-products/collections.md)
     + [Exclusions](c-recommendations/c-products/exclusions.md)
   + Critères {#criteria}
-    + [Présentation des critères](c-recommendations/c-algorithms/algorithms.md)
+    + [Prise en main des critères](c-recommendations/c-algorithms/algorithms.md)
     + [Création de critères](c-recommendations/c-algorithms/create-new-algorithm.md)
     + [Création d’une séquence de critères](c-recommendations/c-algorithms/create-criteria-sequence.md)
     + [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
@@ -319,7 +316,7 @@ ht-degree: 84%
     + [Utilisation des attributs à plusieurs valeurs](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
     + [Utiliser Adobe Analytics avec Recommandations](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
   + Conception {#recommendations-design}
-    + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
+    + [Prise en main des conceptions](c-recommendations/c-design-overview/design-overview.md)
     + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
     + [Questions fréquentes sur la conception](c-recommendations/c-design-overview/template-faq.md)
     + [Personnalisation d’une conception à l’aide de Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
@@ -339,5 +336,5 @@ ht-degree: 84%
   + [Résolution des problèmes liés à Target](r-troubleshooting-target/troubleshooting-target.md)
   + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
-  + [Aperçu de l’API Adobe Target](/help/main/api/api-overview.md)
+  + [Prise en main des SDK et API d’Adobe Target](/help/main/api/api-overview.md)
 + [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)

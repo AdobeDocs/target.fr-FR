@@ -16,9 +16,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: aad553690f1f399177214c94a2276d038f46d9cb
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '929'
 ht-degree: 16%
 ---
 # Création d’un test multivarié {#create-mvt}
@@ -34,6 +34,8 @@ Le **[!UICONTROL compositeur d’expérience visuelle]** (VEC) dans [!DNL Adobe 
 L’éditeur de pointage-clic [!DNL Target] vous permet de sélectionner n’importe quel emplacement et d’ajouter plusieurs offres.
 
 Le **[!UICONTROL test multivarié]** (MVT) prend un rapport page première. En d’autres termes, le test s’exécute sur une URL spécifique, avec des expériences que vous concevez pour cette page.
+
+Avant de créer le test, consultez les [recommandations de planification](/help/main/c-activities/c-multivariate-testing/best-practices.md#plan) pour vérifier votre trafic, choisir les éléments à tester et préparer votre contenu.
 
 Suivez les étapes ci-dessous pour créer un **[!UICONTROL test multivarié]** (MVT) :
 
@@ -70,7 +72,7 @@ Choisissez le type d’activité et le type de diffusion, spécifiez la page à 
 
 Ajoutez des offres à chaque emplacement, prévisualisez les expériences obtenues et vérifiez que votre plan de test est réalisable.
 
-1. [Créez les offres à chaque emplacement](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Créez les offres à chaque emplacement](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#create-combinations).
 
    Vous pouvez ajouter les types d’offres suivants :
 
@@ -82,7 +84,7 @@ Ajoutez des offres à chaque emplacement, prévisualisez les expériences obtenu
 
 1. Cliquez sur l’icône **[!UICONTROL Afficher les expériences]** ( ![Icône Afficher les expériences](/help/main/assets/icons/WebPages.svg) ) pour afficher la liste de toutes les expériences dans le cadre de gauche, puis cliquez sur une expérience spécifique dans la liste pour afficher cette expérience.
 
-1. [Utilisez l’estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) afin de tester la faisabilité de votre plan de test.
+1. [Utilisez l’estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#use-traffic-estimator) afin de tester la faisabilité de votre plan de test.
 
 ### Exclure des expériences (facultatif) {#exclude-experiences}
 
@@ -124,7 +126,7 @@ Choisissez les visiteurs qui participent au test et passez en revue le résumé 
 
    +++
 
-1. [Vérifiez le résumé du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) et apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Suivant]**.
+1. [Vérifiez le résumé du test](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#mvt-test-summary) et apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Suivant]**.
 
 ## Configurer les objectifs et les paramètres {#configure-goals-and-settings}
 

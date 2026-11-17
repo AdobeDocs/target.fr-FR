@@ -1,7 +1,7 @@
 ---
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;dépannage;dépannage;rapports;rapports;rapport de synthèse de ciblage automatique;rapport de synthèse;segments automatisés;attributs importants
 description: Découvrez comment interpréter les rapports d’activité de [!UICONTROL ciblage automatique] dans [!DNL Target].
-title: Comment interpréter un rapport de [!UICONTROL &#x200B; ciblage automatique &#x200B;] ?
+title: Comment interpréter un rapport de [!UICONTROL ciblage automatique] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
@@ -26,21 +26,25 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 90943644c64269a8f34b79cf1b6dac35ffd57bb2
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 12%
+source-wordcount: '247'
+ht-degree: 5%
 ---
-# Rapports et [!UICONTROL ciblage automatique]
+# Création de rapports et [!UICONTROL ciblage automatique] {#reporting-and-auto-target}
 
-Informations sur la façon d’interpréter les rapports [!UICONTROL Résumé de ciblage automatique] dans [!DNL Adobe Target], y compris les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
+>[!BEGINSHADEBOX]
 
-Pour plus d’informations sur chaque rapport, consultez les rubriques suivantes :
+**Sur cette page :** Découvrez les rapports qui vous aident à interpréter les résultats d’une activité de **[!UICONTROL ciblage automatique]**.
+
+>[!ENDSHADEBOX]
+
+[!DNL Adobe Target] fournit trois rapports pour interpréter les résultats d’une activité de **[!UICONTROL ciblage automatique]** : le rapport **[!UICONTROL Résumé du ciblage automatique]**, le rapport **[!UICONTROL Segments automatisés]** et le rapport **[!UICONTROL Attributs importants]**. Pour plus d’informations sur chaque rapport, consultez les rubriques suivantes :
 
 | Rapport | Détails |
 | --- | --- |
-| [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Le rapport [!UICONTROL Synthèse du ciblage automatique] vous permet d’afficher les mesures de rapports dans une vue tabulaire ou graphique.<P>Ce rapport vous permet d’afficher les mesures de [!UICONTROL Visites], [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur moyen et intervalle de confiance] et [!UICONTROL Degré de confiance]. |
-| [Rapport Segments automatisés](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Le rapport [!UICONTROL &#x200B; Segments automatisés &#x200B;] montre comment différents visiteurs répondent différemment aux offres/expériences dans votre activité de [!UICONTROL ciblage automatique]. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de [!DNL Target] ont répondu aux offres/expériences dans l’activité. |
-| [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Le rapport [!UICONTROL Attributs importants] montre comment, dans différentes activités, les différents attributs sont plus (ou moins) importants par rapport à la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative. |
+| [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) | Le rapport **[!UICONTROL Résumé du ciblage automatique]** vous permet d’afficher les mesures de rapports dans une vue de tableau ou de graphique.<P>Ce rapport vous permet d’afficher les mesures de **[!UICONTROL taux de conversion]**, **[!UICONTROL taux de conversion]**, **[!UICONTROL effet élévateur moyen et intervalle de confiance]** et **[!UICONTROL degré de confiance]**. |
+| [Rapport Segments automatisés](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) | Le rapport **[!UICONTROL Segments automatisés]** montre comment différents visiteurs réagissent différemment aux offres et aux expériences dans votre activité de **[!UICONTROL ciblage automatique]**. Elle montre comment les segments automatisés définis par les modèles de personnalisation de [!DNL Target] ont répondu aux offres et aux expériences dans l’activité. |
+| [Rapport sur les attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Le rapport **[!UICONTROL Attributs importants]** montre comment, dans différentes activités, les différents attributs sont plus (ou moins) importants quant à la manière dont le modèle décide d’être personnalisé. Il indique les principaux attributs qui ont influencé le modèle et leur importance relative. |
 
-Pour obtenir des informations générales sur les rapports, voir [&#x200B; Rapports &#x200B;](/help/main/c-reports/reports.md).
+Pour obtenir des informations générales sur les rapports, voir [Rapports](/help/main/c-reports/reports.md).

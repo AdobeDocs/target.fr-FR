@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76cfdeb96e4d9c0bb69aab192f89636821787791
+source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -119,7 +119,7 @@ L’arrêt prématuré d’activités peut déboucher sur des conclusions erron�
 **Comment puis-je effectuer une activité si la fenêtre temporelle est étroite et puis-je optimiser mon objectif au fur et à mesure que je teste ?**
 
 +++Afficher les détails
-Consultez les [rapports pour déterminer l’expérience gagnante](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
+Consultez les [rapports pour déterminer l’expérience gagnante](/help/main/c-activities/automated-traffic-allocation/determine-winner.md#interpret-auto-allocate-reports).
 
 +++
 
@@ -142,7 +142,7 @@ Veillez également à tenir compte des [activités Recommandations](/help/main/c
 **Comment puis-je découvrir quelles combinaisons d’éléments sur ma page contribuent à son succès et dans quelle mesure chaque élément y contribue ?**
 
 +++Afficher les détails
-Consultez nos [activités de tests multivariés factoriels complets (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) avec l’analyse de contribution des éléments pour voir si ces ressources répondent à vos besoins.
+Consultez nos [activités de tests multivariés factoriels complets (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#get-started-mvt) avec l’analyse de contribution des éléments pour voir si ces ressources répondent à vos besoins.
 
 Il est à noter que les exigences de trafic augmentent avec les activités MVT.
 
@@ -264,7 +264,7 @@ Testez la [fonction Scripts de profil](/help/main/c-target/c-visitor-profile/pro
 **Puis-je commencer une activité avec un moins grand nombre de visiteurs ?**
 
 +++Afficher les détails
-Utilisez les contrôles d&#39;allocation en pourcentage disponibles à l&#39;[Étape 2 du workflow en trois parties (page Ciblage)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) pour décider comment vous souhaitez configurer l&#39;activité.
+Utilisez les contrôles d&#39;allocation en pourcentage disponibles à l&#39;[Étape 2 du workflow en trois parties (page Ciblage)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#select-audience) pour décider comment vous souhaitez configurer l&#39;activité.
 
 +++
 
@@ -339,7 +339,7 @@ Contactez Adobe pour [vous assurer que votre compte est configuré pour Scene7](
 **Je voudrais tester deux expériences différentes, par exemple une remise à plat par rapport à une remise en pourcentage, mais en ciblant les expériences de façon appropriée (en affichant différents paramètres régionaux ou devises pour les personnes venant de différents pays). Comment faire ?**
 
 +++Afficher les détails
-Vous pouvez facilement y parvenir avec notre [fonctionnalité Versions d’expériences multiples](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF). Notez les nuances concernant la diffusion dans ces tests.
+Vous pouvez facilement y parvenir avec notre [fonctionnalité Versions d’expériences multiples](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#use-case). Notez les nuances concernant la diffusion dans ces tests.
 
 +++
 

@@ -1,7 +1,7 @@
 ---
 keywords: automated personalization;offre;reporting;groupe;groupe de rapports;ap
-description: Découvrez comment utiliser les groupes de génération de rapports d’offre dans [!DNL Adobe Target] activités [!UICONTROL Automated Personalization].
-title: Puis-je utiliser les groupes de génération de rapports d’offres dans les activités  ?
+description: Découvrez comment utiliser les groupes de génération de rapports d’offre dans les activités [!DNL Adobe Target] [!UICONTROL Automated Personalization].
+title: Puis-je utiliser les groupes de génération de rapports d’offres dans les activités [!UICONTROL Automated Personalization] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
@@ -21,68 +21,83 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 20%
+source-wordcount: '926'
+ht-degree: 3%
 ---
-# Offrir des groupes de génération de rapports dans 
+# Offrir des groupes de génération de rapports dans [!UICONTROL Automated Personalization] {#offer-reporting-groups}
 
-Informations sur l’utilisation des groupes de génération de rapports dans [!DNL Adobe Target] activités [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+>[!BEGINSHADEBOX]
 
-Les groupes de génération de rapports effectuent deux fonctions clés :
+**Sur cette page :** Découvrez le fonctionnement des groupes de génération de rapports d’offre dans les **[!UICONTROL activités Automated Personalization]**, comment les configurer et comment les afficher dans les rapports.
 
-* Les groupes de rapports vous permettent de voir vos offres regroupées dans les rapports d’activité AP.
-* Les groupes de génération de rapports jouent un rôle clé dans le fonctionnement des modèles de personnalisation [!DNL Target].
+>[!ENDSHADEBOX]
 
-Lorsque vous utilisez des groupes de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque groupe de génération de rapports à l’aide des données de toutes les offres de ce groupe. Sans groupes de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque offre de votre activité AP.
+Les groupes de création de rapports vous permettent d&#39;organiser les offres d&#39;une activité [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) en groupes. Les groupes de génération de rapports effectuent deux fonctions clés :
 
-Si la configuration de votre activité ne contient pas suffisamment de données pour qu’un modèle de personnalisation soit créé par offre, les groupes de rapports permettent de réduire les exigences en matière de données pour utiliser . Les groupes de génération de rapports permettent également de résoudre le problème de « démarrage à froid » pour les nouvelles offres en regroupant les offres similaires, de sorte que chaque modèle obtienne davantage de données avec lesquelles se former. Les groupes de modélisation peuvent également être utilisés pour les activités dans lesquelles de nouvelles offres sont introduites régulièrement dans votre activité AP.
+* Ils vous permettent de voir vos offres regroupées dans les rapports d’activité AP.
+* Ils jouent un rôle clé dans le fonctionnement des modèles de personnalisation [!DNL Target].
 
-Cette approche fonctionne bien si les visiteurs répondent de la même manière à toutes les offres d’un groupe. La bonne pratique consiste à regrouper les offres auxquelles des groupes similaires de visiteurs répondent de la même manière. En d’autres termes, les offres de groupe présentant des taux de conversion similaires. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports. Le regroupement de toutes les offres ou le regroupement d’offres avec des taux de conversion différents réduit probablement l’efficacité des modèles de personnalisation [!DNL Target].
+Lorsque vous utilisez des groupes de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque groupe de génération de rapports, en utilisant les données de toutes les offres de ce groupe. Sans groupes de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque offre de votre activité AP.
+
+Les groupes de création de rapports réduisent également les exigences en matière de données pour utiliser **[!UICONTROL Automated Personalization]** lorsque la configuration de votre activité ne dispose pas de suffisamment de données pour créer un modèle de personnalisation par offre. Ils aident à résoudre le problème du « démarrage à froid » des nouvelles offres, qui sont regroupées avec des offres similaires afin que chaque modèle ait plus de données sur lesquelles s’entraîner.
+
+Cette approche fonctionne bien lorsque les visiteurs répondent de la même manière à toutes les offres d’un groupe, afin de regrouper les offres avec des taux de conversion similaires. Ne regroupez jamais toutes les offres dans un seul groupe de rapports et ne regroupez pas les offres avec des taux de conversion différents, car les deux choix sont susceptibles de réduire l&#39;efficacité des modèles de personnalisation [!DNL Target].
 
 >[!NOTE]
 >
->Si une offre est supprimée ou remplacée à partir d’un groupe de modélisation spécifique, le trafic historique qui a vu cette offre spécifique est également supprimé du groupe de modélisation. En d’autres termes, les offres supprimées ne contribuent pas aux données utilisées pour les modèles de personnalisation [!DNL Target] à apprendre.
+>Si une offre est supprimée ou remplacée dans un groupe de rapports, l’historique du trafic qui a vu cette offre est également supprimé du groupe, de sorte que les offres supprimées ne contribuent pas aux données que les modèles de personnalisation [!DNL Target] utilisent pour apprendre.
+
+
+## Considérations
+
+### Utilisation de groupes de génération de rapports pour les activités dynamiques
+
+Les groupes de génération d&#39;états affectent la manière dont [!DNL Target] crée ses modèles. Par conséquent, [!DNL Adobe] vous recommande d’utiliser les groupes de génération de rapports uniquement si vous prévoyez de remplacer ou d’ajouter des offres pendant qu’une activité est active. Si une nouvelle offre est introduite dans une activité active, la mise en groupe de la nouvelle offre avec des offres similaires existantes permet à [!DNL Target] d&#39;utiliser les données déjà collectées pour les autres offres du groupe afin d&#39;en savoir plus sur la nouvelle offre.
+
+### Comment les données sont enregistrées pour les offres et les emplacements
+
+Les activités AP combinent emplacement et offre (variables modèles). Lorsque [!DNL Target] enregistre des données dans des rapports, il prend en compte ces combinaisons afin de déterminer clairement de quel événement (affichage, clic, etc.) l’offre provient.
+
+Par exemple, une activité peut avoir plusieurs emplacements et plusieurs offres qui peuvent se chevaucher. Si un visiteur voit plusieurs de ces offres à différents emplacements, [!DNL Target] enregistre des données pour ces offres uniquement. Si le même visiteur clique ultérieurement sur une offre, [!DNL Target] enregistre un événement de cette combinaison uniquement (pas pour toutes les combinaisons).
+
+De même, si le clic provient d’un autre emplacement présent dans une mesure mais n’affiche pas d’offre, l’événement est consigné sous l’activité, mais pas pour une combinaison d’offre et d’emplacement. Par conséquent, cette offre n’apparaît pas dans le groupe de génération de rapports d’offre. Ce comportement se produit, car le clic peut être effectué à partir d’une mbox différente de celle qui a diffusé l’offre. Dans ce cas, la mesure est associée à l’activité, mais pas à l’offre.
 
 ## Configurer des groupes de génération de rapports
 
-1. Sur la page **[!UICONTROL Expériences]** d’une activité AP, cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![icône Gérer le contenu](/help/main/assets/icons/Experience.svg) )
-1. Cliquez sur l’onglet **[!UICONTROL Offres]** dans la partie supérieure de la boîte de dialogue [!UICONTROL Gérer le contenu].
-1. (Conditionnel) Ajoutez des expériences spécifiques à un groupe de rapports en cliquant sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmall.svg) ) pour l’offre souhaitée, puis en cliquant sur **[!UICONTROL Groupe de rapports]**.
+L&#39;affectation d&#39;offres à des groupes de génération de rapports détermine la manière dont [!DNL Target] crée ses modèles de personnalisation et la manière dont les offres s&#39;affichent dans les rapports d&#39;activité. Configurez les groupes lors de la création de l’activité ou ultérieurement si vous ajoutez de nouvelles offres à une activité active.
 
-1. (Conditionnel) Le lot inclut des expériences dans un groupe de rapports en cochant les cases correspondant aux expériences pertinentes, puis en cliquant sur **[!UICONTROL Groupe de rapports]** au bas de la boîte de dialogue.
+1. Sur la page **[!UICONTROL Expériences]** d’une activité AP, cliquez sur l’icône **[!UICONTROL Gérer le contenu]** ( ![Icône Gérer le contenu](/help/main/assets/icons/Experience.svg) ).
 
-1. Pour affecter l’offre sélectionnée à un groupe de rapports existant, sélectionnez **[!UICONTROL Existant]**, sélectionnez le groupe de rapports souhaité dans la liste déroulante, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Cliquez sur l’onglet **[!UICONTROL Offres]** dans la partie supérieure de la boîte de dialogue **[!UICONTROL Gérer le contenu]**.
 
-   Ou
+   ![Icône Configurer](../assets/ap-offers-2.png)
 
-   Pour créer un groupe de rapports auquel affecter l’offre sélectionnée, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de rapports, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. (Conditionnel) Choisissez les offres à ajouter à un groupe de reporting.
 
-Vous pouvez utiliser la liste [!UICONTROL Emplacement] pour filtrer les offres par emplacement. Utilisez la liste [!UICONTROL Groupe de rapports] pour filtrer les offres par groupe de génération de rapports. Vous pouvez également utiliser la liste [!UICONTROL Groupe de rapports] pour filtrer les [!UICONTROL Offres non assignées] et ainsi assigner un groupe de génération de rapports à une offre jusque là assignée à aucun groupe.
+   * Pour ajouter une seule offre, cliquez sur l’icône **[!UICONTROL Autres actions]** (![Icône Autres actions](/help/main/assets/icons/MoreSmall.svg) ) de l’offre, puis cliquez sur **[!UICONTROL Groupe de rapports]**.
+   * Pour ajouter plusieurs offres à la fois, cochez les cases correspondantes, puis cliquez sur **[!UICONTROL Groupe de rapports]** au bas de la boîte de dialogue.
 
-Pour plus d’informations sur le ciblage d’une offre vers des audiences spécifiques, consultez [Cibler les offres [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+1. Affectez les offres sélectionnées à un groupe de génération de rapports.
 
-## Avertissements
+   * Pour affecter les offres à un groupe de rapports existant, sélectionnez **[!UICONTROL Existant]**, sélectionnez le groupe de rapports dans la liste déroulante, puis cliquez sur **[!UICONTROL Confirmer]**.
+   * Pour créer un groupe de rapports pour les offres, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de rapports, puis cliquez sur **[!UICONTROL Confirmer]**.
 
-* Il est important de comprendre que les groupes de création de rapports influencent la manière dont [!DNL Target] crée ses modèles. Par conséquent, [!DNL Adobe] vous recommande d’utiliser les groupes de génération de rapports uniquement si vous prévoyez de remplacer ou d’ajouter de nouvelles offres pendant qu’une activité est active. Si une nouvelle offre est introduite dans une activité active, la mise en groupe de la nouvelle offre avec des offres similaires existantes permet à la machine d’utiliser les données déjà collectées pour les autres offres de son groupe afin d’en savoir plus sur la nouvelle offre. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports.
+Pour limiter la liste des offres, filtrez-la par emplacement avec la liste **[!UICONTROL Emplacement]** ou par groupe de rapports avec la liste **[!UICONTROL Groupe de rapports]**. La liste **[!UICONTROL Groupe de rapports]** propose également l’option **[!UICONTROL Offres non affectées]**, qui affiche les offres qui n’appartiennent encore à aucun groupe de rapports, afin que vous puissiez les affecter à un groupe.
 
-* Les activités AP combinent emplacement et offre (variables modèles). Lorsque [!DNL Target] enregistre des données dans des rapports, [!DNL Target] prend en compte ces combinaisons afin de déterminer clairement de quel événement (affichage, clic, etc.) l’offre provient.
-
-  Par exemple, une activité peut avoir plusieurs emplacements et plusieurs offres qui peuvent se chevaucher. Si un visiteur voit plusieurs de ces offres à différents emplacements, [!DNL Target] enregistre les données relatives à ces offres uniquement. Si le même visiteur clique ultérieurement sur une offre, [!DNL Target] enregistre un événement de cette combinaison uniquement (pas pour toutes les combinaisons).
-
-  De même, si le clic provient d’un autre emplacement, présent dans une mesure, mais n’affiche pas d’offre, cet événement est enregistré sous l’activité, mais pas pour toute combinaison offre + emplacement. Par conséquent, cette offre n’apparaît pas dans le groupe de génération de rapports d’offre.
-
-  Ce comportement est dû au fait que le clic peut être effectué à partir d’une mbox différente et non de la mbox qui a diffusé l’offre. Pour cette raison, la mesure est associée à l’activité, mais pas à l’offre.
+Pour plus d’informations sur le ciblage d’une offre vers des audiences spécifiques, consultez [Cibler **[!UICONTROL les offres Automated Personalization]**](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#set-up-targeting-rules).
 
 ## Afficher les offres dans un groupe de génération de rapports
 
-1. Cliquez sur **[!UICONTROL Activités]**, cliquez sur l’activité [!UICONTROL Automated Personalization] souhaitée dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports]** pour afficher le rapport [Niveau de l’offre](/help/main/c-reports/personalization-reports/reports-ap.md).
+Le rapport **[!UICONTROL Niveau d’offre]** montre les performances des offres d’une activité, regroupées par groupe de rapports, afin que vous puissiez comparer les groupes ainsi que les offres individuelles.
 
-   Si vous avez de nombreuses activités, cliquez sur l’icône [!UICONTROL Afficher les filtres] (funnel), puis cochez la case [!UICONTROL Automated Personalization] pour filtrer la liste afin d’afficher uniquement les activités [!UICONTROL Automated Personalization].
+1. Cliquez sur **[!UICONTROL Activités]**, sur l’activité **[!UICONTROL Automated Personalization]** dans la liste, puis sur l’onglet **[!UICONTROL Rapports]** pour afficher le rapport [Niveau d’offre](/help/main/c-reports/personalization-reports/reports-ap.md).
 
-1. Cliquez sur **[!UICONTROL Contrôle]** ou **[!UICONTROL Ciblé]** dans le tableau pour afficher les offres et les offres non groupées dans les groupes de génération de rapports.
+   Si vous avez de nombreuses activités, cliquez sur l’icône **[!UICONTROL Afficher les filtres]** (funnel), puis cochez la case **[!UICONTROL Automated Personalization]** pour afficher uniquement les **[!UICONTROL activités Automated Personalization]**.
 
-   ![Groupes d’offres : contrôle et ciblé](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+1. Cliquez sur **[!UICONTROL Contrôle]** ou **[!UICONTROL Ciblé]** dans le tableau pour afficher les offres non groupées et les offres à l&#39;intérieur des groupes de génération de rapports.
 
-Pour plus d’informations sur l’utilisation des rapports  (y compris le rapport [!UICONTROL Offer Level]), consultez [Rapports de synthèse d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+   ![Groupes d’offres : contrôlés et ciblés](/help/main/c-reports/assets/offer-groups.png)
+
+Pour plus d’informations sur l’utilisation des rapports **[!UICONTROL Automated Personalization]** (y compris le rapport **[!UICONTROL Niveau d’offre]**), voir [Rapports de synthèse Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).

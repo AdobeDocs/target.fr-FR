@@ -1,9 +1,9 @@
 ---
 keywords: implémenter, implémentation
-description: Maîtrisez les concepts de base, familiarisez [!DNL Target] vous avec le fonctionnement et l’intégration de à votre infrastructure et comprenez le suivi des visiteurs.
+description: Maîtrisez les concepts de base, familiarisez-vous avec le fonctionnement de [!DNL Target] et son intégration à votre infrastructure, et comprenez comment les visiteurs sont suivis.
 landing-page-description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site.
 short-description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site.
-title: Comment Mettre En Œuvre  [!DNL Target] ?
+title: Comment Mettre En Œuvre [!DNL Target] ?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
@@ -27,35 +27,33 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 51d3993ca3daaae824b9c598529ff4038fdcdb77
+source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 11%
-
+source-wordcount: '213'
+ht-degree: 10%
 ---
-
-# Implémentation de Target
+# Prise en main de l’implémentation de [!DNL Target]
 
 Avant de commencer à utiliser [!DNL Adobe Target], vous devez l’implémenter sur votre site.
 
 {{permissions-update}}
 
-Le [Guide du développeur d’](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} contient des informations que vous devez connaître avant d’implémenter [!DNL Target].
+Le [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank} contient des informations que vous devez connaître avant d’implémenter [!DNL Target].
 
 Le portail destiné aux développeurs contient des informations sur les types d’implémentation suivants :
 
-* **Côté client** : informations sur l’implémentation de à l’aide de l’[!DNL Adobe Experience Platform Web SDK] ou du [!DNL Target Web SDK] (at.js).
+* **Côté client** : informations sur l’implémentation de à l’aide de [!DNL Adobe Experience Platform Web SDK] ou de [!DNL Target Web SDK] (at.js).
 * **Côté serveur** : informations sur l’implémentation de à propos de l’utilisation des SDK Node.JS, JAVA, .NET et Python.
 * **Hybride** : informations sur l’implémentation de si vous utilisez une combinaison d’implémentations côté client et côté serveur.
-* **Recommendations** : informations destinées à vous aider à implémenter [!DNL Recommendations], une offre [Target Premium](/help/main/c-intro/intro.md#premium).
+* **Recommandations** : informations pour vous aider à implémenter [!DNL Recommendations], une offre [Target Premium](/help/main/c-intro/intro.md#premium).
 * **Applications mobiles** : informations pour vous aider à implémenter à l’aide des SDK [!DNL Adobe Experience Platform Mobile].
-* **E-mail** : informations pour vous aider à implémenter des [!DNL Target] dans les e-mails.
+* **E-mail** : informations pour vous aider à implémenter [!DNL Target] dans les e-mails.
 
-Pour plus d’informations, consultez le [Guide du développeur &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.
+Pour plus d’informations, consultez le [Guide du développeur d’Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.
 
 >[!NOTE]
 >
->Toutes les informations qui étaient auparavant incluses dans la section *Implémenter Target* de ce guide (le *Guide du spécialiste d’Adobe Target*) sont désormais incluses dans le [Guide de développement](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.
+>Toutes les informations précédemment incluses dans la section *Implémentation de Target* de ce guide (le *Guide du spécialiste d’Adobe Target*) sont désormais incluses dans le [Guide du développeur](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=fr){target=_blank}.
 
 
 
