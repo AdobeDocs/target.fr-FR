@@ -97,7 +97,7 @@ Cette vidéo de présentation explique les types d’activités disponibles dans
 * Sélectionnez le type d’activité approprié pour atteindre vos objectifs.
 * Décrivez le workflow guidé en trois étapes qui s’applique à tous les types d’activité.
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
 
 ### Création de tests multivariés (9:25) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ Cette vidéo explique comment comprendre, planifier et créer un test multivari�
 * Définissez et concevez un test multivarié.
 * Créez un test multivarié.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
