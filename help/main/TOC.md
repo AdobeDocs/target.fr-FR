@@ -3,9 +3,9 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 13fd7f8c92c5d8202d0e81518300fcc7e1fd1444
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1335'
 ht-degree: 71%
 ---
 
@@ -124,6 +124,8 @@ ht-degree: 71%
   + [Tableau de bord des informations](c-activities/insights-dashboard.md)
   + [Calculateur de taille d’échantillon](c-activities/sample-size-calculator.md)
   + [Types d’activités de Target](c-activities/target-activities-guide.md)
+  + [Modification d’une activité](c-activities/edit-activity.md)
+  + [Priorité](c-activities/priority.md)
   + Test A/B {#abtest}
     + [Prise en main des tests A/B](c-activities/t-test-ab/test-ab.md)
     + [Quelle doit être la durée d’exécution d’un test A/B ?](c-activities/t-test-ab/sample-size-determination.md)
@@ -176,10 +178,6 @@ ht-degree: 71%
       + [Aperçu des expériences pour un test multivarié](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
       + [Estimation du trafic requis pour un test réussi](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
       + [Résumé du test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-  + [Activité de recommandations](c-activities/recommendations-activity.md)
-  + [Modification d’une activité](c-activities/edit-activity.md)
-  + [Priorité](c-activities/priority.md)
-  + [Paramètres d’activité](c-activities/activity-settings.md)
   + Mesures de succès {#success-metrics}
     + [Mesures de succès](c-activities/r-success-metrics/success-metrics.md)
     + [Suivi des clics](c-activities/r-success-metrics/click-tracking.md)

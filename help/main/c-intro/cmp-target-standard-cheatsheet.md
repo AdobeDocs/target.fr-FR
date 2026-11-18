@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -194,14 +194,14 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Ciblage] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Pour ce faire, [&#x200B; accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
+Pour ce faire, [&#x200B; accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
 
 +++
 
 **Puis-je rester sur une étape particulière, continuer à modifier l’activité (le texte de l’offre ou le code personnalisé, par exemple), puis exécuter la vérification QA sous un autre onglet ?**
 
 +++Afficher les détails
-C&#39;est possible. Il vous suffit d’[utiliser l’option [!UICONTROL Enregistrer] pour apporter des modifications incrémentielles sans quitter l’étape](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+C&#39;est possible. Il vous suffit d’[utiliser l’option [!UICONTROL Enregistrer] pour apporter des modifications incrémentielles sans quitter l’étape](/help/main/c-activities/edit-activity.md#section_29EE2ECA6B88473A8F9AC5600FFBB174).
 
 +++
 
@@ -378,7 +378,7 @@ Utilisez [l’approche basée sur les formulaires](/help/main/c-experiences/form
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
 +++Afficher les détails
-Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 
@@ -402,7 +402,7 @@ Il est possible que votre site comporte des identifiants dynamiques, des identif
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
 +++Afficher les détails
-Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 +++
 

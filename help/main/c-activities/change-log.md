@@ -18,28 +18,35 @@ topic_v2:
     internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 12%
+source-wordcount: '220'
+ht-degree: 10%
 ---
-# Journal des modifications d’activité
+# Journal des modifications d’activité {#change-log}
 
-Le [!DNL Adobe Target] [!UICONTROL Journal des modifications] enregistre les actions d&#39;activité, y compris les modifications apportées, l&#39;auteur des modifications et le moment où elles se sont produites. La page [!UICONTROL Journal des modifications] est renseignée pour des informations en temps réel.
+>[!BEGINSHADEBOX]
 
-Pour accéder à la page [!UICONTROL Journal des modifications] :
+**Sur cette page :** Découvrez comment afficher les actions effectuées sur une activité, qui les a effectuées et quand.
 
-1. Cliquez sur **[!UICONTROL Activités]** > sur l’activité souhaitée dans la liste.
+>[!ENDSHADEBOX]
+
+Le [!DNL Adobe Target] **[!UICONTROL journal des modifications]** enregistre les actions effectuées sur une activité, y compris les modifications apportées, l’auteur des modifications et le moment où elles se sont produites. Elle fournit un historique clair de l’activité et la page **[!UICONTROL Journal des modifications]** est renseignée pour obtenir des informations en temps réel.
+
+Pour accéder à la page **[!UICONTROL Journal des modifications]** :
+
+1. Cliquez sur **[!UICONTROL Activités]**, puis sur l’activité dans la liste.
 1. Cliquez sur **[!UICONTROL Journal des modifications]** dans le rail de gauche.
 
-L’action effectuée, la date à laquelle l’action a été effectuée et l’utilisateur ou l’utilisatrice qui a effectué l’action sont répertoriés chaque fois qu’une activité est créée, mise à jour, activée ou désactivée. Les modifications apportées aux cibles et offres personnalisées utilisées dans l’activité sont également répertoriées.
+   La page répertorie l’action effectuée, sa date et l’utilisateur ou l’utilisatrice qui l’a effectuée chaque fois qu’une activité est créée, mise à jour, activée ou désactivée. Les modifications apportées aux cibles et offres personnalisées utilisées dans l’activité sont également répertoriées.
 
-Actualisez la page pour afficher les modifications d’états. Vous pouvez également répertorier les actions effectuées par ordre croissant ou décroissant en cliquant sur l’en-tête de colonne [!UICONTROL Date].
+   ![Menu du journal des modifications](assets/change_logs.png)
+
+1. Pour répertorier les actions par ordre croissant ou décroissant, cliquez sur l’en-tête de colonne **[!UICONTROL Date]**.
+
+1. Actualisez la page pour afficher les modifications d’états.
 
 ## API du journal d’audit Target
 
 * [Révisions : obtenez le journal d’audit par le nom du dernier auteur et un horodatage modifié](https://developer.adobe.com/target/administer/admin-api/#tag/Revisions){target=_blank}
 * [Liste du journal des modifications d&#39;activité](https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/getChangelog){target=_blank}
-
-
-
