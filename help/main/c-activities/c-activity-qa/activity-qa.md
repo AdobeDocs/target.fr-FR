@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 27%
@@ -64,7 +64,7 @@ Utilisez les URL d’assurance qualité dans [!DNL Adobe Target] pour effectuer 
 
      Si ce paramètre est désactivé, tenez compte de ce qui suit :
 
-     * En cas de conflits entre l’activité que vous testez et d’autres activités actives, [les règles de priorité normales](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. En raison de collisions, il est possible que vous ne puissiez pas voir l’activité que vous prévoyez d’AQ.
+     * En cas de conflits entre l’activité que vous testez et d’autres activités actives, [les règles de priorité normales](/help/main/c-activities/priority.md#priority) s’appliquent. En raison de collisions, il est possible que vous ne puissiez pas voir l’activité que vous prévoyez d’AQ.
      * Les mesures s’incrémentent pour les activités vues, mais uniquement dans l’environnement de création de rapports d’AQ.
 
 1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer les modifications.
@@ -106,8 +106,8 @@ Si le [[!UICONTROL SDK Web Platform]](https://experienceleague.corp.adobe.com/do
 * [!UICONTROL Le contrôle qualité d’activité] n’affiche pas le contenu des activités archivées ou des activités dont les dates de fin sont dépassées. Si vous désactivez une activité terminée, vous devez enregistrer à nouveau l’activité pour que [!UICONTROL QA d’activité] fonctionne.
 * Les activités importées dans [!DNL Target Standard/Premium] (à partir de [!DNL Target Classic], par exemple) ne prennent pas en charge les URL d’assurance qualité.
 * Dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Recommandations], le modèle n’est pas affecté par les visites capturées dans [!UICONTROL AQ d’activité].
-* Si vous avez spécifié « URL is » lors de la création des [&#x200B; améliorations de l’activité dans les options de diffusion du compositeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [&#x200B; dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas, car [!UICONTROL &#x200B; l’assurance qualité d’activité] ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
-* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL QA d’activité] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=fr){target=_blank}.
+* Si vous avez spécifié « URL is » lors de la création des [ améliorations de l’activité dans les options de diffusion du compositeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [ dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas, car [!UICONTROL  l’assurance qualité d’activité] ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
+* Si vous disposez d’at.js 1.*x*, le mode [!UICONTROL QA d’activité] n’est pas contigu si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni qui est inclus dans la même activité), les liens d’assurance qualité ne sont pas générés pour les quatre combinaisons (site Experience A/US, site Experience A/UK, site Experience B/US, site Experience B/UK). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Un responsable du contrôle qualité au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu. Cependant, certains clients doivent utiliser des équilibreurs de charge ou des serveurs Web qui tentent à nouveau de coder les paramètres de chaîne de requête.
 
@@ -134,8 +134,8 @@ Si le [[!UICONTROL SDK Web Platform]](https://experienceleague.corp.adobe.com/do
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 * [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr)
 
 Le tableau suivant répertorie les différents types d’activité et indique si le mode [!UICONTROL AQ d’activité] est pris en charge pour chaque bibliothèque :

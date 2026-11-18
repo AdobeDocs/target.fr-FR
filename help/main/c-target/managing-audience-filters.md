@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5106a9844a15c7d81baab75b26324b954cdeb42d
+source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 59%
@@ -58,5 +58,5 @@ Les sections ci-après fournissent davantage d’informations sur la configurati
 | Créez l’activité ou le test approprié. | [Activités et tests](/help/main/c-intro/target-key-concepts.md) |
 | Créez des audiences, si nécessaire. | [Création d’un audience](/help/main/c-target/c-audiences/create-audience.md) |
 | Combinez plusieurs audiences, si nécessaire. | [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md) |
-| Appliquez les audiences sur la page Objectifs et paramètres. | Test A/B : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization : [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Ciblage d’expérience : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Test multivarié : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommandations : [Paramètres d’activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Paramètres d’activité : [Paramètres d’activité](/help/main/c-activities/activity-settings.md) |
+| Appliquez les audiences sur la page Objectifs et paramètres. | Test A/B : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization : [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>Ciblage d’expérience : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Test multivarié : [Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#ab-goals-and-settings)<br>Recommandations : [Paramètres d’activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Paramètres d’activité : [Paramètres d’activité](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) |
 | Affichez les rapports qui contiennent des informations sur vos filtres d’audiences. | [Paramètres des rapports](/help/main/c-reports/c-report-settings/report-settings.md) |
