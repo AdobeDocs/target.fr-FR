@@ -154,7 +154,7 @@ Si vous avez spécifié « URL is » lors de la création de l’activité dans 
 
 +++ Navigateurs qui bloquent les cookies tiers (at.js 1.*x*)
 
-Si vous disposez d’at.js 1.*x*, le mode **[!UICONTROL QA d’activité]** ne persiste pas sur plusieurs pages si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
+Si vous disposez d’at.js 1.*x*, le mode **[!UICONTROL QA d’activité]** ne persiste pas sur plusieurs pages si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html?lang=fr){target=_blank}.
 
 +++
 
@@ -204,8 +204,8 @@ Le tableau suivant répertorie les paramètres qui peuvent être traités dans v
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
-* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
-* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [at.js 1.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
+* [at.js 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=fr)
 * [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr)
 
 Le tableau suivant répertorie les différents types d’activité et indique si le mode **[!UICONTROL AQ d’activité]** est pris en charge pour chaque bibliothèque :

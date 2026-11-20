@@ -1,7 +1,7 @@
 ---
 keywords: entités ; attributs d’entité ; transférer des informations à Recommandations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
 description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou contenus à [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 title: Comment Utiliser Les Attributs D’Entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
@@ -50,7 +50,7 @@ La plupart des paramètres prédéfinis n’acceptent qu’une seule valeur, les
 
 En règle générale, la mbox des informations d’affichage ressemble à l’exemple suivant si vous utilisez at.js 1.*x* avec `mboxCreate`. Tous les attributs de paramètre d’entité sont sensibles à la casse.
 
-Si vous utilisez at.js 2.*x*, `mboxCreate` (tel qu’utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Pour obtenir un exemple, consultez [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+Si vous utilisez at.js 2.*x*, `mboxCreate` (tel qu’utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. Pour obtenir un exemple, consultez [Planification et implémentation de Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
 
 +++ Exemple de mbox qui transmet des attributs d’entité
 
