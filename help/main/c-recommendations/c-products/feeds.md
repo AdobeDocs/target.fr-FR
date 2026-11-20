@@ -67,7 +67,7 @@ La liste [!UICONTROL Flux] (**[!UICONTROL Recommendations]** > **[!UICONTROL Flu
 | Colonne | Description |
 |---|---|
 | **Nom** | Nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec le nouveau nom, il est actualisé. |
-| **État** | État actuel du flux [1}.](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) |
+| **État** | État actuel du flux [1&rbrace;.](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) |
 | **Type** | Les types comprennent les [classifications CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) et [Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A). |
 | **Éléments** | Affiche le nombre d’éléments dans le flux. |
 | **Planification** | Affiche le planning de mise à jour du flux : **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!DNL Every 2 Weeks]** ou **[!UICONTROL Jamais]**. |
@@ -139,7 +139,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Le type de flux [!DNL Google Product Search] utilise le format [!DNL Google] plutôt que le format CSV propriétaire [!DNL Adobe]. Vous pouvez réutiliser un [!DNL Google Product Feed] existant pour importer des données de produit dans [!DNL Recommendations].
 
-[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les [ attributs définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Indiquez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
+[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les [&#x200B; attributs définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Indiquez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
 
 Notez que le serveur hébergeant le flux [!DNL Google] doit autoriser la méthode POST.
 
