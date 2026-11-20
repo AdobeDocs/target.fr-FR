@@ -1,6 +1,6 @@
 ---
 keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;sftp;charger csv
-description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans les Recommandations de [!DNL Target] Adobe.
+description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans les Recommandations [!DNL Target] d’Adobe.
 title: Comment télécharger des critères personnalisés dans [!DNL Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 67ee6127f023f8450e1e6798a617b2bcbd6e7ba6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 24%
@@ -29,15 +29,15 @@ Chargez un fichier CSV pour personnaliser vos recommandations dans [!DNL Adobe T
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* Sur l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
-* Lorsque vous créez une activité [!DNL Recommendations] à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC), vous êtes immédiatement redirigé(e) vers l’écran [!UICONTROL Sélectionner des critères] après avoir sélectionné un élément de votre page et cliqué sur [!UICONTROL Remplacer avec Recommendations], [!UICONTROL Insérer des recommandations avant] ou [!UICONTROL Insérer des recommandations après]. Vous pouvez ensuite sélectionner un critère disponible ou cliquer sur **[!UICONTROL Créer un critère]**. Si vous créez un critère, vous pouvez l’enregistrer pour l’utiliser avec d’autres activités [!DNL Recommendations]. Pour plus d’informations, voir [Créer une activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Lorsque vous modifiez une activité [!DNL Recommendations], cliquez dans une zone [!UICONTROL Emplacement Recommendations] de votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Sur l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer des critères]**. Vous pouvez enregistrer vos nouveaux critères en vue de les utiliser avec d’autres activités [!DNL Recommendations].
+* Sur l’écran de la bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
+* Lorsque vous créez une activité [!DNL Recommendations] à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC), vous êtes immédiatement redirigé(e) vers l’écran [!UICONTROL Sélectionner les critères] après avoir sélectionné un élément sur votre page et cliqué sur [!UICONTROL Remplacer avec Recommendations], [!UICONTROL Insérer des recommandations avant] ou [!UICONTROL Insérer des recommandations après]. Vous pouvez ensuite sélectionner un critère disponible ou cliquer sur **[!UICONTROL Créer un critère]**. Si vous créez un critère, vous pouvez l&#39;enregistrer pour l&#39;utiliser avec d&#39;autres activités [!DNL Recommendations]. Pour plus d’informations, voir [Créer une activité Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Lorsque vous modifiez une activité [!DNL Recommendations], cliquez dans une zone [!UICONTROL Emplacement de Recommendations] sur votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Sur l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer des critères]**. Vous pouvez enregistrer vos nouveaux critères pour les utiliser avec d&#39;autres activités [!DNL Recommendations].
 
-Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer de nouveaux critères] en utilisant la première méthode : l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
+Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer de nouveaux critères] à l’aide de la première méthode : l’écran de bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
+1. Cliquez Sur **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**.
+1. Cliquez Sur **[!UICONTROL Créer Des Critères]** > **[!UICONTROL Créer Des Critères]**.
 
 1. Renseignez les informations de la section [Informations de base](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
@@ -47,25 +47,25 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    >[!NOTE]
    >
-   >Les étapes précédentes entraînent l’affichage de la section [!UICONTROL Télécharger CSV] au bas de la boîte de dialogue [!UICONTROL Créer des critères].
+   >Les étapes précédentes entraînent l’affichage de la section [!UICONTROL Charger le fichier CSV] au bas de la boîte de dialogue [!UICONTROL Créer des critères].
 
-1. (Conditionnel) Renseignez les informations de la section [Contenu de sauvegarde](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
+1. (Conditionnel) Renseignez les informations dans la section [Contenu de sauvegarde](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. (Conditionnel) Renseignez les informations de la section [Règles d’inclusion](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
+1. (Conditionnel) Renseignez les informations dans la section [Règles d’inclusion](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
 
-1. Dans la section **[!UICONTROL Télécharger CSV]**, sélectionnez le **[!UICONTROL emplacement]** de votre fichier CSV.
+1. Dans la section **[!UICONTROL Charger CSV]**, sélectionnez l’**[!UICONTROL emplacement]** de votre fichier CSV.
 
    Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Télécharger le modèle CSV]** pour obtenir un fichier CSV correctement formaté.
 
    Vous disposez de trois options d’emplacement :
 
-   * **FTP :** pour charger votre fichier CSV à partir d’un serveur FTP, sélectionnez **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser SSL, qui utilise le protocole FTPS pour transférer votre fichier CSV en toute sécurité.
+   * **FTP :** Pour charger votre fichier CSV à partir d’un serveur FTP, sélectionnez **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser SSL, qui utilise le protocole FTPS pour transférer votre fichier CSV en toute sécurité.
 
-   * **SFTP :** pour charger votre fichier CSV à partir d’un serveur SFTP, sélectionnez **[!UICONTROL SFTP]**, puis saisissez le nom d’hôte ou l’adresse IP, le port (22 par défaut), le nom d’utilisateur, un mot de passe et/ou la clé privée SSH, le répertoire et le nom de fichier. Pour plus d’informations, voir [Paramètres de serveur SFTP pris en charge](/help/main/c-recommendations/c-products/feeds.md#sftp-settings).
+   * **SFTP :** Pour charger votre fichier CSV à partir d’un serveur SFTP, sélectionnez **[!UICONTROL SFTP]**, puis saisissez le nom d’hôte ou l’adresse IP, le port (22 par défaut), le nom d’utilisateur, un mot de passe et/ou une clé privée SSH, le répertoire et le nom de fichier. Pour plus d&#39;informations, voir [Paramètres de serveur SFTP pris en charge](/help/main/c-recommendations/c-products/feeds.md#steps).
 
-     SFTP ne modifie pas le format CSV basé sur des critères personnalisés. Utilisez le format `# Key,Recommendation_1,...` . L’utilisation d’un autre format de type de flux entraîne l’échec de l’importation.
+     SFTP ne modifie pas le format CSV basé sur des critères personnalisés. Utiliser le format `# Key,Recommendation_1,...`. L’utilisation d’un format de type de flux différent entraîne l’échec de l’importation.
 
-   * **URL :** pour charger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
+   * **URL :** Pour charger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -83,7 +83,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 * Le flux d’un chargement sans erreur doit être [!UICONTROL Planifié] > [!UICONTROL Téléchargement du fichier de flux] > [!UICONTROL Importation] > [!UICONTROL Réussite].
 
-* Voici quelques messages d’erreur que vous pouvez recevoir si [!DNL Target] rencontrez un problème avec le chargement :
+* Voici quelques messages d’erreur que vous pouvez recevoir si [!DNL Target] rencontre un problème avec le chargement :
 
   | Message d’erreur | Détails |
   |--- |--- |

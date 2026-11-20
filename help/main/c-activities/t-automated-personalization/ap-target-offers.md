@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44c6bdd4ab818226e76477782d7e4238b49d5cdc
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 8%
@@ -78,7 +78,7 @@ Les règles de ciblage d’audience contrôlent quelles personnes peuvent voir c
 
    >[!NOTE]
    >
-   >Au lieu de créer une nouvelle audience, vous pouvez combiner plusieurs audiences avec des audiences existantes pour créer des audiences combinées à la demande. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Au lieu de créer une nouvelle audience, vous pouvez combiner plusieurs audiences avec des audiences existantes pour créer des audiences combinées à la demande. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md).
 
 1. Cliquez sur **[!UICONTROL Done]** (Terminé).
 

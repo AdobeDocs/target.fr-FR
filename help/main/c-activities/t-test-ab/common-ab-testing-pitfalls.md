@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2ffe1a02ae60370b349f9b6f348d24ecb0a8cb2e
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '4347'
-ht-degree: 81%
+source-wordcount: '4341'
+ht-degree: 75%
 ---
 # Dix écueils courants des tests A/B et comment les éviter {#common-ab-testing-pitfalls}
 
@@ -63,7 +63,7 @@ L’*intervalle de confiance*, qui est déterminé une fois le test terminé, es
 * Niveau de pertinence
 * Écart type sur la population
 
-Étant donné que le spécialiste du marketing a sélectionné le niveau de pertinence avant la conception du test et que l’écart type de la population ne peut pas être impacté, le seul facteur « contrôlable » est la taille de l’échantillon. La taille d’échantillon requise pour un intervalle de confiance qui vous convient, ainsi que le temps nécessaire pour l’atteindre, sont des éléments clés qui doivent être déterminés pendant la conception du test.
+Le spécialiste du marketing sélectionne le niveau de pertinence avant la conception du test et l’écart type de la population ne peut pas être impacté, de sorte que le seul facteur « contrôlable » est la taille de l’échantillon. La taille d’échantillon requise pour un intervalle de confiance qui vous convient, ainsi que le temps nécessaire pour l’atteindre, sont des éléments clés qui doivent être déterminés pendant la conception du test.
 
 L’approche du *degré de confiance*, un autre terme directement lié, est plus positive. Plutôt que de stipuler la probabilité que vous obteniez un faux positif, comme le fait le niveau de pertinence, le degré de confiance représente la probabilité que votre test ne commette pas cette erreur.
 
@@ -99,7 +99,7 @@ Les spécialistes marketing testent fréquemment plus de deux offres (ou expéri
 
 Il est important de noter que *chaque* offre testée présente un taux de faux positifs égal au niveau de signification, comme décrit ci-dessus. Là encore, vous exécutez en fait plusieurs tests quand plusieurs offres sont comparées les unes aux autres au sein d’un seul environnement de test. Si, par exemple, vous comparez cinq offres dans un test A/B/C/D/E, vous composez quatre comparaisons : contrôle à B, contrôle à C, contrôle à D et contrôle à E. Avec un degré de confiance de 95 %, vous obtenez en fait un résultat de 18,5 %, plutôt que la probabilité de 5 % d’un faux positif.
 
-Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. En appliquant cette correction, vous divisez simplement le niveau de pertinence par le nombre de comparaisons afin d’obtenir le niveau de pertinence nécessaire pour obtenir un degré de confiance de 95 %.
+Pour que votre degré de confiance global reste à 95 % et afin d’éviter ce problème, vous appliquez ce qu’on appelle la correction Bonferroni. À l’aide de cette correction, vous divisez le niveau de signification par le nombre de comparaisons pour obtenir le niveau de signification que vous devez atteindre avec un niveau de confiance de 95 %.
 
 Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
 
@@ -119,7 +119,7 @@ Si vous ne souhaitez pas identifier l’offre ayant le taux de conversion le plu
 
 ## Écueil 3 : ignorer les effets de l’efficacité statistique {#section_0D517079B7D547CCAA75F80981CBE12A}
 
-L’efficacité statistique vient de la probabilité qu’un test détecte une différence réelle du taux de conversion des offres. En raison de la nature aléatoire (ou stochastique, dans le jargon des statisticiens) des événements de conversion, un test peut ne pas révéler une différence statistiquement significative, même si le taux de conversion de deux offres présente une réelle différence sur le long terme. Hasard ou coïncidence ? On appelle faux négatif ou erreur de type II l’incapacité à détecter une différence réelle du taux de conversion.
+L’efficacité statistique vient de la probabilité qu’un test détecte une différence réelle du taux de conversion des offres. Un test peut ne pas montrer une différence statistiquement significative, même lorsqu’il existe une différence réelle dans le taux de conversion entre deux offres à la fin, en raison de la nature aléatoire, ou, comme les statisticiens aiment l’appeler, « stochastique », des événements de conversion. Hasard ou coïncidence ? On appelle faux négatif ou erreur de type II l’incapacité à détecter une différence réelle du taux de conversion.
 
 Deux facteurs principaux déterminent la robustesse d’un test. Le premier est la taille de l’échantillon, c’est-à-dire le nombre de visiteurs inclus dans le test. Le second est la magnitude de la différence de taux de conversion que vous souhaitez que votre test détecte. C’est peut-être intuitif, mais si vous souhaitez détecter uniquement des différences de taux de conversion importantes, il y a une plus grande probabilité que le test détecte réellement de telles différences. De même, plus la différence que vous souhaitez détecter est faible, plus la taille de l’échantillon dont vous aurez besoin est importante et plus il faudra de temps pour l’atteindre.
 
@@ -143,9 +143,9 @@ Les marketeurs surveillent fréquemment les tests A/B jusqu’à ce qu’ils en
 
 Malheureusement, ce n&#39;est pas si simple. Il s’avère en fait que le fait de surveiller les résultats impacte négativement la signification statistique efficace du test, Cela augmente grandement la probabilité d’obtenir des faux positifs et nuit à la fiabilité des intervalles de confiance.
 
-Cela peut sembler déroutant. Nous avons l’air d’affirmer que le simple fait d’observer les résultats d’un test à mi-parcours pourrait leur faire perdre leur signification statistique. Ce n&#39;est pas exactement ce qui se passe. La raison est illustrée dans l’exemple suivant.
+Cela peut sembler déroutant. On dirait que nous disons qu&#39;en examinant vos résultats à mi-parcours, vous pouvez les faire perdre leur signification statistique. Ce n&#39;est pas exactement ce qui se passe. La raison est illustrée dans l’exemple suivant.
 
-Supposons que vous simuliez 10 000 événements de conversion de deux offres, les deux offres présentant un taux de conversion de 10 %. Les taux de conversion étant identiques, l’effet élévateur des deux offres testées l’une par rapport à l’autre ne devrait présenter aucune différence. Avec un intervalle de confiance de 95 %, le test produit un taux prévu de 5 % de faux positifs au moment de son évaluation après avoir récupéré 10 000 observations. Ainsi, si nous exécutons 100 de ces tests, nous obtenons en moyenne cinq faux positifs (en réalité, tous les positifs dans cet exemple sont faux, les deux offres ayant le même taux de conversion). Si, en revanche, nous évaluons le test dix fois durant son exécution (toutes les 1 000 observations), le taux de faux positifs passe à 16 %. Ainsi, la surveillance du test a plus que triplé le risque de faux positifs. Comment cela s’explique-t-il ?
+Supposons que vous simuliez 10 000 événements de conversion de deux offres, les deux offres ayant des taux de conversion de 10 %. Les taux de conversion sont identiques. Vous ne devriez donc détecter aucune différence dans l’effet élévateur de conversion lorsque vous testez les deux offres l’une par rapport à l’autre. Avec un intervalle de confiance de 95 %, le test produit un taux prévu de 5 % de faux positifs au moment de son évaluation après avoir récupéré 10 000 observations. Ainsi, si nous exécutons 100 de ces tests, nous obtenons en moyenne cinq faux positifs (en réalité, tous les positifs dans cet exemple sont faux, les deux offres ayant le même taux de conversion). Si, en revanche, nous évaluons le test dix fois durant son exécution (toutes les 1 000 observations), le taux de faux positifs passe à 16 %. Ainsi, la surveillance du test a plus que triplé le risque de faux positifs. Comment cela s’explique-t-il ?
 
 Pour comprendre pourquoi, vous devez tenir compte des différentes mesures prises lorsqu’un résultat significatif est détecté ou lorsqu’aucun résultat significatif n’est détecté. Si un test statistiquement significatif est détecté, il est interrompu et un gagnant est déclaré. Si, en revanche, le résultat n’est pas statistiquement significatif, nous le laissons se poursuivre. Cette situation favorise considérablement les résultats positifs et fausse donc le niveau de pertinence réel du test.
 
@@ -153,13 +153,13 @@ Pour éviter ce problème, vous devez déterminer une durée de test adéquate a
 
 ## Écueil 6 : interrompre les tests de manière prématurée {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
-Il est tentant d’interrompre le test si une offre est beaucoup plus ou beaucoup moins performante que les autres dès les premiers jours. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que le test collecte davantage de points de données.
+Il est tentant d’interrompre le test si une offre est beaucoup plus ou beaucoup moins performante que les autres dès les premiers jours. Cependant, lorsque le nombre d’observations est faible, il est très probable qu’une augmentation positive ou négative soit observée par hasard, car le taux de conversion est moyenné sur un faible nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que le test collecte davantage de points de données.
 
 L’illustration ci-dessous présente cinq offres ayant le même taux de conversion sur le long terme. Le taux de conversion de l’offre B était médiocre pour les 2 000 premiers visiteurs et est revenu à sa valeur réelle après une longue période.
 
 ![Graphique linéaire de la différence de taux de conversion entre cinq offres alternatives et le contrôle : les différences sont importantes pour les premiers milliers de visiteurs, par exemple moins 8 à moins 9 % pour l’offre B, et convergent vers zéro à mesure que le nombre de visiteurs augmente](assets/pitfalls4.png)
 
-On parle alors de « retour à la moyenne », ce qui peut s’avérer décevant lorsqu’une offre qui était très performante durant les premiers jours du test n’a pas conservé ce niveau de performance sur le long terme. Il peut en outre en résulter une perte de revenus si une offre performante n’est pas mise en œuvre parce qu’elle semblait, par hasard, peu rentable lors des premiers jours du test.
+On parle alors de « retour à la moyenne », ce qui peut s’avérer décevant lorsqu’une offre qui était très performante durant les premiers jours du test n’a pas conservé ce niveau de performance sur le long terme. Elle peut également entraîner une perte de revenus lorsqu’une bonne offre n’est pas mise en œuvre, car elle s’est avérée sous-performante dans les premiers jours d’un test par hasard.
 
 De même que pour la surveillance des tests, il convient pour éviter ces problèmes de déterminer un nombre adéquat de visiteurs et visiteuses avant d’exécuter le test, puis de laisser le test s’exécuter jusqu’à ce que ce nombre de visiteurs et visiteuses ait été exposé aux offres.
 
@@ -181,11 +181,11 @@ Autre exemple, si votre test AB est fondé sur une répartition 50/50 du trafic
 
 ## Écueil 8 : ne pas tenir compte des effets de nouveauté {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
-D’autres événements inattendus peuvent se produire si nous n’accordons pas suffisamment de temps à l’exécution d’un test. Cette fois, le problème n’est pas un problème de statistiques ; il s’agit simplement d’une réaction au changement par les visiteurs. Si vous modifiez une section bien établie de votre site web, les visiteurs récurrents peuvent au départ moins interagir avec la nouvelle offre car leurs habitudes sont bousculées. Ainsi, une nouvelle offre supérieure est temporairement moins performante, jusqu’à ce que les visiteurs et visiteuses récurrents s’y habituent. Un faible prix à payer comparé aux gains que produira l’offre supérieure sur le long terme.
+D’autres événements inattendus peuvent se produire si nous n’accordons pas suffisamment de temps à l’exécution d’un test. Cette fois, le problème n’est pas un problème de statistiques ; il s’agit d’une réaction au changement par les visiteurs. Si vous modifiez une section bien établie de votre site web, les visiteurs récurrents peuvent au départ moins interagir avec la nouvelle offre car leurs habitudes sont bousculées. Ainsi, une nouvelle offre supérieure est temporairement moins performante, jusqu’à ce que les visiteurs et visiteuses récurrents s’y habituent. Un faible prix à payer comparé aux gains que produira l’offre supérieure sur le long terme.
 
-Pour déterminer si les performances de la nouvelle offre sont inférieures en raison d’un effet de nouveauté ou parce qu’elle est vraiment inférieure, vous pouvez segmenter vos visiteurs en visiteurs nouveaux et récurrents et comparer les taux de conversion. Si ce n’est que l’effet de nouveauté, la nouvelle offre gagne avec de nouveaux visiteurs. Elle le sera aussi auprès des visiteurs et visiteuses récurrents une fois que ceux-ci s’y seront habitués.
+Pour déterminer si les performances de la nouvelle offre sont inférieures en raison d’un effet de nouveauté ou parce qu’elle est vraiment inférieure, vous pouvez segmenter vos visiteurs en visiteurs nouveaux et récurrents et comparer les taux de conversion. Si l’effet de nouveauté est la seule cause, la nouvelle offre gagne avec de nouveaux visiteurs. Elle le sera aussi auprès des visiteurs et visiteuses récurrents une fois que ceux-ci s’y seront habitués.
 
-L’effet de nouveauté peut aussi avoir l’effet inverse : les visiteurs peuvent réagir positivement à un changement simplement parce qu’elle comprend quelque chose de nouveau. Après un certain temps toutefois, le taux de conversion chute, une fois que l’effet de nouveauté s’estompe ou que le contenu devient moins enthousiasmant. Cet effet est plus difficile à identifier, mais peut être détecté en surveillant attentivement les changements du taux de conversion.
+L’effet de nouveauté peut aussi avoir l’effet inverse : Les visiteurs réagissent souvent positivement à une modification uniquement parce qu’elle introduit quelque chose de nouveau. Après un certain temps toutefois, le taux de conversion chute, une fois que l’effet de nouveauté s’estompe ou que le contenu devient moins enthousiasmant. Cet effet est plus difficile à identifier, mais peut être détecté en surveillant attentivement les changements du taux de conversion.
 
 ## Écueil 9 : ne pas tenir compte des différences pendant le délai de réflexion {#section_B166731B5BEE4E578816E351ECDEA992}
 
@@ -201,7 +201,7 @@ Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test 
 
 ## Écueil 10 : utiliser des mesures qui ne reflètent pas les objectifs de l’entreprise {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
-Les marketeurs peuvent être tentés d’appliquer des mesures de conversion à fort trafic et à faible variance dans l’entonnoir supérieur (le taux de clics, par exemple) afin d’obtenir plus rapidement le nombre de conversions du test. Vous devez toutefois soigneusement déterminer si le taux de clics généré constitue un indicateur adéquat par rapport à l’objectif que vous cherchez à atteindre. Les offres bénéficiant d’un taux de clics élevé peuvent facilement réduire les recettes, Cela peut se produire lorsque les offres attirent des visiteurs et visiteuses ayant une faible propension à acheter ou si l’offre à proprement parler (une offre de rabais, par exemple) génère un revenu plus faible .
+Les marketeurs peuvent être tentés d’appliquer des mesures de conversion à fort trafic et à faible variance dans l’entonnoir supérieur (le taux de clics, par exemple) afin d’obtenir plus rapidement le nombre de conversions du test. Vous devez toutefois soigneusement déterminer si le taux de clics généré constitue un indicateur adéquat par rapport à l’objectif que vous cherchez à atteindre. Les offres avec des taux de clics plus élevés peuvent entraîner une baisse du chiffre d’affaires. Cela peut se produire lorsque les offres attirent des visiteurs ayant une plus faible propension à acheter ou lorsque l’offre elle-même, par exemple une offre de remise, entraîne une baisse des recettes.
 
 ![Funnel et mesures du taux de clics en haut au profit à vie en bas : trafic plus élevé et variance moindre en haut, plus proche des objectifs commerciaux en bas](assets/pitfalls6.png)
 

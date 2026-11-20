@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -133,9 +133,9 @@ Consultez le type d’activité de [ciblage automatique](/help/main/c-activities
 **Comment savoir quel type d’activité correspond le mieux à mes besoins ?**
 
 +++Afficher les détails
-Lisez le [Guide des activités Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) pour comprendre les scénarios dans lesquels chacune des options fournies par [!DNL Target] a un sens.
+Lisez le [Guide des activités Target](/help/main/c-activities/target-activities-guide.md) pour comprendre les scénarios dans lesquels chacune des options fournies par [!DNL Target] a un sens.
 
-Veillez également à tenir compte des [activités Recommandations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Veillez également à tenir compte des [activités Recommandations](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décomp
 **Comment puis-je savoir clairement comment configurer une activité de manière à atteindre mes objectifs ?**
 
 +++Afficher les détails
-C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) entrent en ligne de compte.
+C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) entrent en ligne de compte.
 
 Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. S’agit-il de [!UICONTROL chiffre d’affaires], [!UICONTROL conversion] ou [!UICONTROL engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 

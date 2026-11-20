@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Créer une activité de test A/B {#create-ab-activity}
@@ -134,7 +134,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
 
    +++
 
-1. Cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez une méthode d&#39;affectation du trafic dans le volet de droite. Voir [Méthodes d’affectation du trafic](#traffic-allocation-methods).
+1. Cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez une méthode d&#39;affectation du trafic dans le volet de droite. Les méthodes disponibles sont répertoriées dans le tableau suivant.
 
    ![Paramètres de la méthode d&#39;affectation du trafic](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -156,7 +156,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
 
 Sur la page **[!UICONTROL Objectifs et paramètres]**, indiquez à [!DNL Target] comment mesurer l’activité. Les paramètres disponibles varient selon que vous utilisez [!DNL Target] ou [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Consultez les sections de la page et définissez ce dont vous avez besoin. Voir [Ce que vous avez défini sur la page Objectifs et paramètres](#goals-settings-overview).
+1. Consultez les sections de la page et définissez ce dont vous avez besoin. Voir [Ce que vous avez défini sur la page Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Section | Ce que vous avez défini |
    |---|---|

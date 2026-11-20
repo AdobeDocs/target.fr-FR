@@ -10,7 +10,7 @@ product_v2:
 feature_v2:
   - id: 6efa6b7a-8062-5c41-aef4-b4853cc306ae
     internal-label: Activities
-source-git-commit: 9b496bb9a6606c3627afce1227c7830ba710f5d2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 1%
@@ -120,5 +120,5 @@ Utilisez ces mesures pour comprendre la fréquence d’utilisation des tests A/B
 
 ![](assets/insights-7.png){align="center"}
 
-Le graphique **[!UICONTROL Activités au fil du temps]** effectue le suivi du nombre d’activités créées, modifiées et publiées sur la période sélectionnée, ce qui facilite la détection des tendances, des pics ou des périodes calmes dans votre programme d’expérimentation.
+Le graphique **[!UICONTROL Activités au fil du temps]** effectue le suivi du nombre d’activités créées, modifiées et publiées sur la période sélectionnée, afin que vous puissiez identifier les tendances, les pics ou les périodes calmes dans votre programme d’expérimentation.
 

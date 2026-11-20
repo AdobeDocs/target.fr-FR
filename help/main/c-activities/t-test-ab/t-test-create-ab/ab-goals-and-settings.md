@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: abab6b3e464bb9f294e9c3c455dca1f57bb0d458
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 25%
+source-wordcount: '1732'
+ht-degree: 19%
 ---
 # Objectifs et paramètres {#ab-goals-and-settings}
 
@@ -103,7 +103,7 @@ Indiquez à partir de quelle solution les données sont collectées :
 
   Pour spécifier une source de création de rapports, choisissez d’abord l’une des [!DNL Analytics] sociétés auxquelles votre compte est lié, puis sélectionnez la suite de rapports appropriée pour l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Adobe Target] peuvent être sélectionnées. Si vous ne voyez pas les suites de rapports attendues, essayez d’abord de vous déconnecter puis de vous reconnecter à [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports est toujours absente de la liste, contactez l’assistance clientèle.
 
-  [!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s&#39;affiche dans le champ **[!UICONTROL Serveur de suivi]**. Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le bon serveur de suivi dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
+  [!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s&#39;affiche dans le champ **[!UICONTROL Serveur de suivi]**. Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le bon serveur de suivi dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
   +++
 
 * [!DNL Adobe Customer Journey Analytics]
@@ -152,7 +152,7 @@ Notez que ce paramètre n’est pas disponible si vous choisissez [!DNL Analytic
 
 ## Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
-La section **[!UICONTROL Paramètres avancés]** de la page **[!UICONTROL Objectifs et paramètres]** vous permet de configurer les options avancées.
+La section **[!UICONTROL Paramètres avancés]** de la page **[!UICONTROL Objectifs et paramètres]** vous permet d’affiner le comptage de chaque mesure de succès : dépend-il d’une autre mesure, ce qui arrive à un visiteur une fois l’objectif atteint et comment le nombre est incrémenté ?
 
 Pour spécifier des paramètres avancés, cliquez sur l’icône **[!UICONTROL Plus]** ( ![Icône Plus](/help/main/assets/icons/MoreSmallList.svg) ) dans la section **[!UICONTROL Mon objectif de Principal]**, puis cliquez sur **[!UICONTROL Paramètres avancés]**.
 
@@ -162,37 +162,37 @@ Pour spécifier des paramètres avancés, cliquez sur l’icône **[!UICONTROL P
 >
 >Si vous utilisez [!DNL Adobe Analytics] en tant que source de reporting, les paramètres sont gérés par le serveur [!DNL Analytics]. L’option Paramètres avancés n’est pas disponible.
 
-### Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ? {#dependencies}
+### Dépendances {#dependencies}
 
-Utilisez cette option pour ne comptabiliser une personne comme ayant atteint la mesure de succès que si elle a précédemment atteint une autre mesure de succès. Par exemple, une conversion d’activité peut n’être valide que si le visiteur clique sur l’offre ou atteint une page particulière avant la conversion.
+Utilisez cette option pour compter un visiteur comme ayant atteint une mesure de succès uniquement si le visiteur a déjà atteint une autre mesure de succès. Par exemple, une conversion d’activité peut n’être valide que si le visiteur clique sur l’offre ou atteint une page particulière avant la conversion.
 
-Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. Définissez les deux mesures de succès (ou plusieurs) avant de pouvoir rendre l’une dépendante de l’autre. L’option **[!UICONTROL Ajouter une dépendance]** permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
+Vous pouvez faire dépendre une mesure de plusieurs mesures, et choisir pour chacune d’elles si elle doit être atteinte ou non pour que le nombre augmente. Définissez toutes les mesures de succès avant de rendre l’une d’elles dépendante de l’autre. L’option **[!UICONTROL Ajouter une dépendance]** permet d’incrémenter la mesure de succès si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
 
 Pour ajouter une dépendance :
 
-1. Après l’ajout de mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
+1. Après avoir ajouté les mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
 
 1. Cliquez sur l’option **[!UICONTROL Ajouter une dépendance]**.
 
-1. Faites glisser et déposez les mesures souhaitées, puis cliquez sur **[!UICONTROL Atteint]** pour basculer le paramètre entre **[!UICONTROL Atteint]** et **[!UICONTROL Non atteint]**.
+1. Faites glisser et déposez les mesures dont dépend la mesure de succès, puis cliquez sur **[!UICONTROL Atteint]** pour basculer le paramètre entre **[!UICONTROL Atteint]** et **[!UICONTROL Non atteint]**.
 
-Vous pouvez modifier ou supprimer des dépendances après leur ajout.
+Vous pouvez modifier ou supprimer des dépendances après leur ajout. Pour les cas où les dépendances ne sont pas prises en charge, consultez [Ajouter une dépendance](/help/main/c-activities/r-success-metrics/success-metrics.md#add-dependency).
 
-### Que se passe-t-il une fois qu’un utilisateur atteint cette mesure d’objectif ? {#after-goal}
+### Lorsqu’un visiteur atteint l’objectif {#after-goal}
 
-Une fois l’objectif d’activité atteint, le visiteur continue à voir le contenu de l’activité, sauf s’il est qualifié pour une activité prioritaire. Si le visiteur atteint à nouveau l’objectif, il est comptabilisé en tant que nouvelle conversion. Ce comportement est différent du comportement par défaut dans [!DNL Target Classic], qui comptait les visiteurs comme nouveaux s’ils voyaient à nouveau l’activité.
+Une fois l’objectif d’activité atteint, le visiteur continue à voir le contenu de l’activité, sauf s’il est qualifié pour une activité prioritaire. Si le visiteur atteint à nouveau l’objectif, il est comptabilisé en tant que nouvelle conversion. Cela diffère du comportement par défaut dans [!DNL Target Classic], qui comptait les visiteurs comme nouveaux lorsqu’ils ont à nouveau vu l’activité.
 
 Trois options sont disponibles :
 
-* **[!UICONTROL Incrémenter le décompte et laisser l&#39;utilisateur dans l&#39;activité]** pour spécifier comment le décompte est incrémenté.
-* **[!UICONTROL Incrémenter le décompte, libérer l’utilisateur et autoriser une reprise]** pour spécifier l’expérience que voit l’utilisateur s’il entre à nouveau dans l’activité.
-* **[!UICONTROL Incrémenter le décompte, libérer l’utilisateur et interdire la rentrée]** pour spécifier ce que l’utilisateur voit au lieu du contenu de l’activité.
+* **[!UICONTROL Incrémenter le nombre et laisser l’utilisateur dans l’activité]:** Spécifiez la manière dont le nombre est incrémenté, comme décrit dans la section suivante.
+* **[!UICONTROL Incrémenter le décompte, libérer l’utilisateur et autoriser une reprise]:** Spécifiez l’expérience que le visiteur voit si il entre à nouveau dans l’activité : la même expérience (par défaut), une expérience aléatoire ou une expérience non vue.
+* **[!UICONTROL Incrémenter le décompte, libérer l’utilisateur et interdire la rentrée]:** spécifier ce que le visiteur voit à la place du contenu de l’activité : la même expérience sans suivi (par défaut), ou le contenu par défaut ou tout autre contenu d’activité.
 
-### Comment sera incrémenté le décompte ? {#count-increment}
+### Incrément de comptage {#count-increment}
 
-Il existe trois options d’incrémentation du décompte :
+Lorsque vous sélectionnez **[!UICONTROL Incrémenter le décompte et laisser l’utilisateur dans l’activité]**, il existe trois options pour incrémenter le décompte :
 
-* **[!UICONTROL Une fois par participant]**
+* **[!UICONTROL Une fois par participant]** (par défaut)
 * **[!UICONTROL À chaque impression (à l’exclusion des actualisations de page)]**
 * **[!UICONTROL À Chaque Impression]**
 

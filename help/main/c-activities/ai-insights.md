@@ -4,18 +4,24 @@ description: Découvrez comment utiliser les informations et les opportunités d
 title: Informations sur l’IA dans la présentation de l’activité
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: 8d2b3af9942acbf30519c1f7b32fe79bed1f2eaa
+source-git-commit: ec6df29fa12dab229b89c061a9db3374e38c2152
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 36%
+source-wordcount: '788'
+ht-degree: 35%
 ---
-# Informations sur l’IA
+# Informations sur l’IA {#ai-insights}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser le menu **[!UICONTROL Informations sur l’IA]** de la [!DNL Adobe Target] **[!UICONTROL Présentation des activités]** pour passer en revue les apprentissages d’expérience, comparer les traitements et identifier les opportunités d’optimisation.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
 >La fonctionnalité d’informations sur l’IA est actuellement disponible en version bêta.
 ></br>
->La section **[!UICONTROL Informations sur l’IA]** est disponible uniquement pour les activités **[!UICONTROL Test A/B]** avec affectation du trafic **[!UICONTROL Manuel]**.
+>La section **[!UICONTROL Informations sur l’IA]** est disponible uniquement pour les **[!UICONTROL activités de test A/B]** avec affectation du trafic **[!UICONTROL manuelle]**.
 
 Le menu **[!UICONTROL Informations sur l’IA]** de votre **[!UICONTROL Présentation des activités]** permet d’accéder aux informations et aux opportunités d’optimisation. Utilisez cet onglet pour passer en revue les enseignements tirés des expériences, comparer des traitements et identifier les modifications susceptibles d’améliorer les taux de conversion.
 
@@ -67,7 +73,7 @@ La mesure principale est automatiquement extraite des paramètres de création d
 
 1. Ouvrez votre activité dans [!DNL Adobe Target].
 
-1. Sélectionnez le menu **[!UICONTROL Informations sur l’IA]** pour ouvrir le panneau de configuration.
+1. Sélectionnez le menu **[!UICONTROL Informations d’IA]** pour ouvrir le panneau de configuration.
 
 1. Cliquez sur ![](assets/do-not-localize/Smock_Edit_18_N.svg) pour créer une hypothèse pour votre expérience.
 
@@ -84,7 +90,7 @@ La mesure principale est automatiquement extraite des paramètres de création d
 
    ![](assets/ai-insights-1.png)
 
-1. Sélectionnez **[!UICONTROL Télécharger l’image]** pour télécharger une capture d’écran préférée à partir de vos fichiers locaux pour chaque expérience.
+1. Sélectionnez **[!UICONTROL Charger l’image]** pour charger une capture d’écran préférée à partir de vos fichiers locaux pour chaque expérience.
 
    ![](assets/ai-insights-2.png)
 
@@ -103,7 +109,7 @@ Une fois la configuration terminée, votre activité est prête à générer des
 
 Les informations d’expérience sont des apprentissages générés par l’IA provenant de cette expérience. Ces informations sont disponibles une fois que l’expérience a atteint sa signification statistique et fournissent un contexte sur ce qui a contribué à son succès. Ils mettent en évidence les attributs clés présents dans l’expérience gagnante qui sont distincts du contrôle et ont probablement influencé le résultat.
 
-1. Cliquez sur la carte pour accéder au menu **[!UICONTROL Insights]**.
+1. Cliquez sur la carte pour accéder au menu **[!UICONTROL Informations]**.
 
    ![](assets/ai-insights-3.png)
 

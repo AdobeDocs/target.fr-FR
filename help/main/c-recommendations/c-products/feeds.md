@@ -1,7 +1,7 @@
 ---
 keywords: flux de recommandations;flux;SAINT;ftp;sftp;csv;classifications;classifications analytics
 description: Découvrez comment les flux importent des entités dans [!DNL Adobe Target] [!DNL Recommendations] à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Analytics].
-title: Comment utiliser [!UICONTROL Flux] dans [!DNL Target Recommendations] ?
+title: Comment utiliser les [!UICONTROL flux] dans [!DNL Target Recommendations] ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
@@ -22,22 +22,26 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 22eb14463a76adc797e57420cac0f646be3d3f00
 workflow-type: tm+mt
-source-wordcount: '2792'
-ht-degree: 29%
+source-wordcount: '2810'
+ht-degree: 25%
 ---
-# Flux
+# Flux {#feeds}
 
-Utilisez des flux pour importer des entités dans [!DNL Adobe Target] [!DNL Recommendations]. Les entités peuvent être envoyées à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Adobe Analytics].
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment les flux importent des entités dans [!DNL Adobe Target Recommendations], quels types de sources sont disponibles et comment créer et surveiller un flux.
+
+>[!ENDSHADEBOX]
+
+Utilisez les flux pour importer des entités dans [!DNL Adobe Target Recommendations]. Les entités peuvent être envoyées à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Adobe Analytics].
 
 ## Présentation des flux {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-Les flux vous permettent de transmettre des [Entités](/help/main/c-recommendations/c-products/products.md) ou d’enrichir vos données mbox avec des informations qui ne sont pas disponibles sur la page ou dont l’envoi direct à partir de la page n’est pas sécurisé. Par exemple, la marge, le coût des marchandises vendues (COGS), etc.
+Les flux vous permettent de transmettre [entités](/help/main/c-recommendations/c-products/products.md) ou d’enrichir vos données mbox avec des informations qui ne sont pas disponibles sur la page ou dont l’envoi direct à partir de la page n’est pas sécurisé. Par exemple, la marge, le coût des marchandises vendues (COGS), etc. Les flux vous permettent également de transmettre des informations détaillées sur les articles dans [!DNL Recommendations], telles que l’ID de produit, la catégorie, le nom, le message et d’autres attributs.
 
-Les flux vous permettent également de transmettre des informations détaillées sur les articles aux [!DNL Recommendations], telles que l’ID de produit, la catégorie, le nom, le message et d’autres attributs.
-
-Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou [!DNL Google Product Search] fichier que vous souhaitez envoyer au serveur de [!DNL Recommendations].
+Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou de votre fichier [!DNL Google Product Search] à envoyer au serveur [!DNL Recommendations].
 
 Ces éléments de données sur chaque élément peuvent ensuite être utilisés pour :
 
@@ -46,39 +50,40 @@ Ces éléments de données sur chaque élément peuvent ensuite être utilisés 
 * Trier les éléments dans différentes collections
 * Appliquer des exclusions aux recommandations
 
-Les descriptions d’éléments peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si [!DNL Target] collecte des données à l’aide d’un flux d’entités et d’une mbox, les données les plus récentes l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans le cas rare où les données du flux d’entités et les données mbox arrivent en même temps, les données mbox sont utilisées.
+Les descriptions d’élément peuvent être transmises à [!DNL Target] à l’aide de flux ou de mbox. Si [!DNL Target] collecte des données à l’aide d’un flux d’entités et d’une mbox, les données les plus récentes l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans le cas rare où les données du flux d’entités et les données mbox arrivent en même temps, les données mbox sont utilisées.
 
-La liste [!UICONTROL Flux] ( **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
+Les entités et attributs d’entité chargés expirent après 61 jours. Autrement dit :
 
-La page [!UICONTROL Flux] contient les colonnes suivantes :
+* Votre flux doit s’exécuter au moins une fois par mois pour vous assurer que le contenu de votre catalogue n’expire pas.
 
-* **Nom** : nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec le nouveau nom, il est actualisé.
-* **État** : [état](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) actuel du flux.
-* **Type** : les types incluent [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) et [classifications Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Éléments** : affiche le nombre d’éléments dans le flux.
-* **Planning** : affiche le planning de mise à jour du flux : [!UICONTROL Quotidien], [!UICONTROL Hebdomadaire], [!DNL Every 2 Weeks] ou [!UICONTROL Jamais].
-* **Dernière mise à jour** : affiche la date et l’heure de la dernière mise à jour du flux et le nom de la personne qui l’a mis à jour.
+* La suppression d’un élément de votre fichier de flux ne le supprime pas de votre catalogue. Pour supprimer l’élément du catalogue, supprimez manuellement l’élément via l’interface utilisateur ou l’API [!DNL Target]. Vous pouvez également modifier les attributs article (tels que le stock) pour vous assurer que l&#39;article est exclu de la prise en compte.
 
-Cliquez sur l’icône [!UICONTROL Personnaliser le tableau] ( ![Icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ) pour sélectionner ou désélectionner les colonnes à afficher.
+* Chargez votre fichier de flux au moins tous les 60 jours pour éviter d’interrompre vos activités de recommandations. Si un élément n&#39;est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d&#39;entité) au moins une fois tous les 60 jours, [!DNL Target] en déduit que l&#39;élément n&#39;est plus pertinent et le supprime du catalogue.
 
-Cliquez sur l’icône [!UICONTROL Informations] ( icône ![Informations](/help/main/assets/icons/InfoOutline.svg) ) pour afficher une vignette indiquant la date du dernier chargement et l’URL du flux.
+### Liste des flux
 
-Cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) pour accéder aux actions suivantes : [!UICONTROL Désactiver], [!DNL Edit], [!UICONTROL Copier] et [!UICONTROL Supprimer].
+La liste [!UICONTROL Flux] (**[!UICONTROL Recommendations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés. Il contient les colonnes suivantes :
 
->[!IMPORTANT]
->
->Les entités et attributs d’entité chargés expirent après 61 jours. Autrement dit :
->
->* Votre flux doit s’exécuter au moins une fois par mois pour vous assurer que le contenu de votre catalogue n’expire pas.
->* La suppression d’un élément de votre fichier de flux ne le supprime pas de votre catalogue. Pour supprimer l’élément du catalogue, supprimez manuellement l’élément via l’interface utilisateur ou l’API [!DNL Target]. Vous pouvez également modifier les attributs article (tels que le stock) pour vous assurer que l&#39;article est exclu de la prise en compte.
+| Colonne | Description |
+|---|---|
+| **Nom** | Nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec le nouveau nom, il est actualisé. |
+| **État** | État actuel du flux [1&rbrace;.](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) |
+| **Type** | Les types comprennent les [classifications CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) et [Analytics](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A). |
+| **Éléments** | Affiche le nombre d’éléments dans le flux. |
+| **Planification** | Affiche le planning de mise à jour du flux : **[!UICONTROL Quotidien]**, **[!UICONTROL Hebdomadaire]**, **[!DNL Every 2 Weeks]** ou **[!UICONTROL Jamais]**. |
+| **Dernière Mise À Jour** | Affiche la date et l’heure de la dernière mise à jour du flux, ainsi que le nom de la personne qui l’a mise à jour. |
 
-## Types de Source
+* Cliquez sur l’icône **[!UICONTROL Personnaliser le tableau]** ( ![Icône Personnaliser le tableau](/help/main/assets/icons/ColumnSetting.svg) ) pour sélectionner ou désélectionner les colonnes à afficher.
+* Cliquez sur l’icône **[!UICONTROL Informations]** ( ![Icône Infos](/help/main/assets/icons/InfoOutline.svg) ) pour afficher une vignette qui affiche la date du dernier chargement et l’URL du flux.
+* Cliquez sur l’icône **[!UICONTROL Autres actions]** ( ![Icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) pour accéder aux actions suivantes : **[!UICONTROL Désactiver]**, **[!DNL Edit]**, **[!UICONTROL Copier]** et **[!UICONTROL Supprimer]**.
 
-Les entités peuvent être envoyées à l’aide de fichiers CSV, du format de flux [!DNL Google Product Search] et de classifications de produits [!DNL Adobe Analytics].
+## Types de Source {#source-types}
+
+Les sections suivantes décrivent les types de sources que vous pouvez utiliser pour envoyer des entités.
 
 ### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-Vous pouvez créer un fichier .csv à l’aide du format de téléchargement CSV propriétaire [!DNL Adobe]. Le fichier contient des informations d’affichage sur les attributs personnalisés et réservés pour vos produits. Pour charger des attributs spécifiques à votre mise en œuvre, remplacez `CustomN` sur la ligne d’en-tête par le nom de l’attribut que vous souhaitez utiliser. Dans l’exemple ci-dessous, `entity.Custom1` a été remplacé par : `entity.availability`. Vous pouvez ensuite charger le fichier par lot sur le serveur [!DNL Recommendations].
+Vous pouvez créer un fichier .csv à l’aide du format de chargement CSV propriétaire [!DNL Adobe]. Le fichier contient des informations d’affichage sur les attributs personnalisés et réservés pour vos produits. Pour charger des attributs spécifiques à votre mise en œuvre, remplacez `CustomN` sur la ligne d’en-tête par le nom de l’attribut que vous souhaitez utiliser. Dans l’exemple ci-dessous, `entity.Custom1` a été remplacé par : `entity.availability`. Vous pouvez ensuite charger le fichier par lot sur le serveur [!DNL Recommendations].
 
 L’utilisation du format .csv présente les avantages suivants par rapport au format de flux [!DNL Google] :
 
@@ -88,7 +93,7 @@ L’utilisation du format .csv présente les avantages suivants par rapport au f
 
 Utilisez la méthode de chargement en masse pour envoyer des informations d’affichage si votre page ne contient pas de mbox ou si vous souhaitez compléter vos informations d’affichage avec des éléments qui ne sont pas disponibles sur votre site. Par exemple, vous pouvez envoyer au module les informations du stock qui ne sont pas publiées sur votre site.
 
-Toutes les données téléchargées à l’aide du fichier .csv, du flux de produit Google ou du flux de classification de produit [!DNL Analytics] remplacent la valeur d’attribut d’entité existante dans la base de données. Si vous envoyez des informations de prix via des requêtes de mbox et que vous envoyez ensuite des valeurs de prix différentes dans le fichier, les valeurs du fichier remplacent les valeurs définies avec la requête de mbox. Une exception à cette règle est l’attribut d’entité `categoryId` où les valeurs de catégorie sont ajoutées au lieu d’être remplacées jusqu’à une limite de 250 caractères.
+Toutes les données chargées à l’aide du fichier .csv, du flux de produits Google ou du flux de classification de produits [!DNL Analytics] remplacent la valeur d’attribut d’entité existante dans la base de données. Si vous envoyez des informations de prix via des requêtes de mbox et que vous envoyez ensuite des valeurs de prix différentes dans le fichier, les valeurs du fichier remplacent les valeurs définies avec la requête de mbox. Une exception à cette règle est l’attribut d’entité `categoryId` où les valeurs de catégorie sont ajoutées au lieu d’être remplacées jusqu’à une limite de 250 caractères.
 
 >[!IMPORTANT]
 >
@@ -106,13 +111,11 @@ La syntaxe suivante est correcte :
 "Apples ""Bananas"" Grapes""",
 ```
 
->[!NOTE]
->
->Vous ne pouvez pas remplacer une valeur existante par une valeur vide. Transmettez une autre valeur à sa place pour remplacer la valeur existante. Dans le cas d’un prix de vente, une solution courante consiste à transmettre un « NULL » réel ou un autre message. Vous pouvez alors écrire une règle de modèle afin d’exclure des éléments comportant cette valeur.
+Notez que vous ne pouvez pas remplacer une valeur existante par une valeur vide. Transmettez une autre valeur à sa place pour remplacer la valeur existante. Dans le cas d’un prix de vente, une solution courante consiste à transmettre un « NULL » réel ou un autre message. Vous pouvez alors écrire une règle de modèle afin d’exclure des éléments comportant cette valeur.
 
 Le produit est disponible dans l’interface d’administration environ deux heures après le chargement de son entité.
 
-Voici un exemple de code pour un fichier .csv :
++++ Exemple de fichier .csv
 
 ```
 ## RECSRecommendations Upload File 
@@ -126,28 +129,28 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
++++
+
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+
+>[!NOTE]
+>
+>Vous n&#39;avez pas besoin d&#39;envoyer vos données à [!DNL Google]. Vous pouvez importer vos propres données et planifier des mises à jour, à condition que le fichier utilise les noms d&#39;attributs [!DNL Google] prédéfinis.
 
 Le type de flux [!DNL Google Product Search] utilise le format [!DNL Google] plutôt que le format CSV propriétaire [!DNL Adobe]. Vous pouvez réutiliser un [!DNL Google Product Feed] existant pour importer des données de produit dans [!DNL Recommendations].
 
->[!NOTE]
->
->Vous n’avez pas besoin d’envoyer vos données à [!DNL Google]. Vous pouvez importer vos propres données et planifier des mises à jour, à condition que le fichier utilise les noms d’attributs [!DNL Google] prédéfinis.
+[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les [&#x200B; attributs définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Indiquez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
 
-[!DNL Recommendations] accepte les fichiers .xml, .txt et .tsv conformes à la spécification de flux [!DNL Google] et utilisant les attributs [&#x200B; définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Spécifiez l’URL ou l’emplacement FTP du flux afin que le serveur [!DNL Recommendations] puisse récupérer le fichier et créer votre catalogue.
-
->[!NOTE]
->
->Le serveur hébergeant le flux [!DNL Google] doit autoriser la méthode POST.
+Notez que le serveur hébergeant le flux [!DNL Google] doit autoriser la méthode POST.
 
 Gardez à l’esprit les exigences et restrictions suivantes :
 
 * Une mbox de page produit est toujours nécessaire pour afficher des recommandations sur cette page ou effectuer le suivi des consultations de produits pour les algorithmes basés sur les vues.
-* Les flux [!DNL Google] ne prennent pas en charge les valeurs multiples pour un attribut personnalisé.
+* [!DNL Google] flux ne prennent pas en charge les valeurs multiples pour un attribut personnalisé.
 
 Le flux s’exécute lorsque vous l’enregistrez et l’activez, puis quotidiennement une heure plus tard que l’heure d’exécution initiale.
 
-L’exemple suivant illustre un flux [!DNL Google Product Search] au format .xml :
++++ Exemple de flux [!DNL Google Product Search] au format .xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -214,7 +217,9 @@ L’exemple suivant illustre un flux [!DNL Google Product Search] au format .xml
 </feed> 
 ```
 
-Voici un exemple de code pour un fichier .tsv de flux [!DNL Google Product Search] :
++++
+
++++ Exemple de flux [!DNL Google Product Search] au format .tsv
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -222,35 +227,44 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-### Classifications de produit [!DNL Analytics] {#section_79E430D2C75443BEBC9AA0916A337E0A}
++++
+
+### [!DNL Analytics] classifications de produits {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 La classification de produit [!DNL Adobe Analytics] est la seule classification disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [À propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Par conséquent, suivez ce guide d’utilisation si vous souhaitez l’ajouter à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
->Avant d’importer des données d’entité dans des [!DNL Recommendations] à l’aide de classifications de produits [!DNL Analytics], sachez que ce n’est pas la méthode recommandée.
+>Avant d&#39;importer des données d&#39;entité dans [!DNL Recommendations] à l&#39;aide de classifications de produits [!DNL Analytics], sachez que ce n&#39;est pas la méthode préférée.
 >
 > Tenez compte des restrictions suivantes :
 >
 >* Les mises à jour des attributs d’entité exigent un délai supplémentaire de 24 heures.
->* [!DNL Target] prend uniquement en charge les [!UICONTROL classifications de produits]. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le `entity.id` [!DNL Recommendations]. Les classifications de [!DNL Analytics] personnalisées peuvent être conçues à l’aide de [!UICONTROL Adobe Consulting Services]. Contactez votre gestionnaire de compte pour toute question.
+>* [!DNL Target] prend uniquement en charge **[!UICONTROL classifications de produits]**. Le SKU du produit [!DNL Analytics] doit correspondre au même niveau que le [!DNL Recommendations] `entity.id`. Les classifications personnalisées [!DNL Analytics] peuvent être créées à l’aide des **[!UICONTROL services Adobe Consulting]**. Contactez votre gestionnaire de compte pour toute question.
 
-## Création d’un flux {#steps}
+## Créer un flux {#steps}
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
+La source détermine où [!DNL Recommendations] récupère les données d&#39;entité qui créent votre catalogue.
+
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Flux]** > **[!UICONTROL Créer un flux]**.
 
+   ![Créer une page de flux](../assets/feeds_1.png)
+
 1. Entrez un nom explicite pour votre flux.
-1. Sélectionnez un type de Source **&#x200B;**.
 
-   * [!UICONTROL CSV]
-   * [!UICONTROL Flux de produit &#x200B;]
-   * [!UICONTROL Classifications Analytics]
+1. Sélectionnez un **[!UICONTROL type Source]**.
 
-   Pour plus d’informations sur les types de flux [!UICONTROL CSV] et [!UICONTROL Flux de produit Google] voir [Présentation des flux](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
+   * **[!UICONTROL CSV]**
+   * **[!UICONTROL Flux de produits Google]**
+   * **[!UICONTROL Classifications Analytics]**
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produit Google]**, indiquez l’emplacement où le flux est accessible.
+   Pour plus d’informations sur les types de flux **[!UICONTROL CSV]** et **[!UICONTROL Google]**, voir [Types de Source](#source-types). Vous pouvez également [télécharger un guide de modèle CSV](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
+
+   ![Créer une page de flux](../assets/feeds_2.png)
+
+1. (Sous condition) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produit Google]**, indiquez l’emplacement où le flux est accessible.
 
    * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Vous pouvez utiliser le protocole FTP avec SSL (FTPS) pour des chargements plus sécurisés.
 
@@ -260,41 +274,43 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
      * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
      * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
 
-   +++
+     +++
 
-   * **SFTP** : saisissez le nom d’hôte de votre serveur SFTP ou son adresse IP, son port (par défaut : 22), son nom d’utilisateur, son répertoire et son nom de fichier. Pour l’authentification, fournissez un mot de passe, une clé privée SSH, ou les deux.
+   * **SFTP** : saisissez le nom d’hôte ou l’adresse IP de votre serveur SFTP, le port (22 par défaut), le nom d’utilisateur, le répertoire et le nom de fichier. Pour l’authentification, fournissez un mot de passe, une clé privée SSH, ou les deux.
 
      +++ Paramètres et limitations du serveur SFTP pris en charge
 
      * L&#39;authentification utilise un mot de passe, une clé privée SSH ou les deux. Au moins un est requis.
-     * Le client génère et est propriétaire de la paire de clés. Installez la clé publique dans le fichier `authorized_keys` de l’utilisateur SFTP, puis collez la clé privée dans Target en tant que texte PEM. Les types de clés acceptés sont RSA25519 Ed et ECDSA, au format PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`) ou OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`).
+     * Le client génère et est propriétaire de la paire de clés. Installez la clé publique dans le fichier `authorized_keys` de l’utilisateur SFTP, puis collez la clé privée dans Target en tant que texte PEM. Les types de clés acceptés sont RSA, Ed25519 et ECDSA, au format PEM (`-----BEGIN RSA PRIVATE KEY-----`), PKCS#8 (`-----BEGIN PRIVATE KEY-----`) ou OpenSSH (`-----BEGIN OPENSSH PRIVATE KEY-----`).
      * Les clés privées protégées par une phrase secrète ne sont pas prises en charge, un flux ne peut pas être enregistré avec une clé privée.
      * Target stocke la clé privée chiffrée et ne l’affiche plus. Pour le faire pivoter, modifiez le flux et saisissez la nouvelle clé.
-     * Entrez un nom d’hôte ou une adresse IP nu, sans préfixe, port ou chemin d’accès `sftp://`. Utilisez le champ Port pour un port autre que le port par défaut.
+     * Entrez un nom d&#39;hôte ou une adresse IP nu, sans préfixe, port ou chemin `sftp://`. Utilisez le champ Port pour un port autre que le port par défaut.
      * La clé d’hôte du serveur est acceptée lors de la première connexion. Aucun échange d’empreintes digitales avec Adobe n’est nécessaire.
      * Le protocole SFTP est disponible dans l’interface de Target et l’API Recommendations, mais pas dans l’interface d’administration Recommendations Classic héritée. Adobe n’héberge pas de point d’entrée SFTP, utilisez un serveur hébergé par le client.
-     * Le serveur SFTP doit être accessible à partir d’Internet et autoriser les connexions entrantes à partir des adresses de téléchargement Adobe Target. La liste des adresses IP de production doit être confirmée par l’ingénierie avant la publication de cette mise à jour.
+     * Le serveur SFTP doit être accessible à partir d’Internet et autoriser les connexions entrantes à partir des adresses de téléchargement Adobe Target.
 
-   +++
+     +++
 
-   * **URL** : si vous sélectionnez [!UICONTROL URL], spécifiez l’URL.
+   * **URL** : si vous sélectionnez **[!UICONTROL URL]**, spécifiez l’URL.
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Classifications Analytics]**, choisissez la suite de rapports dans la liste déroulante.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options [!UICONTROL Planifier].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options **[!UICONTROL Planifier]** et sélectionnez une option de mise à jour :
 
-1. Choisissez une option de mise à jour :
+   * **[!UICONTROL Quotidienne]**
+   * **[!UICONTROL Hebdomadaire]**
+   * **[!UICONTROL Toutes Les 2 Semaines]**
+   * **[!UICONTROL Jamais]** : ne planifiez pas de mise à jour. Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
 
-   * [!UICONTROL Quotidien]
-   * [!UICONTROL hebdomadaire]
-   * [!UICONTROL Toutes Les 2 Semaines]
-   * [!UICONTROL Jamais] : ne planifiez pas de mise à jour. Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
+   ![Créer une page de flux](../assets/feeds_3.png)
 
 1. Indiquez l’heure à laquelle vous souhaitez que votre flux s’exécute.
 
    Cette option se base sur le fuseau horaire utilisé par votre navigateur. Si vous voulez utiliser l’heure d’un fuseau horaire différent, vous devez calculer cette heure selon votre fuseau horaire.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options [!UICONTROL Mappage], puis spécifiez la manière dont vous souhaitez mapper vos données aux définitions de [!DNL Target].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options **[!UICONTROL Mappage]**, puis indiquez comment vous souhaitez mapper vos données aux définitions [!DNL Target].
+
+   ![Créer une page de flux](../assets/feeds_4.png)
 
 1. (Facultatif) Si vous souhaitez que les flux appartiennent à un environnement (un groupe d’hôtes), sélectionnez le groupe d’hôtes en question.
 
@@ -302,43 +318,51 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement, puis est mis à jour en fonction de vos paramètres. Le flux doit se synchroniser, être traité et indexer avant que ses données ne soient disponibles. Vérifiez la progression du [statut du flux](/help/main/c-recommendations/c-products/feeds.md#status) dans la liste [!UICONTROL Flux]. Le traitement se poursuit même si vous fermez [!DNL Target].
+Une fois que vous avez créé ou modifié un flux, il s’exécute immédiatement, puis est mis à jour en fonction de vos paramètres. Le flux doit se synchroniser, être traité et indexer avant que ses données ne soient disponibles. Le traitement se poursuit même si vous fermez [!DNL Target], et vous pouvez suivre la progression dans la liste **[!UICONTROL Flux]** avec le [statut de flux](/help/main/c-recommendations/c-products/feeds.md#status).
 
-Pendant l’indexation, les produits et les en-têtes de flux apparaissent avant les valeurs individuelles. Vous pouvez donc rechercher des produits et créer des collections, des exclusions, des conceptions et des activités avant la fin de l’indexation.
+Pendant l’indexation, les produits et les en-têtes de flux apparaissent avant les valeurs individuelles. Vous pouvez donc déjà rechercher des produits et créer des collections, des exclusions, des conceptions et des activités.
 
-Le statut « Succès » signifie que le fichier a été trouvé et analysé correctement. Ses données ne sont disponibles dans [!DNL Recommendations] qu’après l’indexation, qui prend du temps en fonction de la taille du fichier. Les échecs peuvent provenir d’une URL ou d’informations FTP incorrecte, d’un fichier manquant ou d’une erreur d’analyse.
+Le statut « Succès » signifie que le fichier a été trouvé et analysé correctement. Ses données ne sont disponibles qu’après l’indexation, qui prend plus de temps pour les fichiers plus volumineux. Un échec peut provenir d’une URL ou d’informations FTP incorrecte, d’un fichier manquant ou d’une erreur d’analyse.
 
-## États de flux et indicateurs {#concept_E475986720D1400999868B3DFD14A7A0}
+## Statuts et indicateurs des flux {#concept_E475986720D1400999868B3DFD14A7A0}
 
-Information à propos des états possibles des flux et leurs indicateurs.
+Cette section décrit les statuts de flux possibles et leurs indicateurs.
 
-### États du flux {#status}
+### Statuts des flux {#status}
 
 Un flux peut avoir les états suivants :
 
 | État | Description |
 |--- |--- |
-| [!UICONTROL &#x200B; Synchronisation &#x200B;] | Les détails de la configuration du flux sont enregistrés dans [!DNL Target]. |
-| [!UICONTROL Échec de la synchronisation] | Impossible d’enregistrer les détails de la configuration de flux dans [!DNL Target]. Essayez à nouveau. |
-| [!UICONTROL Pas d’exécution du flux] | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
+| **[!UICONTROL Synchronisation]** | Les détails de la configuration du flux sont en cours d’enregistrement dans [!DNL Target]. |
+| **[!UICONTROL Échec De La Synchronisation]** | Impossible d&#39;enregistrer les détails de configuration du flux dans [!DNL Target]. Essayez à nouveau. |
+| **[!UICONTROL Aucune Exécution De Flux]** | Vous avez créé un flux mais il n’a pas été planifié (la fréquence est définie sur Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
-| [!UICONTROL En attente de téléchargement] | [!DNL Target] se prépare à télécharger le fichier de flux. |
-| [!UICONTROL Téléchargement du fichier de flux] | [!DNL Target] télécharge le fichier de flux. |
-| [!UICONTROL Importation d’éléments] | [!DNL Target] importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à l’*heure* | [!DNL Target] a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations diffusées. Si les modifications attendues ne s’affichent pas, réessayez et actualisez la page contenant les recommandations.<br>Notes :<ul><li>Si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément vient d’être ajouté ou si des modifications sont apportées à des attributs, un élément n’est *plus* exclu des recommandations. Il n’est reflété que lors de la prochaine mise à jour de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque ce statut s’affiche, les mises à jour peuvent ne pas encore être reflétées dans l’interface utilisateur de la [!UICONTROL Recherche catalogue]. Un statut distinct est répertorié dans [!UICONTROL Recherche catalogue] indiquant la dernière fois que le catalogue consultable a été mis à jour.</li></ul> |
-| Échec de l’importation partielle | Auparavant, lorsque toutes les lignes n’étaient pas chargées, le flux était toujours marqué comme réussi. Cela crée une fausse impression que toutes les lignes ont été chargées lorsque le flux s’affiche avec succès.<P>Voici un scénario expliquant pourquoi vous pouvez rencontrer une importation de flux partielle :<ul><li>Vous avez chargé un fichier de flux pour l’environnement de production, par exemple 100 lignes.</li><li>Le flux a exécuté et chargé 80 de ces lignes et en a ignoré 20 en raison d’une mise en forme incorrecte, d’un champ contenant plus de caractères, etc.</li><li>Le flux a été marqué comme réussi dans l’interface utilisateur, ce qui vous donne l’impression que les 100 lignes ont toutes été chargées.</li><li>Vous attendez certains de ces 20 produits dans la livraison d&#39;une activité, mais ce n&#39;est pas le cas.</li><li> Vous êtes perplexe à ce stade, car vous avez chargé le flux qui contient les détails du produit en question. Vous ne le voyez pas sur le serveur principal lorsque vous effectuez une requête via l’API d’entité, qui vous indique qu’il ne se trouve pas sur le serveur principal.</li></ul>Pour supprimer cette confusion, le message est amélioré pour indiquer exactement ce qui s’est passé avec le flux. Au lieu de le marquer comme une réussite, il est maintenant marqué comme un échec d’importation partiel. |
-| [!UICONTROL Échec de l’indexation] | L’opération d’index a échoué. Essayez à nouveau. |
-| [!UICONTROL Serveur Introuvable] | Les emplacements FTP, SFTP ou URL ne sont pas valides ou sont inaccessibles. |
+| **[!UICONTROL En attente de téléchargement]** | [!DNL Target] se prépare à télécharger le fichier de flux. |
+| **[!UICONTROL Téléchargement Du Fichier De Flux]** | [!DNL Target] télécharge le fichier de flux. |
+| **[!UICONTROL Importation D&#39;Éléments]** | [!DNL Target] importe des éléments à partir du fichier de flux. |
+| Flux importé avec succès à l’*heure* | [!DNL Target] a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations diffusées. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>Remarques :<ul><li>Si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément vient d’être ajouté ou si des modifications sont apportées aux attributs, un élément n’est *plus exclu* des recommandations, il n’est pas reflété avant la prochaine mise à jour de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque ce statut s’affiche, les mises à jour peuvent ne pas encore être reflétées dans l’interface utilisateur de la **[!UICONTROL recherche catalogue]**. Un statut distinct est répertorié dans **[!UICONTROL Recherche catalogue]** indiquant la dernière fois que le catalogue consultable a été mis à jour.</li></ul> |
+| Échec de l’importation partielle | Certaines lignes du fichier de flux n’ont pas été chargées. Voir [Échec de l’importation partielle](#partial-import-failed). |
+| **[!UICONTROL Échec de l&#39;indexation]** | L’opération d’index a échoué. Essayez à nouveau. |
+| Serveur **[!UICONTROL Introuvable]** | Les emplacements FTP, SFTP ou URL ne sont pas valides ou sont inaccessibles. |
 
-Pour mettre à jour un flux (par exemple, pour apporter des modifications à la configuration ou au fichier du flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**.
+#### Échec de l’import partiel {#partial-import-failed}
 
->[!IMPORTANT]
->
->Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. Si un élément n’est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d’entité) au moins une fois tous les 60 jours, [!DNL Target] en déduit que l’élément n’est plus pertinent et le supprime du catalogue.
+Auparavant, lorsque toutes les lignes n’étaient pas chargées, le flux était toujours marqué comme réussi. Cela donnait la fausse impression que toutes les lignes avaient été chargées. Le message indique maintenant ce qui s’est passé : le flux est marqué comme échec de l’importation partielle au lieu de réussite.
 
-### Indicateurs de l’état du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+Le scénario suivant montre pourquoi une importation de flux partielle peut se produire :
 
-Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UICONTROL État] :
+* Vous avez chargé un fichier de flux pour l’environnement de production, par exemple 100 lignes.
+* Le flux a exécuté et chargé 80 de ces lignes et en a ignoré 20 en raison d’une mise en forme incorrecte, d’un champ contenant plus de caractères, etc.
+* Le flux a été marqué comme réussi dans l’interface utilisateur, ce qui vous donne l’impression que les 100 lignes ont toutes été chargées.
+* Vous attendez certains de ces 20 produits dans la livraison d&#39;une activité, mais ce n&#39;est pas le cas.
+* Le flux que vous avez chargé contient les détails des produits en question, mais vous ne les voyez pas en arrière-plan lorsque vous effectuez une requête via l’API Entity, ce qui indique qu’ils ne se trouvent pas en arrière-plan.
+
+Pour mettre à jour un flux (par exemple, pour apporter des modifications à la configuration ou au fichier du flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**. Le délai d’expiration des entités téléchargées est de 61 jours. Consultez la remarque dans la [Présentation des flux](#concept_D1E9C7347C5D4583AA69B02E79607890) pour connaître la fréquence de chargement.
+
+### Indicateurs de statut du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+
+Les indicateurs de l’état du flux suivants s’affichent dans la colonne **[!UICONTROL État]** :
 
 | Indicateur d’état | Description |
 |--- |--- |
@@ -367,7 +391,7 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Présentation des flux dans Recommendations (3:01) ![Badge d’aperçu](/help/main/assets/overview.png)
++++ Comprendre les flux dans Recommendations
 
 Cette vidéo traite des sujets suivants :
 
@@ -376,7 +400,9 @@ Cette vidéo traite des sujets suivants :
 
 >[!VIDEO](https://video.tv.adobe.com/v/33898?captions=fre_fr)
 
-### Créer un flux (6:44) ![Badge de tutoriel](/help/main/assets/tutorial.png)
++++
+
++++ Créer un flux
 
 Cette vidéo traite des sujets suivants :
 
@@ -384,3 +410,5 @@ Cette vidéo traite des sujets suivants :
 * Déterminer le type de flux à utiliser
 
 >[!VIDEO](https://video.tv.adobe.com/v/33897?captions=fre_fr)
+
++++
