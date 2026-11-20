@@ -75,7 +75,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
    1. Pour ajouter une exclusion à une règle, cliquez sur **[!UICONTROL Exclure]**.
 
-      ![image {combine_multiple_audiences3a](assets/combine_multiple_audiences3a.png)
+      ![image &lbrace;combine_multiple_audiences3a](assets/combine_multiple_audiences3a.png)
 
       Glissez-déposez une audience.
 
