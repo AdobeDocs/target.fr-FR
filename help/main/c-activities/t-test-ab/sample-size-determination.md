@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e43265e56e7add690f33a4cd19990bed55a82123
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '3146'
-ht-degree: 43%
+source-wordcount: '3140'
+ht-degree: 42%
 ---
 # Quelle doit être la durée d’exécution d’un test A/B ? {#sample-size-determination}
 
@@ -36,7 +36,7 @@ ht-degree: 43%
 
 >[!ENDSHADEBOX]
 
-Une activité de test A/B **[!UICONTROL 1&rbrace; réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.]** Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités d’**[!UICONTROL affectation automatique]** et le Calculateur de taille d’échantillon **[!UICONTROL Adobe Target]** pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
+Une activité de test A/B **[!UICONTROL 1} réussie dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.]** Comment savez-vous combien de temps il faut exécuter un test A/B ? Cet article contient des informations sur les activités d’**[!UICONTROL affectation automatique]** et le Calculateur de taille d’échantillon **[!UICONTROL Adobe Target]** pour vous aider à vous assurer que votre activité comporte suffisamment de visiteurs pour atteindre vos objectifs.
 
 ## Pourquoi ne pas arrêter une activité plus tôt {#stop-early}
 
@@ -64,7 +64,7 @@ Avant de configurer votre test A/B, accédez au [!DNL Adobe Target] [Calculateur
 
 ![Calculateur de taille d’échantillon d’Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-Il est important de déterminer une taille d’échantillon adéquate (nombre de visiteurs) avant d’effectuer tout test A/B afin d’établir la durée d’exécution de l’activité avant d’évaluer les résultats. Le simple fait de surveiller l’activité jusqu’à ce que la signification statistique soit atteinte entraîne une sous-estimation importante de l’intervalle de confiance, ce qui rend le test peu fiable. L&#39;intuition derrière ce résultat est que, dans le cas où un résultat statistiquement significatif est détecté, le test est arrêté et un gagnant est déclaré. Cependant, si le résultat n&#39;est pas statistiquement significatif, le test peut être poursuivi. Cette procédure favorise nettement le résultat positif, ce qui augmente le taux de faux positifs et déforme le niveau de pertinence effectif du test.
+Il est important de déterminer une taille d’échantillon adéquate (nombre de visiteurs) avant d’effectuer tout test A/B afin d’établir la durée d’exécution de l’activité avant d’évaluer les résultats. La surveillance de l’activité jusqu’à l’obtention d’une signification statistique entraîne une sous-estimation importante de l’intervalle de confiance, ce qui rend le test peu fiable. L&#39;intuition derrière ce résultat est que, dans le cas où un résultat statistiquement significatif est détecté, le test est arrêté et un gagnant est déclaré. Cependant, si le résultat n&#39;est pas statistiquement significatif, le test peut être poursuivi. Cette procédure favorise nettement le résultat positif, ce qui augmente le taux de faux positifs et déforme le niveau de pertinence effectif du test.
 
 Cette procédure peut entraîner de nombreux faux positifs, ce qui entraîne l’implémentation d’offres qui ne fournissent pas l’effet élévateur prévu à la fin. Un mauvais effet élévateur en soi est un résultat insatisfaisant, mais une conséquence encore plus grave est qu&#39;au fil du temps, l&#39;incapacité à prédire avec précision l&#39;effet élévateur érode la confiance organisationnelle dans les tests en tant que pratique.
 
@@ -93,7 +93,7 @@ La figure ci-dessous illustre les quatre résultats possibles d’un test A/B 
 
 ![Tableau des quatre résultats possibles d&#39;un test A/B : vrai positif, faux positif (contrôlé par le niveau de signification), faux négatif (contrôlé par le niveau de puissance) et vrai négatif](assets/outcomes.png)
 
-Il est souhaitable de n’obtenir aucun faux positif ou faux négatif. Cependant, l’obtention de zéro faux positif ne peut jamais être garantie par un test statistique. Il est toujours possible que les tendances observées ne soient pas représentatives des taux de conversion sous-jacents. Par exemple, dans un test pour voir si les pile ou face d&#39;une pièce de monnaie étaient plus probables, même avec une pièce de monnaie équitable, vous pourriez obtenir dix piles sur dix lancers juste par hasard. La signification et la puissance statistiques aident à quantifier les taux de faux positifs et faux négatifs et permettent de les maintenir à des niveaux raisonnables pour un test donné.
+Il est souhaitable de n’obtenir aucun faux positif ou faux négatif. Cependant, l’obtention de zéro faux positif ne peut jamais être garantie par un test statistique. Il est toujours possible que les tendances observées ne soient pas représentatives des taux de conversion sous-jacents. Par exemple, dans un test pour voir si les pile ou face sur un lancer de monnaie étaient plus probables, même avec une pièce de monnaie équitable, vous pourriez obtenir dix pile ou face sur dix lancers par hasard. La signification et la puissance statistiques aident à quantifier les taux de faux positifs et faux négatifs et permettent de les maintenir à des niveaux raisonnables pour un test donné.
 
 ### Signification statistique {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
@@ -119,7 +119,7 @@ Il est souhaitable d’utiliser le niveau de confiance le plus élevé possible,
 
 ### Puissance statistique {#section_1169C27F8E4643719D38FB9D6EBEB535}
 
-La puissance statistique d’un test A/B est la probabilité de détecter une différence réelle dans un taux de conversion d’une certaine magnitude. En raison de la nature aléatoire (stochastique) des événements de conversion, il est possible qu’une différence statistiquement significative ne soit pas observée, simplement par hasard, même s’il existe une réelle différence de taux de conversion entre les deux offres. Ce scénario est appelé faux négatif ou erreur de type II.
+La puissance statistique d’un test A/B est la probabilité de détecter une différence réelle dans un taux de conversion d’une certaine magnitude. Il est possible qu’une différence statistiquement significative ne soit pas observée, par hasard, même s’il existe une différence réelle de taux de conversion entre les deux offres, en raison de la nature aléatoire (stochastique) des événements de conversion. Ce scénario est appelé faux négatif ou erreur de type II.
 
 La puissance statistique est souvent ignorée car sa détermination, à la différence de la signification statistique, n’est pas requise pour effectuer un test A/B. Toutefois, en ignorant la puissance statistique, il est fort probable que les différences réelles entre les taux de conversion des différentes offres ne soient pas détectées par le test, car la taille de l’échantillon est trop petite. Cette situation entraîne la dominance des tests par des faux positifs.
 
@@ -139,7 +139,7 @@ La figure ci-dessous illustre ces lois de probabilités.
 
 ![Les distributions de probabilité des taux de conversion observés des offres A et B avec 100 visiteurs chacune : les courbes se chevauchent fortement](assets/probability_distributions.png)
 
-En raison du chevauchement important entre les deux plages, le test ne peut pas déterminer si les taux de conversion sont différents. De ce fait, ce test avec 100 visiteurs ne peut pas faire la distinction entre les deux offres. Cependant, si [!DNL Target] expose les offres à 5 000 visiteurs chacun, il y a une probabilité de 95 % que les taux de conversion observés chutent dans les plages de 9 % à 11 % et de 14 % à 16 %, respectivement.
+Les deux plages se chevauchent largement, de sorte que le test ne peut pas déterminer si les taux de conversion sont différents. De ce fait, ce test avec 100 visiteurs ne peut pas faire la distinction entre les deux offres. Cependant, si [!DNL Target] expose les offres à 5 000 visiteurs chacun, il y a une probabilité de 95 % que les taux de conversion observés chutent dans les plages de 9 % à 11 % et de 14 % à 16 %, respectivement.
 
 ![Les distributions de probabilité des taux de conversion observés des offres A et B avec 5 000 visiteurs chacune : les courbes ne se chevauchent pas](assets/probability_distributions2.png)
 
@@ -161,7 +161,7 @@ Le calculateur de taille d’échantillon (lien fourni ci-dessus) vous demande d
 
 Il existe un compromis entre l’effet élévateur minimal qui peut être identifié de manière fiable par le test et le nombre requis de visiteurs. La figure ci-dessous, qui est valide pour un taux de conversion de ligne de base (contrôle) de 5 %, illustre des retours fortement en baisse alors que le nombre de visiteurs a augmenté. L’effet élévateur minimal qui peut être détecté de manière fiable s’améliore fortement lors de l’ajout des premiers visiteurs au test mais il faut un nombre toujours plus grand de visiteurs pour améliorer le test. Cette figure permet de trouver le compromis approprié entre le temps requis pour exécuter le test (tel que déterminé par le nombre requis de visiteurs et le trafic du site) et l’effet élévateur minimal qui peut être détecté de manière fiable par le test.
 
-![Courbe de taille d’échantillon pour un taux de conversion de contrôle de 5 % : 15 % de l’effet élévateur nécessite 12 000 visiteurs, 10 % de l’effet élévateur 26 000 et 5 % de l’effet élévateur 100 000 &#x200B;](assets/samplesizecontrol.png)
+![Courbe de taille d’échantillon pour un taux de conversion de contrôle de 5 % : 15 % de l’effet élévateur nécessite 12 000 visiteurs, 10 % de l’effet élévateur 26 000 et 5 % de l’effet élévateur 100 000 ](assets/samplesizecontrol.png)
 
 +++ Exemple : calculer la durée d’exécution du test
 

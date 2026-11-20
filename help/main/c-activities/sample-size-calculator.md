@@ -4,12 +4,18 @@ description: Utilisez le Calculateur de taille d’échantillon d’Adobe Target
 title: Calculateur de taille d’échantillon
 feature: Activities
 badge: label="Beta" type="Informative"
-source-git-commit: d3fb1b69975951d41803be0eb902333332cb1ed1
+source-git-commit: 39876928cad809220f39c0ffe104edf9422e2773
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 38%
+source-wordcount: '1632'
+ht-degree: 37%
 ---
-# Calculateur de taille d’échantillon
+# Calculateur de taille d’échantillon {#sample-size-calculator}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment utiliser le calculateur de taille d’échantillon [!DNL Adobe Target] pour estimer le trafic, la durée, le nombre d’expériences ou l’effet détectable minimum pour un test A/B.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="target_sample_size_ab_daily_traffic"
@@ -75,14 +81,14 @@ Estimez les entrées requises pour planifier et exécuter un test A/B. Ces valeu
 
 1. Activez l’option **[!UICONTROL Appliquer la correction]** pour ajuster votre niveau de confiance afin de tenir compte de la comparaison simultanée de plusieurs offres par rapport au contrôle.
 
-1. Choisissez votre **[!UICONTROL Type de mesure]** :
+1. Choisissez votre **[!UICONTROL type de mesure]** :
 
    * Taux de conversion : utilisez-le pour les résultats binaires tels que les clics ou les achats, où chaque visiteur effectue ou non l’action.
    * Chiffre d’affaires par visiteur : utilisez cette option pour les mesures de style chiffre d’affaires, où les valeurs peuvent varier considérablement d’un visiteur à l’autre.
 
      ![](assets/calculator-target_reporting_1.png)
 
-1. Spécifiez le **[!UICONTROL Trafic quotidien]**, soit le nombre d’utilisateurs participant à l’expérience chaque jour.
+1. Spécifiez le **[!UICONTROL trafic quotidien]**, soit le nombre d’utilisateurs participant à l’expérience chaque jour.
 
 1. Sous **[!UICONTROL Configurer le test]**, saisissez les valeurs restantes :
 
@@ -92,9 +98,9 @@ Estimez les entrées requises pour planifier et exécuter un test A/B. Ces valeu
 
      ![](assets/calculator-target_reporting_2.png)
 
-1. Spécifiez le **[!UICONTROL taux de conversion de référence]** de votre expérience actuelle avant le début de l’expérience.
+1. Spécifiez le **[!UICONTROL taux de conversion de référence]** pour votre expérience actuelle avant le début de l’expérience.
 
-1. Vous pouvez développer **[!UICONTROL Paramètres statistiques avancés]** pour fournir des entrées statistiques supplémentaires lorsqu’elles sont disponibles pour le calcul sélectionné.
+1. Vous pouvez développer **[!UICONTROL les paramètres statistiques avancés]** afin de fournir des entrées statistiques supplémentaires lorsqu&#39;elles sont disponibles pour le calcul sélectionné.
 
    * **[!UICONTROL Niveau de confiance]** : probabilité qu’un résultat ne soit pas dû au hasard. Un taux de 95% autorise une probabilité de 5% d&#39;un faux positif.
 
@@ -137,15 +143,15 @@ Estimez les entrées de planification pour une activité A/B qui repose sur des 
 1. Sous **[!UICONTROL Que voulez-vous savoir ?]**, sélectionnez la valeur que le calculateur doit déterminer :
 
    * **[!UICONTROL Durée]** : vous avez une expérience en tête et vous souhaitez savoir combien de temps il faudrait pour l’exécuter et si elle vaut la peine d’être exécutée.
-   * **[!UICONTROL Nombre d’expériences]** : vous disposez d’un emplacement pour exécuter une expérience et souhaitez déterminer le nombre de traitements que votre trafic peut prendre en charge.
-   * **[!UICONTROL Volume de trafic]** : vous avez une expérience en tête et vous souhaitez savoir combien de visiteurs vous devez atteindre la signification statistique.
-   * **[!UICONTROL Effet minimal détectable]** : vous avez une expérience que vous souhaitez exécuter, mais vous souhaitez savoir dans quelle mesure vous avez besoin d’un effet élévateur pour atteindre une signification statistique. Cela vous permet d’évaluer si l’expérience vaut la peine d’être exécutée ou planifiée.
+   * **[!UICONTROL Nombre d’expériences]** : vous disposez d’un emplacement pour exécuter une expérience et vous souhaitez déterminer le nombre de traitements que votre trafic peut prendre en charge.
+   * **[!UICONTROL Volume de trafic]** : vous avez une expérience en tête et souhaitez savoir combien de visiteurs vous devez atteindre pour obtenir une signification statistique.
+   * **[!UICONTROL Effet détectable minimal]** : vous souhaitez exécuter une expérience, mais vous souhaitez savoir dans quelle mesure l’effet élévateur est important pour atteindre une signification statistique. Cela vous permet d’évaluer si l’expérience vaut la peine d’être exécutée ou planifiée.
 
    Les champs du formulaire changent en fonction de la valeur sélectionnée. Le calculateur utilise les autres entrées pour déterminer le résultat sélectionné.
 
    ![](assets/calculator-cja-analytics-1.png)
 
-1. Spécifiez le **[!UICONTROL Trafic quotidien]**, soit le nombre d’utilisateurs participant à l’expérience chaque jour.
+1. Spécifiez le **[!UICONTROL trafic quotidien]**, soit le nombre d’utilisateurs participant à l’expérience chaque jour.
 
 1. Sous **[!UICONTROL Configurer le test]**, saisissez les valeurs restantes :
 
@@ -157,11 +163,11 @@ Estimez les entrées de planification pour une activité A/B qui repose sur des 
 
    * **[!UICONTROL Variance]** : répartition des valeurs de mesure. Un taux de clic publicitaire présente généralement un faible écart, le chiffre d’affaires par utilisateur peut être beaucoup plus élevé. Si vous ne savez pas, laissez la valeur par défaut de 1.
 
-     Découvrez comment calculer une **[!UICONTROL Variance]** dans la documentation [Analytics](https://experienceleague.adobe.com/fr/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
+     Découvrez comment calculer une **[!UICONTROL Variance]** dans la [documentation Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-functions#variance)
 
      ![](assets/calculator-cja-analytics-2.png)
 
-1. Vous pouvez développer **[!UICONTROL Paramètres statistiques avancés]** pour fournir des entrées statistiques supplémentaires lorsqu’elles sont disponibles pour le calcul sélectionné.
+1. Vous pouvez développer **[!UICONTROL les paramètres statistiques avancés]** afin de fournir des entrées statistiques supplémentaires lorsqu&#39;elles sont disponibles pour le calcul sélectionné.
 
    * **[!UICONTROL Niveau de confiance]** : probabilité qu’un résultat ne soit pas dû au hasard. Un taux de 95% autorise une probabilité de 5% d&#39;un faux positif. Des niveaux de confiance plus faibles signifient qu’une diminution du trafic est nécessaire, mais ils augmentent également le risque d’un faux positif.
 

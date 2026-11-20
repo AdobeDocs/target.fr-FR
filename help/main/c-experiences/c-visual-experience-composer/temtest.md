@@ -1,6 +1,6 @@
 ---
 keywords: tests de modèle;modèle;même expérience sur des pages similaires;test de modèles
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target] pour inclure la même expérience sur plusieurs pages structurées de manière similaire ou contenant les mêmes éléments de modèle.
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) [!DNL Target] d’Adobe pour inclure la même expérience sur plusieurs pages structurées de manière similaire ou contenant les mêmes éléments de modèle.
 title: Puis-je inclure la même expérience sur des pages similaires ?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 23%
@@ -45,15 +45,15 @@ Par exemple, vous pouvez utiliser cette fonctionnalité pour effectuer les opér
 
 Vous pouvez spécifier des pages qui incluent les éléments de modification ou appliquer la modification à l’ensemble de votre site ou domaine.
 
-1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md).
 
-1. Pour spécifier les pages où l’expérience s’affiche, dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
+1. Pour spécifier les pages où l’expérience apparaît, dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
 1. Cliquez sur **[!UICONTROL Ajouter une règle]**, puis spécifiez les critères des pages auxquelles vous souhaitez ajouter l’expérience.
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
-   * [!UICONTROL URL] (pour plus d’informations sur la façon dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * [!UICONTROL URL] (Pour plus d’informations sur la manière dont [!DNL Target] évalue les URL, voir [FAQ sur les cibles et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * [!UICONTROL Domaine]
    * [!UICONTROL Chemin]
    * [!UICONTROL Fragment de hachage (#)] (ciblez la partie d’une URL qui suit le symbole #.)
@@ -67,7 +67,7 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
    * [!UICONTROL Contient]
    * [!UICONTROL Ne contient pas]
    * [!UICONTROL Est (sensible à la casse)]
-   * [!UICONTROL n’est pas]
+   * [!UICONTROL N&#39;Est Pas]
    * [!UICONTROL Commence par]
    * [!UICONTROL Se termine par]
 
@@ -87,7 +87,7 @@ Vous pouvez spécifier des pages qui incluent les éléments de modification ou 
 
 >[!IMPORTANT]
 >
-> [!DNL Target] ne pouvez pas vérifier les pages pour vous assurer qu’elles s’affichent comme prévu. Il est donc toujours important d’utiliser cette fonctionnalité pour tester les pages affectées avant de les rendre publiques.
+> [!DNL Target] ne pouvant pas vérifier les pages pour s&#39;assurer qu&#39;elles apparaissent comme prévu, il est toujours important, lors de l&#39;utilisation de cette fonctionnalité, de tester les pages affectées avant de les rendre publiques.
 
 ## Cas d’utilisation
 
@@ -101,10 +101,10 @@ Vous pouvez envisager d’utiliser des règles de modèle pour effectuer le rend
 * Pour inclure une bannière globale (par exemple, les annonces COVID-19)
 * Pour inclure une promotion de livraison gratuite internationale
 
-1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Créez ou modifiez une activité comme décrit dans [Activités](/help/main/c-activities/activities.md).
 
-1. Pour spécifier le domaine dans lequel l’expérience s’affiche, dans le [!UICONTROL compositeur d’expérience visuelle] cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
+1. Pour spécifier le domaine dans lequel l’expérience apparaît, dans le [!UICONTROL compositeur d’expérience visuelle], cliquez sur l’icône [!UICONTROL Configurer] ( ![icône Configurer](/help/main/assets/icons/Setting.svg) ), puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Domaine]**.
+1. Cliquez Sur **[!UICONTROL Ajouter Une Règle]** > **[!UICONTROL Domaine]**.
 
-1. Dans la liste déroulante **[!UICONTROL Choisir l’évaluateur]**, sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.
+1. Dans la liste déroulante **[!UICONTROL Choisir l&#39;évaluateur]**, sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.

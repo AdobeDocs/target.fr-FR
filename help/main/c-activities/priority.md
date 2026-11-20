@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 8c6f23b495228ab930e6649aa2f9e6dae506cae2
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 22%
@@ -50,7 +50,7 @@ Si votre société utilise exclusivement le compositeur d’expérience visuelle
    {{visitor-matching}}
 
 1. Le contenu de toutes les activités et expériences auxquelles le visiteur correspond est renvoyé à la page, de sorte que le contenu de plusieurs activités puisse être diffusé pour le même appel.
-1. [!DNL Target] compare les [sélecteurs CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) auxquels le contenu de chaque activité fait référence. Si les activités font référence à différents sélecteurs, tout le contenu s’affiche.
+1. [!DNL Target] compare les [sélecteurs CSS](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) auxquels le contenu de chaque activité fait référence. Si les activités font référence à différents sélecteurs, tout le contenu s’affiche.
 1. Si un sélecteur se chevauche ou est dupliqué, le contenu de l’activité dont la priorité est la plus élevée s’affiche.
 
    >[!IMPORTANT]
@@ -126,4 +126,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/3507945?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)

@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 3acd51a37f38ba67e60304fce606df948ecdd1f4
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 68%
@@ -137,7 +137,7 @@ Le [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-opti
 
 ### Recommandations
 
-Les activités [Recommandations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser votre clientèle selon l’activité antérieure des utilisateurs et utilisatrices. [!UICONTROL Recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+Les activités [Recommandations](/help/main/c-recommendations/recommendations.md) affichent automatiquement les produits ou le contenu susceptibles d’intéresser votre clientèle selon l’activité antérieure des utilisateurs et utilisatrices. [!UICONTROL Recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
 Une recommandation détermine comment un produit est proposé à un client, en fonction de ses activités sur le site. Par exemple :
 
@@ -200,6 +200,6 @@ La vidéo suivante décrit les types d’activités disponibles dans [!DNL Targe
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 

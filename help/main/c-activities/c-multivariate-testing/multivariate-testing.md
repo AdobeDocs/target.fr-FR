@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 0ae6991a6a86854bd64a632070a1fcbe544cc606
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 25%
@@ -44,7 +44,7 @@ Dans [!DNL Target], chaque combinaison représente une expérience. Le **[!UICON
 
 ![Combinaisons de tests multivariés](assets/multivariate.png)
 
-En raison du nombre de combinaisons pouvant être générées, un **[!UICONTROL test multivarié]** nécessite plus de temps et de trafic qu’un test A/B. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, comprenez la quantité de trafic que votre page reçoit et testez le nombre optimal de combinaisons pour le bon laps de temps.
+Un **[!UICONTROL test multivarié]** nécessite plus de temps et de trafic qu’un test A/B en raison du nombre de combinaisons pouvant être générées. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, comprenez la quantité de trafic que votre page reçoit et testez le nombre optimal de combinaisons pour le bon laps de temps.
 
 L&#39;[estimateur de trafic](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#traffic-estimator) peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant de l’utiliser, vous devez disposer de statistiques fiables indiquant le nombre d’impressions et de conversions que votre site reçoit normalement et tenir compte de vos niveaux de trafic par jour. Plus une activité a d’expériences, plus elle doit inclure de trafic ou son exécution doit durer. Si le volume de trafic n’est pas élevé, testez quelques combinaisons. Dans le cas contraire, le temps nécessaire à la production de résultats de test significatifs pourrait être trop long pour être utile.
 
@@ -97,7 +97,7 @@ Cette vidéo de présentation explique les types d’activités disponibles dans
 * Sélectionnez le type d’activité approprié pour atteindre vos objectifs.
 * Décrivez le workflow guidé en trois étapes qui s’applique à tous les types d’activité.
 
->[!VIDEO](https://video.tv.adobe.com/v/29340?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Création de tests multivariés (9:25) ![Badge de tutoriel](/help/main/assets/tutorial.png)
 
@@ -106,4 +106,4 @@ Cette vidéo explique comment comprendre, planifier et créer un test multivari�
 * Définissez et concevez un test multivarié.
 * Créez un test multivarié.
 
->[!VIDEO](https://video.tv.adobe.com/v/30144?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

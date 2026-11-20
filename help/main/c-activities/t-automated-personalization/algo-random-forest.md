@@ -2,7 +2,7 @@
 keywords: forêt aléatoire;arborescence de décision;ap;Automated Personalization
 description: Découvrez comment [!DNL Adobe Target] utilise l’algorithme Forêt aléatoire dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique].
 title: Comment [!DNL Target] utilise-t-il l'algorithme Forêt aléatoire ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 TQID: 'https://experienceleague.adobe.com/Ui8E8CkiiJSdqim9fzIgPDdsKG1MMtuu3EUuAqgmm0M'
@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ddd4fa83540294ee229b87f041bc2245ba9a3464
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 7%
+source-wordcount: '1312'
+ht-degree: 6%
 ---
 # Algorithme Forêt aléatoire {#random-forest-algorithm}
 
@@ -60,7 +60,7 @@ L&#39;arbre pose la question, « Quelle est la variable la plus prédictive ? »
 
 ## Comment les arbres de décision sont-ils utilisés par Random Forest ? {#section_536C105EF9F540C096D60450CAC6F627}
 
-Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Plus important encore, ils peuvent « suradapter » les données, de sorte qu’une arborescence individuelle prédise mal les données futures qui n’ont pas été utilisées pour créer l’arborescence initiale. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique.
+Les arbres de décision sont un outil statistique utile. Ils présentent néanmoins certains inconvénients. Plus important encore, ils peuvent « suradapter » les données, de sorte qu’une arborescence individuelle prédise mal les données futures qui n’ont pas été utilisées pour créer l’arborescence initiale. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique.
 
 Les forêts aléatoires aident à surmonter ce défi. Une forêt aléatoire est une collection de centaines d&#39;arbres de décision qui sont construits légèrement différemment sur le même ensemble de données et qui « votent » ensemble pour produire un meilleur modèle qu&#39;un arbre individuel. Les arbres sont construits en sélectionnant de manière aléatoire un sous-ensemble d&#39;enregistrements de visite avec remplacement (connu sous le nom d&#39;ensachage) et en sélectionnant de manière aléatoire un sous-ensemble des attributs, de sorte que la forêt se compose d&#39;arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres. L’ajout de cette quantité contrôlée de variance permet d’améliorer la précision prédictive de l’algorithme.
 

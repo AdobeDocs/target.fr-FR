@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9621044454d3e1b47c06cac2ad5d08cba8e482c0
+source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -84,17 +84,17 @@ Restez à jour avec [!DNL Target] versions.
 
 +++
 
-**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**&#x200B;[!DNL Adobe]
+**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**[!DNL Adobe]
 
 +++Afficher les détails
-Communiquez avec d’autres [!DNL Target] utilisateurs et utilisatrices du [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
+Communiquez avec d’autres [!DNL Target] utilisateurs et utilisatrices du [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
 
 +++
 
 **Quels navigateurs [!DNL Target] prend-il en charge ?**
 
 +++Afficher les détails
-Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau/appareils.
+Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau/appareils.
 
 [!DNL Safari] est pris en charge pour l’interface [!DNL Target]. Vous pouvez créer des activités basées sur des formulaires dans [!DNL Safari] et utiliser toutes les fonctionnalités, à l’exception du [!UICONTROL compositeur d’expérience visuelle] (VEC) et du [!UICONTROL compositeur d’expérience amélioré] (EEC), qui ne sont pas pris en charge dans [!DNL Safari]. Pour modifier des expériences dans le VEC ou l’EEC, utilisez [!DNL Google Chrome].
 
@@ -133,9 +133,9 @@ Consultez le type d’activité de [ciblage automatique](/help/main/c-activities
 **Comment savoir quel type d’activité correspond le mieux à mes besoins ?**
 
 +++Afficher les détails
-Lisez le [Guide des activités Target](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) pour comprendre les scénarios dans lesquels chacune des options fournies par [!DNL Target] a un sens.
+Lisez le [Guide des activités Target](/help/main/c-activities/target-activities-guide.md) pour comprendre les scénarios dans lesquels chacune des options fournies par [!DNL Target] a un sens.
 
-Veillez également à tenir compte des [activités Recommandations](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Veillez également à tenir compte des [activités Recommandations](/help/main/c-recommendations/recommendations.md).
 
 +++
 
@@ -174,7 +174,7 @@ Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décomp
 **Comment puis-je savoir clairement comment configurer une activité de manière à atteindre mes objectifs ?**
 
 +++Afficher les détails
-C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) entrent en ligne de compte.
+C’est là que les [objectifs](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) entrent en ligne de compte.
 
 Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. S’agit-il de [!UICONTROL chiffre d’affaires], [!UICONTROL conversion] ou [!UICONTROL engagement] ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 
@@ -194,7 +194,7 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Ciblage] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Pour ce faire, [&#x200B; accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
+Pour ce faire, [ accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
 
 +++
 
@@ -274,7 +274,7 @@ Utilisez les contrôles d&#39;allocation en pourcentage disponibles à l&#39;[É
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -421,7 +421,7 @@ Utilisez la puissance des [activités d’après les formulaires](/help/main/c-e
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 20%
@@ -35,7 +35,7 @@ Utilisez les [!UICONTROL fragments de contenu] (CF) créés dans [!DNL Adobe Exp
 
 Tenez compte des points suivants lorsque vous utilisez les [!UICONTROL fragments de contenu] d’AEM dans [!DNL Target] :
 
-* Cette fonctionnalité est réservée aux clientes et clients [!DNL Adobe Experience Manager as a Cloud Service]. Pour plus d’informations, voir [Conditions préalables](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
+* Cette fonctionnalité est réservée aux clientes et clients [!DNL Adobe Experience Manager as a Cloud Service]. Pour plus d’informations, voir [Conditions préalables](#requirements) ci-dessous.
 * [!UICONTROL Les fragments d’expérience] et [!UICONTROL les fragments de contenu] sont disponibles pour les types d’activité suivants :
 
   * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
@@ -71,7 +71,7 @@ Après avoir effectué les tâches précédentes, le [!UICONTROL fragment de con
 
 [!DNL Target] recherche actuellement [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
 
-Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1&rbrace; reste dans [!DNL AEM]. &#x200B;]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1} reste dans [!DNL AEM]. ]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 
 Vous pouvez filtrer et rechercher par [!UICONTROL fragments d’expérience HTML], [!UICONTROL fragments d’expérience JSON] et [!UICONTROL fragments de contenu] pour vous aider à distinguer les différents types d’offres exportés vers [!DNL Target].
 
@@ -103,6 +103,6 @@ Vous pouvez utiliser [!UICONTROL les fragments de contenu] dans les activités [
 ## Informations supplémentaires
 
 * [!DNL Target] recherche actuellement [!UICONTROL fragments de contenu] à importer toutes les dix minutes. Le [!UICONTROL fragment de contenu] importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
-* Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1&rbrace; reste dans [!DNL AEM]. &#x200B;]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
+* Le [!UICONTROL fragment de contenu] est importé dans [!DNL Target] en tant qu’offre JSON. La version « principale » du fragment de contenu [!UICONTROL 1} reste dans [!DNL AEM]. ]Vous ne pouvez pas modifier le [!UICONTROL fragment de contenu] dans [!DNL Target].
 * Vous ne pouvez pas créer de [!UICONTROL fragments de contenu] à l’aide de [!DNL Adobe I/O]. Créez [!UICONTROL des fragments de contenu] à l’aide d’AEM, comme expliqué ci-dessus.
 * Si vous mettez à jour votre [!UICONTROL fragment de contenu] dans AEM, le [!UICONTROL fragment de contenu] doit être publié et exporté vers [!DNL Target] de nouveau, afin que [!DNL Target] puisse utiliser les dernières modifications.

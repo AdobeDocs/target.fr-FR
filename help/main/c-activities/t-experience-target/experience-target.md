@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: aaa094f4f36b6088ca180637d8054b6d5ff59d60
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 2%
 ---
 # Prise en main du [!UICONTROL ciblage d’expérience] {#get-started-xt}
@@ -42,7 +42,7 @@ ht-degree: 2%
 
 Lorsque des visiteurs consultent votre site, le [!UICONTROL ciblage d’expérience] évalue ces visiteurs afin de déterminer s’ils répondent aux critères que vous avez définis. S’ils répondent aux critères, ils saisissent l’activité et l’expérience conçue pour l’audience admissible s’affiche.
 
-[!UICONTROL Le ciblage d’expérience] est une première étape dans le monde de la personnalisation et commence souvent par des tests A/B. Un spécialiste marketing exécute un test A/B et, en utilisant les audiences de création de rapports, découvre que différentes expériences trouvent un écho auprès de différentes audiences. [!UICONTROL Le ciblage d’expérience] permet au marketeur d’utiliser facilement cette découverte et de passer au ciblage à long terme du contenu vers ces différents segments d’audience.
+[!UICONTROL Le ciblage d’expérience] est une première étape dans le monde de la personnalisation et commence souvent par des tests A/B. Un spécialiste marketing exécute un test A/B et, en utilisant les audiences de création de rapports, découvre que différentes expériences trouvent un écho auprès de différentes audiences. [!UICONTROL Le ciblage d’expérience] permet au marketeur d’utiliser cette découverte et de passer au ciblage à long terme du contenu vers ces différents segments d’audience.
 
 ## Scénario : des tests A/B au ciblage d’expérience {#xt-scenario}
 
@@ -54,6 +54,6 @@ Une activité de [!UICONTROL ciblage d’expérience] vous permet de cibler ces 
 * Diffusez du contenu propre à un emplacement aux audiences de différentes zones géographiques, en créant des expériences ciblées sur les deux États et une troisième expérience destinée aux amateurs de vélo.
 * Réorganisez les trois expériences pour vous assurer que le contenu approprié est diffusé à la bonne audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 Après avoir visionné la vidéo, continuez avec [Créer une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).

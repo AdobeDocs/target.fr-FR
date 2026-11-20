@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Machine learning
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 5f78680bff6489e51d7f0afb6db1c9360f5cb6d1
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1119'
 ht-degree: 10%
 ---
 # Créer une activité de test A/B {#create-ab-activity}
@@ -134,7 +134,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
 
    +++
 
-1. Cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez une méthode d&#39;affectation du trafic dans le volet de droite. Voir [Méthodes d’affectation du trafic](#traffic-allocation-methods).
+1. Cliquez sur la commande **[!UICONTROL Affectation du trafic]**, puis choisissez une méthode d&#39;affectation du trafic dans le volet de droite. Les méthodes disponibles sont répertoriées dans le tableau suivant.
 
    ![Paramètres de la méthode d&#39;affectation du trafic](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
@@ -143,7 +143,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
    | Méthode | Ce qu&#39;il fait |
    |---|---|
    | **[!UICONTROL Manuel (Par Défaut)]** | Indiquez le pourcentage de participants qui doivent voir chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %. |
-   | **[!UICONTROL Affectation automatique à la meilleure expérience]** | La plupart des participants aux activités sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez [**[!UICONTROL Aperçu de l’affectation automatique &#x200B;]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
+   | **[!UICONTROL Affectation automatique à la meilleure expérience]** | La plupart des participants aux activités sont automatiquement redirigés vers des expériences plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, consultez [**[!UICONTROL Aperçu de l’affectation automatique ]**](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#auto-allocate-overview). |
    | **[!UICONTROL Ciblage automatique pour les expériences personnalisées]** | [!DNL Target] utilise le machine learning avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par des spécialistes marketing, puis en offrant l’expérience la plus personnalisée aux visiteurs selon leurs profils clients individuels et les comportements passés de visiteurs similaires. Pour plus d’informations, consultez [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md). |
 
    +++
@@ -156,7 +156,7 @@ Le diagramme de flux vous guide tout au long de l’attribution d’une audience
 
 Sur la page **[!UICONTROL Objectifs et paramètres]**, indiquez à [!DNL Target] comment mesurer l’activité. Les paramètres disponibles varient selon que vous utilisez [!DNL Target] ou [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
-1. Consultez les sections de la page et définissez ce dont vous avez besoin. Voir [Ce que vous avez défini sur la page Objectifs et paramètres](#goals-settings-overview).
+1. Consultez les sections de la page et définissez ce dont vous avez besoin. Voir [Ce que vous avez défini sur la page Objectifs et paramètres](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md).
 
    | Section | Ce que vous avez défini |
    |---|---|

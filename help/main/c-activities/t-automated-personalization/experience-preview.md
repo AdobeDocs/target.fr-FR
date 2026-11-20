@@ -2,7 +2,7 @@
 keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
 description: Découvrez comment utiliser les URL d’aperçu d’expérience pour les activités Adobe [!DNL Target] Automated Personalization afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit active.
 title: Comment utiliser les URL d’aperçu d’expérience dans les activités Automated Personalization ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 product_v2:
@@ -14,18 +14,24 @@ feature_v2:
 subfeature_v2:
   - id: f0055dd2-93f3-4ac8-9abc-d69d4ed2d977
     internal-label: Automated personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 41%
+source-wordcount: '774'
+ht-degree: 39%
 ---
-# Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
+# Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience {#experience-preview}
+
+>[!BEGINSHADEBOX]
+
+**Sur cette page :** Découvrez comment générer des URL d’aperçu d’expérience pour les **[!UICONTROL activités Automated Personalization]** afin d’afficher les expériences sur votre site avant que l’activité ne soit active.
+
+>[!ENDSHADEBOX]
 
 Des URL d’aperçu d’expérience peuvent être générées pour les [!DNL Target] [!UICONTROL activités Automated Personalization] afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit active à des fins d’aperçu et de QA. Les URL de prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
 
 >[!NOTE]
 >
->Vous pouvez créer des URL d’aperçu d’expérience pour d’autres types d’activités [!DNL Target]. Cependant, le processus est légèrement différent. Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md#preview).
+>Vous pouvez créer des URL d’aperçu d’expérience pour d’autres types d’activités [!DNL Target]. Cependant, le processus est légèrement différent. Pour plus d’informations, voir [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md#section_1C59BAA247B247BDB125D1BE8EAD4547).
 
 Utilisez les URL d’aperçu d’expérience pour partager des expériences avec les membres de l’équipe et des expériences d’assurance qualité dans les navigateurs et environnements, sans créer d’activité d’assurance qualité distincte. Cette fonctionnalité s’avère particulièrement utile en cas de site complexe ou lorsque les stratégies de sécurité n’autorisent pas l’affichage du site dans un simulateur.
 

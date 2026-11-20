@@ -1,6 +1,6 @@
 ---
 keywords: assurance qualité;côté serveur;côté serveur;aperçu;liens d’aperçu
-description: Découvrez comment utiliser les URL d’assurance qualité Adobe [!DNL Target] avec diffusion côté serveur pour exécuter facilement une assurance qualité de bout en bout des activités, avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+description: Découvrez comment utiliser les URL d’assurance qualité [!DNL Target] d’Adobe avec diffusion côté serveur pour exécuter facilement une assurance qualité de bout en bout de l’activité, avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Utiliser Puis-je effectuer un contrôle qualité d’activité avec la diffusion côté serveur ?
 feature: Activities
 exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
@@ -22,16 +22,20 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 0a683f6e68bb7481b9e45c91a275a46b84a1ffd8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 47%
+source-wordcount: '429'
+ht-degree: 18%
 ---
-# Utilisation de l’AQ d’activité avec diffusion côté serveur
+# Utilisation de l’AQ d’activité avec diffusion côté serveur {#qa-server-side}
 
-Utilisez les URL d’assurance qualité avec diffusion côté serveur dans [!DNL Adobe Target] pour exécuter facilement une assurance qualité de bout en bout de l’activité, avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et un compte rendu des performances d’assurance qualité qui reste segmenté à partir des données d’activité actives.
+>[!BEGINSHADEBOX]
 
-L’implémentation standard du QA d’activité prend en charge la transmission de paramètres `qa_mode` via des paramètres `pageUrl`. Cette approche est pratique pour les appels [!DNL Target] standard/ajax. Cependant, pour les appels serveur à serveur, ce n’est pas l’approche idéale dans le cas d’un SDK de Mobile lorsque `pageUrl` n’est pas disponible.
+**Sur cette page :** Découvrez comment transmettre des paramètres d’AQ d’activité dans un appel [!DNL Adobe Target] côté serveur, afin que vous puissiez tester des activités lorsque `pageUrl` n’est pas disponible.
+
+>[!ENDSHADEBOX]
+
+L’implémentation standard du QA d’activité prend en charge la transmission de `qa_mode` paramètres via `pageUrl` paramètres. Cette approche est pratique pour les appels [!DNL Target] standard/ajax. Cependant, il n’est pas adapté aux appels serveur à serveur, comme une implémentation de Mobile SDK, où `pageUrl` n’est pas disponible. Dans ces cas, transmettez les paramètres d’assurance qualité dans la requête elle-même, qui conserve les mêmes liens de prévisualisation, le ciblage facultatif des audiences et le compte rendu des performances d’assurance qualité segmenté à partir des données d’activité actives.
 
 L’échantillon de code suivant montre l’AQ d’activité dans un appel côté serveur :
 
@@ -70,14 +74,14 @@ L’échantillon de code suivant montre l’AQ d’activité dans un appel côt�
 }
 ```
 
-Le tableau suivant décrit les détails d’une requête côté serveur :
+Le tableau suivant décrit les paramètres d’une requête côté serveur :
 
 | Paramètre | Type | Valeur par défaut | Description |
 |--- |--- |--- |--- |
-| jeton | Jeton chiffré | Aucun.<br>Il ne peut pas être vide. | Une entité chiffrée qui contient la liste des identifiants d’activité qui peuvent être exécutés dans les règles d’AQ d’activité.<br>Validation : doit être un jeton chiffré appartenant au client spécifié dans la requête de [!DNL Target]. L’ensemble des activités spécifiées dans le jeton doit appartenir au client. |
-| bypassEntryAudience | Booléen | False | Indique si les objectifs d’étape d’entrée pour les activités d’AQ doivent être évalués ou s’ils doivent être considérés comme correspondants. |
-| listedActivitiesOnly | Booléen | False | Indique si les activités d’AQ doivent être exécutées seules ou si elles doivent être évaluées en tant qu’activités actives pour l’environnement actif. |
-| evaluateAsTrueAudienceIds | Liste des ID | Liste vide. | Liste des identifiants d’audience qui doivent toujours être évalués comme vrais dans la portée de la requête [!DNL Target]. |
-| evaluateAsFalseAudienceIds | Liste des ID | Liste vide. | Liste des ID d’audience qui doivent toujours être évalués comme faux dans la portée de la requête [!DNL Target]. |
-| activityIndex | Entier | Null.<br>Il ne peut pas être vide. | Index des activités dans le jeton chiffré. activityIndex est au-delà des limites de l’activité dans le jeton. Si la valeur est nulle, la requête est ignorée. L’index commence par 1.<br>Règles de validation : doit être au moins un index d’activité et doit référencer une activité spécifiée dans le jeton. |
-| experienceIndex | Entier | Valeur nulle. | Lorsque celle-ci en contient, sélectionne une expérience par index dans la définition de l’activité. Lorsque la définition ne contient aucune expérience, L’index commence par 1 règle de validation : peut être nul ou doit référencer une expérience dans l’activité. |
+| jeton | Jeton chiffré | Aucune. Ne peut pas être vide. | Entité chiffrée contenant la liste des identifiants d’activité pouvant être exécutés dans AQ d’activité.<br>Règles de validation : le jeton doit être un jeton chiffré appartenant au client spécifié dans la requête [!DNL Target]. Toutes les activités spécifiées dans le jeton doivent appartenir au client. |
+| bypassEntryAudience | Booléen | False | Indique si les cibles d&#39;étape d&#39;entrée pour les activités d&#39;assurance qualité sont évaluées ou considérées comme correspondantes. |
+| listedActivitiesOnly | Booléen | False | Indique si les activités d’assurance qualité sont exécutées de manière isolée ou si elles sont évaluées en tant qu’activités actives pour l’environnement actuel. |
+| evaluateAsTrueAudienceIds | Liste des ID | Liste vide | Liste des identifiants d&#39;audience qui sont toujours évalués comme vrais dans la portée de la requête [!DNL Target]. |
+| evaluateAsFalseAudienceIds | Liste des ID | Liste vide | Liste des ID d’audience toujours évalués comme faux dans la portée de la requête [!DNL Target]. |
+| activityIndex | Entier | Null. Ne peut pas être vide. | Index des activités dans le jeton chiffré. Si `activityIndex` est nul ou hors des limites des activités dans le jeton, il est ignoré. L&#39;index commence par 1.<br>Règles de validation : au moins un index d&#39;activité est requis et il doit référencer une activité spécifiée dans le jeton. |
+| experienceIndex | Entier | Null | Lorsque celle-ci en contient, sélectionne une expérience par index dans la définition de l’activité. Si elle n’est pas spécifiée ou dépasse les limites, elle revient à la stratégie du sélecteur d’expérience de l’activité. L’index commence par 1.<br>Règles de validation : la valeur peut être nulle ou elle doit référencer une expérience dans l’activité. |
