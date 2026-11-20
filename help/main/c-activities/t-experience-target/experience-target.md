@@ -54,6 +54,6 @@ Une activité de [!UICONTROL ciblage d’expérience] vous permet de cibler ces 
 * Diffusez du contenu propre à un emplacement aux audiences de différentes zones géographiques, en créant des expériences ciblées sur les deux États et une troisième expérience destinée aux amateurs de vélo.
 * Réorganisez les trois expériences pour vous assurer que le contenu approprié est diffusé à la bonne audience.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/38301?captions=fre_fr)
 
 Après avoir visionné la vidéo, continuez avec [Créer une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md).
