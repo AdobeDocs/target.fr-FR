@@ -2,7 +2,7 @@
 keywords: algorithmes de recommandations;entraînement de modèles;diffusion de modèles;diffusion de contenu;basé sur les éléments;basé sur l’utilisateur;basé sur la popularité;basé sur le panier;critères personnalisés
 description: Découvrez les algorithmes utilisés dans [!DNL Target Recommendations], y compris l’entraînement de modèles et la diffusion de modèles.
 title: La science derrière les algorithmes de recommandations de Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -92,7 +92,7 @@ Le schéma suivant illustre le flux logique de l’implémentation de l’algori
 
 Les étapes sont les suivantes :
 
-* **Données d’entrée** : données comportementales sous la forme d’achats et d’affichages des visiteurs, collectées lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : données comportementales sous la forme d’achats et d’affichages des visiteurs, collectées lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -116,7 +116,7 @@ La diffusion de modèles et la diffusion de contenu pour les algorithmes de simi
 
 Les étapes sont les suivantes :
 
-* **Données d’entrée** : cet algorithme utilise uniquement les données de catalogue, ingérées dans [!DNL Target] par le biais d’un [flux de catalogue, de l’API Entities ou de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **Données d’entrée** : cet algorithme utilise uniquement les données de catalogue, ingérées dans [!DNL Target] par le biais d’un [flux de catalogue, de l’API Entities ou de mises à jour sur la page](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
 
 * **Modèle de formation** :
 
@@ -154,7 +154,7 @@ Le diagramme suivant illustre la logique des étapes d’entraînement et de not
 
 Les étapes sont les suivantes :
 
-* **Données d’entrée** : identique aux méthodes de filtrage collaboratif (CF) élément-élément. Les algorithmes **[!UICONTROL Recommandé pour vous]** et Basé sur le panier utilisent tous deux des données comportementales sous la forme d’affichages et d’achats des utilisateurs, collectées lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} ou à partir d’[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Données d’entrée** : identique aux méthodes de filtrage collaboratif (CF) élément-élément. Les algorithmes **[!UICONTROL Recommandé pour vous]** et Basé sur le panier utilisent tous deux des données comportementales sous la forme d’affichages et d’achats des utilisateurs, collectées lorsque vous [implémentez Target](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} ou à partir d’[Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Modèle de formation** :
 

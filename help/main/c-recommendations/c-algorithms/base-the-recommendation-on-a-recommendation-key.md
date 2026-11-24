@@ -49,7 +49,7 @@ Différents algorithmes s’adaptent à différents types de pages. Les sections
 
 ## Basé sur le panier {#cart-based}
 
-Le type d’algorithme **[!UICONTROL Basé sur le panier]** recommande des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies sous forme de valeurs séparées par des virgules dans le paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}. Seules les 10 premières valeurs sont prises en compte.
+Le type d’algorithme **[!UICONTROL Basé sur le panier]** recommande des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies sous forme de valeurs séparées par des virgules dans le paramètre [mbox `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire à l’algorithme basé sur l’utilisateur « **[!UICONTROL Recommandé pour vous]** » et aux algorithmes basés sur l’article « **[!UICONTROL Personnes qui ont consulté ceci, acheté cela]** » et « **[!UICONTROL Personnes qui ont acheté cela, acheté cela]** ».
 
@@ -121,7 +121,7 @@ Par exemple, l’affichage de la catégorie A puis de la catégorie B dans une s
 >title="Attribut de profil"
 >abstract="Vous pouvez créer un attribut de profil à l’aide de scripts de profil. Une fois qu’un script de profil est créé et activé, son attribut de profil correspondant peut être utilisé avec cet algorithme."
 
-**[!UICONTROL Les plus consultés par attribut de profil]** et **[!UICONTROL les plus vendus par attribut de profil]** dépendent d&#39;un script de profil pour renseigner l&#39;attribut. Le nom du script doit commencer par le préfixe `recsAttribute`, donc [!DNL Target] le stocke en tant que `user.recsAttribute<Name>`. Un script peut être écrit pour toute caractéristique de visiteur appropriée au cas d’utilisation. Pour plus d&#39;informations sur la définition des attributs de profil avec des scripts de profil, voir [Paramètres de profil](https://experienceleague.adobe.com/en/docs/target/using/audiences/visitor-profiles/profile-parameters).
+**[!UICONTROL Les plus consultés par attribut de profil]** et **[!UICONTROL les plus vendus par attribut de profil]** dépendent d&#39;un script de profil pour renseigner l&#39;attribut. Le nom du script doit commencer par le préfixe `recsAttribute`, donc [!DNL Target] le stocke en tant que `user.recsAttribute<Name>`. Un script peut être écrit pour toute caractéristique de visiteur appropriée au cas d’utilisation. Pour plus d&#39;informations sur la définition des attributs de profil avec des scripts de profil, voir [Paramètres de profil](https://experienceleague.adobe.com/fr/docs/target/using/audiences/visitor-profiles/profile-parameters).
 
 Par exemple, le script suivant, nommé `recsAttributeRegion`, base les recommandations sur la région du visiteur :
 

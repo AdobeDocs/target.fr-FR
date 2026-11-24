@@ -56,7 +56,7 @@ Les règles d’exclusion sont définies une seule fois, puis s’appliquent à 
 
    >[!NOTE]
    >
-   >Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste **[!UICONTROL Exclusions]** correspond au nombre de produits correspondant aux règles de cette exclusion dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) de Recommendations par défaut configuré (environnement). Voir [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
+   >Le « Nombre d’éléments » signalé pour chaque exclusion sur la vue de liste **[!UICONTROL Exclusions]** correspond au nombre de produits correspondant aux règles de cette exclusion dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) de Recommendations par défaut configuré (environnement). Voir [Planification et implémentation [!DNL Recommendations]](https://experienceleague.adobe.com/fr/docs/target-dev/developer/recommendations){target=_blank} dans le *Guide du développeur d’Adobe Target* pour plus d’informations sur la modification du groupe d’hôtes par défaut.
 
 
 1. Cliquez sur l’icône **[!UICONTROL Afficher les filtres]** ( ![Afficher l’icône des filtres](/help/main/assets/icons/Filter.svg) ), puis choisissez l’environnement [souhaité](/help/main/administrating-target/environments.md) dans la liste déroulante **[!UICONTROL Environnement]** pour prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
