@@ -1,7 +1,7 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance des attributs d’entité
-description: Découvrez comment filtrer les [!DNL Target Recommendations] de manière dynamique en comparant un groupe d’éléments potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
-title: Comment filtrer par correspondance d’attributs d’entité dans les activités Recommendations ?
+description: Découvrez comment filtrer dynamiquement dans [!DNL Target Recommendations] en comparant un groupe d’éléments potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
+title: Correspondance des attributs d’entité
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
@@ -18,58 +18,54 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '505'
+ht-degree: 5%
 ---
-# Correspondance des attributs d’entité
+# Correspondance des attributs d’entité {#entity-attribute-matching}
 
-Filtrez dynamiquement dans [!DNL Adobe Target Recommendations] en comparant un groupe d’éléments de recommandations potentiels à un élément spécifique avec lequel l’utilisateur a interagi.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->Le [processus de création et d’utilisation des règles d’inclusion](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) pour les critères et les promotions est similaire, ainsi que les cas d’utilisation et les exemples.
+**Sur cette page :** Découvrez comment filtrer les recommandations de manière dynamique dans [!DNL Adobe Target Recommendations] en comparant un groupe d’éléments recommandés potentiels à un élément spécifique avec lequel le visiteur a interagi.
 
-Par exemple, recommandez uniquement les éléments qui correspondent à la marque de l’élément actif, comme dans l’exemple suivant :
+>[!ENDSHADEBOX]
 
-Si la mbox d’une page de destination de marque renvoie la valeur `entity.brand=brandA`, seuls les produits de la marque A sont renvoyés et affichés sur cette page. De même, sur la page de destination de la marque B, seuls les produits de la marque B sont renvoyés. Avec ce type de règle d’inclusion dynamique, l’utilisateur ne doit spécifier qu’une seule règle de recommandation qui renvoie les résultats de marque pertinents sur toutes les pages de marque, plutôt que de spécifier une collection ou un filtre statique pour correspondre à chaque nom de marque.
-
-Pour que ce processus fonctionne, vous devez diffuser les `entity.brand` dans la mbox sur ces pages de destination.
+**[!UICONTROL Correspondance des attributs d’entité]** recommande uniquement les éléments qui correspondent à un attribut d’un élément avec lequel le visiteur a interagi. Le processus de création et d’utilisation de règles d’inclusion pour les critères et les promotions est similaire, de même que les cas d’utilisation et les exemples. Pour plus d’informations, voir [Utilisation de règles d’inclusion dynamiques et statiques](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Exemples de correspondance d’attributs d’entité
 
-La [!UICONTROL Correspondance des attributs d’entité] vous permet de recommander uniquement les éléments qui correspondent, par exemple :
+**[!UICONTROL La correspondance des attributs d&#39;entité]** ne peut recommander que les éléments qui correspondent, par exemple :
 
-* Attribut de l’élément que l’utilisateur consulte actuellement
-* Élément que l’utilisateur a consulté le plus récemment
-* L&#39;article que l&#39;utilisateur a acheté le plus récemment
-* Élément que l’utilisateur a le plus consulté.
+* Attribut de l’élément que le visiteur consulte actuellement
+* L’élément que le visiteur a le plus récemment consulté
+* L’article que le visiteur a acheté le plus récemment
+* Élément que le visiteur a le plus consulté
 * Élément stocké dans un attribut personnalisé dans le profil du visiteur
 
 ### Recommandation d’articles en fonction de la marque
 
-Une fois vos règles d’attributs d’entité créées, elles filtrent toutes les recommandations dont les attributs ne correspondent pas à la valeur d’entité transmise sur la page.
+Une fois les règles d’attribut d’entité créées, elles filtrent toutes les recommandations avec des attributs qui ne correspondent pas à la valeur d’entité transmise sur la page. La valeur `entity.brand` doit être diffusée dans la mbox sur les pages pour que ce processus fonctionne.
 
-L’exemple suivant illustre des recommandations correspondant à la marque du produit affichée sur la page :
+Avec ce type de règle d’inclusion dynamique, une seule règle de recommandation doit être spécifiée pour renvoyer les résultats de marque pertinents sur toutes les pages de marque, au lieu d’une collection ou d’un filtre statique pour chaque nom de marque.
 
-Lorsque vous consultez une page qui contient un produit de marque A, la page définit la valeur du paramètre `entity.brand` sur « BrandA ».
+Par exemple, lorsqu&#39;une page contenant un produit de marque A est affichée, la page définit la valeur du paramètre `entity.brand` sur « BrandA ». Sur une page de destination de marque, la mbox renvoie `entity.brand=brandA`.
 
-![Exemple d’appel Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
+![Exemple d&#39;appel Target](/help/main/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-Dans les recommandations de la page, vous verrez uniquement les produits de la marque A.
+Les recommandations de la page contiennent alors uniquement des produits de marque A.
 
 ![Recommandations relatives à la marque A](/help/main/c-recommendations/c-algorithms/assets/brandA.png)
 
-Si vous affichez ensuite une page de produit de la marque B, la valeur `entity.brand` est réinitialisée sur « Marque B » et les produits de la marque B recommandés apparaissent sur les pages de produits de la marque B.
+Lorsqu&#39;une page de produit de marque B s&#39;affiche, la valeur `entity.brand` est réinitialisée sur « Marque B » et seuls les produits de marque B sont recommandés. De même, sur la page de destination de la marque B, seuls les produits de la marque B sont renvoyés.
 
 ![Recommandations relatives à la marque B](/help/main/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Intensification des ventes vers un produit plus cher
 
-Supposons que vous soyez un retailer de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et, par conséquent, plus rentables. Vous pouvez utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers appartenant à la même catégorie et à la même marque. Par exemple, un retailer de chaussures de course peut promouvoir des chaussures de course plus coûteuses afin d’augmenter les ventes d’un visiteur qui cherche des chaussures de course, comme dans l’exemple suivant :
+Pour inciter les visiteurs à envisager des articles plus chers et, par conséquent, plus rentables, les opérateurs « égal à » et « est compris entre » peuvent promouvoir des articles plus chers de la même catégorie et de la même marque. Par exemple, un retailer de chaussures de course peut promouvoir des chaussures de course plus coûteuses pour augmenter les ventes d’un visiteur qui envisage d’acheter des chaussures de course, comme dans l’exemple suivant :
 
-![Vente incitative](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
+![Ventes incitatives](/help/main/c-recommendations/c-algorithms/assets/upsell-new.png)
 
 ```
 Entity Attribute Matching
@@ -84,10 +80,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### Promouvoir les produits de marque privée
 
-Vous pouvez combiner des filtres dynamiques et statiques pour promouvoir les produits de marque privée. Par exemple, une entreprise de fournitures de bureau peut promouvoir les cartouches de toner de la marque maison de l&#39;entreprise pour générer une vente plus rentable pour un visiteur qui cherche du toner — et promouvoir des stylos de la marque maison de l&#39;entreprise pour générer une vente plus rentable pour un visiteur qui cherche des stylos, comme dans l&#39;exemple suivant :
+Les filtres dynamiques et statiques peuvent être mélangés pour promouvoir les produits de marque privée. Par exemple, une société de fournitures de bureau peut promouvoir les cartouches de toner de la marque maison de l&#39;entreprise afin de générer une vente plus rentable pour un visiteur qui recherche du toner et des stylos de la marque maison de l&#39;entreprise pour un visiteur qui recherche des stylos, comme dans l&#39;exemple suivant :
 
 ![Marque Maison](/help/main/c-recommendations/c-algorithms/assets/housebrand-new.png)
-)
 
 ```
 Entity Attribute Matching

@@ -1,7 +1,7 @@
 ---
 keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
-description: Découvrez comment utiliser le langage de conception de [!DNL Velocity] open source pour personnaliser des conceptions de recommandations dans [!DNL Target] Recommendations.
-title: Comment personnaliser une conception à l’aide de Velocity ?
+description: Découvrez comment utiliser le langage de conception open-source [!DNL Velocity] pour personnaliser des conceptions de recommandations dans [!DNL Target] Recommandations.
+title: Personnalisation d’une conception à l’aide de Velocity
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
@@ -18,22 +18,26 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 56%
+source-wordcount: '1086'
+ht-degree: 21%
 ---
-# Personnalisation d’une conception à l’aide de [!DNL Velocity]
+# Personnaliser une conception à l’aide de [!DNL Velocity] {#customize-design}
 
-Utilisez le langage de conception de [!DNL Velocity] open source pour personnaliser des conceptions de recommandations dans [!DNL Adobe Target Recommendations].
+>[!BEGINSHADEBOX]
 
-## Vue d’ensemble des [!DNL Velocity] {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+**Sur cette page :** Découvrez comment utiliser le langage de conception open source [!DNL Velocity] pour personnaliser des conceptions de recommandations dans [!DNL Adobe Target Recommendations].
+
+>[!ENDSHADEBOX]
+
+## Vue d’ensemble des [!DNL Velocity] {#velocity-overview}
 
 Vous trouverez des informations sur [!DNL Velocity] à l’adresse [https://velocity.apache.org](https://velocity.apache.org).
 
-Toute [!DNL Velocity] logique, syntaxe, etc. peut être utilisée pour une conception de recommandation. Cela signifie que vous pouvez créer des boucles *for*, des instructions *if* et d’autres codes à l’aide de [!DNL Velocity] plutôt que de JavaScript.
+Toute la logique [!DNL Velocity], la syntaxe, etc. peuvent être utilisées pour une conception de recommandation. Cela signifie que les boucles *for*, les instructions *if* et d’autres codes peuvent être créés avec [!DNL Velocity] au lieu de JavaScript.
 
-Les attributs d’entité envoyés à [!DNL Recommendations] dans la mbox `productPage` ou le téléchargement CSV peuvent être affichés dans une conception, à l’exception des attributs « à plusieurs valeurs ». Tout type d’attribut peut être envoyé ; toutefois, [!DNL Target] ne transmet pas les attributs de type « à plusieurs valeurs » en tant que tableau sur lequel un modèle peut effectuer une itération (par exemple, `entityN.categoriesList`).
+Les attributs d’entité envoyés à [!DNL Recommendations] dans la mbox `productPage` ou le téléchargement CSV peuvent être affichés dans une conception, à l’exception des attributs « à plusieurs valeurs ». Tout type d’attribut peut être envoyé. Cependant, [!DNL Target] ne transmet pas d’attributs de type « à plusieurs valeurs » en tant que tableau sur lequel une conception peut effectuer une itération (par exemple, `entityN.categoriesList`).
 
 Ces valeurs sont référencées par la syntaxe suivante :
 
@@ -41,16 +45,16 @@ Ces valeurs sont référencées par la syntaxe suivante :
 $entityN.variable
 ```
 
-Les noms d’attributs d’entités doivent suivre [!DNL Velocity] notation abrégée, qui se compose d’un caractère *$* de début, suivi d’un identifiant VTL ([!DNL Velocity] Template Language). L’identifiant VTL doit commencer par un caractère alphabétique (a-z ou A-Z).
+Les noms des attributs d’entité doivent suivre une notation abrégée [!DNL Velocity], composée d’un caractère *$* de début, suivi d’un identifiant de langage de modèle (VTL) [!DNL Velocity]. L’identifiant VTL doit commencer par un caractère alphabétique (a-z ou A-Z).
 
-Les noms d’attributs des entités Velocity sont limités aux types de caractères suivants :
+Les noms d&#39;attributs d&#39;entité [!DNL Velocity] sont limités aux types de caractères suivants :
 
 * Alphabétiques (a-z, A-Z)
 * Numériques (0-9)
 * Trait d’union ( - )
 * Trait de soulignement ( _ )
 
-Les attributs suivants sont disponibles sous la forme de tableaux [!DNL Velocity]. À ce titre, elles peuvent être itérées ou référencées par l’intermédiaire d’un index.
+Les attributs suivants sont disponibles sous la forme de tableaux [!DNL Velocity]. Par conséquent, elles peuvent être itérées ou référencées par le biais d’un index.
 
 * `entities`
 * `entityN.categoriesList`
@@ -71,21 +75,21 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Pour plus d’informations sur les variables [!DNL Velocity] (attributs), consultez [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Pour plus d’informations sur les variables [!DNL Velocity] (attributs), consultez la [documentation Velocity](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Si vous utilisez un script de profil dans votre conception, le caractère $ précédant le nom du script doit être placé dans une séquence d’échappement avec une `\` (barre oblique inverse). Par exemple :
+Si un script de profil est utilisé dans une conception, le caractère $ précédant le nom du script doit être placé dans une séquence d’échappement avec une `\` (barre oblique inverse). Par exemple :
 
 `\${user.script_name}`
 
 >[!NOTE]
 >
->Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99. Le script du modèle peut contenir jusqu’à 65 000 caractères.
+>Le nombre maximal d&#39;entités pouvant être référencées dans une conception, que ce soit par des boucles codées en dur ou traversantes, est de 99. Le script de conception peut contenir jusqu’à 65 000 caractères.
 
-Par exemple, si vous souhaitez qu’une conception affiche ce qui suit :
+Une conception qui affiche quelque chose de similaire à l’illustration suivante :
 
-![image velocity_example](assets/velocity_example.png)
+![Exemple d&#39;un design 4 x 1 intitulé « Autres activités amusantes », avec quatre éléments qui montrent chacun une photo, un nom, un prix, une note et une distance](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-utilisez le code suivant :
+peut utiliser le code suivant :
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
@@ -134,22 +138,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Si vous souhaitez ajouter du texte après la valeur d’un attribut, et avant la fin d’une balise indiquant le nom de l’attribut, vous pouvez utiliser une notation formelle pour entourer le nom de l’attribut. Par exemple : `${entity1.thumbnailUrl}.gif`.
+>Pour ajouter du texte après la valeur d’un attribut, avant une balise indiquant que le nom de l’attribut est terminé, utilisez une notation formelle pour entourer le nom de l’attribut. Par exemple :`${entity1.thumbnailUrl}.gif`
 
-Vous pouvez également utiliser `algorithm.name` et `algorithm.dayCount` comme attributs d’entité dans les conceptions, de sorte qu’une conception puisse être utilisée pour tester plusieurs critères et que le nom du critère puisse être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces attributs pour afficher les `dayCount` (nombre de jours de données utilisées dans les critères, comme « meilleurs vendeurs au cours des 2 derniers jours », etc.
+`algorithm.name` et `algorithm.dayCount` peuvent également être utilisés comme attributs d’entité dans les conceptions, de sorte qu’une conception puisse être utilisée pour tester plusieurs critères et que le nom du critère puisse être affiché de manière dynamique dans la conception. Cela indique au visiteur que le visiteur consulte les « meilleurs vendeurs » ou les « personnes qui ont consulté ceci ont acheté cela ». Le `dayCount` (le nombre de jours de données utilisés dans les critères, par exemple « meilleurs vendeurs au cours des 2 derniers jours ») peut également être affiché.
 
-## Utiliser des nombres dans des modèles de [!DNL Velocity]
+## Utiliser des nombres dans [!DNL Velocity] conceptions {#numbers}
 
-Par défaut, [!DNL Velocity] modèles traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez considérer un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
+Par défaut, les conceptions [!DNL Velocity] traitent tous les attributs d&#39;entité comme des valeurs de chaîne. Un attribut d’entité peut devoir être traité comme une valeur numérique pour effectuer une opération mathématique ou pour le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
 
 1. Déclarez une variable factice et initialisez-la sur un entier arbitraire ou sur une valeur double.
-1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de [!DNL Target Recommendations] valide et enregistre le modèle).
-1. Transmettez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
+1. Assurez-vous que l’attribut d’entité à utiliser n’est pas vide (obligatoire pour que l’analyseur de conception de [!DNL Target Recommendations] valide et enregistre la conception).
+1. Transmettez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
 1. Effectuez l’opération mathématique ou la comparaison sur la nouvelle valeur numérique.
 
 ### Exemple : calcul d’un prix de remise
 
-Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 $ pour appliquer une remise. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
+Pour réduire le prix affiché d’un article de 0,99 $ afin d’appliquer une remise, la méthode suivante peut être utilisée :
 
 ```
 #set( $double = 0.1 )
@@ -164,7 +168,7 @@ Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 
 
 ### Exemple : choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un article
 
-Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de l’évaluation client numérique moyenne d’un article. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
+Pour afficher un nombre approprié d’étoiles en fonction de l’évaluation client numérique moyenne d’un article, la méthode suivante peut être utilisée :
 
 ```
 #set( $double = 0.1 )
@@ -189,7 +193,7 @@ Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonc
 
 ### Exemple : calcul du temps en heures et en minutes en fonction de la durée en minutes d’un article
 
-Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et en minutes. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
+Pour afficher la durée d’un film en heures et en minutes lorsque la durée est stockée en minutes, l’approche suivante peut être utilisée :
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -200,11 +204,11 @@ Supposons que vous stockiez la durée d’un film en minutes, mais que vous souh
 #end
 ```
 
-## Affichage d’un article clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Affichage d’un article clé avec les produits recommandés {#key-item}
 
-Vous pouvez modifier votre conception pour afficher votre élément clé à côté des autres produits recommandés. Par exemple, vous voulez peut-être afficher l’élément actuel pour référence à côté des recommandations.
+Une conception peut afficher l’élément clé avec les autres produits recommandés. Par exemple, l’élément actif peut être affiché pour référence à côté des recommandations.
 
-Pour ce faire, créez une colonne dans votre conception qui utilise l’attribut `$key` sur lequel vous basez votre recommandation plutôt que l’attribut `$entity`. Par exemple, le code pour votre colonne clé peut ressembler à ceci :
+Pour ce faire, créez une colonne dans la conception qui utilise l’attribut `$key` sur lequel la recommandation est basée, au lieu de l’attribut `$entity`. Par exemple, le code de la colonne clé peut se présenter comme suit :
 
 ```
 <div class="at-table-column"> 
@@ -219,13 +223,13 @@ Pour ce faire, créez une colonne dans votre conception qui utilise l’attribut
 
 Le résultat est une conception comme la suivante, où une colonne affiche l’élément clé.
 
-![image rec_key](assets/rec_key.png)
+![Conception avec quatre colonnes, la première colonne affichant l&#39;élément clé marqué comme le produit actuel](/help/main/c-recommendations/c-design-overview/assets/rec_key.png)
 
-Lorsque vous créez votre activité [!DNL Recommendations], si l’élément clé est extrait du profil du visiteur, par exemple « dernier élément acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
+Lors de la création d’une activité [!DNL Recommendations], si l’élément clé est extrait du profil du visiteur, par exemple « dernier élément acheté », [!DNL Target] affiche un produit aléatoire dans le **[!UICONTROL compositeur d’expérience visuelle]** (VEC). En effet, un profil n’est pas disponible lors de la conception de l’activité. Lorsque les visiteurs consultent la page, ils voient l’élément clé attendu.
 
-## Exécution de remplacements dans une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Exécution de remplacements dans une valeur de chaîne {#replacements}
 
-Vous pouvez modifier votre conception afin de remplacer les valeurs d’une chaîne. Par exemple, en remplaçant le séparateur décimal avec point utilisé aux États-Unis par le séparateur avec virgule utilisé en Europe et dans d’autres pays.
+Une conception peut remplacer des valeurs dans une chaîne. Par exemple, le délimiteur décimal avec point utilisé aux États-Unis peut être remplacé par le délimiteur avec virgule utilisé en Europe et dans d’autres pays.
 
 Le code suivant présente une ligne unique dans un exemple de tarification de vente conditionnelle :
 
@@ -247,17 +251,18 @@ Le code suivant est un exemple conditionnel complet d’un prix de vente :
                                         $entity1.delivery 
                                         <br> 
                                     </span>
+</div>
 ```
 
-## Personnalisation de la taille du modèle et vérification des valeurs vides {#default}
+## Personnalisation de la taille de conception et vérification des valeurs vides {#default}
 
-À l’aide d’un script [!DNL Velocity] pour contrôler le dimensionnement dynamique de l’affichage des entités, le modèle suivant prend en charge un résultat 1 à plusieurs pour éviter de créer des éléments HTML vides lorsqu’il n’y a pas suffisamment d’entités correspondantes renvoyées par [!DNL Recommendations]. Ce script est idéal dans les cas où les recommandations de sauvegarde n’auraient pas de sens et que le [!UICONTROL Rendu partiel du modèle] est activé.
+Un script [!DNL Velocity] peut contrôler le dimensionnement dynamique de l’affichage de l’entité. La conception suivante prend en compte un résultat 1 à plusieurs pour éviter de créer des éléments HTML vides lorsque trop peu d&#39;entités correspondantes sont renvoyées depuis [!DNL Recommendations]. Ce script est idéal pour les scénarios où les recommandations de sauvegarde n’auraient pas de sens et où le **[!UICONTROL Rendu de conception partiel]** est activé.
 
 L’extrait HTML suivant remplace la partie HTML existante dans la conception par défaut 4 x 2 (le CSS n’est pas inclus ici, par souci de concision) :
 
 * S’il existe une cinquième entité, le script insère une balise closing div et ouvre une nouvelle ligne avec `<div class="at-table-row">`.
-* Avec 4 x 2, le nombre maximal de résultats affichés est de huit, mais il peut être personnalisé pour les plus petites ou plus grandes listes en modifiant `$count <=8`.
-* Gardez à l’esprit que la logique n’équilibrera pas les entités sur plusieurs lignes. Par exemple, s’il y a cinq ou six entités à afficher, elles ne deviennent pas dynamiquement trois en haut et deux en bas (ou trois en haut et trois en bas). La rangée supérieure affichera quatre éléments avant de commencer une seconde ligne.
+* Avec 4x2, le nombre maximal de résultats affichés est de huit, mais cela peut être personnalisé pour des listes plus petites ou plus grandes en modifiant `$count <=8`.
+* La logique n’équilibre pas les entités sur plusieurs lignes. Par exemple, s’il y a cinq ou six entités à afficher, elles ne deviennent pas dynamiquement trois en haut et deux en bas (ou trois en haut et trois en bas). La ligne supérieure affiche quatre éléments avant de commencer une deuxième ligne.
 
 ```
 <div class="at-table">

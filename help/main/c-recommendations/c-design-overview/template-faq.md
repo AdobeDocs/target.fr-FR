@@ -1,7 +1,7 @@
 ---
 keywords: recommandations;foire aux questions;faq
-description: Questions fréquentes (FAQ) et réponses relatives aux conceptions [!DNL Target Recommendations].
-title: Où puis-je obtenir des réponses aux questions relatives à la conception pour [!DNL Target Recommendations] ?
+description: Questions fréquentes (FAQ) sur les conceptions [!DNL Target Recommendations] et réponses.
+title: Questions fréquentes sur la conception
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
@@ -18,49 +18,67 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 69%
+source-wordcount: '457'
+ht-degree: 19%
 ---
-# Questions fréquentes sur la conception
+# Questions fréquentes sur la conception {#design-faq}
 
-Liste des questions fréquentes (FAQ) relatives aux conceptions [!DNL Adobe Target] [!DNL Recommendations].
+>[!BEGINSHADEBOX]
 
-## Le prix de l’article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
+**Sur cette page :** Trouvez des réponses aux questions fréquentes sur les conceptions [!DNL Adobe Target] [!DNL Recommendations].
 
-Par défaut, les valeurs numériques (telles que `entity.value`) renvoyées dans les modèles de conception n’affichent pas de zéros de fin après la décimale. Par exemple, si un article vaut 35,00 $, `entity.value` est égal à 35. 35, et non 35,00 $ s’affiche donc uniquement sur la page.
+>[!ENDSHADEBOX]
+
++++ Comment le prix d&#39;un article recommandé peut-il afficher les deux chiffres à droite de la décimale ?
+
+Par défaut, les valeurs numériques (telles que `entity.value`) renvoyées dans les conceptions n’affichent pas de zéros de fin après la décimale. Par exemple, si un article coûte 35,00 $, `entity.value` est égal à 35 et seul 35 est affiché sur la page, et non 35,00 $.
 
 Deux solutions permettent de résoudre ce problème:
 
-* Vous pouvez utiliser un script Velocity ou JavaScript pour appliquer une mise en forme à la valeur renvoyée.
+* Les scripts Velocity ou JavaScript peuvent mettre en forme la valeur renvoyée.
 
-* Vous pouvez transmettre le prix de l’article dans deux attributs d’entité distincts. Le premier, `entity.value`, peut être utilisé pour les comparaisons numériques (comme les règles de comparaison de prix). Le second doit être un attribut personnalisé, tel que `entity.displayValue` qui stocke la valeur de l’entité en tant que chaîne pour permettre un rendu correct.
+* Le prix de l’article peut être transmis dans deux attributs d’entité distincts. Le premier, `entity.value`, peut être utilisé pour les comparaisons numériques (comme les règles de comparaison de prix). Le second doit être un attribut personnalisé, tel que `entity.displayValue`, qui stocke la valeur de l’entité sous la forme d’une chaîne pour permettre un rendu correct.
 
   Par exemple :
 
   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J&#39;utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
++++
 
-L’ID de catégorie ne peut pas être affiché dans la conception. Plusieurs catégories pouvant être stockées, le système ne sait pas quelle catégorie afficher.
++++ Pourquoi la catégorie n’est-elle pas affichée dans la conception lorsque $entity1.categoryId est utilisé ?
 
-## Comment dois-je modifier une conception pour obtenir une mise à jour instantanée ? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
+L’ID de catégorie ne peut pas être affiché dans une conception. Plusieurs catégories peuvent être stockées. Par conséquent, le système ne sait pas quelle catégorie afficher.
+
++++
+
++++ Comment modifier une conception pour obtenir une mise à jour instantanée ?
 
 La modification d’une conception en cours d’utilisation prend du temps. Pour modifier la conception instantanément, créez une nouvelle conception, puis sélectionnez-la dans l’activité et enregistrez la recommandation.
 
-## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ? {#section_F08043B14BA24BC8815FEF25F4F84C39}
++++
 
-Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits clés à afficher dans la conception. Par exemple, si vous souhaitez afficher la miniature du produit clé, utilisez `$key.thumbnailURL`.
++++ Comment les informations clés, telles que la catégorie du produit clé, peuvent-elles être affichées dans une conception ?
 
-## Quelle version de Velocity est utilisée ? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
+Les paramètres `$key` capturent la plupart des informations du produit clé pour les afficher dans la conception. Par exemple, pour afficher la miniature du produit clé, utilisez `$key.thumbnailURL`.
 
-La version 1.7 sans outil ou bibliothèque ajoutée. La fonctionnalité de base de Velocity est disponible.
++++
 
-## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, le `entity.message` d’un élément doit être effacé lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
++++ Quelle version de Velocity est utilisée ?
 
-L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
+Version 1.7, sans outils ni bibliothèques supplémentaires ajoutés. La fonctionnalité de base de Velocity est disponible.
 
-## Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ? {#section_6BD55203984A4D80A0C6F241AD7806DF}
++++
 
-Oui. Pour utiliser un script de profil dans une conception [!DNL Recommendations], encapsulez le nom dans `\${...}`. Par exemple, si votre script de profil s’appelle `user.basket`, référencez-le en tant que `\${user.basket}` dans la conception. Notez que la barre oblique inverse implique que le script de profil n’est pas rendu par Velocity. Par conséquent, vous ne pouvez effectuer aucune opération sur le script de profil dans un modèle Velocity. La valeur sera directement imprimée sur la page.
++++ Comment une valeur d’entité existante peut-elle être remplacée par une valeur vide, par exemple lorsque le paramètre entity.message d’un élément doit être effacé à la fin d’une promotion ?
+
+L’envoi d’un espace insécable JavaScript semble réaliser l’opération. Les développeurs envoient `\u00A0` comme valeur, par exemple `entity.message=\u00A0`. L’utilisation de cette valeur comme valeur par défaut lorsqu’aucune valeur n’est présente, au lieu d’une valeur nulle, peut également être prise en compte.
+
++++
+
++++ Un script de profil peut-il être utilisé dans une conception [!DNL Recommendations] ?
+
+Oui. Pour utiliser un script de profil dans une conception [!DNL Recommendations], encapsulez le nom dans `\${...}`. Par exemple, si le script de profil s’appelle `user.basket`, faites-lui référence en tant que `\${user.basket}` dans la conception. La barre oblique inverse implique que le script de profil n’est pas rendu par Velocity, de sorte qu’aucune opération ne peut être effectuée sur le script de profil dans un modèle Velocity. La valeur est imprimée directement sur la page.
+
++++

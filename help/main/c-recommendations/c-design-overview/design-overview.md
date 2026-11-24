@@ -1,7 +1,7 @@
 ---
 keywords: conception recommandations;modèle;créer une conception;diffusion;sortie
 description: Découvrez comment utiliser des conceptions dans Adobe [!DNL Target] Recommendations pour définir la manière dont les recommandations apparaissent sur une page (1X4, 1X6, 2X2, etc.).
-title: Comment utiliser les conceptions dans Recommendations ?
+title: Prise en main des conceptions
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 TQID: 'https://experienceleague.adobe.com/08jboJLkp6MhgXiISjkVzh2kVze5DRrxO8BbQBFLeA4'
@@ -17,25 +17,31 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 22%
+source-wordcount: '224'
+ht-degree: 9%
 ---
-# Prise en main des conceptions
+# Prise en main des conceptions {#design-overview}
 
-Les conceptions de [!DNL Adobe Target Recommendations] définissent la manière dont les recommandations s’affichent sur une page. Les conceptions définissent la disposition et le format de vos recommandations pour améliorer l’engagement, la conversion et les recettes des visiteurs.
+>[!BEGINSHADEBOX]
 
-[!DNL Recommendations] est fourni avec plusieurs conceptions par défaut (version préliminaire). Vous pouvez également en créer une.
+**Sur cette page :** Découvrez comment les conceptions définissent la disposition et le format des recommandations dans [!DNL Adobe Target Recommendations].
 
-[!DNL Target] peut fournir l’aspect complet de vos recommandations, comme illustré ci-dessous. La conception peut inclure du code HTML, JavaScript et CSS. Cette conception est appelée conception 4 x 1 : quatre espaces dans une ligne.
+>[!ENDSHADEBOX]
 
-![image velocity_example](assets/velocity_example.png)
+Les conceptions de [!DNL Adobe Target Recommendations] définissent la manière dont les recommandations s’affichent sur une page. Une conception définit la disposition et le format des recommandations.
 
-Target peut également envoyer vos recommandations en tant qu’objets JSON pouvant être utilisés dans les courriers électroniques, les appareils IoT (Internet des objets), une console ou les cas d’utilisation vocaux (Amazon Alexa ou Google Home).
+[!DNL Recommendations] est fourni avec plusieurs conceptions par défaut (préconfigurées) et des conceptions personnalisées peuvent également être créées. Pour plus d’informations, consultez [Création d’une conception](/help/main/c-recommendations/c-design-overview/create-design.md).
 
-Les conceptions vous aident à déterminer les éléments suivants :
+[!DNL Target] peut fournir l’aspect complet des recommandations, comme illustré ci-dessous. La conception peut inclure du code HTML, JavaScript et CSS. Cette conception est appelée conception 4 x 1 : quatre espaces dans une ligne.
 
-* Nombre d’éléments à afficher dans une recommandation
+![Exemple d&#39;un design 4 x 1 intitulé « Autres activités amusantes », avec quatre éléments qui montrent chacun une photo, un nom, un prix, une note et une distance](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+[!DNL Target] peut également envoyer les recommandations sous la forme d’objets JSON pouvant être utilisés dans des e-mails, des appareils IoT (Internet des objets), des consoles ou des cas d’utilisation vocale (Amazon Alexa ou Google Home).
+
+Les conceptions déterminent :
+
+* Nombre d’éléments affichés dans une recommandation
 * Affichage des éléments (dans une ligne, une colonne, une grille ou un tableau)
-* Si vous souhaitez limiter les visiteurs et visiteuses à l’affichage du nombre d’éléments spécifié uniquement ou souhaitez-vous que les visiteurs et visiteuses puissent faire défiler plusieurs éléments ?
+* Indique si les visiteurs voient uniquement le nombre d’éléments spécifié ou s’ils peuvent faire défiler plusieurs éléments.

@@ -1,6 +1,6 @@
 ---
 keywords: recommandations;activité de recommandations;critères;algorithme
-description: Découvrez comment sélectionner les critères (règles qui déterminent quels produits ou contenus recommander) à utiliser dans votre activité Adobe [!DNL Target] Recommendations.
+description: Découvrez comment sélectionner les critères (règles qui déterminent quels produits ou contenus recommander) à utiliser dans votre activité Recommendations [!DNL Target] d’Adobe.
 title: Comment sélectionner des critères pour une activité Recommendations ?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -31,15 +31,15 @@ Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément 
 
   Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
-* Pour créer un critère, cliquez sur **[!UICONTROL Créer un critère]** > **[!UICONTROL Créer un critère]**, puis renseignez les informations relatives au nouveau critère. Pour plus d’informations sur la création de nouveaux critères, voir [Création d’un critère](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+* Pour créer un critère, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**, puis renseignez les informations pour le nouveau critère. Pour plus d’informations sur la création de nouveaux critères, voir [Création d’un critère](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#create-criteria).
 
 **Pour sélectionner des critères :**
 
-1. Lors de la [création d’une recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), dans la boîte de dialogue **[!UICONTROL Sélectionner des critères]**, recherchez et sélectionnez un ou plusieurs critères.
+1. Lors de la création d’une [recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), dans la boîte de dialogue **[!UICONTROL Sélectionner les critères]**, recherchez et sélectionnez un ou plusieurs critères.
 
-   Vous pouvez utiliser les cases à cocher [!UICONTROL Type de secteur] filtre, [!UICONTROL Type de page] filtre et [!UICONTROL Compatible] pour filtrer la liste des critères. Ces options vous aident à localiser les critères souhaités.
+   Vous pouvez utiliser le filtre [!UICONTROL Type de secteur], le filtre [!UICONTROL Type de page] et la case à cocher [!UICONTROL Compatible] pour filtrer la liste des critères. Ces options vous aident à localiser les critères souhaités.
 
-   * **Type de secteur industriel :** le type de secteur industriel permet de classer les critères [!DNL Recommendations]. Pour modifier le secteur d’activité vertical par défaut, cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** et sélectionnez le paramètre par défaut **[!UICONTROL Secteur vertical]** souhaité.
+   * **Type de secteur industriel :** le type de secteur industriel permet de classer les critères [!DNL Recommendations]. Pour modifier le secteur d’activité vertical par défaut, cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** et sélectionnez le paramètre **[!UICONTROL Secteur vertical]** par défaut souhaité.
    * **Type de page :** le type de page vous aide à classer les recommandations. Il existe également des critères intégrés que vous pouvez choisir pour chaque type de page.
    * **Compatible :** affichez uniquement les critères pour lesquels la page sélectionnée transmet les données requises. Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** Cette option peut être désactivée ou activée dans vos paramètres : **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]**.
 

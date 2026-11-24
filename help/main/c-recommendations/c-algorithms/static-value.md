@@ -1,7 +1,7 @@
 ---
 keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;statique;filtre statique
-description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques pour filtrer à l’aide des règles d’inclusion dans les recommandations de [!DNL Target] Adobe.
-title: Comment Filtrer Par Valeurs Statiques Dans Les Activités Recommendations ?
+description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques pour filtrer à l’aide des règles d’inclusion dans les recommandations [!DNL Target] d’Adobe.
+title: Filtre statique
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
@@ -18,23 +18,21 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: e8a9b6be04169ea3024673babb62085667fe8990
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 32%
+source-wordcount: '184'
+ht-degree: 2%
 ---
-# [!UICONTROL Filtre statique]
+# Filtre statique {#static-filter}
 
-Saisissez manuellement une ou plusieurs valeurs statiques à filtrer à l’aide des règles d’inclusion dans [!DNL Adobe Target Recommendations].
+>[!BEGINSHADEBOX]
 
-Par exemple, recommandez uniquement le contenu dont la classification de l’Association des films (MPA) est « G » ou « PG ».
+**Sur cette page :** Découvrez comment filtrer les recommandations en saisissant manuellement une ou plusieurs valeurs statiques dans les règles d’inclusion dans [!DNL Adobe Target Recommendations].
 
-Vous pouvez créer autant de règles d’inclusion que nécessaire. Les règles d’inclusion sont jointes par l’opérateur ET. Toutes les règles doivent être respectées pour inclure un élément dans une recommandation.
+>[!ENDSHADEBOX]
 
->[!NOTE]
->
->Si vous connaissez la configuration des règles d’inclusion avant la version Target 17.6.1 (juin 2017), vous remarquerez que certaines des options et certains des opérateurs ont changé. Seuls les opérateurs applicables à l’option sélectionnée s’affichent et certains opérateurs ont été renommés (« correspond à » est devenu « est égal à ») pour être plus cohérents et intuitifs. Toutes les règles d’exclusion existantes créées avant cette version ont été automatiquement migrées vers la nouvelle structure. Aucune restructuration n’est nécessaire de votre part.
+**[!UICONTROL Le filtre statique]** limite les éléments d’une recommandation aux éléments qui correspondent à des valeurs statiques saisies manuellement. Vous pouvez créer un nombre illimité de règles d’inclusion. Les règles d’inclusion sont jointes à un opérateur AND. Par conséquent, toutes les règles doivent être respectées pour qu’un élément soit inclus dans une recommandation. Pour obtenir des informations générales sur les règles d’inclusion, voir [Utiliser des règles d’inclusion dynamiques et statiques](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Contenu recommandé classé G ou PG
 
-Pour créer une règle d’inclusion avec des valeurs statiques afin de recommander un contenu avec une évaluation MPA de « G » ou « PG » uniquement (exclure le contenu « R » et « NC17 »), vous pouvez créer les règles de filtrage suivantes : « évaluation film est égale à n’importe lequel entre g » et « évaluation film est égale à n’importe lequel entre pg ».
+Pour ne recommander que du contenu avec une classification de l&#39;association des films (MPA) « G » ou « PG » (exclure le contenu « R » et « NC17 »), créez une règle de filtrage avec l&#39;opérateur « movie-rating equals any of » et saisissez les valeurs « g-rating » et « pg-rating ».

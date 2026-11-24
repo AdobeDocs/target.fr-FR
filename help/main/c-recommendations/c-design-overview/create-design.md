@@ -1,7 +1,7 @@
 ---
 keywords: conception de recommandations, créer une conception, copier une conception
-description: Découvrez comment créer une conception [!DNL Target Recommendations] à l’aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition de votre page.
-title: Comment créer une conception dans Recommendations ?
+description: Découvrez comment créer une conception [!DNL Target Recommendations] à l’aide d’une conception par défaut ou en créant une conception personnalisée pour s’adapter au mieux à la disposition d’une page.
+title: Création d’une conception
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
@@ -18,100 +18,73 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: d5030abcda38bbc6d33b88ce3bb5d64f69e4e492
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 24%
+source-wordcount: '912'
+ht-degree: 11%
 ---
-# Création d’une conception
+# Création d’une conception {#create-design}
 
-Une conception définit la manière dont les recommandations s’affichent sur une page.
+>[!BEGINSHADEBOX]
 
-Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommendations > Conceptions]** affiche les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
+**Sur cette page :** Découvrez comment créer, modifier, copier et supprimer des conceptions dans [!DNL Adobe Target Recommendations] et comment renvoyer des recommandations au format JSON.
 
-Tenez compte des informations suivantes lorsque vous utilisez des conceptions :
+>[!ENDSHADEBOX]
 
-* Vous pouvez créer une conception Recommendations à l’aide d’une conception par défaut ou d’une conception personnalisée.
-* Vous ne pouvez pas modifier ni supprimer une conception par défaut.
-* Vous pouvez modifier, copier ou supprimer une conception personnalisée.
-* Pour créer une conception basée sur une conception par défaut, vous devez d’abord copier la conception, puis la modifier.
+Une conception définit la manière dont les recommandations s’affichent sur une page. Une conception peut être basée sur une conception par défaut ou créée en tant que conception personnalisée. L’écran **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** affiche les cartes de conception par défaut et les conceptions créées dans le compte.
 
-Cette illustration présente la conception 1 x 4 par défaut :
+* Une conception par défaut ne peut pas être modifiée ni supprimée.
+* Une conception personnalisée peut être modifiée, copiée ou supprimée.
+* Pour créer une conception basée sur une conception par défaut, copiez d&#39;abord la conception, puis modifiez la copie.
 
-![1 x 4 conception par défaut](/help/main/c-recommendations/c-design-overview/assets/default-design.png)
+Une conception peut être créée pendant le processus de création d’activité à partir du **[!UICONTROL Compositeur d’expérience visuelle]** (VEC) ou de la bibliothèque de conception en dehors de la création d’activité. Les étapes suivantes supposent que la conception est créée à partir de la bibliothèque, mais les étapes sont similaires.
 
-Cette illustration présente une conception personnalisée :
+## Création d’une conception à partir de la bibliothèque {#steps}
 
-![Conception personnalisée](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque **[!UICONTROL Conceptions]**.
 
-Vous pouvez créer une conception pendant le processus de création d’activité à partir du [!UICONTROL compositeur d’expérience visuelle] (VEC) ou de la bibliothèque de conception en dehors de la création d’activité. Les sections suivantes supposent que vous créez des conceptions à partir de la bibliothèque, mais les étapes sont similaires.
+1. Commencez la conception de l’une des manières suivantes :
 
-## Création de conceptions
+   * Pour baser la conception sur une conception par défaut ou sur une conception existante, cliquez sur l’icône Autres actions ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) de cette conception, puis cliquez sur **[!UICONTROL Copier]**. La boîte de dialogue **[!UICONTROL Créer une conception]** s’affiche. La copie modifiée devient une nouvelle conception personnalisée.
+   * Pour créer entièrement une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]**.
 
-Vous pouvez créer une conception basée sur une conception par défaut ou sur une conception personnalisée.
+     ![Bibliothèque de conceptions avec le bouton Créer une conception en surbrillance](../assets/design_1.png)
 
-### Créer une conception basée sur une conception par défaut
+1. Saisissez un **[!UICONTROL Nom]** et sélectionnez une image d’aperçu facultative à afficher sur la carte de conception.
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
-
-
-1. Cliquez sur l’icône Autres actions ( ![icône Autres actions](/help/main/assets/icons/MoreSmallList.svg) ) de la conception à créer, puis cliquez sur **[!UICONTROL Copier]**.
-
-   La boîte de dialogue [!UICONTROL Créer une conception] s’affiche.
-
-1. Saisissez un nom de **[!UICONTROL et]** en option, une image d’aperçu à afficher sur la carte de conception.
-
-   Lorsque vous utilisez une conception par défaut, le nom de la conception et la mention « Copier » apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
+   Lorsqu’une conception par défaut est utilisée, le nom de la conception suivi de « Copier » apparaît dans le champ **[!UICONTROL Nom du contenu]**. Le nom peut être modifié.
 
 1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l’adresse [&#128279;](https://velocity.apache.org) et dans [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Pour plus d’informations sur Velocity, voir [https://velocity.apache.org](https://velocity.apache.org) et [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule [!UICONTROL Conception &#x200B;] vers la position « désactivé » pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont encapsulées avec une balise `<div>` pour permettre le suivi des clics dans un environnement web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser le bouton bascule **[!UICONTROL Conception HTML]** en position « désactivé » pour utiliser du code non HTML.
 
    >[!NOTE]
    >
-   >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
+   >Le nombre maximal d&#39;entités pouvant être référencées dans une conception, que ce soit par des boucles codées en dur ou traversantes, est de 99.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-### Créer une conception personnalisée
+1. Cliquez sur l’icône Plus d’actions (![Icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) de la conception à modifier, copier ou supprimer, puis cliquez sur l’option appropriée : **[!UICONTROL Modifier]**, **[!UICONTROL Copier]** ou **[!UICONTROL Supprimer]**.
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
+   ![Bibliothèque de conceptions avec le menu Autres actions ouvert, affichant Modifier, Copier et Supprimer](../assets/design_2.png)
 
-1. Cliquez sur **[!UICONTROL Créer une conception]**.
+Les conceptions sont disponibles sur l’ensemble du compte. L’utilisation sur plusieurs comptes doit être prise en compte avant la suppression d’une conception. Les conceptions supprimées ne peuvent pas être récupérées.
 
-   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) de la conception que vous souhaitez créer, puis cliquez sur [!UICONTROL Copier]. Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
+## Exemple JSON {#json-example}
 
-1. Ajoutez un **[!UICONTROL Nom]** et une image d’aperçu facultative.
+L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lorsqu’une activité est configurée avec l’[éditeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
-1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
+1. Créez une conception à partir de la **[!UICONTROL bibliothèque de conception]** ou dans le workflow basé sur les formulaires. Une conception créée dans le workflow du **[!UICONTROL compositeur d’expérience visuelle]** (VEC) ne peut être qu’une conception HTML, encapsulée dans un `<div>` à des fins de suivi des clics.
 
-   Pour plus d’informations, reportez-vous aux informations de l’étape 4 ci-dessus.
+1. Assurez-vous que l’option **[!UICONTROL Conception HTML]** est désactivée :
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+   ![Bouton bascule de conception HTML en position désactivée](/help/main/c-recommendations/c-design-overview/assets/html_design_toggle.png)
 
-## Modifier, copier ou supprimer une conception
+1. Collez du code tel que l’exemple suivant dans la conception :
 
-N&#39;oubliez pas que vous ne pouvez pas modifier ni copier une conception par défaut ; vous ne pouvez copier que les conceptions par défaut.
-
-Cliquez sur l’icône [!UICONTROL Plus d’actions] ( ![icône Plus d’actions](/help/main/assets/icons/MoreSmallList.svg) ) de la conception à modifier ou à supprimer, puis cliquez sur l’icône appropriée : [!UICONTROL Modifier], [!UICONTROL Copier] ou [!UICONTROL Supprimer].
-
-Vous pouvez copier une conception existante pour créer une conception en double que vous pouvez ensuite modifier. Ce processus permet de créer une conception similaire avec moins d’effort.
-
-Sachez que les conceptions sont disponibles sur l’ensemble du compte. Veillez à tenir compte de l’utilisation sur plusieurs comptes avant de supprimer une conception. Les conceptions supprimées ne peuvent pas être récupérées.
-
-## Exemple d’objet JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
-
-L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’[éditeur basé sur les formulaires](/help/main/c-experiences/form-experience-composer.md).
-
-1. Créez une conception à partir de la [!UICONTROL bibliothèque de conception] ou dans le processus basé sur les formulaires. Si vous tentez de créer une conception dans le workflow [!UICONTROL Compositeur d’expérience visuelle] (VEC), vous ne pouvez rien créer d’autre qu’une conception HTML, qui est encapsulée dans un `<div>` à des fins de suivi des clics.
-
-1. Assurez-vous que l’option « Conception HTML » est désactivée :
-
-   ![image html_design_toggle](assets/html_design_toggle.png)
-
-1. Le code suivant est un exemple de ce que vous pouvez coller dans votre conception :
+   +++ Exemple de code de conception qui renvoie une liste d’ID d’entité
 
    ```javascript
        #* 
@@ -140,22 +113,28 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
        }  
    ```
 
-1. Configurez une activité de [!DNL Recommendations] basée sur les formulaires qui utilise cette conception.
+   +++
+
+1. Configurez une activité [!DNL Recommendations] basée sur les formulaires qui utilise cette conception.
+
+   +++ Découvrez comment configurer une activité [!DNL Recommendations] basée sur des formulaires 
 
    1. Accédez à la page **[!UICONTROL Activités]**.
-   1. Cliquez sur **[!UICONTROL Créer une activité]** > **[!UICONTROL Recommandations]**.
+   1. Cliquez Sur **[!UICONTROL Créer Une Activité]** > **[!UICONTROL Recommandations]**.
    1. Sous **[!UICONTROL Choisir le compositeur d’expérience]**, sélectionnez **[!UICONTROL Formulaire]**, puis cliquez sur **[!UICONTROL Suivant]**.
-   1. Sous Emplacement, saisissez le texte : « Sample_Recs_Response ».
+   1. Sous Location (Emplacement), saisissez le texte « Sample_Recs_Response ».
    1. Sous **[!UICONTROL Contenu par défaut]**, cliquez sur la flèche vers le bas, puis sur **[!UICONTROL Ajouter une recommandation]**.
    1. Choisissez un type de page. Celui-ci détermine le filtrage initial de l’écran suivant.
    1. Sélectionnez une carte de critères, puis cliquez sur **[!UICONTROL Suivant]**.
-   1. Sélectionnez la conception créée à l’étape précédente, puis cliquez sur **[!UICONTROL Suivant]**.
+   1. Sélectionnez la conception créée à l&#39;étape précédente, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Terminez le processus de configuration.
    1. Cliquez sur la flèche droite en regard de **[!UICONTROL Inactif]**, puis sélectionnez **[!UICONTROL Activer]**.
 
-1. Une fois votre activité configurée et activée, vous pouvez configurer un exemple de requête pour récupérer la réponse JSON vierge.
+   +++
 
-   À partir du moment où vous enregistrez votre activité, [!DNL Target] devez créer un modèle pour prendre en charge la configuration des critères sélectionnés. Selon un certain nombre de facteurs, ce processus peut prendre un certain temps. Les résultats apparaissent une fois le modèle créé.
+1. Une fois l’activité configurée et activée, un exemple de requête peut être configuré pour récupérer la réponse JSON nettoyée.
+
+   À partir du moment où l’activité est enregistrée, [!DNL Target] doit créer un modèle pour prendre en charge la configuration des critères sélectionnés. Selon un certain nombre de facteurs, ce processus peut prendre un certain temps. Les résultats apparaissent une fois le modèle créé.
 
    Par exemple :
 
@@ -167,168 +146,164 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
    | Paramètre | Valeur |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur #recsSettings > Jeton API Recommendations > Code client). |
-   | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section « Emplacements » des recommandations basées sur des formulaires, dans ce cas Sample_Recs_Response. |
-   | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
-   | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez si vous avez sélectionné une propriété (faisant partie des autorisations d’Enterprise) lors de la configuration de votre activité. |
+   | `[YOUR_CLIENT_CODE]` | Le code client [!DNL Target] (disponible sur /help/target/products.html#recsSettings > Jeton API Recommendations > Code client). |
+   | `[YOUR_MBOX_NAME]` | Nom qui a été sélectionné dans la section « Emplacements » de l’activité Recommendations basée sur les formulaires, dans ce cas Sample_Recs_Response. |
+   | `[ENTITY_ID]` | `entity.id` d’un élément du catalogue. |
+   | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajouté lorsqu’une propriété (faisant partie des autorisations d’Enterprise) a été sélectionnée lors de la configuration de l’activité. |
 
-Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
+Une fois l’algorithme exécuté et les résultats disponibles, la réponse ressemble à ce qui suit :
 
-![image json_recommendation](assets/json_recommendation.png){width="575px"}
+![Réponse JSON avec les éléments recommandés](/help/main/c-recommendations/c-design-overview/assets/json_recommendation.png){width="575px"}
 
-## Autres conseils et astuces concernant les objets JSON {#section_C305673C68944749969DB239E3221DC2}
+## Autres conseils sur les objets JSON {#json-tips}
 
-Vous pouvez également renvoyer une simple liste d’éléments délimitée par des virgules en configurant une conception avec la syntaxe suivante :
+Une simple liste d’éléments délimitée par des virgules peut également être renvoyée en configurant une conception avec la syntaxe suivante :
 
 ```
-entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
+$entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). Cet exemple de conception renvoie également les détails de l’activité, [!UICONTROL le profil cible] les détails (le cas échéant) et d’autres `entity.attributes` associés aux éléments renvoyés.
+Des informations supplémentaires peuvent également être envoyées dans la réponse. Le code suivant est un exemple plus complexe qui renvoie beaucoup plus que les identifiants d’entité avec leurs emplacements associés (ordre). Cet exemple de conception renvoie également les détails de l’activité, les détails du **[!UICONTROL profil cible]** (le cas échéant) et les autres `entity.attributes` associés aux éléments renvoyés.
+
++++ Exemple de code de conception qui renvoie des détails d’activité, de profil et d’entité
 
 ```javascript
-    {   
-     "adobeRecommendations": {   
-      "notes": {   
-       "purpose": "Return a list of entity ids with their associated entity.attributes",   
-       "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
-       "version": "01"   
-      },   
-      "recommendedItems": {   
-       "slot-01": "$entity1.id",   
-       "slot-02": "$entity2.id",   
-       "slot-03": "$entity3.id",   
-       "slot-04": "$entity4.id",   
-       "slot-05": "$entity5.id",   
-       "slot-06": "$entity6.id",   
-       "slot-07": "$entity7.id",   
-       "slot-08": "$entity8.id",   
-       "slot-09": "$entity9.id",   
-       "slot-10": "$entity10.id"   
-      },   
-      "activityDetails": {   
-       "mbox.name": "email-mbox",   
-       "campaign.name": "\${campaign.name}",   
-       "campaign.id": "\${campaign.id}",   
-       "campaign.recipe.name": "\${campaign.recipe.name}",   
-       "campaign.recipe.id": "\${campaign.recipe.id}",   
-       "offer.name": "\${offer.name}",   
-       "offer.id": "\${offer.id}",   
-       "criteria.title": "$criteria.title",   
-       "algorithm.name": "$algorithm.name",   
-       "algorithm.dayCount": "$algorithm.dayCount"   
-      },   
-      "visitorProfile": {   
-       "profile.favorite-category": "\${profile.favorite-category}",   
-       "profile.test": "\${profile.test}",   
-       "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
-       "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
-       "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
-       "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
-       "profile.geolocation.city": "\${profile.geolocation.city}",   
-       "profile.geolocation.dma": "\${profile.geolocation.dma}",   
-       "profile.geolocation.state": "\${profile.geolocation.state}",   
-       "profile.geolocation.country": "\${profile.geolocation.country}",   
-       "profile.sessionCount": "\${profile.sessionCount}",   
-       "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
-       "profile.browserTime": "\${profile.browserTime}",   
-       "user.activeActivities": "\${user.activeActivities}",   
-       "user.pcId": "\${user.pcId}",   
-       "user.isFirstSession": "\${user.isFirstSession}",   
-       "user.isNewSession": "\${user.isNewSession}",   
-       "user.header": "\${user.header}",   
-       "user.parameter": "\${user.parameter}"   
-      },   
-      "recKey": {   
-       "recKeyDetails": {   
-        "id": "$key.id",   
-        "name": "$key.name",   
-        "category": "$key.category",   
-        "pageUrl": "$key.pageUrl",   
-        "thumbnailUrl": "$key.thumbnailUrl"   
-       }   
-      },   
-      "recDetailedResults": {   
-       "recEntity1Details": {   
-        "id": "$entity1.id",   
-        "name": "$entity1.name",   
-        "category": "$entity1.category",   
-        "pageUrl": "$entity1.pageUrl",   
-        "thumbnailUrl": "$entity1.thumbnailUrl"   
-       },   
-       "recEntity2Details": {   
-        "id": "$entity2.id",   
-        "name": "$entity2.name",   
-        "category": "$entity2.category",   
-        "pageUrl": "$entity2.pageUrl",   
-        "thumbnailUrl": "$entity2.thumbnailUrl"   
-       },   
-       "recEntity3Details": {   
-        "id": "$entity3.id",   
-        "name": "$entity3.name",   
-        "category": "$entity3.category",   
-        "pageUrl": "$entity3.pageUrl",   
-        "thumbnailUrl": "$entity3.thumbnailUrl"   
-       },   
-       "recEntity4Details": {   
-        "id": "$entity4.id",   
-        "name": "$entity4.name",   
-        "category": "$entity4.category",   
-        "pageUrl": "$entity4.pageUrl",   
-        "thumbnailUrl": "$entity4.thumbnailUrl"   
-       },   
-       "recEntity5Details": {   
-        "id": "$entity5.id",   
-        "name": "$entity5.name",   
-        "category": "$entity5.category",   
-        "pageUrl": "$entity5.pageUrl",   
-        "thumbnailUrl": "$entity5.thumbnailUrl"   
-       },   
-       "recEntity6Details": {   
-        "id": "$entity6.id",   
-        "name": "$entity6.name",   
-        "category": "$entity6.category",   
-        "pageUrl": "$entity6.pageUrl",   
-        "thumbnailUrl": "$entity6.thumbnailUrl"   
-       },   
-       "recEntity7Details": {   
-        "id": "$entity7.id",   
-        "name": "$entity7.name",   
-        "category": "$entity7.category",   
-        "pageUrl": "$entity7.pageUrl",   
-        "thumbnailUrl": "$entity7.thumbnailUrl"   
-       },   
-       "recEntity8Details": {   
-        "id": "$entity8.id",   
-        "name": "$entity8.name",   
-        "category": "$entity8.category",   
-        "pageUrl": "$entity8.pageUrl",   
-        "thumbnailUrl": "$entity8.thumbnailUrl"   
-       },   
-       "recEntity9Details": {   
-        "id": "$entity9.id",   
-        "name": "$entity9.name",   
-        "category": "$entity9.category",   
-        "pageUrl": "$entity9.pageUrl",   
-        "thumbnailUrl": "$entity9.thumbnailUrl"   
-       },   
-       "recEntity10Details": {   
-        "id": "$entity10.id",   
-        "name": "$entity10.name",   
-        "category": "$entity10.category",   
-        "pageUrl": "$entity10.pageUrl",   
-        "thumbnailUrl": "$entity10.thumbnailUrl"   
-       }   
-      }   
+  {   
+   "adobeRecommendations": {   
+    "notes": {   
+     "purpose": "Return a list of entity ids with their associated entity.attributes",   
+     "use-case": "Use this approach to avoid looking up attribute details after receiving a response from Target",   
+     "version": "01"   
+    },   
+    "recommendedItems": {   
+     "slot-01": "$entity1.id",   
+     "slot-02": "$entity2.id",   
+     "slot-03": "$entity3.id",   
+     "slot-04": "$entity4.id",   
+     "slot-05": "$entity5.id",   
+     "slot-06": "$entity6.id",   
+     "slot-07": "$entity7.id",   
+     "slot-08": "$entity8.id",   
+     "slot-09": "$entity9.id",   
+     "slot-10": "$entity10.id"   
+    },   
+    "activityDetails": {   
+     "mbox.name": "email-mbox",   
+     "campaign.name": "\${campaign.name}",   
+     "campaign.id": "\${campaign.id}",   
+     "campaign.recipe.name": "\${campaign.recipe.name}",   
+     "campaign.recipe.id": "\${campaign.recipe.id}",   
+     "offer.name": "\${offer.name}",   
+     "offer.id": "\${offer.id}",   
+     "criteria.title": "$criteria.title",   
+     "algorithm.name": "$algorithm.name",   
+     "algorithm.dayCount": "$algorithm.dayCount"   
+    },   
+    "visitorProfile": {   
+     "profile.favorite-category": "\${profile.favorite-category}",   
+     "profile.test": "\${profile.test}",   
+     "user.endpoint.lastPurchasedEntity": "\${user.endpoint.lastPurchasedEntity}",   
+     "user.endpoint.lastViewedEntity": "\${user.endpoint.lastViewedEntity}",   
+     "user.endpoint.mostViewedEntity": "\${user.endpoint.mostViewedEntity}",   
+     "user.endpoint.categoryAffinity": "\${user.endpoint.categoryAffinity}",   
+     "profile.geolocation.city": "\${profile.geolocation.city}",   
+     "profile.geolocation.dma": "\${profile.geolocation.dma}",   
+     "profile.geolocation.state": "\${profile.geolocation.state}",   
+     "profile.geolocation.country": "\${profile.geolocation.country}",   
+     "profile.sessionCount": "\${profile.sessionCount}",   
+     "profile.averageDaysBetweenVisits": "\${profile.averageDaysBetweenVisits}",   
+     "profile.browserTime": "\${profile.browserTime}",   
+     "user.activeActivities": "\${user.activeActivities}",   
+     "user.pcId": "\${user.pcId}",   
+     "user.isFirstSession": "\${user.isFirstSession}",   
+     "user.isNewSession": "\${user.isNewSession}",   
+     "user.header": "\${user.header}",   
+     "user.parameter": "\${user.parameter}"   
+    },   
+    "recKey": {   
+     "recKeyDetails": {   
+      "id": "$key.id",   
+      "name": "$key.name",   
+      "category": "$key.category",   
+      "pageUrl": "$key.pageUrl",   
+      "thumbnailUrl": "$key.thumbnailUrl"   
      }   
-    }  
+    },   
+    "recDetailedResults": {   
+     "recEntity1Details": {   
+      "id": "$entity1.id",   
+      "name": "$entity1.name",   
+      "category": "$entity1.category",   
+      "pageUrl": "$entity1.pageUrl",   
+      "thumbnailUrl": "$entity1.thumbnailUrl"   
+     },   
+     "recEntity2Details": {   
+      "id": "$entity2.id",   
+      "name": "$entity2.name",   
+      "category": "$entity2.category",   
+      "pageUrl": "$entity2.pageUrl",   
+      "thumbnailUrl": "$entity2.thumbnailUrl"   
+     },   
+     "recEntity3Details": {   
+      "id": "$entity3.id",   
+      "name": "$entity3.name",   
+      "category": "$entity3.category",   
+      "pageUrl": "$entity3.pageUrl",   
+      "thumbnailUrl": "$entity3.thumbnailUrl"   
+     },   
+     "recEntity4Details": {   
+      "id": "$entity4.id",   
+      "name": "$entity4.name",   
+      "category": "$entity4.category",   
+      "pageUrl": "$entity4.pageUrl",   
+      "thumbnailUrl": "$entity4.thumbnailUrl"   
+     },   
+     "recEntity5Details": {   
+      "id": "$entity5.id",   
+      "name": "$entity5.name",   
+      "category": "$entity5.category",   
+      "pageUrl": "$entity5.pageUrl",   
+      "thumbnailUrl": "$entity5.thumbnailUrl"   
+     },   
+     "recEntity6Details": {   
+      "id": "$entity6.id",   
+      "name": "$entity6.name",   
+      "category": "$entity6.category",   
+      "pageUrl": "$entity6.pageUrl",   
+      "thumbnailUrl": "$entity6.thumbnailUrl"   
+     },   
+     "recEntity7Details": {   
+      "id": "$entity7.id",   
+      "name": "$entity7.name",   
+      "category": "$entity7.category",   
+      "pageUrl": "$entity7.pageUrl",   
+      "thumbnailUrl": "$entity7.thumbnailUrl"   
+     },   
+     "recEntity8Details": {   
+      "id": "$entity8.id",   
+      "name": "$entity8.name",   
+      "category": "$entity8.category",   
+      "pageUrl": "$entity8.pageUrl",   
+      "thumbnailUrl": "$entity8.thumbnailUrl"   
+     },   
+     "recEntity9Details": {   
+      "id": "$entity9.id",   
+      "name": "$entity9.name",   
+      "category": "$entity9.category",   
+      "pageUrl": "$entity9.pageUrl",   
+      "thumbnailUrl": "$entity9.thumbnailUrl"   
+     },   
+     "recEntity10Details": {   
+      "id": "$entity10.id",   
+      "name": "$entity10.name",   
+      "category": "$entity10.category",   
+      "pageUrl": "$entity10.pageUrl",   
+      "thumbnailUrl": "$entity10.thumbnailUrl"   
+     }   
+    }   
+   }   
+  }  
 ```
 
-## Vidéo de formation : créer des conceptions personnalisées dans Recommendations (3:20) ![Badge d’aperçu](/help/main/assets/overview.png)
++++
 
-Cette vidéo traite des sujets suivants :
-
-* Créer une conception personnalisée
-* comprendre comment référencer des variables d’affichage dans vos conceptions ;
-
->[!VIDEO](https://video.tv.adobe.com/v/34832?captions=fre_fr)
