@@ -2,7 +2,7 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations].
 title: Comment créer une activité [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -22,24 +22,24 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: f9c9c7b2b78ec020fcabae420686b8955e350a0e
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 53%
 ---
-# Création d’une activité [!DNL Recommendations]
+# Créer une activité [!DNL Recommendations]
 
-Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page compatible avec les [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
+Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations] directement sur une page compatible avec [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
 
-1. Cliquez sur **[!UICONTROL Activités]** > **[!UICONTROL Créer une activité]** > **[!UICONTROL Recommandations]**.
+1. Cliquez Sur **[!UICONTROL Activités]** > **[!UICONTROL Créer Une Activité]** > **[!UICONTROL Recommandations]**.
 
 1. Sélectionnez **[!UICONTROL Visuel]**, si nécessaire.
 
-   Si vous préférez utiliser le [!UICONTROL Compositeur d’expérience d’après les formulaires], sélectionnez [!UICONTROL Formulaire]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) pour plus d’informations.
+   Si vous préférez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires], sélectionnez [!UICONTROL Formulaire]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md) pour plus d’informations.
 
    >[!NOTE]
    >
-   >Outre le compositeur d’expérience visuelle et le [!UICONTROL compositeur d’expérience d’après les formulaires], [!DNL Target] propose le compositeur d’expérience visuelle [!UICONTROL application d’une seule page]. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/main/c-experiences/experiences.md).
+   >Outre le compositeur d’expérience visuelle et le [!UICONTROL compositeur d’expérience d’après les formulaires], [!DNL Target] propose le compositeur d’expérience visuelle [!UICONTROL Application sur une seule page]. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/main/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
@@ -49,13 +49,13 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com/fr`] et [!DNL `https://wwww.adobe.com`] correspondent.
+   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] correspondent.
 
    L’URL de l’activité correspond à la page sur laquelle s’affichent les recommandations.
 
    Lorsque vous cliquez sur [!UICONTROL Créer], le compositeur d’expérience visuelle s’ouvre et affiche votre page. Vous pouvez remplacer un élément actuel par des recommandations ou insérer des recommandations.
 
-1. Cliquez sur un élément de votre page, puis, si des recommandations sont disponibles à l’emplacement où se trouve cet élément, cliquez sur **[!UICONTROL Remplacer avec Recommendations]**, **[!UICONTROL Insérer des recommandations avant]** ou **[!UICONTROL Insérer des recommandations après]**.
+1. Cliquez sur un élément de votre page, puis, si des recommandations sont disponibles à l’endroit où se trouve cet élément, cliquez sur **[!UICONTROL Remplacer par des recommandations]**, **[!UICONTROL Insérer des recommandations avant]** ou **[!UICONTROL Insérer des recommandations après]**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres Recommendations ( **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![Boîte de dialogue Sélection de critères](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -102,13 +102,13 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
      Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
-   * Pour créer un critère, cliquez sur **[!UICONTROL Créer un critère]** > **[!UICONTROL Créer un critère]**, puis renseignez les informations relatives au nouveau critère. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Vous pouvez également regrouper les critères en séquences. Pour créer une séquence de critères, cliquez sur **[!UICONTROL Créer un critère]** > **[!UICONTROL Créer une séquence de critères]**. Voir [Créer une séquence de critères](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) pour plus d’informations.
+   * Pour créer un critère, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**, puis renseignez les informations pour le nouveau critère. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Vous pouvez également regrouper les critères en séquences. Pour créer une nouvelle séquence de critères, cliquez sur **[!UICONTROL Créer une séquence de critères]** > **[!UICONTROL Créer une séquence de critères]**. Voir [Créer une séquence de critères](/help/main/c-recommendations/c-algorithms/create-criteria-sequence.md) pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
-   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] comprend plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Création d’une conception](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [Personnalisation d’une conception](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] comprend plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, consultez les sections [Créer une conception](/help/main/c-recommendations/c-design-overview/create-design.md#create-design) et [Personnaliser une conception](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#customize-design).
 
    ![Boîte de dialogue Sélection d’une conception](/help/main/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -118,7 +118,7 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
      Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu’une seule conception.
 
-   * Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez le nom et le code de la nouvelle conception. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](/help/main/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez le nom et le code de la nouvelle conception. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](/help/main/c-recommendations/c-design-overview/create-design.md#create-design).
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
@@ -134,7 +134,7 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
    Lorsque vous avez terminé de prévisualiser vos recommandations, cliquez sur **[!UICONTROL Composer]**.
 
-1. Vérifiez votre recommandation dans le compositeur d’expérience visuelle, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Vérifiez votre recommandation dans le VEC, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Vérifiez votre activité [!DNL Recommendations] dans le diagramme de flux et apportez toute modification requise.
 
@@ -193,4 +193,4 @@ Utilisez le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC
 
 ## Vidéo de formation : créer une activité Recommendations (7:15) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33899?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
