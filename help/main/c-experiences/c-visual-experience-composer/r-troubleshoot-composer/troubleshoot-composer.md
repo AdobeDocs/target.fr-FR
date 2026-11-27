@@ -20,23 +20,27 @@ topic_v2:
     internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: de439134b0ee5aa795ae255bba852b9b6f10da12
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 61%
+source-wordcount: '276'
+ht-degree: 3%
 ---
-# Commencez à résoudre les problèmes du [!UICONTROL compositeur d’expérience visuelle] et du [!UICONTROL compositeur d’expérience amélioré]
+# Commencez à résoudre les problèmes du [!UICONTROL compositeur d’expérience visuelle] et du [!UICONTROL compositeur d’expérience amélioré] {#troubleshoot-composer}
 
-Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) et le [!UICONTROL compositeur d’expérience amélioré] (EEC) sous certaines conditions.
+>[!BEGINSHADEBOX]
 
-Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Il s’agit d’un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
+**Sur cette page :** Découvrez la page à utiliser pour résoudre les problèmes du **[!UICONTROL compositeur d’expérience visuelle]** (VEC) et du **[!UICONTROL compositeur d’expérience amélioré]** (EEC).
 
-Le compositeur d’expérience avancé est une extension du compositeur d’expérience visuelle qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore la mise en œuvre de Target. Si vous rencontrez des difficultés à ouvrir une page dans le compositeur d’expérience visuelle, essayez dans le compositeur d’expérience avancé.
+>[!ENDSHADEBOX]
 
-Pour plus d’informations sur le compositeur d’expérience visuelle et le compositeur d’expérience visuelle, voir [Expériences](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] **[!UICONTROL compositeur d’expérience visuelle]** (VEC) et le **[!UICONTROL compositeur d’expérience amélioré]** (EEC) sous certaines conditions.
 
-Certains problèmes affectent à la fois le compositeur d’expérience visuelle et le compositeur d’expérience avancé, tandis que d’autres n’affectent qu’un seul des deux compositeurs à la fois. Pour plus d’informations, consultez la page correspondante.
+Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Il s’agit d’un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu avec une interface visuelle, de sorte que de nombreux choix de conception puissent être effectués sans modifier le code. HTML et JavaScript peuvent également être modifiés à l’aide des options d’édition disponibles dans le compositeur.
 
-* [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Résolution des problèmes liés au Compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+Le compositeur d’expérience visuelle est une extension du compositeur d’expérience visuelle pour modifier une expérience sur un site qui démolit des iframes ou sur des pages qui n’incluent pas encore l’implémentation [!DNL Target]. Lorsqu’une page ne peut pas être ouverte dans le VEC, essayez l’EEC. Pour plus d’informations sur le compositeur d’expérience visuelle et le compositeur d’expérience visuelle, voir [Expériences](/help/main/c-experiences/experiences.md#experiences-overview).
+
+Certains problèmes affectent les deux compositeurs, d’autres seulement l’un d’entre eux. Examinez la page correspondant au problème :
+
+* [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) : problèmes qui affectent les deux compositeurs.
+* [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) : problèmes qui affectent uniquement le compositeur d’expérience visuelle.
+* [Résolution des problèmes liés au compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) : problèmes qui affectent uniquement l’EEC.

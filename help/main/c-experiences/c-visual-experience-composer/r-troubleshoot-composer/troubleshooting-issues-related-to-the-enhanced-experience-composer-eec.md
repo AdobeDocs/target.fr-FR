@@ -1,7 +1,7 @@
 ---
 keywords: Ciblage;compositeur d’expérience avancé;compositeur d’expérience visuelle;dépannage compositeur d’expérience avancé;résolution des problèmes
 description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
-title: Comment résoudre les problèmes liés au [!UICONTROL Enhanced Experience Composer] ?
+title: Comment résoudre les problèmes liés au [!UICONTROL compositeur d’expérience amélioré] ?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 TQID: 'https://experienceleague.adobe.com/Yan2cKWjs-u9JHQzT-PiRAFdxUJa1JSHS-fT68yxIjg'
@@ -22,25 +22,28 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '581'
+ht-degree: 5%
 ---
-# Résolution des problèmes liés au [!UICONTROL Enhanced Experience Composer]
+# Résolution des problèmes liés au [!UICONTROL compositeur d’expérience amélioré] {#eec-issues}
 
-Des problèmes d’affichage peuvent parfois se produire dans le [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) sous certaines conditions.
+>[!BEGINSHADEBOX]
 
-## L’EEC ne charge pas d’URL d’assurance qualité interne qui ne soit pas accessible sur les adresses IP publiques. {#section_D29E96911D5C401889B5EACE267F13CF}
+**Sur cette page :** Découvrez comment résoudre les problèmes qui affectent uniquement le **[!UICONTROL compositeur d’expérience amélioré]** (EEC), tels que les pages qui ne se chargent pas car les adresses IP du proxy EEC sont bloquées.
 
+>[!ENDSHADEBOX]
 
-+++Détails
-Ce problème peut être résolu en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont pour le serveur [!DNL Adobe] utilisé pour le proxy EEC. Ces adresses IP ne sont nécessaires que pour la modification d’activités. Les visiteurs et visiteuses de votre site n’ont pas besoin de ces adresses IP.
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] **[!UICONTROL Enhanced Experience Composer]** (EEC) sous certaines conditions. Les points suivants décrivent les problèmes qui affectent uniquement l&#39;EEC et comment les résoudre.
 
-Demandez à votre équipe informatique de placer sur la liste autorisée les adresses IP suivantes :
+## les adresses IP du proxy CEE {#eec-ip-addresses}
+
+L’EEC ne charge pas d’URL d’assurance qualité interne qui ne soit pas accessible sur une adresse IP publique. La Liste autorisée des adresses IP du serveur [!DNL Adobe] utilisé pour le proxy EEC résout ce problème. Ces adresses IP ne sont requises que pour la modification d’activités et les visiteurs et visiteuses du site n’en ont pas besoin. Demandez à l&#39;équipe informatique de placer sur la liste autorisée les adresses IP suivantes.
 
 ### États-Unis (va7)
 
+```
 40.70.154.136/29
 52.254.106.240/28
 52.254.106.160/28
@@ -64,9 +67,11 @@ Demandez à votre équipe informatique de placer sur la liste autorisée les adr
 4.152.211.251
 52.254.107.144/28
 52.254.106.144/28
+```
 
 ### EMEA (nld2)
 
+```
 51.138.17.16/28
 51.138.17.48/28
 51.138.16.128/28
@@ -89,9 +94,11 @@ Demandez à votre équipe informatique de placer sur la liste autorisée les adr
 51.138.12.100
 51.138.17.64/28
 51.138.12.160/28
+```
 
 ### APAC (aus)
 
+```
 20.43.104.160/28
 20.227.35.177
 20.40.188.227
@@ -117,11 +124,13 @@ Demandez à votre équipe informatique de placer sur la liste autorisée les adr
 20.43.104.192/28
 20.43.105.0/28
 20.43.104.0/28
+```
 
 ### Adresses IP héritées
 
 Les adresses IP héritées suivantes doivent continuer à être conservées jusqu&#39;à nouvel ordre.
 
+```
 34.254.77.200
 54.73.207.147
 54.229.152.123
@@ -140,52 +149,48 @@ Les adresses IP héritées suivantes doivent continuer à être conservées jusq
 35.75.212.45
 52.199.184.130
 18.180.161.176
+```
 
-Il se peut que le message d’erreur suivant s’affiche dans [!DNL Target] :
++++ Le compositeur d’expérience visuelle affiche un message d’erreur indiquant que le domaine du site web le bloque
 
-`Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
+Le message d&#39;erreur suivant peut s&#39;afficher dans [!DNL Target] :
 
-![Image EEC_error](assets/EEC_error.png)
+`Error: Your website domain (ISP) is blocking the Enhanced Experience Composer. You can allowlist the Enhanced Experience Composer's IP addresses or turn off Enhanced Experience Composer in Configure > Page Delivery menu.`
 
-Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solutions pour corriger la situation :
+![Compositeur d’expérience avec le message d’erreur indiquant que le domaine du site web (FAI) bloque le compositeur d’expérience amélioré, et une suggestion pour les adresses IP ou désactiver le compositeur dans le menu Configurer la diffusion de la page](assets/EEC_error.png)
 
-* **Problème :** votre domaine de site web (FAI) bloque le [!UICONTROL Enhanced Experience Composer].
+Ce message d’erreur peut avoir deux causes :
 
-  **Remedy:** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
-
-* **Problème :** les adresses IP sont placées sur la liste autorisée, mais votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de la version 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
-
-  **Solution :** la question suivante (Le [!UICONTROL compositeur d’expérience visuelle amélioré] ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2) s’affiche.
+* Le domaine du site web (FAI) bloque l’EEC. Pour résoudre le problème, placez sur la liste autorisée les adresses IP répertoriées dans [et Placez sur la liste autorisée les adresses IP du proxy EEC](#eec-ip-addresses).
+* Les adresses IP sont placées sur la liste autorisée, mais le site web ne prend pas en charge TLS 1.2. Pour résoudre ce problème, reportez-vous à l’élément suivant.
 
 +++
 
-## L’EEC ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement) {#section_C5B31E3D32A844F68E5A8153BD17551F}
++++ L’EEC ne se charge pas sur les pages sécurisées d’un site qui utilise TLS 1.0
 
-+++Détails
-Il se peut que le message d’erreur décrit ci-dessus dans « Le [!UICONTROL compositeur d’expérience visuelle amélioré] ne se charge pas sur les pages sécurisées de mon site » s’affiche. si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site web ne prend pas en charge TLS version 1.2. [!DNL Target] utilise actuellement la configuration par défaut de la version 1.2. Avant la version 18.4.1 de [!DNL Target] (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
+Le message d’erreur décrit à l’élément précédent peut s’afficher lorsque les adresses IP sont placées sur la liste autorisée, mais que le site web ne prend pas en charge TLS 1.2. [!DNL Target] utilise actuellement la version 1.2 comme configuration par défaut. Avant [!DNL Target] 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres navigateurs suivent des étapes similaires) :
+Pour vérifier la version TLS d’un site web dans Firefox (d’autres navigateurs appliquent des étapes similaires) :
 
 1. Ouvrez le site web concerné dans Firefox.
-1. Cliquez sur l’icône **[!UICONTROL Afficher les informations du site]** dans la barre d’adresse du navigateur.
+1. Cliquez sur l&#39;icône **[!UICONTROL Afficher les informations du site]** dans la barre d&#39;adresse du navigateur.
 
-   ![image firefox_more_info](assets/firefox_more_info.png)
+   ![Barre d&#39;adresse Firefox avec l&#39;icône Afficher les informations du site mise en surbrillance à gauche de l&#39;URL](assets/firefox_more_info.png)
 
 1. Cliquez sur **[!UICONTROL Afficher les détails de la connexion]** > **[!UICONTROL Plus d’informations]**.
 
-   ![image firefox_more_info_2](assets/firefox_more_info_2.png)
+   ![Panneau d&#39;informations sur le site Firefox avec la flèche Afficher les détails de connexion mise en surbrillance à côté de Connexion sécurisée](assets/firefox_more_info_2.png)
 
-1. Examinez les informations de version TLS dans l’option Détails techniques :
+1. Consultez les informations de version du TLS sous **[!UICONTROL Détails techniques]**.
 
-   ![image firefox_more_info_3](assets/firefox_more_info_3.png)
+   ![Fenêtre Informations sur la page Firefox, onglet Sécurité, avec la version de TLS mise en surbrillance sous Détails techniques](assets/firefox_more_info_3.png)
 
-1. Si vous constatez que votre site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank} pour plus d’informations sur la politique de prise en charge de TLS par Target. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018){target=_blank} contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir une configuration avec votre version de TLS et le domaine.
+1. Si le site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} pour plus d’informations sur la politique de prise en charge du protocole TLS de [!DNL Target]. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018), contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour la configuration avec la version TLS et le domaine.
 
 +++
 
-## Je reçois des messages de délai d’expiration ou des erreurs « accès refusé » lors du chargement de sites où un serveur proxy est activé. (Compositeur d’expérience avancé uniquement) {#section_60CBB9022DC449F593606C0E6252302D}
++++ Les dépassements de délai ou les erreurs « accès refusé » s’affichent lorsque les sites sont chargés avec le proxy activé
 
-+++Détails
-Assurez-vous que les adresses IP du serveur proxy ne sont pas bloquées dans votre environnement.
+Assurez-vous que les adresses IP du proxy ne sont pas bloquées dans l’environnement. Les adresses sont répertoriées dans [les adresses IP du proxy EEC](#eec-ip-addresses).
 
 +++

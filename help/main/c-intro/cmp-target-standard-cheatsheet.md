@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4f38c80880eedd9b966cdb2f178f408bb529b60c
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '2918'
 ht-degree: 48%
@@ -84,17 +84,17 @@ Restez à jour avec [!DNL Target] versions.
 
 +++
 
-**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**&#x200B;[!DNL Adobe]
+**Existe-t-il une communauté/un forum dans lequel je peux trouver des réponses et plus d&#39;informations sur [!DNL Target] ?**[!DNL Adobe]
 
 +++Afficher les détails
-Communiquez avec d’autres [!DNL Target] utilisateurs et utilisatrices du [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
+Communiquez avec d’autres [!DNL Target] utilisateurs et utilisatrices du [forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}. Partagez votre expertise, posez des questions et collaborez avec d’autres personnes qui utilisent [!DNL Target] pour stimuler la personnalisation et l’expérimentation. Une communauté prospère dépend d&#39;une participation active. Vos idées et vos expériences peuvent aider les autres à réussir. Intervenez, contribuez et trouvez les réponses dont vous avez besoin.
 
 +++
 
 **Quels navigateurs [!DNL Target] prend-il en charge ?**
 
 +++Afficher les détails
-Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=fr){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau/appareils.
+Veuillez lire notre grille [Navigateurs pris en charge](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} pour plus d’informations. Notez qu’il existe deux aspects : la prise en charge de l’interface [!DNL Target Standard/Premium] et la prise en charge du navigateur de l’utilisateur final sur les ordinateurs de bureau/appareils.
 
 [!DNL Safari] est pris en charge pour l’interface [!DNL Target]. Vous pouvez créer des activités basées sur des formulaires dans [!DNL Safari] et utiliser toutes les fonctionnalités, à l’exception du [!UICONTROL compositeur d’expérience visuelle] (VEC) et du [!UICONTROL compositeur d’expérience amélioré] (EEC), qui ne sont pas pris en charge dans [!DNL Safari]. Pour modifier des expériences dans le VEC ou l’EEC, utilisez [!DNL Google Chrome].
 
@@ -151,7 +151,7 @@ Il est à noter que les exigences de trafic augmentent avec les activités MVT.
 **Puis-je exécuter une activité couvrant plusieurs pages dont la structure de page est différente ? Puis-je appliquer des offres à différents emplacements (par exemple, le funnel de passage en caisse) ?**
 
 +++Afficher les détails
-Essayez la fonctionnalité [Activité multi-page](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) qui vous permet d’utiliser plusieurs pages dans les expériences.
+Essayez la fonctionnalité [Activité multi-page](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#multipage-activity) qui vous permet d’utiliser plusieurs pages dans les expériences.
 
 +++
 
@@ -194,7 +194,7 @@ N’oubliez pas d’activer l’activité. Seules les activités actives respect
 **Puis-je apporter une modification à l’étape [!UICONTROL Ciblage] et ne pas passer par l’ensemble du workflow guidé en trois étapes pour la modification ?**
 
 +++Afficher les détails
-Pour ce faire, [&#x200B; accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
+Pour ce faire, [ accédez directement à l’étape de votre choix à partir de la page [!UICONTROL Aperçu de l’activité]](/help/main/c-activities/edit-activity.md#section_176180DAD17E40CEA441903F39E0AA1C), puis quittez cette étape à l’aide de l’option [!UICONTROL Enregistrer et fermer].
 
 +++
 
@@ -274,7 +274,7 @@ Utilisez les contrôles d&#39;allocation en pourcentage disponibles à l&#39;[É
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++
@@ -284,7 +284,7 @@ Consultez les aspects suivants du produit :
 **Puis-je exécuter une activité sur plusieurs pages dont la structure est commune ?**
 
 +++Afficher les détails
-Consultez les [Règles de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) pour inclure de nombreuses pages structurées similaires à l’activité, tout en créant l’expérience sur l’unique adresse URL spécifiée.
+Consultez les [Règles de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) pour inclure de nombreuses pages structurées similaires à l’activité, tout en créant l’expérience sur l’unique adresse URL spécifiée.
 
 +++
 
@@ -293,39 +293,39 @@ Consultez les [Règles de modèle](/help/main/c-experiences/c-visual-experience-
 +++Afficher les détails
 En effet, votre site comporte du contenu mixte : il récupère à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
 
-En attendant, suivez les instructions de la section [Activation du contenu mixte dans votre navigateur](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
+En attendant, suivez les instructions de la section [Activation du contenu mixte dans votre navigateur](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#mixed-content) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
 
 +++
 
 **Puis-je essayer le [!UICONTROL compositeur d’expérience visuelle] (VEC) sur mon site même si la bibliothèque at.js [!DNL Target] n’a pas encore été déployée ?**
 
 +++Afficher les détails
-Essayez de charger la page avec le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D).
+Essayez de charger la page avec le [compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec).
 
 +++
 
 **Pourquoi mon site ne se charge-t-il pas dans le [!UICONTROL compositeur d’expérience visuelle] (VEC) ?**
 
 +++Afficher les détails
-Essayez les [informations de dépannage](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) décrites dans notre page d’aide. Contactez l’[assistance technique d’Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) si aucune de ces méthodes ne fonctionne.
+Essayez les [informations de dépannage](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#troubleshoot-composer) décrites dans notre page d’aide. Contactez l’[assistance technique d’Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) si aucune de ces méthodes ne fonctionne.
 
 Nous disposons aussi d’une [approche basée sur les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) qui peut permettre de vous débloquer.
 
-Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Vous devrez peut-être contacter votre service informatique pour [placer sur la liste autorisée également les serveurs proxy Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) peut être utile. Vous devrez peut-être contacter votre service informatique pour [placer sur la liste autorisée également les serveurs proxy Adobe](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
 +++
 
 **Mon site est très réactif. Lors de la création d’une activité, comment puis-je m’assurer de prendre en compte les appareils clés ?**
 
 +++Afficher les détails
-Testez la fonction [Fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Notez qu’il fonctionne uniquement lorsque le [!UICONTROL compositeur d’expérience amélioré] est activé.
+Testez la fonction [Fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#mobile-viewports). Notez qu’il fonctionne uniquement lorsque le [!UICONTROL compositeur d’expérience amélioré] est activé.
 
 +++
 
 **J’exploite plusieurs domaines. L&#39;un des domaines nécessite l&#39;activation du [!UICONTROL compositeur d&#39;expérience amélioré], tandis que d&#39;autres nécessitent sa désactivation. Comment faire ?**
 
 +++Afficher les détails
-Vous pouvez toujours utiliser l’option du [compositeur d’expérience amélioré au niveau de l’activité](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut ([!UICONTROL Administration] > [!UICONTROL compositeur d’expérience visuelle]).
+Vous pouvez toujours utiliser l’option du [compositeur d’expérience amélioré au niveau de l’activité](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#enable-eec) pour remplacer le paramètre par défaut ([!UICONTROL Administration] > [!UICONTROL compositeur d’expérience visuelle]).
 
 +++
 
@@ -346,7 +346,7 @@ Vous pouvez facilement y parvenir avec notre [fonctionnalité Versions d’expé
 **Comment puis-je voir les modifications que j’ai apportées au [!UICONTROL Compositeur d’expérience visuelle] (VEC) ?**
 
 +++Afficher les détails
-Vos modifications sont toujours affichées dans l’[éditeur de code](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5) L’onglet [!UICONTROL Modifications] affiche le sélecteur CSS ou la mbox que vous avez appliqué à votre offre.
+Vos modifications sont toujours affichées dans l’[éditeur de code](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor) L’onglet [!UICONTROL Modifications] affiche le sélecteur CSS ou la mbox que vous avez appliqué à votre offre.
 
 Veuillez noter que le sélecteur CSS est un sélecteur de fichiers Sizzle. Vous pouvez utiliser cette section pour apporter des modifications mineures ou supprimer rapidement certaines offres.
 
@@ -355,7 +355,7 @@ Veuillez noter que le sélecteur CSS est un sélecteur de fichiers Sizzle. Vous 
 **Je souhaite fournir JavaScript en tant que partie intégrante de l’expérience ou de l’activité afin soit d’apporter des modifications à la volée pour certains éléments dynamiques, soit pour simplement envoyer un appel à une solution tierce. Comment faire ?**
 
 +++Afficher les détails
-L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Placez votre option JavaScript dans cette section pour qu’elle soit livrée. Vous avez la possibilité de diffuser ce composant dans l’en-tête ou dans la partie supérieure du corps du message, suivant les besoins.
+L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#vec-code-editor). Placez votre option JavaScript dans cette section pour qu’elle soit livrée. Vous avez la possibilité de diffuser ce composant dans l’en-tête ou dans la partie supérieure du corps du message, suivant les besoins.
 
 +++
 
@@ -378,7 +378,7 @@ Utilisez [l’approche basée sur les formulaires](/help/main/c-experiences/form
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
 +++Afficher les détails
-Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -402,7 +402,7 @@ Il est possible que votre site comporte des identifiants dynamiques, des identif
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
 +++Afficher les détails
-Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilisez notre [débogueur](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#debugging-tools) pour vérifier les [collisions d’activités](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#activity-collisions).
 
 +++
 
@@ -421,7 +421,7 @@ Utilisez la puissance des [activités d’après les formulaires](/help/main/c-e
 Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=fr)
+* [Attributs du client](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
 
 +++

@@ -1,6 +1,6 @@
 ---
 keywords: Compositeur d’expérience visuelle, VEC, carrousel
-description: Découvrez comment créer un carrousel modifiable dans le Compositeur d’expérience visuelle (VEC) d’Adobe [!DNL Target].
+description: Découvrez comment créer un carrousel modifiable dans le compositeur d’expérience visuelle (VEC) [!DNL Target] d’Adobe.
 title: Comment créer des carrousels dans le compositeur d’expérience visuelle ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
@@ -14,18 +14,22 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 66%
+source-wordcount: '193'
+ht-degree: 2%
 ---
-# Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle
+# Création de carrousels qui fonctionnent dans le [!UICONTROL compositeur d’expérience visuelle] {#vec-carousels}
 
-Cette rubrique explique comment créer un carrousel modifiable dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC).
+>[!BEGINSHADEBOX]
 
-Lorsque vous utilisez la procédure suivante, [!DNL Target] considère toujours que la diapositive sélectionnée est associée au « sélecteur » de la diapositive appropriée, et même si celle-ci est modifiée dans le compositeur d’expérience visuelle au bout de quelques secondes.
+**Sur cette page :** Découvrez comment créer un carrousel modifiable dans le **[!UICONTROL compositeur d’expérience visuelle]** (VEC).
 
-1. Créez des espaces réservés d’HTML statique.
+>[!ENDSHADEBOX]
+
+Un carrousel créé avec la structure suivante peut être modifié dans le [!DNL Adobe Target] **[!UICONTROL compositeur d’expérience visuelle]** (VEC). La structure conserve le sélecteur de chaque diapositive valide, de sorte que [!DNL Target] identifie toujours la diapositive correcte, même si la diapositive affichée change quelques secondes après le chargement de la page dans le compositeur d’expérience visuelle.
+
+1. Créez les diapositives comme espaces réservés HTML statiques, avec une diapositive visible et les autres diapositives masquées par la classe .
 
    ```html
    <ul>
@@ -35,14 +39,10 @@ Lorsque vous utilisez la procédure suivante, [!DNL Target] considère toujours 
    </ul>
    ```
 
-1. Ajoutez un CSS pour la conception de l’apparence.
-
-   N’utilisez pas JavaScript à cet effet.
+1. Concevez l’aspect avec CSS uniquement. N’utilisez pas JavaScript à cet effet.
 
    >[!NOTE]
    >
-   >L’option [!UICONTROL Rendu avec JavaScript] n’est actuellement pas prise en charge si elle est utilisée avec un code personnalisé dans le compositeur d’expérience visuelle.
+   >L’option **[!UICONTROL Rendre à l’aide de JavaScript]** n’est actuellement pas prise en charge lorsqu’elle est utilisée avec du code personnalisé dans le **[!UICONTROL compositeur d’expérience visuelle]**.
 
-1. Mettez à jour uniquement les balises className afin de masquer les autres et d’afficher les suivantes avec le retardateur/l’animation.
-
-   Ne jamais utiliser JavaScript pour mettre la structure DOM à jour.
+1. Affichez la diapositive suivante en mettant à jour uniquement les noms de classe : masquez les autres diapositives et affichez la diapositive suivante avec un minuteur ou une animation. Ne mettez jamais à jour la structure DOM avec JavaScript.

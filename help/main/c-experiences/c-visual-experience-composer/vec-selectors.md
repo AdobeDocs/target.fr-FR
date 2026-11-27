@@ -18,32 +18,36 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 25%
+source-wordcount: '478'
+ht-degree: 4%
 ---
-# Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
+# Sélecteurs d’éléments utilisés dans le [!UICONTROL compositeur d’expérience visuelle] {#vec-selectors}
 
-Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
+>[!BEGINSHADEBOX]
 
-Vous trouverez des informations de base sur les sélecteurs CSS dans le document [Sélecteurs](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) sur le *[!DNL Mozilla Developer Network]* (MDN).
+**Sur cette page :** Découvrez le fonctionnement des sélecteurs d’éléments dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), comment choisir les sélecteurs utilisés et comment [!DNL Target] génère un sélecteur pour un élément.
 
-Vous pouvez définir s’il faut utiliser des classes d’éléments ou des ID d’éléments dans les préférences de votre compte. Cliquez sur **[!UICONTROL Administration > Compositeur d’expérience visuelle]**, puis choisissez vos sélecteurs CSS préférés.
+>[!ENDSHADEBOX]
 
-* **Utiliser les ID d’élément** : à désactiver si le même ID est utilisé pour plusieurs éléments ou si les ID d’élément peuvent changer au chargement de la page.
-* **Utiliser les classes d’éléments** : désactivez cette option si les classes d’éléments sur une page peuvent changer.
-* **Utiliser les sélecteurs favoris** : activez cette option si vous souhaitez utiliser des sélecteurs uniques dans le compositeur d’expérience visuelle pour identifier les zones clés de votre site web.
+Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Des informations de base sur les sélecteurs CSS sont disponibles dans le document [Sélecteurs](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) sur le *[!DNL Mozilla Developer Network]* (MDN).
+
+L’utilisation des classes d’éléments ou des identifiants d’élément est définie dans les préférences du compte. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis choisissez les sélecteurs CSS préférés :
+
+* **[!UICONTROL Utiliser des ID d’élément]** : à désactiver si le même ID est utilisé pour plusieurs éléments ou si les ID d’élément peuvent changer au chargement de la page.
+* **[!UICONTROL Utiliser des classes d’éléments]** : désactivez cette option si les classes d’éléments sur une page peuvent changer.
+* **[!UICONTROL Utiliser des sélecteurs préférés]** : activez cette option pour utiliser des sélecteurs uniques dans le compositeur d’expérience visuelle afin d’identifier les zones clés du site web.
 
 >[!NOTE]
 >
->Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités [!UICONTROL Test A/B], [!UICONTROL Automated Personalization] et[!UICONTROL &#x200B; Test multivarié].
+>Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités de **[!UICONTROL test A/B]**, **[!UICONTROL Automated Personalization]** et **[!UICONTROL test multivarié]**.
 
-Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Pour plus d’informations sur l’utilisation des sélecteurs CSS et l’utilisation d’identifiants uniques, consultez [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#vec-best-practices).
 
-## Génération [!DNL Target]’un sélecteur pour un élément {#section_D89D954BCBFB486CA081BE183776A475}
+## Comment [!DNL Target] génère un sélecteur pour un élément {#generate-selector}
 
-[!DNL Target] utilise un algorithme simple pour créer un sélecteur. Voici une très brève explication de la logique de génération :
+[!DNL Target] utilise un algorithme simple pour créer un sélecteur. La logique de génération est la suivante :
 
 1. Si un élément possède un ID, par exemple `id="container"`, le sélecteur de l’élément est `#container`.
 
@@ -62,9 +66,9 @@ Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utili
    </div>
    ```
 
-1. Si un élément contient un attribut de classe, [!DNL Target] tente d’exploiter la première classe de toutes les classes présentes sur l’élément.
+1. Si un élément contient un attribut de classe, [!DNL Target] tente d&#39;utiliser la première classe de toutes les classes présentes sur l&#39;élément.
 
-   [!DNL Target] tente d’analyser l’élément parent jusqu’à ce qu’il trouve l’élément `<HTML>` ou un élément avec un ID. Chaque fois qu’un élément contient un ID et que le sélecteur est calculé sur son enfant descendant, l’ID de cet élément contribue au sélecteur.
+   [!DNL Target] tente d&#39;analyser l&#39;élément parent jusqu&#39;à ce qu&#39;il trouve l&#39;élément `<HTML>` ou un élément avec un ID. Chaque fois qu’un élément contient un ID et que le sélecteur est calculé sur son enfant descendant, l’ID de cet élément contribue au sélecteur.
 
    Par exemple :
 
@@ -81,13 +85,11 @@ Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utili
    </div>
    ```
 
-   Dans cet exemple :
+   Dans cet exemple, le sélecteur est `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (« > » indique l’enfant immédiat).
 
-   Sélecteur : `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (« > » indique l’enfant immédiat.)
+   `eq` donne l’index de l’élément qui a « tagName=UL » et la première classe `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
 
-   `eq` indique à l’index qu’il existe un élément avec « tagName=UL » et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
-
-1. Si un élément ne contient pas de classe, [!DNL Target] utilise `tagName` pour l’élément et parcourt l’élément parent jusqu’à ce que l’élément `<HTML>` ou un élément doté d’un ID soit trouvé.
+1. Si un élément ne contient pas de classe, [!DNL Target] utilise `tagName` pour l’élément et parcourt l’élément parent jusqu’à ce que l’élément `<HTML>` ou un élément avec un ID soit trouvé.
 
    Par exemple :
 
@@ -104,10 +106,10 @@ Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utili
    </div>
    ```
 
-   Sélecteur : `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`.
+   Le sélecteur est `#container` > `ul.navigation:eq(0)` > `li:nth-of-type(4)`.
 
-Dans le processus ci-dessus :
+Dans ce processus :
 
-* Vous pouvez utiliser n’importe quel sélecteur CSS tant qu’il identifie de manière unique un élément dans le DOM.
-* L’approche ci-dessus est celle utilisée par [!DNL Target]. [!DNL Target] ne vous oblige pas à utiliser cette approche. Vous pouvez ajouter n’importe quel sélecteur tant que le point n° 1 est vrai.
-* Vous pouvez utiliser n’importe quel attribut dans le sélecteur. Ce document utilise uniquement un nom de classe à titre d’exemple.
+* Tout sélecteur CSS peut être utilisé, à condition qu’il identifie de manière unique un élément dans le DOM.
+* L&#39;approche ci-dessus est celle utilisée par [!DNL Target]. [!DNL Target] ne rend pas obligatoire cette approche. N’importe quel sélecteur peut être ajouté, à condition qu’il identifie l’élément de manière unique.
+* N’importe quel attribut peut être utilisé dans le sélecteur. Cet article utilise uniquement un nom de classe comme exemple.

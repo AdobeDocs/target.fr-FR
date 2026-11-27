@@ -2,7 +2,7 @@
 keywords: collection, ciblage
 description: Découvrez comment utiliser des collections de produits ou d'éléments dans [!DNL Target Recommendations].
 title: Comment utiliser les collections dans les activités Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 TQID: 'https://experienceleague.adobe.com/kdjl2cpjaRWYZRqHFqARHvbTaTuu0iAH7ZWbD2Lrs7o'
@@ -18,7 +18,7 @@ subfeature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 3883dc9752db0a2427f70cb3036fe060c440361a
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 8%
@@ -54,7 +54,7 @@ Les collections sont disponibles sur l’ensemble du compte. Par conséquent, un
 
    >[!NOTE]
    >
-   >Le « Nombre d’éléments » signalé pour chaque collection sur la vue de liste **[!UICONTROL Collections]** correspond au nombre de produits correspondant aux règles de cette collection dans le [groupe hôte](/help/main/administrating-target/hosts.md) de Recommendations par défaut configuré (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} pour modifier le groupe d’hôtes par défaut.
+   >Le « Nombre d’éléments » signalé pour chaque collection sur la vue de liste **[!UICONTROL Collections]** correspond au nombre de produits correspondant aux règles de cette collection dans le [groupe hôte](/help/main/administrating-target/hosts.md) de Recommendations par défaut configuré (environnement). Consultez les [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez Sur **[!UICONTROL Créer Une Collection]**.
 
@@ -88,7 +88,7 @@ After creating a search using "id > contains," for example, you can then click [
 >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned.
 -->
 
-## Utilisation d’une collection dans une activité
+## Utilisation d’une collection dans une activité {#use-collection}
 
 Une collection est sélectionnée pour chaque expérience d’une activité [!DNL Recommendations]. La collection détermine les éléments pouvant apparaître dans les recommandations de cette expérience.
 

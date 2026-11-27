@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -74,8 +74,8 @@ Pour utiliser [!DNL AEM] [!UICONTROL Fragments d’expérience] dans [!DNL Targe
 
 Pour obtenir plus d’informations, voir :
 
-* **AEM as a Cloud Service** : [Intégration à Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
-* **Adobe Developer** : [Intégration à Adobe Target à l’aide d’Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=fr){target=_blank} dans la documentation du *Guide de l’utilisateur d’administration*.
+* **AEM as a Cloud Service** : [Intégration à Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
+* **Adobe Developer** : [Intégration à Adobe Target à l’aide d’Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} dans la documentation du *Guide de l’utilisateur d’administration*.
 * **[!DNL AEM] 6.5** : [Sélection d’Adobe Analytics et Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.5*.
 * **[!DNL AEM] 6.4** : [Sélection d’Adobe Analytics et Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.4*.
 
@@ -100,7 +100,7 @@ Pour obtenir plus d’informations, voir :
 
 Selon votre version d’[!DNL AEM], consultez les liens suivants pour obtenir des instructions détaillées :
 
-* **AEM as a Cloud Service** : [Exportation de [!UICONTROL fragments d’expérience] vers Adobe Target](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
+* **AEM as a Cloud Service** : [Exportation de [!UICONTROL fragments d’expérience] vers Adobe Target](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank} dans le guide *Experience Manager as a Cloud Service*.
 * **[!DNL AEM] 6.5** : [Exportation d’un fragment d’expérience vers Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.5*.
 * **[!DNL AEM] 6.4** : [Exportation d’un fragment d’expérience vers Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=fr){target=_blank} dans la documentation d’*Adobe Experience Manager 6.4*.
 
@@ -132,7 +132,7 @@ Vous pouvez utiliser [!UICONTROL les fragments d’expérience] dans les activit
 
 **Utiliser [!UICONTROL fragments d’expérience] à l’aide du VEC :**
 
-1. Dans [!DNL Target], lors de la création ou de la modification d’une expérience dans le [Compositeur d’expérience visuelle](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu [!DNL AEM], puis cliquez sur **[!UICONTROL Remplacer le contenu]** > **[!UICONTROL Fragment d’expérience]** pour afficher la boîte de dialogue [!UICONTROL Fragment d’expérience].
+1. Dans [!DNL Target], lors de la création ou de la modification d’une expérience dans le [Compositeur d’expérience visuelle](/help/main/c-experiences/experiences.md#experiences-overview), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu [!DNL AEM], puis cliquez sur **[!UICONTROL Remplacer le contenu]** > **[!UICONTROL Fragment d’expérience]** pour afficher la boîte de dialogue [!UICONTROL Fragment d’expérience].
 
    La boîte de dialogue [!UICONTROL Fragment d’expérience] affiche le contenu créé dans [!DNL AEM] qui est désormais disponible en mode natif dans [!DNL Target].
 
@@ -186,7 +186,7 @@ Pour plus d’informations, consultez l’article de blog suivant : [AEM 6.5 : s
 
 La vidéo suivante vous explique comment configurer et utiliser [!UICONTROL les fragments d’expérience] :
 
->[!VIDEO](https://video.tv.adobe.com/v/38081?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >

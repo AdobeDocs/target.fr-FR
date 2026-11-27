@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 553aa8fb523a62f72f0e2be7d7fd1b4eb663da6b
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Pour savoir comment cet onglet s’intègre aux autres tâches d’administratio
 
 ## Ce que l’intégration permet {#what-it-enables}
 
-Lorsque la **[!UICONTROL Configuration de Scene7]** est configurée, les auteurs peuvent utiliser des images chargées dans le dossier de ressources [!DNL Adobe Experience Cloud] dans les activités [!DNL Target]. L’option **[!UICONTROL Permuter l’offre d’image]** apparaît dans le workflow d’activité, y compris dans le [compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Pour connaître le comportement de permutation dans le VEC, consultez les [options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
+Lorsque la **[!UICONTROL Configuration de Scene7]** est configurée, les auteurs peuvent utiliser des images chargées dans le dossier de ressources [!DNL Adobe Experience Cloud] dans les activités [!DNL Target]. L’option **[!UICONTROL Permuter l’offre d’image]** apparaît dans le workflow d’activité, y compris dans le [compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires](/help/main/c-experiences/experiences.md#experiences-overview). Pour connaître le comportement de permutation dans le VEC, consultez les [options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 Si ce paramètre n’est pas configuré, l’**[!UICONTROL offre de permutation d’image]** n’est pas disponible lors de la création de l’activité.
 

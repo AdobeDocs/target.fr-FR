@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: dbeed9d4cda556478eb1d13331129b0e31fdd3f0
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 35%
@@ -50,7 +50,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    Cet écran est différent si vous créez une activité [!UICONTROL Recommendations]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
-1. &#x200B;
+1. 
    1. Cliquez sur l’icône **[!UICONTROL Renommer]** ( ![Renommer l’icône](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Renommer]**, spécifiez un nom pour l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
@@ -148,7 +148,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
 * [Création d’un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Création d’une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#create-xt-activity)
-* [Création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity)
 
 ## Vidéo de formation : compositeur basé sur les formulaires ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
@@ -158,4 +158,4 @@ Cette vidéo fournit une démonstration du compositeur d’après les formulaire
 * Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
 * Utilisation des ajustements pour cibler un emplacement
 
->[!VIDEO](https://video.tv.adobe.com/v/3507882?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)

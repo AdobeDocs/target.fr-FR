@@ -1,6 +1,6 @@
 ---
 keywords: Ciblage;compositeur d’expérience visuelle;vec;dépannage du compositeur d’expérience visuelle;dépannage;tls;tls 1.2
-description: Découvrez comment résoudre les problèmes du [!UICONTROL compositeur d’expérience visuelle] (VEC).
+description: Découvrez comment résoudre les problèmes du [!UICONTROL Compositeur d’expérience visuelle] (VEC).
 title: Comment résoudre les problèmes liés au [!UICONTROL compositeur d’expérience visuelle] ?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
@@ -27,126 +27,113 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 27%
+source-wordcount: '1150'
+ht-degree: 4%
 ---
-# Résolution des problèmes liés au [!UICONTROL compositeur d’expérience visuelle]
+# Résolution des problèmes liés au [!UICONTROL compositeur d’expérience visuelle] {#vec-issues}
 
-Des problèmes d’affichage peuvent parfois se produire dans le [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) sous certaines conditions.
+>[!BEGINSHADEBOX]
 
-## Lorsque j’ouvre mon site web dans le [!UICONTROL compositeur d’expérience visuelle], les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+**Sur cette page :** Découvrez comment résoudre les problèmes qui affectent uniquement le **[!UICONTROL compositeur d’expérience visuelle]** (VEC).
 
-+++Détails
-[!DNL Target] ajoute deux paramètres (`mboxEdit=1` et `mboxDisable=1`) lors de l’ouverture du site web dans le [!UICONTROL compositeur d’expérience visuelle].
+>[!ENDSHADEBOX]
 
-Si votre site web (en particulier les applications d’une seule page), tronque des paramètres ou les supprime réellement lors de la navigation d’une page à une autre (sans rechargement de page), la fonctionnalité de [!DNL Target] est interrompue et les bibliothèques [!DNL Target] ne se chargent pas.
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] **[!UICONTROL compositeur d’expérience visuelle]** (VEC) sous certaines conditions. Les éléments suivants décrivent les problèmes qui affectent uniquement le compositeur d’expérience visuelle et comment les résoudre.
 
-Pour éviter ce problème, assurez-vous de ne pas supprimer ces deux paramètres.
++++ Les bibliothèques [!DNL Target] ne se chargent pas lorsque le site web est ouvert dans le VEC
+
+Lorsqu’un site web est ouvert dans le **[!UICONTROL compositeur d’expérience visuelle]**, [!DNL Target] ajoute les paramètres `mboxEdit=1` et `mboxDisable=1` à l’URL.
+
+Un site web qui tronque ou supprime ces paramètres lors de la navigation d’une page à une autre sans rechargement de page, en particulier une application monopage, rompt la fonctionnalité [!DNL Target] et les bibliothèques [!DNL Target] ne se chargent pas. Pour éviter ce problème, conservez les deux paramètres dans l’URL.
 
 +++
 
-## Ma page ne s’ouvre pas dans l’EEC ou se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
++++ Une page ne s’ouvre pas dans le compositeur d’expérience visuelle ou se charge lentement, ou encore les activités et expériences se chargent lentement dans le compositeur d’expérience visuelle
 
-+++Détails
-Plusieurs problèmes peuvent affecter les performances des pages dans les compositeurs d’expérience [!UICONTROL Target]. Les problèmes courants sont les suivants :
+Plusieurs problèmes peuvent affecter les performances des pages dans les compositeurs d’expérience [!DNL Target]. Les plus fréquents sont les suivants :
 
-* La page ne contient pas de mbox.
-* Votre site utilise le blocage par proxy, ce qui ne permet pas à la page d’être ouverte dans les compositeurs d’expérience.
-* Votre site ne se permet pas d&#39;être ouvert dans un iFrame.
+* La page ne comporte pas de mbox.
+* Le site utilise le blocage de proxy, ce qui empêche l’ouverture de la page dans l’un ou l’autre des compositeurs d’expérience.
+* Le site ne se permet pas d’être ouvert dans un iFrame.
 
-Si des problèmes se produisent dans le [!UICONTROL compositeur d’expérience avancé], essayez de désactiver le [!UICONTROL compositeur d’expérience amélioré] et utilisez le [!UICONTROL compositeur d’expérience visuelle] à la place.
+Lorsqu’un problème se produit dans le **[!UICONTROL compositeur d’expérience amélioré]**, désactivez-le et utilisez le **[!UICONTROL compositeur d’expérience visuelle]** à la place. Pour ce faire, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]** et désactivez l’option **[!UICONTROL Activer le compositeur d’expérience amélioré]**.
 
-Pour désactiver le [!UICONTROL compositeur d’expérience avancé], accédez à **[!UICONTROL Administration]** > **[!UICONTROL compositeur d’expérience visuelle]** et désactivez l’option **[!UICONTROL Activer le compositeur d’expérience avancé]**.
+Le message d’erreur suivant peut s’afficher dans la console :
 
-Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
+![Message d&#39;erreur de la console du navigateur indiquant que la page a été refusée s&#39;affiche dans un cadre parce que X-Frame-Options est défini sur SAMEORIGIN](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-![Message d’erreur de la console](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
-
-Si ni le [!UICONTROL compositeur d’expérience visuelle] ni le [!UICONTROL compositeur d’expérience amélioré] ne fonctionnent, utilisez une extension de navigateur telle que [!DNL Requestly] ([!DNL Chrome] ou [!DNL Firefox]) ou Modifier les en-têtes de réponse (Firefox) qui peut remplacer les options d’en-tête X-Frames pour votre site et permettre leur chargement dans les iFrames, activant ainsi le compositeur d’expérience visuelle. Si vous ne pouvez pas utiliser d’extensions de navigateur, utilisez le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md).
+Lorsqu’aucun compositeur ne fonctionne, une extension de navigateur qui remplace l’en-tête X-Frame-Options du site, tel que [!DNL Requestly] ([!DNL Chrome] ou [!DNL Firefox]) ou Modifier les en-têtes de réponse ([!DNL Firefox]), permet au site de se charger dans les iFrames et active donc le compositeur d’expérience visuelle. Lorsque les extensions de navigateur ne peuvent pas être utilisées, utilisez le [compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md). L’extension [[!DNL Adobe Target] **[!UICONTROL Visual Editing Helper ]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) pour [!DNL Google Chrome] peut également être utilisée, en plus des procédures qui suivent.
 
 >[!NOTE]
 >
->Outre les informations suivantes, vous pouvez utiliser l’extension [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) par [!DNL Google Chrome].
+>Ces extensions sont destinées uniquement à la modification du compositeur d’expérience visuelle (VEC).
+>
+>Avec [!DNL Requestly], lorsque des en-têtes doivent être supprimés, effectuez l’une des opérations suivantes :
+>
+>* Ajoutez des règles d’URL pour que l’URL s’ouvre dans le VEC, de sorte que les en-têtes soient supprimés pour ces URL uniquement.
+>* Activez la règle lors de la modification dans le VEC et désactivez-la lorsque le VEC n’est pas en cours d’utilisation.
+>
+>Avec **[!UICONTROL Modifier les en-têtes de réponse]** ([!DNL Firefox]), les règles d’URL ne sont pas disponibles. Par conséquent, la règle doit être activée lors de la modification dans le VEC et désactivée lorsque le VEC n’est pas en cours d’utilisation.
 
->[!NOTE]
->
->Utilisez ces modules externes uniquement dans le cadre de modifications dans le VEC.
->
->Pour l’extension [!DNL Requestly], chaque fois qu’il est nécessaire de supprimer des en-têtes, vous devez effectuer l’une des opérations suivantes :
->
->* Ajoutez des règles d’URL pour les URL que vous souhaitez ouvrir avec le compositeur d’expérience visuelle. Les en-têtes sont alors supprimés uniquement pour ces URL.
->
->* Activez la règle lorsque vous effectuez une modification dans le compositeur d’expérience visuelle et désactivez la règle lorsque vous ne l’utilisez pas.
->
->Pour l’extension [!UICONTROL &#x200B; Modifier l’en-tête de réponse &#x200B;] ([!DNL Firefox]), comme vous ne pouvez pas ajouter de règle d’URL, vous devez effectuer les opérations suivantes :
->
->* Activez la règle lorsque vous effectuez une modification dans le compositeur d’expérience visuelle et désactivez la règle lorsque vous ne l’utilisez pas.
+Une fois une extension configurée, les pages se chargent dans le **[!UICONTROL compositeur d’expérience visuelle]** même lorsque le **[!UICONTROL compositeur d’expérience amélioré]** est désactivé.
 
-**Pour utiliser l’extension [!DNL Requestly] sur [!DNL Chrome] ou [!DNL Firefox] :**
++++
 
-1. Désactivez le [!UICONTROL Enhanced Experience Composer].
++++ Supprimez l’en-tête X-Frame-Options avec Requestly (Chrome ou Firefox)
+
+1. Désactivez le **[!UICONTROL compositeur d’expérience amélioré]**.
 1. Installez l’extension de navigateur [!DNL Requestly] sur [!DNL Chrome] ou [!DNL Firefox].
-1. Ouvrez l’extension et configurez-la de la manière suivante :
-1. Sélectionnez **[!UICONTROL Modify headers]**.
-1. Saisissez les entrées suivantes :
+1. Ouvrez l’extension et sélectionnez **[!UICONTROL Modifier les en-têtes]**.
+1. Saisissez un nom de règle.
+1. Dans les règles de modification, créez une règle qui supprime l’en-tête :
 
-   * Nom de la règle
-   * Règles de modification
+   * Basculez de **[!UICONTROL Add]** vers **[!UICONTROL Remove]**.
+   * Basculez de **[!UICONTROL Request]** vers **[!UICONTROL Response]**.
+   * Saisissez X-Frame-Options en tant que nom d’en-tête.
 
-     * Basculez de **[!UICONTROL Add]** vers **[!UICONTROL Remove]**.
-     * Basculez de **[!UICONTROL Request]** vers **[!UICONTROL Response]**.
-     * Saisissez X-Frame-Options en tant que nom d’en-tête.
-     * Répétez les étapes précédentes et saisissez « x-frame-options » comme nom d’en-tête.
+1. Répétez l’étape précédente et saisissez « x-frame-options » comme nom de l’en-tête.
 
-       >[!NOTE]
-       >
-       >Les en-têtes manipulés via [!DNL Requestly] respectent la casse.
+   >[!NOTE]
+   >
+   >Les en-têtes manipulés avec [!DNL Requestly] respectent la casse.
 
-     * Remplacez **[!UICONTROL Equals]** par **[!UICONTROL Contains]** pour la condition de l’URL source, puis saisissez l’URL de l’activité que vous essayez de charger dans le compositeur d’expérience virtuelle.
+1. Remplacez **[!UICONTROL Est égal à]** par **[!UICONTROL Contient]** comme condition pour l’URL source et saisissez l’URL de l’activité à charger dans le VEC.
 
-     ![image chrome_extension](assets/chrome_extension.png)
+   ![Règle nommée de manière demandée Contourner le code de démantèlement d&#39;iframe qui supprime l&#39;en-tête de réponse X-Frame-Options pour les URL qui contiennent adobe.com](assets/chrome_extension.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![image demandée](assets/requestly.png)
+   ![Règle demandée qui supprime les en-têtes de réponse X-FRAME-OPTIONS et x-frame-options pour toutes les URL](assets/requestly.png)
 
-   Vous devriez maintenant pouvoir charger rapidement la page avec le [!UICONTROL compositeur d’expérience visuelle].
-
-**Pour utiliser l’extension [!DNL Modify Response Headers] sur [!UICONTROL Firefox]:**
-
-1. Installez le [!UICONTROL Modifier les en-têtes de réponse] sur [!DNL Firefox] et redémarrez le navigateur.
-1. Dans vos extensions [!DNL Firefox], sélectionnez l’extension Modifier les en-têtes de réponse .
-1. Cliquez sur **[!UICONTROL Preferences]**.
-1. Sélectionnez **[!UICONTROL Filtrer]** dans le menu déroulant [!UICONTROL Action].
-1. Dans le champ [!UICONTROL &#x200B; Nom de l’en-tête &#x200B;], saisissez : **[!UICONTROL X-Frame-Options]**.
-1. Répétez les étapes 4 et 5 pour ajouter un filtre doté de **[!UICONTROL x-frame-options]**.
-1. Cliquez sur **[!UICONTROL Ajouter]**.
-1. Cliquez sur **[!UICONTROL Start]**.
-
-![Extension Firefox &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
-
-Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent maintenant se charger dans le [!UICONTROL compositeur d’expérience visuelle], même si le [!UICONTROL compositeur d’expérience amélioré] est désactivé.
+La page doit maintenant se charger rapidement dans le **[!UICONTROL compositeur d’expérience visuelle]**.
 
 +++
 
-## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement) {#does-not-load}
++++ Supprimez l’en-tête X-Frame-Options avec Modifier les en-têtes de réponse (Firefox)
 
-+++Détails
-* La meilleure compatibilité avec le VEC est assurée par la version la plus récente de l’extension : [[!DNL Adobe Experience Cloud] [!UICONTROL &#x200B; Visual Editing Helper extension &#x200B;]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+1. Installez l’extension [!DNL Modify Response Headers] sur [!DNL Firefox] et redémarrez le navigateur.
+1. Dans les extensions [!DNL Firefox], sélectionnez l’extension [!DNL Modify Response Headers].
+1. Cliquez sur **[!UICONTROL Preferences]**.
+1. Sélectionnez **[!UICONTROL Filtrer]** dans la liste déroulante **[!UICONTROL Action]**.
+1. Dans le champ **[!UICONTROL Nom de l&#39;en-tête]**, saisissez **[!UICONTROL X-Frame-Options]**.
+1. Répétez les deux étapes précédentes pour ajouter un filtre avec **[!UICONTROL x-frame-options]**.
+1. Cliquez sur **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Start]**.
 
-  Pour vérifier si vous utilisez la dernière version, accédez à [!UICONTROL Extensions] > [!UICONTROL Gérer les extensions] puis cliquez sur [!UICONTROL Détails].
+![Modifiez la fenêtre En-têtes de réponse dans Firefox avec un filtre sur l&#39;en-tête X-Frame-Options affiché comme étant activé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
-* Le [!UICONTROL compositeur d’expérience visuelle] nécessite la création de bibliothèques pour effectuer des modifications sur la page web. Ces bibliothèques sont incorporées dans la bibliothèque at.js et sont téléchargées par l’extension à partir des serveurs [!DNL Adobe] chaque fois que le compositeur d’expérience visuelle est utilisé.
++++
 
-  L’extension télécharge la bibliothèque at.js, qu’at.js ou les [!DNL Adobe Experience Platform Web SDK] soient déjà inclus dans la page.
++++ Une page ne s’affiche pas dans le compositeur d’expérience visuelle
 
-  Vérifiez qu’aucune modification non valide n’est ajoutée aux en-têtes at.js configurés dans la section [!UICONTROL Administration] > [!UICONTROL Implémentation].
+Vérifiez les causes suivantes :
 
-* Assurez-vous que la page web ne bloque pas les requêtes obligatoires pour le chargement lorsqu’elles sont incorporées dans un iFrame. Cela inclut l’utilisation de directives CSP frame-ancestors ou de code JS personnalisé incorporé dans le site web du client, les balises meta HTML ou l’en-tête x-frame-options.
-
-* Assurez-vous que le code JavaScript de la page web n’interfère pas avec les bibliothèques de création. N’utilisez pas et n’incluez pas de fichiers portant les noms réservés suivants :
+* **Version de l’extension :** la dernière version de l’[[!DNL Adobe Experience Cloud] **[!UICONTROL extension Visual Editing Helper ]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) offre la meilleure compatibilité avec le VEC. Pour vérifier la version installée, accédez à**[!UICONTROL  Extensions ]**>**[!UICONTROL  Gérer les extensions ]**, puis cliquez sur**[!UICONTROL  Détails ]**.
+* **Création de bibliothèques :** le compositeur d’expérience visuelle a besoin de bibliothèques de création pour modifier la page web. Ils sont incorporés dans la bibliothèque at.js, que l’extension télécharge à partir des serveurs [!DNL Adobe] chaque fois que le VEC est utilisé, qu’at.js ou le [!DNL Adobe Experience Platform Web SDK] soit déjà sur la page ou non. Vérifiez que les en-têtes at.js configurés dans **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** ne contiennent aucune modification non valide.
+* **Requêtes bloquées :** la page ne doit pas bloquer les requêtes obligatoires pour le chargement lorsqu’elle est incorporée dans un iFrame. Ce blocage inclut `frame-ancestors` directives CSP, le code JavaScript personnalisé dans le site web, les balises meta HTML et l’en-tête `x-frame-options`.
+* **Noms de fichiers réservés :** le JavaScript de la page ne doit pas interférer avec les bibliothèques de création. N’utilisez pas et n’incluez pas de fichiers portant les noms réservés suivants :
 
   * `target-vec-helper.js`
   * `target-vec.js`
@@ -155,31 +142,26 @@ Après avoir configuré une extension, ouvrez [!DNL Target]. Vos pages doivent m
   * `sizzle.js`
   * `mixContentCheck.html`
 
-    En outre, le remplacement accidentel de variables ou d’événements définis dans ces fichiers peut entraîner des problèmes avec le compositeur d’expérience visuelle.
+  Le remplacement accidentel de variables ou d’événements définis dans ces fichiers peut également entraîner des problèmes avec le compositeur d’expérience visuelle.
 
-* Le navigateur bloque une page non sécurisée d’un site sécurisé.
-
-  Dans la barre d’adresses du navigateur, cliquez sur l’icône située à gauche de l’URL, puis sur **[!UICONTROL Désactiver la protection de cette page]**.
-
-* Vous avez tapé une URL incorrecte.
-* Si votre site web ne charge pas dans le VEC ou se comporte de manière inattendue, un correctif potentiel consiste à accepter les cookies sur votre site web dans le navigateur avant de tenter de charger le site web dans [!DNL Target].
+* **Page non sécurisée sur un site sécurisé :** le navigateur bloque la page. Cliquez sur l&#39;icône à gauche de l&#39;URL dans la barre d&#39;adresse, puis sur **[!UICONTROL Désactiver la protection sur cette page]**.
+* **URL non valide :** l&#39;URL saisie n&#39;est pas valide.
+* **Cookies :** si le site web ne charge pas dans le VEC ou se comporte de manière inattendue, l’acceptation de ses cookies dans le navigateur avant de charger le site web dans [!DNL Target] peut résoudre le problème.
 
 +++
 
-## Le compositeur d’expérience visuelle semble endommagé lorsque j’utilise le mode [!UICONTROL &#x200B; Parcourir &#x200B;]. (Compositeur d’expérience visuelle uniquement) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
++++ Le compositeur d’expérience visuelle semble endommagé en mode de navigation
 
-+++Détails
-Lors de l’utilisation du mode [!UICONTROL Parcourir], si vous accédez à une URL pour laquelle aucune bibliothèque [!DNL Target] n’est implémentée ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=fr){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}) ou qui contient un en-tête frame-buster, le compositeur d’expérience visuelle semble endommagé. En raison de problèmes de sécurité du navigateur, [!DNL Target] ne pouvez pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du compositeur d’expérience visuelle n’est pas mise à jour de manière cohérente si la page se charge.
+En mode **[!UICONTROL Parcourir]**, le compositeur d’expérience visuelle semble endommagé à l’ouverture d’une URL qui ne contient pas les bibliothèques [!DNL Target] ([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=fr){target=_blank} ou [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=fr){target=_blank}) ou qui contient un en-tête de frame-buster. Pour des raisons de sécurité du navigateur, [!DNL Target] ne peut pas accéder correctement à l’URL à laquelle vous avez accédé ou l’URL du compositeur d’expérience visuelle n’est pas mise à jour de manière cohérente au chargement de la page.
 
-Ce problème se produit, car le compositeur d’expérience visuelle charge la page web dans une `<iframe>`. Les mécanismes de sécurité actuels des navigateurs empêchent l’interface utilisateur [!DNL Target] d’accéder aux éléments de l’image donnée en raison de la politique de même origine. Les navigateurs bloquent les scripts qui tentent d’accéder à une image ayant une origine différente et contenant des informations telles que la `location.href`.
+Le compositeur d’expérience visuelle charge la page web dans un `<iframe>` et les mécanismes de sécurité actuels des navigateurs empêchent l’interface utilisateur [!DNL Target] d’accéder aux éléments du cadre sous la politique de même origine. Les navigateurs bloquent les scripts qui tentent d&#39;accéder à une trame ayant une origine différente, y compris les informations telles que `location.href`.
 
-Vous devez utiliser la nouvelle extension [Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) pour injecter la bibliothèque de [!DNL Target] dans les pages afin de les parcourir de manière optimale.
+Utilisez la nouvelle extension [Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) pour injecter la bibliothèque [!DNL Target] dans les pages, afin que les pages puissent être parcourues de manière optimale.
 
 +++
 
-## Problèmes causés par des conflits CSS dans le [!UICONTROL compositeur d’expérience visuelle]
++++ Les problèmes sont causés par des conflits CSS dans le compositeur d’expérience visuelle
 
-+++Détails
-Vérifiez s’il existe des fichiers CSS susceptibles d’avoir un impact sur la visibilité lors du chargement de la page web dans l’éditeur. Par exemple, l’utilisation de la propriété `overflow: hidden` dans le corps de la page peut entraîner des problèmes de défilement ou déclencher des événements de clic qui peuvent interférer avec le menu de création.
+Vérifiez si des fichiers CSS affectent la visibilité lors du chargement de la page dans l’éditeur. Par exemple, la propriété `overflow: hidden` dans le corps de la page peut entraîner des problèmes de défilement ou déclencher des événements de clic qui interfèrent avec le menu de création.
 
 +++

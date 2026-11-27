@@ -14,63 +14,67 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 60%
+source-wordcount: '701'
+ht-degree: 21%
 ---
-# Modèles d’expérience
+# Modèles d’expérience {#experience-templates}
 
-Informations sur les modèles d’expérience [!DNL Adobe Target] à utiliser dans le code personnalisé. [!DNL Target] Les modèles d’expérience sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation marketing courants.
+>[!BEGINSHADEBOX]
 
-Ces modèles d’expérience sont fournis gratuitement aux développeurs et aux spécialistes du marketing comme point de départ pour exécuter certains cas d’utilisation courants, via le VEC ou le compositeur d’expérience d’après les formulaires.
+**Sur cette page :** recherchez les [!DNL Adobe Target] modèles d’expérience disponibles pour une utilisation dans le code personnalisé, ainsi que la finalité de chaque modèle.
 
-Les modèles ci-dessous sont actuellement disponibles sur la page GitHub Adobe Marketing Cloud : [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
+>[!ENDSHADEBOX]
 
-## Bannière de carrousel avec miniatures {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
+Les modèles d’expérience [!DNL Adobe Target] sont des exemples précodés avec des entrées configurables, utilisés pour exécuter des cas d’utilisation courants de spécialistes marketing. Ils sont fournis gratuitement aux développeurs et aux spécialistes du marketing comme point de départ pour exécuter des cas d’utilisation courants, par le biais du compositeur d’expérience visuelle ou du compositeur d’expérience d’après les formulaires.
 
-Le [modèle d’expérience de bannière de carrousel avec miniatures](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les images miniatures sous l’image principale.
+Les modèles suivants sont actuellement disponibles sur le GitHub Adobe Marketing Cloud : [Target-Experience-Templates](https://github.com/Adobe-Marketing-Cloud/target-experience-templates).
 
-![exp-template-banner-carousel-thumbnails image](assets/exp-template-banner-carousel-thumbnails.png)
+## Bannière de carrousel avec miniatures {#banner-carousel-thumbnails}
 
-## Bannière de carrousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+Le [modèle d’expérience de bannière de carrousel avec miniatures](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel ne pivote pas automatiquement entre les images. Vous pouvez interagir directement avec elle en cliquant sur les images plus petites sous l’image principale.
 
-Le [modèle d’expérience de bannière de carrousel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les flèches droite et gauche.
+![Modèle Carrousel de bannières avec miniatures : une grande photo avec trois petites photos et légendes en dessous](assets/exp-template-banner-carousel-thumbnails.png)
 
-![exp-template-banner-carrousel image](assets/exp-template-banner-carousel.png)
+## Bannière de carrousel {#banner-carousel}
 
-## Bannière avec compte à rebours {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+Le [modèle d’expérience de bannière de carrousel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel ne pivote pas automatiquement entre les images. Vous pouvez interagir directement avec elle en cliquant sur les flèches gauche et droite.
+
+![Modèle de carrousel de bannière : photo avec des flèches à gauche et à droite et quatre points indicateurs](assets/exp-template-banner-carousel.png)
+
+## Bannière avec compte à rebours {#banner-countdown}
 
 Le [modèle d’expérience de bannière avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) est une bannière large avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
-![image exp-template-banner-countdown](assets/exp-template-banner-countdown.png)
+![Modèle Compte à rebours de bannière : bannière de grande taille avec un compte à rebours en jours, heures, minutes et secondes, et un bouton Aller ici](assets/exp-template-banner-countdown.png)
 
-## Créateur de boutons {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
+## Créateur de boutons {#button-builder}
 
-Le [modèle d’expérience Créateur de boutons](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) est un petit bouton accompagné d’un texte d’incitation à l’action. Ce bouton peut être configuré et placé n’importe où sur la page, afin d’ajouter une nouvelle incitation à l’action ou remplacer un bouton existant par une alternative plus configurable.
+Le [modèle d’expérience Créateur de boutons](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) est un petit bouton accompagné d’un texte d’incitation à l’action. Le bouton est configurable. Il peut être placé n’importe où sur la page pour ajouter un nouveau call to action ou pour remplacer un bouton existant par un autre plus configurable.
 
-![exp-template-button-builder image](assets/exp-template-button-builder.png)
+![Modèle de créateur de boutons : deux boutons, Contactez-nous et allez ici, sous un titre de bannière](assets/exp-template-button-builder.png)
 
-## Cadre lumineux avec compte à rebours {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Cadre lumineux avec compte à rebours {#lightbox-countdown}
 
 Le [modèle d’expérience de cadre lumineux avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) est une fenêtre contextuelle sous forme de cadre lumineux, qui recouvre la bannière, avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
-![image exp-template-lightbox-countdown](assets/exp-template-lightbox-countdown.png)
+![Lightbox avec modèle Compte à rebours : une fenêtre contextuelle avec un compte à rebours, un bouton Aller ici et un lien Non merci](assets/exp-template-lightbox-countdown.png)
 
-## Cadre lumineux avec intention de quitter {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
+## Cadre lumineux avec intention de quitter {#lightbox-exit-intent}
 
-Le [modèle d’expérience de cadre lumineux avec intention de quitter](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) est une fenêtre contextuelle sous forme de cadre lumineux, qui apparaît lorsqu’on a l’intention de quitter (quand on dirige la souris vers le coin supérieur droit de l’écran). Ce modèle peut être déployé sur n’importe quelle propriété web, quand vous voulez attirer l’attention du client une dernière fois.
+Le modèle d’expérience [Lightbox avec mode de sortie](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent) est une fenêtre contextuelle de recouvrement de lightbox déclenchée lors du mode de sortie (déplacement de la souris en haut à droite de l’écran). Il peut être déployé sur n’importe quelle propriété web où une dernière chance de capter l’attention est souhaitée.
 
-![exp-template-lightbox-exit image](assets/exp-template-lightbox-exit.png)
+![Lightbox avec modèle d&#39;intention de sortie : fenêtre contextuelle offrant une remise, avec un bouton Aller ici et un lien Non merci](assets/exp-template-lightbox-exit.png)
 
-## Cadre lumineux {#section_EF4FBA08CE55407CAFB334340C6C1577}
+## Cadre lumineux {#lightbox}
 
 Le [modèle d’expérience Lightbox](https://github.com/Adobe-Marketing-Cloud/target-experience-templates) est une fenêtre contextuelle de recouvrement Lightbox avec un délai intégré, généralement utilisée sur les pages d’accueil et les pages de destination ou d’autres pages d’entrée à volume élevé.
 
-![exp-template-lightbox image](assets/exp-template-lightbox.png)
+![Modèle Lightbox : une fenêtre contextuelle avec une photo à gauche, un message à droite, un bouton Aller ici et un lien Non merci](assets/exp-template-lightbox.png)
 
-## Ruban {#section_CCBB656265F140AEA1B200409D719000}
+## Ruban {#ribbon}
 
-Le [modèle d’expérience de ruban](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) est un ruban de largeur 100 % qui s’insère tout en haut d’une page web. Il est généralement utilisé pour signaler une vente flash, la livraison gratuite des articles, des informations de sécurité ou météorologiques ou pour faire d’autres annonces importantes.
+Le [modèle d’expérience du ruban](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon) est un ruban de 100 % de largeur inséré tout en haut de la page web. Il est généralement utilisé pour indiquer une vente flash, la livraison gratuite, un événement lié à la sécurité ou à la météo, ou une autre annonce importante.
 
-![exp-template-ribbon image](assets/exp-template-ribbon.png)
+![Modèle de ruban : un ruban pleine largeur en haut de la page avec le texte Voir la promotion que nous exécutons](assets/exp-template-ribbon.png)

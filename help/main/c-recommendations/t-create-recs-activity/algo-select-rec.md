@@ -2,7 +2,7 @@
 keywords: recommandations;activité de recommandations;critères;algorithme
 description: Découvrez comment sélectionner les critères (règles qui déterminent quels produits ou contenus recommander) à utiliser dans votre activité Recommendations [!DNL Target] d’Adobe.
 title: Comment sélectionner des critères pour une activité Recommendations ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
 product_v2:
@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément 
 
 **Pour sélectionner des critères :**
 
-1. Lors de la création d’une [recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), dans la boîte de dialogue **[!UICONTROL Sélectionner les critères]**, recherchez et sélectionnez un ou plusieurs critères.
+1. Lors de la création d’une [recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), dans la boîte de dialogue **[!UICONTROL Sélectionner les critères]**, recherchez et sélectionnez un ou plusieurs critères.
 
    Vous pouvez utiliser le filtre [!UICONTROL Type de secteur], le filtre [!UICONTROL Type de page] et la case à cocher [!UICONTROL Compatible] pour filtrer la liste des critères. Ces options vous aident à localiser les critères souhaités.
 
