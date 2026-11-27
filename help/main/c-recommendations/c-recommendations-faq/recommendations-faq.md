@@ -2,7 +2,7 @@
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
 description: Consultez une liste de questions fréquentes sur les activités [!DNL Target Recommendations].
 title: Où puis-je trouver des questions/réponses sur [!DNL Recommendations] ?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 TQID: 'https://experienceleague.adobe.com/Hz37Dp21q-25Pj6mmbiaGqONY14eImVB9Ebz8VH9hMA'
@@ -156,7 +156,7 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 
 Les critères disponibles dépendent de la catégorie actuelle. Lorsque des offres de recommandations sont créées, le sélecteur d’algorithmes affiche les critères en fonction de l’identifiant de catégorie. Si l’emplacement où le critère est appliqué ne contient pas l’identifiant de catégorie, certains critères ne sont pas disponibles dans le sélecteur d’algorithmes. Si un emplacement où l’ID de catégorie est présent dans la mbox est utilisé, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] comporte un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} qui contrôle le filtrage intelligent du sélecteur d’algorithmes. Pour accéder au paramètre **[!UICONTROL Filtrer les critères incompatibles]**, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Recommandations]**.
+[!DNL Target] comporte un paramètre [Filtrer les critères incompatibles](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank} qui contrôle le filtrage intelligent du sélecteur d’algorithmes. Pour accéder au paramètre **[!UICONTROL Filtrer les critères incompatibles]**, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Recommandations]**.
 
 ![Page Paramètres Recommendations avec l’option Filtrer les critères incompatibles mise en surbrillance](assets/recs_settings_filter.png)
 

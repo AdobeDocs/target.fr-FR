@@ -168,7 +168,7 @@ Ce message d’erreur peut avoir deux causes :
 
 +++ L’EEC ne se charge pas sur les pages sécurisées d’un site qui utilise TLS 1.0
 
-Le message d’erreur décrit à l’élément précédent peut s’afficher lorsque les adresses IP sont placées sur la liste autorisée, mais que le site web ne prend pas en charge TLS 1.2. [!DNL Target] utilise actuellement la version 1.2 comme configuration par défaut. Avant [!DNL Target] 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
+Le message d’erreur décrit à l’élément précédent peut s’afficher lorsque les adresses IP sont placées sur la liste autorisée, mais que le site web ne prend pas en charge TLS 1.2. [!DNL Target] utilise actuellement la version 1.2 comme configuration par défaut. Avant [!DNL Target] 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank}.
 
 Pour vérifier la version TLS d’un site web dans Firefox (d’autres navigateurs appliquent des étapes similaires) :
 
@@ -185,7 +185,7 @@ Pour vérifier la version TLS d’un site web dans Firefox (d’autres navigateu
 
    ![Fenêtre Informations sur la page Firefox, onglet Sécurité, avec la version de TLS mise en surbrillance sous Détails techniques](assets/firefox_more_info_3.png)
 
-1. Si le site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} pour plus d’informations sur la politique de prise en charge du protocole TLS de [!DNL Target]. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018), contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour la configuration avec la version TLS et le domaine.
+1. Si le site web affiche TLS 1.0, consultez [Modifications du chiffrement TLS (Transport Layer Security)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=fr){target=_blank} pour plus d’informations sur la politique de prise en charge du protocole TLS de [!DNL Target]. Pour remédier à la situation pour l’instant (valable jusqu’au 12 septembre 2018), contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour la configuration avec la version TLS et le domaine.
 
 +++
 

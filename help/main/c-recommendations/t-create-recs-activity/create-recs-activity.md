@@ -2,7 +2,7 @@
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
 description: Découvrez comment utiliser le [!DNL Target] [!UICONTROL compositeur d’expérience visuelle] (VEC) pour créer une activité [!DNL Recommendations].
 title: Créer une activité [!DNL Recommendations]
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=fr#premium newtab=true" tooltip="Voir ce qui est inclus dans Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 TQID: 'https://experienceleague.adobe.com/rb9any1dsbk-E-ELV56A2D6X5f0z0cTziscrajmbYDA'
@@ -53,7 +53,7 @@ L’URL de l’activité et l’emplacement définissent la page et la zone de c
 
 1. Spécifiez l&#39;URL de l&#39;activité, puis cliquez sur **[!UICONTROL Créer]**.
 
-   L’URL de l’activité correspond à la page sur laquelle s’affichent les recommandations. [!DNL Target] ne fait pas de distinction entre les protocoles d&#39;URL ([!DNL https] et [!DNL http]), de sorte que `http://www.adobe.com` et `https://www.adobe.com` correspondent.
+   L’URL de l’activité correspond à la page sur laquelle s’affichent les recommandations. [!DNL Target] ne fait pas de distinction entre les protocoles d&#39;URL ([!DNL https] et [!DNL http]), de sorte que `http://www.adobe.com/fr` et `https://www.adobe.com/fr` correspondent.
 
    Le compositeur d’expérience visuelle s’ouvre et affiche la page.
 
@@ -101,7 +101,7 @@ Les critères déterminent quels éléments sont recommandés et comment ils son
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécutent pas correctement sur chaque page. Pour que les recommandations d’élément actuel ou de catégorie actuelle soient compatibles, la page ou la mbox doit transmettre `entity.id` ou `entity.categoryId`. Il est préférable d’afficher uniquement les critères compatibles. Pour rendre disponibles des critères incompatibles pour l&#39;activité, décochez la case **[!UICONTROL Compatible]**. Cette case à cocher peut ne pas s’afficher, selon le paramètre **[!UICONTROL Administration]** > **[!UICONTROL Recommandations]** > **[!UICONTROL Filtrer les critères incompatibles]**. Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+   >Tous les critères ne s’exécutent pas correctement sur chaque page. Pour que les recommandations d’élément actuel ou de catégorie actuelle soient compatibles, la page ou la mbox doit transmettre `entity.id` ou `entity.categoryId`. Il est préférable d’afficher uniquement les critères compatibles. Pour rendre disponibles des critères incompatibles pour l&#39;activité, décochez la case **[!UICONTROL Compatible]**. Cette case à cocher peut ne pas s’afficher, selon le paramètre **[!UICONTROL Administration]** > **[!UICONTROL Recommandations]** > **[!UICONTROL Filtrer les critères incompatibles]**. Pour plus d’informations, voir [Paramètres](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=fr){target=_blank}.
 
 1. Vous pouvez éventuellement rechercher ou créer des critères :
 
