@@ -3,7 +3,7 @@ user-guide-title: Guide du spécialiste d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser les expériences clientèle sur les sites web, les applications et les canaux sociaux pour augmenter le chiffre d’affaires.
 feature-set: Target
-source-git-commit: 745fabd3cd19cc2b076314c1ee1e97d1914a0007
+source-git-commit: d917e1b4f0d3c70eccd6c5fa1df5f799093f1f41
 workflow-type: tm+mt
 source-wordcount: '1335'
 ht-degree: 71%
@@ -245,7 +245,7 @@ ht-degree: 71%
       + [Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
       + [Résolution des problèmes du Compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
       + [Résolution des problèmes du Compositeur d’expérience avancé](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-      + [Activation du contenu mixte dans votre navigateur](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+      + [Activation du contenu mixte dans le navigateur](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
       + [Scénarios de modification d’une page](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
       + [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
       + [Extension d’assistance du Compositeur d’Expérience Visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
@@ -335,4 +335,4 @@ ht-degree: 71%
   + [Limites](r-troubleshooting-target/target-limits.md)
 + API de Target {#apis}
   + [Prise en main des SDK et API d’Adobe Target](/help/main/api/api-overview.md)
-+ [Informations sur les ressources et les contacts &#x200B;](cmp-resources-and-contact-information.md)
++ [Informations sur les ressources et les contacts ](cmp-resources-and-contact-information.md)
