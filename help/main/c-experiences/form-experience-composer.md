@@ -158,4 +158,4 @@ Cette vidéo fournit une démonstration du compositeur d’après les formulaire
 * Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
 * Utilisation des ajustements pour cibler un emplacement
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/3507882?captions=fre_fr)

@@ -95,4 +95,4 @@ Cette vidéo couvre les paramètres d’activité suivants :
 * Ajoutez des audiences pour la création de rapports afin de créer des filtres de rapport.
 * Saisissez les notes de l’activité.
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/3507945?captions=fre_fr)
