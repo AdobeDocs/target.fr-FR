@@ -47,7 +47,7 @@ L’URL de l’activité et l’emplacement définissent la page et la zone de c
 
 1. Sélectionnez **[!UICONTROL Visuel]**, si nécessaire.
 
-   Pour utiliser le **[!UICONTROL compositeur d’expérience d’après les formulaires]** à la place, sélectionnez **[!UICONTROL Formulaire]**. Voir [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md). Pour une comparaison des compositeurs, y compris le compositeur d’expérience visuelle d’application monopage ****, consultez [Expériences et offres](/help/main/c-experiences/experiences.md). Pour les problèmes du compositeur d’expérience visuelle, consultez [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   Pour utiliser le **[!UICONTROL compositeur d’expérience d’après les formulaires]** à la place, sélectionnez **[!UICONTROL Formulaire]**. Voir [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md). Pour une comparaison des compositeurs, y compris le compositeur d’expérience visuelle d’application monopage **&#x200B;**, consultez [Expériences et offres](/help/main/c-experiences/experiences.md). Pour les problèmes du compositeur d’expérience visuelle, consultez [Dépannage du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
 1. (Conditionnel) Choisissez un [espace de travail](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 

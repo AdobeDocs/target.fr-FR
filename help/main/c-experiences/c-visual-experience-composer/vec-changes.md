@@ -31,7 +31,7 @@ La version [!DNL Adobe Target Standard/Premium] 25.2.1 (17 février 2025) introd
 
 >[!IMPORTANT]
 >
->Le [!UICONTROL compositeur d’expérience visuelle] mis à jour nécessite l’extension [!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper ]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible dans [!DNL Chrome Web Store].
+>Le [!UICONTROL compositeur d’expérience visuelle] mis à jour nécessite l’extension [!DNL Adobe Experience Cloud] [**[!UICONTROL Visual Editing Helper &#x200B;]**](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) disponible dans [!DNL Chrome Web Store].
 
 Le compositeur d’expérience visuelle s’affiche lorsqu’une activité est créée ou qu’une activité existante est modifiée.
 

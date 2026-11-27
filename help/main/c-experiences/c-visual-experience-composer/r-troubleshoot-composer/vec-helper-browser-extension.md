@@ -1,7 +1,7 @@
 ---
 keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
 description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). L’extension de navigateur Assistant du VEC vous permet de charger des sites web de manière fiable dans le VEC.
-title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle [!UICONTROL ] (VEC) ?
+title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle  (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 TQID: 'https://experienceleague.adobe.com/lqZGGWG1NVtKDzNGPq5k2bDPzxDfNWqPtJ-bYfLCr3Q'
@@ -42,7 +42,7 @@ ht-degree: 5%
 
 >[!ENDSHADEBOX]
 
-L’extension de navigateur d’assistance du compositeur d’expérience visuelle ]**(VEC) [!DNL Adobe Target]**[!UICONTROL  pour [!DNL Google Chrome] charge les sites web de manière fiable dans le VEC, ce qui accélère la création et la vérification d’expériences web. L&#39;extension n&#39;est pas nécessaire dans [!DNL Mozilla Firefox].
+L’extension de navigateur d’assistance du compositeur d’expérience visuelle **(VEC) [!DNL Adobe Target]** pour [!DNL Google Chrome] charge les sites web de manière fiable dans le VEC, ce qui accélère la création et la vérification d’expériences web. L&#39;extension n&#39;est pas nécessaire dans [!DNL Mozilla Firefox].
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ L’extension de navigateur Assistant du compositeur d’expérience visuelle po
 
 Un service worker (SW) est une technologie web qu’une page web installe pour intercepter les requêtes concernant son domaine. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Il décide quelles requêtes passent et lesquelles sont interceptées et diffusées à partir d’un cache.
 
-Un SW peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG et AJAX, leur contenu et leurs en-têtes de réponse. Ces en-têtes incluent ceux que l’extension d’assistance du VEC de Target [ tente de supprimer ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), tels que `X-Frame-Options: SAMEORIGIN`, CSP (`Content-Security-Policy`) et `Set-Cookie`.
+Un SW peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG et AJAX, leur contenu et leurs en-têtes de réponse. Ces en-têtes incluent ceux que l’extension d’assistance du VEC de Target [&#x200B; tente de supprimer &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), tels que `X-Frame-Options: SAMEORIGIN`, CSP (`Content-Security-Policy`) et `Set-Cookie`.
 
 Les API d&#39;extension [!DNL Chrome] qui interceptent les requêtes web ne reçoivent pas les requêtes qu&#39;un SW a interceptées et traitées. Lorsqu’un SW diffuse la requête de page web à partir d’un cache, l’extension ne peut donc pas corriger les en-têtes et les cookies, et la page ne se charge pas dans le VEC en raison des en-têtes `X-Frame-Options` ou CSP mis en cache.
 

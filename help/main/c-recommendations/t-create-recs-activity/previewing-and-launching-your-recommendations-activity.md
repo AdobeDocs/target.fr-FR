@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-La prévisualisation des recommandations avant le lancement d’une activité confirme la disponibilité des résultats. Cela s’applique aux activités de [!UICONTROL ciblage d’expérience] (XT) de [Recommendations], de [!UICONTROL test A/B] et de [!UICONTROL recommandations](/help/main/c-recommendations/recommendations-as-an-offer.md). [!DNL Target Recommendations] offre plusieurs façons de prévisualiser les recommandations.
+La prévisualisation des recommandations avant le lancement d’une activité confirme la disponibilité des résultats. Cela s’applique aux activités de [!UICONTROL ciblage d’expérience] (XT) de [Recommendations], de [!UICONTROL test A/B] et de [[!UICONTROL recommandations]](/help/main/c-recommendations/recommendations-as-an-offer.md). [!DNL Target Recommendations] offre plusieurs façons de prévisualiser les recommandations.
 
 ## Vérifier le statut de l’algorithme {#check-status}
 

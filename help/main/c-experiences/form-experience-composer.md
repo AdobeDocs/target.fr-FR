@@ -50,7 +50,7 @@ Si vous créez une activité [!UICONTROL Recommendations], il n’y a aucune exp
 
    Cet écran est différent si vous créez une activité [!UICONTROL Recommendations]. Les activités [!UICONTROL Recommendations] n’incluent pas d’expériences.
 
-1. 
+1. &#x200B;
    1. Cliquez sur l’icône **[!UICONTROL Renommer]** ( ![Renommer l’icône](/help/main/assets/icons/MoreSmallListVert.svg) ), cliquez sur **[!UICONTROL Renommer]**, spécifiez un nom pour l’activité, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Le nom de l’activité ne peut pas commencer par l’un des caractères suivants :
