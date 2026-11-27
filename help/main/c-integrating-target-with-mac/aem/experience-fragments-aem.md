@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 7eede3484d524e87127de9147aa786484fc87c7d
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 32%
@@ -132,7 +132,7 @@ Vous pouvez utiliser [!UICONTROL les fragments d’expérience] dans les activit
 
 **Utiliser [!UICONTROL fragments d’expérience] à l’aide du VEC :**
 
-1. Dans [!DNL Target], lors de la création ou de la modification d’une expérience dans le [Compositeur d’expérience visuelle](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu [!DNL AEM], puis cliquez sur **[!UICONTROL Remplacer le contenu]** > **[!UICONTROL Fragment d’expérience]** pour afficher la boîte de dialogue [!UICONTROL Fragment d’expérience].
+1. Dans [!DNL Target], lors de la création ou de la modification d’une expérience dans le [Compositeur d’expérience visuelle](/help/main/c-experiences/experiences.md#experiences-overview), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu [!DNL AEM], puis cliquez sur **[!UICONTROL Remplacer le contenu]** > **[!UICONTROL Fragment d’expérience]** pour afficher la boîte de dialogue [!UICONTROL Fragment d’expérience].
 
    La boîte de dialogue [!UICONTROL Fragment d’expérience] affiche le contenu créé dans [!DNL AEM] qui est désormais disponible en mode natif dans [!DNL Target].
 

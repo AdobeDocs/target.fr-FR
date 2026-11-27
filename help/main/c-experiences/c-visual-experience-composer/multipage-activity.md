@@ -1,6 +1,6 @@
 ---
 keywords: multi-page, test du parcours, activité multi-page
-description: Découvrez comment créer une activité multipage dans Adobe [!DNL Target] permet de créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
+description: Découvrez comment créer une activité multipage dans Adobe [!DNL Target]. Vous pouvez ainsi créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
 title: Comment créer une activité multipage ?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
@@ -16,33 +16,44 @@ topic_v2:
     internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
-source-git-commit: ed3d4b67c78791454c55a2cad4908a37a4d60e26
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 56%
+source-wordcount: '374'
+ht-degree: 13%
 ---
-# Activité multi-page
+# Activité multi-page {#multipage-activity}
 
-Une activité multipage dans [!DNL Adobe Target] vous permet de créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
+>[!BEGINSHADEBOX]
 
-Par exemple, imaginons que vous souhaitiez tester une offre d’expédition gratuite pour les achats au-dessus d’un certain montant. Vous souhaitez peut-être que cette offre apparaisse sur votre page d’entrée, une page de catégorie et certaines pages de produit mais vous souhaitez qu’elle soit d’une taille différente et dans un emplacement différent sur chaque type de page. Vous pourriez afficher une offre proéminente sur votre page d’accueil, puis renforcer cette offre par de plus petites offres sur des pages appropriées.
+**Sur cette page :** Découvrez comment utiliser une activité multipage pour créer une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
 
-Vous pouvez également utiliser une activité multi-page pour définir différentes mises en page pour votre bureau et les sites mobiles non réactifs. Si le site comporte un site mobile distinct, tel que [!DNL m.mysite.com] au lieu de [!DNL `www.mysite.com`], vous devez plutôt créer une [activité multipage](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), ajouter des [!DNL m.mysite.com] sous forme de pages distinctes, puis appliquer des modifications mobiles pour apporter les modifications appropriées à la version de bureau et à la version mobile dans la même expérience. Pour les sites mobiles réactifs, utilisez [la modification de l’expérience mobile](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5).
+>[!ENDSHADEBOX]
+
+Une activité multipage dans [!DNL Adobe Target] crée une histoire sur plusieurs pages, avec une conception spécifique à chaque page.
+
+Par exemple, une offre de livraison gratuite avec des achats supérieurs à un certain montant peut être testée. L’offre peut apparaître sur la page de destination, sur une page de catégorie et sur certaines pages de produits, avec une taille différente et à un emplacement différent sur chaque type de page. Une offre importante peut être affichée sur la page d’accueil, puis renforcée par des offres plus petites sur d’autres pages pertinentes.
+
+Une activité multipage peut également définir différentes dispositions pour les sites de bureau et les sites mobiles qui ne répondent pas. Si le site comporte un site mobile distinct, tel que [!DNL m.mysite.com] au lieu de [!DNL `www.mysite.com`], créez une activité multipage, ajoutez [!DNL m.mysite.com] en tant que pages distinctes, puis appliquez la modification pour appareils mobiles afin d’apporter les modifications appropriées à la version de bureau et à la version pour appareils mobiles dans la même expérience. Pour les sites mobiles réactifs, utilisez [la modification de l’expérience mobile](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
 >[!NOTE]
 >
->Les activités multi-page sont conçues pour des activités pour lesquelles la même offre a une apparence différente sur plusieurs pages. Si l’offre apparaît de la même manière sur toutes les pages, un [test de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) est plus efficace.
+>Les activités multi-page sont conçues pour des activités pour lesquelles la même offre a une apparence différente sur plusieurs pages. Si l’offre apparaît de la même manière sur toutes les pages, un [test de modèle](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages) est plus efficace.
 
-Vous pouvez spécifier les règles de modèle pour chaque page dans un test multi-page. Par exemple, vous pouvez exécuter un test multi-page sur la page d’accueil et toutes les pages de catégorie en appliquant des règles de modèle à la page de catégorie dans le test multi-page. Voir [Inclure la même expérience sur des pages similaires](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+Les règles de modèle peuvent être spécifiées pour chaque page dans le test de plusieurs pages. Par exemple, un test de plusieurs pages peut s’exécuter sur la page d’accueil et toutes les pages de catégorie en appliquant des règles de modèle à la page de catégorie du test de plusieurs pages. Voir [Inclure la même expérience sur des pages similaires](/help/main/c-experiences/c-visual-experience-composer/temtest.md#similar-pages).
 
-Pour ajouter des pages à un test :
+## Ajouter des pages à une activité {#add-pages}
+
+Chaque page ajoutée à l’activité peut avoir sa propre conception de l’offre.
 
 1. Cliquez sur l’icône **[!UICONTROL Configurer]** ( ![Icône Configurer](/help/main/assets/icons/Setting.svg) ).
+
 1. Cliquez sur **[!UICONTROL Ajouter des pages supplémentaires]**.
 
-   Un volet [!UICONTROL Pages] s’affiche à gauche de l’écran.
+   Un volet **[!UICONTROL Pages]** s’affiche à gauche de l’écran.
 
-1. Spécifiez vos pages et définissez la page par défaut.
+   ![Icône Configurer](assets/vec_edit_4.png)
+
+1. Spécifiez les pages et définissez la page par défaut.
 
    Cliquez sur **[!UICONTROL Ajouter une page]** ( ![Ajouter une icône](/help/main/assets/icons/Add.svg) ) pour ajouter une page supplémentaire, spécifiez le nom de la page et l’URL, puis cliquez sur **[!UICONTROL Enregistrer]**.
 

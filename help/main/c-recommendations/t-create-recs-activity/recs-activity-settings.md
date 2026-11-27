@@ -24,33 +24,28 @@ topic_v2:
     internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 48%
+source-wordcount: '488'
+ht-degree: 13%
 ---
-# Paramètres de l’activité de recommandations
+# Paramètres des activités Recommandations {#recs-activity-settings}
 
-Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une activité [!UICONTROL Recommendations] dans [!DNL Adobe Target].
+>[!BEGINSHADEBOX]
 
-Les sections suivantes décrivent les paramètres disponibles pour une activité [!UICONTROL &#x200B; Recommendations &#x200B;].
+**Sur cette page :** Découvrez les paramètres qui décrivent et contrôlent une activité [!DNL Recommendations] dans [!DNL Adobe Target].
+
+>[!ENDSHADEBOX]
+
+Les paramètres d&#39;activité identifient une activité [!DNL Recommendations], contrôlent quand et où elle s&#39;affiche et définissent la manière dont ses résultats sont signalés.
 
 ## Nom
 
-Cliquez sur l’icône Autres actions ( ![icône Autres actions](/help/main/assets/icons/MoreSmallListVert.svg) ), puis sur **[!UICONTROL Renommer]** pour fournir un nom explicite qui vous aidera, vous et votre équipe, à identifier l’activité.
+Cliquez sur l’icône Plus d’actions (![Icône Plus d’actions](/help/main/assets/icons/MoreSmallListVert.svg) ), puis sur **[!UICONTROL Renommer]** pour donner à l’activité un nom explicite qui permet de l’identifier.
 
-Le nom de l’activité ne peut pas contenir les caractères suivants :
+Les caractères suivants ne sont pas autorisés dans un nom d’activité : `/`, `?`, `#`, `:`, `=`, `+`, `-` et `@`.
 
-`/`
-`?`
-`#`
-`:`
-`=`
-`+`
-`-`
-`@`
-
-Si vous spécifiez un nom pour l’activité de [!UICONTROL Recommandations] qui existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom correspond au nom d’origine complété par un horodatage pour le rendre unique. Ce nouveau nom s’affiche dans [!DNL Target Standard/Premium] et [!UICONTROL Recommendations Classic].
+Si le nom d’une activité [!DNL Recommendations] existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom est le nom d’origine avec un horodatage ajouté, pour le rendre unique. Elle s’affiche à la fois dans [!DNL Target Standard/Premium] et [!UICONTROL Recommendations Classic].
 
 ## Intention
 
@@ -60,50 +55,44 @@ Si vous spécifiez un nom pour l’activité de [!UICONTROL Recommandations] qui
 
 Réglez le curseur pour définir le niveau de priorité.
 
-Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
+La priorité est utilisée lorsque plusieurs activités sont affectées au même emplacement avec la même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
 ## Durée
 
 Définissez la durée de l’activité.
 
-L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+L’activité peut commencer lorsqu’elle est activée ou à une date et une heure spécifiques. De même, elle peut se terminer lorsqu’elle est désactivée, ou à une date et une heure spécifiques.
+
+Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est celui configuré dans le navigateur. Pour utiliser un fuseau horaire différent, définissez le navigateur sur ce fuseau horaire et redémarrez le navigateur.
 
 ## Paramètres de création de rapports
 
-* **Reporting Source :** spécifiez les données de solution collectées auprès de :
+Les paramètres suivants définissent la manière dont les résultats de l’activité sont signalés.
 
-  * [!DNL Adobe Target]
-  * [!DNL Adobe Analytics]
-  * [!DNL Adobe Customer Journey Analytics]
+* **[!UICONTROL Reporting Source]:** Spécifie la solution à partir de laquelle les données sont collectées : [!DNL Adobe Target], [!DNL Adobe Analytics] ou [!DNL Adobe Customer Journey Analytics].
 
-  Si une solution de création de rapports est spécifiée dans les paramètres de votre [compte](/help/main/administrating-target/reporting.md), la solution spécifiée est utilisée et ce paramètre n’est pas visible.
+  Si une solution de création de rapports est spécifiée dans les [paramètres du compte](/help/main/administrating-target/reporting.md), cette solution est utilisée et ce paramètre n&#39;est pas visible. La source de création de rapports ne peut pas être modifiée une fois l’activité activée, pour que les rapports restent cohérents.
 
-  Vous ne pouvez pas modifier votre source de création de rapports une fois l’activité activée pour conserver la cohérence des rapports.
+  **[!DNL Adobe Analytics]** : consultez [[!DNL Adobe Analytics]  comme source de création de rapports pour  [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour connaître les différences entre les solutions de création de rapports et les avantages de chacune d’elles. Pour la sélection de la suite de rapports [!DNL Analytics] et du serveur de suivi, consultez [Reporting Source](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reporting-source).
 
-  **[!DNL Adobe Analytics]** : voir [[!DNL Adobe Analytics] comme source de création de rapports pour [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) pour en savoir plus sur les différences entre les solutions de création de rapports et les avantages de chacune d’elles.
+  **[!DNL Adobe Customer Journey Analytics]** : voir la section [[!DNL Target] reporting dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
 
-  Lorsque vous sélectionnez [!DNL Analytics] comme source de création de rapports pour [!DNL Target] (A4T), vous sélectionnez une suite de rapports [!DNL Analytics] pour recevoir des données d’activité [!DNL Target]. Pour ce faire, choisissez d’abord l’une des [!DNL Analytics] sociétés auxquelles votre compte est lié, puis sélectionnez la suite de rapports appropriée pour l’activité. Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si la suite de rapports attendue ne s’affiche pas, essayez d’abord de vous déconnecter puis de vous reconnecter à la [!DNL Adobe Experience Cloud] pour réessayer. Si la suite de rapports est toujours absente de la liste, contactez l’[Assistance clientèle](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
-
-  [!DNL Analytics for Target] (A4T) nécessite un serveur de suivi pour signaler correctement les résultats. Un serveur de suivi par défaut s’affiche dans le champ [!UICONTROL Serveur de suivi]. Si vous utilisez plusieurs serveurs de suivi, veillez à inclure le bon serveur de suivi dans ce champ. Pour plus d’informations, voir [Utiliser un serveur de suivi Analytics](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)
-
-  **[!DNL Adobe Customer Journey Analytics]** : voir [[!DNL Target] Reporting dans [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) pour plus d’informations sur l’intégration entre [!DNL Adobe Customer Journey Analytics] et [!DNL Target].
-
-* **Mesure d’objectif :** Sélectionnez la mesure de succès qui détermine si l’activité est réussie.
-* **Mesures supplémentaires :** Configurez des mesures de succès supplémentaires à utiliser dans les rapports.
-* **Publics pour les rapports :** Définissez des audiences qui peuvent être utilisées lors du filtrage des rapports.
+* **[!UICONTROL Mesure d’objectif]:** sélectionne la mesure de succès qui détermine si l’activité a réussi.
+* **[!UICONTROL Mesures supplémentaires] :** configure des mesures de succès supplémentaires pour les rapports.
+* **[!UICONTROL Audiences pour le reporting] :** définit les audiences qui peuvent être utilisées pour filtrer les rapports.
 
 ## Autres métadonnées
 
-Entrez des notes relatives à votre activité.
+Saisissez les notes relatives à l’activité.
 
-## Vidéo de formation : Paramètres des activités (3:02) ![Badge du tutoriel](/help/main/assets/tutorial.png)
+## Vidéo de formation : paramètres d’activité (3:02) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 
-Cette vidéo comporte des informations sur les paramètres d’activité.
+Cette vidéo couvre les paramètres d’activité suivants :
 
-* Spécifier un objectif pour votre activité
-* Définir le niveau de priorité de vos activités
-* Planifier les heures de début et de fin de l’activité
-* Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
-* Saisir des notes pour vos activités
+* Saisissez un objectif pour l’activité.
+* Définissez le niveau de priorité de l’activité.
+* Planifiez les heures de début et de fin.
+* Ajoutez des audiences pour la création de rapports afin de créer des filtres de rapport.
+* Saisissez les notes de l’activité.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507945?captions=fre_fr)

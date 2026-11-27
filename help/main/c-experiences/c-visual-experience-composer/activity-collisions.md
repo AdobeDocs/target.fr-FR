@@ -16,30 +16,40 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 7f111df77c4b368dbe000a699ee19f5ff1ea266f
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 43%
+source-wordcount: '354'
+ht-degree: 18%
 ---
-# Collisions d’activités
+# Collisions d’activités {#activity-collisions}
 
-L’onglet [!UICONTROL Collisions] de la page [!UICONTROL Présentation des activités] de [!DNL Adobe Target] répertorie les collisions d’activités sur votre site.
+>[!BEGINSHADEBOX]
 
-Une collision d’activités survient lorsque plusieurs activités sont configurées pour diffuser du contenu sur la même page. Si une collision d’activités se produit, vous ne pourrez peut-être pas afficher le contenu attendu sur votre page.
+**Sur cette page :** Découvrez comment utiliser l’onglet **[!UICONTROL Collisions]** pour rechercher des activités susceptibles de diffuser du contenu sur la même page.
 
-L’onglet [!UICONTROL Collisions] est disponible sur la page d’aperçu de l’activité et peut vous informer si votre activité contient des collisions potentielles.
+>[!ENDSHADEBOX]
 
-Pour accéder à l’onglet [!UICONTROL Collisions], cliquez sur **[!UICONTROL Activités]** > cliquez sur l’activité souhaitée dans la liste > puis cliquez sur **[!UICONTROL Collisions]** dans le rail de gauche.
+Une collision d’activités survient lorsque plusieurs activités sont configurées pour diffuser du contenu sur la même page. Si une collision d’activités se produit, le contenu attendu peut ne pas apparaître sur la page.
 
-Toutes les activités partageant la même URL sont répertoriées, quel que soit le ciblage d’audience de chaque activité. Ouvrez cet onglet pour obtenir une liste des activités pouvant entrer en collision. Si la collision modifie l’expérience attendue, modifiez l’activité.
+L’onglet **[!UICONTROL Collisions]** de la page **[!UICONTROL Aperçu de l’activité]** de [!DNL Adobe Target] répertorie les collisions d’activités sur le site et indique si une activité contient des collisions potentielles. La liste **[!UICONTROL Collisions]** permet de :
 
-La liste [!UICONTROL Collisions] vous aide à :
-
-* d’identifier si un test est déjà en cours d’exécution sur une page avant de configurer une nouvelle activité ;
+* Déterminer si un test est déjà en cours d’exécution sur une page avant la configuration d’une nouvelle activité
 * de dépanner une activité si le contenu attendu ne s’affiche pas.
 
-La liste [!UICONTROL Collisions] affiche chaque scénario [!DNL Target] où la mbox est utilisée et qui utilise la même URL. Pour chaque collision potentielle, la liste affiche l’URL de l’activité, le nom de la mbox où la collision peut se produire et toutes les activités qui correspondent à ces deux critères. En cas de mbox multiples, elles sont toutes répertoriées.
+## Accès à l’onglet Collisions {#access-collisions}
 
-La liste affiche le statut et la priorité de chaque collision potentielle, ainsi que d’autres informations. Vous pouvez utiliser le statut et la priorité pour vous aider à déterminer la probabilité qu’une collision se produise. Prenons deux activités qui pourraient entrer en conflit. Si une activité n’est pas active actuellement, une collision ne peut pas se produire. Une collision n’est possible que si l’activité inactive devient active. Si la collision potentielle se produit entre deux activités actives ayant la même priorité et la même audience, une collision se produit. Vous pouvez modifier la priorité ou le statut pour prévenir la collision.
+Cliquez sur **[!UICONTROL Activités]**, cliquez sur l’activité souhaitée dans la liste, puis accédez au menu **[!UICONTROL Collisions]**.
 
-Si les audiences sont différentes, il existe toujours un risque de collision, car il est possible qu’un visiteur particulier appartienne à plusieurs audiences.
+![Icône Configurer](assets/collisions_1.png)
+
+Toutes les activités partageant la même URL sont répertoriées, quel que soit le ciblage d’audience de chaque activité. L’onglet répertorie les activités susceptibles d’entrer en conflit. Si la collision modifie l’expérience attendue, modifiez l’activité.
+
+## Lire la liste des collisions {#collisions-list}
+
+La liste **[!UICONTROL Collisions]** affiche chaque scénario [!DNL Target] dans lequel la mbox est utilisée et qui utilise la même URL. Pour chaque collision potentielle, la liste affiche l’URL de l’activité, le nom de la mbox où la collision peut se produire et toutes les activités qui correspondent à ces deux critères. En cas de mbox multiples, elles sont toutes répertoriées.
+
+La liste indique également le statut et la priorité de chaque collision potentielle, ainsi que d’autres informations. L’état et la priorité permettent de déterminer la probabilité d’une collision. Pour deux activités susceptibles d’entrer en conflit :
+
+* Si une activité n’est pas active actuellement, une collision ne peut pas se produire. Une collision n’est possible que si l’activité inactive devient active.
+* Si la collision potentielle se produit entre deux activités actives ayant la même priorité et la même audience, une collision se produit. La priorité ou le statut peut être modifié pour éviter la collision.
+* Si les audiences sont différentes, il existe toujours un risque de collision, car un visiteur particulier peut appartenir à plusieurs audiences.

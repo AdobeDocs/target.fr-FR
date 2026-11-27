@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: ed58f4a1-16eb-4c8c-b505-be9da766a9ec
     internal-label: Recommendations
-source-git-commit: 891bf9f764be54ae97b073f3f10c9132b1b52cce
+source-git-commit: 1ca30ccbd1acc115980ffe3780ba6c0dbb343806
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 62%
@@ -35,7 +35,7 @@ Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément 
 
 **Pour sélectionner des critères :**
 
-1. Lors de la création d’une [recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F), dans la boîte de dialogue **[!UICONTROL Sélectionner les critères]**, recherchez et sélectionnez un ou plusieurs critères.
+1. Lors de la création d’une [recommandation](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#create-recs-activity), dans la boîte de dialogue **[!UICONTROL Sélectionner les critères]**, recherchez et sélectionnez un ou plusieurs critères.
 
    Vous pouvez utiliser le filtre [!UICONTROL Type de secteur], le filtre [!UICONTROL Type de page] et la case à cocher [!UICONTROL Compatible] pour filtrer la liste des critères. Ces options vous aident à localiser les critères souhaités.
 
